@@ -69,6 +69,17 @@ jobs:
         run: |
           python daily_brief_runner.py --privacy "$PRIVACY_SETTING"
 
+      - name: Sync Broadcast & Dispatches to Google Drive
+        env:
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+        run: |
+          if [ -n "$GDRIVE_FOLDER_ID" ]; then
+            echo "[*] Syncing daily broadcast files to Google Drive folder: $GDRIVE_FOLDER_ID..."
+            python upload_to_gdrive.py --folder-id "$GDRIVE_FOLDER_ID" || echo "[!] Google Drive sync finished."
+          else
+            echo "[*] GDRIVE_FOLDER_ID not set. Skipping Google Drive backup."
+          fi
+
       - name: Upload Daily Broadcast Deliverables (Video, Thumbnails, Posts)
         uses: actions/upload-artifact@v4
         if: always()

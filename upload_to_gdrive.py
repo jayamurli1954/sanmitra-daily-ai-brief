@@ -27,14 +27,20 @@ def get_drive_service():
     # 1. Try Service Account key if configured
     sa_file = "gdrive_service_account.json"
     if os.path.exists(sa_file):
-        creds = service_account.Credentials.from_service_account_file(sa_file, scopes=SCOPES)
-        return build('drive', 'v3', credentials=creds)
+        try:
+            creds = service_account.Credentials.from_service_account_file(sa_file, scopes=SCOPES)
+            return build('drive', 'v3', credentials=creds)
+        except Exception as e:
+            print(f"[!] Service account error: {e}")
 
-    # 2. Try User OAuth Token (same token or gdrive_token.json)
-    token_file = "gdrive_token.json" if os.path.exists("gdrive_token.json") else "token.json"
-    if os.path.exists(token_file):
-        creds = Credentials.from_authorized_user_file(token_file, SCOPES)
-        return build('drive', 'v3', credentials=creds)
+    # 2. Try User OAuth Token (gdrive_token.json or token.json)
+    for token_file in ["gdrive_token.json", "token.json"]:
+        if os.path.exists(token_file):
+            try:
+                creds = Credentials.from_authorized_user_file(token_file)
+                return build('drive', 'v3', credentials=creds)
+            except Exception as e:
+                print(f"[!] Warning reading {token_file}: {e}")
 
     return None
 
