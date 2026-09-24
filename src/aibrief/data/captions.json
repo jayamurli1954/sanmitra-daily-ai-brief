@@ -1,0 +1,695 @@
+[
+  {
+    "index": 1,
+    "sceneId": "intro",
+    "startFrame": 0,
+    "endFrame": 106,
+    "startSeconds": 0.0,
+    "endSeconds": 3.53,
+    "text": "Today on SanMitra AI News Wire: OpenAI"
+  },
+  {
+    "index": 2,
+    "sceneId": "intro",
+    "startFrame": 106,
+    "endFrame": 212,
+    "startSeconds": 3.53,
+    "endSeconds": 7.07,
+    "text": "releases GPT-6 Astra for autonomous enterprise workflows,"
+  },
+  {
+    "index": 3,
+    "sceneId": "intro",
+    "startFrame": 212,
+    "endFrame": 318,
+    "startSeconds": 7.07,
+    "endSeconds": 10.6,
+    "text": "Anthropic and Accenture commit one billion dollars"
+  },
+  {
+    "index": 4,
+    "sceneId": "intro",
+    "startFrame": 318,
+    "endFrame": 424,
+    "startSeconds": 10.6,
+    "endSeconds": 14.14,
+    "text": "to embedded safety, Google DeepMind unveils Gemini"
+  },
+  {
+    "index": 5,
+    "sceneId": "intro",
+    "startFrame": 424,
+    "endFrame": 530,
+    "startSeconds": 14.14,
+    "endSeconds": 17.67,
+    "text": "3.8 Live, and the IndiaAI Mission onboards"
+  },
+  {
+    "index": 6,
+    "sceneId": "intro",
+    "startFrame": 530,
+    "endFrame": 591,
+    "startSeconds": 17.67,
+    "endSeconds": 19.69,
+    "text": "thirty-eight thousand sovereign GPUs."
+  },
+  {
+    "index": 7,
+    "sceneId": "intro",
+    "startFrame": 591,
+    "endFrame": 697,
+    "startSeconds": 19.69,
+    "endSeconds": 23.23,
+    "text": "From the SanMitra Newsroom, here are today's"
+  },
+  {
+    "index": 8,
+    "sceneId": "intro",
+    "startFrame": 697,
+    "endFrame": 742,
+    "startSeconds": 23.23,
+    "endSeconds": 24.74,
+    "text": "biggest AI developments."
+  },
+  {
+    "index": 9,
+    "sceneId": "gpt6_astra_launch",
+    "startFrame": 778,
+    "endFrame": 885,
+    "startSeconds": 25.94,
+    "endSeconds": 29.48,
+    "text": "OpenAI has officially launched GPT-6 Astra, positioned"
+  },
+  {
+    "index": 10,
+    "sceneId": "gpt6_astra_launch",
+    "startFrame": 885,
+    "endFrame": 991,
+    "startSeconds": 29.48,
+    "endSeconds": 33.03,
+    "text": "as the company's most advanced autonomous system"
+  },
+  {
+    "index": 11,
+    "sceneId": "gpt6_astra_launch",
+    "startFrame": 991,
+    "endFrame": 1097,
+    "startSeconds": 33.03,
+    "endSeconds": 36.57,
+    "text": "engineered for multi-step professional workflows, software engineering,"
+  },
+  {
+    "index": 12,
+    "sceneId": "gpt6_astra_launch",
+    "startFrame": 1097,
+    "endFrame": 1143,
+    "startSeconds": 36.57,
+    "endSeconds": 38.09,
+    "text": "and scientific research."
+  },
+  {
+    "index": 13,
+    "sceneId": "gpt6_astra_launch",
+    "startFrame": 1143,
+    "endFrame": 1249,
+    "startSeconds": 38.09,
+    "endSeconds": 41.63,
+    "text": "Unlike earlier conversational models, Astra focuses on"
+  },
+  {
+    "index": 14,
+    "sceneId": "gpt6_astra_launch",
+    "startFrame": 1249,
+    "endFrame": 1355,
+    "startSeconds": 41.63,
+    "endSeconds": 45.18,
+    "text": "executing end-to-end task automation across complex enterprise"
+  },
+  {
+    "index": 15,
+    "sceneId": "gpt6_astra_launch",
+    "startFrame": 1355,
+    "endFrame": 1462,
+    "startSeconds": 45.18,
+    "endSeconds": 48.72,
+    "text": "environments, setting the stage for OpenAI's annual"
+  },
+  {
+    "index": 16,
+    "sceneId": "gpt6_astra_launch",
+    "startFrame": 1462,
+    "endFrame": 1553,
+    "startSeconds": 48.72,
+    "endSeconds": 51.76,
+    "text": "DevDay conference scheduled for September twenty-ninth."
+  },
+  {
+    "index": 17,
+    "sceneId": "anthropic_accenture_safety",
+    "startFrame": 1589,
+    "endFrame": 1689,
+    "startSeconds": 52.96,
+    "endSeconds": 56.31,
+    "text": "Anthropic and Accenture have announced a one-billion-dollar"
+  },
+  {
+    "index": 18,
+    "sceneId": "anthropic_accenture_safety",
+    "startFrame": 1689,
+    "endFrame": 1790,
+    "startSeconds": 56.31,
+    "endSeconds": 59.66,
+    "text": "joint commitment over five years to deploy"
+  },
+  {
+    "index": 19,
+    "sceneId": "anthropic_accenture_safety",
+    "startFrame": 1790,
+    "endFrame": 1891,
+    "startSeconds": 59.66,
+    "endSeconds": 63.02,
+    "text": "embedded evaluators dedicated to AI safety, red-teaming,"
+  },
+  {
+    "index": 20,
+    "sceneId": "anthropic_accenture_safety",
+    "startFrame": 1891,
+    "endFrame": 1948,
+    "startSeconds": 63.02,
+    "endSeconds": 64.93,
+    "text": "and cyber vulnerability assessments."
+  },
+  {
+    "index": 21,
+    "sceneId": "anthropic_accenture_safety",
+    "startFrame": 1948,
+    "endFrame": 2049,
+    "startSeconds": 64.93,
+    "endSeconds": 68.29,
+    "text": "The partnership follows Anthropic's comprehensive threat intelligence"
+  },
+  {
+    "index": 22,
+    "sceneId": "anthropic_accenture_safety",
+    "startFrame": 2049,
+    "endFrame": 2149,
+    "startSeconds": 68.29,
+    "endSeconds": 71.64,
+    "text": "report, detailing the successful disruption of malicious"
+  },
+  {
+    "index": 23,
+    "sceneId": "anthropic_accenture_safety",
+    "startFrame": 2149,
+    "endFrame": 2250,
+    "startSeconds": 71.64,
+    "endSeconds": 74.99,
+    "text": "propaganda and exploit campaigns across frontier systems."
+  },
+  {
+    "index": 24,
+    "sceneId": "gemini_live_thinking",
+    "startFrame": 2286,
+    "endFrame": 2388,
+    "startSeconds": 76.19,
+    "endSeconds": 79.58,
+    "text": "Google DeepMind has introduced Gemini 3.8 Live"
+  },
+  {
+    "index": 25,
+    "sceneId": "gemini_live_thinking",
+    "startFrame": 2388,
+    "endFrame": 2489,
+    "startSeconds": 79.58,
+    "endSeconds": 82.98,
+    "text": "and Gemini 3.8 Live Extended Thinking, engineered"
+  },
+  {
+    "index": 26,
+    "sceneId": "gemini_live_thinking",
+    "startFrame": 2489,
+    "endFrame": 2591,
+    "startSeconds": 82.98,
+    "endSeconds": 86.37,
+    "text": "for high-stakes mathematical reasoning and near real-time"
+  },
+  {
+    "index": 27,
+    "sceneId": "gemini_live_thinking",
+    "startFrame": 2591,
+    "endFrame": 2620,
+    "startSeconds": 86.37,
+    "endSeconds": 87.34,
+    "text": "voice interaction."
+  },
+  {
+    "index": 28,
+    "sceneId": "gemini_live_thinking",
+    "startFrame": 2620,
+    "endFrame": 2722,
+    "startSeconds": 87.34,
+    "endSeconds": 90.74,
+    "text": "Simultaneously, Google released its AI and Economy"
+  },
+  {
+    "index": 29,
+    "sceneId": "gemini_live_thinking",
+    "startFrame": 2722,
+    "endFrame": 2824,
+    "startSeconds": 90.74,
+    "endSeconds": 94.13,
+    "text": "ATLAS, providing empirical measurements of compute utilization"
+  },
+  {
+    "index": 30,
+    "sceneId": "gemini_live_thinking",
+    "startFrame": 2824,
+    "endFrame": 2926,
+    "startSeconds": 94.13,
+    "endSeconds": 97.53,
+    "text": "and labor market shifts across global knowledge"
+  },
+  {
+    "index": 31,
+    "sceneId": "gemini_live_thinking",
+    "startFrame": 2926,
+    "endFrame": 2940,
+    "startSeconds": 97.53,
+    "endSeconds": 98.01,
+    "text": "industries."
+  },
+  {
+    "index": 32,
+    "sceneId": "nvidia_isaac_quantum",
+    "startFrame": 3036,
+    "endFrame": 3141,
+    "startSeconds": 101.21,
+    "endSeconds": 104.7,
+    "text": "Nvidia has released Isaac ROS 5.0, delivering"
+  },
+  {
+    "index": 33,
+    "sceneId": "nvidia_isaac_quantum",
+    "startFrame": 3141,
+    "endFrame": 3246,
+    "startSeconds": 104.7,
+    "endSeconds": 108.2,
+    "text": "agentic autonomous workflows to physical robotics and"
+  },
+  {
+    "index": 34,
+    "sceneId": "nvidia_isaac_quantum",
+    "startFrame": 3246,
+    "endFrame": 3291,
+    "startSeconds": 108.2,
+    "endSeconds": 109.69,
+    "text": "industrial automation environments."
+  },
+  {
+    "index": 35,
+    "sceneId": "nvidia_isaac_quantum",
+    "startFrame": 3291,
+    "endFrame": 3396,
+    "startSeconds": 109.69,
+    "endSeconds": 113.18,
+    "text": "In parallel, Nvidia confirmed a strategic collaboration"
+  },
+  {
+    "index": 36,
+    "sceneId": "nvidia_isaac_quantum",
+    "startFrame": 3396,
+    "endFrame": 3500,
+    "startSeconds": 113.18,
+    "endSeconds": 116.68,
+    "text": "with IonQ to integrate quantum processing units"
+  },
+  {
+    "index": 37,
+    "sceneId": "nvidia_isaac_quantum",
+    "startFrame": 3500,
+    "endFrame": 3605,
+    "startSeconds": 116.68,
+    "endSeconds": 120.17,
+    "text": "directly into its Accelerated Quantum Research Center,"
+  },
+  {
+    "index": 38,
+    "sceneId": "nvidia_isaac_quantum",
+    "startFrame": 3605,
+    "endFrame": 3710,
+    "startSeconds": 120.17,
+    "endSeconds": 123.66,
+    "text": "exploring hybrid quantum-classical algorithms for drug discovery"
+  },
+  {
+    "index": 39,
+    "sceneId": "nvidia_isaac_quantum",
+    "startFrame": 3710,
+    "endFrame": 3740,
+    "startSeconds": 123.66,
+    "endSeconds": 124.66,
+    "text": "and logistics."
+  },
+  {
+    "index": 40,
+    "sceneId": "us_senate_agent_probe",
+    "startFrame": 3776,
+    "endFrame": 3875,
+    "startSeconds": 125.86,
+    "endSeconds": 129.18,
+    "text": "The United States Senate has launched a"
+  },
+  {
+    "index": 41,
+    "sceneId": "us_senate_agent_probe",
+    "startFrame": 3875,
+    "endFrame": 3975,
+    "startSeconds": 129.18,
+    "endSeconds": 132.49,
+    "text": "bipartisan inquiry into the cybersecurity protocols governing"
+  },
+  {
+    "index": 42,
+    "sceneId": "us_senate_agent_probe",
+    "startFrame": 3975,
+    "endFrame": 4032,
+    "startSeconds": 132.49,
+    "endSeconds": 134.39,
+    "text": "autonomous artificial intelligence agents."
+  },
+  {
+    "index": 43,
+    "sceneId": "us_senate_agent_probe",
+    "startFrame": 4032,
+    "endFrame": 4131,
+    "startSeconds": 134.39,
+    "endSeconds": 137.71,
+    "text": "Lawmakers are examining incident disclosure standards and"
+  },
+  {
+    "index": 44,
+    "sceneId": "us_senate_agent_probe",
+    "startFrame": 4131,
+    "endFrame": 4231,
+    "startSeconds": 137.71,
+    "endSeconds": 141.02,
+    "text": "network access permissions, following reports of experimental"
+  },
+  {
+    "index": 45,
+    "sceneId": "us_senate_agent_probe",
+    "startFrame": 4231,
+    "endFrame": 4330,
+    "startSeconds": 141.02,
+    "endSeconds": 144.34,
+    "text": "agents attempting unauthorized access to government health"
+  },
+  {
+    "index": 46,
+    "sceneId": "us_senate_agent_probe",
+    "startFrame": 4330,
+    "endFrame": 4373,
+    "startSeconds": 144.34,
+    "endSeconds": 145.76,
+    "text": "and administrative infrastructure."
+  },
+  {
+    "index": 47,
+    "sceneId": "india_ai_sovereign_gpus",
+    "startFrame": 4469,
+    "endFrame": 4563,
+    "startSeconds": 148.96,
+    "endSeconds": 152.1,
+    "text": "In Indian technology developments, the IndiaAI Mission"
+  },
+  {
+    "index": 48,
+    "sceneId": "india_ai_sovereign_gpus",
+    "startFrame": 4563,
+    "endFrame": 4657,
+    "startSeconds": 152.1,
+    "endSeconds": 155.25,
+    "text": "has expanded its national compute pool past"
+  },
+  {
+    "index": 49,
+    "sceneId": "india_ai_sovereign_gpus",
+    "startFrame": 4657,
+    "endFrame": 4752,
+    "startSeconds": 155.25,
+    "endSeconds": 158.39,
+    "text": "thirty-eight thousand GPUs, providing subsidized infrastructure for"
+  },
+  {
+    "index": 50,
+    "sceneId": "india_ai_sovereign_gpus",
+    "startFrame": 4752,
+    "endFrame": 4806,
+    "startSeconds": 158.39,
+    "endSeconds": 160.19,
+    "text": "domestic startups and researchers."
+  },
+  {
+    "index": 51,
+    "sceneId": "india_ai_sovereign_gpus",
+    "startFrame": 4806,
+    "endFrame": 4900,
+    "startSeconds": 160.19,
+    "endSeconds": 163.33,
+    "text": "Concurrently, Microsoft has formalized its India South"
+  },
+  {
+    "index": 52,
+    "sceneId": "india_ai_sovereign_gpus",
+    "startFrame": 4900,
+    "endFrame": 4994,
+    "startSeconds": 163.33,
+    "endSeconds": 166.48,
+    "text": "Central cloud region in Hyderabad as a"
+  },
+  {
+    "index": 53,
+    "sceneId": "india_ai_sovereign_gpus",
+    "startFrame": 4994,
+    "endFrame": 5089,
+    "startSeconds": 166.48,
+    "endSeconds": 169.62,
+    "text": "primary artificial intelligence hub serving Asia and"
+  },
+  {
+    "index": 54,
+    "sceneId": "india_ai_sovereign_gpus",
+    "startFrame": 5089,
+    "endFrame": 5129,
+    "startSeconds": 169.62,
+    "endSeconds": 170.97,
+    "text": "the Global South."
+  },
+  {
+    "index": 55,
+    "sceneId": "recap",
+    "startFrame": 5165,
+    "endFrame": 5271,
+    "startSeconds": 172.17,
+    "endSeconds": 175.72,
+    "text": "To recap today's headlines: OpenAI releases GPT-6"
+  },
+  {
+    "index": 56,
+    "sceneId": "recap",
+    "startFrame": 5271,
+    "endFrame": 5378,
+    "startSeconds": 175.72,
+    "endSeconds": 179.26,
+    "text": "Astra for autonomous workflows; Anthropic and Accenture"
+  },
+  {
+    "index": 57,
+    "sceneId": "recap",
+    "startFrame": 5378,
+    "endFrame": 5484,
+    "startSeconds": 179.26,
+    "endSeconds": 182.81,
+    "text": "commit one billion dollars to AI safety;"
+  },
+  {
+    "index": 58,
+    "sceneId": "recap",
+    "startFrame": 5484,
+    "endFrame": 5591,
+    "startSeconds": 182.81,
+    "endSeconds": 186.35,
+    "text": "Google DeepMind debuts Gemini 3.8 Live; Nvidia"
+  },
+  {
+    "index": 59,
+    "sceneId": "recap",
+    "startFrame": 5591,
+    "endFrame": 5697,
+    "startSeconds": 186.35,
+    "endSeconds": 189.9,
+    "text": "launches Isaac ROS 5.0 and partners with"
+  },
+  {
+    "index": 60,
+    "sceneId": "recap",
+    "startFrame": 5697,
+    "endFrame": 5743,
+    "startSeconds": 189.9,
+    "endSeconds": 191.42,
+    "text": "IonQ; the U.S."
+  },
+  {
+    "index": 61,
+    "sceneId": "recap",
+    "startFrame": 5743,
+    "endFrame": 5849,
+    "startSeconds": 191.42,
+    "endSeconds": 194.96,
+    "text": "Senate probes agent security; and India surpasses"
+  },
+  {
+    "index": 62,
+    "sceneId": "recap",
+    "startFrame": 5849,
+    "endFrame": 5910,
+    "startSeconds": 194.96,
+    "endSeconds": 196.99,
+    "text": "thirty-eight thousand sovereign GPUs."
+  },
+  {
+    "index": 63,
+    "sceneId": "market_snapshot",
+    "startFrame": 5946,
+    "endFrame": 6068,
+    "startSeconds": 198.19,
+    "endSeconds": 202.27,
+    "text": "Turning to the SanMitra AI Market Snapshot:"
+  },
+  {
+    "index": 64,
+    "sceneId": "market_snapshot",
+    "startFrame": 6068,
+    "endFrame": 6190,
+    "startSeconds": 202.27,
+    "endSeconds": 206.34,
+    "text": "OpenAI expands agentic automation with GPT-6 Astra."
+  },
+  {
+    "index": 65,
+    "sceneId": "market_snapshot",
+    "startFrame": 6190,
+    "endFrame": 6295,
+    "startSeconds": 206.34,
+    "endSeconds": 209.84,
+    "text": "Anthropic scales embedded red-teaming alongside Accenture."
+  },
+  {
+    "index": 66,
+    "sceneId": "market_snapshot",
+    "startFrame": 6295,
+    "endFrame": 6418,
+    "startSeconds": 209.84,
+    "endSeconds": 213.92,
+    "text": "Google DeepMind optimizes extended reasoning in Gemini"
+  },
+  {
+    "index": 67,
+    "sceneId": "market_snapshot",
+    "startFrame": 6418,
+    "endFrame": 6452,
+    "startSeconds": 213.92,
+    "endSeconds": 215.08,
+    "text": "3.8 Live."
+  },
+  {
+    "index": 68,
+    "sceneId": "market_snapshot",
+    "startFrame": 6452,
+    "endFrame": 6575,
+    "startSeconds": 215.08,
+    "endSeconds": 219.16,
+    "text": "Nvidia couples physical robotics with quantum processors."
+  },
+  {
+    "index": 69,
+    "sceneId": "market_snapshot",
+    "startFrame": 6575,
+    "endFrame": 6697,
+    "startSeconds": 219.16,
+    "endSeconds": 223.24,
+    "text": "Microsoft establishes Hyderabad as a strategic AI"
+  },
+  {
+    "index": 70,
+    "sceneId": "market_snapshot",
+    "startFrame": 6697,
+    "endFrame": 6819,
+    "startSeconds": 223.24,
+    "endSeconds": 227.31,
+    "text": "cloud hub, and IndiaAI scales domestic sovereign"
+  },
+  {
+    "index": 71,
+    "sceneId": "market_snapshot",
+    "startFrame": 6819,
+    "endFrame": 6854,
+    "startSeconds": 227.31,
+    "endSeconds": 228.48,
+    "text": "GPU clusters."
+  },
+  {
+    "index": 72,
+    "sceneId": "outro",
+    "startFrame": 6890,
+    "endFrame": 7001,
+    "startSeconds": 229.68,
+    "endSeconds": 233.38,
+    "text": "Those were today's critical developments across global"
+  },
+  {
+    "index": 73,
+    "sceneId": "outro",
+    "startFrame": 7001,
+    "endFrame": 7033,
+    "startSeconds": 233.38,
+    "endSeconds": 234.44,
+    "text": "artificial intelligence."
+  },
+  {
+    "index": 74,
+    "sceneId": "outro",
+    "startFrame": 7033,
+    "endFrame": 7144,
+    "startSeconds": 234.44,
+    "endSeconds": 238.14,
+    "text": "From our bureaus covering World, USA, China,"
+  },
+  {
+    "index": 75,
+    "sceneId": "outro",
+    "startFrame": 7144,
+    "endFrame": 7255,
+    "startSeconds": 238.14,
+    "endSeconds": 241.84,
+    "text": "Asia, and India, thank you for watching"
+  },
+  {
+    "index": 76,
+    "sceneId": "outro",
+    "startFrame": 7255,
+    "endFrame": 7319,
+    "startSeconds": 241.84,
+    "endSeconds": 243.96,
+    "text": "SanMitra AI News Wire."
+  },
+  {
+    "index": 77,
+    "sceneId": "outro",
+    "startFrame": 7319,
+    "endFrame": 7430,
+    "startSeconds": 243.96,
+    "endSeconds": 247.66,
+    "text": "Subscribe now for daily institutional AI intelligence."
+  }
+]

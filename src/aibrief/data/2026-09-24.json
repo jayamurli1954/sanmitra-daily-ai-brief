@@ -1,0 +1,438 @@
+{
+  "date": "2026-09-24",
+  "formattedDate": "24 September 2026",
+  "title": "SanMitra AI News Wire – 24 September 2026 | Global AI Intelligence",
+  "intro": {
+    "durationSeconds": 14,
+    "headline": "TODAY'S BIGGEST DEVELOPMENTS",
+    "subheadline": "GLOBAL INTELLIGENCE DESK",
+    "script": "Today on SanMitra AI News Wire: Major developments move through the United Nations, United States, China, Asia, and India across artificial intelligence and physical robotics. From the SanMitra Newsroom, here are today's biggest AI developments."
+  },
+  "transitions": [
+    {
+      "id": "trans_usa",
+      "region": "USA",
+      "title": "NEXT: UNITED STATES & FRONTIER LABS",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "trans_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & SEMICONDUCTOR CORRIDORS",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "trans_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIAAI MISSION & SOVEREIGN COMPUTE",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "marketSnapshot": {
+    "durationSeconds": 15,
+    "headline": "GLOBAL AI MARKET SNAPSHOT",
+    "subheadline": "SANMITRA DESK • STRATEGIC TELEMETRY",
+    "script": "Turning to the SanMitra AI Market Snapshot: Frontier labs expand autonomous agent tooling, physical robotics acceleration gains momentum across industrial manufacturing, and sovereign compute deployments scale across Asia and India.",
+    "entities": [
+      {
+        "name": "OpenAI",
+        "update": "Autonomous Agent Workflows",
+        "tag": "AGENTIC RUNTIME",
+        "color": "#10a37f"
+      },
+      {
+        "name": "Anthropic",
+        "update": "Enterprise Safety Protocols",
+        "tag": "RED-TEAMING",
+        "color": "#d97706"
+      },
+      {
+        "name": "Nvidia",
+        "update": "Physical AI & Quantum QPU",
+        "tag": "PHYSICAL AI",
+        "color": "#76b900"
+      },
+      {
+        "name": "Google",
+        "update": "Multimodal Extended Thinking",
+        "tag": "REASONING FABRIC",
+        "color": "#4285f4"
+      },
+      {
+        "name": "DeepSeek",
+        "update": "Open Architecture Scaling",
+        "tag": "SOVEREIGN MODELS",
+        "color": "#38bdf8"
+      },
+      {
+        "name": "IndiaAI",
+        "update": "38,000 GPU National Utility",
+        "tag": "NATIONAL COMPUTE",
+        "color": "#f97316"
+      },
+      {
+        "name": "Alibaba",
+        "update": "Zhenwu Silicon Architecture",
+        "tag": "CLOUD ACCELERATION",
+        "color": "#ef4444"
+      }
+    ]
+  },
+  "recap": {
+    "durationSeconds": 10,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's headlines: Major policy and model breakthroughs have advanced across the United Nations, the United States, China, the Asian semiconductor corridor, and the IndiaAI mission.",
+    "items": [
+      "✓ WORLD: Security Council Meets on Artificial Intelligence ...",
+      "✓ USA: Measurements for understanding the pace of AI deve...",
+      "✓ CHINA: China's AI chip blitz arms Xi with a message for T...",
+      "✓ ASIA: America’s AI push in Southeast Asia faces a China ...",
+      "✓ INDIA: India needs 'Mutually Assured Disruption' to tackl...",
+      "✓ GLOBAL: IFR Counts 7,000 Humanoid Robot Sales as Workplace..."
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "Subscribe for daily AI intelligence updates.",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence and robotics. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire",
+    "Autonomous Enterprise Agents",
+    "Physical AI & Robotics",
+    "Sovereign GPU Infrastructure",
+    "UN Multilateral AI Governance",
+    "WORLD: Security Council Meets on Artificial Intelligence and International Security",
+    "USA: Measurements for understanding the pace of AI development inside frontier labs",
+    "CHINA: China's AI chip blitz arms Xi with a message for Trump: 'You can't choke us off'",
+    "ASIA: America’s AI push in Southeast Asia faces a China problem",
+    "INDIA: India needs 'Mutually Assured Disruption' to tackle tech denial, says MeitY Secy - CNBC TV18",
+    "GLOBAL: IFR Counts 7,000 Humanoid Robot Sales as Workplace Pilots Stay Small"
+  ],
+  "stories": [
+    {
+      "id": "world_security_council_meets_on_ar",
+      "region": "WORLD",
+      "category": "Global Policy & Multilateral Governance",
+      "categoryTag": "WORLD • GLOBAL POLICY & MULTILATERAL GOVERNANCE",
+      "historicalContext": "Over the past twenty-four hours, institutional developments in WORLD have accelerated strategic shifts across artificial intelligence governance and compute scaling.",
+      "whyThisMatters": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps.",
+      "headline": "Security Council Meets on Artificial Intelligence and International Security",
+      "subheadline": "Verified Report // Source: ",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "",
+      "sourceUrl": "",
+      "script": "In WORLD, Security Council Meets on Artificial Intelligence and International Security. Reporting from  highlights that this deployment sets a critical benchmark for enterprise infrastructure and institutional policy moving forward.",
+      "keyPoints": [
+        "Verified multi-source reporting by ",
+        "Strategic operational impact on WORLD ecosystem",
+        "Mandatory enterprise compliance and infrastructure telemetry"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/gov_un_chamber.jpg",
+          "badge": "UNITED NATIONS SECURITY COUNCIL • HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/global_policy.jpg",
+          "badge": "MULTILATERAL AI DIPLOMACY & GOVERNANCE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "CYBER OPERATIONS DESK • REAL-TIME THREAT LOGS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "AGENTIC SYSTEM PERMISSIONS & AUDITING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "badge": "HYPERSCALE COMPUTE CORRIDOR • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_code_screen.jpg",
+          "badge": "AUTONOMOUS SYSTEM TELEMETRY & WORKFLOW ENGINE",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "usa_measurements_for_understandi",
+      "region": "USA",
+      "category": "Frontier Models & Autonomous Agents",
+      "categoryTag": "USA • FRONTIER MODELS & AUTONOMOUS AGENTS",
+      "historicalContext": "Over the past twenty-four hours, institutional developments in USA have accelerated strategic shifts across artificial intelligence governance and compute scaling.",
+      "whyThisMatters": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps.",
+      "headline": "Measurements for understanding the pace of AI development inside frontier labs",
+      "subheadline": "Verified Report // Source: ",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "",
+      "sourceUrl": "",
+      "script": "In USA, Measurements for understanding the pace of AI development inside frontier labs. Reporting from  highlights that this deployment sets a critical benchmark for enterprise infrastructure and institutional policy moving forward.",
+      "keyPoints": [
+        "Verified multi-source reporting by ",
+        "Strategic operational impact on USA ecosystem",
+        "Mandatory enterprise compliance and infrastructure telemetry"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "CYBER OPERATIONS DESK • REAL-TIME THREAT LOGS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "AGENTIC SYSTEM PERMISSIONS & AUDITING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "badge": "HYPERSCALE COMPUTE CORRIDOR • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_code_screen.jpg",
+          "badge": "AUTONOMOUS SYSTEM TELEMETRY & WORKFLOW ENGINE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_neural_globe.jpg",
+          "badge": "GLOBAL ARTIFICIAL INTELLIGENCE NETWORK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_data_telemetry.jpg",
+          "badge": "INSTITUTIONAL PERFORMANCE BENCHMARKS • 2026",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "china_china_s_ai_chip_blitz_arms_x",
+      "region": "CHINA",
+      "category": "Sovereign Silicon & Foundation Models",
+      "categoryTag": "CHINA • SOVEREIGN SILICON & FOUNDATION MODELS",
+      "historicalContext": "Over the past twenty-four hours, institutional developments in CHINA have accelerated strategic shifts across artificial intelligence governance and compute scaling.",
+      "whyThisMatters": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps.",
+      "headline": "China's AI chip blitz arms Xi with a message for Trump: 'You can't choke us off'",
+      "subheadline": "Verified Report // Source: ",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "",
+      "sourceUrl": "",
+      "script": "In CHINA, China's AI chip blitz arms Xi with a message for Trump: 'You can't choke us off'. Reporting from  highlights that this deployment sets a critical benchmark for enterprise infrastructure and institutional policy moving forward.",
+      "keyPoints": [
+        "Verified multi-source reporting by ",
+        "Strategic operational impact on CHINA ecosystem",
+        "Mandatory enterprise compliance and infrastructure telemetry"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story4_nvidia_robotics.jpg",
+          "badge": "PHYSICAL AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_robotics_factory.jpg",
+          "badge": "AUTONOMOUS FACTORY TELEMETRY • LIVE SENSING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/story4_autonomous_robot.jpg",
+          "badge": "EMBODIED PERCEPTION & CONTROL PIPELINE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_silicon_wafer.jpg",
+          "badge": "NEURAL ACCELERATOR FABRICATION • ADVANCED LITHOGRAPHY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "TENSOR ARCHITECTURE • HARDWARE TELEMETRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "CYBER OPERATIONS DESK • REAL-TIME THREAT LOGS",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "asia_america_s_ai_push_in_southea",
+      "region": "ASIA",
+      "category": "Semiconductors & Robotics Infrastructure",
+      "categoryTag": "ASIA • SEMICONDUCTORS & ROBOTICS INFRASTRUCTURE",
+      "historicalContext": "Over the past twenty-four hours, institutional developments in ASIA have accelerated strategic shifts across artificial intelligence governance and compute scaling.",
+      "whyThisMatters": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps.",
+      "headline": "America’s AI push in Southeast Asia faces a China problem",
+      "subheadline": "Verified Report // Source: ",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "",
+      "sourceUrl": "",
+      "script": "In ASIA, America’s AI push in Southeast Asia faces a China problem. Reporting from  highlights that this deployment sets a critical benchmark for enterprise infrastructure and institutional policy moving forward.",
+      "keyPoints": [
+        "Verified multi-source reporting by ",
+        "Strategic operational impact on ASIA ecosystem",
+        "Mandatory enterprise compliance and infrastructure telemetry"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "CYBER OPERATIONS DESK • REAL-TIME THREAT LOGS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "AGENTIC SYSTEM PERMISSIONS & AUDITING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "badge": "HYPERSCALE COMPUTE CORRIDOR • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_code_screen.jpg",
+          "badge": "AUTONOMOUS SYSTEM TELEMETRY & WORKFLOW ENGINE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_neural_globe.jpg",
+          "badge": "GLOBAL ARTIFICIAL INTELLIGENCE NETWORK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_data_telemetry.jpg",
+          "badge": "INSTITUTIONAL PERFORMANCE BENCHMARKS • 2026",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "india_india_needs__mutually_assure",
+      "region": "INDIA",
+      "category": "Sovereign Compute & National AI Mission",
+      "categoryTag": "INDIA • SOVEREIGN COMPUTE & NATIONAL AI MISSION",
+      "historicalContext": "Over the past twenty-four hours, institutional developments in INDIA have accelerated strategic shifts across artificial intelligence governance and compute scaling.",
+      "whyThisMatters": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps.",
+      "headline": "India needs 'Mutually Assured Disruption' to tackle tech denial, says MeitY Secy - CNBC TV18",
+      "subheadline": "Verified Report // Source: ",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "",
+      "sourceUrl": "",
+      "script": "In INDIA, India needs 'Mutually Assured Disruption' to tackle tech denial, says MeitY Secy - CNBC TV18. Reporting from  highlights that this deployment sets a critical benchmark for enterprise infrastructure and institutional policy moving forward.",
+      "keyPoints": [
+        "Verified multi-source reporting by ",
+        "Strategic operational impact on INDIA ecosystem",
+        "Mandatory enterprise compliance and infrastructure telemetry"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/gov_india_delhi.jpg",
+          "badge": "MINISTRY OF ELECTRONICS & IT • NEW DELHI",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/story6_indian_engineers.jpg",
+          "badge": "INDIAAI SOVEREIGN GPU & RESEARCH UTILITY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "CYBER OPERATIONS DESK • REAL-TIME THREAT LOGS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "AGENTIC SYSTEM PERMISSIONS & AUDITING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "badge": "HYPERSCALE COMPUTE CORRIDOR • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_code_screen.jpg",
+          "badge": "AUTONOMOUS SYSTEM TELEMETRY & WORKFLOW ENGINE",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "global_ifr_counts_7_000_humanoid_ro",
+      "region": "GLOBAL",
+      "category": "Physical AI & Robotics Frontier",
+      "categoryTag": "GLOBAL • PHYSICAL AI & ROBOTICS FRONTIER",
+      "historicalContext": "Over the past twenty-four hours, institutional developments in GLOBAL have accelerated strategic shifts across artificial intelligence governance and compute scaling.",
+      "whyThisMatters": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps.",
+      "headline": "IFR Counts 7,000 Humanoid Robot Sales as Workplace Pilots Stay Small",
+      "subheadline": "Verified Report // Source: ",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "",
+      "sourceUrl": "",
+      "script": "In GLOBAL, IFR Counts 7,000 Humanoid Robot Sales as Workplace Pilots Stay Small. Reporting from  highlights that this deployment sets a critical benchmark for enterprise infrastructure and institutional policy moving forward.",
+      "keyPoints": [
+        "Verified multi-source reporting by ",
+        "Strategic operational impact on GLOBAL ecosystem",
+        "Mandatory enterprise compliance and infrastructure telemetry"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story4_nvidia_robotics.jpg",
+          "badge": "PHYSICAL AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_robotics_factory.jpg",
+          "badge": "AUTONOMOUS FACTORY TELEMETRY • LIVE SENSING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/story4_autonomous_robot.jpg",
+          "badge": "EMBODIED PERCEPTION & CONTROL PIPELINE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "CYBER OPERATIONS DESK • REAL-TIME THREAT LOGS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "AGENTIC SYSTEM PERMISSIONS & AUDITING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "badge": "HYPERSCALE COMPUTE CORRIDOR • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    }
+  ]
+}

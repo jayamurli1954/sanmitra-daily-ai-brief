@@ -1,0 +1,82 @@
+name: Daily SanMitra AI News Wire Production
+
+on:
+  schedule:
+    # 02:00 UTC corresponds to exactly 07:30 AM IST (Indian Standard Time, UTC+5:30)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      privacy:
+        description: 'YouTube Video Privacy'
+        required: true
+        default: 'private'
+        type: choice
+        options:
+          - private
+          - unlisted
+          - public
+
+jobs:
+  produce-and-publish:
+    name: 07:30 AM Autonomous Broadcast Pipeline
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install System Multimedia Libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-noto-color-emoji
+
+      - name: Install Node Dependencies
+        run: npm ci
+
+      - name: Install Python Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure Cloud Authentication Secrets
+        env:
+          TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+          CLIENT_SECRET_JSON: ${{ secrets.CLIENT_SECRET_JSON }}
+        run: |
+          if [ -n "$TOKEN_JSON" ]; then
+            echo "$TOKEN_JSON" > token.json
+            echo "[+] Restored token.json from GitHub Secrets"
+          fi
+          if [ -n "$CLIENT_SECRET_JSON" ]; then
+            echo "$CLIENT_SECRET_JSON" > client_secret.json
+            echo "[+] Restored client_secret.json from GitHub Secrets"
+          fi
+
+      - name: Run 24h Intelligence Scrape & Broadcast Production
+        env:
+          PRIVACY_SETTING: ${{ github.event.inputs.privacy || 'private' }}
+        run: |
+          python daily_brief_runner.py --privacy "$PRIVACY_SETTING"
+
+      - name: Upload Daily Broadcast Deliverables (Video, Thumbnails, Posts)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: aibrief-deliverables-${{ github.sha }}
+          path: |
+            out/aibrief/*.mp4
+            out/aibrief/*.png
+            out/aibrief/*.srt
+            out/aibrief/*.txt
+          retention-days: 7

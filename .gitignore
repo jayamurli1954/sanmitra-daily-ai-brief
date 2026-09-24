@@ -5,3 +5,12 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+.tempmediaStorage/
+__pycache__/
+*.pyc
+
+# Local OAuth and Service Account Secrets (Use GitHub Secrets for Cloud)
+token.json
+client_secret.json
+gdrive_service_account.json
+gdrive_token.json
