@@ -7,7 +7,8 @@ from mutagen.mp3 import MP3
 import edge_tts
 
 VOICE = "en-US-ChristopherNeural"
-RATE = "+3%"
+RATE = "+1%"
+VOLUME = "+25%"
 
 def get_audio_duration(file_path: str) -> float:
     try:
@@ -107,7 +108,7 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
         max_retries = 4
         for attempt in range(max_retries):
             try:
-                communicate = edge_tts.Communicate(text, VOICE, rate=RATE)
+                communicate = edge_tts.Communicate(text, VOICE, rate=RATE, volume=VOLUME)
                 await communicate.save(out_file)
                 break
             except Exception as e:
