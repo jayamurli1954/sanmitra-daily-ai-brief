@@ -1,26 +1,34 @@
-name: Daily SanMitra AI News Wire Production
+name: Cloud Prompt Video Production & YouTube Upload
 
 on:
-  # Scraping cron disabled per user instruction: all broadcasts are now driven directly by user-submitted prompts.
-  # schedule:
-  #   - cron: '50 1 * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - 'prompts/**'
+      - 'src/aibrief/data/active_episode.json'
   workflow_dispatch:
     inputs:
       privacy:
         description: 'YouTube Video Privacy'
         required: true
-        default: 'private'
+        default: 'public'
         type: choice
         options:
-          - private
-          - unlisted
           - public
+          - unlisted
+          - private
+      prompt_file:
+        description: 'Prompt Markdown File Path (leave empty if active_episode.json is already committed)'
+        required: false
+        default: ''
+        type: string
 
 jobs:
   produce-and-publish:
-    name: 07:30 AM Autonomous Broadcast Pipeline
+    name: Cloud Production (Headless Remotion + YouTube Upload)
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
 
     steps:
       - name: Checkout Codebase
@@ -38,10 +46,10 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: Install System Multimedia Libraries
+      - name: Install System Multimedia & Font Libraries
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg fonts-noto-color-emoji
+          sudo apt-get install -y ffmpeg fonts-noto-color-emoji fonts-dejavu-core
 
       - name: Install Node Dependencies
         run: npm ci
@@ -63,22 +71,20 @@ jobs:
             echo "[+] Restored client_secret.json from GitHub Secrets"
           fi
 
-      - name: Run 24h Intelligence Scrape & Broadcast Production
+      - name: Produce Video from Prompt & Upload Directly to YouTube
         env:
-          PRIVACY_SETTING: ${{ github.event.inputs.privacy || 'private' }}
-        run: |
-          python daily_brief_runner.py --privacy "$PRIVACY_SETTING"
-
-      - name: Sync Broadcast & Dispatches to Google Drive
-        env:
+          PRIVACY_SETTING: ${{ github.event.inputs.privacy || 'public' }}
+          PROMPT_FILE: ${{ github.event.inputs.prompt_file }}
           GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
         run: |
-          if [ -n "$GDRIVE_FOLDER_ID" ]; then
-            echo "[*] Syncing daily broadcast files to Google Drive folder: $GDRIVE_FOLDER_ID..."
-            python upload_to_gdrive.py --folder-id "$GDRIVE_FOLDER_ID" || echo "[!] Google Drive sync finished."
-          else
-            echo "[*] GDRIVE_FOLDER_ID not set. Skipping Google Drive backup."
+          PROMPT_ARG=""
+          if [ -n "$PROMPT_FILE" ] && [ -f "$PROMPT_FILE" ]; then
+            PROMPT_ARG="--prompt-file $PROMPT_FILE"
+          elif [ -f "prompts/daily_prompt.md" ]; then
+            PROMPT_ARG="--prompt-file prompts/daily_prompt.md"
           fi
+          
+          python produce_from_prompt.py $PROMPT_ARG --privacy "$PRIVACY_SETTING"
 
       - name: Upload Daily Broadcast Deliverables (Video, Thumbnails, Posts)
         uses: actions/upload-artifact@v4
@@ -90,4 +96,4 @@ jobs:
             out/aibrief/*.png
             out/aibrief/*.srt
             out/aibrief/*.txt
-          retention-days: 7
+          retention-days: 14
