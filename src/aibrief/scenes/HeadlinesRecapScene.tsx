@@ -23,7 +23,7 @@ const RECAP_ITEMS = [
   { text: "Maharashtra AI Governance Committee", source: "ET Education / IANS", tag: "DIGITAL GOVERNANCE" },
 ];
 
-export const HeadlinesRecapScene: React.FC<HeadlinesRecapSceneProps> = () => {
+export const HeadlinesRecapScene: React.FC<HeadlinesRecapSceneProps> = ({ stories }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -32,6 +32,15 @@ export const HeadlinesRecapScene: React.FC<HeadlinesRecapSceneProps> = () => {
     fps,
     config: { damping: 12, stiffness: 90 },
   });
+
+  const items =
+    stories && stories.length > 0
+      ? stories.map((s) => ({
+          text: s.headline,
+          source: s.source,
+          tag: s.categoryTag || s.category || s.region,
+        }))
+      : RECAP_ITEMS;
 
   return (
     <div
@@ -149,7 +158,7 @@ export const HeadlinesRecapScene: React.FC<HeadlinesRecapSceneProps> = () => {
             maxWidth: 1600,
           }}
         >
-          {RECAP_ITEMS.map((item, i) => {
+          {items.map((item, i) => {
             const delay = i * 3;
             const itemSpring = spring({
               frame: frame - delay,

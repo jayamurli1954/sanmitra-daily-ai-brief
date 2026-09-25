@@ -35,53 +35,27 @@ def generate_subtitles(data_path="src/aibrief/data/active_episode.json", timings
         timings = json.load(f)
 
     stories = data.get("stories", [])
-    
+    transitions = {t.get("region"): t for t in data.get("transitions", [])}
+
     # Ordered scenes matching master broadcast sequence:
-    # 1. intro
-    # 2. stories[0..2]
-    # 3. transition_safety (silent 2.0s)
-    # 4. stories[3..4]
-    # 5. transition_india (silent 2.0s)
-    # 6. stories[5]
-    # 7. recap
-    # 8. market_snapshot
-    # 9. outro
     scenes = []
     scenes.append(("intro", data.get("intro", {}).get("script", "")))
 
-    # Block 1: Stories 1, 2, 3
-    for s in stories[:3]:
-        scenes.append((s.get("id"), s.get("script", "")))
-
-    # Transition 1 (silent 2.0s)
-    scenes.append(("transition_safety", ""))
-
-    # Block 2: Stories 4, 5
-    for s in stories[3:5]:
-        scenes.append((s.get("id"), s.get("script", "")))
-
-    # Transition 2 (silent 2.0s)
-    scenes.append(("transition_india", ""))
-
-    # Block 3: Story 6
-    for s in stories[5:6]:
+    for i, s in enumerate(stories, 1):
+        region = s.get("region", "")
+        if i > 1 and region != stories[i - 2].get("region"):
+            if region in transitions:
+                trans = transitions[region]
+                scenes.append((trans.get("id"), ""))
         scenes.append((s.get("id"), s.get("script", "")))
 
     # Recap
     recap = data.get("recap", {})
-    recap_script = recap.get(
-        "script",
-        "To recap today's headlines: DeepSeek briefs the United Nations Security Council; OpenAI and Anthropic launch GPT-6 Sol, Luna, and Claude Opus 5.5; OpenEvidence expands clinical AI to one hundred nations; Tom Siegel champions youth safety standards; Alibaba reveals the Zhenwu V-900 chip; and Maharashtra formalizes public-sector AI governance."
-    )
-    scenes.append(("recap", recap_script))
+    scenes.append(("recap", recap.get("script", "")))
 
     # Market Snapshot
     market = data.get("marketSnapshot", {})
-    market_script = market.get(
-        "script",
-        "Turning to the SanMitra AI Market Snapshot: OpenAI and Anthropic intensify foundation model competition with lower-cost enterprise tiers. Google expands Gemini infrastructure, Meta refines agentic safety permissions, DeepSeek prepares for UN multilateral briefings, Alibaba scales sovereign Zhenwu silicon, and Microsoft deepens hyperscale datacenter investments."
-    )
-    scenes.append(("market_snapshot", market_script))
+    scenes.append(("market_snapshot", market.get("script", "")))
 
     # Outro
     scenes.append(("outro", data.get("outro", {}).get("script", "")))

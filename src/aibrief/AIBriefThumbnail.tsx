@@ -22,7 +22,8 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
     "Microsoft Expands in India",
   ],
 }) => {
-  const bulletColors = ["#ef4444", "#38bdf8", "#10b981"];
+  const bulletColors = ["#ef4444", "#38bdf8", "#10b981", "#f59e0b"];
+  const isFourItems = storyHighlights.length >= 4;
 
   return (
     <div
@@ -254,24 +255,24 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
       <div
         style={{
           position: "absolute",
-          bottom: 70,
+          bottom: isFourItems ? 45 : 70,
           left: 80,
           zIndex: 25,
           display: "flex",
           flexDirection: "column",
-          gap: 14,
+          gap: isFourItems ? 10 : 14,
         }}
       >
-        {storyHighlights.slice(0, 3).map((story: string, i: number) => (
+        {storyHighlights.slice(0, 4).map((story: string, i: number) => (
           <div
             key={i}
             style={{
               display: "inline-flex",
               alignItems: "center",
-              gap: 16,
+              gap: 14,
               backgroundColor: "rgba(10, 18, 35, 0.92)",
               border: `2px solid ${bulletColors[i] || "#38bdf8"}`,
-              padding: "12px 28px",
+              padding: isFourItems ? "8px 24px" : "12px 28px",
               borderRadius: 12,
               boxShadow: "0 8px 24px rgba(0, 0, 0, 0.8)",
               backdropFilter: "blur(12px)",
@@ -280,8 +281,8 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
             {/* Glowing bullet */}
             <div
               style={{
-                width: 14,
-                height: 14,
+                width: 12,
+                height: 12,
                 borderRadius: "50%",
                 backgroundColor: bulletColors[i] || "#38bdf8",
                 boxShadow: `0 0 14px ${bulletColors[i] || "#38bdf8"}`,
@@ -291,7 +292,7 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
             <span
               style={{
                 color: "#ffffff",
-                fontSize: 30,
+                fontSize: isFourItems ? 25 : 30,
                 fontWeight: 900,
                 letterSpacing: 0.5,
               }}

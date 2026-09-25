@@ -32,74 +32,106 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
     os.makedirs("out/aibrief", exist_ok=True)
 
     stories = data.get("stories", [])
+    transitions = {t.get("region"): t for t in data.get("transitions", [])}
 
-    # Segments list: (id, title, filename, text)
-    segments = []
+    # Build sequence of items
+    sequence = []
     
     # 1. Intro
     intro = data.get("intro", {})
-    segments.append((
-        "intro",
-        "Intro: Today's Biggest AI Developments",
-        "s0_intro.mp3",
-        intro.get("script", "Today on SanMitra AI News Wire: DeepSeek heads to the United Nations Security Council, OpenAI and Anthropic launch major new models, Alibaba unveils a powerful new AI chip, and India expands AI governance in higher education. From the SanMitra Newsroom, here are today's biggest AI developments.")
-    ))
+    sequence.append({
+        "id": "intro",
+        "title": "Intro: Today's Biggest AI Developments",
+        "filename": "s0_intro.mp3",
+        "text": intro.get("script", "Today on SanMitra AI News Wire: Here are today's biggest AI developments."),
+        "is_transition": False
+    })
 
-    # 2. Stories
+    # 2. Stories with regional transitions
     for i, story in enumerate(stories, 1):
         s_id = story.get("id", f"story_{i}")
         headline = story.get("headline", "")
         script = story.get("script", "")
-        segments.append((
-            s_id,
-            f"Story {i}: {headline}",
-            f"s{i}_{s_id}.mp3",
-            script
-        ))
+        region = story.get("region", "")
+
+        # Check transition if region changed
+        if i > 1 and region != stories[i - 2].get("region"):
+            if region in transitions:
+                trans = transitions[region]
+                sequence.append({
+                    "id": trans.get("id"),
+                    "title": f"Transition: {trans.get('title', trans.get('display', region))}",
+                    "filename": None,
+                    "text": "",
+                    "is_transition": True,
+                    "duration_seconds": float(trans.get("durationSeconds", 2.0))
+                })
+
+        sequence.append({
+            "id": s_id,
+            "title": f"Story {i}: {headline}",
+            "filename": f"s{i}_{s_id}.mp3",
+            "text": script,
+            "is_transition": False
+        })
 
     # 3. Headlines Recap
     recap = data.get("recap", {})
-    recap_script = recap.get(
-        "script",
-        "To recap today's headlines: DeepSeek briefs the United Nations Security Council; OpenAI and Anthropic launch GPT-6 Sol, Luna, and Claude Opus 5.5; OpenEvidence expands clinical AI to one hundred nations; Tom Siegel champions youth safety standards; Alibaba reveals the Zhenwu V-900 chip; and Maharashtra formalizes public-sector AI governance."
-    )
-    segments.append((
-        "recap",
-        "Headlines Recap: Today's Critical Developments",
-        "s_recap.mp3",
-        recap_script
-    ))
+    sequence.append({
+        "id": "recap",
+        "title": "Headlines Recap: Today's Critical Developments",
+        "filename": "s_recap.mp3",
+        "text": recap.get("script", ""),
+        "is_transition": False
+    })
 
     # 4. Market Snapshot
     market = data.get("marketSnapshot", {})
-    market_script = market.get(
-        "script",
-        "Turning to the SanMitra AI Market Snapshot: OpenAI and Anthropic intensify foundation model competition with lower-cost enterprise tiers. Google expands Gemini infrastructure, Meta refines agentic safety permissions, DeepSeek prepares for UN multilateral briefings, Alibaba scales sovereign Zhenwu silicon, and Microsoft deepens hyperscale datacenter investments."
-    )
-    segments.append((
-        "market_snapshot",
-        "AI Market Snapshot: 7 Strategic Leaders",
-        "s_market_snapshot.mp3",
-        market_script
-    ))
+    sequence.append({
+        "id": "market_snapshot",
+        "title": "AI Market Snapshot",
+        "filename": "s_market_snapshot.mp3",
+        "text": market.get("script", ""),
+        "is_transition": False
+    })
 
     # 5. Outro
     outro = data.get("outro", {})
-    segments.append((
-        "outro",
-        "Outro: Subscribe & Daily Bureaus",
-        "s_outro.mp3",
-        outro.get("script", "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence.")
-    ))
+    sequence.append({
+        "id": "outro",
+        "title": "Outro: Subscribe & Daily Bureaus",
+        "filename": "s_outro.mp3",
+        "text": outro.get("script", ""),
+        "is_transition": False
+    })
 
-    print(f"[*] Generating {len(segments)} voiceover audio clips with Microsoft Edge TTS '{VOICE}' (Rate: {RATE})...")
+    print(f"[*] Processing {len(sequence)} broadcast sequence elements...")
     timings = {}
     total_time = 0.0
     chapters = []
 
-    for seg_id, title, filename, text in segments:
+    for item in sequence:
+        seg_id = item["id"]
+        title = item["title"]
+
+        if item["is_transition"]:
+            scene_duration = item["duration_seconds"]
+            frames = int(round(scene_duration * 30))
+            timings[seg_id] = {
+                "audioFile": "",
+                "audioDurationSeconds": 0.0,
+                "sceneDurationSeconds": round(scene_duration, 2),
+                "durationInFrames": frames,
+                "title": title
+            }
+            total_time += scene_duration
+            print(f" -> Transition: {seg_id} -> {scene_duration:.2f}s ({frames} frames)")
+            continue
+
+        filename = item["filename"]
+        text = item["text"]
         out_file = os.path.join("public", "audio", "aibrief", filename)
-        
+
         # Add chapter timestamp
         timestamp_str = format_timestamp(total_time)
         chapters.append(f"{timestamp_str} {title}")
@@ -134,24 +166,18 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
         total_time += scene_duration
         print(f"    [OK] {filename} duration: {raw_duration:.2f}s -> Scene: {scene_duration:.2f}s ({frames} frames)")
 
-    # Insert Section transitions (2.0s = 60 frames each)
-    timings["transition_safety"] = {
-        "audioFile": "",
-        "audioDurationSeconds": 0.0,
-        "sceneDurationSeconds": 2.0,
-        "durationInFrames": 60,
-        "title": "Transition: NEXT: AI SAFETY & RESPONSIBLE USE"
-    }
-    total_time += 2.0
-
-    timings["transition_india"] = {
-        "audioFile": "",
-        "audioDurationSeconds": 0.0,
-        "sceneDurationSeconds": 2.0,
-        "durationInFrames": 60,
-        "title": "Transition: NEXT: INDIA"
-    }
-    total_time += 2.0
+    # Ensure all configured transitions are present in timings
+    for trans in data.get("transitions", []):
+        t_id = trans.get("id")
+        if t_id and t_id not in timings:
+            t_dur = float(trans.get("durationSeconds", 2.0))
+            timings[t_id] = {
+                "audioFile": "",
+                "audioDurationSeconds": 0.0,
+                "sceneDurationSeconds": t_dur,
+                "durationInFrames": int(round(t_dur * 30)),
+                "title": f"Transition: {trans.get('title', t_id)}"
+            }
 
     # Save timings to src/aibrief/data/timings.json
     with open("src/aibrief/data/timings.json", "w", encoding="utf-8") as f:

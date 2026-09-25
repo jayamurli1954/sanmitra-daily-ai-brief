@@ -1,86 +1,114 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 24.74,
-    "sceneDurationSeconds": 25.94,
-    "durationInFrames": 778,
+    "audioDurationSeconds": 24.26,
+    "sceneDurationSeconds": 25.46,
+    "durationInFrames": 764,
     "title": "Intro: Today's Biggest AI Developments"
   },
-  "gpt6_astra_launch": {
-    "audioFile": "audio/aibrief/s1_gpt6_astra_launch.mp3",
-    "audioDurationSeconds": 25.82,
-    "sceneDurationSeconds": 27.02,
-    "durationInFrames": 811,
-    "title": "Story 1: OpenAI Launches GPT-6 Astra for Autonomous Enterprise Workflows Ahead of DevDay"
+  "australia_openai_agent_probe": {
+    "audioFile": "audio/aibrief/s1_australia_openai_agent_probe.mp3",
+    "audioDurationSeconds": 21.43,
+    "sceneDurationSeconds": 22.63,
+    "durationInFrames": 679,
+    "title": "Story 1: Australia Investigates OpenAI Agent Access to Public Health Data Portal"
   },
-  "anthropic_accenture_safety": {
-    "audioFile": "audio/aibrief/s2_anthropic_accenture_safety.mp3",
-    "audioDurationSeconds": 22.03,
-    "sceneDurationSeconds": 23.23,
-    "durationInFrames": 697,
-    "title": "Story 2: Anthropic & Accenture Announce $1 Billion Alliance for Embedded AI Safety"
-  },
-  "gemini_live_thinking": {
-    "audioFile": "audio/aibrief/s3_gemini_live_thinking.mp3",
-    "audioDurationSeconds": 21.82,
-    "sceneDurationSeconds": 23.02,
-    "durationInFrames": 690,
-    "title": "Story 3: Google DeepMind Unveils Gemini 3.8 Live with Extended Reasoning Telemetry"
-  },
-  "nvidia_isaac_quantum": {
-    "audioFile": "audio/aibrief/s4_nvidia_isaac_quantum.mp3",
-    "audioDurationSeconds": 23.45,
-    "sceneDurationSeconds": 24.65,
-    "durationInFrames": 739,
-    "title": "Story 4: Nvidia Releases Isaac ROS 5.0 for Physical AI and Integrates IonQ Quantum Processors"
-  },
-  "us_senate_agent_probe": {
-    "audioFile": "audio/aibrief/s5_us_senate_agent_probe.mp3",
-    "audioDurationSeconds": 19.9,
-    "sceneDurationSeconds": 21.1,
-    "durationInFrames": 633,
-    "title": "Story 5: U.S. Senate Launches Inquiry into Autonomous AI Agent Security and Oversight"
-  },
-  "india_ai_sovereign_gpus": {
-    "audioFile": "audio/aibrief/s6_india_ai_sovereign_gpus.mp3",
-    "audioDurationSeconds": 22.01,
-    "sceneDurationSeconds": 23.21,
-    "durationInFrames": 696,
-    "title": "Story 6: IndiaAI Mission Onboards 38,000 GPUs as Microsoft Designates Hyderabad AI Cloud Hub"
-  },
-  "recap": {
-    "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 24.82,
-    "sceneDurationSeconds": 26.02,
-    "durationInFrames": 780,
-    "title": "Headlines Recap: Today's Critical Developments"
-  },
-  "market_snapshot": {
-    "audioFile": "audio/aibrief/s_market_snapshot.mp3",
-    "audioDurationSeconds": 30.29,
-    "sceneDurationSeconds": 31.49,
-    "durationInFrames": 945,
-    "title": "AI Market Snapshot: 7 Strategic Leaders"
-  },
-  "outro": {
-    "audioFile": "audio/aibrief/s_outro.mp3",
-    "audioDurationSeconds": 17.98,
-    "sceneDurationSeconds": 19.18,
-    "durationInFrames": 575,
-    "title": "Outro: Subscribe & Daily Bureaus"
-  },
-  "transition_safety": {
+  "transition_usa": {
     "audioFile": "",
     "audioDurationSeconds": 0.0,
     "sceneDurationSeconds": 2.0,
     "durationInFrames": 60,
-    "title": "Transition: NEXT: AI SAFETY & RESPONSIBLE USE"
+    "title": "Transition: NEXT: UNITED STATES & FRONTIER LABS"
+  },
+  "white_house_ai_security_review": {
+    "audioFile": "audio/aibrief/s2_white_house_ai_security_review.mp3",
+    "audioDurationSeconds": 16.01,
+    "sceneDurationSeconds": 17.21,
+    "durationInFrames": 516,
+    "title": "Story 2: White House Tightens Security Reviews on Frontier AI Model Sharing"
+  },
+  "gpt6_cyber_devday_preview": {
+    "audioFile": "audio/aibrief/s3_gpt6_cyber_devday_preview.mp3",
+    "audioDurationSeconds": 16.18,
+    "sceneDurationSeconds": 17.38,
+    "durationInFrames": 521,
+    "title": "Story 3: OpenAI Prepares GPT-6 Cyber Model for San Francisco DevDay Preview"
+  },
+  "anthropic_founder_voting_control": {
+    "audioFile": "audio/aibrief/s4_anthropic_founder_voting_control.mp3",
+    "audioDurationSeconds": 13.27,
+    "sceneDurationSeconds": 14.47,
+    "durationInFrames": 434,
+    "title": "Story 4: Anthropic Proposes Founder-Control Voting Structure Ahead of Anticipated IPO"
+  },
+  "transition_china": {
+    "audioFile": "",
+    "audioDurationSeconds": 0.0,
+    "sceneDurationSeconds": 2.0,
+    "durationInFrames": 60,
+    "title": "Transition: NEXT: CHINA & REGULATORY OVERSIGHT"
+  },
+  "china_distillation_inquiry": {
+    "audioFile": "audio/aibrief/s5_china_distillation_inquiry.mp3",
+    "audioDurationSeconds": 14.14,
+    "sceneDurationSeconds": 15.34,
+    "durationInFrames": 460,
+    "title": "Story 5: China Narrows Distillation Inquiry on DeepSeek and Moonshot Following Claude Claims"
+  },
+  "alibaba_qwen_book_laptop": {
+    "audioFile": "audio/aibrief/s6_alibaba_qwen_book_laptop.mp3",
+    "audioDurationSeconds": 17.5,
+    "sceneDurationSeconds": 18.7,
+    "durationInFrames": 561,
+    "title": "Story 6: Alibaba Unveils Qwen Book AI Laptop and Reaffirms 20-Gigawatt Cloud Roadmap"
+  },
+  "transition_asia": {
+    "audioFile": "",
+    "audioDurationSeconds": 0.0,
+    "sceneDurationSeconds": 2.0,
+    "durationInFrames": 60,
+    "title": "Transition: NEXT: ASIA & CAPITAL MARKETS"
+  },
+  "softbank_openai_bond_funding": {
+    "audioFile": "audio/aibrief/s7_softbank_openai_bond_funding.mp3",
+    "audioDurationSeconds": 12.38,
+    "sceneDurationSeconds": 13.58,
+    "durationInFrames": 408,
+    "title": "Story 7: SoftBank Prices $11 Billion Bond Offering to Fund OpenAI Investment Tranche"
   },
   "transition_india": {
     "audioFile": "",
     "audioDurationSeconds": 0.0,
     "sceneDurationSeconds": 2.0,
     "durationInFrames": 60,
-    "title": "Transition: NEXT: INDIA"
+    "title": "Transition: NEXT: INDIA & INDIGENOUS SILICON"
+  },
+  "iit_delhi_indigenous_gpu": {
+    "audioFile": "audio/aibrief/s8_iit_delhi_indigenous_gpu.mp3",
+    "audioDurationSeconds": 17.42,
+    "sceneDurationSeconds": 18.62,
+    "durationInFrames": 559,
+    "title": "Story 8: IIT Delhi Researchers Demonstrate India's First Indigenous Micro-GPU Architecture"
+  },
+  "recap": {
+    "audioFile": "audio/aibrief/s_recap.mp3",
+    "audioDurationSeconds": 24.91,
+    "sceneDurationSeconds": 26.11,
+    "durationInFrames": 783,
+    "title": "Headlines Recap: Today's Critical Developments"
+  },
+  "market_snapshot": {
+    "audioFile": "audio/aibrief/s_market_snapshot.mp3",
+    "audioDurationSeconds": 19.03,
+    "sceneDurationSeconds": 20.23,
+    "durationInFrames": 607,
+    "title": "AI Market Snapshot"
+  },
+  "outro": {
+    "audioFile": "audio/aibrief/s_outro.mp3",
+    "audioDurationSeconds": 14.42,
+    "sceneDurationSeconds": 15.62,
+    "durationInFrames": 469,
+    "title": "Outro: Subscribe & Daily Bureaus"
   }
 }
