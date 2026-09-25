@@ -2,8 +2,8 @@ name: Daily SanMitra AI News Wire Production
 
 on:
   schedule:
-    # 02:00 UTC corresponds to exactly 07:30 AM IST (Indian Standard Time, UTC+5:30)
-    - cron: '0 2 * * *'
+    # 01:50 UTC = 07:20 AM IST (Runs 10 minutes early so rendering completes by 07:30 AM IST sharp, avoiding top-of-the-hour global queue delays)
+    - cron: '50 1 * * *'
   workflow_dispatch:
     inputs:
       privacy:
