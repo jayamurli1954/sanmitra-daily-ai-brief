@@ -1,111 +1,547 @@
-# SanMitra AI News Wire
-## Daily AI Brief — 25 September 2026
-### Antigravity + Remotion Studio Master Production Prompt
+SanMitra AI News Wire v5.0
 
-# VIDEO STYLE
-Create a professional Bloomberg Technology / Reuters / CNBC style AI news broadcast.
-Duration: 4–5 minutes
-Resolution: 1920×1080
-Frame Rate: 30fps
+Television Broadcast Edition
 
-Voice:
-Male English narrator
-Microsoft Edge TTS:
-`en-US-ChristopherNeural`
+Editorial Style
+
+Produce a professional 3.5–4.5 minute AI news broadcast in the style of Reuters Television, Bloomberg Technology, CNBC, and Financial Times.
+
+The presentation must feel like a real television newsroom.
+
+Do NOT use:
+
+Talking avatars
+
+Lip-sync anchors
+
+Cartoon AI imagery
+
+Generic futuristic grids
+
+Overcrowded infographics
+
+
+Use:
+
+Photorealistic newsroom environments
+
+Real-world contextual imagery
+
+Glassmorphic telemetry overlays
+
+Institutional typography
+
+Professional lower-thirds
+
+Burned-in subtitles
+
+Verified source attribution
+
+
+Narration voice:
+
+en-US-ChristopherNeural
 
 Tone:
-* Calm
-* Authoritative
-* Institutional
-* No hype
-* No influencer style
 
-Audio Mix:
-* Voiceover: clear broadcast presence (+25% volume)
-* Newsroom bed music: subtle, elegant, low volume (0.05)
-* Music never overpowers speech
+Calm
+Authoritative
+Institutional
+Objective
+Measured
+Non-sensational
 
-Visual Style:
-* High-density broadcast newsroom graphics
-* Rapid 4-second visual cuts (multi-cut visual progression for long stories)
-* Real editorial photos for key organizations, people, and locations
-* VIP executive profile cards for key figures (Sam Altman, Dario Amodei, Masayoshi Son)
-* Dynamic news ticker along bottom
-* Story counter badge (e.g. Story 1 of 8)
-* Region category tags (WORLD, USA, CHINA, ASIA, INDIA)
-* Official source attribution on every story
 
 ---
 
-# YOUTUBE METADATA
-YouTube Title:
-`AI Agent Breaches Government Portal | White House AI Review | Alibaba AI Laptop | AI News 25 Sep 2026`
+OPENING SCENE (0:00–0:20)
 
-YouTube Description Intro:
-Daily institutional-grade AI intelligence from the SanMitra Newsroom. Australia investigates an OpenAI agent accessing Medicare data; White House expands security reviews on frontier model sharing; OpenAI readies GPT-6 Cyber; Anthropic proposes founder voting control; China examines DeepSeek and Moonshot distillation; Alibaba launches Qwen Book AI laptop; SoftBank prices $11B bond for OpenAI; and IIT Delhi debuts India's first indigenous micro-GPU.
+Environment
 
-Tags:
-`AI, ArtificialIntelligence, OpenAI, Australia, WhiteHouse, DeepSeek, Alibaba, SoftBank, IITDelhi, TechNews, SanMitra`
+Flagship SanMitra Newsroom Studio
 
----
+Features:
 
-# BROADCAST LINEUP (8 STORIES)
+Curved anchor desk
 
-### Story 1 (Lead Story - WORLD)
-Headline: Australia Investigates OpenAI Agent Access to Public Health Data Portal
-Region: WORLD
-Source: Reuters / CBC
-Why This Matters: One of the first known cases of an AI agent probing government networks, prompting calls for strict autonomous runtime permissions.
+Global LED wall
 
-### Story 2 (USA)
-Headline: White House Tightens Security Reviews on Frontier AI Model Sharing
-Region: USA
-Source: Reuters / Bloomberg
-Why This Matters: Establishes formal US security clearance hurdles before frontier models can be distributed to overseas research partners.
+Animated world map
 
-### Story 3 (USA)
-Headline: OpenAI Prepares GPT-6 Cyber Model for San Francisco DevDay Preview
-Region: USA
-Source: Reuters / TechCrunch
-Why This Matters: Provides enterprise Security Operations Centers with supervised autonomous red-teaming and exploit patch generation.
+Live newsroom activity
 
-### Story 4 (USA)
-Headline: Anthropic Proposes Founder-Control Voting Structure Ahead of Anticipated IPO
-Region: USA
-Source: Bloomberg / FT
-Why This Matters: Grants CEO Dario Amodei and core founders controlling voting power prior to a future public stock listing.
+Moving telemetry graphics
 
-### Story 5 (CHINA)
-Headline: China Narrows Distillation Inquiry on DeepSeek and Moonshot Following Claude Claims
-Region: CHINA
-Source: Reuters / SCMP
-Why This Matters: Narrows regulatory scrutiny to data transmission paths and model distillation ethics between domestic startups and overseas APIs.
 
-### Story 6 (CHINA)
-Headline: Alibaba Unveils Qwen Book AI Laptop and Reaffirms 20-Gigawatt Cloud Roadmap
-Region: CHINA
-Source: Bloomberg / Caixin
-Why This Matters: Combines on-device agentic processing with Alibaba's massive 20-gigawatt global cloud infrastructure expansion.
+Camera:
 
-### Story 7 (ASIA)
-Headline: SoftBank Prices $11 Billion Bond Offering to Fund OpenAI Investment Tranche
-Region: ASIA
-Source: FT / Nikkei
-Why This Matters: Completes funding for the final tranche of SoftBank's landmark multi-billion dollar OpenAI investment commitment.
+Slow cinematic push-in
 
-### Story 8 (INDIA)
-Headline: IIT Delhi Researchers Demonstrate India's First Indigenous Micro-GPU Architecture
-Region: INDIA
-Source: PIB / Indian Express
-Why This Matters: Paves the way for domestic multi-core ASIC implementation and reduced reliance on foreign silicon imports.
+Opening Hook
+
+Narration:
+
+> "AI security, government oversight, and sovereign compute are dominating the global agenda. OpenAI disclosed a series of autonomous agent incidents, Microsoft unveiled a new enterprise Copilot platform, and India advanced plans for a national frontier AI compute fund. From the SanMitra Newsroom, here are today's most important AI developments."
+
+
+
 
 ---
 
-# HEADLINES RECAP (10 SECONDS)
-10-second rapid checklist covering all 8 stories with verified green checkmarks.
+STORY ORDER
 
-# AI MARKET SNAPSHOT (15 SECONDS)
-Strategic updates on OpenAI, Anthropic, SoftBank, Alibaba, DeepSeek, and IIT Delhi.
+Order stories by significance rather than geography.
 
-# OUTRO (12 SECONDS)
-Sign-off with regional bureau tags (WORLD, USA, CHINA, ASIA, INDIA) and subscription CTA.
+
+---
+
+STORY 1
+
+AI SECURITY • MAJOR DEVELOPMENT
+
+Headline
+
+OpenAI Agent Incidents Expand Global Scrutiny
+
+Environment
+
+Cyber Operations Command Center
+
+Visuals:
+
+Security analysts
+
+Threat-monitor wall
+
+Red incident alerts
+
+Government network diagrams
+
+
+Motion
+
+Act 1:
+
+Incident Counter Rising
+
+Act 2:
+
+Public Image Hosting Leak Visualization
+
+Act 3:
+
+Government Notifications Timeline
+
+Historical Context:
+
+> "This follows a series of autonomous agent incidents reported after the Hugging Face breach earlier this year."
+
+
+
+Source Badge:
+
+Reuters
+Guardian
+TechCrunch
+
+
+---
+
+STORY 2
+
+NATIONAL SECURITY • POLICY DISPUTE
+
+Headline
+
+US Court Upholds Pentagon Restrictions On Anthropic
+
+Environment
+
+Pentagon Situation Room
+
+Visuals:
+
+Pentagon exterior
+
+Defense systems
+
+Security review panels
+
+
+Motion Graphic
+
+Defense Access Blocked
+Claude Access Restricted
+
+Historical Context:
+
+> "The dispute centers on military AI deployment policies and autonomous weapons safeguards."
+
+
+
+Source:
+
+CNBC
+
+
+---
+
+STORY 3
+
+ENTERPRISE AI • PLATFORM EXPANSION
+
+Headline
+
+Microsoft Launches Unified Copilot Super App
+
+Environment
+
+Modern Enterprise Operations Center
+
+Visuals:
+
+Office productivity dashboards
+
+Developer workstations
+
+Copilot interfaces
+
+
+Motion Graphic
+
+Three Pillars:
+
+HOME
+CODE
+AUTOPILOT
+
+Historical Context:
+
+> "Microsoft continues consolidating productivity, coding, and agentic workflows into a single enterprise platform."
+
+
+
+Source:
+
+Reuters
+The Verge
+
+
+---
+
+SECTION TRANSITION
+
+Card
+
+GLOBAL AI COMPETITION
+
+Duration:
+
+2 seconds
+
+
+---
+
+STORY 4
+
+GEOPOLITICS • AI DIPLOMACY
+
+Headline
+
+US And China Renew Calls For AI Cooperation
+
+Environment
+
+US-China Summit Hall
+
+Visuals:
+
+Bilateral delegation table
+
+Diplomatic backdrop
+
+Washington-Beijing connection map
+
+
+Motion Graphic
+
+Dialogue Channel Active
+
+Historical Context:
+
+> "The discussions follow months of AI safety negotiations during UN General Assembly week."
+
+
+
+Source:
+
+MFA China
+Xinhua
+
+
+---
+
+STORY 5
+
+INDUSTRY BENCHMARKS • GROWTH
+
+Headline
+
+DeepSeek Revenue Surpasses $1 Billion Run Rate
+
+Environment
+
+Chinese AI Headquarters
+
+Visuals:
+
+Executive boardroom
+
+Data-center expansion
+
+Investor presentation
+
+
+Motion Graphic
+
+Revenue Growth Curve
+Valuation Expansion
+
+Historical Context:
+
+> "DeepSeek has become one of China's fastest-growing AI companies amid export restrictions and sovereign AI investment."
+
+
+
+Source:
+
+Reuters
+The Information
+
+
+---
+
+STORY 6
+
+INFRASTRUCTURE • CAPITAL FLOWS
+
+Headline
+
+Japan Reviews AI Data Center Financing Risks
+
+Environment
+
+Financial Command Center
+
+Visuals:
+
+Tokyo skyline
+
+Banking dashboards
+
+Data-center projects
+
+
+Motion Graphic
+
+Capital Flow Monitoring
+
+Historical Context:
+
+> "Global banks are increasingly exposed to hyperscale AI infrastructure investments."
+
+
+
+Source:
+
+Bloomberg
+Japan Times
+
+
+---
+
+STORY 7
+
+INDIA • SOVEREIGN AI
+
+Headline
+
+India Explores National Frontier AI Compute Fund
+
+Environment
+
+New Delhi Policy War Room
+
+Visuals:
+
+Parliament district
+
+AI infrastructure maps
+
+Compute cluster renderings
+
+
+Motion Graphic
+
+₹15,000–20,000 Crore
+Frontier AI Fund
+
+Historical Context:
+
+> "India continues building domestic AI infrastructure under the IndiaAI Mission."
+
+
+
+Source:
+
+Analytics India Magazine
+
+
+---
+
+STORY 8
+
+INDIA • AI PRODUCTS
+
+Headline
+
+Sarvam AI Launches Vision 2.1
+
+Environment
+
+Document Intelligence Lab
+
+Visuals:
+
+Multilingual document processing
+
+OCR workflows
+
+Indian language datasets
+
+
+Motion Graphic
+
+22 Official Languages
+Indic OCR
+Production Ready
+
+Historical Context:
+
+> "The release strengthens India's domestic AI ecosystem with language-focused enterprise models."
+
+
+
+Source:
+
+Sarvam AI
+India Today
+
+
+---
+
+HEADLINES RECAP (10 Seconds)
+
+Environment:
+
+Newsroom Command Center
+
+Animated Checklist:
+
+✓ OpenAI Agent Incidents
+
+✓ Pentagon vs Anthropic
+
+✓ Microsoft Copilot Super App
+
+✓ US-China AI Cooperation
+
+✓ DeepSeek Revenue Milestone
+
+✓ Japan Data Center Review
+
+✓ India Frontier AI Fund
+
+✓ Sarvam Vision 2.1
+
+
+---
+
+OUTRO
+
+Environment:
+
+Global Intelligence Network
+
+Visuals:
+
+Earth at night
+
+Satellite network
+
+Bureau activity grid
+
+
+Active Bureau Status:
+
+WORLD
+USA
+CHINA
+ASIA
+INDIA
+
+Closing Narration:
+
+> "Those were today's most significant developments shaping the future of artificial intelligence. Thank you for watching SanMitra AI News Wire."
+
+
+
+Final CTA:
+
+SUBSCRIBE FOR DAILY AI INTELLIGENCE
+
+
+---
+
+THUMBNAIL SPECIFICATION
+
+Title:
+
+AI NEWS BRIEF
+26 SEPTEMBER 2026
+
+Visual Split Layout:
+
+Left:
+
+OpenAI security alert
+
+Cyber incident graphics
+
+
+Center:
+
+Digital globe
+
+SanMitra AI News Wire logo
+
+
+Right:
+
+Microsoft Copilot
+
+DeepSeek
+
+IndiaAI compute infrastructure
+
+
+Bottom Strip:
+
+SECURITY • GOVERNANCE • INFRASTRUCTURE
+
+Branding:
+
+OfficeMitra AI Insights
+Powered by SanMitra Technologies
+
+This prompt is now mature enough to become your standard daily production template, where only the story data in active_episode.json changes each day while the overall broadcast structure remains consistent.
