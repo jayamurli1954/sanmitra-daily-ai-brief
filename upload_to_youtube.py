@@ -172,13 +172,16 @@ def set_thumbnail(youtube, video_id, thumbnail_file):
         print(f"[!] Failed to upload thumbnail: {e}")
 
 def post_discussion_comment(youtube, video_id, date_str):
+    date_path = f"src/aibrief/data/{date_str}.json"
     active_path = "src/aibrief/data/active_episode.json"
+    target_path = date_path if os.path.exists(date_path) else active_path
+
     s1_title = "today's top story"
     s2_title = "enterprise AI policy"
-    if os.path.exists(active_path):
+    if os.path.exists(target_path):
         try:
             import json
-            with open(active_path, "r", encoding="utf-8") as f:
+            with open(target_path, "r", encoding="utf-8") as f:
                 ep = json.load(f)
             stories = ep.get("stories", [])
             if len(stories) > 0:
@@ -222,6 +225,7 @@ def main():
     parser.add_argument("--privacy", type=str, default="public", choices=["public", "private", "unlisted"], help="Video privacy status")
     parser.add_argument("--video-file", type=str, help="Custom video file path")
     parser.add_argument("--thumb-file", type=str, help="Custom thumbnail file path")
+    parser.add_argument("--meta-file", type=str, help="Custom metadata file path")
     parser.add_argument("--video-id", type=str, help="Existing YouTube video ID to set thumbnail for")
     args = parser.parse_args()
 
@@ -237,7 +241,9 @@ def main():
         print(f"[*] Using existing Video ID: {video_id}")
     else:
         video_path = args.video_file or f"out/aibrief/AI_Brief_{date_str}.mp4"
-        meta_path = "out/aibrief/youtube_metadata.txt"
+        meta_path = args.meta_file or f"out/aibrief/youtube_metadata_{date_str}.txt"
+        if not os.path.exists(meta_path):
+            meta_path = "out/aibrief/youtube_metadata.txt"
 
         if not os.path.exists(video_path):
             print(f"[X] Video file not found: {video_path}")
