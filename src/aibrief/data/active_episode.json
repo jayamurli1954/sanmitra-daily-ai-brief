@@ -58,19 +58,19 @@
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s1_cut1.jpg",
           "badge": "CYBER OPERATIONS COMMAND CENTER • REAL-TIME INCIDENT WALL",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/backgrounds/ai_security.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s1_cut2.jpg",
           "badge": "AUTONOMOUS AGENT RISK MONITOR • RED ALERT DISCLOSURE",
-          "panDirection": "zoomOut"
+          "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/tech_code_screen.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s1_cut3.jpg",
           "badge": "RUNTIME CREDENTIAL PERMISSION TELEMETRY",
-          "panDirection": "panRight"
+          "panDirection": "zoomOut"
         }
       ]
     },
@@ -93,19 +93,19 @@
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/gov_white_house.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s2_cut1.jpg",
           "badge": "PENTAGON SITUATION ROOM • DEFENSE AI POLICY REVIEW",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/gov_us_capitol_hearing.jpg",
-          "badge": "US FEDERAL COURT RULING • PROCUREMENT COMPLIANCE",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/person_dario_amodei.jpg",
-          "badge": "ANTHROPIC CLAUDE DEFENSE PERMISSIONS DESK",
+          "image": "aibrief/assets/editorial/2026-09-26/s2_cut2.jpg",
+          "badge": "US FEDERAL COURT RULING • PROCUREMENT COMPLIANCE",
           "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-26/s2_cut3.jpg",
+          "badge": "ANTHROPIC CLAUDE DEFENSE PERMISSIONS DESK",
+          "panDirection": "zoomIn"
         }
       ]
     },
@@ -128,17 +128,17 @@
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/tech_data_telemetry.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s3_cut1.jpg",
           "badge": "ENTERPRISE OPERATIONS CENTER • UNIFIED COPILOT APP",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-26/s3_cut2.jpg",
+          "badge": "THREE PILLARS MATRIX • HOME / CODE / AUTOPILOT",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/tech_laptop_showcase.jpg",
-          "badge": "THREE PILLARS MATRIX • HOME / CODE / AUTOPILOT",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/tech_code_screen.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s3_cut3.jpg",
           "badge": "DEVELOPER REASONING TELEMETRY & RUNTIME",
           "panDirection": "panRight"
         }
@@ -163,19 +163,19 @@
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/gov_un_chamber.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s4_cut1.jpg",
           "badge": "BILATERAL SUMMIT HALL • US-CHINA AI DELEGATION",
-          "panDirection": "zoomIn"
+          "panDirection": "panRight"
         },
         {
-          "image": "aibrief/backgrounds/geopolitics.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s4_cut2.jpg",
           "badge": "FRONTIER MODEL SAFETY ACCORD • DIPLOMATIC CHANNEL",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/tech_neural_globe.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s4_cut3.jpg",
           "badge": "GLOBAL RISK MITIGATION TELEMETRY",
-          "panDirection": "panRight"
+          "panDirection": "panLeft"
         }
       ]
     },
@@ -198,19 +198,19 @@
       ],
       "visualCuts": [
         {
-          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s5_cut1.jpg",
           "badge": "CHINESE AI HEADQUARTERS • $1B REVENUE RUN RATE",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s5_cut2.jpg",
           "badge": "DEEPSEEK HYPERSCALE CLUSTER & COMPUTE INFRASTRUCTURE",
-          "panDirection": "zoomOut"
+          "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s5_cut3.jpg",
           "badge": "SOVEREIGN TOKEN LIQUIDITY & BENCHMARKS",
-          "panDirection": "panRight"
+          "panDirection": "zoomOut"
         }
       ]
     },
@@ -233,19 +233,19 @@
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/fin_tokyo_district.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s6_cut1.jpg",
           "badge": "TOKYO FINANCIAL COMMAND CENTER • RISK TELEMETRY",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
-          "badge": "HYPERSCALE AI DATA CENTER FINANCING REVIEW",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
-          "badge": "GLOBAL BANKING EXPOSURE & POWER MATRIX",
+          "image": "aibrief/assets/editorial/2026-09-26/s6_cut2.jpg",
+          "badge": "HYPERSCALE AI DATA CENTER FINANCING REVIEW",
           "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-26/s6_cut3.jpg",
+          "badge": "GLOBAL BANKING EXPOSURE & POWER MATRIX",
+          "panDirection": "zoomIn"
         }
       ]
     },
@@ -268,17 +268,17 @@
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/gov_india_delhi.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s7_cut1.jpg",
           "badge": "NEW DELHI POLICY WAR ROOM • ₹20,000 CR COMPUTE FUND",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-26/s7_cut2.jpg",
+          "badge": "INDIAAI MISSION • NATIONAL FRONTIER ACCELERATION",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
-          "badge": "INDIAAI MISSION • NATIONAL FRONTIER ACCELERATION",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s7_cut3.jpg",
           "badge": "DOMESTIC SILICON INFRASTRUCTURE ROADMAP",
           "panDirection": "panRight"
         }
@@ -303,19 +303,19 @@
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s8_cut1.jpg",
           "badge": "DOCUMENT INTELLIGENCE LAB • SARVAM VISION 2.1",
-          "panDirection": "zoomIn"
+          "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/tech_code_screen.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s8_cut2.jpg",
           "badge": "INDIC OCR ENGINE • 22 OFFICIAL LANGUAGES",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/tech_data_telemetry.jpg",
+          "image": "aibrief/assets/editorial/2026-09-26/s8_cut3.jpg",
           "badge": "PRODUCTION-READY ENTERPRISE MULTIMODAL BENCHMARKS",
-          "panDirection": "panRight"
+          "panDirection": "panLeft"
         }
       ]
     }

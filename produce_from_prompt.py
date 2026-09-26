@@ -32,6 +32,10 @@ def produce_from_prompt(prompt_file=None, privacy="public", upload_youtube=True,
     print(f"🔒 YouTube Privacy: {privacy.upper()}")
     print("=" * 75)
 
+    # 0. Ensure fresh story-specific editorial visuals are downloaded
+    if os.path.exists("download_daily_editorial_visuals.py"):
+        run_command("python download_daily_editorial_visuals.py", "Ensuring fresh story-specific editorial visuals")
+
     # 1. Parse prompt if given
     if prompt_file and os.path.exists(prompt_file):
         ok = run_command(f"python build_episode_from_prompt.py \"{prompt_file}\"", f"Parsing prompt from {prompt_file}")

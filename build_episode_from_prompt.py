@@ -263,7 +263,14 @@ def parse_markdown_prompt(md_text: str) -> dict:
         else:
             category_tag = f"{region} • {clean_cat[:24]}"
 
-        # Visual cuts
+        # Visual cuts: Check for date-specific fresh editorial assets first
+        date_dir_rel = f"aibrief/assets/editorial/{iso_date}"
+        date_dir_abs = os.path.join("public", "aibrief", "assets", "editorial", iso_date)
+        
+        c1_rel = f"{date_dir_rel}/s{idx}_cut1.jpg"
+        c2_rel = f"{date_dir_rel}/s{idx}_cut2.jpg"
+        c3_rel = f"{date_dir_rel}/s{idx}_cut3.jpg"
+
         cat_info = visual_catalog.get(idx, {
             "main": "aibrief/assets/editorial/tech_data_telemetry.jpg",
             "cut2": "aibrief/assets/editorial/tech_code_screen.jpg",
@@ -273,21 +280,33 @@ def parse_markdown_prompt(md_text: str) -> dict:
             "badge3": "ENTERPRISE INTELLIGENCE MATRIX"
         })
 
+        img1 = c1_rel if os.path.exists(os.path.join("public", c1_rel)) else cat_info["main"]
+        img2 = c2_rel if os.path.exists(os.path.join("public", c2_rel)) else cat_info["cut2"]
+        img3 = c3_rel if os.path.exists(os.path.join("public", c3_rel)) else cat_info["cut3"]
+
+        # Vary pan directions across stories
+        pans = [
+            ("zoomIn", "panLeft", "zoomOut"),
+            ("zoomOut", "panRight", "zoomIn"),
+            ("panLeft", "zoomIn", "panRight"),
+            ("panRight", "zoomOut", "panLeft")
+        ][(idx - 1) % 4]
+
         visual_cuts = [
             {
-                "image": cat_info["main"],
+                "image": img1,
                 "badge": cat_info["badge1"],
-                "panDirection": "zoomIn"
+                "panDirection": pans[0]
             },
             {
-                "image": cat_info["cut2"],
+                "image": img2,
                 "badge": cat_info["badge2"],
-                "panDirection": "zoomOut"
+                "panDirection": pans[1]
             },
             {
-                "image": cat_info["cut3"],
+                "image": img3,
                 "badge": cat_info["badge3"],
-                "panDirection": "panRight"
+                "panDirection": pans[2]
             }
         ]
 
