@@ -171,6 +171,50 @@ def set_thumbnail(youtube, video_id, thumbnail_file):
     except Exception as e:
         print(f"[!] Failed to upload thumbnail: {e}")
 
+def post_discussion_comment(youtube, video_id, date_str):
+    active_path = "src/aibrief/data/active_episode.json"
+    s1_title = "today's top story"
+    s2_title = "enterprise AI policy"
+    if os.path.exists(active_path):
+        try:
+            import json
+            with open(active_path, "r", encoding="utf-8") as f:
+                ep = json.load(f)
+            stories = ep.get("stories", [])
+            if len(stories) > 0:
+                s1_title = stories[0].get("headline", s1_title)
+            if len(stories) > 1:
+                s2_title = stories[1].get("headline", s2_title)
+        except Exception:
+            pass
+
+    comment_text = (
+        f"💬 TODAY'S DISCUSSION: With developments surrounding '{s1_title}' and '{s2_title}', "
+        f"which AI move do you believe will have the greatest impact on enterprise security and global policy?\n\n"
+        f"Share your perspective in the comments below! 👇\n\n"
+        f"🔔 Subscribe to SanMitra AI News Wire for daily institutional AI intelligence: "
+        f"https://www.youtube.com/@SanMitraTechSolutions?sub_confirmation=1"
+    )
+
+    try:
+        print(f"[*] Posting initial engagement discussion comment...")
+        res = youtube.commentThreads().insert(
+            part="snippet",
+            body={
+                "snippet": {
+                    "videoId": video_id,
+                    "topLevelComment": {
+                        "snippet": {
+                            "textOriginal": comment_text
+                        }
+                    }
+                }
+            }
+        ).execute()
+        print(f"[+] Discussion comment posted successfully! (ID: {res.get('id')})")
+    except Exception as e:
+        print(f"[!] Note: Could not post discussion comment: {e}")
+
 def main():
     today_str = datetime.now().strftime("%Y-%m-%d")
     parser = argparse.ArgumentParser(description="Upload AI Brief to YouTube")
@@ -205,6 +249,9 @@ def main():
     
     if os.path.exists(thumb_path):
         set_thumbnail(youtube, video_id, thumb_path)
+
+    # Post engagement discussion comment
+    post_discussion_comment(youtube, video_id, date_str)
 
     print("\n" + "=" * 70)
     print("🚀 AUTOMATED YOUTUBE PUBLISHING COMPLETED!")

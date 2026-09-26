@@ -13,6 +13,7 @@ interface ThumbnailProps {
 const ep = episodeData as any;
 
 export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
+  variant = "A",
   headline = ep.thumbnail?.headline || "BIGGEST AI NEWS",
   subheadline = ep.thumbnail?.subheadline || "TODAY",
   dateStr = ep.thumbnail?.date || "22 SEP 2026",
@@ -24,6 +25,17 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
 }) => {
   const bulletColors = ["#ef4444", "#38bdf8", "#10b981", "#f59e0b"];
   const isFourItems = storyHighlights.length >= 4;
+
+  const accentColor =
+    variant === "B" ? "#38bdf8" : variant === "C" ? "#34d399" : "#fbbf24";
+  const badgeText =
+    variant === "B" ? "EXCLUSIVE REPORT" : variant === "C" ? "CRITICAL ANALYSIS" : "GLOBAL BRIEFING";
+  const badgeBorder =
+    variant === "B" ? "#0284c7" : variant === "C" ? "#059669" : "#ef4444";
+  const badgeDot =
+    variant === "B" ? "#38bdf8" : variant === "C" ? "#34d399" : "#ef4444";
+  const themeColor =
+    variant === "B" ? "#0284c7" : variant === "C" ? "#059669" : "#dc2626";
 
   return (
     <div
@@ -152,14 +164,14 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
           {/* Brand Logo Tag */}
           <div
             style={{
-              backgroundColor: "#dc2626",
+              backgroundColor: themeColor,
               color: "#ffffff",
               padding: "10px 24px",
               fontSize: 26,
               fontWeight: 950,
               letterSpacing: 3,
               borderRadius: 8,
-              boxShadow: "0 0 30px rgba(220, 38, 38, 0.7)",
+              boxShadow: `0 0 30px ${themeColor}b3`,
               display: "flex",
               alignItems: "center",
               gap: 10,
@@ -189,9 +201,9 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
         {/* Live Broadcast / Special Report Badge */}
         <div
           style={{
-            backgroundColor: "rgba(220, 38, 38, 0.2)",
-            border: "2px solid #ef4444",
-            color: "#f87171",
+            backgroundColor: "rgba(10, 18, 35, 0.85)",
+            border: `2px solid ${badgeBorder}`,
+            color: badgeDot,
             padding: "8px 24px",
             borderRadius: 8,
             fontSize: 20,
@@ -207,11 +219,11 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
               width: 10,
               height: 10,
               borderRadius: "50%",
-              backgroundColor: "#ef4444",
-              boxShadow: "0 0 12px #ef4444",
+              backgroundColor: badgeDot,
+              boxShadow: `0 0 12px ${badgeDot}`,
             }}
           />
-          <span>GLOBAL BRIEFING</span>
+          <span>{badgeText}</span>
         </div>
       </div>
 
@@ -239,11 +251,11 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
           <span style={{ color: "#ffffff", display: "block" }}>{headline}</span>
           <span
             style={{
-              color: "#fbbf24",
+              color: accentColor,
               display: "block",
               marginTop: 12,
               textShadow:
-                "0 8px 30px rgba(0, 0, 0, 0.95), 0 0 50px rgba(251, 191, 36, 0.4)",
+                `0 8px 30px rgba(0, 0, 0, 0.95), 0 0 50px ${accentColor}66`,
             }}
           >
             {subheadline}
@@ -327,7 +339,7 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
         </div>
       </div>
 
-      {/* 7. RED BOTTOM ACCENT STRIP */}
+      {/* 7. BOTTOM ACCENT STRIP */}
       <div
         style={{
           position: "absolute",
@@ -335,8 +347,8 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
           left: 0,
           right: 0,
           height: 12,
-          backgroundColor: "#dc2626",
-          boxShadow: "0 0 20px #dc2626",
+          backgroundColor: themeColor,
+          boxShadow: `0 0 20px ${themeColor}`,
           zIndex: 35,
         }}
       />

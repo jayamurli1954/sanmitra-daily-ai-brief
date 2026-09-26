@@ -235,7 +235,10 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
         li_lines.append(f"🔗 Source: {s.get('source', '')} - {s.get('sourceUrl', '')}")
         li_lines.append("")
     
-    li_lines.append("Watch today's full 16:9 data briefing on YouTube: https://www.youtube.com/@SanMitraTechSolutions")
+    li_lines.append("💬 Discussion: Which AI policy or architecture shift will impact your organization most? Share your thoughts in today's YouTube comments.")
+    li_lines.append("")
+    li_lines.append("📺 Watch today's full 16:9 data briefing & subscribe:")
+    li_lines.append("👉 https://www.youtube.com/@SanMitraTechSolutions?sub_confirmation=1")
     li_lines.append("")
     li_lines.append("#ArtificialIntelligence #DeepSeek #OpenAI #Anthropic #Alibaba #Semiconductors #Governance #SanMitra")
     
@@ -259,10 +262,12 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
             fb_lines.append(f"   👉 Impact: {why}")
         fb_lines.append("")
     
-    fb_lines.append("🔴 Watch the full institutional broadcast (1080p @ 30 FPS):")
-    fb_lines.append("👉 https://www.youtube.com/@SanMitraTechSolutions")
+    fb_lines.append("💬 Join the conversation: Tell us your perspective on today's developments in the comments below!")
     fb_lines.append("")
-    fb_lines.append("🔔 Subscribe to SanMitra Tech Solutions for daily AI intelligence!")
+    fb_lines.append("🔴 Watch the full institutional broadcast (1080p @ 30 FPS):")
+    fb_lines.append("👉 https://www.youtube.com/@SanMitraTechSolutions?sub_confirmation=1")
+    fb_lines.append("")
+    fb_lines.append("🔔 Click above to watch and subscribe for daily AI wire briefings!")
     fb_lines.append("")
     fb_lines.append("#AI #ArtificialIntelligence #TechNews #OpenAI #Anthropic #Nvidia #Google #IndiaAI #SanMitra")
 

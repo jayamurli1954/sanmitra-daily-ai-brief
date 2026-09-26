@@ -68,14 +68,34 @@ def produce_from_prompt(prompt_file=None, privacy="public", upload_youtube=True,
     # 4. Generate subtitles & burn-in captions
     run_command("python generate_subtitles.py", "Generating timed SRT and Remotion captions")
 
-    # 5. Render Thumbnail Still
+    # 5. Render High-Contrast Thumbnails (Variants A, B, and C for A/B Testing)
     os.makedirs("out/aibrief", exist_ok=True)
     thumb_path = f"out/aibrief/thumbnail_{date_str}.png"
-    run_command(f"npx remotion still AIBriefThumbnailA {thumb_path}", "Rendering High-Contrast Breaking News Thumbnail")
-    shutil.copyfile(thumb_path, "out/aibrief/thumbnail_A.png")
+    thumb_a = "out/aibrief/thumbnail_A.png"
+    thumb_b = "out/aibrief/thumbnail_B.png"
+    thumb_c = "out/aibrief/thumbnail_C.png"
 
-    # 6. Render Full 1080p Video
-    video_out = f"out/aibrief/AI_Brief_{date_str}.mp4"
+    run_command(f"npx remotion still AIBriefThumbnailA {thumb_a}", "Rendering Thumbnail Variant A (Breaking Red)")
+    run_command(f"npx remotion still AIBriefThumbnailB {thumb_b}", "Rendering Thumbnail Variant B (Exclusive Cyan)")
+    run_command(f"npx remotion still AIBriefThumbnailC {thumb_c}", "Rendering Thumbnail Variant C (Critical Emerald)")
+    shutil.copyfile(thumb_a, thumb_path)
+
+    # 6. Render Full 1080p Video with Keyword-Rich Filename (YouTube SEO ingest optimization)
+    import re
+    kw_slug = "Global_AI_Brief"
+    try:
+        stories = ep.get("stories", [])
+        if stories:
+            top_title = stories[0].get("headline", "")
+            clean = re.sub(r'[^a-zA-Z0-9]+', '_', top_title).strip('_')[:40]
+            if clean:
+                kw_slug = clean
+    except Exception:
+        pass
+
+    video_out = f"out/aibrief/AI_News_{date_str}_{kw_slug}.mp4"
+    legacy_alias = f"out/aibrief/AI_Brief_{date_str}.mp4"
+
     if render_video:
         # Use concurrency suitable for GitHub Actions runners or local
         concurrency = 2 if os.environ.get("GITHUB_ACTIONS") else 6
@@ -86,6 +106,7 @@ def produce_from_prompt(prompt_file=None, privacy="public", upload_youtube=True,
         if not ok_render:
             print("[X] Remotion render failed!")
             sys.exit(1)
+        shutil.copyfile(video_out, legacy_alias)
 
     # 7. Upload to YouTube
     if upload_youtube and os.path.exists(video_out):
