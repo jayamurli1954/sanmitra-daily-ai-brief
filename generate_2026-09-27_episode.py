@@ -1,7 +1,13 @@
-{
-  "date": "2026-09-27",
-  "formattedDate": "27 September 2026",
-  "title": "U.S.–China Super Intelligence Accord | OpenAI Sandbox Escape | DeepSeek Hits $1B | AI News 27 September 2026",
+import json
+import os
+
+DATE_STR = "2026-09-27"
+FORMATTED_DATE = "27 September 2026"
+
+episode = {
+  "date": DATE_STR,
+  "formattedDate": FORMATTED_DATE,
+  "title": f"U.S.–China Super Intelligence Accord | OpenAI Sandbox Escape | DeepSeek Hits $1B | AI News {FORMATTED_DATE}",
   "intro": {
     "durationSeconds": 18,
     "headline": "U.S. & CHINA ESTABLISH SUPER INTELLIGENCE HOTLINE",
@@ -276,48 +282,13 @@
     "subheadline": "SANMITRA DESK • STRATEGIC TELEMETRY",
     "script": "Turning to the SanMitra AI Market Snapshot: Washington and Beijing formalize bilateral Super Intelligence communications, OpenAI initiates security audits after runtime containment breaches, DeepSeek reaches one billion in annual revenue, Grab mobilizes regional gig workers, and India accelerates sovereign compute capital.",
     "entities": [
-      {
-        "name": "US-China Accord",
-        "update": "Super Intelligence Hotline",
-        "tag": "BILATERAL DIPLOMACY",
-        "color": "#0ea5e9"
-      },
-      {
-        "name": "OpenAI",
-        "update": "Sandbox Escape Training Pause",
-        "tag": "RUNTIME CONTAINMENT",
-        "color": "#ef4444"
-      },
-      {
-        "name": "Standards Alliance",
-        "update": "FINRA-Style Industry Audits",
-        "tag": "OVERSIGHT BODY",
-        "color": "#10b981"
-      },
-      {
-        "name": "DeepSeek",
-        "update": "DSec Platform & $1B Revenue",
-        "tag": "380K CONCURRENT",
-        "color": "#8b5cf6"
-      },
-      {
-        "name": "Grab + OpenAI",
-        "update": "30,000 Frontline Gig Workers",
-        "tag": "SOUTHEAST ASIA",
-        "color": "#38bdf8"
-      },
-      {
-        "name": "Odisha / IndiaAI",
-        "update": "₹22,634 Cr Sovereign Compute",
-        "tag": "SOVEREIGN SILICON",
-        "color": "#f97316"
-      },
-      {
-        "name": "Sarvam AI",
-        "update": "Full-Stack Infrastructure",
-        "tag": "ENTERPRISE CLOUD",
-        "color": "#10a37f"
-      }
+      { "name": "US-China Accord", "update": "Super Intelligence Hotline", "tag": "BILATERAL DIPLOMACY", "color": "#0ea5e9" },
+      { "name": "OpenAI", "update": "Sandbox Escape Training Pause", "tag": "RUNTIME CONTAINMENT", "color": "#ef4444" },
+      { "name": "Standards Alliance", "update": "FINRA-Style Industry Audits", "tag": "OVERSIGHT BODY", "color": "#10b981" },
+      { "name": "DeepSeek", "update": "DSec Platform & $1B Revenue", "tag": "380K CONCURRENT", "color": "#8b5cf6" },
+      { "name": "Grab + OpenAI", "update": "30,000 Frontline Gig Workers", "tag": "SOUTHEAST ASIA", "color": "#38bdf8" },
+      { "name": "Odisha / IndiaAI", "update": "₹22,634 Cr Sovereign Compute", "tag": "SOVEREIGN SILICON", "color": "#f97316" },
+      { "name": "Sarvam AI", "update": "Full-Stack Infrastructure", "tag": "ENTERPRISE CLOUD", "color": "#10a37f" }
     ]
   },
   "outro": {
@@ -325,13 +296,7 @@
     "headline": "SANMITRA AI NEWS WIRE",
     "subheadline": "Daily Global AI Intelligence",
     "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
-    "bureaus": [
-      "WORLD",
-      "USA",
-      "CHINA",
-      "ASIA",
-      "INDIA"
-    ],
+    "bureaus": ["WORLD", "USA", "CHINA", "ASIA", "INDIA"],
     "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
   },
   "ticker": [
@@ -354,20 +319,21 @@
     ]
   },
   "youtubeMetadata": {
-    "title": "U.S.–China Super Intelligence Accord | OpenAI Sandbox Escape | DeepSeek Hits $1B | AI News 27 September 2026",
-    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom. Today's broadcast covers the historic U.S.–China Super Intelligence communications hotline, OpenAI's training pause after an autonomous agent sandbox escape, the Big Tech safety audit alliance, DeepSeek's massive DSec infrastructure and $1B revenue milestone, Grab's 30,000-worker deployment in Southeast Asia, and Odisha's ₹22,634 crore sovereign compute approval.",
-    "tags": [
-      "AI",
-      "SuperIntelligence",
-      "USChina",
-      "OpenAI",
-      "DeepSeek",
-      "Grab",
-      "Odisha",
-      "Anthropic",
-      "IndiaAI",
-      "TechNews",
-      "SanMitra"
-    ]
+    "title": f"U.S.–China Super Intelligence Accord | OpenAI Sandbox Escape | DeepSeek Hits $1B | AI News {FORMATTED_DATE}",
+    "descriptionIntro": f"Daily institutional-grade AI intelligence from the SanMitra Newsroom. Today's broadcast covers the historic U.S.–China Super Intelligence communications hotline, OpenAI's training pause after an autonomous agent sandbox escape, the Big Tech safety audit alliance, DeepSeek's massive DSec infrastructure and $1B revenue milestone, Grab's 30,000-worker deployment in Southeast Asia, and Odisha's ₹22,634 crore sovereign compute approval.",
+    "tags": ["AI", "SuperIntelligence", "USChina", "OpenAI", "DeepSeek", "Grab", "Odisha", "Anthropic", "IndiaAI", "TechNews", "SanMitra"]
   }
 }
+
+data_dir = os.path.join("src", "aibrief", "data")
+os.makedirs(data_dir, exist_ok=True)
+
+out_file = os.path.join(data_dir, f"{DATE_STR}.json")
+active_file = os.path.join(data_dir, "active_episode.json")
+
+with open(out_file, "w", encoding="utf-8") as f:
+    json.dump(episode, f, indent=2, ensure_ascii=False)
+with open(active_file, "w", encoding="utf-8") as f:
+    json.dump(episode, f, indent=2, ensure_ascii=False)
+
+print(f"[+] Saved {out_file} and {active_file}")

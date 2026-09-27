@@ -1,114 +1,100 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 23.16,
-    "sceneDurationSeconds": 24.36,
-    "durationInFrames": 731,
+    "audioDurationSeconds": 33.74,
+    "sceneDurationSeconds": 34.94,
+    "durationInFrames": 1048,
     "title": "Intro: Today's Biggest AI Developments"
   },
-  "s1_openai_agent_incidents_expand_gl": {
-    "audioFile": "audio/aibrief/s1_s1_openai_agent_incidents_expand_gl.mp3",
-    "audioDurationSeconds": 28.73,
-    "sceneDurationSeconds": 29.93,
-    "durationInFrames": 898,
-    "title": "Story 1: OpenAI Agent Incidents Expand Global Scrutiny"
+  "s1_us_china_super_intelligence": {
+    "audioFile": "audio/aibrief/s1_s1_us_china_super_intelligence.mp3",
+    "audioDurationSeconds": 38.88,
+    "sceneDurationSeconds": 40.08,
+    "durationInFrames": 1202,
+    "title": "Story 1: U.S. and China Launch Formal \"Super Intelligence\" Dialogue & UN Governance Accord"
   },
   "transition_usa": {
     "audioFile": "",
     "audioDurationSeconds": 0.0,
     "sceneDurationSeconds": 2.0,
     "durationInFrames": 60,
-    "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
+    "title": "Transition: NEXT: UNITED STATES & LAB SAFETY INCIDENTS"
   },
-  "s2_us_court_upholds_pentagon_restri": {
-    "audioFile": "audio/aibrief/s2_s2_us_court_upholds_pentagon_restri.mp3",
-    "audioDurationSeconds": 27.72,
-    "sceneDurationSeconds": 28.92,
-    "durationInFrames": 868,
-    "title": "Story 2: US Court Upholds Pentagon Restrictions On Anthropic"
+  "s2_openai_sandbox_escape": {
+    "audioFile": "audio/aibrief/s2_s2_openai_sandbox_escape.mp3",
+    "audioDurationSeconds": 32.04,
+    "sceneDurationSeconds": 33.24,
+    "durationInFrames": 997,
+    "title": "Story 2: OpenAI Halts Frontier Training After Autonomous Agent Sandbox Escape"
   },
-  "s3_microsoft_launches_unified_copil": {
-    "audioFile": "audio/aibrief/s3_s3_microsoft_launches_unified_copil.mp3",
-    "audioDurationSeconds": 26.74,
-    "sceneDurationSeconds": 27.94,
-    "durationInFrames": 838,
-    "title": "Story 3: Microsoft Launches Unified Copilot Super App"
+  "s3_frontier_standards_alliance": {
+    "audioFile": "audio/aibrief/s3_s3_frontier_standards_alliance.mp3",
+    "audioDurationSeconds": 30.24,
+    "sceneDurationSeconds": 31.44,
+    "durationInFrames": 943,
+    "title": "Story 3: Frontier Labs Form Industry-Wide Alliance for Independent Safety Audits"
   },
   "transition_china": {
     "audioFile": "",
     "audioDurationSeconds": 0.0,
     "sceneDurationSeconds": 2.0,
     "durationInFrames": 60,
-    "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
+    "title": "Transition: NEXT: CHINA & HYPERSCALE AGENT INFRASTRUCTURE"
   },
-  "s4_us_and_china_renew_calls_for_ai": {
-    "audioFile": "audio/aibrief/s4_s4_us_and_china_renew_calls_for_ai.mp3",
-    "audioDurationSeconds": 26.95,
-    "sceneDurationSeconds": 28.15,
-    "durationInFrames": 845,
-    "title": "Story 4: US And China Renew Calls For AI Cooperation"
-  },
-  "s5_deepseek_revenue_surpasses_1_bil": {
-    "audioFile": "audio/aibrief/s5_s5_deepseek_revenue_surpasses_1_bil.mp3",
-    "audioDurationSeconds": 29.02,
-    "sceneDurationSeconds": 30.22,
-    "durationInFrames": 906,
-    "title": "Story 5: DeepSeek Revenue Surpasses $1 Billion Run Rate"
+  "s4_deepseek_infrastructure": {
+    "audioFile": "audio/aibrief/s4_s4_deepseek_infrastructure.mp3",
+    "audioDurationSeconds": 33.22,
+    "sceneDurationSeconds": 34.42,
+    "durationInFrames": 1032,
+    "title": "Story 4: DeepSeek Unveils Massive \"DSec\" Agent Platform as Revenue Hits $1 Billion"
   },
   "transition_asia": {
     "audioFile": "",
     "audioDurationSeconds": 0.0,
     "sceneDurationSeconds": 2.0,
     "durationInFrames": 60,
-    "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
+    "title": "Transition: NEXT: SOUTHEAST ASIA & WORKFORCE DEPLOYMENT"
   },
-  "s6_japan_reviews_ai_data_center_fin": {
-    "audioFile": "audio/aibrief/s6_s6_japan_reviews_ai_data_center_fin.mp3",
-    "audioDurationSeconds": 26.09,
-    "sceneDurationSeconds": 27.29,
-    "durationInFrames": 819,
-    "title": "Story 6: Japan Reviews AI Data Center Financing Risks"
+  "s5_grab_openai_asia": {
+    "audioFile": "audio/aibrief/s5_s5_grab_openai_asia.mp3",
+    "audioDurationSeconds": 29.66,
+    "sceneDurationSeconds": 30.86,
+    "durationInFrames": 926,
+    "title": "Story 5: Grab and OpenAI Launch 30,000-Worker AI Workforce Program Across Southeast Asia"
   },
   "transition_india": {
     "audioFile": "",
     "audioDurationSeconds": 0.0,
     "sceneDurationSeconds": 2.0,
     "durationInFrames": 60,
-    "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
+    "title": "Transition: NEXT: INDIA & SOVEREIGN SILICON CAPITAL"
   },
-  "s7_india_explores_national_frontier": {
-    "audioFile": "audio/aibrief/s7_s7_india_explores_national_frontier.mp3",
-    "audioDurationSeconds": 30.77,
-    "sceneDurationSeconds": 31.97,
-    "durationInFrames": 959,
-    "title": "Story 7: India Explores National Frontier AI Compute Fund"
-  },
-  "s8_sarvam_ai_launches_vision_2_1": {
-    "audioFile": "audio/aibrief/s8_s8_sarvam_ai_launches_vision_2_1.mp3",
-    "audioDurationSeconds": 27.41,
-    "sceneDurationSeconds": 28.61,
-    "durationInFrames": 858,
-    "title": "Story 8: Sarvam AI Launches Vision 2.1"
+  "s6_odisha_sovereign_compute": {
+    "audioFile": "audio/aibrief/s6_s6_odisha_sovereign_compute.mp3",
+    "audioDurationSeconds": 27.77,
+    "sceneDurationSeconds": 28.97,
+    "durationInFrames": 869,
+    "title": "Story 6: Odisha Clears \u20b922,634 Crore Sovereign AI Compute Project by SentraForge"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 22.3,
-    "sceneDurationSeconds": 23.5,
-    "durationInFrames": 705,
+    "audioDurationSeconds": 28.58,
+    "sceneDurationSeconds": 29.78,
+    "durationInFrames": 894,
     "title": "Headlines Recap: Today's Critical Developments"
   },
   "market_snapshot": {
     "audioFile": "audio/aibrief/s_market_snapshot.mp3",
-    "audioDurationSeconds": 18.05,
-    "sceneDurationSeconds": 19.25,
-    "durationInFrames": 577,
+    "audioDurationSeconds": 20.52,
+    "sceneDurationSeconds": 21.72,
+    "durationInFrames": 652,
     "title": "AI Market Snapshot"
   },
   "outro": {
     "audioFile": "audio/aibrief/s_outro.mp3",
-    "audioDurationSeconds": 13.73,
-    "sceneDurationSeconds": 14.93,
-    "durationInFrames": 448,
+    "audioDurationSeconds": 18.17,
+    "sceneDurationSeconds": 19.37,
+    "durationInFrames": 581,
     "title": "Outro: Subscribe & Daily Bureaus"
   }
 }
