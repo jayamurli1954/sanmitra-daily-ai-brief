@@ -6,9 +6,52 @@ from pathlib import Path
 from mutagen.mp3 import MP3
 import edge_tts
 
+import re
+
 VOICE = "en-US-ChristopherNeural"
 RATE = "+1%"
 VOLUME = "+25%"
+
+def clean_script_for_tts(text: str) -> str:
+    """
+    Sanitizes narration script for Edge TTS according to broadcast newsroom rules:
+    - Never read markdown headings (#, ##, ###, etc.)
+    - Never say 'Story 1', 'Story 2', 'Headline 1', 'Item 1'
+    - Never read 'Source: Reuters', 'Source: ...', or URLs
+    - Remove markdown formatting (**bold**, *italics*, links)
+    - Remove emojis and decorative symbols (✓, •, 📌, 🔹, etc.)
+    - Return clean, natural spoken English
+    """
+    if not text:
+        return ""
+    
+    # 1. Remove URLs
+    text = re.sub(r'https?://\S+', '', text)
+    
+    # 2. Remove markdown links [text](url) -> text
+    text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
+    
+    # 3. Remove "Source: ...", "Source Reuters", etc.
+    text = re.sub(r'(?i)\bSource(?:\s+Badge)?\s*:?[^\n\.\;]*', '', text)
+    text = re.sub(r'(?i)\bAccording to reporting verified by\s+[^\n\.\;]*', '', text)
+    
+    # 4. Remove "Story X", "Headline X", "Item X" labels
+    text = re.sub(r'(?i)\b(?:Story|Headline|Item)\s+\d+[:\-\s]*', '', text)
+    
+    # 5. Remove Markdown headers (#, ##, ###, ####)
+    text = re.sub(r'#+\s*', '', text)
+    
+    # 6. Remove Markdown bold/italics/strikethrough/backticks
+    text = re.sub(r'[*_~`]{1,3}', '', text)
+    
+    # 7. Remove bullets and symbols (•, -, ✓, emojis, arrows)
+    text = re.sub(r'^[•\-\*✓👉📌🔹]+\s*', '', text, flags=re.MULTILINE)
+    text = re.sub(r'[✓•👉📌🔹🌐🔴💬🔔💡]', '', text)
+    
+    # 8. Clean up extra whitespace and newlines
+    text = re.sub(r'\s+', ' ', text).strip()
+    
+    return text
 
 def get_audio_duration(file_path: str) -> float:
     try:
@@ -136,11 +179,12 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
         timestamp_str = format_timestamp(total_time)
         chapters.append(f"{timestamp_str} {title}")
 
+        clean_text = clean_script_for_tts(text)
         print(f" -> Synthesizing: {filename}...")
         max_retries = 4
         for attempt in range(max_retries):
             try:
-                communicate = edge_tts.Communicate(text, VOICE, rate=RATE, volume=VOLUME)
+                communicate = edge_tts.Communicate(clean_text, VOICE, rate=RATE, volume=VOLUME)
                 await communicate.save(out_file)
                 break
             except Exception as e:

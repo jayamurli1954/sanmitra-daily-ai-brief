@@ -1,10 +1,15 @@
 """
-Master Prompt-to-Episode Parser for SanMitra AI News Wire v5.0.
-Robust parser capable of ingesting:
-  - Both structured (# Headings) and plain text (STORY 1, Headline...) formats
-  - Multi-act motion graphics and environmental cues
-  - Automatic institutional narration generation if full script is omitted
-  - Accurate 8-story lineup, 4-second multi-cuts, and section transitions
+Master Prompt-to-Episode Parser for SanMitra AI News Wire v6.0.
+Strictly implements broadcast newsroom architecture:
+1. Never reads Markdown headings (#, ##, ###).
+2. Strips all markdown syntax (**, *, _, [url], etc.) from narration.
+3. Never speaks "Story 1", "Story 2", "Item 1", or "Headline 1".
+4. Never reads source URLs or raw "Source: Reuters" aloud.
+5. Deduplicates similar stories appearing in multiple sections.
+6. Converts article format into natural Bloomberg/Reuters broadcast television narration.
+7. Employs natural anchor transitions ("In our lead story...", "Meanwhile in China...", "Turning to India...").
+8. Maximum 2-3 concise broadcast sentences per story.
+9. Avoids repeating on-screen headline verbatim in the narration.
 """
 
 import argparse
@@ -14,31 +19,112 @@ import os
 import re
 import sys
 
-def synthesize_institutional_narration(headline: str, category: str, context: str, sources: list, motion_notes: str) -> str:
-    """Creates a 20-30s calm, institutional Bloomberg/Reuters newsroom narration."""
-    category_clean = category.replace("•", "—").strip()
-    source_str = " and ".join(sources[:2]) if sources else "official reports"
-    
-    parts = []
-    # Lead sentence
-    parts.append(f"In {category_clean.lower()}, {headline.strip()}.")
-    
-    # Motion/operational context
-    if motion_notes:
-        motion_clean = re.sub(r"Act\s+\d+:\s*", "", motion_notes)
-        motion_items = [m.strip() for m in motion_clean.split("\n") if m.strip() and not m.startswith("Motion") and not m.startswith("Card")]
-        if motion_items:
-            parts.append(f"Operational briefings highlight {', '.join(motion_items[:2]).lower()}.")
-            
-    # Historical context
-    if context:
-        context_clean = context.strip().strip('"').strip("'").strip(">").strip()
-        parts.append(f"{context_clean}")
+if sys.stdout.encoding != 'utf-8':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
+
+def clean_text_for_broadcast(text: str) -> str:
+    """Removes markdown artifacts, symbols, and formatting."""
+    if not text:
+        return ""
+    # Convert currency symbols for natural speech
+    text = text.replace('₹', ' rupees ')
+    text = text.replace('$', ' dollars ')
+    # Remove URLs
+    text = re.sub(r'https?://\S+', '', text)
+    # Remove markdown links [text](url) -> text
+    text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
+    # Remove Story/Headline labels
+    text = re.sub(r'(?i)\b(?:Story|Headline|Item)\s+\d+[:\-\s]*', '', text)
+    # Remove Markdown headers (#, ##, ###)
+    text = re.sub(r'#+\s*', '', text)
+    # Remove bold/italics
+    text = re.sub(r'[*_~`]{1,3}', '', text)
+    # Remove bullets/symbols
+    text = re.sub(r'[✓•👉📌🔹🌐🔴💬🔔💡—–]', ' ', text)
+    # Clean whitespace
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+def deduplicate_stories(raw_stories: list) -> list:
+    """Removes duplicate stories covering the same event across different regions."""
+    unique_stories = []
+    seen_signatures = []
+
+    for story in raw_stories:
+        head = story["headline"].lower()
+        # Extract meaningful keywords (> 4 chars)
+        words = set(re.findall(r'[a-z]{4,}', head))
+        # Remove common filler words
+        words = words - {"launch", "formal", "major", "after", "takes", "center", "stage", "expands", "unveils"}
         
-    # Institutional closing impact
-    parts.append(f"According to reporting verified by {source_str}, enterprise leaders and regulators are closely monitoring downstream compliance and runtime security.")
-    
-    return " ".join(parts)
+        is_duplicate = False
+        for seen in seen_signatures:
+            # Overlap threshold
+            intersection = words & seen
+            if len(intersection) >= 2 or (len(words) > 0 and len(intersection) / len(words) > 0.5):
+                is_duplicate = True
+                break
+        
+        if not is_duplicate:
+            unique_stories.append(story)
+            if words:
+                seen_signatures.append(words)
+
+    return unique_stories
+
+def format_broadcast_narration(idx: int, region: str, headline: str, body: str, prev_region: str = None) -> str:
+    """Converts a raw news story into a calm, professional Bloomberg/Reuters broadcast delivery."""
+    # Clean body of source attributions
+    cleaned_body = re.sub(r'(?i)\bSource:?[^\n\.\;]*', '', body)
+    cleaned_body = re.sub(r'(?i)\bAlso:?[^\n\.\;]*', '', cleaned_body)
+    cleaned_body = clean_text_for_broadcast(cleaned_body)
+    clean_head = clean_text_for_broadcast(headline)
+
+    # Split into clean sentences
+    raw_sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s+', cleaned_body) if len(s.strip()) > 15]
+
+    # Deduplicate body if it begins by repeating the exact headline
+    filtered_sentences = []
+    for s in raw_sentences:
+        head_words = set(re.findall(r'[a-z]{4,}', clean_head.lower()))
+        s_words = set(re.findall(r'[a-z]{4,}', s.lower()))
+        # If sentence is virtually identical to headline, skip or rephrase
+        if len(head_words) > 3 and len(head_words & s_words) / len(head_words) > 0.75:
+            continue
+        filtered_sentences.append(s)
+
+    content = " ".join(filtered_sentences[:3]) if filtered_sentences else cleaned_body[:250]
+
+    # Generate natural broadcast anchor transitions
+    transition = ""
+    if idx == 1:
+        transition = "In our lead story today,"
+    elif prev_region and region != prev_region:
+        if region == "USA":
+            transition = "Turning to the United States,"
+        elif region == "CHINA":
+            transition = "Meanwhile in China,"
+        elif region == "ASIA":
+            transition = "Across Southeast Asia,"
+        elif region == "INDIA":
+            transition = "Turning to India,"
+        else:
+            transition = "In other global developments,"
+    else:
+        transitions_pool = [
+            "In another major development,",
+            "In concurrent industry updates,",
+            "Expanding on regulatory scrutiny,",
+            "In enterprise infrastructure,"
+        ]
+        transition = transitions_pool[(idx - 2) % len(transitions_pool)]
+
+    # Combine transition and content
+    narration = f"{transition} {content}"
+    return clean_text_for_broadcast(narration)
 
 def parse_markdown_prompt(md_text: str) -> dict:
     lines = md_text.splitlines()
@@ -59,232 +145,181 @@ def parse_markdown_prompt(md_text: str) -> dict:
         formatted_date = dt.strftime("%d %B %Y")
         iso_date = dt.strftime("%Y-%m-%d")
 
-    # YouTube Title
-    title_match = re.search(r"YouTube\s+Title[:\s*]*`?([^`\n]+)`?", md_text, re.IGNORECASE)
-    if title_match:
-        yt_title = title_match.group(1).strip()
-    else:
-        # Generate title from top stories
-        yt_title = f"AI Agent Incidents | Pentagon Anthropic Ruling | Copilot Super App | AI News {formatted_date}"
-
-    # Extract Intro Script / Opening Hook
-    intro_script = ""
-    intro_match = re.search(r"(?:Opening Hook|Intro|HOOK|ANCHOR INTRO)[\s\S]*?Narration:?\s*>\s*\"?([^\"]+)\"?", md_text, re.IGNORECASE)
-    if intro_match:
-        intro_script = intro_match.group(1).strip().replace("\n", " ")
-    else:
-        # Fallback search for blockquote in opening scene
-        hook_match = re.search(r"OPENING SCENE[\s\S]*?>\s*\"?([^\"]+)\"?", md_text, re.IGNORECASE)
-        if hook_match:
-            intro_script = hook_match.group(1).strip().replace("\n", " ")
+    # Check for regional sections (# WORLD, # USA, # CHINA, # ASIA, # INDIA)
+    regional_matches = list(re.finditer(r"(?:^|\n)#+\s*(?:[🌍🇺🇸🇨🇳🌏🇮🇳\s]*)(WORLD|USA|CHINA|ASIA|INDIA)\b", md_text, flags=re.IGNORECASE))
     
-    if not intro_script or len(intro_script) < 30:
-        intro_script = f"AI security, government oversight, and sovereign compute are dominating the global agenda. From the SanMitra Newsroom, here are today's most important AI developments for {formatted_date}."
+    candidate_stories = []
 
-    # Extract Section Transitions
-    section_trans_match = re.search(r"SECTION TRANSITION[\s\S]*?Card\s*\n+([^\n]+)[\s\S]*?Duration:?\s*(\d+)\s*seconds", md_text, re.IGNORECASE)
-    trans_card_title = section_trans_match.group(1).strip() if section_trans_match else "GLOBAL AI COMPETITION"
-    trans_duration = int(section_trans_match.group(2)) if section_trans_match else 2
+    if regional_matches:
+        for i, match in enumerate(regional_matches):
+            reg = match.group(1).upper()
+            start_pos = match.end()
+            end_pos = regional_matches[i + 1].start() if i + 1 < len(regional_matches) else len(md_text)
+            
+            # Truncate before Master Prompt, Takeaways, Recap if this is the last regional section
+            reg_text = md_text[start_pos:end_pos]
+            reg_text = re.split(r"(?:\n#+\s*(?:MASTER\s+PROMPT|TODAY'S\s+KEY|HEADLINES|TAKEAWAYS))", reg_text, flags=re.IGNORECASE)[0]
 
-    # Extract Stories using flexible regex
-    # Matches: "STORY 1", "### STORY 1", "Story 1:", etc.
-    story_pattern = re.compile(r"(?:^|\n)(?:#{1,4}\s*)?(?:STORY\s+(\d+)|Story\s+(\d+))\b", re.IGNORECASE)
-    splits = [m.start() for m in story_pattern.finditer(md_text)]
+            # Split stories within this regional block by ###
+            story_chunks = re.split(r"(?:^|\n)###\s+", reg_text)
+            for chunk in story_chunks:
+                chunk = chunk.strip()
+                if not chunk or len(chunk) < 20:
+                    continue
+                
+                chunk_lines = chunk.splitlines()
+                raw_head = chunk_lines[0].strip()
+                head_clean = clean_text_for_broadcast(raw_head)
+                
+                # Check for sources
+                srcs = []
+                src_match = re.search(r"(?:Source|Also):?\s*([^\n]+)", chunk, re.IGNORECASE)
+                if src_match:
+                    raw_src = src_match.group(1)
+                    # clean links
+                    clean_src = re.sub(r'https?://\S+', '', raw_src)
+                    clean_src = re.sub(r'\[([^\]]+)\]', r'\1', clean_src)
+                    clean_src = clean_src.replace("/", ",").strip()
+                    if clean_src:
+                        srcs.append(clean_src)
+
+                body_lines = [l for l in chunk_lines[1:] if not l.strip().lower().startswith("**source") and not l.strip().lower().startswith("source") and not l.strip().lower().startswith("**also") and not l.strip().startswith("http")]
+                body_clean = " ".join(body_lines).strip()
+
+                if head_clean and body_clean:
+                    candidate_stories.append({
+                        "region": reg,
+                        "headline": head_clean,
+                        "body": body_clean,
+                        "sources": srcs or ["Verified Reports"]
+                    })
+
+    # If no regional sections found, fall back to STORY \d+ blocks
+    if not candidate_stories:
+        story_pattern = re.compile(r"(?:^|\n)(?:#{1,4}\s*)?(?:STORY\s+(\d+)|Story\s+(\d+))\b", re.IGNORECASE)
+        splits = [m.start() for m in story_pattern.finditer(md_text)]
+        if splits:
+            for idx in range(len(splits)):
+                start = splits[idx]
+                end = splits[idx + 1] if idx + 1 < len(splits) else len(md_text)
+                raw = md_text[start:end]
+                clean_block = re.split(r"(?:\n---|\n)(?:HEADLINES\s+RECAP|OUTRO|THUMBNAIL)", raw, flags=re.IGNORECASE)[0]
+                
+                first_lines = [l.strip() for l in clean_block.splitlines() if l.strip() and not l.upper().startswith("STORY")]
+                raw_head = first_lines[0] if first_lines else f"Global AI Development {idx + 1}"
+                head_clean = clean_text_for_broadcast(raw_head)
+                
+                body_lines = first_lines[1:] if len(first_lines) > 1 else [head_clean]
+                body_clean = " ".join(body_lines)
+                
+                candidate_stories.append({
+                    "region": "WORLD" if idx == 0 else ("USA" if idx in [1, 2] else ("CHINA" if idx == 3 else ("ASIA" if idx == 4 else "INDIA"))),
+                    "headline": head_clean,
+                    "body": body_clean,
+                    "sources": ["Reuters", "Bloomberg"]
+                })
+
+    # Deduplicate stories
+    unique_stories = deduplicate_stories(candidate_stories)
+
+    # Balance selection across bureaus (WORLD, USA, CHINA, ASIA, INDIA)
+    by_region = {}
+    for s in unique_stories:
+        by_region.setdefault(s["region"], []).append(s)
     
-    story_raw_blocks = []
-    if splits:
-        for idx in range(len(splits)):
-            start = splits[idx]
-            end = splits[idx + 1] if idx + 1 < len(splits) else len(md_text)
-            raw = md_text[start:end]
-            # Truncate before HEADLINES RECAP, OUTRO, or THUMBNAIL
-            clean_block = re.split(r"(?:\n---|\n)(?:HEADLINES\s+RECAP|OUTRO|THUMBNAIL)", raw, flags=re.IGNORECASE)[0]
-            story_raw_blocks.append(clean_block)
+    selected_stories = []
+    # 1. Lead story from WORLD
+    if "WORLD" in by_region and by_region["WORLD"]:
+        selected_stories.append(by_region["WORLD"].pop(0))
+    # 2. USA Safety / Incident
+    if "USA" in by_region and by_region["USA"]:
+        selected_stories.append(by_region["USA"].pop(0))
+    # 3. USA Regulation / Standards
+    if "USA" in by_region and by_region["USA"]:
+        selected_stories.append(by_region["USA"].pop(0))
+    elif "WORLD" in by_region and by_region["WORLD"]:
+        selected_stories.append(by_region["WORLD"].pop(0))
+    # 4. CHINA Infrastructure / Compute
+    if "CHINA" in by_region and by_region["CHINA"]:
+        selected_stories.append(by_region["CHINA"].pop(0))
+    # 5. ASIA Enterprise Adoption
+    if "ASIA" in by_region and by_region["ASIA"]:
+        selected_stories.append(by_region["ASIA"].pop(0))
+    # 6. INDIA Sovereign Compute
+    if "INDIA" in by_region and by_region["INDIA"]:
+        selected_stories.append(by_region["INDIA"].pop(0))
+    
+    # Fill remaining slots up to 6 if needed
+    for reg in ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]:
+        while len(selected_stories) < 6 and reg in by_region and by_region[reg]:
+            selected_stories.append(by_region[reg].pop(0))
 
     # Visual assets catalog
     visual_catalog = {
         1: {
-            "main": "aibrief/assets/editorial/tech_cyber_command.jpg",
-            "cut2": "aibrief/backgrounds/ai_security.jpg",
-            "cut3": "aibrief/assets/editorial/tech_code_screen.jpg",
-            "badge1": "CYBER OPERATIONS COMMAND CENTER • REAL-TIME INCIDENT WALL",
-            "badge2": "AUTONOMOUS AGENT RISK MONITOR • RED ALERT DISCLOSURE",
-            "badge3": "RUNTIME CREDENTIAL PERMISSION TELEMETRY"
+            "main": "aibrief/assets/editorial/gov_un_chamber.jpg",
+            "cut2": "aibrief/assets/editorial/gov_white_house.jpg",
+            "cut3": "aibrief/assets/editorial/tech_neural_globe.jpg",
+            "badge1": "UNITED NATIONS GENERAL ASSEMBLY • DIPLOMATIC ACCORD",
+            "badge2": "WASHINGTON-BEIJING DIPLOMATIC HOTLINE • SUPER INTELLIGENCE",
+            "badge3": "GLOBAL CRISIS COMMUNICATIONS & RISK MITIGATION TELEMETRY"
         },
         2: {
-            "main": "aibrief/assets/editorial/gov_white_house.jpg",
-            "cut2": "aibrief/assets/editorial/gov_us_capitol_hearing.jpg",
-            "cut3": "aibrief/assets/editorial/person_dario_amodei.jpg",
-            "badge1": "PENTAGON SITUATION ROOM • DEFENSE AI POLICY REVIEW",
-            "badge2": "US FEDERAL COURT RULING • PROCUREMENT COMPLIANCE",
-            "badge3": "ANTHROPIC CLAUDE DEFENSE PERMISSIONS DESK"
+            "main": "aibrief/assets/editorial/tech_cyber_command.jpg",
+            "cut2": "aibrief/assets/editorial/tech_code_screen.jpg",
+            "cut3": "aibrief/assets/editorial/person_sam_altman.jpg",
+            "badge1": "CYBER OPERATIONS COMMAND CENTER • SANDBOX CONTAINMENT",
+            "badge2": "DNS RESOLVER LOOPHOLE • AGENT RUNTIME PERMISSION TELEMETRY",
+            "badge3": "OPENAI SAFETY PROTOCOL AUDIT • CONTAINMENT REVIEW DESK"
         },
         3: {
-            "main": "aibrief/assets/editorial/tech_data_telemetry.jpg",
-            "cut2": "aibrief/assets/editorial/tech_laptop_showcase.jpg",
-            "cut3": "aibrief/assets/editorial/tech_code_screen.jpg",
-            "badge1": "ENTERPRISE OPERATIONS CENTER • UNIFIED COPILOT APP",
-            "badge2": "THREE PILLARS MATRIX • HOME / CODE / AUTOPILOT",
-            "badge3": "DEVELOPER REASONING TELEMETRY & RUNTIME"
+            "main": "aibrief/assets/editorial/gov_us_capitol_hearing.jpg",
+            "cut2": "aibrief/assets/editorial/tech_data_telemetry.jpg",
+            "cut3": "aibrief/assets/editorial/person_dario_amodei.jpg",
+            "badge1": "REGULATORY CONFERENCE CENTER • FRONTIER LAB ALLIANCE",
+            "badge2": "INDEPENDENT AUDIT STANDARDS • RUNTIME RED TEAMING HUD",
+            "badge3": "ANTHROPIC & OPENAI EXECUTIVE COMPLIANCE DESK"
         },
         4: {
-            "main": "aibrief/assets/editorial/gov_un_chamber.jpg",
-            "cut2": "aibrief/backgrounds/geopolitics.jpg",
-            "cut3": "aibrief/assets/editorial/tech_neural_globe.jpg",
-            "badge1": "BILATERAL SUMMIT HALL • US-CHINA AI DELEGATION",
-            "badge2": "FRONTIER MODEL SAFETY ACCORD • DIPLOMATIC CHANNEL",
-            "badge3": "GLOBAL RISK MITIGATION TELEMETRY"
+            "main": "aibrief/assets/editorial/tech_server_hall.jpg",
+            "cut2": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
+            "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
+            "badge1": "CHINESE HYPERSCALE CAMPUS • 380K CONCURRENT WORKLOADS",
+            "badge2": "DEEPSEEK DSEC PLATFORM • 3 MILLION DAILY SANDBOXES",
+            "badge3": "COMMERCIAL RUN RATE • $1B REVENUE TELEMETRY"
         },
         5: {
-            "main": "aibrief/backgrounds/cloud_infrastructure.jpg",
-            "cut2": "aibrief/assets/editorial/tech_server_hall.jpg",
-            "cut3": "aibrief/backgrounds/ai_chips.jpg",
-            "badge1": "CHINESE AI HEADQUARTERS • $1B REVENUE RUN RATE",
-            "badge2": "DEEPSEEK HYPERSCALE CLUSTER & COMPUTE INFRASTRUCTURE",
-            "badge3": "SOVEREIGN TOKEN LIQUIDITY & BENCHMARKS"
+            "main": "aibrief/assets/editorial/fin_tokyo_district.jpg",
+            "cut2": "aibrief/assets/editorial/tech_laptop_showcase.jpg",
+            "cut3": "aibrief/assets/editorial/tech_neural_globe.jpg",
+            "badge1": "SINGAPORE REGIONAL HEADQUARTERS • SOUTHEAST ASIA MAP",
+            "badge2": "30,000 GIG WORKERS • MOBILE AGENT WORKFLOWS",
+            "badge3": "REGIONAL PRODUCTIVITY TELEMETRY • SME INVENTORY TOOLS"
         },
         6: {
-            "main": "aibrief/assets/editorial/fin_tokyo_district.jpg",
-            "cut2": "aibrief/assets/editorial/tech_server_hall.jpg",
-            "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
-            "badge1": "TOKYO FINANCIAL COMMAND CENTER • RISK TELEMETRY",
-            "badge2": "HYPERSCALE AI DATA CENTER FINANCING REVIEW",
-            "badge3": "GLOBAL BANKING EXPOSURE & POWER MATRIX"
-        },
-        7: {
             "main": "aibrief/assets/editorial/gov_india_delhi.jpg",
-            "cut2": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
-            "cut3": "aibrief/backgrounds/ai_chips.jpg",
-            "badge1": "NEW DELHI POLICY WAR ROOM • ₹20,000 CR COMPUTE FUND",
-            "badge2": "INDIAAI MISSION • NATIONAL FRONTIER ACCELERATION",
-            "badge3": "DOMESTIC SILICON INFRASTRUCTURE ROADMAP"
-        },
-        8: {
-            "main": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
-            "cut2": "aibrief/assets/editorial/tech_code_screen.jpg",
+            "cut2": "aibrief/assets/editorial/tech_server_hall.jpg",
             "cut3": "aibrief/assets/editorial/tech_data_telemetry.jpg",
-            "badge1": "DOCUMENT INTELLIGENCE LAB • SARVAM VISION 2.1",
-            "badge2": "INDIC OCR ENGINE • 22 OFFICIAL LANGUAGES",
-            "badge3": "PRODUCTION-READY ENTERPRISE MULTIMODAL BENCHMARKS"
-        },
+            "badge1": "ODISHA INFRASTRUCTURE DESK • ₹22,634 CR SOVEREIGN COMPUTE",
+            "badge2": "SENTRAFORGE HIGH-DENSITY GPU CLUSTERS • NATIONAL FABRIC",
+            "badge3": "SARVAM INFRASTRUCTURE & FLIPKART GEMINI COMMERCE HUD"
+        }
     }
 
     stories = []
     transitions = []
+    prev_reg = None
 
-    # Map stories
-    for idx, block in enumerate(story_raw_blocks, 1):
-        # Extract Headline
-        headline = ""
-        head_match = re.search(r"Headline\s*\n+([^\n]+)", block, re.IGNORECASE)
-        if head_match:
-            headline = head_match.group(1).strip()
-        else:
-            # Fallback to first bold or clean line
-            first_lines = [l.strip() for l in block.splitlines() if l.strip() and not l.upper().startswith("STORY")]
-            headline = first_lines[0] if first_lines else f"Global AI Development {idx}"
+    for idx, s in enumerate(selected_stories, 1):
+        reg = s["region"]
+        head = s["headline"]
+        body = s["body"]
+        srcs = s["sources"]
 
-        # Extract Category / Tag
-        category = "AI INTELLIGENCE"
-        cat_match = re.search(r"(?:STORY\s+\d+[\s\n]+)([^\n]+)", block, re.IGNORECASE)
-        if cat_match:
-            candidate = cat_match.group(1).strip()
-            if not candidate.lower().startswith("headline") and len(candidate) < 60:
-                category = candidate
+        script = format_broadcast_narration(idx, reg, head, body, prev_reg)
+        prev_reg = reg
 
-        # Extract Environment
-        env = ""
-        env_match = re.search(r"Environment\s*\n+([^\n]+)", block, re.IGNORECASE)
-        if env_match:
-            env = env_match.group(1).strip()
-
-        # Extract Historical Context
-        context = ""
-        ctx_match = re.search(r"Historical Context:?\s*\n*>*\s*\"?([^\"]+)\"?", block, re.IGNORECASE)
-        if ctx_match:
-            context = ctx_match.group(1).strip()
-
-        # Extract Sources
-        sources = []
-        src_match = re.search(r"(?:Source Badge|Source):?\s*\n+([^\n#\-]+(?:\n[^\n#\-]+)*)", block, re.IGNORECASE)
-        if src_match:
-            raw_sources = src_match.group(1).splitlines()
-            for s in raw_sources:
-                s_clean = s.strip().lstrip("•").lstrip("-").strip()
-                if s_clean and not s_clean.lower().startswith("story") and not s_clean.startswith("---"):
-                    sources.append(s_clean)
-        
-        if not sources:
-            sources = ["Reuters", "Bloomberg"]
-
-        # Extract Motion
-        motion_notes = ""
-        mot_match = re.search(r"Motion(?:\s+Graphic)?\s*\n+([\s\S]*?)(?:Historical|Source|\n---|\Z)", block, re.IGNORECASE)
-        if mot_match:
-            motion_notes = mot_match.group(1).strip()
-
-        # Determine Region
-        if idx in [1]:
-            region = "WORLD"
-        elif idx in [2, 3]:
-            region = "USA"
-        elif idx in [4, 5]:
-            region = "CHINA"
-        elif idx in [6]:
-            region = "ASIA"
-        else:
-            region = "INDIA"
-
-        # Explicit region detection override
-        if "INDIA" in category.upper() or "INDIA" in headline.upper() or "SARVAM" in headline.upper():
-            region = "INDIA"
-        elif "JAPAN" in headline.upper() or "TOKYO" in block.upper():
-            region = "ASIA"
-        elif "CHINA" in headline.upper() or "DEEPSEEK" in headline.upper():
-            region = "CHINA"
-        elif "PENTAGON" in headline.upper() or "MICROSOFT" in headline.upper():
-            region = "USA"
-
-        # Check for explicit Narration script, or synthesize institutional broadcast script
-        script_match = re.search(r"(?:Voiceover Script|Script|Narration):?\s*\n*>*\s*\"?([^\"]+)\"?", block, re.IGNORECASE)
-        if script_match and len(script_match.group(1).strip()) > 40 and "watching" not in script_match.group(1).lower() and "subscribe" not in script_match.group(1).lower():
-            script = script_match.group(1).strip().replace("\n", " ")
-        else:
-            script = synthesize_institutional_narration(headline, category, context, sources, motion_notes)
-
-        # Story ID
-        slug = re.sub(r"[^a-z0-9]+", "_", headline.lower())[:32].strip("_")
-        s_id = f"s{idx}_{slug}" if slug else f"story_{idx}"
-
-        # Clean category tag
-        clean_cat = category.strip()
-        if clean_cat.upper().startswith(region):
-            category_tag = clean_cat
-        else:
-            category_tag = f"{region} • {clean_cat[:24]}"
-
-        # Visual cuts: Check for date-specific fresh editorial assets first
-        date_dir_rel = f"aibrief/assets/editorial/{iso_date}"
-        date_dir_abs = os.path.join("public", "aibrief", "assets", "editorial", iso_date)
-        
-        c1_rel = f"{date_dir_rel}/s{idx}_cut1.jpg"
-        c2_rel = f"{date_dir_rel}/s{idx}_cut2.jpg"
-        c3_rel = f"{date_dir_rel}/s{idx}_cut3.jpg"
-
-        cat_info = visual_catalog.get(idx, {
-            "main": "aibrief/assets/editorial/tech_data_telemetry.jpg",
-            "cut2": "aibrief/assets/editorial/tech_code_screen.jpg",
-            "cut3": "aibrief/backgrounds/intro_newsroom.jpg",
-            "badge1": f"{region} BUREAU • BREAKING TELEMETRY",
-            "badge2": "SYSTEM RUNTIME & COMPLIANCE",
-            "badge3": "ENTERPRISE INTELLIGENCE MATRIX"
-        })
-
-        img1 = c1_rel if os.path.exists(os.path.join("public", c1_rel)) else cat_info["main"]
-        img2 = c2_rel if os.path.exists(os.path.join("public", c2_rel)) else cat_info["cut2"]
-        img3 = c3_rel if os.path.exists(os.path.join("public", c3_rel)) else cat_info["cut3"]
-
-        # Vary pan directions across stories
+        cat_info = visual_catalog.get(idx, visual_catalog[1])
         pans = [
             ("zoomIn", "panLeft", "zoomOut"),
             ("zoomOut", "panRight", "zoomIn"),
@@ -293,41 +328,32 @@ def parse_markdown_prompt(md_text: str) -> dict:
         ][(idx - 1) % 4]
 
         visual_cuts = [
-            {
-                "image": img1,
-                "badge": cat_info["badge1"],
-                "panDirection": pans[0]
-            },
-            {
-                "image": img2,
-                "badge": cat_info["badge2"],
-                "panDirection": pans[1]
-            },
-            {
-                "image": img3,
-                "badge": cat_info["badge3"],
-                "panDirection": pans[2]
-            }
+            {"image": cat_info["main"], "badge": cat_info["badge1"], "panDirection": pans[0]},
+            {"image": cat_info["cut2"], "badge": cat_info["badge2"], "panDirection": pans[1]},
+            {"image": cat_info["cut3"], "badge": cat_info["badge3"], "panDirection": pans[2]}
         ]
+
+        slug = re.sub(r"[^a-z0-9]+", "_", head.lower())[:32].strip("_")
+        s_id = f"s{idx}_{slug}" if slug else f"story_{idx}"
 
         stories.append({
             "id": s_id,
-            "region": region,
-            "category": category,
-            "categoryTag": category_tag,
-            "headline": headline,
-            "subheadline": f"Verified Report // Source: {', '.join(sources[:2])}",
-            "importanceScore": 98 if idx == 1 else (94 if idx <= 3 else 88),
-            "durationSeconds": max(int(len(script.split()) * 0.42), 22),
-            "source": ", ".join(sources[:2]),
+            "region": reg,
+            "category": f"{reg} Intelligence",
+            "categoryTag": f"{reg} • SPECIAL REPORT",
+            "headline": head,
+            "subheadline": f"Verified Report // Source: {', '.join(srcs[:2])}",
+            "importanceScore": 99 if idx == 1 else (95 if idx <= 3 else 90),
+            "durationSeconds": max(int(len(script.split()) * 0.42), 24),
+            "source": ", ".join(srcs[:2]),
             "sourceUrl": "https://reuters.com",
             "script": script,
-            "whyThisMatters": context or f"Strategic development shaping {region} artificial intelligence governance.",
-            "keyPoints": [headline, f"Verified by {', '.join(sources[:2])}"],
+            "whyThisMatters": f"Critical development shaping {reg} artificial intelligence policy and sovereign compute.",
+            "keyPoints": [head[:60], f"Verified by {', '.join(srcs[:2])}"],
             "visualCuts": visual_cuts
         })
 
-    # Add transitions across regions
+    # Transitions across regions
     regions_ordered = []
     for s in stories:
         r = s["region"]
@@ -345,38 +371,37 @@ def parse_markdown_prompt(md_text: str) -> dict:
             })
 
     # Recap checklist
-    recap_items = []
-    checklist_match = re.search(r"Animated Checklist:\s*\n+([\s\S]*?)(?:\n---|\Z)", md_text, re.IGNORECASE)
-    if checklist_match:
-        for line in checklist_match.group(1).splitlines():
-            line_c = line.strip()
-            if line_c:
-                recap_items.append(line_c if line_c.startswith("✓") else f"✓ {line_c.lstrip('•').strip()}")
-    
-    if not recap_items:
-        recap_items = [f"✓ {s['headline'][:50]}" for s in stories[:8]]
-
+    recap_items = [f"✓ {s['headline'][:48]}" for s in stories[:7]]
     recap_script = "To recap today's headlines: " + "; ".join([s['headline'] for s in stories[:6]]) + "."
 
-    # Market snapshot entities
+    # Market snapshot
     market_entities = [
-        { "name": "OpenAI", "update": "Agent Incident Scrutiny", "tag": "SECURITY GOVERNANCE", "color": "#10a37f" },
-        { "name": "Anthropic", "update": "Pentagon Deployment Court Ruling", "tag": "DEFENSE COMPLIANCE", "color": "#d97706" },
-        { "name": "Microsoft", "update": "Unified Copilot Super App", "tag": "ENTERPRISE PLATFORM", "color": "#00a4ef" },
-        { "name": "DeepSeek", "update": "$1B Annual Revenue Run Rate", "tag": "DOMESTIC CHINESE AI", "color": "#8b5cf6" },
-        { "name": "Japan Banks", "update": "AI Data Center Debt Review", "tag": "CAPITAL EXPOSURE", "color": "#38bdf8" },
-        { "name": "IndiaAI", "update": "₹20,000 Cr Compute Fund", "tag": "SOVEREIGN SILICON", "color": "#f97316" },
-        { "name": "Sarvam AI", "update": "Vision 2.1 Multilingual Model", "tag": "DOMESTIC PRODUCTS", "color": "#10b981" }
+        { "name": "US-China Accord", "update": "Super Intelligence Hotline", "tag": "BILATERAL DIPLOMACY", "color": "#0ea5e9" },
+        { "name": "OpenAI", "update": "Sandbox Escape Training Pause", "tag": "RUNTIME CONTAINMENT", "color": "#ef4444" },
+        { "name": "Standards Alliance", "update": "FINRA-Style Industry Audits", "tag": "OVERSIGHT BODY", "color": "#10b981" },
+        { "name": "DeepSeek", "update": "DSec Platform & $1B Revenue", "tag": "380K CONCURRENT", "color": "#8b5cf6" },
+        { "name": "Grab + OpenAI", "update": "30,000 Frontline Gig Workers", "tag": "SOUTHEAST ASIA", "color": "#38bdf8" },
+        { "name": "Odisha / IndiaAI", "update": "₹22,634 Cr Sovereign Compute", "tag": "SOVEREIGN SILICON", "color": "#f97316" },
+        { "name": "Sarvam AI", "update": "Full-Stack Infrastructure", "tag": "ENTERPRISE CLOUD", "color": "#10a37f" }
     ]
 
-    # Outro
-    outro_script = "Those were today's most significant developments shaping the future of artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
-    outro_match = re.search(r"Closing Narration:?\s*\n*>*\s*\"?([^\"]+)\"?", md_text, re.IGNORECASE)
-    if outro_match:
-        outro_script = outro_match.group(1).strip().replace("\n", " ")
-        if not outro_script.endswith("."):
-            outro_script += "."
-        outro_script += " Subscribe now for daily institutional AI intelligence."
+    # Intro script
+    lead_head = stories[0]['headline'] if stories else "Frontier Artificial Intelligence"
+    intro_script = (
+        f"In a landmark development, {lead_head}. "
+        f"From the SanMitra Newsroom, here is the Daily AI Brief for {formatted_date}."
+    )
+
+    # Outro script
+    outro_script = (
+        "Those were today's critical developments across global artificial intelligence. "
+        "From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. "
+        "Subscribe now for daily institutional AI intelligence."
+    )
+
+    # Title & tags
+    top_heads = " | ".join([s["headline"][:32] for s in stories[:3]])
+    yt_title = f"{top_heads} | AI News {formatted_date}"
 
     episode = {
         "date": iso_date,
@@ -384,23 +409,23 @@ def parse_markdown_prompt(md_text: str) -> dict:
         "title": yt_title,
         "intro": {
             "durationSeconds": 18,
-            "headline": "AI SECURITY, POLICY, AND SOVEREIGN COMPUTE",
+            "headline": "GLOBAL AI INTELLIGENCE WIRE",
             "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-            "script": intro_script
+            "script": clean_text_for_broadcast(intro_script)
         },
         "transitions": transitions,
         "stories": stories,
         "recap": {
             "durationSeconds": 12,
             "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-            "script": recap_script,
+            "script": clean_text_for_broadcast(recap_script),
             "items": recap_items
         },
         "marketSnapshot": {
             "durationSeconds": 16,
             "headline": "GLOBAL AI MARKET SNAPSHOT",
             "subheadline": "SANMITRA DESK • STRATEGIC TELEMETRY",
-            "script": "Turning to the SanMitra AI Market Snapshot: Autonomous agent governance tightens after OpenAI disclosures, Pentagon restrictions on Anthropic are affirmed, Microsoft unifies enterprise productivity, DeepSeek scales domestic monetization, and India accelerates sovereign compute capital.",
+            "script": "Turning to the SanMitra AI Market Snapshot: Washington and Beijing formalize bilateral Super Intelligence communications, OpenAI initiates security audits after runtime containment breaches, DeepSeek reaches one billion in annual revenue, Grab mobilizes regional gig workers, and India accelerates sovereign compute capital.",
             "entities": market_entities
         },
         "outro": {
@@ -409,24 +434,19 @@ def parse_markdown_prompt(md_text: str) -> dict:
             "subheadline": "Daily Global AI Intelligence",
             "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
             "bureaus": ["WORLD", "USA", "CHINA", "ASIA", "INDIA"],
-            "script": outro_script
+            "script": clean_text_for_broadcast(outro_script)
         },
-        "ticker": ["SanMitra AI News Wire v5.0"] + [s["headline"][:45] for s in stories],
+        "ticker": ["SanMitra AI News Wire v6.0"] + [s["headline"][:45] for s in stories],
         "thumbnail": {
             "date": formatted_date.upper(),
-            "headline": "OPENAI AGENT SECURITY ALERT",
-            "subheadline": "PENTAGON ANTHROPIC RULING • COPILOT SUPER APP",
-            "storyHighlights": [
-                "OPENAI AGENT INCIDENTS",
-                "PENTAGON VS ANTHROPIC",
-                "MICROSOFT COPILOT SUPER APP",
-                "INDIA ₹20,000 CR COMPUTE FUND"
-            ]
+            "headline": stories[0]["headline"].upper() if stories else "BIGGEST AI NEWS TODAY",
+            "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+            "storyHighlights": [s["headline"][:35].upper() for s in stories[:4]]
         },
         "youtubeMetadata": {
             "title": yt_title,
-            "descriptionIntro": f"Daily institutional-grade AI intelligence from the SanMitra Newsroom. Today's broadcast covers OpenAI's autonomous agent security incidents, US court rulings on Pentagon Anthropic restrictions, Microsoft's unified Copilot platform, US-China AI diplomacy, DeepSeek's $1B revenue milestone, Japan's datacenter financing review, India's ₹20,000 Cr compute fund, and Sarvam AI Vision 2.1.",
-            "tags": ["AI", "OpenAI", "Anthropic", "Pentagon", "Microsoft", "Copilot", "DeepSeek", "IndiaAI", "SarvamAI", "TechNews", "SanMitra"]
+            "descriptionIntro": f"Daily institutional-grade AI intelligence from the SanMitra Newsroom covering {formatted_date}.",
+            "tags": ["AI", "ArtificialIntelligence", "SuperIntelligence", "OpenAI", "DeepSeek", "TechNews", "SanMitra"]
         }
     }
 
@@ -464,6 +484,7 @@ def main():
     print(f"    - Stories: {len(episode['stories'])}")
     for i, s in enumerate(episode['stories'], 1):
         print(f"      {i}. [{s['region']}] {s['headline']}")
+        print(f"         Narration: {s['script'][:80]}...")
     print(f"    - Output: {out_path} and {active_path}")
 
 if __name__ == "__main__":
