@@ -1,12 +1,12 @@
 {
   "date": "2026-09-28",
   "formattedDate": "28 September 2026",
-  "title": "👑 [LEAD STORY] NVIDIA Launches O | AI News 28 September 2026",
+  "title": "Tesla Reportedly Can’t Get the H | NVIDIA Launches Open Agent Safet | 👑 [LEAD STORY] China may allow B | AI News 28 September 2026",
   "intro": {
     "durationSeconds": 18,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "In a landmark development, 👑 [LEAD STORY] NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment. From the SanMitra Newsroom, here is the Daily AI Brief for 28 September 2026."
+    "script": "In a landmark development, Tesla Reportedly Can’t Get the Hands to Work on Its Optimus Robot. From the SanMitra Newsroom, here is the Daily AI Brief for 28 September 2026."
   },
   "transitions": [
     {
@@ -15,24 +15,45 @@
       "title": "NEXT: USA & REGIONAL STRATEGY",
       "display": "NEXT: USA",
       "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
     }
   ],
   "stories": [
     {
-      "id": "s1_lead_story_nvidia_launches_open",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "👑 [LEAD STORY] NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment",
+      "id": "s1_tesla_reportedly_can_t_get_the_h",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Tesla Reportedly Can’t Get the Hands to Work on Its Optimus Robot",
       "subheadline": "Verified Report // Source: Verified Reports",
       "importanceScore": 99,
       "durationSeconds": 24,
       "source": "Verified Reports",
       "sourceUrl": "https://reuters.com",
-      "script": "In our lead story today, ---",
-      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "script": "In our lead story today, Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping WORLD artificial intelligence policy and sovereign compute.",
       "keyPoints": [
-        "👑 [LEAD STORY] NVIDIA Launches Open Agent Safety Platform to",
+        "Tesla Reportedly Can’t Get the Hands to Work on Its Optimus ",
         "Verified by Verified Reports"
       ],
       "visualCuts": [
@@ -52,14 +73,158 @@
           "panDirection": "zoomOut"
         }
       ]
+    },
+    {
+      "id": "s2_nvidia_launches_open_agent_safet",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment",
+      "subheadline": "Verified Report // Source: Verified Reports",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "Verified Reports",
+      "sourceUrl": "https://reuters.com",
+      "script": "Turning to the United States, Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "NVIDIA Launches Open Agent Safety Platform to Secure Agents ",
+        "Verified by Verified Reports"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-09-28/s2_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH LAB • SANDBOX CONTAINMENT DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-28/s2_cut2.jpg",
+          "badge": "DNS RESOLVER AUDIT • KERNEL-LEVEL VIRTUALIZATION LOCK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-28/s2_cut3.jpg",
+          "badge": "HIGH-THROUGHPUT GPU CLUSTER • TRAINING REVIEWS",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_lead_story_china_may_allow_byte",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "👑 [LEAD STORY] China may allow ByteDance, Alibaba to buy Nvidia RTX PRO 5500 chips",
+      "subheadline": "Verified Report // Source: Verified Reports",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "Verified Reports",
+      "sourceUrl": "https://reuters.com",
+      "script": "Meanwhile in China, Turning to CHINA: China may allow ByteDance, Alibaba to buy Nvidia RTX PRO 5500 chips. Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping CHINA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "👑 [LEAD STORY] China may allow ByteDance, Alibaba to buy Nvi",
+        "Verified by Verified Reports"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-09-28/s3_cut1.jpg",
+          "badge": "SECURITY OPERATIONS CENTER • THREAT INTELLIGENCE DESK",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-28/s3_cut2.jpg",
+          "badge": "RESEARCH SCIENTISTS • MULTI-AGENT GUARDRAIL AUDITING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-28/s3_cut3.jpg",
+          "badge": "INCIDENT TELEMETRY • SYSTEMATIC DRIFT MONITORING",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_tsmc_affiliate_already_eyes_expa",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "TSMC affiliate already eyes expansion as first Singapore plant 'sells out'",
+      "subheadline": "Verified Report // Source: Verified Reports",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Verified Reports",
+      "sourceUrl": "https://reuters.com",
+      "script": "Across Southeast Asia, Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping ASIA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "TSMC affiliate already eyes expansion as first Singapore pla",
+        "Verified by Verified Reports"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-09-28/s4_cut1.jpg",
+          "badge": "ENTERPRISE ACCELERATOR SILICON • TRADE COMPLIANCE AUDIT",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-28/s4_cut2.jpg",
+          "badge": "BEIJING HIGH-TECH TECH PARK • PROCUREMENT DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-28/s4_cut3.jpg",
+          "badge": "LIQUID-COOLED COMPUTE HALL • ALIBABA & BYTEDANCE WORKLOADS",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_to_pour_rupees_20_000_crore_into",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "to Pour rupees 20,000 Crore Into Frontier AI",
+      "subheadline": "Verified Report // Source: Verified Reports",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Verified Reports",
+      "sourceUrl": "https://reuters.com",
+      "script": "Turning to India, Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping INDIA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "to Pour rupees 20,000 Crore Into Frontier AI",
+        "Verified by Verified Reports"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-09-28/s5_cut1.jpg",
+          "badge": "SEOUL TEHERAN VALLEY • SOVEREIGN PUBLIC AI INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-28/s5_cut2.jpg",
+          "badge": "KAKAOTALK MOBILE ASSISTANT • CIVIC & HEALTHCARE SERVICES",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-28/s5_cut3.jpg",
+          "badge": "SMART NATION DIGITAL FABRIC • MUNICIPAL TELEMETRY",
+          "panDirection": "zoomOut"
+        }
+      ]
     }
   ],
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's headlines: 👑 [LEAD STORY] NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment.",
+    "script": "To recap today's headlines: Tesla Reportedly Can’t Get the Hands to Work on Its Optimus Robot; NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment; 👑 [LEAD STORY] China may allow ByteDance, Alibaba to buy Nvidia RTX PRO 5500 chips; TSMC affiliate already eyes expansion as first Singapore plant 'sells out'; to Pour rupees 20,000 Crore Into Frontier AI.",
     "items": [
-      "✓ 👑 [LEAD STORY] NVIDIA Launches Open Agent Safety"
+      "✓ Tesla Reportedly Can’t Get the Hands to Work on ",
+      "✓ NVIDIA Launches Open Agent Safety Platform to Se",
+      "✓ 👑 [LEAD STORY] China may allow ByteDance, Alibab",
+      "✓ TSMC affiliate already eyes expansion as first S",
+      "✓ to Pour rupees 20,000 Crore Into Frontier AI"
     ]
   },
   "marketSnapshot": {
@@ -128,18 +293,25 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "👑 [LEAD STORY] NVIDIA Launches Open Agent Saf"
+    "Tesla Reportedly Can’t Get the Hands to Work ",
+    "NVIDIA Launches Open Agent Safety Platform to",
+    "👑 [LEAD STORY] China may allow ByteDance, Ali",
+    "TSMC affiliate already eyes expansion as firs",
+    "to Pour rupees 20,000 Crore Into Frontier AI"
   ],
   "thumbnail": {
     "date": "28 SEPTEMBER 2026",
-    "headline": "👑 [LEAD STORY] NVIDIA LAUNCHES OPEN AGENT SAFETY PLATFORM TO SECURE AGENTS FROM TESTING TO DEPLOYMENT",
+    "headline": "TESLA REPORTEDLY CAN’T GET THE HANDS TO WORK ON ITS OPTIMUS ROBOT",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "👑 [LEAD STORY] NVIDIA LAUNCHES OPEN"
+      "TESLA REPORTEDLY CAN’T GET THE HAND",
+      "NVIDIA LAUNCHES OPEN AGENT SAFETY P",
+      "👑 [LEAD STORY] CHINA MAY ALLOW BYTE",
+      "TSMC AFFILIATE ALREADY EYES EXPANSI"
     ]
   },
   "youtubeMetadata": {
-    "title": "👑 [LEAD STORY] NVIDIA Launches O | AI News 28 September 2026",
+    "title": "Tesla Reportedly Can’t Get the H | NVIDIA Launches Open Agent Safet | 👑 [LEAD STORY] China may allow B | AI News 28 September 2026",
     "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 28 September 2026.",
     "tags": [
       "AI",
