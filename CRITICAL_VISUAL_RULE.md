@@ -1,25 +1,54 @@
-# CRITICAL VISUAL RULE: YouTube AI News Broadcast Standard
+# CRITICAL VISUAL RULE: YouTube AI News Broadcast Standard v3.0
 
-This is a YouTube television broadcast news video, NOT a PowerPoint presentation or slideshow.
-
-## The Retention Formula (Per Story)
-
-* **70%–75% Representative Visuals**: Real editorial photographs, authentic stock footage, recognizable corporate headquarters, keynote stages, government halls, robotics laboratories, and hyperscale server corridors.
-* **15%–20% Motion Graphics**: Digital globe, cyber telemetry, network nodes, and circuit overlays.
-* **10% Text**: Crisp television lower-third banner for headlines and "Why This Matters" ticker. Never large blocks of slide text or bullet points filling the screen.
+This is a television broadcast news video, NOT a PowerPoint presentation or static slideshow.
 
 ---
 
-## The 4–6 Second Television Rule
+## 🚫 AVOID OVERUSED STOCK IMAGERY (PERMANENTLY BANNED)
 
-1. **Never leave the same visual on screen longer than 4–6 seconds.**
-2. Rotate continuously between:
-   * **Cut 1 (0–5s)**: Cinematic establishing photo/footage with Ken Burns slow push-in.
-   * **Cut 2 (5–10s)**: High-focus technology, code, or engineering activity with slow camera drift.
-   * **Cut 3 (10–15s)**: Macro hardware, chip architecture, or data visualization overlay.
-   * **Cut 4 (15s+)**: Hyperscale datacenter, research lab, or sovereign infrastructure.
-3. Do not keep infographic frames on screen for more than 3 seconds continuously.
-4. Whenever a company is mentioned, show their stage, logo, research facility, or real engineers.
-5. Whenever a country/region is mentioned, show recognized skylines, government buildings, and infrastructure.
+Never use these exhausted generic stock visual tropes:
+* ❌ Obama on the phone (`gov_white_house.jpg`)
+* ❌ UN emblem / logo full-screen (`gov_un_chamber.jpg`, `un_declaration.png`)
+* ❌ Gateway of India (`gov_india_delhi.jpg`)
+* ❌ Earth-at-night satellite image (`tech_neural_globe.jpg`)
+* ❌ Generic politician podium / microphone cluster
+* ❌ Generic AI robot faces / glowing android skulls
+* ❌ OpenAI logo on plain blue background
+* ❌ Generic hacker in a dark hoodie
+* ❌ Generic motherboard / circuit board macro without scale
+* ❌ Repetitive data center corridors without authentic context
 
-The viewer should feel they are watching **CNBC, Bloomberg, Reuters, or DW News**, not reading a slide deck.
+---
+
+## 🧠 VISUAL MEMORY SYSTEM (14-DAY ROLLING WINDOW)
+
+* Maintain a persistent rolling 14-day memory in `src/aibrief/data/visual_memory.json`.
+* **Zero Repeats within 14 Days**: Do not reuse the same hero image, specific landmark, or stock photo within 14 days unless the news item is a direct continuation and no suitable alternative exists.
+* **Target Metric**: Minimum **80% visual freshness** day-to-day.
+
+---
+
+## 🎯 CHANGE FROM TOPIC-BASED TO STORY-BASED VISUALS
+
+Do not pick visuals based on broad keywords (e.g., "India" -> Gateway of India, "UN" -> UN Logo). Pick visuals based on the **specific narrative event**:
+
+### Multi-Cut Formula Per Story:
+1. **Primary Visual (Cut 1: 0–6s)**: Direct contextual representation of the event (e.g. situational conference room, facility exterior, corporate campus).
+2. **Alternative Visual A (Cut 2: 6–12s)**: Operational or engineering context (e.g. SOC operations center, semiconductor cleanroom, code terminal, mobile platform).
+3. **Alternative Visual B (Cut 3: 12–18s)**: Hardware, infrastructure, or human impact (e.g. liquid-cooled compute corridor, engineers in lab, municipal user terminal).
+
+### Rotate Across 5 Professional Styles:
+* **Newsroom Style**: Live telemetry dashboards, data walls, trading desks.
+* **Documentary Style**: Real research facilities, corporate headquarters, semiconductor fabs.
+* **Strategic Briefing Style**: Situation rooms, cyber defense SOCs, command consoles.
+* **Infographic Style**: High-tech network topologies, architecture flowcharts, satellite links.
+* **Cinematic Style**: High-rise skylines, illuminated technology corridors, supercomputing clusters.
+
+---
+
+## ⏱️ The 4–6 Second Television Rule
+
+1. **Never leave any visual on screen longer than 4–6 seconds.**
+2. Continuous Ken Burns motion on every cut (`zoomIn`, `panLeft`, `zoomOut`, `panRight`).
+3. Lower-third banners must stay crisp and institutional (Navy glass `#071126` with Cyan `#00F2FE` and Amber `#FFB800` accents).
+4. The viewer must feel they are watching **Bloomberg Technology, CNBC TechCheck, or Reuters AI Briefing**.

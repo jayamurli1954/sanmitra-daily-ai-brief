@@ -254,57 +254,71 @@ def parse_markdown_prompt(md_text: str) -> dict:
         while len(selected_stories) < 6 and reg in by_region and by_region[reg]:
             selected_stories.append(by_region[reg].pop(0))
 
-    # Visual assets catalog
-    visual_catalog = {
+    # Visual assets catalog (Clean institutional fallback without banned imagery)
+    clean_fallback_catalog = {
         1: {
-            "main": "aibrief/assets/editorial/gov_un_chamber.jpg",
-            "cut2": "aibrief/assets/editorial/gov_white_house.jpg",
-            "cut3": "aibrief/assets/editorial/tech_neural_globe.jpg",
-            "badge1": "UNITED NATIONS GENERAL ASSEMBLY • DIPLOMATIC ACCORD",
-            "badge2": "WASHINGTON-BEIJING DIPLOMATIC HOTLINE • SUPER INTELLIGENCE",
-            "badge3": "GLOBAL CRISIS COMMUNICATIONS & RISK MITIGATION TELEMETRY"
+            "main": "aibrief/assets/editorial/tech_cyber_command.jpg",
+            "cut2": "aibrief/assets/editorial/tech_data_telemetry.jpg",
+            "cut3": "aibrief/assets/editorial/tech_server_hall.jpg",
+            "badge1": "BILATERAL CRISIS COMMUNICATIONS • SPECIAL REPORT",
+            "badge2": "ENCRYPTED TELEMETRY • SUPERCOMPUTER BACKBONE",
+            "badge3": "GLOBAL INFRASTRUCTURE • DE-ESCALATION PROTOCOLS"
         },
         2: {
             "main": "aibrief/assets/editorial/tech_cyber_command.jpg",
             "cut2": "aibrief/assets/editorial/tech_code_screen.jpg",
-            "cut3": "aibrief/assets/editorial/person_sam_altman.jpg",
+            "cut3": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
             "badge1": "CYBER OPERATIONS COMMAND CENTER • SANDBOX CONTAINMENT",
-            "badge2": "DNS RESOLVER LOOPHOLE • AGENT RUNTIME PERMISSION TELEMETRY",
+            "badge2": "DNS RESOLVER AUDIT • AGENT PERMISSION TELEMETRY",
             "badge3": "OPENAI SAFETY PROTOCOL AUDIT • CONTAINMENT REVIEW DESK"
         },
         3: {
             "main": "aibrief/assets/editorial/gov_us_capitol_hearing.jpg",
             "cut2": "aibrief/assets/editorial/tech_data_telemetry.jpg",
-            "cut3": "aibrief/assets/editorial/person_dario_amodei.jpg",
+            "cut3": "aibrief/assets/editorial/tech_server_hall.jpg",
             "badge1": "REGULATORY CONFERENCE CENTER • FRONTIER LAB ALLIANCE",
             "badge2": "INDEPENDENT AUDIT STANDARDS • RUNTIME RED TEAMING HUD",
-            "badge3": "ANTHROPIC & OPENAI EXECUTIVE COMPLIANCE DESK"
+            "badge3": "EXECUTIVE COMPLIANCE & INCIDENT REPORTING DESK"
         },
         4: {
             "main": "aibrief/assets/editorial/tech_server_hall.jpg",
             "cut2": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
             "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
-            "badge1": "CHINESE HYPERSCALE CAMPUS • 380K CONCURRENT WORKLOADS",
-            "badge2": "DEEPSEEK DSEC PLATFORM • 3 MILLION DAILY SANDBOXES",
-            "badge3": "COMMERCIAL RUN RATE • $1B REVENUE TELEMETRY"
+            "badge1": "HYPERSCALE CAMPUS • ENTERPRISE WORKLOADS",
+            "badge2": "ACCELERATOR SILICON WAFER • COMPLIANCE AUDIT",
+            "badge3": "COMMERCIAL RUN RATE • ENTERPRISE TELEMETRY"
         },
         5: {
             "main": "aibrief/assets/editorial/fin_tokyo_district.jpg",
             "cut2": "aibrief/assets/editorial/tech_laptop_showcase.jpg",
-            "cut3": "aibrief/assets/editorial/tech_neural_globe.jpg",
-            "badge1": "SINGAPORE REGIONAL HEADQUARTERS • SOUTHEAST ASIA MAP",
-            "badge2": "30,000 GIG WORKERS • MOBILE AGENT WORKFLOWS",
-            "badge3": "REGIONAL PRODUCTIVITY TELEMETRY • SME INVENTORY TOOLS"
+            "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
+            "badge1": "REGIONAL DIGITAL FABRIC • SOVEREIGN TECH MAP",
+            "badge2": "ENTERPRISE WORKFORCE • MOBILE AGENT WORKFLOWS",
+            "badge3": "REGIONAL PRODUCTIVITY TELEMETRY • PUBLIC SERVICES"
         },
         6: {
-            "main": "aibrief/assets/editorial/gov_india_delhi.jpg",
-            "cut2": "aibrief/assets/editorial/tech_server_hall.jpg",
+            "main": "aibrief/assets/editorial/tech_server_hall.jpg",
+            "cut2": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
             "cut3": "aibrief/assets/editorial/tech_data_telemetry.jpg",
-            "badge1": "ODISHA INFRASTRUCTURE DESK • ₹22,634 CR SOVEREIGN COMPUTE",
-            "badge2": "SENTRAFORGE HIGH-DENSITY GPU CLUSTERS • NATIONAL FABRIC",
-            "badge3": "SARVAM INFRASTRUCTURE & FLIPKART GEMINI COMMERCE HUD"
+            "badge1": "SOVEREIGN COMPUTE INFRASTRUCTURE • NATIONAL FABRIC",
+            "badge2": "HIGH-DENSITY GPU CLUSTERS • DOMESTIC MODELS",
+            "badge3": "DEFENSE READINESS & RUNTIME SECURITY HUD"
         }
     }
+
+    # Load visual memory if present
+    visual_mem_path = os.path.join("src", "aibrief", "data", "visual_memory.json")
+    visual_memory_badges = {}
+    if os.path.exists(visual_mem_path):
+        try:
+            with open(visual_mem_path, "r", encoding="utf-8") as vmf:
+                vmd = json.load(vmf)
+                for h in vmd.get("history", []):
+                    if h.get("date") == iso_date:
+                        for item in h.get("assets", []):
+                            visual_memory_badges[item["filename"]] = item.get("badge")
+        except Exception:
+            pass
 
     stories = []
     transitions = []
@@ -319,7 +333,6 @@ def parse_markdown_prompt(md_text: str) -> dict:
         script = format_broadcast_narration(idx, reg, head, body, prev_reg)
         prev_reg = reg
 
-        cat_info = visual_catalog.get(idx, visual_catalog[1])
         pans = [
             ("zoomIn", "panLeft", "zoomOut"),
             ("zoomOut", "panRight", "zoomIn"),
@@ -327,11 +340,28 @@ def parse_markdown_prompt(md_text: str) -> dict:
             ("panRight", "zoomOut", "panLeft")
         ][(idx - 1) % 4]
 
-        visual_cuts = [
-            {"image": cat_info["main"], "badge": cat_info["badge1"], "panDirection": pans[0]},
-            {"image": cat_info["cut2"], "badge": cat_info["badge2"], "panDirection": pans[1]},
-            {"image": cat_info["cut3"], "badge": cat_info["badge3"], "panDirection": pans[2]}
-        ]
+        # Check for fresh story-specific downloaded assets for this date
+        date_editorial_dir = os.path.join("public", "aibrief", "assets", "editorial", iso_date)
+        f_cut1 = os.path.join(date_editorial_dir, f"s{idx}_cut1.jpg")
+        f_cut2 = os.path.join(date_editorial_dir, f"s{idx}_cut2.jpg")
+        f_cut3 = os.path.join(date_editorial_dir, f"s{idx}_cut3.jpg")
+
+        if os.path.exists(f_cut1) and os.path.exists(f_cut2) and os.path.exists(f_cut3):
+            badge1 = visual_memory_badges.get(f"s{idx}_cut1.jpg", f"{reg} SPECIAL REPORT • CUT 1")
+            badge2 = visual_memory_badges.get(f"s{idx}_cut2.jpg", f"{reg} INFRASTRUCTURE • CUT 2")
+            badge3 = visual_memory_badges.get(f"s{idx}_cut3.jpg", f"{reg} DEPLOYMENT • CUT 3")
+            visual_cuts = [
+                {"image": f"aibrief/assets/editorial/{iso_date}/s{idx}_cut1.jpg", "badge": badge1, "panDirection": pans[0]},
+                {"image": f"aibrief/assets/editorial/{iso_date}/s{idx}_cut2.jpg", "badge": badge2, "panDirection": pans[1]},
+                {"image": f"aibrief/assets/editorial/{iso_date}/s{idx}_cut3.jpg", "badge": badge3, "panDirection": pans[2]}
+            ]
+        else:
+            cat_info = clean_fallback_catalog.get(idx, clean_fallback_catalog[1])
+            visual_cuts = [
+                {"image": cat_info["main"], "badge": cat_info["badge1"], "panDirection": pans[0]},
+                {"image": cat_info["cut2"], "badge": cat_info["badge2"], "panDirection": pans[1]},
+                {"image": cat_info["cut3"], "badge": cat_info["badge3"], "panDirection": pans[2]}
+            ]
 
         slug = re.sub(r"[^a-z0-9]+", "_", head.lower())[:32].strip("_")
         s_id = f"s{idx}_{slug}" if slug else f"story_{idx}"
