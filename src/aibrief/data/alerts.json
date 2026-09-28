@@ -1,5 +1,31 @@
 [
   {
+    "timestamp": "2026-09-28T23:04:07.781689",
+    "severity": "HIGH",
+    "message": "Episode failed Editorial Quality Gate (Composite: 83.5/100)",
+    "score_details": {
+      "date": "2026-09-28",
+      "composite_quality_score": 83.5,
+      "passes_quality_gate": false,
+      "threshold": 80.0,
+      "freshness_score": 95.0,
+      "source_authority_score": 100.0,
+      "bureau_balance_score": 50.0,
+      "active_bureaus": [
+        "USA"
+      ],
+      "duplication_score": 100.0,
+      "visual_freshness_score": 65.0,
+      "category_distribution": {
+        "researcher": 18
+      },
+      "failed_checks": [
+        "Only 1 bureaus active (minimum 3 required)",
+        "Visual diversity cap exceeded in categories: ['researcher']"
+      ]
+    }
+  },
+  {
     "timestamp": "2026-09-28T19:40:44.439845",
     "severity": "HIGH",
     "message": "Episode failed Editorial Quality Gate (Composite: 70.75/100)",
