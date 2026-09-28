@@ -71,6 +71,7 @@ def produce_from_prompt(prompt_file=None, privacy="public", upload_youtube=True,
     # 5. Render High-Contrast Thumbnails (Variants A, B, and C for A/B Testing)
     os.makedirs("out/aibrief", exist_ok=True)
     thumb_path = f"out/aibrief/thumbnail_{date_str}.png"
+    thumb_primary = "out/aibrief/thumbnail_primary.png"
     thumb_a = "out/aibrief/thumbnail_A.png"
     thumb_b = "out/aibrief/thumbnail_B.png"
     thumb_c = "out/aibrief/thumbnail_C.png"
@@ -78,7 +79,21 @@ def produce_from_prompt(prompt_file=None, privacy="public", upload_youtube=True,
     run_command(f"npx remotion still AIBriefThumbnailA {thumb_a}", "Rendering Thumbnail Variant A (Breaking Red)")
     run_command(f"npx remotion still AIBriefThumbnailB {thumb_b}", "Rendering Thumbnail Variant B (Exclusive Cyan)")
     run_command(f"npx remotion still AIBriefThumbnailC {thumb_c}", "Rendering Thumbnail Variant C (Critical Emerald)")
-    shutil.copyfile(thumb_a, thumb_path)
+
+    # AI Thumbnail Ranker: Algorithmic CTR selection
+    try:
+        from src.aibrief.thumbnail_ranker import rank_and_select_thumbnail
+        candidates = [
+            (thumb_a, "Variant A (Breaking Red)"),
+            (thumb_b, "Variant B (Exclusive Cyan)"),
+            (thumb_c, "Variant C (Critical Emerald)")
+        ]
+        rank_res = rank_and_select_thumbnail(candidates, output_primary_path=thumb_primary, date_alias_path=thumb_path)
+        print(f"[+] AI Thumbnail Ranker Winner: {rank_res['winning_variant']} (Score: {rank_res['winning_score']}/100)")
+    except Exception as e:
+        print(f"[!] Warning ranking thumbnails: {e}. Fallback to Variant A.")
+        shutil.copyfile(thumb_a, thumb_path)
+        shutil.copyfile(thumb_a, thumb_primary)
 
     # 6. Render Full 1080p Video with Keyword-Rich Filename (YouTube SEO ingest optimization)
     import re

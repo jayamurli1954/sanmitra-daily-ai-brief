@@ -1,219 +1,172 @@
 """
-Automated Editorial Visual Asset Downloader & Processor for SanMitra AI News Wire.
-Downloads authentic, story-specific 1920x1080 photography for every story of the day.
-Ensures zero visual repetition from day to day.
+Automated Editorial Visual Asset Downloader & Processor for SanMitra AI News Wire v7.0.
+Strictly complies with the Visual Freshness & Anti-Repetition Standard:
+1. PERMANENTLY BANNED:
+   - Obama on phone (gov_white_house.jpg)
+   - UN logo / emblem (gov_un_chamber.jpg, un_declaration.png)
+   - Gateway of India (gov_india_delhi.jpg)
+   - Earth-at-night satellite image (tech_neural_globe.jpg)
+   - Generic AI robot faces
+   - Generic hacker in hoodie
+2. STORY-BASED VISUALS:
+   - Primary Visual (Representative direct story context)
+   - Alternative Visual A (Infrastructure, hardware, or research angle)
+   - Alternative Visual B (Human engineering, SOC operations, or data analytics)
+3. 14-DAY VISUAL MEMORY SYSTEM:
+   - Maintains rolling log in src/aibrief/data/visual_memory.json
+   - Tracks image URLs, dates, and story contexts to guarantee >= 80% day-to-day freshness.
 """
 
+import argparse
+from datetime import datetime, timedelta
 import io
+import json
 import os
+import sys
 import urllib.request
 from PIL import Image, ImageEnhance, ImageOps
 
-DATE_STR = "2026-09-26"
-DEST_DIR = os.path.join("public", "aibrief", "assets", "editorial", DATE_STR)
-os.makedirs(DEST_DIR, exist_ok=True)
+if sys.stdout.encoding != 'utf-8':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
 
 TARGET_WIDTH = 1920
 TARGET_HEIGHT = 1080
+MEMORY_FILE = os.path.join("src", "aibrief", "data", "visual_memory.json")
 
-# Story-specific real photo URLs for 26 September 2026
-STORY_PHOTOS = [
-    # Story 1: OpenAI Agent Incidents
-    (
-        "s1_cut1.jpg",
-        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1920&q=85", # Cyber threat ops center
-        "public/aibrief/assets/editorial/tech_cyber_command.jpg"
-    ),
-    (
-        "s1_cut2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Sam_Altman_TechCrunch_Disrupt_2019_%28cropped%29.jpg/1920px-Sam_Altman_TechCrunch_Disrupt_2019_%28cropped%29.jpg",
-        "public/aibrief/assets/editorial/person_sam_altman.jpg"
-    ),
-    (
-        "s1_cut3.jpg",
-        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1920&q=85", # Digital security telemetry
-        "public/aibrief/assets/editorial/tech_code_screen.jpg"
-    ),
+# Permanently banned asset paths / keywords
+BANNED_ASSETS = {
+    "gov_white_house.jpg", # Obama on phone
+    "gov_un_chamber.jpg",  # UN emblem / assembly
+    "gov_india_delhi.jpg", # Gateway of India
+    "tech_neural_globe.jpg", # Earth at night
+    "un_declaration.png",
+    "us_china_talks.png"
+}
 
-    # Story 2: US Court Upholds Pentagon Restrictions on Anthropic
-    (
-        "s2_cut1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2a/The_Pentagon%2C_Headquarters_of_the_US_Department_of_Defense_%28cropped2%29.jpg",
-        "public/aibrief/assets/editorial/gov_white_house.jpg"
-    ),
-    (
-        "s2_cut2.jpg",
-        "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=85", # Courtroom & justice scales
-        "public/aibrief/assets/editorial/gov_us_capitol_hearing.jpg"
-    ),
-    (
-        "s2_cut3.jpg",
-        "local:public/aibrief/assets/editorial/person_dario_amodei.jpg", # Dario Amodei VIP
-        "public/aibrief/assets/editorial/person_dario_amodei.jpg"
-    ),
+# Curated Story-Specific Real Visuals for 2026-09-28
+DAILY_VISUAL_MAP = {
+    "2026-09-28": [
+        # Story 1: US-China AI Safety Hotline (Diplomatic situation room, encrypted telemetry, global comms)
+        ("s1_cut1.jpg", "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=1920&q=85", "SITUATION ROOM • BILATERAL CRISIS COMMUNICATIONS"),
+        ("s1_cut2.jpg", "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=85", "ENCRYPTED TELEMETRY • SUPERCOMPUTER BACKBONE"),
+        ("s1_cut3.jpg", "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=85", "GLOBAL FIBER NETWORK • DE-ESCALATION PROTOCOLS"),
 
-    # Story 3: Microsoft Launches Unified Copilot Super App
-    (
-        "s3_cut1.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Aerial_Microsoft_West_Campus_August_2009.jpg/1920px-Aerial_Microsoft_West_Campus_August_2009.jpg",
-        "public/aibrief/assets/editorial/tech_laptop_showcase.jpg"
-    ),
-    (
-        "s3_cut2.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg/1920px-MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg",
-        "public/aibrief/assets/editorial/person_sundar_pichai.jpg"
-    ),
-    (
-        "s3_cut3.jpg",
-        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1920&q=85", # Modern developer workstations
-        "public/aibrief/assets/editorial/tech_data_telemetry.jpg"
-    ),
+        # Story 2: OpenAI Training Pause (Containment research lab, kernel-level code debug, GPU cluster)
+        ("s2_cut1.jpg", "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&q=85", "FRONTIER AI RESEARCH LAB • SANDBOX CONTAINMENT DESK"),
+        ("s2_cut2.jpg", "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85", "DNS RESOLVER AUDIT • KERNEL-LEVEL VIRTUALIZATION LOCK"),
+        ("s2_cut3.jpg", "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85", "HIGH-THROUGHPUT GPU CLUSTER • TRAINING REVIEWS"),
 
-    # Story 4: US and China Renew Calls for AI Cooperation
-    (
-        "s4_cut1.jpg",
-        "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1920&q=85", # Bilateral summit conference table
-        "public/aibrief/assets/editorial/gov_un_chamber.jpg"
-    ),
-    (
-        "s4_cut2.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/China_Senate_House.jpg/1920px-China_Senate_House.jpg",
-        "public/aibrief/backgrounds/geopolitics.jpg"
-    ),
-    (
-        "s4_cut3.jpg",
-        "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=1920&q=85", # Global international connection map
-        "public/aibrief/assets/editorial/tech_neural_globe.jpg"
-    ),
+        # Story 3: Growing AI Incident Investigations (SOC operations center, engineering team, analytics wall)
+        ("s3_cut1.jpg", "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&q=85", "SECURITY OPERATIONS CENTER • THREAT INTELLIGENCE DESK"),
+        ("s3_cut2.jpg", "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1920&q=85", "RESEARCH SCIENTISTS • MULTI-AGENT GUARDRAIL AUDITING"),
+        ("s3_cut3.jpg", "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&q=85", "INCIDENT TELEMETRY • SYSTEMATIC DRIFT MONITORING"),
 
-    # Story 5: DeepSeek Revenue Surpasses $1B Run Rate
-    (
-        "s5_cut1.jpg",
-        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=85", # High density AI datacenter racks
-        "public/aibrief/backgrounds/cloud_infrastructure.jpg"
-    ),
-    (
-        "s5_cut2.jpg",
-        "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1920&q=85", # Stock market revenue curve
-        "public/aibrief/assets/editorial/tech_data_telemetry.jpg"
-    ),
-    (
-        "s5_cut3.jpg",
-        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1920&q=85", # Datacenter fiber cabling
-        "public/aibrief/assets/editorial/tech_server_hall.jpg"
-    ),
+        # Story 4: China - Nvidia RTX PRO 5500 Review (Semiconductor die inspection, tech campus, enterprise servers)
+        ("s4_cut1.jpg", "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=85", "ENTERPRISE ACCELERATOR SILICON • TRADE COMPLIANCE AUDIT"),
+        ("s4_cut2.jpg", "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=85", "BEIJING HIGH-TECH TECH PARK • PROCUREMENT DESK"),
+        ("s4_cut3.jpg", "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1920&q=85", "LIQUID-COOLED COMPUTE HALL • ALIBABA & BYTEDANCE WORKLOADS"),
 
-    # Story 6: Japan Reviews AI Data Center Financing Risks
-    (
-        "s6_cut1.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Bank_of_Japan_2010.jpg/1920px-Bank_of_Japan_2010.jpg",
-        "public/aibrief/assets/editorial/fin_tokyo_district.jpg"
-    ),
-    (
-        "s6_cut2.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg/1920px-Skyscrapers_of_Shinjuku_2009_January.jpg",
-        "public/aibrief/assets/editorial/fin_tokyo_district.jpg"
-    ),
-    (
-        "s6_cut3.jpg",
-        "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=85", # Power grid & electric substation
-        "public/aibrief/backgrounds/cloud_infrastructure.jpg"
-    ),
+        # Story 5: South Korea - Kakao "Everyone's AI" (Seoul tech corridor, mobile UX, smart city services)
+        ("s5_cut1.jpg", "https://images.unsplash.com/photo-1538485399081-7191377e8241?w=1920&q=85", "SEOUL TEHERAN VALLEY • SOVEREIGN PUBLIC AI INFRASTRUCTURE"),
+        ("s5_cut2.jpg", "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1920&q=85", "KAKAOTALK MOBILE ASSISTANT • CIVIC & HEALTHCARE SERVICES"),
+        ("s5_cut3.jpg", "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1920&q=85", "SMART NATION DIGITAL FABRIC • MUNICIPAL TELEMETRY"),
 
-    # Story 7: India Explores National Frontier AI Compute Fund
-    (
-        "s7_cut1.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Delhi_India_Government.jpg/1920px-Delhi_India_Government.jpg",
-        "public/aibrief/assets/editorial/gov_india_delhi.jpg"
-    ),
-    (
-        "s7_cut2.jpg",
-        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85", # Cyber supercomputer matrix
-        "public/aibrief/assets/editorial/tech_server_hall.jpg"
-    ),
-    (
-        "s7_cut3.jpg",
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=85", # Microprocessor silicon chip
-        "public/aibrief/backgrounds/ai_chips.jpg"
-    ),
+        # Story 6: India - Sarvam AI Defense & Sovereign Security (Electronic City tech park, Indian tech team, cyber defense)
+        ("s6_cut1.jpg", "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=1920&q=85", "BENGALURU ELECTRONIC CITY • DOMESTIC FOUNDATION MODELS"),
+        ("s6_cut2.jpg", "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1920&q=85", "SARVAM AI ENGINEERING LAB • AIR-GAPPED BENCHMARKS"),
+        ("s6_cut3.jpg", "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1920&q=85", "CRITICAL INFRASTRUCTURE DEFENSE • SOVEREIGN RUNTIME HUD")
+    ]
+}
 
-    # Story 8: Sarvam AI Launches Vision 2.1
-    (
-        "s8_cut1.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/View_from_Visvesvaraya_Industrial_and_Technological_Museum_%282025%29_02.jpg/1920px-View_from_Visvesvaraya_Industrial_and_Technological_Museum_%282025%29_02.jpg",
-        "public/aibrief/assets/editorial/gov_india_delhi.jpg"
-    ),
-    (
-        "s8_cut2.jpg",
-        "https://images.unsplash.com/photo-1450133064473-71024230f91b?w=1920&q=85", # Multilingual document processing
-        "public/aibrief/assets/editorial/tech_semiconductor_lab.jpg"
-    ),
-    (
-        "s8_cut3.jpg",
-        "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1920&q=85", # Software engineering squad
-        "public/aibrief/assets/editorial/tech_code_screen.jpg"
-    ),
-]
+def load_visual_memory() -> dict:
+    if os.path.exists(MEMORY_FILE):
+        try:
+            with open(MEMORY_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {"history": [], "banned": list(BANNED_ASSETS)}
+
+def save_visual_memory(memory: dict):
+    os.makedirs(os.path.dirname(MEMORY_FILE), exist_ok=True)
+    with open(MEMORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(memory, f, indent=2)
+
+from src.aibrief.visual_memory_manager import VisualMemoryManager
 
 def crop_and_grade(im: Image.Image) -> Image.Image:
-    # 1. Resize/Crop to exact 1920x1080 maintaining aspect ratio
+    # 1. Fit to 1920x1080 (16:9)
     im = ImageOps.fit(im, (TARGET_WIDTH, TARGET_HEIGHT), method=Image.Resampling.LANCZOS)
-    
     # 2. Subtle institutional broadcast grading: enhance contrast + slight saturation
     enhancer_contrast = ImageEnhance.Contrast(im)
     im = enhancer_contrast.enhance(1.08)
-    
     enhancer_color = ImageEnhance.Color(im)
     im = enhancer_color.enhance(1.05)
-    
     return im
 
-def download_and_save():
+def download_daily_visuals(date_str: str):
+    print("=" * 75)
+    print(f"🎬 DOWNLOADING FRESH STORY-BASED EDITORIAL VISUALS FOR {date_str}")
+    print("=" * 75)
+
+    dest_dir = os.path.join("public", "aibrief", "assets", "editorial", date_str)
+    os.makedirs(dest_dir, exist_ok=True)
+
+    items = DAILY_VISUAL_MAP.get(date_str, DAILY_VISUAL_MAP["2026-09-28"])
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
-    for filename, url, fallback_path in STORY_PHOTOS:
-        dest_file = os.path.join(DEST_DIR, filename)
-        if os.path.exists(dest_file):
-            print(f"[OK] Already present: {dest_file}")
-            continue
+    mgr = VisualMemoryManager()
+    used_this_run = []
+    category_counts = {}
 
-        print(f"[*] Downloading fresh visual: {filename}...")
-        downloaded = False
+    for filename, url, badge in items:
+        dest_file = os.path.join(dest_dir, filename)
+        category = mgr.classify_visual_category(badge, url)
+        print(f"[*] Processing visual: {filename} (Category: {category})...")
 
-        if url.startswith("local:"):
-            local_src = url.replace("local:", "")
-            if os.path.exists(local_src):
-                im = Image.open(local_src).convert("RGB")
-                im = crop_and_grade(im)
-                im.save(dest_file, quality=90)
-                downloaded = True
-                print(f"    [+] Loaded and graded local: {dest_file}")
-        elif url.startswith("http"):
+        try:
             req = urllib.request.Request(url, headers=headers)
-            try:
-                with urllib.request.urlopen(req, timeout=15) as r:
-                    data = r.read()
-                    im = Image.open(io.BytesIO(data)).convert("RGB")
-                    im = crop_and_grade(im)
-                    im.save(dest_file, quality=90)
-                    downloaded = True
-                    print(f"    [+] Saved fresh 1920x1080 visual: {dest_file}")
-            except Exception as e:
-                print(f"    [!] Failed to download from {url}: {e}")
-
-        # Fallback if download failed
-        if not downloaded:
-            if os.path.exists(fallback_path):
-                print(f"    [->] Using graded fallback: {fallback_path}")
-                im = Image.open(fallback_path).convert("RGB")
+            with urllib.request.urlopen(req, timeout=20) as r:
+                data = r.read()
+                im = Image.open(io.BytesIO(data)).convert("RGB")
                 im = crop_and_grade(im)
-                im.save(dest_file, quality=90)
-            else:
-                # Black gradient fallback
-                im = Image.new("RGB", (TARGET_WIDTH, TARGET_HEIGHT), (8, 14, 28))
-                im.save(dest_file)
 
-    print(f"\n[+] All 24 fresh editorial visuals saved into {DEST_DIR}!")
+                # Validate against 14-day pHash memory and diversity caps
+                approved, cand_hash, rejection_reason = mgr.check_visual_candidate(
+                    im, url, category, category_counts, current_date_str=date_str
+                )
+
+                if not approved:
+                    print(f"    [!] REJECTED BY EDITORIAL VISUAL GATE: {rejection_reason}")
+                    continue
+
+                im.save(dest_file, quality=92)
+                category_counts[category] = category_counts.get(category, 0) + 1
+                print(f"    [+] APPROVED & SAVED (pHash: {cand_hash}, Category count: {category_counts[category]}/2): {dest_file}")
+
+                used_this_run.append({
+                    "date": date_str,
+                    "filename": filename,
+                    "url": url,
+                    "badge": badge,
+                    "phash": cand_hash,
+                    "category": category
+                })
+        except Exception as e:
+            print(f"    [!] Error downloading from {url}: {e}")
+
+    # Register in 14-day pHash visual memory
+    if used_this_run:
+        mgr.register_episode_visuals(date_str, used_this_run)
+        print(f"\n[+] Visual memory updated with {len(used_this_run)} pHash-verified assets: {MEMORY_FILE}")
+        print(f"[+] Category diversity distribution: {category_counts}")
+        print(f"[+] All fresh visuals downloaded to: {dest_dir}\n")
 
 if __name__ == "__main__":
-    download_and_save()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--date", default=datetime.now().strftime("%Y-%m-%d"), help="Broadcast date (YYYY-MM-DD)")
+    args = parser.parse_args()
+    download_daily_visuals(args.date)

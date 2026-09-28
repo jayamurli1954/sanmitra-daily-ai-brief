@@ -1,0 +1,74 @@
+name: Nightly 11:00 PM AI News Intelligence Collector
+
+on:
+  schedule:
+    # 17:30 UTC is 11:00 PM IST
+    - cron: '30 17 * * *'
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: 'Target production date (YYYY-MM-DD)'
+        required: false
+        default: ''
+
+jobs:
+  collect-and-sync:
+    name: 11:00 PM Nightly Intelligence Curation & Git Sync
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install imagehash PyWavelets beautifulsoup4 requests pillow
+
+      - name: Run 24h Intelligence Gathering & Editorial Curation
+        env:
+          TARGET_DATE: ${{ github.event.inputs.target_date }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+        run: |
+          DATE_ARG=""
+          if [ -n "$TARGET_DATE" ]; then
+            DATE_ARG="--date $TARGET_DATE"
+          fi
+          # Run without local git push inside script; workflow handles git commit/push
+          python nightly_brief_collector.py $DATE_ARG --no-git
+
+      - name: Commit & Push Curated Prompt & Assets
+        run: |
+          git config --global user.name "SanMitra Intelligence Bot"
+          git config --global user.email "bot@sanmitratech.com"
+          git add prompts/ src/aibrief/data/ public/aibrief/assets/editorial/
+          if git diff --staged --quiet; then
+            echo "[*] No new editorial changes to commit."
+          else
+            git commit -m "Auto: 24h AI Intelligence ingested at 11:00 PM IST [skip ci]"
+            git push origin main
+            echo "[+] Night intelligence committed and pushed to GitHub main branch."
+          fi
+
+      - name: Upload Daily Prompt Artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nightly-intel-artifacts
+          path: |
+            prompts/*.md
+            src/aibrief/data/active_episode.json
+            src/aibrief/data/visual_memory.json
+            src/aibrief/data/story_memory_ledger.json
+            src/aibrief/data/alerts.json
+          retention-days: 7

@@ -1,0 +1,39 @@
+{
+  "version": "2.1.1",
+  "last_updated": "2026-09-28",
+  "category_affinity_weights": {
+    "semiconductor": 1.18,
+    "robotics": 1.12,
+    "sovereign_ai": 1.13,
+    "ai_safety": 1.08,
+    "enterprise_rollout": 1.0
+  },
+  "visual_style_performance": {
+    "strategic_briefing": {
+      "avg_ctr": 7.4,
+      "avg_retention": 62.0
+    },
+    "newsroom": {
+      "avg_ctr": 6.8,
+      "avg_retention": 58.0
+    },
+    "documentary": {
+      "avg_ctr": 6.2,
+      "avg_retention": 55.0
+    }
+  },
+  "recent_telemetry": [
+    {
+      "date": "2026-09-28",
+      "video_id": "yt_demo_20260928",
+      "title": "AI News 2026-09-28: US-China Safety Hotline & OpenAI Training Pause",
+      "ctr": 7.8,
+      "retention_pct": 64.5,
+      "topics": [
+        "semiconductor",
+        "sovereign_ai",
+        "ai_safety"
+      ]
+    }
+  ]
+}

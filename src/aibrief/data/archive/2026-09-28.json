@@ -1,0 +1,448 @@
+{
+  "date": "2026-09-28",
+  "formattedDate": "28 September 2026",
+  "title": "SanMitra AI News Wire – 28 September 2026 | Global AI Intelligence",
+  "intro": {
+    "durationSeconds": 14,
+    "headline": "TODAY'S BIGGEST DEVELOPMENTS",
+    "subheadline": "GLOBAL INTELLIGENCE DESK",
+    "script": "Today on SanMitra AI News Wire: Major developments move through the United Nations, United States, China, Asia, and India across artificial intelligence and physical robotics. From the SanMitra Newsroom, here are today's biggest AI developments."
+  },
+  "transitions": [
+    {
+      "id": "trans_usa",
+      "region": "USA",
+      "title": "NEXT: UNITED STATES & FRONTIER LABS",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "trans_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & SEMICONDUCTOR CORRIDORS",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "trans_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIAAI MISSION & SOVEREIGN COMPUTE",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "marketSnapshot": {
+    "durationSeconds": 15,
+    "headline": "GLOBAL AI MARKET SNAPSHOT",
+    "subheadline": "SANMITRA DESK • STRATEGIC TELEMETRY",
+    "script": "Turning to the SanMitra AI Market Snapshot: Frontier labs expand autonomous agent tooling, physical robotics acceleration gains momentum across industrial manufacturing, and sovereign compute deployments scale across Asia and India.",
+    "entities": [
+      {
+        "name": "OpenAI",
+        "update": "Autonomous Agent Workflows",
+        "tag": "AGENTIC RUNTIME",
+        "color": "#10a37f"
+      },
+      {
+        "name": "Anthropic",
+        "update": "Enterprise Safety Protocols",
+        "tag": "RED-TEAMING",
+        "color": "#d97706"
+      },
+      {
+        "name": "Nvidia",
+        "update": "Physical AI & Quantum QPU",
+        "tag": "PHYSICAL AI",
+        "color": "#76b900"
+      },
+      {
+        "name": "Google",
+        "update": "Multimodal Extended Thinking",
+        "tag": "REASONING FABRIC",
+        "color": "#4285f4"
+      },
+      {
+        "name": "DeepSeek",
+        "update": "Open Architecture Scaling",
+        "tag": "SOVEREIGN MODELS",
+        "color": "#38bdf8"
+      },
+      {
+        "name": "IndiaAI",
+        "update": "38,000 GPU National Utility",
+        "tag": "NATIONAL COMPUTE",
+        "color": "#f97316"
+      },
+      {
+        "name": "Alibaba",
+        "update": "Zhenwu Silicon Architecture",
+        "tag": "CLOUD ACCELERATION",
+        "color": "#ef4444"
+      }
+    ]
+  },
+  "recap": {
+    "durationSeconds": 10,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's headlines: Major policy and model breakthroughs have advanced across the United Nations, the United States, China, the Asian semiconductor corridor, and the IndiaAI mission.",
+    "items": [
+      "✓ WORLD: Anthropic and OpenAI sound alarm on AI safety — an...",
+      "✓ USA: Scoop: Anthropic's Dario Amodei to have White Hous...",
+      "✓ CHINA: China Weighs Allowing Purchases of New Nvidia Chip...",
+      "✓ ASIA: Asia chip stocks slide as OpenAI pause revives AI ...",
+      "✓ INDIA: India targets 100,000 public GPUs for sovereign AI...",
+      "✓ GLOBAL: Foxconn and Alter form Beijing Futekang to launch ..."
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "Subscribe for daily AI intelligence updates.",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence and robotics. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire",
+    "Autonomous Enterprise Agents",
+    "Physical AI & Robotics",
+    "Sovereign GPU Infrastructure",
+    "UN Multilateral AI Governance",
+    "WORLD: Anthropic and OpenAI sound alarm on AI safety — and seek to shape how it’s controlled",
+    "USA: Scoop: Anthropic's Dario Amodei to have White House dinner with Trump",
+    "CHINA: China Weighs Allowing Purchases of New Nvidia Chips by ByteDance, Alibaba",
+    "ASIA: Asia chip stocks slide as OpenAI pause revives AI slowdown fears",
+    "INDIA: India targets 100,000 public GPUs for sovereign AI by December",
+    "GLOBAL: Foxconn and Alter form Beijing Futekang to launch humanoid robot mass production platform"
+  ],
+  "stories": [
+    {
+      "id": "world_anthropic_and_openai_sound_a",
+      "region": "WORLD",
+      "category": "Global Policy & Multilateral Governance",
+      "categoryTag": "WORLD • GLOBAL POLICY & MULTILATERAL GOVERNANCE",
+      "historicalContext": "Over the past twenty-four hours, institutional developments in WORLD have accelerated strategic shifts across artificial intelligence governance and compute scaling.",
+      "whyThisMatters": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps.",
+      "headline": "Anthropic and OpenAI sound alarm on AI safety — and seek to shape how it’s controlled",
+      "subheadline": "Verified Report // Source: Reuters / Bloomberg Wire",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "Reuters / Bloomberg Wire",
+      "sourceUrl": "",
+      "script": "Turning to the United Nations and international bodies: Anthropic and OpenAI sound alarm on AI safety — and seek to shape how it’s controlled. Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "keyPoints": [
+        "Verified multi-source reporting by Reuters / Bloomberg Wire",
+        "Strategic operational impact on WORLD ecosystem",
+        "Mandatory enterprise compliance and infrastructure telemetry"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story4_nvidia_robotics.jpg",
+          "badge": "PHYSICAL AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_robotics_factory.jpg",
+          "badge": "AUTONOMOUS FACTORY TELEMETRY • LIVE SENSING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/story4_autonomous_robot.jpg",
+          "badge": "EMBODIED PERCEPTION & CONTROL PIPELINE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/gov_un_chamber.jpg",
+          "badge": "UNITED NATIONS SECURITY COUNCIL • HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/global_policy.jpg",
+          "badge": "MULTILATERAL AI DIPLOMACY & GOVERNANCE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "CYBER OPERATIONS DESK • REAL-TIME THREAT LOGS",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "usa_scoop__anthropic_s_dario_amo",
+      "region": "USA",
+      "category": "Frontier Models & Autonomous Agents",
+      "categoryTag": "USA • FRONTIER MODELS & AUTONOMOUS AGENTS",
+      "historicalContext": "Over the past twenty-four hours, institutional developments in USA have accelerated strategic shifts across artificial intelligence governance and compute scaling.",
+      "whyThisMatters": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps.",
+      "headline": "Scoop: Anthropic's Dario Amodei to have White House dinner with Trump",
+      "subheadline": "Verified Report // Source: Reuters / Bloomberg Wire",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "Reuters / Bloomberg Wire",
+      "sourceUrl": "",
+      "script": "Turning to USA: Scoop: Anthropic's Dario Amodei to have White House dinner with Trump. Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "keyPoints": [
+        "Verified multi-source reporting by Reuters / Bloomberg Wire",
+        "Strategic operational impact on USA ecosystem",
+        "Mandatory enterprise compliance and infrastructure telemetry"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/person_dario_amodei.jpg",
+          "badge": "AI SAFETY ARCHITECTURE • LEADERSHIP",
+          "panDirection": "zoomIn",
+          "isPortrait": true,
+          "personName": "DARIO AMODEI",
+          "personTitle": "CHIEF EXECUTIVE OFFICER, ANTHROPIC",
+          "companyTag": "ANTHROPIC • SAN FRANCISCO, CA",
+          "quote": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps."
+        },
+        {
+          "image": "aibrief/assets/editorial/gov_us_capitol_hearing.jpg",
+          "badge": "CAPITOL HILL • LEGISLATIVE OVERSIGHT COMMITTEE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/story5_us_capitol.jpg",
+          "badge": "BIPARTISAN REGULATORY DELIBERATIONS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "CYBER OPERATIONS DESK • REAL-TIME THREAT LOGS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "AGENTIC SYSTEM PERMISSIONS & AUDITING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "badge": "HYPERSCALE COMPUTE CORRIDOR • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "china_china_weighs_allowing_purcha",
+      "region": "CHINA",
+      "category": "Sovereign Silicon & Foundation Models",
+      "categoryTag": "CHINA • SOVEREIGN SILICON & FOUNDATION MODELS",
+      "historicalContext": "Over the past twenty-four hours, institutional developments in CHINA have accelerated strategic shifts across artificial intelligence governance and compute scaling.",
+      "whyThisMatters": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps.",
+      "headline": "China Weighs Allowing Purchases of New Nvidia Chips by ByteDance, Alibaba",
+      "subheadline": "Verified Report // Source: Reuters / Bloomberg Wire",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "Reuters / Bloomberg Wire",
+      "sourceUrl": "",
+      "script": "Turning to CHINA: China Weighs Allowing Purchases of New Nvidia Chips by ByteDance, Alibaba. Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "keyPoints": [
+        "Verified multi-source reporting by Reuters / Bloomberg Wire",
+        "Strategic operational impact on CHINA ecosystem",
+        "Mandatory enterprise compliance and infrastructure telemetry"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/person_jensen_huang.jpg",
+          "badge": "ACCELERATED COMPUTING • FOUNDER & CEO",
+          "panDirection": "zoomIn",
+          "isPortrait": true,
+          "personName": "JENSEN HUANG",
+          "personTitle": "PRESIDENT & CEO, NVIDIA",
+          "companyTag": "NVIDIA • SANTA CLARA, CA",
+          "quote": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps."
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_silicon_wafer.jpg",
+          "badge": "NEURAL ACCELERATOR FABRICATION • ADVANCED LITHOGRAPHY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "TENSOR ARCHITECTURE • HARDWARE TELEMETRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "CYBER OPERATIONS DESK • REAL-TIME THREAT LOGS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "AGENTIC SYSTEM PERMISSIONS & AUDITING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "badge": "HYPERSCALE COMPUTE CORRIDOR • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "asia_asia_chip_stocks_slide_as_op",
+      "region": "ASIA",
+      "category": "Semiconductors & Robotics Infrastructure",
+      "categoryTag": "ASIA • SEMICONDUCTORS & ROBOTICS INFRASTRUCTURE",
+      "historicalContext": "Over the past twenty-four hours, institutional developments in ASIA have accelerated strategic shifts across artificial intelligence governance and compute scaling.",
+      "whyThisMatters": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps.",
+      "headline": "Asia chip stocks slide as OpenAI pause revives AI slowdown fears",
+      "subheadline": "Verified Report // Source: Reuters / Bloomberg Wire",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "Reuters / Bloomberg Wire",
+      "sourceUrl": "",
+      "script": "Turning to ASIA: Asia chip stocks slide as OpenAI pause revives AI slowdown fears. Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "keyPoints": [
+        "Verified multi-source reporting by Reuters / Bloomberg Wire",
+        "Strategic operational impact on ASIA ecosystem",
+        "Mandatory enterprise compliance and infrastructure telemetry"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/tech_silicon_wafer.jpg",
+          "badge": "NEURAL ACCELERATOR FABRICATION • ADVANCED LITHOGRAPHY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "TENSOR ARCHITECTURE • HARDWARE TELEMETRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "CYBER OPERATIONS DESK • REAL-TIME THREAT LOGS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "AGENTIC SYSTEM PERMISSIONS & AUDITING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "badge": "HYPERSCALE COMPUTE CORRIDOR • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_code_screen.jpg",
+          "badge": "AUTONOMOUS SYSTEM TELEMETRY & WORKFLOW ENGINE",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "india_india_targets_100_000_public",
+      "region": "INDIA",
+      "category": "Sovereign Compute & National AI Mission",
+      "categoryTag": "INDIA • SOVEREIGN COMPUTE & NATIONAL AI MISSION",
+      "historicalContext": "Over the past twenty-four hours, institutional developments in INDIA have accelerated strategic shifts across artificial intelligence governance and compute scaling.",
+      "whyThisMatters": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps.",
+      "headline": "India targets 100,000 public GPUs for sovereign AI by December",
+      "subheadline": "Verified Report // Source: Reuters / Bloomberg Wire",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "Reuters / Bloomberg Wire",
+      "sourceUrl": "",
+      "script": "Turning to INDIA: India targets 100,000 public GPUs for sovereign AI by December. Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "keyPoints": [
+        "Verified multi-source reporting by Reuters / Bloomberg Wire",
+        "Strategic operational impact on INDIA ecosystem",
+        "Mandatory enterprise compliance and infrastructure telemetry"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/tech_silicon_wafer.jpg",
+          "badge": "NEURAL ACCELERATOR FABRICATION • ADVANCED LITHOGRAPHY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "TENSOR ARCHITECTURE • HARDWARE TELEMETRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/gov_india_delhi.jpg",
+          "badge": "MINISTRY OF ELECTRONICS & IT • NEW DELHI",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/story6_indian_engineers.jpg",
+          "badge": "INDIAAI SOVEREIGN GPU & RESEARCH UTILITY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "CYBER OPERATIONS DESK • REAL-TIME THREAT LOGS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "AGENTIC SYSTEM PERMISSIONS & AUDITING",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "global_foxconn_and_alter_form_beiji",
+      "region": "GLOBAL",
+      "category": "Physical AI & Robotics Frontier",
+      "categoryTag": "GLOBAL • PHYSICAL AI & ROBOTICS FRONTIER",
+      "historicalContext": "Over the past twenty-four hours, institutional developments in GLOBAL have accelerated strategic shifts across artificial intelligence governance and compute scaling.",
+      "whyThisMatters": "This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps.",
+      "headline": "Foxconn and Alter form Beijing Futekang to launch humanoid robot mass production platform",
+      "subheadline": "Verified Report // Source: Reuters / Bloomberg Wire",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "Reuters / Bloomberg Wire",
+      "sourceUrl": "",
+      "script": "Turning to GLOBAL: Foxconn and Alter form Beijing Futekang to launch humanoid robot mass production platform. Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "keyPoints": [
+        "Verified multi-source reporting by Reuters / Bloomberg Wire",
+        "Strategic operational impact on GLOBAL ecosystem",
+        "Mandatory enterprise compliance and infrastructure telemetry"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story4_nvidia_robotics.jpg",
+          "badge": "PHYSICAL AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_robotics_factory.jpg",
+          "badge": "AUTONOMOUS FACTORY TELEMETRY • LIVE SENSING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/story4_autonomous_robot.jpg",
+          "badge": "EMBODIED PERCEPTION & CONTROL PIPELINE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "CYBER OPERATIONS DESK • REAL-TIME THREAT LOGS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "AGENTIC SYSTEM PERMISSIONS & AUDITING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "badge": "HYPERSCALE COMPUTE CORRIDOR • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    }
+  ]
+}

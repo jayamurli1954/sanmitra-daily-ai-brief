@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-09-28T19:40:44.439845",
+    "severity": "HIGH",
+    "message": "Episode failed Editorial Quality Gate (Composite: 70.75/100)",
+    "score_details": {
+      "date": "2026-09-28",
+      "composite_quality_score": 70.75,
+      "passes_quality_gate": false,
+      "threshold": 80.0,
+      "freshness_score": 95.0,
+      "source_authority_score": 40.0,
+      "bureau_balance_score": 50.0,
+      "active_bureaus": [
+        "USA"
+      ],
+      "duplication_score": 100.0,
+      "visual_freshness_score": 80.0,
+      "category_distribution": {},
+      "failed_checks": [
+        "Average Source Authority 40.0 < 85.0 required",
+        "Only 1 bureaus active (minimum 3 required)"
+      ]
+    }
+  }
+]
