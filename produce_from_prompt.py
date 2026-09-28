@@ -130,16 +130,25 @@ def produce_from_prompt(prompt_file=None, privacy="public", upload_youtube=True,
             f"Uploading 1080p Broadcast to YouTube ({privacy.upper()})"
         )
 
-    # 8. Google Drive Backup
+    # 8. Render LinkedIn Cover Banner & Generate LinkedIn Long-Form Article
+    linkedin_cover = f"out/aibrief/linkedin_cover_{date_str}.png"
+    run_command(f"npx remotion still AIBriefLinkedInCover {linkedin_cover}", "Rendering 16:9 LinkedIn Article Cover Banner")
+    shutil.copyfile(linkedin_cover, "out/aibrief/linkedin_cover.png")
+
+    run_command(f"python src/aibrief/generate_linkedin_article.py --json {active_file}", "Generating LinkedIn Long-Form Article & Executive Dispatch")
+
+    # 9. Google Drive Backup
     folder_id = os.environ.get("GDRIVE_FOLDER_ID")
     if folder_id:
-        run_command(f"python upload_to_gdrive.py --folder-id {folder_id}", "Backing up broadcast deliverables to Google Drive")
+        run_command(f"python upload_to_gdrive.py --folder-id {folder_id}", "Backing up broadcast & LinkedIn deliverables to Google Drive")
 
     print("\n" + "=" * 75)
     print("🚀 PRODUCTION FINISHED SUCCESSFULLY!")
-    print(f"📅 Date:    {date_str}")
-    print(f"🎬 Video:   {video_out}")
-    print(f"🖼️  Thumb:   {thumb_path}")
+    print(f"📅 Date:     {date_str}")
+    print(f"🎬 Video:    {video_out}")
+    print(f"🖼️  Thumb:    {thumb_path}")
+    print(f"🎨 LI Cover: {linkedin_cover}")
+    print(f"📝 LI Post:  out/aibrief/linkedin_article.md")
     print("=" * 75)
 
 if __name__ == "__main__":

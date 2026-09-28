@@ -9,6 +9,7 @@ import { LegalMitraWebsiteHero } from "./legalmitra/LegalMitraWebsiteHero";
 import { LegalMitraDemo60s } from "./legalmitra/LegalMitraDemo60s";
 import { AIBriefVideo } from "./aibrief/AIBriefVideo";
 import { AIBriefThumbnail } from "./aibrief/AIBriefThumbnail";
+import { LinkedInCoverBanner } from "./aibrief/LinkedInCoverBanner";
 import { getAIBriefTotalFrames } from "./aibrief/timingsHelper";
 import {
   LEGAL_DURATION_IN_FRAMES,
@@ -176,6 +177,16 @@ export const RemotionRoot: React.FC = () => {
         id="AIBriefThumbnailC"
         component={AIBriefThumbnail}
         defaultProps={{ variant: "C" as const }}
+        durationInFrames={30}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* 16:9 LinkedIn Article Cover Banner (1920x1080) */}
+      <Composition
+        id="AIBriefLinkedInCover"
+        component={LinkedInCoverBanner}
         durationInFrames={30}
         fps={30}
         width={1920}

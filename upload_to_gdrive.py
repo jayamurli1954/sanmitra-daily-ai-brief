@@ -73,6 +73,8 @@ def main():
     files = [
         f"out/aibrief/AI_Brief_{date_str}.mp4",
         f"out/aibrief/thumbnail_{date_str}.png",
+        f"out/aibrief/linkedin_cover_{date_str}.png",
+        f"out/aibrief/linkedin_article.md",
         f"out/aibrief/facebook_post.txt",
         f"out/aibrief/linkedin_post.txt",
         f"out/aibrief/captions_{date_str}.srt"
