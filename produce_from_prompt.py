@@ -26,7 +26,7 @@ def run_command(cmd, desc):
         return False
     return True
 
-def produce_from_prompt(prompt_file=None, privacy="public", upload_youtube=True, render_video=True):
+def produce_from_prompt(prompt_file=None, privacy="private", upload_youtube=True, render_video=True):
     print("=" * 75)
     print("🎬 SANMITRA AI NEWS WIRE — CLOUD PROMPT PRODUCTION ENGINE")
     print(f"🔒 YouTube Privacy: {privacy.upper()}")
@@ -154,7 +154,7 @@ def produce_from_prompt(prompt_file=None, privacy="public", upload_youtube=True,
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Produce AI Brief directly from user prompt (zero scraping)")
     parser.add_argument("--prompt-file", help="Path to markdown prompt file")
-    parser.add_argument("--privacy", default="public", choices=["public", "unlisted", "private"], help="YouTube privacy")
+    parser.add_argument("--privacy", default="private", choices=["private", "unlisted", "public"], help="YouTube privacy (default: private)")
     parser.add_argument("--no-render", action="store_true", help="Skip rendering")
     parser.add_argument("--no-upload", action="store_true", help="Skip YouTube upload")
     args = parser.parse_args()

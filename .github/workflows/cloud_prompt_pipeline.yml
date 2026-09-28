@@ -12,12 +12,12 @@ on:
       privacy:
         description: 'YouTube Video Privacy'
         required: true
-        default: 'public'
+        default: 'private'
         type: choice
         options:
-          - public
-          - unlisted
           - private
+          - unlisted
+          - public
       prompt_file:
         description: 'Prompt Markdown File Path (leave empty if active_episode.json is already committed)'
         required: false
@@ -73,7 +73,7 @@ jobs:
 
       - name: Produce Video from Prompt & Upload Directly to YouTube
         env:
-          PRIVACY_SETTING: ${{ github.event.inputs.privacy || 'public' }}
+          PRIVACY_SETTING: ${{ github.event.inputs.privacy || 'private' }}
           PROMPT_FILE: ${{ github.event.inputs.prompt_file }}
           GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
         run: |

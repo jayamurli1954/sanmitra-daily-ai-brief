@@ -103,7 +103,7 @@ def parse_metadata_file(filepath):
             
     return title, description, tags
 
-def upload_video(youtube, file_path, title, description, tags, category_id="28", privacy_status="public"):
+def upload_video(youtube, file_path, title, description, tags, category_id="28", privacy_status="private"):
     body = {
         "snippet": {
             "title": title[:100], # YouTube max 100 chars
@@ -222,7 +222,7 @@ def main():
     today_str = datetime.now().strftime("%Y-%m-%d")
     parser = argparse.ArgumentParser(description="Upload AI Brief to YouTube")
     parser.add_argument("--date", type=str, default=today_str, help=f"Episode date (YYYY-MM-DD, default: {today_str})")
-    parser.add_argument("--privacy", type=str, default="public", choices=["public", "private", "unlisted"], help="Video privacy status")
+    parser.add_argument("--privacy", type=str, default="private", choices=["private", "unlisted", "public"], help="Video privacy status (default: private)")
     parser.add_argument("--video-file", type=str, help="Custom video file path")
     parser.add_argument("--thumb-file", type=str, help="Custom thumbnail file path")
     parser.add_argument("--meta-file", type=str, help="Custom metadata file path")

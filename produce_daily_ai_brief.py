@@ -30,7 +30,7 @@ def produce_daily_brief():
     parser.add_argument("--render-video", action="store_true", help="Render full 1080p MP4 video")
     parser.add_argument("--sample-frames", action="store_true", help="Render sample frame snapshots for preview")
     parser.add_argument("--upload-youtube", action="store_true", help="Upload directly to YouTube upon rendering")
-    parser.add_argument("--privacy", type=str, default="public", choices=["public", "unlisted", "private"], help="YouTube privacy status")
+    parser.add_argument("--privacy", type=str, default="private", choices=["private", "unlisted", "public"], help="YouTube privacy status (default: private)")
     args = parser.parse_args()
 
     date_str = args.date
