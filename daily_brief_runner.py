@@ -53,9 +53,9 @@ def run_daily_pipeline(date_str=None, privacy="private"):
         f"Scraping previous 24h AI & Robotics moves across 5 regions for {date_str}"
     )
 
-    # 2. Run master production (audio, subtitles, thumbnails, video rendering, YouTube upload)
-    prod_cmd = f"python produce_daily_ai_brief.py --date {date_str} --render-video --upload-youtube --privacy {privacy}"
-    prod_success = run_command(prod_cmd, "Rendering 1080p MP4 Broadcast and Uploading to YouTube")
+    # 2. Run master production (audio, subtitles, thumbnail ranker, 1080p MP4, LinkedIn cover/article, YouTube private upload)
+    prod_cmd = f"python produce_from_prompt.py --privacy {privacy}"
+    prod_success = run_command(prod_cmd, "Rendering 1080p MP4 Broadcast, LinkedIn Deliverables, and Uploading to YouTube")
 
     print("\n" + "=" * 75)
     if prod_success:

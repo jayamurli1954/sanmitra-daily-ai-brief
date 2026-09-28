@@ -1,9 +1,9 @@
 name: Daily SanMitra AI News Wire Production
 
 on:
-  # Scraping cron disabled per user instruction: all broadcasts are now driven directly by user-submitted prompts.
-  # schedule:
-  #   - cron: '50 1 * * *'
+  schedule:
+    # 02:00 UTC is 07:30 AM IST
+    - cron: '00 02 * * *'
   workflow_dispatch:
     inputs:
       privacy:
@@ -47,7 +47,9 @@ jobs:
         run: npm ci
 
       - name: Install Python Dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install imagehash PyWavelets
 
       - name: Configure Cloud Authentication Secrets
         env:
@@ -90,4 +92,5 @@ jobs:
             out/aibrief/*.png
             out/aibrief/*.srt
             out/aibrief/*.txt
+            out/aibrief/*.md
           retention-days: 7

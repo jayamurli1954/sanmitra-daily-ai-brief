@@ -51,7 +51,9 @@ def rank_and_curate_stories(
 
     for raw in candidate_stories:
         headline = raw.get("headline", "").strip()
-        summary = raw.get("summary", raw.get("lead", "")).strip()
+        body_text = (raw.get("summary") or raw.get("script") or raw.get("lead") or "").strip()
+        why_text = raw.get("whyThisMatters", "").strip()
+        full_context = f"{body_text} {why_text}".strip()
         companies = raw.get("companies", [])
         topics = raw.get("topics", [])
         country = raw.get("country", raw.get("region", "World"))
@@ -84,7 +86,7 @@ def rank_and_curate_stories(
         # Calculate 100-pt impact score and audit breakdown
         audit_score = score_story_impact(
             headline=headline,
-            summary=summary,
+            summary=full_context,
             source_url_or_name=source_url,
             mentions_in_last_7_days=mentions_7d,
             explicit_subscores=raw.get("subscores")
@@ -101,7 +103,7 @@ def rank_and_curate_stories(
         entry = {
             "headline": headline,
             "bureau": bureau,
-            "summary": summary,
+            "summary": body_text,
             "companies": companies,
             "topics": topics,
             "country": country,
