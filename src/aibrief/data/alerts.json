@@ -1,5 +1,38 @@
 [
   {
+    "timestamp": "2026-09-29T23:02:17.320288",
+    "severity": "HIGH",
+    "message": "Episode failed Editorial Quality Gate (Composite: 80.0/100)",
+    "score_details": {
+      "date": "2026-09-29",
+      "composite_quality_score": 80.0,
+      "passes_quality_gate": false,
+      "threshold": 80.0,
+      "freshness_score": 95.0,
+      "source_authority_score": 86.0,
+      "bureau_balance_score": 50.0,
+      "active_bureaus": [
+        "USA"
+      ],
+      "duplication_score": 100.0,
+      "visual_freshness_score": 65.0,
+      "category_distribution": {
+        "boardroom": 2,
+        "researcher": 3,
+        "datacenter": 2,
+        "semiconductor": 2,
+        "laboratory": 2,
+        "product_demo": 1,
+        "robotics": 2,
+        "government": 3
+      },
+      "failed_checks": [
+        "Only 1 bureaus active (minimum 3 required)",
+        "Visual diversity cap exceeded in categories: ['researcher', 'government']"
+      ]
+    }
+  },
+  {
     "timestamp": "2026-09-28T23:04:55.460212",
     "severity": "HIGH",
     "message": "Episode failed Editorial Quality Gate (Composite: 83.5/100)",

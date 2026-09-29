@@ -1,100 +1,100 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 11.69,
-    "sceneDurationSeconds": 12.89,
-    "durationInFrames": 387,
+    "audioDurationSeconds": 24.17,
+    "sceneDurationSeconds": 25.37,
+    "durationInFrames": 761,
     "title": "Intro: Today's Biggest AI Developments"
   },
-  "s1_us_china_ai_safety_hotline": {
-    "audioFile": "audio/aibrief/s1_s1_us_china_ai_safety_hotline.mp3",
-    "audioDurationSeconds": 20.35,
-    "sceneDurationSeconds": 21.55,
-    "durationInFrames": 647,
-    "title": "Story 1: US China AI Safety Hotline"
+  "s1_ai_pioneers_intelligence_explosion": {
+    "audioFile": "audio/aibrief/s1_s1_ai_pioneers_intelligence_explosion.mp3",
+    "audioDurationSeconds": 43.37,
+    "sceneDurationSeconds": 44.57,
+    "durationInFrames": 1337,
+    "title": "Story 1: Geoffrey Hinton, Yoshua Bengio, and AI Pioneers Warn of 'Intelligence Explosion'; Anthropic Flags Existential Risk"
   },
   "transition_usa": {
     "audioFile": "",
     "audioDurationSeconds": 0.0,
     "sceneDurationSeconds": 2.0,
     "durationInFrames": 60,
-    "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
+    "title": "Transition: NEXT: USA & FRONTIER LABS"
   },
-  "s2_openai_training_pause": {
-    "audioFile": "audio/aibrief/s2_s2_openai_training_pause.mp3",
-    "audioDurationSeconds": 18.79,
-    "sceneDurationSeconds": 19.99,
-    "durationInFrames": 600,
-    "title": "Story 2: OpenAI Training Pause"
+  "s2_nvidia_open_agent_safety_openai_astra": {
+    "audioFile": "audio/aibrief/s2_s2_nvidia_open_agent_safety_openai_astra.mp3",
+    "audioDurationSeconds": 40.34,
+    "sceneDurationSeconds": 41.54,
+    "durationInFrames": 1246,
+    "title": "Story 2: Nvidia Launches Open Agent Safety Platform; OpenAI Cancels GPT-6.1 Astra Over Autonomous Containment Concerns"
   },
-  "s3_growing_ai_incident_investigatio": {
-    "audioFile": "audio/aibrief/s3_s3_growing_ai_incident_investigatio.mp3",
-    "audioDurationSeconds": 15.02,
-    "sceneDurationSeconds": 16.22,
-    "durationInFrames": 487,
-    "title": "Story 3: Growing AI Incident Investigations"
+  "s3_amd_acquires_world_labs_fei_fei_li": {
+    "audioFile": "audio/aibrief/s3_s3_amd_acquires_world_labs_fei_fei_li.mp3",
+    "audioDurationSeconds": 35.62,
+    "sceneDurationSeconds": 36.82,
+    "durationInFrames": 1104,
+    "title": "Story 3: AMD Acquires Fei-Fei Li's World Labs in $8.2 Billion Physical-AI Megadeal"
   },
   "transition_china": {
     "audioFile": "",
     "audioDurationSeconds": 0.0,
     "sceneDurationSeconds": 2.0,
     "durationInFrames": 60,
-    "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
+    "title": "Transition: NEXT: CHINA & EMBODIED AI"
   },
-  "s4_nvidia_rtx_pro_5500_approval_dis": {
-    "audioFile": "audio/aibrief/s4_s4_nvidia_rtx_pro_5500_approval_dis.mp3",
-    "audioDurationSeconds": 17.38,
-    "sceneDurationSeconds": 18.58,
-    "durationInFrames": 557,
-    "title": "Story 4: Nvidia RTX PRO 5500 Approval Discussions"
+  "s4_china_embodied_ai_rtx_pro_5500": {
+    "audioFile": "audio/aibrief/s4_s4_china_embodied_ai_rtx_pro_5500.mp3",
+    "audioDurationSeconds": 39.48,
+    "sceneDurationSeconds": 40.68,
+    "durationInFrames": 1220,
+    "title": "Story 4: China Unveils Full-Stack Embodied AI Robot; Evaluates Nvidia RTX PRO 5500 Purchases"
   },
   "transition_asia": {
     "audioFile": "",
     "audioDurationSeconds": 0.0,
     "sceneDurationSeconds": 2.0,
     "durationInFrames": 60,
-    "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
+    "title": "Transition: NEXT: ASIA & GLOBAL GOVERNANCE"
   },
-  "s5_south_korea_everyone_s_ai": {
-    "audioFile": "audio/aibrief/s5_s5_south_korea_everyone_s_ai.mp3",
-    "audioDurationSeconds": 16.34,
-    "sceneDurationSeconds": 17.54,
-    "durationInFrames": 526,
-    "title": "Story 5: South Korea \"Everyone's AI\""
+  "s5_singapore_un_ai_safeguards_convention": {
+    "audioFile": "audio/aibrief/s5_s5_singapore_un_ai_safeguards_convention.mp3",
+    "audioDurationSeconds": 33.05,
+    "sceneDurationSeconds": 34.25,
+    "durationInFrames": 1027,
+    "title": "Story 5: Singapore Proposes UN Framework Convention on AI Safeguards and Global Verification Body"
   },
   "transition_india": {
     "audioFile": "",
     "audioDurationSeconds": 0.0,
     "sceneDurationSeconds": 2.0,
     "durationInFrames": 60,
-    "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
+    "title": "Transition: NEXT: INDIA & SOVEREIGN INFRASTRUCTURE"
   },
-  "s6_ai_security_push": {
-    "audioFile": "audio/aibrief/s6_s6_ai_security_push.mp3",
-    "audioDurationSeconds": 13.68,
-    "sceneDurationSeconds": 14.88,
-    "durationInFrames": 446,
-    "title": "Story 6: AI Security Push"
+  "s6_india_nirmala_sitharaman_iit_madras_google_atlas": {
+    "audioFile": "audio/aibrief/s6_s6_india_nirmala_sitharaman_iit_madras_google_atlas.mp3",
+    "audioDurationSeconds": 41.71,
+    "sceneDurationSeconds": 42.91,
+    "durationInFrames": 1287,
+    "title": "Story 6: Finance Minister Nirmala Sitharaman Urges National AI Infrastructure Push; Google ATLAS Details Adoption Gap"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 17.23,
-    "sceneDurationSeconds": 18.43,
-    "durationInFrames": 553,
+    "audioDurationSeconds": 12.53,
+    "sceneDurationSeconds": 13.73,
+    "durationInFrames": 412,
     "title": "Headlines Recap: Today's Critical Developments"
   },
   "market_snapshot": {
     "audioFile": "audio/aibrief/s_market_snapshot.mp3",
-    "audioDurationSeconds": 20.52,
-    "sceneDurationSeconds": 21.72,
-    "durationInFrames": 652,
+    "audioDurationSeconds": 15.94,
+    "sceneDurationSeconds": 17.14,
+    "durationInFrames": 514,
     "title": "AI Market Snapshot"
   },
   "outro": {
     "audioFile": "audio/aibrief/s_outro.mp3",
-    "audioDurationSeconds": 18.17,
-    "sceneDurationSeconds": 19.37,
-    "durationInFrames": 581,
+    "audioDurationSeconds": 16.32,
+    "sceneDurationSeconds": 17.52,
+    "durationInFrames": 526,
     "title": "Outro: Subscribe & Daily Bureaus"
   }
 }
