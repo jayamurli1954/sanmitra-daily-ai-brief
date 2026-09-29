@@ -1,12 +1,12 @@
 {
   "date": "2026-09-29",
   "formattedDate": "29 September 2026",
-  "title": "👑 [LEAD STORY] Anthropic warns o | OpenAI launches Dots, its Muse c | AI News 29 September 2026",
+  "title": "At UN, developing nations call f | OpenAI takes on Meta with dots a | Robotics Competition Winners Adv | AI News 29 September 2026",
   "intro": {
     "durationSeconds": 18,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "In a landmark development, 👑 [LEAD STORY] Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing. From the SanMitra Newsroom, here is the Daily AI Brief for 29 September 2026."
+    "script": "In a landmark development, At UN, developing nations call for bigger say in shaping AI future. From the SanMitra Newsroom, here is the Daily AI Brief for 29 September 2026."
   },
   "transitions": [
     {
@@ -15,24 +15,45 @@
       "title": "NEXT: USA & REGIONAL STRATEGY",
       "display": "NEXT: USA",
       "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
     }
   ],
   "stories": [
     {
-      "id": "s1_lead_story_anthropic_warns_of_c",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "👑 [LEAD STORY] Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
+      "id": "s1_at_un_developing_nations_call_fo",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "At UN, developing nations call for bigger say in shaping AI future",
       "subheadline": "Verified Report // Source: Verified Reports",
       "importanceScore": 99,
-      "durationSeconds": 49,
+      "durationSeconds": 24,
       "source": "Verified Reports",
       "sourceUrl": "https://reuters.com",
-      "script": "In our lead story today, As Anthropic gears up for its greatly anticipated public debut, a preview of the company's IPO filing reportedly details its mounting losses, leadership proposals to retain power, and how its AI development plans could \"further increase the risk that our models cause harm.\" These disclosures come as Anthropic eyes a dollars 2 trillion valuation, more than double the dollars 965 billion it was valued at four months ago, making it a contender to overtake SpaceX as the largest IPO in history. According to Reuters , which reportedly reviewed Anthropic's prospectus, the AI startup plans to spend dollars 518 billion on cloud, computing, and infrastructure obligations … Read the full story at The Verge.",
-      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "script": "In our lead story today, Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping WORLD artificial intelligence policy and sovereign compute.",
       "keyPoints": [
-        "👑 [LEAD STORY] Anthropic warns of ‘catastrophic’ AI risks in",
+        "At UN, developing nations call for bigger say in shaping AI ",
         "Verified by Verified Reports"
       ],
       "visualCuts": [
@@ -54,20 +75,20 @@
       ]
     },
     {
-      "id": "s2_openai_launches_dots_its_muse_co",
+      "id": "s2_openai_takes_on_meta_with_dots_a",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "OpenAI launches Dots, its Muse competitor",
+      "headline": "OpenAI takes on Meta with dots agent in enterprise AI push",
       "subheadline": "Verified Report // Source: Verified Reports",
       "importanceScore": 95,
-      "durationSeconds": 30,
+      "durationSeconds": 24,
       "source": "Verified Reports",
       "sourceUrl": "https://reuters.com",
-      "script": "In another major development, Like Muse, OpenAI’s Dots are represented by cute, customizable avatars. During its DevDay keynote on Tuesday, OpenAI announced that Dots will serve as always-on AI assistants that can \"do nearly anything\" across connected apps in the background while learning your preferences over time. The company's capable GPT-6 Astra model powers Dots, which use their own cloud computer to access a web browser and more than 4,000 supported apps.",
+      "script": "Turning to the United States, Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
       "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
       "keyPoints": [
-        "OpenAI launches Dots, its Muse competitor",
+        "OpenAI takes on Meta with dots agent in enterprise AI push",
         "Verified by Verified Reports"
       ],
       "visualCuts": [
@@ -87,15 +108,159 @@
           "panDirection": "zoomIn"
         }
       ]
+    },
+    {
+      "id": "s3_robotics_competition_winners_adv",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Robotics Competition Winners Advance Military Exploration of Humanoid Capabilities",
+      "subheadline": "Verified Report // Source: Verified Reports",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "Verified Reports",
+      "sourceUrl": "https://reuters.com",
+      "script": "In concurrent industry updates, Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Robotics Competition Winners Advance Military Exploration of",
+        "Verified by Verified Reports"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-09-29/s3_cut1.jpg",
+          "badge": "SPATIAL TESTING MATRIX • EXPERIMENTAL WORLD LAB",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-29/s3_cut2.jpg",
+          "badge": "KEYNOTE DEMO INTERFACE • SPATIAL GENERATION HUD",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-29/s3_cut3.jpg",
+          "badge": "PHYSICAL ROBOTICS CELL • HUMANOID KINEMATICS",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_s_ai_agents_can_lie_and_scheme",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "'s AI agents can lie and scheme",
+      "subheadline": "Verified Report // Source: Verified Reports",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Verified Reports",
+      "sourceUrl": "https://reuters.com",
+      "script": "Meanwhile in China, Turning to CHINA: China's AI agents can lie and scheme. Verified reporting from just like their US rivals confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping CHINA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "'s AI agents can lie and scheme",
+        "Verified by Verified Reports"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-09-29/s4_cut1.jpg",
+          "badge": "YICHANG ROBOT ACTUATOR ASSEMBLY • DOMESTIC ARCHITECTURE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-29/s4_cut2.jpg",
+          "badge": "INTELLIGENT NERVOUS SYSTEM • WAFER AND DIE FABRIC",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-29/s4_cut3.jpg",
+          "badge": "SCREEN PORTAL TELEMETRY • HIGH-THROUGHPUT COMPLIANCE",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_lead_story_plugging_the_prc_s_s",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "👑 [LEAD STORY] Plugging the PRC’s Southeast Asian Semiconductor Pipeline",
+      "subheadline": "Verified Report // Source: Verified Reports",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Verified Reports",
+      "sourceUrl": "https://reuters.com",
+      "script": "Across Southeast Asia, Turning to ASIA: Plugging the PRC’s Southeast Asian Semiconductor Pipeline. Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping ASIA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "👑 [LEAD STORY] Plugging the PRC’s Southeast Asian Semiconduc",
+        "Verified by Verified Reports"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-09-29/s5_cut1.jpg",
+          "badge": "DIPLOMATIC MINISTERIAL ASSEMBLY • GLOBAL SAFEGUARDS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-29/s5_cut2.jpg",
+          "badge": "BILATERAL SUMMIT • SINGAPORE FRONTIER ACCORD",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-29/s5_cut3.jpg",
+          "badge": "REGULATORY HEARING • STANDARDS VERIFICATION DESK",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_cyber_fraud_can_outwit_the_tech",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Cyber fraud can outwit the tech-savvy too, IIT study finds",
+      "subheadline": "Verified Report // Source: Verified Reports",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Verified Reports",
+      "sourceUrl": "https://reuters.com",
+      "script": "Turning to India, Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping INDIA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Cyber fraud can outwit the tech-savvy too, IIT study finds",
+        "Verified by Verified Reports"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-09-29/s6_cut1.jpg",
+          "badge": "MINISTRY OF FINANCE DESK • SOVEREIGN COMPUTE ADDRESS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-29/s6_cut2.jpg",
+          "badge": "PATIENT CAPITAL INCUBATOR • DEEPTECH CLEANROOM",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-09-29/s6_cut3.jpg",
+          "badge": "INDIA DEPLOYMENT • CUT 3",
+          "panDirection": "zoomIn"
+        }
+      ]
     }
   ],
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's headlines: 👑 [LEAD STORY] Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing; OpenAI launches Dots, its Muse competitor.",
+    "script": "To recap today's headlines: At UN, developing nations call for bigger say in shaping AI future; OpenAI takes on Meta with dots agent in enterprise AI push; Robotics Competition Winners Advance Military Exploration of Humanoid Capabilities; 's AI agents can lie and scheme; 👑 [LEAD STORY] Plugging the PRC’s Southeast Asian Semiconductor Pipeline; Cyber fraud can outwit the tech-savvy too, IIT study finds.",
     "items": [
-      "✓ 👑 [LEAD STORY] Anthropic warns of ‘catastrophic’",
-      "✓ OpenAI launches Dots, its Muse competitor"
+      "✓ At UN, developing nations call for bigger say in",
+      "✓ OpenAI takes on Meta with dots agent in enterpri",
+      "✓ Robotics Competition Winners Advance Military Ex",
+      "✓ 's AI agents can lie and scheme",
+      "✓ 👑 [LEAD STORY] Plugging the PRC’s Southeast Asia",
+      "✓ Cyber fraud can outwit the tech-savvy too, IIT s"
     ]
   },
   "marketSnapshot": {
@@ -164,20 +329,26 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "👑 [LEAD STORY] Anthropic warns of ‘catastroph",
-    "OpenAI launches Dots, its Muse competitor"
+    "At UN, developing nations call for bigger say",
+    "OpenAI takes on Meta with dots agent in enter",
+    "Robotics Competition Winners Advance Military",
+    "'s AI agents can lie and scheme",
+    "👑 [LEAD STORY] Plugging the PRC’s Southeast A",
+    "Cyber fraud can outwit the tech-savvy too, II"
   ],
   "thumbnail": {
     "date": "29 SEPTEMBER 2026",
-    "headline": "👑 [LEAD STORY] ANTHROPIC WARNS OF ‘CATASTROPHIC’ AI RISKS IN ITS OWN IPO FILING",
+    "headline": "AT UN, DEVELOPING NATIONS CALL FOR BIGGER SAY IN SHAPING AI FUTURE",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "👑 [LEAD STORY] ANTHROPIC WARNS OF ‘",
-      "OPENAI LAUNCHES DOTS, ITS MUSE COMP"
+      "AT UN, DEVELOPING NATIONS CALL FOR ",
+      "OPENAI TAKES ON META WITH DOTS AGEN",
+      "ROBOTICS COMPETITION WINNERS ADVANC",
+      "'S AI AGENTS CAN LIE AND SCHEME"
     ]
   },
   "youtubeMetadata": {
-    "title": "👑 [LEAD STORY] Anthropic warns o | OpenAI launches Dots, its Muse c | AI News 29 September 2026",
+    "title": "At UN, developing nations call f | OpenAI takes on Meta with dots a | Robotics Competition Winners Adv | AI News 29 September 2026",
     "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 29 September 2026.",
     "tags": [
       "AI",
