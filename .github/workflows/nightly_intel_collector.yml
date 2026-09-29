@@ -15,6 +15,8 @@ jobs:
   collect-and-sync:
     name: 11:00 PM Nightly Intelligence Curation & Git Sync
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     timeout-minutes: 20
 
     steps:

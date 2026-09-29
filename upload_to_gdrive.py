@@ -16,6 +16,12 @@ import os
 import sys
 from typing import Dict, List, Optional
 
+# Ensure Windows PowerShell/cmd does not crash on unicode characters
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+
 try:
     from google.auth.transport.requests import Request
     from google.oauth2.credentials import Credentials
