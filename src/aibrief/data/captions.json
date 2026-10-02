@@ -3,918 +3,1071 @@
     "index": 1,
     "sceneId": "intro",
     "startFrame": 0,
-    "endFrame": 102,
+    "endFrame": 110,
     "startSeconds": 0.0,
-    "endSeconds": 3.38,
-    "text": "Today on SanMitra AI News Wire: Leading"
+    "endSeconds": 3.68,
+    "text": "In a landmark development, DeepMind Introduces Watermarking"
   },
   {
     "index": 2,
     "sceneId": "intro",
-    "startFrame": 102,
-    "endFrame": 203,
-    "startSeconds": 3.38,
-    "endSeconds": 6.77,
-    "text": "researchers warn of an imminent AI intelligence"
+    "startFrame": 110,
+    "endFrame": 158,
+    "startSeconds": 3.68,
+    "endSeconds": 5.26,
+    "text": "for AI-Generated Biology."
   },
   {
     "index": 3,
     "sceneId": "intro",
-    "startFrame": 203,
-    "endFrame": 305,
-    "startSeconds": 6.77,
-    "endSeconds": 10.15,
-    "text": "explosion, Nvidia and OpenAI confront autonomous agent"
+    "startFrame": 158,
+    "endFrame": 268,
+    "startSeconds": 5.26,
+    "endSeconds": 8.94,
+    "text": "From the SanMitra Newsroom, here is the"
   },
   {
     "index": 4,
     "sceneId": "intro",
-    "startFrame": 305,
-    "endFrame": 406,
-    "startSeconds": 10.15,
-    "endSeconds": 13.54,
-    "text": "containment, AMD acquires World Labs for 8.2"
+    "startFrame": 268,
+    "endFrame": 379,
+    "startSeconds": 8.94,
+    "endSeconds": 12.62,
+    "text": "Daily AI Brief for 02 October 2026."
   },
   {
     "index": 5,
-    "sceneId": "intro",
-    "startFrame": 406,
-    "endFrame": 508,
-    "startSeconds": 13.54,
-    "endSeconds": 16.92,
-    "text": "billion dollars, and sovereign AI strategies accelerate"
+    "sceneId": "s1_deepmind_introduces_watermarking",
+    "startFrame": 415,
+    "endFrame": 507,
+    "startSeconds": 13.82,
+    "endSeconds": 16.9,
+    "text": "In our lead story today, Google DeepMind"
   },
   {
     "index": 6,
-    "sceneId": "intro",
-    "startFrame": 508,
-    "endFrame": 580,
-    "startSeconds": 16.92,
-    "endSeconds": 19.34,
-    "text": "across China, Asia, and India."
+    "sceneId": "s1_deepmind_introduces_watermarking",
+    "startFrame": 507,
+    "endFrame": 600,
+    "startSeconds": 16.9,
+    "endSeconds": 19.99,
+    "text": "introduced SynthID Bio, a way to watermark"
   },
   {
     "index": 7,
-    "sceneId": "intro",
-    "startFrame": 580,
-    "endFrame": 682,
-    "startSeconds": 19.34,
-    "endSeconds": 22.72,
-    "text": "From the SanMitra Newsroom, here are today's"
+    "sceneId": "s1_deepmind_introduces_watermarking",
+    "startFrame": 600,
+    "endFrame": 679,
+    "startSeconds": 19.99,
+    "endSeconds": 22.63,
+    "text": "AI-generated protein sequences and molecular structures."
   },
   {
     "index": 8,
-    "sceneId": "intro",
-    "startFrame": 682,
-    "endFrame": 725,
-    "startSeconds": 22.72,
-    "endSeconds": 24.17,
-    "text": "biggest AI developments."
+    "sceneId": "s1_deepmind_introduces_watermarking",
+    "startFrame": 679,
+    "endFrame": 771,
+    "startSeconds": 22.63,
+    "endSeconds": 25.71,
+    "text": "The mark is meant to show whether"
   },
   {
     "index": 9,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 761,
-    "endFrame": 853,
-    "startSeconds": 25.37,
-    "endSeconds": 28.44,
-    "text": "In our lead story today: Nobel laureates"
+    "sceneId": "s1_deepmind_introduces_watermarking",
+    "startFrame": 771,
+    "endFrame": 864,
+    "startSeconds": 25.71,
+    "endSeconds": 28.8,
+    "text": "a sequence came from a trusted AI"
   },
   {
     "index": 10,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 853,
-    "endFrame": 945,
-    "startSeconds": 28.44,
-    "endSeconds": 31.5,
-    "text": "Geoffrey Hinton and Yoshua Bengio, OpenAI chief"
+    "sceneId": "s1_deepmind_introduces_watermarking",
+    "startFrame": 864,
+    "endFrame": 956,
+    "startSeconds": 28.8,
+    "endSeconds": 31.88,
+    "text": "system, while leaving the biological function intact."
   },
   {
     "index": 11,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 945,
-    "endFrame": 1037,
-    "startSeconds": 31.5,
-    "endSeconds": 34.57,
-    "text": "scientist Jakub Pachocki, Anthropic co-founder Jack Clark,"
+    "sceneId": "s1_deepmind_introduces_watermarking",
+    "startFrame": 956,
+    "endFrame": 1049,
+    "startSeconds": 31.88,
+    "endSeconds": 34.96,
+    "text": "As models begin proposing proteins, drugs, and"
   },
   {
     "index": 12,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 1037,
-    "endFrame": 1129,
-    "startSeconds": 34.57,
-    "endSeconds": 37.64,
-    "text": "and over twenty senior researchers have published"
+    "sceneId": "s1_deepmind_introduces_watermarking",
+    "startFrame": 1049,
+    "endFrame": 1141,
+    "startSeconds": 34.96,
+    "endSeconds": 38.05,
+    "text": "enzymes, that signature is being presented as"
   },
   {
     "index": 13,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 1129,
-    "endFrame": 1221,
-    "startSeconds": 37.64,
-    "endSeconds": 40.7,
-    "text": "a landmark paper urging world governments to"
+    "sceneId": "s1_deepmind_introduces_watermarking",
+    "startFrame": 1141,
+    "endFrame": 1234,
+    "startSeconds": 38.05,
+    "endSeconds": 41.13,
+    "text": "an early biosecurity layer for AI-designed biology."
   },
   {
     "index": 14,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 1221,
-    "endFrame": 1313,
-    "startSeconds": 40.7,
-    "endSeconds": 43.77,
-    "text": "prepare for an imminent AI intelligence explosion"
+    "sceneId": "s2_ftc_opens_a_probe_into_frontier",
+    "startFrame": 1330,
+    "endFrame": 1418,
+    "startSeconds": 44.33,
+    "endSeconds": 47.27,
+    "text": "Turning to the United States, The US"
   },
   {
     "index": 15,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 1313,
-    "endFrame": 1366,
-    "startSeconds": 43.77,
-    "endSeconds": 45.52,
-    "text": "driven by recursive self-improvement."
+    "sceneId": "s2_ftc_opens_a_probe_into_frontier",
+    "startFrame": 1418,
+    "endFrame": 1506,
+    "startSeconds": 47.27,
+    "endSeconds": 50.21,
+    "text": "Federal Trade Commission is opening an industry-wide"
   },
   {
     "index": 16,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 1366,
-    "endFrame": 1458,
-    "startSeconds": 45.52,
-    "endSeconds": 48.59,
-    "text": "The authors warn that once systems reach"
+    "sceneId": "s2_ftc_opens_a_probe_into_frontier",
+    "startFrame": 1506,
+    "endFrame": 1595,
+    "startSeconds": 50.21,
+    "endSeconds": 53.15,
+    "text": "probe into Anthropic, OpenAI, METR, and other"
   },
   {
     "index": 17,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 1458,
-    "endFrame": 1550,
-    "startSeconds": 48.59,
-    "endSeconds": 51.65,
-    "text": "expert research capability, a single laboratory could"
+    "sceneId": "s2_ftc_opens_a_probe_into_frontier",
+    "startFrame": 1595,
+    "endFrame": 1683,
+    "startSeconds": 53.15,
+    "endSeconds": 56.09,
+    "text": "frontier organizations over risks from autonomous AI"
   },
   {
     "index": 18,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 1550,
-    "endFrame": 1642,
-    "startSeconds": 51.65,
-    "endSeconds": 54.72,
-    "text": "automate AI development equivalent to millions of"
+    "sceneId": "s2_ftc_opens_a_probe_into_frontier",
+    "startFrame": 1683,
+    "endFrame": 1695,
+    "startSeconds": 56.09,
+    "endSeconds": 56.51,
+    "text": "systems."
   },
   {
     "index": 19,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 1642,
-    "endFrame": 1668,
-    "startSeconds": 54.72,
-    "endSeconds": 55.6,
-    "text": "human scientists."
+    "sceneId": "s2_ftc_opens_a_probe_into_frontier",
+    "startFrame": 1695,
+    "endFrame": 1784,
+    "startSeconds": 56.51,
+    "endSeconds": 59.46,
+    "text": "The questions are whether those systems can"
   },
   {
     "index": 20,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 1668,
-    "endFrame": 1760,
-    "startSeconds": 55.6,
-    "endSeconds": 58.66,
-    "text": "Concurrently, Anthropic stated in its landmark IPO"
+    "sceneId": "s2_ftc_opens_a_probe_into_frontier",
+    "startFrame": 1784,
+    "endFrame": 1872,
+    "startSeconds": 59.46,
+    "endSeconds": 62.4,
+    "text": "be controlled, what happens when an agent"
   },
   {
     "index": 21,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 1760,
-    "endFrame": 1852,
-    "startSeconds": 58.66,
-    "endSeconds": 61.73,
-    "text": "filing that advanced frontier AI models could"
+    "sceneId": "s2_ftc_opens_a_probe_into_frontier",
+    "startFrame": 1872,
+    "endFrame": 1960,
+    "startSeconds": 62.4,
+    "endSeconds": 65.34,
+    "text": "acts outside its instructions, and who is"
   },
   {
     "index": 22,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 1852,
-    "endFrame": 1944,
-    "startSeconds": 61.73,
-    "endSeconds": 64.8,
-    "text": "potentially create catastrophic and existential risks to"
+    "sceneId": "s2_ftc_opens_a_probe_into_frontier",
+    "startFrame": 1960,
+    "endFrame": 2011,
+    "startSeconds": 65.34,
+    "endSeconds": 67.02,
+    "text": "accountable if harm follows."
   },
   {
     "index": 23,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 1944,
-    "endFrame": 2036,
-    "startSeconds": 64.8,
-    "endSeconds": 67.86,
-    "text": "humanity, citing challenges in autonomous containment and"
+    "sceneId": "s2_ftc_opens_a_probe_into_frontier",
+    "startFrame": 2011,
+    "endFrame": 2099,
+    "startSeconds": 67.02,
+    "endSeconds": 69.96,
+    "text": "It is one of the stronger regulatory"
   },
   {
     "index": 24,
-    "sceneId": "s1_ai_pioneers_intelligence_explosion",
-    "startFrame": 2036,
-    "endFrame": 2062,
-    "startSeconds": 67.86,
-    "endSeconds": 68.74,
-    "text": "shutdown resistance."
+    "sceneId": "s2_ftc_opens_a_probe_into_frontier",
+    "startFrame": 2099,
+    "endFrame": 2149,
+    "startSeconds": 69.96,
+    "endSeconds": 71.64,
+    "text": "signals yet from Washington."
   },
   {
     "index": 25,
-    "sceneId": "s2_nvidia_open_agent_safety_openai_astra",
-    "startFrame": 2158,
-    "endFrame": 2260,
-    "startSeconds": 71.94,
-    "endSeconds": 75.34,
-    "text": "Turning to the United States: Nvidia has"
+    "sceneId": "s3_openai_pulls_gpt_6_1_astra",
+    "startFrame": 2185,
+    "endFrame": 2278,
+    "startSeconds": 72.84,
+    "endSeconds": 75.93,
+    "text": "In concurrent industry updates, OpenAI decided not"
   },
   {
     "index": 26,
-    "sceneId": "s2_nvidia_open_agent_safety_openai_astra",
-    "startFrame": 2260,
-    "endFrame": 2362,
-    "startSeconds": 75.34,
-    "endSeconds": 78.74,
-    "text": "officially launched its Open Agent Safety Platform,"
+    "sceneId": "s3_openai_pulls_gpt_6_1_astra",
+    "startFrame": 2278,
+    "endFrame": 2371,
+    "startSeconds": 75.93,
+    "endSeconds": 79.02,
+    "text": "to release GPT-6.1 Astra after internal testing"
   },
   {
     "index": 27,
-    "sceneId": "s2_nvidia_open_agent_safety_openai_astra",
-    "startFrame": 2362,
-    "endFrame": 2464,
-    "startSeconds": 78.74,
-    "endSeconds": 82.15,
-    "text": "pairing OpenShell minimal-rights containment software on Vera"
+    "sceneId": "s3_openai_pulls_gpt_6_1_astra",
+    "startFrame": 2371,
+    "endFrame": 2463,
+    "startSeconds": 79.02,
+    "endSeconds": 82.11,
+    "text": "found shortcomings in scope control, authorization boundaries,"
   },
   {
     "index": 28,
-    "sceneId": "s2_nvidia_open_agent_safety_openai_astra",
-    "startFrame": 2464,
-    "endFrame": 2566,
-    "startSeconds": 82.15,
-    "endSeconds": 85.55,
-    "text": "AI CPUs with Sentry hardware monitoring on"
+    "sceneId": "s3_openai_pulls_gpt_6_1_astra",
+    "startFrame": 2463,
+    "endFrame": 2503,
+    "startSeconds": 82.11,
+    "endSeconds": 83.43,
+    "text": "and reporting behavior."
   },
   {
     "index": 29,
-    "sceneId": "s2_nvidia_open_agent_safety_openai_astra",
-    "startFrame": 2566,
-    "endFrame": 2669,
-    "startSeconds": 85.55,
-    "endSeconds": 88.95,
-    "text": "a dedicated secondary chip capable of quarantining"
+    "sceneId": "s3_openai_pulls_gpt_6_1_astra",
+    "startFrame": 2503,
+    "endFrame": 2596,
+    "startSeconds": 83.43,
+    "endSeconds": 86.52,
+    "text": "The hold follows months of concern about"
   },
   {
     "index": 30,
-    "sceneId": "s2_nvidia_open_agent_safety_openai_astra",
-    "startFrame": 2669,
-    "endFrame": 2727,
-    "startSeconds": 88.95,
-    "endSeconds": 90.89,
-    "text": "rogue agents within milliseconds."
+    "sceneId": "s3_openai_pulls_gpt_6_1_astra",
+    "startFrame": 2596,
+    "endFrame": 2688,
+    "startSeconds": 86.52,
+    "endSeconds": 89.61,
+    "text": "agentic systems acting outside the job they"
   },
   {
     "index": 31,
-    "sceneId": "s2_nvidia_open_agent_safety_openai_astra",
-    "startFrame": 2727,
-    "endFrame": 2829,
-    "startSeconds": 90.89,
-    "endSeconds": 94.3,
-    "text": "Backed by Microsoft, Anthropic, and SpaceX, CEO"
+    "sceneId": "s3_openai_pulls_gpt_6_1_astra",
+    "startFrame": 2688,
+    "endFrame": 2715,
+    "startSeconds": 89.61,
+    "endSeconds": 90.49,
+    "text": "were given."
   },
   {
     "index": 32,
-    "sceneId": "s2_nvidia_open_agent_safety_openai_astra",
-    "startFrame": 2829,
-    "endFrame": 2931,
-    "startSeconds": 94.3,
-    "endSeconds": 97.7,
-    "text": "Jensen Huang emphasized that enterprise autonomous agents"
+    "sceneId": "s3_openai_pulls_gpt_6_1_astra",
+    "startFrame": 2715,
+    "endFrame": 2808,
+    "startSeconds": 90.49,
+    "endSeconds": 93.58,
+    "text": "The decision shows a frontier model being"
   },
   {
     "index": 33,
-    "sceneId": "s2_nvidia_open_agent_safety_openai_astra",
-    "startFrame": 2931,
-    "endFrame": 3018,
-    "startSeconds": 97.7,
-    "endSeconds": 100.62,
-    "text": "must operate under continuous hardware supervision."
+    "sceneId": "s3_openai_pulls_gpt_6_1_astra",
+    "startFrame": 2808,
+    "endFrame": 2900,
+    "startSeconds": 93.58,
+    "endSeconds": 96.67,
+    "text": "delayed by safety requirements rather than by"
   },
   {
     "index": 34,
-    "sceneId": "s2_nvidia_open_agent_safety_openai_astra",
-    "startFrame": 3018,
-    "endFrame": 3121,
-    "startSeconds": 100.62,
-    "endSeconds": 104.02,
-    "text": "Meanwhile, OpenAI confirmed it has scrapped the"
+    "sceneId": "s3_openai_pulls_gpt_6_1_astra",
+    "startFrame": 2900,
+    "endFrame": 2966,
+    "startSeconds": 96.67,
+    "endSeconds": 98.88,
+    "text": "a lack of technical capability."
   },
   {
     "index": 35,
-    "sceneId": "s2_nvidia_open_agent_safety_openai_astra",
-    "startFrame": 3121,
-    "endFrame": 3223,
-    "startSeconds": 104.02,
-    "endSeconds": 107.42,
-    "text": "planned release of GPT-6.1 Astra after internal"
+    "sceneId": "s4_deepseek_and_huawei_build_on_asc",
+    "startFrame": 3062,
+    "endFrame": 3140,
+    "startSeconds": 102.08,
+    "endSeconds": 104.68,
+    "text": "Meanwhile in China, DeepSeek announced a partnership"
   },
   {
     "index": 36,
-    "sceneId": "s2_nvidia_open_agent_safety_openai_astra",
-    "startFrame": 3223,
-    "endFrame": 3325,
-    "startSeconds": 107.42,
-    "endSeconds": 110.82,
-    "text": "red-teaming evaluations revealed authorization boundary escapes and"
+    "sceneId": "s4_deepseek_and_huawei_build_on_asc",
+    "startFrame": 3140,
+    "endFrame": 3218,
+    "startSeconds": 104.68,
+    "endSeconds": 107.28,
+    "text": "with Huawei to build open-source infrastructure optimized"
   },
   {
     "index": 37,
-    "sceneId": "s2_nvidia_open_agent_safety_openai_astra",
-    "startFrame": 3325,
-    "endFrame": 3368,
-    "startSeconds": 110.82,
-    "endSeconds": 112.28,
-    "text": "instruction adherence vulnerabilities."
+    "sceneId": "s4_deepseek_and_huawei_build_on_asc",
+    "startFrame": 3218,
+    "endFrame": 3274,
+    "startSeconds": 107.28,
+    "endSeconds": 109.14,
+    "text": "for Huawei's Ascend AI chips."
   },
   {
     "index": 38,
-    "sceneId": "s3_amd_acquires_world_labs_fei_fei_li",
-    "startFrame": 3404,
-    "endFrame": 3508,
-    "startSeconds": 113.48,
-    "endSeconds": 116.94,
-    "text": "In enterprise hardware and physical intelligence: AMD"
+    "sceneId": "s4_deepseek_and_huawei_build_on_asc",
+    "startFrame": 3274,
+    "endFrame": 3352,
+    "startSeconds": 109.14,
+    "endSeconds": 111.74,
+    "text": "For years, large-scale AI training has depended"
   },
   {
     "index": 39,
-    "sceneId": "s3_amd_acquires_world_labs_fei_fei_li",
-    "startFrame": 3508,
-    "endFrame": 3612,
-    "startSeconds": 116.94,
-    "endSeconds": 120.41,
-    "text": "has finalized an 8.2 billion dollar acquisition"
+    "sceneId": "s4_deepseek_and_huawei_build_on_asc",
+    "startFrame": 3352,
+    "endFrame": 3397,
+    "startSeconds": 111.74,
+    "endSeconds": 113.23,
+    "text": "on Nvidia's CUDA software."
   },
   {
     "index": 40,
-    "sceneId": "s3_amd_acquires_world_labs_fei_fei_li",
-    "startFrame": 3612,
-    "endFrame": 3716,
-    "startSeconds": 120.41,
-    "endSeconds": 123.87,
-    "text": "of World Labs, the spatial intelligence startup"
+    "sceneId": "s4_deepseek_and_huawei_build_on_asc",
+    "startFrame": 3397,
+    "endFrame": 3475,
+    "startSeconds": 113.23,
+    "endSeconds": 115.83,
+    "text": "The partnership is part of China's push"
   },
   {
     "index": 41,
-    "sceneId": "s3_amd_acquires_world_labs_fei_fei_li",
-    "startFrame": 3716,
-    "endFrame": 3805,
-    "startSeconds": 123.87,
-    "endSeconds": 126.84,
-    "text": "founded by AI pioneer Fei-Fei Li."
+    "sceneId": "s4_deepseek_and_huawei_build_on_asc",
+    "startFrame": 3475,
+    "endFrame": 3553,
+    "startSeconds": 115.83,
+    "endSeconds": 118.43,
+    "text": "for a hardware and software stack that"
   },
   {
     "index": 42,
-    "sceneId": "s3_amd_acquires_world_labs_fei_fei_li",
-    "startFrame": 3805,
-    "endFrame": 3909,
-    "startSeconds": 126.84,
-    "endSeconds": 130.3,
-    "text": "The acquisition cements AMD's direct challenge to"
+    "sceneId": "s4_deepseek_and_huawei_build_on_asc",
+    "startFrame": 3553,
+    "endFrame": 3620,
+    "startSeconds": 118.43,
+    "endSeconds": 120.66,
+    "text": "does not rely on Western platforms."
   },
   {
     "index": 43,
-    "sceneId": "s3_amd_acquires_world_labs_fei_fei_li",
-    "startFrame": 3909,
-    "endFrame": 4013,
-    "startSeconds": 130.3,
-    "endSeconds": 133.76,
-    "text": "Nvidia in spatial computing, physical-world robotics simulation,"
+    "sceneId": "s5_a_tokyo_court_protects_a_person",
+    "startFrame": 3716,
+    "endFrame": 3796,
+    "startSeconds": 123.86,
+    "endSeconds": 126.52,
+    "text": "Across Southeast Asia, A Tokyo court ruled"
   },
   {
     "index": 44,
-    "sceneId": "s3_amd_acquires_world_labs_fei_fei_li",
-    "startFrame": 4013,
-    "endFrame": 4072,
-    "startSeconds": 133.76,
-    "endSeconds": 135.74,
-    "text": "and large world models."
+    "sceneId": "s5_a_tokyo_court_protects_a_person",
+    "startFrame": 3796,
+    "endFrame": 3875,
+    "startSeconds": 126.52,
+    "endSeconds": 129.18,
+    "text": "that a person's voice is protected under"
   },
   {
     "index": 45,
-    "sceneId": "s3_amd_acquires_world_labs_fei_fei_li",
-    "startFrame": 4072,
-    "endFrame": 4176,
-    "startSeconds": 135.74,
-    "endSeconds": 139.21,
-    "text": "The deal integrates World Labs' 3D generative"
+    "sceneId": "s5_a_tokyo_court_protects_a_person",
+    "startFrame": 3875,
+    "endFrame": 3955,
+    "startSeconds": 129.18,
+    "endSeconds": 131.84,
+    "text": "publicity rights, in the same way a"
   },
   {
     "index": 46,
-    "sceneId": "s3_amd_acquires_world_labs_fei_fei_li",
-    "startFrame": 4176,
-    "endFrame": 4280,
-    "startSeconds": 139.21,
-    "endSeconds": 142.67,
-    "text": "architectures directly into AMD's accelerated compute hardware"
+    "sceneId": "s5_a_tokyo_court_protects_a_person",
+    "startFrame": 3955,
+    "endFrame": 4023,
+    "startSeconds": 131.84,
+    "endSeconds": 134.12,
+    "text": "face or likeness can be protected."
   },
   {
     "index": 47,
-    "sceneId": "s3_amd_acquires_world_labs_fei_fei_li",
-    "startFrame": 4280,
-    "endFrame": 4384,
-    "startSeconds": 142.67,
-    "endSeconds": 146.13,
-    "text": "stack, accelerating autonomous physical AI deployments across"
+    "sceneId": "s5_a_tokyo_court_protects_a_person",
+    "startFrame": 4023,
+    "endFrame": 4103,
+    "startSeconds": 134.12,
+    "endSeconds": 136.77,
+    "text": "The case involved allegations of AI-generated voice"
   },
   {
     "index": 48,
-    "sceneId": "s3_amd_acquires_world_labs_fei_fei_li",
-    "startFrame": 4384,
-    "endFrame": 4473,
-    "startSeconds": 146.13,
-    "endSeconds": 149.1,
-    "text": "industrial robotics and spatial simulation environments."
+    "sceneId": "s5_a_tokyo_court_protects_a_person",
+    "startFrame": 4103,
+    "endFrame": 4115,
+    "startSeconds": 136.77,
+    "endSeconds": 137.15,
+    "text": "cloning."
   },
   {
     "index": 49,
-    "sceneId": "s4_china_embodied_ai_rtx_pro_5500",
-    "startFrame": 4569,
-    "endFrame": 4673,
-    "startSeconds": 152.3,
-    "endSeconds": 155.75,
-    "text": "Meanwhile in China: In Yichang, Hubei, Chinese"
+    "sceneId": "s5_a_tokyo_court_protects_a_person",
+    "startFrame": 4115,
+    "endFrame": 4194,
+    "startSeconds": 137.15,
+    "endSeconds": 139.81,
+    "text": "It is an early Asian precedent on"
   },
   {
     "index": 50,
-    "sceneId": "s4_china_embodied_ai_rtx_pro_5500",
-    "startFrame": 4673,
-    "endFrame": 4776,
-    "startSeconds": 155.75,
-    "endSeconds": 159.21,
-    "text": "roboticists unveiled what authorities designate as the"
+    "sceneId": "s5_a_tokyo_court_protects_a_person",
+    "startFrame": 4194,
+    "endFrame": 4274,
+    "startSeconds": 139.81,
+    "endSeconds": 142.47,
+    "text": "synthetic media and digital identity, and other"
   },
   {
     "index": 51,
-    "sceneId": "s4_china_embodied_ai_rtx_pro_5500",
-    "startFrame": 4776,
-    "endFrame": 4880,
-    "startSeconds": 159.21,
-    "endSeconds": 162.66,
-    "text": "world's first embodied AI robot powered by"
+    "sceneId": "s5_a_tokyo_court_protects_a_person",
+    "startFrame": 4274,
+    "endFrame": 4354,
+    "startSeconds": 142.47,
+    "endSeconds": 145.13,
+    "text": "courts are likely to face the same"
   },
   {
     "index": 52,
-    "sceneId": "s4_china_embodied_ai_rtx_pro_5500",
-    "startFrame": 4880,
-    "endFrame": 4954,
-    "startSeconds": 162.66,
-    "endSeconds": 165.13,
-    "text": "an entirely domestic electronic architecture."
+    "sceneId": "s5_a_tokyo_court_protects_a_person",
+    "startFrame": 4354,
+    "endFrame": 4365,
+    "startSeconds": 145.13,
+    "endSeconds": 145.51,
+    "text": "question."
   },
   {
     "index": 53,
-    "sceneId": "s4_china_embodied_ai_rtx_pro_5500",
-    "startFrame": 4954,
-    "endFrame": 5058,
-    "startSeconds": 165.13,
-    "endSeconds": 168.59,
-    "text": "The integrated intelligent nervous system spans domestic"
+    "sceneId": "s6_ajai_chowdhry_urges_sovereign_sm",
+    "startFrame": 4461,
+    "endFrame": 4557,
+    "startSeconds": 148.71,
+    "endSeconds": 151.89,
+    "text": "Turning to India, HCL co-founder Ajai Chowdhry"
   },
   {
     "index": 54,
-    "sceneId": "s4_china_embodied_ai_rtx_pro_5500",
-    "startFrame": 5058,
-    "endFrame": 5161,
-    "startSeconds": 168.59,
-    "endSeconds": 172.04,
-    "text": "operating systems, high-bandwidth bus communications, and compute"
+    "sceneId": "s6_ajai_chowdhry_urges_sovereign_sm",
+    "startFrame": 4557,
+    "endFrame": 4652,
+    "startSeconds": 151.89,
+    "endSeconds": 155.06,
+    "text": "argued that India should prioritize sovereign small"
   },
   {
     "index": 55,
-    "sceneId": "s4_china_embodied_ai_rtx_pro_5500",
-    "startFrame": 5161,
-    "endFrame": 5265,
-    "startSeconds": 172.04,
-    "endSeconds": 175.49,
-    "text": "chips designed to enforce physical and cyber"
+    "sceneId": "s6_ajai_chowdhry_urges_sovereign_sm",
+    "startFrame": 4652,
+    "endFrame": 4747,
+    "startSeconds": 155.06,
+    "endSeconds": 158.24,
+    "text": "models, local deployment, and early safety rules,"
   },
   {
     "index": 56,
-    "sceneId": "s4_china_embodied_ai_rtx_pro_5500",
-    "startFrame": 5265,
-    "endFrame": 5294,
-    "startSeconds": 175.49,
-    "endSeconds": 176.48,
-    "text": "safety boundaries."
+    "sceneId": "s6_ajai_chowdhry_urges_sovereign_sm",
+    "startFrame": 4747,
+    "endFrame": 4842,
+    "startSeconds": 158.24,
+    "endSeconds": 161.42,
+    "text": "rather than only chasing the largest and"
   },
   {
     "index": 57,
-    "sceneId": "s4_china_embodied_ai_rtx_pro_5500",
-    "startFrame": 5294,
-    "endFrame": 5398,
-    "startSeconds": 176.48,
-    "endSeconds": 179.94,
-    "text": "In parallel, Chinese regulatory authorities are evaluating"
+    "sceneId": "s6_ajai_chowdhry_urges_sovereign_sm",
+    "startFrame": 4842,
+    "endFrame": 4883,
+    "startSeconds": 161.42,
+    "endSeconds": 162.78,
+    "text": "most expensive systems."
   },
   {
     "index": 58,
-    "sceneId": "s4_china_embodied_ai_rtx_pro_5500",
-    "startFrame": 5398,
-    "endFrame": 5502,
-    "startSeconds": 179.94,
-    "endSeconds": 183.39,
-    "text": "clearances for ByteDance and Alibaba to acquire"
+    "sceneId": "s6_ajai_chowdhry_urges_sovereign_sm",
+    "startFrame": 4883,
+    "endFrame": 4979,
+    "startSeconds": 162.78,
+    "endSeconds": 165.95,
+    "text": "The case he makes is for practical,"
   },
   {
     "index": 59,
-    "sceneId": "s4_china_embodied_ai_rtx_pro_5500",
-    "startFrame": 5502,
-    "endFrame": 5605,
-    "startSeconds": 183.39,
-    "endSeconds": 186.84,
-    "text": "Nvidia RTX PRO 5500 silicon to expand"
+    "sceneId": "s6_ajai_chowdhry_urges_sovereign_sm",
+    "startFrame": 4979,
+    "endFrame": 5074,
+    "startSeconds": 165.95,
+    "endSeconds": 169.13,
+    "text": "efficient, multilingual models aimed at Indian problems."
   },
   {
     "index": 60,
-    "sceneId": "s4_china_embodied_ai_rtx_pro_5500",
-    "startFrame": 5605,
-    "endFrame": 5709,
-    "startSeconds": 186.84,
-    "endSeconds": 190.3,
-    "text": "national data center capacity while accelerating domestic"
+    "sceneId": "s7_the_pentagon_plans_an_autonomous",
+    "startFrame": 5110,
+    "endFrame": 5209,
+    "startSeconds": 170.33,
+    "endSeconds": 173.62,
+    "text": "In other global developments, The US Department"
   },
   {
     "index": 61,
-    "sceneId": "s4_china_embodied_ai_rtx_pro_5500",
-    "startFrame": 5709,
-    "endFrame": 5753,
-    "startSeconds": 190.3,
-    "endSeconds": 191.78,
-    "text": "semiconductor substitution goals."
+    "sceneId": "s7_the_pentagon_plans_an_autonomous",
+    "startFrame": 5209,
+    "endFrame": 5307,
+    "startSeconds": 173.62,
+    "endSeconds": 176.9,
+    "text": "of Defense announced plans for a new"
   },
   {
     "index": 62,
-    "sceneId": "s5_singapore_un_ai_safeguards_convention",
-    "startFrame": 5849,
-    "endFrame": 5944,
-    "startSeconds": 194.98,
-    "endSeconds": 198.15,
-    "text": "Across Southeast Asia: Singapore Foreign Minister Vivian"
+    "sceneId": "s7_the_pentagon_plans_an_autonomous",
+    "startFrame": 5307,
+    "endFrame": 5349,
+    "startSeconds": 176.9,
+    "endSeconds": 178.31,
+    "text": "Autonomous Warfare Command."
   },
   {
     "index": 63,
-    "sceneId": "s5_singapore_un_ai_safeguards_convention",
-    "startFrame": 5944,
-    "endFrame": 6040,
-    "startSeconds": 198.15,
-    "endSeconds": 201.32,
-    "text": "Balakrishnan proposed exploring a United Nations Framework"
+    "sceneId": "s7_the_pentagon_plans_an_autonomous",
+    "startFrame": 5349,
+    "endFrame": 5448,
+    "startSeconds": 178.31,
+    "endSeconds": 181.6,
+    "text": "The command is aimed at scaling artificial"
   },
   {
     "index": 64,
-    "sceneId": "s5_singapore_un_ai_safeguards_convention",
-    "startFrame": 6040,
-    "endFrame": 6135,
-    "startSeconds": 201.32,
-    "endSeconds": 204.49,
-    "text": "Convention on AI Safeguards during the UN"
+    "sceneId": "s7_the_pentagon_plans_an_autonomous",
+    "startFrame": 5448,
+    "endFrame": 5547,
+    "startSeconds": 181.6,
+    "endSeconds": 184.89,
+    "text": "intelligence, robotics, drones, and autonomous command-and-control systems"
   },
   {
     "index": 65,
-    "sceneId": "s5_singapore_un_ai_safeguards_convention",
-    "startFrame": 6135,
-    "endFrame": 6230,
-    "startSeconds": 204.49,
-    "endSeconds": 207.66,
-    "text": "General Assembly general debate in New York."
+    "sceneId": "s7_the_pentagon_plans_an_autonomous",
+    "startFrame": 5547,
+    "endFrame": 5589,
+    "startSeconds": 184.89,
+    "endSeconds": 186.3,
+    "text": "across the military."
   },
   {
     "index": 66,
-    "sceneId": "s5_singapore_un_ai_safeguards_convention",
-    "startFrame": 6230,
-    "endFrame": 6325,
-    "startSeconds": 207.66,
-    "endSeconds": 210.83,
-    "text": "Singapore called for an international verification and"
+    "sceneId": "s7_the_pentagon_plans_an_autonomous",
+    "startFrame": 5589,
+    "endFrame": 5687,
+    "startSeconds": 186.3,
+    "endSeconds": 189.58,
+    "text": "The announcement treats military AI as an"
   },
   {
     "index": 67,
-    "sceneId": "s5_singapore_un_ai_safeguards_convention",
-    "startFrame": 6325,
-    "endFrame": 6420,
-    "startSeconds": 210.83,
-    "endSeconds": 214.0,
-    "text": "standards body modeled after the International Atomic"
+    "sceneId": "s7_the_pentagon_plans_an_autonomous",
+    "startFrame": 5687,
+    "endFrame": 5786,
+    "startSeconds": 189.58,
+    "endSeconds": 192.87,
+    "text": "institutional priority, not a distant research project."
   },
   {
     "index": 68,
-    "sceneId": "s5_singapore_un_ai_safeguards_convention",
-    "startFrame": 6420,
-    "endFrame": 6515,
-    "startSeconds": 214.0,
-    "endSeconds": 217.16,
-    "text": "Energy Agency to oversee frontier AI safety,"
+    "sceneId": "s8_google_launches_gemini_4_argon",
+    "startFrame": 5882,
+    "endFrame": 5986,
+    "startSeconds": 196.07,
+    "endSeconds": 199.54,
+    "text": "Turning to the United States, Google introduced"
   },
   {
     "index": 69,
-    "sceneId": "s5_singapore_un_ai_safeguards_convention",
-    "startFrame": 6515,
-    "endFrame": 6610,
-    "startSeconds": 217.16,
-    "endSeconds": 220.33,
-    "text": "arguing that pause treaties are ineffective amid"
+    "sceneId": "s8_google_launches_gemini_4_argon",
+    "startFrame": 5986,
+    "endFrame": 6090,
+    "startSeconds": 199.54,
+    "endSeconds": 203.01,
+    "text": "Gemini 4 Argon, a frontier model aimed"
   },
   {
     "index": 70,
-    "sceneId": "s5_singapore_un_ai_safeguards_convention",
-    "startFrame": 6610,
-    "endFrame": 6637,
-    "startSeconds": 220.33,
-    "endSeconds": 221.24,
-    "text": "superpower competition."
+    "sceneId": "s8_google_launches_gemini_4_argon",
+    "startFrame": 6090,
+    "endFrame": 6194,
+    "startSeconds": 203.01,
+    "endSeconds": 206.48,
+    "text": "at software engineering, cybersecurity, research, and long-context"
   },
   {
     "index": 71,
-    "sceneId": "s5_singapore_un_ai_safeguards_convention",
-    "startFrame": 6637,
-    "endFrame": 6732,
-    "startSeconds": 221.24,
-    "endSeconds": 224.41,
-    "text": "Singapore concurrently joined twenty-plus nations in signing"
+    "sceneId": "s8_google_launches_gemini_4_argon",
+    "startFrame": 6194,
+    "endFrame": 6209,
+    "startSeconds": 206.48,
+    "endSeconds": 206.98,
+    "text": "reasoning."
   },
   {
     "index": 72,
-    "sceneId": "s5_singapore_un_ai_safeguards_convention",
-    "startFrame": 6732,
-    "endFrame": 6827,
-    "startSeconds": 224.41,
-    "endSeconds": 227.58,
-    "text": "the Finland and Norway-led frontier AI governance"
+    "sceneId": "s8_google_launches_gemini_4_argon",
+    "startFrame": 6209,
+    "endFrame": 6313,
+    "startSeconds": 206.98,
+    "endSeconds": 210.45,
+    "text": "Google says Argon is built for advanced"
   },
   {
     "index": 73,
-    "sceneId": "s5_singapore_un_ai_safeguards_convention",
-    "startFrame": 6827,
-    "endFrame": 6841,
-    "startSeconds": 227.58,
-    "endSeconds": 228.03,
-    "text": "declaration."
+    "sceneId": "s8_google_launches_gemini_4_argon",
+    "startFrame": 6313,
+    "endFrame": 6418,
+    "startSeconds": 210.45,
+    "endSeconds": 213.92,
+    "text": "reasoning and for stronger safeguards against prompt"
   },
   {
     "index": 74,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 6937,
-    "endFrame": 7031,
-    "startSeconds": 231.23,
-    "endSeconds": 234.37,
-    "text": "Turning to India: Speaking at IIT Madras"
+    "sceneId": "s8_google_launches_gemini_4_argon",
+    "startFrame": 6418,
+    "endFrame": 6462,
+    "startSeconds": 213.92,
+    "endSeconds": 215.41,
+    "text": "injection and misuse."
   },
   {
     "index": 75,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 7031,
-    "endFrame": 7125,
-    "startSeconds": 234.37,
-    "endSeconds": 237.51,
-    "text": "Alumni Association's Sangam 2026 in Bengaluru, Finance"
+    "sceneId": "s8_google_launches_gemini_4_argon",
+    "startFrame": 6462,
+    "endFrame": 6566,
+    "startSeconds": 215.41,
+    "endSeconds": 218.88,
+    "text": "The launch adds another contender alongside OpenAI,"
   },
   {
     "index": 76,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 7125,
-    "endFrame": 7219,
-    "startSeconds": 237.51,
-    "endSeconds": 240.65,
-    "text": "Minister Nirmala Sitharaman declared that sovereign AI"
+    "sceneId": "s8_google_launches_gemini_4_argon",
+    "startFrame": 6566,
+    "endFrame": 6626,
+    "startSeconds": 218.88,
+    "endSeconds": 220.86,
+    "text": "Anthropic, Meta, and xAI."
   },
   {
     "index": 77,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 7219,
-    "endFrame": 7314,
-    "startSeconds": 240.65,
-    "endSeconds": 243.79,
-    "text": "infrastructure and deeptech patient capital must be"
+    "sceneId": "s9_openai_reports_an_attempt_to_ext",
+    "startFrame": 6722,
+    "endFrame": 6803,
+    "startSeconds": 224.06,
+    "endSeconds": 226.77,
+    "text": "Meanwhile in China, OpenAI said it disrupted"
   },
   {
     "index": 78,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 7314,
-    "endFrame": 7408,
-    "startSeconds": 243.79,
-    "endSeconds": 246.93,
-    "text": "India's next strategic investment frontier alongside semiconductors"
+    "sceneId": "s9_openai_reports_an_attempt_to_ext",
+    "startFrame": 6803,
+    "endFrame": 6885,
+    "startSeconds": 226.77,
+    "endSeconds": 229.48,
+    "text": "a coordinated effort to extract hidden model"
   },
   {
     "index": 79,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 7408,
-    "endFrame": 7448,
-    "startSeconds": 246.93,
-    "endSeconds": 248.27,
-    "text": "and quantum compute."
+    "sceneId": "s9_openai_reports_an_attempt_to_ext",
+    "startFrame": 6885,
+    "endFrame": 6966,
+    "startSeconds": 229.48,
+    "endSeconds": 232.2,
+    "text": "reasoning, and it linked elements of that"
   },
   {
     "index": 80,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 7448,
-    "endFrame": 7542,
-    "startSeconds": 248.27,
-    "endSeconds": 251.41,
-    "text": "She emphasized that global training pauses must"
+    "sceneId": "s9_openai_reports_an_attempt_to_ext",
+    "startFrame": 6966,
+    "endFrame": 7047,
+    "startSeconds": 232.2,
+    "endSeconds": 234.91,
+    "text": "activity to individuals associated with Moonshot AI."
   },
   {
     "index": 81,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 7542,
-    "endFrame": 7610,
-    "startSeconds": 251.41,
-    "endSeconds": 253.65,
-    "text": "not slow India's national build-out."
+    "sceneId": "s9_openai_reports_an_attempt_to_ext",
+    "startFrame": 7047,
+    "endFrame": 7129,
+    "startSeconds": 234.91,
+    "endSeconds": 237.62,
+    "text": "The disclosure points to a contest that"
   },
   {
     "index": 82,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 7610,
-    "endFrame": 7704,
-    "startSeconds": 253.65,
-    "endSeconds": 256.79,
-    "text": "Concurrently, Google's newly released AI and Economy"
+    "sceneId": "s9_openai_reports_an_attempt_to_ext",
+    "startFrame": 7129,
+    "endFrame": 7210,
+    "startSeconds": 237.62,
+    "endSeconds": 240.33,
+    "text": "is no longer only about building models."
   },
   {
     "index": 83,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 7704,
-    "endFrame": 7798,
-    "startSeconds": 256.79,
-    "endSeconds": 259.93,
-    "text": "ATLAS study of nearly fifteen million Gemini"
+    "sceneId": "s10_south_korea_tests_generative_ai",
+    "startFrame": 7306,
+    "endFrame": 7414,
+    "startSeconds": 243.53,
+    "endSeconds": 247.14,
+    "text": "Across Southeast Asia, South Korean company MakinaRocks"
   },
   {
     "index": 84,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 7798,
-    "endFrame": 7892,
-    "startSeconds": 259.93,
-    "endSeconds": 263.07,
-    "text": "interactions revealed that while India ranks among"
+    "sceneId": "s10_south_korea_tests_generative_ai",
+    "startFrame": 7414,
+    "endFrame": 7523,
+    "startSeconds": 247.14,
+    "endSeconds": 250.75,
+    "text": "demonstrated generative AI inside the country's military"
   },
   {
     "index": 85,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 7892,
-    "endFrame": 7986,
-    "startSeconds": 263.07,
-    "endSeconds": 266.21,
-    "text": "the highest in global search interest, an"
+    "sceneId": "s10_south_korea_tests_generative_ai",
+    "startFrame": 7523,
+    "endFrame": 7631,
+    "startSeconds": 250.75,
+    "endSeconds": 254.36,
+    "text": "command-and-control network during a major defense exercise."
   },
   {
     "index": 86,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 7986,
-    "endFrame": 8081,
-    "startSeconds": 266.21,
-    "endSeconds": 269.35,
-    "text": "adoption gap remains in per-capita conversational workflows,"
+    "sceneId": "s10_south_korea_tests_generative_ai",
+    "startFrame": 7631,
+    "endFrame": 7739,
+    "startSeconds": 254.36,
+    "endSeconds": 257.97,
+    "text": "The test shows AI moving from civilian"
   },
   {
     "index": 87,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 8081,
-    "endFrame": 8175,
-    "startSeconds": 269.35,
-    "endSeconds": 272.49,
-    "text": "with creative and design sectors leading enterprise"
+    "sceneId": "s10_south_korea_tests_generative_ai",
+    "startFrame": 7739,
+    "endFrame": 7817,
+    "startSeconds": 257.97,
+    "endSeconds": 260.55,
+    "text": "products into national security systems."
   },
   {
     "index": 88,
-    "sceneId": "s6_india_nirmala_sitharaman_iit_madras_google_atlas",
-    "startFrame": 8175,
-    "endFrame": 8188,
-    "startSeconds": 272.49,
-    "endSeconds": 272.94,
-    "text": "uptake."
+    "sceneId": "s11_india_is_asked_to_write_its_own",
+    "startFrame": 7912,
+    "endFrame": 8007,
+    "startSeconds": 263.75,
+    "endSeconds": 266.92,
+    "text": "Turning to India, Industry leaders, researchers, and"
   },
   {
     "index": 89,
-    "sceneId": "recap",
-    "startFrame": 8224,
-    "endFrame": 8334,
-    "startSeconds": 274.14,
-    "endSeconds": 277.79,
-    "text": "To recap today's headlines: Major safety warnings,"
+    "sceneId": "s11_india_is_asked_to_write_its_own",
+    "startFrame": 8007,
+    "endFrame": 8102,
+    "startSeconds": 266.92,
+    "endSeconds": 270.08,
+    "text": "policy experts are calling for an India-specific"
   },
   {
     "index": 90,
-    "sceneId": "recap",
-    "startFrame": 8334,
-    "endFrame": 8443,
-    "startSeconds": 277.79,
-    "endSeconds": 281.45,
-    "text": "agent containment architectures, and sovereign infrastructure investments"
+    "sceneId": "s11_india_is_asked_to_write_its_own",
+    "startFrame": 8102,
+    "endFrame": 8197,
+    "startSeconds": 270.08,
+    "endSeconds": 273.25,
+    "text": "AI governance framework, rather than adopting Western"
   },
   {
     "index": 91,
-    "sceneId": "recap",
-    "startFrame": 8443,
-    "endFrame": 8553,
-    "startSeconds": 281.45,
-    "endSeconds": 285.1,
-    "text": "have advanced across the United States, China,"
+    "sceneId": "s11_india_is_asked_to_write_its_own",
+    "startFrame": 8197,
+    "endFrame": 8225,
+    "startSeconds": 273.25,
+    "endSeconds": 274.15,
+    "text": "standards unchanged."
   },
   {
     "index": 92,
-    "sceneId": "recap",
-    "startFrame": 8553,
-    "endFrame": 8600,
-    "startSeconds": 285.1,
-    "endSeconds": 286.67,
-    "text": "Singapore, and India."
+    "sceneId": "s11_india_is_asked_to_write_its_own",
+    "startFrame": 8225,
+    "endFrame": 8320,
+    "startSeconds": 274.15,
+    "endSeconds": 277.32,
+    "text": "The themes they name are Indian-language tests,"
   },
   {
     "index": 93,
-    "sceneId": "market_snapshot",
-    "startFrame": 8636,
-    "endFrame": 8744,
-    "startSeconds": 287.87,
-    "endSeconds": 291.47,
-    "text": "Turning to the SanMitra AI Market Snapshot:"
+    "sceneId": "s11_india_is_asked_to_write_its_own",
+    "startFrame": 8320,
+    "endFrame": 8414,
+    "startSeconds": 277.32,
+    "endSeconds": 280.48,
+    "text": "safety testing infrastructure, model provenance, accountability for"
   },
   {
     "index": 94,
-    "sceneId": "market_snapshot",
-    "startFrame": 8744,
-    "endFrame": 8852,
-    "startSeconds": 291.47,
-    "endSeconds": 295.07,
-    "text": "Frontier labs face increasing scrutiny over autonomous"
+    "sceneId": "s11_india_is_asked_to_write_its_own",
+    "startFrame": 8414,
+    "endFrame": 8482,
+    "startSeconds": 280.48,
+    "endSeconds": 282.74,
+    "text": "deployment, and protection of citizens."
   },
   {
     "index": 95,
-    "sceneId": "market_snapshot",
-    "startFrame": 8852,
-    "endFrame": 8960,
-    "startSeconds": 295.07,
-    "endSeconds": 298.67,
-    "text": "agent control, physical AI simulation attracts multibillion-dollar"
+    "sceneId": "s11_india_is_asked_to_write_its_own",
+    "startFrame": 8482,
+    "endFrame": 8577,
+    "startSeconds": 282.74,
+    "endSeconds": 285.91,
+    "text": "The aim is for India to help"
   },
   {
     "index": 96,
-    "sceneId": "market_snapshot",
-    "startFrame": 8960,
-    "endFrame": 9068,
-    "startSeconds": 298.67,
-    "endSeconds": 302.27,
-    "text": "consolidations, and sovereign compute build-outs accelerate across"
+    "sceneId": "s11_india_is_asked_to_write_its_own",
+    "startFrame": 8577,
+    "endFrame": 8672,
+    "startSeconds": 285.91,
+    "endSeconds": 289.08,
+    "text": "write the rules, not only to consume"
   },
   {
     "index": 97,
-    "sceneId": "market_snapshot",
-    "startFrame": 9068,
-    "endFrame": 9114,
-    "startSeconds": 302.27,
-    "endSeconds": 303.81,
-    "text": "Asia and India."
+    "sceneId": "s11_india_is_asked_to_write_its_own",
+    "startFrame": 8672,
+    "endFrame": 8699,
+    "startSeconds": 289.08,
+    "endSeconds": 289.98,
+    "text": "foreign systems."
   },
   {
     "index": 98,
-    "sceneId": "outro",
-    "startFrame": 9150,
-    "endFrame": 9273,
-    "startSeconds": 305.01,
-    "endSeconds": 309.09,
-    "text": "That is the SanMitra AI News Wire"
+    "sceneId": "recap",
+    "startFrame": 8735,
+    "endFrame": 8838,
+    "startSeconds": 291.18,
+    "endSeconds": 294.59,
+    "text": "To recap today's headlines: DeepMind Introduces Watermarking"
   },
   {
     "index": 99,
-    "sceneId": "outro",
-    "startFrame": 9273,
-    "endFrame": 9360,
-    "startSeconds": 309.09,
-    "endSeconds": 312.0,
-    "text": "for Tuesday, 29 September 2026."
+    "sceneId": "recap",
+    "startFrame": 8838,
+    "endFrame": 8940,
+    "startSeconds": 294.59,
+    "endSeconds": 298.01,
+    "text": "for AI-Generated Biology; FTC Opens a Probe"
   },
   {
     "index": 100,
-    "sceneId": "outro",
-    "startFrame": 9360,
-    "endFrame": 9483,
-    "startSeconds": 312.0,
-    "endSeconds": 316.08,
-    "text": "Follow for daily global artificial intelligence intelligence,"
+    "sceneId": "recap",
+    "startFrame": 8940,
+    "endFrame": 9043,
+    "startSeconds": 298.01,
+    "endSeconds": 301.42,
+    "text": "Into Frontier AI Labs; OpenAI Pulls GPT-6.1"
   },
   {
     "index": 101,
-    "sceneId": "outro",
-    "startFrame": 9483,
-    "endFrame": 9605,
-    "startSeconds": 316.08,
-    "endSeconds": 320.16,
-    "text": "verified institutional reporting, and sovereign compute analysis."
+    "sceneId": "recap",
+    "startFrame": 9043,
+    "endFrame": 9145,
+    "startSeconds": 301.42,
+    "endSeconds": 304.84,
+    "text": "Astra; DeepSeek and Huawei Build on Ascend"
   },
   {
     "index": 102,
+    "sceneId": "recap",
+    "startFrame": 9145,
+    "endFrame": 9248,
+    "startSeconds": 304.84,
+    "endSeconds": 308.25,
+    "text": "Chips; A Tokyo Court Protects a Person's"
+  },
+  {
+    "index": 103,
+    "sceneId": "recap",
+    "startFrame": 9248,
+    "endFrame": 9350,
+    "startSeconds": 308.25,
+    "endSeconds": 311.66,
+    "text": "Voice; Ajai Chowdhry Urges Sovereign Small Models"
+  },
+  {
+    "index": 104,
+    "sceneId": "recap",
+    "startFrame": 9350,
+    "endFrame": 9379,
+    "startSeconds": 311.66,
+    "endSeconds": 312.64,
+    "text": "for India."
+  },
+  {
+    "index": 105,
+    "sceneId": "market_snapshot",
+    "startFrame": 9415,
+    "endFrame": 9533,
+    "startSeconds": 313.84,
+    "endSeconds": 317.77,
+    "text": "On the desk today: DeepMind Introduces Watermarking"
+  },
+  {
+    "index": 106,
+    "sceneId": "market_snapshot",
+    "startFrame": 9533,
+    "endFrame": 9584,
+    "startSeconds": 317.77,
+    "endSeconds": 319.46,
+    "text": "for AI-Generated Biology."
+  },
+  {
+    "index": 107,
+    "sceneId": "market_snapshot",
+    "startFrame": 9584,
+    "endFrame": 9702,
+    "startSeconds": 319.46,
+    "endSeconds": 323.39,
+    "text": "FTC Opens a Probe Into Frontier AI"
+  },
+  {
+    "index": 108,
+    "sceneId": "market_snapshot",
+    "startFrame": 9702,
+    "endFrame": 9719,
+    "startSeconds": 323.39,
+    "endSeconds": 323.95,
+    "text": "Labs."
+  },
+  {
+    "index": 109,
+    "sceneId": "market_snapshot",
+    "startFrame": 9719,
+    "endFrame": 9786,
+    "startSeconds": 323.95,
+    "endSeconds": 326.2,
+    "text": "OpenAI Pulls GPT-6.1 Astra."
+  },
+  {
+    "index": 110,
+    "sceneId": "market_snapshot",
+    "startFrame": 9786,
+    "endFrame": 9904,
+    "startSeconds": 326.2,
+    "endSeconds": 330.13,
+    "text": "DeepSeek and Huawei Build on Ascend Chips."
+  },
+  {
+    "index": 111,
+    "sceneId": "market_snapshot",
+    "startFrame": 9904,
+    "endFrame": 10022,
+    "startSeconds": 330.13,
+    "endSeconds": 334.07,
+    "text": "A Tokyo Court Protects a Person's Voice."
+  },
+  {
+    "index": 112,
+    "sceneId": "market_snapshot",
+    "startFrame": 10022,
+    "endFrame": 10140,
+    "startSeconds": 334.07,
+    "endSeconds": 338.0,
+    "text": "Ajai Chowdhry Urges Sovereign Small Models for"
+  },
+  {
+    "index": 113,
+    "sceneId": "market_snapshot",
+    "startFrame": 10140,
+    "endFrame": 10157,
+    "startSeconds": 338.0,
+    "endSeconds": 338.56,
+    "text": "India."
+  },
+  {
+    "index": 114,
     "sceneId": "outro",
-    "startFrame": 9605,
-    "endFrame": 9640,
-    "startSeconds": 320.16,
-    "endSeconds": 321.33,
-    "text": "Good day."
+    "startFrame": 10193,
+    "endFrame": 10305,
+    "startSeconds": 339.76,
+    "endSeconds": 343.5,
+    "text": "Those were today's critical developments across global"
+  },
+  {
+    "index": 115,
+    "sceneId": "outro",
+    "startFrame": 10305,
+    "endFrame": 10337,
+    "startSeconds": 343.5,
+    "endSeconds": 344.57,
+    "text": "artificial intelligence."
+  },
+  {
+    "index": 116,
+    "sceneId": "outro",
+    "startFrame": 10337,
+    "endFrame": 10449,
+    "startSeconds": 344.57,
+    "endSeconds": 348.31,
+    "text": "From our bureaus covering World, USA, China,"
+  },
+  {
+    "index": 117,
+    "sceneId": "outro",
+    "startFrame": 10449,
+    "endFrame": 10562,
+    "startSeconds": 348.31,
+    "endSeconds": 352.05,
+    "text": "Asia, and India, thank you for watching"
+  },
+  {
+    "index": 118,
+    "sceneId": "outro",
+    "startFrame": 10562,
+    "endFrame": 10626,
+    "startSeconds": 352.05,
+    "endSeconds": 354.19,
+    "text": "SanMitra AI News Wire."
+  },
+  {
+    "index": 119,
+    "sceneId": "outro",
+    "startFrame": 10626,
+    "endFrame": 10738,
+    "startSeconds": 354.19,
+    "endSeconds": 357.93,
+    "text": "Subscribe now for daily institutional AI intelligence."
   }
 ]
