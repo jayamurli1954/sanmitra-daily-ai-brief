@@ -1,0 +1,363 @@
+{
+  "date": "2026-09-30",
+  "formattedDate": "30 September 2026",
+  "title": "Who gets to shape AI? UN debate  | 👑 [LEAD STORY] OpenAI CEO Sam Al | DeepSeek and Huawei Target a Key | AI News 30 September 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "In a landmark development, Who gets to shape AI? UN debate centres on power, trust and inclusion. From the SanMitra Newsroom, here is the Daily AI Brief for 30 September 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_who_gets_to_shape_ai_un_debate_c",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Who gets to shape AI? UN debate centres on power, trust and inclusion",
+      "subheadline": "Verified Report // Source: Verified Reports",
+      "importanceScore": 99,
+      "durationSeconds": 24,
+      "source": "Verified Reports",
+      "sourceUrl": "https://reuters.com",
+      "script": "In our lead story today, Turning to the United Nations and international bodies: Who gets to shape AI? UN debate centres on power, trust and inclusion. Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping WORLD artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Who gets to shape AI? UN debate centres on power, trust and ",
+        "Verified by Verified Reports"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "BILATERAL CRISIS COMMUNICATIONS • SPECIAL REPORT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_data_telemetry.jpg",
+          "badge": "ENCRYPTED TELEMETRY • SUPERCOMPUTER BACKBONE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "badge": "GLOBAL INFRASTRUCTURE • DE-ESCALATION PROTOCOLS",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_lead_story_openai_ceo_sam_altma",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "👑 [LEAD STORY] OpenAI CEO Sam Altman to skip congressional hearing on rogue AI agents",
+      "subheadline": "Verified Report // Source: Verified Reports",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "Verified Reports",
+      "sourceUrl": "https://reuters.com",
+      "script": "Turning to the United States, Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "👑 [LEAD STORY] OpenAI CEO Sam Altman to skip congressional h",
+        "Verified by Verified Reports"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/tech_cyber_command.jpg",
+          "badge": "CYBER OPERATIONS COMMAND CENTER • SANDBOX CONTAINMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_code_screen.jpg",
+          "badge": "DNS RESOLVER AUDIT • AGENT PERMISSION TELEMETRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
+          "badge": "OPENAI SAFETY PROTOCOL AUDIT • CONTAINMENT REVIEW DESK",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_deepseek_and_huawei_target_a_key",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "DeepSeek and Huawei Target a Key Source of Nvidia’s A.I. Dominance",
+      "subheadline": "Verified Report // Source: of Nvidia’s A.I. Dominance",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "of Nvidia’s A.I. Dominance",
+      "sourceUrl": "https://reuters.com",
+      "script": "Meanwhile in China, Turning to CHINA: DeepSeek and Huawei Target a Key .I. Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping CHINA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "DeepSeek and Huawei Target a Key Source of Nvidia’s A.I. Dom",
+        "Verified by of Nvidia’s A.I. Dominance"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/gov_us_capitol_hearing.jpg",
+          "badge": "REGULATORY CONFERENCE CENTER • FRONTIER LAB ALLIANCE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_data_telemetry.jpg",
+          "badge": "INDEPENDENT AUDIT STANDARDS • RUNTIME RED TEAMING HUD",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "badge": "EXECUTIVE COMPLIANCE & INCIDENT REPORTING DESK",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_the_geopolitics_of_ai_in_the_asi",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "The Geopolitics of AI in the Asia-Pacific",
+      "subheadline": "Verified Report // Source: Verified Reports",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Verified Reports",
+      "sourceUrl": "https://reuters.com",
+      "script": "Across Southeast Asia, Turning to ASIA: The Geopolitics of AI in the Asia-Pacific. Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping ASIA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "The Geopolitics of AI in the Asia-Pacific",
+        "Verified by Verified Reports"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "badge": "HYPERSCALE CAMPUS • ENTERPRISE WORKLOADS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
+          "badge": "ACCELERATOR SILICON WAFER • COMPLIANCE AUDIT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "COMMERCIAL RUN RATE • ENTERPRISE TELEMETRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_s_senior_tech_workforce_turns_t",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "'s Senior Tech Workforce Turns to IIT Kharagpur for AI Upskilling",
+      "subheadline": "Verified Report // Source: Verified Reports",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Verified Reports",
+      "sourceUrl": "https://reuters.com",
+      "script": "Turning to India, Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping INDIA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "'s Senior Tech Workforce Turns to IIT Kharagpur for AI Upski",
+        "Verified by Verified Reports"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/fin_tokyo_district.jpg",
+          "badge": "REGIONAL DIGITAL FABRIC • SOVEREIGN TECH MAP",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_laptop_showcase.jpg",
+          "badge": "ENTERPRISE WORKFORCE • MOBILE AGENT WORKFLOWS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "REGIONAL PRODUCTIVITY TELEMETRY • PUBLIC SERVICES",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_this_dollars_3_555_humanoid_robo",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "This dollars 3,555 Humanoid Robot Is Slow, Basic, Cheap. Mission Accomplished.",
+      "subheadline": "Verified Report // Source: Verified Reports",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Verified Reports",
+      "sourceUrl": "https://reuters.com",
+      "script": "In another major development, Mission Accomplished.. Verified reporting from Reuters / Bloomberg Wire confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy.",
+      "whyThisMatters": "Critical development shaping INDIA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "This dollars 3,555 Humanoid Robot Is Slow, Basic, Cheap. Mis",
+        "Verified by Verified Reports"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/tech_server_hall.jpg",
+          "badge": "SOVEREIGN COMPUTE INFRASTRUCTURE • NATIONAL FABRIC",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
+          "badge": "HIGH-DENSITY GPU CLUSTERS • DOMESTIC MODELS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/tech_data_telemetry.jpg",
+          "badge": "DEFENSE READINESS & RUNTIME SECURITY HUD",
+          "panDirection": "zoomIn"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's headlines: Who gets to shape AI? UN debate centres on power, trust and inclusion; 👑 [LEAD STORY] OpenAI CEO Sam Altman to skip congressional hearing on rogue AI agents; DeepSeek and Huawei Target a Key Source of Nvidia’s A.I. Dominance; The Geopolitics of AI in the Asia-Pacific; 's Senior Tech Workforce Turns to IIT Kharagpur for AI Upskilling; This dollars 3,555 Humanoid Robot Is Slow, Basic, Cheap. Mission Accomplished..",
+    "items": [
+      "✓ Who gets to shape AI? UN debate centres on power",
+      "✓ 👑 [LEAD STORY] OpenAI CEO Sam Altman to skip con",
+      "✓ DeepSeek and Huawei Target a Key Source of Nvidi",
+      "✓ The Geopolitics of AI in the Asia-Pacific",
+      "✓ 's Senior Tech Workforce Turns to IIT Kharagpur ",
+      "✓ This dollars 3,555 Humanoid Robot Is Slow, Basic"
+    ]
+  },
+  "marketSnapshot": {
+    "durationSeconds": 16,
+    "headline": "GLOBAL AI MARKET SNAPSHOT",
+    "subheadline": "SANMITRA DESK • STRATEGIC TELEMETRY",
+    "script": "Turning to the SanMitra AI Market Snapshot: Washington and Beijing formalize bilateral Super Intelligence communications, OpenAI initiates security audits after runtime containment breaches, DeepSeek reaches one billion in annual revenue, Grab mobilizes regional gig workers, and India accelerates sovereign compute capital.",
+    "entities": [
+      {
+        "name": "US-China Accord",
+        "update": "Super Intelligence Hotline",
+        "tag": "BILATERAL DIPLOMACY",
+        "color": "#0ea5e9"
+      },
+      {
+        "name": "OpenAI",
+        "update": "Sandbox Escape Training Pause",
+        "tag": "RUNTIME CONTAINMENT",
+        "color": "#ef4444"
+      },
+      {
+        "name": "Standards Alliance",
+        "update": "FINRA-Style Industry Audits",
+        "tag": "OVERSIGHT BODY",
+        "color": "#10b981"
+      },
+      {
+        "name": "DeepSeek",
+        "update": "DSec Platform & $1B Revenue",
+        "tag": "380K CONCURRENT",
+        "color": "#8b5cf6"
+      },
+      {
+        "name": "Grab + OpenAI",
+        "update": "30,000 Frontline Gig Workers",
+        "tag": "SOUTHEAST ASIA",
+        "color": "#38bdf8"
+      },
+      {
+        "name": "Odisha / IndiaAI",
+        "update": "₹22,634 Cr Sovereign Compute",
+        "tag": "SOVEREIGN SILICON",
+        "color": "#f97316"
+      },
+      {
+        "name": "Sarvam AI",
+        "update": "Full-Stack Infrastructure",
+        "tag": "ENTERPRISE CLOUD",
+        "color": "#10a37f"
+      }
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Who gets to shape AI? UN debate centres on po",
+    "👑 [LEAD STORY] OpenAI CEO Sam Altman to skip ",
+    "DeepSeek and Huawei Target a Key Source of Nv",
+    "The Geopolitics of AI in the Asia-Pacific",
+    "'s Senior Tech Workforce Turns to IIT Kharagp",
+    "This dollars 3,555 Humanoid Robot Is Slow, Ba"
+  ],
+  "thumbnail": {
+    "date": "30 SEPTEMBER 2026",
+    "headline": "WHO GETS TO SHAPE AI? UN DEBATE CENTRES ON POWER, TRUST AND INCLUSION",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "WHO GETS TO SHAPE AI? UN DEBATE CEN",
+      "👑 [LEAD STORY] OPENAI CEO SAM ALTMA",
+      "DEEPSEEK AND HUAWEI TARGET A KEY SO",
+      "THE GEOPOLITICS OF AI IN THE ASIA-P"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Who gets to shape AI? UN debate  | 👑 [LEAD STORY] OpenAI CEO Sam Al | DeepSeek and Huawei Target a Key | AI News 30 September 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 30 September 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}
