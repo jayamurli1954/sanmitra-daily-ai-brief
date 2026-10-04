@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 12.62,
-    "sceneDurationSeconds": 13.82,
-    "durationInFrames": 415,
+    "audioDurationSeconds": 13.85,
+    "sceneDurationSeconds": 15.05,
+    "durationInFrames": 451,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_deepmind_introduces_watermarking": {
-    "audioFile": "audio/aibrief/s1_s1_deepmind_introduces_watermarking.mp3",
-    "audioDurationSeconds": 27.31,
-    "sceneDurationSeconds": 28.51,
-    "durationInFrames": 855,
-    "title": "Story 1: DeepMind Introduces Watermarking for AI-Generated Biology",
+  "s1_north_korea_fires_ballistic_miss": {
+    "audioFile": "audio/aibrief/s1_s1_north_korea_fires_ballistic_miss.mp3",
+    "audioDurationSeconds": 29.45,
+    "sceneDurationSeconds": 30.65,
+    "durationInFrames": 919,
+    "title": "Story 1: North Korea fires ballistic missile claiming evasive flight path with AI guidance",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_usa": {
@@ -22,20 +22,20 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_ftc_opens_a_probe_into_frontier": {
-    "audioFile": "audio/aibrief/s2_s2_ftc_opens_a_probe_into_frontier.mp3",
-    "audioDurationSeconds": 27.31,
-    "sceneDurationSeconds": 28.51,
-    "durationInFrames": 855,
-    "title": "Story 2: FTC Opens a Probe Into Frontier AI Labs",
+  "s2_white_house_launches_super_intel": {
+    "audioFile": "audio/aibrief/s2_s2_white_house_launches_super_intel.mp3",
+    "audioDurationSeconds": 39.43,
+    "sceneDurationSeconds": 40.63,
+    "durationInFrames": 1219,
+    "title": "Story 2: White House launches 'Super Intelligence Force' led by Jay Clayton as labs debate AI doctrine",
     "voice": "en-US-AriaNeural"
   },
-  "s3_openai_pulls_gpt_6_1_astra": {
-    "audioFile": "audio/aibrief/s3_s3_openai_pulls_gpt_6_1_astra.mp3",
-    "audioDurationSeconds": 26.04,
-    "sceneDurationSeconds": 27.24,
-    "durationInFrames": 817,
-    "title": "Story 3: OpenAI Pulls GPT-6.1 Astra",
+  "s3_google_cloud_ai_researchers_intr": {
+    "audioFile": "audio/aibrief/s3_s3_google_cloud_ai_researchers_intr.mp3",
+    "audioDurationSeconds": 30.82,
+    "sceneDurationSeconds": 32.02,
+    "durationInFrames": 960,
+    "title": "Story 3: Google Cloud AI researchers introduce RRSI to prevent self-improving agents from memorizing benchmarks",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
@@ -45,12 +45,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s4_deepseek_and_huawei_build_on_asc": {
-    "audioFile": "audio/aibrief/s4_s4_deepseek_and_huawei_build_on_asc.mp3",
-    "audioDurationSeconds": 18.58,
-    "sceneDurationSeconds": 19.78,
-    "durationInFrames": 593,
-    "title": "Story 4: DeepSeek and Huawei Build on Ascend Chips",
+  "s4_tencent_bytedance_and_alibaba_ac": {
+    "audioFile": "audio/aibrief/s4_s4_tencent_bytedance_and_alibaba_ac.mp3",
+    "audioDurationSeconds": 31.13,
+    "sceneDurationSeconds": 32.33,
+    "durationInFrames": 970,
+    "title": "Story 4: Tencent, ByteDance, and Alibaba accelerate rollout of persistent personal AI agents across Chinese consumer ecosystems",
     "voice": "en-US-AriaNeural"
   },
   "transition_asia": {
@@ -60,12 +60,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
   },
-  "s5_a_tokyo_court_protects_a_person": {
-    "audioFile": "audio/aibrief/s5_s5_a_tokyo_court_protects_a_person.mp3",
-    "audioDurationSeconds": 21.65,
-    "sceneDurationSeconds": 22.85,
-    "durationInFrames": 685,
-    "title": "Story 5: A Tokyo Court Protects a Person's Voice",
+  "s5_singapore_digital_minister_josep": {
+    "audioFile": "audio/aibrief/s5_s5_singapore_digital_minister_josep.mp3",
+    "audioDurationSeconds": 27.89,
+    "sceneDurationSeconds": 29.09,
+    "durationInFrames": 873,
+    "title": "Story 5: Singapore Digital Minister Josephine Teo advocates stronger brakes and multi-layer guardrails for agentic systems",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_india": {
@@ -75,67 +75,51 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s6_ajai_chowdhry_urges_sovereign_sm": {
-    "audioFile": "audio/aibrief/s6_s6_ajai_chowdhry_urges_sovereign_sm.mp3",
-    "audioDurationSeconds": 20.42,
-    "sceneDurationSeconds": 21.62,
-    "durationInFrames": 649,
-    "title": "Story 6: Ajai Chowdhry Urges Sovereign Small Models for India",
+  "s6_guwahati_s_navdyut_ai_labs_open": {
+    "audioFile": "audio/aibrief/s6_s6_guwahati_s_navdyut_ai_labs_open.mp3",
+    "audioDurationSeconds": 21.94,
+    "sceneDurationSeconds": 23.14,
+    "durationInFrames": 694,
+    "title": "Story 6: Guwahati's Navdyut AI Labs open-sources Navdyut-240M foundation model, targeting AMD inference",
     "voice": "en-US-AriaNeural"
   },
-  "s7_the_pentagon_plans_an_autonomous": {
-    "audioFile": "audio/aibrief/s7_s7_the_pentagon_plans_an_autonomous.mp3",
-    "audioDurationSeconds": 22.54,
-    "sceneDurationSeconds": 23.74,
-    "durationInFrames": 712,
-    "title": "Story 7: The Pentagon Plans an Autonomous Warfare Command",
+  "s7_rural_queenslanders_confront_725": {
+    "audioFile": "audio/aibrief/s7_s7_rural_queenslanders_confront_725.mp3",
+    "audioDurationSeconds": 27.7,
+    "sceneDurationSeconds": 28.9,
+    "durationInFrames": 867,
+    "title": "Story 7: Rural Queenslanders confront 725-hectare datacentre hub as Anthropic regional compute expands",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_google_launches_gemini_4_argon": {
-    "audioFile": "audio/aibrief/s8_s8_google_launches_gemini_4_argon.mp3",
-    "audioDurationSeconds": 24.79,
-    "sceneDurationSeconds": 25.99,
-    "durationInFrames": 780,
-    "title": "Story 8: Google Launches Gemini 4 Argon",
+  "s8_new_jersey_former_lieutenant_gov": {
+    "audioFile": "audio/aibrief/s8_s8_new_jersey_former_lieutenant_gov.mp3",
+    "audioDurationSeconds": 27.98,
+    "sceneDurationSeconds": 29.18,
+    "durationInFrames": 876,
+    "title": "Story 8: New Jersey former lieutenant governor cites multi-platform AI queries in defense against harassment findings",
     "voice": "en-US-AriaNeural"
   },
-  "s9_openai_reports_an_attempt_to_ext": {
-    "audioFile": "audio/aibrief/s9_s9_openai_reports_an_attempt_to_ext.mp3",
-    "audioDurationSeconds": 16.27,
-    "sceneDurationSeconds": 17.47,
-    "durationInFrames": 524,
-    "title": "Story 9: OpenAI Reports an Attempt to Extract Model Reasoning",
-    "voice": "en-US-ChristopherNeural"
-  },
-  "s10_south_korea_tests_generative_ai": {
-    "audioFile": "audio/aibrief/s10_s10_south_korea_tests_generative_ai.mp3",
-    "audioDurationSeconds": 17.02,
-    "sceneDurationSeconds": 18.22,
-    "durationInFrames": 546,
-    "title": "Story 10: South Korea Tests Generative AI in a Defense Network",
-    "voice": "en-US-AriaNeural"
-  },
-  "s11_india_is_asked_to_write_its_own": {
-    "audioFile": "audio/aibrief/s11_s11_india_is_asked_to_write_its_own.mp3",
-    "audioDurationSeconds": 26.23,
-    "sceneDurationSeconds": 27.43,
-    "durationInFrames": 823,
-    "title": "Story 11: India Is Asked to Write Its Own AI Rules",
+  "s9_indian_industry_leaders_urge_sov": {
+    "audioFile": "audio/aibrief/s9_s9_indian_industry_leaders_urge_sov.mp3",
+    "audioDurationSeconds": 28.63,
+    "sceneDurationSeconds": 29.83,
+    "durationInFrames": 895,
+    "title": "Story 9: Indian industry leaders urge sovereign AI safety framework tailored to national scale over US pact",
     "voice": "en-US-ChristopherNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 21.46,
-    "sceneDurationSeconds": 22.66,
-    "durationInFrames": 680,
+    "audioDurationSeconds": 38.74,
+    "sceneDurationSeconds": 39.94,
+    "durationInFrames": 1198,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },
   "market_snapshot": {
     "audioFile": "audio/aibrief/s_market_snapshot.mp3",
-    "audioDurationSeconds": 24.72,
-    "sceneDurationSeconds": 25.92,
-    "durationInFrames": 778,
+    "audioDurationSeconds": 40.73,
+    "sceneDurationSeconds": 41.93,
+    "durationInFrames": 1258,
     "title": "AI Market Snapshot",
     "voice": "en-US-AriaNeural"
   },

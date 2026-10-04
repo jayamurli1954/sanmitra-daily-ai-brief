@@ -8,9 +8,28 @@ import edge_tts
 
 import re
 
-VOICE = "en-US-ChristopherNeural"
+# Two-anchor desk. Each segment is one complete read, so the voices never split a sentence.
+LEAD_VOICE = "en-US-ChristopherNeural"
+CORRESPONDENT_VOICE = "en-US-AriaNeural"
 RATE = "+1%"
-VOLUME = "+25%"
+# Christopher is quieter in Edge TTS. Aria is brought up less so the handoff stays level.
+VOICE_VOLUME = {
+    LEAD_VOICE: "+25%",
+    CORRESPONDENT_VOICE: "+15%",
+}
+
+
+def anchor_for(segment_id: str, story_number: int | None = None) -> str:
+    """Christopher opens the show, reads the odd stories, the recap, and the close.
+    Aria reads the even stories and the market snapshot.
+    """
+    if segment_id in ("intro", "recap", "outro"):
+        return LEAD_VOICE
+    if segment_id == "market_snapshot":
+        return CORRESPONDENT_VOICE
+    if story_number is None:
+        return LEAD_VOICE
+    return LEAD_VOICE if story_number % 2 == 1 else CORRESPONDENT_VOICE
 
 def clean_script_for_tts(text: str) -> str:
     """
@@ -31,8 +50,10 @@ def clean_script_for_tts(text: str) -> str:
     # 2. Remove markdown links [text](url) -> text
     text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
     
-    # 3. Remove "Source: ...", "Source Reuters", etc.
+    # 3. Remove "Source: ...", "Source Reuters", and the research desk label.
+    # Desk is an audit field. It is not spoken.
     text = re.sub(r'(?i)\bSource(?:\s+Badge)?\s*:?[^\n\.\;]*', '', text)
+    text = re.sub(r'(?i)\bDesk:\s*(?:ChatGPT and Grok|Scraper)\b', '', text)
     text = re.sub(r'(?i)\bAccording to reporting verified by\s+[^\n\.\;]*', '', text)
     
     # 4. Remove "Story X", "Headline X", "Item X" labels
@@ -87,6 +108,7 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
         "title": "Intro: Today's Biggest AI Developments",
         "filename": "s0_intro.mp3",
         "text": intro.get("script", "Today on SanMitra AI News Wire: Here are today's biggest AI developments."),
+        "voice": anchor_for("intro"),
         "is_transition": False
     })
 
@@ -115,6 +137,7 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
             "title": f"Story {i}: {headline}",
             "filename": f"s{i}_{s_id}.mp3",
             "text": script,
+            "voice": anchor_for(s_id, i),
             "is_transition": False
         })
 
@@ -125,6 +148,7 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
         "title": "Headlines Recap: Today's Critical Developments",
         "filename": "s_recap.mp3",
         "text": recap.get("script", ""),
+        "voice": anchor_for("recap"),
         "is_transition": False
     })
 
@@ -135,6 +159,7 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
         "title": "AI Market Snapshot",
         "filename": "s_market_snapshot.mp3",
         "text": market.get("script", ""),
+        "voice": anchor_for("market_snapshot"),
         "is_transition": False
     })
 
@@ -145,6 +170,7 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
         "title": "Outro: Subscribe & Daily Bureaus",
         "filename": "s_outro.mp3",
         "text": outro.get("script", ""),
+        "voice": anchor_for("outro"),
         "is_transition": False
     })
 
@@ -180,11 +206,14 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
         chapters.append(f"{timestamp_str} {title}")
 
         clean_text = clean_script_for_tts(text)
-        print(f" -> Synthesizing: {filename}...")
+        voice = item.get("voice", LEAD_VOICE)
+        volume = VOICE_VOLUME.get(voice, "+25%")
+        anchor_name = "Christopher" if voice == LEAD_VOICE else "Aria"
+        print(f" -> Synthesizing: {filename} ({anchor_name})...")
         max_retries = 4
         for attempt in range(max_retries):
             try:
-                communicate = edge_tts.Communicate(clean_text, VOICE, rate=RATE, volume=VOLUME)
+                communicate = edge_tts.Communicate(clean_text, voice, rate=RATE, volume=volume)
                 await communicate.save(out_file)
                 break
             except Exception as e:
@@ -204,7 +233,8 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
             "audioDurationSeconds": round(raw_duration, 2),
             "sceneDurationSeconds": round(scene_duration, 2),
             "durationInFrames": frames,
-            "title": title
+            "title": title,
+            "voice": voice
         }
 
         total_time += scene_duration

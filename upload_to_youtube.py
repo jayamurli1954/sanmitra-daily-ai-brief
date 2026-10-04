@@ -103,7 +103,50 @@ def parse_metadata_file(filepath):
             
     return title, description, tags
 
-def upload_video(youtube, file_path, title, description, tags, category_id="28", privacy_status="private"):
+# Countries where the brief may be viewed. YouTube Studio stores one map pin;
+# a list of markets is set as the allowed distribution regions.
+DISTRIBUTION_REGIONS = [
+    # United States, United Kingdom, Australia, New Zealand
+    "US", "GB", "AU", "NZ",
+    # Gulf
+    "AE", "SA", "QA", "KW", "BH", "OM",
+    # Europe
+    "AL", "AD", "AT", "BA", "BE", "BG", "BY", "CH", "CY", "CZ", "DE", "DK",
+    "EE", "ES", "FI", "FR", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT",
+    "LU", "LV", "MC", "MD", "ME", "MK", "MT", "NL", "NO", "PL", "PT", "RO",
+    "RS", "SE", "SI", "SK", "SM", "UA", "VA",
+    # Asia
+    "AF", "AM", "AZ", "BD", "BN", "BT", "CN", "GE", "HK", "ID", "IN", "JP",
+    "KG", "KH", "KR", "KZ", "LA", "LK", "MM", "MN", "MO", "MY", "NP", "PH",
+    "PK", "SG", "TH", "TJ", "TL", "TM", "TW", "UZ", "VN",
+]
+
+
+def set_distribution_regions(youtube, video_id):
+    print("[*] Setting viewing regions: Asia, USA, UK, Europe, Gulf, Australia, New Zealand...")
+    try:
+        youtube.videos().update(
+            part="contentDetails",
+            body={
+                "id": video_id,
+                "contentDetails": {
+                    "regionRestriction": {"allowed": DISTRIBUTION_REGIONS}
+                },
+            },
+        ).execute()
+        print(f"[+] Viewing regions set ({len(DISTRIBUTION_REGIONS)} countries).")
+    except Exception as e:
+        print(f"[!] Failed to set viewing regions: {e}")
+
+
+def upload_video(youtube, file_path, title, description, tags, category_id="28", privacy_status="private", publish_at=None):
+    status = {
+        "privacyStatus": "private" if publish_at else privacy_status,
+        "selfDeclaredMadeForKids": False,
+    }
+    # YouTube publishes a private video automatically at publishAt.
+    if publish_at:
+        status["publishAt"] = publish_at
     body = {
         "snippet": {
             "title": title[:100], # YouTube max 100 chars
@@ -112,10 +155,7 @@ def upload_video(youtube, file_path, title, description, tags, category_id="28",
             "categoryId": category_id,
             "defaultLanguage": "en",
         },
-        "status": {
-            "privacyStatus": privacy_status,
-            "selfDeclaredMadeForKids": False,
-        }
+        "status": status,
     }
 
     insert_request = youtube.videos().insert(
@@ -124,7 +164,8 @@ def upload_video(youtube, file_path, title, description, tags, category_id="28",
         media_body=MediaFileUpload(file_path, chunksize=-1, resumable=True)
     )
 
-    print(f"[*] Uploading video: {file_path} ({privacy_status.upper()})...")
+    label = f"SCHEDULED {publish_at}" if publish_at else privacy_status.upper()
+    print(f"[*] Uploading video: {file_path} ({label})...")
     response = None
     error = None
     retry = 0
@@ -227,12 +268,22 @@ def main():
     parser.add_argument("--thumb-file", type=str, help="Custom thumbnail file path")
     parser.add_argument("--meta-file", type=str, help="Custom metadata file path")
     parser.add_argument("--video-id", type=str, help="Existing YouTube video ID to set thumbnail for")
+    parser.add_argument("--publish-at", type=str, help="UTC time to publish, RFC3339, for example 2026-10-03T02:00:00Z")
     args = parser.parse_args()
 
     date_str = args.date
-    thumb_path = args.thumb_file or f"out/aibrief/thumbnail_{date_str}.png"
-    if not os.path.exists(thumb_path) and os.path.exists("out/aibrief/thumbnail_A.png"):
-        thumb_path = "out/aibrief/thumbnail_A.png"
+    # Hard gate: do not publish a video whose sources are not in the approved prompt.
+    from validate_episode_sources import validate
+    if not validate(date_str):
+        print("[X] Source traceability gate failed. Not uploading.")
+        sys.exit(1)
+
+    if args.thumb_file:
+        thumb_path = args.thumb_file if os.path.exists(args.thumb_file) else ""
+    else:
+        thumb_path = f"out/aibrief/thumbnail_{date_str}.png"
+        if not os.path.exists(thumb_path) and os.path.exists("out/aibrief/thumbnail_A.png"):
+            thumb_path = "out/aibrief/thumbnail_A.png"
 
     youtube = get_authenticated_service()
 
@@ -251,18 +302,35 @@ def main():
             sys.exit(1)
 
         title, description, tags = parse_metadata_file(meta_path)
-        video_id = upload_video(youtube, video_path, title, description, tags, privacy_status=args.privacy)
+        video_id = upload_video(
+            youtube,
+            video_path,
+            title,
+            description,
+            tags,
+            privacy_status=args.privacy,
+            publish_at=args.publish_at,
+        )
     
     if os.path.exists(thumb_path):
         set_thumbnail(youtube, video_id, thumb_path)
 
-    # Post engagement discussion comment
-    post_discussion_comment(youtube, video_id, date_str)
+    set_distribution_regions(youtube, video_id)
+
+    # YouTube does not allow comments on private videos. Unlisted and public do.
+    if args.publish_at or args.privacy == "private":
+        print("[*] Discussion comment skipped. YouTube does not allow comments while a video is private.")
+        print("    Set the video to Unlisted or Public, then run this again with --privacy unlisted or --privacy public.")
+    else:
+        post_discussion_comment(youtube, video_id, date_str)
 
     print("\n" + "=" * 70)
     print("🚀 AUTOMATED YOUTUBE PUBLISHING COMPLETED!")
     print(f"📺 Video Link: https://youtu.be/{video_id}")
-    print(f"🎯 Status:     {args.privacy.upper()}")
+    if args.publish_at:
+        print(f"🎯 Status:     PRIVATE until {args.publish_at}, then PUBLIC")
+    else:
+        print(f"🎯 Status:     {args.privacy.upper()}")
     print("=" * 70)
 
 if __name__ == "__main__":

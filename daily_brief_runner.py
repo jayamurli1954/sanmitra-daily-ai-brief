@@ -10,7 +10,7 @@ Orchestrates:
 """
 
 import argparse
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 import os
 import subprocess
 import sys
@@ -35,7 +35,8 @@ def run_command(cmd, desc):
 
 def run_daily_pipeline(date_str=None, privacy="private"):
     if not date_str:
-        date_str = datetime.now().strftime("%Y-%m-%d")
+        ist = timezone(timedelta(hours=5, minutes=30))
+        date_str = datetime.now(ist).strftime("%Y-%m-%d")
 
     log_dir = os.path.join(PROJECT_DIR, "out", "aibrief")
     os.makedirs(log_dir, exist_ok=True)
@@ -47,14 +48,33 @@ def run_daily_pipeline(date_str=None, privacy="private"):
     print(f"🔒 YouTube Privacy Mode:   {privacy.upper()}")
     print("=" * 75)
 
-    # 1. Scrape 24h news across World, USA, China, Asia, India, Robotics
-    scrape_success = run_command(
-        f"python scrape_daily_ai_news.py --date {date_str}",
-        f"Scraping previous 24h AI & Robotics moves across 5 regions for {date_str}"
-    )
+    # Render only from the committed brief. A missing file used to fall
+    # through to a scrape whose stories had no Source: line, and the builder
+    # then printed "Verified Reports" / reuters.com.
+    prompt_file = os.path.join(PROJECT_DIR, "prompts", f"{date_str}.md")
+    if not os.path.exists(prompt_file):
+        print(f"[X] No approved prompt at {prompt_file}.")
+        print("    Commit prompts/YYYY-MM-DD.md with a Source: line on every story, then run again.")
+        sys.exit(1)
 
-    # 2. Run master production (audio, subtitles, thumbnail ranker, 1080p MP4, LinkedIn cover/article, YouTube private upload)
-    prod_cmd = f"python produce_from_prompt.py --privacy {privacy}"
+    print(f"[*] Approved brief: {prompt_file}")
+    built = run_command(
+        f'python build_episode_from_prompt.py "{prompt_file}"',
+        "Building the episode from the approved brief",
+    )
+    if not built:
+        print("[X] Episode build failed. Stopping before render.")
+        sys.exit(1)
+
+    traced = run_command(
+        f"python validate_episode_sources.py --date {date_str}",
+        "Source traceability gate",
+    )
+    if not traced:
+        print("[X] Source traceability gate failed. Not rendering or uploading.")
+        sys.exit(1)
+
+    prod_cmd = f'python produce_from_prompt.py --privacy {privacy} --prompt-file "{prompt_file}"'
     prod_success = run_command(prod_cmd, "Rendering 1080p MP4 Broadcast, LinkedIn Deliverables, and Uploading to YouTube")
 
     print("\n" + "=" * 75)

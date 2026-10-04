@@ -92,7 +92,8 @@ def score_story_impact(
     summary: str,
     source_url_or_name: str,
     mentions_in_last_7_days: int = 0,
-    explicit_subscores: Optional[Dict[str, int]] = None
+    explicit_subscores: Optional[Dict[str, int]] = None,
+    base_importance_score: Optional[int] = None
 ) -> Dict:
     """
     Calculates detailed sub-scores and the final rank score.
@@ -117,9 +118,9 @@ def score_story_impact(
         # Baseline floor for genuine news items
         if m_pts == 0 and ("investment" in text or "market" in text):
             m_pts = 10
-        if t_pts == 0 and ("ai" in text or "model" in text):
+        if t_pts == 0 and ("ai" in text or "model" in text or "safety" in text or "datacentre" in text or "datacenter" in text):
             t_pts = 10
-        if p_pts == 0 and ("government" in text or "official" in text or "regulat" in text):
+        if p_pts == 0 and ("government" in text or "official" in text or "regulat" in text or "framework" in text or "pact" in text or "quit" in text):
             p_pts = 8
 
     # Dominant Category Scaling:
@@ -133,6 +134,10 @@ def score_story_impact(
     # Combined impact captures both multi-dimensional and domain-dominant breakthroughs
     scaled_dominant = max(top1 * 2.6, (top1 + top2) * 1.5)
     raw_impact = min(100, int(round(max(raw_sum, scaled_dominant))))
+
+    # Incorporate intake wire breaking importance if available
+    if base_importance_score and base_importance_score > 0:
+        raw_impact = min(100, max(raw_impact, int(base_importance_score)))
 
     # Source evaluation
     src_score, src_tier, src_name = score_source(source_url_or_name)

@@ -8,6 +8,8 @@ import { LegalMitraVideoVertical } from "./legalmitra/LegalMitraVideoVertical";
 import { LegalMitraWebsiteHero } from "./legalmitra/LegalMitraWebsiteHero";
 import { LegalMitraDemo60s } from "./legalmitra/LegalMitraDemo60s";
 import { AIBriefVideo } from "./aibrief/AIBriefVideo";
+import { JENNY_SHORT_FRAMES, JennyShort } from "./aibrief/JennyShort";
+import { UKRAINE_WIDE_FRAMES, UkraineWide } from "./aibrief/UkraineWide";
 import { AIBriefThumbnail } from "./aibrief/AIBriefThumbnail";
 import { LinkedInCoverBanner } from "./aibrief/LinkedInCoverBanner";
 import { getAIBriefTotalFrames } from "./aibrief/timingsHelper";
@@ -143,6 +145,26 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+
+      {/* 16:9 Jenny short: Ukraine interceptor drones, 3 October */}
+      <Composition
+        id="AIBriefUkraineWide"
+        component={UkraineWide}
+        durationInFrames={UKRAINE_WIDE_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* 9:16 Jenny short of the current lead story */}
+      <Composition
+        id="AIBriefJennyShort"
+        component={JennyShort}
+        durationInFrames={JENNY_SHORT_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
       />
 
       {/* 16:9 High-Contrast Breaking News Thumbnail Master & A/B/C Variants */}

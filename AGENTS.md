@@ -47,7 +47,7 @@ Never use broad topic tags (e.g. "India" -> Gateway of India, "UN" -> UN logo). 
 
 ## 🎙️ 4. BROADCAST AUDIO & SCRIPT CONSTRAINTS
 
-* **Tone**: Calm, authoritative CNBC / Bloomberg / Reuters broadcast delivery (voice: `en-US-ChristopherNeural`).
+* **Tone**: Calm, authoritative CNBC / Bloomberg / Reuters broadcast delivery. Two anchors, one voice per segment: Christopher (`en-US-ChristopherNeural`) opens the show, reads odd-numbered stories, the recap, and the close. Aria (`en-US-AriaNeural`) reads even-numbered stories and the market snapshot.
 * **NEVER Speak**:
   - Hashtags or bullet points
   - Section names ("World", "USA", "Story 1", "Item 1", "Breaking News")

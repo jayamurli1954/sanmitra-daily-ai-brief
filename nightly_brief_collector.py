@@ -14,7 +14,7 @@ Executes end-to-end:
 """
 
 import argparse
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import json
 import os
 import subprocess
@@ -38,6 +38,36 @@ from src.aibrief.editorial_quality_gate import EditorialQualityGate
 from src.aibrief.visual_memory_manager import VisualMemoryManager
 
 
+def _story_attribution(story: dict) -> tuple:
+    """Outlet name and article URL actually attached to this story.
+
+    Banned fallback strings are treated as missing. The night job must not
+    write 'Reuters / Bloomberg Wire' or reuters.com when the scraper did
+    not record that outlet.
+    """
+    outlet = (story.get("source") or "").strip()
+    url = (story.get("source_url") or story.get("sourceUrl") or "").strip()
+    banned_names = {
+        "reuters / bloomberg wire",
+        "reuters, bloomberg",
+        "reuters bloomberg",
+        "verified reports",
+        "global tech wire",
+        "wire",
+    }
+    banned_urls = {"https://reuters.com", "https://sanmitra.ai", "http://reuters.com"}
+    if outlet.lower() in banned_names:
+        outlet = ""
+    if url.rstrip("/").lower() in banned_urls:
+        url = ""
+    if not outlet and url:
+        from src.aibrief.source_authority import score_source
+        _score, _tier, identified = score_source(url)
+        if identified and identified != "Unknown Source":
+            outlet = identified
+    return outlet, url
+
+
 def run_command(cmd: str, desc: str) -> bool:
     print(f"\n[*] {desc}...")
     print(f"    Command: {cmd}")
@@ -50,8 +80,13 @@ def run_command(cmd: str, desc: str) -> bool:
 
 def run_nightly_collection(target_date: str = None, push_git: bool = True, sync_gdrive: bool = True) -> bool:
     if not target_date:
-        # 11:00 PM IST prepares the next broadcast date
-        target_date = datetime.now().strftime("%Y-%m-%d")
+        # 11:00 PM IST prepares the next morning's broadcast. GitHub's clock is UTC,
+        # so the date is decided in India time, not the machine clock.
+        ist = timezone(timedelta(hours=5, minutes=30))
+        now = datetime.now(ist)
+        if now.hour >= 20:
+            now = now + timedelta(days=1)
+        target_date = now.strftime("%Y-%m-%d")
 
     print("=" * 75)
     print("🌙 SANMITRA AI NEWS WIRE — 11:00 PM NIGHT INTELLIGENCE AGENT")
@@ -114,59 +149,107 @@ def run_nightly_collection(target_date: str = None, push_git: bool = True, sync_
     else:
         print(f"[+] Editorial Quality Gate PASSED: {scorecard['composite_quality_score']}/100")
 
-    # 5. Generate Standard Markdown Prompt (prompts/YYYY-MM-DD.md)
+    # 5. Keep the human-approved markdown if it is already on disk.
+    # The night scraper must not replace that file with a second, unlabeled
+    # copy of the same news — that is how a Straits Times story became a
+    # Financial Times citation with nothing left to check.
     prompts_dir = os.path.join(PROJECT_DIR, "prompts")
     os.makedirs(prompts_dir, exist_ok=True)
     prompt_file = os.path.join(prompts_dir, f"{target_date}.md")
 
-    dt_obj = datetime.strptime(target_date, "%Y-%m-%d")
-    date_display = dt_obj.strftime("%A, %d %B %Y")
+    if os.path.exists(prompt_file):
+        print(f"[*] Approved prompt already exists. Leaving it unchanged: {prompt_file}")
+    else:
+        dt_obj = datetime.strptime(target_date, "%Y-%m-%d")
+        date_display = dt_obj.strftime("%A, %d %B %Y")
 
-    lines = [
-        "# 🤖 SanMitra AI News Wire",
-        "",
-        f"## Daily AI Brief — {date_display} (IST)",
-        "",
-        f"### Covering Global AI Developments — {date_display}",
-        "",
-        "---",
-        ""
-    ]
+        lines = [
+            "# SanMitra AI News Wire",
+            "",
+            f"## Daily AI Brief — {date_display} (IST)",
+            "",
+            "Covering AI developments from the previous day. Only items with a named outlet are included.",
+            "",
+            "---",
+            ""
+        ]
 
-    # Group by bureau
-    bureau_map = {}
-    for s in qualified_stories:
-        b = s.get("bureau", "WORLD").upper()
-        if b not in bureau_map:
-            bureau_map[b] = []
-        bureau_map[b].append(s)
+        bureau_map = {}
+        for s in qualified_stories:
+            b = s.get("bureau", "WORLD").upper()
+            bureau_map.setdefault(b, []).append(s)
 
-    bureau_icons = {
-        "WORLD": "🌍 WORLD",
-        "USA": "🇺🇸 USA",
-        "CHINA": "🇨🇳 CHINA",
-        "ASIA": "🌏 ASIA",
-        "INDIA": "🇮🇳 INDIA"
-    }
+        bureau_icons = {
+            "WORLD": "WORLD",
+            "USA": "USA",
+            "CHINA": "CHINA",
+            "ASIA": "ASIA",
+            "INDIA": "INDIA"
+        }
 
-    for b_code, s_list in bureau_map.items():
-        title = bureau_icons.get(b_code, f"🌐 {b_code}")
-        lines.append(f"# {title}")
-        lines.append("")
-        for st in s_list:
-            lead_tag = "👑 [LEAD STORY] " if st.get("lead_story") else ""
-            lines.append(f"### {lead_tag}{st['headline']}")
-            lines.append(st["summary"])
+        written = 0
+        for b_code, s_list in bureau_map.items():
+            titled = []
+            for st in s_list:
+                outlet, url = _story_attribution(st)
+                if not outlet:
+                    print(f"[!] Skipping unlabeled story (no outlet to cite): {st.get('headline', '')[:80]}")
+                    continue
+                titled.append((st, outlet, url))
+            if not titled:
+                continue
+            lines.append(f"# {bureau_icons.get(b_code, b_code)}")
             lines.append("")
-        lines.append("---")
-        lines.append("")
+            for st, outlet, url in titled:
+                lines.append(f"### {st['headline']}")
+                lines.append(f"Source: {outlet}")
+                if url:
+                    lines.append(url)
+                lines.append("")
+                lines.append(st.get("summary") or "")
+                lines.append("")
+                written += 1
+            lines.append("---")
+            lines.append("")
 
-    with open(prompt_file, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
-    print(f"[+] Formatted prompt generated: {prompt_file}")
+        if written == 0:
+            print("[X] No story had a real outlet name. Refusing to write a prompt.")
+            return False
 
-    # Also build active_episode.json using build_episode_from_prompt.py
-    run_command(f"python build_episode_from_prompt.py \"{prompt_file}\"", f"Building active episode JSON from {prompt_file}")
+        with open(prompt_file, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines))
+        print(f"[+] Formatted prompt generated with named sources: {prompt_file}")
+
+        # Record accepted stories into the 14-day persistent memory ledger
+        for st in qualified_stories:
+            ledger.record_story(
+                headline=st["headline"],
+                companies=st.get("companies", []),
+                topics=st.get("topics", []),
+                country=st.get("country", st.get("bureau", "World")),
+                source_urls=[st.get("source_url")] if st.get("source_url") else [],
+                impact_score=int(st.get("final_rank_score", 80)),
+                story_chain_id=st.get("story_chain_id"),
+                current_date_str=target_date
+            )
+        ledger.save()
+        print(f"[+] Recorded {len(qualified_stories)} stories into 14-day memory ledger.")
+
+    built = run_command(
+        f"python build_episode_from_prompt.py \"{prompt_file}\"",
+        f"Building active episode JSON from {prompt_file}",
+    )
+    if not built:
+        print("[X] Episode build failed. Stopping before commit, push, or upload.")
+        return False
+
+    traced = run_command(
+        f"python validate_episode_sources.py --date {target_date}",
+        "Source traceability gate",
+    )
+    if not traced:
+        print("[X] Source traceability gate failed. Not committing, pushing, or rendering.")
+        return False
 
     # 6. Autonomous Git Commit & Push
     if push_git:
@@ -202,4 +285,5 @@ if __name__ == "__main__":
     parser.add_argument("--no-gdrive", action="store_true", help="Skip Google Drive sync")
     args = parser.parse_args()
 
-    run_nightly_collection(target_date=args.date, push_git=not args.no_git, sync_gdrive=not args.no_gdrive)
+    ok = run_nightly_collection(target_date=args.date, push_git=not args.no_git, sync_gdrive=not args.no_gdrive)
+    sys.exit(0 if ok else 1)

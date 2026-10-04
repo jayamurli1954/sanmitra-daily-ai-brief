@@ -57,7 +57,12 @@ def rank_and_curate_stories(
         companies = raw.get("companies", [])
         topics = raw.get("topics", [])
         country = raw.get("country", raw.get("region", "World"))
-        source_url = raw.get("source_url", raw.get("source", ""))
+        outlet = (raw.get("source") or "").strip()
+        source_url = (raw.get("source_url") or raw.get("sourceUrl") or "").strip()
+        # Score the real URL when we have one. A bare outlet name is only
+        # the fallback input for ranking — it is never rewritten into a
+        # different publication's name.
+        score_input = source_url or outlet
         bureau = raw.get("region", raw.get("bureau", "WORLD")).upper()
 
         if not headline:
@@ -87,9 +92,10 @@ def rank_and_curate_stories(
         audit_score = score_story_impact(
             headline=headline,
             summary=full_context,
-            source_url_or_name=source_url,
+            source_url_or_name=score_input,
             mentions_in_last_7_days=mentions_7d,
-            explicit_subscores=raw.get("subscores")
+            explicit_subscores=raw.get("subscores"),
+            base_importance_score=raw.get("importanceScore") or raw.get("importance_score")
         )
 
         if not audit_score["qualifies_as_broadcast"]:
@@ -107,6 +113,7 @@ def rank_and_curate_stories(
             "companies": companies,
             "topics": topics,
             "country": country,
+            "source": outlet,
             "source_url": source_url,
             "story_chain_id": chain_id,
             "audit_score": audit_score,

@@ -53,8 +53,11 @@ export const AIBriefVideo: React.FC = () => {
                     <Audio src={staticFile(scene.audioFile)} volume={1.0} />
                   )}
                   <IntroScene
-                    intro={episode.intro}
                     formattedDate={episode.formattedDate}
+                    leadHeadline={episode.stories[0]?.headline ?? "Daily AI Brief"}
+                    leadSource={episode.stories[0]?.source ?? ""}
+                    leadRegion={episode.stories[0]?.region ?? "GLOBAL"}
+                    leadImage={episode.stories[0]?.visualCuts?.[0]?.image}
                   />
                   <BroadcastHeader
                     date={episode.formattedDate}

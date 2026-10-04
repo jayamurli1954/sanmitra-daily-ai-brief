@@ -16,6 +16,20 @@ from typing import Dict, List, Optional, Tuple
 LEDGER_PATH = os.path.join(os.path.dirname(__file__), "data", "story_memory_ledger.json")
 
 
+ACTION_CLUSTERS = [
+    {"quit", "quits", "quitting", "resign", "resigns", "resigned", "resignation", "leaves", "leaving", "departs", "departed", "departure", "whistleblower"},
+    {"pause", "pauses", "paused", "halt", "halts", "halted", "pull", "pulls", "pulled", "scrap", "scraps", "scrapped", "cancel", "cancels", "cancelled"},
+    {"acquire", "acquires", "acquired", "acquisition", "buy", "buys", "bought", "purchase", "purchases", "takeover"},
+    {"probe", "probes", "probed", "investigate", "investigates", "investigation", "inquiry", "scrutiny", "subpoena"},
+    {"rename", "renames", "renamed", "renaming", "rebrand", "rebrands", "rebranded", "super intelligence", "superintelligence"}
+]
+
+KNOWN_ENTITIES = [
+    "openai", "anthropic", "google", "deepmind", "nvidia", "amd", "spacex", "tesla",
+    "microsoft", "amazon", "apple", "meta", "indiaai", "alibaba", "deepseek", "tencent", "meity"
+]
+
+
 class StoryMemoryLedger:
     def __init__(self, ledger_file: str = LEDGER_PATH):
         self.ledger_file = ledger_file
@@ -110,41 +124,49 @@ class StoryMemoryLedger:
         if not current_date_str:
             current_date_str = datetime.now().strftime("%Y-%m-%d")
 
-        norm_head = set(re.findall(r'\b[a-zA-Z]{4,}\b', headline.lower()))
+        norm_head = set(re.findall(r'\b[a-zA-Z]{3,}\b', headline.lower()))
         norm_comps = set(c.lower().strip() for c in companies)
+        # Auto-extract entities from headline if empty
+        for ent in KNOWN_ENTITIES:
+            if ent in headline.lower():
+                norm_comps.add(ent)
+
         norm_topics = set(t.lower().strip() for t in topics)
 
         for s in self.data.get("stories", []):
-            s_head = set(re.findall(r'\b[a-zA-Z]{4,}\b', s.get("headline", "").lower()))
+            s_head = set(re.findall(r'\b[a-zA-Z]{3,}\b', s.get("headline", "").lower()))
             s_comps = set(c.lower().strip() for c in s.get("companies", []))
-            s_topics = set(t.lower().strip() for t in s.get("topics", []))
+            for ent in KNOWN_ENTITIES:
+                if ent in s.get("headline", "").lower():
+                    s_comps.add(ent)
+
+            # Common entity overlap
+            shared_entities = norm_comps.intersection(s_comps)
 
             # Headline word intersection
             intersect = norm_head.intersection(s_head)
+            # Remove filler words
+            substantive_intersect = intersect - {"the", "and", "for", "with", "this", "that", "from", "after", "into", "over", "about", "company"}
             jaccard = len(intersect) / max(len(norm_head.union(s_head)), 1)
 
-            # Company and topic overlap
-            comp_overlap = bool(norm_comps.intersection(s_comps))
-            topic_overlap = bool(norm_topics.intersection(s_topics))
-
-            # Case 1: Near-identical headline (>= 60% word overlap) -> REJECT as duplicate
-            if jaccard >= 0.60:
+            # Case 1: Near-identical headline (>= 50% word overlap) -> REJECT as duplicate
+            if jaccard >= 0.50:
                 return (True, s.get("story_chain_id"), f"Headline near-identical to story from {s.get('first_covered')}")
 
-            # Case 2: Same company + same topic covered recently
-            if comp_overlap and topic_overlap:
+            # Case 2: Same Entity + Action Cluster Match (e.g. OpenAI + Resignation/Quits)
+            if shared_entities:
+                for cluster in ACTION_CLUSTERS:
+                    cand_in_cluster = bool(norm_head.intersection(cluster))
+                    past_in_cluster = bool(s_head.intersection(cluster))
+                    if cand_in_cluster and past_in_cluster:
+                        return (True, s.get("story_chain_id"), f"Repeat story: {list(shared_entities)} action already covered on {s.get('first_covered')}")
+
+            # Case 3: Same Entity + 2+ Substantive Shared Words within 14 days
+            if shared_entities and len(substantive_intersect) >= 2:
                 days_ago = (datetime.strptime(current_date_str, "%Y-%m-%d") -
                             datetime.strptime(s.get("last_major_update", s.get("first_covered")), "%Y-%m-%d")).days
                 if days_ago <= 14:
-                    chain_id = s.get("story_chain_id")
-                    # If headline shares significant keywords, consider it a duplicate unless marked with explicit update tokens
-                    update_keywords = {"hearing", "announces", "investigates", "deploys", "funding", "escalates", "escape", "verdict"}
-                    has_update_token = bool(norm_head.intersection(update_keywords))
-                    if not has_update_token and jaccard > 0.35:
-                        return (True, chain_id, f"Repeat topic for {list(norm_comps)} without distinct milestone")
-                    elif chain_id:
-                        # Legitimate follow-up in the same story chain!
-                        return (False, chain_id, f"Active story chain update: {chain_id}")
+                    return (True, s.get("story_chain_id"), f"Repeat story on {list(shared_entities)} ({list(substantive_intersect)}) already covered on {s.get('first_covered')}")
 
         return (False, None, None)
 

@@ -34,23 +34,20 @@ Today's developments span diplomacy, national security, AI safety, sovereign inf
 
 
 def generate_key_takeaways(stories: List[Dict]) -> str:
-    """Generates 3 structural takeaways based on the day's dominant themes."""
-    return """🎯 Today's Key Takeaway
+    """Generates the 5 structural takeaways based on today's dominant themes."""
+    return """🎯 Key Takeaways
 
-Three themes dominate the global AI landscape today:
+🔹 AI Safety has become the industry's top priority, with OpenAI canceling GPT-6.1 Astra and Anthropic highlighting existential risks in its IPO filing.
 
-🔹 AI Safety is moving from theory to operations.
-Labs and regulators are increasingly dealing with real-world containment, sandbox investigations, and kernel-level guardrails.
+🔹 Agent containment is emerging as a critical enterprise technology category, evidenced by Nvidia's new Open Agent Safety Platform with hardware-level quarantines.
 
-🔹 AI Diplomacy has arrived.
-The formalization of bilateral safety protocols and emergency communication hotlines signals that frontier AI is now firmly part of international geopolitical risk management.
+🔹 The AI hardware race is intensifying beyond standard chips, highlighted by AMD's $8.2B acquisition of World Labs and China's full-stack domestic embodied robotics architecture.
 
-🔹 Sovereign AI is accelerating.
-From China and South Korea to India and Australia, governments and enterprise consortia are investing heavily in domestic compute, localized models, and sovereign runtime protections.
+🔹 Governments worldwide are moving from observation to enforceable multilateral regulation, marked by Singapore's UN General Assembly proposal for an IAEA-style verification agency.
 
-The AI race is no longer only about building smarter models.
+🔹 Sovereign AI infrastructure remains the foundation of competitive advantage, driving unprecedented national compute investment across India and the Asia-Pacific.
 
-It is increasingly about governance, security, infrastructure, and trust."""
+The AI race is no longer only about building smarter models. It is increasingly about governance, hardware containment, sovereign capability, and trust."""
 
 
 def build_linkedin_article(

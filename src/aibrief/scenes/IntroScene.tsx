@@ -7,16 +7,21 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { IntroConfig } from "../types";
 
 interface IntroSceneProps {
-  intro: IntroConfig;
   formattedDate: string;
+  leadHeadline: string;
+  leadSource: string;
+  leadRegion: string;
+  leadImage?: string;
 }
 
 export const IntroScene: React.FC<IntroSceneProps> = ({
-  intro,
   formattedDate,
+  leadHeadline,
+  leadSource,
+  leadRegion,
+  leadImage,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -197,7 +202,7 @@ export const IntroScene: React.FC<IntroSceneProps> = ({
                 letterSpacing: 1.5,
               }}
             >
-              AI SECURITY • MAJOR DEVELOPMENT
+              {leadRegion} • LEAD STORY
             </div>
           </div>
         </div>
@@ -226,7 +231,7 @@ export const IntroScene: React.FC<IntroSceneProps> = ({
             }}
           >
             <Img
-              src={staticFile("aibrief/backgrounds/ai_security.jpg")}
+              src={staticFile(leadImage || "aibrief/backgrounds/intro_newsroom.jpg")}
               style={{
                 width: "100%",
                 height: "100%",
@@ -319,7 +324,7 @@ export const IntroScene: React.FC<IntroSceneProps> = ({
                 letterSpacing: 1,
               }}
             >
-              SRC: ARS TECHNICA
+              {leadSource ? `SRC: ${leadSource.toUpperCase()}` : "LEAD STORY"}
             </div>
           </div>
 
@@ -351,32 +356,19 @@ export const IntroScene: React.FC<IntroSceneProps> = ({
                   marginBottom: 2,
                 }}
               >
-                CRITICAL VULNERABILITY EXPOSED
+                {leadRegion} LEAD
               </div>
               <div
                 style={{
                   color: "#ffffff",
-                  fontSize: 18,
+                  fontSize: leadHeadline.length > 48 ? 16 : 18,
                   fontWeight: 900,
-                  letterSpacing: 0.5,
+                  letterSpacing: 0.2,
+                  lineHeight: 1.25,
                 }}
               >
-                META MUSE AGENT 0-DAY CRISIS
+                {leadHeadline}
               </div>
-            </div>
-
-            <div
-              style={{
-                backgroundColor: "#dc2626",
-                color: "#ffffff",
-                fontSize: 12,
-                fontWeight: 900,
-                padding: "6px 14px",
-                borderRadius: 6,
-                letterSpacing: 1.5,
-              }}
-            >
-              AMAZON BLOCKED
             </div>
           </div>
         </div>

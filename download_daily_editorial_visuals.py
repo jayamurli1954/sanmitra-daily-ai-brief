@@ -39,6 +39,8 @@ MEMORY_FILE = os.path.join("src", "aibrief", "data", "visual_memory.json")
 # Permanently banned asset paths / keywords
 BANNED_ASSETS = {
     "gov_white_house.jpg", # Obama on phone
+    "gov_us_capitol_hearing.jpg", # same Obama photo saved under another name
+    "story5_us_capitol.jpg", # same Obama photo saved under another name
     "gov_un_chamber.jpg",  # UN emblem / assembly
     "gov_india_delhi.jpg", # Gateway of India
     "tech_neural_globe.jpg", # Earth at night
@@ -78,6 +80,37 @@ DAILY_VISUAL_MAP = {
         ("s6_cut1.jpg", "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=1920&q=85", "BENGALURU ELECTRONIC CITY • DOMESTIC FOUNDATION MODELS"),
         ("s6_cut2.jpg", "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1920&q=85", "SARVAM AI ENGINEERING LAB • AIR-GAPPED BENCHMARKS"),
         ("s6_cut3.jpg", "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1920&q=85", "CRITICAL INFRASTRUCTURE DEFENSE • SOVEREIGN RUNTIME HUD")
+    ],
+    "2026-09-29": [
+        # Story 1: AI Pioneers Warn of Intelligence Explosion; Anthropic IPO Existential Risk Warning
+        ("s1_cut1.jpg", "https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=1920&q=85", "EXECUTIVE SUMMIT • FRONTIER SAFETY ACCORD"),
+        ("s1_cut2.jpg", "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1920&q=85", "CODE AUDIT • RECURSIVE R&D VERIFICATION"),
+        ("s1_cut3.jpg", "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1920&q=85", "SUPERCOMPUTER TELEMETRY • ACCELERATION AUDIT"),
+
+        # Story 2: Nvidia Launches Open Agent Safety Platform; OpenAI Cancels GPT-6.1 Astra
+        ("s2_cut1.jpg", "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1920&q=85", "VERA AI CPU ENCLAVE • CHIP INTEGRITY"),
+        ("s2_cut2.jpg", "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1920&q=85", "OPENSHELL RUNTIME • KERNEL ACCESS BOUNDARIES"),
+        ("s2_cut3.jpg", "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1920&q=85", "ENTERPRISE RACK DEPLOYMENT • SUB-MILLISECOND QUARANTINE"),
+
+        # Story 3: AMD Acquires Fei-Fei Li's World Labs in $8.2B Physical-AI Megadeal
+        ("s3_cut1.jpg", "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920&q=85", "SPATIAL TESTING MATRIX • EXPERIMENTAL WORLD LAB"),
+        ("s3_cut2.jpg", "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1920&q=85", "KEYNOTE DEMO INTERFACE • SPATIAL GENERATION HUD"),
+        ("s3_cut3.jpg", "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=85", "PHYSICAL ROBOTICS CELL • HUMANOID KINEMATICS"),
+
+        # Story 4: China - Full-Stack Domestic Embodied AI Robot; RTX PRO 5500 Review
+        ("s4_cut1.jpg", "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1920&q=85", "YICHANG ROBOT ACTUATOR ASSEMBLY • DOMESTIC ARCHITECTURE"),
+        ("s4_cut2.jpg", "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?w=1920&q=85", "INTELLIGENT NERVOUS SYSTEM • WAFER AND DIE FABRIC"),
+        ("s4_cut3.jpg", "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=85", "SCREEN PORTAL TELEMETRY • HIGH-THROUGHPUT COMPLIANCE"),
+
+        # Story 5: Singapore - UN Framework Convention on AI Safeguards & IAEA-Style Agency
+        ("s5_cut1.jpg", "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1920&q=85", "DIPLOMATIC MINISTERIAL ASSEMBLY • GLOBAL SAFEGUARDS"),
+        ("s5_cut2.jpg", "https://images.unsplash.com/photo-1506351421178-63b52a2d2562?w=1920&q=85", "BILATERAL SUMMIT • SINGAPORE FRONTIER ACCORD"),
+        ("s5_cut3.jpg", "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=85", "REGULATORY HEARING • STANDARDS VERIFICATION DESK"),
+
+        # Story 6: India - FM Nirmala Sitharaman at IIT Madras Sangam 2026; Google ATLAS Study
+        ("s6_cut1.jpg", "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1920&q=85", "MINISTRY OF FINANCE DESK • SOVEREIGN COMPUTE ADDRESS"),
+        ("s6_cut2.jpg", "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=1920&q=85", "PATIENT CAPITAL INCUBATOR • DEEPTECH CLEANROOM"),
+        ("s6_cut3.jpg", "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1920&q=85", "GOOGLE AI ATLAS METRICS • WORKSTATION MAPPING")
     ]
 }
 
@@ -114,6 +147,9 @@ def download_daily_visuals(date_str: str):
 
     dest_dir = os.path.join("public", "aibrief", "assets", "editorial", date_str)
     os.makedirs(dest_dir, exist_ok=True)
+    if os.path.exists(os.path.join(dest_dir, "s1_cut1.jpg")) and os.path.exists(os.path.join(dest_dir, "s9_cut3.jpg")):
+        print(f"[+] Editorial stills for {date_str} are already on disk. Leaving them in place.")
+        return
 
     items = DAILY_VISUAL_MAP.get(date_str, DAILY_VISUAL_MAP["2026-09-28"])
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}

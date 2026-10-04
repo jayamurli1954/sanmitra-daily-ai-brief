@@ -17,6 +17,13 @@ import shutil
 import subprocess
 import sys
 
+if hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
+    except Exception:
+        pass
+
 def run_command(cmd, desc):
     print(f"\n[*] {desc}...")
     print(f"    Command: {cmd}")
@@ -31,10 +38,6 @@ def produce_from_prompt(prompt_file=None, privacy="private", upload_youtube=True
     print("🎬 SANMITRA AI NEWS WIRE — CLOUD PROMPT PRODUCTION ENGINE")
     print(f"🔒 YouTube Privacy: {privacy.upper()}")
     print("=" * 75)
-
-    # 0. Ensure fresh story-specific editorial visuals are downloaded
-    if os.path.exists("download_daily_editorial_visuals.py"):
-        run_command("python download_daily_editorial_visuals.py", "Ensuring fresh story-specific editorial visuals")
 
     # 1. Parse prompt if given
     if prompt_file and os.path.exists(prompt_file):
@@ -55,12 +58,26 @@ def produce_from_prompt(prompt_file=None, privacy="private", upload_youtube=True
         ep = json.load(f)
     date_str = ep.get("date", datetime.now().strftime("%Y-%m-%d"))
 
+    # Ensure fresh story-specific editorial visuals are downloaded
+    if os.path.exists("download_daily_editorial_visuals.py"):
+        run_command(f"python download_daily_editorial_visuals.py --date {date_str}", "Ensuring fresh story-specific editorial visuals")
+
+    # Hard gate: every on-screen source must appear in prompts/YYYY-MM-DD.md.
+    # This runs after the prompt is parsed and before voiceover, render, or upload.
+    traced = run_command(
+        f"python validate_episode_sources.py --date {date_str}",
+        "Source traceability gate",
+    )
+    if not traced:
+        print("[X] Source traceability gate failed. Aborting before render and upload.")
+        sys.exit(1)
+
     # 2. Check and generate newsroom theme music if missing
     if not os.path.exists("public/audio/aibrief_theme.wav"):
         run_command("python generate_aibrief_music.py", "Generating newsroom background music bed")
 
     # 3. Generate voiceovers, timings, chapters, metadata
-    ok_vo = run_command(f"python generate_aibrief_vo.py {active_file}", "Synthesizing voiceovers (en-US-ChristopherNeural)")
+    ok_vo = run_command(f"python generate_aibrief_vo.py {active_file}", "Synthesizing voiceovers (Christopher and Aria)")
     if not ok_vo:
         print("[X] Voiceover synthesis failed!")
         sys.exit(1)
@@ -139,8 +156,8 @@ def produce_from_prompt(prompt_file=None, privacy="private", upload_youtube=True
 
     # 9. Google Drive Backup
     folder_id = os.environ.get("GDRIVE_FOLDER_ID")
-    if folder_id:
-        run_command(f"python upload_to_gdrive.py --folder-id {folder_id}", "Backing up broadcast & LinkedIn deliverables to Google Drive")
+    f_arg = f"--folder-id {folder_id}" if folder_id else ""
+    run_command(f"python upload_to_gdrive.py --date {date_str} {f_arg}", "Backing up broadcast & LinkedIn deliverables to Google Drive")
 
     print("\n" + "=" * 75)
     print("🚀 PRODUCTION FINISHED SUCCESSFULLY!")

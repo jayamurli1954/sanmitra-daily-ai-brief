@@ -61,8 +61,8 @@ To produce tomorrow's episode in under 2 minutes:
 
 ## 🎨 Visual & Audio Architecture
 
-1. **Clear Male English Broadcast Voice**:
-   - Powered by `edge-tts` using `en-US-ChristopherNeural` (deep, calm, authoritative broadcast tone).
+1. **Two-anchor English broadcast voices**:
+   - Powered by `edge-tts`. Christopher (`en-US-ChristopherNeural`) opens the show, reads odd-numbered stories, the recap, and the close. Aria (`en-US-AriaNeural`) reads even-numbered stories and the market snapshot.
    - Speech timings measured down to the millisecond using `mutagen`.
 2. **Automated Importance Ranking**:
    - Stories are sorted automatically in descending order of `importanceScore`, ensuring the biggest breaking news always leads the broadcast.

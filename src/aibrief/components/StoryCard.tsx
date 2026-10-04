@@ -192,8 +192,8 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
     case "us_senate_agent_probe":
       return [
         {
-          image: "aibrief/assets/story5_us_capitol.jpg",
-          badge: "CAPITOL HILL • BIPARTISAN OVERSIGHT",
+          image: "aibrief/assets/editorial/gov_canberra_parliament.jpg",
+          badge: "PARLIAMENT HOUSE • BIPARTISAN OVERSIGHT",
           panDirection: "zoomIn",
         },
         {
@@ -226,7 +226,7 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
           panDirection: "zoomIn",
         },
         {
-          image: "aibrief/assets/editorial/gov_india_delhi.jpg",
+          image: "aibrief/assets/editorial/tech_quantum_lab.jpg",
           badge: "MINISTRY OF ELECTRONICS & IT • NEW DELHI",
           panDirection: "zoomOut",
         },
@@ -367,7 +367,7 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
       // 4. Government / UN / Policy
       if (text.includes("united nations") || text.includes("security council") || text.includes("un ") || text.includes("multilateral")) {
         dynamicCuts.push({
-          image: "aibrief/assets/editorial/gov_un_chamber.jpg",
+          image: "aibrief/assets/editorial/fin_tokyo_district.jpg",
           badge: "UNITED NATIONS HEADQUARTERS • NEW YORK",
           panDirection: "zoomIn",
         });
@@ -378,12 +378,12 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
         });
       } else if (text.includes("senate") || text.includes("congress") || text.includes("capitol") || text.includes("hearing") || text.includes("oversight") || text.includes("regulation") || text.includes("policy")) {
         dynamicCuts.push({
-          image: "aibrief/assets/editorial/gov_us_capitol_hearing.jpg",
-          badge: "CAPITOL HILL • LEGISLATIVE OVERSIGHT",
+          image: "aibrief/assets/editorial/gov_canberra_parliament.jpg",
+          badge: "PARLIAMENT HOUSE • LEGISLATIVE OVERSIGHT",
           panDirection: "zoomIn",
         });
         dynamicCuts.push({
-          image: "aibrief/assets/story5_us_capitol.jpg",
+          image: "aibrief/assets/editorial/fin_tokyo_district.jpg",
           badge: "CONGRESSIONAL DELIBERATIONS & STANDARDS",
           panDirection: "panLeft",
         });
@@ -392,7 +392,7 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
       // 5. India / Asia
       if (text.includes("india") || text.includes("indiaai") || text.includes("delhi") || text.includes("meity") || text.includes("hyderabad")) {
         dynamicCuts.push({
-          image: "aibrief/assets/editorial/gov_india_delhi.jpg",
+          image: "aibrief/assets/editorial/tech_quantum_lab.jpg",
           badge: "MINISTRY OF ELECTRONICS & IT • NEW DELHI",
           panDirection: "zoomOut",
         });
@@ -430,8 +430,8 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
           panDirection: "panRight",
         },
         {
-          image: "aibrief/assets/editorial/tech_neural_globe.jpg",
-          badge: "GLOBAL AI INTELLIGENCE NETWORK",
+          image: "aibrief/assets/editorial/tech_quantum_lab.jpg",
+          badge: "RESEARCH LABORATORY • INSTRUMENT FLOOR",
           panDirection: "zoomOut",
         },
         {

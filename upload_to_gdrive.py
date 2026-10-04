@@ -134,13 +134,25 @@ def upload_file_to_drive(service, file_path: str, folder_id: Optional[str] = Non
     if not os.path.exists(file_path):
         return None
 
+    import mimetypes
+    mime, _ = mimetypes.guess_type(file_path)
+    if not mime:
+        if file_path.endswith('.md') or file_path.endswith('.txt') or file_path.endswith('.srt'):
+            mime = 'text/plain'
+        elif file_path.endswith('.png'):
+            mime = 'image/png'
+        elif file_path.endswith('.mp4'):
+            mime = 'video/mp4'
+        else:
+            mime = 'application/octet-stream'
+
     file_name = os.path.basename(file_path)
-    file_metadata = {'name': file_name}
+    file_metadata = {'name': file_name, 'mimeType': mime}
     if folder_id:
         file_metadata['parents'] = [folder_id]
 
     try:
-        media = MediaFileUpload(file_path, resumable=True)
+        media = MediaFileUpload(file_path, mimetype=mime, resumable=True)
         file = service.files().create(body=file_metadata, media_body=media, fields='id, webViewLink').execute()
         print(f"  [+] Uploaded: {file_name:<35} -> {file.get('webViewLink')}")
         return file

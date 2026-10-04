@@ -1,16 +1,9 @@
 """
-Automated 24-Hour AI & Robotics News Scraper for SanMitra AI News Wire.
-Scrapes major moves across:
-  1. WORLD (including UN Security Council & multilateral agreements)
-  2. USA (Frontier labs, policy & tech giants)
-  3. CHINA (DeepSeek, Alibaba, Huawei, sovereign silicon & robotics)
-  4. ASIA (Japan, Singapore, South Korea, semiconductors & supply chain)
-  5. INDIA (IndiaAI Mission, MeitY, sovereign compute & startups)
+24-hour breaking intake for SanMitra AI News Wire.
 
-Builds an institutional-grade episode JSON adhering strictly to:
-  • 75% Real visuals / 15% Motion telemetry / 10% Lower-third text
-  • 4.0-second rapid scene cuts
-  • Executive VIP cards for leaders
+Reads publisher wires (not Google News headlines) and keeps at most 12
+full-text breaks across World, USA, China, Asia, and India. Quiet bureaus
+are left empty. No filler story is written.
 """
 
 import argparse
@@ -214,8 +207,8 @@ def generate_visual_cuts_for_story(headline: str, script: str, why_matters: str,
 
     if any(k in text for k in ["un ", "united nations", "security council", "treaty", "multilateral"]):
         cuts.append({
-            "image": "aibrief/assets/editorial/gov_un_chamber.jpg",
-            "badge": "UNITED NATIONS SECURITY COUNCIL • HEADQUARTERS",
+            "image": "aibrief/backgrounds/global_policy.jpg",
+            "badge": "MULTILATERAL POLICY DESK • DIPLOMATIC BRIEFING",
             "panDirection": "zoomIn"
         })
         cuts.append({
@@ -238,8 +231,8 @@ def generate_visual_cuts_for_story(headline: str, script: str, why_matters: str,
 
     if any(k in text for k in ["india", "indiaai", "delhi", "meity", "hyderabad", "bengaluru"]):
         cuts.append({
-            "image": "aibrief/assets/editorial/gov_india_delhi.jpg",
-            "badge": "MINISTRY OF ELECTRONICS & IT • NEW DELHI",
+            "image": "aibrief/assets/story6_indian_engineers.jpg",
+            "badge": "NATIONAL AI INFRASTRUCTURE • ENGINEERING FLOOR",
             "panDirection": "zoomOut"
         })
         cuts.append({
@@ -264,7 +257,7 @@ def generate_visual_cuts_for_story(headline: str, script: str, why_matters: str,
     pool = [
         {"image": "aibrief/assets/editorial/tech_server_hall.jpg", "badge": "HYPERSCALE COMPUTE CORRIDOR • CLOUD INFRASTRUCTURE", "panDirection": "zoomIn"},
         {"image": "aibrief/assets/editorial/tech_code_screen.jpg", "badge": "AUTONOMOUS SYSTEM TELEMETRY & WORKFLOW ENGINE", "panDirection": "panRight"},
-        {"image": "aibrief/assets/editorial/tech_neural_globe.jpg", "badge": "GLOBAL ARTIFICIAL INTELLIGENCE NETWORK", "panDirection": "zoomOut"},
+        {"image": "aibrief/assets/editorial/tech_data_telemetry.jpg", "badge": "INSTITUTIONAL PERFORMANCE BENCHMARKS", "panDirection": "zoomOut"},
         {"image": "aibrief/assets/editorial/tech_data_telemetry.jpg", "badge": "INSTITUTIONAL PERFORMANCE BENCHMARKS • 2026", "panDirection": "panLeft"},
         {"image": "aibrief/backgrounds/cloud_infrastructure.jpg", "badge": "GLOBAL FIBER BACKBONE & DISTRIBUTED FABRIC", "panDirection": "zoomIn"},
     ]
@@ -284,83 +277,79 @@ def build_daily_episode(target_date: str = None) -> dict:
     formatted_date = datetime.strptime(target_date, "%Y-%m-%d").strftime("%d %B %Y")
 
     print("=" * 70)
-    print(f"📡 SANMITRA AI NEWS WIRE — INTELLIGENCE INGESTION ENGINE")
-    print(f"📅 Target Date: {target_date} ({formatted_date})")
-    print(f"🌍 Scrape Scope: Previous 24h across WORLD, USA, CHINA, ASIA, INDIA, ROBOTICS")
+    print(f"SANMITRA AI NEWS WIRE — BREAKING INTAKE")
+    print(f"Target Date: {target_date} ({formatted_date})")
+    print("Scope: full-text breaks only, maximum 12, no filler stories")
     print("=" * 70)
 
+    from src.aibrief.breaking_wire import collect_breaking_stories
+
+    wire_stories = collect_breaking_stories(max_stories=12)
+    if not wire_stories:
+        print("[X] No full-text breaking stories. Leaving the current episode unchanged.")
+        return {}
+
+    bureau_open = {
+        "WORLD": "In other global developments,",
+        "USA": "Turning to the United States,",
+        "CHINA": "Meanwhile in China,",
+        "ASIA": "Across Asia,",
+        "INDIA": "Turning to India,",
+        "GLOBAL": "In other global developments,",
+    }
+
     selected_stories = []
-
-    for cfg in REGIONAL_SEARCH_QUERIES:
-        region = cfg["region"]
-        print(f"[*] Ingesting 24h intelligence for {region}...")
-        articles = scrape_region_news(cfg)
-        print(f"    -> Found {len(articles)} verified items")
-
-        if articles:
-            lead = articles[0]
-            raw_title = lead["title"]
-            source = lead.get("source", "").strip()
-            source_url = lead.get("link", "")
-            
-            headline = raw_title
-            if " - " in headline:
-                parts = headline.rsplit(" - ", 1)
-                headline = parts[0].strip()
-                if not source or source == "Global Tech Wire":
-                    source = parts[1].strip()
-            if not source:
-                source = "Reuters / Bloomberg Wire"
+    for idx, item in enumerate(wire_stories):
+        region = item.get("region") or item.get("bureau") or "WORLD"
+        headline = item["headline"]
+        source = item.get("source") or "Wire"
+        source_url = item.get("source_url") or ""
+        summary = item.get("summary") or ""
+        sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", summary) if len(s.strip()) > 20]
+        if idx == 0:
+            script = f"In our lead story today, {summary}"
         else:
-            headline = f"Strategic AI & Robotics Developments Reshape {region} Industrial Landscape"
-            source = "Reuters / Bloomberg Wire"
-            source_url = "https://sanmitra.ai"
+            script = f"{bureau_open.get(region, 'In another major development,')} {summary}"
 
-        story_id = f"{region.lower()}_{re.sub(r'[^a-z0-9]', '_', headline[:28].lower())}".strip('_')
-
-        # Formulate institutional TV copy
-        historical_context = f"Over the past twenty-four hours, institutional developments in {region} have accelerated strategic shifts across artificial intelligence governance and compute scaling."
-        why_matters = f"This initiative directly impacts global deployment standards, enterprise security guardrails, and sovereign technology roadmaps."
-        
-        region_label = "the United Nations and international bodies" if region == "WORLD" else f"{region}"
-        script = f"Turning to {region_label}: {headline}. Verified reporting from {source} confirms that this development establishes a pivotal benchmark for enterprise infrastructure and institutional policy."
-
-        cuts = generate_visual_cuts_for_story(headline, script, why_matters, region)
+        why_matters = sentences[-1] if sentences else summary
+        story_id = f"{region.lower()}_{re.sub(r'[^a-z0-9]', '_', headline[:28].lower())}".strip("_")
+        cuts = generate_visual_cuts_for_story(headline, summary, why_matters, region)
+        confirms = item.get("confirming_sources") or [source]
 
         selected_stories.append({
             "id": story_id,
             "region": region,
-            "category": cfg["category"],
-            "categoryTag": f"{region} • {cfg['category'].upper()}",
-            "historicalContext": historical_context,
+            "bureau": region,
+            "category": "Breaking",
+            "categoryTag": f"{region} • BREAKING",
+            "historicalContext": sentences[0] if sentences else summary,
             "whyThisMatters": why_matters,
             "headline": headline,
-            "subheadline": f"Verified Report // Source: {source}",
-            "importanceScore": 95,
+            "subheadline": f"Breaking // Source: {source}",
+            "importanceScore": max(70, min(99, int(item.get("breaking_score") or 70))),
             "durationSeconds": 24,
             "source": source,
             "sourceUrl": source_url,
+            "publishedAt": item.get("published_at") or "",
             "script": script,
-            "keyPoints": [
-                f"Verified multi-source reporting by {source}",
-                f"Strategic operational impact on {region} ecosystem",
-                "Mandatory enterprise compliance and infrastructure telemetry"
-            ],
-            "visualCuts": cuts
+            "summary": summary,
+            "keyPoints": sentences[:3] or [summary[:180]],
+            "confirmingSources": confirms,
+            "visualCuts": cuts,
         })
 
-    # Build Market Snapshot Entities
-    market_entities = [
-        {"name": "OpenAI", "update": "Autonomous Agent Workflows", "tag": "AGENTIC RUNTIME", "color": "#10a37f"},
-        {"name": "Anthropic", "update": "Enterprise Safety Protocols", "tag": "RED-TEAMING", "color": "#d97706"},
-        {"name": "Nvidia", "update": "Physical AI & Quantum QPU", "tag": "PHYSICAL AI", "color": "#76b900"},
-        {"name": "Google", "update": "Multimodal Extended Thinking", "tag": "REASONING FABRIC", "color": "#4285f4"},
-        {"name": "DeepSeek", "update": "Open Architecture Scaling", "tag": "SOVEREIGN MODELS", "color": "#38bdf8"},
-        {"name": "IndiaAI", "update": "38,000 GPU National Utility", "tag": "NATIONAL COMPUTE", "color": "#f97316"},
-        {"name": "Alibaba", "update": "Zhenwu Silicon Architecture", "tag": "CLOUD ACCELERATION", "color": "#ef4444"}
-    ]
+    palette = ["#10a37f", "#d97706", "#76b900", "#4285f4", "#38bdf8", "#f97316", "#ef4444"]
+    market_entities = []
+    for idx, story in enumerate(selected_stories[:7]):
+        market_entities.append({
+            "name": story["region"],
+            "update": story["headline"][:52],
+            "tag": "BREAKING",
+            "color": palette[idx % len(palette)],
+        })
 
-    recap_items = [f"✓ {s['region']}: {s['headline'][:50]}..." for s in selected_stories]
+    recap_items = [f"{s['region']}: {s['headline'][:70]}" for s in selected_stories]
+    desk_lines = ". ".join(s["headline"] for s in selected_stories[:4])
     ticker_items = [
         "SanMitra AI News Wire",
         "Autonomous Enterprise Agents",
@@ -406,13 +395,13 @@ def build_daily_episode(target_date: str = None) -> dict:
             "durationSeconds": 15,
             "headline": "GLOBAL AI MARKET SNAPSHOT",
             "subheadline": "SANMITRA DESK • STRATEGIC TELEMETRY",
-            "script": "Turning to the SanMitra AI Market Snapshot: Frontier labs expand autonomous agent tooling, physical robotics acceleration gains momentum across industrial manufacturing, and sovereign compute deployments scale across Asia and India.",
+            "script": f"The breaking desk is tracking {len(selected_stories)} developments. {desk_lines}.",
             "entities": market_entities
         },
         "recap": {
             "durationSeconds": 10,
             "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-            "script": "To recap today's headlines: Major policy and model breakthroughs have advanced across the United Nations, the United States, China, the Asian semiconductor corridor, and the IndiaAI mission.",
+            "script": "To recap the breaks on the desk: " + ". ".join(s["headline"] for s in selected_stories[:6]) + ".",
             "items": recap_items
         },
         "outro": {

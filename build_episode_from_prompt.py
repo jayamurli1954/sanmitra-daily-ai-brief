@@ -8,7 +8,7 @@ Strictly implements broadcast newsroom architecture:
 5. Deduplicates similar stories appearing in multiple sections.
 6. Converts article format into natural Bloomberg/Reuters broadcast television narration.
 7. Employs natural anchor transitions ("In our lead story...", "Meanwhile in China...", "Turning to India...").
-8. Maximum 2-3 concise broadcast sentences per story.
+8. Each story keeps enough sentences to carry a broadcast of at least five minutes.
 9. Avoids repeating on-screen headline verbatim in the narration.
 """
 
@@ -19,11 +19,52 @@ import os
 import re
 import sys
 
+from validate_episode_sources import is_proper_article_url
+
 if sys.stdout.encoding != 'utf-8':
     try:
         sys.stdout.reconfigure(encoding='utf-8')
     except Exception:
         pass
+
+def is_metadata_line(line: str) -> bool:
+    """Source, Also, Desk, and bare URLs are records. They are not narration."""
+    stripped = line.strip().lstrip("*").strip()
+    if not stripped:
+        return True
+    lower = stripped.lower()
+    if lower.startswith("http://") or lower.startswith("https://"):
+        return True
+    if re.match(r"(?i)^(source|also|desk)\s*:?\s+\S", stripped):
+        # A leaked join looks like "Desk: ChatGPT and Grok The Prime Minister..."
+        # That line still holds the story, so it is cleaned instead of dropped.
+        if lower.startswith("desk:") and len(stripped.split()) > 8:
+            return False
+        return True
+    return False
+
+
+def strip_unspoken_metadata(text: str) -> str:
+    """Remove Desk / Source labels from text that will be spoken."""
+    if not text:
+        return ""
+    kept = []
+    for line in re.split(r"\r?\n", text):
+        stripped = line.strip()
+        if not stripped or is_metadata_line(stripped):
+            continue
+        stripped = re.sub(
+            r"(?i)^(?:\*\*)?Desk:\s*(?:ChatGPT and Grok|Scraper)\b\s*",
+            "",
+            stripped,
+        )
+        stripped = re.sub(r"(?i)^(?:\*\*)?(?:Source|Also)\s*:\s*", "", stripped)
+        if stripped.strip():
+            kept.append(stripped.strip())
+    text = " ".join(kept)
+    text = re.sub(r"(?i)\bDesk:\s*(?:ChatGPT and Grok|Scraper)\b", " ", text)
+    return text
+
 
 def clean_text_for_broadcast(text: str) -> str:
     """Removes markdown artifacts, symbols, and formatting."""
@@ -45,6 +86,7 @@ def clean_text_for_broadcast(text: str) -> str:
     # Remove bullets/symbols
     text = re.sub(r'[✓•👉📌🔹🌐🔴💬🔔💡—–]', ' ', text)
     # Clean whitespace
+    text = re.sub(r'(?i)\bpasted text\b', '', text)
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
@@ -64,7 +106,9 @@ def deduplicate_stories(raw_stories: list) -> list:
         for seen in seen_signatures:
             # Overlap threshold
             intersection = words & seen
-            if len(intersection) >= 2 or (len(words) > 0 and len(intersection) / len(words) > 0.5):
+            # Two shared words is not enough. "Meta" and "Muse" appear in
+            # separate stories (research papers, and a hardware kit).
+            if len(intersection) >= 3 or (len(words) > 0 and len(intersection) / len(words) > 0.5):
                 is_duplicate = True
                 break
         
@@ -77,8 +121,11 @@ def deduplicate_stories(raw_stories: list) -> list:
 
 def format_broadcast_narration(idx: int, region: str, headline: str, body: str, prev_region: str = None) -> str:
     """Converts a raw news story into a calm, professional Bloomberg/Reuters broadcast delivery."""
-    # Clean body of source attributions
-    cleaned_body = re.sub(r'(?i)\bSource:?[^\n\.\;]*', '', body)
+    # Clean body of source attributions and the research-desk label.
+    # Desk is stored on the episode. It is never spoken.
+    cleaned_body = strip_unspoken_metadata(body)
+    cleaned_body = re.sub(r'(?i)\bSource:\s*[^\n]*', '', cleaned_body)
+    cleaned_body = cleaned_body.replace("U.S.", "US")
     cleaned_body = re.sub(r'(?i)\bAlso:?[^\n\.\;]*', '', cleaned_body)
     cleaned_body = clean_text_for_broadcast(cleaned_body)
     clean_head = clean_text_for_broadcast(headline)
@@ -92,11 +139,16 @@ def format_broadcast_narration(idx: int, region: str, headline: str, body: str, 
         head_words = set(re.findall(r'[a-z]{4,}', clean_head.lower()))
         s_words = set(re.findall(r'[a-z]{4,}', s.lower()))
         # If sentence is virtually identical to headline, skip or rephrase
-        if len(head_words) > 3 and len(head_words & s_words) / len(head_words) > 0.75:
+        if len(head_words) > 3 and len(s.split()) <= len(clean_head.split()) + 3 and len(head_words & s_words) / len(head_words) > 0.75:
             continue
         filtered_sentences.append(s)
 
-    content = " ".join(filtered_sentences[:3]) if filtered_sentences else cleaned_body[:250]
+    kept = []
+    for sentence in filtered_sentences:
+        kept.append(sentence)
+        if len(kept) >= 6 or len(" ".join(kept).split()) >= 110:
+            break
+    content = " ".join(kept) if kept else cleaned_body[:700]
 
     # Generate natural broadcast anchor transitions
     transition = ""
@@ -108,7 +160,7 @@ def format_broadcast_narration(idx: int, region: str, headline: str, body: str, 
         elif region == "CHINA":
             transition = "Meanwhile in China,"
         elif region == "ASIA":
-            transition = "Across Southeast Asia,"
+            transition = "In Asia,"
         elif region == "INDIA":
             transition = "Turning to India,"
         else:
@@ -125,6 +177,40 @@ def format_broadcast_narration(idx: int, region: str, headline: str, body: str, 
     # Combine transition and content
     narration = f"{transition} {content}"
     return clean_text_for_broadcast(narration)
+
+def extract_attribution(chunk: str) -> tuple:
+    """Pull the outlet name and URL off a story block.
+
+    Returns (source_names, source_url). Never invents an outlet or a link.
+    A missing Source: line comes back as an empty list so the traceability
+    gate can reject the episode instead of printing a fake citation.
+    """
+    srcs = []
+    source_url = ""
+    src_match = re.search(r"(?im)^\s*(?:Source|Also):\s*([^\n]+)", chunk)
+    if not src_match:
+        src_match = re.search(r"\b(?:Source|Also):\s*([^\n]+)", chunk, re.IGNORECASE)
+    if src_match:
+        raw_src = src_match.group(1)
+        url_match = re.search(r"https?://\S+", raw_src)
+        if url_match:
+            source_url = url_match.group(0).rstrip(").,]>\"'")
+        clean_src = re.sub(r"https?://\S+", "", raw_src)
+        clean_src = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", clean_src)
+        clean_src = re.sub(r"\[([^\]]+)\]", r"\1", clean_src)
+        clean_src = clean_src.strip(" -–—*")
+        if clean_src:
+            srcs.append(clean_src)
+    if not source_url:
+        url_line = re.search(r"(?m)^\s*(https?://\S+)\s*$", chunk)
+        if url_line:
+            source_url = url_line.group(1).rstrip(").,]>\"'")
+    desk = ""
+    desk_match = re.search(r"(?im)^\s*(?:\*\*)?Desk:\s*(.+?)(?:\*\*)?\s*$", chunk)
+    if desk_match:
+        desk = desk_match.group(1).strip()
+    return srcs, source_url, desk
+
 
 def parse_markdown_prompt(md_text: str) -> dict:
     lines = md_text.splitlines()
@@ -146,7 +232,11 @@ def parse_markdown_prompt(md_text: str) -> dict:
         iso_date = dt.strftime("%Y-%m-%d")
 
     # Check for regional sections (# WORLD, # USA, # CHINA, # ASIA, # INDIA)
-    regional_matches = list(re.finditer(r"(?:^|\n)#+\s*(?:[🌍🇺🇸🇨🇳🌏🇮🇳\s]*)(WORLD|USA|CHINA|ASIA|INDIA)\b", md_text, flags=re.IGNORECASE))
+    regional_matches = list(re.finditer(
+        r"(?:^|\n)#+\s*(?:[🌍🇺🇸🇨🇳🌏🇮🇳\s]*)(WORLD|USA|CHINA|ASIA|INDIA)\s*(?:\n|$)",
+        md_text,
+        flags=re.IGNORECASE,
+    ))
     
     candidate_stories = []
 
@@ -171,27 +261,22 @@ def parse_markdown_prompt(md_text: str) -> dict:
                 raw_head = chunk_lines[0].strip()
                 head_clean = clean_text_for_broadcast(raw_head)
                 
-                # Check for sources
-                srcs = []
-                src_match = re.search(r"(?:Source|Also):?\s*([^\n]+)", chunk, re.IGNORECASE)
-                if src_match:
-                    raw_src = src_match.group(1)
-                    # clean links
-                    clean_src = re.sub(r'https?://\S+', '', raw_src)
-                    clean_src = re.sub(r'\[([^\]]+)\]', r'\1', clean_src)
-                    clean_src = clean_src.replace("/", ",").strip()
-                    if clean_src:
-                        srcs.append(clean_src)
+                srcs, source_url, research_desk = extract_attribution(chunk)
+                if not srcs or not is_proper_article_url(source_url):
+                    print(f"[SKIP] No proper source for {head_clean[:70]!r}. Left out of the video.")
+                    continue
 
-                body_lines = [l for l in chunk_lines[1:] if not l.strip().lower().startswith("**source") and not l.strip().lower().startswith("source") and not l.strip().lower().startswith("**also") and not l.strip().startswith("http")]
-                body_clean = " ".join(body_lines).strip()
+                body_lines = [l for l in chunk_lines[1:] if not is_metadata_line(l)]
+                body_clean = strip_unspoken_metadata(" ".join(body_lines))
 
                 if head_clean and body_clean:
                     candidate_stories.append({
                         "region": reg,
                         "headline": head_clean,
                         "body": body_clean,
-                        "sources": srcs or ["Verified Reports"]
+                        "sources": srcs,
+                        "source_url": source_url,
+                        "research_desk": research_desk,
                     })
 
     # If no regional sections found, fall back to STORY \d+ blocks
@@ -205,18 +290,27 @@ def parse_markdown_prompt(md_text: str) -> dict:
                 raw = md_text[start:end]
                 clean_block = re.split(r"(?:\n---|\n)(?:HEADLINES\s+RECAP|OUTRO|THUMBNAIL)", raw, flags=re.IGNORECASE)[0]
                 
-                first_lines = [l.strip() for l in clean_block.splitlines() if l.strip() and not l.upper().startswith("STORY")]
+                first_lines = [
+                    l.strip() for l in clean_block.splitlines()
+                    if l.strip() and not l.upper().startswith("STORY") and not is_metadata_line(l)
+                ]
                 raw_head = first_lines[0] if first_lines else f"Global AI Development {idx + 1}"
                 head_clean = clean_text_for_broadcast(raw_head)
-                
+
                 body_lines = first_lines[1:] if len(first_lines) > 1 else [head_clean]
-                body_clean = " ".join(body_lines)
-                
+                body_clean = strip_unspoken_metadata(" ".join(body_lines))
+                srcs, source_url, research_desk = extract_attribution(clean_block)
+                if not srcs or not is_proper_article_url(source_url):
+                    print(f"[SKIP] No proper source for {head_clean[:70]!r}. Left out of the video.")
+                    continue
+
                 candidate_stories.append({
                     "region": "WORLD" if idx == 0 else ("USA" if idx in [1, 2] else ("CHINA" if idx == 3 else ("ASIA" if idx == 4 else "INDIA"))),
                     "headline": head_clean,
                     "body": body_clean,
-                    "sources": ["Reuters", "Bloomberg"]
+                    "sources": srcs,
+                    "source_url": source_url,
+                    "research_desk": research_desk,
                 })
 
     # Deduplicate stories
@@ -249,9 +343,9 @@ def parse_markdown_prompt(md_text: str) -> dict:
     if "INDIA" in by_region and by_region["INDIA"]:
         selected_stories.append(by_region["INDIA"].pop(0))
     
-    # Fill remaining slots up to 6 if needed
+    # Fill remaining slots from the brief. Keep every sourced story up to 18.
     for reg in ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]:
-        while len(selected_stories) < 6 and reg in by_region and by_region[reg]:
+        while len(selected_stories) < 18 and reg in by_region and by_region[reg]:
             selected_stories.append(by_region[reg].pop(0))
 
     # Visual assets catalog (Clean institutional fallback without banned imagery)
@@ -273,7 +367,7 @@ def parse_markdown_prompt(md_text: str) -> dict:
             "badge3": "OPENAI SAFETY PROTOCOL AUDIT • CONTAINMENT REVIEW DESK"
         },
         3: {
-            "main": "aibrief/assets/editorial/gov_us_capitol_hearing.jpg",
+            "main": "aibrief/assets/editorial/gov_canberra_parliament.jpg",
             "cut2": "aibrief/assets/editorial/tech_data_telemetry.jpg",
             "cut3": "aibrief/assets/editorial/tech_server_hall.jpg",
             "badge1": "REGULATORY CONFERENCE CENTER • FRONTIER LAB ALLIANCE",
@@ -372,14 +466,15 @@ def parse_markdown_prompt(md_text: str) -> dict:
             "category": f"{reg} Intelligence",
             "categoryTag": f"{reg} • SPECIAL REPORT",
             "headline": head,
-            "subheadline": f"Verified Report // Source: {', '.join(srcs[:2])}",
+            "subheadline": f"Source: {', '.join(srcs[:2])}",
             "importanceScore": 99 if idx == 1 else (95 if idx <= 3 else 90),
             "durationSeconds": max(int(len(script.split()) * 0.42), 24),
             "source": ", ".join(srcs[:2]),
-            "sourceUrl": "https://reuters.com",
+            "sourceUrl": s.get("source_url") or "",
+            "researchDesk": s.get("research_desk") or "",
             "script": script,
             "whyThisMatters": f"Critical development shaping {reg} artificial intelligence policy and sovereign compute.",
-            "keyPoints": [head[:60], f"Verified by {', '.join(srcs[:2])}"],
+            "keyPoints": [head[:80], srcs[0] if srcs else ""],
             "visualCuts": visual_cuts
         })
 
@@ -404,16 +499,15 @@ def parse_markdown_prompt(md_text: str) -> dict:
     recap_items = [f"✓ {s['headline'][:48]}" for s in stories[:7]]
     recap_script = "To recap today's headlines: " + "; ".join([s['headline'] for s in stories[:6]]) + "."
 
-    # Market snapshot
-    market_entities = [
-        { "name": "US-China Accord", "update": "Super Intelligence Hotline", "tag": "BILATERAL DIPLOMACY", "color": "#0ea5e9" },
-        { "name": "OpenAI", "update": "Sandbox Escape Training Pause", "tag": "RUNTIME CONTAINMENT", "color": "#ef4444" },
-        { "name": "Standards Alliance", "update": "FINRA-Style Industry Audits", "tag": "OVERSIGHT BODY", "color": "#10b981" },
-        { "name": "DeepSeek", "update": "DSec Platform & $1B Revenue", "tag": "380K CONCURRENT", "color": "#8b5cf6" },
-        { "name": "Grab + OpenAI", "update": "30,000 Frontline Gig Workers", "tag": "SOUTHEAST ASIA", "color": "#38bdf8" },
-        { "name": "Odisha / IndiaAI", "update": "₹22,634 Cr Sovereign Compute", "tag": "SOVEREIGN SILICON", "color": "#f97316" },
-        { "name": "Sarvam AI", "update": "Full-Stack Infrastructure", "tag": "ENTERPRISE CLOUD", "color": "#10a37f" }
-    ]
+    market_colors = ["#0ea5e9", "#ef4444", "#10b981", "#8b5cf6", "#38bdf8", "#f97316", "#10a37f"]
+    market_entities = []
+    for i, s in enumerate(stories[:6]):
+        market_entities.append({
+            "name": s["region"],
+            "update": s["headline"][:72],
+            "tag": "TODAY'S DESK",
+            "color": market_colors[i % len(market_colors)],
+        })
 
     # Intro script
     lead_head = stories[0]['headline'] if stories else "Frontier Artificial Intelligence"
@@ -455,7 +549,7 @@ def parse_markdown_prompt(md_text: str) -> dict:
             "durationSeconds": 16,
             "headline": "GLOBAL AI MARKET SNAPSHOT",
             "subheadline": "SANMITRA DESK • STRATEGIC TELEMETRY",
-            "script": "Turning to the SanMitra AI Market Snapshot: Washington and Beijing formalize bilateral Super Intelligence communications, OpenAI initiates security audits after runtime containment breaches, DeepSeek reaches one billion in annual revenue, Grab mobilizes regional gig workers, and India accelerates sovereign compute capital.",
+            "script": "On the desk today: " + ". ".join(s["headline"] for s in stories[:6]) + ".",
             "entities": market_entities
         },
         "outro": {
@@ -496,6 +590,9 @@ def main():
         md_text = f.read()
 
     episode = parse_markdown_prompt(md_text)
+    if not episode.get("stories"):
+        print("[X] No story had a proper source. The video was not updated.")
+        sys.exit(1)
     date_str = episode["date"]
 
     data_dir = os.path.join("src", "aibrief", "data")

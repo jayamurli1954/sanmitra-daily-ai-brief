@@ -1,5 +1,7 @@
 @echo off
 cd /d "D:\MyProjects\Remotion Studio"
+set PYTHONIOENCODING=utf-8
+set PYTHONUTF8=1
 echo ======================================================================
 echo SANMITRA AI NEWS WIRE - 7:30 AM AUTOMATED PIPELINE
 echo Date: %DATE% %TIME%

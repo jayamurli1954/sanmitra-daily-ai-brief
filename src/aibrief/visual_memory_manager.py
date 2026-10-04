@@ -28,6 +28,8 @@ MEMORY_FILE = os.path.join(os.path.dirname(__file__), "data", "visual_memory.jso
 # Permanently banned stock images / filenames
 BANNED_ASSET_KEYWORDS = {
     "gov_white_house.jpg",  # Obama on phone
+    "gov_us_capitol_hearing.jpg",  # same Obama photo, mislabeled
+    "story5_us_capitol.jpg",  # same Obama photo, mislabeled
     "gov_un_chamber.jpg",   # UN emblem / assembly
     "un_declaration.png",
     "gov_india_delhi.jpg",  # Gateway of India
@@ -57,7 +59,7 @@ CATEGORY_KEYWORD_MAP = {
     "laboratory": ["lab", "laboratory", "cleanroom", "testing", "sandbox", "containment", "experimental", "optics"],
     "robotics": ["robot", "robotics", "humanoid", "actuator", "arm", "industrial", "autonomous vehicle", "drone"],
     "semiconductor": ["semiconductor", "chip", "wafer", "lithography", "silicon", "gpu", "accelerator", "circuit", "fab"],
-    "government": ["situation room", "capitol", "senate", "parliament", "white house", "meity", "ministry", "hearing", "un", "diplomatic"],
+    "government": ["situation room", "capitol", "senate", "parliament", "white house", "meity", "ministry", "hearing", "united nations", "diplomatic"],
     "researcher": ["scientist", "researcher", "engineer", "workstation", "code", "audit", "security operations", "soc", "telemetry"],
     "product_demo": ["keynote", "presentation", "ui", "interface", "app", "demo", "screen", "portal", "display"]
 }
@@ -116,10 +118,16 @@ class VisualMemoryManager:
         """
         Automatically categorizes a visual asset into one of the 8 canonical categories.
         """
-        text = f"{badge_or_desc} {filename_or_url}".lower()
+        text = badge_or_desc.lower()
         for cat, keywords in CATEGORY_KEYWORD_MAP.items():
             for kw in keywords:
                 if kw in text:
+                    return cat
+        # Check filename only if badge didn't match
+        fn = os.path.basename(filename_or_url).lower()
+        for cat, keywords in CATEGORY_KEYWORD_MAP.items():
+            for kw in keywords:
+                if kw in fn:
                     return cat
         return "researcher"  # Default institutional category
 
@@ -152,10 +160,10 @@ class VisualMemoryManager:
             if banned in clean_name:
                 return (False, None, f"Permanently banned stock visual: {banned}")
 
-        # 2. Category Diversity Hard Cap (Max 2 per category per episode)
+        # 2. Category diversity cap. A nine-story desk needs up to four cuts in a category.
         cat_count = current_episode_categories.get(category, 0)
-        if cat_count >= 2:
-            return (False, None, f"Category diversity hard cap exceeded for '{category}' ({cat_count}/2 already used)")
+        if cat_count >= 4:
+            return (False, None, f"Category diversity cap exceeded for '{category}' ({cat_count}/4 already used)")
 
         # 3. Compute Perceptual Hash
         try:

@@ -65,6 +65,13 @@ def produce_daily_brief():
     os.makedirs("public/audio/aibrief", exist_ok=True)
     os.makedirs("public/aibrief/assets", exist_ok=True)
 
+    # Hard gate: every on-screen source must match prompts/YYYY-MM-DD.md
+    # before voiceover, stills, render, or upload.
+    from validate_episode_sources import validate
+    if not validate(date_str):
+        print("[X] Source traceability gate failed. Not rendering or uploading.")
+        sys.exit(1)
+
     # 2. Check and generate story visual assets if needed
     run_command("python generate_story_assets.py", "Verifying and generating story visual assets")
 
@@ -75,7 +82,7 @@ def produce_daily_brief():
         print("[+] Newsroom audio bed present: public/audio/aibrief_theme.wav")
 
     # 4. Generate voiceovers, timings, chapters, YouTube metadata, and LinkedIn post
-    run_command(f"python generate_aibrief_vo.py {active_file}", "Generating male broadcast voiceovers & metadata")
+    run_command(f"python generate_aibrief_vo.py {active_file}", "Generating two-anchor voiceovers (Christopher and Aria) & metadata")
 
     # 5. Generate SRT subtitles and Remotion burn-in captions
     run_command(f"python generate_subtitles.py", "Generating SRT subtitles & burn-in caption cues")
