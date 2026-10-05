@@ -1,6 +1,6 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-05",
   "stories": [
     {
       "story_id": "story_20260922_meta_muse_faces_major_security_cris",
@@ -1526,6 +1526,81 @@
       "last_major_update": "2026-10-05",
       "update_phase": "initial_break",
       "impact_score": 85
+    },
+    {
+      "story_id": "story_20261006_am_intelligence_plans_20_billion_ad",
+      "story_chain_id": "chain_global_am_intelligence_plan",
+      "headline": "AM Intelligence plans $20 billion additional investment in 15 months, orders 20k more Nvidia GPUs",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/am-intelligence-plans-20-billion-additional-investment-in-15-months-orders-20k-more-nvidia-gpus/articleshow/134713444.cms"
+      ],
+      "first_covered": "2026-10-06",
+      "last_major_update": "2026-10-06",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261006_amazon_great_indian_festival_2026_z",
+      "story_chain_id": "chain_global_amazon_great_indian_",
+      "headline": "Amazon Great Indian Festival 2026 | Zeba Khan on AI and Premiumisation— ET Exclusive",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/amazon-great-indian-festival-2026-zeba-khan-on-ai-and-premiumisation-et-exclusive/videoshow/134688239.cms"
+      ],
+      "first_covered": "2026-10-06",
+      "last_major_update": "2026-10-06",
+      "update_phase": "initial_break",
+      "impact_score": 79
+    },
+    {
+      "story_id": "story_20261006_sam_altman_says_some_bad_things_wil",
+      "story_chain_id": "chain_global_sam_altman_says_some",
+      "headline": "Sam Altman says ‘some bad things’ will happen but AI is totally worth it",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff"
+      ],
+      "first_covered": "2026-10-06",
+      "last_major_update": "2026-10-06",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261006_boj_says_ai_boom_may_have_eased_fin",
+      "story_chain_id": "chain_global_boj_says_ai_boom_may",
+      "headline": "BOJ says AI boom may have eased financial conditions, warns of market risks",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/boj-says-ai-boom-may-have-eased-financial-conditions-warns-of-market-risks/articleshow/134685626.cms"
+      ],
+      "first_covered": "2026-10-06",
+      "last_major_update": "2026-10-06",
+      "update_phase": "initial_break",
+      "impact_score": 68
+    },
+    {
+      "story_id": "story_20261006_elon_musk_to_change_company_name_fo",
+      "story_chain_id": "chain_global_elon_musk_to_change_",
+      "headline": "Elon Musk to change company name following Trump’s AI-to-SI update",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.thehindu.com/sci-tech/technology/elon-musk-to-change-company-name-following-trumps-ai-to-si-update/article71545857.ece"
+      ],
+      "first_covered": "2026-10-06",
+      "last_major_update": "2026-10-06",
+      "update_phase": "initial_break",
+      "impact_score": 66
     }
   ],
   "entity_index": {
