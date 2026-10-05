@@ -348,52 +348,52 @@ def parse_markdown_prompt(md_text: str) -> dict:
         while len(selected_stories) < 18 and reg in by_region and by_region[reg]:
             selected_stories.append(by_region[reg].pop(0))
 
-    # Visual assets catalog (Clean institutional fallback without banned imagery)
+    # High-grade broadcast television fallback assets (Permanently bans bounce-rate charts and student code)
     clean_fallback_catalog = {
         1: {
-            "main": "aibrief/assets/editorial/tech_cyber_command.jpg",
-            "cut2": "aibrief/assets/editorial/tech_data_telemetry.jpg",
-            "cut3": "aibrief/assets/editorial/tech_server_hall.jpg",
-            "badge1": "BILATERAL CRISIS COMMUNICATIONS • SPECIAL REPORT",
-            "badge2": "ENCRYPTED TELEMETRY • SUPERCOMPUTER BACKBONE",
-            "badge3": "GLOBAL INFRASTRUCTURE • DE-ESCALATION PROTOCOLS"
+            "main": "aibrief/backgrounds/geopolitics.jpg",
+            "cut2": "aibrief/backgrounds/global_policy.jpg",
+            "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
+            "badge1": "GLOBAL STRATEGIC BRIEFING • DEFENSE & POLICY",
+            "badge2": "MULTILATERAL ACCORD • SOVEREIGN MONITORING",
+            "badge3": "GLOBAL INFRASTRUCTURE • ORBITAL SATELLITE FABRIC"
         },
         2: {
-            "main": "aibrief/assets/editorial/tech_cyber_command.jpg",
-            "cut2": "aibrief/assets/editorial/tech_code_screen.jpg",
-            "cut3": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
-            "badge1": "CYBER OPERATIONS COMMAND CENTER • SANDBOX CONTAINMENT",
-            "badge2": "DNS RESOLVER AUDIT • AGENT PERMISSION TELEMETRY",
-            "badge3": "OPENAI SAFETY PROTOCOL AUDIT • CONTAINMENT REVIEW DESK"
+            "main": "aibrief/assets/editorial/gov_us_capitol_hearing.jpg",
+            "cut2": "aibrief/backgrounds/ai_security.jpg",
+            "cut3": "aibrief/assets/editorial/tech_silicon_wafer.jpg",
+            "badge1": "WASHINGTON D.C. • EXECUTIVE OVERSIGHT COUNCIL",
+            "badge2": "CYBER OPERATIONS DESK • ACCESS MONITORING HUD",
+            "badge3": "NEURAL ACCELERATOR SILICON • DIE INSPECTION"
         },
         3: {
-            "main": "aibrief/assets/editorial/gov_canberra_parliament.jpg",
-            "cut2": "aibrief/assets/editorial/tech_data_telemetry.jpg",
-            "cut3": "aibrief/assets/editorial/tech_server_hall.jpg",
-            "badge1": "REGULATORY CONFERENCE CENTER • FRONTIER LAB ALLIANCE",
-            "badge2": "INDEPENDENT AUDIT STANDARDS • RUNTIME RED TEAMING HUD",
-            "badge3": "EXECUTIVE COMPLIANCE & INCIDENT REPORTING DESK"
+            "main": "aibrief/assets/editorial/tech_silicon_wafer.jpg",
+            "cut2": "aibrief/backgrounds/ai_standards.jpg",
+            "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
+            "badge1": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+            "badge2": "STANDARDS VERIFICATION • RECURSIVE EVALUATION HUD",
+            "badge3": "HYPERSCALE BACKBONE • COMPUTE SCALING"
         },
         4: {
-            "main": "aibrief/assets/editorial/tech_server_hall.jpg",
-            "cut2": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
+            "main": "aibrief/backgrounds/ai_chips.jpg",
+            "cut2": "aibrief/assets/editorial/tech_silicon_wafer.jpg",
             "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
-            "badge1": "HYPERSCALE CAMPUS • ENTERPRISE WORKLOADS",
+            "badge1": "TENSOR ARCHITECTURE • HARDWARE TELEMETRY",
             "badge2": "ACCELERATOR SILICON WAFER • COMPLIANCE AUDIT",
-            "badge3": "COMMERCIAL RUN RATE • ENTERPRISE TELEMETRY"
+            "badge3": "COMMERCIAL RUN RATE • ENTERPRISE WORKLOADS"
         },
         5: {
             "main": "aibrief/assets/editorial/fin_tokyo_district.jpg",
-            "cut2": "aibrief/assets/editorial/tech_laptop_showcase.jpg",
+            "cut2": "aibrief/backgrounds/global_policy.jpg",
             "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
             "badge1": "REGIONAL DIGITAL FABRIC • SOVEREIGN TECH MAP",
-            "badge2": "ENTERPRISE WORKFORCE • MOBILE AGENT WORKFLOWS",
+            "badge2": "MINISTERIAL ENGAGEMENT • SOVEREIGN ACCORD",
             "badge3": "REGIONAL PRODUCTIVITY TELEMETRY • PUBLIC SERVICES"
         },
         6: {
-            "main": "aibrief/assets/editorial/tech_server_hall.jpg",
-            "cut2": "aibrief/assets/editorial/tech_semiconductor_lab.jpg",
-            "cut3": "aibrief/assets/editorial/tech_data_telemetry.jpg",
+            "main": "aibrief/assets/story6_indian_engineers.jpg",
+            "cut2": "aibrief/assets/editorial/tech_silicon_wafer.jpg",
+            "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
             "badge1": "SOVEREIGN COMPUTE INFRASTRUCTURE • NATIONAL FABRIC",
             "badge2": "HIGH-DENSITY GPU CLUSTERS • DOMESTIC MODELS",
             "badge3": "DEFENSE READINESS & RUNTIME SECURITY HUD"

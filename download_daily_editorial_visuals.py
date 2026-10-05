@@ -129,6 +129,82 @@ def save_visual_memory(memory: dict):
         json.dump(memory, f, indent=2)
 
 from src.aibrief.visual_memory_manager import VisualMemoryManager
+import shutil
+import glob
+
+def cleanup_old_visual_assets(current_date_str: str, retention_days: int = 7):
+    """
+    Automatically deletes old visual assets to maintain a lean workspace and enforce anti-repetition:
+    1. Removes daily editorial folders older than retention_days (default 7 days).
+    2. Purges permanently banned legacy stock assets.
+    3. Trims entries in visual_memory.json older than 14 days.
+    """
+    print(f"\n🧹 [Auto-Cleanup] Scanning for old visual assets (Retention: {retention_days} days)...")
+    base_editorial = os.path.join("public", "aibrief", "assets", "editorial")
+
+    try:
+        current_dt = datetime.strptime(current_date_str, "%Y-%m-%d")
+    except Exception:
+        current_dt = datetime.now()
+
+    # 1. Prune date folders older than retention_days
+    deleted_folders = 0
+    if os.path.exists(base_editorial):
+        for entry in os.listdir(base_editorial):
+            entry_path = os.path.join(base_editorial, entry)
+            if os.path.isdir(entry_path):
+                try:
+                    folder_dt = datetime.strptime(entry, "%Y-%m-%d")
+                    age_days = (current_dt - folder_dt).days
+                    if age_days > retention_days:
+                        shutil.rmtree(entry_path, ignore_errors=True)
+                        deleted_folders += 1
+                        print(f"    [-] Auto-deleted expired visual folder: {entry} ({age_days} days old)")
+                except ValueError:
+                    pass
+    if deleted_folders == 0:
+        print(f"    [+] No expired date folders found beyond {retention_days} days.")
+
+    # 2. Purge permanently banned stock assets from all assets locations
+    banned_files = [
+        "gov_white_house.jpg", "gov_un_chamber.jpg", "un_declaration.png",
+        "gov_india_delhi.jpg", "tech_neural_globe.jpg", "tech_data_telemetry.jpg",
+        "tech_code_screen.jpg", "tech_server_hall.jpg", "tech_cyber_command.jpg"
+    ]
+    target_dirs = [
+        base_editorial,
+        os.path.join("public", "aibrief", "assets"),
+        os.path.join("public", "aibrief", "backgrounds")
+    ]
+    purged_banned = 0
+    for t_dir in target_dirs:
+        if os.path.exists(t_dir):
+            for b_name in banned_files:
+                b_path = os.path.join(t_dir, b_name)
+                if os.path.exists(b_path):
+                    try:
+                        os.remove(b_path)
+                        purged_banned += 1
+                        print(f"    [x] Permanently purged banned asset: {b_path}")
+                    except Exception as e:
+                        print(f"    [!] Error deleting {b_path}: {e}")
+
+    # 3. Clean visual memory log entries older than 14 days
+    if os.path.exists(MEMORY_FILE):
+        try:
+            with open(MEMORY_FILE, "r", encoding="utf-8") as f:
+                mem = json.load(f)
+            history = mem.get("history", [])
+            cutoff = (current_dt - timedelta(days=14)).strftime("%Y-%m-%d")
+            fresh_hist = [h for h in history if h.get("date", "2000-01-01") >= cutoff]
+            if len(fresh_hist) < len(history):
+                mem["history"] = fresh_hist
+                save_visual_memory(mem)
+                print(f"    [+] Pruned {len(history) - len(fresh_hist)} visual memory entries older than 14 days.")
+        except Exception:
+            pass
+    print("🧹 [Auto-Cleanup] Cleanup complete.\n")
+
 
 def crop_and_grade(im: Image.Image) -> Image.Image:
     # 1. Fit to 1920x1080 (16:9)
@@ -140,32 +216,78 @@ def crop_and_grade(im: Image.Image) -> Image.Image:
     im = enhancer_color.enhance(1.05)
     return im
 
-def download_daily_visuals(date_str: str):
+def download_daily_visuals(date_str: str, force: bool = False, retention_days: int = 7):
     print("=" * 75)
-    print(f"🎬 DOWNLOADING FRESH STORY-BASED EDITORIAL VISUALS FOR {date_str}")
+    print(f"🎬 DOWNLOADING FRESH STORY-BASED EDITORIAL VISUALS FOR {date_str} (Force: {force})")
     print("=" * 75)
+
+    # 0. Automatically clean old visuals, banned assets, and expired memory
+    cleanup_old_visual_assets(date_str, retention_days=retention_days)
 
     dest_dir = os.path.join("public", "aibrief", "assets", "editorial", date_str)
     os.makedirs(dest_dir, exist_ok=True)
-    if os.path.exists(os.path.join(dest_dir, "s1_cut1.jpg")) and os.path.exists(os.path.join(dest_dir, "s9_cut3.jpg")):
+    if not force and os.path.exists(os.path.join(dest_dir, "s1_cut1.jpg")) and os.path.exists(os.path.join(dest_dir, "s9_cut3.jpg")):
         print(f"[+] Editorial stills for {date_str} are already on disk. Leaving them in place.")
         return
 
-    items = DAILY_VISUAL_MAP.get(date_str, DAILY_VISUAL_MAP["2026-09-28"])
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    # If force, clear old/stale images in the target date folder before download
+    if force and os.path.exists(dest_dir):
+        for old_file in glob.glob(os.path.join(dest_dir, "*.*")):
+            try:
+                os.remove(old_file)
+            except Exception:
+                pass
+
+    from src.aibrief.entity_visual_resolver import resolve_cuts_for_story, to_wiki_thumb, DOMAIN_POOLS
+
+    # 1. Resolve authentic, story-specific visual cuts directly from active episode
+    items = []
+    active_path = os.path.join("src", "aibrief", "data", "active_episode.json")
+    date_path = os.path.join("src", "aibrief", "data", f"{date_str}.json")
+    chosen_file = active_path if os.path.exists(active_path) else (date_path if os.path.exists(date_path) else None)
+
+    if chosen_file:
+        try:
+            with open(chosen_file, "r", encoding="utf-8") as f:
+                ep_data = json.load(f)
+            stories = ep_data.get("stories", [])
+            print(f"[*] Resolving story-specific editorial visuals for {len(stories)} stories...")
+            global_used = set()
+            for idx, s in enumerate(stories, 1):
+                cuts = resolve_cuts_for_story(
+                    idx,
+                    s.get("headline", ""),
+                    s.get("summary", ""),
+                    s.get("region", "WORLD"),
+                    global_used_urls=global_used
+                )
+                for c_idx, (c_url, c_badge) in enumerate(cuts, 1):
+                    items.append((f"s{idx}_cut{c_idx}.jpg", to_wiki_thumb(c_url), c_badge))
+        except Exception as e:
+            print(f"[!] Warning reading stories for dynamic visual resolution: {e}")
+
+    if not items:
+        raw_items = DAILY_VISUAL_MAP.get(date_str, DAILY_VISUAL_MAP["2026-09-28"])
+        items = [(fn, to_wiki_thumb(u), b) for fn, u, b in raw_items]
+
+    headers = {"User-Agent": "SanMitraNewsBot/1.0 (https://sanmitra.ai; newsdesk@sanmitra.ai)"}
 
     mgr = VisualMemoryManager()
     used_this_run = []
     category_counts = {}
+    used_fallback_urls = set()
 
+    import time
     for filename, url, badge in items:
         dest_file = os.path.join(dest_dir, filename)
         category = mgr.classify_visual_category(badge, url)
         print(f"[*] Processing visual: {filename} (Category: {category})...")
 
+        time.sleep(0.3)  # Rate limit protection for Wikimedia/Unsplash
+        success = False
         try:
             req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=20) as r:
+            with urllib.request.urlopen(req, timeout=15) as r:
                 data = r.read()
                 im = Image.open(io.BytesIO(data)).convert("RGB")
                 im = crop_and_grade(im)
@@ -175,34 +297,72 @@ def download_daily_visuals(date_str: str):
                     im, url, category, category_counts, current_date_str=date_str
                 )
 
-                if not approved:
+                if approved:
+                    im.save(dest_file, quality=92)
+                    category_counts[category] = category_counts.get(category, 0) + 1
+                    print(f"    [+] APPROVED & SAVED (pHash: {cand_hash}, Category count: {category_counts[category]}/6): {dest_file}")
+                    used_this_run.append({
+                        "date": date_str,
+                        "filename": filename,
+                        "url": url,
+                        "badge": badge,
+                        "phash": cand_hash,
+                        "category": category
+                    })
+                    success = True
+                else:
                     print(f"    [!] REJECTED BY EDITORIAL VISUAL GATE: {rejection_reason}")
-                    continue
-
-                im.save(dest_file, quality=92)
-                category_counts[category] = category_counts.get(category, 0) + 1
-                print(f"    [+] APPROVED & SAVED (pHash: {cand_hash}, Category count: {category_counts[category]}/2): {dest_file}")
-
-                used_this_run.append({
-                    "date": date_str,
-                    "filename": filename,
-                    "url": url,
-                    "badge": badge,
-                    "phash": cand_hash,
-                    "category": category
-                })
         except Exception as e:
             print(f"    [!] Error downloading from {url}: {e}")
+
+        # If primary candidate failed or was rejected, apply guaranteed high-grade broadcast fallback
+        if not success:
+            print(f"    [*] Applying high-grade broadcast texture for {filename}...")
+            pool_category = "defense" if "defense" in category or "missile" in badge.lower() else ("hardware" if "semiconductor" in category else "policy")
+            backup_pool = DOMAIN_POOLS.get(pool_category, DOMAIN_POOLS["policy"])
+            for b_url, b_badge in backup_pool:
+                if b_url in used_fallback_urls:
+                    continue
+                try:
+                    time.sleep(0.2)
+                    req = urllib.request.Request(b_url, headers=headers)
+                    with urllib.request.urlopen(req, timeout=12) as r:
+                        data = r.read()
+                        im = Image.open(io.BytesIO(data)).convert("RGB")
+                        im = crop_and_grade(im)
+                        im.save(dest_file, quality=92)
+                        b_hash = mgr.compute_phash(im)
+                        used_fallback_urls.add(b_url)
+                        print(f"    [+] Backup saved: {dest_file} ({b_badge})")
+                        used_this_run.append({
+                            "date": date_str,
+                            "filename": filename,
+                            "url": b_url,
+                            "badge": b_badge,
+                            "phash": b_hash,
+                            "category": category
+                        })
+                        success = True
+                        break
+                except Exception:
+                    pass
 
     # Register in 14-day pHash visual memory
     if used_this_run:
         mgr.register_episode_visuals(date_str, used_this_run)
-        print(f"\n[+] Visual memory updated with {len(used_this_run)} pHash-verified assets: {MEMORY_FILE}")
+        print(f"\n[+] Visual memory updated with {len(used_this_run)} assets: {MEMORY_FILE}")
         print(f"[+] Category diversity distribution: {category_counts}")
         print(f"[+] All fresh visuals downloaded to: {dest_dir}\n")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", default=datetime.now().strftime("%Y-%m-%d"), help="Broadcast date (YYYY-MM-DD)")
+    parser.add_argument("--force", action="store_true", help="Force re-download of editorial stills even if present on disk")
+    parser.add_argument("--retention-days", type=int, default=7, help="Number of past days of visual folders to retain (default: 7)")
+    parser.add_argument("--cleanup-only", action="store_true", help="Only run cleanup of old and banned visuals without downloading")
     args = parser.parse_args()
-    download_daily_visuals(args.date)
+
+    if args.cleanup_only:
+        cleanup_old_visual_assets(args.date, retention_days=args.retention_days)
+    else:
+        download_daily_visuals(args.date, force=args.force, retention_days=args.retention_days)

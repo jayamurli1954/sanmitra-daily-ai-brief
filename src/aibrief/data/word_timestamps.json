@@ -1,0 +1,6466 @@
+[
+  {
+    "word": "In",
+    "start": 0.0,
+    "end": 0.32,
+    "startFrame": 0,
+    "endFrame": 10,
+    "sceneId": "intro"
+  },
+  {
+    "word": "a",
+    "start": 0.32,
+    "end": 0.38,
+    "startFrame": 10,
+    "endFrame": 11,
+    "sceneId": "intro"
+  },
+  {
+    "word": "landmark",
+    "start": 0.38,
+    "end": 0.66,
+    "startFrame": 11,
+    "endFrame": 20,
+    "sceneId": "intro"
+  },
+  {
+    "word": "development,",
+    "start": 0.66,
+    "end": 1.4,
+    "startFrame": 20,
+    "endFrame": 42,
+    "sceneId": "intro"
+  },
+  {
+    "word": "North",
+    "start": 1.82,
+    "end": 1.98,
+    "startFrame": 55,
+    "endFrame": 59,
+    "sceneId": "intro"
+  },
+  {
+    "word": "Korea",
+    "start": 1.98,
+    "end": 2.22,
+    "startFrame": 59,
+    "endFrame": 67,
+    "sceneId": "intro"
+  },
+  {
+    "word": "fires",
+    "start": 2.22,
+    "end": 2.72,
+    "startFrame": 67,
+    "endFrame": 82,
+    "sceneId": "intro"
+  },
+  {
+    "word": "ballistic",
+    "start": 2.72,
+    "end": 3.08,
+    "startFrame": 82,
+    "endFrame": 92,
+    "sceneId": "intro"
+  },
+  {
+    "word": "missile",
+    "start": 3.08,
+    "end": 3.66,
+    "startFrame": 92,
+    "endFrame": 110,
+    "sceneId": "intro"
+  },
+  {
+    "word": "claiming",
+    "start": 3.66,
+    "end": 4.0,
+    "startFrame": 110,
+    "endFrame": 120,
+    "sceneId": "intro"
+  },
+  {
+    "word": "evasive",
+    "start": 4.0,
+    "end": 4.54,
+    "startFrame": 120,
+    "endFrame": 136,
+    "sceneId": "intro"
+  },
+  {
+    "word": "flight",
+    "start": 4.54,
+    "end": 4.88,
+    "startFrame": 136,
+    "endFrame": 146,
+    "sceneId": "intro"
+  },
+  {
+    "word": "path",
+    "start": 4.88,
+    "end": 5.18,
+    "startFrame": 146,
+    "endFrame": 155,
+    "sceneId": "intro"
+  },
+  {
+    "word": "with",
+    "start": 5.18,
+    "end": 5.46,
+    "startFrame": 155,
+    "endFrame": 164,
+    "sceneId": "intro"
+  },
+  {
+    "word": "AI",
+    "start": 5.46,
+    "end": 5.7,
+    "startFrame": 164,
+    "endFrame": 171,
+    "sceneId": "intro"
+  },
+  {
+    "word": "guidance.",
+    "start": 5.7,
+    "end": 6.22,
+    "startFrame": 171,
+    "endFrame": 187,
+    "sceneId": "intro"
+  },
+  {
+    "word": "From",
+    "start": 7.52,
+    "end": 7.62,
+    "startFrame": 226,
+    "endFrame": 229,
+    "sceneId": "intro"
+  },
+  {
+    "word": "the",
+    "start": 7.62,
+    "end": 7.76,
+    "startFrame": 229,
+    "endFrame": 233,
+    "sceneId": "intro"
+  },
+  {
+    "word": "San",
+    "start": 7.76,
+    "end": 7.96,
+    "startFrame": 233,
+    "endFrame": 239,
+    "sceneId": "intro"
+  },
+  {
+    "word": "Mitra",
+    "start": 7.96,
+    "end": 8.36,
+    "startFrame": 239,
+    "endFrame": 251,
+    "sceneId": "intro"
+  },
+  {
+    "word": "newsroom,",
+    "start": 8.36,
+    "end": 8.84,
+    "startFrame": 251,
+    "endFrame": 265,
+    "sceneId": "intro"
+  },
+  {
+    "word": "here",
+    "start": 9.12,
+    "end": 9.3,
+    "startFrame": 274,
+    "endFrame": 279,
+    "sceneId": "intro"
+  },
+  {
+    "word": "is",
+    "start": 9.3,
+    "end": 9.46,
+    "startFrame": 279,
+    "endFrame": 284,
+    "sceneId": "intro"
+  },
+  {
+    "word": "the",
+    "start": 9.46,
+    "end": 9.58,
+    "startFrame": 284,
+    "endFrame": 287,
+    "sceneId": "intro"
+  },
+  {
+    "word": "daily",
+    "start": 9.58,
+    "end": 9.78,
+    "startFrame": 287,
+    "endFrame": 293,
+    "sceneId": "intro"
+  },
+  {
+    "word": "AI",
+    "start": 9.78,
+    "end": 10.16,
+    "startFrame": 293,
+    "endFrame": 305,
+    "sceneId": "intro"
+  },
+  {
+    "word": "brief",
+    "start": 10.16,
+    "end": 10.6,
+    "startFrame": 305,
+    "endFrame": 318,
+    "sceneId": "intro"
+  },
+  {
+    "word": "for",
+    "start": 10.6,
+    "end": 10.88,
+    "startFrame": 318,
+    "endFrame": 326,
+    "sceneId": "intro"
+  },
+  {
+    "word": "October",
+    "start": 10.88,
+    "end": 11.02,
+    "startFrame": 326,
+    "endFrame": 331,
+    "sceneId": "intro"
+  },
+  {
+    "word": "5,",
+    "start": 11.02,
+    "end": 11.62,
+    "startFrame": 331,
+    "endFrame": 349,
+    "sceneId": "intro"
+  },
+  {
+    "word": "2026.",
+    "start": 11.96,
+    "end": 12.74,
+    "startFrame": 359,
+    "endFrame": 382,
+    "sceneId": "intro"
+  },
+  {
+    "word": "In",
+    "start": 15.05,
+    "end": 15.31,
+    "startFrame": 452,
+    "endFrame": 459,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "our",
+    "start": 15.31,
+    "end": 15.45,
+    "startFrame": 459,
+    "endFrame": 464,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "lead",
+    "start": 15.45,
+    "end": 15.65,
+    "startFrame": 464,
+    "endFrame": 470,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "story",
+    "start": 15.65,
+    "end": 15.93,
+    "startFrame": 470,
+    "endFrame": 478,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "today,",
+    "start": 15.93,
+    "end": 16.39,
+    "startFrame": 478,
+    "endFrame": 492,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "North",
+    "start": 16.75,
+    "end": 16.99,
+    "startFrame": 502,
+    "endFrame": 510,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "Korea",
+    "start": 16.99,
+    "end": 17.21,
+    "startFrame": 510,
+    "endFrame": 516,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "fired",
+    "start": 17.21,
+    "end": 17.75,
+    "startFrame": 516,
+    "endFrame": 532,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "an",
+    "start": 17.75,
+    "end": 17.95,
+    "startFrame": 532,
+    "endFrame": 538,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "intermediate",
+    "start": 17.95,
+    "end": 18.21,
+    "startFrame": 538,
+    "endFrame": 546,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "-range",
+    "start": 18.21,
+    "end": 18.71,
+    "startFrame": 546,
+    "endFrame": 561,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "ballistic",
+    "start": 18.71,
+    "end": 18.95,
+    "startFrame": 561,
+    "endFrame": 568,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "missile",
+    "start": 18.95,
+    "end": 19.59,
+    "startFrame": 568,
+    "endFrame": 588,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "from",
+    "start": 19.59,
+    "end": 19.81,
+    "startFrame": 588,
+    "endFrame": 594,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "the",
+    "start": 19.81,
+    "end": 19.93,
+    "startFrame": 594,
+    "endFrame": 598,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "Watson",
+    "start": 19.93,
+    "end": 20.13,
+    "startFrame": 598,
+    "endFrame": 604,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "area",
+    "start": 20.13,
+    "end": 20.55,
+    "startFrame": 604,
+    "endFrame": 616,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "into",
+    "start": 20.55,
+    "end": 20.93,
+    "startFrame": 616,
+    "endFrame": 628,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "the",
+    "start": 20.93,
+    "end": 21.13,
+    "startFrame": 628,
+    "endFrame": 634,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "East",
+    "start": 21.13,
+    "end": 21.35,
+    "startFrame": 634,
+    "endFrame": 640,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "Sea,",
+    "start": 21.35,
+    "end": 21.65,
+    "startFrame": 640,
+    "endFrame": 650,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "with",
+    "start": 21.93,
+    "end": 22.17,
+    "startFrame": 658,
+    "endFrame": 665,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "state",
+    "start": 22.17,
+    "end": 22.41,
+    "startFrame": 665,
+    "endFrame": 672,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "media",
+    "start": 22.41,
+    "end": 22.69,
+    "startFrame": 672,
+    "endFrame": 681,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "claiming",
+    "start": 22.69,
+    "end": 23.11,
+    "startFrame": 681,
+    "endFrame": 693,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "the",
+    "start": 23.11,
+    "end": 23.39,
+    "startFrame": 693,
+    "endFrame": 702,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "weapon",
+    "start": 23.39,
+    "end": 23.57,
+    "startFrame": 702,
+    "endFrame": 707,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "utilized",
+    "start": 23.57,
+    "end": 24.03,
+    "startFrame": 707,
+    "endFrame": 721,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "artificial",
+    "start": 24.03,
+    "end": 24.57,
+    "startFrame": 721,
+    "endFrame": 737,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "intelligence",
+    "start": 24.57,
+    "end": 25.01,
+    "startFrame": 737,
+    "endFrame": 750,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "for",
+    "start": 25.01,
+    "end": 25.57,
+    "startFrame": 750,
+    "endFrame": 767,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "evasive",
+    "start": 25.57,
+    "end": 25.97,
+    "startFrame": 767,
+    "endFrame": 779,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "low",
+    "start": 25.97,
+    "end": 26.23,
+    "startFrame": 779,
+    "endFrame": 787,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "-altitude",
+    "start": 26.23,
+    "end": 26.67,
+    "startFrame": 787,
+    "endFrame": 800,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "path",
+    "start": 26.67,
+    "end": 26.97,
+    "startFrame": 800,
+    "endFrame": 809,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "adjustments.",
+    "start": 26.97,
+    "end": 27.45,
+    "startFrame": 809,
+    "endFrame": 824,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "While",
+    "start": 28.61,
+    "end": 28.91,
+    "startFrame": 858,
+    "endFrame": 867,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "South",
+    "start": 28.91,
+    "end": 29.17,
+    "startFrame": 867,
+    "endFrame": 875,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "Korean",
+    "start": 29.17,
+    "end": 29.61,
+    "startFrame": 875,
+    "endFrame": 888,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "defense",
+    "start": 29.61,
+    "end": 29.91,
+    "startFrame": 888,
+    "endFrame": 897,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "officials",
+    "start": 29.91,
+    "end": 30.53,
+    "startFrame": 897,
+    "endFrame": 916,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "confirmed",
+    "start": 30.53,
+    "end": 30.79,
+    "startFrame": 916,
+    "endFrame": 924,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "tracking",
+    "start": 30.79,
+    "end": 31.39,
+    "startFrame": 924,
+    "endFrame": 942,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "the",
+    "start": 31.39,
+    "end": 31.65,
+    "startFrame": 942,
+    "endFrame": 950,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "missile",
+    "start": 31.65,
+    "end": 31.89,
+    "startFrame": 950,
+    "endFrame": 957,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "over",
+    "start": 31.89,
+    "end": 32.21,
+    "startFrame": 957,
+    "endFrame": 966,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "700",
+    "start": 32.21,
+    "end": 32.63,
+    "startFrame": 966,
+    "endFrame": 979,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "kilometers",
+    "start": 32.63,
+    "end": 33.11,
+    "startFrame": 979,
+    "endFrame": 993,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "and",
+    "start": 33.11,
+    "end": 33.63,
+    "startFrame": 993,
+    "endFrame": 1009,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "noted",
+    "start": 33.63,
+    "end": 33.81,
+    "startFrame": 1009,
+    "endFrame": 1014,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "it",
+    "start": 33.81,
+    "end": 34.05,
+    "startFrame": 1014,
+    "endFrame": 1021,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "remained",
+    "start": 34.05,
+    "end": 34.29,
+    "startFrame": 1021,
+    "endFrame": 1029,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "with",
+    "start": 34.29,
+    "end": 34.55,
+    "startFrame": 1029,
+    "endFrame": 1036,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "enjoyed",
+    "start": 34.55,
+    "end": 34.85,
+    "startFrame": 1036,
+    "endFrame": 1046,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "interception",
+    "start": 34.85,
+    "end": 35.29,
+    "startFrame": 1046,
+    "endFrame": 1059,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "envelopes,",
+    "start": 35.29,
+    "end": 36.23,
+    "startFrame": 1059,
+    "endFrame": 1087,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "international",
+    "start": 36.53,
+    "end": 36.69,
+    "startFrame": 1096,
+    "endFrame": 1101,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "defense",
+    "start": 36.69,
+    "end": 37.27,
+    "startFrame": 1101,
+    "endFrame": 1118,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "analysts",
+    "start": 37.27,
+    "end": 37.81,
+    "startFrame": 1118,
+    "endFrame": 1134,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "highlighted",
+    "start": 37.81,
+    "end": 38.31,
+    "startFrame": 1134,
+    "endFrame": 1149,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "the",
+    "start": 38.31,
+    "end": 38.63,
+    "startFrame": 1149,
+    "endFrame": 1159,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "growing",
+    "start": 38.63,
+    "end": 38.85,
+    "startFrame": 1159,
+    "endFrame": 1166,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "trend",
+    "start": 38.85,
+    "end": 39.13,
+    "startFrame": 1166,
+    "endFrame": 1174,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "of",
+    "start": 39.13,
+    "end": 39.37,
+    "startFrame": 1174,
+    "endFrame": 1181,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "nuclear",
+    "start": 39.37,
+    "end": 39.57,
+    "startFrame": 1181,
+    "endFrame": 1187,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "-armed",
+    "start": 39.57,
+    "end": 39.95,
+    "startFrame": 1187,
+    "endFrame": 1198,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "state's",
+    "start": 39.95,
+    "end": 40.37,
+    "startFrame": 1198,
+    "endFrame": 1211,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "marketing",
+    "start": 40.37,
+    "end": 40.73,
+    "startFrame": 1211,
+    "endFrame": 1222,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "AI",
+    "start": 40.73,
+    "end": 41.03,
+    "startFrame": 1222,
+    "endFrame": 1231,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "autonomy",
+    "start": 41.03,
+    "end": 41.65,
+    "startFrame": 1231,
+    "endFrame": 1250,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "and",
+    "start": 41.65,
+    "end": 41.97,
+    "startFrame": 1250,
+    "endFrame": 1259,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "strategic",
+    "start": 41.97,
+    "end": 42.25,
+    "startFrame": 1259,
+    "endFrame": 1268,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "military",
+    "start": 42.25,
+    "end": 42.75,
+    "startFrame": 1268,
+    "endFrame": 1282,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "hardware.",
+    "start": 42.75,
+    "end": 43.29,
+    "startFrame": 1282,
+    "endFrame": 1299,
+    "sceneId": "s1_north_korea_fires_ballistic_miss"
+  },
+  {
+    "word": "Turning",
+    "start": 47.7,
+    "end": 48.08,
+    "startFrame": 1431,
+    "endFrame": 1442,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "to",
+    "start": 48.08,
+    "end": 48.28,
+    "startFrame": 1442,
+    "endFrame": 1448,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "the",
+    "start": 48.28,
+    "end": 48.38,
+    "startFrame": 1448,
+    "endFrame": 1451,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "United",
+    "start": 48.38,
+    "end": 48.64,
+    "startFrame": 1451,
+    "endFrame": 1459,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "States,",
+    "start": 48.64,
+    "end": 49.08,
+    "startFrame": 1459,
+    "endFrame": 1472,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "the",
+    "start": 49.52,
+    "end": 49.64,
+    "startFrame": 1486,
+    "endFrame": 1489,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "White",
+    "start": 49.64,
+    "end": 49.8,
+    "startFrame": 1489,
+    "endFrame": 1494,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "House",
+    "start": 49.8,
+    "end": 50.1,
+    "startFrame": 1494,
+    "endFrame": 1503,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "has",
+    "start": 50.1,
+    "end": 50.26,
+    "startFrame": 1503,
+    "endFrame": 1508,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "established",
+    "start": 50.26,
+    "end": 50.78,
+    "startFrame": 1508,
+    "endFrame": 1523,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "the",
+    "start": 50.78,
+    "end": 51.06,
+    "startFrame": 1523,
+    "endFrame": 1532,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "Superintelligence",
+    "start": 51.06,
+    "end": 51.52,
+    "startFrame": 1532,
+    "endFrame": 1546,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "Force,",
+    "start": 51.52,
+    "end": 52.28,
+    "startFrame": 1546,
+    "endFrame": 1568,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "chaired",
+    "start": 52.7,
+    "end": 53.02,
+    "startFrame": 1581,
+    "endFrame": 1591,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "by",
+    "start": 53.02,
+    "end": 53.22,
+    "startFrame": 1591,
+    "endFrame": 1597,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "Director",
+    "start": 53.22,
+    "end": 53.5,
+    "startFrame": 1597,
+    "endFrame": 1605,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "of",
+    "start": 53.5,
+    "end": 53.86,
+    "startFrame": 1605,
+    "endFrame": 1616,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "National",
+    "start": 53.86,
+    "end": 54.02,
+    "startFrame": 1616,
+    "endFrame": 1621,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "Intelligence",
+    "start": 54.02,
+    "end": 54.76,
+    "startFrame": 1621,
+    "endFrame": 1643,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "Jay",
+    "start": 54.76,
+    "end": 55.18,
+    "startFrame": 1643,
+    "endFrame": 1655,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "Clayton,",
+    "start": 55.18,
+    "end": 55.42,
+    "startFrame": 1655,
+    "endFrame": 1663,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "initiating",
+    "start": 55.9,
+    "end": 56.52,
+    "startFrame": 1677,
+    "endFrame": 1696,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "a",
+    "start": 56.52,
+    "end": 56.72,
+    "startFrame": 1696,
+    "endFrame": 1702,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "120",
+    "start": 56.72,
+    "end": 56.98,
+    "startFrame": 1702,
+    "endFrame": 1709,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "-day",
+    "start": 56.98,
+    "end": 57.84,
+    "startFrame": 1709,
+    "endFrame": 1735,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "sprint",
+    "start": 57.84,
+    "end": 58.16,
+    "startFrame": 1735,
+    "endFrame": 1745,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "across",
+    "start": 58.16,
+    "end": 58.46,
+    "startFrame": 1745,
+    "endFrame": 1754,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "federal",
+    "start": 58.46,
+    "end": 58.88,
+    "startFrame": 1754,
+    "endFrame": 1766,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "agencies",
+    "start": 58.88,
+    "end": 59.36,
+    "startFrame": 1766,
+    "endFrame": 1781,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "to",
+    "start": 59.36,
+    "end": 59.82,
+    "startFrame": 1781,
+    "endFrame": 1795,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "evaluate",
+    "start": 59.82,
+    "end": 60.16,
+    "startFrame": 1795,
+    "endFrame": 1805,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "national",
+    "start": 60.16,
+    "end": 60.68,
+    "startFrame": 1805,
+    "endFrame": 1820,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "security",
+    "start": 60.68,
+    "end": 61.22,
+    "startFrame": 1820,
+    "endFrame": 1837,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "implications,",
+    "start": 61.22,
+    "end": 62.0,
+    "startFrame": 1837,
+    "endFrame": 1860,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "infrastructure",
+    "start": 62.58,
+    "end": 63.04,
+    "startFrame": 1877,
+    "endFrame": 1891,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "scaling,",
+    "start": 63.04,
+    "end": 63.7,
+    "startFrame": 1891,
+    "endFrame": 1911,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "and",
+    "start": 64.16,
+    "end": 64.36,
+    "startFrame": 1925,
+    "endFrame": 1931,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "regulatory",
+    "start": 64.36,
+    "end": 64.72,
+    "startFrame": 1931,
+    "endFrame": 1942,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "boundaries",
+    "start": 64.72,
+    "end": 65.36,
+    "startFrame": 1942,
+    "endFrame": 1961,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "for",
+    "start": 65.36,
+    "end": 65.78,
+    "startFrame": 1961,
+    "endFrame": 1973,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "frontier",
+    "start": 65.78,
+    "end": 66.1,
+    "startFrame": 1973,
+    "endFrame": 1983,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "systems.",
+    "start": 66.1,
+    "end": 66.6,
+    "startFrame": 1983,
+    "endFrame": 1998,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "The",
+    "start": 67.7,
+    "end": 67.98,
+    "startFrame": 2031,
+    "endFrame": 2039,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "initiative",
+    "start": 67.98,
+    "end": 68.32,
+    "startFrame": 2039,
+    "endFrame": 2050,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "aligns",
+    "start": 68.32,
+    "end": 68.96,
+    "startFrame": 2050,
+    "endFrame": 2069,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "with",
+    "start": 68.96,
+    "end": 69.06,
+    "startFrame": 2069,
+    "endFrame": 2072,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "an",
+    "start": 69.06,
+    "end": 69.18,
+    "startFrame": 2072,
+    "endFrame": 2075,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "executive",
+    "start": 69.18,
+    "end": 69.52,
+    "startFrame": 2075,
+    "endFrame": 2086,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "directive",
+    "start": 69.52,
+    "end": 70.04,
+    "startFrame": 2086,
+    "endFrame": 2101,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "prompting",
+    "start": 70.04,
+    "end": 70.6,
+    "startFrame": 2101,
+    "endFrame": 2118,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "industry",
+    "start": 70.6,
+    "end": 71.1,
+    "startFrame": 2118,
+    "endFrame": 2133,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "rebrands",
+    "start": 71.1,
+    "end": 71.78,
+    "startFrame": 2133,
+    "endFrame": 2153,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "including",
+    "start": 71.78,
+    "end": 72.24,
+    "startFrame": 2153,
+    "endFrame": 2167,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "Elon",
+    "start": 72.24,
+    "end": 72.72,
+    "startFrame": 2167,
+    "endFrame": 2182,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "Musk",
+    "start": 72.72,
+    "end": 73.06,
+    "startFrame": 2182,
+    "endFrame": 2192,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "renaming",
+    "start": 73.06,
+    "end": 73.62,
+    "startFrame": 2192,
+    "endFrame": 2209,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "SpaceX",
+    "start": 73.62,
+    "end": 73.94,
+    "startFrame": 2209,
+    "endFrame": 2218,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "AI",
+    "start": 73.94,
+    "end": 74.52,
+    "startFrame": 2218,
+    "endFrame": 2236,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "to",
+    "start": 74.52,
+    "end": 74.86,
+    "startFrame": 2236,
+    "endFrame": 2246,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "SpaceX",
+    "start": 74.86,
+    "end": 75.2,
+    "startFrame": 2246,
+    "endFrame": 2256,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "SI",
+    "start": 75.2,
+    "end": 75.68,
+    "startFrame": 2256,
+    "endFrame": 2270,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "while",
+    "start": 75.68,
+    "end": 76.06,
+    "startFrame": 2270,
+    "endFrame": 2282,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "OpenAI",
+    "start": 76.06,
+    "end": 76.6,
+    "startFrame": 2282,
+    "endFrame": 2298,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "CEO",
+    "start": 76.6,
+    "end": 77.08,
+    "startFrame": 2298,
+    "endFrame": 2312,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "Sam",
+    "start": 77.08,
+    "end": 77.6,
+    "startFrame": 2312,
+    "endFrame": 2328,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "Altman",
+    "start": 77.6,
+    "end": 77.96,
+    "startFrame": 2328,
+    "endFrame": 2339,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "publicly",
+    "start": 77.96,
+    "end": 78.42,
+    "startFrame": 2339,
+    "endFrame": 2353,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "warned",
+    "start": 78.42,
+    "end": 78.88,
+    "startFrame": 2353,
+    "endFrame": 2366,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "against",
+    "start": 78.88,
+    "end": 79.18,
+    "startFrame": 2366,
+    "endFrame": 2375,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "treating",
+    "start": 79.18,
+    "end": 79.58,
+    "startFrame": 2375,
+    "endFrame": 2387,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "emerging",
+    "start": 79.58,
+    "end": 79.98,
+    "startFrame": 2387,
+    "endFrame": 2399,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "artificial",
+    "start": 79.98,
+    "end": 80.42,
+    "startFrame": 2399,
+    "endFrame": 2413,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "intelligence",
+    "start": 80.42,
+    "end": 81.02,
+    "startFrame": 2413,
+    "endFrame": 2431,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "models,",
+    "start": 81.02,
+    "end": 81.76,
+    "startFrame": 2431,
+    "endFrame": 2453,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "with",
+    "start": 82.2,
+    "end": 82.42,
+    "startFrame": 2466,
+    "endFrame": 2473,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "religious",
+    "start": 82.42,
+    "end": 82.76,
+    "startFrame": 2473,
+    "endFrame": 2483,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "reverence",
+    "start": 82.76,
+    "end": 83.14,
+    "startFrame": 2483,
+    "endFrame": 2494,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "amidst",
+    "start": 83.14,
+    "end": 83.66,
+    "startFrame": 2494,
+    "endFrame": 2510,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "ongoing",
+    "start": 83.66,
+    "end": 84.04,
+    "startFrame": 2510,
+    "endFrame": 2521,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "debates",
+    "start": 84.04,
+    "end": 84.58,
+    "startFrame": 2521,
+    "endFrame": 2537,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "over",
+    "start": 84.58,
+    "end": 84.96,
+    "startFrame": 2537,
+    "endFrame": 2549,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "machine",
+    "start": 84.96,
+    "end": 85.3,
+    "startFrame": 2549,
+    "endFrame": 2559,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "consciousness.",
+    "start": 85.3,
+    "end": 85.88,
+    "startFrame": 2559,
+    "endFrame": 2576,
+    "sceneId": "s2_white_house_launches_super_intel"
+  },
+  {
+    "word": "In",
+    "start": 88.33,
+    "end": 88.61,
+    "startFrame": 2650,
+    "endFrame": 2658,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "concurrent",
+    "start": 88.61,
+    "end": 88.93,
+    "startFrame": 2658,
+    "endFrame": 2668,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "industry",
+    "start": 88.93,
+    "end": 89.49,
+    "startFrame": 2668,
+    "endFrame": 2685,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "updates,",
+    "start": 89.49,
+    "end": 89.95,
+    "startFrame": 2685,
+    "endFrame": 2699,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "Google",
+    "start": 90.37,
+    "end": 90.59,
+    "startFrame": 2711,
+    "endFrame": 2718,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "Cloud",
+    "start": 90.59,
+    "end": 91.01,
+    "startFrame": 2718,
+    "endFrame": 2730,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "AI",
+    "start": 91.01,
+    "end": 91.35,
+    "startFrame": 2730,
+    "endFrame": 2741,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "research",
+    "start": 91.35,
+    "end": 91.91,
+    "startFrame": 2741,
+    "endFrame": 2757,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "published",
+    "start": 91.91,
+    "end": 92.33,
+    "startFrame": 2757,
+    "endFrame": 2770,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "findings",
+    "start": 92.33,
+    "end": 92.81,
+    "startFrame": 2770,
+    "endFrame": 2784,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "on",
+    "start": 92.81,
+    "end": 93.09,
+    "startFrame": 2784,
+    "endFrame": 2793,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "regularized",
+    "start": 93.09,
+    "end": 93.81,
+    "startFrame": 2793,
+    "endFrame": 2814,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "recursive",
+    "start": 93.81,
+    "end": 93.95,
+    "startFrame": 2814,
+    "endFrame": 2819,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "self",
+    "start": 93.95,
+    "end": 94.51,
+    "startFrame": 2819,
+    "endFrame": 2835,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "-improvement",
+    "start": 94.51,
+    "end": 95.09,
+    "startFrame": 2835,
+    "endFrame": 2853,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "for",
+    "start": 95.09,
+    "end": 95.25,
+    "startFrame": 2853,
+    "endFrame": 2858,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "autonomous",
+    "start": 95.25,
+    "end": 95.61,
+    "startFrame": 2858,
+    "endFrame": 2868,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "agent",
+    "start": 95.61,
+    "end": 96.07,
+    "startFrame": 2868,
+    "endFrame": 2882,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "harnesses,",
+    "start": 96.07,
+    "end": 96.77,
+    "startFrame": 2882,
+    "endFrame": 2903,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "demonstrating",
+    "start": 96.91,
+    "end": 97.45,
+    "startFrame": 2907,
+    "endFrame": 2924,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "that",
+    "start": 97.45,
+    "end": 97.77,
+    "startFrame": 2924,
+    "endFrame": 2933,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "self",
+    "start": 97.77,
+    "end": 98.01,
+    "startFrame": 2933,
+    "endFrame": 2940,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "-riding",
+    "start": 98.01,
+    "end": 98.39,
+    "startFrame": 2940,
+    "endFrame": 2952,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "agents",
+    "start": 98.39,
+    "end": 98.81,
+    "startFrame": 2952,
+    "endFrame": 2964,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "frequently",
+    "start": 98.81,
+    "end": 99.15,
+    "startFrame": 2964,
+    "endFrame": 2974,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "overfit",
+    "start": 99.15,
+    "end": 99.87,
+    "startFrame": 2974,
+    "endFrame": 2996,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "benchmark",
+    "start": 99.87,
+    "end": 100.23,
+    "startFrame": 2996,
+    "endFrame": 3007,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "evaluations",
+    "start": 100.23,
+    "end": 100.77,
+    "startFrame": 3007,
+    "endFrame": 3023,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "rather",
+    "start": 100.77,
+    "end": 101.49,
+    "startFrame": 3023,
+    "endFrame": 3045,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "than",
+    "start": 101.49,
+    "end": 101.77,
+    "startFrame": 3045,
+    "endFrame": 3053,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "generalizing",
+    "start": 101.77,
+    "end": 102.39,
+    "startFrame": 3053,
+    "endFrame": 3072,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "capabilities.",
+    "start": 102.39,
+    "end": 102.79,
+    "startFrame": 3072,
+    "endFrame": 3084,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "By",
+    "start": 102.79,
+    "end": 104.39,
+    "startFrame": 3084,
+    "endFrame": 3132,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "enforcing",
+    "start": 104.39,
+    "end": 104.87,
+    "startFrame": 3132,
+    "endFrame": 3146,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "edit",
+    "start": 104.87,
+    "end": 105.19,
+    "startFrame": 3146,
+    "endFrame": 3156,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "budgets,",
+    "start": 105.19,
+    "end": 105.51,
+    "startFrame": 3156,
+    "endFrame": 3165,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "filtering",
+    "start": 106.01,
+    "end": 106.41,
+    "startFrame": 3180,
+    "endFrame": 3192,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "prompt",
+    "start": 106.41,
+    "end": 106.67,
+    "startFrame": 3192,
+    "endFrame": 3200,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "leakage,",
+    "start": 106.67,
+    "end": 107.03,
+    "startFrame": 3200,
+    "endFrame": 3211,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "and",
+    "start": 107.55,
+    "end": 107.65,
+    "startFrame": 3227,
+    "endFrame": 3230,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "pruning",
+    "start": 107.65,
+    "end": 107.97,
+    "startFrame": 3230,
+    "endFrame": 3239,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "redundant",
+    "start": 107.97,
+    "end": 108.29,
+    "startFrame": 3239,
+    "endFrame": 3249,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "control",
+    "start": 108.29,
+    "end": 108.77,
+    "startFrame": 3249,
+    "endFrame": 3263,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "scaffolding,",
+    "start": 108.77,
+    "end": 109.41,
+    "startFrame": 3263,
+    "endFrame": 3282,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "the",
+    "start": 109.83,
+    "end": 109.95,
+    "startFrame": 3295,
+    "endFrame": 3299,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "RSI",
+    "start": 109.95,
+    "end": 110.37,
+    "startFrame": 3299,
+    "endFrame": 3311,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "framework",
+    "start": 110.37,
+    "end": 110.77,
+    "startFrame": 3311,
+    "endFrame": 3323,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "enabled",
+    "start": 110.77,
+    "end": 111.25,
+    "startFrame": 3323,
+    "endFrame": 3338,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "frozen",
+    "start": 111.25,
+    "end": 111.57,
+    "startFrame": 3338,
+    "endFrame": 3347,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "models",
+    "start": 111.57,
+    "end": 111.97,
+    "startFrame": 3347,
+    "endFrame": 3359,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "to",
+    "start": 111.97,
+    "end": 112.31,
+    "startFrame": 3359,
+    "endFrame": 3369,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "achieve",
+    "start": 112.31,
+    "end": 112.55,
+    "startFrame": 3369,
+    "endFrame": 3377,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "substantial",
+    "start": 112.55,
+    "end": 112.91,
+    "startFrame": 3377,
+    "endFrame": 3387,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "performance",
+    "start": 112.91,
+    "end": 113.59,
+    "startFrame": 3387,
+    "endFrame": 3408,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "gains",
+    "start": 113.59,
+    "end": 114.01,
+    "startFrame": 3408,
+    "endFrame": 3420,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "on",
+    "start": 114.01,
+    "end": 114.37,
+    "startFrame": 3420,
+    "endFrame": 3431,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "novel",
+    "start": 114.37,
+    "end": 114.63,
+    "startFrame": 3431,
+    "endFrame": 3439,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "tasks",
+    "start": 114.63,
+    "end": 114.99,
+    "startFrame": 3439,
+    "endFrame": 3450,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "while",
+    "start": 114.99,
+    "end": 115.41,
+    "startFrame": 3450,
+    "endFrame": 3462,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "reducing",
+    "start": 115.41,
+    "end": 115.73,
+    "startFrame": 3462,
+    "endFrame": 3472,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "policy",
+    "start": 115.73,
+    "end": 116.13,
+    "startFrame": 3472,
+    "endFrame": 3484,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "token",
+    "start": 116.13,
+    "end": 116.65,
+    "startFrame": 3484,
+    "endFrame": 3500,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "overhead",
+    "start": 116.65,
+    "end": 116.97,
+    "startFrame": 3500,
+    "endFrame": 3509,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "by",
+    "start": 116.97,
+    "end": 117.37,
+    "startFrame": 3509,
+    "endFrame": 3521,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "30%.",
+    "start": 117.37,
+    "end": 117.79,
+    "startFrame": 3521,
+    "endFrame": 3534,
+    "sceneId": "s3_google_cloud_ai_researchers_intr"
+  },
+  {
+    "word": "Meanwhile",
+    "start": 122.35,
+    "end": 122.79,
+    "startFrame": 3671,
+    "endFrame": 3684,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "in",
+    "start": 122.79,
+    "end": 123.17,
+    "startFrame": 3684,
+    "endFrame": 3695,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "China,",
+    "start": 123.17,
+    "end": 123.41,
+    "startFrame": 3695,
+    "endFrame": 3702,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "China's",
+    "start": 123.77,
+    "end": 124.41,
+    "startFrame": 3713,
+    "endFrame": 3732,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "premier",
+    "start": 124.41,
+    "end": 124.61,
+    "startFrame": 3732,
+    "endFrame": 3738,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "technology",
+    "start": 124.61,
+    "end": 125.35,
+    "startFrame": 3738,
+    "endFrame": 3761,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "conglomerates",
+    "start": 125.35,
+    "end": 126.19,
+    "startFrame": 3761,
+    "endFrame": 3786,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "are",
+    "start": 126.19,
+    "end": 126.31,
+    "startFrame": 3786,
+    "endFrame": 3789,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "pivoting",
+    "start": 126.31,
+    "end": 126.71,
+    "startFrame": 3789,
+    "endFrame": 3801,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "rapidly",
+    "start": 126.71,
+    "end": 126.93,
+    "startFrame": 3801,
+    "endFrame": 3808,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "toward",
+    "start": 126.93,
+    "end": 127.41,
+    "startFrame": 3808,
+    "endFrame": 3822,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "always",
+    "start": 127.41,
+    "end": 127.75,
+    "startFrame": 3822,
+    "endFrame": 3833,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "-on",
+    "start": 127.75,
+    "end": 128.05,
+    "startFrame": 3833,
+    "endFrame": 3842,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "-consumer",
+    "start": 128.05,
+    "end": 128.43,
+    "startFrame": 3842,
+    "endFrame": 3853,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "agents",
+    "start": 128.43,
+    "end": 128.93,
+    "startFrame": 3853,
+    "endFrame": 3868,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "designed",
+    "start": 128.93,
+    "end": 129.39,
+    "startFrame": 3868,
+    "endFrame": 3882,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "to",
+    "start": 129.39,
+    "end": 129.73,
+    "startFrame": 3882,
+    "endFrame": 3892,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "execute",
+    "start": 129.73,
+    "end": 130.09,
+    "startFrame": 3892,
+    "endFrame": 3903,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "complex,",
+    "start": 130.09,
+    "end": 130.59,
+    "startFrame": 3903,
+    "endFrame": 3918,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "multi",
+    "start": 131.15,
+    "end": 131.45,
+    "startFrame": 3935,
+    "endFrame": 3944,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "-step",
+    "start": 131.45,
+    "end": 131.83,
+    "startFrame": 3944,
+    "endFrame": 3955,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "actions",
+    "start": 131.83,
+    "end": 132.25,
+    "startFrame": 3955,
+    "endFrame": 3968,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "across",
+    "start": 132.25,
+    "end": 132.63,
+    "startFrame": 3968,
+    "endFrame": 3979,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "digital",
+    "start": 132.63,
+    "end": 133.03,
+    "startFrame": 3979,
+    "endFrame": 3991,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "platforms.",
+    "start": 133.03,
+    "end": 133.67,
+    "startFrame": 3991,
+    "endFrame": 4010,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "Tencent",
+    "start": 134.81,
+    "end": 135.31,
+    "startFrame": 4044,
+    "endFrame": 4059,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "is",
+    "start": 135.31,
+    "end": 135.53,
+    "startFrame": 4059,
+    "endFrame": 4066,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "testing",
+    "start": 135.53,
+    "end": 135.91,
+    "startFrame": 4066,
+    "endFrame": 4077,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "Handybot",
+    "start": 135.91,
+    "end": 136.51,
+    "startFrame": 4077,
+    "endFrame": 4095,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "within",
+    "start": 136.51,
+    "end": 136.81,
+    "startFrame": 4095,
+    "endFrame": 4104,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "the",
+    "start": 136.81,
+    "end": 137.07,
+    "startFrame": 4104,
+    "endFrame": 4112,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "WeChat",
+    "start": 137.07,
+    "end": 137.37,
+    "startFrame": 4112,
+    "endFrame": 4121,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "ecosystem",
+    "start": 137.37,
+    "end": 137.77,
+    "startFrame": 4121,
+    "endFrame": 4133,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "as",
+    "start": 137.77,
+    "end": 138.31,
+    "startFrame": 4133,
+    "endFrame": 4149,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "a",
+    "start": 138.31,
+    "end": 138.39,
+    "startFrame": 4149,
+    "endFrame": 4152,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "persistent",
+    "start": 138.39,
+    "end": 138.65,
+    "startFrame": 4152,
+    "endFrame": 4160,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "personal",
+    "start": 138.65,
+    "end": 139.13,
+    "startFrame": 4160,
+    "endFrame": 4174,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "assistant,",
+    "start": 139.13,
+    "end": 139.71,
+    "startFrame": 4174,
+    "endFrame": 4191,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "ByteDance",
+    "start": 140.41,
+    "end": 140.85,
+    "startFrame": 4212,
+    "endFrame": 4226,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "is",
+    "start": 140.85,
+    "end": 141.03,
+    "startFrame": 4226,
+    "endFrame": 4231,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "preparing",
+    "start": 141.03,
+    "end": 141.33,
+    "startFrame": 4231,
+    "endFrame": 4240,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "its",
+    "start": 141.33,
+    "end": 141.67,
+    "startFrame": 4240,
+    "endFrame": 4250,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "standalone",
+    "start": 141.67,
+    "end": 142.05,
+    "startFrame": 4250,
+    "endFrame": 4262,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "shadow",
+    "start": 142.05,
+    "end": 142.55,
+    "startFrame": 4262,
+    "endFrame": 4276,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "agent",
+    "start": 142.55,
+    "end": 143.07,
+    "startFrame": 4276,
+    "endFrame": 4292,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "derived",
+    "start": 143.07,
+    "end": 143.39,
+    "startFrame": 4292,
+    "endFrame": 4302,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "from",
+    "start": 143.39,
+    "end": 143.85,
+    "startFrame": 4302,
+    "endFrame": 4316,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "the",
+    "start": 143.85,
+    "end": 143.99,
+    "startFrame": 4316,
+    "endFrame": 4320,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "Dobo",
+    "start": 143.99,
+    "end": 144.19,
+    "startFrame": 4320,
+    "endFrame": 4326,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "stack.",
+    "start": 144.19,
+    "end": 144.53,
+    "startFrame": 4326,
+    "endFrame": 4336,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "And",
+    "start": 145.27,
+    "end": 145.31,
+    "startFrame": 4358,
+    "endFrame": 4359,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "Alibaba",
+    "start": 145.31,
+    "end": 145.59,
+    "startFrame": 4359,
+    "endFrame": 4368,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "is",
+    "start": 145.59,
+    "end": 146.13,
+    "startFrame": 4368,
+    "endFrame": 4384,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "advancing",
+    "start": 146.13,
+    "end": 146.59,
+    "startFrame": 4384,
+    "endFrame": 4398,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "my",
+    "start": 146.59,
+    "end": 146.85,
+    "startFrame": 4398,
+    "endFrame": 4406,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "Quen",
+    "start": 146.85,
+    "end": 147.21,
+    "startFrame": 4406,
+    "endFrame": 4416,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "with",
+    "start": 147.21,
+    "end": 147.39,
+    "startFrame": 4416,
+    "endFrame": 4422,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "long",
+    "start": 147.39,
+    "end": 147.59,
+    "startFrame": 4422,
+    "endFrame": 4428,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "horizon",
+    "start": 147.59,
+    "end": 148.03,
+    "startFrame": 4428,
+    "endFrame": 4441,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "personal",
+    "start": 148.03,
+    "end": 148.37,
+    "startFrame": 4441,
+    "endFrame": 4451,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "memory",
+    "start": 148.37,
+    "end": 148.99,
+    "startFrame": 4451,
+    "endFrame": 4470,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "across",
+    "start": 148.99,
+    "end": 149.35,
+    "startFrame": 4470,
+    "endFrame": 4481,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "finance,",
+    "start": 149.35,
+    "end": 149.81,
+    "startFrame": 4481,
+    "endFrame": 4494,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "healthcare,",
+    "start": 149.81,
+    "end": 150.65,
+    "startFrame": 4494,
+    "endFrame": 4520,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "and",
+    "start": 151.09,
+    "end": 151.29,
+    "startFrame": 4533,
+    "endFrame": 4539,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "enterprise",
+    "start": 151.29,
+    "end": 151.61,
+    "startFrame": 4539,
+    "endFrame": 4548,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "services.",
+    "start": 151.61,
+    "end": 152.25,
+    "startFrame": 4548,
+    "endFrame": 4568,
+    "sceneId": "s4_tencent_bytedance_and_alibaba_ac"
+  },
+  {
+    "word": "In",
+    "start": 156.68,
+    "end": 156.96,
+    "startFrame": 4700,
+    "endFrame": 4709,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Asia,",
+    "start": 156.96,
+    "end": 157.26,
+    "startFrame": 4709,
+    "endFrame": 4718,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Singapore",
+    "start": 158.12,
+    "end": 158.12,
+    "startFrame": 4744,
+    "endFrame": 4744,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Digital",
+    "start": 158.12,
+    "end": 158.5,
+    "startFrame": 4744,
+    "endFrame": 4755,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Development",
+    "start": 158.5,
+    "end": 159.06,
+    "startFrame": 4755,
+    "endFrame": 4772,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "and",
+    "start": 159.06,
+    "end": 159.34,
+    "startFrame": 4772,
+    "endFrame": 4780,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Information",
+    "start": 159.34,
+    "end": 159.58,
+    "startFrame": 4780,
+    "endFrame": 4787,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Minister",
+    "start": 159.58,
+    "end": 160.24,
+    "startFrame": 4787,
+    "endFrame": 4807,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Josephine",
+    "start": 160.24,
+    "end": 160.9,
+    "startFrame": 4807,
+    "endFrame": 4827,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Teo",
+    "start": 160.9,
+    "end": 161.26,
+    "startFrame": 4827,
+    "endFrame": 4838,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "emphasized",
+    "start": 161.26,
+    "end": 161.62,
+    "startFrame": 4838,
+    "endFrame": 4849,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "that",
+    "start": 161.62,
+    "end": 162.1,
+    "startFrame": 4849,
+    "endFrame": 4863,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "expanding",
+    "start": 162.1,
+    "end": 162.4,
+    "startFrame": 4863,
+    "endFrame": 4872,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "autonomous",
+    "start": 162.4,
+    "end": 162.82,
+    "startFrame": 4872,
+    "endFrame": 4885,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "agency",
+    "start": 162.82,
+    "end": 163.44,
+    "startFrame": 4885,
+    "endFrame": 4903,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "demands",
+    "start": 163.44,
+    "end": 163.94,
+    "startFrame": 4903,
+    "endFrame": 4918,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "proportional",
+    "start": 163.94,
+    "end": 164.26,
+    "startFrame": 4918,
+    "endFrame": 4928,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "safety",
+    "start": 164.26,
+    "end": 164.92,
+    "startFrame": 4928,
+    "endFrame": 4948,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "mechanisms,",
+    "start": 164.92,
+    "end": 165.4,
+    "startFrame": 4948,
+    "endFrame": 4962,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "stating",
+    "start": 165.92,
+    "end": 166.32,
+    "startFrame": 4978,
+    "endFrame": 4990,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "that",
+    "start": 166.32,
+    "end": 166.56,
+    "startFrame": 4990,
+    "endFrame": 4997,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "systems",
+    "start": 166.56,
+    "end": 166.9,
+    "startFrame": 4997,
+    "endFrame": 5007,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "with",
+    "start": 166.9,
+    "end": 167.18,
+    "startFrame": 5007,
+    "endFrame": 5015,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "greater",
+    "start": 167.18,
+    "end": 167.4,
+    "startFrame": 5015,
+    "endFrame": 5022,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "real",
+    "start": 167.4,
+    "end": 167.74,
+    "startFrame": 5022,
+    "endFrame": 5032,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "-world",
+    "start": 167.74,
+    "end": 168.06,
+    "startFrame": 5032,
+    "endFrame": 5042,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "impact",
+    "start": 168.06,
+    "end": 168.46,
+    "startFrame": 5042,
+    "endFrame": 5054,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "require",
+    "start": 168.46,
+    "end": 168.7,
+    "startFrame": 5054,
+    "endFrame": 5061,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "strictly",
+    "start": 168.7,
+    "end": 169.32,
+    "startFrame": 5061,
+    "endFrame": 5080,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "enforced",
+    "start": 169.32,
+    "end": 169.66,
+    "startFrame": 5080,
+    "endFrame": 5090,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "operational",
+    "start": 169.66,
+    "end": 170.06,
+    "startFrame": 5090,
+    "endFrame": 5102,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "breaks.",
+    "start": 170.06,
+    "end": 170.92,
+    "startFrame": 5102,
+    "endFrame": 5128,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Singapore",
+    "start": 171.58,
+    "end": 172.36,
+    "startFrame": 5147,
+    "endFrame": 5171,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "has",
+    "start": 172.36,
+    "end": 172.8,
+    "startFrame": 5171,
+    "endFrame": 5184,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "aligned",
+    "start": 172.8,
+    "end": 173.06,
+    "startFrame": 5184,
+    "endFrame": 5192,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "with",
+    "start": 173.06,
+    "end": 173.34,
+    "startFrame": 5192,
+    "endFrame": 5200,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "the",
+    "start": 173.34,
+    "end": 173.48,
+    "startFrame": 5200,
+    "endFrame": 5204,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Nordic",
+    "start": 173.48,
+    "end": 173.68,
+    "startFrame": 5204,
+    "endFrame": 5210,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "-led",
+    "start": 173.68,
+    "end": 173.98,
+    "startFrame": 5210,
+    "endFrame": 5219,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Frontier",
+    "start": 173.98,
+    "end": 174.22,
+    "startFrame": 5219,
+    "endFrame": 5227,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Governance",
+    "start": 174.22,
+    "end": 174.9,
+    "startFrame": 5227,
+    "endFrame": 5247,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Coalition,",
+    "start": 174.9,
+    "end": 175.2,
+    "startFrame": 5247,
+    "endFrame": 5256,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "urging",
+    "start": 175.82,
+    "end": 176.14,
+    "startFrame": 5275,
+    "endFrame": 5284,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "multi",
+    "start": 176.14,
+    "end": 176.36,
+    "startFrame": 5284,
+    "endFrame": 5291,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "-layer",
+    "start": 176.36,
+    "end": 176.78,
+    "startFrame": 5291,
+    "endFrame": 5303,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "protection",
+    "start": 176.78,
+    "end": 177.14,
+    "startFrame": 5303,
+    "endFrame": 5314,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "spanning",
+    "start": 177.14,
+    "end": 177.62,
+    "startFrame": 5314,
+    "endFrame": 5329,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "cyber",
+    "start": 177.62,
+    "end": 178.12,
+    "startFrame": 5329,
+    "endFrame": 5344,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "-hardening,",
+    "start": 178.12,
+    "end": 178.6,
+    "startFrame": 5344,
+    "endFrame": 5358,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "capability",
+    "start": 178.98,
+    "end": 179.26,
+    "startFrame": 5369,
+    "endFrame": 5378,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "boundaries,",
+    "start": 179.26,
+    "end": 179.86,
+    "startFrame": 5378,
+    "endFrame": 5396,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "continuous",
+    "start": 180.48,
+    "end": 180.9,
+    "startFrame": 5414,
+    "endFrame": 5427,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "verification,",
+    "start": 180.9,
+    "end": 181.26,
+    "startFrame": 5427,
+    "endFrame": 5438,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "and",
+    "start": 182.1,
+    "end": 182.18,
+    "startFrame": 5463,
+    "endFrame": 5465,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "immutable",
+    "start": 182.18,
+    "end": 182.44,
+    "startFrame": 5465,
+    "endFrame": 5473,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "human",
+    "start": 182.44,
+    "end": 182.88,
+    "startFrame": 5473,
+    "endFrame": 5486,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "oversight.",
+    "start": 182.88,
+    "end": 183.34,
+    "startFrame": 5486,
+    "endFrame": 5500,
+    "sceneId": "s5_singapore_digital_minister_josep"
+  },
+  {
+    "word": "Turning",
+    "start": 187.77,
+    "end": 188.15,
+    "startFrame": 5633,
+    "endFrame": 5644,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "to",
+    "start": 188.15,
+    "end": 188.37,
+    "startFrame": 5644,
+    "endFrame": 5651,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "India,",
+    "start": 188.37,
+    "end": 188.77,
+    "startFrame": 5651,
+    "endFrame": 5663,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "Guwahati",
+    "start": 189.25,
+    "end": 189.67,
+    "startFrame": 5678,
+    "endFrame": 5690,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "-based",
+    "start": 189.67,
+    "end": 189.99,
+    "startFrame": 5690,
+    "endFrame": 5700,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "DeepTech",
+    "start": 189.99,
+    "end": 190.53,
+    "startFrame": 5700,
+    "endFrame": 5716,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "startup",
+    "start": 190.53,
+    "end": 190.91,
+    "startFrame": 5716,
+    "endFrame": 5727,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "Navdia",
+    "start": 190.91,
+    "end": 191.57,
+    "startFrame": 5727,
+    "endFrame": 5747,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "AI",
+    "start": 191.57,
+    "end": 191.83,
+    "startFrame": 5747,
+    "endFrame": 5755,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "Labs",
+    "start": 191.83,
+    "end": 192.23,
+    "startFrame": 5755,
+    "endFrame": 5767,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "released",
+    "start": 192.23,
+    "end": 192.63,
+    "startFrame": 5767,
+    "endFrame": 5779,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "Navdia",
+    "start": 192.63,
+    "end": 193.37,
+    "startFrame": 5779,
+    "endFrame": 5801,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "240M.",
+    "start": 193.37,
+    "end": 194.15,
+    "startFrame": 5801,
+    "endFrame": 5824,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "A",
+    "start": 194.69,
+    "end": 194.73,
+    "startFrame": 5841,
+    "endFrame": 5842,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "240",
+    "start": 194.73,
+    "end": 195.01,
+    "startFrame": 5842,
+    "endFrame": 5850,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "million",
+    "start": 195.01,
+    "end": 195.83,
+    "startFrame": 5850,
+    "endFrame": 5875,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "-parameter",
+    "start": 195.83,
+    "end": 196.57,
+    "startFrame": 5875,
+    "endFrame": 5897,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "foundational",
+    "start": 196.57,
+    "end": 196.87,
+    "startFrame": 5897,
+    "endFrame": 5906,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "model",
+    "start": 196.87,
+    "end": 197.53,
+    "startFrame": 5906,
+    "endFrame": 5926,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "trained",
+    "start": 197.53,
+    "end": 197.87,
+    "startFrame": 5926,
+    "endFrame": 5936,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "entirely",
+    "start": 197.87,
+    "end": 198.39,
+    "startFrame": 5936,
+    "endFrame": 5952,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "from",
+    "start": 198.39,
+    "end": 198.79,
+    "startFrame": 5952,
+    "endFrame": 5964,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "scratch",
+    "start": 198.79,
+    "end": 199.05,
+    "startFrame": 5964,
+    "endFrame": 5972,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "with",
+    "start": 199.05,
+    "end": 199.45,
+    "startFrame": 5972,
+    "endFrame": 5984,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "a",
+    "start": 199.45,
+    "end": 199.55,
+    "startFrame": 5984,
+    "endFrame": 5986,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "custom",
+    "start": 199.55,
+    "end": 199.85,
+    "startFrame": 5986,
+    "endFrame": 5996,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "tokenizer",
+    "start": 199.85,
+    "end": 200.45,
+    "startFrame": 5996,
+    "endFrame": 6014,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "and",
+    "start": 200.45,
+    "end": 200.75,
+    "startFrame": 6014,
+    "endFrame": 6022,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "architecture",
+    "start": 200.75,
+    "end": 201.07,
+    "startFrame": 6022,
+    "endFrame": 6032,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "designed",
+    "start": 201.07,
+    "end": 201.69,
+    "startFrame": 6032,
+    "endFrame": 6051,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "for",
+    "start": 201.69,
+    "end": 202.05,
+    "startFrame": 6051,
+    "endFrame": 6062,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "AMD",
+    "start": 202.05,
+    "end": 202.33,
+    "startFrame": 6062,
+    "endFrame": 6070,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "hardware",
+    "start": 202.33,
+    "end": 202.93,
+    "startFrame": 6070,
+    "endFrame": 6088,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "to",
+    "start": 202.93,
+    "end": 203.25,
+    "startFrame": 6088,
+    "endFrame": 6098,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "bypass",
+    "start": 203.25,
+    "end": 203.49,
+    "startFrame": 6098,
+    "endFrame": 6105,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "CUDA",
+    "start": 203.49,
+    "end": 204.11,
+    "startFrame": 6105,
+    "endFrame": 6123,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "dependency.",
+    "start": 204.11,
+    "end": 204.43,
+    "startFrame": 6123,
+    "endFrame": 6133,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "The",
+    "start": 205.83,
+    "end": 205.97,
+    "startFrame": 6175,
+    "endFrame": 6179,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "release",
+    "start": 205.97,
+    "end": 206.21,
+    "startFrame": 6179,
+    "endFrame": 6186,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "marks",
+    "start": 206.21,
+    "end": 206.55,
+    "startFrame": 6186,
+    "endFrame": 6196,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "Northeast",
+    "start": 206.55,
+    "end": 206.85,
+    "startFrame": 6196,
+    "endFrame": 6206,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "India's",
+    "start": 206.85,
+    "end": 207.71,
+    "startFrame": 6206,
+    "endFrame": 6231,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "first",
+    "start": 207.71,
+    "end": 207.97,
+    "startFrame": 6231,
+    "endFrame": 6239,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "open",
+    "start": 207.97,
+    "end": 208.21,
+    "startFrame": 6239,
+    "endFrame": 6246,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "dash.",
+    "start": 208.21,
+    "end": 208.53,
+    "startFrame": 6246,
+    "endFrame": 6256,
+    "sceneId": "s6_guwahati_s_navdyut_ai_labs_open"
+  },
+  {
+    "word": "In",
+    "start": 210.91,
+    "end": 211.19,
+    "startFrame": 6327,
+    "endFrame": 6336,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "other",
+    "start": 211.19,
+    "end": 211.35,
+    "startFrame": 6336,
+    "endFrame": 6341,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "global",
+    "start": 211.35,
+    "end": 211.63,
+    "startFrame": 6341,
+    "endFrame": 6349,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "developments,",
+    "start": 211.63,
+    "end": 212.33,
+    "startFrame": 6349,
+    "endFrame": 6370,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "residents",
+    "start": 212.63,
+    "end": 212.91,
+    "startFrame": 6379,
+    "endFrame": 6387,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "of",
+    "start": 212.91,
+    "end": 213.23,
+    "startFrame": 6387,
+    "endFrame": 6397,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "Dalby",
+    "start": 213.23,
+    "end": 213.59,
+    "startFrame": 6397,
+    "endFrame": 6408,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "and",
+    "start": 213.59,
+    "end": 213.75,
+    "startFrame": 6408,
+    "endFrame": 6413,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "rural",
+    "start": 213.75,
+    "end": 213.91,
+    "startFrame": 6413,
+    "endFrame": 6417,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "Queensland",
+    "start": 213.91,
+    "end": 214.37,
+    "startFrame": 6417,
+    "endFrame": 6431,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "face",
+    "start": 214.37,
+    "end": 214.83,
+    "startFrame": 6431,
+    "endFrame": 6445,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "the",
+    "start": 214.83,
+    "end": 215.05,
+    "startFrame": 6445,
+    "endFrame": 6452,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "proposed",
+    "start": 215.05,
+    "end": 215.33,
+    "startFrame": 6452,
+    "endFrame": 6460,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "construction",
+    "start": 215.33,
+    "end": 215.77,
+    "startFrame": 6460,
+    "endFrame": 6473,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "of",
+    "start": 215.77,
+    "end": 216.19,
+    "startFrame": 6473,
+    "endFrame": 6486,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "a",
+    "start": 216.19,
+    "end": 216.27,
+    "startFrame": 6486,
+    "endFrame": 6488,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "725",
+    "start": 216.27,
+    "end": 217.17,
+    "startFrame": 6488,
+    "endFrame": 6515,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "hectare,",
+    "start": 217.17,
+    "end": 217.85,
+    "startFrame": 6515,
+    "endFrame": 6536,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "$31",
+    "start": 218.27,
+    "end": 218.67,
+    "startFrame": 6548,
+    "endFrame": 6560,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "billion",
+    "start": 218.67,
+    "end": 219.11,
+    "startFrame": 6560,
+    "endFrame": 6573,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "AI",
+    "start": 219.11,
+    "end": 219.71,
+    "startFrame": 6573,
+    "endFrame": 6591,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "data",
+    "start": 219.71,
+    "end": 220.07,
+    "startFrame": 6591,
+    "endFrame": 6602,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "center",
+    "start": 220.07,
+    "end": 220.37,
+    "startFrame": 6602,
+    "endFrame": 6611,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "campus",
+    "start": 220.37,
+    "end": 220.75,
+    "startFrame": 6611,
+    "endFrame": 6623,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "linked",
+    "start": 220.75,
+    "end": 221.13,
+    "startFrame": 6623,
+    "endFrame": 6634,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "to",
+    "start": 221.13,
+    "end": 221.33,
+    "startFrame": 6634,
+    "endFrame": 6640,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "regional",
+    "start": 221.33,
+    "end": 221.59,
+    "startFrame": 6640,
+    "endFrame": 6648,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "hyperscale",
+    "start": 221.59,
+    "end": 222.25,
+    "startFrame": 6648,
+    "endFrame": 6668,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "deployments.",
+    "start": 222.25,
+    "end": 222.83,
+    "startFrame": 6668,
+    "endFrame": 6685,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "While",
+    "start": 223.87,
+    "end": 224.17,
+    "startFrame": 6716,
+    "endFrame": 6725,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "state",
+    "start": 224.17,
+    "end": 224.45,
+    "startFrame": 6725,
+    "endFrame": 6734,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "leadership",
+    "start": 224.45,
+    "end": 224.89,
+    "startFrame": 6734,
+    "endFrame": 6747,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "promotes",
+    "start": 224.89,
+    "end": 225.35,
+    "startFrame": 6747,
+    "endFrame": 6761,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "the",
+    "start": 225.35,
+    "end": 225.63,
+    "startFrame": 6761,
+    "endFrame": 6769,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "hub",
+    "start": 225.63,
+    "end": 225.87,
+    "startFrame": 6769,
+    "endFrame": 6776,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "as",
+    "start": 225.87,
+    "end": 226.07,
+    "startFrame": 6776,
+    "endFrame": 6782,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "a",
+    "start": 226.07,
+    "end": 226.17,
+    "startFrame": 6782,
+    "endFrame": 6785,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "major",
+    "start": 226.17,
+    "end": 226.45,
+    "startFrame": 6785,
+    "endFrame": 6794,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "economic",
+    "start": 226.45,
+    "end": 226.75,
+    "startFrame": 6794,
+    "endFrame": 6803,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "transformation,",
+    "start": 226.75,
+    "end": 227.45,
+    "startFrame": 6803,
+    "endFrame": 6824,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "local",
+    "start": 228.07,
+    "end": 228.29,
+    "startFrame": 6842,
+    "endFrame": 6849,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "communities",
+    "start": 228.29,
+    "end": 228.71,
+    "startFrame": 6849,
+    "endFrame": 6861,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "and",
+    "start": 228.71,
+    "end": 229.25,
+    "startFrame": 6861,
+    "endFrame": 6878,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "environmental",
+    "start": 229.25,
+    "end": 229.61,
+    "startFrame": 6878,
+    "endFrame": 6888,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "experts",
+    "start": 229.61,
+    "end": 230.13,
+    "startFrame": 6888,
+    "endFrame": 6904,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "cite",
+    "start": 230.13,
+    "end": 230.59,
+    "startFrame": 6904,
+    "endFrame": 6918,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "intensifying",
+    "start": 230.59,
+    "end": 231.27,
+    "startFrame": 6918,
+    "endFrame": 6938,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "grid",
+    "start": 231.27,
+    "end": 231.57,
+    "startFrame": 6938,
+    "endFrame": 6947,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "strain,",
+    "start": 231.57,
+    "end": 231.95,
+    "startFrame": 6947,
+    "endFrame": 6959,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "water",
+    "start": 232.33,
+    "end": 232.63,
+    "startFrame": 6970,
+    "endFrame": 6979,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "consumption,",
+    "start": 232.63,
+    "end": 232.99,
+    "startFrame": 6979,
+    "endFrame": 6990,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "and",
+    "start": 233.53,
+    "end": 233.69,
+    "startFrame": 7006,
+    "endFrame": 7011,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "the",
+    "start": 233.69,
+    "end": 233.79,
+    "startFrame": 7011,
+    "endFrame": 7014,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "expanding",
+    "start": 233.79,
+    "end": 234.11,
+    "startFrame": 7014,
+    "endFrame": 7023,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "global",
+    "start": 234.11,
+    "end": 234.49,
+    "startFrame": 7023,
+    "endFrame": 7035,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "footprint",
+    "start": 234.49,
+    "end": 234.89,
+    "startFrame": 7035,
+    "endFrame": 7047,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "of",
+    "start": 234.89,
+    "end": 235.17,
+    "startFrame": 7047,
+    "endFrame": 7055,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "high",
+    "start": 235.17,
+    "end": 235.31,
+    "startFrame": 7055,
+    "endFrame": 7059,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "-density",
+    "start": 235.31,
+    "end": 235.57,
+    "startFrame": 7059,
+    "endFrame": 7067,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "artificial",
+    "start": 235.57,
+    "end": 236.17,
+    "startFrame": 7067,
+    "endFrame": 7085,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "intelligence",
+    "start": 236.17,
+    "end": 236.43,
+    "startFrame": 7085,
+    "endFrame": 7093,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "infrastructure.",
+    "start": 236.43,
+    "end": 237.37,
+    "startFrame": 7093,
+    "endFrame": 7121,
+    "sceneId": "s7_rural_queenslanders_confront_725"
+  },
+  {
+    "word": "Turning",
+    "start": 241.81,
+    "end": 242.19,
+    "startFrame": 7254,
+    "endFrame": 7266,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "to",
+    "start": 242.19,
+    "end": 242.41,
+    "startFrame": 7266,
+    "endFrame": 7272,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "the",
+    "start": 242.41,
+    "end": 242.51,
+    "startFrame": 7272,
+    "endFrame": 7275,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "United",
+    "start": 242.51,
+    "end": 242.79,
+    "startFrame": 7275,
+    "endFrame": 7284,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "States,",
+    "start": 242.79,
+    "end": 243.21,
+    "startFrame": 7284,
+    "endFrame": 7296,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "former",
+    "start": 243.69,
+    "end": 243.89,
+    "startFrame": 7311,
+    "endFrame": 7317,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "New",
+    "start": 243.89,
+    "end": 244.19,
+    "startFrame": 7317,
+    "endFrame": 7326,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "Jersey",
+    "start": 244.19,
+    "end": 244.55,
+    "startFrame": 7326,
+    "endFrame": 7337,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "lieutenant",
+    "start": 244.55,
+    "end": 244.87,
+    "startFrame": 7337,
+    "endFrame": 7346,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "-governor",
+    "start": 244.87,
+    "end": 245.53,
+    "startFrame": 7346,
+    "endFrame": 7366,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "Tahisha",
+    "start": 245.53,
+    "end": 245.91,
+    "startFrame": 7366,
+    "endFrame": 7377,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "Way",
+    "start": 245.91,
+    "end": 246.21,
+    "startFrame": 7377,
+    "endFrame": 7386,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "and",
+    "start": 246.21,
+    "end": 246.45,
+    "startFrame": 7386,
+    "endFrame": 7394,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "associated",
+    "start": 246.45,
+    "end": 246.93,
+    "startFrame": 7394,
+    "endFrame": 7408,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "officials",
+    "start": 246.93,
+    "end": 247.43,
+    "startFrame": 7408,
+    "endFrame": 7423,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "addressed",
+    "start": 247.43,
+    "end": 247.87,
+    "startFrame": 7423,
+    "endFrame": 7436,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "ongoing",
+    "start": 247.87,
+    "end": 248.27,
+    "startFrame": 7436,
+    "endFrame": 7448,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "investigations.",
+    "start": 248.27,
+    "end": 249.21,
+    "startFrame": 7448,
+    "endFrame": 7476,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "With",
+    "start": 249.95,
+    "end": 250.03,
+    "startFrame": 7499,
+    "endFrame": 7501,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "former",
+    "start": 250.03,
+    "end": 250.31,
+    "startFrame": 7501,
+    "endFrame": 7509,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "administration",
+    "start": 250.31,
+    "end": 250.85,
+    "startFrame": 7509,
+    "endFrame": 7526,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "figure",
+    "start": 250.85,
+    "end": 251.51,
+    "startFrame": 7526,
+    "endFrame": 7545,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "Caldwell",
+    "start": 251.51,
+    "end": 251.83,
+    "startFrame": 7545,
+    "endFrame": 7555,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "publicly",
+    "start": 251.83,
+    "end": 252.45,
+    "startFrame": 7555,
+    "endFrame": 7574,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "citing",
+    "start": 252.45,
+    "end": 252.85,
+    "startFrame": 7574,
+    "endFrame": 7586,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "prompts",
+    "start": 252.85,
+    "end": 253.21,
+    "startFrame": 7586,
+    "endFrame": 7596,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "submitted",
+    "start": 253.21,
+    "end": 253.75,
+    "startFrame": 7596,
+    "endFrame": 7613,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "to",
+    "start": 253.75,
+    "end": 254.07,
+    "startFrame": 7613,
+    "endFrame": 7622,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "multiple",
+    "start": 254.07,
+    "end": 254.33,
+    "startFrame": 7622,
+    "endFrame": 7630,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "commercial",
+    "start": 254.33,
+    "end": 254.77,
+    "startFrame": 7630,
+    "endFrame": 7643,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "AI",
+    "start": 254.77,
+    "end": 255.19,
+    "startFrame": 7643,
+    "endFrame": 7656,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "platforms",
+    "start": 255.19,
+    "end": 255.79,
+    "startFrame": 7656,
+    "endFrame": 7674,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "as",
+    "start": 255.79,
+    "end": 256.21,
+    "startFrame": 7674,
+    "endFrame": 7686,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "evidence",
+    "start": 256.21,
+    "end": 256.55,
+    "startFrame": 7686,
+    "endFrame": 7696,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "to",
+    "start": 256.55,
+    "end": 256.91,
+    "startFrame": 7696,
+    "endFrame": 7707,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "contest",
+    "start": 256.91,
+    "end": 257.11,
+    "startFrame": 7707,
+    "endFrame": 7713,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "investigative",
+    "start": 257.11,
+    "end": 257.85,
+    "startFrame": 7713,
+    "endFrame": 7736,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "findings.",
+    "start": 257.85,
+    "end": 258.69,
+    "startFrame": 7736,
+    "endFrame": 7761,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "Legal",
+    "start": 259.19,
+    "end": 259.97,
+    "startFrame": 7776,
+    "endFrame": 7799,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "and",
+    "start": 259.97,
+    "end": 260.15,
+    "startFrame": 7799,
+    "endFrame": 7805,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "technology",
+    "start": 260.15,
+    "end": 260.55,
+    "startFrame": 7805,
+    "endFrame": 7816,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "ethics",
+    "start": 260.55,
+    "end": 261.07,
+    "startFrame": 7816,
+    "endFrame": 7832,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "experts",
+    "start": 261.07,
+    "end": 261.71,
+    "startFrame": 7832,
+    "endFrame": 7851,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "cited",
+    "start": 261.71,
+    "end": 262.09,
+    "startFrame": 7851,
+    "endFrame": 7863,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "the",
+    "start": 262.09,
+    "end": 262.31,
+    "startFrame": 7863,
+    "endFrame": 7869,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "incident",
+    "start": 262.31,
+    "end": 262.55,
+    "startFrame": 7869,
+    "endFrame": 7876,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "as",
+    "start": 262.55,
+    "end": 262.95,
+    "startFrame": 7876,
+    "endFrame": 7889,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "a",
+    "start": 262.95,
+    "end": 263.03,
+    "startFrame": 7889,
+    "endFrame": 7891,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "prime",
+    "start": 263.03,
+    "end": 263.27,
+    "startFrame": 7891,
+    "endFrame": 7898,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "demonstration",
+    "start": 263.27,
+    "end": 263.73,
+    "startFrame": 7898,
+    "endFrame": 7912,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "of",
+    "start": 263.73,
+    "end": 264.25,
+    "startFrame": 7912,
+    "endFrame": 7928,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "the",
+    "start": 264.25,
+    "end": 264.35,
+    "startFrame": 7928,
+    "endFrame": 7931,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "risks",
+    "start": 264.35,
+    "end": 264.67,
+    "startFrame": 7931,
+    "endFrame": 7940,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "in",
+    "start": 264.67,
+    "end": 264.97,
+    "startFrame": 7940,
+    "endFrame": 7949,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "treating",
+    "start": 264.97,
+    "end": 265.23,
+    "startFrame": 7949,
+    "endFrame": 7957,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "commercial",
+    "start": 265.23,
+    "end": 265.61,
+    "startFrame": 7957,
+    "endFrame": 7968,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "model",
+    "start": 265.61,
+    "end": 266.05,
+    "startFrame": 7968,
+    "endFrame": 7982,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "outputs",
+    "start": 266.05,
+    "end": 266.57,
+    "startFrame": 7982,
+    "endFrame": 7997,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "as",
+    "start": 266.57,
+    "end": 266.87,
+    "startFrame": 7997,
+    "endFrame": 8006,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "authoritative",
+    "start": 266.87,
+    "end": 267.25,
+    "startFrame": 8006,
+    "endFrame": 8018,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "legal",
+    "start": 267.25,
+    "end": 267.75,
+    "startFrame": 8018,
+    "endFrame": 8033,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "determinations.",
+    "start": 267.75,
+    "end": 268.61,
+    "startFrame": 8033,
+    "endFrame": 8058,
+    "sceneId": "s8_new_jersey_former_lieutenant_gov"
+  },
+  {
+    "word": "Turning",
+    "start": 272.99,
+    "end": 273.31,
+    "startFrame": 8190,
+    "endFrame": 8199,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "to",
+    "start": 273.31,
+    "end": 273.53,
+    "startFrame": 8199,
+    "endFrame": 8206,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "India,",
+    "start": 273.53,
+    "end": 273.87,
+    "startFrame": 8206,
+    "endFrame": 8216,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "technology",
+    "start": 274.21,
+    "end": 274.73,
+    "startFrame": 8226,
+    "endFrame": 8242,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "policy",
+    "start": 274.73,
+    "end": 275.07,
+    "startFrame": 8242,
+    "endFrame": 8252,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "specialists",
+    "start": 275.07,
+    "end": 275.77,
+    "startFrame": 8252,
+    "endFrame": 8273,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "and",
+    "start": 275.77,
+    "end": 276.17,
+    "startFrame": 8273,
+    "endFrame": 8285,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "industry",
+    "start": 276.17,
+    "end": 276.45,
+    "startFrame": 8285,
+    "endFrame": 8294,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "leaders",
+    "start": 276.45,
+    "end": 276.97,
+    "startFrame": 8294,
+    "endFrame": 8309,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "in",
+    "start": 276.97,
+    "end": 277.17,
+    "startFrame": 8309,
+    "endFrame": 8315,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "New",
+    "start": 277.17,
+    "end": 277.31,
+    "startFrame": 8315,
+    "endFrame": 8319,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "Delhi",
+    "start": 277.31,
+    "end": 277.61,
+    "startFrame": 8319,
+    "endFrame": 8328,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "called",
+    "start": 277.61,
+    "end": 277.91,
+    "startFrame": 8328,
+    "endFrame": 8337,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "for",
+    "start": 277.91,
+    "end": 278.11,
+    "startFrame": 8337,
+    "endFrame": 8343,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "India",
+    "start": 278.11,
+    "end": 278.43,
+    "startFrame": 8343,
+    "endFrame": 8353,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "to",
+    "start": 278.43,
+    "end": 278.71,
+    "startFrame": 8353,
+    "endFrame": 8361,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "establish",
+    "start": 278.71,
+    "end": 279.11,
+    "startFrame": 8361,
+    "endFrame": 8373,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "an",
+    "start": 279.11,
+    "end": 279.39,
+    "startFrame": 8373,
+    "endFrame": 8382,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "independent,",
+    "start": 279.39,
+    "end": 279.79,
+    "startFrame": 8382,
+    "endFrame": 8394,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "sovereign",
+    "start": 280.29,
+    "end": 280.59,
+    "startFrame": 8409,
+    "endFrame": 8418,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "artificial",
+    "start": 280.59,
+    "end": 281.05,
+    "startFrame": 8418,
+    "endFrame": 8432,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "intelligence",
+    "start": 281.05,
+    "end": 281.41,
+    "startFrame": 8432,
+    "endFrame": 8442,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "safety",
+    "start": 281.41,
+    "end": 282.07,
+    "startFrame": 8442,
+    "endFrame": 8462,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "architecture",
+    "start": 282.07,
+    "end": 282.59,
+    "startFrame": 8462,
+    "endFrame": 8478,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "tailored",
+    "start": 282.59,
+    "end": 283.11,
+    "startFrame": 8478,
+    "endFrame": 8493,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "to",
+    "start": 283.11,
+    "end": 283.37,
+    "startFrame": 8493,
+    "endFrame": 8501,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "local",
+    "start": 283.37,
+    "end": 283.53,
+    "startFrame": 8501,
+    "endFrame": 8506,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "languages",
+    "start": 283.53,
+    "end": 283.99,
+    "startFrame": 8506,
+    "endFrame": 8520,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "and",
+    "start": 283.99,
+    "end": 284.37,
+    "startFrame": 8520,
+    "endFrame": 8531,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "societal",
+    "start": 284.37,
+    "end": 284.69,
+    "startFrame": 8531,
+    "endFrame": 8541,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "applications",
+    "start": 284.69,
+    "end": 285.29,
+    "startFrame": 8541,
+    "endFrame": 8559,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "rather",
+    "start": 285.29,
+    "end": 285.87,
+    "startFrame": 8559,
+    "endFrame": 8576,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "than",
+    "start": 285.87,
+    "end": 286.15,
+    "startFrame": 8576,
+    "endFrame": 8585,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "replicating",
+    "start": 286.15,
+    "end": 287.21,
+    "startFrame": 8585,
+    "endFrame": 8616,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "voluntary",
+    "start": 287.21,
+    "end": 287.21,
+    "startFrame": 8616,
+    "endFrame": 8616,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "Western",
+    "start": 287.21,
+    "end": 287.57,
+    "startFrame": 8616,
+    "endFrame": 8627,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "corporate",
+    "start": 287.57,
+    "end": 287.95,
+    "startFrame": 8627,
+    "endFrame": 8638,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "agreements.",
+    "start": 287.95,
+    "end": 288.45,
+    "startFrame": 8638,
+    "endFrame": 8654,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "The",
+    "start": 288.45,
+    "end": 289.71,
+    "startFrame": 8654,
+    "endFrame": 8691,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "recommendations",
+    "start": 289.71,
+    "end": 290.09,
+    "startFrame": 8691,
+    "endFrame": 8703,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "emphasize",
+    "start": 290.09,
+    "end": 290.87,
+    "startFrame": 8703,
+    "endFrame": 8726,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "public",
+    "start": 290.87,
+    "end": 291.33,
+    "startFrame": 8726,
+    "endFrame": 8740,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "compute",
+    "start": 291.33,
+    "end": 291.79,
+    "startFrame": 8740,
+    "endFrame": 8754,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "accessibility",
+    "start": 291.79,
+    "end": 292.21,
+    "startFrame": 8754,
+    "endFrame": 8766,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "through",
+    "start": 292.21,
+    "end": 292.89,
+    "startFrame": 8766,
+    "endFrame": 8787,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "the",
+    "start": 292.89,
+    "end": 293.05,
+    "startFrame": 8787,
+    "endFrame": 8792,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "Indiai",
+    "start": 293.05,
+    "end": 293.59,
+    "startFrame": 8792,
+    "endFrame": 8808,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "mission,",
+    "start": 293.59,
+    "end": 293.93,
+    "startFrame": 8808,
+    "endFrame": 8818,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "domestic",
+    "start": 294.21,
+    "end": 294.39,
+    "startFrame": 8826,
+    "endFrame": 8832,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "benchmarking",
+    "start": 294.39,
+    "end": 295.35,
+    "startFrame": 8832,
+    "endFrame": 8860,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "standards,",
+    "start": 295.35,
+    "end": 295.69,
+    "startFrame": 8860,
+    "endFrame": 8871,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "and",
+    "start": 296.23,
+    "end": 296.35,
+    "startFrame": 8887,
+    "endFrame": 8890,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "institutional",
+    "start": 296.35,
+    "end": 296.71,
+    "startFrame": 8890,
+    "endFrame": 8901,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "frameworks",
+    "start": 296.71,
+    "end": 297.33,
+    "startFrame": 8901,
+    "endFrame": 8920,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "aligned",
+    "start": 297.33,
+    "end": 297.77,
+    "startFrame": 8920,
+    "endFrame": 8933,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "with",
+    "start": 297.77,
+    "end": 298.13,
+    "startFrame": 8933,
+    "endFrame": 8944,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "the",
+    "start": 298.13,
+    "end": 298.23,
+    "startFrame": 8944,
+    "endFrame": 8947,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "country's",
+    "start": 298.23,
+    "end": 298.67,
+    "startFrame": 8947,
+    "endFrame": 8960,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "expanding",
+    "start": 298.67,
+    "end": 299.05,
+    "startFrame": 8960,
+    "endFrame": 8972,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "digital",
+    "start": 299.05,
+    "end": 299.47,
+    "startFrame": 8972,
+    "endFrame": 8984,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "public",
+    "start": 299.47,
+    "end": 299.77,
+    "startFrame": 8984,
+    "endFrame": 8993,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "infrastructure.",
+    "start": 299.77,
+    "end": 300.57,
+    "startFrame": 8993,
+    "endFrame": 9017,
+    "sceneId": "s9_indian_industry_leaders_urge_sov"
+  },
+  {
+    "word": "To",
+    "start": 302.82,
+    "end": 303.08,
+    "startFrame": 9085,
+    "endFrame": 9092,
+    "sceneId": "recap"
+  },
+  {
+    "word": "recap",
+    "start": 303.08,
+    "end": 303.38,
+    "startFrame": 9092,
+    "endFrame": 9101,
+    "sceneId": "recap"
+  },
+  {
+    "word": "today's",
+    "start": 303.38,
+    "end": 303.98,
+    "startFrame": 9101,
+    "endFrame": 9119,
+    "sceneId": "recap"
+  },
+  {
+    "word": "headlines,",
+    "start": 303.98,
+    "end": 304.36,
+    "startFrame": 9119,
+    "endFrame": 9131,
+    "sceneId": "recap"
+  },
+  {
+    "word": "North",
+    "start": 304.86,
+    "end": 305.12,
+    "startFrame": 9146,
+    "endFrame": 9154,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Korea",
+    "start": 305.12,
+    "end": 305.38,
+    "startFrame": 9154,
+    "endFrame": 9161,
+    "sceneId": "recap"
+  },
+  {
+    "word": "fires",
+    "start": 305.38,
+    "end": 305.88,
+    "startFrame": 9161,
+    "endFrame": 9176,
+    "sceneId": "recap"
+  },
+  {
+    "word": "ballistic",
+    "start": 305.88,
+    "end": 306.28,
+    "startFrame": 9176,
+    "endFrame": 9188,
+    "sceneId": "recap"
+  },
+  {
+    "word": "missile",
+    "start": 306.28,
+    "end": 306.8,
+    "startFrame": 9188,
+    "endFrame": 9204,
+    "sceneId": "recap"
+  },
+  {
+    "word": "claiming",
+    "start": 306.8,
+    "end": 307.08,
+    "startFrame": 9204,
+    "endFrame": 9212,
+    "sceneId": "recap"
+  },
+  {
+    "word": "evasive",
+    "start": 307.08,
+    "end": 307.64,
+    "startFrame": 9212,
+    "endFrame": 9229,
+    "sceneId": "recap"
+  },
+  {
+    "word": "flight",
+    "start": 307.64,
+    "end": 307.94,
+    "startFrame": 9229,
+    "endFrame": 9238,
+    "sceneId": "recap"
+  },
+  {
+    "word": "path",
+    "start": 307.94,
+    "end": 308.28,
+    "startFrame": 9238,
+    "endFrame": 9248,
+    "sceneId": "recap"
+  },
+  {
+    "word": "with",
+    "start": 308.28,
+    "end": 308.54,
+    "startFrame": 9248,
+    "endFrame": 9256,
+    "sceneId": "recap"
+  },
+  {
+    "word": "AI",
+    "start": 308.54,
+    "end": 308.78,
+    "startFrame": 9256,
+    "endFrame": 9263,
+    "sceneId": "recap"
+  },
+  {
+    "word": "guidance,",
+    "start": 308.78,
+    "end": 309.38,
+    "startFrame": 9263,
+    "endFrame": 9281,
+    "sceneId": "recap"
+  },
+  {
+    "word": "White",
+    "start": 309.78,
+    "end": 310.04,
+    "startFrame": 9293,
+    "endFrame": 9301,
+    "sceneId": "recap"
+  },
+  {
+    "word": "House",
+    "start": 310.04,
+    "end": 310.3,
+    "startFrame": 9301,
+    "endFrame": 9309,
+    "sceneId": "recap"
+  },
+  {
+    "word": "launches",
+    "start": 310.3,
+    "end": 310.8,
+    "startFrame": 9309,
+    "endFrame": 9324,
+    "sceneId": "recap"
+  },
+  {
+    "word": "super",
+    "start": 310.8,
+    "end": 311.26,
+    "startFrame": 9324,
+    "endFrame": 9338,
+    "sceneId": "recap"
+  },
+  {
+    "word": "intelligence",
+    "start": 311.26,
+    "end": 311.68,
+    "startFrame": 9338,
+    "endFrame": 9350,
+    "sceneId": "recap"
+  },
+  {
+    "word": "force",
+    "start": 311.68,
+    "end": 312.36,
+    "startFrame": 9350,
+    "endFrame": 9371,
+    "sceneId": "recap"
+  },
+  {
+    "word": "led",
+    "start": 312.36,
+    "end": 312.8,
+    "startFrame": 9371,
+    "endFrame": 9384,
+    "sceneId": "recap"
+  },
+  {
+    "word": "by",
+    "start": 312.8,
+    "end": 313.06,
+    "startFrame": 9384,
+    "endFrame": 9392,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Jay",
+    "start": 313.06,
+    "end": 313.3,
+    "startFrame": 9392,
+    "endFrame": 9399,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Clayton",
+    "start": 313.3,
+    "end": 313.66,
+    "startFrame": 9399,
+    "endFrame": 9410,
+    "sceneId": "recap"
+  },
+  {
+    "word": "as",
+    "start": 313.66,
+    "end": 313.94,
+    "startFrame": 9410,
+    "endFrame": 9418,
+    "sceneId": "recap"
+  },
+  {
+    "word": "labs",
+    "start": 313.94,
+    "end": 314.14,
+    "startFrame": 9418,
+    "endFrame": 9424,
+    "sceneId": "recap"
+  },
+  {
+    "word": "debate",
+    "start": 314.14,
+    "end": 314.48,
+    "startFrame": 9424,
+    "endFrame": 9434,
+    "sceneId": "recap"
+  },
+  {
+    "word": "AI",
+    "start": 314.48,
+    "end": 314.96,
+    "startFrame": 9434,
+    "endFrame": 9449,
+    "sceneId": "recap"
+  },
+  {
+    "word": "doctrine,",
+    "start": 314.96,
+    "end": 315.52,
+    "startFrame": 9449,
+    "endFrame": 9466,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Google",
+    "start": 315.86,
+    "end": 316.12,
+    "startFrame": 9476,
+    "endFrame": 9484,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Cloud",
+    "start": 316.12,
+    "end": 316.52,
+    "startFrame": 9484,
+    "endFrame": 9496,
+    "sceneId": "recap"
+  },
+  {
+    "word": "AI",
+    "start": 316.52,
+    "end": 316.88,
+    "startFrame": 9496,
+    "endFrame": 9506,
+    "sceneId": "recap"
+  },
+  {
+    "word": "researchers",
+    "start": 316.88,
+    "end": 317.4,
+    "startFrame": 9506,
+    "endFrame": 9522,
+    "sceneId": "recap"
+  },
+  {
+    "word": "introduce",
+    "start": 317.4,
+    "end": 318.0,
+    "startFrame": 9522,
+    "endFrame": 9540,
+    "sceneId": "recap"
+  },
+  {
+    "word": "RSI",
+    "start": 318.0,
+    "end": 318.66,
+    "startFrame": 9540,
+    "endFrame": 9560,
+    "sceneId": "recap"
+  },
+  {
+    "word": "to",
+    "start": 318.66,
+    "end": 318.92,
+    "startFrame": 9560,
+    "endFrame": 9568,
+    "sceneId": "recap"
+  },
+  {
+    "word": "prevent",
+    "start": 318.92,
+    "end": 319.16,
+    "startFrame": 9568,
+    "endFrame": 9575,
+    "sceneId": "recap"
+  },
+  {
+    "word": "self",
+    "start": 319.16,
+    "end": 319.48,
+    "startFrame": 9575,
+    "endFrame": 9584,
+    "sceneId": "recap"
+  },
+  {
+    "word": "improving",
+    "start": 319.48,
+    "end": 319.72,
+    "startFrame": 9584,
+    "endFrame": 9592,
+    "sceneId": "recap"
+  },
+  {
+    "word": "agents",
+    "start": 319.72,
+    "end": 320.28,
+    "startFrame": 9592,
+    "endFrame": 9608,
+    "sceneId": "recap"
+  },
+  {
+    "word": "from",
+    "start": 320.28,
+    "end": 320.56,
+    "startFrame": 9608,
+    "endFrame": 9617,
+    "sceneId": "recap"
+  },
+  {
+    "word": "memorizing",
+    "start": 320.56,
+    "end": 321.14,
+    "startFrame": 9617,
+    "endFrame": 9634,
+    "sceneId": "recap"
+  },
+  {
+    "word": "benchmarks,",
+    "start": 321.14,
+    "end": 321.64,
+    "startFrame": 9634,
+    "endFrame": 9649,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Tencent,",
+    "start": 322.1,
+    "end": 322.62,
+    "startFrame": 9663,
+    "endFrame": 9679,
+    "sceneId": "recap"
+  },
+  {
+    "word": "ByteDance,",
+    "start": 322.98,
+    "end": 323.46,
+    "startFrame": 9689,
+    "endFrame": 9704,
+    "sceneId": "recap"
+  },
+  {
+    "word": "and",
+    "start": 324.04,
+    "end": 324.1,
+    "startFrame": 9721,
+    "endFrame": 9723,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Alibaba",
+    "start": 324.1,
+    "end": 324.4,
+    "startFrame": 9723,
+    "endFrame": 9732,
+    "sceneId": "recap"
+  },
+  {
+    "word": "accelerate",
+    "start": 324.4,
+    "end": 325.06,
+    "startFrame": 9732,
+    "endFrame": 9752,
+    "sceneId": "recap"
+  },
+  {
+    "word": "rollout",
+    "start": 325.06,
+    "end": 325.68,
+    "startFrame": 9752,
+    "endFrame": 9770,
+    "sceneId": "recap"
+  },
+  {
+    "word": "of",
+    "start": 325.68,
+    "end": 325.94,
+    "startFrame": 9770,
+    "endFrame": 9778,
+    "sceneId": "recap"
+  },
+  {
+    "word": "persistent",
+    "start": 325.94,
+    "end": 326.18,
+    "startFrame": 9778,
+    "endFrame": 9785,
+    "sceneId": "recap"
+  },
+  {
+    "word": "personal",
+    "start": 326.18,
+    "end": 326.7,
+    "startFrame": 9785,
+    "endFrame": 9801,
+    "sceneId": "recap"
+  },
+  {
+    "word": "AI",
+    "start": 326.7,
+    "end": 327.08,
+    "startFrame": 9801,
+    "endFrame": 9812,
+    "sceneId": "recap"
+  },
+  {
+    "word": "agents",
+    "start": 327.08,
+    "end": 327.62,
+    "startFrame": 9812,
+    "endFrame": 9829,
+    "sceneId": "recap"
+  },
+  {
+    "word": "across",
+    "start": 327.62,
+    "end": 327.96,
+    "startFrame": 9829,
+    "endFrame": 9839,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Chinese",
+    "start": 327.96,
+    "end": 328.46,
+    "startFrame": 9839,
+    "endFrame": 9854,
+    "sceneId": "recap"
+  },
+  {
+    "word": "consumer",
+    "start": 328.46,
+    "end": 329.0,
+    "startFrame": 9854,
+    "endFrame": 9870,
+    "sceneId": "recap"
+  },
+  {
+    "word": "ecosystems,",
+    "start": 329.0,
+    "end": 329.5,
+    "startFrame": 9870,
+    "endFrame": 9885,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Singapore",
+    "start": 330.56,
+    "end": 330.58,
+    "startFrame": 9917,
+    "endFrame": 9917,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Digital",
+    "start": 330.58,
+    "end": 331.02,
+    "startFrame": 9917,
+    "endFrame": 9931,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Minister",
+    "start": 331.02,
+    "end": 331.34,
+    "startFrame": 9931,
+    "endFrame": 9940,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Josephine",
+    "start": 331.34,
+    "end": 332.12,
+    "startFrame": 9940,
+    "endFrame": 9964,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Teo",
+    "start": 332.12,
+    "end": 332.5,
+    "startFrame": 9964,
+    "endFrame": 9975,
+    "sceneId": "recap"
+  },
+  {
+    "word": "advocate",
+    "start": 332.5,
+    "end": 332.98,
+    "startFrame": 9975,
+    "endFrame": 9989,
+    "sceneId": "recap"
+  },
+  {
+    "word": "stronger",
+    "start": 332.98,
+    "end": 333.32,
+    "startFrame": 9989,
+    "endFrame": 10000,
+    "sceneId": "recap"
+  },
+  {
+    "word": "breaks,",
+    "start": 333.32,
+    "end": 333.88,
+    "startFrame": 10000,
+    "endFrame": 10016,
+    "sceneId": "recap"
+  },
+  {
+    "word": "and",
+    "start": 334.24,
+    "end": 335.04,
+    "startFrame": 10027,
+    "endFrame": 10051,
+    "sceneId": "recap"
+  },
+  {
+    "word": "multi",
+    "start": 335.04,
+    "end": 335.3,
+    "startFrame": 10051,
+    "endFrame": 10059,
+    "sceneId": "recap"
+  },
+  {
+    "word": "-layer",
+    "start": 335.3,
+    "end": 335.68,
+    "startFrame": 10059,
+    "endFrame": 10070,
+    "sceneId": "recap"
+  },
+  {
+    "word": "guardrails",
+    "start": 335.68,
+    "end": 336.3,
+    "startFrame": 10070,
+    "endFrame": 10089,
+    "sceneId": "recap"
+  },
+  {
+    "word": "for",
+    "start": 336.3,
+    "end": 336.44,
+    "startFrame": 10089,
+    "endFrame": 10093,
+    "sceneId": "recap"
+  },
+  {
+    "word": "agentic",
+    "start": 336.44,
+    "end": 336.92,
+    "startFrame": 10093,
+    "endFrame": 10108,
+    "sceneId": "recap"
+  },
+  {
+    "word": "systems,",
+    "start": 336.92,
+    "end": 337.4,
+    "startFrame": 10108,
+    "endFrame": 10122,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Govahadhi's",
+    "start": 337.76,
+    "end": 338.42,
+    "startFrame": 10133,
+    "endFrame": 10153,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Navdhi",
+    "start": 338.42,
+    "end": 338.84,
+    "startFrame": 10153,
+    "endFrame": 10165,
+    "sceneId": "recap"
+  },
+  {
+    "word": "at",
+    "start": 338.84,
+    "end": 338.94,
+    "startFrame": 10165,
+    "endFrame": 10168,
+    "sceneId": "recap"
+  },
+  {
+    "word": "AI",
+    "start": 338.94,
+    "end": 339.18,
+    "startFrame": 10168,
+    "endFrame": 10175,
+    "sceneId": "recap"
+  },
+  {
+    "word": "Labs",
+    "start": 339.18,
+    "end": 339.8,
+    "startFrame": 10175,
+    "endFrame": 10194,
+    "sceneId": "recap"
+  },
+  {
+    "word": "OpenDash",
+    "start": 339.8,
+    "end": 340.34,
+    "startFrame": 10194,
+    "endFrame": 10210,
+    "sceneId": "recap"
+  },
+  {
+    "word": "On",
+    "start": 342.76,
+    "end": 343.06,
+    "startFrame": 10283,
+    "endFrame": 10292,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "the",
+    "start": 343.06,
+    "end": 343.16,
+    "startFrame": 10292,
+    "endFrame": 10295,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "desk",
+    "start": 343.16,
+    "end": 343.36,
+    "startFrame": 10295,
+    "endFrame": 10301,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "today,",
+    "start": 343.36,
+    "end": 343.76,
+    "startFrame": 10301,
+    "endFrame": 10313,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "North",
+    "start": 344.06,
+    "end": 344.32,
+    "startFrame": 10322,
+    "endFrame": 10330,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Korea",
+    "start": 344.32,
+    "end": 344.56,
+    "startFrame": 10330,
+    "endFrame": 10337,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "fires",
+    "start": 344.56,
+    "end": 345.12,
+    "startFrame": 10337,
+    "endFrame": 10354,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "ballistic",
+    "start": 345.12,
+    "end": 345.46,
+    "startFrame": 10354,
+    "endFrame": 10364,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "missile",
+    "start": 345.46,
+    "end": 345.88,
+    "startFrame": 10364,
+    "endFrame": 10376,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "claiming",
+    "start": 345.88,
+    "end": 346.38,
+    "startFrame": 10376,
+    "endFrame": 10391,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "evasive",
+    "start": 346.38,
+    "end": 346.88,
+    "startFrame": 10391,
+    "endFrame": 10406,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "flight",
+    "start": 346.88,
+    "end": 347.16,
+    "startFrame": 10406,
+    "endFrame": 10415,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "path",
+    "start": 347.16,
+    "end": 347.5,
+    "startFrame": 10415,
+    "endFrame": 10425,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "with",
+    "start": 347.5,
+    "end": 347.76,
+    "startFrame": 10425,
+    "endFrame": 10433,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "A",
+    "start": 347.76,
+    "end": 347.98,
+    "startFrame": 10433,
+    "endFrame": 10439,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": ".I.",
+    "start": 347.98,
+    "end": 348.16,
+    "startFrame": 10439,
+    "endFrame": 10445,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "guidance.",
+    "start": 348.32,
+    "end": 348.52,
+    "startFrame": 10450,
+    "endFrame": 10456,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "White",
+    "start": 349.56,
+    "end": 349.88,
+    "startFrame": 10487,
+    "endFrame": 10496,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "House",
+    "start": 349.88,
+    "end": 350.14,
+    "startFrame": 10496,
+    "endFrame": 10504,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "launches",
+    "start": 350.14,
+    "end": 350.48,
+    "startFrame": 10504,
+    "endFrame": 10514,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "superintelligence",
+    "start": 350.48,
+    "end": 351.28,
+    "startFrame": 10514,
+    "endFrame": 10538,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "force",
+    "start": 351.28,
+    "end": 351.96,
+    "startFrame": 10538,
+    "endFrame": 10559,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "led",
+    "start": 351.96,
+    "end": 352.3,
+    "startFrame": 10559,
+    "endFrame": 10569,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "by",
+    "start": 352.3,
+    "end": 352.52,
+    "startFrame": 10569,
+    "endFrame": 10576,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "J.",
+    "start": 352.52,
+    "end": 352.72,
+    "startFrame": 10576,
+    "endFrame": 10582,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Clayton",
+    "start": 353.04,
+    "end": 353.04,
+    "startFrame": 10591,
+    "endFrame": 10591,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "as",
+    "start": 353.04,
+    "end": 353.44,
+    "startFrame": 10591,
+    "endFrame": 10603,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "labs",
+    "start": 353.44,
+    "end": 353.62,
+    "startFrame": 10603,
+    "endFrame": 10609,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "debate",
+    "start": 353.62,
+    "end": 353.96,
+    "startFrame": 10609,
+    "endFrame": 10619,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "A",
+    "start": 353.96,
+    "end": 354.28,
+    "startFrame": 10619,
+    "endFrame": 10628,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": ".I.",
+    "start": 354.28,
+    "end": 354.4,
+    "startFrame": 10628,
+    "endFrame": 10632,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "doctrine.",
+    "start": 354.46,
+    "end": 354.74,
+    "startFrame": 10634,
+    "endFrame": 10642,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Google",
+    "start": 355.56,
+    "end": 356.04,
+    "startFrame": 10667,
+    "endFrame": 10681,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Cloud",
+    "start": 356.04,
+    "end": 356.42,
+    "startFrame": 10681,
+    "endFrame": 10693,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "AI",
+    "start": 356.42,
+    "end": 356.76,
+    "startFrame": 10693,
+    "endFrame": 10703,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "researchers",
+    "start": 356.76,
+    "end": 357.34,
+    "startFrame": 10703,
+    "endFrame": 10720,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "introduce",
+    "start": 357.34,
+    "end": 358.02,
+    "startFrame": 10720,
+    "endFrame": 10741,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "RRSI",
+    "start": 358.02,
+    "end": 358.94,
+    "startFrame": 10741,
+    "endFrame": 10768,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "to",
+    "start": 358.94,
+    "end": 359.16,
+    "startFrame": 10768,
+    "endFrame": 10775,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "prevent",
+    "start": 359.16,
+    "end": 359.34,
+    "startFrame": 10775,
+    "endFrame": 10780,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "self",
+    "start": 359.34,
+    "end": 359.78,
+    "startFrame": 10780,
+    "endFrame": 10793,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "-improving",
+    "start": 359.78,
+    "end": 360.22,
+    "startFrame": 10793,
+    "endFrame": 10807,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "agents",
+    "start": 360.22,
+    "end": 360.56,
+    "startFrame": 10807,
+    "endFrame": 10817,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "from",
+    "start": 360.56,
+    "end": 360.94,
+    "startFrame": 10817,
+    "endFrame": 10828,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "memorizing",
+    "start": 360.94,
+    "end": 361.5,
+    "startFrame": 10828,
+    "endFrame": 10845,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "benchmarks.",
+    "start": 361.5,
+    "end": 361.76,
+    "startFrame": 10845,
+    "endFrame": 10853,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Tencent,",
+    "start": 363.06,
+    "end": 363.74,
+    "startFrame": 10892,
+    "endFrame": 10912,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "ByteDance,",
+    "start": 364.1,
+    "end": 364.52,
+    "startFrame": 10923,
+    "endFrame": 10936,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "and",
+    "start": 365.06,
+    "end": 365.1,
+    "startFrame": 10952,
+    "endFrame": 10953,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Alibaba",
+    "start": 365.1,
+    "end": 365.4,
+    "startFrame": 10953,
+    "endFrame": 10962,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "accelerate",
+    "start": 365.4,
+    "end": 366.02,
+    "startFrame": 10962,
+    "endFrame": 10981,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "rollout",
+    "start": 366.02,
+    "end": 366.66,
+    "startFrame": 10981,
+    "endFrame": 11000,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "of",
+    "start": 366.66,
+    "end": 367.0,
+    "startFrame": 11000,
+    "endFrame": 11010,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "persistent",
+    "start": 367.0,
+    "end": 367.32,
+    "startFrame": 11010,
+    "endFrame": 11020,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "personal",
+    "start": 367.32,
+    "end": 367.84,
+    "startFrame": 11020,
+    "endFrame": 11035,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "A",
+    "start": 367.84,
+    "end": 368.26,
+    "startFrame": 11035,
+    "endFrame": 11048,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": ".I.",
+    "start": 368.26,
+    "end": 368.44,
+    "startFrame": 11048,
+    "endFrame": 11053,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "agents",
+    "start": 368.52,
+    "end": 368.82,
+    "startFrame": 11056,
+    "endFrame": 11065,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "across",
+    "start": 368.82,
+    "end": 369.16,
+    "startFrame": 11065,
+    "endFrame": 11075,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Chinese",
+    "start": 369.16,
+    "end": 369.66,
+    "startFrame": 11075,
+    "endFrame": 11090,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "consumer",
+    "start": 369.66,
+    "end": 370.28,
+    "startFrame": 11090,
+    "endFrame": 11108,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "ecosystems.",
+    "start": 370.28,
+    "end": 370.68,
+    "startFrame": 11108,
+    "endFrame": 11120,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Singapore",
+    "start": 371.78,
+    "end": 372.62,
+    "startFrame": 11153,
+    "endFrame": 11179,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Digital",
+    "start": 372.62,
+    "end": 373.04,
+    "startFrame": 11179,
+    "endFrame": 11191,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Minister",
+    "start": 373.04,
+    "end": 373.48,
+    "startFrame": 11191,
+    "endFrame": 11204,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Josephine",
+    "start": 373.48,
+    "end": 374.2,
+    "startFrame": 11204,
+    "endFrame": 11226,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Teo",
+    "start": 374.2,
+    "end": 374.58,
+    "startFrame": 11226,
+    "endFrame": 11237,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "advocates",
+    "start": 374.58,
+    "end": 374.96,
+    "startFrame": 11237,
+    "endFrame": 11249,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "stronger",
+    "start": 374.96,
+    "end": 375.5,
+    "startFrame": 11249,
+    "endFrame": 11265,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "breaks",
+    "start": 375.5,
+    "end": 375.94,
+    "startFrame": 11265,
+    "endFrame": 11278,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "and",
+    "start": 375.94,
+    "end": 376.34,
+    "startFrame": 11278,
+    "endFrame": 11290,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "multi",
+    "start": 376.34,
+    "end": 376.52,
+    "startFrame": 11290,
+    "endFrame": 11296,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "-layer",
+    "start": 376.52,
+    "end": 376.92,
+    "startFrame": 11296,
+    "endFrame": 11308,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "guardrails",
+    "start": 376.92,
+    "end": 377.54,
+    "startFrame": 11308,
+    "endFrame": 11326,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "for",
+    "start": 377.54,
+    "end": 377.7,
+    "startFrame": 11326,
+    "endFrame": 11331,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "agentic",
+    "start": 377.7,
+    "end": 378.22,
+    "startFrame": 11331,
+    "endFrame": 11347,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "systems.",
+    "start": 378.22,
+    "end": 378.64,
+    "startFrame": 11347,
+    "endFrame": 11359,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Guvahadi's",
+    "start": 379.6,
+    "end": 380.44,
+    "startFrame": 11388,
+    "endFrame": 11413,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Navdia",
+    "start": 380.44,
+    "end": 380.92,
+    "startFrame": 11413,
+    "endFrame": 11428,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "A",
+    "start": 380.92,
+    "end": 381.12,
+    "startFrame": 11428,
+    "endFrame": 11434,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": ".I.",
+    "start": 381.12,
+    "end": 381.32,
+    "startFrame": 11434,
+    "endFrame": 11440,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Labs",
+    "start": 381.6,
+    "end": 381.7,
+    "startFrame": 11448,
+    "endFrame": 11451,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Open",
+    "start": 381.7,
+    "end": 382.02,
+    "startFrame": 11451,
+    "endFrame": 11461,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Dash.",
+    "start": 382.02,
+    "end": 382.3,
+    "startFrame": 11461,
+    "endFrame": 11469,
+    "sceneId": "market_snapshot"
+  },
+  {
+    "word": "Those",
+    "start": 384.69,
+    "end": 385.07,
+    "startFrame": 11541,
+    "endFrame": 11552,
+    "sceneId": "outro"
+  },
+  {
+    "word": "were",
+    "start": 385.07,
+    "end": 385.23,
+    "startFrame": 11552,
+    "endFrame": 11557,
+    "sceneId": "outro"
+  },
+  {
+    "word": "today's",
+    "start": 385.23,
+    "end": 385.67,
+    "startFrame": 11557,
+    "endFrame": 11570,
+    "sceneId": "outro"
+  },
+  {
+    "word": "critical",
+    "start": 385.67,
+    "end": 385.85,
+    "startFrame": 11570,
+    "endFrame": 11576,
+    "sceneId": "outro"
+  },
+  {
+    "word": "developments",
+    "start": 385.85,
+    "end": 386.51,
+    "startFrame": 11576,
+    "endFrame": 11595,
+    "sceneId": "outro"
+  },
+  {
+    "word": "across",
+    "start": 386.51,
+    "end": 386.83,
+    "startFrame": 11595,
+    "endFrame": 11605,
+    "sceneId": "outro"
+  },
+  {
+    "word": "global",
+    "start": 386.83,
+    "end": 387.29,
+    "startFrame": 11605,
+    "endFrame": 11619,
+    "sceneId": "outro"
+  },
+  {
+    "word": "artificial",
+    "start": 387.29,
+    "end": 387.77,
+    "startFrame": 11619,
+    "endFrame": 11633,
+    "sceneId": "outro"
+  },
+  {
+    "word": "intelligence.",
+    "start": 387.77,
+    "end": 388.61,
+    "startFrame": 11633,
+    "endFrame": 11658,
+    "sceneId": "outro"
+  },
+  {
+    "word": "From",
+    "start": 389.67,
+    "end": 389.89,
+    "startFrame": 11690,
+    "endFrame": 11697,
+    "sceneId": "outro"
+  },
+  {
+    "word": "our",
+    "start": 389.89,
+    "end": 390.07,
+    "startFrame": 11697,
+    "endFrame": 11702,
+    "sceneId": "outro"
+  },
+  {
+    "word": "Bureau's",
+    "start": 390.07,
+    "end": 390.55,
+    "startFrame": 11702,
+    "endFrame": 11716,
+    "sceneId": "outro"
+  },
+  {
+    "word": "covering",
+    "start": 390.55,
+    "end": 390.83,
+    "startFrame": 11716,
+    "endFrame": 11725,
+    "sceneId": "outro"
+  },
+  {
+    "word": "world,",
+    "start": 390.83,
+    "end": 391.17,
+    "startFrame": 11725,
+    "endFrame": 11735,
+    "sceneId": "outro"
+  },
+  {
+    "word": "USA,",
+    "start": 391.55,
+    "end": 391.85,
+    "startFrame": 11746,
+    "endFrame": 11756,
+    "sceneId": "outro"
+  },
+  {
+    "word": "China,",
+    "start": 392.45,
+    "end": 392.71,
+    "startFrame": 11774,
+    "endFrame": 11781,
+    "sceneId": "outro"
+  },
+  {
+    "word": "Asia,",
+    "start": 393.49,
+    "end": 393.49,
+    "startFrame": 11805,
+    "endFrame": 11805,
+    "sceneId": "outro"
+  },
+  {
+    "word": "and",
+    "start": 393.97,
+    "end": 394.11,
+    "startFrame": 11819,
+    "endFrame": 11823,
+    "sceneId": "outro"
+  },
+  {
+    "word": "India,",
+    "start": 394.11,
+    "end": 394.45,
+    "startFrame": 11823,
+    "endFrame": 11834,
+    "sceneId": "outro"
+  },
+  {
+    "word": "thank",
+    "start": 394.83,
+    "end": 395.01,
+    "startFrame": 11845,
+    "endFrame": 11850,
+    "sceneId": "outro"
+  },
+  {
+    "word": "you",
+    "start": 395.01,
+    "end": 395.23,
+    "startFrame": 11850,
+    "endFrame": 11857,
+    "sceneId": "outro"
+  },
+  {
+    "word": "for",
+    "start": 395.23,
+    "end": 395.37,
+    "startFrame": 11857,
+    "endFrame": 11861,
+    "sceneId": "outro"
+  },
+  {
+    "word": "watching",
+    "start": 395.37,
+    "end": 395.67,
+    "startFrame": 11861,
+    "endFrame": 11870,
+    "sceneId": "outro"
+  },
+  {
+    "word": "San",
+    "start": 395.67,
+    "end": 396.01,
+    "startFrame": 11870,
+    "endFrame": 11880,
+    "sceneId": "outro"
+  },
+  {
+    "word": "Mitra",
+    "start": 396.01,
+    "end": 396.35,
+    "startFrame": 11880,
+    "endFrame": 11890,
+    "sceneId": "outro"
+  },
+  {
+    "word": "AI",
+    "start": 396.35,
+    "end": 396.61,
+    "startFrame": 11890,
+    "endFrame": 11898,
+    "sceneId": "outro"
+  },
+  {
+    "word": "News",
+    "start": 396.61,
+    "end": 397.03,
+    "startFrame": 11898,
+    "endFrame": 11911,
+    "sceneId": "outro"
+  },
+  {
+    "word": "Wire.",
+    "start": 397.03,
+    "end": 397.43,
+    "startFrame": 11911,
+    "endFrame": 11923,
+    "sceneId": "outro"
+  },
+  {
+    "word": "Subscribe",
+    "start": 398.47,
+    "end": 398.83,
+    "startFrame": 11954,
+    "endFrame": 11965,
+    "sceneId": "outro"
+  },
+  {
+    "word": "now",
+    "start": 398.83,
+    "end": 399.33,
+    "startFrame": 11965,
+    "endFrame": 11980,
+    "sceneId": "outro"
+  },
+  {
+    "word": "for",
+    "start": 399.33,
+    "end": 399.59,
+    "startFrame": 11980,
+    "endFrame": 11988,
+    "sceneId": "outro"
+  },
+  {
+    "word": "daily",
+    "start": 399.59,
+    "end": 399.81,
+    "startFrame": 11988,
+    "endFrame": 11994,
+    "sceneId": "outro"
+  },
+  {
+    "word": "institutional",
+    "start": 399.81,
+    "end": 400.23,
+    "startFrame": 11994,
+    "endFrame": 12007,
+    "sceneId": "outro"
+  },
+  {
+    "word": "AI",
+    "start": 400.23,
+    "end": 400.93,
+    "startFrame": 12007,
+    "endFrame": 12028,
+    "sceneId": "outro"
+  },
+  {
+    "word": "intelligence.",
+    "start": 400.93,
+    "end": 401.53,
+    "startFrame": 12028,
+    "endFrame": 12046,
+    "sceneId": "outro"
+  }
+]

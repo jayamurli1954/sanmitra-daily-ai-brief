@@ -54,14 +54,14 @@ VALID_VISUAL_CATEGORIES = {
 
 # Keyword heuristics to auto-classify images into visual categories
 CATEGORY_KEYWORD_MAP = {
-    "datacenter": ["server", "supercomputer", "data center", "datacenter", "cluster", "rack", "fiber", "infrastructure", "cooling"],
-    "boardroom": ["boardroom", "executive", "bilateral", "summit", "conference", "meeting", "negotiation", "table"],
+    "datacenter": ["server", "supercomputer", "data center", "datacenter", "cluster", "rack", "fiber", "infrastructure", "cooling", "dalby", "substation", "grid", "power", "utility"],
+    "boardroom": ["boardroom", "executive", "bilateral", "summit", "conference", "meeting", "negotiation", "table", "headquarters", "tower", "campus", "skyline", "tencent", "alibaba", "openai"],
     "laboratory": ["lab", "laboratory", "cleanroom", "testing", "sandbox", "containment", "experimental", "optics"],
-    "robotics": ["robot", "robotics", "humanoid", "actuator", "arm", "industrial", "autonomous vehicle", "drone"],
-    "semiconductor": ["semiconductor", "chip", "wafer", "lithography", "silicon", "gpu", "accelerator", "circuit", "fab"],
-    "government": ["situation room", "capitol", "senate", "parliament", "white house", "meity", "ministry", "hearing", "united nations", "diplomatic"],
-    "researcher": ["scientist", "researcher", "engineer", "workstation", "code", "audit", "security operations", "soc", "telemetry"],
-    "product_demo": ["keynote", "presentation", "ui", "interface", "app", "demo", "screen", "portal", "display"]
+    "robotics": ["robot", "robotics", "humanoid", "actuator", "arm", "industrial", "autonomous vehicle", "drone", "missile", "radar", "satellite", "ballistic", "trajectory"],
+    "semiconductor": ["semiconductor", "chip", "wafer", "lithography", "silicon", "gpu", "accelerator", "circuit", "fab", "amd", "nvidia"],
+    "government": ["situation room", "capitol", "senate", "parliament", "white house", "meity", "ministry", "hearing", "united nations", "diplomatic", "state house", "minister", "clayton", "portrait", "official", "trudeau", "sitharaman", "governor"],
+    "researcher": ["scientist", "researcher", "engineer", "workstation", "code", "audit", "security operations", "soc", "telemetry", "benchmark", "scaffold", "rrsi", "neural"],
+    "product_demo": ["keynote", "presentation", "ui", "interface", "app", "demo", "screen", "portal", "display", "mobile", "wechat", "doubao", "assistant"]
 }
 
 
@@ -109,9 +109,12 @@ class VisualMemoryManager:
     @staticmethod
     def hamming_distance(hash1_str: str, hash2_str: str) -> int:
         """Calculates bit difference between two hex hash strings."""
-        h1 = imagehash.hex_to_hash(hash1_str)
-        h2 = imagehash.hex_to_hash(hash2_str)
-        return h1 - h2
+        try:
+            h1 = imagehash.hex_to_hash(hash1_str)
+            h2 = imagehash.hex_to_hash(hash2_str)
+            return h1 - h2
+        except Exception:
+            return 64  # Treat unparseable hashes as completely distinct
 
     @staticmethod
     def classify_visual_category(badge_or_desc: str, filename_or_url: str = "") -> str:
@@ -160,10 +163,10 @@ class VisualMemoryManager:
             if banned in clean_name:
                 return (False, None, f"Permanently banned stock visual: {banned}")
 
-        # 2. Category diversity cap. A nine-story desk needs up to four cuts in a category.
+        # 2. Category diversity cap: For up to 9-story show (27 cuts), allow up to 6 cuts in a broad category
         cat_count = current_episode_categories.get(category, 0)
-        if cat_count >= 4:
-            return (False, None, f"Category diversity cap exceeded for '{category}' ({cat_count}/4 already used)")
+        if cat_count >= 6:
+            return (False, None, f"Category diversity cap exceeded for '{category}' ({cat_count}/6 already used)")
 
         # 3. Compute Perceptual Hash
         try:
