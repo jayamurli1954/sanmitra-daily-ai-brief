@@ -1,7 +1,32 @@
+"""
+Automated Broadcast Subtitles & Word-Level Timestamp Engine.
+Uses OpenAI's faster-whisper (CTranslate2) for millisecond-accurate word boundaries:
+  - Generates timed SRT subtitles (out/aibrief/captions_YYYY-MM-DD.srt)
+  - Generates phrased lower-third Remotion burn-in captions (src/aibrief/data/captions.json)
+  - Generates word-level timestamps JSON for kinetic 'Hormozi-style' pop-ups (src/aibrief/data/word_timestamps.json)
+"""
+
 import json
 import os
 import re
 import sys
+
+# Cache model instance globally
+_WHISPER_MODEL = None
+
+
+def get_whisper_model():
+    global _WHISPER_MODEL
+    if _WHISPER_MODEL is None:
+        try:
+            from faster_whisper import WhisperModel
+            # 'tiny.en' or 'base.en' on CPU with int8 quantization is ultra-fast (<2 sec per clip)
+            _WHISPER_MODEL = WhisperModel("base.en", device="cpu", compute_type="int8")
+        except Exception as e:
+            print(f"[!] Warning loading faster-whisper: {e}")
+            _WHISPER_MODEL = False
+    return _WHISPER_MODEL
+
 
 def format_srt_timestamp(seconds: float) -> str:
     hours = int(seconds // 3600)
@@ -10,36 +35,57 @@ def format_srt_timestamp(seconds: float) -> str:
     millis = int(round((seconds - int(seconds)) * 1000))
     return f"{hours:02d}:{minutes:02d}:{secs:02d},{millis:03d}"
 
-def split_into_phrases(text: str, max_words: int = 7) -> list:
-    # Split text into sentences first
-    sentences = re.split(r'(?<=[.!?])\s+', text.strip())
-    phrases = []
-    
-    for sent in sentences:
-        words = sent.split()
-        if not words:
-            continue
-        # Chunk sentence into groups of ~max_words
-        for i in range(0, len(words), max_words):
-            chunk = " ".join(words[i:i + max_words])
-            if chunk:
-                phrases.append(chunk)
-    return phrases
+
+def transcribe_audio_words(audio_file_path: str, offset_seconds: float = 0.0) -> list:
+    """
+    Transcribes an audio file and returns a list of words with absolute timeline timestamps.
+    Returns: [{'word': str, 'start': float, 'end': float, 'startFrame': int, 'endFrame': int}, ...]
+    """
+    if not os.path.exists(audio_file_path):
+        return []
+
+    model = get_whisper_model()
+    if not model:
+        return []
+
+    try:
+        segments, _ = model.transcribe(audio_file_path, word_timestamps=True, language="en")
+        words_out = []
+        for seg in segments:
+            if not seg.words:
+                continue
+            for w in seg.words:
+                w_text = w.word.strip()
+                if not w_text:
+                    continue
+                start_abs = offset_seconds + w.start
+                end_abs = offset_seconds + w.end
+                words_out.append({
+                    "word": w_text,
+                    "start": round(start_abs, 3),
+                    "end": round(end_abs, 3),
+                    "startFrame": int(round(start_abs * 30)),
+                    "endFrame": int(round(end_abs * 30))
+                })
+        return words_out
+    except Exception as e:
+        print(f"[!] Whisper transcription failed for {audio_file_path}: {e}")
+        return []
+
 
 def generate_subtitles(data_path="src/aibrief/data/active_episode.json", timings_path="src/aibrief/data/timings.json"):
-    print("[*] Generating timed subtitles and SRT captions...")
+    print("[*] Generating timed subtitles and word-level captions with faster-whisper...")
     with open(data_path, "r", encoding="utf-8") as f:
         data = json.load(f)
-    
+
     with open(timings_path, "r", encoding="utf-8") as f:
         timings = json.load(f)
 
     stories = data.get("stories", [])
     transitions = {t.get("region"): t for t in data.get("transitions", [])}
 
-    # Ordered scenes matching master broadcast sequence:
-    scenes = []
-    scenes.append(("intro", data.get("intro", {}).get("script", "")))
+    # Ordered broadcast scenes
+    scenes = [("intro", data.get("intro", {}).get("script", ""))]
 
     for i, s in enumerate(stories, 1):
         region = s.get("region", "")
@@ -49,20 +95,14 @@ def generate_subtitles(data_path="src/aibrief/data/active_episode.json", timings
                 scenes.append((trans.get("id"), ""))
         scenes.append((s.get("id"), s.get("script", "")))
 
-    # Recap
-    recap = data.get("recap", {})
-    scenes.append(("recap", recap.get("script", "")))
-
-    # Market Snapshot
-    market = data.get("marketSnapshot", {})
-    scenes.append(("market_snapshot", market.get("script", "")))
-
-    # Outro
+    scenes.append(("recap", data.get("recap", {}).get("script", "")))
+    scenes.append(("market_snapshot", data.get("marketSnapshot", {}).get("script", "")))
     scenes.append(("outro", data.get("outro", {}).get("script", "")))
 
     srt_entries = []
     remotion_captions = []
-    
+    all_word_timestamps = []
+
     current_time = 0.0
     caption_index = 1
 
@@ -70,51 +110,82 @@ def generate_subtitles(data_path="src/aibrief/data/active_episode.json", timings
         timing = timings.get(scene_id, {})
         audio_dur = timing.get("audioDurationSeconds", 0.0)
         scene_dur = timing.get("sceneDurationSeconds", 2.0)
-        
+        audio_rel_path = timing.get("audioFile", "")
+        audio_full_path = os.path.join("public", audio_rel_path) if audio_rel_path else ""
+
         if not script or audio_dur == 0.0:
             current_time += scene_dur
             continue
 
-        phrases = split_into_phrases(script, max_words=7)
-        if not phrases:
-            current_time += scene_dur
-            continue
+        # 1. Attempt word-level transcription via faster-whisper
+        words = []
+        if audio_full_path and os.path.exists(audio_full_path):
+            words = transcribe_audio_words(audio_full_path, offset_seconds=current_time)
 
-        # Distribute the audio duration proportionally across words
-        total_words = sum(len(p.split()) for p in phrases)
-        if total_words == 0:
-            total_words = 1
-        
-        time_cursor = current_time
-        for p in phrases:
-            word_count = len(p.split())
-            phrase_dur = (word_count / total_words) * audio_dur
-            
-            start_s = time_cursor
-            end_s = min(time_cursor + phrase_dur, current_time + scene_dur)
-            
-            start_frame = int(round(start_s * 30))
-            end_frame = int(round(end_s * 30))
+        # 2. If faster-whisper extracted words, build high-precision phrases
+        if words:
+            for w in words:
+                w["sceneId"] = scene_id
+                all_word_timestamps.append(w)
 
-            # SRT entry
-            srt_start = format_srt_timestamp(start_s)
-            srt_end = format_srt_timestamp(end_s)
-            srt_entries.append(f"{caption_index}\n{srt_start} --> {srt_end}\n{p}\n")
+            # Chunk words into natural 5-7 word phrases for lower-third display
+            phrase_size = 6
+            for idx_w in range(0, len(words), phrase_size):
+                chunk = words[idx_w:idx_w + phrase_size]
+                p_text = " ".join(item["word"] for item in chunk)
+                p_start = chunk[0]["start"]
+                p_end = chunk[-1]["end"]
 
-            # Remotion JSON entry
-            remotion_captions.append({
-                "index": caption_index,
-                "sceneId": scene_id,
-                "startFrame": start_frame,
-                "endFrame": end_frame,
-                "startSeconds": round(start_s, 2),
-                "endSeconds": round(end_s, 2),
-                "text": p
-            })
+                srt_start = format_srt_timestamp(p_start)
+                srt_end = format_srt_timestamp(p_end)
+                srt_entries.append(f"{caption_index}\n{srt_start} --> {srt_end}\n{p_text}\n")
 
-            caption_index += 1
-            time_cursor += phrase_dur
-        
+                remotion_captions.append({
+                    "index": caption_index,
+                    "sceneId": scene_id,
+                    "startFrame": int(round(p_start * 30)),
+                    "endFrame": int(round(p_end * 30)),
+                    "startSeconds": p_start,
+                    "endSeconds": p_end,
+                    "text": p_text
+                })
+                caption_index += 1
+
+        else:
+            # Fallback to character-length estimation
+            raw_sentences = re.split(r'(?<=[.!?])\s+', script.strip())
+            phrases = []
+            for sent in raw_sentences:
+                swords = sent.split()
+                for i in range(0, len(swords), 6):
+                    c = " ".join(swords[i:i + 6])
+                    if c:
+                        phrases.append(c)
+
+            total_words = max(1, sum(len(p.split()) for p in phrases))
+            time_cursor = current_time
+            for p in phrases:
+                w_count = len(p.split())
+                p_dur = (w_count / total_words) * audio_dur
+                start_s = time_cursor
+                end_s = min(time_cursor + p_dur, current_time + scene_dur)
+
+                srt_start = format_srt_timestamp(start_s)
+                srt_end = format_srt_timestamp(end_s)
+                srt_entries.append(f"{caption_index}\n{srt_start} --> {srt_end}\n{p}\n")
+
+                remotion_captions.append({
+                    "index": caption_index,
+                    "sceneId": scene_id,
+                    "startFrame": int(round(start_s * 30)),
+                    "endFrame": int(round(end_s * 30)),
+                    "startSeconds": round(start_s, 2),
+                    "endSeconds": round(end_s, 2),
+                    "text": p
+                })
+                caption_index += 1
+                time_cursor += p_dur
+
         current_time += scene_dur
 
     # Write SRT file
@@ -123,7 +194,6 @@ def generate_subtitles(data_path="src/aibrief/data/active_episode.json", timings
     srt_file = f"out/aibrief/captions_{date_str}.srt"
     with open(srt_file, "w", encoding="utf-8") as f:
         f.write("\n".join(srt_entries))
-    # Also copy as default captions.srt
     with open("out/aibrief/captions.srt", "w", encoding="utf-8") as f:
         f.write("\n".join(srt_entries))
     print(f"[+] SRT subtitles generated: {srt_file} ({len(remotion_captions)} cues)")
@@ -134,7 +204,14 @@ def generate_subtitles(data_path="src/aibrief/data/active_episode.json", timings
         json.dump(remotion_captions, f, indent=2)
     print(f"[+] Remotion burn-in captions saved to: {remotion_captions_file}")
 
-    return srt_file, remotion_captions_file
+    # Write word-level timestamps JSON for kinetic pop-ups (Shorts / Reels)
+    words_file = "src/aibrief/data/word_timestamps.json"
+    with open(words_file, "w", encoding="utf-8") as f:
+        json.dump(all_word_timestamps, f, indent=2)
+    print(f"[+] Word-level kinetic timestamps saved: {words_file} ({len(all_word_timestamps)} words)")
+
+    return srt_file, remotion_captions_file, words_file
+
 
 if __name__ == "__main__":
     generate_subtitles()

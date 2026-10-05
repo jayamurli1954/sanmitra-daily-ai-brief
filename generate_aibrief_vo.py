@@ -240,6 +240,14 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
         total_time += scene_duration
         print(f"    [OK] {filename} duration: {raw_duration:.2f}s -> Scene: {scene_duration:.2f}s ({frames} frames)")
 
+    # 4. Studio broadcast audio mastering to -14 LUFS standard
+    try:
+        from src.aibrief.audio_mastering import master_all_episode_audio
+        print("\n[*] Mastering broadcast voiceovers to -14 LUFS standard...")
+        master_all_episode_audio("public/audio/aibrief")
+    except Exception as me:
+        print(f"[!] Warning running broadcast audio mastering: {me}")
+
     # Ensure all configured transitions are present in timings
     for trans in data.get("transitions", []):
         t_id = trans.get("id")
