@@ -1,5 +1,32 @@
 [
   {
+    "timestamp": "2026-10-05T23:15:13.199759",
+    "severity": "HIGH",
+    "message": "Episode failed Editorial Quality Gate (Composite: 58.5/100)",
+    "score_details": {
+      "date": "2026-10-06",
+      "composite_quality_score": 58.5,
+      "passes_quality_gate": false,
+      "threshold": 80.0,
+      "freshness_score": 95.0,
+      "source_authority_score": 0.0,
+      "bureau_balance_score": 50.0,
+      "active_bureaus": [],
+      "duplication_score": 100.0,
+      "visual_freshness_score": 65.0,
+      "category_distribution": {
+        "boardroom": 3,
+        "robotics": 1,
+        "researcher": 1
+      },
+      "failed_checks": [
+        "Average Source Authority 0.0 < 85.0 required",
+        "Only 0 bureaus active (minimum 3 required)",
+        "Visual diversity cap exceeded in categories: ['boardroom']"
+      ]
+    }
+  },
+  {
     "timestamp": "2026-10-04T20:16:34.390400",
     "severity": "HIGH",
     "message": "Episode failed Editorial Quality Gate (Composite: 63.0/100)",
