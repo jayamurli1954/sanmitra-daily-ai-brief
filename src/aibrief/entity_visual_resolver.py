@@ -30,7 +30,13 @@ def to_wiki_thumb(url: str, width: int = 1280) -> str:
     if "upload.wikimedia.org/wikipedia/commons/" in clean_url and "/thumb/" not in clean_url:
         parts = clean_url.split("/commons/")
         filename = parts[1].split("/")[-1]
+        ext = filename.split(".")[-1].lower()
+        if ext == "svg":
+            return f"{parts[0]}/commons/thumb/{parts[1]}/{width}px-{filename}.png"
         return f"{parts[0]}/commons/thumb/{parts[1]}/{width}px-{filename}"
+    elif "upload.wikimedia.org/wikipedia/commons/thumb/" in clean_url:
+        if clean_url.lower().endswith(".svg"):
+            return f"{clean_url}.png"
     return clean_url
 
 # Curated high-res authentic editorial assets for common entities & topics
@@ -79,7 +85,23 @@ CURATED_ENTITY_MAP = {
     "north korea missile": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/35/North_Korea%27s_ballistic_missile_-_North_Korea_Victory_Day-2013_01.jpg"), "PYONGYANG • STRATEGIC BALLISTIC MISSILE"),
     "ballistic missile": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/35/North_Korea%27s_ballistic_missile_-_North_Korea_Victory_Day-2013_01.jpg"), "BALLISTIC TRAJECTORY • FLIGHT DYNAMICS"),
     "data center": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/57/Data_Center_of_CNPC.jpg"), "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT"),
-    "datacentre": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/57/Data_Center_of_CNPC.jpg"), "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT")
+    "datacentre": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/57/Data_Center_of_CNPC.jpg"), "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT"),
+
+    # Story-specific 2026-10-06 entities
+    "nato": ("https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=85", "BRUSSELS • NATO EASTERN FLANK DEFENSE DOCTRINE"),
+    "eastern flank": ("https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=85", "EASTERN EUROPE • AUTONOMOUS SENSOR-TO-SHOOTER GRID"),
+    "mit": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/0/03/MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg"), "CAMBRIDGE • MIT COMPUTER SCIENCE & AI LAB"),
+    "kaiming he": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/0/03/MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg"), "MIT CSAIL • VISTA VISUAL HARNESS BENCHMARK"),
+    "norway": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/c5/Stortinget_August_2019_01.jpg"), "OSLO • NORWEGIAN PARLIAMENT STORTINGET"),
+    "new york city": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg"), "NEW YORK CITY • MUNICIPAL AI GOVERNANCE COUNCIL"),
+    "new york": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg"), "NEW YORK CITY • CIVIC & MUNICIPAL REGULATION"),
+    "south korea": ("https://images.unsplash.com/photo-1538485399081-7191377e8241?w=1920&q=85", "SEOUL • SOUTH KOREA SOVEREIGN FRONTIER AI"),
+    "korea": ("https://images.unsplash.com/photo-1538485399081-7191377e8241?w=1920&q=85", "SEOUL • 10K GPU SOVEREIGN COMPUTE PROJECT"),
+    "bank of japan": ("https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=1920&q=85", "TOKYO • BANK OF JAPAN MONETARY INTELLIGENCE"),
+    "bigendian": ("https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=85", "BENGALURU • PROJECT VEERAI INDIGENOUS VISION CHIP"),
+    "accenture": ("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=85", "MUMBAI • ENTERPRISE AI SYSTEMS INTEGRATION"),
+    "am intelligence": ("https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85", "HYPERSCALE COMPUTE • 20K NVIDIA GPU EXPANSION"),
+    "aleph alpha": ("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85", "HEIDELBERG • ALEPH ALPHA EUROPEAN SOVEREIGN AI")
 }
 
 # Domain-specific B-roll pools (High-grade authentic editorial TV shots, NEVER bounce rate charts)

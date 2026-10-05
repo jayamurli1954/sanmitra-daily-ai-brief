@@ -51,6 +51,25 @@ def get_story_timing(episode_json_path: str, story_index: int):
     return None
 
 
+def find_ffmpeg_executable() -> str:
+    """Finds available FFmpeg executable from PATH, imageio_ffmpeg, or Remotion compositor."""
+    import shutil
+    p = shutil.which("ffmpeg")
+    if p:
+        return p
+    try:
+        import imageio_ffmpeg
+        p = imageio_ffmpeg.get_ffmpeg_exe()
+        if os.path.exists(p):
+            return p
+    except Exception:
+        pass
+    remotion_ffmpeg = os.path.abspath("node_modules/@remotion/compositor-win32-x64-msvc/ffmpeg.exe")
+    if os.path.exists(remotion_ffmpeg):
+        return remotion_ffmpeg
+    return "ffmpeg"
+
+
 def generate_short(
     input_video: str,
     output_video: str,
@@ -65,6 +84,7 @@ def generate_short(
         raise FileNotFoundError(f"Input video not found: {input_video}")
 
     os.makedirs(os.path.dirname(output_video) or ".", exist_ok=True)
+    ffmpeg_bin = find_ffmpeg_executable()
 
     # 1. 9:16 Center-crop filter: take central 1080 horizontal pixels from 1920x1080
     # Center crop: crop=ih*9/16:ih:(iw-ow)/2:0,scale=1080:1920
@@ -83,7 +103,7 @@ def generate_short(
     filter_complex = ",".join(vf_filters)
 
     cmd = [
-        "ffmpeg",
+        ffmpeg_bin,
         "-y",
         "-ss", f"{start_time:.2f}",
         "-t", f"{duration:.2f}",
