@@ -28,6 +28,19 @@ def get_whisper_model():
     return _WHISPER_MODEL
 
 
+def clean_subtitle_text(text: str) -> str:
+    """Normalizes transcribed tokens for on-screen broadcast presentation."""
+    if not text:
+        return ""
+    # 1. Normalize TTS spelled-out A.I. to AI: "A .I.", "A. I.", "A.I.", "A.I" -> "AI"
+    text = re.sub(r'\bA\s*\.\s*I\.?\b', 'AI', text)
+    # 2. Fix SanMitra proper noun spacing: "San Mitra" -> "SanMitra"
+    text = re.sub(r'\bSan\s+Mitra\b', 'SanMitra', text, flags=re.IGNORECASE)
+    # 3. Clean multiple spaces
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+
 def format_srt_timestamp(seconds: float) -> str:
     hours = int(seconds // 3600)
     minutes = int((seconds % 3600) // 60)
@@ -49,13 +62,18 @@ def transcribe_audio_words(audio_file_path: str, offset_seconds: float = 0.0) ->
         return []
 
     try:
-        segments, _ = model.transcribe(audio_file_path, word_timestamps=True, language="en")
+        segments, _ = model.transcribe(
+            audio_file_path,
+            word_timestamps=True,
+            language="en",
+            initial_prompt="SanMitra AI News Wire, SanMitra, AI, LLM, OpenAI, Anthropic, DeepSeek, Google Cloud, Nvidia, AMD"
+        )
         words_out = []
         for seg in segments:
             if not seg.words:
                 continue
             for w in seg.words:
-                w_text = w.word.strip()
+                w_text = clean_subtitle_text(w.word.strip())
                 if not w_text:
                     continue
                 start_abs = offset_seconds + w.start
@@ -132,7 +150,7 @@ def generate_subtitles(data_path="src/aibrief/data/active_episode.json", timings
             phrase_size = 6
             for idx_w in range(0, len(words), phrase_size):
                 chunk = words[idx_w:idx_w + phrase_size]
-                p_text = " ".join(item["word"] for item in chunk)
+                p_text = clean_subtitle_text(" ".join(item["word"] for item in chunk))
                 p_start = chunk[0]["start"]
                 p_end = chunk[-1]["end"]
 
@@ -158,7 +176,7 @@ def generate_subtitles(data_path="src/aibrief/data/active_episode.json", timings
             for sent in raw_sentences:
                 swords = sent.split()
                 for i in range(0, len(swords), 6):
-                    c = " ".join(swords[i:i + 6])
+                    c = clean_subtitle_text(" ".join(swords[i:i + 6]))
                     if c:
                         phrases.append(c)
 

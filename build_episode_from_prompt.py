@@ -29,23 +29,22 @@ if sys.stdout.encoding != 'utf-8':
 
 def is_metadata_line(line: str) -> bool:
     """Source, Also, Desk, and bare URLs are records. They are not narration."""
-    stripped = line.strip().lstrip("*").strip()
+    stripped = line.strip()
     if not stripped:
         return True
-    lower = stripped.lower()
-    if lower.startswith("http://") or lower.startswith("https://"):
+    if re.match(r"^https?://", stripped, re.IGNORECASE):
         return True
-    if re.match(r"(?i)^(source|also|desk)\s*:?\s+\S", stripped):
-        # A leaked join looks like "Desk: ChatGPT and Grok The Prime Minister..."
-        # That line still holds the story, so it is cleaned instead of dropped.
-        if lower.startswith("desk:") and len(stripped.split()) > 8:
+    # Anchored to line start, handles bold (**Source:**, **Also:**, **Desk:**) and plain (Source:, Also:, Desk:)
+    if re.match(r"^\s*\*{0,2}(?:Source|Also|Desk)\*{0,2}\s*:", stripped, re.IGNORECASE):
+        lower = stripped.lower()
+        if "desk:" in lower and len(stripped.split()) > 8:
             return False
         return True
     return False
 
 
 def strip_unspoken_metadata(text: str) -> str:
-    """Remove Desk / Source labels from text that will be spoken."""
+    """Remove Desk / Source / Also labels and URLs from text that will be spoken."""
     if not text:
         return ""
     kept = []
@@ -54,15 +53,16 @@ def strip_unspoken_metadata(text: str) -> str:
         if not stripped or is_metadata_line(stripped):
             continue
         stripped = re.sub(
-            r"(?i)^(?:\*\*)?Desk:\s*(?:ChatGPT and Grok|Scraper)\b\s*",
+            r"(?i)^\s*\*{0,2}Desk\*{0,2}\s*:\s*(?:ChatGPT and Grok|Scraper)\b\s*",
             "",
             stripped,
         )
-        stripped = re.sub(r"(?i)^(?:\*\*)?(?:Source|Also)\s*:\s*", "", stripped)
+        stripped = re.sub(r"(?i)^\s*\*{0,2}(?:Source|Also)\*{0,2}\s*:\s*", "", stripped)
         if stripped.strip():
             kept.append(stripped.strip())
     text = " ".join(kept)
     text = re.sub(r"(?i)\bDesk:\s*(?:ChatGPT and Grok|Scraper)\b", " ", text)
+    text = re.sub(r"https?://\S+", "", text)
     return text
 
 
@@ -124,9 +124,8 @@ def format_broadcast_narration(idx: int, region: str, headline: str, body: str, 
     # Clean body of source attributions and the research-desk label.
     # Desk is stored on the episode. It is never spoken.
     cleaned_body = strip_unspoken_metadata(body)
-    cleaned_body = re.sub(r'(?i)\bSource:\s*[^\n]*', '', cleaned_body)
+    cleaned_body = re.sub(r'(?im)^\s*\*{0,2}(?:Source|Also)\*{0,2}\s*:[^\n]*', '', cleaned_body)
     cleaned_body = cleaned_body.replace("U.S.", "US")
-    cleaned_body = re.sub(r'(?i)\bAlso:?[^\n\.\;]*', '', cleaned_body)
     cleaned_body = clean_text_for_broadcast(cleaned_body)
     clean_head = clean_text_for_broadcast(headline)
 
@@ -181,32 +180,41 @@ def format_broadcast_narration(idx: int, region: str, headline: str, body: str, 
 def extract_attribution(chunk: str) -> tuple:
     """Pull the outlet name and URL off a story block.
 
-    Returns (source_names, source_url). Never invents an outlet or a link.
+    Returns (source_names, source_url, research_desk). Never invents an outlet or a link.
     A missing Source: line comes back as an empty list so the traceability
     gate can reject the episode instead of printing a fake citation.
     """
     srcs = []
     source_url = ""
-    src_match = re.search(r"(?im)^\s*(?:Source|Also):\s*([^\n]+)", chunk)
-    if not src_match:
-        src_match = re.search(r"\b(?:Source|Also):\s*([^\n]+)", chunk, re.IGNORECASE)
+    # Anchored to line start, handles bold (**Source:**, **Also:**) and plain (Source:, Also:)
+    # Requires a colon so "open-sources" or "resources" never match.
+    src_match = re.search(r"(?im)^\s*\*{0,2}(?:Source|Also)\*{0,2}\s*:\s*(.+)$", chunk)
     if src_match:
-        raw_src = src_match.group(1)
+        raw_src = src_match.group(1).strip()
         url_match = re.search(r"https?://\S+", raw_src)
         if url_match:
             source_url = url_match.group(0).rstrip(").,]>\"'")
         clean_src = re.sub(r"https?://\S+", "", raw_src)
         clean_src = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", clean_src)
         clean_src = re.sub(r"\[([^\]]+)\]", r"\1", clean_src)
-        clean_src = clean_src.strip(" -–—*")
+        clean_src = re.sub(r"[*_`]+", "", clean_src)
+        clean_src = clean_src.replace("/", ",").strip(" -–—*")
         if clean_src:
             srcs.append(clean_src)
+
+        # Look for the URL on following lines if not on the Source line itself
+        if not source_url:
+            tail = chunk[src_match.end(): src_match.end() + 400]
+            next_url_match = re.search(r"https?://\S+", tail)
+            if next_url_match:
+                source_url = next_url_match.group(0).rstrip(").,]>\"'")
+
     if not source_url:
         url_line = re.search(r"(?m)^\s*(https?://\S+)\s*$", chunk)
         if url_line:
             source_url = url_line.group(1).rstrip(").,]>\"'")
     desk = ""
-    desk_match = re.search(r"(?im)^\s*(?:\*\*)?Desk:\s*(.+?)(?:\*\*)?\s*$", chunk)
+    desk_match = re.search(r"(?im)^\s*\*{0,2}Desk\*{0,2}\s*:\s*(.+?)(?:\*\*)?\s*$", chunk)
     if desk_match:
         desk = desk_match.group(1).strip()
     return srcs, source_url, desk
