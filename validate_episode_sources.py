@@ -94,6 +94,9 @@ def is_proper_article_url(url: str) -> bool:
     if not segments:
         return False
     last = segments[-1]
+    # Check if query string contains article IDs
+    if parsed.query and any(ch.isdigit() for ch in parsed.query) and len(parsed.query) >= 6:
+        return True
     # ".../She" is a truncated slug, not an article.
     if len(last) < 8 and not any(ch.isdigit() for ch in last):
         return False

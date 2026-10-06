@@ -99,8 +99,12 @@ def deduplicate_stories(raw_stories: list) -> list:
         head = story["headline"].lower()
         # Extract meaningful keywords (> 4 chars)
         words = set(re.findall(r'[a-z]{4,}', head))
-        # Remove common filler words
-        words = words - {"launch", "formal", "major", "after", "takes", "center", "stage", "expands", "unveils"}
+        # Remove common filler words and generic financial/announcement terms
+        words = words - {
+            "launch", "formal", "major", "after", "takes", "center", "stage", "expands", "unveils",
+            "billion", "million", "dollars", "dollar", "funding", "investment", "round", "secures",
+            "raises", "plans", "announces", "first", "into", "with", "from", "their", "about"
+        }
         
         is_duplicate = False
         for seen in seen_signatures:
