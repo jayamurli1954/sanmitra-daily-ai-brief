@@ -57,13 +57,18 @@ def get_drive_service():
         except Exception as e:
             print(f"[!] Service account error: {e}")
 
-    # 2. Try User OAuth Token (gdrive_token.json)
+    # 2. Try User OAuth Token (gdrive_token.json or token.json)
     creds = None
     if os.path.exists(GDRIVE_TOKEN_FILE):
         try:
             creds = Credentials.from_authorized_user_file(GDRIVE_TOKEN_FILE, SCOPES)
         except Exception as e:
             print(f"[!] Warning reading {GDRIVE_TOKEN_FILE}: {e}")
+    elif os.path.exists("token.json"):
+        try:
+            creds = Credentials.from_authorized_user_file("token.json", SCOPES)
+        except Exception as e:
+            print(f"[!] Warning reading token.json for Drive: {e}")
 
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
