@@ -1,5 +1,40 @@
 [
   {
+    "timestamp": "2026-10-06T21:46:11.890244",
+    "severity": "HIGH",
+    "message": "Episode failed Editorial Quality Gate (Composite: 80.88/100)",
+    "score_details": {
+      "date": "2026-10-07",
+      "composite_quality_score": 80.88,
+      "passes_quality_gate": false,
+      "threshold": 80.0,
+      "freshness_score": 95.0,
+      "source_authority_score": 89.5,
+      "bureau_balance_score": 50.0,
+      "active_bureaus": [
+        "USA"
+      ],
+      "duplication_score": 100.0,
+      "visual_freshness_score": 65.0,
+      "category_distribution": {
+        "researcher": 6,
+        "defense": 7,
+        "research": 3,
+        "policy": 14,
+        "energy": 3,
+        "robotics": 1,
+        "hardware": 5,
+        "laboratory": 1,
+        "semiconductor": 1,
+        "government": 1
+      },
+      "failed_checks": [
+        "Only 1 bureaus active (minimum 3 required)",
+        "Visual diversity cap exceeded in categories: ['researcher', 'defense', 'research', 'policy', 'energy', 'hardware']"
+      ]
+    }
+  },
+  {
     "timestamp": "2026-10-05T23:15:13.199759",
     "severity": "HIGH",
     "message": "Episode failed Editorial Quality Gate (Composite: 58.5/100)",
