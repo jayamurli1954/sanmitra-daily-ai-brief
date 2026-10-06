@@ -1,105 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-06",
   "stories": [
-    {
-      "story_id": "story_20260922_meta_muse_faces_major_security_cris",
-      "story_chain_id": "chain_meta_meta_muse_faces_majo",
-      "headline": "META MUSE FACES MAJOR SECURITY CRISIS",
-      "companies": [
-        "Meta"
-      ],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/"
-      ],
-      "first_covered": "2026-09-22",
-      "last_major_update": "2026-09-22",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20260922_us_and_china_open_formal_ai_safety_",
-      "story_chain_id": "chain_global_us_and_china_open_fo",
-      "headline": "US AND CHINA OPEN FORMAL AI SAFETY TALKS",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://www.reuters.com/world/asia-pacific/us-china-meet-again-ai-safety-two-months-shenzhen-bessent-says-2026-09-21/"
-      ],
-      "first_covered": "2026-09-22",
-      "last_major_update": "2026-09-22",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20260922_22_nations_sign_ai_governance_decla",
-      "story_chain_id": "chain_global_22_nations_sign_ai_g",
-      "headline": "22 NATIONS SIGN AI GOVERNANCE DECLARATION",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.politico.com/"
-      ],
-      "first_covered": "2026-09-22",
-      "last_major_update": "2026-09-22",
-      "update_phase": "initial_break",
-      "impact_score": 85
-    },
-    {
-      "story_id": "story_20260922_openai_calls_for_global_ai_standard",
-      "story_chain_id": "chain_openai_openai_calls_for_glo",
-      "headline": "OPENAI CALLS FOR GLOBAL AI STANDARDS",
-      "companies": [
-        "OpenAI"
-      ],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.reuters.com/legal/government/openai-calls-us-take-lead-global-efforts-develop-technical-standards-2026-09-21/"
-      ],
-      "first_covered": "2026-09-22",
-      "last_major_update": "2026-09-22",
-      "update_phase": "initial_break",
-      "impact_score": 82
-    },
-    {
-      "story_id": "story_20260922_deepseek_bets_on_huawei_training_ch",
-      "story_chain_id": "chain_deepseek_deepseek_bets_on_hua",
-      "headline": "DEEPSEEK BETS ON HUAWEI TRAINING CHIPS",
-      "companies": [
-        "DeepSeek"
-      ],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://www.theinformation.com/"
-      ],
-      "first_covered": "2026-09-22",
-      "last_major_update": "2026-09-22",
-      "update_phase": "initial_break",
-      "impact_score": 80
-    },
-    {
-      "story_id": "story_20260922_microsoft_opens_new_ai_cloud_region",
-      "story_chain_id": "chain_microsoft_microsoft_opens_new_",
-      "headline": "MICROSOFT OPENS NEW AI CLOUD REGION IN INDIA",
-      "companies": [
-        "Microsoft"
-      ],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://www.cnbctv18.com/"
-      ],
-      "first_covered": "2026-09-22",
-      "last_major_update": "2026-09-22",
-      "update_phase": "initial_break",
-      "impact_score": 78
-    },
     {
       "story_id": "story_20260923_deepseek_invited_to_brief_un_securi",
       "story_chain_id": "chain_deepseek_deepseek_invited_to_",
@@ -1601,15 +1503,152 @@
       "last_major_update": "2026-10-06",
       "update_phase": "initial_break",
       "impact_score": 66
+    },
+    {
+      "story_id": "story_20261007_software_startup_vinci_raises_250_m",
+      "story_chain_id": "chain_global_software_startup_vin",
+      "headline": "Software startup Vinci raises $250 million at a $1.5 billion valuation",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/funding/software-startup-vinci-raises-250-million-at-a-1-5-billion-valuation/articleshow/134739689.cms"
+      ],
+      "first_covered": "2026-10-07",
+      "last_major_update": "2026-10-07",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261007_india_among_top_10_emerging_markets",
+      "story_chain_id": "chain_global_india_among_top_10_e",
+      "headline": "India among top 10 emerging markets in AI readiness; private AI investment triples: World Bank",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.livemint.com/technology/world-bank-says-india-should-scale-small-ai-applications-instead-of-betting-heavily-on-frontier-models-11791283874808.html"
+      ],
+      "first_covered": "2026-10-07",
+      "last_major_update": "2026-10-07",
+      "update_phase": "initial_break",
+      "impact_score": 81
+    },
+    {
+      "story_id": "story_20261007_southeast_asia_urged_to_step_up_war",
+      "story_chain_id": "chain_global_southeast_asia_urged",
+      "headline": "Southeast Asia urged to step up war against AI-powered scams through data sharing",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://www.scmp.com/week-asia/economics/article/3369903/southeast-asia-urged-step-war-against-ai-powered-scams-through-data-sharing?utm_source=rss_feed"
+      ],
+      "first_covered": "2026-10-07",
+      "last_major_update": "2026-10-07",
+      "update_phase": "initial_break",
+      "impact_score": 79
+    },
+    {
+      "story_id": "story_20261007_italian_pm_files_to_trademark_her_v",
+      "story_chain_id": "chain_global_italian_pm_files_to_",
+      "headline": "Italian PM files to trademark her voice against AI threats",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/ckly0g1ljq2yo?at_medium=RSS&at_campaign=rss"
+      ],
+      "first_covered": "2026-10-07",
+      "last_major_update": "2026-10-07",
+      "update_phase": "initial_break",
+      "impact_score": 77
+    },
+    {
+      "story_id": "story_20261007_trump_makes_it_clear_his_power_is_b",
+      "story_chain_id": "chain_global_trump_makes_it_clear",
+      "headline": "Trump makes it clear his power is becoming entwined with AI",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/05/trump-power-ai-techscape"
+      ],
+      "first_covered": "2026-10-07",
+      "last_major_update": "2026-10-07",
+      "update_phase": "initial_break",
+      "impact_score": 77
+    },
+    {
+      "story_id": "story_20261007_sap_to_acquire_workforce_data_firm_",
+      "story_chain_id": "chain_global_sap_to_acquire_workf",
+      "headline": "SAP to acquire workforce data firm TechWolf",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/sap-to-acquire-workforce-data-firm-techwolf/articleshow/134742311.cms"
+      ],
+      "first_covered": "2026-10-07",
+      "last_major_update": "2026-10-07",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261007_is_era_of_affordable_smartphones_en",
+      "story_chain_id": "chain_global_is_era_of_affordable",
+      "headline": "Is era of affordable smartphones ending? HMD India CEO warns prices may stay high till 2027",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.livemint.com/technology/is-era-of-affordable-smartphones-ending-hmd-india-ceo-warns-prices-may-stay-high-till-2027-11791268377725.html"
+      ],
+      "first_covered": "2026-10-07",
+      "last_major_update": "2026-10-07",
+      "update_phase": "initial_break",
+      "impact_score": 69
+    },
+    {
+      "story_id": "story_20261007_is_regulation_enough_to_stop_ai_sys",
+      "story_chain_id": "chain_global_is_regulation_enough",
+      "headline": "Is regulation enough to stop AI systems killing us all? | Letters",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/06/is-regulation-enough-to-stop-ai-systems-killing-us-all"
+      ],
+      "first_covered": "2026-10-07",
+      "last_major_update": "2026-10-07",
+      "update_phase": "initial_break",
+      "impact_score": 66
+    },
+    {
+      "story_id": "story_20261007_pull_the_plug_protesters_resort_to_",
+      "story_chain_id": "chain_global_pull_the_plug_protes",
+      "headline": "‘Pull the plug’: protesters resort to direct action against AI firms",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms"
+      ],
+      "first_covered": "2026-10-07",
+      "last_major_update": "2026-10-07",
+      "update_phase": "initial_break",
+      "impact_score": 66
     }
   ],
   "entity_index": {
-    "Meta": [
-      "2026-09-22",
-      "2026-10-04"
+    "Deepseek": [
+      "2026-09-23",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27",
+      "2026-10-02"
     ],
     "Openai": [
-      "2026-09-22",
       "2026-09-23",
       "2026-09-25",
       "2026-09-26",
@@ -1618,18 +1657,6 @@
       "2026-10-02",
       "2026-10-03",
       "2026-10-04"
-    ],
-    "Deepseek": [
-      "2026-09-22",
-      "2026-09-23",
-      "2026-09-25",
-      "2026-09-26",
-      "2026-09-27",
-      "2026-10-02"
-    ],
-    "Microsoft": [
-      "2026-09-22",
-      "2026-09-26"
     ],
     "Anthropic": [
       "2026-09-23",
@@ -1646,6 +1673,9 @@
     ],
     "Meity": [
       "2026-09-24"
+    ],
+    "Microsoft": [
+      "2026-09-26"
     ],
     "Tesla": [
       "2026-09-28"
@@ -1664,6 +1694,9 @@
     ],
     "Indiaai": [
       "2026-10-03"
+    ],
+    "Meta": [
+      "2026-10-04"
     ],
     "Amazon": [
       "2026-10-04"

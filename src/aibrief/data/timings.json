@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 13.85,
-    "sceneDurationSeconds": 15.05,
-    "durationInFrames": 451,
+    "audioDurationSeconds": 14.21,
+    "sceneDurationSeconds": 15.41,
+    "durationInFrames": 462,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_north_korea_fires_ballistic_miss": {
-    "audioFile": "audio/aibrief/s1_s1_north_korea_fires_ballistic_miss.mp3",
-    "audioDurationSeconds": 29.45,
-    "sceneDurationSeconds": 30.65,
-    "durationInFrames": 919,
-    "title": "Story 1: North Korea fires ballistic missile claiming evasive flight path with AI guidance",
+  "s1_nato_incorporates_ai_targeting_a": {
+    "audioFile": "audio/aibrief/s1_s1_nato_incorporates_ai_targeting_a.mp3",
+    "audioDurationSeconds": 41.06,
+    "sceneDurationSeconds": 42.26,
+    "durationInFrames": 1268,
+    "title": "Story 1: NATO incorporates AI targeting and autonomous systems into Eastern Flank defense doctrine",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_usa": {
@@ -22,20 +22,20 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_white_house_launches_super_intel": {
-    "audioFile": "audio/aibrief/s2_s2_white_house_launches_super_intel.mp3",
-    "audioDurationSeconds": 39.43,
-    "sceneDurationSeconds": 40.63,
-    "durationInFrames": 1219,
-    "title": "Story 2: White House launches 'Super Intelligence Force' led by Jay Clayton as labs debate AI doctrine",
+  "s2_mit_researchers_unveil_vista_vis": {
+    "audioFile": "audio/aibrief/s2_s2_mit_researchers_unveil_vista_vis.mp3",
+    "audioDurationSeconds": 37.66,
+    "sceneDurationSeconds": 38.86,
+    "durationInFrames": 1166,
+    "title": "Story 2: MIT researchers unveil VISTA visual harness enabling perfect ARC-AGI-3 benchmark scores",
     "voice": "en-US-AriaNeural"
   },
-  "s3_google_cloud_ai_researchers_intr": {
-    "audioFile": "audio/aibrief/s3_s3_google_cloud_ai_researchers_intr.mp3",
-    "audioDurationSeconds": 30.82,
-    "sceneDurationSeconds": 32.02,
-    "durationInFrames": 960,
-    "title": "Story 3: Google Cloud AI researchers introduce RRSI to prevent self-improving agents from memorizing benchmarks",
+  "s3_openai_begins_testing_visual_dis": {
+    "audioFile": "audio/aibrief/s3_s3_openai_begins_testing_visual_dis.mp3",
+    "audioDurationSeconds": 37.66,
+    "sceneDurationSeconds": 38.86,
+    "durationInFrames": 1166,
+    "title": "Story 3: OpenAI begins testing visual display advertising within ChatGPT image generation workflows",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
@@ -45,12 +45,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s4_tencent_bytedance_and_alibaba_ac": {
-    "audioFile": "audio/aibrief/s4_s4_tencent_bytedance_and_alibaba_ac.mp3",
-    "audioDurationSeconds": 31.13,
-    "sceneDurationSeconds": 32.33,
-    "durationInFrames": 970,
-    "title": "Story 4: Tencent, ByteDance, and Alibaba accelerate rollout of persistent personal AI agents across Chinese consumer ecosystems",
+  "s4_independent_researchers_track_ro": {
+    "audioFile": "audio/aibrief/s4_s4_independent_researchers_track_ro.mp3",
+    "audioDurationSeconds": 38.52,
+    "sceneDurationSeconds": 39.72,
+    "durationInFrames": 1192,
+    "title": "Story 4: Independent researchers track rogue Chinese AI agent fleet on Tencent infrastructure targeting Alibaba Amap",
     "voice": "en-US-AriaNeural"
   },
   "transition_asia": {
@@ -60,12 +60,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
   },
-  "s5_singapore_digital_minister_josep": {
-    "audioFile": "audio/aibrief/s5_s5_singapore_digital_minister_josep.mp3",
-    "audioDurationSeconds": 27.89,
-    "sceneDurationSeconds": 29.09,
-    "durationInFrames": 873,
-    "title": "Story 5: Singapore Digital Minister Josephine Teo advocates stronger brakes and multi-layer guardrails for agentic systems",
+  "s5_bank_of_japan_warns_global_ai_co": {
+    "audioFile": "audio/aibrief/s5_s5_bank_of_japan_warns_global_ai_co.mp3",
+    "audioDurationSeconds": 22.75,
+    "sceneDurationSeconds": 23.95,
+    "durationInFrames": 719,
+    "title": "Story 5: Bank of Japan warns global AI compute boom masks underlying financial volatility risks",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_india": {
@@ -75,51 +75,91 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s6_guwahati_s_navdyut_ai_labs_open": {
-    "audioFile": "audio/aibrief/s6_s6_guwahati_s_navdyut_ai_labs_open.mp3",
-    "audioDurationSeconds": 21.94,
-    "sceneDurationSeconds": 23.14,
-    "durationInFrames": 694,
-    "title": "Story 6: Guwahati's Navdyut AI Labs open-sources Navdyut-240M foundation model, targeting AMD inference",
+  "s6_anthropic_activates_in_country_i": {
+    "audioFile": "audio/aibrief/s6_s6_anthropic_activates_in_country_i.mp3",
+    "audioDurationSeconds": 33.58,
+    "sceneDurationSeconds": 34.78,
+    "durationInFrames": 1043,
+    "title": "Story 6: Anthropic activates in-country inference in India via Amazon Bedrock for regulated enterprises",
     "voice": "en-US-AriaNeural"
   },
-  "s7_rural_queenslanders_confront_725": {
-    "audioFile": "audio/aibrief/s7_s7_rural_queenslanders_confront_725.mp3",
-    "audioDurationSeconds": 27.7,
-    "sceneDurationSeconds": 28.9,
-    "durationInFrames": 867,
-    "title": "Story 7: Rural Queenslanders confront 725-hectare datacentre hub as Anthropic regional compute expands",
+  "s7_aleph_alpha_and_cohere_debut_sov": {
+    "audioFile": "audio/aibrief/s7_s7_aleph_alpha_and_cohere_debut_sov.mp3",
+    "audioDurationSeconds": 40.73,
+    "sceneDurationSeconds": 41.93,
+    "durationInFrames": 1258,
+    "title": "Story 7: Aleph Alpha and Cohere debut sovereign AI models and enterprise agent infrastructure in Europe",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_new_jersey_former_lieutenant_gov": {
-    "audioFile": "audio/aibrief/s8_s8_new_jersey_former_lieutenant_gov.mp3",
-    "audioDurationSeconds": 27.98,
-    "sceneDurationSeconds": 29.18,
-    "durationInFrames": 876,
-    "title": "Story 8: New Jersey former lieutenant governor cites multi-platform AI queries in defense against harassment findings",
+  "s8_norway_proposes_temporary_ban_on": {
+    "audioFile": "audio/aibrief/s8_s8_norway_proposes_temporary_ban_on.mp3",
+    "audioDurationSeconds": 39.38,
+    "sceneDurationSeconds": 40.58,
+    "durationInFrames": 1218,
+    "title": "Story 8: Norway proposes temporary ban on wearable AI glasses in public and educational spaces",
     "voice": "en-US-AriaNeural"
   },
-  "s9_indian_industry_leaders_urge_sov": {
-    "audioFile": "audio/aibrief/s9_s9_indian_industry_leaders_urge_sov.mp3",
-    "audioDurationSeconds": 28.63,
-    "sceneDurationSeconds": 29.83,
-    "durationInFrames": 895,
-    "title": "Story 9: Indian industry leaders urge sovereign AI safety framework tailored to national scale over US pact",
+  "s9_new_york_city_council_considers": {
+    "audioFile": "audio/aibrief/s9_s9_new_york_city_council_considers.mp3",
+    "audioDurationSeconds": 31.8,
+    "sceneDurationSeconds": 33.0,
+    "durationInFrames": 990,
+    "title": "Story 9: New York City Council considers mandatory kill switches and safety audits for autonomous AI",
     "voice": "en-US-ChristopherNeural"
+  },
+  "s10_am_intelligence_plans_dollars_20": {
+    "audioFile": "audio/aibrief/s10_s10_am_intelligence_plans_dollars_20.mp3",
+    "audioDurationSeconds": 30.29,
+    "sceneDurationSeconds": 31.49,
+    "durationInFrames": 945,
+    "title": "Story 10: AM Intelligence plans dollars 20 billion additional investment in 15 months, orders 20k more Nvidia GPUs",
+    "voice": "en-US-AriaNeural"
+  },
+  "s11_sam_altman_acknowledges_inevitab": {
+    "audioFile": "audio/aibrief/s11_s11_sam_altman_acknowledges_inevitab.mp3",
+    "audioDurationSeconds": 31.3,
+    "sceneDurationSeconds": 32.5,
+    "durationInFrames": 975,
+    "title": "Story 11: Sam Altman acknowledges inevitable AI friction while arguing technological payoff outweighs harms",
+    "voice": "en-US-ChristopherNeural"
+  },
+  "s12_deepseek_narrows_performance_dis": {
+    "audioFile": "audio/aibrief/s12_s12_deepseek_narrows_performance_dis.mp3",
+    "audioDurationSeconds": 30.7,
+    "sceneDurationSeconds": 31.9,
+    "durationInFrames": 957,
+    "title": "Story 12: DeepSeek narrows performance disparity with top frontier models to three percent",
+    "voice": "en-US-AriaNeural"
+  },
+  "s13_technology_development_board_all": {
+    "audioFile": "audio/aibrief/s13_s13_technology_development_board_all.mp3",
+    "audioDurationSeconds": 29.02,
+    "sceneDurationSeconds": 30.22,
+    "durationInFrames": 906,
+    "title": "Story 13: Technology Development Board allocates rupees 130 crore to BigEndian for indigenous Project VeerAI vision SoC",
+    "voice": "en-US-ChristopherNeural"
+  },
+  "s14_accenture_earnings_forecast_stim": {
+    "audioFile": "audio/aibrief/s14_s14_accenture_earnings_forecast_stim.mp3",
+    "audioDurationSeconds": 29.45,
+    "sceneDurationSeconds": 30.65,
+    "durationInFrames": 919,
+    "title": "Story 14: Accenture earnings forecast stimulates Indian IT rally as enterprise generative AI adoption expands",
+    "voice": "en-US-AriaNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 38.74,
-    "sceneDurationSeconds": 39.94,
-    "durationInFrames": 1198,
+    "audioDurationSeconds": 39.29,
+    "sceneDurationSeconds": 40.49,
+    "durationInFrames": 1215,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },
   "market_snapshot": {
     "audioFile": "audio/aibrief/s_market_snapshot.mp3",
-    "audioDurationSeconds": 40.73,
-    "sceneDurationSeconds": 41.93,
-    "durationInFrames": 1258,
+    "audioDurationSeconds": 42.53,
+    "sceneDurationSeconds": 43.73,
+    "durationInFrames": 1312,
     "title": "AI Market Snapshot",
     "voice": "en-US-AriaNeural"
   },
