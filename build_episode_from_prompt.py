@@ -356,58 +356,6 @@ def parse_markdown_prompt(md_text: str) -> dict:
         while len(selected_stories) < 18 and reg in by_region and by_region[reg]:
             selected_stories.append(by_region[reg].pop(0))
 
-    # High-grade broadcast television fallback assets (Permanently bans bounce-rate charts and student code)
-    clean_fallback_catalog = {
-        1: {
-            "main": "aibrief/backgrounds/geopolitics.jpg",
-            "cut2": "aibrief/backgrounds/global_policy.jpg",
-            "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
-            "badge1": "GLOBAL STRATEGIC BRIEFING • DEFENSE & POLICY",
-            "badge2": "MULTILATERAL ACCORD • SOVEREIGN MONITORING",
-            "badge3": "GLOBAL INFRASTRUCTURE • ORBITAL SATELLITE FABRIC"
-        },
-        2: {
-            "main": "aibrief/assets/editorial/gov_us_capitol_hearing.jpg",
-            "cut2": "aibrief/backgrounds/ai_security.jpg",
-            "cut3": "aibrief/assets/editorial/tech_silicon_wafer.jpg",
-            "badge1": "WASHINGTON D.C. • EXECUTIVE OVERSIGHT COUNCIL",
-            "badge2": "CYBER OPERATIONS DESK • ACCESS MONITORING HUD",
-            "badge3": "NEURAL ACCELERATOR SILICON • DIE INSPECTION"
-        },
-        3: {
-            "main": "aibrief/assets/editorial/tech_silicon_wafer.jpg",
-            "cut2": "aibrief/backgrounds/ai_standards.jpg",
-            "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
-            "badge1": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
-            "badge2": "STANDARDS VERIFICATION • RECURSIVE EVALUATION HUD",
-            "badge3": "HYPERSCALE BACKBONE • COMPUTE SCALING"
-        },
-        4: {
-            "main": "aibrief/backgrounds/ai_chips.jpg",
-            "cut2": "aibrief/assets/editorial/tech_silicon_wafer.jpg",
-            "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
-            "badge1": "TENSOR ARCHITECTURE • HARDWARE TELEMETRY",
-            "badge2": "ACCELERATOR SILICON WAFER • COMPLIANCE AUDIT",
-            "badge3": "COMMERCIAL RUN RATE • ENTERPRISE WORKLOADS"
-        },
-        5: {
-            "main": "aibrief/assets/editorial/fin_tokyo_district.jpg",
-            "cut2": "aibrief/backgrounds/global_policy.jpg",
-            "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
-            "badge1": "REGIONAL DIGITAL FABRIC • SOVEREIGN TECH MAP",
-            "badge2": "MINISTERIAL ENGAGEMENT • SOVEREIGN ACCORD",
-            "badge3": "REGIONAL PRODUCTIVITY TELEMETRY • PUBLIC SERVICES"
-        },
-        6: {
-            "main": "aibrief/assets/story6_indian_engineers.jpg",
-            "cut2": "aibrief/assets/editorial/tech_silicon_wafer.jpg",
-            "cut3": "aibrief/backgrounds/cloud_infrastructure.jpg",
-            "badge1": "SOVEREIGN COMPUTE INFRASTRUCTURE • NATIONAL FABRIC",
-            "badge2": "HIGH-DENSITY GPU CLUSTERS • DOMESTIC MODELS",
-            "badge3": "DEFENSE READINESS & RUNTIME SECURITY HUD"
-        }
-    }
-
     # Load visual memory if present
     visual_mem_path = os.path.join("src", "aibrief", "data", "visual_memory.json")
     visual_memory_badges = {}
@@ -442,28 +390,65 @@ def parse_markdown_prompt(md_text: str) -> dict:
             ("panRight", "zoomOut", "panLeft")
         ][(idx - 1) % 4]
 
+        # Determine domain of the story for contextual fallback cuts
+        s_text = f"{head} {body}".lower()
+        if any(k in s_text for k in ["chip", "semiconductor", "wafer", "soc", "hardware", "gpu", "nvidia", "amd", "bigendian", "veerai"]):
+            domain_cuts = [
+                ("aibrief/assets/editorial/tech_silicon_wafer.jpg", f"{reg} SILICON DIE • FABRICATION CLEANROOM"),
+                ("aibrief/assets/editorial/tech_server_hall.jpg", f"{reg} ACCELERATED COMPUTE • TENSOR CLUSTERS"),
+                ("aibrief/assets/editorial/tech_quantum_lab.jpg", f"{reg} MICROELECTRONICS R&D • PACKAGING FLOOR")
+            ]
+        elif any(k in s_text for k in ["defense", "military", "missile", "nato", "warhead", "cyber", "security", "threat", "targeting", "drone"]):
+            domain_cuts = [
+                ("aibrief/assets/editorial/tech_cyber_command.jpg", f"{reg} DEFENSE OPERATIONS • AUTONOMOUS TARGETING"),
+                ("aibrief/assets/editorial/tech_data_telemetry.jpg", f"{reg} SATELLITE TELEMETRY • AIR-DEFENSE RADAR"),
+                ("aibrief/backgrounds/ai_security.jpg", f"{reg} CYBER THREAT OPERATIONS • RED-TEAM DESK")
+            ]
+        elif any(k in s_text for k in ["datacenter", "datacentre", "cloud", "bedrock", "inference", "power", "grid", "capacity"]):
+            domain_cuts = [
+                ("aibrief/assets/editorial/tech_server_hall.jpg", f"{reg} HYPERSCALE DATACENTER • COMPUTE BACKBONE"),
+                ("aibrief/backgrounds/cloud_infrastructure.jpg", f"{reg} HIGH-DENSITY RACKS • THERMAL MANAGEMENT"),
+                ("aibrief/assets/editorial/tech_data_telemetry.jpg", f"{reg} ENTERPRISE CLOUD TELEMETRY • RUNTIME")
+            ]
+        elif any(k in s_text for k in ["agent", "model", "deepseek", "vista", "arc-agi", "benchmark", "research", "mit", "aleph alpha"]):
+            domain_cuts = [
+                ("aibrief/assets/editorial/tech_quantum_lab.jpg", f"{reg} FRONTIER AI RESEARCH • NEURAL HARNESS"),
+                ("aibrief/assets/editorial/tech_code_screen.jpg", f"{reg} AUTONOMOUS AGENT RUNTIME • EVALUATION HUD"),
+                ("aibrief/assets/editorial/tech_data_telemetry.jpg", f"{reg} BENCHMARK VERIFICATION • SYSTEM TELEMETRY")
+            ]
+        elif any(k in s_text for k in ["glasses", "wearable", "privacy", "ban", "kill switch", "whistleblower", "hearing", "council"]):
+            domain_cuts = [
+                ("aibrief/assets/editorial/gov_canberra_parliament.jpg", f"{reg} MUNICIPAL GOVERNANCE • REGULATORY REVIEW"),
+                ("aibrief/assets/editorial/fin_tokyo_district.jpg", f"{reg} CIVIC ENGAGEMENT • STATUTORY SAFEGUARDS"),
+                ("aibrief/backgrounds/ai_standards.jpg", f"{reg} STANDARDS VERIFICATION • ETHICS AUDIT")
+            ]
+        else:
+            domain_cuts = [
+                ("aibrief/assets/editorial/fin_tokyo_district.jpg", f"{reg} METROPOLITAN COMMERCE • CIVIC STRATEGY"),
+                ("aibrief/assets/editorial/tech_server_hall.jpg", f"{reg} SOVEREIGN INFRASTRUCTURE • DIGITAL FABRIC"),
+                ("aibrief/assets/editorial/tech_data_telemetry.jpg", f"{reg} ENTERPRISE AUTOMATION BENCHMARK")
+            ]
+
         # Check for fresh story-specific downloaded assets for this date
         date_editorial_dir = os.path.join("public", "aibrief", "assets", "editorial", iso_date)
         f_cut1 = os.path.join(date_editorial_dir, f"s{idx}_cut1.jpg")
         f_cut2 = os.path.join(date_editorial_dir, f"s{idx}_cut2.jpg")
         f_cut3 = os.path.join(date_editorial_dir, f"s{idx}_cut3.jpg")
 
-        if os.path.exists(f_cut1) and os.path.exists(f_cut2) and os.path.exists(f_cut3):
-            badge1 = visual_memory_badges.get(f"s{idx}_cut1.jpg", f"{reg} SPECIAL REPORT • CUT 1")
-            badge2 = visual_memory_badges.get(f"s{idx}_cut2.jpg", f"{reg} INFRASTRUCTURE • CUT 2")
-            badge3 = visual_memory_badges.get(f"s{idx}_cut3.jpg", f"{reg} DEPLOYMENT • CUT 3")
-            visual_cuts = [
-                {"image": f"aibrief/assets/editorial/{iso_date}/s{idx}_cut1.jpg", "badge": badge1, "panDirection": pans[0]},
-                {"image": f"aibrief/assets/editorial/{iso_date}/s{idx}_cut2.jpg", "badge": badge2, "panDirection": pans[1]},
-                {"image": f"aibrief/assets/editorial/{iso_date}/s{idx}_cut3.jpg", "badge": badge3, "panDirection": pans[2]}
-            ]
-        else:
-            cat_info = clean_fallback_catalog.get(idx, clean_fallback_catalog[1])
-            visual_cuts = [
-                {"image": cat_info["main"], "badge": cat_info["badge1"], "panDirection": pans[0]},
-                {"image": cat_info["cut2"], "badge": cat_info["badge2"], "panDirection": pans[1]},
-                {"image": cat_info["cut3"], "badge": cat_info["badge3"], "panDirection": pans[2]}
-            ]
+        cut1_img = f"aibrief/assets/editorial/{iso_date}/s{idx}_cut1.jpg" if os.path.exists(f_cut1) else domain_cuts[0][0]
+        cut1_badge = visual_memory_badges.get(f"s{idx}_cut1.jpg", domain_cuts[0][1]) if os.path.exists(f_cut1) else domain_cuts[0][1]
+
+        cut2_img = f"aibrief/assets/editorial/{iso_date}/s{idx}_cut2.jpg" if os.path.exists(f_cut2) else domain_cuts[1][0]
+        cut2_badge = visual_memory_badges.get(f"s{idx}_cut2.jpg", domain_cuts[1][1]) if os.path.exists(f_cut2) else domain_cuts[1][1]
+
+        cut3_img = f"aibrief/assets/editorial/{iso_date}/s{idx}_cut3.jpg" if os.path.exists(f_cut3) else domain_cuts[2][0]
+        cut3_badge = visual_memory_badges.get(f"s{idx}_cut3.jpg", domain_cuts[2][1]) if os.path.exists(f_cut3) else domain_cuts[2][1]
+
+        visual_cuts = [
+            {"image": cut1_img, "badge": cut1_badge, "panDirection": pans[0]},
+            {"image": cut2_img, "badge": cut2_badge, "panDirection": pans[1]},
+            {"image": cut3_img, "badge": cut3_badge, "panDirection": pans[2]}
+        ]
 
         slug = re.sub(r"[^a-z0-9]+", "_", head.lower())[:32].strip("_")
         s_id = f"s{idx}_{slug}" if slug else f"story_{idx}"

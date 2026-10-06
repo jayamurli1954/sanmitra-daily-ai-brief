@@ -318,7 +318,28 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
         # If primary candidate failed or was rejected, apply guaranteed high-grade broadcast fallback
         if not success:
             print(f"    [*] Applying high-grade broadcast texture for {filename}...")
-            pool_category = "defense" if "defense" in category or "missile" in badge.lower() else ("hardware" if "semiconductor" in category else "policy")
+            lower_tag = f"{badge} {filename}".lower()
+            if any(k in lower_tag for k in ["chip", "semiconductor", "wafer", "hardware", "soc", "bigendian", "veerai", "s10", "s13"]):
+                pool_category = "hardware"
+                local_fallback = "public/aibrief/assets/editorial/tech_silicon_wafer.jpg"
+                fallback_badge = "ADVANCED SILICON DIE • FABRICATION CLEANROOM"
+            elif any(k in lower_tag for k in ["defense", "missile", "radar", "military", "nato", "flank", "targeting", "drone", "cyber", "s1"]):
+                pool_category = "defense"
+                local_fallback = "public/aibrief/assets/story2_cyber_defense.jpg"
+                fallback_badge = "DEFENSE OPERATIONS • LIVE TELEMETRY"
+            elif any(k in lower_tag for k in ["datacenter", "datacentre", "cloud", "grid", "power", "bedrock", "s6"]):
+                pool_category = "energy"
+                local_fallback = "public/aibrief/assets/story6_datacenter_servers.jpg"
+                fallback_badge = "HYPERSCALE COMPUTE • SERVER CLUSTER"
+            elif any(k in lower_tag for k in ["research", "model", "bench", "eval", "vista", "mit", "s2", "s12"]):
+                pool_category = "research"
+                local_fallback = "public/aibrief/assets/editorial/tech_quantum_lab.jpg"
+                fallback_badge = "FRONTIER AI RESEARCH • NEURAL HARNESS"
+            else:
+                pool_category = "policy"
+                local_fallback = "public/aibrief/assets/editorial/gov_canberra_parliament.jpg"
+                fallback_badge = "LEGISLATIVE OVERSIGHT • STATUTORY REVIEW"
+
             backup_pool = DOMAIN_POOLS.get(pool_category, DOMAIN_POOLS["policy"])
             for b_url, b_badge in backup_pool:
                 if b_url in used_fallback_urls:
@@ -340,12 +361,29 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
                             "url": b_url,
                             "badge": b_badge,
                             "phash": b_hash,
-                            "category": category
+                            "category": pool_category
                         })
                         success = True
                         break
                 except Exception:
                     pass
+
+            # Guaranteed local texture fallback so every single cut exists on disk
+            if not success and os.path.exists(local_fallback):
+                try:
+                    shutil.copyfile(local_fallback, dest_file)
+                    print(f"    [+] Local domain fallback applied: {dest_file} ({fallback_badge})")
+                    used_this_run.append({
+                        "date": date_str,
+                        "filename": filename,
+                        "url": local_fallback,
+                        "badge": fallback_badge,
+                        "phash": "local_fallback",
+                        "category": pool_category
+                    })
+                    success = True
+                except Exception as e:
+                    print(f"    [!] Error copying local fallback: {e}")
 
     # Register in 14-day pHash visual memory
     if used_this_run:

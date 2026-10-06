@@ -12,3 +12,6 @@ Config.setRspack(true);
 Config.setVideoImageFormat("jpeg");
 Config.setOverwriteOutput(true);
 Config.overrideBundlerConfig(enableTailwind);
+Config.setDelayRenderTimeoutInMilliseconds(120000);
+Config.setChromiumOpenGlRenderer('angle');
+Config.setDisallowParallelEncoding(true);

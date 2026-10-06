@@ -34,7 +34,7 @@ export const AIBriefVideo: React.FC = () => {
     >
       {/* Ambient Newsroom Background Music Bed */}
       <Audio
-        src={staticFile("audio/aibrief_theme.wav")}
+        src={staticFile("audio/aibrief_theme.mp3")}
         volume={0.05}
         loop
       />

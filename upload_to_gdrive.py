@@ -81,6 +81,12 @@ def get_drive_service():
                 creds = None
 
         if not creds:
+            # Prevent hanging indefinitely in automated background runs / GitHub Actions
+            if not sys.stdin or not sys.stdin.isatty():
+                print("[!] Non-interactive environment detected: Google Drive token expired or revoked.")
+                print("    Skipping Google Drive upload to prevent pipeline freeze. Run 'python upload_to_gdrive.py --auth' interactively to re-link.")
+                return None
+
             if not os.path.exists(CLIENT_SECRETS_FILE):
                 print(f"[X] Client secrets file '{CLIENT_SECRETS_FILE}' not found!")
                 return None

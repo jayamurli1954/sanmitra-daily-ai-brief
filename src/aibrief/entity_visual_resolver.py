@@ -104,37 +104,54 @@ CURATED_ENTITY_MAP = {
     "aleph alpha": ("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85", "HEIDELBERG • ALEPH ALPHA EUROPEAN SOVEREIGN AI")
 }
 
-# Domain-specific B-roll pools (High-grade authentic editorial TV shots, NEVER bounce rate charts)
+# Domain-specific B-roll pools (High-grade authentic editorial TV shots, NEVER bounce rate charts, NEVER UN/Obama)
 DOMAIN_POOLS = {
     "defense": [
         ("https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=85", "RADAR SURVEILLANCE • AIR-DEFENSE ENVELOPE"),
         ("https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=85", "ORBITAL TELEMETRY • SATELLITE TRACKING GRID"),
-        ("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&q=85", "MILITARY OPERATIONS CENTER • INCIDENT DESK")
+        ("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&q=85", "MILITARY OPERATIONS CENTER • INCIDENT DESK"),
+        ("https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=1920&q=85", "SATELLITE GROUND STATION • SECURE TELEMETRY"),
+        ("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85", "CYBER DEFENSE OPERATIONS • LIVE INCIDENT FEED"),
+        ("https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1920&q=85", "AEROSPACE TELEMETRY • RADAR MONITORING GRID"),
+        ("https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1920&q=85", "DEFENSE RESEARCH LAB • AUTONOMOUS GUIDANCE"),
+        ("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=85", "NETWORK SECURITY OPERATIONS • SENSOR AUDIT")
     ],
     "policy": [
         ("https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1920&q=85", "MULTILATERAL FORUM • REGULATORY HARMONIZATION"),
         ("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=85", "STANDARDS AUDITING • COMPLIANCE FRAMEWORK"),
         ("https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1920&q=85", "MINISTERIAL ENGAGEMENT • SOVEREIGN PACT"),
         ("https://images.unsplash.com/photo-1450133064473-71024230f91b?w=1920&q=85", "REGULATORY OVERSIGHT • JUDICIAL INQUIRY"),
-        ("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=85", "METROPOLITAN CIVIC CENTER • ETHICS DESK")
+        ("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=85", "METROPOLITAN CIVIC CENTER • ETHICS DESK"),
+        ("https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=85", "CORPORATE GOVERNANCE • STRATEGY BRIEFING"),
+        ("https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1920&q=85", "EXECUTIVE AUDIT CHAMBER • COMPLIANCE REVIEW"),
+        ("https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1920&q=85", "GOVERNMENTAL ASSEMBLY • LEGISLATIVE DESK")
     ],
     "hardware": [
         ("https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=85", "ADVANCED SILICON DIE • FABRICATION CLEANROOM"),
         ("https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85", "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT"),
         ("https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1920&q=85", "SUPERCOMPUTING BACKBONE • TENSOR CLUSTERS"),
-        ("https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1920&q=85", "HARDWARE ACCELERATION • SYSTEM INTEGRATION")
+        ("https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1920&q=85", "HARDWARE ACCELERATION • SYSTEM INTEGRATION"),
+        ("https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=1920&q=85", "SEMICONDUCTOR WAFER • ADVANCED PACKAGING"),
+        ("https://images.unsplash.com/photo-1581092335397-9583fe92d232?w=1920&q=85", "CLEANROOM ROBOTICS • SILICON MANUFACTURING"),
+        ("https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=1920&q=85", "PROCESSOR ARCHITECTURE • DIE INSPECTION"),
+        ("https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1920&q=85", "EMBEDDED VISION CHIP • HARDWARE BENCH")
     ],
     "research": [
         ("https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920&q=85", "NEURAL BENCHMARKING • RECURSIVE EVALUATION HUD"),
         ("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85", "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION"),
         ("https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&q=85", "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE"),
         ("https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1920&q=85", "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE"),
-        ("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=85", "DIGITAL TELEMETRY • SYSTEM EVALUATION")
+        ("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=85", "DIGITAL TELEMETRY • SYSTEM EVALUATION"),
+        ("https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=85", "LABORATORY INSTRUMENTATION • MODEL EVALUATION"),
+        ("https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&q=85", "DEEP LEARNING PIPELINE • KERNEL TRACING"),
+        ("https://images.unsplash.com/photo-1576086213369-97a306d36557?w=1920&q=85", "MULTIMODAL REASONING • SYNTHETIC BENCHMARK")
     ],
     "energy": [
+        ("https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=85", "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE"),
         ("https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=85", "REGIONAL POWER GRID • SUBSTATION TELEMETRY"),
-        ("https://images.unsplash.com/photo-1509391365360-2e959784a276?w=1920&q=85", "RENEWABLE UTILITY • HIGH-VOLTAGE TRANSMISSION"),
-        ("https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1920&q=85", "TERRAIN SURVEY • RURAL INFRASTRUCTURE")
+        ("https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1920&q=85", "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER"),
+        ("https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1920&q=85", "TERRAIN SURVEY • RURAL INFRASTRUCTURE"),
+        ("https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=1920&q=85", "COMMUNICATIONS TOWER • BACKBONE LINK")
     ]
 }
 
@@ -175,6 +192,7 @@ def resolve_cuts_for_story(
 ) -> List[Tuple[str, str]]:
     """
     Returns 3 distinct (url, badge) visual cuts tailored directly to the story's real content.
+    Guaranteed to return at least 3 cuts regardless of episode size.
     """
     text = f"{headline} {summary}".lower()
     cuts = []
@@ -189,7 +207,7 @@ def resolve_cuts_for_story(
     if not cuts:
         entities = re.findall(r'\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?\b', headline)
         for ent in entities:
-            if ent.lower() in ("daily", "brief", "news", "special", "report", "wire", "monday", "tuesday"):
+            if ent.lower() in ("daily", "brief", "news", "special", "report", "wire", "monday", "tuesday", "technology", "development", "board"):
                 continue
             wiki_res = search_wikipedia_image(ent)
             if wiki_res:
@@ -200,18 +218,20 @@ def resolve_cuts_for_story(
 
     # 3. Determine domain for complementary operational B-roll
     domain = "policy"
-    if any(k in text for k in ["missile", "military", "weapon", "warhead", "pyongyang", "air-defense", "ballistic"]):
+    if any(k in text for k in ["missile", "military", "weapon", "warhead", "pyongyang", "air-defense", "ballistic", "nato", "flank", "targeting", "drone", "cyber", "threat", "incursion"]):
         domain = "defense"
-    elif any(k in text for k in ["datacentre", "data center", "grid", "power", "energy", "substation", "hectare"]):
+    elif any(k in text for k in ["datacentre", "data center", "grid", "power", "energy", "substation", "hectare", "bedrock", "aws", "cloud", "hyperscale", "capacity"]):
         domain = "energy"
-    elif any(k in text for k in ["chip", "semiconductor", "amd", "nvidia", "gpu", "hardware", "wafer", "silicon"]):
+    elif any(k in text for k in ["chip", "semiconductor", "amd", "nvidia", "gpu", "hardware", "wafer", "silicon", "soc", "bigendian", "veerai", "die"]):
         domain = "hardware"
-    elif any(k in text for k in ["research", "rrsi", "benchmark", "foundation model", "eval"]):
+    elif any(k in text for k in ["research", "rrsi", "benchmark", "foundation model", "eval", "vista", "arc-agi", "mit", "agent", "deepseek", "moe", "weights"]):
         domain = "research"
+    elif any(k in text for k in ["glasses", "wearable", "privacy", "ban", "kill switch", "whistleblower", "hearing", "council"]):
+        domain = "policy"
 
     pool = DOMAIN_POOLS.get(domain, DOMAIN_POOLS["policy"])
 
-    # Pick from domain pool avoiding URLs already used across this story or episode
+    # Pick from primary domain pool avoiding URLs already used across this story or episode
     for pool_url, pool_badge in pool:
         if len(cuts) >= 3:
             break
@@ -222,9 +242,9 @@ def resolve_cuts_for_story(
             if global_used_urls is not None:
                 global_used_urls.add(pool_url)
 
-    # Pad with any domain pools if still under 3
+    # Pad with other domain pools if still under 3
     if len(cuts) < 3:
-        for backup_domain in ["policy", "hardware", "research", "energy"]:
+        for backup_domain in ["hardware", "research", "defense", "energy", "policy"]:
             for pool_url, pool_badge in DOMAIN_POOLS[backup_domain]:
                 if len(cuts) >= 3:
                     break
@@ -234,6 +254,12 @@ def resolve_cuts_for_story(
                     cuts.append((pool_url, pool_badge))
                     if global_used_urls is not None:
                         global_used_urls.add(pool_url)
+
+    # Fallback rotation if all pools are exhausted by a large episode (guarantee 3 cuts)
+    while len(cuts) < 3:
+        idx_pick = (idx + len(cuts)) % len(pool)
+        p_url, p_badge = pool[idx_pick]
+        cuts.append((p_url, f"{p_badge} • CUT {len(cuts)+1}"))
 
     return cuts[:3]
 
