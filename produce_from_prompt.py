@@ -147,10 +147,10 @@ def produce_from_prompt(prompt_file=None, privacy="private", upload_youtube=True
             f"Uploading 1080p Broadcast to YouTube ({privacy.upper()})"
         )
 
-    # 8. Render LinkedIn Cover Banner & Generate LinkedIn Long-Form Article
     linkedin_cover = f"out/aibrief/linkedin_cover_{date_str}.png"
-    run_command(f"npx remotion still AIBriefLinkedInCover {linkedin_cover}", "Rendering 16:9 LinkedIn Article Cover Banner")
-    shutil.copyfile(linkedin_cover, "out/aibrief/linkedin_cover.png")
+    ok_cover = run_command(f"npx remotion still AIBriefLinkedInCover {linkedin_cover}", "Rendering 16:9 LinkedIn Article Cover Banner")
+    if os.path.exists(linkedin_cover):
+        shutil.copyfile(linkedin_cover, "out/aibrief/linkedin_cover.png")
 
     run_command(f"python src/aibrief/generate_linkedin_article.py --json {active_file}", "Generating LinkedIn Long-Form Article & Executive Dispatch")
 

@@ -147,11 +147,24 @@ def upload_video(youtube, file_path, title, description, tags, category_id="28",
     # YouTube publishes a private video automatically at publishAt.
     if publish_at:
         status["publishAt"] = publish_at
+    # Sanitize and enforce YouTube API constraints (max 5000 chars, no angle brackets)
+    clean_desc = description.replace("<", "").replace(">", "")
+    if len(clean_desc) > 4900:
+        clean_desc = clean_desc[:4900].rsplit("\n", 1)[0] + "\n\n... (Visit sanmitra.ai for full brief)"
+
+    safe_tags = []
+    curr_len = 0
+    for t in tags:
+        clean_t = t.replace("<", "").replace(">", "").strip()
+        if clean_t and curr_len + len(clean_t) < 400:
+            safe_tags.append(clean_t)
+            curr_len += len(clean_t) + 1
+
     body = {
         "snippet": {
             "title": title[:100], # YouTube max 100 chars
-            "description": description,
-            "tags": tags,
+            "description": clean_desc,
+            "tags": safe_tags,
             "categoryId": category_id,
             "defaultLanguage": "en",
         },

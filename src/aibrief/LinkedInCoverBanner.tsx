@@ -27,6 +27,10 @@ export const LinkedInCoverBanner: React.FC<LinkedInCoverProps> = ({
     { title: "Critical Defense", subtitle: "National Benchmarks", color: "#d97706", icon: "🏛️" },
   ],
 }) => {
+  const leadCut = ep?.stories?.[0]?.cuts?.[0]?.src 
+    ? ep.stories[0].cuts[0].src.replace(/^\/+/, "")
+    : (ep?.date ? `aibrief/assets/editorial/${ep.date}/s1_cut1.jpg` : "aibrief/assets/editorial/2026-10-06/s1_cut1.jpg");
+
   return (
     <div
       style={{
@@ -41,7 +45,7 @@ export const LinkedInCoverBanner: React.FC<LinkedInCoverProps> = ({
       {/* 1. EDITORIAL BACKGROUND WITH SOFT BLUR & HIGH-KEY LIGHTING */}
       <div style={{ position: "absolute", inset: 0, opacity: 0.45 }}>
         <Img
-          src={staticFile("aibrief/assets/editorial/2026-09-28/s1_cut1.jpg")}
+          src={staticFile(leadCut)}
           style={{ width: "100%", height: "100%", objectFit: "cover", filter: "blur(2px)" }}
         />
       </div>
