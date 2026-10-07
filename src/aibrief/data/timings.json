@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 14.76,
-    "sceneDurationSeconds": 15.96,
-    "durationInFrames": 479,
+    "audioDurationSeconds": 15.82,
+    "sceneDurationSeconds": 17.02,
+    "durationInFrames": 510,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_ukraine_deploys_autonomous_optic": {
-    "audioFile": "audio/aibrief/s1_s1_ukraine_deploys_autonomous_optic.mp3",
-    "audioDurationSeconds": 43.08,
-    "sceneDurationSeconds": 44.28,
-    "durationInFrames": 1328,
-    "title": "Story 1: Ukraine deploys autonomous optical turrets against Geran-5 drones as tactical AI spreads",
+  "s1_harmattan_ai_unveils_irifi_2_000": {
+    "audioFile": "audio/aibrief/s1_s1_harmattan_ai_unveils_irifi_2_000.mp3",
+    "audioDurationSeconds": 41.3,
+    "sceneDurationSeconds": 42.5,
+    "durationInFrames": 1275,
+    "title": "Story 1: Harmattan AI unveils IRIFI 2,000-kilometre autonomous strike drone as Morocco signs sovereign production pact",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_usa": {
@@ -22,20 +22,20 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_google_researchers_publish_medge": {
-    "audioFile": "audio/aibrief/s2_s2_google_researchers_publish_medge.mp3",
-    "audioDurationSeconds": 45.79,
-    "sceneDurationSeconds": 46.99,
-    "durationInFrames": 1410,
-    "title": "Story 2: Google researchers publish MedGemma medical vision models in Nature Medicine alongside EmbeddingGemma 2",
+  "s2_us_senate_outlines_frontier_ai_s": {
+    "audioFile": "audio/aibrief/s2_s2_us_senate_outlines_frontier_ai_s.mp3",
+    "audioDurationSeconds": 46.06,
+    "sceneDurationSeconds": 47.26,
+    "durationInFrames": 1418,
+    "title": "Story 2: US Senate outlines frontier AI safety framework as CLAIM Act introduces strict developer liability",
     "voice": "en-US-AriaNeural"
   },
-  "s3_reflection_ai_launches_beam_501": {
-    "audioFile": "audio/aibrief/s3_s3_reflection_ai_launches_beam_501.mp3",
-    "audioDurationSeconds": 35.71,
-    "sceneDurationSeconds": 36.91,
-    "durationInFrames": 1107,
-    "title": "Story 3: Reflection AI launches Beam 501-billion parameter open-weight reasoning model",
+  "s3_chan_zuckerberg_biohub_launches": {
+    "audioFile": "audio/aibrief/s3_s3_chan_zuckerberg_biohub_launches.mp3",
+    "audioDurationSeconds": 43.58,
+    "sceneDurationSeconds": 44.78,
+    "durationInFrames": 1344,
+    "title": "Story 3: Chan Zuckerberg Biohub launches 1.8 billion dollars AI Virtual Biology Initiative with US energy department and tech giants",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
@@ -45,12 +45,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s4_deepseek_nears_dollars_12_billio": {
-    "audioFile": "audio/aibrief/s4_s4_deepseek_nears_dollars_12_billio.mp3",
-    "audioDurationSeconds": 39.89,
-    "sceneDurationSeconds": 41.09,
-    "durationInFrames": 1233,
-    "title": "Story 4: DeepSeek nears dollars 12 billion funding round backed by Tencent and CATL for 160k Huawei chip cluster",
+  "s4_chinese_open_weight_ai_captures": {
+    "audioFile": "audio/aibrief/s4_s4_chinese_open_weight_ai_captures.mp3",
+    "audioDurationSeconds": 38.52,
+    "sceneDurationSeconds": 39.72,
+    "durationInFrames": 1192,
+    "title": "Story 4: Chinese open-weight AI captures global users as labs earn fraction of US rival revenues",
     "voice": "en-US-AriaNeural"
   },
   "transition_asia": {
@@ -60,12 +60,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
   },
-  "s5_japan_reviews_national_ai_legisl": {
-    "audioFile": "audio/aibrief/s5_s5_japan_reviews_national_ai_legisl.mp3",
-    "audioDurationSeconds": 31.7,
-    "sceneDurationSeconds": 32.9,
-    "durationInFrames": 987,
-    "title": "Story 5: Japan reviews national AI legislation to introduce statutory penalties for malicious AI operators",
+  "s5_singapore_enforces_binding_ai_ri": {
+    "audioFile": "audio/aibrief/s5_s5_singapore_enforces_binding_ai_ri.mp3",
+    "audioDurationSeconds": 40.66,
+    "sceneDurationSeconds": 41.86,
+    "durationInFrames": 1256,
+    "title": "Story 5: Singapore enforces binding AI risk guidelines for banks as IMF warns of AI infrastructure debt shock",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_india": {
@@ -75,91 +75,91 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s6_elevenlabs_commits_hundreds_of_m": {
-    "audioFile": "audio/aibrief/s6_s6_elevenlabs_commits_hundreds_of_m.mp3",
-    "audioDurationSeconds": 42.84,
-    "sceneDurationSeconds": 44.04,
-    "durationInFrames": 1321,
-    "title": "Story 6: ElevenLabs commits hundreds of millions of dollars to India, inks Karnataka government partnership",
+  "s6_meity_awards_corover_contract_fo": {
+    "audioFile": "audio/aibrief/s6_s6_meity_awards_corover_contract_fo.mp3",
+    "audioDurationSeconds": 45.72,
+    "sceneDurationSeconds": 46.92,
+    "durationInFrames": 1408,
+    "title": "Story 6: MeitY awards CoRover contract for Unified Government AI platform as IndiaAI Mission demands global safety voice",
     "voice": "en-US-AriaNeural"
   },
-  "s7_mistral_unveils_mistral_large_4": {
-    "audioFile": "audio/aibrief/s7_s7_mistral_unveils_mistral_large_4.mp3",
-    "audioDurationSeconds": 37.61,
-    "sceneDurationSeconds": 38.81,
-    "durationInFrames": 1164,
-    "title": "Story 7: Mistral unveils Mistral Large 4 with one trillion parameters trained on Grace Blackwell cluster",
+  "s7_openai_publishes_722_mathematica": {
+    "audioFile": "audio/aibrief/s7_s7_openai_publishes_722_mathematica.mp3",
+    "audioDurationSeconds": 43.1,
+    "sceneDurationSeconds": 44.3,
+    "durationInFrames": 1329,
+    "title": "Story 7: OpenAI publishes 722 mathematical discovery papers from unreleased internal frontier reasoning model",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_openai_introduces_textgrain_invi": {
-    "audioFile": "audio/aibrief/s8_s8_openai_introduces_textgrain_invi.mp3",
-    "audioDurationSeconds": 41.81,
-    "sceneDurationSeconds": 43.01,
-    "durationInFrames": 1290,
-    "title": "Story 8: OpenAI introduces textGrain invisible watermarks across ChatGPT outputs in the European Union",
+  "s8_google_deepmind_launches_univers": {
+    "audioFile": "audio/aibrief/s8_s8_google_deepmind_launches_univers.mp3",
+    "audioDurationSeconds": 47.06,
+    "sceneDurationSeconds": 48.26,
+    "durationInFrames": 1448,
+    "title": "Story 8: Google DeepMind launches universal SynthID Detector worldwide to identify AI-generated media",
     "voice": "en-US-AriaNeural"
   },
-  "s9_canada_establishes_national_ai_c": {
-    "audioFile": "audio/aibrief/s9_s9_canada_establishes_national_ai_c.mp3",
-    "audioDurationSeconds": 31.42,
-    "sceneDurationSeconds": 32.62,
-    "durationInFrames": 978,
-    "title": "Story 9: Canada establishes National AI Council to steer sovereign infrastructure and governance",
+  "s9_meta_and_sierra_introduce_person": {
+    "audioFile": "audio/aibrief/s9_s9_meta_and_sierra_introduce_person.mp3",
+    "audioDurationSeconds": 46.75,
+    "sceneDurationSeconds": 47.95,
+    "durationInFrames": 1439,
+    "title": "Story 9: Meta and Sierra introduce Personal Agent Protocol as Nous Research secures 90 million dollars",
     "voice": "en-US-ChristopherNeural"
   },
-  "s10_northrop_grumman_autonomous_talo": {
-    "audioFile": "audio/aibrief/s10_s10_northrop_grumman_autonomous_talo.mp3",
-    "audioDurationSeconds": 39.05,
-    "sceneDurationSeconds": 40.25,
-    "durationInFrames": 1207,
-    "title": "Story 10: Northrop Grumman autonomous Talon Blue aircraft completes maiden flight amid Pentagon swarm expansion",
+  "s10_pentagon_accelerates_kill_chain": {
+    "audioFile": "audio/aibrief/s10_s10_pentagon_accelerates_kill_chain.mp3",
+    "audioDurationSeconds": 43.25,
+    "sceneDurationSeconds": 44.45,
+    "durationInFrames": 1333,
+    "title": "Story 10: Pentagon accelerates kill-chain AI procurement via 5-minute pitches as Navy tests MQ-20 autonomous swarms",
     "voice": "en-US-AriaNeural"
   },
-  "s11_openai_and_anthropic_endorse_man": {
-    "audioFile": "audio/aibrief/s11_s11_openai_and_anthropic_endorse_man.mp3",
-    "audioDurationSeconds": 31.25,
-    "sceneDurationSeconds": 32.45,
-    "durationInFrames": 973,
-    "title": "Story 11: OpenAI and Anthropic endorse mandatory reporting standards for autonomous agent security breaches",
+  "s11_china_reinforces_sovereign_ai_go": {
+    "audioFile": "audio/aibrief/s11_s11_china_reinforces_sovereign_ai_go.mp3",
+    "audioDurationSeconds": 33.79,
+    "sceneDurationSeconds": 34.99,
+    "durationInFrames": 1050,
+    "title": "Story 11: China reinforces sovereign AI governance architecture balancing state oversight with industrial expansion",
     "voice": "en-US-ChristopherNeural"
   },
-  "s12_chinese_technology_majors_accele": {
-    "audioFile": "audio/aibrief/s12_s12_chinese_technology_majors_accele.mp3",
-    "audioDurationSeconds": 36.22,
-    "sceneDurationSeconds": 37.42,
-    "durationInFrames": 1122,
-    "title": "Story 12: Chinese technology majors accelerate consumer deployment of persistent personal AI agents",
+  "s12_amd_establishes_south_korea_ai_r": {
+    "audioFile": "audio/aibrief/s12_s12_amd_establishes_south_korea_ai_r.mp3",
+    "audioDurationSeconds": 37.94,
+    "sceneDurationSeconds": 39.14,
+    "durationInFrames": 1174,
+    "title": "Story 12: AMD establishes South Korea AI research center to co-develop accelerator reference designs with domestic NPU startups",
     "voice": "en-US-AriaNeural"
   },
-  "s13_sk_telecom_unveils_ai_staff_offi": {
-    "audioFile": "audio/aibrief/s13_s13_sk_telecom_unveils_ai_staff_offi.mp3",
-    "audioDurationSeconds": 29.76,
-    "sceneDurationSeconds": 30.96,
-    "durationInFrames": 929,
-    "title": "Story 13: SK Telecom unveils AI Staff Officer for battlefield situational analysis under Korean Army TIGER+ program",
+  "s13_google_brings_gemini_auto_browse": {
+    "audioFile": "audio/aibrief/s13_s13_google_brings_gemini_auto_browse.mp3",
+    "audioDurationSeconds": 42.74,
+    "sceneDurationSeconds": 43.94,
+    "durationInFrames": 1318,
+    "title": "Story 13: Google brings Gemini auto-browse to Chrome in India as tech leaders champion low-cost sovereign inference",
     "voice": "en-US-ChristopherNeural"
   },
-  "s14_ai_chip_software_developer_vinci": {
-    "audioFile": "audio/aibrief/s14_s14_ai_chip_software_developer_vinci.mp3",
-    "audioDurationSeconds": 34.61,
-    "sceneDurationSeconds": 35.81,
-    "durationInFrames": 1074,
-    "title": "Story 14: AI chip software developer Vinci secures dollars 250 million at dollars 1.5 billion valuation as World Bank assesses regional adoption",
+  "s14_boston_dynamics_appoints_former": {
+    "audioFile": "audio/aibrief/s14_s14_boston_dynamics_appoints_former.mp3",
+    "audioDurationSeconds": 32.98,
+    "sceneDurationSeconds": 34.18,
+    "durationInFrames": 1025,
+    "title": "Story 14: Boston Dynamics appoints former Amazon AI robotics chief as CEO amid accelerating humanoid commercialization",
     "voice": "en-US-AriaNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 39.79,
-    "sceneDurationSeconds": 40.99,
-    "durationInFrames": 1230,
+    "audioDurationSeconds": 44.81,
+    "sceneDurationSeconds": 46.01,
+    "durationInFrames": 1380,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },
   "market_snapshot": {
     "audioFile": "audio/aibrief/s_market_snapshot.mp3",
-    "audioDurationSeconds": 42.46,
-    "sceneDurationSeconds": 43.66,
-    "durationInFrames": 1310,
+    "audioDurationSeconds": 47.52,
+    "sceneDurationSeconds": 48.72,
+    "durationInFrames": 1462,
     "title": "AI Market Snapshot",
     "voice": "en-US-AriaNeural"
   },
