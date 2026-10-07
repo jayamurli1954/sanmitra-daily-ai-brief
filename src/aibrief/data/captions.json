@@ -3,1962 +3,2106 @@
     "index": 1,
     "sceneId": "intro",
     "startFrame": 0,
-    "endFrame": 75,
+    "endFrame": 80,
     "startSeconds": 0.0,
-    "endSeconds": 2.5,
-    "text": "In a landmark development, NATO incorporates"
+    "endSeconds": 2.68,
+    "text": "In a landmark development, Ukraine deploys"
   },
   {
     "index": 2,
     "sceneId": "intro",
-    "startFrame": 75,
-    "endFrame": 151,
-    "startSeconds": 2.5,
-    "endSeconds": 5.02,
-    "text": "AI targeting and autonomous systems into"
+    "startFrame": 80,
+    "endFrame": 158,
+    "startSeconds": 2.68,
+    "endSeconds": 5.26,
+    "text": "autonomous optical turrets against Garen, five"
   },
   {
     "index": 3,
     "sceneId": "intro",
-    "startFrame": 151,
-    "endFrame": 239,
-    "startSeconds": 5.02,
-    "endSeconds": 7.98,
-    "text": "Eastern flank defence doctrine. From the"
+    "startFrame": 158,
+    "endFrame": 253,
+    "startSeconds": 5.26,
+    "endSeconds": 8.42,
+    "text": "drones as tactical AI spreads. From"
   },
   {
     "index": 4,
     "sceneId": "intro",
-    "startFrame": 239,
-    "endFrame": 300,
-    "startSeconds": 7.98,
-    "endSeconds": 10.0,
-    "text": "SanMitra newsroom, here is the daily"
+    "startFrame": 253,
+    "endFrame": 311,
+    "startSeconds": 8.42,
+    "endSeconds": 10.38,
+    "text": "the SanMitra newsroom, here is the"
   },
   {
     "index": 5,
     "sceneId": "intro",
-    "startFrame": 300,
-    "endFrame": 391,
-    "startSeconds": 10.0,
-    "endSeconds": 13.02,
-    "text": "AI brief for October 6, 2026."
+    "startFrame": 311,
+    "endFrame": 373,
+    "startSeconds": 10.38,
+    "endSeconds": 12.44,
+    "text": "daily AI brief for October 7,"
   },
   {
     "index": 6,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 462,
-    "endFrame": 523,
-    "startSeconds": 15.41,
-    "endSeconds": 17.43,
-    "text": "In our lead story today, Supreme"
+    "sceneId": "intro",
+    "startFrame": 383,
+    "endFrame": 407,
+    "startSeconds": 12.78,
+    "endSeconds": 13.56,
+    "text": "2026."
   },
   {
     "index": 7,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 523,
-    "endFrame": 600,
-    "startSeconds": 17.43,
-    "endSeconds": 20.01,
-    "text": "Allied Commander Europe General Alexis Grinkwich"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 479,
+    "endFrame": 548,
+    "startSeconds": 15.96,
+    "endSeconds": 18.26,
+    "text": "In our lead story today, Ukraine's"
   },
   {
     "index": 8,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 600,
-    "endFrame": 680,
-    "startSeconds": 20.01,
-    "endSeconds": 22.65,
-    "text": "is preparing an unclassified operational strategy"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 548,
+    "endFrame": 600,
+    "startSeconds": 18.26,
+    "endSeconds": 20.0,
+    "text": "Air Force confirmed that newly deployed"
   },
   {
     "index": 9,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 680,
-    "endFrame": 742,
-    "startSeconds": 22.65,
-    "endSeconds": 24.75,
-    "text": "titled theory of victory detailing how"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 600,
+    "endFrame": 667,
+    "startSeconds": 20.0,
+    "endSeconds": 22.24,
+    "text": "robotic machine -gun turrets equipped with"
   },
   {
     "index": 10,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 742,
-    "endFrame": 794,
-    "startSeconds": 24.75,
-    "endSeconds": 26.45,
-    "text": "the alliance plans to repel potential"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 667,
+    "endFrame": 731,
+    "startSeconds": 22.24,
+    "endSeconds": 24.38,
+    "text": "computer vision are intercepting Russia's jet"
   },
   {
     "index": 11,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 794,
-    "endFrame": 894,
-    "startSeconds": 26.45,
-    "endSeconds": 29.81,
-    "text": "incursions across Europe's eastern flank. The"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 731,
+    "endFrame": 795,
+    "startSeconds": 24.38,
+    "endSeconds": 26.5,
+    "text": "-powered Garen 5 drones over Kiev."
   },
   {
     "index": 12,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 894,
-    "endFrame": 950,
-    "startSeconds": 29.81,
-    "endSeconds": 31.67,
-    "text": "framework centers on the eastern flank"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 830,
+    "endFrame": 927,
+    "startSeconds": 27.68,
+    "endSeconds": 30.9,
+    "text": "Presidential technology advisor Sergei Biscrestnow reported"
   },
   {
     "index": 13,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 950,
-    "endFrame": 1033,
-    "startSeconds": 31.67,
-    "endSeconds": 34.43,
-    "text": "deterrence initiative, integrating low -cost unmanned"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 927,
+    "endFrame": 992,
+    "startSeconds": 30.9,
+    "endSeconds": 33.08,
+    "text": "that 12 automated turrets operate across"
   },
   {
     "index": 14,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 1033,
-    "endFrame": 1134,
-    "startSeconds": 34.43,
-    "endSeconds": 37.79,
-    "text": "aerial systems, autonomous ground vehicles, and"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 992,
+    "endFrame": 1070,
+    "startSeconds": 33.08,
+    "endSeconds": 35.66,
+    "text": "strategic bridges, tracking targets on terminal"
   },
   {
     "index": 15,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 1134,
-    "endFrame": 1206,
-    "startSeconds": 37.79,
-    "endSeconds": 40.19,
-    "text": "machine speed artificial intelligence targeting to"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 1070,
+    "endFrame": 1135,
+    "startSeconds": 35.66,
+    "endSeconds": 37.84,
+    "text": "approach and engaging without human trigger"
   },
   {
     "index": 16,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 1206,
-    "endFrame": 1281,
-    "startSeconds": 40.19,
-    "endSeconds": 42.69,
-    "text": "disrupt hostile command networks before territorial"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 1135,
+    "endFrame": 1248,
+    "startSeconds": 37.84,
+    "endSeconds": 41.6,
+    "text": "pull. Concurrently at Land Force's 2026"
   },
   {
     "index": 17,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 1281,
-    "endFrame": 1382,
-    "startSeconds": 42.69,
-    "endSeconds": 46.07,
-    "text": "advances can be consolidated. The doctrine,"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 1248,
+    "endFrame": 1331,
+    "startSeconds": 41.6,
+    "endSeconds": 44.36,
+    "text": "in Perth, Shield AI and Australia's"
   },
   {
     "index": 18,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 1392,
-    "endFrame": 1451,
-    "startSeconds": 46.39,
-    "endSeconds": 48.37,
-    "text": "scheduled for presentation in Poland on"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 1331,
+    "endFrame": 1378,
+    "startSeconds": 44.36,
+    "endSeconds": 45.94,
+    "text": "Inavero announced that the HIVE -M"
   },
   {
     "index": 19,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 1451,
-    "endFrame": 1536,
-    "startSeconds": 48.37,
-    "endSeconds": 51.19,
-    "text": "October 12, establishes automated sensor -to"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 1378,
+    "endFrame": 1430,
+    "startSeconds": 45.94,
+    "endSeconds": 47.68,
+    "text": "mined autonomy stack will fly aboard"
   },
   {
     "index": 20,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 1536,
-    "endFrame": 1593,
-    "startSeconds": 51.19,
-    "endSeconds": 53.09,
-    "text": "-shooter integration as a baseline requirement"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 1430,
+    "endFrame": 1486,
+    "startSeconds": 47.68,
+    "endSeconds": 49.54,
+    "text": "the O .W .L. Loitering Munition"
   },
   {
     "index": 21,
-    "sceneId": "s1_nato_incorporates_ai_targeting_a",
-    "startFrame": 1593,
-    "endFrame": 1653,
-    "startSeconds": 53.09,
-    "endSeconds": 55.11,
-    "text": "for European military modernization."
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 1486,
+    "endFrame": 1559,
+    "startSeconds": 49.54,
+    "endSeconds": 51.96,
+    "text": "family for coordinated multi -drone operations,"
   },
   {
     "index": 22,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 1790,
-    "endFrame": 1853,
-    "startSeconds": 59.67,
-    "endSeconds": 61.77,
-    "text": "Turning to the United States, researchers"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 1571,
+    "endFrame": 1645,
+    "startSeconds": 52.36,
+    "endSeconds": 54.82,
+    "text": "demonstrating that terminal phase autonomous engagement"
   },
   {
     "index": 23,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 1853,
-    "endFrame": 1922,
-    "startSeconds": 61.77,
-    "endSeconds": 64.05,
-    "text": "at the Massachusetts Institute of Technology,"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 1645,
+    "endFrame": 1723,
+    "startSeconds": 54.82,
+    "endSeconds": 57.44,
+    "text": "is rapidly standardizing across modern defense"
   },
   {
     "index": 24,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 1941,
-    "endFrame": 1997,
-    "startSeconds": 64.71,
-    "endSeconds": 66.57,
-    "text": "including caming he and Kathy Wu,"
+    "sceneId": "s1_ukraine_deploys_autonomous_optic",
+    "startFrame": 1723,
+    "endFrame": 1738,
+    "startSeconds": 57.44,
+    "endSeconds": 57.92,
+    "text": "doctrine."
   },
   {
     "index": 25,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 2007,
-    "endFrame": 2118,
-    "startSeconds": 66.91,
-    "endSeconds": 70.61,
-    "text": "introduced Vista and OpenDash. Without fine"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 1867,
+    "endFrame": 1927,
+    "startSeconds": 62.24,
+    "endSeconds": 64.22,
+    "text": "Turning to the United States, Google"
   },
   {
     "index": 26,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 2118,
-    "endFrame": 2208,
-    "startSeconds": 70.61,
-    "endSeconds": 73.59,
-    "text": "-tuning underlying model weights, Vista enabled"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 1927,
+    "endFrame": 2005,
+    "startSeconds": 64.22,
+    "endSeconds": 66.82,
+    "text": "Cloud and DeepMind researchers published peer"
   },
   {
     "index": 27,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 2208,
-    "endFrame": 2277,
-    "startSeconds": 73.59,
-    "endSeconds": 75.91,
-    "text": "Claude Opus 5 .0 to advance"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 2005,
+    "endFrame": 2078,
+    "startSeconds": 66.82,
+    "endSeconds": 69.26,
+    "text": "-reviewed findings in Nature Medicine validating"
   },
   {
     "index": 28,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 2277,
-    "endFrame": 2329,
-    "startSeconds": 75.91,
-    "endSeconds": 77.63,
-    "text": "from a baseline score of 40"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 2078,
+    "endFrame": 2156,
+    "startSeconds": 69.26,
+    "endSeconds": 71.88,
+    "text": "MedGEMMA, a multimodal medical vision language"
   },
   {
     "index": 29,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 2329,
-    "endFrame": 2396,
-    "startSeconds": 77.63,
-    "endSeconds": 79.85,
-    "text": "% to a perfect 100 %"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 2156,
+    "endFrame": 2216,
+    "startSeconds": 71.88,
+    "endSeconds": 73.86,
+    "text": "model built on Gemma3 and the"
   },
   {
     "index": 30,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 2396,
-    "endFrame": 2450,
-    "startSeconds": 79.85,
-    "endSeconds": 81.65,
-    "text": "on the Arc AGI -3 reasoning"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 2216,
+    "endFrame": 2303,
+    "startSeconds": 73.86,
+    "endSeconds": 76.76,
+    "text": "MedSig LIP encoder. On out -of"
   },
   {
     "index": 31,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 2450,
-    "endFrame": 2541,
-    "startSeconds": 81.65,
-    "endSeconds": 84.71,
-    "text": "evaluation while requiring 57 % fewer"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 2303,
+    "endFrame": 2410,
+    "startSeconds": 76.76,
+    "endSeconds": 80.32,
+    "text": "-distribution clinical evaluations, MedGEMMA achieved an"
   },
   {
     "index": 32,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 2541,
-    "endFrame": 2643,
-    "startSeconds": 84.71,
-    "endSeconds": 88.09,
-    "text": "iterative actions than human baselines. The"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 2410,
+    "endFrame": 2486,
+    "startSeconds": 80.32,
+    "endSeconds": 82.86,
+    "text": "18 % improvement in chest radiograph"
   },
   {
     "index": 33,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 2643,
-    "endFrame": 2739,
-    "startSeconds": 88.09,
-    "endSeconds": 91.31,
-    "text": "architecture demonstrates that agentic reasoning bottlenecks"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 2486,
+    "endFrame": 2587,
+    "startSeconds": 82.86,
+    "endSeconds": 86.22,
+    "text": "anomaly classification, with board -certified thoracic"
   },
   {
     "index": 34,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 2739,
-    "endFrame": 2808,
-    "startSeconds": 91.31,
-    "endSeconds": 93.61,
-    "text": "often stem from perceptual memory degradation"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 2587,
+    "endFrame": 2672,
+    "startSeconds": 86.22,
+    "endSeconds": 89.08,
+    "text": "radiologists rating 81 % of generated"
   },
   {
     "index": 35,
-    "sceneId": "s2_mit_researchers_unveil_vista_vis",
-    "startFrame": 2808,
-    "endFrame": 2884,
-    "startSeconds": 93.61,
-    "endSeconds": 96.15,
-    "text": "rather than fundamental model capacity limits."
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 2672,
+    "endFrame": 2757,
+    "startSeconds": 89.08,
+    "endSeconds": 91.9,
+    "text": "diagnostic reports as clinically equivalent or"
   },
   {
     "index": 36,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 2956,
-    "endFrame": 3049,
-    "startSeconds": 98.53,
-    "endSeconds": 101.63,
-    "text": "In concurrent industry updates, OpenAI confirmed"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 2757,
+    "endFrame": 2914,
+    "startSeconds": 91.9,
+    "endSeconds": 97.14,
+    "text": "superior. Concurrently, Google released embedding Gemma2,"
   },
   {
     "index": 37,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 3049,
-    "endFrame": 3108,
-    "startSeconds": 101.63,
-    "endSeconds": 103.59,
-    "text": "it has initiated closed testing of"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 2926,
+    "endFrame": 3010,
+    "startSeconds": 97.52,
+    "endSeconds": 100.32,
+    "text": "an open 740 million parameter unified"
   },
   {
     "index": 38,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 3108,
-    "endFrame": 3190,
-    "startSeconds": 103.59,
-    "endSeconds": 106.35,
-    "text": "visual display advertising displayed alongside user"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 3010,
+    "endFrame": 3100,
+    "startSeconds": 100.32,
+    "endSeconds": 103.32,
+    "text": "multimodal embedding model mapping text, code,"
   },
   {
     "index": 39,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 3190,
-    "endFrame": 3283,
-    "startSeconds": 106.35,
-    "endSeconds": 109.43,
-    "text": "-generated images inside chat GPT, marking"
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 3110,
+    "endFrame": 3169,
+    "startSeconds": 103.66,
+    "endSeconds": 105.64,
+    "text": "audio, and video into a single"
   },
   {
     "index": 40,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 3283,
-    "endFrame": 3377,
-    "startSeconds": 109.43,
-    "endSeconds": 112.57,
-    "text": "its initial transition toward conversational admonitization."
+    "sceneId": "s2_google_researchers_publish_medge",
+    "startFrame": 3169,
+    "endFrame": 3206,
+    "startSeconds": 105.64,
+    "endSeconds": 106.88,
+    "text": "on -device vector space."
   },
   {
     "index": 41,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 3400,
-    "endFrame": 3465,
-    "startSeconds": 113.33,
-    "endSeconds": 115.49,
-    "text": "The company stated the sponsored units"
+    "sceneId": "s3_reflection_ai_launches_beam_501",
+    "startFrame": 3277,
+    "endFrame": 3358,
+    "startSeconds": 109.23,
+    "endSeconds": 111.93,
+    "text": "In concurrent industry updates, Brooklyn -based"
   },
   {
     "index": 42,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 3465,
-    "endFrame": 3519,
-    "startSeconds": 115.49,
-    "endSeconds": 117.29,
-    "text": "will remain clearly labeled and will"
+    "sceneId": "s3_reflection_ai_launches_beam_501",
+    "startFrame": 3358,
+    "endFrame": 3446,
+    "startSeconds": 111.93,
+    "endSeconds": 114.87,
+    "text": "AI Research Lab Reflection AI, founded"
   },
   {
     "index": 43,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 3519,
-    "endFrame": 3646,
-    "startSeconds": 117.29,
-    "endSeconds": 121.55,
-    "text": "not alter conversational answer generation. Simultaneously,"
+    "sceneId": "s3_reflection_ai_launches_beam_501",
+    "startFrame": 3446,
+    "endFrame": 3525,
+    "startSeconds": 114.87,
+    "endSeconds": 117.49,
+    "text": "by former DeepMind researchers Misha Laskin"
   },
   {
     "index": 44,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 3658,
-    "endFrame": 3722,
-    "startSeconds": 121.93,
-    "endSeconds": 124.07,
-    "text": "Indian FinTech leader Razorpay signed a"
+    "sceneId": "s3_reflection_ai_launches_beam_501",
+    "startFrame": 3525,
+    "endFrame": 3606,
+    "startSeconds": 117.49,
+    "endSeconds": 120.19,
+    "text": "and Ioannis Antonigla, introduced BEAM, a"
   },
   {
     "index": 45,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 3722,
-    "endFrame": 3790,
-    "startSeconds": 124.07,
-    "endSeconds": 126.33,
-    "text": "partnership agreement with OpenAI to enable"
+    "sceneId": "s3_reflection_ai_launches_beam_501",
+    "startFrame": 3606,
+    "endFrame": 3677,
+    "startSeconds": 120.19,
+    "endSeconds": 122.57,
+    "text": "501 billion parameter mixture of experts"
   },
   {
     "index": 46,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 3790,
-    "endFrame": 3864,
-    "startSeconds": 126.33,
-    "endSeconds": 128.81,
-    "text": "major consumer brands to orchestrate targeted"
+    "sceneId": "s3_reflection_ai_launches_beam_501",
+    "startFrame": 3677,
+    "endFrame": 3762,
+    "startSeconds": 122.57,
+    "endSeconds": 125.41,
+    "text": "model activating 23 billion parameters per"
   },
   {
     "index": 47,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 3864,
-    "endFrame": 3948,
-    "startSeconds": 128.81,
-    "endSeconds": 131.59,
-    "text": "campaigns, as frontier labs explore commercial"
+    "sceneId": "s3_reflection_ai_launches_beam_501",
+    "startFrame": 3762,
+    "endFrame": 3862,
+    "startSeconds": 125.41,
+    "endSeconds": 128.75,
+    "text": "token. Trained with intensive reinforcement learning"
   },
   {
     "index": 48,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 3948,
-    "endFrame": 4028,
-    "startSeconds": 131.59,
-    "endSeconds": 134.25,
-    "text": "monetization models amid mounting compute and"
+    "sceneId": "s3_reflection_ai_launches_beam_501",
+    "startFrame": 3862,
+    "endFrame": 3962,
+    "startSeconds": 128.75,
+    "endSeconds": 132.05,
+    "text": "across 10 ,500 NVIDIA GB -300"
   },
   {
     "index": 49,
-    "sceneId": "s3_openai_begins_testing_visual_dis",
-    "startFrame": 4028,
-    "endFrame": 4053,
-    "startSeconds": 134.25,
-    "endSeconds": 135.09,
-    "text": "inference costs."
+    "sceneId": "s3_reflection_ai_launches_beam_501",
+    "startFrame": 3962,
+    "endFrame": 4046,
+    "startSeconds": 132.05,
+    "endSeconds": 134.87,
+    "text": "GPUs, BEAM matches leading Chinese models"
   },
   {
     "index": 50,
-    "sceneId": "s4_independent_researchers_track_ro",
-    "startFrame": 4182,
-    "endFrame": 4284,
-    "startSeconds": 139.39,
-    "endSeconds": 142.79,
-    "text": "Meanwhile in China, cybersecurity researchers tracking"
+    "sceneId": "s3_reflection_ai_launches_beam_501",
+    "startFrame": 4046,
+    "endFrame": 4116,
+    "startSeconds": 134.87,
+    "endSeconds": 137.21,
+    "text": "on rigorous mathematical reasoning while utilizing"
   },
   {
     "index": 51,
-    "sceneId": "s4_independent_researchers_track_ro",
-    "startFrame": 4284,
-    "endFrame": 4365,
-    "startSeconds": 142.79,
-    "endSeconds": 145.49,
-    "text": "autonomous networks uncovered an active fleet"
+    "sceneId": "s3_reflection_ai_launches_beam_501",
+    "startFrame": 4116,
+    "endFrame": 4191,
+    "startSeconds": 137.21,
+    "endSeconds": 139.71,
+    "text": "roughly 70 % less inference compute,"
   },
   {
     "index": 52,
-    "sceneId": "s4_independent_researchers_track_ro",
-    "startFrame": 4365,
-    "endFrame": 4445,
-    "startSeconds": 145.49,
-    "endSeconds": 148.17,
-    "text": "of artificial intelligence agents operating through"
+    "sceneId": "s3_reflection_ai_launches_beam_501",
+    "startFrame": 4200,
+    "endFrame": 4246,
+    "startSeconds": 140.01,
+    "endSeconds": 141.53,
+    "text": "with weights slated for open Apache"
   },
   {
     "index": 53,
-    "sceneId": "s4_independent_researchers_track_ro",
-    "startFrame": 4445,
-    "endFrame": 4521,
-    "startSeconds": 148.17,
-    "endSeconds": 150.69,
-    "text": "10 -cent proxy infrastructure that systematically"
+    "sceneId": "s3_reflection_ai_launches_beam_501",
+    "startFrame": 4246,
+    "endFrame": 4317,
+    "startSeconds": 141.53,
+    "endSeconds": 143.91,
+    "text": "2 .0 release later this month."
   },
   {
     "index": 54,
-    "sceneId": "s4_independent_researchers_track_ro",
-    "startFrame": 4521,
-    "endFrame": 4603,
-    "startSeconds": 150.69,
-    "endSeconds": 153.43,
-    "text": "executed thousands of automated routing queries"
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 4444,
+    "endFrame": 4529,
+    "startSeconds": 148.14,
+    "endSeconds": 150.98,
+    "text": "Meanwhile in China, Hangzhou -based DeepSeek"
   },
   {
     "index": 55,
-    "sceneId": "s4_independent_researchers_track_ro",
-    "startFrame": 4603,
-    "endFrame": 4744,
-    "startSeconds": 153.43,
-    "endSeconds": 158.13,
-    "text": "against Alibaba's AMAP Navigation Service. Operating"
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 4529,
+    "endFrame": 4589,
+    "startSeconds": 150.98,
+    "endSeconds": 152.96,
+    "text": "is finalizing an 80 to 100"
   },
   {
     "index": 56,
-    "sceneId": "s4_independent_researchers_track_ro",
-    "startFrame": 4744,
-    "endFrame": 4833,
-    "startSeconds": 158.13,
-    "endSeconds": 161.11,
-    "text": "under the proxy signature Heisenboxots, the"
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 4589,
+    "endFrame": 4647,
+    "startSeconds": 152.96,
+    "endSeconds": 154.9,
+    "text": "billion yuan funding round led by"
   },
   {
     "index": 57,
-    "sceneId": "s4_independent_researchers_track_ro",
-    "startFrame": 4833,
-    "endFrame": 4912,
-    "startSeconds": 161.11,
-    "endSeconds": 163.73,
-    "text": "multi -agent fleet successfully bypassed conventional"
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 4647,
+    "endFrame": 4732,
+    "startSeconds": 154.9,
+    "endSeconds": 157.72,
+    "text": "Tencent in contemporary battery giant CATL,"
   },
   {
     "index": 58,
-    "sceneId": "s4_independent_researchers_track_ro",
-    "startFrame": 4912,
-    "endFrame": 4988,
-    "startSeconds": 163.73,
-    "endSeconds": 166.25,
-    "text": "anti -scraping safeguards and rate limits."
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 4746,
+    "endFrame": 4794,
+    "startSeconds": 158.2,
+    "endSeconds": 159.8,
+    "text": "valuing the company ahead of a"
   },
   {
     "index": 59,
-    "sceneId": "s4_independent_researchers_track_ro",
-    "startFrame": 4988,
-    "endFrame": 5097,
-    "startSeconds": 166.25,
-    "endSeconds": 169.89,
-    "text": "The discovery highlights growing challenges across"
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 4794,
+    "endFrame": 4913,
+    "startSeconds": 159.8,
+    "endSeconds": 163.78,
+    "text": "projected 2027 initial public offering. The"
   },
   {
     "index": 60,
-    "sceneId": "s4_independent_researchers_track_ro",
-    "startFrame": 5097,
-    "endFrame": 5178,
-    "startSeconds": 169.89,
-    "endSeconds": 172.61,
-    "text": "China's technology sector in containing autonomous"
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 4913,
+    "endFrame": 4965,
+    "startSeconds": 163.78,
+    "endSeconds": 165.5,
+    "text": "capital will fund a massive compute"
   },
   {
     "index": 61,
-    "sceneId": "s4_independent_researchers_track_ro",
-    "startFrame": 5178,
-    "endFrame": 5275,
-    "startSeconds": 172.61,
-    "endSeconds": 175.83,
-    "text": "agent workloads operating beyond designated sandbox"
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 4965,
+    "endFrame": 5044,
+    "startSeconds": 165.5,
+    "endSeconds": 168.12,
+    "text": "installation in Inner Mongolia housing over"
   },
   {
     "index": 62,
-    "sceneId": "s4_independent_researchers_track_ro",
-    "startFrame": 5275,
-    "endFrame": 5302,
-    "startSeconds": 175.83,
-    "endSeconds": 176.73,
-    "text": "environments."
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 5044,
+    "endFrame": 5159,
+    "startSeconds": 168.12,
+    "endSeconds": 171.96,
+    "text": "160 ,000 Huawei Ascend accelerators, creating"
   },
   {
     "index": 63,
-    "sceneId": "s5_bank_of_japan_warns_global_ai_co",
-    "startFrame": 5433,
-    "endFrame": 5495,
-    "startSeconds": 181.11,
-    "endSeconds": 183.17,
-    "text": "In Asia, Bank of Japan Deputy"
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 5159,
+    "endFrame": 5221,
+    "startSeconds": 171.96,
+    "endSeconds": 174.02,
+    "text": "one of China's largest sovereign computing"
   },
   {
     "index": 64,
-    "sceneId": "s5_bank_of_japan_warns_global_ai_co",
-    "startFrame": 5495,
-    "endFrame": 5576,
-    "startSeconds": 183.17,
-    "endSeconds": 185.85,
-    "text": "Governor Shinichi Uchita cautioned international monetary"
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 5221,
+    "endFrame": 5344,
+    "startSeconds": 174.02,
+    "endSeconds": 178.14,
+    "text": "clusters. Alongside the capital raise, DeepSeek"
   },
   {
     "index": 65,
-    "sceneId": "s5_bank_of_japan_warns_global_ai_co",
-    "startFrame": 5576,
-    "endFrame": 5654,
-    "startSeconds": 185.85,
-    "endSeconds": 188.45,
-    "text": "policymakers that while massive capital investment"
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 5344,
+    "endFrame": 5419,
+    "startSeconds": 178.14,
+    "endSeconds": 180.62,
+    "text": "released DeepSeek V4 Flash Vision EXP"
   },
   {
     "index": 66,
-    "sceneId": "s5_bank_of_japan_warns_global_ai_co",
-    "startFrame": 5654,
-    "endFrame": 5739,
-    "startSeconds": 188.45,
-    "endSeconds": 191.31,
-    "text": "into artificial intelligence infrastructure has provided"
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 5419,
+    "endFrame": 5491,
+    "startSeconds": 180.62,
+    "endSeconds": 183.02,
+    "text": "under an open MIT license on"
   },
   {
     "index": 67,
-    "sceneId": "s5_bank_of_japan_warns_global_ai_co",
-    "startFrame": 5739,
-    "endFrame": 5837,
-    "startSeconds": 191.31,
-    "endSeconds": 194.57,
-    "text": "temporary liquidity and inflated technology valuations,"
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 5491,
+    "endFrame": 5577,
+    "startSeconds": 183.02,
+    "endSeconds": 185.9,
+    "text": "hugging face, intensifying domestic open -weight"
   },
   {
     "index": 68,
-    "sceneId": "s5_bank_of_japan_warns_global_ai_co",
-    "startFrame": 5855,
-    "endFrame": 5908,
-    "startSeconds": 195.17,
-    "endSeconds": 196.93,
-    "text": "central banks must prepare for severe"
+    "sceneId": "s4_deepseek_nears_dollars_12_billio",
+    "startFrame": 5577,
+    "endFrame": 5604,
+    "startSeconds": 185.9,
+    "endSeconds": 186.8,
+    "text": "deployment velocity."
   },
   {
     "index": 69,
-    "sceneId": "s5_bank_of_japan_warns_global_ai_co",
-    "startFrame": 5908,
-    "endFrame": 5988,
-    "startSeconds": 196.93,
-    "endSeconds": 199.61,
-    "text": "market pullbacks of commercial enterprise monetization"
+    "sceneId": "s5_japan_reviews_national_ai_legisl",
+    "startFrame": 5737,
+    "endFrame": 5826,
+    "startSeconds": 191.23,
+    "endSeconds": 194.21,
+    "text": "In Asia, Japan's digital minister Toshiharu"
   },
   {
     "index": 70,
-    "sceneId": "s5_bank_of_japan_warns_global_ai_co",
-    "startFrame": 5988,
-    "endFrame": 6063,
-    "startSeconds": 199.61,
-    "endSeconds": 202.09,
-    "text": "fails to meet hyperscale capital expenditure"
+    "sceneId": "s5_japan_reviews_national_ai_legisl",
+    "startFrame": 5826,
+    "endFrame": 5911,
+    "startSeconds": 194.21,
+    "endSeconds": 197.03,
+    "text": "Furukawa announced that ministerial advisory panels"
   },
   {
     "index": 71,
-    "sceneId": "s5_bank_of_japan_warns_global_ai_co",
-    "startFrame": 6063,
-    "endFrame": 6078,
-    "startSeconds": 202.09,
-    "endSeconds": 202.59,
-    "text": "projections."
+    "sceneId": "s5_japan_reviews_national_ai_legisl",
+    "startFrame": 5911,
+    "endFrame": 5958,
+    "startSeconds": 197.03,
+    "endSeconds": 198.59,
+    "text": "will convene late this month to"
   },
   {
     "index": 72,
-    "sceneId": "s6_anthropic_activates_in_country_i",
-    "startFrame": 6212,
-    "endFrame": 6284,
-    "startSeconds": 207.06,
-    "endSeconds": 209.46,
-    "text": "Turning to India, Anthropic announced that"
+    "sceneId": "s5_japan_reviews_national_ai_legisl",
+    "startFrame": 5958,
+    "endFrame": 6030,
+    "startSeconds": 198.59,
+    "endSeconds": 200.99,
+    "text": "revise the nation's Baseline AI Act,"
   },
   {
     "index": 73,
-    "sceneId": "s6_anthropic_activates_in_country_i",
-    "startFrame": 6284,
-    "endFrame": 6351,
-    "startSeconds": 209.46,
-    "endSeconds": 211.7,
-    "text": "its Claude Opus 5, Sanit 5,"
+    "sceneId": "s5_japan_reviews_national_ai_legisl",
+    "startFrame": 6036,
+    "endFrame": 6117,
+    "startSeconds": 201.19,
+    "endSeconds": 203.89,
+    "text": "formally evaluating statutory criminal and financial"
   },
   {
     "index": 74,
-    "sceneId": "s6_anthropic_activates_in_country_i",
-    "startFrame": 6363,
-    "endFrame": 6427,
-    "startSeconds": 212.1,
-    "endSeconds": 214.22,
-    "text": "and Haiku 4 .5 model family"
+    "sceneId": "s5_japan_reviews_national_ai_legisl",
+    "startFrame": 6117,
+    "endFrame": 6223,
+    "startSeconds": 203.89,
+    "endSeconds": 207.43,
+    "text": "penalties for malicious operators. While existing"
   },
   {
     "index": 75,
-    "sceneId": "s6_anthropic_activates_in_country_i",
-    "startFrame": 6427,
-    "endFrame": 6484,
-    "startSeconds": 214.22,
-    "endSeconds": 216.14,
-    "text": "is now live with dedicated in"
+    "sceneId": "s5_japan_reviews_national_ai_legisl",
+    "startFrame": 6223,
+    "endFrame": 6314,
+    "startSeconds": 207.43,
+    "endSeconds": 210.45,
+    "text": "legislation focuses on administrative inquiries into"
   },
   {
     "index": 76,
-    "sceneId": "s6_anthropic_activates_in_country_i",
-    "startFrame": 6484,
-    "endFrame": 6555,
-    "startSeconds": 216.14,
-    "endSeconds": 218.5,
-    "text": "-country inference hosted within Amazon web"
+    "sceneId": "s5_japan_reviews_national_ai_legisl",
+    "startFrame": 6314,
+    "endFrame": 6387,
+    "startSeconds": 210.45,
+    "endSeconds": 212.91,
+    "text": "deep fakes and algorithmic harms, authorities"
   },
   {
     "index": 77,
-    "sceneId": "s6_anthropic_activates_in_country_i",
-    "startFrame": 6555,
-    "endFrame": 6647,
-    "startSeconds": 218.5,
-    "endSeconds": 221.58,
-    "text": "services cloud regions in India. The"
+    "sceneId": "s5_japan_reviews_national_ai_legisl",
+    "startFrame": 6387,
+    "endFrame": 6458,
+    "startSeconds": 212.91,
+    "endSeconds": 215.27,
+    "text": "cited growing threats from automated vulnerability"
   },
   {
     "index": 78,
-    "sceneId": "s6_anthropic_activates_in_country_i",
-    "startFrame": 6647,
-    "endFrame": 6733,
-    "startSeconds": 221.58,
-    "endSeconds": 224.44,
-    "text": "deployment guarantees that customer queries, prompt"
+    "sceneId": "s5_japan_reviews_national_ai_legisl",
+    "startFrame": 6458,
+    "endFrame": 6536,
+    "startSeconds": 215.27,
+    "endSeconds": 217.85,
+    "text": "scanning and foreign sandbox breach incidents"
   },
   {
     "index": 79,
-    "sceneId": "s6_anthropic_activates_in_country_i",
-    "startFrame": 6733,
-    "endFrame": 6811,
-    "startSeconds": 224.44,
-    "endSeconds": 227.04,
-    "text": "telemetry, and audit logs remain strictly"
+    "sceneId": "s5_japan_reviews_national_ai_legisl",
+    "startFrame": 6536,
+    "endFrame": 6619,
+    "startSeconds": 217.85,
+    "endSeconds": 220.63,
+    "text": "as justification for establishing direct statutory"
   },
   {
     "index": 80,
-    "sceneId": "s6_anthropic_activates_in_country_i",
-    "startFrame": 6811,
-    "endFrame": 6902,
-    "startSeconds": 227.04,
-    "endSeconds": 230.08,
-    "text": "on domestic servers, unlocking production enterprise"
+    "sceneId": "s5_japan_reviews_national_ai_legisl",
+    "startFrame": 6619,
+    "endFrame": 6654,
+    "startSeconds": 220.63,
+    "endSeconds": 221.79,
+    "text": "enforcement powers."
   },
   {
     "index": 81,
-    "sceneId": "s6_anthropic_activates_in_country_i",
-    "startFrame": 6902,
-    "endFrame": 6985,
-    "startSeconds": 230.08,
-    "endSeconds": 232.84,
-    "text": "rollouts for heavily regulated sectors including"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 6784,
+    "endFrame": 6855,
+    "startSeconds": 226.13,
+    "endSeconds": 228.49,
+    "text": "Turning to India, Voice Artificial Intelligence"
   },
   {
     "index": 82,
-    "sceneId": "s6_anthropic_activates_in_country_i",
-    "startFrame": 6985,
-    "endFrame": 7073,
-    "startSeconds": 232.84,
-    "endSeconds": 235.78,
-    "text": "banking, payments, and public governance through"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 6855,
+    "endFrame": 6932,
+    "startSeconds": 228.49,
+    "endSeconds": 231.05,
+    "text": "Leader Eleven Labs announced plans to"
   },
   {
     "index": 83,
-    "sceneId": "s6_anthropic_activates_in_country_i",
-    "startFrame": 7073,
-    "endFrame": 7139,
-    "startSeconds": 235.78,
-    "endSeconds": 237.98,
-    "text": "early partners such as reliance, cred,"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 6932,
+    "endFrame": 6986,
+    "startSeconds": 231.05,
+    "endSeconds": 232.87,
+    "text": "invest hundreds of millions of dollars"
   },
   {
     "index": 84,
-    "sceneId": "s6_anthropic_activates_in_country_i",
-    "startFrame": 7153,
-    "endFrame": 7186,
-    "startSeconds": 238.44,
-    "endSeconds": 239.52,
-    "text": "and Koduk Mahindra bank."
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 6986,
+    "endFrame": 7074,
+    "startSeconds": 232.87,
+    "endSeconds": 235.79,
+    "text": "into its Indian operations, establishing its"
   },
   {
     "index": 85,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 7255,
-    "endFrame": 7331,
-    "startSeconds": 241.84,
-    "endSeconds": 244.36,
-    "text": "In other global developments, Heidelberg -based"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 7074,
+    "endFrame": 7144,
+    "startSeconds": 235.79,
+    "endSeconds": 238.15,
+    "text": "largest international hub outside the United"
   },
   {
     "index": 86,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 7331,
-    "endFrame": 7399,
-    "startSeconds": 244.36,
-    "endSeconds": 246.64,
-    "text": "AI developer Aleph Alfa has officially"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 7144,
+    "endFrame": 7256,
+    "startSeconds": 238.15,
+    "endSeconds": 241.85,
+    "text": "States. During its Bengaluru summit, the"
   },
   {
     "index": 87,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 7399,
-    "endFrame": 7477,
-    "startSeconds": 246.64,
-    "endSeconds": 249.22,
-    "text": "released Calibri, an open -weight 78"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 7256,
+    "endFrame": 7314,
+    "startSeconds": 241.85,
+    "endSeconds": 243.81,
+    "text": "firm signed a memorandum of understanding"
   },
   {
     "index": 88,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 7477,
-    "endFrame": 7538,
-    "startSeconds": 249.22,
-    "endSeconds": 251.28,
-    "text": "billion parameter mixture of experts model"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 7314,
+    "endFrame": 7381,
+    "startSeconds": 243.81,
+    "endSeconds": 246.03,
+    "text": "with the Karnataka Innovation and Technology"
   },
   {
     "index": 89,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 7538,
-    "endFrame": 7623,
-    "startSeconds": 251.28,
-    "endSeconds": 254.1,
-    "text": "trained on Nvidia B200 infrastructure across"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 7381,
+    "endFrame": 7456,
+    "startSeconds": 246.03,
+    "endSeconds": 248.53,
+    "text": "Society to integrate Conada Voice agents"
   },
   {
     "index": 90,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 7623,
-    "endFrame": 7723,
-    "startSeconds": 254.1,
-    "endSeconds": 257.44,
-    "text": "Germany and Finland. Built specifically to"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 7456,
+    "endFrame": 7542,
+    "startSeconds": 248.53,
+    "endSeconds": 251.39,
+    "text": "into citizen services and grievance redressal"
   },
   {
     "index": 91,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 7723,
-    "endFrame": 7779,
-    "startSeconds": 257.44,
-    "endSeconds": 259.3,
-    "text": "comply with the European Union AI"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 7542,
+    "endFrame": 7611,
+    "startSeconds": 251.39,
+    "endSeconds": 253.69,
+    "text": "platforms while expanding coverage to all"
   },
   {
     "index": 92,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 7779,
-    "endFrame": 7856,
-    "startSeconds": 259.3,
-    "endSeconds": 261.88,
-    "text": "Act and rigorous data privacy statutes,"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 7611,
+    "endFrame": 7718,
+    "startSeconds": 253.69,
+    "endSeconds": 257.25,
+    "text": "22 official Indian languages. Concurrently, domestic"
   },
   {
     "index": 93,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 7865,
-    "endFrame": 7921,
-    "startSeconds": 262.18,
-    "endSeconds": 264.02,
-    "text": "Calibri features a 1 million token"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 7718,
+    "endFrame": 7792,
+    "startSeconds": 257.25,
+    "endSeconds": 259.73,
+    "text": "developer Servum AI launched Kivi for"
   },
   {
     "index": 94,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 7921,
-    "endFrame": 8032,
-    "startSeconds": 264.02,
-    "endSeconds": 267.74,
-    "text": "context window. In tandem, Enterprise AI"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 7792,
+    "endFrame": 7879,
+    "startSeconds": 259.73,
+    "endSeconds": 262.63,
+    "text": "macOS, offering voice dictation and system"
   },
   {
     "index": 95,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 8032,
-    "endFrame": 8105,
-    "startSeconds": 267.74,
-    "endSeconds": 270.16,
-    "text": "firm Cohere launched North 2, an"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 7879,
+    "endFrame": 7965,
+    "startSeconds": 262.63,
+    "endSeconds": 265.51,
+    "text": "control across 22 Indian languages powered"
   },
   {
     "index": 96,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 8105,
-    "endFrame": 8155,
-    "startSeconds": 270.16,
-    "endSeconds": 271.82,
-    "text": "enterprise agent platform equipped with a"
+    "sceneId": "s6_elevenlabs_commits_hundreds_of_m",
+    "startFrame": 7965,
+    "endFrame": 8033,
+    "startSeconds": 265.51,
+    "endSeconds": 267.77,
+    "text": "by its SARA's V4 speech architecture."
   },
   {
     "index": 97,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 8155,
-    "endFrame": 8220,
-    "startSeconds": 271.82,
-    "endSeconds": 274.0,
-    "text": "cross -session persistent memory and token"
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 8105,
+    "endFrame": 8176,
+    "startSeconds": 270.17,
+    "endSeconds": 272.55,
+    "text": "In other global developments, French artificial"
   },
   {
     "index": 98,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 8220,
-    "endFrame": 8283,
-    "startSeconds": 274.0,
-    "endSeconds": 276.1,
-    "text": "expenditure controls capable of running in"
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 8176,
+    "endFrame": 8254,
+    "startSeconds": 272.55,
+    "endSeconds": 275.13,
+    "text": "intelligence developer Mistral launched a public"
   },
   {
     "index": 99,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 8283,
-    "endFrame": 8338,
-    "startSeconds": 276.1,
-    "endSeconds": 277.94,
-    "text": "on -premises and air -gapped environments,"
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 8254,
+    "endFrame": 8321,
+    "startSeconds": 275.13,
+    "endSeconds": 277.37,
+    "text": "preview of Mistral Large 4, an"
   },
   {
     "index": 100,
-    "sceneId": "s7_aleph_alpha_and_cohere_debut_sov",
-    "startFrame": 8350,
-    "endFrame": 8442,
-    "startSeconds": 278.34,
-    "endSeconds": 281.4,
-    "text": "accelerating enterprise sovereignty across regulated sectors."
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 8321,
+    "endFrame": 8387,
+    "startSeconds": 277.37,
+    "endSeconds": 279.57,
+    "text": "open -weight multimodal model featuring 1"
   },
   {
     "index": 101,
-    "sceneId": "s8_norway_proposes_temporary_ban_on",
-    "startFrame": 8513,
-    "endFrame": 8601,
-    "startSeconds": 283.77,
-    "endSeconds": 286.69,
-    "text": "Expanding on regulatory scrutiny, the Norwegian"
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 8387,
+    "endFrame": 8458,
+    "startSeconds": 279.57,
+    "endSeconds": 281.93,
+    "text": "trillion total parameters and 49 billion"
   },
   {
     "index": 102,
-    "sceneId": "s8_norway_proposes_temporary_ban_on",
-    "startFrame": 8601,
-    "endFrame": 8674,
-    "startSeconds": 286.69,
-    "endSeconds": 289.15,
-    "text": "government announced plans to introduce emergency"
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 8458,
+    "endFrame": 8554,
+    "startSeconds": 281.93,
+    "endSeconds": 285.13,
+    "text": "active parameters per token. Trained in"
   },
   {
     "index": 103,
-    "sceneId": "s8_norway_proposes_temporary_ban_on",
-    "startFrame": 8674,
-    "endFrame": 8775,
-    "startSeconds": 289.15,
-    "endSeconds": 292.49,
-    "text": "legislation proposing a temporary prohibition on"
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 8554,
+    "endFrame": 8612,
+    "startSeconds": 285.13,
+    "endSeconds": 287.07,
+    "text": "60 days on 4 ,000 Nvidia"
   },
   {
     "index": 104,
-    "sceneId": "s8_norway_proposes_temporary_ban_on",
-    "startFrame": 8775,
-    "endFrame": 8858,
-    "startSeconds": 292.49,
-    "endSeconds": 295.27,
-    "text": "wearable artificial intelligence glasses in sensitive"
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 8612,
+    "endFrame": 8696,
+    "startSeconds": 287.07,
+    "endSeconds": 289.87,
+    "text": "Grace Blackwell GPUs across European data"
   },
   {
     "index": 105,
-    "sceneId": "s8_norway_proposes_temporary_ban_on",
-    "startFrame": 8858,
-    "endFrame": 8970,
-    "startSeconds": 295.27,
-    "endSeconds": 298.99,
-    "text": "public environments, including schools, beaches, public"
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 8696,
+    "endFrame": 8782,
+    "startSeconds": 289.87,
+    "endSeconds": 292.73,
+    "text": "centers, the system achieved 62 %"
   },
   {
     "index": 106,
-    "sceneId": "s8_norway_proposes_temporary_ban_on",
-    "startFrame": 8970,
-    "endFrame": 9084,
-    "startSeconds": 298.99,
-    "endSeconds": 302.79,
-    "text": "transit, and healthcare facilities. Officials cited"
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 8782,
+    "endFrame": 8890,
+    "startSeconds": 292.73,
+    "endSeconds": 296.35,
+    "text": "on the DeepSWE benchmark. Mistral positioned"
   },
   {
     "index": 107,
-    "sceneId": "s8_norway_proposes_temporary_ban_on",
-    "startFrame": 9084,
-    "endFrame": 9177,
-    "startSeconds": 302.79,
-    "endSeconds": 305.89,
-    "text": "intensifying privacy risks regarding non -consensual"
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 8890,
+    "endFrame": 8944,
+    "startSeconds": 296.35,
+    "endSeconds": 298.15,
+    "text": "the release as a milestone for"
   },
   {
     "index": 108,
-    "sceneId": "s8_norway_proposes_temporary_ban_on",
-    "startFrame": 9177,
-    "endFrame": 9290,
-    "startSeconds": 305.89,
-    "endSeconds": 309.67,
-    "text": "biometric capture, continuous optical recording, and"
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 8944,
+    "endFrame": 9051,
+    "startSeconds": 298.15,
+    "endSeconds": 301.69,
+    "text": "European technological sovereignty, allowing institutions to"
   },
   {
     "index": 109,
-    "sceneId": "s8_norway_proposes_temporary_ban_on",
-    "startFrame": 9290,
-    "endFrame": 9390,
-    "startSeconds": 309.67,
-    "endSeconds": 313.01,
-    "text": "background facial recognition. While private in"
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 9051,
+    "endFrame": 9099,
+    "startSeconds": 301.69,
+    "endSeconds": 303.31,
+    "text": "run frontier scale weights on on"
   },
   {
     "index": 110,
-    "sceneId": "s8_norway_proposes_temporary_ban_on",
-    "startFrame": 9390,
-    "endFrame": 9465,
-    "startSeconds": 313.01,
-    "endSeconds": 315.51,
-    "text": "-home usage remains unrestricted, an appointed"
+    "sceneId": "s7_mistral_unveils_mistral_large_4",
+    "startFrame": 9099,
+    "endFrame": 9194,
+    "startSeconds": 303.31,
+    "endSeconds": 306.47,
+    "text": "-premises infrastructure without external operational dependencies."
   },
   {
     "index": 111,
-    "sceneId": "s8_norway_proposes_temporary_ban_on",
-    "startFrame": 9465,
-    "endFrame": 9539,
-    "startSeconds": 315.51,
-    "endSeconds": 317.97,
-    "text": "expert commission will evaluate long -term"
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 9269,
+    "endFrame": 9368,
+    "startSeconds": 308.98,
+    "endSeconds": 312.28,
+    "text": "Expanding on regulatory scrutiny, OpenAI announced"
   },
   {
     "index": 112,
-    "sceneId": "s8_norway_proposes_temporary_ban_on",
-    "startFrame": 9539,
-    "endFrame": 9618,
-    "startSeconds": 317.97,
-    "endSeconds": 320.59,
-    "text": "governance and statutory safety standards for"
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 9368,
+    "endFrame": 9435,
+    "startSeconds": 312.28,
+    "endSeconds": 314.5,
+    "text": "the rollout of TechScreen, an invisible"
   },
   {
     "index": 113,
-    "sceneId": "s8_norway_proposes_temporary_ban_on",
-    "startFrame": 9618,
-    "endFrame": 9663,
-    "startSeconds": 320.59,
-    "endSeconds": 322.09,
-    "text": "body -worn optical computing."
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 9435,
+    "endFrame": 9518,
+    "startSeconds": 314.5,
+    "endSeconds": 317.26,
+    "text": "cryptographic watermarking system applied to text"
   },
   {
     "index": 114,
-    "sceneId": "s9_new_york_city_council_considers",
-    "startFrame": 9790,
-    "endFrame": 9848,
-    "startSeconds": 326.35,
-    "endSeconds": 328.25,
-    "text": "Turning to the United States, New"
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 9518,
+    "endFrame": 9583,
+    "startSeconds": 317.26,
+    "endSeconds": 319.42,
+    "text": "generated by chat GPT and Codex"
   },
   {
     "index": 115,
-    "sceneId": "s9_new_york_city_council_considers",
-    "startFrame": 9848,
-    "endFrame": 9909,
-    "startSeconds": 328.25,
-    "endSeconds": 330.29,
-    "text": "York City lawmakers are holding legislative"
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 9583,
+    "endFrame": 9643,
+    "startSeconds": 319.42,
+    "endSeconds": 321.44,
+    "text": "for users in the European Union"
   },
   {
     "index": 116,
-    "sceneId": "s9_new_york_city_council_considers",
-    "startFrame": 9909,
-    "endFrame": 9994,
-    "startSeconds": 330.29,
-    "endSeconds": 333.15,
-    "text": "hearings on proposed municipal regulations requiring"
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 9643,
+    "endFrame": 9719,
+    "startSeconds": 321.44,
+    "endSeconds": 323.96,
+    "text": "to comply with transparency provisions under"
   },
   {
     "index": 117,
-    "sceneId": "s9_new_york_city_council_considers",
-    "startFrame": 9994,
-    "endFrame": 10074,
-    "startSeconds": 333.15,
-    "endSeconds": 335.81,
-    "text": "developers of autonomous AI agents to"
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 9719,
+    "endFrame": 9830,
+    "startSeconds": 323.96,
+    "endSeconds": 327.68,
+    "text": "the EUAI Act. The watermarking embeds"
   },
   {
     "index": 118,
-    "sceneId": "s9_new_york_city_council_considers",
-    "startFrame": 10074,
-    "endFrame": 10147,
-    "startSeconds": 335.81,
-    "endSeconds": 338.23,
-    "text": "install verifiable hardware level kill switches,"
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 9830,
+    "endFrame": 9907,
+    "startSeconds": 327.68,
+    "endSeconds": 330.24,
+    "text": "statistical token patterns into generated pros"
   },
   {
     "index": 119,
-    "sceneId": "s9_new_york_city_council_considers",
-    "startFrame": 10160,
-    "endFrame": 10226,
-    "startSeconds": 338.65,
-    "endSeconds": 340.87,
-    "text": "mandatory red team safety audits, and"
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 9907,
+    "endFrame": 9979,
+    "startSeconds": 330.24,
+    "endSeconds": 332.62,
+    "text": "that resist copy -paced extraction while"
   },
   {
     "index": 120,
-    "sceneId": "s9_new_york_city_council_considers",
-    "startFrame": 10226,
-    "endFrame": 10306,
-    "startSeconds": 340.87,
-    "endSeconds": 343.55,
-    "text": "expanded legal protections for whistleblower disclosures."
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 9979,
+    "endFrame": 10080,
+    "startSeconds": 332.62,
+    "endSeconds": 336.0,
+    "text": "remaining imperceptible to human readers. While"
   },
   {
     "index": 121,
-    "sceneId": "s9_new_york_city_council_considers",
-    "startFrame": 10330,
-    "endFrame": 10428,
-    "startSeconds": 344.35,
-    "endSeconds": 347.59,
-    "text": "Former anthropic alignment researcher Jacob Coxin"
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 10080,
+    "endFrame": 10161,
+    "startSeconds": 336.0,
+    "endSeconds": 338.7,
+    "text": "detection accuracy reaches 92 % on"
   },
   {
     "index": 122,
-    "sceneId": "s9_new_york_city_council_considers",
-    "startFrame": 10428,
-    "endFrame": 10479,
-    "startSeconds": 347.59,
-    "endSeconds": 349.31,
-    "text": "is scheduled to testify before the"
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 10161,
+    "endFrame": 10250,
+    "startSeconds": 338.7,
+    "endSeconds": 341.68,
+    "text": "unmodified text, OpenAI cautioned that heavy"
   },
   {
     "index": 123,
-    "sceneId": "s9_new_york_city_council_considers",
-    "startFrame": 10479,
-    "endFrame": 10585,
-    "startSeconds": 349.31,
-    "endSeconds": 352.83,
-    "text": "Council regarding catastrophic containment vulnerabilities, marking"
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 10250,
+    "endFrame": 10335,
+    "startSeconds": 341.68,
+    "endSeconds": 344.5,
+    "text": "synonym substitution and translation reduce detection"
   },
   {
     "index": 124,
-    "sceneId": "s9_new_york_city_council_considers",
-    "startFrame": 10585,
-    "endFrame": 10624,
-    "startSeconds": 352.83,
-    "endSeconds": 354.13,
-    "text": "one of the most aggressive municipal"
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 10335,
+    "endFrame": 10426,
+    "startSeconds": 344.5,
+    "endSeconds": 347.52,
+    "text": "efficacy, noting that absent watermarks cannot"
   },
   {
     "index": 125,
-    "sceneId": "s9_new_york_city_council_considers",
-    "startFrame": 10624,
-    "endFrame": 10707,
-    "startSeconds": 354.13,
-    "endSeconds": 356.91,
-    "text": "oversight efforts targeting autonomous systems to"
+    "sceneId": "s8_openai_introduces_textgrain_invi",
+    "startFrame": 10426,
+    "endFrame": 10491,
+    "startSeconds": 347.52,
+    "endSeconds": 349.7,
+    "text": "conclusively establish human authorship."
   },
   {
     "index": 126,
-    "sceneId": "s9_new_york_city_council_considers",
-    "startFrame": 10707,
-    "endFrame": 10713,
-    "startSeconds": 356.91,
-    "endSeconds": 357.11,
-    "text": "date."
+    "sceneId": "s9_canada_establishes_national_ai_c",
+    "startFrame": 10560,
+    "endFrame": 10641,
+    "startSeconds": 351.99,
+    "endSeconds": 354.69,
+    "text": "In enterprise infrastructure, the Canadian government"
   },
   {
     "index": 127,
-    "sceneId": "s10_am_intelligence_plans_dollars_20",
-    "startFrame": 10780,
-    "endFrame": 10864,
-    "startSeconds": 359.35,
-    "endSeconds": 362.13,
-    "text": "In another major development, hyperscale compute"
+    "sceneId": "s9_canada_establishes_national_ai_c",
+    "startFrame": 10641,
+    "endFrame": 10713,
+    "startSeconds": 354.69,
+    "endSeconds": 357.11,
+    "text": "formally inaugurated the National Council on"
   },
   {
     "index": 128,
-    "sceneId": "s10_am_intelligence_plans_dollars_20",
-    "startFrame": 10864,
-    "endFrame": 10953,
-    "startSeconds": 362.13,
-    "endSeconds": 365.09,
-    "text": "operator AM Intelligence announced binding commitments"
+    "sceneId": "s9_canada_establishes_national_ai_c",
+    "startFrame": 10713,
+    "endFrame": 10820,
+    "startSeconds": 357.11,
+    "endSeconds": 360.67,
+    "text": "Artificial Intelligence, convening senior scientific researchers,"
   },
   {
     "index": 129,
-    "sceneId": "s10_am_intelligence_plans_dollars_20",
-    "startFrame": 10953,
-    "endFrame": 11025,
-    "startSeconds": 365.09,
-    "endSeconds": 367.49,
-    "text": "for an additional $20 billion in"
+    "sceneId": "s9_canada_establishes_national_ai_c",
+    "startFrame": 10820,
+    "endFrame": 10910,
+    "startSeconds": 360.67,
+    "endSeconds": 363.65,
+    "text": "sovereign compute architects, and cabinet officials"
   },
   {
     "index": 130,
-    "sceneId": "s10_am_intelligence_plans_dollars_20",
-    "startFrame": 11025,
-    "endFrame": 11094,
-    "startSeconds": 367.49,
-    "endSeconds": 369.81,
-    "text": "capital expenditures over the next 15"
+    "sceneId": "s9_canada_establishes_national_ai_c",
+    "startFrame": 10910,
+    "endFrame": 10997,
+    "startSeconds": 363.65,
+    "endSeconds": 366.57,
+    "text": "to guide institutional AI deployment, domestic"
   },
   {
     "index": 131,
-    "sceneId": "s10_am_intelligence_plans_dollars_20",
-    "startFrame": 11094,
-    "endFrame": 11171,
-    "startSeconds": 369.81,
-    "endSeconds": 372.37,
-    "text": "months, placing orders for $20 ,000"
+    "sceneId": "s9_canada_establishes_national_ai_c",
+    "startFrame": 10997,
+    "endFrame": 11122,
+    "startSeconds": 366.57,
+    "endSeconds": 370.75,
+    "text": "compute infrastructure, and regulatory safeguards. The"
   },
   {
     "index": 132,
-    "sceneId": "s10_am_intelligence_plans_dollars_20",
-    "startFrame": 11171,
-    "endFrame": 11268,
-    "startSeconds": 372.37,
-    "endSeconds": 375.59,
-    "text": "on Vidya Vera Rubin GPUs. The"
+    "sceneId": "s9_canada_establishes_national_ai_c",
+    "startFrame": 11122,
+    "endFrame": 11212,
+    "startSeconds": 370.75,
+    "endSeconds": 373.75,
+    "text": "initiative establishes dedicated policy mechanisms to"
   },
   {
     "index": 133,
-    "sceneId": "s10_am_intelligence_plans_dollars_20",
-    "startFrame": 11268,
-    "endFrame": 11340,
-    "startSeconds": 375.59,
-    "endSeconds": 377.99,
-    "text": "hardware deployments, split between state -of"
+    "sceneId": "s9_canada_establishes_national_ai_c",
+    "startFrame": 11212,
+    "endFrame": 11313,
+    "startSeconds": 373.75,
+    "endSeconds": 377.09,
+    "text": "coordinate public research commercialization, protect intellectual"
   },
   {
     "index": 134,
-    "sceneId": "s10_am_intelligence_plans_dollars_20",
-    "startFrame": 11340,
-    "endFrame": 11396,
-    "startSeconds": 377.99,
-    "endSeconds": 379.87,
-    "text": "-the -art facilities across India and"
+    "sceneId": "s9_canada_establishes_national_ai_c",
+    "startFrame": 11313,
+    "endFrame": 11394,
+    "startSeconds": 377.09,
+    "endSeconds": 379.81,
+    "text": "property, and align Canadian sovereign compute"
   },
   {
     "index": 135,
-    "sceneId": "s10_am_intelligence_plans_dollars_20",
-    "startFrame": 11396,
-    "endFrame": 11463,
-    "startSeconds": 379.87,
-    "endSeconds": 382.11,
-    "text": "Malaysia, will bring the operators total"
+    "sceneId": "s9_canada_establishes_national_ai_c",
+    "startFrame": 11394,
+    "endFrame": 11468,
+    "startSeconds": 379.81,
+    "endSeconds": 382.25,
+    "text": "investments with international alignments standards."
   },
   {
     "index": 136,
-    "sceneId": "s10_am_intelligence_plans_dollars_20",
-    "startFrame": 11463,
-    "endFrame": 11541,
-    "startSeconds": 382.11,
-    "endSeconds": 384.71,
-    "text": "dedicated high -density compute capacity to"
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 11598,
+    "endFrame": 11665,
+    "startSeconds": 386.61,
+    "endSeconds": 388.83,
+    "text": "Turning to the United States, Northrop"
   },
   {
     "index": 137,
-    "sceneId": "s10_am_intelligence_plans_dollars_20",
-    "startFrame": 11541,
-    "endFrame": 11622,
-    "startSeconds": 384.71,
-    "endSeconds": 387.39,
-    "text": "100 megawatts to support regional enterprise"
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 11665,
+    "endFrame": 11760,
+    "startSeconds": 388.83,
+    "endSeconds": 391.99,
+    "text": "Grumman's YFQ48 at Talon Blue Collaborative"
   },
   {
     "index": 138,
-    "sceneId": "s10_am_intelligence_plans_dollars_20",
-    "startFrame": 11622,
-    "endFrame": 11662,
-    "startSeconds": 387.39,
-    "endSeconds": 388.73,
-    "text": "inference workloads."
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 11760,
+    "endFrame": 11830,
+    "startSeconds": 391.99,
+    "endSeconds": 394.35,
+    "text": "Combat Aircraft completed its first fully"
   },
   {
     "index": 139,
-    "sceneId": "s11_sam_altman_acknowledges_inevitab",
-    "startFrame": 11725,
-    "endFrame": 11815,
-    "startSeconds": 390.84,
-    "endSeconds": 393.84,
-    "text": "In concurrent industry updates, OpenAI Chief"
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 11830,
+    "endFrame": 11895,
+    "startSeconds": 394.35,
+    "endSeconds": 396.49,
+    "text": "autonomous flight from taxi to touchdown"
   },
   {
     "index": 140,
-    "sceneId": "s11_sam_altman_acknowledges_inevitab",
-    "startFrame": 11815,
-    "endFrame": 11885,
-    "startSeconds": 393.84,
-    "endSeconds": 396.16,
-    "text": "Executive Sam Altman acknowledged that society"
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 11895,
+    "endFrame": 11964,
+    "startSeconds": 396.49,
+    "endSeconds": 398.79,
+    "text": "in Mojave, supporting the U .S."
   },
   {
     "index": 141,
-    "sceneId": "s11_sam_altman_acknowledges_inevitab",
-    "startFrame": 11885,
-    "endFrame": 11971,
-    "startSeconds": 396.16,
-    "endSeconds": 399.04,
-    "text": "must prepare for unavoidable disruptions, automated"
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 11970,
+    "endFrame": 12022,
+    "startSeconds": 398.99,
+    "endSeconds": 400.75,
+    "text": "Air Force road map targeting 500"
   },
   {
     "index": 142,
-    "sceneId": "s11_sam_altman_acknowledges_inevitab",
-    "startFrame": 11971,
-    "endFrame": 12037,
-    "startSeconds": 399.04,
-    "endSeconds": 401.22,
-    "text": "scams, and security friction as frontier"
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 12022,
+    "endFrame": 12172,
+    "startSeconds": 400.75,
+    "endSeconds": 405.73,
+    "text": "unmanned tactical aircraft by 2032. Simultaneously,"
   },
   {
     "index": 143,
-    "sceneId": "s11_sam_altman_acknowledges_inevitab",
-    "startFrame": 12037,
-    "endFrame": 12113,
-    "startSeconds": 401.22,
-    "endSeconds": 403.76,
-    "text": "systems scale, asserting that the compounding"
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 12183,
+    "endFrame": 12242,
+    "startSeconds": 406.11,
+    "endSeconds": 408.07,
+    "text": "the Department of Defense concluded night"
   },
   {
     "index": 144,
-    "sceneId": "s11_sam_altman_acknowledges_inevitab",
-    "startFrame": 12113,
-    "endFrame": 12188,
-    "startSeconds": 403.76,
-    "endSeconds": 406.28,
-    "text": "economic and scientific breakthroughs delivered by"
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 12242,
+    "endFrame": 12301,
+    "startSeconds": 408.07,
+    "endSeconds": 410.03,
+    "text": "jamming field tests at Fort Bragg"
   },
   {
     "index": 145,
-    "sceneId": "s11_sam_altman_acknowledges_inevitab",
-    "startFrame": 12188,
-    "endFrame": 12272,
-    "startSeconds": 406.28,
-    "endSeconds": 409.08,
-    "text": "artificial intelligence will overwhelmingly justify the"
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 12301,
+    "endFrame": 12360,
+    "startSeconds": 410.03,
+    "endSeconds": 411.99,
+    "text": "under the Swarm Forge Autonomous Drone"
   },
   {
     "index": 146,
-    "sceneId": "s11_sam_altman_acknowledges_inevitab",
-    "startFrame": 12272,
-    "endFrame": 12370,
-    "startSeconds": 409.08,
-    "endSeconds": 412.34,
-    "text": "transition costs. The remarks arrive as"
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 12360,
+    "endFrame": 12436,
+    "startSeconds": 411.99,
+    "endSeconds": 414.55,
+    "text": "Initiative, while Google finalized a major"
   },
   {
     "index": 147,
-    "sceneId": "s11_sam_altman_acknowledges_inevitab",
-    "startFrame": 12370,
-    "endFrame": 12437,
-    "startSeconds": 412.34,
-    "endSeconds": 414.58,
-    "text": "major labs lobby federal regulators for"
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 12436,
+    "endFrame": 12502,
+    "startSeconds": 414.55,
+    "endSeconds": 416.75,
+    "text": "power agreement with constellation installation energy"
   },
   {
     "index": 148,
-    "sceneId": "s11_sam_altman_acknowledges_inevitab",
-    "startFrame": 12437,
-    "endFrame": 12499,
-    "startSeconds": 414.58,
-    "endSeconds": 416.62,
-    "text": "lighter oversight frameworks even as global"
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 12502,
+    "endFrame": 12577,
+    "startSeconds": 416.75,
+    "endSeconds": 419.23,
+    "text": "to fund nuclear reactor upgrades delivering"
   },
   {
     "index": 149,
-    "sceneId": "s11_sam_altman_acknowledges_inevitab",
-    "startFrame": 12499,
-    "endFrame": 12595,
-    "startSeconds": 416.62,
-    "endSeconds": 419.84,
-    "text": "cybersecurity agencies raise concerns regarding recursive"
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 12577,
+    "endFrame": 12657,
+    "startSeconds": 419.23,
+    "endSeconds": 421.89,
+    "text": "890 megawatts of clean -based load"
   },
   {
     "index": 150,
-    "sceneId": "s11_sam_altman_acknowledges_inevitab",
-    "startFrame": 12595,
-    "endFrame": 12615,
-    "startSeconds": 419.84,
-    "endSeconds": 420.5,
-    "text": "agent vulnerabilities."
+    "sceneId": "s10_northrop_grumman_autonomous_talo",
+    "startFrame": 12657,
+    "endFrame": 12734,
+    "startSeconds": 421.89,
+    "endSeconds": 424.47,
+    "text": "electricity for hyperscale AI data centers."
   },
   {
     "index": 151,
-    "sceneId": "s12_deepseek_narrows_performance_dis",
-    "startFrame": 12760,
-    "endFrame": 12835,
-    "startSeconds": 425.34,
-    "endSeconds": 427.82,
-    "text": "Meanwhile in China, new third -party"
+    "sceneId": "s11_openai_and_anthropic_endorse_man",
+    "startFrame": 12806,
+    "endFrame": 12899,
+    "startSeconds": 426.86,
+    "endSeconds": 429.98,
+    "text": "In concurrent industry updates, OpenAI and"
   },
   {
     "index": 152,
-    "sceneId": "s12_deepseek_narrows_performance_dis",
-    "startFrame": 12835,
-    "endFrame": 12922,
-    "startSeconds": 427.82,
-    "endSeconds": 430.72,
-    "text": "benchmark evaluations indicate that Hangzhou -based"
+    "sceneId": "s11_openai_and_anthropic_endorse_man",
+    "startFrame": 12899,
+    "endFrame": 12965,
+    "startSeconds": 429.98,
+    "endSeconds": 432.18,
+    "text": "Anthropic signaled support for proposed federal"
   },
   {
     "index": 153,
-    "sceneId": "s12_deepseek_narrows_performance_dis",
-    "startFrame": 12922,
-    "endFrame": 12996,
-    "startSeconds": 430.72,
-    "endSeconds": 433.2,
-    "text": "DeepSeek's version 4 .1 flash model"
+    "sceneId": "s11_openai_and_anthropic_endorse_man",
+    "startFrame": 12965,
+    "endFrame": 13062,
+    "startSeconds": 432.18,
+    "endSeconds": 435.4,
+    "text": "disclosure standards requiring mandatory notification when"
   },
   {
     "index": 154,
-    "sceneId": "s12_deepseek_narrows_performance_dis",
-    "startFrame": 12996,
-    "endFrame": 13064,
-    "startSeconds": 433.2,
-    "endSeconds": 435.46,
-    "text": "has narrowed its performance disparity with"
+    "sceneId": "s11_openai_and_anthropic_endorse_man",
+    "startFrame": 13062,
+    "endFrame": 13148,
+    "startSeconds": 435.4,
+    "endSeconds": 438.26,
+    "text": "autonomous artificial intelligence systems engage in"
   },
   {
     "index": 155,
-    "sceneId": "s12_deepseek_narrows_performance_dis",
-    "startFrame": 13064,
-    "endFrame": 13139,
-    "startSeconds": 435.46,
-    "endSeconds": 437.98,
-    "text": "premier American proprietary models to approximately"
+    "sceneId": "s11_openai_and_anthropic_endorse_man",
+    "startFrame": 13148,
+    "endFrame": 13231,
+    "startSeconds": 438.26,
+    "endSeconds": 441.04,
+    "text": "unauthorized external network activity or automated"
   },
   {
     "index": 156,
-    "sceneId": "s12_deepseek_narrows_performance_dis",
-    "startFrame": 13139,
-    "endFrame": 13240,
-    "startSeconds": 437.98,
-    "endSeconds": 441.34,
-    "text": "3 % across coding, mathematical reasoning,"
+    "sceneId": "s11_openai_and_anthropic_endorse_man",
+    "startFrame": 13231,
+    "endFrame": 13336,
+    "startSeconds": 441.04,
+    "endSeconds": 444.54,
+    "text": "sandbox escapes. The joint policy shift"
   },
   {
     "index": 157,
-    "sceneId": "s12_deepseek_narrows_performance_dis",
-    "startFrame": 13252,
-    "endFrame": 13342,
-    "startSeconds": 441.74,
-    "endSeconds": 444.74,
-    "text": "and multi -turn instruction metrics. The"
+    "sceneId": "s11_openai_and_anthropic_endorse_man",
+    "startFrame": 13336,
+    "endFrame": 13423,
+    "startSeconds": 444.54,
+    "endSeconds": 447.42,
+    "text": "follows internal investigations into autonomous agent"
   },
   {
     "index": 158,
-    "sceneId": "s12_deepseek_narrows_performance_dis",
-    "startFrame": 13342,
-    "endFrame": 13408,
-    "startSeconds": 444.74,
-    "endSeconds": 446.92,
-    "text": "compression of the performance frontier highlights"
+    "sceneId": "s11_openai_and_anthropic_endorse_man",
+    "startFrame": 13423,
+    "endFrame": 13498,
+    "startSeconds": 447.42,
+    "endSeconds": 449.94,
+    "text": "behavior and mounting legislative scrutiny across"
   },
   {
     "index": 159,
-    "sceneId": "s12_deepseek_narrows_performance_dis",
-    "startFrame": 13408,
-    "endFrame": 13480,
-    "startSeconds": 446.92,
-    "endSeconds": 449.34,
-    "text": "the intensifying velocity of open -weight"
+    "sceneId": "s11_openai_and_anthropic_endorse_man",
+    "startFrame": 13498,
+    "endFrame": 13585,
+    "startSeconds": 449.94,
+    "endSeconds": 452.82,
+    "text": "municipal and international committees, signaling growing"
   },
   {
     "index": 160,
-    "sceneId": "s12_deepseek_narrows_performance_dis",
-    "startFrame": 13480,
-    "endFrame": 13560,
-    "startSeconds": 449.34,
-    "endSeconds": 452.0,
-    "text": "innovation across Chinese AI research hubs"
+    "sceneId": "s11_openai_and_anthropic_endorse_man",
+    "startFrame": 13585,
+    "endFrame": 13656,
+    "startSeconds": 452.82,
+    "endSeconds": 455.2,
+    "text": "industry acceptance of binding reporting rules"
   },
   {
     "index": 161,
-    "sceneId": "s12_deepseek_narrows_performance_dis",
-    "startFrame": 13560,
-    "endFrame": 13652,
-    "startSeconds": 452.0,
-    "endSeconds": 455.06,
-    "text": "despite international semiconductor export curbs."
+    "sceneId": "s11_openai_and_anthropic_endorse_man",
+    "startFrame": 13656,
+    "endFrame": 13705,
+    "startSeconds": 455.2,
+    "endSeconds": 456.84,
+    "text": "for autonomous enterprise systems."
   },
   {
     "index": 162,
-    "sceneId": "s13_technology_development_board_all",
-    "startFrame": 13777,
-    "endFrame": 13835,
-    "startSeconds": 459.24,
-    "endSeconds": 461.16,
-    "text": "Turning to India, the Department of"
+    "sceneId": "s12_chinese_technology_majors_accele",
+    "startFrame": 13839,
+    "endFrame": 13938,
+    "startSeconds": 461.31,
+    "endSeconds": 464.59,
+    "text": "Meanwhile in China, Tencent, Alibaba, and"
   },
   {
     "index": 163,
-    "sceneId": "s13_technology_development_board_all",
-    "startFrame": 13835,
-    "endFrame": 13915,
-    "startSeconds": 461.16,
-    "endSeconds": 463.84,
-    "text": "Science and Technology's Technology Development Board"
+    "sceneId": "s12_chinese_technology_majors_accele",
+    "startFrame": 13938,
+    "endFrame": 14008,
+    "startSeconds": 464.59,
+    "endSeconds": 466.95,
+    "text": "ByteDance expanded public testing of persistent"
   },
   {
     "index": 164,
-    "sceneId": "s13_technology_development_board_all",
-    "startFrame": 13915,
-    "endFrame": 13988,
-    "startSeconds": 463.84,
-    "endSeconds": 466.28,
-    "text": "executed a formal agreement granting 130"
+    "sceneId": "s12_chinese_technology_majors_accele",
+    "startFrame": 14008,
+    "endFrame": 14105,
+    "startSeconds": 466.95,
+    "endSeconds": 470.17,
+    "text": "autonomous personal agents integrated into consumer"
   },
   {
     "index": 165,
-    "sceneId": "s13_technology_development_board_all",
-    "startFrame": 13988,
-    "endFrame": 14066,
-    "startSeconds": 466.28,
-    "endSeconds": 468.88,
-    "text": "crore rupees from India's RDI fund"
+    "sceneId": "s12_chinese_technology_majors_accele",
+    "startFrame": 14105,
+    "endFrame": 14238,
+    "startSeconds": 470.17,
+    "endSeconds": 474.61,
+    "text": "operating ecosystems. Tencent initiated pilot tests"
   },
   {
     "index": 166,
-    "sceneId": "s13_technology_development_board_all",
-    "startFrame": 14066,
-    "endFrame": 14167,
-    "startSeconds": 468.88,
-    "endSeconds": 472.24,
-    "text": "to Bengaluru -based big Indian semiconductors."
+    "sceneId": "s12_chinese_technology_majors_accele",
+    "startFrame": 14238,
+    "endFrame": 14300,
+    "startSeconds": 474.61,
+    "endSeconds": 476.67,
+    "text": "of HandyBot across the WeChat Communications"
   },
   {
     "index": 167,
-    "sceneId": "s13_technology_development_board_all",
-    "startFrame": 14167,
-    "endFrame": 14249,
-    "startSeconds": 472.24,
-    "endSeconds": 474.98,
-    "text": "The capital supports the 264 rupee"
+    "sceneId": "s12_chinese_technology_majors_accele",
+    "startFrame": 14300,
+    "endFrame": 14397,
+    "startSeconds": 476.67,
+    "endSeconds": 479.91,
+    "text": "Network, enabling users to delegate cross"
   },
   {
     "index": 168,
-    "sceneId": "s13_technology_development_board_all",
-    "startFrame": 14249,
-    "endFrame": 14321,
-    "startSeconds": 474.98,
-    "endSeconds": 477.36,
-    "text": "project via AI, designed to advance"
+    "sceneId": "s12_chinese_technology_majors_accele",
+    "startFrame": 14397,
+    "endFrame": 14505,
+    "startSeconds": 479.91,
+    "endSeconds": 483.49,
+    "text": "-application workflows including travel booking, micropayments,"
   },
   {
     "index": 169,
-    "sceneId": "s13_technology_development_board_all",
-    "startFrame": 14321,
-    "endFrame": 14389,
-    "startSeconds": 477.36,
-    "endSeconds": 479.62,
-    "text": "indigenous -edge AI vision system on"
+    "sceneId": "s12_chinese_technology_majors_accele",
+    "startFrame": 14520,
+    "endFrame": 14622,
+    "startSeconds": 483.99,
+    "endSeconds": 487.39,
+    "text": "and administrative inquiries. The deployments reflect"
   },
   {
     "index": 170,
-    "sceneId": "s13_technology_development_board_all",
-    "startFrame": 14389,
-    "endFrame": 14452,
-    "startSeconds": 479.62,
-    "endSeconds": 481.74,
-    "text": "ships from technology readiness level 5"
+    "sceneId": "s12_chinese_technology_majors_accele",
+    "startFrame": 14622,
+    "endFrame": 14706,
+    "startSeconds": 487.39,
+    "endSeconds": 490.19,
+    "text": "a concerted transition from passive conversational"
   },
   {
     "index": 171,
-    "sceneId": "s13_technology_development_board_all",
-    "startFrame": 14452,
-    "endFrame": 14506,
-    "startSeconds": 481.74,
-    "endSeconds": 483.52,
-    "text": "to full commercial production for smart"
+    "sceneId": "s12_chinese_technology_majors_accele",
+    "startFrame": 14706,
+    "endFrame": 14793,
+    "startSeconds": 490.19,
+    "endSeconds": 493.09,
+    "text": "models toward autonomous agentic executors capable"
   },
   {
     "index": 172,
-    "sceneId": "s13_technology_development_board_all",
-    "startFrame": 14506,
-    "endFrame": 14602,
-    "startSeconds": 483.52,
-    "endSeconds": 486.72,
-    "text": "surveillance, defense monitoring, and industrial vision"
+    "sceneId": "s12_chinese_technology_majors_accele",
+    "startFrame": 14793,
+    "endFrame": 14870,
+    "startSeconds": 493.09,
+    "endSeconds": 495.67,
+    "text": "of operating natively across closed digital"
   },
   {
     "index": 173,
-    "sceneId": "s13_technology_development_board_all",
-    "startFrame": 14602,
-    "endFrame": 14612,
-    "startSeconds": 486.72,
-    "endSeconds": 487.08,
-    "text": "cameras."
+    "sceneId": "s12_chinese_technology_majors_accele",
+    "startFrame": 14870,
+    "endFrame": 14886,
+    "startSeconds": 495.67,
+    "endSeconds": 496.21,
+    "text": "platforms."
   },
   {
     "index": 174,
-    "sceneId": "s14_accenture_earnings_forecast_stim",
-    "startFrame": 14684,
-    "endFrame": 14756,
-    "startSeconds": 489.46,
-    "endSeconds": 491.88,
-    "text": "In another major development, shares across"
+    "sceneId": "s13_sk_telecom_unveils_ai_staff_offi",
+    "startFrame": 15022,
+    "endFrame": 15075,
+    "startSeconds": 500.73,
+    "endSeconds": 502.49,
+    "text": "In Asia, at the Ground Forces"
   },
   {
     "index": 175,
-    "sceneId": "s14_accenture_earnings_forecast_stim",
-    "startFrame": 14756,
-    "endFrame": 14857,
-    "startSeconds": 491.88,
-    "endSeconds": 495.24,
-    "text": "India's premier information technology services companies"
+    "sceneId": "s13_sk_telecom_unveils_ai_staff_offi",
+    "startFrame": 15075,
+    "endFrame": 15166,
+    "startSeconds": 502.49,
+    "endSeconds": 505.53,
+    "text": "Festival in Jairiangdi, South Korean telecommunications"
   },
   {
     "index": 176,
-    "sceneId": "s14_accenture_earnings_forecast_stim",
-    "startFrame": 14857,
-    "endFrame": 14931,
-    "startSeconds": 495.24,
-    "endSeconds": 497.7,
-    "text": "rallied following an optimistic full -year"
+    "sceneId": "s13_sk_telecom_unveils_ai_staff_offi",
+    "startFrame": 15166,
+    "endFrame": 15256,
+    "startSeconds": 505.53,
+    "endSeconds": 508.55,
+    "text": "leader SK Telecom demonstrated an artificial"
   },
   {
     "index": 177,
-    "sceneId": "s14_accenture_earnings_forecast_stim",
-    "startFrame": 14931,
-    "endFrame": 15007,
-    "startSeconds": 497.7,
-    "endSeconds": 500.22,
-    "text": "revenue outlook from Accenture, driving the"
+    "sceneId": "s13_sk_telecom_unveils_ai_staff_offi",
+    "startFrame": 15256,
+    "endFrame": 15333,
+    "startSeconds": 508.55,
+    "endSeconds": 511.09,
+    "text": "intelligence staff officer system developed in"
   },
   {
     "index": 178,
-    "sceneId": "s14_accenture_earnings_forecast_stim",
-    "startFrame": 15007,
-    "endFrame": 15112,
-    "startSeconds": 500.22,
-    "endSeconds": 503.74,
-    "text": "Nifty IT index higher. Financial analysts"
+    "sceneId": "s13_sk_telecom_unveils_ai_staff_offi",
+    "startFrame": 15333,
+    "endFrame": 15380,
+    "startSeconds": 511.09,
+    "endSeconds": 512.67,
+    "text": "partnership with the Republic of Korea"
   },
   {
     "index": 179,
-    "sceneId": "s14_accenture_earnings_forecast_stim",
-    "startFrame": 15112,
-    "endFrame": 15203,
-    "startSeconds": 503.74,
-    "endSeconds": 506.78,
-    "text": "noted that enterprise artificial intelligence consulting"
+    "sceneId": "s13_sk_telecom_unveils_ai_staff_offi",
+    "startFrame": 15380,
+    "endFrame": 15481,
+    "startSeconds": 512.67,
+    "endSeconds": 516.03,
+    "text": "Army. The platform integrates real -time"
   },
   {
     "index": 180,
-    "sceneId": "s14_accenture_earnings_forecast_stim",
-    "startFrame": 15203,
-    "endFrame": 15295,
-    "startSeconds": 506.78,
-    "endSeconds": 509.82,
-    "text": "contracts and custom agent integration workflows"
+    "sceneId": "s13_sk_telecom_unveils_ai_staff_offi",
+    "startFrame": 15481,
+    "endFrame": 15568,
+    "startSeconds": 516.03,
+    "endSeconds": 518.93,
+    "text": "telemetry from reconnaissance drones, unmanned ground"
   },
   {
     "index": 181,
-    "sceneId": "s14_accenture_earnings_forecast_stim",
-    "startFrame": 15295,
-    "endFrame": 15370,
-    "startSeconds": 509.82,
-    "endSeconds": 512.34,
-    "text": "are increasingly functioning as structural revenue"
+    "sceneId": "s13_sk_telecom_unveils_ai_staff_offi",
+    "startFrame": 15568,
+    "endFrame": 15649,
+    "startSeconds": 518.93,
+    "endSeconds": 521.63,
+    "text": "robots, and field sensors using ontology"
   },
   {
     "index": 182,
-    "sceneId": "s14_accenture_earnings_forecast_stim",
-    "startFrame": 15370,
-    "endFrame": 15477,
-    "startSeconds": 512.34,
-    "endSeconds": 515.9,
-    "text": "catalysts, shifting institutional investor sentiment toward"
+    "sceneId": "s13_sk_telecom_unveils_ai_staff_offi",
+    "startFrame": 15649,
+    "endFrame": 15709,
+    "startSeconds": 521.63,
+    "endSeconds": 523.63,
+    "text": "and digital twin frameworks to accelerate"
   },
   {
     "index": 183,
-    "sceneId": "s14_accenture_earnings_forecast_stim",
-    "startFrame": 15477,
-    "endFrame": 15532,
-    "startSeconds": 515.9,
-    "endSeconds": 517.72,
-    "text": "long -term digital services growth."
+    "sceneId": "s13_sk_telecom_unveils_ai_staff_offi",
+    "startFrame": 15709,
+    "endFrame": 15787,
+    "startSeconds": 523.63,
+    "endSeconds": 526.23,
+    "text": "command decision cycles and tactical battlefield"
   },
   {
     "index": 184,
-    "sceneId": "recap",
-    "startFrame": 15603,
-    "endFrame": 15687,
-    "startSeconds": 520.11,
-    "endSeconds": 522.91,
-    "text": "To recap today's headlines, NATO incorporates"
+    "sceneId": "s13_sk_telecom_unveils_ai_staff_offi",
+    "startFrame": 15787,
+    "endFrame": 15858,
+    "startSeconds": 526.23,
+    "endSeconds": 528.59,
+    "text": "awareness under the Army's TigerPlus modernization"
   },
   {
     "index": 185,
-    "sceneId": "recap",
-    "startFrame": 15687,
-    "endFrame": 15764,
-    "startSeconds": 522.91,
-    "endSeconds": 525.47,
-    "text": "AI targeting and autonomous systems into"
+    "sceneId": "s13_sk_telecom_unveils_ai_staff_offi",
+    "startFrame": 15858,
+    "endFrame": 15884,
+    "startSeconds": 528.59,
+    "endSeconds": 529.45,
+    "text": "doctrine."
   },
   {
     "index": 186,
-    "sceneId": "recap",
-    "startFrame": 15764,
-    "endFrame": 15851,
-    "startSeconds": 525.47,
-    "endSeconds": 528.37,
-    "text": "Eastern flank defense doctrine. MIT researchers"
+    "sceneId": "s14_ai_chip_software_developer_vinci",
+    "startFrame": 16011,
+    "endFrame": 16084,
+    "startSeconds": 533.69,
+    "endSeconds": 536.15,
+    "text": "Turning to India, AI chip software"
   },
   {
     "index": 187,
-    "sceneId": "recap",
-    "startFrame": 15851,
-    "endFrame": 15929,
-    "startSeconds": 528.37,
-    "endSeconds": 530.95,
-    "text": "unveil Vista Visual Harness enabling perfect"
+    "sceneId": "s14_ai_chip_software_developer_vinci",
+    "startFrame": 16084,
+    "endFrame": 16185,
+    "startSeconds": 536.15,
+    "endSeconds": 539.49,
+    "text": "startup Vinci secured $250 million in"
   },
   {
     "index": 188,
-    "sceneId": "recap",
-    "startFrame": 15929,
-    "endFrame": 16025,
-    "startSeconds": 530.95,
-    "endSeconds": 534.17,
-    "text": "arc AGI 3 benchmark scores. OpenAI"
+    "sceneId": "s14_ai_chip_software_developer_vinci",
+    "startFrame": 16185,
+    "endFrame": 16238,
+    "startSeconds": 539.49,
+    "endSeconds": 541.27,
+    "text": "a funding round valuing the enterprise"
   },
   {
     "index": 189,
-    "sceneId": "recap",
-    "startFrame": 16025,
-    "endFrame": 16110,
-    "startSeconds": 534.17,
-    "endSeconds": 536.99,
-    "text": "begins testing visual display advertising within"
+    "sceneId": "s14_ai_chip_software_developer_vinci",
+    "startFrame": 16238,
+    "endFrame": 16316,
+    "startSeconds": 541.27,
+    "endSeconds": 543.85,
+    "text": "at $1 .5 billion to expand"
   },
   {
     "index": 190,
-    "sceneId": "recap",
-    "startFrame": 16110,
-    "endFrame": 16206,
-    "startSeconds": 536.99,
-    "endSeconds": 540.21,
-    "text": "chat GPT image generation workflows. Independent"
+    "sceneId": "s14_ai_chip_software_developer_vinci",
+    "startFrame": 16316,
+    "endFrame": 16404,
+    "startSeconds": 543.85,
+    "endSeconds": 546.81,
+    "text": "artificial intelligence -driven simulation tools for"
   },
   {
     "index": 191,
-    "sceneId": "recap",
-    "startFrame": 16206,
-    "endFrame": 16294,
-    "startSeconds": 540.21,
-    "endSeconds": 543.15,
-    "text": "researchers track rogue Chinese AI agent"
+    "sceneId": "s14_ai_chip_software_developer_vinci",
+    "startFrame": 16404,
+    "endFrame": 16514,
+    "startSeconds": 546.81,
+    "endSeconds": 550.47,
+    "text": "advanced semiconductor design, directly rivaling established"
   },
   {
     "index": 192,
-    "sceneId": "recap",
-    "startFrame": 16294,
-    "endFrame": 16358,
-    "startSeconds": 543.15,
-    "endSeconds": 545.25,
-    "text": "fleet on 10 cent infrastructure targeting"
+    "sceneId": "s14_ai_chip_software_developer_vinci",
+    "startFrame": 16514,
+    "endFrame": 16582,
+    "startSeconds": 550.47,
+    "endSeconds": 552.75,
+    "text": "EDA suites from synopsis and cadence."
   },
   {
     "index": 193,
-    "sceneId": "recap",
-    "startFrame": 16358,
-    "endFrame": 16434,
-    "startSeconds": 545.25,
-    "endSeconds": 547.79,
-    "text": "Alibaba AMAP. Bank of Japan warns"
+    "sceneId": "s14_ai_chip_software_developer_vinci",
+    "startFrame": 16605,
+    "endFrame": 16663,
+    "startSeconds": 553.49,
+    "endSeconds": 555.43,
+    "text": "The funding coincide with a new"
   },
   {
     "index": 194,
-    "sceneId": "recap",
-    "startFrame": 16434,
-    "endFrame": 16498,
-    "startSeconds": 547.79,
-    "endSeconds": 549.95,
-    "text": "global AI compute boom masks under"
+    "sceneId": "s14_ai_chip_software_developer_vinci",
+    "startFrame": 16663,
+    "endFrame": 16735,
+    "startSeconds": 555.43,
+    "endSeconds": 557.83,
+    "text": "World Bank Economic Assessment advising emerging"
   },
   {
     "index": 195,
-    "sceneId": "recap",
-    "startFrame": 16498,
-    "endFrame": 16556,
-    "startSeconds": 549.95,
-    "endSeconds": 551.87,
-    "text": "the US. Online financial volatility risks,"
+    "sceneId": "s14_ai_chip_software_developer_vinci",
+    "startFrame": 16735,
+    "endFrame": 16829,
+    "startSeconds": 557.83,
+    "endSeconds": 560.97,
+    "text": "markets to prioritize scalable vertical enterprise"
   },
   {
     "index": 196,
-    "sceneId": "recap",
-    "startFrame": 16556,
-    "endFrame": 16647,
-    "startSeconds": 551.87,
-    "endSeconds": 554.91,
-    "text": "and Thropic activates in country inference"
+    "sceneId": "s14_ai_chip_software_developer_vinci",
+    "startFrame": 16829,
+    "endFrame": 16922,
+    "startSeconds": 560.97,
+    "endSeconds": 564.07,
+    "text": "applications and domain -specific inference deployments"
   },
   {
     "index": 197,
-    "sceneId": "recap",
-    "startFrame": 16647,
-    "endFrame": 16712,
-    "startSeconds": 554.91,
-    "endSeconds": 557.05,
-    "text": "in India via Amazon Bedrock for"
+    "sceneId": "s14_ai_chip_software_developer_vinci",
+    "startFrame": 16922,
+    "endFrame": 17012,
+    "startSeconds": 564.07,
+    "endSeconds": 567.07,
+    "text": "alongside targeted investments in sovereign computing"
   },
   {
     "index": 198,
-    "sceneId": "recap",
-    "startFrame": 16712,
-    "endFrame": 16743,
-    "startSeconds": 557.05,
-    "endSeconds": 558.09,
-    "text": "regulated enterprises."
+    "sceneId": "s14_ai_chip_software_developer_vinci",
+    "startFrame": 17012,
+    "endFrame": 17028,
+    "startSeconds": 567.07,
+    "endSeconds": 567.61,
+    "text": "infrastructure."
   },
   {
     "index": 199,
-    "sceneId": "market_snapshot",
-    "startFrame": 16818,
-    "endFrame": 16882,
-    "startSeconds": 560.6,
-    "endSeconds": 562.74,
-    "text": "On the desk today, NATO incorporates"
+    "sceneId": "recap",
+    "startFrame": 17085,
+    "endFrame": 17174,
+    "startSeconds": 569.5,
+    "endSeconds": 572.46,
+    "text": "To recap today's headlines, Ukraine deploys"
   },
   {
     "index": 200,
-    "sceneId": "market_snapshot",
-    "startFrame": 16882,
-    "endFrame": 16963,
-    "startSeconds": 562.74,
-    "endSeconds": 565.44,
-    "text": "AI targeting and autonomous systems into"
+    "sceneId": "recap",
+    "startFrame": 17174,
+    "endFrame": 17249,
+    "startSeconds": 572.46,
+    "endSeconds": 574.98,
+    "text": "autonomous optical turrets against Garen, five"
   },
   {
     "index": 201,
-    "sceneId": "market_snapshot",
-    "startFrame": 16963,
-    "endFrame": 17073,
-    "startSeconds": 565.44,
-    "endSeconds": 569.1,
-    "text": "Eastern flank defence doctrine. MIT researchers"
+    "sceneId": "recap",
+    "startFrame": 17249,
+    "endFrame": 17326,
+    "startSeconds": 574.98,
+    "endSeconds": 577.52,
+    "text": "drones as tactical AI spreads, Google"
   },
   {
     "index": 202,
-    "sceneId": "market_snapshot",
-    "startFrame": 17073,
-    "endFrame": 17157,
-    "startSeconds": 569.1,
-    "endSeconds": 571.9,
-    "text": "unveil Vista visual harness enabling Perfect"
+    "sceneId": "recap",
+    "startFrame": 17326,
+    "endFrame": 17402,
+    "startSeconds": 577.52,
+    "endSeconds": 580.08,
+    "text": "researchers publish Medjema medical vision models"
   },
   {
     "index": 203,
-    "sceneId": "market_snapshot",
-    "startFrame": 17157,
-    "endFrame": 17272,
-    "startSeconds": 571.9,
-    "endSeconds": 575.72,
-    "text": "Arc AGI 3 benchmark scores. OpenAI"
+    "sceneId": "recap",
+    "startFrame": 17402,
+    "endFrame": 17476,
+    "startSeconds": 580.08,
+    "endSeconds": 582.54,
+    "text": "in nature medicine alongside embedding Gemma"
   },
   {
     "index": 204,
-    "sceneId": "market_snapshot",
-    "startFrame": 17272,
-    "endFrame": 17358,
-    "startSeconds": 575.72,
-    "endSeconds": 578.6,
-    "text": "begins testing visual display advertising within"
+    "sceneId": "recap",
+    "startFrame": 17476,
+    "endFrame": 17564,
+    "startSeconds": 582.54,
+    "endSeconds": 585.48,
+    "text": "2, reflection AI launches beam 501"
   },
   {
     "index": 205,
-    "sceneId": "market_snapshot",
-    "startFrame": 17358,
-    "endFrame": 17476,
-    "startSeconds": 578.6,
-    "endSeconds": 582.54,
-    "text": "chat GPT image generation workflows. Independent"
+    "sceneId": "recap",
+    "startFrame": 17564,
+    "endFrame": 17640,
+    "startSeconds": 585.48,
+    "endSeconds": 588.0,
+    "text": "billion parameter open -weight reasoning model,"
   },
   {
     "index": 206,
-    "sceneId": "market_snapshot",
-    "startFrame": 17476,
-    "endFrame": 17561,
-    "startSeconds": 582.54,
-    "endSeconds": 585.36,
-    "text": "researchers track rogue Chinese AI agent"
+    "sceneId": "recap",
+    "startFrame": 17649,
+    "endFrame": 17729,
+    "startSeconds": 588.3,
+    "endSeconds": 590.96,
+    "text": "DeepSeek nears $12 billion funding round"
   },
   {
     "index": 207,
-    "sceneId": "market_snapshot",
-    "startFrame": 17561,
-    "endFrame": 17647,
-    "startSeconds": 585.36,
-    "endSeconds": 588.22,
-    "text": "fleet on Tencent infrastructure targeting Alibaba"
+    "sceneId": "recap",
+    "startFrame": 17729,
+    "endFrame": 17797,
+    "startSeconds": 590.96,
+    "endSeconds": 593.24,
+    "text": "backed by Tencent and CATL for"
   },
   {
     "index": 208,
-    "sceneId": "market_snapshot",
-    "startFrame": 17647,
-    "endFrame": 17741,
-    "startSeconds": 588.22,
-    "endSeconds": 591.36,
-    "text": "AMAP. Bank of Japan warns global"
+    "sceneId": "recap",
+    "startFrame": 17797,
+    "endFrame": 17899,
+    "startSeconds": 593.24,
+    "endSeconds": 596.62,
+    "text": "160k Huawei chip cluster, Japan reviews"
   },
   {
     "index": 209,
-    "sceneId": "market_snapshot",
-    "startFrame": 17741,
-    "endFrame": 17827,
-    "startSeconds": 591.36,
-    "endSeconds": 594.22,
-    "text": "AI compute boom masks underlying financial"
+    "sceneId": "recap",
+    "startFrame": 17899,
+    "endFrame": 17973,
+    "startSeconds": 596.62,
+    "endSeconds": 599.1,
+    "text": "national AI legislation to introduce statutory"
   },
   {
     "index": 210,
-    "sceneId": "market_snapshot",
-    "startFrame": 17827,
-    "endFrame": 17945,
-    "startSeconds": 594.22,
-    "endSeconds": 598.16,
-    "text": "volatility risks. Anthropic activates in -country"
+    "sceneId": "recap",
+    "startFrame": 17985,
+    "endFrame": 18101,
+    "startSeconds": 599.5,
+    "endSeconds": 603.38,
+    "text": "penalties for malicious AI. Operators, 11"
   },
   {
     "index": 211,
-    "sceneId": "market_snapshot",
-    "startFrame": 17945,
-    "endFrame": 18011,
-    "startSeconds": 598.16,
-    "endSeconds": 600.38,
-    "text": "inference in India via Amazon bedrock"
+    "sceneId": "recap",
+    "startFrame": 18101,
+    "endFrame": 18157,
+    "startSeconds": 603.38,
+    "endSeconds": 605.22,
+    "text": "Labs commits hundreds of millions of"
   },
   {
     "index": 212,
-    "sceneId": "market_snapshot",
-    "startFrame": 18011,
-    "endFrame": 18056,
-    "startSeconds": 600.38,
-    "endSeconds": 601.86,
-    "text": "for regulated enterprises."
+    "sceneId": "recap",
+    "startFrame": 18157,
+    "endFrame": 18229,
+    "startSeconds": 605.22,
+    "endSeconds": 607.64,
+    "text": "dollars to India, Inks Karnataka government"
   },
   {
     "index": 213,
-    "sceneId": "outro",
-    "startFrame": 18130,
-    "endFrame": 18195,
-    "startSeconds": 604.33,
-    "endSeconds": 606.49,
-    "text": "Those were today's critical developments across"
+    "sceneId": "recap",
+    "startFrame": 18229,
+    "endFrame": 18244,
+    "startSeconds": 607.64,
+    "endSeconds": 608.14,
+    "text": "partnership."
   },
   {
     "index": 214,
-    "sceneId": "outro",
-    "startFrame": 18195,
-    "endFrame": 18306,
-    "startSeconds": 606.49,
-    "endSeconds": 610.19,
-    "text": "global artificial intelligence. From our Bureau's"
+    "sceneId": "market_snapshot",
+    "startFrame": 18315,
+    "endFrame": 18387,
+    "startSeconds": 610.49,
+    "endSeconds": 612.89,
+    "text": "On the desk today, Ukraine deploys"
   },
   {
     "index": 215,
-    "sceneId": "outro",
-    "startFrame": 18306,
-    "endFrame": 18412,
-    "startSeconds": 610.19,
-    "endSeconds": 613.75,
-    "text": "covering world, USA, China, Asia, and"
+    "sceneId": "market_snapshot",
+    "startFrame": 18387,
+    "endFrame": 18457,
+    "startSeconds": 612.89,
+    "endSeconds": 615.23,
+    "text": "autonomous optical turrets against Garen 5"
   },
   {
     "index": 216,
-    "sceneId": "outro",
-    "startFrame": 18412,
-    "endFrame": 18480,
-    "startSeconds": 613.75,
-    "endSeconds": 616.01,
-    "text": "India, thank you for watching SanMitra"
+    "sceneId": "market_snapshot",
+    "startFrame": 18457,
+    "endFrame": 18558,
+    "startSeconds": 615.23,
+    "endSeconds": 618.59,
+    "text": "drones as tactical AI spreads. Google"
   },
   {
     "index": 217,
-    "sceneId": "outro",
-    "startFrame": 18480,
-    "endFrame": 18577,
-    "startSeconds": 616.01,
-    "endSeconds": 619.23,
-    "text": "AI News Wire. Subscribe now for"
+    "sceneId": "market_snapshot",
+    "startFrame": 18558,
+    "endFrame": 18638,
+    "startSeconds": 618.59,
+    "endSeconds": 621.25,
+    "text": "researchers publish MedGEMMA medical vision models"
   },
   {
     "index": 218,
+    "sceneId": "market_snapshot",
+    "startFrame": 18638,
+    "endFrame": 18712,
+    "startSeconds": 621.25,
+    "endSeconds": 623.73,
+    "text": "in nature medicine alongside embedding GEMMA"
+  },
+  {
+    "index": 219,
+    "sceneId": "market_snapshot",
+    "startFrame": 18712,
+    "endFrame": 18818,
+    "startSeconds": 623.73,
+    "endSeconds": 627.27,
+    "text": "2. Reflection AI launches Beam 501"
+  },
+  {
+    "index": 220,
+    "sceneId": "market_snapshot",
+    "startFrame": 18818,
+    "endFrame": 18898,
+    "startSeconds": 627.27,
+    "endSeconds": 629.95,
+    "text": "billion parameter open -weight reasoning model."
+  },
+  {
+    "index": 221,
+    "sceneId": "market_snapshot",
+    "startFrame": 18927,
+    "endFrame": 19008,
+    "startSeconds": 630.91,
+    "endSeconds": 633.59,
+    "text": "DeepSeek nears $12 billion funding round"
+  },
+  {
+    "index": 222,
+    "sceneId": "market_snapshot",
+    "startFrame": 19008,
+    "endFrame": 19077,
+    "startSeconds": 633.59,
+    "endSeconds": 635.89,
+    "text": "backed by Tencent and CATL for"
+  },
+  {
+    "index": 223,
+    "sceneId": "market_snapshot",
+    "startFrame": 19077,
+    "endFrame": 19198,
+    "startSeconds": 635.89,
+    "endSeconds": 639.95,
+    "text": "160k Huawei chip cluster. Japan reviews"
+  },
+  {
+    "index": 224,
+    "sceneId": "market_snapshot",
+    "startFrame": 19198,
+    "endFrame": 19282,
+    "startSeconds": 639.95,
+    "endSeconds": 642.75,
+    "text": "national AI legislation to introduce statutory"
+  },
+  {
+    "index": 225,
+    "sceneId": "market_snapshot",
+    "startFrame": 19282,
+    "endFrame": 19401,
+    "startSeconds": 642.75,
+    "endSeconds": 646.71,
+    "text": "penalties for malicious AI operators. 11"
+  },
+  {
+    "index": 226,
+    "sceneId": "market_snapshot",
+    "startFrame": 19401,
+    "endFrame": 19462,
+    "startSeconds": 646.71,
+    "endSeconds": 648.73,
+    "text": "Labs commits hundreds of millions of"
+  },
+  {
+    "index": 227,
+    "sceneId": "market_snapshot",
+    "startFrame": 19462,
+    "endFrame": 19535,
+    "startSeconds": 648.73,
+    "endSeconds": 651.17,
+    "text": "dollars to India, Inc. Karnataka government"
+  },
+  {
+    "index": 228,
+    "sceneId": "market_snapshot",
+    "startFrame": 19535,
+    "endFrame": 19554,
+    "startSeconds": 651.17,
+    "endSeconds": 651.79,
+    "text": "partnership."
+  },
+  {
+    "index": 229,
     "sceneId": "outro",
-    "startFrame": 18577,
-    "endFrame": 18635,
-    "startSeconds": 619.23,
-    "endSeconds": 621.17,
+    "startFrame": 19624,
+    "endFrame": 19689,
+    "startSeconds": 654.15,
+    "endSeconds": 656.29,
+    "text": "Those were today's critical developments across"
+  },
+  {
+    "index": 230,
+    "sceneId": "outro",
+    "startFrame": 19689,
+    "endFrame": 19800,
+    "startSeconds": 656.29,
+    "endSeconds": 660.01,
+    "text": "global artificial intelligence. From our Bureau's"
+  },
+  {
+    "index": 231,
+    "sceneId": "outro",
+    "startFrame": 19800,
+    "endFrame": 19907,
+    "startSeconds": 660.01,
+    "endSeconds": 663.57,
+    "text": "covering world, USA, China, Asia, and"
+  },
+  {
+    "index": 232,
+    "sceneId": "outro",
+    "startFrame": 19907,
+    "endFrame": 19975,
+    "startSeconds": 663.57,
+    "endSeconds": 665.83,
+    "text": "India, thank you for watching SanMitra"
+  },
+  {
+    "index": 233,
+    "sceneId": "outro",
+    "startFrame": 19975,
+    "endFrame": 20072,
+    "startSeconds": 665.83,
+    "endSeconds": 669.05,
+    "text": "AI News Wire. Subscribe now for"
+  },
+  {
+    "index": 234,
+    "sceneId": "outro",
+    "startFrame": 20072,
+    "endFrame": 20130,
+    "startSeconds": 669.05,
+    "endSeconds": 670.99,
     "text": "daily institutional AI intelligence."
   }
 ]

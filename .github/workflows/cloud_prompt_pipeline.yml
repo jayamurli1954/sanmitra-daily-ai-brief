@@ -83,10 +83,18 @@ jobs:
           GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
         run: |
           PROMPT_ARG=""
+          TODAY=$(date +%Y-%m-%d)
           if [ -n "$PROMPT_FILE" ] && [ -f "$PROMPT_FILE" ]; then
             PROMPT_ARG="--prompt-file $PROMPT_FILE"
-          elif [ -f "prompts/daily_prompt.md" ]; then
-            PROMPT_ARG="--prompt-file prompts/daily_prompt.md"
+          elif [ -f "prompts/$TODAY.md" ]; then
+            PROMPT_ARG="--prompt-file prompts/$TODAY.md"
+          else
+            LATEST=$(ls -t prompts/2026-*.md 2>/dev/null | head -n 1)
+            if [ -n "$LATEST" ] && [ -f "$LATEST" ]; then
+              PROMPT_ARG="--prompt-file $LATEST"
+            elif [ -f "prompts/daily_prompt.md" ]; then
+              PROMPT_ARG="--prompt-file prompts/daily_prompt.md"
+            fi
           fi
           
           python produce_from_prompt.py $PROMPT_ARG --privacy "$PRIVACY_SETTING"
