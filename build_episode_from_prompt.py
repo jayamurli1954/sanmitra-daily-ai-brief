@@ -70,7 +70,39 @@ def clean_text_for_broadcast(text: str) -> str:
     """Removes markdown artifacts, symbols, and formatting."""
     if not text:
         return ""
-    # Convert currency symbols for natural speech
+    # Convert currency symbols for natural speech, with the currency word
+    # AFTER the number (natural English order: "12 billion dollars", not
+    # "dollars 12 billion"). Handles an optional magnitude word (billion/
+    # million/trillion/crore/lakh) immediately following the number.
+    _MAGNITUDE_WORDS = {
+        "bn": "billion", "b": "billion", "billion": "billion",
+        "mn": "million", "m": "million", "million": "million",
+        "tn": "trillion", "t": "trillion", "trillion": "trillion",
+        "k": "thousand", "thousand": "thousand",
+        "cr": "crore", "crore": "crore",
+        "lakh": "lakh", "lk": "lakh",
+    }
+
+    def _currency_to_words(match, word):
+        number = match.group(1)
+        raw_mag = (match.group(2) or "").lower()
+        magnitude = _MAGNITUDE_WORDS.get(raw_mag, raw_mag)
+        return f"{number} {magnitude} {word}".replace("  ", " ").strip() + " "
+
+    _MAG_PATTERN = r'(billion|million|trillion|crore|lakh|bn|mn|tn|cr|lk|[bmtk])?'
+    text = re.sub(
+        rf'₹\s*([\d,.]+)\s*{_MAG_PATTERN}',
+        lambda m: _currency_to_words(m, "rupees"),
+        text,
+        flags=re.IGNORECASE,
+    )
+    text = re.sub(
+        rf'\$\s*([\d,.]+)\s*{_MAG_PATTERN}',
+        lambda m: _currency_to_words(m, "dollars"),
+        text,
+        flags=re.IGNORECASE,
+    )
+    # Catch any remaining bare symbols (e.g. "$" with no attached number)
     text = text.replace('₹', ' rupees ')
     text = text.replace('$', ' dollars ')
     # Remove URLs
