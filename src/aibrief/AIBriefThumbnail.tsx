@@ -37,6 +37,11 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
   const themeColor =
     variant === "B" ? "#0284c7" : variant === "C" ? "#059669" : "#dc2626";
 
+  const headlineLen = headline.length;
+  const headlineFontSize =
+    headlineLen > 70 ? 62 : headlineLen > 45 ? 78 : headlineLen > 30 ? 92 : 110;
+  const subheadlineFontSize = Math.min(Math.round(headlineFontSize * 0.65), 58);
+
   return (
     <div
       style={{
@@ -239,13 +244,14 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
       >
         <h1
           style={{
-            fontSize: 122,
+            fontSize: headlineFontSize,
             fontWeight: 950,
-            letterSpacing: -2,
-            lineHeight: 0.95,
+            letterSpacing: -1.5,
+            lineHeight: 1.02,
             margin: 0,
             textTransform: "uppercase",
             textShadow: "0 8px 30px rgba(0, 0, 0, 0.95)",
+            maxWidth: 1650,
           }}
         >
           <span style={{ color: "#ffffff", display: "block" }}>{headline}</span>
@@ -253,7 +259,9 @@ export const AIBriefThumbnail: React.FC<ThumbnailProps> = ({
             style={{
               color: accentColor,
               display: "block",
-              marginTop: 12,
+              marginTop: 16,
+              fontSize: subheadlineFontSize,
+              letterSpacing: 0,
               textShadow:
                 `0 8px 30px rgba(0, 0, 0, 0.95), 0 0 50px ${accentColor}66`,
             }}

@@ -592,9 +592,16 @@ def parse_markdown_prompt(md_text: str) -> dict:
         "ticker": ["SanMitra AI News Wire v6.0"] + [s["headline"][:45] for s in stories],
         "thumbnail": {
             "date": formatted_date.upper(),
-            "headline": stories[0]["headline"].upper() if stories else "BIGGEST AI NEWS TODAY",
+            "headline": (
+                stories[0]["headline"].upper() if stories and len(stories[0]["headline"]) <= 45
+                else stories[0]["headline"][:45].rsplit(" ", 1)[0].upper() if stories
+                else "BIGGEST AI NEWS TODAY"
+            ),
             "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
-            "storyHighlights": [s["headline"][:35].upper() for s in stories[:4]]
+            "storyHighlights": [
+                (s["headline"][:36].rsplit(" ", 1)[0].upper() if len(s["headline"]) > 36 else s["headline"].upper())
+                for s in stories[:4]
+            ]
         },
         "youtubeMetadata": {
             "title": yt_title,

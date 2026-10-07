@@ -8,7 +8,7 @@ Covering AI developments from the previous day. Only items with a named outlet a
 
 # WORLD
 
-### Ukraine deploys autonomous optical turrets against Geran-5 drones as tactical AI spreads
+### Ukraine deploys AI robotic turrets against Geran-5 drones as tactical AI spreads
 Source: AFP via JIJI Press
 https://jen.jiji.com/jc/eng_afp?k=20261006049428a
 Also: Ukrainska Pravda https://www.pravda.com.ua/eng/news/2026/10/05/8056505/
