@@ -552,8 +552,14 @@ def parse_markdown_prompt(md_text: str) -> dict:
         "Subscribe now for daily institutional AI intelligence."
     )
 
-    # Title & tags
-    top_heads = " | ".join([s["headline"][:32] for s in stories[:3]])
+    # Title & tags with clean word boundaries
+    def clean_title_part(h: str, max_chars: int = 35) -> str:
+        h = h.strip()
+        if len(h) <= max_chars:
+            return h
+        return h[:max_chars].rsplit(" ", 1)[0].strip()
+
+    top_heads = " | ".join([clean_title_part(s["headline"]) for s in stories[:3]])
     yt_title = f"{top_heads} | AI News {formatted_date}"
 
     episode = {
