@@ -19,9 +19,11 @@ Strictly complies with the Visual Freshness & Anti-Repetition Standard:
 
 import argparse
 from datetime import datetime, timedelta
+import glob
 import io
 import json
 import os
+import shutil
 import sys
 import urllib.request
 from PIL import Image, ImageEnhance, ImageOps
@@ -41,11 +43,16 @@ BANNED_ASSETS = {
     "gov_white_house.jpg", # Obama on phone
     "gov_us_capitol_hearing.jpg", # same Obama photo saved under another name
     "story5_us_capitol.jpg", # same Obama photo saved under another name
+    "photo-1541872703-74c5e44368f9", # Unsplash Obama on phone
     "gov_un_chamber.jpg",  # UN emblem / assembly
     "gov_india_delhi.jpg", # Gateway of India
     "tech_neural_globe.jpg", # Earth at night
+    "photo-1451187580459-43490279c0fa", # Unsplash Earth at night
+    "photo-1450133064473-71024230f91b", # Fashion portrait
     "un_declaration.png",
-    "us_china_talks.png"
+    "us_china_talks.png",
+    "ulun_danu",
+    "bali_temple"
 }
 
 # Curated Story-Specific Real Visuals for 2026-09-28
@@ -238,7 +245,9 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
             except Exception:
                 pass
 
-    from src.aibrief.entity_visual_resolver import resolve_cuts_for_story, to_wiki_thumb, DOMAIN_POOLS
+    from src.aibrief.entity_visual_resolver import resolve_cuts_for_story, to_wiki_thumb, DOMAIN_POOLS, CURATED_ENTITY_MAP
+
+    curated_urls = {val[0] for val in CURATED_ENTITY_MAP.values()}
 
     # 1. Resolve authentic, story-specific visual cuts directly from active episode
     items = []
@@ -254,10 +263,11 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
             print(f"[*] Resolving story-specific editorial visuals for {len(stories)} stories...")
             global_used = set()
             for idx, s in enumerate(stories, 1):
+                full_story_text = f"{s.get('headline', '')} {s.get('script', '')} {s.get('subheadline', '')} {s.get('whyThisMatters', '')}"
                 cuts = resolve_cuts_for_story(
                     idx,
                     s.get("headline", ""),
-                    s.get("summary", ""),
+                    full_story_text,
                     s.get("region", "WORLD"),
                     global_used_urls=global_used
                 )
@@ -273,15 +283,21 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
     headers = {"User-Agent": "SanMitraNewsBot/1.0 (https://sanmitra.ai; newsdesk@sanmitra.ai)"}
 
     mgr = VisualMemoryManager()
+    if force:
+        mgr.clear_date(date_str)
     used_this_run = []
     category_counts = {}
     used_fallback_urls = set()
+    story_used_locals = {}
+    curated_clean_urls = {u.split('?')[0].lower() for u in curated_urls}
 
     import time
     for filename, url, badge in items:
         dest_file = os.path.join(dest_dir, filename)
         category = mgr.classify_visual_category(badge, url)
-        print(f"[*] Processing visual: {filename} (Category: {category})...")
+        clean_cand_url = url.split('?')[0].lower()
+        is_curated_entity = (clean_cand_url in curated_clean_urls) or ("upload.wikimedia.org" in clean_cand_url)
+        print(f"[*] Processing visual: {filename} (Category: {category}, Curated: {is_curated_entity})...")
 
         time.sleep(0.3)  # Rate limit protection for Wikimedia/Unsplash
         success = False
@@ -294,13 +310,14 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
 
                 # Validate against 14-day pHash memory and diversity caps
                 approved, cand_hash, rejection_reason = mgr.check_visual_candidate(
-                    im, url, category, category_counts, current_date_str=date_str
+                    im, url, category, category_counts, current_date_str=date_str,
+                    is_curated_entity=is_curated_entity
                 )
 
                 if approved:
                     im.save(dest_file, quality=92)
                     category_counts[category] = category_counts.get(category, 0) + 1
-                    print(f"    [+] APPROVED & SAVED (pHash: {cand_hash}, Category count: {category_counts[category]}/6): {dest_file}")
+                    print(f"    [+] APPROVED & SAVED (pHash: {cand_hash}, Category count: {category_counts[category]}/12): {dest_file}")
                     used_this_run.append({
                         "date": date_str,
                         "filename": filename,
@@ -318,26 +335,27 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
         # If primary candidate failed or was rejected, apply guaranteed high-grade broadcast fallback
         if not success:
             print(f"    [*] Applying high-grade broadcast texture for {filename}...")
-            lower_tag = f"{badge} {filename}".lower()
-            if any(k in lower_tag for k in ["chip", "semiconductor", "wafer", "hardware", "soc", "bigendian", "veerai", "s10", "s13"]):
+            # Derive domain strictly from badge and semantic category, never filename substrings
+            tag_text = f"{badge} {category}".lower()
+            if any(k in tag_text for k in ["chip", "semiconductor", "wafer", "hardware", "soc", "silicon", "gpu", "die", "npu"]):
                 pool_category = "hardware"
-                local_fallback = "public/aibrief/assets/editorial/tech_silicon_wafer.jpg"
+                local_fallback = "public/aibrief/backgrounds/ai_chips.jpg"
                 fallback_badge = "ADVANCED SILICON DIE • FABRICATION CLEANROOM"
-            elif any(k in lower_tag for k in ["defense", "missile", "radar", "military", "nato", "flank", "targeting", "drone", "cyber", "s1"]):
+            elif any(k in tag_text for k in ["defense", "missile", "radar", "military", "nato", "flank", "targeting", "drone", "strike", "swarms", "kill-chain", "cyber", "threat", "robotics", "actuator"]):
                 pool_category = "defense"
-                local_fallback = "public/aibrief/assets/story2_cyber_defense.jpg"
+                local_fallback = "public/aibrief/backgrounds/ai_security.jpg"
                 fallback_badge = "DEFENSE OPERATIONS • LIVE TELEMETRY"
-            elif any(k in lower_tag for k in ["datacenter", "datacentre", "cloud", "grid", "power", "bedrock", "s6"]):
+            elif any(k in tag_text for k in ["datacenter", "datacentre", "cloud", "grid", "power", "bedrock", "megawatt", "cluster"]):
                 pool_category = "energy"
-                local_fallback = "public/aibrief/assets/story6_datacenter_servers.jpg"
+                local_fallback = "public/aibrief/backgrounds/cloud_infrastructure.jpg"
                 fallback_badge = "HYPERSCALE COMPUTE • SERVER CLUSTER"
-            elif any(k in lower_tag for k in ["research", "model", "bench", "eval", "vista", "mit", "s2", "s12"]):
+            elif any(k in tag_text for k in ["research", "model", "bench", "eval", "vista", "mit", "proof", "math", "cellular", "biology"]):
                 pool_category = "research"
-                local_fallback = "public/aibrief/assets/editorial/tech_quantum_lab.jpg"
+                local_fallback = "public/aibrief/backgrounds/ai_standards.jpg"
                 fallback_badge = "FRONTIER AI RESEARCH • NEURAL HARNESS"
             else:
                 pool_category = "policy"
-                local_fallback = "public/aibrief/assets/editorial/gov_canberra_parliament.jpg"
+                local_fallback = "public/aibrief/backgrounds/global_policy.jpg"
                 fallback_badge = "LEGISLATIVE OVERSIGHT • STATUTORY REVIEW"
 
             backup_pool = DOMAIN_POOLS.get(pool_category, DOMAIN_POOLS["policy"])
@@ -368,22 +386,42 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
                 except Exception:
                     pass
 
-            # Guaranteed local texture fallback so every single cut exists on disk
-            if not success and os.path.exists(local_fallback):
-                try:
-                    shutil.copyfile(local_fallback, dest_file)
-                    print(f"    [+] Local domain fallback applied: {dest_file} ({fallback_badge})")
-                    used_this_run.append({
-                        "date": date_str,
-                        "filename": filename,
-                        "url": local_fallback,
-                        "badge": fallback_badge,
-                        "phash": "local_fallback",
-                        "category": pool_category
-                    })
-                    success = True
-                except Exception as e:
-                    print(f"    [!] Error copying local fallback: {e}")
+            # Guaranteed local broadcast background fallback so every single cut exists on disk
+            if not success:
+                story_prefix = filename.split("_")[0]
+                if story_prefix not in story_used_locals:
+                    story_used_locals[story_prefix] = set()
+
+                if local_fallback in story_used_locals[story_prefix]:
+                    alt_candidates = [
+                        "public/aibrief/backgrounds/global_policy.jpg",
+                        "public/aibrief/backgrounds/ai_security.jpg",
+                        "public/aibrief/backgrounds/cloud_infrastructure.jpg",
+                        "public/aibrief/backgrounds/ai_chips.jpg",
+                        "public/aibrief/backgrounds/ai_standards.jpg",
+                        "public/aibrief/backgrounds/geopolitics.jpg"
+                    ]
+                    for alt in alt_candidates:
+                        if alt not in story_used_locals[story_prefix] and os.path.exists(alt):
+                            local_fallback = alt
+                            break
+                story_used_locals[story_prefix].add(local_fallback)
+
+                if os.path.exists(local_fallback):
+                    try:
+                        shutil.copyfile(local_fallback, dest_file)
+                        print(f"    [+] Local domain fallback applied: {dest_file} ({fallback_badge})")
+                        used_this_run.append({
+                            "date": date_str,
+                            "filename": filename,
+                            "url": local_fallback,
+                            "badge": fallback_badge,
+                            "phash": "local_fallback",
+                            "category": pool_category
+                        })
+                        success = True
+                    except Exception as e:
+                        print(f"    [!] Error copying local fallback: {e}")
 
     # Register in 14-day pHash visual memory
     if used_this_run:

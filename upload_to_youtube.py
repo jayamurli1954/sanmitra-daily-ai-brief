@@ -174,7 +174,7 @@ def upload_video(youtube, file_path, title, description, tags, category_id="28",
     insert_request = youtube.videos().insert(
         part=",".join(body.keys()),
         body=body,
-        media_body=MediaFileUpload(file_path, chunksize=-1, resumable=True)
+        media_body=MediaFileUpload(file_path, chunksize=10 * 1024 * 1024, resumable=True)
     )
 
     label = f"SCHEDULED {publish_at}" if publish_at else privacy_status.upper()

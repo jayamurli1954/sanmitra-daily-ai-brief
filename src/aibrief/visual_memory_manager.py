@@ -25,19 +25,24 @@ if PROJECT_ROOT not in sys.path:
 
 MEMORY_FILE = os.path.join(os.path.dirname(__file__), "data", "visual_memory.json")
 
-# Permanently banned stock images / filenames
+# Permanently banned stock images / filenames / URLs
 BANNED_ASSET_KEYWORDS = {
     "gov_white_house.jpg",  # Obama on phone
     "gov_us_capitol_hearing.jpg",  # same Obama photo, mislabeled
     "story5_us_capitol.jpg",  # same Obama photo, mislabeled
+    "photo-1541872703-74c5e44368f9",  # Unsplash Obama on phone
     "gov_un_chamber.jpg",   # UN emblem / assembly
     "un_declaration.png",
     "gov_india_delhi.jpg",  # Gateway of India
     "tech_neural_globe.jpg", # Earth at night
+    "photo-1451187580459-43490279c0fa",  # Unsplash Earth at night
+    "photo-1450133064473-71024230f91b",  # Fashion portrait young man
     "us_china_talks.png",
     "robot_face",
     "glowing_android",
-    "hacker_hoodie"
+    "hacker_hoodie",
+    "ulun_danu",
+    "bali_temple"
 }
 
 # The 8 Institutional Visual Diversity Categories
@@ -140,14 +145,15 @@ class VisualMemoryManager:
         url_or_filename: str,
         category: str,
         current_episode_categories: Dict[str, int],
-        current_date_str: Optional[str] = None
+        current_date_str: Optional[str] = None,
+        is_curated_entity: bool = False
     ) -> Tuple[bool, Optional[str], Optional[str]]:
         """
         Validates whether candidate visual meets all strict editorial criteria:
           1. Not in banned asset blacklist
-          2. Diversity category not saturated in current episode (max 2 per category)
-          3. URL not used in past 14 days
-          4. pHash Hamming distance > 6 against all images in past 14 days
+          2. Diversity category not saturated in current episode (max 6 per category)
+          3. URL not used in past 14 days (unless is_curated_entity=True, e.g. corporate HQ/landmark)
+          4. pHash Hamming distance > 6 against images in past 14 days (unless is_curated_entity=True)
         Returns:
           (approved: bool, computed_phash: Optional[str], rejection_reason: Optional[str])
         """
@@ -163,10 +169,12 @@ class VisualMemoryManager:
             if banned in clean_name:
                 return (False, None, f"Permanently banned stock visual: {banned}")
 
-        # 2. Category diversity cap: For up to 9-story show (27 cuts), allow up to 6 cuts in a broad category
-        cat_count = current_episode_categories.get(category, 0)
-        if cat_count >= 6:
-            return (False, None, f"Category diversity cap exceeded for '{category}' ({cat_count}/6 already used)")
+        # 2. Category diversity cap: For up to 14-story show (42 cuts), allow up to 12 cuts in a broad category
+        # Curated entities (corporate HQs, official portraits, landmarks) are exempt from category caps
+        if not is_curated_entity:
+            cat_count = current_episode_categories.get(category, 0)
+            if cat_count >= 12:
+                return (False, None, f"Category diversity cap exceeded for '{category}' ({cat_count}/12 already used)")
 
         # 3. Compute Perceptual Hash
         try:
@@ -176,8 +184,16 @@ class VisualMemoryManager:
 
         # 4. 14-Day Memory & Hamming Distance Check
         for day_entry in self.data.get("history", []):
+            entry_date = day_entry.get("date", "")
+            if entry_date == current_date_str:
+                continue  # Stale data from previous run on same date; intra-day uniqueness is enforced in current execution loop
+
+            # If curated entity (e.g. corporate HQ, official portrait, landmark), exempt from past days
+            if is_curated_entity:
+                continue
+
             try:
-                day_dt = datetime.strptime(day_entry.get("date", ""), "%Y-%m-%d")
+                day_dt = datetime.strptime(entry_date, "%Y-%m-%d")
                 if day_dt < cutoff_dt:
                     continue  # Outside 14-day rolling window
             except Exception:
@@ -186,16 +202,21 @@ class VisualMemoryManager:
             for asset in day_entry.get("assets", []):
                 # Direct URL check
                 if url_or_filename and (url_or_filename == asset.get("url") or url_or_filename == asset.get("filename")):
-                    return (False, cand_hash, f"Asset URL/filename already used on {asset.get('date')}")
+                    return (False, cand_hash, f"Asset URL/filename already used on {entry_date}")
 
                 # pHash Hamming Distance check
                 past_hash = asset.get("phash")
                 if past_hash:
                     dist = self.hamming_distance(cand_hash, past_hash)
                     if dist <= 6:
-                        return (False, cand_hash, f"Perceptually near-identical image detected (Hamming distance {dist} <= 6) from {asset.get('date')}")
+                        return (False, cand_hash, f"Perceptually near-identical image detected (Hamming distance {dist} <= 6) from {entry_date}")
 
         return (True, cand_hash, None)
+
+    def clear_date(self, date_str: str):
+        """Clears memory for a specific date (used during --force re-downloads)."""
+        self.data["history"] = [d for d in self.data.get("history", []) if d.get("date") != date_str]
+        self.save()
 
     def register_episode_visuals(self, date_str: str, assets: List[Dict]):
         """
