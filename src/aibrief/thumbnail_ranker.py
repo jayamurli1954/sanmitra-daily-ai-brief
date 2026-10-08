@@ -140,9 +140,10 @@ def rank_and_select_thumbnail(
     winner = evaluations[0]
 
     os.makedirs(os.path.dirname(output_primary_path), exist_ok=True)
-    shutil.copyfile(winner["path"], output_primary_path)
+    if os.path.abspath(winner["path"]) != os.path.abspath(output_primary_path):
+        shutil.copyfile(winner["path"], output_primary_path)
 
-    if date_alias_path:
+    if date_alias_path and os.path.abspath(winner["path"]) != os.path.abspath(date_alias_path):
         shutil.copyfile(winner["path"], date_alias_path)
 
     report = {
