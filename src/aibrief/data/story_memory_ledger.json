@@ -1,186 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-08",
   "stories": [
-    {
-      "story_id": "story_20260923_deepseek_invited_to_brief_un_securi",
-      "story_chain_id": "chain_deepseek_deepseek_invited_to_",
-      "headline": "DeepSeek Invited to Brief UN Security Council on AI and International Security",
-      "companies": [
-        "DeepSeek"
-      ],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.reuters.com/technology/artificial-intelligence/"
-      ],
-      "first_covered": "2026-09-23",
-      "last_major_update": "2026-09-23",
-      "update_phase": "initial_break",
-      "impact_score": 98
-    },
-    {
-      "story_id": "story_20260923_anthropic_launches_claude_opus_5_5_",
-      "story_chain_id": "chain_openai_anthropic_launches_c",
-      "headline": "Anthropic Launches Claude Opus 5.5 as OpenAI Releases GPT-6 Sol and Luna",
-      "companies": [
-        "OpenAI",
-        "Anthropic"
-      ],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://fortune.com/technology/"
-      ],
-      "first_covered": "2026-09-23",
-      "last_major_update": "2026-09-23",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20260923_anthropic_and_openevidence_expand_c",
-      "story_chain_id": "chain_anthropic_anthropic_and_openev",
-      "headline": "Anthropic and OpenEvidence Expand Clinical AI to 100 Low and Middle-Income Nations",
-      "companies": [
-        "Anthropic"
-      ],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.reuters.com/business/healthcare-pharmaceuticals/"
-      ],
-      "first_covered": "2026-09-23",
-      "last_major_update": "2026-09-23",
-      "update_phase": "initial_break",
-      "impact_score": 92
-    },
-    {
-      "story_id": "story_20260923_tom_siegel_joins_youth_ai_safety_in",
-      "story_chain_id": "chain_global_tom_siegel_joins_you",
-      "headline": "Tom Siegel Joins Youth AI Safety Institute, Urging Stronger Independent Standards",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.livemint.com/technology"
-      ],
-      "first_covered": "2026-09-23",
-      "last_major_update": "2026-09-23",
-      "update_phase": "initial_break",
-      "impact_score": 89
-    },
-    {
-      "story_id": "story_20260923_alibaba_unveils_zhenwu_v900_ai_chip",
-      "story_chain_id": "chain_alibaba_alibaba_unveils_zhen",
-      "headline": "Alibaba Unveils Zhenwu V900 AI Chip to Bolster Sovereign Domestic Compute",
-      "companies": [
-        "Alibaba"
-      ],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://technode.com/"
-      ],
-      "first_covered": "2026-09-23",
-      "last_major_update": "2026-09-23",
-      "update_phase": "initial_break",
-      "impact_score": 94
-    },
-    {
-      "story_id": "story_20260923_maharashtra_establishes_ai_dashboar",
-      "story_chain_id": "chain_global_maharashtra_establis",
-      "headline": "Maharashtra Establishes AI & Dashboard Governance Committee for Higher Education",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://education.economictimes.indiatimes.com/"
-      ],
-      "first_covered": "2026-09-23",
-      "last_major_update": "2026-09-23",
-      "update_phase": "initial_break",
-      "impact_score": 88
-    },
-    {
-      "story_id": "story_20260924_security_council_meets_on_artificia",
-      "story_chain_id": "chain_global_security_council_mee",
-      "headline": "Security Council Meets on Artificial Intelligence and International Security",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [],
-      "first_covered": "2026-09-24",
-      "last_major_update": "2026-09-24",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20260924_measurements_for_understanding_the_",
-      "story_chain_id": "chain_global_measurements_for_und",
-      "headline": "Measurements for understanding the pace of AI development inside frontier labs",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [],
-      "first_covered": "2026-09-24",
-      "last_major_update": "2026-09-24",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20260924_china_s_ai_chip_blitz_arms_xi_with_",
-      "story_chain_id": "chain_global_china_s_ai_chip_blit",
-      "headline": "China's AI chip blitz arms Xi with a message for Trump: 'You can't choke us off'",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [],
-      "first_covered": "2026-09-24",
-      "last_major_update": "2026-09-24",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20260924_america_s_ai_push_in_southeast_asia",
-      "story_chain_id": "chain_global_america_s_ai_push_in",
-      "headline": "America’s AI push in Southeast Asia faces a China problem",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [],
-      "first_covered": "2026-09-24",
-      "last_major_update": "2026-09-24",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20260924_india_needs_mutually_assured_disrup",
-      "story_chain_id": "chain_meity_india_needs_mutually",
-      "headline": "India needs 'Mutually Assured Disruption' to tackle tech denial, says MeitY Secy - CNBC TV18",
-      "companies": [
-        "MeitY"
-      ],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [],
-      "first_covered": "2026-09-24",
-      "last_major_update": "2026-09-24",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20260924_ifr_counts_7_000_humanoid_robot_sal",
-      "story_chain_id": "chain_global_ifr_counts_7_000_hum",
-      "headline": "IFR Counts 7,000 Humanoid Robot Sales as Workplace Pilots Stay Small",
-      "companies": [],
-      "topics": [],
-      "country": "GLOBAL",
-      "source_urls": [],
-      "first_covered": "2026-09-24",
-      "last_major_update": "2026-09-24",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
     {
       "story_id": "story_20260925_australia_investigates_openai_agent",
       "story_chain_id": "chain_openai_australia_investigat",
@@ -1638,18 +1459,85 @@
       "last_major_update": "2026-10-07",
       "update_phase": "initial_break",
       "impact_score": 66
+    },
+    {
+      "story_id": "story_20261009_samsung_forecasts_record_third_quar",
+      "story_chain_id": "chain_global_samsung_forecasts_re",
+      "headline": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html"
+      ],
+      "first_covered": "2026-10-09",
+      "last_major_update": "2026-10-09",
+      "update_phase": "initial_break",
+      "impact_score": 91
+    },
+    {
+      "story_id": "story_20261009_microsoft_surface_laptop_ultra_pre_",
+      "story_chain_id": "chain_global_microsoft_surface_la",
+      "headline": "Microsoft Surface Laptop Ultra pre-orders open: Price, specs, 128GB RAM and sale date",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.livemint.com/technology/microsoft-surface-laptop-ultra-pre-orders-open-price-specs-128gb-ram-and-sale-date-11791437489433.html"
+      ],
+      "first_covered": "2026-10-09",
+      "last_major_update": "2026-10-09",
+      "update_phase": "initial_break",
+      "impact_score": 81
+    },
+    {
+      "story_id": "story_20261009_ai_startup_manus_raises_500_million",
+      "story_chain_id": "chain_global_ai_startup_manus_rai",
+      "headline": "AI startup Manus raises $500 million in first funding round since Meta breakup",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/08/manus-fund-raise-meta-muse-tencent.html"
+      ],
+      "first_covered": "2026-10-09",
+      "last_major_update": "2026-10-09",
+      "update_phase": "initial_break",
+      "impact_score": 75
+    },
+    {
+      "story_id": "story_20261009_us_government_google_join_zuckerber",
+      "story_chain_id": "chain_global_us_government_google",
+      "headline": "US government, Google join Zuckerberg-backed Biohub in $1.8 billion push for AI biology data",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/us-government-google-join-zuckerberg-backed-biohub-in-1-8-billion-push-for-ai-biology-data/articleshow/134770321.cms"
+      ],
+      "first_covered": "2026-10-09",
+      "last_major_update": "2026-10-09",
+      "update_phase": "initial_break",
+      "impact_score": 68
+    },
+    {
+      "story_id": "story_20261009_one_nation_s_ai_video_is_vile_and_t",
+      "story_chain_id": "chain_global_one_nation_s_ai_vide",
+      "headline": "One Nation’s AI video is vile and tired – but the ensloppification of Australian politics doesn’t stop there",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/australia-news/2026/oct/09/one-nations-ai-video-is-vile-and-tired-but-the-ensloppification-of-australian-politics-doesnt-stop-there-ntwnfb"
+      ],
+      "first_covered": "2026-10-09",
+      "last_major_update": "2026-10-09",
+      "update_phase": "initial_break",
+      "impact_score": 66
     }
   ],
   "entity_index": {
-    "Deepseek": [
-      "2026-09-23",
-      "2026-09-25",
-      "2026-09-26",
-      "2026-09-27",
-      "2026-10-02"
-    ],
     "Openai": [
-      "2026-09-23",
       "2026-09-25",
       "2026-09-26",
       "2026-09-27",
@@ -1659,20 +1547,21 @@
       "2026-10-04"
     ],
     "Anthropic": [
-      "2026-09-23",
       "2026-09-25",
       "2026-09-26",
       "2026-09-29",
       "2026-10-04"
     ],
+    "Deepseek": [
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27",
+      "2026-10-02"
+    ],
     "Alibaba": [
-      "2026-09-23",
       "2026-09-25",
       "2026-09-28",
       "2026-10-04"
-    ],
-    "Meity": [
-      "2026-09-24"
     ],
     "Microsoft": [
       "2026-09-26"
