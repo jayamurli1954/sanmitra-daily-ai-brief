@@ -1,139 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-10-08",
+  "last_updated": "2026-10-09",
   "stories": [
-    {
-      "story_id": "story_20260925_australia_investigates_openai_agent",
-      "story_chain_id": "chain_openai_australia_investigat",
-      "headline": "Australia Investigates OpenAI Agent Access to Public Health Data Portal",
-      "companies": [
-        "OpenAI"
-      ],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-25",
-      "last_major_update": "2026-09-25",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20260925_white_house_tightens_security_revie",
-      "story_chain_id": "chain_global_white_house_tightens",
-      "headline": "White House Tightens Security Reviews on Frontier AI Model Sharing",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-25",
-      "last_major_update": "2026-09-25",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20260925_openai_prepares_gpt_6_cyber_model_f",
-      "story_chain_id": "chain_openai_openai_prepares_gpt_",
-      "headline": "OpenAI Prepares GPT-6 Cyber Model for San Francisco DevDay Preview",
-      "companies": [
-        "OpenAI"
-      ],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-25",
-      "last_major_update": "2026-09-25",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20260925_anthropic_proposes_founder_control_",
-      "story_chain_id": "chain_anthropic_anthropic_proposes_f",
-      "headline": "Anthropic Proposes Founder-Control Voting Structure Ahead of Anticipated IPO",
-      "companies": [
-        "Anthropic"
-      ],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-25",
-      "last_major_update": "2026-09-25",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20260925_china_narrows_distillation_inquiry_",
-      "story_chain_id": "chain_deepseek_china_narrows_distil",
-      "headline": "China Narrows Distillation Inquiry on DeepSeek and Moonshot Following Claude Claims",
-      "companies": [
-        "DeepSeek"
-      ],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-25",
-      "last_major_update": "2026-09-25",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20260925_alibaba_unveils_qwen_book_ai_laptop",
-      "story_chain_id": "chain_alibaba_alibaba_unveils_qwen",
-      "headline": "Alibaba Unveils Qwen Book AI Laptop and Reaffirms 20-Gigawatt Cloud Roadmap",
-      "companies": [
-        "Alibaba"
-      ],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-25",
-      "last_major_update": "2026-09-25",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20260925_softbank_prices_11_billion_bond_off",
-      "story_chain_id": "chain_openai_softbank_prices_11_b",
-      "headline": "SoftBank Prices $11 Billion Bond Offering to Fund OpenAI Investment Tranche",
-      "companies": [
-        "OpenAI"
-      ],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-25",
-      "last_major_update": "2026-09-25",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20260925_iit_delhi_researchers_demonstrate_i",
-      "story_chain_id": "chain_global_iit_delhi_researcher",
-      "headline": "IIT Delhi Researchers Demonstrate India's First Indigenous Micro-GPU Architecture",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-25",
-      "last_major_update": "2026-09-25",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
     {
       "story_id": "story_20260926_openai_agent_incidents_expand_globa",
       "story_chain_id": "chain_openai_openai_agent_inciden",
@@ -1534,11 +1402,115 @@
       "last_major_update": "2026-10-09",
       "update_phase": "initial_break",
       "impact_score": 66
+    },
+    {
+      "story_id": "story_20261010_anthropic_bans_users_from_needless_",
+      "story_chain_id": "chain_global_anthropic_bans_users",
+      "headline": "Anthropic bans users from ‘needless abusive or cruel behavior’ towards Claude",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude"
+      ],
+      "first_covered": "2026-10-10",
+      "last_major_update": "2026-10-10",
+      "update_phase": "initial_break",
+      "impact_score": 74
+    },
+    {
+      "story_id": "story_20261010_anthropic_changes_usage_policy_to_b",
+      "story_chain_id": "chain_global_anthropic_changes_us",
+      "headline": "Anthropic changes usage policy to ban model abuse and election interference",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
+      ],
+      "first_covered": "2026-10-10",
+      "last_major_update": "2026-10-10",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261010_nvidia_backed_aussie_ai_firm_firmus",
+      "story_chain_id": "chain_global_nvidia_backed_aussie",
+      "headline": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html"
+      ],
+      "first_covered": "2026-10-10",
+      "last_major_update": "2026-10-10",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261010_philippines_thought_pogos_were_gone",
+      "story_chain_id": "chain_global_philippines_thought_",
+      "headline": "Philippines thought Pogos were gone. Corruption and AI still power them",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://www.scmp.com/week-asia/politics/article/3370281/philippines-thought-pogos-were-gone-corruption-and-ai-still-power-them?utm_source=rss_feed"
+      ],
+      "first_covered": "2026-10-10",
+      "last_major_update": "2026-10-10",
+      "update_phase": "initial_break",
+      "impact_score": 68
+    },
+    {
+      "story_id": "story_20261010_ai_and_the_climate_crisis_pose_exis",
+      "story_chain_id": "chain_global_ai_and_the_climate_c",
+      "headline": "AI and the climate crisis pose existential risks. The law offers a way to reduce them | Robert Reich",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/commentisfree/2026/oct/09/ai-climate-change-liability-lawsuits"
+      ],
+      "first_covered": "2026-10-10",
+      "last_major_update": "2026-10-10",
+      "update_phase": "initial_break",
+      "impact_score": 66
+    },
+    {
+      "story_id": "story_20261010_lost_generation_the_ai_threat_to_br",
+      "story_chain_id": "chain_global_lost_generation_the_",
+      "headline": "Lost generation: the AI threat to Britain’s next great directors",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie"
+      ],
+      "first_covered": "2026-10-10",
+      "last_major_update": "2026-10-10",
+      "update_phase": "initial_break",
+      "impact_score": 66
+    },
+    {
+      "story_id": "story_20261010_firmus_pulls_biggest_asx_float_sinc",
+      "story_chain_id": "chain_global_firmus_pulls_biggest",
+      "headline": "Firmus pulls biggest ASX float since Telstra amid investor doubt about datacentre company",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/australia-news/2026/oct/09/firmus-pulls-asx-float-datacentre-investor-doubt-australia"
+      ],
+      "first_covered": "2026-10-10",
+      "last_major_update": "2026-10-10",
+      "update_phase": "initial_break",
+      "impact_score": 66
     }
   ],
   "entity_index": {
     "Openai": [
-      "2026-09-25",
       "2026-09-26",
       "2026-09-27",
       "2026-09-29",
@@ -1547,30 +1519,27 @@
       "2026-10-04"
     ],
     "Anthropic": [
-      "2026-09-25",
       "2026-09-26",
       "2026-09-29",
       "2026-10-04"
     ],
+    "Microsoft": [
+      "2026-09-26"
+    ],
     "Deepseek": [
-      "2026-09-25",
       "2026-09-26",
       "2026-09-27",
       "2026-10-02"
-    ],
-    "Alibaba": [
-      "2026-09-25",
-      "2026-09-28",
-      "2026-10-04"
-    ],
-    "Microsoft": [
-      "2026-09-26"
     ],
     "Tesla": [
       "2026-09-28"
     ],
     "Nvidia": [
       "2026-09-28"
+    ],
+    "Alibaba": [
+      "2026-09-28",
+      "2026-10-04"
     ],
     "Deepmind": [
       "2026-10-02"

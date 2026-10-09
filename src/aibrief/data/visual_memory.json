@@ -1,6 +1,228 @@
 {
   "history": [
     {
+      "date": "2026-10-10",
+      "count": 27,
+      "assets": [
+        {
+          "date": "2026-10-10",
+          "filename": "s1_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg/1280px-Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "phash": "8c736310ba5ce2e7",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s1_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=85",
+          "badge": "RADAR SURVEILLANCE • AIR-DEFENSE ENVELOPE",
+          "phash": "c6c60d2f3b333839",
+          "category": "defense"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s1_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920&q=85",
+          "badge": "NEURAL BENCHMARKING • RECURSIVE EVALUATION HUD",
+          "phash": "de0e27d3c421d3ac",
+          "category": "research"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s2_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Bookman_Ornament_9617_%28bookshelf%29.svg/1280px-Bookman_Ornament_9617_%28bookshelf%29.svg.png",
+          "badge": "THE • CONTEXTUAL REPORTING",
+          "phash": "0000000000000000",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s2_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+          "badge": "RADAR SURVEILLANCE • AIR-DEFENSE ENVELOPE",
+          "phash": "c6c60d2f3b333839",
+          "category": "robotics"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s2_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1579829366248-204fe8413f31?w=1920&q=85",
+          "badge": "TACTICAL TELEMETRY • AIR-DEFENSE OPERATIONS",
+          "phash": "a499cf26b4994f26",
+          "category": "defense"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s3_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Lost_main_title.svg/1280px-Lost_main_title.svg.png",
+          "badge": "LOST (TV SERIES) • CONTEXTUAL REPORTING",
+          "phash": "85c37e1ec1a49dc3",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s3_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&q=85",
+          "badge": "MILITARY OPERATIONS CENTER • INCIDENT DESK",
+          "phash": "864f771bc8fc6c10",
+          "category": "defense"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s3_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1508614589041-895b88991e3e",
+          "badge": "SATELLITE GROUND STATION • SECURE TELEMETRY",
+          "phash": "99d9642737499393",
+          "category": "robotics"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s4_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1280px-1515_Third_Street.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "phash": "e9e516c5069c58eb",
+          "category": "boardroom"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s4_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1920&q=85",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "phash": "95fc2d8332c89937",
+          "category": "policy"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s4_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=85",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "phash": "96cd13caa421ab9f",
+          "category": "policy"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s5_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
+          "phash": "c7b03d433c638f68",
+          "category": "datacenter"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s5_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=85",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "phash": "e01f60cf08e732f9",
+          "category": "energy"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s5_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1920&q=85",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "phash": "f39580afd7c49720",
+          "category": "energy"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s6_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/China_Senate_House.jpg/1280px-China_Senate_House.jpg",
+          "badge": "BEIJING • STATE AI GOVERNANCE DESK",
+          "phash": "acd30d1a2ce3db58",
+          "category": "government"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s6_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1920&q=85",
+          "badge": "TERRAIN SURVEY • RURAL INFRASTRUCTURE",
+          "phash": "983b362aa0e65a7b",
+          "category": "energy"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s6_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=85",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "phash": "96707e694c345796",
+          "category": "hardware"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s7_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
+          "phash": "c7b03d433c638f68",
+          "category": "datacenter"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s7_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "phash": "c33c18c7613a66f3",
+          "category": "hardware"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s7_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1920&q=85",
+          "badge": "HARDWARE ACCELERATION • SYSTEM INTEGRATION",
+          "phash": "85f04f67780c3b2e",
+          "category": "hardware"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s8_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg/1280px-Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "phash": "8c736310ba5ce2e7",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s8_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+          "badge": "CYBER DEFENSE OPERATIONS • LIVE INCIDENT FEED",
+          "phash": "e5cd1e9486439be1",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s8_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=1920&q=85",
+          "badge": "SATELLITE GROUND STATION • SECURE TELEMETRY",
+          "phash": "99d9642737499393",
+          "category": "defense"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s9_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1280px-1515_Third_Street.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "phash": "e9e516c5069c58eb",
+          "category": "boardroom"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s9_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "phash": "e5cd1e94864b9be0",
+          "category": "research"
+        },
+        {
+          "date": "2026-10-10",
+          "filename": "s9_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&q=85",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "phash": "c283b91ae67b846d",
+          "category": "research"
+        }
+      ]
+    },
+    {
       "date": "2026-10-09",
       "count": 36,
       "assets": [
@@ -2025,5 +2247,5 @@
     "gov_white_house.jpg",
     "us_china_talks.png"
   ],
-  "last_updated": "2026-10-08"
+  "last_updated": "2026-10-09"
 }
