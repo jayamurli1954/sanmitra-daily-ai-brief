@@ -20,7 +20,10 @@ jobs:
   produce-and-publish:
     name: Autonomous Multi-Agent Broadcast Pipeline
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # Render alone took ~15 min on 2026-10-10; runs were cancelled at the old 30/40 min limits.
+    timeout-minutes: 60
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout Codebase
@@ -51,6 +54,9 @@ jobs:
           pip install -r requirements.txt
           pip install imagehash PyWavelets
 
+      - name: Run Fact-Check and Gate Tests
+        run: python -m unittest discover -s tests -v
+
       - name: Configure Cloud Authentication Secrets
         env:
           TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
@@ -77,24 +83,31 @@ jobs:
         run: |
           python run_autonomous_brief.py --privacy "$PRIVACY_SETTING"
 
-      - name: Sync Broadcast & Dispatches to Google Drive
-        env:
-          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+      # The run updates the 14-day visual memory, the story ledger and (if the
+      # crew drafted it) today's prompt. Without this commit the next run forgets
+      # them and the no-repeat rules cannot work.
+      - name: Commit Episode Memory Back to the Repository
+        if: always()
         run: |
-          if [ -n "$GDRIVE_FOLDER_ID" ]; then
-            echo "[*] Syncing daily broadcast files to Google Drive folder: $GDRIVE_FOLDER_ID..."
-            python upload_to_gdrive.py --folder-id "$GDRIVE_FOLDER_ID" || echo "[!] Google Drive sync finished."
+          git config user.name "SanMitra Intelligence Bot"
+          git config user.email "bot@sanmitratech.com"
+          git add prompts/ src/aibrief/data/visual_memory.json src/aibrief/data/story_memory_ledger.json || true
+          if git diff --staged --quiet; then
+            echo "[*] No memory changes to commit."
           else
-            echo "[*] GDRIVE_FOLDER_ID not set. Skipping Google Drive backup."
+            git commit -m "Auto: episode memory for $(TZ=Asia/Kolkata date +%Y-%m-%d) [skip ci]"
+            git pull --rebase origin main && git push origin main
           fi
 
-      - name: Upload Daily Broadcast Deliverables (Video, Thumbnails, Posts)
+      # The repository is public, so artifacts are downloadable by anyone signed
+      # in to GitHub. The MP4 is deliberately NOT uploaded: the video stays
+      # private on YouTube until it is reviewed.
+      - name: Upload QA Summary, Thumbnails and Posts
         uses: actions/upload-artifact@v4
         if: always()
         with:
           name: aibrief-deliverables-${{ github.sha }}
           path: |
-            out/aibrief/*.mp4
             out/aibrief/*.png
             out/aibrief/*.srt
             out/aibrief/*.txt
