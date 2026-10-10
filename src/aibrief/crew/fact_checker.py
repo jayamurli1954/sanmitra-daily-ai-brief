@@ -1,153 +1,270 @@
 """
-FactChecker Agent - SanMitra AI News Wire v7.0
-Autonomous source validation, entity cross-checking, and regional bureau taxonomy curation.
+FactChecker Agent - SanMitra AI News Wire
+Decides which harvested stories may air, and on what evidence.
+
+A story passes only if:
+  * it comes from a recognised outlet (source_authority), not an unknown blog;
+  * it is not an opinion piece and its headline is not a rumour;
+  * it is not the same event as a stronger candidate or a story aired in the last 7 days;
+  * its article text can be fetched, it was published in the broadcast window,
+    and every figure and name in its headline appears in that article.
+
+The narration summary is taken from the article body itself, so every claim in
+the script is traceable to the page the story is attributed to.
 """
 
+from datetime import datetime, timedelta
 import logging
 import re
 import urllib.parse
 
+from src.aibrief.source_authority import is_company_source, is_recognised_source, score_source
+
+from .text_utils import contains_any, count_matches, extractive_summary, is_recent, same_event, ungrounded_claims
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("FactChecker")
 
-TAXONOMY_MAP = {
-    "AI BREAKTHROUGHS": ["breakthrough", "research", "lancet", "clinical", "discovery", "accuracy", "amie", "medical", "physics"],
-    "NEW MODELS & TOOLS": ["release", "launch", "model", "qwen", "weights", "architecture", "intelligent ui", "tool", "vulnerability scanner", "gemini", "gpt"],
-    "INDUSTRY & STARTUPS": ["funding", "venture", "revenue", "investor", "startup", "asx", "listing", "ipo", "valuation", "dollars", "capital", "firmus", "acquisitions"],
-    "POLICY & REGULATIONS": ["council", "directive", "standards", "summit", "regulation", "court", "mandate", "investigation", "parliament", "g20", "burnham", "beijing", "directive"],
-    "TECHNOLOGY TRENDS": ["datacenter", "supercomputer", "cyberattack", "drone", "air-defense", "infrastructure", "telemetry", "strikes", "power", "grid", "agentic"]
+BANNED_DOMAINS = ["pinterest.com", "facebook.com", "instagram.com", "tiktok.com", "youtube.com", "reddit.com"]
+
+# Anonymous sourcing ("sources say") is normal reporting and is allowed.
+RUMOUR_MARKERS = [
+    "rumour", "rumor", "rumoured", "rumored", "unconfirmed", "insiders say",
+    "speculation", "could be", "might be",
+]
+
+FEATURE_MARKERS = ["here are", "here's", "how to", "cartoon", "podcast", "newsletter", "week in review", "quiz"]
+
+OPINION_PATH_MARKERS = ("/opinion", "/commentisfree", "/comment/", "/editorial", "/op-ed", "/column", "/letters/")
+
+REGION_KEYWORDS = {
+    "INDIA": ["india", "indian", "delhi", "new delhi", "mumbai", "bengaluru", "bangalore", "hyderabad",
+              "chennai", "meity", "indiaai"],
+    "CHINA": ["china", "chinese", "beijing", "shanghai", "shenzhen", "alibaba", "tencent", "huawei",
+              "baidu", "bytedance", "deepseek", "qwen", "state council"],
+    "ASIA": ["japan", "japanese", "tokyo", "korea", "korean", "seoul", "singapore", "taiwan", "tsmc",
+             "samsung", "sk hynix", "asia-pacific", "philippines", "indonesia", "vietnam", "malaysia",
+             "australia", "australian", "asx"],
+    "USA": ["pentagon", "white house", "senate", "congress", "washington", "california", "silicon valley",
+            "u.s.", "united states", "american", "ftc", "fcc"],
 }
 
-BUREAU_SLOTS = {
-    "WORLD": 4, # Target: Stories 1, 7, 8, 9
-    "USA": 3,   # Target: Stories 2, 3, 10
-    "CHINA": 3, # Target: Stories 4, 11, 12
-    "ASIA": 2,  # Target: Stories 5, 13
-    "INDIA": 2  # Target: Stories 6, 14
+TAXONOMY_MAP = {
+    "AI BREAKTHROUGHS": ["breakthrough", "research", "lancet", "clinical", "discovery", "medical", "physics"],
+    "NEW MODELS & TOOLS": ["release", "launch", "model", "weights", "open-source", "tool", "gemini", "gpt", "claude", "qwen"],
+    "INDUSTRY & STARTUPS": ["funding", "venture", "revenue", "investor", "startup", "ipo", "valuation", "acquisition"],
+    "POLICY & REGULATIONS": ["regulation", "regulator", "law", "court", "lawsuit", "mandate", "investigation", "parliament", "directive"],
+    "TECHNOLOGY TRENDS": ["datacenter", "data center", "supercomputer", "cyberattack", "drone", "infrastructure", "power", "grid", "agentic"],
 }
+
+HIGH_IMPACT_TERMS = ["supercomputer", "data center", "state council", "directive", "clinical", "regulation",
+                     "lawsuit", "investigation", "export controls", "ipo", "acquisition"]
+
+BUREAU_ORDER = ["WORLD", "USA", "USA", "CHINA", "ASIA", "INDIA", "WORLD", "WORLD", "WORLD", "USA",
+                "CHINA", "CHINA", "ASIA", "INDIA"]
+
+MIN_ARTICLE_CHARS = 500
+REPEAT_WINDOW_DAYS = 7
+
+
+def resolve_region(title, default_region, summary=""):
+    """Route by headline, whole words only. A passing mention in the body
+    ("...with India to follow") does not move a story to another bureau.
+
+    A regional feed's default (Inc42 -> INDIA) holds only when the blurb is
+    about that region; a regional outlet rewriting a US story goes to WORLD."""
+    hits = [region for region, kws in REGION_KEYWORDS.items() if contains_any(title, kws)]
+    # "US" only as the capitalised abbreviation, never the pronoun "us".
+    if "USA" not in hits and re.search(r"\bUS\b", title or ""):
+        hits.append("USA")
+    if len(hits) == 1:
+        return hits[0]
+    if len(hits) > 1:
+        # Several regions in one headline is an international story.
+        return "WORLD"
+    default = (default_region or "WORLD").upper()
+    if default in ("INDIA", "CHINA", "ASIA") and not contains_any(summary, REGION_KEYWORDS[default]):
+        return "WORLD"
+    return default
+
+
+def classify_taxonomy(text):
+    best, best_hits = "TECHNOLOGY TRENDS", 0
+    for pillar, kws in TAXONOMY_MAP.items():
+        hits = count_matches(text, kws)
+        if hits > best_hits:
+            best, best_hits = pillar, hits
+    return best
 
 
 class FactChecker:
-    """Verifies URLs, removes speculative/unverifiable stories, and structures into 14 bureau slots."""
+    """Screens, verifies and slots harvested stories into the 14 bureau slots."""
 
-    def __init__(self, harvester=None):
-        self.harvester = harvester
+    def __init__(self, target_date=None, fetch_article=None, ledger=None):
+        self.target_date = target_date or datetime.now().strftime("%Y-%m-%d")
+        self.fetch_article = fetch_article
+        self.ledger = ledger
+        self.rejections = []
 
-    def verify_story_authenticity(self, story):
-        """Verify URL format and extract credible publisher."""
-        url = story.get("url", "").strip()
-        if not url or not url.startswith("http"):
-            return None
+    def _reject(self, story, reason):
+        self.rejections.append({"title": story.get("title", ""), "url": story.get("url", ""), "reason": reason})
+        return None
 
-        # Clean publisher name
-        netloc = urllib.parse.urlparse(url).netloc.replace("www.", "")
-        source_name = story.get("source", "").strip()
-        if not source_name or "feed" in source_name.lower():
-            domain_parts = netloc.split(".")
-            source_name = domain_parts[0].capitalize() if len(domain_parts) > 1 else netloc
+    # -- Stage 1: screening (no network) -----------------------------------
 
-        # Reject obvious junk or generic search aggregator results
-        banned_domains = ["pinterest.com", "facebook.com", "instagram.com", "tiktok.com", "youtube.com", "reddit.com"]
-        if any(d in netloc for d in banned_domains):
-            return None
+    def screen(self, story):
+        url = (story.get("url") or story.get("sourceUrl") or "").strip()
+        title = (story.get("title") or "").strip()
+        parsed = urllib.parse.urlparse(url)
+        netloc = parsed.netloc.lower().replace("www.", "")
 
-        title = story.get("title", "").strip()
+        if parsed.scheme not in ("http", "https") or not netloc:
+            return self._reject(story, "no article URL")
+        if any(netloc == d or netloc.endswith("." + d) for d in BANNED_DOMAINS):
+            return self._reject(story, f"social or video platform ({netloc})")
+        if not is_recognised_source(url):
+            return self._reject(story, f"unrecognised or low-tier outlet ({netloc})")
+        if any(marker in parsed.path.lower() for marker in OPINION_PATH_MARKERS):
+            return self._reject(story, "opinion or comment piece")
         if len(title) < 15:
-            return None
+            return self._reject(story, "headline too short")
+        if contains_any(title, RUMOUR_MARKERS) or title.endswith("?"):
+            return self._reject(story, "speculative or rumour headline")
+        if contains_any(title, FEATURE_MARKERS):
+            return self._reject(story, "feature, listicle or explainer rather than news")
 
-        # Determine taxonomy pillar
-        full_text = f"{title} {story.get('summary', '')}".lower()
-        selected_pillar = "TECHNOLOGY TRENDS"
-        for pillar, kws in TAXONOMY_MAP.items():
-            if any(k in full_text for k in kws):
-                selected_pillar = pillar
-                break
-
-        # Calculate importance score
-        score = 80
-        if any(w in full_text for w in ["supercomputer", "data center", "state council", "directive", "clinical", "strike", "lancet"]):
-            score += 15
-        if any(w in full_text for w in ["funding", "record", "exposes", "standards", "andy burnham", "g20"]):
-            score += 10
-        if "reuters" in netloc or "bloomberg" in netloc or "ft.com" in netloc or "aljazeera" in netloc:
-            score += 5
-
-        # Check region
-        region = story.get("region", "WORLD").upper()
-        if any(k in full_text for k in ["india", "delhi", "mumbai", "bengaluru", "hyderabad", "iit", "meity", "inc42"]):
-            region = "INDIA"
-        elif any(k in full_text for k in ["beijing", "china", "chinese", "alibaba", "qwen", "tencent", "huawei", "state council"]):
-            region = "CHINA"
-        elif any(k in full_text for k in ["japan", "tokyo", "korea", "seoul", "singapore", "asia-pacific", "samsung", "infor"]):
-            region = "ASIA"
-        elif any(k in full_text for k in ["pentagon", "white house", "senate", "congress", "united states", "google", "anthropic", "openai", "california"]):
-            region = "USA"
+        authority, _tier, outlet = score_source(url)
+        text = f"{title} {story.get('summary', '')}"
+        score = authority + (5 if contains_any(text, HIGH_IMPACT_TERMS) else 0)
+        company = is_company_source(url)
+        if company:
+            score -= 5  # prefer independent reporting of the same news
 
         return {
             "title": title,
-            "source": source_name,
+            "source": outlet,
             "sourceUrl": url,
-            "summary": story.get("summary", ""),
-            "region": region,
-            "taxonomy": selected_pillar,
-            "score": score
+            "sourceType": "company" if company else "reporting",
+            "feedSummary": story.get("summary", ""),
+            "region": resolve_region(title, story.get("region"), story.get("summary", "")),
+            "taxonomy": classify_taxonomy(text),
+            "score": score,
+            "published": story.get("published", ""),
+            "also": [],
         }
 
-    def assemble_14_stories(self, candidate_stories):
-        """Curate candidate stories into 14 balanced bureau slots."""
-        verified = []
-        for s in candidate_stories:
-            v = self.verify_story_authenticity(s)
-            if v:
-                verified.append(v)
+    # -- Stage 2: same-event merging and repeat check ------------------------
 
-        # Sort by importance score descending
-        verified.sort(key=lambda x: x["score"], reverse=True)
+    def merge_same_events(self, screened):
+        kept = []
+        for story in sorted(screened, key=lambda s: s["score"], reverse=True):
+            twin = next((k for k in kept if same_event(k["title"], story["title"])), None)
+            if twin is None:
+                kept.append(story)
+                continue
+            twin["also"].append({"source": story["source"], "url": story["sourceUrl"]})
+            self._reject({"title": story["title"], "url": story["sourceUrl"]},
+                         f"same event as '{twin['title'][:60]}' (kept as a second source)")
+        return kept
 
-        # Bucket by bureau
-        bureau_buckets = {"WORLD": [], "USA": [], "CHINA": [], "ASIA": [], "INDIA": []}
-        for v in verified:
-            bureau_buckets[v["region"]].append(v)
+    def recent_headlines(self):
+        if not self.ledger:
+            return []
+        today = datetime.strptime(self.target_date, "%Y-%m-%d")
+        cutoff = (today - timedelta(days=REPEAT_WINDOW_DAYS)).strftime("%Y-%m-%d")
+        return [
+            (s.get("headline", ""), s.get("first_covered", ""))
+            for s in self.ledger.data.get("stories", [])
+            # Today's own entries are excluded so a re-run does not reject itself.
+            if cutoff <= s.get("first_covered", "") < self.target_date
+        ]
 
-        selected = []
-        # Slot 1: Lead WORLD story
-        if bureau_buckets["WORLD"]:
-            selected.append(bureau_buckets["WORLD"].pop(0))
+    def is_repeat(self, title, recent):
+        for headline, date in recent:
+            if same_event(title, headline):
+                return f"already covered on {date}: '{headline[:60]}'"
+        return None
 
-        # Slot 2: Lead USA story
-        if bureau_buckets["USA"]:
-            selected.append(bureau_buckets["USA"].pop(0))
+    # -- Stage 3: evidence --------------------------------------------------
 
-        # Slot 3: Secondary USA story
-        if bureau_buckets["USA"]:
-            selected.append(bureau_buckets["USA"].pop(0))
+    def verify_against_article(self, story):
+        if self.fetch_article is None:
+            return self._reject({"title": story["title"], "url": story["sourceUrl"]}, "no article fetcher configured")
+        article = self.fetch_article(story["sourceUrl"]) or {}
+        body = article.get("text", "") or ""
+        if len(body) < MIN_ARTICLE_CHARS:
+            return self._reject({"title": story["title"], "url": story["sourceUrl"]},
+                                "article text could not be extracted, nothing to verify against")
 
-        # Slot 4: Lead CHINA story
-        if bureau_buckets["CHINA"]:
-            selected.append(bureau_buckets["CHINA"].pop(0))
+        published = story["published"] or article.get("published", "")
+        if not is_recent(published, self.target_date):
+            return self._reject({"title": story["title"], "url": story["sourceUrl"]},
+                                f"not published in the broadcast window (published: {published or 'unknown'})")
 
-        # Slot 5: Lead ASIA story
-        if bureau_buckets["ASIA"]:
-            selected.append(bureau_buckets["ASIA"].pop(0))
+        missing = ungrounded_claims(story["title"], body)
+        if missing:
+            return self._reject({"title": story["title"], "url": story["sourceUrl"]},
+                                f"headline claims not found in the article: {', '.join(missing[:5])}")
 
-        # Slot 6: Lead INDIA story
-        if bureau_buckets["INDIA"]:
-            selected.append(bureau_buckets["INDIA"].pop(0))
+        summary = extractive_summary(body)
+        if not summary:
+            return self._reject({"title": story["title"], "url": story["sourceUrl"]}, "no usable sentences in the article")
 
-        # Fill remaining slots up to 14
-        order = ["WORLD", "WORLD", "WORLD", "USA", "CHINA", "CHINA", "ASIA", "INDIA"]
-        for r in order:
-            if bureau_buckets[r]:
-                selected.append(bureau_buckets[r].pop(0))
+        verified = dict(story)
+        verified.update({"summary": summary, "published": published, "articleText": body})
+        return verified
 
-        # If any bureau was short, draw from remaining pool
-        remaining = []
-        for bucket in bureau_buckets.values():
-            remaining.extend(bucket)
-        remaining.sort(key=lambda x: x["score"], reverse=True)
+    # -- Assembly -----------------------------------------------------------
 
-        while len(selected) < 14 and remaining:
-            selected.append(remaining.pop(0))
+    def assemble_14_stories(self, candidate_stories, max_stories=14, max_fetches=40):
+        screened = [s for s in (self.screen(c) for c in candidate_stories) if s]
+        merged = self.merge_same_events(screened)
 
-        logger.info(f"Fact-checking and curation complete: {len(selected)} verified stories assembled.")
+        recent = self.recent_headlines()
+        fresh = []
+        for story in merged:
+            reason = self.is_repeat(story["title"], recent)
+            if reason:
+                self._reject({"title": story["title"], "url": story["sourceUrl"]}, reason)
+            else:
+                fresh.append(story)
+
+        buckets = {r: [] for r in ("WORLD", "USA", "CHINA", "ASIA", "INDIA")}
+        for story in fresh:
+            buckets.setdefault(story["region"], []).append(story)
+
+        selected, fetches = [], 0
+
+        def take_from(region):
+            nonlocal fetches
+            while buckets.get(region) and fetches < max_fetches:
+                fetches += 1
+                verified = self.verify_against_article(buckets[region].pop(0))
+                if verified:
+                    return verified
+            return None
+
+        for region in BUREAU_ORDER:
+            if len(selected) >= max_stories:
+                break
+            story = take_from(region)
+            if story:
+                selected.append(story)
+
+        # Fill any short bureau from the strongest remaining candidates.
+        leftovers = sorted((s for b in buckets.values() for s in b), key=lambda s: s["score"], reverse=True)
+        for story in leftovers:
+            if len(selected) >= max_stories or fetches >= max_fetches:
+                break
+            fetches += 1
+            verified = self.verify_against_article(story)
+            if verified:
+                selected.append(verified)
+
+        logger.info(
+            f"Fact-check complete: {len(selected)} stories verified from {len(candidate_stories)} candidates "
+            f"({len(self.rejections)} rejected, {fetches} articles fetched)."
+        )
+        for r in self.rejections:
+            logger.info(f"  [REJECTED] {r['title'][:70]} -> {r['reason']}")
         return selected

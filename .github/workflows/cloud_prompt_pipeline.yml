@@ -1,8 +1,8 @@
 name: Cloud Prompt Video Production & YouTube Upload
 
+# Manual only. The daily 05:30 IST run (daily_ai_brief.yml) is the single
+# scheduled producer; a second schedule here uploaded a second video.
 on:
-  schedule:
-    - cron: '30 00 * * *' # 00:30 UTC = 06:00 AM IST
   workflow_dispatch:
     inputs:
       privacy:
@@ -80,22 +80,18 @@ jobs:
           PROMPT_FILE: ${{ github.event.inputs.prompt_file }}
           GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
         run: |
-          PROMPT_ARG=""
-          TODAY=$(date +%Y-%m-%d)
-          if [ -n "$PROMPT_FILE" ] && [ -f "$PROMPT_FILE" ]; then
-            PROMPT_ARG="--prompt-file $PROMPT_FILE"
-          elif [ -f "prompts/$TODAY.md" ]; then
-            PROMPT_ARG="--prompt-file prompts/$TODAY.md"
+          # Never fall back to an older prompt: that re-publishes old news.
+          TODAY=$(TZ=Asia/Kolkata date +%Y-%m-%d)
+          if [ -n "$PROMPT_FILE" ]; then
+            PROMPT_PATH="$PROMPT_FILE"
           else
-            LATEST=$(ls -t prompts/2026-*.md 2>/dev/null | head -n 1)
-            if [ -n "$LATEST" ] && [ -f "$LATEST" ]; then
-              PROMPT_ARG="--prompt-file $LATEST"
-            elif [ -f "prompts/daily_prompt.md" ]; then
-              PROMPT_ARG="--prompt-file prompts/daily_prompt.md"
-            fi
+            PROMPT_PATH="prompts/$TODAY.md"
           fi
-          
-          python produce_from_prompt.py $PROMPT_ARG --privacy "$PRIVACY_SETTING"
+          if [ ! -f "$PROMPT_PATH" ]; then
+            echo "[X] Prompt not found: $PROMPT_PATH"
+            exit 1
+          fi
+          python produce_from_prompt.py --prompt-file "$PROMPT_PATH" --privacy "$PRIVACY_SETTING"
 
       - name: Upload Daily Broadcast Deliverables (Video, Thumbnails, Posts)
         uses: actions/upload-artifact@v4
@@ -103,7 +99,6 @@ jobs:
         with:
           name: aibrief-deliverables-${{ github.sha }}
           path: |
-            out/aibrief/*.mp4
             out/aibrief/*.png
             out/aibrief/*.srt
             out/aibrief/*.txt
