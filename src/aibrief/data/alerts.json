@@ -1,5 +1,37 @@
 [
   {
+    "timestamp": "2026-10-10T23:01:14.462151",
+    "severity": "HIGH",
+    "message": "Episode failed Editorial Quality Gate (Composite: 80.5/100)",
+    "score_details": {
+      "date": "2026-10-11",
+      "composite_quality_score": 80.5,
+      "passes_quality_gate": false,
+      "threshold": 80.0,
+      "freshness_score": 95.0,
+      "source_authority_score": 88.0,
+      "bureau_balance_score": 50.0,
+      "active_bureaus": [
+        "USA"
+      ],
+      "duplication_score": 100.0,
+      "visual_freshness_score": 65.0,
+      "category_distribution": {
+        "laboratory": 2,
+        "researcher": 6,
+        "research": 2,
+        "boardroom": 3,
+        "government": 3,
+        "defense": 1,
+        "policy": 1
+      },
+      "failed_checks": [
+        "Only 1 bureaus active (minimum 3 required)",
+        "Visual diversity cap exceeded in categories: ['researcher', 'boardroom', 'government']"
+      ]
+    }
+  },
+  {
     "timestamp": "2026-10-08T22:15:20.905631",
     "severity": "HIGH",
     "message": "Episode failed Editorial Quality Gate (Composite: 79.44/100)",

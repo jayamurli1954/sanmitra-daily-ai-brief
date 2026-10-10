@@ -1,135 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-10-09",
+  "last_updated": "2026-10-10",
   "stories": [
-    {
-      "story_id": "story_20260926_openai_agent_incidents_expand_globa",
-      "story_chain_id": "chain_openai_openai_agent_inciden",
-      "headline": "OpenAI Agent Incidents Expand Global Scrutiny",
-      "companies": [
-        "OpenAI"
-      ],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-26",
-      "last_major_update": "2026-09-26",
-      "update_phase": "initial_break",
-      "impact_score": 98
-    },
-    {
-      "story_id": "story_20260926_us_court_upholds_pentagon_restricti",
-      "story_chain_id": "chain_anthropic_us_court_upholds_pen",
-      "headline": "US Court Upholds Pentagon Restrictions On Anthropic",
-      "companies": [
-        "Anthropic"
-      ],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-26",
-      "last_major_update": "2026-09-26",
-      "update_phase": "initial_break",
-      "impact_score": 94
-    },
-    {
-      "story_id": "story_20260926_microsoft_launches_unified_copilot_",
-      "story_chain_id": "chain_microsoft_microsoft_launches_u",
-      "headline": "Microsoft Launches Unified Copilot Super App",
-      "companies": [
-        "Microsoft"
-      ],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-26",
-      "last_major_update": "2026-09-26",
-      "update_phase": "initial_break",
-      "impact_score": 94
-    },
-    {
-      "story_id": "story_20260926_us_and_china_renew_calls_for_ai_coo",
-      "story_chain_id": "chain_global_us_and_china_renew_c",
-      "headline": "US And China Renew Calls For AI Cooperation",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-26",
-      "last_major_update": "2026-09-26",
-      "update_phase": "initial_break",
-      "impact_score": 88
-    },
-    {
-      "story_id": "story_20260926_deepseek_revenue_surpasses_1_billio",
-      "story_chain_id": "chain_deepseek_deepseek_revenue_sur",
-      "headline": "DeepSeek Revenue Surpasses $1 Billion Run Rate",
-      "companies": [
-        "DeepSeek"
-      ],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-26",
-      "last_major_update": "2026-09-26",
-      "update_phase": "initial_break",
-      "impact_score": 88
-    },
-    {
-      "story_id": "story_20260926_japan_reviews_ai_data_center_financ",
-      "story_chain_id": "chain_global_japan_reviews_ai_dat",
-      "headline": "Japan Reviews AI Data Center Financing Risks",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-26",
-      "last_major_update": "2026-09-26",
-      "update_phase": "initial_break",
-      "impact_score": 88
-    },
-    {
-      "story_id": "story_20260926_india_explores_national_frontier_ai",
-      "story_chain_id": "chain_global_india_explores_natio",
-      "headline": "India Explores National Frontier AI Compute Fund",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-26",
-      "last_major_update": "2026-09-26",
-      "update_phase": "initial_break",
-      "impact_score": 88
-    },
-    {
-      "story_id": "story_20260926_sarvam_ai_launches_vision_2_1",
-      "story_chain_id": "chain_global_sarvam_ai_launches_v",
-      "headline": "Sarvam AI Launches Vision 2.1",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-26",
-      "last_major_update": "2026-09-26",
-      "update_phase": "initial_break",
-      "impact_score": 88
-    },
     {
       "story_id": "story_20260927_u_s_and_china_launch_formal_super_i",
       "story_chain_id": "chain_global_u_s_and_china_launch",
@@ -1507,27 +1379,47 @@
       "last_major_update": "2026-10-10",
       "update_phase": "initial_break",
       "impact_score": 66
+    },
+    {
+      "story_id": "story_20261011_the_maker_of_non_text_ai_model_jev_",
+      "story_chain_id": "chain_global_the_maker_of_non_tex",
+      "headline": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"
+      ],
+      "first_covered": "2026-10-11",
+      "last_major_update": "2026-10-11",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261011_ai_agent_makers_are_promising_priva",
+      "story_chain_id": "chain_global_ai_agent_makers_are_",
+      "headline": "AI agent makers are promising privacy — will they deliver?",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots"
+      ],
+      "first_covered": "2026-10-11",
+      "last_major_update": "2026-10-11",
+      "update_phase": "initial_break",
+      "impact_score": 71
     }
   ],
   "entity_index": {
     "Openai": [
-      "2026-09-26",
       "2026-09-27",
       "2026-09-29",
       "2026-10-02",
       "2026-10-03",
       "2026-10-04"
     ],
-    "Anthropic": [
-      "2026-09-26",
-      "2026-09-29",
-      "2026-10-04"
-    ],
-    "Microsoft": [
-      "2026-09-26"
-    ],
     "Deepseek": [
-      "2026-09-26",
       "2026-09-27",
       "2026-10-02"
     ],
@@ -1539,6 +1431,10 @@
     ],
     "Alibaba": [
       "2026-09-28",
+      "2026-10-04"
+    ],
+    "Anthropic": [
+      "2026-09-29",
       "2026-10-04"
     ],
     "Deepmind": [
