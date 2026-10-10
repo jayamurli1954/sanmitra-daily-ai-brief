@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 15.82,
-    "sceneDurationSeconds": 17.02,
-    "durationInFrames": 510,
+    "audioDurationSeconds": 14.9,
+    "sceneDurationSeconds": 16.1,
+    "durationInFrames": 483,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_harmattan_ai_unveils_irifi_2_000": {
-    "audioFile": "audio/aibrief/s1_s1_harmattan_ai_unveils_irifi_2_000.mp3",
-    "audioDurationSeconds": 41.3,
-    "sceneDurationSeconds": 42.5,
-    "durationInFrames": 1275,
-    "title": "Story 1: Harmattan AI unveils IRIFI 2,000-kilometre autonomous strike drone as Morocco signs sovereign production pact",
+  "s1_ukrainian_drone_strikes_disable": {
+    "audioFile": "audio/aibrief/s1_s1_ukrainian_drone_strikes_disable.mp3",
+    "audioDurationSeconds": 44.33,
+    "sceneDurationSeconds": 45.53,
+    "durationInFrames": 1366,
+    "title": "Story 1: Ukrainian drone strikes disable Yandex data centers housing frontier AI supercomputing clusters",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_usa": {
@@ -22,20 +22,20 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_us_senate_outlines_frontier_ai_s": {
-    "audioFile": "audio/aibrief/s2_s2_us_senate_outlines_frontier_ai_s.mp3",
-    "audioDurationSeconds": 46.06,
-    "sceneDurationSeconds": 47.26,
-    "durationInFrames": 1418,
-    "title": "Story 2: US Senate outlines frontier AI safety framework as CLAIM Act introduces strict developer liability",
+  "s2_google_amie_diagnostic_clinical": {
+    "audioFile": "audio/aibrief/s2_s2_google_amie_diagnostic_clinical.mp3",
+    "audioDurationSeconds": 46.99,
+    "sceneDurationSeconds": 48.19,
+    "durationInFrames": 1446,
+    "title": "Story 2: Google AMIE diagnostic clinical assistant achieves ninety percent accuracy in Lancet primary care trial",
     "voice": "en-US-AriaNeural"
   },
-  "s3_chan_zuckerberg_biohub_launches": {
-    "audioFile": "audio/aibrief/s3_s3_chan_zuckerberg_biohub_launches.mp3",
-    "audioDurationSeconds": 43.58,
-    "sceneDurationSeconds": 44.78,
-    "durationInFrames": 1344,
-    "title": "Story 3: Chan Zuckerberg Biohub launches 1.8 billion dollars AI Virtual Biology Initiative with US energy department and tech giants",
+  "s3_anthropic_introduces_open_source": {
+    "audioFile": "audio/aibrief/s3_s3_anthropic_introduces_open_source.mp3",
+    "audioDurationSeconds": 35.35,
+    "sceneDurationSeconds": 36.55,
+    "durationInFrames": 1097,
+    "title": "Story 3: Anthropic introduces open-source vulnerability scanner and launches critical infrastructure defense pact",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
@@ -45,12 +45,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s4_chinese_open_weight_ai_captures": {
-    "audioFile": "audio/aibrief/s4_s4_chinese_open_weight_ai_captures.mp3",
-    "audioDurationSeconds": 38.52,
-    "sceneDurationSeconds": 39.72,
-    "durationInFrames": 1192,
-    "title": "Story 4: Chinese open-weight AI captures global users as labs earn fraction of US rival revenues",
+  "s4_beijing_issues_comprehensive_sta": {
+    "audioFile": "audio/aibrief/s4_s4_beijing_issues_comprehensive_sta.mp3",
+    "audioDurationSeconds": 41.21,
+    "sceneDurationSeconds": 42.41,
+    "durationInFrames": 1272,
+    "title": "Story 4: Beijing issues comprehensive state council directives balancing rapid AI industrialization against financial bubbles",
     "voice": "en-US-AriaNeural"
   },
   "transition_asia": {
@@ -60,12 +60,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
   },
-  "s5_singapore_enforces_binding_ai_ri": {
-    "audioFile": "audio/aibrief/s5_s5_singapore_enforces_binding_ai_ri.mp3",
-    "audioDurationSeconds": 40.66,
-    "sceneDurationSeconds": 41.86,
-    "durationInFrames": 1256,
-    "title": "Story 5: Singapore enforces binding AI risk guidelines for banks as IMF warns of AI infrastructure debt shock",
+  "s5_surge_in_automated_ai_cyberattac": {
+    "audioFile": "audio/aibrief/s5_s5_surge_in_automated_ai_cyberattac.mp3",
+    "audioDurationSeconds": 37.39,
+    "sceneDurationSeconds": 38.59,
+    "durationInFrames": 1158,
+    "title": "Story 5: Surge in automated AI cyberattacks strikes financial and corporate infrastructure across Japan and South Korea",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_india": {
@@ -75,91 +75,91 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s6_meity_awards_corover_contract_fo": {
-    "audioFile": "audio/aibrief/s6_s6_meity_awards_corover_contract_fo.mp3",
-    "audioDurationSeconds": 45.72,
-    "sceneDurationSeconds": 46.92,
-    "durationInFrames": 1408,
-    "title": "Story 6: MeitY awards CoRover contract for Unified Government AI platform as IndiaAI Mission demands global safety voice",
+  "s6_indian_ai_startups_secure_record": {
+    "audioFile": "audio/aibrief/s6_s6_indian_ai_startups_secure_record.mp3",
+    "audioDurationSeconds": 45.86,
+    "sceneDurationSeconds": 47.06,
+    "durationInFrames": 1412,
+    "title": "Story 6: Indian AI startups secure record 438 million dollars in third quarter as venture investors urge valuation discipline",
     "voice": "en-US-AriaNeural"
   },
-  "s7_openai_publishes_722_mathematica": {
-    "audioFile": "audio/aibrief/s7_s7_openai_publishes_722_mathematica.mp3",
-    "audioDurationSeconds": 43.1,
-    "sceneDurationSeconds": 44.3,
-    "durationInFrames": 1329,
-    "title": "Story 7: OpenAI publishes 722 mathematical discovery papers from unreleased internal frontier reasoning model",
+  "s7_openai_exposes_russian_and_irani": {
+    "audioFile": "audio/aibrief/s7_s7_openai_exposes_russian_and_irani.mp3",
+    "audioDurationSeconds": 42.12,
+    "sceneDurationSeconds": 43.32,
+    "durationInFrames": 1300,
+    "title": "Story 7: OpenAI exposes Russian and Iranian state influence networks utilizing ChatGPT for covert operations",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_google_deepmind_launches_univers": {
-    "audioFile": "audio/aibrief/s8_s8_google_deepmind_launches_univers.mp3",
-    "audioDurationSeconds": 47.06,
-    "sceneDurationSeconds": 48.26,
-    "durationInFrames": 1448,
-    "title": "Story 8: Google DeepMind launches universal SynthID Detector worldwide to identify AI-generated media",
+  "s8_british_prime_minister_andy_burn": {
+    "audioFile": "audio/aibrief/s8_s8_british_prime_minister_andy_burn.mp3",
+    "audioDurationSeconds": 38.81,
+    "sceneDurationSeconds": 40.01,
+    "durationInFrames": 1200,
+    "title": "Story 8: British Prime Minister Andy Burnham pledges global AI standards code ahead of G20 Manchester summit",
     "voice": "en-US-AriaNeural"
   },
-  "s9_meta_and_sierra_introduce_person": {
-    "audioFile": "audio/aibrief/s9_s9_meta_and_sierra_introduce_person.mp3",
-    "audioDurationSeconds": 46.75,
-    "sceneDurationSeconds": 47.95,
-    "durationInFrames": 1439,
-    "title": "Story 9: Meta and Sierra introduce Personal Agent Protocol as Nous Research secures 90 million dollars",
+  "s9_global_ai_infrastructure_expansi": {
+    "audioFile": "audio/aibrief/s9_s9_global_ai_infrastructure_expansi.mp3",
+    "audioDurationSeconds": 41.74,
+    "sceneDurationSeconds": 42.94,
+    "durationInFrames": 1288,
+    "title": "Story 9: Global AI infrastructure expansion faces financial reality check as Firmus withdraws landmark ASX listing",
     "voice": "en-US-ChristopherNeural"
   },
-  "s10_pentagon_accelerates_kill_chain": {
-    "audioFile": "audio/aibrief/s10_s10_pentagon_accelerates_kill_chain.mp3",
-    "audioDurationSeconds": 43.25,
-    "sceneDurationSeconds": 44.45,
-    "durationInFrames": 1333,
-    "title": "Story 10: Pentagon accelerates kill-chain AI procurement via 5-minute pitches as Navy tests MQ-20 autonomous swarms",
+  "s10_openai_revises_annual_revenue_ou": {
+    "audioFile": "audio/aibrief/s10_s10_openai_revises_annual_revenue_ou.mp3",
+    "audioDurationSeconds": 43.94,
+    "sceneDurationSeconds": 45.14,
+    "durationInFrames": 1354,
+    "title": "Story 10: OpenAI revises annual revenue outlook to 50 billion dollars as safety researcher dismissals prompt congressional scrutiny",
     "voice": "en-US-AriaNeural"
   },
-  "s11_china_reinforces_sovereign_ai_go": {
-    "audioFile": "audio/aibrief/s11_s11_china_reinforces_sovereign_ai_go.mp3",
-    "audioDurationSeconds": 33.79,
-    "sceneDurationSeconds": 34.99,
-    "durationInFrames": 1050,
-    "title": "Story 11: China reinforces sovereign AI governance architecture balancing state oversight with industrial expansion",
+  "s11_semianalysis_report_reveals_top": {
+    "audioFile": "audio/aibrief/s11_s11_semianalysis_report_reveals_top.mp3",
+    "audioDurationSeconds": 42.91,
+    "sceneDurationSeconds": 44.11,
+    "durationInFrames": 1323,
+    "title": "Story 11: SemiAnalysis report reveals top Chinese AI laboratories publish formal safety benchmarks for under four percent of models",
     "voice": "en-US-ChristopherNeural"
   },
-  "s12_amd_establishes_south_korea_ai_r": {
-    "audioFile": "audio/aibrief/s12_s12_amd_establishes_south_korea_ai_r.mp3",
-    "audioDurationSeconds": 37.94,
-    "sceneDurationSeconds": 39.14,
-    "durationInFrames": 1174,
-    "title": "Story 12: AMD establishes South Korea AI research center to co-develop accelerator reference designs with domestic NPU startups",
+  "s12_alibaba_releases_high_efficiency": {
+    "audioFile": "audio/aibrief/s12_s12_alibaba_releases_high_efficiency.mp3",
+    "audioDurationSeconds": 36.72,
+    "sceneDurationSeconds": 37.92,
+    "durationInFrames": 1138,
+    "title": "Story 12: Alibaba releases high-efficiency Qwen-Image-2.1-Turbo open-weight visual synthesis architecture",
     "voice": "en-US-AriaNeural"
   },
-  "s13_google_brings_gemini_auto_browse": {
-    "audioFile": "audio/aibrief/s13_s13_google_brings_gemini_auto_browse.mp3",
-    "audioDurationSeconds": 42.74,
-    "sceneDurationSeconds": 43.94,
-    "durationInFrames": 1318,
-    "title": "Story 13: Google brings Gemini auto-browse to Chrome in India as tech leaders champion low-cost sovereign inference",
+  "s13_infor_introduces_enterprise_agen": {
+    "audioFile": "audio/aibrief/s13_s13_infor_introduces_enterprise_agen.mp3",
+    "audioDurationSeconds": 39.53,
+    "sceneDurationSeconds": 40.73,
+    "durationInFrames": 1222,
+    "title": "Story 13: Infor introduces enterprise agentic architecture to accelerate operational deployment across Asia-Pacific",
     "voice": "en-US-ChristopherNeural"
   },
-  "s14_boston_dynamics_appoints_former": {
-    "audioFile": "audio/aibrief/s14_s14_boston_dynamics_appoints_former.mp3",
-    "audioDurationSeconds": 32.98,
-    "sceneDurationSeconds": 34.18,
-    "durationInFrames": 1025,
-    "title": "Story 14: Boston Dynamics appoints former Amazon AI robotics chief as CEO amid accelerating humanoid commercialization",
+  "s14_tony_blair_institute_study_warns": {
+    "audioFile": "audio/aibrief/s14_s14_tony_blair_institute_study_warns.mp3",
+    "audioDurationSeconds": 43.68,
+    "sceneDurationSeconds": 44.88,
+    "durationInFrames": 1346,
+    "title": "Story 14: Tony Blair Institute study warns fragmented public data architectures jeopardize India's AI welfare delivery",
     "voice": "en-US-AriaNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 44.81,
-    "sceneDurationSeconds": 46.01,
-    "durationInFrames": 1380,
+    "audioDurationSeconds": 39.07,
+    "sceneDurationSeconds": 40.27,
+    "durationInFrames": 1208,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },
   "market_snapshot": {
     "audioFile": "audio/aibrief/s_market_snapshot.mp3",
-    "audioDurationSeconds": 47.52,
-    "sceneDurationSeconds": 48.72,
-    "durationInFrames": 1462,
+    "audioDurationSeconds": 41.98,
+    "sceneDurationSeconds": 43.18,
+    "durationInFrames": 1295,
     "title": "AI Market Snapshot",
     "voice": "en-US-AriaNeural"
   },

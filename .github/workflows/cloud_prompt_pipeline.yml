@@ -1,12 +1,8 @@
 name: Cloud Prompt Video Production & YouTube Upload
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'prompts/**'
-      - 'src/aibrief/data/active_episode.json'
+  schedule:
+    - cron: '30 00 * * *' # 00:30 UTC = 06:00 AM IST
   workflow_dispatch:
     inputs:
       privacy:
@@ -55,7 +51,9 @@ jobs:
         run: npm ci
 
       - name: Install Python Dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install imagehash PyWavelets
 
       - name: Configure Cloud Authentication Secrets
         env:

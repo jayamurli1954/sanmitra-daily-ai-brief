@@ -468,7 +468,7 @@ export const LinkedInCoverBanner: React.FC = () => {
             }}
           >
             <Img
-              src={staticFile("aibrief/assets/editorial/tech_quantum_lab.jpg")}
+              src={staticFile("aibrief/backgrounds/ai_chips.jpg")}
               style={{
                 width: "100%",
                 height: "100%",

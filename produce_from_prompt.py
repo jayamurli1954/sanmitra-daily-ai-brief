@@ -131,8 +131,9 @@ def produce_from_prompt(prompt_file=None, privacy="private", upload_youtube=True
     if render_video:
         # Use concurrency suitable for GitHub Actions runners or local
         concurrency = 2
+        gl_flag = "--gl angle" if sys.platform == "win32" else "--gl swangle"
         ok_render = run_command(
-            f"npx remotion render AIBriefMaster16x9 {video_out} --concurrency {concurrency} --timeout 120000 --gl angle",
+            f"npx remotion render AIBriefMaster16x9 {video_out} --concurrency {concurrency} --timeout 120000 {gl_flag}",
             f"Rendering 1080p Master Video -> {video_out}"
         )
         if not ok_render:

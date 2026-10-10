@@ -1,12 +1,12 @@
 {
   "date": "2026-10-10",
   "formattedDate": "10 October 2026",
-  "title": "AI and the climate crisis pose | Anthropic bans users from | Anthropic changes usage policy to | AI News 10 October 2026",
+  "title": "Ukrainian drone strikes disable | Google AMIE diagnostic clinical | Anthropic introduces open-source | AI News 10 October 2026",
   "intro": {
     "durationSeconds": 18,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "In a landmark development, AI and the climate crisis pose existential risks. The law offers a way to reduce them | Robert Reich. From the SanMitra Newsroom, here is the Daily AI Brief for 10 October 2026."
+    "script": "In a landmark development, Ukrainian drone strikes disable Yandex data centers housing frontier AI supercomputing clusters. From the SanMitra Newsroom, here is the Daily AI Brief for 10 October 2026."
   },
   "transitions": [
     {
@@ -17,10 +17,24 @@
       "durationSeconds": 2
     },
     {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
       "id": "transition_asia",
       "region": "ASIA",
       "title": "NEXT: ASIA & REGIONAL STRATEGY",
       "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
       "durationSeconds": 2
     },
     {
@@ -29,258 +43,531 @@
       "title": "NEXT: USA & REGIONAL STRATEGY",
       "display": "NEXT: USA",
       "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
     }
   ],
   "stories": [
     {
-      "id": "s1_ai_and_the_climate_crisis_pose_e",
+      "id": "s1_ukrainian_drone_strikes_disable",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "AI and the climate crisis pose existential risks. The law offers a way to reduce them | Robert Reich",
-      "subheadline": "Source: The Guardian",
+      "headline": "Ukrainian drone strikes disable Yandex data centers housing frontier AI supercomputing clusters",
+      "subheadline": "Source: Al Jazeera (AFP,Reuters)",
       "importanceScore": 99,
-      "durationSeconds": 41,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/commentisfree/2026/oct/09/ai-climate-change-liability-lawsuits",
+      "durationSeconds": 39,
+      "source": "Al Jazeera (AFP,Reuters)",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/9/ukraine-takes-aim-at-russias-ai-data-infrastructure",
       "researchDesk": "",
-      "script": "In our lead story today, Liability lawsuits have held tobacco, oil and pharma companies to account in the past. AI investors won’t ignore this threat The most basic function of government is to protect people from harm. Two growing phenomena the climate crisis and AI pose escalating risks of extraordinary harm. The climate crisis is already causing floods, wildfires, drought and record heat. AI agents are already escaping super-secure environments to hack into systems they’re supposed to avoid. Robert Reich, a former US secretary of labor, is a professor of public policy emeritus at the University of California, Berkeley.",
+      "script": "In our lead story today, Ukrainian drone strikes partially disabled Yandex cloud infrastructure in the Kaluga region following a prior strike on its primary computing hub in Sasovo, which houses two of the three supercomputers utilized to train Russia's sovereign frontier AI models. Yandex confirmed multiple compute modules were knocked offline, disrupting downstream enterprise services across Russian Railways, telecommunications carrier MegaFon, and regional media networks. Ukrainian leadership characterized the operations as direct mirror-retaliation against persistent strikes on Ukrainian civilian communications networks, establishing AI supercomputing facilities as primary strategic infrastructure targets in modern electronic warfare.",
       "whyThisMatters": "Critical development shaping WORLD artificial intelligence policy and sovereign compute.",
       "keyPoints": [
-        "AI and the climate crisis pose existential risks. The law offers a way to reduce",
-        "The Guardian"
+        "Ukrainian drone strikes disable Yandex data centers housing frontier AI supercom",
+        "Al Jazeera (AFP,Reuters)"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-10/s1_cut1.jpg",
-          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "badge": "MOSCOW • YANDEX CLOUD COMPUTING HEADQUARTERS",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s1_cut2.jpg",
-          "badge": "RADAR SURVEILLANCE • AIR-DEFENSE ENVELOPE",
+          "badge": "TACTICAL AEROSPACE • AUTONOMOUS DRONE FLIGHT",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s1_cut3.jpg",
-          "badge": "NEURAL BENCHMARKING • RECURSIVE EVALUATION HUD",
+          "badge": "AIR DEFENSE • MIM-104 PATRIOT RADAR BATTERY",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_anthropic_bans_users_from_needle",
+      "id": "s2_google_amie_diagnostic_clinical",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Anthropic bans users from ‘needless abusive or cruel behavior’ towards Claude",
-      "subheadline": "Source: The Guardian",
+      "headline": "Google AMIE diagnostic clinical assistant achieves ninety percent accuracy in Lancet primary care trial",
+      "subheadline": "Source: Google blog",
       "importanceScore": 95,
-      "durationSeconds": 42,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude",
+      "durationSeconds": 39,
+      "source": "Google blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/",
       "researchDesk": "",
-      "script": "Turning to the United States, A spokesperson for the tech company did not specify what kind of behavior would be considered abusive Anthropic has barred users from exhibiting “sustained and needless abusive or cruel behavior” toward its models, as the company’s leaders continue to ponder machine consciousness. A spokesperson for Anthropic , which is behind the AI chatbot Claude, did not immediately respond to an inquiry about what could be considered “abusive or cruel”. In an online user policy, the San Francisco-based company noted that its ban would not apply to common user frustrations, model testing or “dark creative themes”.",
+      "script": "Turning to the United States, Google and Beth Israel Deaconess Medical Center published clinical trial findings in The Lancet evaluating AMIE, an artificial intelligence diagnostic assistant deployed in real-time primary care consultations across ninety-eight patients. Clinicians confirmed that AMIE's diagnostic suggestions matched final attending physician diagnoses in ninety percent of encounters, with zero safety interventions required and seventy-five percent of doctors reporting improved clinical preparedness. Concurrently, researchers from Yale, New York University, and Microsoft uncovered structural symbolic representations inside large neural networks, proving models organize concepts into grammatical roles that can be mechanically modified.",
       "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
       "keyPoints": [
-        "Anthropic bans users from ‘needless abusive or cruel behavior’ towards Claude",
-        "The Guardian"
+        "Google AMIE diagnostic clinical assistant achieves ninety percent accuracy in La",
+        "Google blog"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-10/s2_cut1.jpg",
-          "badge": "THE • CONTEXTUAL REPORTING",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s2_cut2.jpg",
-          "badge": "RADAR SURVEILLANCE • AIR-DEFENSE ENVELOPE",
+          "badge": "REDMOND • MICROSOFT REDMOND CAMPUS",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s2_cut3.jpg",
-          "badge": "TACTICAL TELEMETRY • AIR-DEFENSE OPERATIONS",
+          "badge": "WASHINGTON D.C. • GWU SCIENCE & ENGINEERING",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s3_anthropic_changes_usage_policy_t",
+      "id": "s3_anthropic_introduces_open_source",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Anthropic changes usage policy to ban model abuse and election interference",
-      "subheadline": "Source: TechCrunch",
+      "headline": "Anthropic introduces open-source vulnerability scanner and launches critical infrastructure defense pact",
+      "subheadline": "Source: Anthropic",
       "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+      "durationSeconds": 35,
+      "source": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
       "researchDesk": "",
-      "script": "In concurrent industry updates, Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance.",
+      "script": "In concurrent industry updates, Anthropic launched a free automated security auditing service powered by Claude Mythos to continuously scan open-source software repositories, directly providing maintainers with automated reproduction scripts and verified patches. The research team identified over twenty-nine thousand candidate flaws over six months, with spot audits confirming eighty-five of ninety-seven high-severity findings with minimal false positives. Concurrently, Anthropic formed the Critical Infrastructure Defense Program alongside CrowdStrike, Palo Alto Networks, and Rockwell Automation to deploy specialized model weights protecting water, electrical grid, and transportation networks.",
       "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
       "keyPoints": [
-        "Anthropic changes usage policy to ban model abuse and election interference",
-        "TechCrunch"
+        "Anthropic introduces open-source vulnerability scanner and launches critical inf",
+        "Anthropic"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-10/s3_cut1.jpg",
-          "badge": "LOST (TV SERIES) • CONTEXTUAL REPORTING",
+          "badge": "FRONTIER LABS DESK • ANTHROPIC RESEARCH",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s3_cut2.jpg",
-          "badge": "MILITARY OPERATIONS CENTER • INCIDENT DESK",
+          "badge": "CYBER DEFENSE • CROWDSTRIKE THREAT INTEL",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s3_cut3.jpg",
-          "badge": "SATELLITE GROUND STATION • SECURE TELEMETRY",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s4_philippines_thought_pogos_were_g",
-      "region": "ASIA",
-      "category": "ASIA Intelligence",
-      "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "Philippines thought Pogos were gone. Corruption and AI still power them",
-      "subheadline": "Source: South China Morning Post",
+      "id": "s4_beijing_issues_comprehensive_sta",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Beijing issues comprehensive state council directives balancing rapid AI industrialization against financial bubbles",
+      "subheadline": "Source: Reuters",
       "importanceScore": 90,
-      "durationSeconds": 32,
-      "source": "South China Morning Post",
-      "sourceUrl": "https://www.scmp.com/week-asia/politics/article/3370281/philippines-thought-pogos-were-gone-corruption-and-ai-still-power-them?utm_source=rss_feed",
+      "durationSeconds": 30,
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/asia-pacific/china-issues-guidelines-new-productive-forces-including-ai-2026-10-09/",
       "researchDesk": "",
-      "script": "In Asia, Two years after the Philippines banned its notorious offshore gaming hubs, or Pogos, a recent crackdown on hundreds of foreigners has highlighted a worrying trend of embedded corruption that still enables the sector to thrive. In September, the National Bureau of Investigation raided a call centre-style facility in Makati City, arresting more than 120 Chinese nationals linked to an alleged illegal trading and “lust scam” that tricked local and foreign victims into sharing explicit videos, which...",
-      "whyThisMatters": "Critical development shaping ASIA artificial intelligence policy and sovereign compute.",
+      "script": "Meanwhile in China, China's State Council unveiled strategic policy directives mandating accelerated artificial intelligence integration across advanced manufacturing, autonomous transportation, industrial robotics, and consumer electronics while issuing strict warnings against speculative market bubbles. The regulatory guidance instructs municipal administrations and state investment funds to curb redundant infrastructure duplication and prevent irrational equity valuations. The mandate establishes a dual-track doctrine accelerating sovereign computing self-reliance while enforcing rigorous risk-containment frameworks across domestic frontier deployments.",
+      "whyThisMatters": "Critical development shaping CHINA artificial intelligence policy and sovereign compute.",
       "keyPoints": [
-        "Philippines thought Pogos were gone. Corruption and AI still power them",
-        "South China Morning Post"
+        "Beijing issues comprehensive state council directives balancing rapid AI industr",
+        "Reuters"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-10/s4_cut1.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "badge": "BEIJING • STATE COUNCIL DIRECTIVES",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s4_cut2.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "badge": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s4_cut3.jpg",
-          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
           "panDirection": "panLeft"
         }
       ]
     },
     {
-      "id": "s5_lost_generation_the_ai_threat_to",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Lost generation: the AI threat to Britain’s next great directors",
-      "subheadline": "Source: The Guardian",
+      "id": "s5_surge_in_automated_ai_cyberattac",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Surge in automated AI cyberattacks strikes financial and corporate infrastructure across Japan and South Korea",
+      "subheadline": "Source: The Economic Times (Reuters)",
       "importanceScore": 90,
-      "durationSeconds": 53,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie",
+      "durationSeconds": 35,
+      "source": "The Economic Times (Reuters)",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/south-korea-japan-buffeted-by-hacks-as-ai-lowers-bar-for-cybercriminals/articleshow/134807770.cms",
       "researchDesk": "",
-      "script": "In other global developments, Commercials once launched careers from Ridley Scott to Guy Ritchie, now automated production is cutting costs and the chance to learn by doing When Ridley Scott was awarded the UK’s highest accolade for a glittering career directing films from Alien and Blade Runner to Gladiator and The Martian , he reminded those attending the Bafta event eight years ago that making commercials had been his “film school” . The advertising industry has long been a breeding ground for British film and TV talent who have gone on to make the jump to Hollywood productions , including Guy Ritchie, who started out making music videos and commercials, and Paddington in Peru director Dougal Wilson, whose credits include a number of John Lewis’s famous Christmas ads.",
-      "whyThisMatters": "Critical development shaping WORLD artificial intelligence policy and sovereign compute.",
+      "script": "In Asia, Financial authorities and cybersecurity agencies across East Asia intensified nationwide emergency defenses following automated intrusion campaigns targeting major commercial banks in South Korea and enterprises across Japan. Security analytics confirmed Japanese corporate incidents escalated eighteen percent in September, impacting Daiwa Securities and SoftBank, while South Korean regulators launched parliamentary inquiries into nine compromised financial institutions. In response to global regulatory pressure, the developer of the autonomous penetration testing tool ARTEX removed the open-source repository from GitHub to transition the software into closed-source distribution.",
+      "whyThisMatters": "Critical development shaping ASIA artificial intelligence policy and sovereign compute.",
       "keyPoints": [
-        "Lost generation: the AI threat to Britain’s next great directors",
-        "The Guardian"
+        "Surge in automated AI cyberattacks strikes financial and corporate infrastructur",
+        "The Economic Times (Reuters)"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-10/s5_cut1.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
+          "badge": "TOKYO • JAPAN CYBER DEFENSE COUNCIL",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s5_cut2.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "badge": "SEOUL • YEOUIDO FINANCIAL DISTRICT",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s5_cut3.jpg",
-          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "badge": "NAVAL AVIATION • CARRIER LAUNCH OPERATIONS",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s6_firmus_pulls_biggest_asx_float_s",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Firmus pulls biggest ASX float since Telstra amid investor doubt about datacentre company",
-      "subheadline": "Source: The Guardian",
+      "id": "s6_indian_ai_startups_secure_record",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Indian AI startups secure record 438 million dollars in third quarter as venture investors urge valuation discipline",
+      "subheadline": "Source: Inc42",
       "importanceScore": 90,
-      "durationSeconds": 37,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/australia-news/2026/oct/09/firmus-pulls-asx-float-datacentre-investor-doubt-australia",
+      "durationSeconds": 38,
+      "source": "Inc42",
+      "sourceUrl": "https://inc42.com/features/indian-ai-startup-funding-surges-265-yoy-in-q3-will-momentum-continue/",
       "researchDesk": "",
-      "script": "In another major development, The 11 dollars -a-share offer would have been the biggest debut on the stock market since the telecommunication giant in 1997 Get our breaking news email , free app or daily news podcast Firmus Technologies has scrapped what was set to be Australia’s biggest company listing in decades after investor demand for its much-hyped AI datacentre business failed to materialise. A Firmus spokesperson said the board decided that proceeding with the offer was no longer in the best interests of the company and its shareholders.",
-      "whyThisMatters": "Critical development shaping WORLD artificial intelligence policy and sovereign compute.",
+      "script": "Turning to India, Venture investment into Indian artificial intelligence startups expanded 265 percent year-over-year in the third quarter of 2026, reaching 438 million dollars across thirty-five transactions and establishing AI as the country's most heavily funded startup segment. Driven by large growth rounds including Emergent's 130 million dollar financing, aggregate investment surpassed 1.1 billion dollars across the first nine months of the year. However, sixty-three percent of institutional investors surveyed highlighted mounting valuation froth, projecting an industry correction within eighteen months while directing capital toward enterprise software in banking, defense, and healthcare.",
+      "whyThisMatters": "Critical development shaping INDIA artificial intelligence policy and sovereign compute.",
       "keyPoints": [
-        "Firmus pulls biggest ASX float since Telstra amid investor doubt about datacentr",
-        "The Guardian"
+        "Indian AI startups secure record 438 million dollars in third quarter as venture",
+        "Inc42"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-10/s6_cut1.jpg",
-          "badge": "BEIJING • STATE AI GOVERNANCE DESK",
+          "badge": "COPENHAGEN • CHRISTIANSBORG PALACE",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s6_cut2.jpg",
-          "badge": "TERRAIN SURVEY • RURAL INFRASTRUCTURE",
+          "badge": "NEW DELHI • BHARAT MANDAPAM SUMMIT",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s6_cut3.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "badge": "CAPITOL HILL • LEGISLATIVE DESK",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s7_nvidia_backed_aussie_ai_firm_fir",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
-      "subheadline": "Source: CNBC",
+      "id": "s7_openai_exposes_russian_and_irani",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "OpenAI exposes Russian and Iranian state influence networks utilizing ChatGPT for covert operations",
+      "subheadline": "Source: NPR",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html",
+      "durationSeconds": 36,
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/08/nx-s1-5995576/openai-russia-iran-influence-operations-chatgpt",
       "researchDesk": "",
-      "script": "Turning to the United States, Nvidia-backed Australian AI data center operator Firmus has withdrawn its planned IPO amid market volatility.",
-      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "script": "In other global developments, OpenAI dismantled coordinated account networks linked to Russian and Iranian intelligence operations that utilized conversational models to orchestrate foreign disinformation campaigns. The Russian network deployed synthetic personas and fabricated think tanks across Latin America, generating localized propaganda that prompted diplomatic controversy in Poland and received OpenAI's high-severity Category 5 operational disruption rating. Concurrently, an Iranian cell fabricated seven non-existent Western journalists to seed nearly one hundred targeted articles into international media outlets, underscoring systemic vulnerabilities as generative platforms are weaponized for automated statecraft.",
+      "whyThisMatters": "Critical development shaping WORLD artificial intelligence policy and sovereign compute.",
       "keyPoints": [
-        "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volati",
-        "CNBC"
+        "OpenAI exposes Russian and Iranian state influence networks utilizing ChatGPT fo",
+        "NPR"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-10/s7_cut1.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s7_cut2.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-10/s7_cut3.jpg",
-          "badge": "HARDWARE ACCELERATION • SYSTEM INTEGRATION",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
           "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_british_prime_minister_andy_burn",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "British Prime Minister Andy Burnham pledges global AI standards code ahead of G20 Manchester summit",
+      "subheadline": "Source: GOV.UK",
+      "importanceScore": 90,
+      "durationSeconds": 36,
+      "source": "GOV.UK",
+      "sourceUrl": "https://www.gov.uk/government/speeches/pm-speech-at-the-innovation-nation-summit-9-october-2026",
+      "researchDesk": "",
+      "script": "Expanding on regulatory scrutiny, Speaking at the Innovation Nation Summit, British Prime Minister Andy Burnham announced that the United Kingdom will place binding international AI standards at the core of its G20 presidency agenda leading into the Manchester Leaders' Summit. The government pledged comprehensive statutory reform to abolish employee non-compete clauses to accelerate startup recruitment, committed 1 billion pounds over four years to scale regional artificial intelligence clusters through UK Research and Innovation, and allocated 48 million pounds in joint public-private financing to accelerate computational dementia therapeutics.",
+      "whyThisMatters": "Critical development shaping WORLD artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "British Prime Minister Andy Burnham pledges global AI standards code ahead of G2",
+        "GOV.UK"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s8_cut1.jpg",
+          "badge": "MANCHESTER • G20 INNOVATION NATION SUMMIT",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s8_cut2.jpg",
+          "badge": "WASHINGTON D.C. • GWU SCIENCE & ENGINEERING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s8_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_global_ai_infrastructure_expansi",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Global AI infrastructure expansion faces financial reality check as Firmus withdraws landmark ASX listing",
+      "subheadline": "Source: Reuters",
+      "importanceScore": 90,
+      "durationSeconds": 37,
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/china/global-markets-view-europe-2026-10-09/",
+      "researchDesk": "",
+      "script": "In enterprise infrastructure, Global capital markets demonstrated rising skepticism toward escalating artificial intelligence capital expenditure as high borrowing costs and extended monetization horizons pressure datacenter valuations. In Australia, sovereign datacenter developer Firmus abruptly cancelled what was projected to be the largest initial public offering on the Australian Securities Exchange in over a decade, citing investor reluctance to underwrite aggressive multi-gigawatt power expansion without guaranteed near-term hyperscale revenue. The market retreat reflects broader institutional caution across Europe and North America as lenders demand sustainable return-on-equity models from frontier compute providers.",
+      "whyThisMatters": "Critical development shaping WORLD artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Global AI infrastructure expansion faces financial reality check as Firmus withd",
+        "Reuters"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s9_cut1.jpg",
+          "badge": "ASX • HYPERSCALE DATACENTER VALUATIONS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s9_cut2.jpg",
+          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s9_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_openai_revises_annual_revenue_ou",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "OpenAI revises annual revenue outlook to 50 billion dollars as safety researcher dismissals prompt congressional scrutiny",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 33,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
+      "researchDesk": "",
+      "script": "Turning to the United States, OpenAI revised internal financial projections, anticipating annualized revenue of approximately 50 billion dollars, moderating previous 70 billion dollar estimates as massive computing expenses continue to outpace commercial subscription growth. Concurrently, the company defended the termination of three senior safety researchers over alleged disclosures of proprietary information during third-party audits with evaluating organization METR. The executive leadership confirmed ongoing private wargaming simulations preparing contingency responses for potential catastrophic cyber incidents affecting financial, power, and telecommunications backbones.",
+      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "OpenAI revises annual revenue outlook to 50 billion dollars as safety researcher",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s10_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s10_cut2.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s10_cut3.jpg",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s11_semianalysis_report_reveals_top",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "SemiAnalysis report reveals top Chinese AI laboratories publish formal safety benchmarks for under four percent of models",
+      "subheadline": "Source: US News (Reuters)",
+      "importanceScore": 90,
+      "durationSeconds": 36,
+      "source": "US News (Reuters)",
+      "sourceUrl": "https://money.usnews.com/investing/news/articles/2026-10-09/china-ai-developers-publish-safety-tests-for-just-3-6-of-model-releases-report-finds",
+      "researchDesk": "",
+      "script": "Meanwhile in China, An exhaustive technical investigation by SemiAnalysis examining 857 neural network models released by nine leading Chinese developers since 2021 found that only 3.6 percent included published safety evaluations. The research revealed that no domestic developer has publicly released formal benchmark data evaluating catastrophic cyber, biological, or autonomous loss-of-control risks, noting that national governance mandates remain focused on consumer application compliance rather than frontier safety testing. The findings coincided with market selloffs across Chinese optical transceiver manufacturers amid heightened investor anxiety over impending trade restrictions.",
+      "whyThisMatters": "Critical development shaping CHINA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "SemiAnalysis report reveals top Chinese AI laboratories publish formal safety be",
+        "US News (Reuters)"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s11_cut1.jpg",
+          "badge": "BEIJING • STATE AI GOVERNANCE DESK",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s11_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s11_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s12_alibaba_releases_high_efficiency",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Alibaba releases high-efficiency Qwen-Image-2.1-Turbo open-weight visual synthesis architecture",
+      "subheadline": "Source: Hugging Face (Qwen)",
+      "importanceScore": 90,
+      "durationSeconds": 30,
+      "source": "Hugging Face (Qwen)",
+      "sourceUrl": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+      "researchDesk": "",
+      "script": "Expanding on regulatory scrutiny, Alibaba's open-source artificial intelligence division launched Qwen-Image-2.1-Turbo, a seven-billion-parameter multimodal diffusion model capable of generating high-resolution digital visual assets through an optimized eight-step inference cycle. Released under an open research license on Hugging Face, the architecture demonstrates substantial computational efficiency improvements, reducing latency by over sixty percent compared to conventional diffusion pipelines. The development enables low-power local workstation deployment for iterative industrial design and rapid synthetic media generation.",
+      "whyThisMatters": "Critical development shaping CHINA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Alibaba releases high-efficiency Qwen-Image-2.1-Turbo open-weight visual synthes",
+        "Hugging Face (Qwen)"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s12_cut1.jpg",
+          "badge": "BEIJING • OPEN-WEIGHT INFERENCE HUBS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s12_cut2.jpg",
+          "badge": "HANGZHOU • ALIBABA CLOUD XIXI CAMPUS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s12_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s13_infor_introduces_enterprise_agen",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Infor introduces enterprise agentic architecture to accelerate operational deployment across Asia-Pacific",
+      "subheadline": "Source: Express Computer",
+      "importanceScore": 90,
+      "durationSeconds": 31,
+      "source": "Express Computer",
+      "sourceUrl": "https://www.expresscomputer.in/news/infor-industry-ai-agentic-enterprise/139577/",
+      "researchDesk": "",
+      "script": "In Asia, Enterprise software leader Infor debuted its Industry AI Architecture across Asia-Pacific markets, shifting corporate artificial intelligence strategies from experimental conversational bots toward deeply integrated operational workflow automation. Engineered specifically for complex manufacturing, wholesale distribution, and retail logistics, the framework deploys autonomous agents capable of managing inventory rebalancing, regulatory documentation, and predictive maintenance schedules. The deployment underscores growing corporate demand across regional supply chains for demonstrable return on investment governed by strict enterprise auditing parameters.",
+      "whyThisMatters": "Critical development shaping ASIA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Infor introduces enterprise agentic architecture to accelerate operational deplo",
+        "Express Computer"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s13_cut1.jpg",
+          "badge": "CATHAY PACIFIC • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s13_cut2.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s13_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s14_tony_blair_institute_study_warns",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Tony Blair Institute study warns fragmented public data architectures jeopardize India's AI welfare delivery",
+      "subheadline": "Source: The Hindu BusinessLine",
+      "importanceScore": 90,
+      "durationSeconds": 39,
+      "source": "The Hindu BusinessLine",
+      "sourceUrl": "https://www.thehindubusinessline.com/info-tech/fragmented-government-data-undermines-indias-ai-ambitions-report/article71564146.ece",
+      "researchDesk": "",
+      "script": "Turning to India, A policy research report published by the Tony Blair Institute cautioned that departmental data fragmentation across central and state government bodies threatens to undermine India's ambitious public AI deployment goals. Citing government assessments indicating data inconsistencies contribute to leakage equal to four to seven percent of annual welfare allocations, the study urged state administrations to implement standardized data governance frameworks and independent balance sheet audits. The authors highlighted that while digital beneficiary deduplication programs have saved billions of dollars, unverified administrative records risk amplifying operational errors across automated public services.",
+      "whyThisMatters": "Critical development shaping INDIA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Tony Blair Institute study warns fragmented public data architectures jeopardize",
+        "The Hindu BusinessLine"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s14_cut1.jpg",
+          "badge": "CHERIE BLAIR • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s14_cut2.jpg",
+          "badge": "SUWON • SAMSUNG DIGITAL CITY HEADQUARTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-10/s14_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomIn"
         }
       ]
     }
@@ -288,56 +575,56 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's headlines: AI and the climate crisis pose existential risks. The law offers a way to reduce them | Robert Reich; Anthropic bans users from ‘needless abusive or cruel behavior’ towards Claude; Anthropic changes usage policy to ban model abuse and election interference; Philippines thought Pogos were gone. Corruption and AI still power them; Lost generation: the AI threat to Britain’s next great directors; Firmus pulls biggest ASX float since Telstra amid investor doubt about datacentre company.",
+    "script": "To recap today's headlines: Ukrainian drone strikes disable Yandex data centers housing frontier AI supercomputing clusters; Google AMIE diagnostic clinical assistant achieves ninety percent accuracy in Lancet primary care trial; Anthropic introduces open-source vulnerability scanner and launches critical infrastructure defense pact; Beijing issues comprehensive state council directives balancing rapid AI industrialization against financial bubbles; Surge in automated AI cyberattacks strikes financial and corporate infrastructure across Japan and South Korea; Indian AI startups secure record 438 million dollars in third quarter as venture investors urge valuation discipline.",
     "items": [
-      "✓ AI and the climate crisis pose existential risks",
-      "✓ Anthropic bans users from ‘needless abusive or c",
-      "✓ Anthropic changes usage policy to ban model abus",
-      "✓ Philippines thought Pogos were gone. Corruption ",
-      "✓ Lost generation: the AI threat to Britain’s next",
-      "✓ Firmus pulls biggest ASX float since Telstra ami",
-      "✓ Nvidia-backed Aussie AI firm Firmus withdraws hi"
+      "✓ Ukrainian drone strikes disable Yandex data cent",
+      "✓ Google AMIE diagnostic clinical assistant achiev",
+      "✓ Anthropic introduces open-source vulnerability s",
+      "✓ Beijing issues comprehensive state council direc",
+      "✓ Surge in automated AI cyberattacks strikes finan",
+      "✓ Indian AI startups secure record 438 million dol",
+      "✓ OpenAI exposes Russian and Iranian state influen"
     ]
   },
   "marketSnapshot": {
     "durationSeconds": 16,
     "headline": "GLOBAL AI MARKET SNAPSHOT",
     "subheadline": "SANMITRA DESK • STRATEGIC TELEMETRY",
-    "script": "On the desk today: AI and the climate crisis pose existential risks. The law offers a way to reduce them | Robert Reich. Anthropic bans users from ‘needless abusive or cruel behavior’ towards Claude. Anthropic changes usage policy to ban model abuse and election interference. Philippines thought Pogos were gone. Corruption and AI still power them. Lost generation: the AI threat to Britain’s next great directors. Firmus pulls biggest ASX float since Telstra amid investor doubt about datacentre company.",
+    "script": "On the desk today: Ukrainian drone strikes disable Yandex data centers housing frontier AI supercomputing clusters. Google AMIE diagnostic clinical assistant achieves ninety percent accuracy in Lancet primary care trial. Anthropic introduces open-source vulnerability scanner and launches critical infrastructure defense pact. Beijing issues comprehensive state council directives balancing rapid AI industrialization against financial bubbles. Surge in automated AI cyberattacks strikes financial and corporate infrastructure across Japan and South Korea. Indian AI startups secure record 438 million dollars in third quarter as venture investors urge valuation discipline.",
     "entities": [
       {
         "name": "WORLD",
-        "update": "AI and the climate crisis pose existential risks. The law offers a way t",
+        "update": "Ukrainian drone strikes disable Yandex data centers housing frontier AI ",
         "tag": "TODAY'S DESK",
         "color": "#0ea5e9"
       },
       {
         "name": "USA",
-        "update": "Anthropic bans users from ‘needless abusive or cruel behavior’ towards C",
+        "update": "Google AMIE diagnostic clinical assistant achieves ninety percent accura",
         "tag": "TODAY'S DESK",
         "color": "#ef4444"
       },
       {
         "name": "USA",
-        "update": "Anthropic changes usage policy to ban model abuse and election interfere",
+        "update": "Anthropic introduces open-source vulnerability scanner and launches crit",
         "tag": "TODAY'S DESK",
         "color": "#10b981"
       },
       {
-        "name": "ASIA",
-        "update": "Philippines thought Pogos were gone. Corruption and AI still power them",
+        "name": "CHINA",
+        "update": "Beijing issues comprehensive state council directives balancing rapid AI",
         "tag": "TODAY'S DESK",
         "color": "#8b5cf6"
       },
       {
-        "name": "WORLD",
-        "update": "Lost generation: the AI threat to Britain’s next great directors",
+        "name": "ASIA",
+        "update": "Surge in automated AI cyberattacks strikes financial and corporate infra",
         "tag": "TODAY'S DESK",
         "color": "#38bdf8"
       },
       {
-        "name": "WORLD",
-        "update": "Firmus pulls biggest ASX float since Telstra amid investor doubt about d",
+        "name": "INDIA",
+        "update": "Indian AI startups secure record 438 million dollars in third quarter as",
         "tag": "TODAY'S DESK",
         "color": "#f97316"
       }
@@ -359,27 +646,34 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "AI and the climate crisis pose existential ri",
-    "Anthropic bans users from ‘needless abusive o",
-    "Anthropic changes usage policy to ban model a",
-    "Philippines thought Pogos were gone. Corrupti",
-    "Lost generation: the AI threat to Britain’s n",
-    "Firmus pulls biggest ASX float since Telstra ",
-    "Nvidia-backed Aussie AI firm Firmus withdraws"
+    "Ukrainian drone strikes disable Yandex data c",
+    "Google AMIE diagnostic clinical assistant ach",
+    "Anthropic introduces open-source vulnerabilit",
+    "Beijing issues comprehensive state council di",
+    "Surge in automated AI cyberattacks strikes fi",
+    "Indian AI startups secure record 438 million ",
+    "OpenAI exposes Russian and Iranian state infl",
+    "British Prime Minister Andy Burnham pledges g",
+    "Global AI infrastructure expansion faces fina",
+    "OpenAI revises annual revenue outlook to 50 b",
+    "SemiAnalysis report reveals top Chinese AI la",
+    "Alibaba releases high-efficiency Qwen-Image-2",
+    "Infor introduces enterprise agentic architect",
+    "Tony Blair Institute study warns fragmented p"
   ],
   "thumbnail": {
     "date": "10 OCTOBER 2026",
-    "headline": "AI AND THE CLIMATE CRISIS POSE EXISTENTIAL",
+    "headline": "UKRAINIAN DRONE STRIKES DISABLE YANDEX DATA",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "AI AND THE CLIMATE CRISIS POSE",
-      "ANTHROPIC BANS USERS FROM ‘NEEDLESS",
-      "ANTHROPIC CHANGES USAGE POLICY TO",
-      "PHILIPPINES THOUGHT POGOS WERE"
+      "UKRAINIAN DRONE STRIKES DISABLE",
+      "GOOGLE AMIE DIAGNOSTIC CLINICAL",
+      "ANTHROPIC INTRODUCES OPEN-SOURCE",
+      "BEIJING ISSUES COMPREHENSIVE STATE"
     ]
   },
   "youtubeMetadata": {
-    "title": "AI and the climate crisis pose | Anthropic bans users from | Anthropic changes usage policy to | AI News 10 October 2026",
+    "title": "Ukrainian drone strikes disable | Google AMIE diagnostic clinical | Anthropic introduces open-source | AI News 10 October 2026",
     "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 10 October 2026.",
     "tags": [
       "AI",

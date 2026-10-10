@@ -430,39 +430,39 @@ def parse_markdown_prompt(md_text: str) -> dict:
         s_text = f"{head} {body}".lower()
         if any(k in s_text for k in ["chip", "semiconductor", "wafer", "soc", "hardware", "gpu", "nvidia", "amd", "bigendian", "veerai"]):
             domain_cuts = [
-                ("aibrief/assets/editorial/tech_silicon_wafer.jpg", f"{reg} SILICON DIE • FABRICATION CLEANROOM"),
-                ("aibrief/assets/editorial/tech_server_hall.jpg", f"{reg} ACCELERATED COMPUTE • TENSOR CLUSTERS"),
-                ("aibrief/assets/editorial/tech_quantum_lab.jpg", f"{reg} MICROELECTRONICS R&D • PACKAGING FLOOR")
+                ("aibrief/backgrounds/ai_chips.jpg", f"{reg} SILICON DIE • FABRICATION CLEANROOM"),
+                ("aibrief/backgrounds/cloud_infrastructure.jpg", f"{reg} ACCELERATED COMPUTE • TENSOR CLUSTERS"),
+                ("aibrief/assets/story4_quantum_qpu.jpg", f"{reg} MICROELECTRONICS R&D • PACKAGING FLOOR")
             ]
         elif any(k in s_text for k in ["defense", "military", "missile", "nato", "warhead", "cyber", "security", "threat", "targeting", "drone"]):
             domain_cuts = [
-                ("aibrief/assets/editorial/tech_cyber_command.jpg", f"{reg} DEFENSE OPERATIONS • AUTONOMOUS TARGETING"),
-                ("aibrief/assets/editorial/tech_data_telemetry.jpg", f"{reg} SATELLITE TELEMETRY • AIR-DEFENSE RADAR"),
-                ("aibrief/backgrounds/ai_security.jpg", f"{reg} CYBER THREAT OPERATIONS • RED-TEAM DESK")
+                ("aibrief/assets/story2_cyber_defense.jpg", f"{reg} DEFENSE OPERATIONS • AUTONOMOUS TARGETING"),
+                ("aibrief/backgrounds/ai_security.jpg", f"{reg} CYBER THREAT OPERATIONS • RED-TEAM DESK"),
+                ("aibrief/backgrounds/geopolitics.jpg", f"{reg} STRATEGIC THREAT INTELLIGENCE • NETWORK MONITOR")
             ]
         elif any(k in s_text for k in ["datacenter", "datacentre", "cloud", "bedrock", "inference", "power", "grid", "capacity"]):
             domain_cuts = [
-                ("aibrief/assets/editorial/tech_server_hall.jpg", f"{reg} HYPERSCALE DATACENTER • COMPUTE BACKBONE"),
-                ("aibrief/backgrounds/cloud_infrastructure.jpg", f"{reg} HIGH-DENSITY RACKS • THERMAL MANAGEMENT"),
-                ("aibrief/assets/editorial/tech_data_telemetry.jpg", f"{reg} ENTERPRISE CLOUD TELEMETRY • RUNTIME")
+                ("aibrief/backgrounds/cloud_infrastructure.jpg", f"{reg} HYPERSCALE DATACENTER • COMPUTE BACKBONE"),
+                ("aibrief/assets/story6_datacenter_servers.jpg", f"{reg} HIGH-DENSITY RACKS • THERMAL MANAGEMENT"),
+                ("aibrief/assets/story6_network_grid.jpg", f"{reg} ENTERPRISE CLOUD TELEMETRY • RUNTIME")
             ]
         elif any(k in s_text for k in ["agent", "model", "deepseek", "vista", "arc-agi", "benchmark", "research", "mit", "aleph alpha"]):
             domain_cuts = [
-                ("aibrief/assets/editorial/tech_quantum_lab.jpg", f"{reg} FRONTIER AI RESEARCH • NEURAL HARNESS"),
-                ("aibrief/assets/editorial/tech_code_screen.jpg", f"{reg} AUTONOMOUS AGENT RUNTIME • EVALUATION HUD"),
-                ("aibrief/assets/editorial/tech_data_telemetry.jpg", f"{reg} BENCHMARK VERIFICATION • SYSTEM TELEMETRY")
+                ("aibrief/assets/story1_code_agents.jpg", f"{reg} FRONTIER AI RESEARCH • NEURAL HARNESS"),
+                ("aibrief/backgrounds/ai_standards.jpg", f"{reg} AUTONOMOUS AGENT RUNTIME • EVALUATION HUD"),
+                ("aibrief/assets/story3_neural_network.jpg", f"{reg} BENCHMARK VERIFICATION • SYSTEM TELEMETRY")
             ]
         elif any(k in s_text for k in ["glasses", "wearable", "privacy", "ban", "kill switch", "whistleblower", "hearing", "council"]):
             domain_cuts = [
-                ("aibrief/assets/editorial/gov_canberra_parliament.jpg", f"{reg} MUNICIPAL GOVERNANCE • REGULATORY REVIEW"),
+                ("aibrief/backgrounds/global_policy.jpg", f"{reg} MUNICIPAL GOVERNANCE • REGULATORY REVIEW"),
                 ("aibrief/assets/editorial/fin_tokyo_district.jpg", f"{reg} CIVIC ENGAGEMENT • STATUTORY SAFEGUARDS"),
                 ("aibrief/backgrounds/ai_standards.jpg", f"{reg} STANDARDS VERIFICATION • ETHICS AUDIT")
             ]
         else:
             domain_cuts = [
                 ("aibrief/assets/editorial/fin_tokyo_district.jpg", f"{reg} METROPOLITAN COMMERCE • CIVIC STRATEGY"),
-                ("aibrief/assets/editorial/tech_server_hall.jpg", f"{reg} SOVEREIGN INFRASTRUCTURE • DIGITAL FABRIC"),
-                ("aibrief/assets/editorial/tech_data_telemetry.jpg", f"{reg} ENTERPRISE AUTOMATION BENCHMARK")
+                ("aibrief/backgrounds/cloud_infrastructure.jpg", f"{reg} SOVEREIGN INFRASTRUCTURE • DIGITAL FABRIC"),
+                ("aibrief/assets/story6_network_grid.jpg", f"{reg} ENTERPRISE AUTOMATION BENCHMARK")
             ]
 
         # Check for fresh story-specific downloaded assets for this date

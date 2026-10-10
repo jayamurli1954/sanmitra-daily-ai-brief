@@ -49,6 +49,16 @@ BANNED_ASSETS = {
     "tech_neural_globe.jpg", # Earth at night
     "photo-1451187580459-43490279c0fa", # Unsplash Earth at night
     "photo-1450133064473-71024230f91b", # Fashion portrait
+    "photo-1558494949-ef010cbdcc31", # Server rack wires mislabeled as radar/defense
+    "photo-1507413245164-6160d8298b31", # Glowing plasma ball
+    "photo-1579829366248-204fe8413f31", # DJI Mavic Mini toy drone
+    "photo-1524492412937-b28074a5d7da", # Taj Mahal
+    "carlsberg",
+    "tuborg",
+    "gilbert_stuart",
+    "naoki_urasawa",
+    "hermione",
+    "mitscher",
     "un_declaration.png",
     "us_china_talks.png",
     "ulun_danu",
@@ -361,6 +371,9 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
             backup_pool = DOMAIN_POOLS.get(pool_category, DOMAIN_POOLS["policy"])
             for b_url, b_badge in backup_pool:
                 if b_url in used_fallback_urls:
+                    continue
+                clean_b = b_url.lower()
+                if any(b in clean_b for b in BANNED_ASSETS):
                     continue
                 try:
                     time.sleep(0.2)

@@ -71,7 +71,7 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
           panDirection: "panRight",
         },
         {
-          image: "aibrief/assets/editorial/tech_silicon_wafer.jpg",
+          image: "aibrief/backgrounds/ai_chips.jpg",
           badge: "NEURAL ACCELERATOR FABRICATION • ENTERPRISE SCALE",
           panDirection: "zoomOut",
         },
@@ -81,7 +81,7 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
           panDirection: "panLeft",
         },
         {
-          image: "aibrief/assets/editorial/tech_data_telemetry.jpg",
+          image: "aibrief/assets/story6_network_grid.jpg",
           badge: "ENTERPRISE AUTOMATION BENCHMARK • 2026",
           panDirection: "zoomIn",
         },
@@ -149,7 +149,7 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
           panDirection: "panRight",
         },
         {
-          image: "aibrief/assets/editorial/tech_server_hall.jpg",
+          image: "aibrief/backgrounds/cloud_infrastructure.jpg",
           badge: "AI HYPERCOMPUTER TPU FABRIC • CLOUD SCALE",
           panDirection: "panLeft",
         },
@@ -212,7 +212,7 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
           panDirection: "panRight",
         },
         {
-          image: "aibrief/assets/editorial/tech_code_screen.jpg",
+          image: "aibrief/backgrounds/global_policy.jpg",
           badge: "MANDATORY REPORTING PROTOCOLS • 2026 STANDARDS",
           panDirection: "zoomIn",
         },
@@ -226,7 +226,7 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
           panDirection: "zoomIn",
         },
         {
-          image: "aibrief/assets/editorial/tech_quantum_lab.jpg",
+          image: "aibrief/assets/story6_network_grid.jpg",
           badge: "MINISTRY OF ELECTRONICS & IT • NEW DELHI",
           panDirection: "zoomOut",
         },
@@ -339,7 +339,7 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
           panDirection: "zoomIn",
         });
         dynamicCuts.push({
-          image: "aibrief/assets/editorial/tech_robotics_factory.jpg",
+          image: "aibrief/assets/story4_quantum_qpu.jpg",
           badge: "AUTONOMOUS ASSEMBLY CORRIDOR • FACTORY TELEMETRY",
           panDirection: "panRight",
         });
@@ -353,12 +353,12 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
       // 3. Chips / Silicon / Hardware
       if (text.includes("chip") || text.includes("gpu") || text.includes("semiconductor") || text.includes("silicon") || text.includes("hardware") || text.includes("tsmc")) {
         dynamicCuts.push({
-          image: "aibrief/assets/editorial/tech_silicon_wafer.jpg",
+          image: "aibrief/backgrounds/ai_chips.jpg",
           badge: "NEURAL ACCELERATOR WAFER • ADVANCED PACKAGING",
           panDirection: "zoomOut",
         });
         dynamicCuts.push({
-          image: "aibrief/backgrounds/ai_chips.jpg",
+          image: "aibrief/backgrounds/cloud_infrastructure.jpg",
           badge: "TENSOR CORE HARDWARE TELEMETRY",
           panDirection: "panLeft",
         });
@@ -392,7 +392,7 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
       // 5. India / Asia
       if (text.includes("india") || text.includes("indiaai") || text.includes("delhi") || text.includes("meity") || text.includes("hyderabad")) {
         dynamicCuts.push({
-          image: "aibrief/assets/editorial/tech_quantum_lab.jpg",
+          image: "aibrief/assets/story6_network_grid.jpg",
           badge: "MINISTRY OF ELECTRONICS & IT • NEW DELHI",
           panDirection: "zoomOut",
         });
@@ -406,7 +406,7 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
       // 6. Cyber / Security / Threat Intelligence
       if (text.includes("cyber") || text.includes("security") || text.includes("breach") || text.includes("defense") || text.includes("hack") || text.includes("vulnerability")) {
         dynamicCuts.push({
-          image: "aibrief/assets/editorial/tech_cyber_command.jpg",
+          image: "aibrief/assets/story2_cyber_defense.jpg",
           badge: "CYBER THREAT OPERATIONS • LIVE DEFENSE FEED",
           panDirection: "zoomIn",
         });
@@ -420,22 +420,22 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
       // 7. General Lab / Compute / Code / Telemetry fallback cuts to ensure minimum 5 distinct cuts
       const generalPool: VisualCut[] = [
         {
-          image: "aibrief/assets/editorial/tech_server_hall.jpg",
+          image: "aibrief/assets/story6_datacenter_servers.jpg",
           badge: "HYPERSCALE COMPUTE CORRIDOR • CLOUD REGION",
           panDirection: "zoomIn",
         },
         {
-          image: "aibrief/assets/editorial/tech_code_screen.jpg",
+          image: "aibrief/assets/story1_code_agents.jpg",
           badge: "AUTONOMOUS SYSTEM TELEMETRY & RUNTIME",
           panDirection: "panRight",
         },
         {
-          image: "aibrief/assets/editorial/tech_quantum_lab.jpg",
+          image: "aibrief/assets/story4_quantum_qpu.jpg",
           badge: "RESEARCH LABORATORY • INSTRUMENT FLOOR",
           panDirection: "zoomOut",
         },
         {
-          image: "aibrief/assets/editorial/tech_data_telemetry.jpg",
+          image: "aibrief/assets/story6_network_grid.jpg",
           badge: "ENTERPRISE AUTOMATION BENCHMARK • 2026",
           panDirection: "panLeft",
         },

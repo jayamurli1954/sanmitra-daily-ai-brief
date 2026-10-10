@@ -37,6 +37,16 @@ BANNED_ASSET_KEYWORDS = {
     "tech_neural_globe.jpg", # Earth at night
     "photo-1451187580459-43490279c0fa",  # Unsplash Earth at night
     "photo-1450133064473-71024230f91b",  # Fashion portrait young man
+    "photo-1558494949-ef010cbdcc31",  # Server rack wires mislabeled as radar/defense
+    "photo-1507413245164-6160d8298b31",  # Glowing plasma ball mislabeled as neural benchmarking
+    "photo-1579829366248-204fe8413f31",  # DJI Mavic Mini toy drone mislabeled as air defense
+    "photo-1524492412937-b28074a5d7da",  # Taj Mahal mislabeled as tech hub
+    "carlsberg",  # Danish beer signs
+    "tuborg",
+    "gilbert_stuart",  # 18th century George Washington painting
+    "naoki_urasawa",   # Manga artist
+    "hermione",        # Tall sailing frigate
+    "mitscher",
     "us_china_talks.png",
     "robot_face",
     "glowing_android",
