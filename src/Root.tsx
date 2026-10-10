@@ -41,6 +41,14 @@ import {
   OM_VERTICAL_WIDTH,
   OM_WIDTH,
 } from "./officemitra/types";
+import { BhajanVideo } from "../Bhajans/src/BhajanVideo";
+import { KrishnaBhajan13MinVideo } from "../Bhajans/src/KrishnaBhajan13MinVideo";
+import { GanapathiShlokaVideo } from "../Bhajans/src/GanapathiShlokaVideo";
+import { GaneshBhajanVideo } from "../Bhajans/src/GaneshBhajanVideo";
+import { BHAJAN_TOTAL_FRAMES } from "../Bhajans/src/Root";
+import { KRISHNA_BHAJAN_TOTAL_FRAMES } from "../Bhajans/src/data/krishnaBhajanData";
+import { GANAPATHI_TOTAL_FRAMES } from "../Bhajans/src/data/ganapathiData";
+import { GANESH_BHAJAN_TOTAL_FRAMES } from "../Bhajans/src/data/ganeshBhajanData";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -210,6 +218,46 @@ export const RemotionRoot: React.FC = () => {
         id="AIBriefLinkedInCover"
         component={LinkedInCoverBanner}
         durationInFrames={30}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* --- Devotional Bhajan Video Compilation (Kannada & Hindi Classics, 14.5 mins) --- */}
+      <Composition
+        id="BhajanCompilation16x9"
+        component={BhajanVideo}
+        durationInFrames={BHAJAN_TOTAL_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* --- Dedicated 13-Minute Full Krishna Bhajan (॥ श्रीकृष्ण भजन ॥) --- */}
+      <Composition
+        id="KrishnaBhajan13Min"
+        component={KrishnaBhajan13MinVideo}
+        durationInFrames={KRISHNA_BHAJAN_TOTAL_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* --- Auspicious Maiden Channel Video: Ganapathi Shloka (॥ श्री गणेश स्तोत्रम् ॥) --- */}
+      <Composition
+        id="GanapathiShloka"
+        component={GanapathiShlokaVideo}
+        durationInFrames={GANAPATHI_TOTAL_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* --- Full 6.5-Minute Hindi Ganesh Bhajan: हे गणनायक, आओ मेरे द्वार --- */}
+      <Composition
+        id="GaneshBhajan6Min"
+        component={GaneshBhajanVideo}
+        durationInFrames={GANESH_BHAJAN_TOTAL_FRAMES}
         fps={30}
         width={1920}
         height={1080}
