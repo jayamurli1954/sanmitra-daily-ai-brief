@@ -1,9 +1,9 @@
-name: Daily SanMitra AI News Wire Production
+name: Daily Autonomous SanMitra AI News Wire
 
 on:
   schedule:
-    # 02:00 UTC is 07:30 AM IST
-    - cron: '00 02 * * *'
+    # 00:00 UTC is 05:30 AM IST (Runs early so video & LinkedIn dispatches are ready by 6:15 AM)
+    - cron: '00 00 * * *'
   workflow_dispatch:
     inputs:
       privacy:
@@ -18,9 +18,9 @@ on:
 
 jobs:
   produce-and-publish:
-    name: 07:30 AM Autonomous Broadcast Pipeline
+    name: Autonomous Multi-Agent Broadcast Pipeline
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Checkout Codebase
@@ -70,11 +70,12 @@ jobs:
             echo "[+] Restored client_secret.json from GitHub Secrets"
           fi
 
-      - name: Run 24h Intelligence Scrape & Broadcast Production
+      - name: Run Autonomous Multi-Agent Broadcast Production & YouTube Upload
         env:
           PRIVACY_SETTING: ${{ github.event.inputs.privacy || 'private' }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
         run: |
-          python daily_brief_runner.py --privacy "$PRIVACY_SETTING"
+          python run_autonomous_brief.py --privacy "$PRIVACY_SETTING"
 
       - name: Sync Broadcast & Dispatches to Google Drive
         env:
