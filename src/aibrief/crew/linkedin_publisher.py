@@ -51,9 +51,12 @@ class LinkedInPublisher:
                 flag_map = {"WORLD": "🌍", "USA": "🇺🇸", "CHINA": "🇨🇳", "ASIA": "🌏", "INDIA": "🇮🇳"}
                 lines.append(f"{flag_map.get(reg, '🌐')} {reg} BUREAU:")
                 for s in bureaus[reg]:
+                    label = " (company announcement)" if s.get("sourceType") == "company" else ""
                     lines.append(f"• {s['headline']}")
-                    lines.append(f"  Source: {s.get('source', 'Verified Reports')}")
-                    lines.append(f"  Context: {s.get('whyThisMatters', '')}\n")
+                    lines.append(f"  Source: {s.get('source', '')}{label} {s.get('sourceUrl', '')}".rstrip())
+                    if s.get("whyThisMatters"):
+                        lines.append(f"  Context: {s['whyThisMatters']}")
+                    lines.append("")
 
         # Strategic Analysis for Leaders
         lines.append("💡 STRATEGIC TAKEAWAY FOR LEADERSHIP:")

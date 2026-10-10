@@ -20,6 +20,8 @@ import re
 import sys
 
 from validate_episode_sources import is_proper_article_url
+from src.aibrief.crew.text_utils import same_event, split_sentences
+from src.aibrief.source_authority import is_company_source
 
 if sys.stdout.encoding != 'utf-8':
     try:
@@ -138,7 +140,9 @@ def deduplicate_stories(raw_stories: list) -> list:
             "raises", "plans", "announces", "first", "into", "with", "from", "their", "about"
         }
         
-        is_duplicate = False
+        # Same event under different wording ("Firmus pulls ASX float" /
+        # "Firmus withdraws historic IPO") is caught by same_event().
+        is_duplicate = any(same_event(story["headline"], kept["headline"]) for kept in unique_stories)
         for seen in seen_signatures:
             # Overlap threshold
             intersection = words & seen
@@ -502,7 +506,9 @@ def parse_markdown_prompt(md_text: str) -> dict:
             "sourceUrl": s.get("source_url") or "",
             "researchDesk": s.get("research_desk") or "",
             "script": script,
-            "whyThisMatters": f"Critical development shaping {reg} artificial intelligence policy and sovereign compute.",
+            # The story's own first sentence, not a line shared by every story.
+            "whyThisMatters": next(iter(split_sentences(body)), "")[:220],
+            "sourceType": "company" if is_company_source(s.get("source_url") or "") else "reporting",
             "keyPoints": [head[:80], srcs[0] if srcs else ""],
             "visualCuts": visual_cuts
         })

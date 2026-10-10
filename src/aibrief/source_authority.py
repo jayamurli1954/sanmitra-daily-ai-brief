@@ -23,6 +23,7 @@ from urllib.parse import urlparse
 DOMAIN_AUTHORITY_MAP = {
     # Tier 1: Global Wires & Premier Financial (96 - 100)
     "reuters.com": (100, 1, "Reuters"),
+    "reutersagency.com": (100, 1, "Reuters"),
     "bloomberg.com": (98, 1, "Bloomberg"),
     "ft.com": (96, 1, "Financial Times"),
     "apnews.com": (96, 1, "Associated Press"),
@@ -37,10 +38,16 @@ DOMAIN_AUTHORITY_MAP = {
     "theverge.com": (86, 2, "The Verge"),
     "wired.com": (86, 2, "Wired"),
     "forbes.com": (82, 2, "Forbes Tech"),
+    "theguardian.com": (90, 2, "The Guardian"),
+    "bbc.com": (92, 2, "BBC"),
+    "bbc.co.uk": (92, 2, "BBC"),
+    "npr.org": (88, 2, "NPR"),
+    "aljazeera.com": (84, 2, "Al Jazeera"),
 
     # Tier 3: Primary Frontier Labs & Institutional Gazettes (80 - 85)
     "openai.com": (85, 3, "OpenAI Newsroom"),
     "anthropic.com": (85, 3, "Anthropic Research"),
+    "blog.google": (84, 3, "Google"),
     "deepmind.google": (85, 3, "Google DeepMind"),
     "blogs.microsoft.com": (84, 3, "Microsoft Blog"),
     "nvidianews.nvidia.com": (84, 3, "Nvidia Newsroom"),
@@ -48,6 +55,7 @@ DOMAIN_AUTHORITY_MAP = {
     "pib.gov.in": (85, 3, "Press Information Bureau India"),
     "whitehouse.gov": (85, 3, "The White House"),
     "un.org": (85, 3, "United Nations"),
+    "gov.uk": (85, 3, "GOV.UK"),
     "arxiv.org": (80, 3, "arXiv Pre-print"),
 
     # Tier 4: Credible Regional Business & Tech (60 - 75)
@@ -63,6 +71,11 @@ DOMAIN_AUTHORITY_MAP = {
     "japantimes.co.jp": (75, 4, "The Japan Times"),
     "chosun.com": (68, 4, "ChosunBiz"),
     "military.com": (70, 4, "Military.com"),
+    "defensenews.com": (75, 4, "Defense News"),
+    "securityweek.com": (72, 4, "SecurityWeek"),
+    "inc42.com": (68, 4, "Inc42"),
+    "timesofindia.indiatimes.com": (68, 4, "The Times of India"),
+    "koreatimes.co.kr": (68, 4, "The Korea Times"),
 
     # Tier 5: Low-Verification / Unverified (0 - 40)
     "medium.com": (40, 5, "Medium Blog"),
@@ -154,6 +167,43 @@ def score_source(url_or_name: str) -> Tuple[int, int, str]:
     # Default unrecognized web source — surfaces the real domain/name instead
     # of silently inheriting an unrelated outlet's identity.
     return (65, 4, domain or url_or_name[:30])
+
+
+# A company's own blog or newsroom. Its stories are announcements, not
+# independent reporting, and are labelled that way on screen.
+COMPANY_DOMAINS = {
+    "openai.com",
+    "anthropic.com",
+    "deepmind.google",
+    "blog.google",
+    "blogs.microsoft.com",
+    "nvidianews.nvidia.com",
+}
+
+
+def _domain_of(url: str) -> str:
+    domain = urlparse(url or "").netloc.lower()
+    return domain[4:] if domain.startswith("www.") else domain
+
+
+def is_company_source(url: str) -> bool:
+    domain = _domain_of(url)
+    return bool(domain) and any(_domain_matches(domain, d) for d in COMPANY_DOMAINS)
+
+
+def is_recognised_source(url: str) -> bool:
+    """True only for a domain in the authority map above Tier 5.
+
+    score_source() gives unknown domains a neutral 65, which is right for
+    ranking but wrong for publishing: an unknown blog is not a citation.
+    """
+    domain = _domain_of(url)
+    if not domain:
+        return False
+    for known_dom, (_score, tier, _name) in DOMAIN_AUTHORITY_MAP.items():
+        if _domain_matches(domain, known_dom):
+            return tier <= 4
+    return False
 
 
 def calculate_source_modifier(source_score: int) -> float:

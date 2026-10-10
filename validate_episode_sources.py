@@ -24,6 +24,8 @@ import re
 import sys
 from urllib.parse import urlparse
 
+from src.aibrief.crew.text_utils import extract_numbers, same_event
+
 if hasattr(sys.stdout, "reconfigure"):
     try:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -119,6 +121,30 @@ def source_appears_in_prompt(source_name: str, prompt_text: str) -> bool:
     return False
 
 
+def story_block(prompt_text: str, source_url: str) -> str:
+    """The '### headline' block of the prompt that cites this story's URL."""
+    if not source_url:
+        return ""
+    for block in re.split(r"(?:^|\n)###\s+", prompt_text):
+        if source_url in block:
+            return block
+    return ""
+
+
+def unsupported_figures(script: str, evidence: str) -> list:
+    """Figures spoken in the script that the approved research never states."""
+    return sorted(extract_numbers(script) - extract_numbers(evidence))
+
+
+def duplicate_events(stories: list) -> list:
+    pairs = []
+    for i, a in enumerate(stories):
+        for j in range(i + 1, len(stories)):
+            if same_event(a.get("headline", ""), stories[j].get("headline", "")):
+                pairs.append((i + 1, j + 1))
+    return pairs
+
+
 # Claims that were painted on the cold open for every episode, with no
 # connection to that day's approved brief. The intro must take its headline
 # and outlet from the lead story instead.
@@ -169,6 +195,15 @@ def validate(date_str: str) -> bool:
             print(f"    - {problem}")
         print()
 
+    duplicates = duplicate_events(stories)
+    if duplicates:
+        all_ok = False
+        print("[FAIL] The same event appears more than once:")
+        for a, b in duplicates:
+            print(f"    - Story {a} and Story {b}: "
+                  f"{stories[a - 1].get('headline', '')[:60]!r} / {stories[b - 1].get('headline', '')[:60]!r}")
+        print()
+
     print(f"Validating {len(stories)} stories for {date_str} against {date_str}.md\n")
 
     for idx, story in enumerate(stories, 1):
@@ -190,6 +225,15 @@ def validate(date_str: str) -> bool:
         if not source_appears_in_prompt(source, prompt_text):
             problems.append(
                 f"source '{source}' does not appear anywhere in prompts/{date_str}.md"
+            )
+
+        block = story_block(prompt_text, source_url)
+        if source_url and not block:
+            problems.append("sourceUrl is not cited in any story block of the prompt")
+        figures = unsupported_figures(story.get("script", ""), block or prompt_text)
+        if figures:
+            problems.append(
+                f"script states figures not in the prompt's research for this story: {', '.join(figures)}"
             )
 
         status = "OK" if not problems else "FAIL"
