@@ -74,6 +74,13 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
         print("[X] Voiceover synthesis failed!")
         sys.exit(1)
 
+    # 4b. Length check: under 10 minutes the episode looks like a Short.
+    with open(os.path.join("src", "aibrief", "data", "timings.json"), "r", encoding="utf-8") as f:
+        total_frames = sum(v.get("durationInFrames", 0) for v in json.load(f).values())
+    if total_frames < 10 * 60 * 30:
+        print(f"[X] Episode runs {total_frames / 30 / 60:.1f} minutes; at least 10 are required. Not rendering.")
+        sys.exit(1)
+
     # 5. Timed SRT Subtitles & Remotion Captions
     if not run_step("python generate_subtitles.py", "Generating Timed Subtitles & Word Timestamps"):
         print("[X] Subtitle generation failed. Not publishing a video without captions.")
@@ -143,6 +150,9 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
         )
         if ok_yt:
             print("🎉 Video successfully uploaded to YouTube!")
+            # Only aired stories count against the 7-day repeat window.
+            from src.aibrief.crew.crew_orchestrator import record_aired_stories
+            record_aired_stories(date_str)
         else:
             # Reported as a failed run (red in GitHub Actions, with an email),
             # after the Drive backup below has had its chance to run.

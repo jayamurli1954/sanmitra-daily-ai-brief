@@ -74,6 +74,10 @@ DOMAIN_AUTHORITY_MAP = {
     "defensenews.com": (75, 4, "Defense News"),
     "securityweek.com": (72, 4, "SecurityWeek"),
     "inc42.com": (68, 4, "Inc42"),
+    "theregister.com": (78, 4, "The Register"),
+    "business-standard.com": (72, 4, "Business Standard"),
+    "livemint.com": (72, 4, "Mint"),
+    "thehindubusinessline.com": (72, 4, "The Hindu BusinessLine"),
     "timesofindia.indiatimes.com": (68, 4, "The Times of India"),
     "koreatimes.co.kr": (68, 4, "The Korea Times"),
 

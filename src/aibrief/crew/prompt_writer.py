@@ -15,19 +15,8 @@ logger = logging.getLogger("PromptWriter")
 BUREAUS = ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]
 
 
-def render_prompt(stories, target_date):
-    date_display = datetime.strptime(target_date, "%Y-%m-%d").strftime("%A, %d %B %Y")
-    lines = [
-        "# SanMitra AI News Wire",
-        "",
-        f"## Daily AI Brief — {date_display} (IST)",
-        "",
-        "Auto-drafted by the crew from extracted article text. Every headline figure and name "
-        "was checked against the linked article. Only items with a named outlet are included.",
-        "",
-        "---",
-        "",
-    ]
+def render_story_sections(stories):
+    lines = []
     for bureau in BUREAUS:
         in_bureau = [s for s in stories if s.get("region") == bureau]
         if not in_bureau:
@@ -41,7 +30,30 @@ def render_prompt(stories, target_date):
                 lines.append(f"Also: {extra['source']} {extra['url']}")
             lines += ["", s["summary"], ""]
         lines += ["---", ""]
-    return "\n".join(lines)
+    return lines
+
+
+def append_stories(path, stories):
+    """Top up an existing prompt that has too few stories. Existing text is kept as-is."""
+    with open(path, "a", encoding="utf-8") as f:
+        f.write("\n\n---\n\n" + "\n".join(render_story_sections(stories)))
+    logger.info(f"Topped up {path} with {len(stories)} crew-verified stories")
+
+
+def render_prompt(stories, target_date):
+    date_display = datetime.strptime(target_date, "%Y-%m-%d").strftime("%A, %d %B %Y")
+    lines = [
+        "# SanMitra AI News Wire",
+        "",
+        f"## Daily AI Brief — {date_display} (IST)",
+        "",
+        "Auto-drafted by the crew from extracted article text. Every headline figure and name "
+        "was checked against the linked article. Only items with a named outlet are included.",
+        "",
+        "---",
+        "",
+    ]
+    return "\n".join(lines + render_story_sections(stories))
 
 
 def write_prompt(stories, target_date, prompts_dir="prompts"):

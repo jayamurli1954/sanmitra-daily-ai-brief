@@ -213,10 +213,16 @@ def same_event(title_a, title_b):
     if not shared_subjects:
         return False
 
-    for cluster in _STEMMED_CLUSTERS:
-        if stems_a & cluster and stems_b & cluster:
-            return True
-    return len(shared - shared_subjects) >= 2
+    # One shared action is not enough: "Google launches Gemini" and "Google
+    # launches AI search" are different launches. It takes two shared actions
+    # (pull + IPO), or an action plus another shared detail, or two details.
+    shared_actions = sum(1 for cluster in _STEMMED_CLUSTERS if stems_a & cluster and stems_b & cluster)
+    details = shared - shared_subjects - action_stems
+    if shared_actions >= 2:
+        return True
+    if shared_actions == 1:
+        return len(details) >= 1
+    return len(details) >= 2
 
 
 # ---------------------------------------------------------------------------
@@ -231,6 +237,63 @@ def extract_numbers(text):
     """Digit-bearing figures in text: 50, 1.5, 2026, 29,000 -> {'50', '1.5', '2026', '29000'}."""
     # A digit glued to letters before it is part of a name (a16z, H100), not a figure.
     return {_normalise_number(m) for m in re.findall(r"(?<![A-Za-z0-9.,])\d[\d,]*(?:\.\d+)?", text or "")}
+
+
+_UNIT_WORDS = {
+    "%": "percent", "percent": "percent", "per cent": "percent", "percentage": "percent",
+    "thousand": "thousand", "k": "thousand",
+    "million": "million", "mn": "million", "m": "million",
+    "billion": "billion", "bn": "billion", "b": "billion",
+    "trillion": "trillion", "tn": "trillion", "t": "trillion",
+    "crore": "crore", "lakh": "lakh",
+}
+
+_QUANTITY = re.compile(
+    r"(?<![A-Za-z0-9.,])(\d[\d,]*(?:\.\d+)?)"
+    r"(?:\s*(%|per\s?cent|percent(?:age)?|thousand|million|billion|trillion|crore|lakh)(?![A-Za-z])"
+    r"|(bn|mn|tn|[kmbt])(?![A-Za-z]))?",
+    re.IGNORECASE,
+)
+
+
+def extract_quantities(text):
+    """Figures with their magnitude: '$50 billion' and '$50bn' -> ('50', 'billion');
+    '40%' and '40 percent' -> ('40', 'percent'); a bare 2026 -> ('2026', '')."""
+    found = set()
+    for match in _QUANTITY.finditer(text or ""):
+        unit = (match.group(2) or match.group(3) or "").lower()
+        unit = re.sub(r"\s+", " ", unit)
+        found.add((_normalise_number(match.group(1)), _UNIT_WORDS.get(unit, unit)))
+    return found
+
+
+def unsupported_quantities(claim_text, evidence_text):
+    """Figures in the claim the evidence does not state with the same magnitude.
+
+    "$50 billion" is not supported by "$50 million". A bare figure in the claim
+    only needs the same number somewhere in the evidence.
+    """
+    evidence = extract_quantities(evidence_text)
+    evidence_numbers = {n for n, _u in evidence}
+    missing = []
+    for number, unit in sorted(extract_quantities(claim_text)):
+        if unit:
+            if (number, unit) not in evidence:
+                missing.append(f"{number} {unit}")
+        elif number not in evidence_numbers:
+            missing.append(number)
+    return missing
+
+
+# Companies and labs are checked wherever they appear in a headline, including
+# as its first word ("Microsoft cuts error rates..."), which the general name
+# heuristic below has to skip.
+KNOWN_COMPANIES = [
+    "openai", "anthropic", "google", "alphabet", "deepmind", "microsoft", "meta", "amazon", "apple",
+    "nvidia", "amd", "intel", "tsmc", "samsung", "sk hynix", "ibm", "oracle", "salesforce", "tesla",
+    "spacex", "xai", "mistral", "cohere", "perplexity", "hugging face", "deepseek", "alibaba",
+    "tencent", "baidu", "bytedance", "huawei", "infosys", "tcs", "wipro", "reliance", "softbank",
+]
 
 
 def _proper_noun_tokens(text):
@@ -267,12 +330,10 @@ def ungrounded_claims(claim_text, evidence_text):
     spoken, it has to be in the article the story is attributed to.
     """
     evidence_lower = (evidence_text or "").lower()
-    evidence_numbers = extract_numbers(evidence_text)
-    missing = []
-    for number in sorted(extract_numbers(claim_text)):
-        if number not in evidence_numbers:
-            missing.append(number)
-    for name in sorted(_proper_noun_tokens(claim_text)):
-        if not re.search(r"(?<![a-z0-9])" + re.escape(name.lower()) + r"(?![a-z0-9])", evidence_lower):
+    missing = unsupported_quantities(claim_text, evidence_text)
+    names = {n.lower() for n in _proper_noun_tokens(claim_text)}
+    names.update(c for c in KNOWN_COMPANIES if contains_any(claim_text, [c]))
+    for name in sorted(names):
+        if not re.search(r"(?<![a-z0-9])" + re.escape(name) + r"(?![a-z0-9])", evidence_lower):
             missing.append(name)
     return missing

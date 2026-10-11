@@ -391,9 +391,9 @@ def parse_markdown_prompt(md_text: str) -> dict:
     if "INDIA" in by_region and by_region["INDIA"]:
         selected_stories.append(by_region["INDIA"].pop(0))
     
-    # Fill remaining slots from the brief. Keep every sourced story up to 18.
+    # Fill remaining slots from the brief, up to 15 stories (12-15 make a 10+ minute episode).
     for reg in ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]:
-        while len(selected_stories) < 18 and reg in by_region and by_region[reg]:
+        while len(selected_stories) < 15 and reg in by_region and by_region[reg]:
             selected_stories.append(by_region[reg].pop(0))
 
     # Load visual memory if present

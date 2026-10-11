@@ -21,7 +21,8 @@ from src.aibrief.crew.prompt_writer import render_prompt
 from src.aibrief.crew.text_utils import (
     clean_feed_text, extractive_summary, is_recent, same_event, ungrounded_claims,
 )
-from validate_episode_sources import duplicate_events, source_appears_in_prompt, unsupported_figures
+from src.aibrief.crew.prompt_writer import append_stories
+from validate_episode_sources import duplicate_events, research_text, source_appears_in_prompt, unsupported_figures
 
 DATE = "2026-10-10"
 FRESH = "2026-10-09T14:00:00+00:00"   # inside the window before 06:00 IST on DATE
@@ -115,6 +116,7 @@ class SameEventTests(unittest.TestCase):
 
     def test_different_events_are_kept(self):
         self.assertFalse(same_event("Google launches Gemini 3 for developers", "Meta launches Llama 5 for developers"))
+        self.assertFalse(same_event("Google launches Gemini for developers", "Google launches an AI search feature"))
         self.assertFalse(same_event("OpenAI ships GPT-5.5 with reasoning mode", "OpenAI sued by authors over training data"))
         # Seen in the live run: shared topic words alone are not the same event.
         self.assertFalse(same_event("Amazon drops data center NDAs, and AI agents want your credit card",
@@ -124,7 +126,13 @@ class SameEventTests(unittest.TestCase):
 class GroundingTests(unittest.TestCase):
     def test_numbers_must_be_in_article(self):
         self.assertEqual(ungrounded_claims("OpenAI targets $50 billion revenue", ARTICLE), [])
-        self.assertIn("70", ungrounded_claims("OpenAI targets $70 billion revenue", ARTICLE))
+        self.assertIn("70 billion", ungrounded_claims("OpenAI targets $70 billion revenue", ARTICLE))
+
+    def test_amounts_must_match_magnitude(self):
+        self.assertEqual(ungrounded_claims("OpenAI targets $50bn in revenue", ARTICLE), [])
+        self.assertIn("50 million", ungrounded_claims("OpenAI targets $50 million in revenue", ARTICLE))
+        self.assertIn("40 billion", ungrounded_claims("Error rates cut by 40 billion", ARTICLE))
+        self.assertEqual(ungrounded_claims("Error rates cut by 40%", ARTICLE), [])
 
     def test_entities_and_names_with_digits_are_not_figures(self):
         self.assertEqual(ungrounded_claims(clean_feed_text("&#8216;Pure insanity&#8217; at OpenAI"), ARTICLE), [])
@@ -134,7 +142,11 @@ class GroundingTests(unittest.TestCase):
         self.assertEqual(ungrounded_claims("OpenAI Faces Pressure As Revenue Plan Shifts", ARTICLE), [])
 
     def test_names_must_be_in_article(self):
-        self.assertIn("Microsoft", ungrounded_claims("OpenAI and Microsoft cut error rates", ARTICLE))
+        self.assertIn("microsoft", ungrounded_claims("OpenAI and Microsoft cut error rates", ARTICLE))
+
+    def test_company_names_checked_at_start_and_in_title_case(self):
+        self.assertIn("microsoft", ungrounded_claims("Microsoft cuts error rates on benchmarks", ARTICLE))
+        self.assertIn("microsoft", ungrounded_claims("Microsoft Cuts Error Rates On Benchmarks", ARTICLE))
 
 
 class FactCheckerTests(unittest.TestCase):
@@ -174,7 +186,7 @@ class FactCheckerTests(unittest.TestCase):
             candidate("Google DeepMind opens a new London research lab", stale_url, published=""),
         ]
         fc = FactChecker(target_date=DATE, fetch_article=self.fetcher(articles))
-        selected = fc.assemble_14_stories(candidates)
+        selected = fc.assemble_stories(candidates)
 
         self.assertEqual(len(selected), 1)
         story = selected[0]
@@ -184,6 +196,25 @@ class FactCheckerTests(unittest.TestCase):
         self.assertIn("same event", reasons)
         self.assertIn("70", reasons)
         self.assertIn("broadcast window", reasons)
+
+    def test_alternate_source_used_when_primary_unreadable(self):
+        reuters = "https://www.reuters.com/technology/openai-gpt-5-5-2026-10-09/"
+        verge = "https://www.theverge.com/2026/10/9/openai-gpt-5-5-release"
+        articles = {reuters: {"text": "", "published": ""}, verge: {"text": ARTICLE, "published": FRESH}}
+        fc = FactChecker(target_date=DATE, fetch_article=self.fetcher(articles))
+        selected = fc.assemble_stories([
+            candidate("OpenAI releases GPT-5.5 with a new reasoning mode", reuters),
+            candidate("OpenAI GPT-5.5 release adds reasoning mode for paid users", verge),
+        ])
+        self.assertEqual(len(selected), 1)
+        self.assertEqual(selected[0]["sourceUrl"], verge)
+
+    def test_top_up_skips_events_already_in_the_episode(self):
+        url = "https://techcrunch.com/2026/10/09/openai-gpt-5-5"
+        fc = FactChecker(target_date=DATE, fetch_article=self.fetcher({url: {"text": ARTICLE, "published": FRESH}}))
+        selected = fc.assemble_stories([candidate("OpenAI releases GPT-5.5 with a new reasoning mode", url)],
+                                       exclude_titles=["OpenAI GPT-5.5 release adds reasoning mode for paid users"])
+        self.assertEqual(selected, [])
 
     def test_story_aired_last_week_is_skipped_but_not_todays_rerun(self):
         ledger = FakeLedger([
@@ -226,10 +257,37 @@ class PromptRoundTripTests(unittest.TestCase):
             self.assertNotIn("sovereign compute", s["whyThisMatters"])
 
 
+class TopUpTests(unittest.TestCase):
+    def test_appended_stories_are_built_into_the_episode(self):
+        import tempfile
+        base = [{"title": "Disrupting covert influence operations that misuse ChatGPT", "source": "OpenAI",
+                 "sourceUrl": "https://openai.com/index/disrupting-influence-operations-2026", "region": "WORLD",
+                 "summary": "OpenAI said it removed account networks linked to 3 state influence campaigns.", "also": []}]
+        extra = [{"title": "OpenAI releases GPT-5.5 with a new reasoning mode", "source": "TechCrunch",
+                  "sourceUrl": "https://techcrunch.com/2026/10/09/openai-gpt-5-5", "region": "USA",
+                  "summary": extractive_summary(ARTICLE), "also": []}]
+        with tempfile.TemporaryDirectory() as d:
+            path = os.path.join(d, f"{DATE}.md")
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(render_prompt(base, DATE))
+            append_stories(path, extra)
+            with open(path, encoding="utf-8") as f:
+                episode = parse_markdown_prompt(f.read())
+        self.assertEqual({s["sourceUrl"] for s in episode["stories"]},
+                         {base[0]["sourceUrl"], extra[0]["sourceUrl"]})
+
+
 class GateHelperTests(unittest.TestCase):
     def test_unsupported_figures(self):
         self.assertEqual(unsupported_figures("Revenue of 50 billion dollars", "about $50 billion"), [])
-        self.assertEqual(unsupported_figures("Revenue of 70 billion dollars", "about $50 billion"), ["70"])
+        self.assertEqual(unsupported_figures("Revenue of 70 billion dollars", "about $50 billion"), ["70 billion"])
+        self.assertEqual(unsupported_figures("Revenue of 50 billion dollars", "about $50 million"), ["50 billion"])
+
+    def test_numbers_in_links_are_not_evidence(self):
+        block = ("Ukraine strikes data centres\nSource: Kyiv Post\nhttps://www.kyivpost.com/post/86594\n"
+                 "Also: Reuters https://www.reuters.com/world/2026-10-09/\n\nDrones hit two sites.")
+        self.assertNotIn("86594", research_text(block))
+        self.assertEqual(unsupported_figures("Officials said 86594 drones were used", block), ["86594"])
 
     def test_duplicate_events(self):
         stories = [

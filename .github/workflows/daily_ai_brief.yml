@@ -96,6 +96,9 @@ jobs:
             echo "[*] No memory changes to commit."
           else
             git commit -m "Auto: episode memory for $(TZ=Asia/Kolkata date +%Y-%m-%d) [skip ci]"
+            # The run also rewrites tracked files (active_episode.json, captions.json...)
+            # that are not committed; set them aside so the rebase can run.
+            git stash --quiet || true
             git pull --rebase origin main && git push origin main
           fi
 

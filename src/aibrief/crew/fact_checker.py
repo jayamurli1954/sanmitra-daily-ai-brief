@@ -33,7 +33,8 @@ RUMOUR_MARKERS = [
     "speculation", "could be", "might be",
 ]
 
-FEATURE_MARKERS = ["here are", "here's", "how to", "cartoon", "podcast", "newsletter", "week in review", "quiz"]
+FEATURE_MARKERS = ["here are", "here's", "how to", "cartoon", "podcast", "newsletter", "week in review", "quiz",
+                   "things to know", "what we know", "explained", "explainer"]
 
 OPINION_PATH_MARKERS = ("/opinion", "/commentisfree", "/comment/", "/editorial", "/op-ed", "/column", "/letters/")
 
@@ -61,7 +62,11 @@ HIGH_IMPACT_TERMS = ["supercomputer", "data center", "state council", "directive
                      "lawsuit", "investigation", "export controls", "ipo", "acquisition"]
 
 BUREAU_ORDER = ["WORLD", "USA", "USA", "CHINA", "ASIA", "INDIA", "WORLD", "WORLD", "WORLD", "USA",
-                "CHINA", "CHINA", "ASIA", "INDIA"]
+                "CHINA", "CHINA", "ASIA", "INDIA", "USA"]
+
+# An episode needs 12-15 stories to run 10+ minutes; fewer looks like a Short.
+MIN_EPISODE_STORIES = 12
+MAX_EPISODE_STORIES = 15
 
 MIN_ARTICLE_CHARS = 500
 REPEAT_WINDOW_DAYS = 7
@@ -105,6 +110,7 @@ class FactChecker:
         self.fetch_article = fetch_article
         self.ledger = ledger
         self.rejections = []
+        self.fetches = 0
 
     def _reject(self, story, reason):
         self.rejections.append({"title": story.get("title", ""), "url": story.get("url", ""), "reason": reason})
@@ -128,7 +134,7 @@ class FactChecker:
             return self._reject(story, "opinion or comment piece")
         if len(title) < 15:
             return self._reject(story, "headline too short")
-        if contains_any(title, RUMOUR_MARKERS) or title.endswith("?"):
+        if contains_any(title, RUMOUR_MARKERS) or "?" in title:
             return self._reject(story, "speculative or rumour headline")
         if contains_any(title, FEATURE_MARKERS):
             return self._reject(story, "feature, listicle or explainer rather than news")
@@ -151,6 +157,7 @@ class FactChecker:
             "score": score,
             "published": story.get("published", ""),
             "also": [],
+            "alternates": [],
         }
 
     # -- Stage 2: same-event merging and repeat check ------------------------
@@ -162,9 +169,11 @@ class FactChecker:
             if twin is None:
                 kept.append(story)
                 continue
-            twin["also"].append({"source": story["source"], "url": story["sourceUrl"]})
+            # Kept whole, not just as a link: if the stronger outlet's article
+            # cannot be read or verified, this one is tried instead.
+            twin["alternates"].append(story)
             self._reject({"title": story["title"], "url": story["sourceUrl"]},
-                         f"same event as '{twin['title'][:60]}' (kept as a second source)")
+                         f"same event as '{twin['title'][:60]}' (kept as an alternate source)")
         return kept
 
     def recent_headlines(self):
@@ -187,7 +196,19 @@ class FactChecker:
 
     # -- Stage 3: evidence --------------------------------------------------
 
+    def verify_event(self, story):
+        """Verify the strongest source for an event, falling back to its alternates."""
+        candidates = [story] + story.get("alternates", [])
+        for i, candidate in enumerate(candidates):
+            verified = self.verify_against_article(candidate)
+            if verified:
+                verified["also"] = [{"source": c["source"], "url": c["sourceUrl"]} for c in candidates[i + 1:]]
+                verified.pop("alternates", None)
+                return verified
+        return None
+
     def verify_against_article(self, story):
+        self.fetches += 1
         if self.fetch_article is None:
             return self._reject({"title": story["title"], "url": story["sourceUrl"]}, "no article fetcher configured")
         article = self.fetch_article(story["sourceUrl"]) or {}
@@ -216,11 +237,16 @@ class FactChecker:
 
     # -- Assembly -----------------------------------------------------------
 
-    def assemble_14_stories(self, candidate_stories, max_stories=14, max_fetches=40):
+    def assemble_stories(self, candidate_stories, max_stories=MAX_EPISODE_STORIES, max_fetches=80, exclude_titles=()):
+        """Screen, merge, de-repeat and verify candidates into up to max_stories bureau slots.
+
+        exclude_titles: headlines already in the episode (topping up a thin
+        prompt); candidates about the same events are skipped.
+        """
         screened = [s for s in (self.screen(c) for c in candidate_stories) if s]
         merged = self.merge_same_events(screened)
 
-        recent = self.recent_headlines()
+        recent = self.recent_headlines() + [(t, "this episode") for t in exclude_titles]
         fresh = []
         for story in merged:
             reason = self.is_repeat(story["title"], recent)
@@ -233,13 +259,11 @@ class FactChecker:
         for story in fresh:
             buckets.setdefault(story["region"], []).append(story)
 
-        selected, fetches = [], 0
+        selected = []
 
         def take_from(region):
-            nonlocal fetches
-            while buckets.get(region) and fetches < max_fetches:
-                fetches += 1
-                verified = self.verify_against_article(buckets[region].pop(0))
+            while buckets.get(region) and self.fetches < max_fetches:
+                verified = self.verify_event(buckets[region].pop(0))
                 if verified:
                     return verified
             return None
@@ -254,16 +278,15 @@ class FactChecker:
         # Fill any short bureau from the strongest remaining candidates.
         leftovers = sorted((s for b in buckets.values() for s in b), key=lambda s: s["score"], reverse=True)
         for story in leftovers:
-            if len(selected) >= max_stories or fetches >= max_fetches:
+            if len(selected) >= max_stories or self.fetches >= max_fetches:
                 break
-            fetches += 1
-            verified = self.verify_against_article(story)
+            verified = self.verify_event(story)
             if verified:
                 selected.append(verified)
 
         logger.info(
             f"Fact-check complete: {len(selected)} stories verified from {len(candidate_stories)} candidates "
-            f"({len(self.rejections)} rejected, {fetches} articles fetched)."
+            f"({len(self.rejections)} rejected, {self.fetches} articles fetched)."
         )
         for r in self.rejections:
             logger.info(f"  [REJECTED] {r['title'][:70]} -> {r['reason']}")

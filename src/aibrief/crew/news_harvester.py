@@ -40,6 +40,23 @@ FEEDS = [
     {"outlet": "The Japan Times", "url": "https://www.japantimes.co.jp/feed/category/business/tech/", "region": "ASIA"},
     {"outlet": "Google", "url": "https://blog.google/technology/ai/rss/", "region": "USA"},
     {"outlet": "OpenAI", "url": "https://openai.com/news/rss.xml", "region": "USA"},
+    # Added 2026-10-11 to reach 12-15 verified stories a day (live-tested).
+    {"outlet": "CNBC", "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html", "region": "USA"},
+    {"outlet": "BBC", "url": "https://feeds.bbci.co.uk/news/technology/rss.xml", "region": "WORLD"},
+    {"outlet": "NPR", "url": "https://feeds.npr.org/1019/rss.xml", "region": "USA"},
+    {"outlet": "Wired", "url": "https://www.wired.com/feed/tag/ai/latest/rss", "region": "USA"},
+    {"outlet": "The Guardian", "url": "https://www.theguardian.com/uk/technology/rss", "region": "WORLD"},
+    {"outlet": "Rest of World", "url": "https://restofworld.org/feed/latest", "region": "WORLD"},
+    {"outlet": "The Register", "url": "https://www.theregister.com/software/ai_ml/headlines.atom", "region": "WORLD"},
+    {"outlet": "South China Morning Post", "url": "https://www.scmp.com/rss/36/feed", "region": "CHINA"},
+    {"outlet": "Nikkei Asia", "url": "https://asia.nikkei.com/rss/feed/nar", "region": "ASIA"},
+    {"outlet": "Tech in Asia", "url": "https://www.techinasia.com/feed", "region": "ASIA"},
+    {"outlet": "The Economic Times", "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms", "region": "INDIA"},
+    {"outlet": "Business Standard", "url": "https://www.business-standard.com/rss/technology-108.rss", "region": "INDIA"},
+    {"outlet": "Mint", "url": "https://www.livemint.com/rss/AI", "region": "INDIA"},
+    {"outlet": "The Hindu BusinessLine", "url": "https://www.thehindubusinessline.com/info-tech/feeder/default.rss", "region": "INDIA"},
+    {"outlet": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "region": "USA"},
+    {"outlet": "Nvidia", "url": "https://nvidianews.nvidia.com/releases.xml", "region": "USA"},
 ]
 
 SEARCH_QUERIES = [
