@@ -1,5 +1,34 @@
 [
   {
+    "timestamp": "2026-10-11T21:01:35.602351",
+    "severity": "HIGH",
+    "message": "Episode failed Editorial Quality Gate (Composite: 80.5/100)",
+    "score_details": {
+      "date": "2026-10-12",
+      "composite_quality_score": 80.5,
+      "passes_quality_gate": false,
+      "threshold": 80.0,
+      "freshness_score": 95.0,
+      "source_authority_score": 88.0,
+      "bureau_balance_score": 50.0,
+      "active_bureaus": [
+        "USA"
+      ],
+      "duplication_score": 100.0,
+      "visual_freshness_score": 65.0,
+      "category_distribution": {
+        "boardroom": 1,
+        "researcher": 3,
+        "research": 1,
+        "government": 1
+      },
+      "failed_checks": [
+        "Only 1 bureaus active (minimum 3 required)",
+        "Visual diversity cap exceeded in categories: ['researcher']"
+      ]
+    }
+  },
+  {
     "timestamp": "2026-10-10T20:37:39.652739",
     "severity": "HIGH",
     "message": "Episode failed Editorial Quality Gate (Composite: 58.5/100)",

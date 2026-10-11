@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-11",
-  "formattedDate": "11 October 2026",
-  "title": "The maker of non-text AI model Jev | AI agent makers are promising | AI News 11 October 2026",
+  "date": "2026-10-12",
+  "formattedDate": "12 October 2026",
+  "title": "Third drone strike in a week shuts | Trump administration leans on | Nvidia in talks to deepen its | AI News 12 October 2026",
   "intro": {
     "durationSeconds": 18,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "In a landmark development, The maker of non-text AI model Jev valued at 7.5 billion dollars just weeks after launch. From the SanMitra Newsroom, here is the Daily AI Brief for 11 October 2026."
+    "script": "In a landmark development, Third drone strike in a week shuts down Yandex data centre in Vladimir. From the SanMitra Newsroom, here is the Daily AI Brief for 12 October 2026."
   },
   "transitions": [
     {
@@ -15,78 +15,595 @@
       "title": "NEXT: USA & REGIONAL STRATEGY",
       "display": "NEXT: USA",
       "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
     }
   ],
   "stories": [
     {
-      "id": "s1_the_maker_of_non_text_ai_model_j",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "The maker of non-text AI model Jev valued at 7.5 billion dollars just weeks after launch",
-      "subheadline": "Source: TechCrunch",
+      "id": "s1_third_drone_strike_in_a_week_shu",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Third drone strike in a week shuts down Yandex data centre in Vladimir",
+      "subheadline": "Source: Al Jazeera",
       "importanceScore": 99,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "durationSeconds": 52,
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/11/russias-yandex-says-data-centre-in-vladimir-shut-down-after-drone-attack",
       "researchDesk": "",
-      "script": "In our lead story today, What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
-      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "script": "In our lead story today, The fight over AI infrastructure has become a front line. Drones hit a Yandex data centre in Vladimir, east of Moscow, overnight into Sunday, and the company said operations there were completely suspended, with no injuries reported and several services down. It is the third strike on Yandex sites in a week, after Sasovo on Thursday, which houses two of the three supercomputers Yandex uses to develop its AI model, and Kaluga on Friday. Yandex, often called Russia's Google, told customers to switch on disaster-recovery plans and warned that its remaining setup was unstable. Kyiv says it is targeting sources of revenue for Moscow's war effort, and Russia has hit Ukrainian data centres and telecoms sites over the past month.",
+      "whyThisMatters": "Critical development shaping WORLD artificial intelligence policy and sovereign compute.",
       "keyPoints": [
-        "The maker of non-text AI model Jev valued at 7.5 billion dollars just weeks afte",
-        "TechCrunch"
+        "Third drone strike in a week shuts down Yandex data centre in Vladimir",
+        "Al Jazeera"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-10-11/s1_cut1.jpg",
-          "badge": "THE • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-10-12/s1_cut1.jpg",
+          "badge": "REDMOND • MICROSOFT REDMOND CAMPUS",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-11/s1_cut2.jpg",
-          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
+          "image": "aibrief/assets/editorial/2026-10-12/s1_cut2.jpg",
+          "badge": "WASHINGTON D.C. • GWU SCIENCE & ENGINEERING",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-11/s1_cut3.jpg",
-          "badge": "COPENHAGEN • CHRISTIANSBORG PALACE",
+          "image": "aibrief/assets/editorial/2026-10-12/s1_cut3.jpg",
+          "badge": "WASHINGTON D.C. • GWU SCIENCE & ENGINEERING",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_ai_agent_makers_are_promising_pr",
+      "id": "s2_trump_administration_leans_on_li",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "AI agent makers are promising privacy will they deliver?",
-      "subheadline": "Source: The Verge",
+      "headline": "Trump administration leans on liability law to police AI models that go rogue",
+      "subheadline": "Source: The Japan Times (Bloomberg)",
       "importanceScore": 95,
-      "durationSeconds": 52,
-      "source": "The Verge",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "durationSeconds": 49,
+      "source": "The Japan Times (Bloomberg)",
+      "sourceUrl": "https://www.japantimes.co.jp/business/2026/10/11/tech/trump-ai-liability-models-rogue/",
       "researchDesk": "",
-      "script": "In another major development, At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to \"set a new standard for privacy in frontier AI.\" OpenAI would spend the day taking veiled shots at Meta's Muse, its primary competitor, for failing to keep users' data safe. Yet Muse itself, a couple of months earlier, had launched as a supposedly safer alternative to predecessor OpenClaw - with CEO Mark Zuckerberg promising it was \"built from the ground up for privacy and security.\" In an age when companies hoard customers' personal data and cyberattacks are a dime a dozen, AI labs are trying to convince user … Read the full story at The Verge.",
+      "script": "Turning to the United States, Washington's AI safety plan is shaping up as report it, or be liable for it. A Bloomberg analysis published over the weekend lays out how the Trump administration is leaning on existing liability law instead of new rules. The White House's new Super Intelligence Force, led by Director of National Intelligence Jay Clayton, warned developers after Anthropic disclosed that its models had acted on real websites that companies must immediately disclose incidents involving their models, and that delayed notification will not be tolerated. Treasury Secretary Scott Bessent and former AI czar David Sacks back making developers pay for harm, and the FTC is already questioning OpenAI, Anthropic and others about product safety.",
       "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
       "keyPoints": [
-        "AI agent makers are promising privacy will they deliver?",
-        "The Verge"
+        "Trump administration leans on liability law to police AI models that go rogue",
+        "The Japan Times (Bloomberg)"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-10-11/s2_cut1.jpg",
-          "badge": "LOST (TV SERIES) • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-10-12/s2_cut1.jpg",
+          "badge": "BIG MAC • CONTEXTUAL REPORTING",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-11/s2_cut2.jpg",
-          "badge": "NEW DELHI • BHARAT MANDAPAM SUMMIT",
+          "image": "aibrief/assets/editorial/2026-10-12/s2_cut2.jpg",
+          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-11/s2_cut3.jpg",
-          "badge": "CAPITOL HILL • LEGISLATIVE DESK",
+          "image": "aibrief/assets/editorial/2026-10-12/s2_cut3.jpg",
+          "badge": "COPENHAGEN • CHRISTIANSBORG PALACE",
           "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_nvidia_in_talks_to_deepen_its_in",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Nvidia in talks to deepen its investment in Reflection AI or buy the open-weight model startup",
+      "subheadline": "Source: Reuters",
+      "importanceScore": 95,
+      "durationSeconds": 42,
+      "source": "Reuters",
+      "sourceUrl": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45W068:0-nvidia-in-talks-to-invest-further-in-reflection-ai-or-buy-it-ft-reports/",
+      "researchDesk": "",
+      "script": "In concurrent industry updates, Nvidia is in early discussions about acquiring or increasing its investment in Reflection AI, which develops open-weight AI models, the Financial Times reported. Reflection was last valued at approximately 25 billion dollars, and several possible deal structures are under consideration, including an arrangement in which Nvidia would hire staff and license technology rather than buy the company outright. No agreement has been announced, and the talks could still fall apart. Nvidia has already invested 800 million dollars in the startup, and a deal would deepen its position beyond chips into the models built around its hardware.",
+      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Nvidia in talks to deepen its investment in Reflection AI or buy the open-weight",
+        "Reuters"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "USA SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "USA ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/story4_quantum_qpu.jpg",
+          "badge": "USA MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_shing_tung_yau_launches_mathemat",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Shing-Tung Yau launches mathematics and AI lab alliance of more than 1,000 Chinese mathematicians",
+      "subheadline": "Source: South China Morning Post",
+      "importanceScore": 90,
+      "durationSeconds": 44,
+      "source": "South China Morning Post",
+      "sourceUrl": "https://www.scmp.com/news/china/science/article/3370492/leading-chinese-mathematicians-unite-behind-use-ai-research",
+      "researchDesk": "",
+      "script": "Meanwhile in China, China's top mathematicians are teaming up around AI. Fields medallist Shing-Tung Yau launched the Yau Laboratory Alliance for Mathematics and Artificial Intelligence at Tsinghua University on Sunday, linking eight institutions and more than 1,000 mathematicians in Beijing, Shanghai, Nanjing, Shenzhen and Hong Kong. Its six priorities include maths-specific AI models, open infrastructure for AI-assisted research, using maths to make AI more interpretable and secure, and a new journal for AI-assisted mathematics. Yau warned that China lags the US in using AI for frontier science, and said AI properly harnessed could be epoch-making but, poorly managed, could bring catastrophic consequences for China's science.",
+      "whyThisMatters": "Critical development shaping CHINA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Shing-Tung Yau launches mathematics and AI lab alliance of more than 1,000 Chine",
+        "South China Morning Post"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story1_code_agents.jpg",
+          "badge": "CHINA FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_standards.jpg",
+          "badge": "CHINA AUTONOMOUS AGENT RUNTIME • EVALUATION HUD",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/story3_neural_network.jpg",
+          "badge": "CHINA BENCHMARK VERIFICATION • SYSTEM TELEMETRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_sk_square_backs_japanese_physica",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "SK Square backs Japanese physical AI startup Mujin to expand into robotics",
+      "subheadline": "Source: KED Global",
+      "importanceScore": 90,
+      "durationSeconds": 42,
+      "source": "KED Global",
+      "sourceUrl": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202610110003",
+      "researchDesk": "",
+      "script": "In Asia, Korean chip money is moving into robot brains. SK Square, the investment arm of SK Group, owner of memory maker SK hynix, has joined the Series D round of Japanese physical AI company Mujin through its overseas unit TGC Square, Korean business press reported on Sunday. Mujin makes MujinOS, software that lets industrial robots plan and carry out work in factories and warehouses, and SK wants to use it in its chip-making and logistics lines. SK Square's stake was not disclosed. It is the eighth AI or chip startup in the US and Japan that SK Square has backed.",
+      "whyThisMatters": "Critical development shaping ASIA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "SK Square backs Japanese physical AI startup Mujin to expand into robotics",
+        "KED Global"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "ASIA SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "ASIA ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/story4_quantum_qpu.jpg",
+          "badge": "ASIA MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_a_quarter_of_india_s_workforce_i",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "A quarter of India's workforce is highly exposed to AI, says study launched by Chief Economic Adviser",
+      "subheadline": "Source: Whalesbook",
+      "importanceScore": 90,
+      "durationSeconds": 58,
+      "source": "Whalesbook",
+      "sourceUrl": "https://whalesbook.com/news/English/economy/25percent-of-Indias-Workforce-Faces-High-AI-Exposure-Study/6acba7ac79a16deaeaed7119",
+      "researchDesk": "",
+      "script": "Turning to India, About a quarter of India's workforce is now highly exposed to AI, according to a white paper from the Great Lakes Institute of Management's Centre for Finance and Economic Research in Chennai, launched by Chief Economic Adviser V Anantha Nageswaran on Sunday. The share of high-routine occupations has grown since 2012. Exposure is not the same as job loss: 7.6 percent of workers are positioned to gain productivity as AI complements their work, while 11.4 percent face potential displacement. Agriculture and skilled trades, which employ over 54 percent of the working population, show low substitution risk. The risk is sharpest for the young: 39.4 percent of workers aged 15 to 24 are in roles with high substitution risk, and for them high-routine jobs outnumber complementary roles by 7.6 to 1, against 4 to 1 for older workers.",
+      "whyThisMatters": "Critical development shaping INDIA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "A quarter of India's workforce is highly exposed to AI, says study launched by C",
+        "Whalesbook"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story1_code_agents.jpg",
+          "badge": "INDIA FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_standards.jpg",
+          "badge": "INDIA AUTONOMOUS AGENT RUNTIME • EVALUATION HUD",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/story3_neural_network.jpg",
+          "badge": "INDIA BENCHMARK VERIFICATION • SYSTEM TELEMETRY",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_lancet_assessment_ranks_maliciou",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Lancet assessment ranks malicious AI use and nuclear war as top threats to humanity by 2100",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 40,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
+      "researchDesk": "",
+      "script": "In other global developments, Humans could become extinct by the year 2100 due to malicious use of AI or nuclear conflict, according to a new global risk assessment. They top a list of 17 major threats to human health over the next 75 years, which also includes cuts to aid spending by wealthy countries, the climate crisis and childhood malnutrition. The experts behind The Lancet Commission on 21st Century Global Threats to Health said all the threats interact, meaning they must be addressed together, but stressed that there was a realistic route to act on each.",
+      "whyThisMatters": "Critical development shaping WORLD artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Lancet assessment ranks malicious AI use and nuclear war as top threats to human",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story2_cyber_defense.jpg",
+          "badge": "WORLD DEFENSE OPERATIONS • AUTONOMOUS TARGETING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "WORLD CYBER THREAT OPERATIONS • RED-TEAM DESK",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/geopolitics.jpg",
+          "badge": "WORLD STRATEGIC THREAT INTELLIGENCE • NETWORK MONITOR",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_microsoft_s_satya_nadella_says_a",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Microsoft's Satya Nadella says AI models need an emergency brake and minimal trust",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 46,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "researchDesk": "",
+      "script": "Turning to the United States, Microsoft CEO Satya Nadella says it is time to step back and assess the trust architecture of AI. In a lengthy post on X, he wrote that we cannot treat Super Intelligence as a set of nested black boxes and simply accept or reject its recommendations, answers and actions. He called for systems where models can be contained and observed and leave behind tamper-proof, human-readable evidence, and argued that the most trustworthy system will be the one that enables people to trust the model the least. Businesses, he suggested, should limit and monitor AI agents' access to sensitive systems and keep an emergency brake within reach.",
+      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Microsoft's Satya Nadella says AI models need an emergency brake and minimal tru",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story1_code_agents.jpg",
+          "badge": "USA FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_standards.jpg",
+          "badge": "USA AUTONOMOUS AGENT RUNTIME • EVALUATION HUD",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/story3_neural_network.jpg",
+          "badge": "USA BENCHMARK VERIFICATION • SYSTEM TELEMETRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_odyssey_3_world_model_and_an_aws",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Odyssey-3 world model and an AWS Nvidia toolchain add new building blocks for physical AI",
+      "subheadline": "Source: The Next Web",
+      "importanceScore": 90,
+      "durationSeconds": 54,
+      "source": "The Next Web",
+      "sourceUrl": "https://thenextweb.com/news/odyssey-3-world-model-robots-humanoids-cars-drones",
+      "researchDesk": "",
+      "script": "In enterprise infrastructure, Physical AI got two new building blocks. Odyssey opened a public research preview of Odyssey-3, a world model the company says can control robot arms and humanoids, drive a car, fly drones and play video games. A movement policy trained on about two hours of GTA V footage carried over to Red Dead Redemption 2 with no extra training. Its headline physics score of 66.1 came from the best of eight attempts per task, and the results are the company's own. Separately, AWS released an open-source Physical AI Toolchain built with Nvidia that links data collection, training, simulation, validation and deployment on robots. It draws on Amazon's own fleet of more than a million robots and plugs in Nvidia's Isaac Sim, Isaac Lab, GR00T and Cosmos tools.",
+      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Odyssey-3 world model and an AWS Nvidia toolchain add new building blocks for ph",
+        "The Next Web"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "USA SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "USA ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/story4_quantum_qpu.jpg",
+          "badge": "USA MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_context_language_models_let_ai_a",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Context Language Models let AI agents rewrite their own working memory",
+      "subheadline": "Source: MPost",
+      "importanceScore": 90,
+      "durationSeconds": 55,
+      "source": "MPost",
+      "sourceUrl": "https://mpost.io/meta-presents-context-language-models-ai-agents-that-edit-their-own-memory-outperform-fixed-harnesses-at-lower-compute-cost/",
+      "researchDesk": "",
+      "script": "In another major development, What if a model decided for itself what to remember? Researchers from Meta, MIT and the University of Washington describe Context Language Models, which treat their working memory as a file they can freely rewrite, keeping key facts, deleting dead ends and writing their own progress notes, instead of relying on fixed summarising or retrieval rules. With no extra training, they reported 11.4 percent higher accuracy with 21.5 percent less compute on the BrowseComp-Plus research benchmark, and 5 percent better scores with 59 percent less compute on a 12-hour task suite. Reinforcement learning lifted Qwen3.5-9B on BrowseComp-Plus from 28.8 percent to 42.5 percent. The authors flag real risks: a model can throw away something it later needs, and an editable memory gives prompt injections a place to hide.",
+      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Context Language Models let AI agents rewrite their own working memory",
+        "MPost"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story1_code_agents.jpg",
+          "badge": "USA FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_standards.jpg",
+          "badge": "USA AUTONOMOUS AGENT RUNTIME • EVALUATION HUD",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/story3_neural_network.jpg",
+          "badge": "USA BENCHMARK VERIFICATION • SYSTEM TELEMETRY",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s11_sequoia_backed_chip_startup_nuva",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Sequoia-backed chip startup Nuvacore raising funds at about a 2.5 billion dollar valuation",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 36,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/sequoia-backed-chip-startup-nuvacore-raising-funds-at-about-a-2-5-billion-valuation/articleshow/134870940.cms",
+      "researchDesk": "",
+      "script": "In concurrent industry updates, Six-month-old microchip startup Nuvacore, which does not yet have a product, is raising hundreds of millions of dollars at a roughly 2.5 billion dollar valuation to develop a new central processor designed for data centers, according to two people familiar with the fundraising. Nuvacore is seeking the funds as appetite for central processors has swollen with the demand for data-crunching capacity to power chatbots. CPUs perform vital functions as traffic controllers for Nvidia's AI chips and run autonomous AI software known as agents.",
+      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Sequoia-backed chip startup Nuvacore raising funds at about a 2.5 billion dollar",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "USA SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "USA ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/story4_quantum_qpu.jpg",
+          "badge": "USA MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s12_ai_s_independent_safety_evaluato",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "AI's independent safety evaluators step into the spotlight",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 33,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/11/ais-quiet-safety-gatekeepers-are-stepping-into-the-spotlight.html",
+      "researchDesk": "",
+      "script": "Expanding on regulatory scrutiny, Two months ago, independent evaluators occupied a relatively sleepy corner of the multitrillion-dollar artificial intelligence industry. Now they are being asked to come to its rescue. While Anthropic and OpenAI are at the heart of a fierce debate over whether they can safeguard their advanced models and grow their businesses at the same time, they are seeking support from a handful of small third-party groups such as Model Evaluation and Threat Research, Apollo Research and Transluce.",
+      "whyThisMatters": "Critical development shaping USA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "AI's independent safety evaluators step into the spotlight",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story2_cyber_defense.jpg",
+          "badge": "USA DEFENSE OPERATIONS • AUTONOMOUS TARGETING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "USA CYBER THREAT OPERATIONS • RED-TEAM DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/geopolitics.jpg",
+          "badge": "USA STRATEGIC THREAT INTELLIGENCE • NETWORK MONITOR",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s13_super_micro_contractor_pleads_gu",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Super Micro contractor pleads guilty in scheme to divert Nvidia AI servers to China",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 37,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/super-micro-contractor-pleads-guilty-in-scheme-to-divert-ai-servers-with-nvidia-chips-to-china/articleshow/134868642.cms",
+      "researchDesk": "",
+      "script": "Meanwhile in China, A contractor linked to Super Micro Computer has pleaded guilty in a scheme to illegally export computer servers containing advanced Nvidia AI chips to China, according to a court filing on Friday. In March, US prosecutors charged Ting-Wei Willy Sun and two others associated with Super Micro, including a co-founder, with conspiring to divert about 2.5 billion dollars worth of US AI technology to China in violation of export laws. The court docket showed Sun entered his guilty plea on Thursday in US District Court in Manhattan.",
+      "whyThisMatters": "Critical development shaping CHINA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Super Micro contractor pleads guilty in scheme to divert Nvidia AI servers to Ch",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "CHINA SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "CHINA ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/story4_quantum_qpu.jpg",
+          "badge": "CHINA MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s14_japan_s_sumitomo_bakelite_expand",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Japan's Sumitomo Bakelite expands chip packaging materials output in China and Singapore amid AI boom",
+      "subheadline": "Source: South China Morning Post",
+      "importanceScore": 90,
+      "durationSeconds": 31,
+      "source": "South China Morning Post",
+      "sourceUrl": "https://www.scmp.com/tech/tech-trends/article/3370468/japans-sumitomo-bakelite-expands-china-chip-packaging-materials-output-amid-ai-boom",
+      "researchDesk": "",
+      "script": "In Asia, The Tokyo-based company said on Friday that it would add production lines for mould underfill materials and compression-moulding granules at its facilities in Suzhou, in eastern China's Jiangsu province, and in Singapore. The company did not disclose an investment amount. The expansion is expected to roughly double its production capacity for mould underfill materials and triple that for compression-moulding granules, underscoring the growing importance of advanced packaging materials in the AI chip supply chain.",
+      "whyThisMatters": "Critical development shaping ASIA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Japan's Sumitomo Bakelite expands chip packaging materials output in China and S",
+        "South China Morning Post"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "ASIA SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "ASIA ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/story4_quantum_qpu.jpg",
+          "badge": "ASIA MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s15_google_faces_local_backlash_over",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Google faces local backlash over its 15 billion dollar AI data centre in Visakhapatnam",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 34,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/google-faces-backlash-against-india-data-centre/articleshow/134868659.cms",
+      "researchDesk": "",
+      "script": "Turning to India, Handcuffs encircle Google's logo on one campaign poster, while another warns that people cannot drink data, as opposition mounts to the tech giant's planned AI mega-facility in India. Excavators have swung into action, clearing forest and farmland on the southeast coast for the 15 billion dollar construction of Google's largest data centre outside the United States. The project at Visakhapatnam in Andhra Pradesh, a port often called Vizag, is championed by India as a cornerstone of its technological ambitions.",
+      "whyThisMatters": "Critical development shaping INDIA artificial intelligence policy and sovereign compute.",
+      "keyPoints": [
+        "Google faces local backlash over its 15 billion dollar AI data centre in Visakha",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/fin_tokyo_district.jpg",
+          "badge": "INDIA METROPOLITAN COMMERCE • CIVIC STRATEGY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "INDIA SOVEREIGN INFRASTRUCTURE • DIGITAL FABRIC",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/story6_network_grid.jpg",
+          "badge": "INDIA ENTERPRISE AUTOMATION BENCHMARK",
+          "panDirection": "panRight"
         }
       ]
     }
@@ -94,29 +611,58 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's headlines: The maker of non-text AI model Jev valued at 7.5 billion dollars just weeks after launch; AI agent makers are promising privacy will they deliver?.",
+    "script": "To recap today's headlines: Third drone strike in a week shuts down Yandex data centre in Vladimir; Trump administration leans on liability law to police AI models that go rogue; Nvidia in talks to deepen its investment in Reflection AI or buy the open-weight model startup; Shing-Tung Yau launches mathematics and AI lab alliance of more than 1,000 Chinese mathematicians; SK Square backs Japanese physical AI startup Mujin to expand into robotics; A quarter of India's workforce is highly exposed to AI, says study launched by Chief Economic Adviser.",
     "items": [
-      "✓ The maker of non-text AI model Jev valued at 7.5",
-      "✓ AI agent makers are promising privacy will they "
+      "✓ Third drone strike in a week shuts down Yandex d",
+      "✓ Trump administration leans on liability law to p",
+      "✓ Nvidia in talks to deepen its investment in Refl",
+      "✓ Shing-Tung Yau launches mathematics and AI lab a",
+      "✓ SK Square backs Japanese physical AI startup Muj",
+      "✓ A quarter of India's workforce is highly exposed",
+      "✓ Lancet assessment ranks malicious AI use and nuc"
     ]
   },
   "marketSnapshot": {
     "durationSeconds": 16,
     "headline": "GLOBAL AI MARKET SNAPSHOT",
     "subheadline": "SANMITRA DESK • STRATEGIC TELEMETRY",
-    "script": "On the desk today: The maker of non-text AI model Jev valued at 7.5 billion dollars just weeks after launch. AI agent makers are promising privacy will they deliver?.",
+    "script": "On the desk today: Third drone strike in a week shuts down Yandex data centre in Vladimir. Trump administration leans on liability law to police AI models that go rogue. Nvidia in talks to deepen its investment in Reflection AI or buy the open-weight model startup. Shing-Tung Yau launches mathematics and AI lab alliance of more than 1,000 Chinese mathematicians. SK Square backs Japanese physical AI startup Mujin to expand into robotics. A quarter of India's workforce is highly exposed to AI, says study launched by Chief Economic Adviser.",
     "entities": [
       {
-        "name": "USA",
-        "update": "The maker of non-text AI model Jev valued at 7.5 billion dollars just we",
+        "name": "WORLD",
+        "update": "Third drone strike in a week shuts down Yandex data centre in Vladimir",
         "tag": "TODAY'S DESK",
         "color": "#0ea5e9"
       },
       {
         "name": "USA",
-        "update": "AI agent makers are promising privacy will they deliver?",
+        "update": "Trump administration leans on liability law to police AI models that go ",
         "tag": "TODAY'S DESK",
         "color": "#ef4444"
+      },
+      {
+        "name": "USA",
+        "update": "Nvidia in talks to deepen its investment in Reflection AI or buy the ope",
+        "tag": "TODAY'S DESK",
+        "color": "#10b981"
+      },
+      {
+        "name": "CHINA",
+        "update": "Shing-Tung Yau launches mathematics and AI lab alliance of more than 1,0",
+        "tag": "TODAY'S DESK",
+        "color": "#8b5cf6"
+      },
+      {
+        "name": "ASIA",
+        "update": "SK Square backs Japanese physical AI startup Mujin to expand into roboti",
+        "tag": "TODAY'S DESK",
+        "color": "#38bdf8"
+      },
+      {
+        "name": "INDIA",
+        "update": "A quarter of India's workforce is highly exposed to AI, says study launc",
+        "tag": "TODAY'S DESK",
+        "color": "#f97316"
       }
     ]
   },
@@ -136,21 +682,36 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "The maker of non-text AI model Jev valued at ",
-    "AI agent makers are promising privacy will th"
+    "Third drone strike in a week shuts down Yande",
+    "Trump administration leans on liability law t",
+    "Nvidia in talks to deepen its investment in R",
+    "Shing-Tung Yau launches mathematics and AI la",
+    "SK Square backs Japanese physical AI startup ",
+    "A quarter of India's workforce is highly expo",
+    "Lancet assessment ranks malicious AI use and ",
+    "Microsoft's Satya Nadella says AI models need",
+    "Odyssey-3 world model and an AWS Nvidia toolc",
+    "Context Language Models let AI agents rewrite",
+    "Sequoia-backed chip startup Nuvacore raising ",
+    "AI's independent safety evaluators step into ",
+    "Super Micro contractor pleads guilty in schem",
+    "Japan's Sumitomo Bakelite expands chip packag",
+    "Google faces local backlash over its 15 billi"
   ],
   "thumbnail": {
-    "date": "11 OCTOBER 2026",
-    "headline": "THE MAKER OF NON-TEXT AI MODEL JEV VALUED AT",
+    "date": "12 OCTOBER 2026",
+    "headline": "THIRD DRONE STRIKE IN A WEEK SHUTS DOWN",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "THE MAKER OF NON-TEXT AI MODEL JEV",
-      "AI AGENT MAKERS ARE PROMISING"
+      "THIRD DRONE STRIKE IN A WEEK SHUTS",
+      "TRUMP ADMINISTRATION LEANS ON",
+      "NVIDIA IN TALKS TO DEEPEN ITS",
+      "SHING-TUNG YAU LAUNCHES MATHEMATICS"
     ]
   },
   "youtubeMetadata": {
-    "title": "The maker of non-text AI model Jev | AI agent makers are promising | AI News 11 October 2026",
-    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 11 October 2026.",
+    "title": "Third drone strike in a week shuts | Trump administration leans on | Nvidia in talks to deepen its | AI News 12 October 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 12 October 2026.",
     "tags": [
       "AI",
       "ArtificialIntelligence",
