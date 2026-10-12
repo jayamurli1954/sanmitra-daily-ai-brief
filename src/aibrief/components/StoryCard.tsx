@@ -294,7 +294,6 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
           personName: "SAM ALTMAN",
           personTitle: "CHIEF EXECUTIVE OFFICER, OPENAI",
           companyTag: "OPENAI • SAN FRANCISCO, CA",
-          quote: story.whyThisMatters || "Frontier models are shifting from conversational interfaces to autonomous workers executing enterprise tasks.",
         });
       } else if (text.includes("dario amodei") || text.includes("amodei")) {
         dynamicCuts.push({
@@ -305,7 +304,6 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
           personName: "DARIO AMODEI",
           personTitle: "CHIEF EXECUTIVE OFFICER, ANTHROPIC",
           companyTag: "ANTHROPIC • SAN FRANCISCO, CA",
-          quote: story.whyThisMatters || "Verifiable mathematical safety guardrails are the foundational imperative for autonomous AI deployments.",
         });
       } else if (text.includes("jensen huang") || text.includes("jensen")) {
         dynamicCuts.push({
@@ -316,7 +314,6 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
           personName: "JENSEN HUANG",
           personTitle: "PRESIDENT & CEO, NVIDIA",
           companyTag: "NVIDIA • SANTA CLARA, CA",
-          quote: story.whyThisMatters || "Physical AI and robotics represent the next industrial frontier powered by accelerated computing architectures.",
         });
       } else if (text.includes("sundar pichai") || text.includes("pichai")) {
         dynamicCuts.push({
@@ -327,7 +324,6 @@ export const getStoryVisualCuts = (story: Story): VisualCut[] => {
           personName: "SUNDAR PICHAI",
           personTitle: "CHIEF EXECUTIVE OFFICER, ALPHABET & GOOGLE",
           companyTag: "GOOGLE DEEPMIND • MOUNTAIN VIEW, CA",
-          quote: story.whyThisMatters || "Extended multimodal reasoning loops solve real-world problems previously beyond algorithmic reach.",
         });
       }
 
@@ -636,7 +632,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
                       borderRadius: 4,
                     }}
                   >
-                    EXECUTIVE DISPATCH
+                    NEWSMAKER
                   </div>
                 </div>
 
@@ -658,7 +654,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
                       marginBottom: 10,
                     }}
                   >
-                    LEADERSHIP PERSPECTIVE // VERIFIED STATEMENT
+                    {currentCut.quote ? "ON THE RECORD" : "IN THE NEWS"}
                   </div>
                   <blockquote
                     style={{
@@ -668,11 +664,13 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
                       lineHeight: 1.35,
                       letterSpacing: -0.3,
                       margin: 0,
-                      fontStyle: "italic",
+                      fontStyle: currentCut.quote ? "italic" : "normal",
                       maxWidth: 820,
                     }}
                   >
-                    "{currentCut.quote || story.whyThisMatters || story.historicalContext || story.headline}"
+                    {/* Only a quote supplied with the cut is shown in quotation marks.
+                        Story text is never presented as something an executive said. */}
+                    {currentCut.quote ? `"${currentCut.quote}"` : story.headline}
                   </blockquote>
                 </div>
 

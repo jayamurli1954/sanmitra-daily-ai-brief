@@ -43,10 +43,11 @@ GDRIVE_TOKEN_FILE = "gdrive_token.json"
 DEFAULT_FOLDER_NAME = "sanmitra-daily-ai-brief"
 
 
-def get_drive_service():
+def get_drive_service(interactive=False):
     """
     Returns an authenticated Google Drive service instance.
-    Uses gdrive_token.json or runs a one-time browser OAuth flow.
+    Uses gdrive_token.json; opens the browser sign-in only when interactive
+    (--auth), so a scheduled run never waits on a browser nobody will see.
     """
     # 1. Try Service Account key if configured
     sa_file = "gdrive_service_account.json"
@@ -81,9 +82,10 @@ def get_drive_service():
                 creds = None
 
         if not creds:
-            # Prevent hanging indefinitely in automated background runs / GitHub Actions
-            if not sys.stdin or not sys.stdin.isatty():
-                print("[!] Non-interactive environment detected: Google Drive token expired or revoked.")
+            # A console stdin is a TTY under Task Scheduler too, so an isatty()
+            # check let the 7:30 run open a browser and wait forever (2026-10-11).
+            if not interactive:
+                print("[!] Google Drive token expired or revoked.")
                 print("    Skipping Google Drive upload to prevent pipeline freeze. Run 'python upload_to_gdrive.py --auth' interactively to re-link.")
                 return None
 
@@ -180,7 +182,7 @@ def main():
     parser.add_argument("--auth", action="store_true", help="Run interactive authorization only")
     args = parser.parse_args()
 
-    service = get_drive_service()
+    service = get_drive_service(interactive=args.auth)
     if not service:
         print("[!] No Google Drive credentials available. Aborting sync.")
         return

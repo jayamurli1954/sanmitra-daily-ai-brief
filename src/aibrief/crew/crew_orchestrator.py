@@ -1,92 +1,195 @@
 """
-Crew Orchestrator - SanMitra AI News Wire v7.0
-Executes autonomous multi-agent intelligence gathering, fact-checking, scriptwriting, and publishing.
+Crew Orchestrator - SanMitra AI News Wire
+
+Produces today's episode JSON from a prompt in the approved format:
+
+  1. If prompts/<date>.md already exists (the 11 PM nightly collector or a human
+     editor wrote it), it is used. If it has fewer than 12 usable stories, the
+     crew tops it up with verified stories about other events.
+  2. Otherwise the crew harvests, fact-checks and writes prompts/<date>.md from
+     the extracted article text.
+  3. build_episode_from_prompt.py builds the episode from that prompt, so the
+     source traceability gate always has a prompt to check against.
+
+An episode needs 12-15 stories (10+ minutes); with fewer, no episode is made.
+Every subprocess result is checked, and the orchestrator never falls back to an
+episode JSON that is already on disk, which could be yesterday's.
 """
 
-from datetime import datetime, timedelta, timezone
+from datetime import datetime
 import json
 import logging
 import os
+import subprocess
 import sys
 
-from .news_harvester import NewsHarvester
-from .fact_checker import FactChecker
-from .scriptwriter import BroadcastScriptwriter
-from .visual_director import VisualDirector
+from src.aibrief.story_memory_ledger import StoryMemoryLedger
+
+from .fact_checker import MAX_EPISODE_STORIES, MIN_EPISODE_STORIES, FactChecker
 from .linkedin_publisher import LinkedInPublisher
+from .news_harvester import NewsHarvester
+from .prompt_writer import append_stories, write_prompt
+from .text_utils import IST
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("CrewOrchestrator")
 
+DATA_DIR = os.path.join("src", "aibrief", "data")
+ACTIVE_EPISODE = os.path.join(DATA_DIR, "active_episode.json")
+
+
+def _run(args, description):
+    logger.info(f"{description}: {' '.join(args)}")
+    return subprocess.run([sys.executable] + args).returncode == 0
+
+
+def prompt_story_headlines(prompt_path):
+    """Headlines the builder will actually keep from this prompt (sourced, de-duplicated)."""
+    from build_episode_from_prompt import parse_markdown_prompt
+    with open(prompt_path, "r", encoding="utf-8") as f:
+        episode = parse_markdown_prompt(f.read())
+    return [s["headline"] for s in episode.get("stories", [])]
+
+
+def _build_episode(prompt_path, target_date):
+    """Build the episode and return what was just written to active_episode.json.
+
+    The video renders active_episode.json, so that file is the one checked; a
+    date-named file left over from an earlier build proves nothing.
+    """
+    if os.path.exists(ACTIVE_EPISODE):
+        os.remove(ACTIVE_EPISODE)
+    if not _run(["build_episode_from_prompt.py", prompt_path], "Building episode from prompt"):
+        logger.error("Episode build failed.")
+        return None
+    if not os.path.exists(ACTIVE_EPISODE):
+        logger.error("Build finished but active_episode.json was not written.")
+        return None
+    with open(ACTIVE_EPISODE, "r", encoding="utf-8") as f:
+        episode = json.load(f)
+    if episode.get("date") != target_date:
+        logger.error(f"Built episode is dated {episode.get('date')}, expected {target_date}; check the prompt's date line.")
+        return None
+    if len(episode.get("stories", [])) < MIN_EPISODE_STORIES:
+        logger.error(f"Built episode has {len(episode.get('stories', []))} stories; at least {MIN_EPISODE_STORIES} are required.")
+        return None
+    return episode
+
+
+def record_aired_stories(target_date, episode_path=ACTIVE_EPISODE):
+    """Add the episode's stories to the 14-day ledger. Call only after a successful upload,
+    so a failed run does not block its unaired stories for the next 7 days."""
+    with open(episode_path, "r", encoding="utf-8") as f:
+        episode = json.load(f)
+    ledger = StoryMemoryLedger()
+    already = {s.get("headline") for s in ledger.data.get("stories", []) if s.get("first_covered") == target_date}
+    for story in episode.get("stories", []):
+        if story.get("headline") in already:
+            continue
+        ledger.record_story(
+            headline=story["headline"],
+            companies=[],
+            topics=[],
+            country=story.get("region", "WORLD"),
+            source_urls=[story.get("sourceUrl")] if story.get("sourceUrl") else [],
+            impact_score=int(story.get("importanceScore", 80)),
+            current_date_str=target_date,
+        )
+
+
+def write_qa_summary(target_date, episode, prompt_origin, rejections, warnings):
+    """A one-page summary for the human skim before the video is made public."""
+    os.makedirs(os.path.join("out", "aibrief"), exist_ok=True)
+    path = os.path.join("out", "aibrief", f"qa_summary_{target_date}.md")
+    lines = [f"# QA summary — {target_date}", "", f"Prompt: {prompt_origin}", ""]
+    lines.append(f"## Stories ({len(episode.get('stories', []))})")
+    for i, s in enumerate(episode.get("stories", []), 1):
+        label = "company announcement" if s.get("sourceType") == "company" else "reporting"
+        lines.append(f"{i}. [{s.get('region')}] {s.get('headline')}")
+        lines.append(f"   - {s.get('source')} ({label}): {s.get('sourceUrl')}")
+    if warnings:
+        lines += ["", "## Warnings"] + [f"- {w}" for w in warnings]
+    if rejections:
+        lines += ["", f"## Rejected by fact-check ({len(rejections)})"]
+        lines += [f"- {r['title'][:90]} — {r['reason']}" for r in rejections]
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+    logger.info(f"QA summary written: {path}")
+    return path
+
+
+def _crew_verify(target_date, max_stories, exclude_titles=()):
+    harvester = NewsHarvester(target_date=target_date)
+    candidates = harvester.harvest()
+    fact_checker = FactChecker(target_date=target_date, fetch_article=harvester.fetch_article,
+                               ledger=StoryMemoryLedger())
+    verified = fact_checker.assemble_stories(candidates, max_stories=max_stories, exclude_titles=exclude_titles)
+    return verified, fact_checker.rejections
+
 
 def run_autonomous_crew(target_date=None, force_visuals=False):
-    """Executes the full multi-agent cycle to generate active_episode.json and LinkedIn dispatches."""
+    """Returns the built episode dict, or None if no trustworthy 12+ story episode could be made."""
     if not target_date:
-        ist = timezone(timedelta(hours=5, minutes=30))
-        target_date = datetime.now(ist).strftime("%Y-%m-%d")
+        target_date = datetime.now(IST).strftime("%Y-%m-%d")
 
     logger.info("=" * 70)
-    logger.info(f"🚀 INITIATING AUTONOMOUS AI NEWS WIRE CREW FOR: {target_date}")
+    logger.info(f"AI NEWS WIRE CREW FOR: {target_date}")
     logger.info("=" * 70)
 
-    # 1. News Harvester Agent
-    logger.info("[Agent 1: NewsHarvester] Gathering 24h intelligence across feeds & search...")
-    harvester = NewsHarvester(target_date=target_date)
-    raw_candidates = harvester.harvest()
+    prompt_path = os.path.join("prompts", f"{target_date}.md")
+    rejections, warnings = [], []
 
-    # 2. Fact Checker & Bureau Curator Agent
-    logger.info("[Agent 2: FactChecker] Validating sources, numbers, and regional balance...")
-    fact_checker = FactChecker()
-    selected_stories = fact_checker.assemble_14_stories(raw_candidates)
+    def give_up(reason):
+        logger.error(reason)
+        write_qa_summary(target_date, {"stories": []}, "none", rejections, [reason])
+        return None
 
-    if not selected_stories or len(selected_stories) < 6:
-        logger.warning("Low candidate count from live scraper; checking for approved prompts backup...")
-        prompt_fallback = os.path.join("prompts", f"{target_date}.md")
-        if os.path.exists(prompt_fallback):
-            logger.info(f"Ingesting pre-approved prompt backup: {prompt_fallback}")
-            import subprocess
-            subprocess.run(f'python build_episode_from_prompt.py "{prompt_fallback}"', shell=True)
-            active_path = os.path.join("src", "aibrief", "data", "active_episode.json")
-            with open(active_path, "r", encoding="utf-8") as f:
-                episode_payload = json.load(f)
-        else:
-            logger.error(f"Insufficient intelligence gathered and no fallback at {prompt_fallback}!")
-            return None
+    if os.path.exists(prompt_path):
+        existing = prompt_story_headlines(prompt_path)
+        prompt_origin = f"existing prompt {prompt_path} ({len(existing)} usable stories)"
+        if len(existing) < MIN_EPISODE_STORIES:
+            logger.warning(f"{prompt_path} has only {len(existing)} usable stories; topping up from the crew.")
+            extra, rejections = _crew_verify(target_date, MAX_EPISODE_STORIES - len(existing), exclude_titles=existing)
+            if len(existing) + len(extra) < MIN_EPISODE_STORIES:
+                return give_up(f"Only {len(existing) + len(extra)} stories available "
+                               f"(prompt {len(existing)} + crew {len(extra)}); minimum is {MIN_EPISODE_STORIES}. No episode today.")
+            append_stories(prompt_path, extra)
+            prompt_origin += f", topped up with {len(extra)} crew-verified stories"
+            warnings.append(f"The prompt had {len(existing)} stories; {len(extra)} were added by the crew.")
     else:
-        # 3. Broadcast Scriptwriter Agent
-        logger.info("[Agent 3: BroadcastScriptwriter] Drafting dual-anchor scripts & phonetic currencies...")
-        scriptwriter = BroadcastScriptwriter()
-        episode_payload = scriptwriter.generate_episode_script(selected_stories, target_date)
+        verified, rejections = _crew_verify(target_date, MAX_EPISODE_STORIES)
+        if len(verified) < MIN_EPISODE_STORIES:
+            return give_up(f"Only {len(verified)} stories passed fact-checking (minimum {MIN_EPISODE_STORIES}). No episode today.")
+        write_prompt(verified, target_date)
+        prompt_origin = f"crew-drafted prompt {prompt_path}"
 
-        # 4. Visual Director Agent
-        logger.info("[Agent 4: VisualDirector] Sourcing editorial stills with 14-day freshness...")
-        visual_director = VisualDirector(target_date)
-        episode_payload = visual_director.source_and_download_visuals(episode_payload, force=force_visuals)
+    episode = _build_episode(prompt_path, target_date)
+    if not episode:
+        return None
 
-        # Save to persistent storage
-        date_out = os.path.join("src", "aibrief", "data", f"{target_date}.json")
-        active_out = os.path.join("src", "aibrief", "data", "active_episode.json")
+    # The downloader reads active_episode.json, so it runs after the first build;
+    # the second build attaches the freshly downloaded stills to each story.
+    downloader_args = ["download_daily_editorial_visuals.py", "--date", target_date]
+    if force_visuals:
+        downloader_args.append("--force")
+    if not _run(downloader_args, "Downloading editorial visuals"):
+        warnings.append("Editorial visual download failed; stories use fallback stills.")
+    episode = _build_episode(prompt_path, target_date)
+    if not episode:
+        return None
 
-        with open(date_out, "w", encoding="utf-8") as f:
-            json.dump(episode_payload, f, indent=2, ensure_ascii=False)
-        with open(active_out, "w", encoding="utf-8") as f:
-            json.dump(episode_payload, f, indent=2, ensure_ascii=False)
+    missing_cuts = sum(
+        1 for s in episode.get("stories", []) for c in s.get("visualCuts", [])
+        if f"/editorial/{target_date}/" not in c.get("image", "")
+    )
+    if missing_cuts:
+        warnings.append(f"{missing_cuts} visual cuts use fallback library stills instead of today's downloads.")
 
-        logger.info(f"Saved active episode to: {active_out} and {date_out}")
+    write_qa_summary(target_date, episode, prompt_origin, rejections, warnings)
 
-    # 5. LinkedIn Publisher Agent
-    logger.info("[Agent 5: LinkedInPublisher] Generating executive LinkedIn article & cover banner...")
-    publisher = LinkedInPublisher(episode_payload)
-    deliverables = publisher.publish_deliverables()
-
-    logger.info("=" * 70)
-    logger.info("✅ AUTONOMOUS CREW INTELLIGENCE CYCLE COMPLETED SUCCESSFULLY")
-    logger.info(f"   • Active Episode: src/aibrief/data/active_episode.json")
-    logger.info(f"   • LinkedIn Post:  {deliverables.get('article')}")
-    logger.info(f"   • LinkedIn Cover: {deliverables.get('banner')}")
-    logger.info("=" * 70)
-
-    return episode_payload
+    deliverables = LinkedInPublisher(episode).publish_deliverables()
+    logger.info(f"LinkedIn post: {deliverables.get('article')} | cover: {deliverables.get('banner')}")
+    return episode
 
 
 if __name__ == "__main__":
@@ -95,5 +198,4 @@ if __name__ == "__main__":
     parser.add_argument("--date", type=str, help="Target broadcast date (YYYY-MM-DD)")
     parser.add_argument("--force-visuals", action="store_true", help="Force redownload of visual stills")
     args = parser.parse_args()
-
-    run_autonomous_crew(target_date=args.date, force_visuals=args.force_visuals)
+    sys.exit(0 if run_autonomous_crew(target_date=args.date, force_visuals=args.force_visuals) else 1)

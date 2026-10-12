@@ -115,6 +115,7 @@ export const AIBriefVideo: React.FC = () => {
                   <SourceWatermark
                     source={scene.story.source}
                     sourceUrl={scene.story.sourceUrl}
+                    sourceType={scene.story.sourceType}
                   />
                   <BroadcastHeader
                     date={episode.formattedDate}

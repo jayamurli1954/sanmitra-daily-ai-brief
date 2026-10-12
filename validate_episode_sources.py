@@ -24,6 +24,9 @@ import re
 import sys
 from urllib.parse import urlparse
 
+from src.aibrief.crew.fact_checker import MIN_EPISODE_STORIES
+from src.aibrief.crew.text_utils import same_event, unsupported_quantities
+
 if hasattr(sys.stdout, "reconfigure"):
     try:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -61,6 +64,14 @@ def load_prompt_text(date_str: str) -> str:
 
 
 def load_episode(date_str: str) -> dict:
+    # Check what the video will render (active_episode.json) when it is this
+    # date's episode; fall back to the dated copy for re-checking older days.
+    active_path = os.path.join(PROJECT_DIR, "src", "aibrief", "data", "active_episode.json")
+    if os.path.exists(active_path):
+        with open(active_path, "r", encoding="utf-8") as f:
+            active = json.load(f)
+        if active.get("date") == date_str:
+            return active
     episode_path = os.path.join(
         PROJECT_DIR, "src", "aibrief", "data", f"{date_str}.json"
     )
@@ -119,6 +130,40 @@ def source_appears_in_prompt(source_name: str, prompt_text: str) -> bool:
     return False
 
 
+def story_block(prompt_text: str, source_url: str) -> str:
+    """The '### headline' block of the prompt that cites this story's URL."""
+    if not source_url:
+        return ""
+    for block in re.split(r"(?:^|\n)###\s+", prompt_text):
+        if source_url in block:
+            return block
+    return ""
+
+
+def research_text(block: str) -> str:
+    """A prompt block without its Source/Also/URL lines: dates and IDs in links are not evidence."""
+    kept = [
+        line for line in block.splitlines()
+        if not re.match(r"^\s*\*{0,2}(?:Source|Also|Desk)\*{0,2}\s*:", line, re.IGNORECASE)
+    ]
+    return re.sub(r"https?://\S+", " ", "\n".join(kept))
+
+
+def unsupported_figures(script: str, evidence: str) -> list:
+    """Figures spoken in the script that the approved research never states, with magnitude
+    ("50 billion dollars" is not supported by "$50 million")."""
+    return unsupported_quantities(script, research_text(evidence))
+
+
+def duplicate_events(stories: list) -> list:
+    pairs = []
+    for i, a in enumerate(stories):
+        for j in range(i + 1, len(stories)):
+            if same_event(a.get("headline", ""), stories[j].get("headline", "")):
+                pairs.append((i + 1, j + 1))
+    return pairs
+
+
 # Claims that were painted on the cold open for every episode, with no
 # connection to that day's approved brief. The intro must take its headline
 # and outlet from the lead story instead.
@@ -161,12 +206,26 @@ def validate(date_str: str) -> bool:
         return False
 
     all_ok = True
+    if len(stories) < MIN_EPISODE_STORIES:
+        all_ok = False
+        print(f"[FAIL] Episode has {len(stories)} stories; at least {MIN_EPISODE_STORIES} are required "
+              "for a 10+ minute broadcast.\n")
+
     intro_problems = intro_scene_problems()
     if intro_problems:
         all_ok = False
         print("[FAIL] Cold open is not driven by today's lead story.")
         for problem in intro_problems:
             print(f"    - {problem}")
+        print()
+
+    duplicates = duplicate_events(stories)
+    if duplicates:
+        all_ok = False
+        print("[FAIL] The same event appears more than once:")
+        for a, b in duplicates:
+            print(f"    - Story {a} and Story {b}: "
+                  f"{stories[a - 1].get('headline', '')[:60]!r} / {stories[b - 1].get('headline', '')[:60]!r}")
         print()
 
     print(f"Validating {len(stories)} stories for {date_str} against {date_str}.md\n")
@@ -190,6 +249,15 @@ def validate(date_str: str) -> bool:
         if not source_appears_in_prompt(source, prompt_text):
             problems.append(
                 f"source '{source}' does not appear anywhere in prompts/{date_str}.md"
+            )
+
+        block = story_block(prompt_text, source_url)
+        if source_url and not block:
+            problems.append("sourceUrl is not cited in any story block of the prompt")
+        figures = unsupported_figures(story.get("script", ""), block or prompt_text)
+        if figures:
+            problems.append(
+                f"script states figures not in the prompt's research for this story: {', '.join(figures)}"
             )
 
         status = "OK" if not problems else "FAIL"

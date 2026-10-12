@@ -27,6 +27,7 @@ export interface Story {
   durationSeconds: number;
   source: string;
   sourceUrl: string;
+  sourceType?: "company" | "reporting";
   script: string;
   keyPoints: string[];
   visualAsset?: string;

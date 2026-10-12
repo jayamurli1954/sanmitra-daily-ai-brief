@@ -74,8 +74,17 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
         print("[X] Voiceover synthesis failed!")
         sys.exit(1)
 
+    # 4b. Length check: under 10 minutes the episode looks like a Short.
+    with open(os.path.join("src", "aibrief", "data", "timings.json"), "r", encoding="utf-8") as f:
+        total_frames = sum(v.get("durationInFrames", 0) for v in json.load(f).values())
+    if total_frames < 10 * 60 * 30:
+        print(f"[X] Episode runs {total_frames / 30 / 60:.1f} minutes; at least 10 are required. Not rendering.")
+        sys.exit(1)
+
     # 5. Timed SRT Subtitles & Remotion Captions
-    run_step("python generate_subtitles.py", "Generating Timed Subtitles & Word Timestamps")
+    if not run_step("python generate_subtitles.py", "Generating Timed Subtitles & Word Timestamps"):
+        print("[X] Subtitle generation failed. Not publishing a video without captions.")
+        sys.exit(1)
 
     # 6. Thumbnails Rendering & Algorithmic CTR Ranking
     os.makedirs(os.path.join("out", "aibrief"), exist_ok=True)
@@ -133,18 +142,35 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
         shutil.copyfile(video_out, legacy_alias)
 
     # 8. Automated YouTube Upload
-    if upload_youtube and os.path.exists(video_out):
-        ok_yt = run_step(
+    upload_failed = False
+    if upload_youtube:
+        ok_yt = os.path.exists(video_out) and run_step(
             f"python upload_to_youtube.py {video_out} --privacy {privacy}",
             f"Uploading 1080p Broadcast to YouTube (Privacy: {privacy.upper()})"
         )
         if ok_yt:
             print("🎉 Video successfully uploaded to YouTube!")
+            # Only aired stories count against the 7-day repeat window.
+            from src.aibrief.crew.crew_orchestrator import record_aired_stories
+            record_aired_stories(date_str)
+        else:
+            # Reported as a failed run (red in GitHub Actions, with an email),
+            # after the Drive backup below has had its chance to run.
+            upload_failed = True
+            print("[X] YouTube upload FAILED. If the log shows 'invalid_grant', the YouTube token "
+                  "has expired: publish the OAuth consent screen and refresh YOUTUBE_TOKEN_JSON.")
+        qa_path = os.path.join("out", "aibrief", f"qa_summary_{date_str}.md")
+        if os.path.exists(qa_path):
+            with open(qa_path, "a", encoding="utf-8") as f:
+                f.write(f"\nYouTube upload ({privacy}): {'OK' if ok_yt else 'FAILED'}\n")
 
     # 9. Google Drive Backup
     gdrive_folder = os.environ.get("GDRIVE_FOLDER_ID", "")
     if gdrive_folder and os.path.exists("upload_to_gdrive.py"):
         run_step(f"python upload_to_gdrive.py --folder-id {gdrive_folder}", "Syncing Deliverables to Google Drive")
+
+    if upload_failed:
+        sys.exit(1)
 
     print("\n" + "=" * 80)
     print("🏆 FULL AUTONOMOUS BROADCAST DESK EXECUTION COMPLETE!")

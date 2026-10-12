@@ -4,10 +4,12 @@ import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 interface SourceWatermarkProps {
   source: string;
   sourceUrl?: string;
+  sourceType?: "company" | "reporting";
 }
 
 export const SourceWatermark: React.FC<SourceWatermarkProps> = ({
   source,
+  sourceType,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -44,7 +46,7 @@ export const SourceWatermark: React.FC<SourceWatermarkProps> = ({
           "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
       }}
     >
-      {/* Verified Shield Icon */}
+      {/* Source Icon */}
       <svg
         width="18"
         height="18"
@@ -69,7 +71,7 @@ export const SourceWatermark: React.FC<SourceWatermarkProps> = ({
             textTransform: "uppercase",
           }}
         >
-          VERIFIED REPORTING
+          {sourceType === "company" ? "COMPANY ANNOUNCEMENT" : "REPORTED BY"}
         </span>
         <span
           style={{
