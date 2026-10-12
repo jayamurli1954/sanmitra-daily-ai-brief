@@ -51,7 +51,7 @@ RETRIABLE_EXCEPTIONS = (
 )
 RETRIABLE_STATUS_CODES = [500, 502, 503, 504]
 
-def get_authenticated_service():
+def get_authenticated_service(interactive=False):
     creds = None
     if os.path.exists(TOKEN_FILE):
         creds = Credentials.from_authorized_user_file(TOKEN_FILE, SCOPES)
@@ -60,6 +60,11 @@ def get_authenticated_service():
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
+            # Open the browser only on request: a scheduled run would wait on it forever.
+            if not interactive:
+                print("[X] YouTube token missing, expired or revoked.")
+                print("    Run 'python upload_to_youtube.py --auth' once from a terminal to sign in again.")
+                sys.exit(1)
             if not os.path.exists(CLIENT_SECRETS_FILE):
                 print(f"[!] Error: {CLIENT_SECRETS_FILE} not found!")
                 print("    Please download your OAuth 2.0 client credentials from Google Cloud Console")
@@ -282,7 +287,13 @@ def main():
     parser.add_argument("--meta-file", type=str, help="Custom metadata file path")
     parser.add_argument("--video-id", type=str, help="Existing YouTube video ID to set thumbnail for")
     parser.add_argument("--publish-at", type=str, help="UTC time to publish, RFC3339, for example 2026-10-03T02:00:00Z")
+    parser.add_argument("--auth", action="store_true", help="Sign in through the browser and save token.json, then exit")
     args = parser.parse_args()
+
+    if args.auth:
+        get_authenticated_service(interactive=True)
+        print("[+] YouTube authentication is valid and ready.")
+        sys.exit(0)
 
     date_str = args.date
     # Hard gate: do not publish a video whose sources are not in the approved prompt.
