@@ -233,6 +233,41 @@ def crop_and_grade(im: Image.Image) -> Image.Image:
     im = enhancer_color.enhance(1.05)
     return im
 
+# Records which stories a date folder's stills were chosen for. A run that is
+# restarted with a different story list must not reuse them: on 2026-10-14 the
+# stills from an aborted run were attached to different stories.
+STORY_MANIFEST = "_stories.json"
+
+
+def _episode_headlines(date_str: str) -> list:
+    for path in (os.path.join("src", "aibrief", "data", "active_episode.json"),
+                 os.path.join("src", "aibrief", "data", f"{date_str}.json")):
+        if os.path.exists(path):
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    ep = json.load(f)
+            except Exception:
+                continue
+            if ep.get("date", date_str) == date_str:
+                return [s.get("headline", "") for s in ep.get("stories", [])]
+    return []
+
+
+def stills_match_episode(dest_dir: str, headlines: list) -> bool:
+    """True only if the folder was filled for exactly these stories and every cut exists."""
+    manifest = os.path.join(dest_dir, STORY_MANIFEST)
+    if not headlines or not os.path.exists(manifest):
+        return False
+    try:
+        with open(manifest, "r", encoding="utf-8") as f:
+            if json.load(f) != headlines:
+                return False
+    except Exception:
+        return False
+    return all(os.path.exists(os.path.join(dest_dir, f"s{i}_cut{c}.jpg"))
+               for i in range(1, len(headlines) + 1) for c in (1, 2, 3))
+
+
 def download_daily_visuals(date_str: str, force: bool = False, retention_days: int = 7):
     print("=" * 75)
     print(f"🎬 DOWNLOADING FRESH STORY-BASED EDITORIAL VISUALS FOR {date_str} (Force: {force})")
@@ -243,9 +278,14 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
 
     dest_dir = os.path.join("public", "aibrief", "assets", "editorial", date_str)
     os.makedirs(dest_dir, exist_ok=True)
-    if not force and os.path.exists(os.path.join(dest_dir, "s1_cut1.jpg")) and os.path.exists(os.path.join(dest_dir, "s9_cut3.jpg")):
-        print(f"[+] Editorial stills for {date_str} are already on disk. Leaving them in place.")
-        return
+    headlines = _episode_headlines(date_str)
+    if not force:
+        if stills_match_episode(dest_dir, headlines):
+            print(f"[+] Editorial stills for {date_str} match today's {len(headlines)} stories. Leaving them in place.")
+            return
+        if glob.glob(os.path.join(dest_dir, "s*_cut*.jpg")):
+            print(f"[!] Stills on disk for {date_str} were chosen for a different story list. Downloading afresh.")
+            force = True
 
     # If force, clear old/stale images in the target date folder before download
     if force and os.path.exists(dest_dir):
@@ -442,6 +482,10 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
         print(f"\n[+] Visual memory updated with {len(used_this_run)} assets: {MEMORY_FILE}")
         print(f"[+] Category diversity distribution: {category_counts}")
         print(f"[+] All fresh visuals downloaded to: {dest_dir}\n")
+
+    if headlines:
+        with open(os.path.join(dest_dir, STORY_MANIFEST), "w", encoding="utf-8") as f:
+            json.dump(headlines, f, ensure_ascii=False, indent=1)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
