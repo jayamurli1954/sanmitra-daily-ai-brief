@@ -1,9 +1,9 @@
 name: Daily Autonomous SanMitra AI News Wire
 
 on:
-  schedule:
-    # 00:00 UTC is 05:30 AM IST (Runs early so video & LinkedIn dispatches are ready by 6:15 AM)
-    - cron: '00 00 * * *'
+  # Scheduled runs retired 2026-10-13: production runs on the PC at 10:15 PM IST
+  # (run_nightly_production.bat). Edge TTS refuses GitHub runners, so a scheduled
+  # cloud run could not voice the episode. Kept for manual runs only.
   workflow_dispatch:
     inputs:
       privacy:
