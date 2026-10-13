@@ -49,12 +49,9 @@ CURATED_ENTITY_MAP = {
     "josephine teo": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/3f/Josephine_Teo_at_AsiaTech_X_Artificial_Intelligence_%28ATxAI%29%2C_Capella_Singapore%2C_31_May_2024_-_cropped.jpg"), "MINISTER JOSEPHINE TEO • AI SAFEGUARDS DESK"),
     "jensen huang": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/8/87/Jensen_Huang_at_Computex_2023.jpg"), "KEYNOTE STAGE • JENSEN HUANG NVIDIA"),
     "sundar pichai": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d6/Sundar_pichai.png"), "EXECUTIVE BRIEFING • SUNDAR PICHAI ALPHABET"),
-    "dario amodei": ("https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=1920&q=85", "FRONTIER LABS DESK • DARIO AMODEI ANTHROPIC"),
     "justin trudeau": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/b/b6/Justin_Trudeau_2023_%28cropped%29.jpg"), "OFFICIAL ENGAGEMENT • CANADIAN FEDERAL DESK"),
     "mark carney": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/a/a2/Mark_Carney_2019.jpg"), "MACROECONOMIC AI SUMMIT • MARK CARNEY"),
     "nirmala sitharaman": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/38/Smt._Nirmala_Sitharaman_taking_charge_as_the_Union_Minister_for_Finance_%26_Corporate_Affairs%2C_in_New_Delhi_on_June_12%2C_2024_%28cropped%29.jpg"), "NEW DELHI • UNION FINANCE MINISTER SITHARAMAN"),
-    "maria cantwell": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/9f/US_Capitol_east_side.JPG"), "SENATE COMMERCE CHAIR • MARIA CANTWELL"),
-    "cantwell": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/9f/US_Capitol_east_side.JPG"), "SENATE COMMERCE CHAIR • MARIA CANTWELL"),
     "lisa su": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/de/SXSW-2024-alih-OB7A0861-Lisa_Su_%28cropped_2%29.jpg"), "AMD EXECUTIVE • DR. LISA SU"),
     "ashwini vaishnaw": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/35/Ashwini_Vaishnaw_cropped.jpg"), "NEW DELHI • UNION IT MINISTER ASHWINI VAISHNAW"),
     "vaishnaw": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/35/Ashwini_Vaishnaw_cropped.jpg"), "NEW DELHI • UNION IT MINISTER ASHWINI VAISHNAW"),
@@ -68,10 +65,8 @@ CURATED_ENTITY_MAP = {
     "us senate": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/9f/US_Capitol_east_side.JPG"), "WASHINGTON D.C. • US SENATE COMMERCE COMMITTEE"),
     "senate": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/9f/US_Capitol_east_side.JPG"), "WASHINGTON D.C. • US SENATE COMMERCE COMMITTEE"),
     "pentagon": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/2/2a/The_Pentagon%2C_Headquarters_of_the_US_Department_of_Defense_%28cropped2%29.jpg"), "ARLINGTON • THE PENTAGON HEADQUARTERS"),
-    "australia": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/b/b6/Parliament_House_at_dusk%2C_Canberra_ACT.jpg"), "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE"),
     "canberra": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/b/b6/Parliament_House_at_dusk%2C_Canberra_ACT.jpg"), "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE"),
-    "denmark": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7c/Christiansborg_Slot_Copenhagen_2014_01.jpg"), "COPENHAGEN • CHRISTIANSBORG PALACE"),
-    "copenhagen": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7c/Christiansborg_Slot_Copenhagen_2014_01.jpg"), "COPENHAGEN • DANISH CULTURE MINISTRY"),
+    "copenhagen": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7c/Christiansborg_Slot_Copenhagen_2014_01.jpg"), "COPENHAGEN • CHRISTIANSBORG PALACE"),
     "canada parliament": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/b/b5/Ottawa_-_ON_-_Stadtansicht.jpg"), "PARLIAMENT HILL • OTTAWA FEDERAL COMMERCE"),
     "parliament hill": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/b/b5/Ottawa_-_ON_-_Stadtansicht.jpg"), "PARLIAMENT HILL • CANADIAN POLICY DESK"),
     "new jersey": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/8/83/New_Jersey_State_House.jpg"), "TRENTON • NEW JERSEY STATE HOUSE"),
@@ -79,20 +74,15 @@ CURATED_ENTITY_MAP = {
     "iit madras": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/c6/Facade_of_IIT_Madras_%28cropped%29.jpg"), "CHENNAI • IIT MADRAS RESEARCH CAMPUS"),
     "meity": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "NEW DELHI • INDIA SOVEREIGN AI INITIATIVE"),
     "indiaai": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "NEW DELHI • INDIAAI MISSION SAFETY FRAMEWORK"),
-    "world bank": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "NEW DELHI • WORLD BANK WDR REPORT LAUNCH"),
     "digilocker": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "DIGITAL INDIA • DIGILOCKER AGENT PLATFORM"),
     "corover": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "BENGALURU • UNIFIED GOVERNMENT AI ASSISTANT"),
-    "soket": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "NEW DELHI • SOKET AI AGENT RESEARCH LAB"),
-    "soket ai": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "NEW DELHI • SOKET AI AGENT RESEARCH LAB"),
     "mas": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/8/8c/Monetary_Authority_of_Singapore_2.jpg"), "SINGAPORE • MONETARY AUTHORITY OF SINGAPORE"),
     "monetary authority of singapore": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/8/8c/Monetary_Authority_of_Singapore_2.jpg"), "SINGAPORE • MONETARY AUTHORITY OF SINGAPORE"),
-    "singapore": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/b/b6/Skyline_of_Singapore_Central_Business_District_20250903.jpg"), "SINGAPORE • CENTRAL BUSINESS DISTRICT SKYLINE"),
     "china sovereign": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/China_Senate_House.jpg/1280px-China_Senate_House.jpg"), "BEIJING • SOVEREIGN AI GOVERNANCE ARCHITECTURE"),
     "china reinforces": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/China_Senate_House.jpg/1280px-China_Senate_House.jpg"), "BEIJING • SOVEREIGN AI GOVERNANCE ARCHITECTURE"),
     "chinese open-weight": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg/1280px-Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg"), "BEIJING • OPEN-WEIGHT INFERENCE HUBS"),
     "open-weight": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg/1280px-Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg"), "BEIJING • OPEN-WEIGHT INFERENCE HUBS"),
-    "deepseek": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg/1280px-Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg"), "BEIJING • DEEPSEEK FOUNDATION LABS"),
-    "china": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/China_Senate_House.jpg/1280px-China_Senate_House.jpg"), "BEIJING • STATE AI GOVERNANCE DESK"),
+    "deepseek": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/f/fd/Hangzhou_Skyline_against_the_West_Lake.png"), "HANGZHOU • HOME CITY OF DEEPSEEK"),
 
     # Corporations & Laboratories
     "openai": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/a/a7/1515_Third_Street.jpg"), "MISSION BAY • OPENAI HEADQUARTERS"),
@@ -120,6 +110,9 @@ CURATED_ENTITY_MAP = {
     "biology": ("https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=85", "CELLULAR DYNAMICS • PREDICTIVE BIOLOGY LAB"),
     "sierra": ("https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1920&q=85", "ENTERPRISE PROTOCOL • PERSONAL AGENT PLATFORM"),
     "nous research": ("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85", "OPEN RESEARCH LAB • NOUS HERMES FOUNDATION"),
+    "apple": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/5a/Aerial_view_of_Apple_Park_dllu.jpg"), "CUPERTINO • APPLE PARK"),
+    "meta": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7c/Meta_Platforms_Headquarters_Menlo_Park_California.jpg"), "MENLO PARK • META HEADQUARTERS"),
+    "disney": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/32/Walt_Disney_Studios_Alameda_Entrance.jpg"), "BURBANK • WALT DISNEY STUDIOS"),
     "microsoft": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Redmond_Campus_redevelopment_aerial_view%2C_Sept._2021.jpg"), "REDMOND • MICROSOFT REDMOND CAMPUS"),
     "surface": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Redmond_Campus_redevelopment_aerial_view%2C_Sept._2021.jpg"), "REDMOND • MICROSOFT SURFACE HARDWARE LAB"),
     "surface laptop": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Redmond_Campus_redevelopment_aerial_view%2C_Sept._2021.jpg"), "REDMOND • MICROSOFT SURFACE HARDWARE LAB"),
@@ -132,20 +125,14 @@ CURATED_ENTITY_MAP = {
     "gpu": ("https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85", "HIGH-DENSITY GPU CLUSTERS • ACCELERATED COMPUTE"),
     "yandex": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/a/ad/Yandex_main_office.jpg"), "MOSCOW • YANDEX CLOUD COMPUTING HEADQUARTERS"),
     "amie": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg"), "GOOGLE HEALTH CLINICAL AI • AMIE EVALUATION"),
-    "tokyo": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/66/Tokyo_Skyline20210123.jpg"), "TOKYO • JAPAN NATIONAL CYBERSECURITY CENTER"),
-    "japan": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/66/Tokyo_Skyline20210123.jpg"), "TOKYO • JAPAN CYBER DEFENSE COUNCIL"),
+    "tokyo": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/66/Tokyo_Skyline20210123.jpg"), "TOKYO • CITY SKYLINE"),
     "manchester": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/0/02/Beetham_Tower_from_below.jpg"), "MANCHESTER • G20 INNOVATION NATION SUMMIT"),
     "burnham": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/0/02/Beetham_Tower_from_below.jpg"), "MANCHESTER • G20 INNOVATION NATION SUMMIT"),
     "state council": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/China_Senate_House.jpg/1280px-China_Senate_House.jpg"), "BEIJING • STATE COUNCIL DIRECTIVES"),
     "firmus": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/57/Data_Center_of_CNPC.jpg"), "ASX • HYPERSCALE DATACENTER VALUATIONS"),
 
     # Direct military & aerospace defense systems
-    "intelic": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/db/Skyline_Amsterdam_Zuidas.jpg"), "AMSTERDAM • INTELIC DEFENSE SOFTWARE HUB"),
-    "nexus": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/2/2f/U-s-service-members-stand-by-a-patriot-missile-battery-in-gaziantep-turkey.jpg"), "AIR DEFENSE • AUTONOMOUS NEXUS SENSOR GRID"),
     "air defense": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/2/2f/U-s-service-members-stand-by-a-patriot-missile-battery-in-gaziantep-turkey.jpg"), "AIR DEFENSE • PATRIOT RADAR BATTERY"),
-    "shield ai": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/4/49/An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg"), "NAVAL AVIATION • SHIELD AI AUTONOMOUS FLEET"),
-    "x-bat": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/4/49/An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg"), "DEFENSE INNOVATION UNIT • X-BAT AUTONOMOUS JET"),
-    "navy": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/4/49/An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg"), "US NAVY • MARITIME AVIATION OPERATIONS"),
     "harmattan": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg"), "MARRAKECH • AUTONOMOUS DEEP-STRIKE DEFENSE"),
     "irifi": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg"), "MARRAKECH • IRIFI DEEP-STRIKE DRONE SYSTEM"),
     "drone": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg"), "TACTICAL AEROSPACE • AUTONOMOUS DRONE FLIGHT"),
@@ -170,27 +157,24 @@ CURATED_ENTITY_MAP = {
     "riemann": ("https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1920&q=85", "RIEMANN ZETA • MACHINE FORMALIZATION"),
 
     # Cities & Regions
-    "morocco": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/6c/Casa_finance_city_6_%28cropped%29.jpg"), "CASABLANCA • DEFENSE AEROSPACE COMPLEX"),
     "casablanca": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/6c/Casa_finance_city_6_%28cropped%29.jpg"), "CASABLANCA • DEFENSE AEROSPACE COMPLEX"),
     "dalby": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d3/Dalby_aerial.jpg"), "WESTERN DOWNS • DALBY RURAL REGION"),
     "queensland": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d3/Dalby_aerial.jpg"), "QUEENSLAND • REGIONAL ENERGY & COMPUTE CORRIDOR"),
     "pyongyang": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/e/e7/The_Arch_of_Triumph_%2811360607534%29.jpg"), "PYONGYANG • STRATEGIC MILITARY COMMAND"),
     "bengaluru": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "BENGALURU • INDIA SOVEREIGN TECH CAPITAL"),
     "guwahati": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/11/Guwahati_citysky.jpg"), "GUWAHATI • NORTHEAST INDIA TECH PARK"),
-    "norway": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/c5/Stortinget_August_2019_01.jpg"), "OSLO • NORWEGIAN PARLIAMENT STORTINGET"),
     "new york city": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg"), "NEW YORK CITY • MUNICIPAL AI GOVERNANCE COUNCIL"),
-    "south korea": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/4/45/Yeouido2025.jpg"), "SEOUL • YEOUIDO FINANCIAL DISTRICT"),
-    "korea": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/4/45/Yeouido2025.jpg"), "SEOUL • 10K GPU SOVEREIGN COMPUTE PROJECT"),
     "nato": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/5a/NSOC-2012.jpg"), "BRUSSELS • NATO OPERATIONS CENTER"),
     "data center": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/57/Data_Center_of_CNPC.jpg"), "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT"),
     "datacentre": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/57/Data_Center_of_CNPC.jpg"), "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT")
 }
 
 # Domain-specific B-roll pools (100% authentic editorial visuals, NO server cables, NO plasma balls, NO toy drones)
+# Stand-in stills for cuts the story itself cannot supply. Only generic,
+# location-free images: a named place here (Canberra, Capitol Hill, Samsung HQ)
+# ended up captioned as the setting of unrelated stories.
 DOMAIN_POOLS = {
     "defense": [
-        (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/2/2f/U-s-service-members-stand-by-a-patriot-missile-battery-in-gaziantep-turkey.jpg"), "AIR DEFENSE • MIM-104 PATRIOT RADAR BATTERY"),
-        (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/4/49/An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg"), "NAVAL AVIATION • CARRIER LAUNCH OPERATIONS"),
         (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/6f/FBX_T.jpg"), "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM"),
         (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/5a/NSOC-2012.jpg"), "TACTICAL OPERATIONS CENTER • INCIDENT DESK"),
         ("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85", "CYBER DEFENSE OPERATIONS • LIVE INCIDENT FEED"),
@@ -199,10 +183,6 @@ DOMAIN_POOLS = {
         ("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=85", "NETWORK SECURITY OPERATIONS • SENSOR AUDIT")
     ],
     "policy": [
-        (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/b/b6/Parliament_House_at_dusk%2C_Canberra_ACT.jpg"), "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE"),
-        (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7c/Christiansborg_Slot_Copenhagen_2014_01.jpg"), "COPENHAGEN • CHRISTIANSBORG PALACE"),
-        (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "NEW DELHI • BHARAT MANDAPAM SUMMIT"),
-        (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/9f/US_Capitol_east_side.JPG"), "CAPITOL HILL • LEGISLATIVE DESK"),
         ("https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1920&q=85", "MULTILATERAL FORUM • REGULATORY HARMONIZATION"),
         ("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=85", "STANDARDS AUDITING • COMPLIANCE FRAMEWORK"),
         ("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=85", "REGULATORY OVERSIGHT • JUDICIAL INQUIRY"),
@@ -210,7 +190,6 @@ DOMAIN_POOLS = {
     ],
     "hardware": [
         (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg"), "SEMICONDUCTOR FAB • ADVANCED FOUNDRY"),
-        (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/e/e2/Samsung_headquarters.jpg"), "SUWON • SAMSUNG DIGITAL CITY HEADQUARTERS"),
         (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/57/Data_Center_of_CNPC.jpg"), "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE"),
         ("https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=85", "ADVANCED SILICON DIE • FABRICATION CLEANROOM"),
         ("https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85", "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT"),
@@ -219,8 +198,6 @@ DOMAIN_POOLS = {
         ("https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=1920&q=85", "SEMICONDUCTOR WAFER • ADVANCED PACKAGING")
     ],
     "research": [
-        (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/71/George_Washington_University_School_of_Engineering_and_Applied_Science_%2855266857738%29.jpg"), "WASHINGTON D.C. • GWU SCIENCE & ENGINEERING"),
-        (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/0/03/MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg"), "FRONTIER AI RESEARCH • MIT CSAIL"),
         ("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85", "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION"),
         ("https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&q=85", "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE"),
         ("https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1920&q=85", "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE"),
@@ -255,6 +232,28 @@ BANNED_WIKI_KEYWORDS = [
 ]
 
 
+_CORP_SUFFIXES = {"inc", "corp", "corporation", "ltd", "limited", "group", "holdings", "company", "co",
+                  "technologies", "platforms", "systems", "plc", "llc", "ag", "sa"}
+
+
+def _title_matches(query: str, title: str) -> bool:
+    """The page must be the thing searched for. Search results alone gave
+    "WindBorne" -> "Aeolian processes", "Haven" -> "Jack Haven", "Mac" -> "Fleetwood Mac"."""
+    def words(text):
+        return [w for w in re.findall(r"[a-z0-9]+", text.lower().replace(".", ""))]
+    q = words(query)
+    t = [w for w in words(re.sub(r"\([^)]*\)", " ", title)) if w not in _CORP_SUFFIXES]
+    if not q or not t:
+        return False
+    if t == q:
+        return True
+    # Acronyms: "IMF" -> "International Monetary Fund"
+    if len(q) == 1 and query.isupper() and len(query) >= 2:
+        initials = "".join(w[0] for w in t if w not in ("of", "and", "the", "for"))
+        return initials == q[0]
+    return False
+
+
 def search_wikipedia_image(query: str) -> Optional[Tuple[str, str]]:
     """Fetches high-resolution lead image from Wikipedia for a named entity with strict negative filtering."""
     q_lower = query.lower().strip()
@@ -265,22 +264,8 @@ def search_wikipedia_image(query: str) -> Optional[Tuple[str, str]]:
         query = "United States Senate"
     elif q_lower in ("harmattan", "irifi"):
         query = "Unmanned aerial vehicle"
-    elif q_lower in ("cantwell", "maria cantwell"):
-        query = "United States Capitol"
     elif q_lower in ("lisa su", "su"):
         query = "Lisa Su"
-    elif q_lower in ("denmark", "copenhagen"):
-        query = "Christiansborg Palace"
-    elif q_lower in ("australia", "canberra"):
-        query = "Parliament House, Canberra"
-    elif q_lower in ("gwu", "george washington", "george washington university"):
-        query = "George Washington University School of Engineering and Applied Science"
-    elif q_lower in ("soket", "soket ai", "loop"):
-        query = "Bharat Mandapam"
-    elif q_lower in ("shield ai", "x-bat", "navy"):
-        query = "Carrier-based aircraft"
-    elif q_lower in ("intelic", "nexus"):
-        query = "Amsterdam Zuidas"
 
     url = f"https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch={urllib.parse.quote(query)}&gsrlimit=4&prop=pageimages&piprop=original|thumbnail&pithumbsize=1920&format=json"
     req = urllib.request.Request(url, headers=HEADERS)
@@ -296,6 +281,16 @@ def search_wikipedia_image(query: str) -> Optional[Tuple[str, str]]:
                 src_lower = src.lower()
                 title_lower = title.lower()
 
+                # "Mia (given name)", "Character (arts)", "Study (room)": a page about
+                # the word, not the subject. Company and product pages are fine.
+                paren = re.search(r"\(([^)]*)\)", title_lower)
+                if paren and paren.group(1) not in ("company", "software", "website", "app", "organization", "brand", "chatbot", "programming language"):
+                    continue
+                if title_lower.startswith("list of") or "disambiguation" in title_lower:
+                    continue
+                if not _title_matches(query, title):
+                    continue
+
                 # Exclude diagrams, election maps, coats of arms, polygons, beers, paintings, manga
                 if any(k in src_lower or k in title_lower for k in BANNED_WIKI_KEYWORDS):
                     continue
@@ -306,6 +301,71 @@ def search_wikipedia_image(query: str) -> Optional[Tuple[str, str]]:
     except Exception:
         pass
     return None
+
+
+# Capitalised words that are not names: headline words in sentence or title case,
+# roles, and demonyms. "Indian states" found the Indian Army, "Study" found
+# "Study (room)", "Actress Mia Goth" should look up "Mia Goth".
+_NOT_NAMES = {
+    "a", "an", "the", "and", "or", "of", "for", "to", "in", "on", "at", "by", "with", "from", "as", "after",
+    "over", "into", "than", "that", "this", "these", "its", "it", "is", "are", "be", "how", "why", "what",
+    "who", "when", "new", "first", "more", "most", "ai", "says", "say", "said", "warns", "warn",
+    "launches", "launch", "unveils", "unveil", "raises", "raise", "files", "wins", "win", "rush", "rushes",
+    "details", "backs", "back", "finds", "find", "seeks", "plans", "calls", "urges", "slide", "slides",
+    "move", "moves", "closer", "lead", "leads", "set", "sets", "gets", "may", "could", "will", "can",
+    "study", "report", "reports", "actress", "actor", "investors", "investor", "chip", "chips", "stocks",
+    "shares", "startup", "start-up", "startups", "firm", "company", "boss", "ceo", "ceos", "minister",
+    "president", "chief", "government", "state", "states", "city", "police", "court", "team", "models",
+    "model", "agents", "agent", "autonomous", "combat", "jets", "drone", "drones", "language", "personal",
+    "smart", "home", "devices", "funding", "fund", "deal", "data", "tech", "technology", "global",
+    "national", "daily", "brief", "news", "special", "monday", "tuesday", "wednesday", "thursday", "friday",
+    "saturday", "sunday", "breaking", "exclusive", "update", "analysis",
+}
+_DEMONYM = re.compile(r"(?:ian|ese|ish|ean|ani)$")
+_SUFFIXED = re.compile(r"-(?:backed|based|led|funded|owned|founded|built|made|style|like)$", re.IGNORECASE)
+_WORD = re.compile(r"[A-Za-z0-9][\w.&'’-]*")
+
+
+def headline_entities(headline: str) -> List[str]:
+    """Names in a headline, in headline order (the subject usually comes first):
+    runs of capitalised words that are not common words, demonyms or "X-backed"
+    style modifiers ("Sequoia-backed" names the investor, not the subject).
+    A possessive ends a name: "Anthropic's Claude" is Anthropic, then Claude."""
+    runs, current = [], []
+    for raw in _WORD.findall(headline or ""):
+        possessive = bool(re.search(r"(?:'s|’s)$", raw))
+        word = re.sub(r"(?:'s|’s)$", "", raw).strip(".,:;'’")
+        lower = word.lower()
+        proper = (
+            word[:1].isupper()
+            and lower not in _NOT_NAMES
+            and not _SUFFIXED.search(word)
+            and not (word.isalpha() and word[1:].islower() and _DEMONYM.search(lower))
+        )
+        if proper:
+            current.append(word)
+            if possessive:
+                runs.append(" ".join(current))
+                current = []
+        elif current:
+            runs.append(" ".join(current))
+            current = []
+    if current:
+        runs.append(" ".join(current))
+    seen, names = set(), []
+    for name in runs:
+        if len(name) >= 3 and name.lower() not in seen:
+            seen.add(name.lower())
+            names.append(name)
+    return names
+
+
+def _mentions(key: str, text: str) -> int:
+    return len(re.findall(r"\b" + re.escape(key) + r"\b", text, re.IGNORECASE))
+
+
+def _has_any(text: str, words: List[str]) -> bool:
+    return any(_mentions(w, text) for w in words)
 
 
 def resolve_cuts_for_story(
@@ -321,6 +381,7 @@ def resolve_cuts_for_story(
     """
     hl_text = headline.lower()
     full_text = f"{headline} {summary}".lower()
+    body_text = (summary or "").replace(headline or "", " ", 1).lower()
     cuts = []
 
     # 1. Match curated entities appearing in the HEADLINE first (primary subject of the story)
@@ -336,16 +397,16 @@ def resolve_cuts_for_story(
         for key, (img_url, badge) in CURATED_ENTITY_MAP.items():
             if len(cuts) >= 2:
                 break
-            # Skip broad comparisons (e.g. comparing to OpenAI/Google) if headline was about something else
-            if re.search(r'\b' + re.escape(key) + r'\b', full_text, re.IGNORECASE):
+            # A company named once in the body is usually a comparison ("matches OpenAI
+            # and Anthropic"), not the subject; Meta's launch got OpenAI's headquarters.
+            if _mentions(key, body_text) >= 2:
                 if not any(c[0] == img_url for c in cuts):
                     cuts.append((img_url, badge))
 
-    # 3. If no entity matched yet, try live Wikipedia image search for leading capitalized terms in headline
+    # 3. If no entity matched yet, try live Wikipedia image search for the headline's names
     if not cuts:
-        entities = re.findall(r'\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?\b', headline)
-        for ent in entities:
-            if ent.lower() in ("daily", "brief", "news", "special", "report", "wire", "monday", "tuesday", "technology", "development", "board", "world", "china", "asia", "india", "usa"):
+        for ent in headline_entities(headline):
+            if ent.lower() in ("china", "asia", "india", "usa", "us", "uk", "europe", "world", "big"):
                 continue
             wiki_res = search_wikipedia_image(ent)
             if wiki_res:
@@ -358,15 +419,16 @@ def resolve_cuts_for_story(
     # 4. Determine domain for complementary operational B-roll
     text = full_text
     domain = "policy"
-    if any(k in text for k in ["missile", "military", "weapon", "warhead", "pyongyang", "air-defense", "ballistic", "nato", "flank", "targeting", "drone", "incursion", "avenger", "swarms", "kill-chain"]):
+    # Whole words only: substring tests matched "ban" in "bank", "mit" in "submit", "die" in "diet".
+    if _has_any(text, ["missile", "missiles", "military", "weapon", "weapons", "warhead", "pyongyang", "air-defense", "ballistic", "nato", "targeting", "drone", "drones", "interceptor", "interceptors", "incursion", "swarms", "kill-chain"]):
         domain = "defense"
-    elif any(k in text for k in ["datacentre", "data center", "grid", "power", "energy", "substation", "hectare", "bedrock", "aws", "cloud", "hyperscale", "capacity"]):
-        domain = "energy"
-    elif any(k in text for k in ["chip", "semiconductor", "amd", "nvidia", "gpu", "hardware", "wafer", "silicon", "soc", "bigendian", "veerai", "die", "npu"]):
+    elif _has_any(text, ["chip", "chips", "semiconductor", "semiconductors", "amd", "nvidia", "gpu", "gpus", "hardware", "wafer", "silicon", "soc", "npu", "cpu", "cpus", "processor", "accelerator"]):
         domain = "hardware"
-    elif any(k in text for k in ["research", "rrsi", "benchmark", "foundation model", "eval", "vista", "arc-agi", "mit", "agent", "deepseek", "moe", "weights", "mathematics", "maths", "kakeya", "riemann", "cellular", "biology"]):
+    elif _has_any(text, ["datacentre", "data centre", "data center", "grid", "power", "energy", "substation", "hyperscale", "petaflops", "megawatt", "gigawatt"]):
+        domain = "energy"
+    elif _has_any(text, ["research", "researchers", "benchmark", "benchmarks", "foundation model", "study", "paper", "agent", "agents", "deepseek", "weights", "mathematics", "maths", "biology", "laboratory"]):
         domain = "research"
-    elif any(k in text for k in ["glasses", "wearable", "privacy", "ban", "kill switch", "whistleblower", "hearing", "council", "senate", "governance", "claim act", "liability", "mas", "banking", "finance"]):
+    elif _has_any(text, ["privacy", "ban", "whistleblower", "hearing", "council", "senate", "governance", "liability", "regulation", "regulator", "lawsuit", "bankruptcy", "court"]):
         domain = "policy"
 
     pool = DOMAIN_POOLS.get(domain, DOMAIN_POOLS["policy"])
