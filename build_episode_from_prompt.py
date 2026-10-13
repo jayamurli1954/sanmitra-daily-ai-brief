@@ -7,7 +7,7 @@ Strictly implements broadcast newsroom architecture:
 4. Never reads source URLs or raw "Source: Reuters" aloud.
 5. Deduplicates similar stories appearing in multiple sections.
 6. Converts article format into natural Bloomberg/Reuters broadcast television narration.
-7. Employs natural anchor transitions ("In our lead story...", "Meanwhile in China...", "Turning to India...").
+7. Employs neutral anchor transitions ("Our lead story today.", "In China.", "Also today.").
 8. Each story keeps enough sentences to carry a broadcast of at least five minutes.
 9. Avoids repeating on-screen headline verbatim in the narration.
 """
@@ -189,28 +189,22 @@ def format_broadcast_narration(idx: int, region: str, headline: str, body: str, 
             break
     content = " ".join(kept) if kept else cleaned_body[:700]
 
-    # Generate natural broadcast anchor transitions
+    # Anchor transitions. Each is a sentence of its own, so the story text keeps
+    # its capitalisation, and none claims a topic: the old rotation ("Expanding on
+    # regulatory scrutiny,", "In enterprise infrastructure,") was read out before
+    # stories about weather balloons and grocery prices.
     transition = ""
     if idx == 1:
-        transition = "In our lead story today,"
+        transition = "Our lead story today."
     elif prev_region and region != prev_region:
-        if region == "USA":
-            transition = "Turning to the United States,"
-        elif region == "CHINA":
-            transition = "Meanwhile in China,"
-        elif region == "ASIA":
-            transition = "In Asia,"
-        elif region == "INDIA":
-            transition = "Turning to India,"
-        else:
-            transition = "In other global developments,"
+        transition = {
+            "USA": "Turning to the United States.",
+            "CHINA": "In China.",
+            "ASIA": "In Asia.",
+            "INDIA": "Turning to India.",
+        }.get(region, "Around the world.")
     else:
-        transitions_pool = [
-            "In another major development,",
-            "In concurrent industry updates,",
-            "Expanding on regulatory scrutiny,",
-            "In enterprise infrastructure,"
-        ]
+        transitions_pool = ["Also today.", "In other news.", "Next.", "Elsewhere."]
         transition = transitions_pool[(idx - 2) % len(transitions_pool)]
 
     # Combine transition and content
@@ -532,13 +526,13 @@ def parse_markdown_prompt(md_text: str) -> dict:
 
     # Recap checklist
     recap_items = [f"✓ {s['headline'][:48]}" for s in stories[:7]]
-    recap_script = "To recap today's headlines: " + "; ".join([s['headline'] for s in stories[:6]]) + "."
+    recap_script = "To recap today's top stories. " + " ".join(s['headline'].rstrip(".") + "." for s in stories[:6])
 
     # Intro script
     lead_head = stories[0]['headline'] if stories else "Frontier Artificial Intelligence"
     intro_script = (
-        f"In a landmark development, {lead_head}. "
-        f"From the SanMitra Newsroom, here is the Daily AI Brief for {formatted_date}."
+        f"Good morning. From the SanMitra Newsroom, this is the Daily AI Brief for {formatted_date}. "
+        f"Our top story: {lead_head}."
     )
 
     # Outro script

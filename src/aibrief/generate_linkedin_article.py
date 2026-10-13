@@ -29,7 +29,10 @@ if PROJECT_ROOT not in sys.path:
 _LEAD_IN = re.compile(
     r"^(?:In our lead story today|In another major development|In concurrent industry updates|"
     r"Expanding on [^,]{1,40}|In enterprise infrastructure|Meanwhile(?: in [^,]{1,25})?|"
-    r"Turning to [^,]{1,30}|Moving to [^,]{1,30}|In (?:Asia|India|China|Europe|the United States)),\s*",
+    r"Turning to [^,]{1,30}|Moving to [^,]{1,30}|In (?:Asia|India|China|Europe|the United States)),\s*"
+    # Current builder: each transition is its own short sentence.
+    r"|^(?:Our lead story today|Turning to the United States|Turning to India|In China|In Asia|"
+    r"Around the world|Also today|In other news|Next|Elsewhere)\.\s+",
     re.IGNORECASE,
 )
 

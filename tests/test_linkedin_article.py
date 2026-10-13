@@ -53,6 +53,8 @@ class LinkedInArticleTest(unittest.TestCase):
 
     def test_clean_summary(self):
         self.assertEqual(clean_summary("Expanding on regulatory scrutiny, nuvacore is raising."), "Nuvacore is raising.")
+        self.assertEqual(clean_summary("Also today. Nuvacore is raising."), "Nuvacore is raising.")
+        self.assertEqual(clean_summary("In China. China Mobile tripled capacity."), "China Mobile tripled capacity.")
 
 
 if __name__ == "__main__":
