@@ -15,6 +15,31 @@ import sys
 _WHISPER_MODEL = None
 
 
+
+# Captions are one line of 38px text, so a cue holds at most ~56 characters.
+CAPTION_MAX_CHARS = 56
+CAPTION_MIN_WORDS = 4
+
+
+def group_caption_words(words, max_chars=CAPTION_MAX_CHARS, min_words=CAPTION_MIN_WORDS):
+    """Split timed words into one-line phrases. A phrase ends at a full stop or
+    question mark, at a comma/colon/semicolon once it has min_words, or when the
+    next word would push it past max_chars."""
+    groups, current = [], []
+    for w in words:
+        text = w["word"].strip()
+        length = len(" ".join(x["word"].strip() for x in current + [w]))
+        if current and length > max_chars:
+            groups.append(current)
+            current = []
+        current.append(w)
+        if text.endswith((".", "?", "!")) or (text.endswith((",", ";", ":")) and len(current) >= min_words):
+            groups.append(current)
+            current = []
+    if current:
+        groups.append(current)
+    return groups
+
 def get_whisper_model():
     global _WHISPER_MODEL
     if _WHISPER_MODEL is None:
@@ -114,7 +139,8 @@ def generate_subtitles(data_path="src/aibrief/data/active_episode.json", timings
         scenes.append((s.get("id"), s.get("script", "")))
 
     scenes.append(("recap", data.get("recap", {}).get("script", "")))
-    scenes.append(("market_snapshot", data.get("marketSnapshot", {}).get("script", "")))
+    if data.get("marketSnapshot"):
+        scenes.append(("market_snapshot", data["marketSnapshot"].get("script", "")))
     scenes.append(("outro", data.get("outro", {}).get("script", "")))
 
     srt_entries = []
@@ -146,10 +172,8 @@ def generate_subtitles(data_path="src/aibrief/data/active_episode.json", timings
                 w["sceneId"] = scene_id
                 all_word_timestamps.append(w)
 
-            # Chunk words into natural 5-7 word phrases for lower-third display
-            phrase_size = 6
-            for idx_w in range(0, len(words), phrase_size):
-                chunk = words[idx_w:idx_w + phrase_size]
+            # One-line caption phrases that break at natural pauses.
+            for chunk in group_caption_words(words):
                 p_text = clean_subtitle_text(" ".join(item["word"] for item in chunk))
                 p_start = chunk[0]["start"]
                 p_end = chunk[-1]["end"]

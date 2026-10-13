@@ -152,16 +152,18 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
         "is_transition": False
     })
 
-    # 4. Market Snapshot
-    market = data.get("marketSnapshot", {})
-    sequence.append({
-        "id": "market_snapshot",
-        "title": "AI Market Snapshot",
-        "filename": "s_market_snapshot.mp3",
-        "text": market.get("script", ""),
-        "voice": anchor_for("market_snapshot"),
-        "is_transition": False
-    })
+    # 4. Market Snapshot: older episodes only. It re-read the recap's headlines
+    # word for word, so new episodes leave it out.
+    market = data.get("marketSnapshot")
+    if market:
+        sequence.append({
+            "id": "market_snapshot",
+            "title": "AI Market Snapshot",
+            "filename": "s_market_snapshot.mp3",
+            "text": market.get("script", ""),
+            "voice": anchor_for("market_snapshot"),
+            "is_transition": False
+        })
 
     # 5. Outro
     outro = data.get("outro", {})

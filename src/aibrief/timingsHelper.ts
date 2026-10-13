@@ -102,8 +102,9 @@ export const getBroadcastScenes = (
     audioFile: timings["recap"]?.audioFile || "audio/aibrief/s_recap.mp3",
   });
 
-  // 4. Market Snapshot
-  scenes.push({
+  // 4. Market Snapshot (older episodes only: it re-read the recap's headlines,
+  // so new episodes leave it out)
+  if (episode.marketSnapshot) scenes.push({
     id: "market_snapshot",
     type: "market_snapshot",
     durationInFrames: timings["market_snapshot"]?.durationInFrames ?? 450,

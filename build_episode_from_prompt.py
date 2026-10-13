@@ -534,16 +534,6 @@ def parse_markdown_prompt(md_text: str) -> dict:
     recap_items = [f"✓ {s['headline'][:48]}" for s in stories[:7]]
     recap_script = "To recap today's headlines: " + "; ".join([s['headline'] for s in stories[:6]]) + "."
 
-    market_colors = ["#0ea5e9", "#ef4444", "#10b981", "#8b5cf6", "#38bdf8", "#f97316", "#10a37f"]
-    market_entities = []
-    for i, s in enumerate(stories[:6]):
-        market_entities.append({
-            "name": s["region"],
-            "update": s["headline"][:72],
-            "tag": "TODAY'S DESK",
-            "color": market_colors[i % len(market_colors)],
-        })
-
     # Intro script
     lead_head = stories[0]['headline'] if stories else "Frontier Artificial Intelligence"
     intro_script = (
@@ -585,13 +575,6 @@ def parse_markdown_prompt(md_text: str) -> dict:
             "headline": "TODAY'S CRITICAL DEVELOPMENTS",
             "script": clean_text_for_broadcast(recap_script),
             "items": recap_items
-        },
-        "marketSnapshot": {
-            "durationSeconds": 16,
-            "headline": "GLOBAL AI MARKET SNAPSHOT",
-            "subheadline": "SANMITRA DESK • STRATEGIC TELEMETRY",
-            "script": "On the desk today: " + ". ".join(s["headline"] for s in stories[:6]) + ".",
-            "entities": market_entities
         },
         "outro": {
             "durationSeconds": 12,
