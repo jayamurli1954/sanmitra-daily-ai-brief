@@ -6,6 +6,7 @@ Uses OpenAI's faster-whisper (CTranslate2) for millisecond-accurate word boundar
   - Generates word-level timestamps JSON for kinetic 'Hormozi-style' pop-ups (src/aibrief/data/word_timestamps.json)
 """
 
+import difflib
 import json
 import os
 import re
@@ -14,6 +15,51 @@ import sys
 # Cache model instance globally
 _WHISPER_MODEL = None
 
+
+def _norm(token):
+    return re.sub(r"[^a-z0-9]", "", token.lower())
+
+
+def align_to_script(heard, spoken_text):
+    """Give each word of the script the timing of the matching recognised word.
+
+    Speech recognition mishears names ("Joe Briski" for Jo Briskey, "Kanishk" for
+    Kanishka), so captions use the script's spelling. Recognised stretches that do
+    not match are spread evenly over the script words they stand for; script words
+    with no recognised counterpart are placed between their neighbours.
+    """
+    script = spoken_text.split()
+    if not heard or not script:
+        return heard
+    matcher = difflib.SequenceMatcher(
+        None, [_norm(w["word"]) for w in heard], [_norm(t) for t in script], autojunk=False
+    )
+    times = [None] * len(script)
+    for tag, h1, h2, s1, s2 in matcher.get_opcodes():
+        if tag == "equal":
+            for k in range(s2 - s1):
+                times[s1 + k] = (heard[h1 + k]["start"], heard[h1 + k]["end"])
+        elif tag == "replace":
+            start, end = heard[h1]["start"], heard[h2 - 1]["end"]
+            step = (end - start) / (s2 - s1)
+            for k in range(s2 - s1):
+                times[s1 + k] = (start + k * step, start + (k + 1) * step)
+    # Script words never heard: place them in the gap between known neighbours.
+    i = 0
+    while i < len(script):
+        if times[i] is not None:
+            i += 1
+            continue
+        j = i
+        while j < len(script) and times[j] is None:
+            j += 1
+        left = times[i - 1][1] if i > 0 else heard[0]["start"]
+        right = times[j][0] if j < len(script) else heard[-1]["end"]
+        step = max(right - left, 0.0) / (j - i)
+        for k in range(i, j):
+            times[k] = (left + (k - i) * step, left + (k - i + 1) * step)
+        i = j
+    return [{"word": t, "start": round(a, 3), "end": round(b, 3)} for t, (a, b) in zip(script, times)]
 
 
 # Captions are one line of 38px text, so a cue holds at most ~56 characters.
@@ -165,6 +211,13 @@ def generate_subtitles(data_path="src/aibrief/data/active_episode.json", timings
         words = []
         if audio_full_path and os.path.exists(audio_full_path):
             words = transcribe_audio_words(audio_full_path, offset_seconds=current_time)
+            if words:
+                try:
+                    from generate_aibrief_vo import clean_script_for_tts
+                    spoken = clean_script_for_tts(script)
+                except Exception:
+                    spoken = script
+                words = align_to_script(words, spoken)
 
         # 2. If faster-whisper extracted words, build high-precision phrases
         if words:
