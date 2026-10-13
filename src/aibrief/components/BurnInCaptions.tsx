@@ -34,20 +34,26 @@ export const BurnInCaptions: React.FC<BurnInCaptionsProps> = ({
     return null;
   }
 
+  const isStoryScene = /^s\d+_/.test(activeCue.sceneId || "");
+
   return (
     <div
       style={{
         position: "absolute",
-        top: 740,
+        // Story scenes: the gap above the lower third (which starts at y=810).
+        // Intro, recap and outro fill the middle of the frame with cards, so
+        // their captions sit just above the ticker instead.
+        top: isStoryScene ? 734 : 940,
         left: "50%",
         transform: "translateX(-50%)",
-        backgroundColor: "rgba(6, 11, 23, 0.94)",
-        border: "1px solid rgba(56, 189, 248, 0.5)",
-        padding: "6px 22px",
-        borderRadius: 20,
-        boxShadow: "0 4px 16px rgba(0, 0, 0, 0.8)",
+        backgroundColor: "rgba(0, 0, 0, 0.88)",
+        border: "2px solid rgba(250, 204, 21, 0.85)",
+        padding: "8px 30px",
+        borderRadius: 10,
+        boxShadow: "0 6px 20px rgba(0, 0, 0, 0.85)",
         zIndex: 48,
-        maxWidth: 1200,
+        maxWidth: 1700,
+        whiteSpace: "nowrap",
         textAlign: "center",
         pointerEvents: "none",
         fontFamily:
@@ -56,11 +62,12 @@ export const BurnInCaptions: React.FC<BurnInCaptionsProps> = ({
     >
       <span
         style={{
-          color: "#f8fafc",
-          fontSize: 20,
-          fontWeight: 700,
-          letterSpacing: 0.5,
-          textShadow: "0 2px 8px rgba(0,0,0,0.9)",
+          color: "#ffffff",
+          fontSize: 38,
+          fontWeight: 800,
+          lineHeight: 1.25,
+          letterSpacing: 0.3,
+          textShadow: "0 2px 6px rgba(0,0,0,1)",
         }}
       >
         {activeCue.text}

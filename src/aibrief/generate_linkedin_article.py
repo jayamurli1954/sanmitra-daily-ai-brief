@@ -2,9 +2,11 @@
 LinkedIn Article & Executive Dispatch Generator for SanMitra AI News Wire & OfficeMitra AI Insights.
 Produces long-form, institutional LinkedIn articles matching the official news wire standard:
   1. Executive Header with Date (IST) & Coverage Period
-  2. Macro Thematic Synthesis (The shift from model capability to operational control & governance)
+  2. Opening paragraph naming the day's lead stories
   3. Regional Bureaus (🌍 WORLD, 🇺🇸 USA, 🇨🇳 CHINA, 🌏 ASIA, 🇮🇳 INDIA)
-  4. 🎯 Today's Key Takeaways (3 analytical structural shifts)
+  4. 🎯 Today at a glance (each bureau's headlines)
+Everything in the article comes from the episode's stories. The intro and
+takeaways used to be fixed text naming events that were not in the brief.
   5. Closing CTA & Institutional Hashtags
 """
 
@@ -22,32 +24,49 @@ if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
 
-def generate_macro_intro(date_str: str) -> str:
-    """Generates an institutional macro synthesis framing the daily developments."""
-    return """The AI industry spent much of 2023 and 2024 talking about model performance. In 2025, the conversation shifted toward infrastructure. By late 2026, the dominant theme appears to be something else entirely: control.
+# Lead-in phrases the scriptwriter adds for the spoken broadcast ("Turning to
+# India, ..."). They read as filler in print and are often wrong out of context.
+_LEAD_IN = re.compile(
+    r"^(?:In our lead story today|In another major development|In concurrent industry updates|"
+    r"Expanding on [^,]{1,40}|In enterprise infrastructure|Meanwhile(?: in [^,]{1,25})?|"
+    r"Turning to [^,]{1,30}|Moving to [^,]{1,30}|In (?:Asia|India|China|Europe|the United States)),\s*"
+    # Current builder: each transition is its own short sentence.
+    r"|^(?:Our lead story today|Turning to the United States|Turning to India|In China|In Asia|"
+    r"Around the world|Also today|In other news|Next|Elsewhere)\.\s+",
+    re.IGNORECASE,
+)
 
-Over the past 24 hours, governments, regulators, AI labs, and technology companies across the world have focused on a common question:
 
-How do we manage increasingly autonomous AI systems while continuing to accelerate innovation?
+def clean_summary(text: str) -> str:
+    text = _LEAD_IN.sub("", (text or "").strip())
+    return text[:1].upper() + text[1:] if text else text
 
-Today's developments span diplomacy, national security, AI safety, sovereign infrastructure, and enterprise deployment."""
+
+def generate_macro_intro(stories: List[Dict]) -> str:
+    """Opening paragraph built only from today's stories, so it can never cite news that is not in the brief."""
+    if not stories:
+        return ""
+    outlets = sorted({s.get("source", "").strip() for s in stories if s.get("source")})
+    regions = [r for r in ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]
+               if any(s.get("region", "").upper() == r for s in stories)]
+    leads = [s.get("headline", "").strip() for s in stories[:3] if s.get("headline")]
+    intro = (f"Today's brief covers {len(stories)} AI stories from {len(outlets)} news outlets, "
+             f"across {', '.join(r.title() if r != 'USA' else r for r in regions)}.")
+    if leads:
+        intro += " Leading the day: " + "; ".join(leads) + "."
+    return intro
 
 
 def generate_key_takeaways(stories: List[Dict]) -> str:
-    """Generates the 5 structural takeaways based on today's dominant themes."""
-    return """🎯 Key Takeaways
-
-🔹 AI Safety has become the industry's top priority, with OpenAI canceling GPT-6.1 Astra and Anthropic highlighting existential risks in its IPO filing.
-
-🔹 Agent containment is emerging as a critical enterprise technology category, evidenced by Nvidia's new Open Agent Safety Platform with hardware-level quarantines.
-
-🔹 The AI hardware race is intensifying beyond standard chips, highlighted by AMD's $8.2B acquisition of World Labs and China's full-stack domestic embodied robotics architecture.
-
-🔹 Governments worldwide are moving from observation to enforceable multilateral regulation, marked by Singapore's UN General Assembly proposal for an IAEA-style verification agency.
-
-🔹 Sovereign AI infrastructure remains the foundation of competitive advantage, driving unprecedented national compute investment across India and the Asia-Pacific.
-
-The AI race is no longer only about building smarter models. It is increasingly about governance, hardware containment, sovereign capability, and trust."""
+    """One line per bureau listing its headlines. No claim appears here that is not a story in the brief."""
+    lines = ["🎯 Today at a glance", ""]
+    for region in ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]:
+        heads = [s.get("headline", "").strip() for s in stories if s.get("region", "").upper() == region]
+        if heads:
+            label = region if region == "USA" else region.title()
+            lines.append(f"🔹 {label}: " + "; ".join(heads) + ".")
+            lines.append("")
+    return "\n".join(lines).rstrip()
 
 
 def build_linkedin_article(
@@ -86,11 +105,11 @@ def build_linkedin_article(
         bureau_map[reg].append(s)
 
     lines = [
-        "AI News Wire",
+        "SanMitra AI News Wire",
         f"AI Brief — {today_formatted} (IST)",
         f"Covering {yesterday_formatted}",
         "",
-        generate_macro_intro(date_str),
+        generate_macro_intro(stories),
         ""
     ]
 
@@ -114,28 +133,26 @@ def build_linkedin_article(
             head = st.get("headline", "").strip()
             script = st.get("script", "").strip()
             why = st.get("whyThisMatters", "").strip()
-            src = st.get("source", "Verified Reports").strip()
-            src_url = st.get("sourceUrl", "https://reuters.com").strip()
+            src = st.get("source", "").strip()
+            src_url = st.get("sourceUrl", "").strip()
 
-            # Clean lead-in artifacts
-            clean_script = re.sub(r'^(In our lead story today,|Turning to the United States,|Moving to Asia,|In India,|In China,)\s*', '', script, flags=re.IGNORECASE)
+            # The broadcast script is the fuller summary; whyThisMatters is usually
+            # its first sentence, so printing both repeated the text.
+            summary = clean_summary(script) or clean_summary(why)
 
             lines.append(head)
-            lines.append("")
-            lines.append(clean_script)
-            if why and why not in clean_script:
-                lines.append("")
-                lines.append(why)
-            lines.append("")
-            lines.append(f"Source: {src}")
-            lines.append(f"{src_url}")
+            lines.append(summary)
+            if src:
+                lines.append(f"Source: {src}")
+            if src_url:
+                lines.append(src_url)
             lines.append("")
 
     lines.append(generate_key_takeaways(stories))
     lines.append("")
-    lines.append("Follow for daily AI briefings covering the most important developments across World, USA, China, Asia, and India.")
+    lines.append("Follow for a daily AI briefing across the World, USA, China, Asia and India.")
     lines.append("")
-    lines.append("#AI #ArtificialIntelligence #GenerativeAI #OpenAI #Anthropic #ChinaAI #IndiaAI #AIInfrastructure #AISafety #AIGovernance #MachineLearning #Technology #SanMitraAINewsWire #OfficeMitraAIInsights")
+    lines.append("#AI #ArtificialIntelligence #AIGovernance #AISafety #AIInfrastructure #ChinaAI #IndiaAI #SanMitraAINewsWire #OfficeMitraAIInsights")
 
     article_content = "\n".join(lines)
 
@@ -148,7 +165,12 @@ def build_linkedin_article(
     with open(output_post_path, "w", encoding="utf-8") as f:
         f.write(article_content)
 
-    print(f"[+] LinkedIn Article generated: {output_article_path}")
+    # Dated copy: the undated files are overwritten by every run.
+    dated_path = os.path.join(os.path.dirname(output_article_path), f"linkedin_article_{date_str}.md")
+    with open(dated_path, "w", encoding="utf-8") as f:
+        f.write(article_content)
+
+    print(f"[+] LinkedIn Article generated: {output_article_path} (dated copy: {dated_path})")
     print(f"[+] LinkedIn Post copy synced: {output_post_path}")
     return article_content
 

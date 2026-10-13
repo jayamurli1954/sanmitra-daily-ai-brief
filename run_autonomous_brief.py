@@ -37,7 +37,8 @@ def run_step(cmd, description):
     return True
 
 
-def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_video=True, force_visuals=False):
+def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_video=True, force_visuals=False,
+                 publish_at=None):
     if not date_str:
         ist = timezone(timedelta(hours=5, minutes=30))
         date_str = datetime.now(ist).strftime("%Y-%m-%d")
@@ -130,12 +131,8 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
     legacy_alias = f"out/aibrief/AI_Brief_{date_str}.mp4"
 
     if render_video:
-        concurrency = 2
-        gl_flag = "--gl angle" if sys.platform == "win32" else "--gl swangle"
-        ok_render = run_step(
-            f"npx remotion render AIBriefMaster16x9 {video_out} --concurrency {concurrency} --timeout 120000 {gl_flag}",
-            f"Rendering 1080p Master Video -> {video_out}"
-        )
+        # Chunked: a single 20k+ frame render has crashed on the production PC.
+        ok_render = run_step(f"python render_master.py {video_out}", f"Rendering 1080p Master Video -> {video_out}")
         if not ok_render:
             print("[X] Remotion render failed!")
             sys.exit(1)
@@ -145,8 +142,9 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
     upload_failed = False
     if upload_youtube:
         ok_yt = os.path.exists(video_out) and run_step(
-            f"python upload_to_youtube.py {video_out} --privacy {privacy}",
-            f"Uploading 1080p Broadcast to YouTube (Privacy: {privacy.upper()})"
+            f"python upload_to_youtube.py --date {date_str} --video-file {video_out} --thumb-file {thumb_path} "
+            f"--privacy {privacy}" + (f" --publish-at {publish_at}" if publish_at else ""),
+            f"Uploading 1080p Broadcast to YouTube ({f'PRIVATE until {publish_at}' if publish_at else privacy.upper()})"
         )
         if ok_yt:
             print("🎉 Video successfully uploaded to YouTube!")
@@ -189,12 +187,24 @@ if __name__ == "__main__":
     parser.add_argument("--no-video", action="store_true", help="Skip video rendering")
     parser.add_argument("--no-upload", action="store_true", help="Skip YouTube upload")
     parser.add_argument("--force-visuals", action="store_true", help="Force redownload of editorial visual stills")
+    parser.add_argument("--publish-at-ist", type=str, metavar="HH:MM",
+                        help="Upload as private and let YouTube make it public at this IST time on the broadcast date")
     args = parser.parse_args()
+
+    publish_at = None
+    if args.publish_at_ist:
+        ist = timezone(timedelta(hours=5, minutes=30))
+        day = args.date or datetime.now(ist).strftime("%Y-%m-%d")
+        local = datetime.strptime(f"{day} {args.publish_at_ist}", "%Y-%m-%d %H:%M").replace(tzinfo=ist)
+        if local <= datetime.now(ist):
+            parser.error(f"--publish-at-ist {args.publish_at_ist} on {day} is already in the past")
+        publish_at = local.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     run_pipeline(
         date_str=args.date,
         privacy=args.privacy,
         upload_youtube=not args.no_upload,
         render_video=not args.no_video,
-        force_visuals=args.force_visuals
+        force_visuals=args.force_visuals,
+        publish_at=publish_at,
     )

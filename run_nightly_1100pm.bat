@@ -1,18 +1,10 @@
 @echo off
-REM ==============================================================================
-REM SanMitra AI News Wire - 11:00 PM IST Nightly Intelligence Collection
-REM Gathers authentic 24h AI news, deduplicates, verifies visual memory, pushes to Git
-REM ==============================================================================
-
+REM Retired on 2026-10-13. Production now runs once at night from
+REM run_nightly_production.bat (task SanMitra_Nightly_Production, 10:15 PM),
+REM which uploads a private video that YouTube publishes at 06:30 IST.
+REM Running this task as well would rebuild the shared episode files while that
+REM run is rendering, so it only records that it was skipped.
 cd /d "D:\MyProjects\Remotion Studio"
-set PYTHONIOENCODING=utf-8
-set PYTHONUTF8=1
-if not exist "out\aibrief" mkdir "out\aibrief"
-echo ============================================================================== >> out\aibrief\nightly_collector.log
-echo [!] Starting 11:00 PM Nightly Intelligence Agent at %DATE% %TIME% >> out\aibrief\nightly_collector.log
-python nightly_brief_collector.py >> out\aibrief\nightly_collector.log 2>&1
-if %ERRORLEVEL% EQU 0 (
-    echo [+] 11:00 PM Nightly collection finished successfully. >> out\aibrief\nightly_collector.log
-) else (
-    echo [X] 11:00 PM Nightly collection encountered warnings/errors. >> out\aibrief\nightly_collector.log
-)
+if not exist "out\aibrief\logs" mkdir "out\aibrief\logs"
+echo %DATE% %TIME% run_nightly_1100pm.bat skipped: retired, see run_nightly_production.bat >> out\aibrief\logs\retired_tasks.log
+exit /b 0

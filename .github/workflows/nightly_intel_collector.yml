@@ -1,9 +1,9 @@
 name: Nightly 11:00 PM AI News Intelligence Collector
 
 on:
-  schedule:
-    # 17:30 UTC is 11:00 PM IST
-    - cron: '30 17 * * *'
+  # Scheduled runs retired 2026-10-13: production runs on the PC at 10:15 PM IST
+  # (run_nightly_production.bat). Edge TTS refuses GitHub runners, so a scheduled
+  # cloud run could not voice the episode. Kept for manual runs only.
   workflow_dispatch:
     inputs:
       target_date:

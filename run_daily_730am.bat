@@ -1,22 +1,10 @@
 @echo off
+REM Retired on 2026-10-13. Production now runs once at night from
+REM run_nightly_production.bat (task SanMitra_Nightly_Production, 10:15 PM),
+REM which uploads a private video that YouTube publishes at 06:30 IST.
+REM Running this task as well would rebuild the shared episode files while that
+REM run is rendering, so it only records that it was skipped.
 cd /d "D:\MyProjects\Remotion Studio"
-set PYTHONIOENCODING=utf-8
-set PYTHONUTF8=1
 if not exist "out\aibrief\logs" mkdir "out\aibrief\logs"
-
-REM One log per day: a run that hangs and keeps its log open cannot stop the
-REM next morning's run from starting (on 2026-10-12 a shared log did exactly that).
-for /f %%i in ('powershell -NoProfile -Command "Get-Date -Format yyyy-MM-dd_HHmm"') do set RUNSTAMP=%%i
-set LOG=out\aibrief\logs\daily_%RUNSTAMP%.log
-
-echo ====================================================================== >> "%LOG%"
-echo SANMITRA AI NEWS WIRE - 7:30 AM AUTOMATED PIPELINE >> "%LOG%"
-echo Started: %DATE% %TIME% >> "%LOG%"
-echo ====================================================================== >> "%LOG%"
-
-python daily_brief_runner.py --privacy private >> "%LOG%" 2>&1
-set RC=%ERRORLEVEL%
-
-echo Pipeline finished at %TIME% with exit code %RC%. >> "%LOG%"
-REM Pass the result to Task Scheduler so "Last Result" shows real failures.
-exit /b %RC%
+echo %DATE% %TIME% run_daily_730am.bat skipped: retired, see run_nightly_production.bat >> out\aibrief\logs\retired_tasks.log
+exit /b 0

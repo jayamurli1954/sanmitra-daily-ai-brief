@@ -476,6 +476,18 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
   const currentCutIndex = Math.floor(frame / cutDuration) % totalCuts;
   const nextCutIndex = (currentCutIndex + 1) % totalCuts;
   const currentCut = cuts[currentCutIndex];
+
+  // keyPoints usually holds a truncated headline and the outlet name, which the
+  // lower third already shows. Only surface a point that adds information.
+  const headlineLower = (story.headline || "").toLowerCase();
+  const focusPoint = (story.keyPoints || []).find((k) => {
+    const t = (k || "").trim().toLowerCase();
+    return (
+      t.length > 0 &&
+      !headlineLower.startsWith(t.slice(0, 40)) &&
+      t !== (story.source || "").trim().toLowerCase()
+    );
+  });
   const nextCut = cuts[nextCutIndex];
 
   // Local frame progress within current 4-second cut [0.0 to 1.0]
@@ -940,8 +952,8 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
               />
               <span
                 style={{
-                  color: "#f8fafc",
-                  fontSize: 12,
+                  color: "#ffffff",
+                  fontSize: 17,
                   fontWeight: 900,
                   letterSpacing: 2,
                 }}
@@ -962,8 +974,8 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
             >
               <span
                 style={{
-                  color: "#38bdf8",
-                  fontSize: 12,
+                  color: "#7dd3fc",
+                  fontSize: 17,
                   fontWeight: 800,
                   letterSpacing: 1.5,
                 }}
@@ -974,7 +986,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
           </div>
 
           {/* Key Intel Sub-Slug */}
-          {story.keyPoints && story.keyPoints.length > 0 && (
+          {focusPoint && (
             <div
               style={{
                 backgroundColor: "rgba(15, 23, 42, 0.85)",
@@ -985,23 +997,23 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: 8,
-                maxWidth: 620,
+                maxWidth: 900,
               }}
             >
-              <span style={{ color: "#fbbf24", fontSize: 11, fontWeight: 900 }}>
+              <span style={{ color: "#fbbf24", fontSize: 16, fontWeight: 900 }}>
                 ⚡ FOCUS:
               </span>
               <span
                 style={{
-                  color: "#f8fafc",
-                  fontSize: 12,
+                  color: "#ffffff",
+                  fontSize: 17,
                   fontWeight: 700,
                   whiteSpace: "nowrap",
                   overflow: "hidden",
                   textOverflow: "ellipsis",
                 }}
               >
-                {story.keyPoints[currentCutIndex % story.keyPoints.length]}
+                {focusPoint}
               </span>
             </div>
           )}
@@ -1044,7 +1056,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
         }}
       >
         {/* Left Column: Category Pill, Headline, Context & Why This Matters */}
-        <div style={{ maxWidth: 1220 }}>
+        <div style={{ maxWidth: focusPoint ? 1340 : 1800 }}>
           <div
             style={{
               display: "flex",
@@ -1057,9 +1069,9 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
               style={{
                 backgroundColor: "#dc2626",
                 color: "#ffffff",
-                padding: "3px 12px",
+                padding: "4px 14px",
                 borderRadius: 4,
-                fontSize: 12,
+                fontSize: 16,
                 fontWeight: 900,
                 letterSpacing: 2,
               }}
@@ -1072,10 +1084,10 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
                 style={{
                   backgroundColor: "rgba(56, 189, 248, 0.15)",
                   border: "1px solid #38bdf8",
-                  color: "#38bdf8",
-                  padding: "3px 12px",
+                  color: "#7dd3fc",
+                  padding: "4px 14px",
                   borderRadius: 4,
-                  fontSize: 12,
+                  fontSize: 16,
                   fontWeight: 800,
                   letterSpacing: 1,
                 }}
@@ -1086,14 +1098,14 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
 
             <div
               style={{
-                color: "#94a3b8",
-                fontSize: 11,
+                color: "#e2e8f0",
+                fontSize: 16,
                 fontWeight: 700,
                 letterSpacing: 0.8,
               }}
             >
               REPORTED BY:{" "}
-              <span style={{ color: "#f8fafc", fontWeight: 800 }}>
+              <span style={{ color: "#ffffff", fontWeight: 900 }}>
                 {story.source}
               </span>
             </div>
@@ -1102,7 +1114,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
           <h1
             style={{
               color: "#ffffff",
-              fontSize: 31,
+              fontSize: 38,
               fontWeight: 950,
               letterSpacing: -0.5,
               lineHeight: 1.15,
@@ -1116,8 +1128,8 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
           {story.historicalContext && (
             <div
               style={{
-                color: "#cbd5e1",
-                fontSize: 13,
+                color: "#f1f5f9",
+                fontSize: 19,
                 fontWeight: 600,
                 lineHeight: 1.3,
                 marginBottom: 6,
@@ -1140,26 +1152,27 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
                 display: "flex",
                 alignItems: "center",
                 gap: 8,
-                backgroundColor: "rgba(245, 158, 11, 0.12)",
-                borderLeft: "3px solid #f59e0b",
-                padding: "3px 12px",
+                backgroundColor: "rgba(245, 158, 11, 0.18)",
+                borderLeft: "4px solid #f59e0b",
+                padding: "5px 14px",
                 borderRadius: "0 4px 4px 0",
               }}
             >
               <span
                 style={{
                   color: "#fbbf24",
-                  fontSize: 11,
+                  fontSize: 16,
                   fontWeight: 900,
                   letterSpacing: 1,
+                  whiteSpace: "nowrap",
                 }}
               >
                 WHY THIS MATTERS:
               </span>
               <span
                 style={{
-                  color: "#fef3c7",
-                  fontSize: 13,
+                  color: "#fffbeb",
+                  fontSize: 19,
                   fontWeight: 700,
                   display: "-webkit-box",
                   WebkitLineClamp: 1,
@@ -1174,7 +1187,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
         </div>
 
         {/* Right Column: Key Metric Callout Card */}
-        {story.keyPoints && story.keyPoints.length > 0 && (
+        {focusPoint && (
           <div
             style={{
               width: 380,
@@ -1204,8 +1217,8 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
               />
               <span
                 style={{
-                  color: "#94a3b8",
-                  fontSize: 11,
+                  color: "#e2e8f0",
+                  fontSize: 15,
                   fontWeight: 800,
                   letterSpacing: 1.5,
                 }}
@@ -1215,13 +1228,13 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
             </div>
             <div
               style={{
-                color: "#f8fafc",
-                fontSize: 13,
+                color: "#ffffff",
+                fontSize: 18,
                 fontWeight: 700,
                 lineHeight: 1.35,
               }}
             >
-              {story.keyPoints[0]}
+              {focusPoint}
             </div>
           </div>
         )}
