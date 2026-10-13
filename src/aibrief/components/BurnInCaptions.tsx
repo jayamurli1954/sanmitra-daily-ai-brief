@@ -34,12 +34,16 @@ export const BurnInCaptions: React.FC<BurnInCaptionsProps> = ({
     return null;
   }
 
+  const isStoryScene = /^s\d+_/.test(activeCue.sceneId || "");
+
   return (
     <div
       style={{
         position: "absolute",
-        // Sits in the gap above the lower third (which starts at y=810).
-        top: 734,
+        // Story scenes: the gap above the lower third (which starts at y=810).
+        // Intro, recap and outro fill the middle of the frame with cards, so
+        // their captions sit just above the ticker instead.
+        top: isStoryScene ? 734 : 940,
         left: "50%",
         transform: "translateX(-50%)",
         backgroundColor: "rgba(0, 0, 0, 0.88)",
