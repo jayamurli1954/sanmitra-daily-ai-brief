@@ -127,6 +127,32 @@ def _crew_verify(target_date, max_stories, exclude_titles=()):
     return verified, fact_checker.rejections
 
 
+def _merge_editor_brief(editor_path, prompt_path, target_date, warnings):
+    """Put the editor's own stories first; collector stories on the same event become "Also:" sources."""
+    from .editor_brief import merge_editor_brief
+    with open(editor_path, "r", encoding="utf-8") as f:
+        editor_md = f.read()
+    other_md = ""
+    if os.path.exists(prompt_path):
+        with open(prompt_path, "r", encoding="utf-8") as f:
+            other_md = f.read()
+        # Keep the collector's version for reference; the merged brief replaces it.
+        backup = os.path.join("out", "aibrief", "logs", f"prompt_{target_date}_before_editor_merge.md")
+        os.makedirs(os.path.dirname(backup), exist_ok=True)
+        with open(backup, "w", encoding="utf-8") as f:
+            f.write(other_md)
+    merged, report = merge_editor_brief(editor_md, other_md, target_date, MAX_EPISODE_STORIES)
+    with open(prompt_path, "w", encoding="utf-8") as f:
+        f.write(merged)
+    logger.info(f"Merged editor brief {editor_path}: {report['editor']} editor stories, "
+                f"{report['added']} collector stories added, {len(report['duplicates'])} duplicates folded in, "
+                f"{len(report['dropped_for_space'])} dropped for space; {report['total']} in total.")
+    for dup, kept in report["duplicates"]:
+        logger.info(f"  [DUPLICATE] {dup[:70]} -> same event as editor/kept story '{kept[:60]}'")
+    warnings.append(f"Editor brief merged: {report['editor']} editor stories + {report['added']} others "
+                    f"({len(report['duplicates'])} duplicates removed).")
+
+
 def run_autonomous_crew(target_date=None, force_visuals=False):
     """Returns the built episode dict, or None if no trustworthy 12+ story episode could be made."""
     if not target_date:
@@ -143,6 +169,10 @@ def run_autonomous_crew(target_date=None, force_visuals=False):
         logger.error(reason)
         write_qa_summary(target_date, {"stories": []}, "none", rejections, [reason])
         return None
+
+    editor_path = os.path.join("prompts", "editor", f"{target_date}.md")
+    if os.path.exists(editor_path):
+        _merge_editor_brief(editor_path, prompt_path, target_date, warnings)
 
     if os.path.exists(prompt_path):
         existing = prompt_story_headlines(prompt_path)

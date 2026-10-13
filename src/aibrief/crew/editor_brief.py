@@ -1,0 +1,139 @@
+"""
+Merge the editor's own brief into the day's prompt.
+
+The editor saves stories gathered elsewhere (ChatGPT, Grok, own reading) to
+prompts/editor/<date>.md in the usual prompt format:
+
+    # WORLD
+    ### Headline
+    Source: Outlet
+    https://link
+    Also: Other outlet https://other-link
+
+    Summary paragraph.
+
+Every editor story is kept. A collector or crew story about the same event is
+dropped and its outlet is added to the editor story as an "Also:" source, so the
+editor's wording wins. Remaining stories follow, up to MAX_EPISODE_STORIES.
+"""
+
+import re
+from datetime import datetime
+
+from .text_utils import content_stems, same_event
+
+REGION_ORDER = ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]
+_URL = re.compile(r"https?://\S+")
+
+
+def parse_stories(markdown):
+    """Story blocks with their region, headline, source links and original lines."""
+    stories, region, current = [], "WORLD", None
+    for line in markdown.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("### "):
+            current = {"region": region, "headline": stripped[4:].strip(), "lines": [line]}
+            stories.append(current)
+        elif re.match(r"^# (?!#)", stripped):
+            region = stripped[2:].strip().upper()
+            current = None
+        elif stripped.startswith("## ") or stripped == "---":
+            current = None
+        elif current is not None:
+            current["lines"].append(line)
+    for s in stories:
+        while s["lines"] and not s["lines"][-1].strip():
+            s["lines"].pop()
+        s["urls"] = {u.rstrip(").,") for line in s["lines"] for u in _URL.findall(line)}
+        source = next((l.split(":", 1)[1].strip() for l in s["lines"] if l.strip().lower().startswith("source:")), "")
+        primary = next((l.strip() for l in s["lines"] if l.strip().startswith("http")), "")
+        s["source"], s["primary_url"] = source, primary
+    return stories
+
+
+# Two or more capitalised words in a row: "Kanishka Narayan", "Brad Smith", "Great Lakes Institute".
+_NAME = re.compile(r"\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)+\b")
+
+
+def _summary(story):
+    return " ".join(l.strip() for l in story["lines"][1:]
+                    if l.strip() and not l.strip().lower().startswith(("source:", "also:", "http")))
+
+
+def _names(story):
+    return set(_NAME.findall(_summary(story)[:600]))
+
+
+def _same_story(a, b):
+    """Same event when links match, headlines match, or headlines overlap and the
+    summaries name the same person or organisation. Outlets word headlines very
+    differently ("Cyber-attack similar to OpenAI Medicare breach seems likely in UK"
+    vs "AI minister warns 'likely' UK's cyber defences will be breached"), but both
+    summaries name Kanishka Narayan."""
+    if a["urls"] & b["urls"] or same_event(a["headline"], b["headline"]):
+        return True
+    shared_words = content_stems(a["headline"]) & content_stems(b["headline"])
+    return len(shared_words) >= 2 and bool(_names(a) & _names(b))
+
+
+def _duplicate_of(story, kept):
+    return next((k for k in kept if _same_story(story, k)), None)
+
+
+def _add_also(target, other):
+    if not other["primary_url"] or other["primary_url"] in target["urls"]:
+        return False
+    # "Also:" lines sit right after the primary link, before the summary.
+    insert_at = 1
+    for i, line in enumerate(target["lines"]):
+        if line.strip().startswith(("http", "Also:")):
+            insert_at = i + 1
+    target["lines"].insert(insert_at, f"Also: {other['source'] or 'Source'} {other['primary_url']}")
+    target["urls"].add(other["primary_url"])
+    return True
+
+
+def render(stories, date_str):
+    day = datetime.strptime(date_str, "%Y-%m-%d").strftime("%A, %d %B %Y")
+    out = [
+        "# SanMitra AI News Wire",
+        "",
+        f"## Daily AI Brief — {day} (IST)",
+        "",
+        "Covering AI developments from the previous day. Consolidated from the editor's brief "
+        "and the crew's verified harvest; duplicates removed. Only items with a named outlet are included.",
+    ]
+    regions = REGION_ORDER + sorted({s["region"] for s in stories} - set(REGION_ORDER))
+    for region in regions:
+        group = [s for s in stories if s["region"] == region]
+        if not group:
+            continue
+        out += ["", "---", "", f"# {region}"]
+        for s in group:
+            out += [""] + s["lines"]
+    return "\n".join(out) + "\n"
+
+
+def merge_editor_brief(editor_md, other_md, date_str, max_stories):
+    """Returns (merged markdown, report dict)."""
+    kept = parse_stories(editor_md)
+    editor_count = len(kept)
+    merged_dupes, dropped_for_space = [], []
+    for story in parse_stories(other_md or ""):
+        dup = _duplicate_of(story, kept)
+        if dup is not None:
+            if dup in kept[:editor_count]:
+                _add_also(dup, story)
+            merged_dupes.append((story["headline"], dup["headline"]))
+        elif len(kept) < max_stories:
+            kept.append(story)
+        else:
+            dropped_for_space.append(story["headline"])
+    report = {
+        "editor": editor_count,
+        "added": len(kept) - editor_count,
+        "duplicates": merged_dupes,
+        "dropped_for_space": dropped_for_space,
+        "total": len(kept),
+    }
+    return render(kept, date_str), report
