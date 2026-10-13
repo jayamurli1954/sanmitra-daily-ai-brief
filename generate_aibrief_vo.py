@@ -19,6 +19,45 @@ VOICE_VOLUME = {
 }
 
 
+# Azure Speech fallback. Edge TTS refuses GitHub Actions runners (403 since
+# 2026-10-11); the official Azure endpoint has the same Christopher and Aria
+# voices. Used only when AZURE_SPEECH_KEY and AZURE_SPEECH_REGION are set.
+AZURE_SPEECH_KEY = os.environ.get("AZURE_SPEECH_KEY", "").strip()
+AZURE_SPEECH_REGION = os.environ.get("AZURE_SPEECH_REGION", "").strip()
+# Same format edge-tts produces, so mastering and timings are unchanged.
+AZURE_OUTPUT_FORMAT = "audio-24khz-48kbitrate-mono-mp3"
+
+
+def azure_ssml(text: str, voice: str, rate: str, volume: str) -> str:
+    from xml.sax.saxutils import escape
+    return (
+        '<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">'
+        f'<voice name="{voice}"><prosody rate="{rate}" volume="{volume}">{escape(text)}</prosody></voice>'
+        "</speak>"
+    )
+
+
+def synthesize_azure(text: str, voice: str, rate: str, volume: str, out_file: str) -> None:
+    import urllib.request
+    req = urllib.request.Request(
+        f"https://{AZURE_SPEECH_REGION}.tts.speech.microsoft.com/cognitiveservices/v1",
+        data=azure_ssml(text, voice, rate, volume).encode("utf-8"),
+        headers={
+            "Ocp-Apim-Subscription-Key": AZURE_SPEECH_KEY,
+            "Content-Type": "application/ssml+xml",
+            "X-Microsoft-OutputFormat": AZURE_OUTPUT_FORMAT,
+            "User-Agent": "sanmitra-ai-brief",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        audio = resp.read()
+    if not audio:
+        raise RuntimeError("Azure Speech returned no audio")
+    with open(out_file, "wb") as f:
+        f.write(audio)
+
+
 def anchor_for(segment_id: str, story_number: int | None = None) -> str:
     """Christopher opens the show, reads the odd stories, the recap, and the close.
     Aria reads the even stories and the market snapshot.
@@ -178,6 +217,8 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
     timings = {}
     total_time = 0.0
     chapters = []
+    # TTS_ENGINE=azure skips Edge entirely; otherwise Edge first, Azure on failure.
+    use_azure = os.environ.get("TTS_ENGINE", "").lower() == "azure" and bool(AZURE_SPEECH_KEY and AZURE_SPEECH_REGION)
 
     for item in sequence:
         seg_id = item["id"]
@@ -213,10 +254,19 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
         max_retries = 4
         for attempt in range(max_retries):
             try:
-                communicate = edge_tts.Communicate(clean_text, voice, rate=RATE, volume=volume)
-                await communicate.save(out_file)
+                if use_azure:
+                    await asyncio.to_thread(synthesize_azure, clean_text, voice, RATE, volume, out_file)
+                else:
+                    communicate = edge_tts.Communicate(clean_text, voice, rate=RATE, volume=volume)
+                    await communicate.save(out_file)
                 break
             except Exception as e:
+                if not use_azure and AZURE_SPEECH_KEY and AZURE_SPEECH_REGION:
+                    # Edge refused us; switch the rest of the episode to Azure so
+                    # both anchors keep one consistent engine from here on.
+                    print(f"    [!] Edge TTS failed ({e}). Switching to Azure Speech for the rest of the episode.")
+                    use_azure = True
+                    continue
                 if attempt < max_retries - 1:
                     print(f"    [!] Retry {attempt + 1}/{max_retries} for {filename} after error: {e}")
                     await asyncio.sleep(2.0)
