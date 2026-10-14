@@ -23,6 +23,10 @@ One or two paragraphs summarising the story.
 
 Regions: `WORLD`, `USA`, `CHINA`, `ASIA`, `INDIA`.
 
-The night run keeps every story in this file. A collected or crew story about the same
-event is dropped and its outlet is added to yours as an `Also:` line. The crew only adds
-more stories if the total is under 12.
+An episode has 8-9 stories of about 50-60 seconds each (under 10 minutes). Your stories
+go first, in the order you list them; if you send more than 9, the extras are left out,
+so put the most important first. A collected or crew story about the same event is dropped
+and its outlet is added to yours as an `Also:` line. The crew only adds stories if the
+total is under 8. About 120-140 words of summary per story gives 50-60 seconds of narration.
+
+Stock-market stories (share prices, indices, trading) are not covered.

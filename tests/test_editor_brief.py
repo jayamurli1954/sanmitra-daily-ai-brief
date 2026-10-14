@@ -62,11 +62,17 @@ class EditorBriefTest(unittest.TestCase):
         # Same link already present: no extra Also line for it.
         self.assertEqual(merged.count("https://www.livemint.com/hcl-anthropic"), 1)
 
-    def test_cap_keeps_every_editor_story(self):
+    def test_cap_fills_with_editor_stories_first(self):
         merged, report = merge_editor_brief(EDITOR, COLLECTOR, "2026-10-13", 2)
         self.assertEqual(report["total"], 2)
         self.assertEqual(report["dropped_for_space"],
                          ["Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck"])
+
+    def test_editor_stories_beyond_cap_are_dropped_in_order(self):
+        merged, report = merge_editor_brief(EDITOR, COLLECTOR, "2026-10-13", 1)
+        self.assertEqual([s["headline"] for s in parse_stories(merged)],
+                         ["UK AI minister says AI cyber-attack like Medicare breach is likely"])
+        self.assertIn("HCLTech signs pact with Anthropic to set up dedicated AI business unit", report["dropped_for_space"])
 
     def test_builder_reads_the_merged_brief(self):
         from build_episode_from_prompt import parse_markdown_prompt

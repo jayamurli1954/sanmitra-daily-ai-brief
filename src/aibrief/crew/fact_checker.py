@@ -64,9 +64,13 @@ HIGH_IMPACT_TERMS = ["supercomputer", "data center", "state council", "directive
 BUREAU_ORDER = ["WORLD", "USA", "USA", "CHINA", "ASIA", "INDIA", "WORLD", "WORLD", "WORLD", "USA",
                 "CHINA", "CHINA", "ASIA", "INDIA", "USA"]
 
-# An episode needs 12-15 stories to run 10+ minutes; fewer looks like a Short.
-MIN_EPISODE_STORIES = 12
-MAX_EPISODE_STORIES = 15
+# 8-9 stories of about 50-60 seconds each keeps an episode under 10 minutes
+# (changed 2026-10-14: the 6-7 minute episodes far outperformed 10-12 minute ones).
+MIN_EPISODE_STORIES = 8
+MAX_EPISODE_STORIES = 9
+# About 140 spoken words is 60 seconds at the anchors' pace.
+STORY_MAX_WORDS = 140
+STORY_MAX_SENTENCES = 8
 
 MIN_ARTICLE_CHARS = 500
 REPEAT_WINDOW_DAYS = 7
@@ -227,7 +231,7 @@ class FactChecker:
             return self._reject({"title": story["title"], "url": story["sourceUrl"]},
                                 f"headline claims not found in the article: {', '.join(missing[:5])}")
 
-        summary = extractive_summary(body)
+        summary = extractive_summary(body, max_sentences=STORY_MAX_SENTENCES, max_words=STORY_MAX_WORDS)
         if not summary:
             return self._reject({"title": story["title"], "url": story["sourceUrl"]}, "no usable sentences in the article")
 
