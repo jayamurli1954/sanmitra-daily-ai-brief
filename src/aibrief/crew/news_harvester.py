@@ -5,7 +5,8 @@ published in the window before the broadcast, and fetches the full article
 text that the fact-checker verifies against.
 """
 
-from datetime import datetime
+from datetime import datetime, timedelta
+import json
 import logging
 import re
 import urllib.parse
@@ -208,6 +209,16 @@ class NewsHarvester:
                 published = meta.date
         except Exception as e:
             logger.debug(f"Article extraction failed for {url}: {e}")
+        # An arXiv abstract page starts with subject, submission date, title and
+        # "View PDF" links; only the abstract itself is the story.
+        if "arxiv.org/abs/" in url and "Abstract:" in text:
+            text = text.split("Abstract:", 1)[1]
+            text = re.split(r"\s(?:Comments:|Subjects:|Cite as:|Submission history|Additional Features"
+                            r"|References & Citations|Bibliographic and Citation Tools)", text, maxsplit=1)[0]
+            # Abstracts say "We propose..."; read aloud, that sounds like the newsroom's work.
+            for pattern, repl in ((r"\bWe\b", "The researchers"), (r"\bwe\b", "the researchers"),
+                                  (r"\bOur\b", "Their"), (r"\bour\b", "their")):
+                text = re.sub(pattern, repl, text)
         return {"text": text.strip(), "published": published}
 
     def filter_candidates(self, raw_items):
@@ -221,7 +232,9 @@ class NewsHarvester:
             if not url or not norm_title or url in seen_urls or norm_title in seen_titles:
                 rejected["duplicate"] += 1
                 continue
-            if not is_ai_story(item.get("title", ""), item.get("summary", "")):
+            # Daily Papers entries are AI research by definition; their titles often
+            # don't say "AI" ("Multics: Generative Multi-Player World Model").
+            if item.get("origin") != "papers" and not is_ai_story(item.get("title", ""), item.get("summary", "")):
                 rejected["not_ai"] += 1
                 continue
             if is_stock_market_story(item.get("title", "")):
@@ -243,8 +256,53 @@ class NewsHarvester:
         logger.info(f"Harvest filter kept {len(kept)}; rejected {rejected}.")
         return kept
 
+    # Hugging Face Daily Papers: one research story a day at most, and only a
+    # paper the research community upvoted strongly (editor's decision, 2026-10-14).
+    DAILY_PAPERS_API = "https://huggingface.co/api/daily_papers"
+    MIN_PAPER_UPVOTES = 30
+
+    def _get_json(self, url):
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+
+    def fetch_daily_paper(self):
+        """The most upvoted paper on Hugging Face Daily Papers for the day the
+        episode covers, as a candidate citing its arXiv page; [] if none
+        reaches MIN_PAPER_UPVOTES."""
+        covered = (datetime.strptime(self.target_date, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
+        try:
+            entries = self._get_json(f"{self.DAILY_PAPERS_API}?date={covered}") or []
+        except Exception as e:
+            logger.debug(f"Daily Papers fetch failed: {e}")
+            return []
+        best = None
+        for entry in entries:
+            paper = entry.get("paper") or {}
+            # Question titles ("Can Coding Agents Build...?") fail the fact-checker's
+            # speculative-headline rule, so take the best paper that can run.
+            if (paper.get("id") and paper.get("title") and "?" not in paper["title"]
+                    and paper.get("upvotes", 0) >= self.MIN_PAPER_UPVOTES):
+                if best is None or paper["upvotes"] > best["upvotes"]:
+                    # submittedOnDailyAt is the day it was featured on Daily Papers;
+                    # publishedAt is its arXiv date, often weeks earlier.
+                    best = dict(paper, submitted=paper.get("submittedOnDailyAt") or entry.get("publishedAt", ""))
+        if not best:
+            logger.info(f"Daily Papers: no paper with {self.MIN_PAPER_UPVOTES}+ upvotes for {covered}.")
+            return []
+        logger.info(f"Daily Papers: {best['title'][:70]} ({best['upvotes']} upvotes)")
+        return [{
+            "title": clean_feed_text(best["title"]),
+            "source": "arXiv",
+            "url": f"https://arxiv.org/abs/{best['id']}",
+            "summary": clean_feed_text(best.get("ai_summary") or best.get("summary") or "")[:600],
+            "region": "WORLD",
+            "published": best["submitted"],
+            "origin": "papers",
+        }]
+
     def harvest(self):
-        return self.filter_candidates(self.fetch_feed_items() + self.search_recent_stories())
+        return self.filter_candidates(self.fetch_feed_items() + self.search_recent_stories() + self.fetch_daily_paper())
 
 
 if __name__ == "__main__":
