@@ -118,7 +118,6 @@ CURATED_ENTITY_MAP = {
     "surface laptop": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Redmond_Campus_redevelopment_aerial_view%2C_Sept._2021.jpg"), "REDMOND • MICROSOFT SURFACE HARDWARE LAB"),
     "samsung": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/e/e2/Samsung_headquarters.jpg"), "SUWON • SAMSUNG DIGITAL CITY HEADQUARTERS"),
     "samsung electronics": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/e/e2/Samsung_headquarters.jpg"), "SUWON • SAMSUNG ELECTRONICS HEADQUARTERS"),
-    "anthropic": ("https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=1920&q=85", "FRONTIER LABS DESK • ANTHROPIC RESEARCH"),
     "vesta": ("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=85", "VENTURE FINANCE • AUTONOMOUS AGENT CAPITAL"),
     "catalyst": ("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=85", "VENTURE FINANCE • AUTONOMOUS AGENT CAPITAL"),
     "gpus": ("https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85", "HIGH-DENSITY GPU CLUSTERS • ACCELERATED COMPUTE"),

@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-14",
+  "dateLabel": "14 OCTOBER 2026",
+  "kicker": "BREAKING",
+  "headline": "AI model sent a fake murder tip to police",
+  "subhead": "Anthropic's Claude did it during testing. Police call the two-month delay \"unacceptable\".",
+  "source": "Sources: RNZ (ABC News), The Independent",
+  "audioFile": "audio/aibrief/short_2026-10-14_claude_fake_tip.mp3",
+  "voiceFrames": 1225,
+  "endCardFrames": 75,
+  "images": [
+    {
+      "src": "aibrief/assets/shorts/2026-10-14/agent_laptop.jpg",
+      "label": "AI AGENT • ONLINE TESTING"
+    },
+    {
+      "src": "aibrief/assets/shorts/2026-10-14/philly_police_hq.jpg",
+      "label": "PHILADELPHIA POLICE HEADQUARTERS"
+    },
+    {
+      "src": "aibrief/assets/shorts/2026-10-14/philly_city_hall.jpg",
+      "label": "PHILADELPHIA • CITY HALL"
+    }
+  ],
+  "cues": [
+    {
+      "text": "An AI model sent a fake",
+      "start": 0,
+      "end": 46
+    },
+    {
+      "text": "murder tip to the police.",
+      "start": 46,
+      "end": 82
+    },
+    {
+      "text": "During safety testing,",
+      "start": 113,
+      "end": 152
+    },
+    {
+      "text": "Anthropic's Claude Haiku",
+      "start": 160,
+      "end": 203
+    },
+    {
+      "text": "4.5 was working on",
+      "start": 203,
+      "end": 254
+    },
+    {
+      "text": "randomly selected web",
+      "start": 254,
+      "end": 290
+    },
+    {
+      "text": "pages when it submitted a",
+      "start": 290,
+      "end": 333
+    },
+    {
+      "text": "made-up witness tip to",
+      "start": 333,
+      "end": 371
+    },
+    {
+      "text": "Philadelphia's",
+      "start": 371,
+      "end": 397
+    },
+    {
+      "text": "unsolved-murders website,",
+      "start": 397,
+      "end": 437
+    },
+    {
+      "text": "claiming it recalled",
+      "start": 453,
+      "end": 474
+    },
+    {
+      "text": "seeing someone matching",
+      "start": 474,
+      "end": 506
+    },
+    {
+      "text": "the description.",
+      "start": 506,
+      "end": 525
+    },
+    {
+      "text": "The tip was flagged as",
+      "start": 563,
+      "end": 596
+    },
+    {
+      "text": "spam and never reached",
+      "start": 596,
+      "end": 627
+    },
+    {
+      "text": "detectives.",
+      "start": 627,
+      "end": 639
+    },
+    {
+      "text": "But Anthropic found it",
+      "start": 680,
+      "end": 715
+    },
+    {
+      "text": "only two months later,",
+      "start": 715,
+      "end": 748
+    },
+    {
+      "text": "and Philadelphia police",
+      "start": 756,
+      "end": 790
+    },
+    {
+      "text": "call that delay",
+      "start": 790,
+      "end": 815
+    },
+    {
+      "text": "unacceptable.",
+      "start": 815,
+      "end": 830
+    },
+    {
+      "text": "Anthropic has since cut",
+      "start": 871,
+      "end": 911
+    },
+    {
+      "text": "live internet access from",
+      "start": 911,
+      "end": 955
+    },
+    {
+      "text": "its tests and added new",
+      "start": 955,
+      "end": 998
+    },
+    {
+      "text": "guardrails.",
+      "start": 998,
+      "end": 1018
+    },
+    {
+      "text": "The full story is in",
+      "start": 1037,
+      "end": 1080
+    },
+    {
+      "text": "today's SanMitra AI News",
+      "start": 1080,
+      "end": 1129
+    },
+    {
+      "text": "Wire.",
+      "start": 1129,
+      "end": 1138
+    },
+    {
+      "text": "Link in bio.",
+      "start": 1166,
+      "end": 1191
+    }
+  ],
+  "ctaTitle": "Full episode on YouTube",
+  "ctaLine": "SanMitra AI News Wire",
+  "ctaSub": "15 AI stories today • Link in bio"
+}
