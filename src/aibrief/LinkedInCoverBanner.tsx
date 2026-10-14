@@ -4,64 +4,6 @@ import episodeData from "./data/active_episode.json";
 
 const ep = episodeData as any;
 
-interface BureauStoryConfig {
-  region: string;
-  badge: string;
-  badgeColor: string;
-  flag: string;
-  fallbackHeadline: string;
-  fallbackSummary: string;
-  fallbackImage: string;
-}
-
-const BUREAUS: BureauStoryConfig[] = [
-  {
-    region: "WORLD",
-    badge: "WORLD",
-    badgeColor: "#dc2626",
-    flag: "🇺🇦",
-    fallbackHeadline: "Autonomous AI Defends Against Drones",
-    fallbackSummary: "Ukraine deploys AI-powered turrets to intercept Geran-5 drones as autonomous defense systems scale globally.",
-    fallbackImage: "aibrief/assets/editorial/2026-10-07/s1_cut1.jpg",
-  },
-  {
-    region: "USA",
-    badge: "USA",
-    badgeColor: "#2563eb",
-    flag: "🇺🇸",
-    fallbackHeadline: "Google's MedGemma Advances Medical AI",
-    fallbackSummary: "MedGemma medical vision models published in Nature Medicine. EmbeddingGemma 2 released for multimodal AI.",
-    fallbackImage: "aibrief/assets/editorial/2026-10-07/s2_cut1.jpg",
-  },
-  {
-    region: "CHINA",
-    badge: "CHINA",
-    badgeColor: "#b91c1c",
-    flag: "🇨🇳",
-    fallbackHeadline: "AI Giants Expand Infrastructure",
-    fallbackSummary: "Alibaba, Tencent, DeepSeek and ByteDance accelerate compute and next-generation model development.",
-    fallbackImage: "aibrief/assets/editorial/2026-10-07/s4_cut1.jpg",
-  },
-  {
-    region: "ASIA",
-    badge: "ASIA",
-    badgeColor: "#d97706",
-    flag: "🇦🇺",
-    fallbackHeadline: "Autonomous Systems Gain Momentum",
-    fallbackSummary: "Shield AI and Innovaero partner to integrate Hivemind autonomy in OWL drones, showcasing multi-drone operations.",
-    fallbackImage: "aibrief/assets/editorial/2026-10-07/s13_cut1.jpg",
-  },
-  {
-    region: "INDIA",
-    badge: "INDIA",
-    badgeColor: "#059669",
-    flag: "🇮🇳",
-    fallbackHeadline: "National AI Council to Guide Sovereign AI",
-    fallbackSummary: "ElevenLabs commits hundreds of millions of dollars to India; sovereign compute and regional voice ecosystems scale.",
-    fallbackImage: "aibrief/assets/editorial/2026-10-07/s6_cut1.jpg",
-  },
-];
-
 const TAXONOMY = [
   {
     icon: "💡",
@@ -98,40 +40,35 @@ const TAXONOMY = [
 export const LinkedInCoverBanner: React.FC = () => {
   const stories: any[] = ep?.stories || [];
 
-  // Resolve top story for each of the 5 regional bureaus
-  const bureauCards = BUREAUS.map((cfg) => {
-    const match = stories.find(
-      (s) => (s.region || "").toUpperCase() === cfg.region.toUpperCase()
-    );
-
-    let headline = cfg.fallbackHeadline;
-    let summary = cfg.fallbackSummary;
-    let imageSrc = cfg.fallbackImage;
-
-    if (match) {
-      if (match.headline) {
-        headline = match.headline.length > 55 ? match.headline.slice(0, 52) + "..." : match.headline;
-      }
-      if (match.script) {
-        const firstSentence = match.script.split(".")[0];
-        summary = firstSentence.length > 120 ? firstSentence.slice(0, 117) + "..." : firstSentence + ".";
-      }
-      if (match.visualCuts?.[0]?.image) {
-        imageSrc = match.visualCuts[0].image;
-      } else if (match.visual) {
-        imageSrc = match.visual;
-      }
-    }
-
+  // The day's first five stories, lead first. Cards used to be one per region
+  // with hard-coded fallback text and images from 7 October for any region
+  // without a story; that showed stale news and broke once the 7 Oct stills
+  // were cleaned up. A region with no story now simply has no card.
+  const STYLE: Record<string, { badgeColor: string; flag: string }> = {
+    WORLD: { badgeColor: "#dc2626", flag: "🌍" },
+    USA: { badgeColor: "#2563eb", flag: "🇺🇸" },
+    CHINA: { badgeColor: "#b91c1c", flag: "🇨🇳" },
+    ASIA: { badgeColor: "#d97706", flag: "🌏" },
+    INDIA: { badgeColor: "#059669", flag: "🇮🇳" },
+  };
+  const bureauCards = stories.slice(0, 5).map((s: any) => {
+    const region = (s.region || "WORLD").toUpperCase();
+    const style = STYLE[region] || STYLE.WORLD;
+    const full = s.headline || "";
+    const why = (s.whyThisMatters || "").trim();
+    const firstSentence = why.split(/(?<=[.!?])\s/)[0] || "";
     return {
-      ...cfg,
-      headline,
-      summary,
-      imageSrc,
+      region,
+      badge: region,
+      badgeColor: style.badgeColor,
+      flag: style.flag,
+      headline: full.length > 55 ? full.slice(0, 52) + "..." : full,
+      summary: firstSentence.length > 120 ? firstSentence.slice(0, 117) + "..." : firstSentence,
+      imageSrc: s.visualCuts?.[0]?.image || s.visual || "aibrief/backgrounds/ai_chips.jpg",
     };
   });
 
-  const formattedDate = ep?.formattedDate ? `${ep.formattedDate.toUpperCase()} (IST)` : "07 OCTOBER 2026 (IST)";
+  const formattedDate = ep?.formattedDate ? `${ep.formattedDate.toUpperCase()} (IST)` : "";
 
   return (
     <div
