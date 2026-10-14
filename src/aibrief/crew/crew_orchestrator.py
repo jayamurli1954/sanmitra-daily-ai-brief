@@ -154,8 +154,52 @@ def _merge_editor_brief(editor_path, prompt_path, target_date, warnings):
                     f"({len(report['duplicates'])} duplicates removed).")
 
 
+def _add_daily_paper(prompt_path, target_date, editor_path, warnings):
+    """Give the day's most upvoted Hugging Face paper one slot in the brief.
+
+    The crew's own harvest only runs when a brief is short, so on a full day the
+    paper would never appear. It is added if there is room; otherwise it replaces
+    the last story that is neither the lead nor one of the editor's."""
+    from .editor_brief import parse_stories, render
+    from .prompt_writer import render_story_sections
+
+    with open(prompt_path, "r", encoding="utf-8") as f:
+        md = f.read()
+    if "arxiv.org/abs/" in md:
+        return
+    harvester = NewsHarvester(target_date=target_date)
+    candidates = harvester.filter_candidates(harvester.fetch_daily_paper())
+    if not candidates:
+        return
+    checker = FactChecker(target_date=target_date, fetch_article=harvester.fetch_article, ledger=StoryMemoryLedger())
+    verified = checker.assemble_stories(candidates, max_stories=1)
+    if not verified:
+        logger.info(f"Daily paper not used: {checker.rejections}")
+        return
+
+    stories = parse_stories(md)
+    paper = parse_stories("\n".join(render_story_sections(verified)))[0]
+    editor_heads = set()
+    if os.path.exists(editor_path):
+        with open(editor_path, "r", encoding="utf-8") as f:
+            editor_heads = {s["headline"] for s in parse_stories(f.read())}
+    if len(stories) >= MAX_EPISODE_STORIES:
+        replaceable = [i for i, s in enumerate(stories)
+                       if s["headline"] not in editor_heads and not any(l.strip().lower() == "lead: yes" for l in s["lines"])]
+        if not replaceable:
+            logger.info("Daily paper not used: every story is the editor's or the lead.")
+            return
+        dropped = stories.pop(replaceable[-1])
+        logger.info(f"Daily paper replaces: {dropped['headline'][:70]}")
+    stories.append(paper)
+    with open(prompt_path, "w", encoding="utf-8") as f:
+        f.write(render(stories, target_date))
+    logger.info(f"Daily paper added: {paper['headline'][:70]}")
+    warnings.append(f"Research story from Hugging Face Daily Papers: {paper['headline'][:70]}")
+
+
 def run_autonomous_crew(target_date=None, force_visuals=False):
-    """Returns the built episode dict, or None if no trustworthy 12+ story episode could be made."""
+    """Returns the built episode dict, or None if no trustworthy 8+ story episode could be made."""
     if not target_date:
         target_date = datetime.now(IST).strftime("%Y-%m-%d")
 
@@ -174,6 +218,12 @@ def run_autonomous_crew(target_date=None, force_visuals=False):
     editor_path = os.path.join("prompts", "editor", f"{target_date}.md")
     if os.path.exists(editor_path):
         _merge_editor_brief(editor_path, prompt_path, target_date, warnings)
+
+    if os.path.exists(prompt_path):
+        try:
+            _add_daily_paper(prompt_path, target_date, editor_path, warnings)
+        except Exception as e:
+            logger.warning(f"Daily paper skipped: {e}")
 
     if os.path.exists(prompt_path):
         existing = prompt_story_headlines(prompt_path)
