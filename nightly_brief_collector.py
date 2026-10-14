@@ -209,6 +209,8 @@ def run_nightly_collection(target_date: str = None, push_git: bool = True, sync_
             lines.append("")
             for st, outlet, url in titled:
                 lines.append(f"### {st['headline']}")
+                if st.get("headline") == ranked_result.get("lead_story"):
+                    lines.append("Lead: yes")
                 lines.append(f"Source: {outlet}")
                 if url:
                     lines.append(url)

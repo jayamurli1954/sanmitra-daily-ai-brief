@@ -76,7 +76,8 @@ def build(spec_path: str, render: bool = True) -> str:
         "cues": cues,
         "ctaTitle": "Full episode on YouTube",
         "ctaLine": "SanMitra AI News Wire",
-        "ctaSub": f"{spec.get('storiesToday', 'All')} AI stories today • Link in bio",
+        # Neutral wording: the same video goes to YouTube Shorts and Instagram.
+        "ctaSub": f"All {spec.get('storiesToday', '')} of today's AI stories".replace("All  of", "All of"),
     }
     with open(os.path.join("src", "aibrief", "data", "short_episode.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
@@ -90,6 +91,97 @@ def build(spec_path: str, render: bool = True) -> str:
                         "--concurrency=2", f"--gl={gl}", "--log=error"], check=True)
         print(f"[+] Rendered {out}")
     return out
+
+
+# ---------------------------------------------------------------------------
+# Daily Short from the episode's lead story (called by run_autonomous_brief.py)
+# ---------------------------------------------------------------------------
+
+SHORT_MAX_WORDS = 110
+SIGN_OFF = "Watch the full episode on SanMitra AI News Wire."
+
+
+def _short_script(story_script: str) -> str:
+    """The lead story's narration without the anchor's lead-in, cut at a sentence
+    boundary near SHORT_MAX_WORDS, plus a sign-off that fits YouTube and Instagram."""
+    import re
+    from src.aibrief.generate_linkedin_article import clean_summary
+    text = clean_summary(story_script)
+    kept, words = [], 0
+    for sentence in re.split(r"(?<=[.!?])\s+", text):
+        n = len(sentence.split())
+        if kept and words + n > SHORT_MAX_WORDS:
+            break
+        kept.append(sentence)
+        words += n
+    return " ".join(kept).strip() + " " + SIGN_OFF
+
+
+def spec_from_episode(episode: dict, date: str, slug: str = "lead") -> dict:
+    lead = episode["stories"][0]
+    why = (lead.get("whyThisMatters") or "").strip()
+    subhead = why if 0 < len(why) <= 130 else ""
+    return {
+        "date": date,
+        "slug": slug,
+        "kicker": "BREAKING",
+        "headline": lead["headline"],
+        "subhead": subhead,
+        "script": _short_script(lead.get("script", "")),
+        "voice": "aria",
+        "images": [{"src": c["image"], "label": c.get("badge", "")} for c in lead.get("visualCuts", [])[:3]],
+        "source": f"Source: {lead.get('source', '')}",
+        "storiesToday": len(episode.get("stories", [])),
+    }
+
+
+def write_platform_texts(spec: dict, main_video_url: str, out_dir: str = os.path.join("out", "aibrief")) -> tuple:
+    """YouTube Shorts metadata (TITLE/DESCRIPTION file for upload_to_youtube.py)
+    and an Instagram caption. Neither platform makes links in Shorts/Reels clickable:
+    YouTube's "Related video" must be set by hand in Studio; Instagram uses the bio."""
+    base = os.path.join(out_dir, f"short_{spec['date']}_{spec['slug']}")
+    title = spec["headline"]
+    if len(title) > 88:
+        title = title[:88].rsplit(" ", 1)[0]
+    summary = spec["script"].replace(SIGN_OFF, "").strip()
+    yt = (
+        f"TITLE:\n{title} #Shorts\n\nDESCRIPTION:\n{summary}\n\n"
+        f"▶️ Full episode with all of today's AI stories: {main_video_url}\n\n"
+        f"{spec['source']}\n\n#AI #AINews #ArtificialIntelligence #Shorts #SanMitraAINewsWire\n"
+    )
+    ig = (
+        f"🚨 {spec['headline']}\n\n{summary}\n\n"
+        f"▶️ Full episode with all of today's AI stories on YouTube: SanMitra AI News Wire. Link in bio.\n"
+        f"{main_video_url}\n\n{spec['source']}\n\n"
+        f"#AI #ArtificialIntelligence #AINews #TechNews #SanMitraAINewsWire\n"
+    )
+    with open(base + "_youtube_meta.txt", "w", encoding="utf-8") as f:
+        f.write(yt)
+    with open(base + "_instagram.txt", "w", encoding="utf-8") as f:
+        f.write(ig)
+    return base + "_youtube_meta.txt", base + "_instagram.txt"
+
+
+def make_daily_short(date: str, main_video_id: str, privacy: str = "private", publish_at: str = None,
+                     upload: bool = True) -> str:
+    """Render the lead story as a Short and (optionally) upload it to YouTube."""
+    with open(os.path.join("src", "aibrief", "data", "active_episode.json"), "r", encoding="utf-8") as f:
+        episode = json.load(f)
+    spec = spec_from_episode(episode, date)
+    spec_path = os.path.join("shorts", f"{date}_{spec['slug']}.json")
+    os.makedirs("shorts", exist_ok=True)
+    with open(spec_path, "w", encoding="utf-8") as f:
+        json.dump(spec, f, indent=2, ensure_ascii=False)
+    video = build(spec_path, render=True)
+    meta, ig = write_platform_texts(spec, f"https://youtu.be/{main_video_id}")
+    print(f"[+] Short: {video}\n    YouTube text: {meta}\n    Instagram caption: {ig}")
+    if upload:
+        cmd = [sys.executable, "upload_to_youtube.py", "--date", date, "--privacy", privacy,
+               "--video-file", video, "--meta-file", meta, "--thumb-file", "none"]
+        if publish_at:
+            cmd += ["--publish-at", publish_at]
+        subprocess.run(cmd, check=True)
+    return video
 
 
 if __name__ == "__main__":

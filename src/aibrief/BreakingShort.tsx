@@ -115,7 +115,8 @@ const Header: React.FC = () => {
           color: "#ffffff",
           fontFamily: FONT,
           fontWeight: 900,
-          fontSize: 76,
+          // Long headlines step down so they stay within four lines.
+          fontSize: data.headline.length > 90 ? 58 : data.headline.length > 60 ? 66 : 76,
           lineHeight: 1.08,
           letterSpacing: -1,
           textShadow: "0 4px 18px rgba(0,0,0,0.9)",
