@@ -9,6 +9,7 @@ import { LegalMitraWebsiteHero } from "./legalmitra/LegalMitraWebsiteHero";
 import { LegalMitraDemo60s } from "./legalmitra/LegalMitraDemo60s";
 import { AIBriefVideo } from "./aibrief/AIBriefVideo";
 import { JENNY_SHORT_FRAMES, JennyShort } from "./aibrief/JennyShort";
+import { BREAKING_SHORT_FRAMES, BreakingShort } from "./aibrief/BreakingShort";
 import { UKRAINE_WIDE_FRAMES, UkraineWide } from "./aibrief/UkraineWide";
 import { AIBriefThumbnail } from "./aibrief/AIBriefThumbnail";
 import { LinkedInCoverBanner } from "./aibrief/LinkedInCoverBanner";
@@ -158,6 +159,16 @@ export const RemotionRoot: React.FC = () => {
       />
 
       {/* 9:16 Jenny short of the current lead story */}
+      {/* One-story vertical short for Instagram Reels / YouTube Shorts (data: short_episode.json) */}
+      <Composition
+        id="AIBriefBreakingShort"
+        component={BreakingShort}
+        durationInFrames={BREAKING_SHORT_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
       <Composition
         id="AIBriefJennyShort"
         component={JennyShort}
