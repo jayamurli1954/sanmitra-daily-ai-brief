@@ -177,7 +177,7 @@ def make_daily_short(date: str, main_video_id: str, privacy: str = "private", pu
     print(f"[+] Short: {video}\n    YouTube text: {meta}\n    Instagram caption: {ig}")
     if upload:
         cmd = [sys.executable, "upload_to_youtube.py", "--date", date, "--privacy", privacy,
-               "--video-file", video, "--meta-file", meta, "--thumb-file", "none"]
+               "--video-file", video, "--meta-file", meta, "--thumb-file", "none", "--playlist", "shorts"]
         if publish_at:
             cmd += ["--publish-at", publish_at]
         subprocess.run(cmd, check=True)

@@ -230,6 +230,30 @@ def set_thumbnail(youtube, video_id, thumbnail_file):
     except Exception as e:
         print(f"[!] Failed to upload thumbnail: {e}")
 
+# The channel's playlists. The nightly run files each upload under one of these.
+PLAYLISTS = {
+    "daily": "PLMZKnXbmVnBs",    # Daily AI Brief
+    "weekly": "PLEv4Ba-9cy2o",   # Weekly AI Round-up
+    "shorts": "PLe30JY6MrX-o",   # AI News in 60 Seconds
+}
+
+
+def add_to_playlist(youtube, video_id, playlist):
+    """Add the video to a playlist (a key of PLAYLISTS or a playlist ID).
+    A private, scheduled video can be added now; it shows in the playlist once it goes public."""
+    playlist_id = PLAYLISTS.get(playlist, playlist)
+    try:
+        youtube.playlistItems().insert(
+            part="snippet",
+            body={"snippet": {"playlistId": playlist_id,
+                              "resourceId": {"kind": "youtube#video", "videoId": video_id}}},
+        ).execute()
+        print(f"[+] Added to playlist {playlist} ({playlist_id})")
+    except Exception as e:
+        # A playlist problem never fails the upload.
+        print(f"[!] Could not add the video to playlist {playlist}: {e}")
+
+
 def post_discussion_comment(youtube, video_id, date_str):
     date_path = f"src/aibrief/data/{date_str}.json"
     active_path = "src/aibrief/data/active_episode.json"
@@ -287,6 +311,7 @@ def main():
     parser.add_argument("--meta-file", type=str, help="Custom metadata file path")
     parser.add_argument("--video-id", type=str, help="Existing YouTube video ID to set thumbnail for")
     parser.add_argument("--publish-at", type=str, help="UTC time to publish, RFC3339, for example 2026-10-03T02:00:00Z")
+    parser.add_argument("--playlist", type=str, help="Add the video to a playlist: daily, weekly, shorts, or a playlist ID")
     parser.add_argument("--auth", action="store_true", help="Sign in through the browser and save token.json, then exit")
     args = parser.parse_args()
 
@@ -340,6 +365,9 @@ def main():
         set_thumbnail(youtube, video_id, thumb_path)
 
     set_distribution_regions(youtube, video_id)
+
+    if args.playlist and args.playlist.lower() != "none":
+        add_to_playlist(youtube, video_id, args.playlist.lower() if args.playlist.lower() in PLAYLISTS else args.playlist)
 
     # YouTube does not allow comments on private videos. Unlisted and public do.
     if args.publish_at or args.privacy == "private":
