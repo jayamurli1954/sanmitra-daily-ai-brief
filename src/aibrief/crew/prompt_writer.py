@@ -24,6 +24,8 @@ def render_story_sections(stories):
         lines += [f"# {bureau}", ""]
         for s in in_bureau:
             lines.append(f"### {s['title']}")
+            if s.get("lead"):
+                lines.append("Lead: yes")
             lines.append(f"Source: {s['source']}")
             lines.append(s["sourceUrl"])
             for extra in s.get("also", [])[:2]:
@@ -57,7 +59,10 @@ def render_prompt(stories, target_date):
 
 
 def write_prompt(stories, target_date, prompts_dir="prompts"):
-    """Write prompts/<date>.md. Never overwrites an existing (approved) prompt."""
+    """Write prompts/<date>.md. Never overwrites an existing (approved) prompt.
+    The highest-scoring story is marked as the day's lead."""
+    if stories and not any(s.get("lead") for s in stories):
+        max(stories, key=lambda s: s.get("score", 0))["lead"] = True
     os.makedirs(prompts_dir, exist_ok=True)
     path = os.path.join(prompts_dir, f"{target_date}.md")
     if os.path.exists(path):

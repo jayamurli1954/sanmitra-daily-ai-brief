@@ -14,6 +14,7 @@ Executes the full end-to-end autonomous cycle with zero manual intervention:
 import argparse
 from datetime import datetime, timedelta, timezone
 import json
+import re
 import os
 import shutil
 import subprocess
@@ -144,13 +145,27 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
     # 8. Automated YouTube Upload
     upload_failed = False
     if upload_youtube:
-        ok_yt = os.path.exists(video_out) and run_step(
-            f"python upload_to_youtube.py --date {date_str} --video-file {video_out} --thumb-file {thumb_path} "
-            f"--privacy {privacy}" + (f" --publish-at {publish_at}" if publish_at else ""),
-            f"Uploading 1080p Broadcast to YouTube ({f'PRIVATE until {publish_at}' if publish_at else privacy.upper()})"
-        )
+        video_id = None
+        ok_yt = False
+        if os.path.exists(video_out):
+            print(f"\n[*] Uploading 1080p Broadcast to YouTube ({f'PRIVATE until {publish_at}' if publish_at else privacy.upper()})...")
+            cmd = (f"python upload_to_youtube.py --date {date_str} --video-file {video_out} --thumb-file {thumb_path} "
+                   f"--privacy {privacy}" + (f" --publish-at {publish_at}" if publish_at else ""))
+            res = subprocess.run(cmd, shell=True, capture_output=True, text=True, encoding="utf-8", errors="replace")
+            print(res.stdout + res.stderr)
+            ok_yt = res.returncode == 0
+            m = re.search(r"Video ID: (\S+)", res.stdout)
+            video_id = m.group(1) if m else None
         if ok_yt:
             print("🎉 Video successfully uploaded to YouTube!")
+            # The day's lead story as a vertical Short pointing to this episode.
+            # A failed Short never fails the episode.
+            if video_id:
+                try:
+                    from make_short import make_daily_short
+                    make_daily_short(date_str, video_id, privacy=privacy, publish_at=publish_at)
+                except Exception as e:
+                    print(f"[!] Daily Short failed (episode unaffected): {e}")
             # Only aired stories count against the 7-day repeat window.
             from src.aibrief.crew.crew_orchestrator import record_aired_stories
             record_aired_stories(date_str)

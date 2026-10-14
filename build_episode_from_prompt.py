@@ -30,6 +30,11 @@ if sys.stdout.encoding != 'utf-8':
     except Exception:
         pass
 
+# "Lead: yes" under a headline marks the day's lead story. It opens the episode
+# and becomes the day's Short; the line itself is never spoken.
+LEAD_LINE = re.compile(r"(?im)^\s*\*{0,2}Lead\*{0,2}\s*:\s*yes\b")
+
+
 def is_metadata_line(line: str) -> bool:
     """Source, Also, Desk, and bare URLs are records. They are not narration."""
     stripped = line.strip()
@@ -38,7 +43,7 @@ def is_metadata_line(line: str) -> bool:
     if re.match(r"^https?://", stripped, re.IGNORECASE):
         return True
     # Anchored to line start, handles bold (**Source:**, **Also:**, **Desk:**) and plain (Source:, Also:, Desk:)
-    if re.match(r"^\s*\*{0,2}(?:Source|Also|Desk)\*{0,2}\s*:", stripped, re.IGNORECASE):
+    if re.match(r"^\s*\*{0,2}(?:Source|Also|Desk|Lead)\*{0,2}\s*:", stripped, re.IGNORECASE):
         lower = stripped.lower()
         if "desk:" in lower and len(stripped.split()) > 8:
             return False
@@ -327,6 +332,7 @@ def parse_markdown_prompt(md_text: str) -> dict:
                         "sources": srcs,
                         "source_url": source_url,
                         "research_desk": research_desk,
+                        "lead": bool(LEAD_LINE.search(chunk)),
                     })
 
     # If no regional sections found, fall back to STORY \d+ blocks
@@ -372,8 +378,15 @@ def parse_markdown_prompt(md_text: str) -> dict:
         by_region.setdefault(s["region"], []).append(s)
     
     selected_stories = []
-    # 1. Lead story from WORLD
-    if "WORLD" in by_region and by_region["WORLD"]:
+    # 1. The day's lead opens the episode, whatever its region. It is the story
+    #    marked "Lead: yes" (the editor's first story, or the collector's/crew's
+    #    top pick); without a mark, the first WORLD story leads as before.
+    marked = [s for s in unique_stories if s.get("lead")]
+    if marked:
+        lead = marked[0]
+        by_region[lead["region"]].remove(lead)
+        selected_stories.append(lead)
+    elif "WORLD" in by_region and by_region["WORLD"]:
         selected_stories.append(by_region["WORLD"].pop(0))
     # 2. USA Safety / Incident
     if "USA" in by_region and by_region["USA"]:
@@ -539,8 +552,8 @@ def parse_markdown_prompt(md_text: str) -> dict:
     # Intro script
     lead_head = stories[0]['headline'] if stories else "Frontier Artificial Intelligence"
     intro_script = (
-        f"Good morning. From the SanMitra Newsroom, this is the Daily AI Brief for {formatted_date}. "
-        f"Our top story: {lead_head}."
+        f"Breaking this morning: {lead_head}. "
+        f"From the SanMitra Newsroom, this is the Daily AI Brief for {formatted_date}."
     )
 
     # Outro script

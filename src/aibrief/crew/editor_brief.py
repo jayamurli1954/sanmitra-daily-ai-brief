@@ -133,6 +133,12 @@ def merge_editor_brief(editor_md, other_md, date_str, max_stories):
             kept.append(story)
         else:
             dropped_for_space.append(story["headline"])
+    # The editor's first story is the day's lead; any other lead mark gives way.
+    lead_re = re.compile(r"(?i)^\s*\*{0,2}Lead\*{0,2}\s*:")
+    for s in kept:
+        s["lines"] = [l for l in s["lines"] if not lead_re.match(l)]
+    if editor_count:
+        kept[0]["lines"].insert(1, "Lead: yes")
     report = {
         "editor": editor_count,
         "added": len(kept) - editor_count,
