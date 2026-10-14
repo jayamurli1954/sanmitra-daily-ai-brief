@@ -32,3 +32,5 @@ and its outlet is added to yours as an `Also:` line. The crew only adds stories 
 total is under 8. About 120-140 words of summary per story gives 50-60 seconds of narration.
 
 Stock-market stories (share prices, indices, trading) are not covered.
+
+**Check your file after saving:** double-click `check_brief.bat` in the production folder (or run `python check_editor_brief.py`). It lists your stories, the lead, and anything that would be dropped; "OK: ready for tonight's run" means you are done. The link can go on its own line or on the Source line (`Source: Euronews https://...`).
