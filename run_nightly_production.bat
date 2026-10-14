@@ -18,10 +18,18 @@ echo ====================================================================== >> "
 echo NIGHTLY PRODUCTION for %EPISODE_DATE% - started %DATE% %TIME% >> "%LOG%"
 echo ====================================================================== >> "%LOG%"
 
-REM 1. Collect the day's news into prompts\%EPISODE_DATE%.md. A short brief is
-REM    not fatal here: step 2 tops it up from the fact-checked live harvest.
+REM 1. Sunday's episode is the week's round-up, built from what aired Monday to
+REM    Saturday. Any other day: collect the day's news into prompts\%EPISODE_DATE%.md
+REM    (a short brief is not fatal: step 2 tops it up from the live harvest).
+for /f %%i in ('powershell -NoProfile -Command "(Get-Date).AddDays(1).DayOfWeek"') do set EPISODE_DAY=%%i
+if /i "%EPISODE_DAY%"=="Sunday" goto weekly
 python nightly_brief_collector.py >> "%LOG%" 2>&1
 echo Collector exit code %ERRORLEVEL% >> "%LOG%"
+goto produce
+:weekly
+python weekly_roundup.py --date %EPISODE_DATE% >> "%LOG%" 2>&1
+echo Weekly round-up exit code %ERRORLEVEL% >> "%LOG%"
+:produce
 
 REM 2. Build, fact-check, voice, render and upload (private until 06:30 IST).
 python run_autonomous_brief.py --date %EPISODE_DATE% --privacy private --publish-at-ist 06:30 >> "%LOG%" 2>&1
