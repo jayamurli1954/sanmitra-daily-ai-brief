@@ -20,6 +20,7 @@ import re
 import sys
 
 from validate_episode_sources import is_proper_article_url
+from src.aibrief.crew.fact_checker import MAX_EPISODE_STORIES, STORY_MAX_SENTENCES, STORY_MAX_WORDS
 from src.aibrief.crew.text_utils import same_event, split_sentences
 from src.aibrief.source_authority import is_company_source
 
@@ -182,10 +183,17 @@ def format_broadcast_narration(idx: int, region: str, headline: str, body: str, 
             continue
         filtered_sentences.append(s)
 
-    kept = []
+    # About 140 words is 60 seconds at the anchors' pace (8-9 stories, under 10 minutes).
+    # A sentence is added only if the story stays within ~150 words, so no story runs
+    # much past a minute; the first sentence is always kept.
+    kept, words = [], 0
     for sentence in filtered_sentences:
+        n = len(sentence.split())
+        if kept and words + n > STORY_MAX_WORDS + 10:
+            break
         kept.append(sentence)
-        if len(kept) >= 6 or len(" ".join(kept).split()) >= 110:
+        words += n
+        if len(kept) >= STORY_MAX_SENTENCES or words >= STORY_MAX_WORDS:
             break
     content = " ".join(kept) if kept else cleaned_body[:700]
 
@@ -385,9 +393,9 @@ def parse_markdown_prompt(md_text: str) -> dict:
     if "INDIA" in by_region and by_region["INDIA"]:
         selected_stories.append(by_region["INDIA"].pop(0))
     
-    # Fill remaining slots from the brief, up to 15 stories (12-15 make a 10+ minute episode).
+    # Fill remaining slots from the brief: 8-9 stories of 50-60 seconds keep it under 10 minutes.
     for reg in ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]:
-        while len(selected_stories) < 15 and reg in by_region and by_region[reg]:
+        while len(selected_stories) < MAX_EPISODE_STORIES and reg in by_region and by_region[reg]:
             selected_stories.append(by_region[reg].pop(0))
 
     # Load visual memory if present

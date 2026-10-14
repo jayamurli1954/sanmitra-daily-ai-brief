@@ -31,6 +31,24 @@ def contains_any(text, keywords):
     return any(_keyword_pattern(k).search(lowered) for k in keywords)
 
 
+# The channel does not cover stock-market news (editor's decision, 2026-10-14):
+# share-price moves, indices, trading. Startup funding rounds are not excluded.
+STOCK_MARKET_TERMS = [
+    "stock market", "stock markets", "stocks", "stock price", "share price", "share prices",
+    "shares fell", "shares fall", "shares rose", "shares rise", "shares slide", "shares slid",
+    "shares tumble", "shares tumbled", "shares jump", "shares jumped", "shares surge", "shares surged",
+    "shares plunge", "shares plunged", "shares sink", "shares soar", "sell-off", "selloff",
+    "wall street", "nasdaq", "dow jones", "s&p 500", "sensex", "nifty", "kospi", "nikkei",
+    "hang seng", "ftse", "market cap", "market value", "stock exchange", "bear market", "bull market",
+]
+
+
+def is_stock_market_story(title):
+    """True when the headline is about share prices or markets. Judged on the
+    headline only: a passing mention in the body does not exclude a story."""
+    return contains_any(title, STOCK_MARKET_TERMS)
+
+
 def count_matches(text, keywords):
     lowered = (text or "").lower()
     return sum(1 for k in keywords if _keyword_pattern(k).search(lowered))

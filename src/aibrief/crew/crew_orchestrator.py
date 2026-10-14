@@ -11,7 +11,8 @@ Produces today's episode JSON from a prompt in the approved format:
   3. build_episode_from_prompt.py builds the episode from that prompt, so the
      source traceability gate always has a prompt to check against.
 
-An episode needs 12-15 stories (10+ minutes); with fewer, no episode is made.
+An episode has 8-9 stories of about 50-60 seconds (under 10 minutes); with fewer
+than 8, no episode is made.
 Every subprocess result is checked, and the orchestrator never falls back to an
 episode JSON that is already on disk, which could be yesterday's.
 """

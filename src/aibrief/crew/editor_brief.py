@@ -12,9 +12,10 @@ prompts/editor/<date>.md in the usual prompt format:
 
     Summary paragraph.
 
-Every editor story is kept. A collector or crew story about the same event is
-dropped and its outlet is added to the editor story as an "Also:" source, so the
-editor's wording wins. Remaining stories follow, up to MAX_EPISODE_STORIES.
+Editor stories come first, in the editor's order, up to MAX_EPISODE_STORIES (9).
+A collector or crew story about the same event is dropped and its outlet is added
+to the editor story as an "Also:" source, so the editor's wording wins. Remaining
+stories fill any places left.
 """
 
 import re
@@ -116,9 +117,12 @@ def render(stories, date_str):
 
 def merge_editor_brief(editor_md, other_md, date_str, max_stories):
     """Returns (merged markdown, report dict)."""
-    kept = parse_stories(editor_md)
+    editor_stories = parse_stories(editor_md)
+    kept = editor_stories[:max_stories]
     editor_count = len(kept)
-    merged_dupes, dropped_for_space = [], []
+    merged_dupes = []
+    # The editor's list is in priority order; anything past the cap waits for another day.
+    dropped_for_space = [s["headline"] for s in editor_stories[max_stories:]]
     for story in parse_stories(other_md or ""):
         dup = _duplicate_of(story, kept)
         if dup is not None:

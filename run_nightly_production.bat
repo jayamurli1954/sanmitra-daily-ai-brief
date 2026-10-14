@@ -1,7 +1,7 @@
 @echo off
 REM ==============================================================================
 REM SanMitra AI News Wire - 10:15 PM IST nightly production on this PC
-REM Collects the day's AI news, builds tomorrow's episode (topping up to 12-15
+REM Collects the day's AI news, builds tomorrow's episode (8-9 stories, topping up
 REM fact-checked stories), renders it, and uploads it to YouTube as PRIVATE with
 REM a scheduled publish at 06:30 IST. YouTube makes it public; the PC can be off.
 REM ==============================================================================

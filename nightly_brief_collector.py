@@ -112,6 +112,13 @@ def run_nightly_collection(target_date: str = None, push_git: bool = True, sync_
             active_data = json.load(f)
             candidate_stories = active_data.get("stories", [])
 
+    # No stock-market stories (share prices, indices, trading): editor's decision, 2026-10-14.
+    from src.aibrief.crew.text_utils import is_stock_market_story
+    market = [s for s in candidate_stories if is_stock_market_story(s.get("headline", ""))]
+    if market:
+        print(f"[*] Dropping {len(market)} stock-market stories: " + "; ".join(s.get("headline", "")[:60] for s in market))
+        candidate_stories = [s for s in candidate_stories if s not in market]
+
     if not candidate_stories:
         print("[!] No candidate stories found from scraper. Engaging fallback.")
         return False
