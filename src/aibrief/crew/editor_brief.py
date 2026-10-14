@@ -47,8 +47,13 @@ def parse_stories(markdown):
             s["lines"].pop()
         s["urls"] = {u.rstrip(").,") for line in s["lines"] for u in _URL.findall(line)}
         source = next((l.split(":", 1)[1].strip() for l in s["lines"] if l.strip().lower().startswith("source:")), "")
+        # The link may be on its own line or on the Source line itself
+        # ("Source: Euronews https://..."), as editors often write it.
+        inline = _URL.search(source)
+        if inline:
+            source = source[:inline.start()].strip(" —-")
         primary = next((l.strip() for l in s["lines"] if l.strip().startswith("http")), "")
-        s["source"], s["primary_url"] = source, primary
+        s["source"], s["primary_url"] = source, primary or (inline.group(0).rstrip(").,") if inline else "")
     return stories
 
 
