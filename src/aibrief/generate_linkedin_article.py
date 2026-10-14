@@ -113,8 +113,9 @@ def build_linkedin_article(
 
     lines = [
         "SanMitra AI News Wire",
-        f"AI Brief — {today_formatted} (IST)",
-        f"Covering {yesterday_formatted}",
+        (f"Weekly AI Round-up — {today_formatted} (IST)" if ep.get("weekly") else f"AI Brief — {today_formatted} (IST)"),
+        (f"The week's biggest AI stories, {(dt - timedelta(days=6)).strftime('%d %B')} to {yesterday_dt.strftime('%d %B %Y')}"
+         if ep.get("weekly") else f"Covering {yesterday_formatted}"),
         "",
         generate_macro_intro(stories),
         ""

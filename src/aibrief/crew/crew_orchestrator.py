@@ -165,7 +165,8 @@ def _add_daily_paper(prompt_path, target_date, editor_path, warnings):
 
     with open(prompt_path, "r", encoding="utf-8") as f:
         md = f.read()
-    if "arxiv.org/abs/" in md:
+    # Sunday's round-up re-tells the week's stories; a new paper doesn't belong.
+    if "arxiv.org/abs/" in md or "## Weekly Round-up" in md:
         return
     harvester = NewsHarvester(target_date=target_date)
     candidates = harvester.filter_candidates(harvester.fetch_daily_paper())
