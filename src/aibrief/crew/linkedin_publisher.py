@@ -20,68 +20,17 @@ class LinkedInPublisher:
         self.formatted_date = episode_payload.get("formattedDate", "")
 
     def generate_article_text(self):
-        """Construct a high-engagement, C-suite LinkedIn intelligence dispatch."""
-        stories = self.episode.get("stories", [])
-        lead = stories[0] if stories else {}
+        """The LinkedIn article, built only from the episode's stories.
 
-        # Bucket stories by bureau
-        bureaus = {}
-        for s in stories:
-            reg = s.get("region", "WORLD").upper()
-            if reg not in bureaus:
-                bureaus[reg] = []
-            bureaus[reg].append(s)
-
-        lines = []
-        lines.append(f"🤖 SANMITRA AI NEWS WIRE | EXECUTIVE BRIEF")
-        lines.append(f"📅 Daily Intelligence Dispatch — {self.formatted_date} (IST)\n")
-        lines.append("────────────────────────────────────────\n")
-
-        # Top Macro Hook
-        lines.append("📌 TODAY'S STRATEGIC OVERVIEW:")
-        lines.append(
-            f"The global AI infrastructure expansion is navigating a critical recalibration across sovereign compute, "
-            f"clinical model safety, and autonomous defense systems. In our lead development today, "
-            f"{lead.get('headline', 'major infrastructure developments are reshaping the market')}.\n"
-        )
-
-        # Regional Breakdown
-        for reg in ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]:
-            if reg in bureaus and bureaus[reg]:
-                flag_map = {"WORLD": "🌍", "USA": "🇺🇸", "CHINA": "🇨🇳", "ASIA": "🌏", "INDIA": "🇮🇳"}
-                lines.append(f"{flag_map.get(reg, '🌐')} {reg} BUREAU:")
-                for s in bureaus[reg]:
-                    label = " (company announcement)" if s.get("sourceType") == "company" else ""
-                    lines.append(f"• {s['headline']}")
-                    lines.append(f"  Source: {s.get('source', '')}{label} {s.get('sourceUrl', '')}".rstrip())
-                    if s.get("whyThisMatters"):
-                        lines.append(f"  Context: {s['whyThisMatters']}")
-                    lines.append("")
-
-        # Strategic Analysis for Leaders
-        lines.append("💡 STRATEGIC TAKEAWAY FOR LEADERSHIP:")
-        lines.append(
-            "Enterprise architects and policymakers are transitioning focus from raw capability benchmarks to "
-            "verifiable security, sustainable unit economics, and resilient regional supply chains. "
-            "Ensuring model governance and sovereign data control remains the core operational moat for 2026.\n"
-        )
-
-        lines.append("────────────────────────────────────────")
-        lines.append("📺 Full Video Broadcast & Analysis: https://www.youtube.com/@SanMitraTechSolutions")
-        lines.append("#ArtificialIntelligence #AIStrategy #SovereignAI #Semiconductors #EnterpriseAI #TechPolicy #SanMitraAI")
-
-        article_content = "\n".join(lines)
-
-        os.makedirs(os.path.join("out", "aibrief"), exist_ok=True)
-        post_path = os.path.join("out", "aibrief", f"linkedin_post_{self.date_str}.txt")
+        This used to add fixed paragraphs ("navigating a critical recalibration
+        across sovereign compute, clinical model safety...") whatever the news.
+        The video link is added after upload (run_autonomous_brief.py)."""
+        from src.aibrief.generate_linkedin_article import build_linkedin_article
         primary_post_path = os.path.join("out", "aibrief", "linkedin_post.txt")
-
-        with open(post_path, "w", encoding="utf-8") as f:
-            f.write(article_content)
-        with open(primary_post_path, "w", encoding="utf-8") as f:
-            f.write(article_content)
-
-        logger.info(f"LinkedIn executive article written to {primary_post_path}")
+        build_linkedin_article(episode=self.episode,
+                               output_article_path=os.path.join("out", "aibrief", "linkedin_article.md"),
+                               output_post_path=primary_post_path)
+        logger.info(f"LinkedIn article written to {primary_post_path}")
         return primary_post_path
 
     def render_cover_banner(self):

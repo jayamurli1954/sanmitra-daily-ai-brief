@@ -158,6 +158,12 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
             video_id = m.group(1) if m else None
         if ok_yt:
             print("🎉 Video successfully uploaded to YouTube!")
+            if video_id:
+                try:
+                    from src.aibrief.generate_linkedin_article import build_linkedin_article
+                    build_linkedin_article(video_url=f"https://youtu.be/{video_id}")
+                except Exception as e:
+                    print(f"[!] LinkedIn article link update failed: {e}")
             # The day's lead story as a vertical Short pointing to this episode.
             # A failed Short never fails the episode.
             if video_id:
