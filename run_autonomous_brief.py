@@ -149,8 +149,11 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
         ok_yt = False
         if os.path.exists(video_out):
             print(f"\n[*] Uploading 1080p Broadcast to YouTube ({f'PRIVATE until {publish_at}' if publish_at else privacy.upper()})...")
+            # Sunday's round-up goes to the Weekly playlist, every other episode to Daily.
+            with open(active_file, "r", encoding="utf-8") as f:
+                playlist = "weekly" if json.load(f).get("weekly") else "daily"
             cmd = (f"python upload_to_youtube.py --date {date_str} --video-file {video_out} --thumb-file {thumb_path} "
-                   f"--privacy {privacy}" + (f" --publish-at {publish_at}" if publish_at else ""))
+                   f"--privacy {privacy} --playlist {playlist}" + (f" --publish-at {publish_at}" if publish_at else ""))
             res = subprocess.run(cmd, shell=True, capture_output=True, text=True, encoding="utf-8", errors="replace")
             print(res.stdout + res.stderr)
             ok_yt = res.returncode == 0
