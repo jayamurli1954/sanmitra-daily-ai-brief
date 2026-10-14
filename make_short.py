@@ -90,6 +90,10 @@ def build(spec_path: str, render: bool = True) -> str:
         subprocess.run([npx, "remotion", "render", "AIBriefBreakingShort", out, "--codec=h264",
                         "--concurrency=2", f"--gl={gl}", "--log=error"], check=True)
         print(f"[+] Rendered {out}")
+        # Instagram crops the Reel's cover to the centre; this still keeps the headline inside it.
+        cover = out[:-4] + "_cover.png"
+        subprocess.run([npx, "remotion", "still", "AIBriefShortCover", cover, "--log=error"], check=True)
+        print(f"[+] Instagram cover {cover}")
     return out
 
 
