@@ -51,6 +51,29 @@ class LinkedInArticleTest(unittest.TestCase):
         self.assertNotIn("In another major development", text)
         self.assertIn("Kerala leads.", text)
 
+    def test_video_link_under_opening_and_channel_at_end(self):
+        with tempfile.TemporaryDirectory() as d:
+            text = build_linkedin_article(episode=EPISODE, video_url="https://youtu.be/abc123",
+                                          output_article_path=os.path.join(d, "a.md"),
+                                          output_post_path=os.path.join(d, "p.txt"))
+        lines = [l for l in text.splitlines() if l.strip()]
+        self.assertEqual(lines[4], "▶️ Watch today's video brief: https://youtu.be/abc123")
+        self.assertIn("youtube.com/@SanMitraTechSolutions", lines[-2])
+
+    def test_crew_writer_has_no_fixed_paragraphs(self):
+        from src.aibrief.crew.linkedin_publisher import LinkedInPublisher
+        cwd = os.getcwd()
+        with tempfile.TemporaryDirectory() as d:
+            os.chdir(d)
+            try:
+                path = LinkedInPublisher(EPISODE).generate_article_text()
+                text = open(path, encoding="utf-8").read()
+            finally:
+                os.chdir(cwd)
+        self.assertNotIn("recalibration", text)
+        self.assertNotIn("STRATEGIC TAKEAWAY", text)
+        self.assertIn("Intel, Broadcom CEOs warn capital crunch", text)
+
     def test_clean_summary(self):
         self.assertEqual(clean_summary("Expanding on regulatory scrutiny, nuvacore is raising."), "Nuvacore is raising.")
         self.assertEqual(clean_summary("Also today. Nuvacore is raising."), "Nuvacore is raising.")

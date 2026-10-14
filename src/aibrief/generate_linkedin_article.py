@@ -69,14 +69,21 @@ def generate_key_takeaways(stories: List[Dict]) -> str:
     return "\n".join(lines).rstrip()
 
 
+CHANNEL_URL = "https://www.youtube.com/@SanMitraTechSolutions"
+
+
 def build_linkedin_article(
     active_json_path: str = "src/aibrief/data/active_episode.json",
     prompt_md_path: Optional[str] = None,
     output_article_path: str = "out/aibrief/linkedin_article.md",
-    output_post_path: str = "out/aibrief/linkedin_post.txt"
+    output_post_path: str = "out/aibrief/linkedin_post.txt",
+    video_url: Optional[str] = None,
+    episode: Optional[Dict] = None,
 ) -> str:
-    ep = {}
-    if os.path.exists(active_json_path):
+    """video_url (the day's YouTube episode) goes under the opening paragraph, where
+    most readers still are; the channel subscribe line closes the article."""
+    ep = episode or {}
+    if not ep and os.path.exists(active_json_path):
         with open(active_json_path, "r", encoding="utf-8") as f:
             ep = json.load(f)
 
@@ -112,6 +119,8 @@ def build_linkedin_article(
         generate_macro_intro(stories),
         ""
     ]
+    if video_url:
+        lines += [f"▶️ Watch today's video brief: {video_url}", ""]
 
     bureau_icons = {
         "WORLD": "🌍 WORLD",
@@ -150,7 +159,7 @@ def build_linkedin_article(
 
     lines.append(generate_key_takeaways(stories))
     lines.append("")
-    lines.append("Follow for a daily AI briefing across the World, USA, China, Asia and India.")
+    lines.append(f"🔔 Get the daily AI brief every morning at 6:30 AM IST. Subscribe on YouTube: {CHANNEL_URL}")
     lines.append("")
     lines.append("#AI #ArtificialIntelligence #AIGovernance #AISafety #AIInfrastructure #ChinaAI #IndiaAI #SanMitraAINewsWire #OfficeMitraAIInsights")
 
@@ -181,6 +190,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Generate official LinkedIn Article from daily AI Brief")
     parser.add_argument("--json", default="src/aibrief/data/active_episode.json", help="Path to active episode JSON")
+    parser.add_argument("--video-url", help="The day's YouTube episode, linked under the opening paragraph")
     args = parser.parse_args()
 
-    build_linkedin_article(active_json_path=args.json)
+    build_linkedin_article(active_json_path=args.json, video_url=args.video_url)
