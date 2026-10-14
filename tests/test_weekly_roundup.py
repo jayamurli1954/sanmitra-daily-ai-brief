@@ -65,6 +65,16 @@ class WeeklyRoundupTest(unittest.TestCase):
         self.assertIn("Kerala leads Indian states in AI-ready jobs", heads)
         self.assertEqual(len(heads), 9)
 
+    def test_sunday_editor_file_keeps_the_round_up(self):
+        from src.aibrief.crew.editor_brief import merge_editor_brief
+        weekly_md = open(w.build_weekly_prompt("2026-10-18"), encoding="utf-8").read()
+        editor = ("# INDIA\n\n### Editor's pick of the week\nSource: Mint\nhttps://www.livemint.com/ai/pick-123\n\n"
+                  + BODY + "\n")
+        merged, _ = merge_editor_brief(editor, weekly_md, "2026-10-18", 9)
+        ep = parse_markdown_prompt(merged)
+        self.assertTrue(ep["weekly"])
+        self.assertEqual(ep["stories"][0]["headline"], "Editor's pick of the week")
+
 
 if __name__ == "__main__":
     unittest.main()

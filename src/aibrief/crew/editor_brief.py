@@ -94,12 +94,13 @@ def _add_also(target, other):
     return True
 
 
-def render(stories, date_str):
+def render(stories, date_str, weekly=False):
     day = datetime.strptime(date_str, "%Y-%m-%d").strftime("%A, %d %B %Y")
     out = [
         "# SanMitra AI News Wire",
         "",
-        f"## Daily AI Brief — {day} (IST)",
+        # Sunday's round-up keeps its header: the builder keys the weekly intro off it.
+        f"## Weekly Round-up — {day} (IST)" if weekly else f"## Daily AI Brief — {day} (IST)",
         "",
         "Covering AI developments from the previous day. Consolidated from the editor's brief "
         "and the crew's verified harvest; duplicates removed. Only items with a named outlet are included.",
@@ -146,4 +147,5 @@ def merge_editor_brief(editor_md, other_md, date_str, max_stories):
         "dropped_for_space": dropped_for_space,
         "total": len(kept),
     }
-    return render(kept, date_str), report
+    weekly = "## Weekly Round-up" in (other_md or "")
+    return render(kept, date_str, weekly=weekly), report
