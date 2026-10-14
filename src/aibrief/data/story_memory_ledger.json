@@ -1,219 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-10-10",
+  "last_updated": "2026-10-14",
   "stories": [
-    {
-      "story_id": "story_20260927_u_s_and_china_launch_formal_super_i",
-      "story_chain_id": "chain_global_u_s_and_china_launch",
-      "headline": "U.S. and China Launch Formal \"Super Intelligence\" Dialogue",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-27",
-      "last_major_update": "2026-09-27",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20260927_openai_halts_frontier_model_trainin",
-      "story_chain_id": "chain_openai_openai_halts_frontie",
-      "headline": "OpenAI Halts Frontier Model Training After Sandbox Escape",
-      "companies": [
-        "OpenAI"
-      ],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-27",
-      "last_major_update": "2026-09-27",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20260927_frontier_labs_pursue_industry_wide_",
-      "story_chain_id": "chain_global_frontier_labs_pursue",
-      "headline": "Frontier Labs Pursue Industry-Wide AI Safety Standards",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-27",
-      "last_major_update": "2026-09-27",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20260927_deepseek_unveils_massive_agent_trai",
-      "story_chain_id": "chain_deepseek_deepseek_unveils_mas",
-      "headline": "DeepSeek Unveils Massive Agent Training Infrastructure",
-      "companies": [
-        "DeepSeek"
-      ],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-27",
-      "last_major_update": "2026-09-27",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20260927_grab_and_openai_launch_large_scale_",
-      "story_chain_id": "chain_openai_grab_and_openai_laun",
-      "headline": "Grab and OpenAI Launch Large-Scale AI Workforce Program",
-      "companies": [
-        "OpenAI"
-      ],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-27",
-      "last_major_update": "2026-09-27",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20260927_odisha_approves_rupees_22_634_crore",
-      "story_chain_id": "chain_global_odisha_approves_rupe",
-      "headline": "Odisha Approves rupees 22,634 Crore Sovereign AI Compute Project",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-27",
-      "last_major_update": "2026-09-27",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20260928_tesla_reportedly_can_t_get_the_hand",
-      "story_chain_id": "chain_tesla_tesla_reportedly_can",
-      "headline": "Tesla Reportedly Can’t Get the Hands to Work on Its Optimus Robot",
-      "companies": [
-        "Tesla"
-      ],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-28",
-      "last_major_update": "2026-09-28",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20260928_nvidia_launches_open_agent_safety_p",
-      "story_chain_id": "chain_nvidia_nvidia_launches_open",
-      "headline": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment",
-      "companies": [
-        "Nvidia"
-      ],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-28",
-      "last_major_update": "2026-09-28",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20260928_lead_story_china_may_allow_bytedanc",
-      "story_chain_id": "chain_nvidia_lead_story_china_may",
-      "headline": "👑 [LEAD STORY] China may allow ByteDance, Alibaba to buy Nvidia RTX PRO 5500 chips",
-      "companies": [
-        "Nvidia",
-        "Alibaba"
-      ],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-28",
-      "last_major_update": "2026-09-28",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20260928_tsmc_affiliate_already_eyes_expansi",
-      "story_chain_id": "chain_global_tsmc_affiliate_alrea",
-      "headline": "TSMC affiliate already eyes expansion as first Singapore plant 'sells out'",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-28",
-      "last_major_update": "2026-09-28",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20260928_to_pour_rupees_20_000_crore_into_fr",
-      "story_chain_id": "chain_global_to_pour_rupees_20_00",
-      "headline": "to Pour rupees 20,000 Crore Into Frontier AI",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-28",
-      "last_major_update": "2026-09-28",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20260929_lead_story_anthropic_warns_of_catas",
-      "story_chain_id": "chain_anthropic_lead_story_anthropic",
-      "headline": "👑 [LEAD STORY] Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
-      "companies": [
-        "Anthropic"
-      ],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-29",
-      "last_major_update": "2026-09-29",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20260929_openai_launches_dots_its_muse_compe",
-      "story_chain_id": "chain_openai_openai_launches_dots",
-      "headline": "OpenAI launches Dots, its Muse competitor",
-      "companies": [
-        "OpenAI"
-      ],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-09-29",
-      "last_major_update": "2026-09-29",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
     {
       "story_id": "story_20261001_lead_story_elevenlabs_valuation_dou",
       "story_chain_id": "chain_global_lead_story_elevenlab",
@@ -1409,35 +1197,378 @@
       "last_major_update": "2026-10-11",
       "update_phase": "initial_break",
       "impact_score": 71
+    },
+    {
+      "story_id": "story_20261013_cyber_attack_similar_to_openai_medi",
+      "story_chain_id": "chain_global_cyber_attack_similar",
+      "headline": "Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/12/cyber-attack-like-openai-medicare-breach-seems-likely-in-uk-says-minister"
+      ],
+      "first_covered": "2026-10-13",
+      "last_major_update": "2026-10-13",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261013_ai_less_regulated_than_milk_microso",
+      "story_chain_id": "chain_global_ai_less_regulated_th",
+      "headline": "AI less regulated than milk, Microsoft president says in warning over safety",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules"
+      ],
+      "first_covered": "2026-10-13",
+      "last_major_update": "2026-10-13",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261013_this_ai_startup_says_it_can_generat",
+      "story_chain_id": "chain_global_this_ai_startup_says",
+      "headline": "This AI startup says it can generate permit-ready blueprints in minutes",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/"
+      ],
+      "first_covered": "2026-10-13",
+      "last_major_update": "2026-10-13",
+      "update_phase": "initial_break",
+      "impact_score": 75
+    },
+    {
+      "story_id": "story_20261013_world_bank_jobs_council_urges_crisi",
+      "story_chain_id": "chain_global_world_bank_jobs_coun",
+      "headline": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
+      ],
+      "first_covered": "2026-10-13",
+      "last_major_update": "2026-10-13",
+      "update_phase": "initial_break",
+      "impact_score": 75
+    },
+    {
+      "story_id": "story_20261013_intel_broadcom_ceos_warn_capital_cr",
+      "story_chain_id": "chain_global_intel_broadcom_ceos_",
+      "headline": "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html"
+      ],
+      "first_covered": "2026-10-13",
+      "last_major_update": "2026-10-13",
+      "update_phase": "initial_break",
+      "impact_score": 75
+    },
+    {
+      "story_id": "story_20261013_ai_may_change_the_price_of_your_big",
+      "story_chain_id": "chain_global_ai_may_change_the_pr",
+      "headline": "AI may change the price of your Big Mac and groceries — what this means for shoppers",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/11/ai-dynamic-pricing-shoppers-groceries.html"
+      ],
+      "first_covered": "2026-10-13",
+      "last_major_update": "2026-10-13",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261013_sequoia_backed_chip_startup_nuvacor",
+      "story_chain_id": "chain_global_sequoia_backed_chip_",
+      "headline": "Sequoia-backed chip startup Nuvacore raising funds at about a $2.5 billion valuation",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/sequoia-backed-chip-startup-nuvacore-raising-funds-at-about-a-2-5-billion-valuation/articleshow/134870940.cms"
+      ],
+      "first_covered": "2026-10-13",
+      "last_major_update": "2026-10-13",
+      "update_phase": "initial_break",
+      "impact_score": 68
+    },
+    {
+      "story_id": "story_20261013_ai_fuelling_growth_while_putting_as",
+      "story_chain_id": "chain_global_ai_fuelling_growth_w",
+      "headline": "AI fuelling growth while putting Asia’s young workers at risk, IMF meeting hears",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://www.scmp.com/week-asia/economics/article/3370618/ai-fuelling-growth-while-putting-asias-young-workers-risk-imf-meeting-hears?utm_source=rss_feed"
+      ],
+      "first_covered": "2026-10-13",
+      "last_major_update": "2026-10-13",
+      "update_phase": "initial_break",
+      "impact_score": 68
+    },
+    {
+      "story_id": "story_20261014_character_ai_files_for_bankruptcy",
+      "story_chain_id": "chain_global_character_ai_files_f",
+      "headline": "Character.AI files for bankruptcy",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney"
+      ],
+      "first_covered": "2026-10-14",
+      "last_major_update": "2026-10-14",
+      "update_phase": "initial_break",
+      "impact_score": 100
+    },
+    {
+      "story_id": "story_20261014_apple_unveils_new_smart_home_device",
+      "story_chain_id": "chain_global_apple_unveils_new_sm",
+      "headline": "Apple unveils new smart home devices that showcase upgraded Siri AI",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai"
+      ],
+      "first_covered": "2026-10-14",
+      "last_major_update": "2026-10-14",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261014_imf_warns_global_economy_could_soon",
+      "story_chain_id": "chain_global_imf_warns_global_eco",
+      "headline": "IMF warns global economy ‘could soon test the limits of resilience’",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026"
+      ],
+      "first_covered": "2026-10-14",
+      "last_major_update": "2026-10-14",
+      "update_phase": "initial_break",
+      "impact_score": 87
+    },
+    {
+      "story_id": "story_20261014_chip_stocks_slide_after_broadcom_bo",
+      "story_chain_id": "chain_global_chip_stocks_slide_af",
+      "headline": "Chip stocks slide after Broadcom boss likens AI investing to ‘casino’",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.theguardian.com/business/2026/oct/13/chip-stocks-broadcom-ai-samsung-shares-cxmt"
+      ],
+      "first_covered": "2026-10-14",
+      "last_major_update": "2026-10-14",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261014_actress_mia_goth_says_it_s_incompre",
+      "story_chain_id": "chain_global_actress_mia_goth_say",
+      "headline": "Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce"
+      ],
+      "first_covered": "2026-10-14",
+      "last_major_update": "2026-10-14",
+      "update_phase": "initial_break",
+      "impact_score": 82
+    },
+    {
+      "story_id": "story_20261014_i_m_a_pediatrician_loss_of_human_co",
+      "story_chain_id": "chain_global_i_m_a_pediatrician_l",
+      "headline": "I’m a pediatrician. Loss of human connection is the biggest threat to kids, not AI | Megan Moreno",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/13/human-connection-threat-children-ai-technology"
+      ],
+      "first_covered": "2026-10-14",
+      "last_major_update": "2026-10-14",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261014_afl_tells_sportsbet_to_stop_using_p",
+      "story_chain_id": "chain_global_afl_tells_sportsbet_",
+      "headline": "AFL tells Sportsbet to stop using players in AI generated content",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/australia-news/2026/oct/14/afl-tells-sportsbet-to-stop-using-players-in-ai-generated-content"
+      ],
+      "first_covered": "2026-10-14",
+      "last_major_update": "2026-10-14",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261014_imf_warns_of_ai_market_correction_c",
+      "story_chain_id": "chain_global_imf_warns_of_ai_mark",
+      "headline": "IMF warns of AI market correction, cyber threats to financial system",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.thehindu.com/business/imf-warns-of-ai-market-correction-cyber-threats-to-financial-system/article71578066.ece"
+      ],
+      "first_covered": "2026-10-14",
+      "last_major_update": "2026-10-14",
+      "update_phase": "initial_break",
+      "impact_score": 69
+    },
+    {
+      "story_id": "story_20261015_the_eyes_have_it_reform_politician_",
+      "story_chain_id": "chain_global_the_eyes_have_it_ref",
+      "headline": "The eyes have it: Reform politician’s ‘smart glasses’ prompt calls for ban in Westminster",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/14/smart-glasses-ai-technology-reform-senedd-westminster-ban"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261015_apple_vs_openai_what_the_trade_secr",
+      "story_chain_id": "chain_global_apple_vs_openai_what",
+      "headline": "Apple vs OpenAI: What the trade secret theft lawsuit is about",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/apple-vs-openai-what-the-trade-secret-theft-lawsuit-is-about/articleshow/134937124.cms"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261015_anthropic_s_self_replicating_ai_war",
+      "story_chain_id": "chain_global_anthropic_s_self_rep",
+      "headline": "Anthropic’s self-replicating AI warning is alarming deja vu",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1011108/anthropic-self-replicating-ai-smart-devices-risk"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 82
+    },
+    {
+      "story_id": "story_20261015_square_s_new_kiosk_lets_you_talk_to",
+      "story_chain_id": "chain_global_square_s_new_kiosk_l",
+      "headline": "Square’s new kiosk lets you talk to AI for help with your order",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/tech/1009086/square-kiosk"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 82
+    },
+    {
+      "story_id": "story_20261015_i_don_t_miss_the_camera_on_the_ray_",
+      "story_chain_id": "chain_global_i_don_t_miss_the_cam",
+      "headline": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 74
+    },
+    {
+      "story_id": "story_20261015_tool_and_target_us_law_enforcement_",
+      "story_chain_id": "chain_global_tool_and_target_us_l",
+      "headline": "Tool and target: US law enforcement grapple with AI-enabled terrorism and anti-tech extremism",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/ng-interactive/2026/oct/14/ai-terror-plots-fbi-extremism"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261015_ai_overlords_say_they_want_to_democ",
+      "story_chain_id": "chain_global_ai_overlords_say_the",
+      "headline": "AI overlords say they want to democratise their technology. Here’s how | Richard Wilson and Clara Long",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theguardian.com/commentisfree/2026/oct/14/ai-overlords-democratise-technology"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261015_oppo_coloros_17_launched_with_new_a",
+      "story_chain_id": "chain_global_oppo_coloros_17_laun",
+      "headline": "Oppo ColorOS 17 launched with new AI features: Check eligible phones and rollout dates",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.livemint.com/technology/oppo-coloros-17-launched-with-new-ai-features-check-eligible-phones-and-rollout-dates-11791957611217.html"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 71
     }
   ],
   "entity_index": {
+    "Deepmind": [
+      "2026-10-02"
+    ],
     "Openai": [
-      "2026-09-27",
-      "2026-09-29",
       "2026-10-02",
       "2026-10-03",
       "2026-10-04"
     ],
     "Deepseek": [
-      "2026-09-27",
-      "2026-10-02"
-    ],
-    "Tesla": [
-      "2026-09-28"
-    ],
-    "Nvidia": [
-      "2026-09-28"
-    ],
-    "Alibaba": [
-      "2026-09-28",
-      "2026-10-04"
-    ],
-    "Anthropic": [
-      "2026-09-29",
-      "2026-10-04"
-    ],
-    "Deepmind": [
       "2026-10-02"
     ],
     "Google": [
@@ -1450,6 +1581,12 @@
       "2026-10-03"
     ],
     "Meta": [
+      "2026-10-04"
+    ],
+    "Alibaba": [
+      "2026-10-04"
+    ],
+    "Anthropic": [
       "2026-10-04"
     ],
     "Amazon": [

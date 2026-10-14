@@ -1,5 +1,40 @@
 [
   {
+    "timestamp": "2026-10-12T23:01:26.221233",
+    "severity": "HIGH",
+    "message": "Episode failed Editorial Quality Gate (Composite: 79.88/100)",
+    "score_details": {
+      "date": "2026-10-13",
+      "composite_quality_score": 79.88,
+      "passes_quality_gate": false,
+      "threshold": 80.0,
+      "freshness_score": 95.0,
+      "source_authority_score": 85.5,
+      "bureau_balance_score": 50.0,
+      "active_bureaus": [
+        "USA",
+        "ASIA"
+      ],
+      "duplication_score": 100.0,
+      "visual_freshness_score": 65.0,
+      "category_distribution": {
+        "boardroom": 4,
+        "government": 5,
+        "researcher": 7,
+        "research": 5,
+        "laboratory": 1,
+        "datacenter": 1,
+        "energy": 2,
+        "defense": 1,
+        "policy": 1
+      },
+      "failed_checks": [
+        "Only 2 bureaus active (minimum 3 required)",
+        "Visual diversity cap exceeded in categories: ['boardroom', 'government', 'researcher', 'research']"
+      ]
+    }
+  },
+  {
     "timestamp": "2026-10-11T21:01:35.602351",
     "severity": "HIGH",
     "message": "Episode failed Editorial Quality Gate (Composite: 80.5/100)",

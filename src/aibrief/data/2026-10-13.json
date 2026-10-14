@@ -1,0 +1,605 @@
+{
+  "date": "2026-10-13",
+  "formattedDate": "13 October 2026",
+  "title": "David Pocock concerned senior | Cyber-attack similar to OpenAI | AI less regulated than milk, | AI News 13 October 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "In a landmark development, David Pocock concerned senior Albanese adviser ‘vetted’ bipartisan AI letter that was sent to PM. From the SanMitra Newsroom, here is the Daily AI Brief for 13 October 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_david_pocock_concerned_senior_al",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "David Pocock concerned senior Albanese adviser ‘vetted’ bipartisan AI letter that was sent to PM",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 99,
+      "durationSeconds": 51,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/13/senior-albanese-adviser-vetted-bipartisan-ai-letter-politics-ntwnfb",
+      "researchDesk": "",
+      "script": "In our lead story today, Anthony Albanese’s office signed off on language in a bipartisan letter from a parliamentary committee considering AI policy before it was sent to the prime minister, a move which committee member David Pocock said was concerning. Notes on the letter to Albanese, seen by Guardian Australia, show a senior adviser made multiple edits and wrote “fine” on some content, appearing to approve lines in the letter before the committee wrote to the prime minister on Monday night. Some edits were made as late as 8:55pm, 35 minutes before the Labor MP and inquiry chair, Jo Briskey, and Liberal senator and deputy chair, Jonno Duniam, sent the letter to Albanese, on behalf of Labor, Coalition and crossbench MPs.",
+      "whyThisMatters": "Anthony Albanese’s office signed off on language in a bipartisan letter from a parliamentary committee considering AI policy before it was sent to the prime minister, a move which committee member David Pocock said was c",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "David Pocock concerned senior Albanese adviser ‘vetted’ bipartisan AI letter tha",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s1_cut1.jpg",
+          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s1_cut2.jpg",
+          "badge": "AIR DEFENSE • MIM-104 PATRIOT RADAR BATTERY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s1_cut3.jpg",
+          "badge": "NAVAL AVIATION • CARRIER LAUNCH OPERATIONS",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_cyber_attack_similar_to_openai_m",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 95,
+      "durationSeconds": 44,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/12/cyber-attack-like-openai-medicare-breach-seems-likely-in-uk-says-minister",
+      "researchDesk": "",
+      "script": "Turning to the United States, Kanishka Narayan, concerned by Australian incident, says British cyber defences could be bypassed by artificial intelligence agent An AI-driven cyber-attack similar to the OpenAI breach of Australia’s healthcare system is likely, “if not inevitable”, in the UK, according to a senior minister. Kanishka Narayan, the UK AI minister, indicated that the British government’s own cyber defences would be bypassed by a technology that has developed highly sophisticated skills in cybersecurity. In a speech Narayan said an incident in June when an OpenAI agent a computer program acting autonomously infiltrated Medicare, Australia’s universal healthcare system, could be repeated in the UK.",
+      "whyThisMatters": "Kanishka Narayan, concerned by Australian incident, says British cyber defences could be bypassed by artificial intelligence agent An AI-driven cyber-attack similar to the OpenAI breach of Australia’s healthcare system i",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s2_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s2_cut2.jpg",
+          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s2_cut3.jpg",
+          "badge": "WASHINGTON D.C. • GWU SCIENCE & ENGINEERING",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_ai_less_regulated_than_milk_micr",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "AI less regulated than milk, Microsoft president says in warning over safety",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 95,
+      "durationSeconds": 55,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+      "researchDesk": "",
+      "script": "In concurrent industry updates, Artificial intelligence is less regulated than milk and washing machines, Microsoft president Brad Smith has said. He told the BBC that every carton of milk in a grocery store is subject to safety rules and inspection, while AI is not. Smith called for more safety rules, including a legal obligation to a victim if their system is breached by rogue AI agents, and said companies need emergency brakes, or kill switches, to pause AI that grows out of control. Microsoft chief executive Satya Nadella made a similar call on Saturday, writing that we must build contained systems whose behaviour we can observe and whose actions we can always contain. The comments came as Britain's AI minister prepared to urge frontier AI developers to do more on safety.",
+      "whyThisMatters": "Artificial intelligence is less regulated than milk and washing machines, Microsoft president Brad Smith has said.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI less regulated than milk, Microsoft president says in warning over safety",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s3_cut1.jpg",
+          "badge": "REDMOND • MICROSOFT REDMOND CAMPUS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s3_cut2.jpg",
+          "badge": "WASHINGTON D.C. • GWU SCIENCE & ENGINEERING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s3_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_china_mobile_triples_capacity_at",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "China Mobile triples capacity at mega Inner Mongolia computing hub amid nation’s AI push",
+      "subheadline": "Source: South China Morning Post",
+      "importanceScore": 90,
+      "durationSeconds": 36,
+      "source": "South China Morning Post",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3370600/china-mobile-triples-capacity-mega-inner-mongolia-computing-hub-amid-nations-ai-push?utm_source=rss_feed",
+      "researchDesk": "",
+      "script": "Meanwhile in China, State-backed China Mobile has tripled the capacity of its largest intelligent computing hub, in Hohhot, Inner Mongolia, as Beijing pushes digital infrastructure to power its AI ambitions. The expansion, which cost about 403 million US dollars, covers 44,500 square metres and has 120 megawatts of power capacity. Total processing capacity has risen to 20,100 petaflops from 6,700, according to Inner Mongolia Daily, and 16,700 petaflops of that is dedicated to artificial intelligence and smart computing. A petaflop is a quadrillion operations per second.",
+      "whyThisMatters": "State-backed China Mobile has tripled the capacity of its largest intelligent computing hub, in Hohhot, Inner Mongolia, as Beijing pushes digital infrastructure to power its AI ambitions.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "China Mobile triples capacity at mega Inner Mongolia computing hub amid nation’s",
+        "South China Morning Post"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s4_cut1.jpg",
+          "badge": "BEIJING • STATE AI GOVERNANCE DESK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s4_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s4_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_ai_fuelling_growth_while_putting",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "AI fuelling growth while putting Asia’s young workers at risk, IMF meeting hears",
+      "subheadline": "Source: South China Morning Post",
+      "importanceScore": 90,
+      "durationSeconds": 49,
+      "source": "South China Morning Post",
+      "sourceUrl": "https://www.scmp.com/week-asia/economics/article/3370618/ai-fuelling-growth-while-putting-asias-young-workers-risk-imf-meeting-hears?utm_source=rss_feed",
+      "researchDesk": "",
+      "script": "In Asia, Delegates at the IMF and World Bank annual meetings in Bangkok heard on Monday that a surge of investment in artificial intelligence may be helping prop up a global economy battered by energy supply shocks, but that its potential to cut jobs needs swift action if Asia's young people are to secure a place in the future workforce. Soaring energy prices, persistent inflation and mounting debt framed the opening of the week-long summit, the first held in the Thai capital since 1991. The South China Morning Post reports that oil prices have hovered around 100 dollars a barrel since the partial closure of the Strait of Hormuz, forcing governments to borrow heavily to cushion consumers.",
+      "whyThisMatters": "Delegates at the IMF and World Bank annual meetings in Bangkok heard on Monday that a surge of investment in artificial intelligence may be helping prop up a global economy battered by energy supply shocks, but that its ",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI fuelling growth while putting Asia’s young workers at risk, IMF meeting hears",
+        "South China Morning Post"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s5_cut1.jpg",
+          "badge": "NEW DELHI • WORLD BANK WDR REPORT LAUNCH",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s5_cut2.jpg",
+          "badge": "BEIJING • STATE AI GOVERNANCE DESK",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s5_cut3.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_how_ai_exposure_varies_across_in",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "How AI exposure varies across Indian states: Kerala leads, UP and Bihar lag behind",
+      "subheadline": "Source: Mint",
+      "importanceScore": 90,
+      "durationSeconds": 42,
+      "source": "Mint",
+      "sourceUrl": "https://www.livemint.com/ai/how-ai-exposure-varies-across-indian-states-kerala-leads-up-and-bihar-lag-behind-11791727545580.html",
+      "researchDesk": "",
+      "script": "Turning to India, Kerala, Haryana, Maharashtra and Tamil Nadu have the highest shares of workers in occupations where artificial intelligence (AI) is more likely to improve productivity than replace human labour, while Uttar Pradesh, Bihar, Jharkhand and Madhya Pradesh face a double disadvantage of lower AI exposure and fewer opportunities to benefit from the technology, according to a new study by the Great Lakes Institute of Management. The October 2026 working paper, AI, Automation and India’s Workforce: Who Gains, Who’s Exposed, and How Policy Can Shape the Future, examines employment patterns across Indian states using labour force data from 2012 and 2025.",
+      "whyThisMatters": "Kerala, Haryana, Maharashtra and Tamil Nadu have the highest shares of workers in occupations where artificial intelligence (AI) is more likely to improve productivity than replace human labour, while Uttar Pradesh, Biha",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "How AI exposure varies across Indian states: Kerala leads, UP and Bihar lag behi",
+        "Mint"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s6_cut1.jpg",
+          "badge": "KERALA • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s6_cut2.jpg",
+          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s6_cut3.jpg",
+          "badge": "COPENHAGEN • CHRISTIANSBORG PALACE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_this_ai_startup_says_it_can_gene",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "This AI startup says it can generate permit-ready blueprints in minutes",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 52,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+      "researchDesk": "",
+      "script": "Turning to the United States, Blueprints AI, a Santa Monica startup founded by architect Al Dram and data scientist Coco Cao, says its software produces code-compliant, permit-ready construction blueprints in minutes from a sketch or PDF. Dram says architects spend about eighty percent of their time drafting and only twenty percent designing, and he wants to flip that ratio. The pair trained their models on eight years of approved drawing sets from Dram's own design and construction firm. The first version costs between 3,200 and 8,500 dollars a month. At TechCrunch Disrupt this week, where it is part of the Startup Battlefield 200, the company will unveil a second version that drafts architecture, structural, mechanical, electrical, plumbing and interior plans for a building at once.",
+      "whyThisMatters": "Blueprints AI, a Santa Monica startup founded by architect Al Dram and data scientist Coco Cao, says its software produces code-compliant, permit-ready construction blueprints in minutes from a sketch or PDF.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "This AI startup says it can generate permit-ready blueprints in minutes",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s7_cut1.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s7_cut2.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s7_cut3.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_world_bank_jobs_council_urges_cr",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 52,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
+      "researchDesk": "",
+      "script": "Expanding on regulatory scrutiny, At the IMF and World Bank meetings in Bangkok, IMF Managing Director Kristalina Georgieva warned that AI is hitting the global labour market like a slow-moving tsunami, with young graduates first in line, because the routine entry-level jobs they would normally start in are disappearing. The IMF estimates about forty percent of jobs worldwide will eventually be augmented, downgraded or eliminated, rising to sixty percent in advanced economies. Singapore's President Tharman Shanmugaratnam, who co-chairs the World Bank's Jobs Council, urged governments to make crisis-era support permanent, including incentives for firms to hire fresh graduates. World Bank President Ajay Banga was less pessimistic, saying smaller AI tools offer a large opportunity to build jobs and productivity in middle and lower-income countries.",
+      "whyThisMatters": "At the IMF and World Bank meetings in Bangkok, IMF Managing Director Kristalina Georgieva warned that AI is hitting the global labour market like a slow-moving tsunami, with young graduates first in line, because the rou",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "World Bank jobs council urges 'crisis-era' employment support measures as IMF wa",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s8_cut1.jpg",
+          "badge": "NEW DELHI • WORLD BANK WDR REPORT LAUNCH",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s8_cut2.jpg",
+          "badge": "SINGAPORE • CENTRAL BUSINESS DISTRICT SKYLINE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s8_cut3.jpg",
+          "badge": "CAPITOL HILL • LEGISLATIVE DESK",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_intel_broadcom_ceos_warn_capital",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 52,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html",
+      "researchDesk": "",
+      "script": "In enterprise infrastructure, Speaking at a conference in Singapore, Broadcom chief executive Hock Tan said access to capital may become a bigger constraint on AI than shortages of chips, memory or electricity. Intel chief executive Lip-Bu Tan agreed, pointing to the rising cost of capital and to investors who increasingly want to see a return on AI spending. Rising borrowing costs could make data centres and chip purchases more expensive to finance. Even so, both remain bullish on near-term demand. Hock Tan said demand for compute exceeds what the industry can supply and the gap could last through 2029, while memory and wafer shortages may ease as capacity grows. Both said long-term growth will depend on whether businesses adopt AI and see real economic benefits.",
+      "whyThisMatters": "Speaking at a conference in Singapore, Broadcom chief executive Hock Tan said access to capital may become a bigger constraint on AI than shortages of chips, memory or electricity.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s9_cut1.jpg",
+          "badge": "SINGAPORE • CENTRAL BUSINESS DISTRICT SKYLINE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s9_cut2.jpg",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s9_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_ai_may_change_the_price_of_your",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "AI may change the price of your Big Mac and groceries what this means for shoppers",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 53,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/11/ai-dynamic-pricing-shoppers-groceries.html",
+      "researchDesk": "",
+      "script": "In another major development, Fast-food chains and supermarkets are rolling out AI tools that could affect what shoppers pay. A federal antitrust lawsuit filed against McDonald's this week alleges the company uses an AI-powered pricing engine to set menu prices across US locations, which McDonald's denies. Grocers including Kroger, Walmart and Whole Foods are adopting electronic shelf labels, and Kroger uses an AI platform to mark down perishables. Whole Foods says it does not use dynamic pricing, and the British Retail Consortium says UK supermarkets have no intention of using surge pricing. Experts warn, however, that more detailed customer data makes personalised pricing easier, and Bank of England economists have cautioned that firms could move closer to charging each shopper the most they are willing to pay.",
+      "whyThisMatters": "Fast-food chains and supermarkets are rolling out AI tools that could affect what shoppers pay.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI may change the price of your Big Mac and groceries what this means for shoppe",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s10_cut1.jpg",
+          "badge": "BIG MAC • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s10_cut2.jpg",
+          "badge": "SUWON • SAMSUNG DIGITAL CITY HEADQUARTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s10_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s11_sequoia_backed_chip_startup_nuva",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Sequoia-backed chip startup Nuvacore raising funds at about a 2.5 billion dollars valuation",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 51,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/sequoia-backed-chip-startup-nuvacore-raising-funds-at-about-a-2-5-billion-valuation/articleshow/134870940.cms",
+      "researchDesk": "",
+      "script": "In concurrent industry updates, Six-month-old chip startup Nuvacore, which does not yet have a product, is raising hundreds of millions of dollars at a valuation of about 2.5 billion dollars to build a data-centre processor, according to two people familiar with the round. Demand for CPUs has grown with AI, because they act as traffic controllers for Nvidia's AI chips and run autonomous AI agents. Nuvacore was founded by engineers Gerard Williams, John Bruno and Ram Srinivasan; Williams previously sold his startup Nuvia to Qualcomm for 1.4 billion dollars. Its seed round was led by Sequoia Capital. Investors have returned to chip startups, putting about 10.7 billion dollars into semiconductor companies in the first five months of this year, according to Crunchbase.",
+      "whyThisMatters": "Six-month-old chip startup Nuvacore, which does not yet have a product, is raising hundreds of millions of dollars at a valuation of about 2.5 billion dollars to build a data-centre processor, according to two people fam",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Sequoia-backed chip startup Nuvacore raising funds at about a 2.5 billion dollar",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s11_cut1.jpg",
+          "badge": "SEQUOIA NATIONAL PARK • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s11_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s11_cut3.jpg",
+          "badge": "SUWON • SAMSUNG DIGITAL CITY HEADQUARTERS",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s12_windborne_wins_a_hefty_us_air_fo",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 37,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+      "researchDesk": "",
+      "script": "Expanding on regulatory scrutiny, Air Force will buy data collected by WindBorne Systems‘ fleet of autonomous weather balloons under a new contract that could be worth nearly 50 million dollars to the startup. WindBorne currently has about 700 weather balloons flying around the globe, collecting atmospheric sensor readings that the company sells to customers and also feeds into its own AI weather forecasting model. WindBorne, founded in 2015 and based in Redwood City, California, is one of the first organizations to directly feed empirical data into a deep-learning weather model.",
+      "whyThisMatters": "Air Force will buy data collected by WindBorne Systems‘ fleet of autonomous weather balloons under a new contract that could be worth nearly $50 million to the startup.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "WindBorne wins a hefty US Air Force contract for its balloon data",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s12_cut1.jpg",
+          "badge": "AIR FORCE • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s12_cut2.jpg",
+          "badge": "NEW DELHI • BHARAT MANDAPAM SUMMIT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-13/s12_cut3.jpg",
+          "badge": "AIR DEFENSE • MIM-104 PATRIOT RADAR BATTERY",
+          "panDirection": "panLeft"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's headlines: David Pocock concerned senior Albanese adviser ‘vetted’ bipartisan AI letter that was sent to PM; Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister; AI less regulated than milk, Microsoft president says in warning over safety; China Mobile triples capacity at mega Inner Mongolia computing hub amid nation’s AI push; AI fuelling growth while putting Asia’s young workers at risk, IMF meeting hears; How AI exposure varies across Indian states: Kerala leads, UP and Bihar lag behind.",
+    "items": [
+      "✓ David Pocock concerned senior Albanese adviser ‘",
+      "✓ Cyber-attack similar to OpenAI Medicare breach s",
+      "✓ AI less regulated than milk, Microsoft president",
+      "✓ China Mobile triples capacity at mega Inner Mong",
+      "✓ AI fuelling growth while putting Asia’s young wo",
+      "✓ How AI exposure varies across Indian states: Ker",
+      "✓ This AI startup says it can generate permit-read"
+    ]
+  },
+  "marketSnapshot": {
+    "durationSeconds": 16,
+    "headline": "GLOBAL AI MARKET SNAPSHOT",
+    "subheadline": "SANMITRA DESK • STRATEGIC TELEMETRY",
+    "script": "On the desk today: David Pocock concerned senior Albanese adviser ‘vetted’ bipartisan AI letter that was sent to PM. Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister. AI less regulated than milk, Microsoft president says in warning over safety. China Mobile triples capacity at mega Inner Mongolia computing hub amid nation’s AI push. AI fuelling growth while putting Asia’s young workers at risk, IMF meeting hears. How AI exposure varies across Indian states: Kerala leads, UP and Bihar lag behind.",
+    "entities": [
+      {
+        "name": "WORLD",
+        "update": "David Pocock concerned senior Albanese adviser ‘vetted’ bipartisan AI le",
+        "tag": "TODAY'S DESK",
+        "color": "#0ea5e9"
+      },
+      {
+        "name": "USA",
+        "update": "Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says ",
+        "tag": "TODAY'S DESK",
+        "color": "#ef4444"
+      },
+      {
+        "name": "USA",
+        "update": "AI less regulated than milk, Microsoft president says in warning over sa",
+        "tag": "TODAY'S DESK",
+        "color": "#10b981"
+      },
+      {
+        "name": "CHINA",
+        "update": "China Mobile triples capacity at mega Inner Mongolia computing hub amid ",
+        "tag": "TODAY'S DESK",
+        "color": "#8b5cf6"
+      },
+      {
+        "name": "ASIA",
+        "update": "AI fuelling growth while putting Asia’s young workers at risk, IMF meeti",
+        "tag": "TODAY'S DESK",
+        "color": "#38bdf8"
+      },
+      {
+        "name": "INDIA",
+        "update": "How AI exposure varies across Indian states: Kerala leads, UP and Bihar ",
+        "tag": "TODAY'S DESK",
+        "color": "#f97316"
+      }
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "David Pocock concerned senior Albanese advise",
+    "Cyber-attack similar to OpenAI Medicare breac",
+    "AI less regulated than milk, Microsoft presid",
+    "China Mobile triples capacity at mega Inner M",
+    "AI fuelling growth while putting Asia’s young",
+    "How AI exposure varies across Indian states: ",
+    "This AI startup says it can generate permit-r",
+    "World Bank jobs council urges 'crisis-era' em",
+    "Intel, Broadcom CEOs warn capital crunch coul",
+    "AI may change the price of your Big Mac and g",
+    "Sequoia-backed chip startup Nuvacore raising ",
+    "WindBorne wins a hefty US Air Force contract "
+  ],
+  "thumbnail": {
+    "date": "13 OCTOBER 2026",
+    "headline": "DAVID POCOCK CONCERNED SENIOR ALBANESE",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "DAVID POCOCK CONCERNED SENIOR",
+      "CYBER-ATTACK SIMILAR TO OPENAI",
+      "AI LESS REGULATED THAN MILK,",
+      "CHINA MOBILE TRIPLES CAPACITY AT"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "David Pocock concerned senior | Cyber-attack similar to OpenAI | AI less regulated than milk, | AI News 13 October 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 13 October 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

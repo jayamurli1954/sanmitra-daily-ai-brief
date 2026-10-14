@@ -87,18 +87,18 @@
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-10-12/s1_cut1.jpg",
-          "badge": "REDMOND • MICROSOFT REDMOND CAMPUS",
+          "image": "aibrief/assets/story2_cyber_defense.jpg",
+          "badge": "WORLD DEFENSE OPERATIONS • AUTONOMOUS TARGETING",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-12/s1_cut2.jpg",
-          "badge": "WASHINGTON D.C. • GWU SCIENCE & ENGINEERING",
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "WORLD CYBER THREAT OPERATIONS • RED-TEAM DESK",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-12/s1_cut3.jpg",
-          "badge": "WASHINGTON D.C. • GWU SCIENCE & ENGINEERING",
+          "image": "aibrief/backgrounds/geopolitics.jpg",
+          "badge": "WORLD STRATEGIC THREAT INTELLIGENCE • NETWORK MONITOR",
           "panDirection": "zoomOut"
         }
       ]
@@ -123,18 +123,18 @@
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-10-12/s2_cut1.jpg",
-          "badge": "BIG MAC • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/story2_cyber_defense.jpg",
+          "badge": "USA DEFENSE OPERATIONS • AUTONOMOUS TARGETING",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-12/s2_cut2.jpg",
-          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "USA CYBER THREAT OPERATIONS • RED-TEAM DESK",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-12/s2_cut3.jpg",
-          "badge": "COPENHAGEN • CHRISTIANSBORG PALACE",
+          "image": "aibrief/backgrounds/geopolitics.jpg",
+          "badge": "USA STRATEGIC THREAT INTELLIGENCE • NETWORK MONITOR",
           "panDirection": "zoomIn"
         }
       ]
