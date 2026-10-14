@@ -1,5 +1,39 @@
 [
   {
+    "timestamp": "2026-10-14T22:25:01.163719",
+    "severity": "HIGH",
+    "message": "Episode failed Editorial Quality Gate (Composite: 58.5/100)",
+    "score_details": {
+      "date": "2026-10-15",
+      "composite_quality_score": 58.5,
+      "passes_quality_gate": false,
+      "threshold": 80.0,
+      "freshness_score": 95.0,
+      "source_authority_score": 0.0,
+      "bureau_balance_score": 50.0,
+      "active_bureaus": [],
+      "duplication_score": 100.0,
+      "visual_freshness_score": 65.0,
+      "category_distribution": {
+        "researcher": 9,
+        "defense": 1,
+        "research": 7,
+        "product_demo": 2,
+        "policy": 2,
+        "boardroom": 5,
+        "semiconductor": 1,
+        "datacenter": 2,
+        "hardware": 4,
+        "energy": 3
+      },
+      "failed_checks": [
+        "Average Source Authority 0.0 < 85.0 required",
+        "Only 0 bureaus active (minimum 3 required)",
+        "Visual diversity cap exceeded in categories: ['researcher', 'research', 'boardroom', 'hardware', 'energy']"
+      ]
+    }
+  },
+  {
     "timestamp": "2026-10-12T23:01:26.221233",
     "severity": "HIGH",
     "message": "Episode failed Editorial Quality Gate (Composite: 79.88/100)",

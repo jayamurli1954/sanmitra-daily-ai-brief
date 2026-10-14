@@ -218,23 +218,23 @@
       ]
     },
     {
-      "id": "s6_square_s_new_kiosk_lets_you_talk",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Square’s new kiosk lets you talk to AI for help with your order",
-      "subheadline": "Source: The Verge",
+      "id": "s6_videojev_system_one_model_for_vi",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "VideoJev: System One Model for Video Understanding and Interaction",
+      "subheadline": "Source: arXiv Pre-print",
       "importanceScore": 90,
-      "durationSeconds": 45,
-      "source": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/1009086/square-kiosk",
+      "durationSeconds": 60,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2610.18615",
       "researchDesk": "",
-      "script": "Turning to the United States. Square is launching new hardware: a big kiosk for ordering things that has a touchscreen and lets you talk to an AI. Square says the Kiosk, which has a large pill shape, has an \"agentic, conversational voice layer\" that \"fully understands a seller's menu and listens and responds in real time, enabling customers to order the way they'd naturally talk to staff.\" While talking with the AI agent, you can do things like ask questions and request modifications and substitutions. The touchscreen on the Kiosk is 21.5 inches, and the device can welcome you as you approach thanks to presence detection, Square says.",
-      "whyThisMatters": "Square is launching new hardware: a big kiosk for ordering things that has a touchscreen and lets you talk to an AI.",
+      "script": "Also today. Visual agents must turn video observations into timely decisions to track progress and choose what to do next. Building on the emerging System One paradigm, the researchers introduce VideoJev, a family of models that cast video understanding and interaction as structured decision tasks. The researchers adapt pretrained multimodal large language models (MLLMs) by replacing autoregressive answer decoding with a shared head that scores temporal intervals and textual options against video evidence. These scores yield event spans or answer choices, unifying temporal grounding and multiple-choice video question answering. This combines the semantic flexibility of MLLMs with efficient decisions that agents can use directly. As an interaction unfolds, new goals and intermediate results prompt further queries about the same visual history. VideoJev therefore reuses visual computation through Cached inference for queries as they arrive and Joint inference for multiple queries in a single forward pass.",
+      "whyThisMatters": "Visual agents must turn video observations into timely decisions to track progress and choose what to do next.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Square’s new kiosk lets you talk to AI for help with your order",
-        "The Verge"
+        "VideoJev: System One Model for Video Understanding and Interaction",
+        "arXiv Pre-print"
       ],
       "visualCuts": [
         {
@@ -255,22 +255,22 @@
       ]
     },
     {
-      "id": "s7_i_don_t_miss_the_camera_on_the_r",
+      "id": "s7_square_s_new_kiosk_lets_you_talk",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
+      "headline": "Square’s new kiosk lets you talk to AI for help with your order",
       "subheadline": "Source: The Verge",
       "importanceScore": 90,
-      "durationSeconds": 54,
+      "durationSeconds": 45,
       "source": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables",
+      "sourceUrl": "https://www.theverge.com/tech/1009086/square-kiosk",
       "researchDesk": "",
-      "script": "In other news. The other day I whizzed past several people while running in the park, my playlist blasting at full volume. The next morning, I smiled at a barista while ordering a caramel apple-flavored matcha latte. Afterward, I sat on a park bench reading a book, called up a pal to chat about her recent trip to Prague, and then asked my Ray-Ban Meta Audio glasses what meetings were coming up on my calendar. The chipper AI voice said I hadn't connected my Google Calendar yet (I had) and asked if I would like help connecting. I sighed and then asked it to play an upbeat song. It picked Kendrick Lamar's \"Not Like Us.\" These past few days, dozens of people … Read the full story at The Verge.",
-      "whyThisMatters": "The other day I whizzed past several people while running in the park, my playlist blasting at full volume.",
+      "script": "Turning to the United States. Square is launching new hardware: a big kiosk for ordering things that has a touchscreen and lets you talk to an AI. Square says the Kiosk, which has a large pill shape, has an \"agentic, conversational voice layer\" that \"fully understands a seller's menu and listens and responds in real time, enabling customers to order the way they'd naturally talk to staff.\" While talking with the AI agent, you can do things like ask questions and request modifications and substitutions. The touchscreen on the Kiosk is 21.5 inches, and the device can welcome you as you approach thanks to presence detection, Square says.",
+      "whyThisMatters": "Square is launching new hardware: a big kiosk for ordering things that has a touchscreen and lets you talk to an AI.",
       "sourceType": "reporting",
       "keyPoints": [
-        "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
+        "Square’s new kiosk lets you talk to AI for help with your order",
         "The Verge"
       ],
       "visualCuts": [
@@ -292,23 +292,23 @@
       ]
     },
     {
-      "id": "s8_ai_overlords_say_they_want_to_de",
+      "id": "s8_i_don_t_miss_the_camera_on_the_r",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "AI overlords say they want to democratise their technology. Here’s how | Richard Wilson and Clara Long",
-      "subheadline": "Source: The Guardian",
+      "headline": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
+      "subheadline": "Source: The Verge",
       "importanceScore": 90,
-      "durationSeconds": 34,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/commentisfree/2026/oct/14/ai-overlords-democratise-technology",
+      "durationSeconds": 53,
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables",
       "researchDesk": "",
-      "script": "Next. Judging by their recent warnings, it is rising among tech bosses. On 25 September, OpenAI paused training of its latest frontier models as reports of AI agents going rogue mounted. A day later, Australia’s Senate asked the bosses of OpenAI and Anthropic to appear before an inquiry after rogue OpenAI agents broke into US government websites and an Australian health portal. Richard Wilson is the CEO of Iswe Foundation and Clara Long is the co-executive director of the Bloom Project Continue reading...",
-      "whyThisMatters": "Judging by their recent warnings, it is rising among tech bosses.",
+      "script": "Next. The other day I whizzed past several people while running in the park, my playlist blasting at full volume. The next morning, I smiled at a barista while ordering a caramel apple-flavored matcha latte. Afterward, I sat on a park bench reading a book, called up a pal to chat about her recent trip to Prague, and then asked my Ray-Ban Meta Audio glasses what meetings were coming up on my calendar. The chipper AI voice said I hadn't connected my Google Calendar yet (I had) and asked if I would like help connecting. I sighed and then asked it to play an upbeat song. It picked Kendrick Lamar's \"Not Like Us.\" These past few days, dozens of people … Read the full story at The Verge.",
+      "whyThisMatters": "The other day I whizzed past several people while running in the park, my playlist blasting at full volume.",
       "sourceType": "reporting",
       "keyPoints": [
-        "AI overlords say they want to democratise their technology. Here’s how | Richard",
-        "The Guardian"
+        "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
+        "The Verge"
       ],
       "visualCuts": [
         {
@@ -327,20 +327,57 @@
           "panDirection": "panLeft"
         }
       ]
+    },
+    {
+      "id": "s9_ai_overlords_say_they_want_to_de",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "AI overlords say they want to democratise their technology. Here’s how | Richard Wilson and Clara Long",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 34,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/commentisfree/2026/oct/14/ai-overlords-democratise-technology",
+      "researchDesk": "",
+      "script": "Elsewhere. Judging by their recent warnings, it is rising among tech bosses. On 25 September, OpenAI paused training of its latest frontier models as reports of AI agents going rogue mounted. A day later, Australia’s Senate asked the bosses of OpenAI and Anthropic to appear before an inquiry after rogue OpenAI agents broke into US government websites and an Australian health portal. Richard Wilson is the CEO of Iswe Foundation and Clara Long is the co-executive director of the Bloom Project Continue reading...",
+      "whyThisMatters": "Judging by their recent warnings, it is rising among tech bosses.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI overlords say they want to democratise their technology. Here’s how | Richard",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-15/s9_cut1.jpg",
+          "badge": "MENLO PARK • META HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-15/s9_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-15/s9_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        }
+      ]
     }
   ],
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. The eyes have it: Reform politician’s ‘smart glasses’ prompt calls for ban in Westminster. Apple vs OpenAI: What the trade secret theft lawsuit is about. Anthropic’s self-replicating AI warning is alarming deja vu. Oppo ColorOS 17 launched with new AI features: Check eligible phones and rollout dates. Tool and target: US law enforcement grapple with AI-enabled terrorism and anti-tech extremism. Square’s new kiosk lets you talk to AI for help with your order.",
+    "script": "To recap today's top stories. The eyes have it: Reform politician’s ‘smart glasses’ prompt calls for ban in Westminster. Apple vs OpenAI: What the trade secret theft lawsuit is about. Anthropic’s self-replicating AI warning is alarming deja vu. Oppo ColorOS 17 launched with new AI features: Check eligible phones and rollout dates. Tool and target: US law enforcement grapple with AI-enabled terrorism and anti-tech extremism. VideoJev: System One Model for Video Understanding and Interaction.",
     "items": [
       "✓ The eyes have it: Reform politician’s ‘smart gla",
       "✓ Apple vs OpenAI: What the trade secret theft law",
       "✓ Anthropic’s self-replicating AI warning is alarm",
       "✓ Oppo ColorOS 17 launched with new AI features: C",
       "✓ Tool and target: US law enforcement grapple with",
-      "✓ Square’s new kiosk lets you talk to AI for help ",
-      "✓ I don’t miss the camera on the Ray-Ban Meta Audi"
+      "✓ VideoJev: System One Model for Video Understandi",
+      "✓ Square’s new kiosk lets you talk to AI for help "
     ]
   },
   "outro": {
@@ -364,6 +401,7 @@
     "Anthropic’s self-replicating AI warning is al",
     "Oppo ColorOS 17 launched with new AI features",
     "Tool and target: US law enforcement grapple w",
+    "VideoJev: System One Model for Video Understa",
     "Square’s new kiosk lets you talk to AI for he",
     "I don’t miss the camera on the Ray-Ban Meta A",
     "AI overlords say they want to democratise the"
