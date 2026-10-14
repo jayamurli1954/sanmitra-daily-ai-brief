@@ -9,7 +9,7 @@ import { LegalMitraWebsiteHero } from "./legalmitra/LegalMitraWebsiteHero";
 import { LegalMitraDemo60s } from "./legalmitra/LegalMitraDemo60s";
 import { AIBriefVideo } from "./aibrief/AIBriefVideo";
 import { JENNY_SHORT_FRAMES, JennyShort } from "./aibrief/JennyShort";
-import { BREAKING_SHORT_FRAMES, BreakingShort } from "./aibrief/BreakingShort";
+import { BREAKING_SHORT_FRAMES, BreakingShort, ShortCover } from "./aibrief/BreakingShort";
 import { UKRAINE_WIDE_FRAMES, UkraineWide } from "./aibrief/UkraineWide";
 import { AIBriefThumbnail } from "./aibrief/AIBriefThumbnail";
 import { LinkedInCoverBanner } from "./aibrief/LinkedInCoverBanner";
@@ -164,6 +164,15 @@ export const RemotionRoot: React.FC = () => {
         id="AIBriefBreakingShort"
         component={BreakingShort}
         durationInFrames={BREAKING_SHORT_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      {/* Still cover for the Short's Instagram Reel */}
+      <Composition
+        id="AIBriefShortCover"
+        component={ShortCover}
+        durationInFrames={1}
         fps={30}
         width={1080}
         height={1920}

@@ -275,3 +275,57 @@ export const BreakingShort: React.FC = () => (
     <Audio src={staticFile("audio/aibrief_theme.wav")} volume={0.06} />
   </AbsoluteFill>
 );
+
+// Still cover for the Instagram Reel ("Edit cover" > "Add from camera roll").
+// Instagram shows a Reel in the profile grid as a centred 3:4 crop, and the
+// cover editor zooms in further, so everything sits inside a centred box with
+// wide side margins, and the moving caption is left out.
+export const ShortCover: React.FC = () => (
+  <AbsoluteFill style={{ backgroundColor: "#05070d" }}>
+    <Img src={staticFile(data.images[0].src)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+    <AbsoluteFill
+      style={{
+        background:
+          "linear-gradient(180deg, rgba(3,6,14,0.55) 0%, rgba(3,6,14,0.82) 30%, rgba(3,6,14,0.88) 70%, rgba(3,6,14,0.55) 100%)",
+      }}
+    />
+    <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "0 170px" }}>
+      <div
+        style={{
+          backgroundColor: "#dc2626",
+          color: "#fff",
+          fontFamily: FONT,
+          fontWeight: 900,
+          fontSize: 40,
+          letterSpacing: 5,
+          padding: "10px 28px",
+          borderRadius: 10,
+          marginBottom: 40,
+        }}
+      >
+        ● {data.kicker}
+      </div>
+      <div
+        style={{
+          color: "#ffffff",
+          fontFamily: FONT,
+          fontWeight: 900,
+          fontSize: data.headline.length > 90 ? 58 : data.headline.length > 60 ? 66 : 76,
+          lineHeight: 1.1,
+          letterSpacing: -1,
+          textAlign: "center",
+          textShadow: "0 4px 18px rgba(0,0,0,0.9)",
+        }}
+      >
+        {data.headline}
+      </div>
+      <div style={{ width: 120, height: 6, backgroundColor: "#facc15", borderRadius: 3, margin: "44px 0 30px" }} />
+      <div style={{ color: "#e2e8f0", fontFamily: FONT, fontWeight: 800, fontSize: 30, letterSpacing: 3, textAlign: "center" }}>
+        SANMITRA AI NEWS WIRE
+      </div>
+      <div style={{ color: "#fbbf24", fontFamily: FONT, fontWeight: 800, fontSize: 26, letterSpacing: 2, marginTop: 8 }}>
+        {data.dateLabel}
+      </div>
+    </AbsoluteFill>
+  </AbsoluteFill>
+);
