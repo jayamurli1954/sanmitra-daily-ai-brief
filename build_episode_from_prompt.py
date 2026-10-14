@@ -547,11 +547,16 @@ def parse_markdown_prompt(md_text: str) -> dict:
 
     # Recap checklist
     recap_items = [f"✓ {s['headline'][:48]}" for s in stories[:7]]
-    recap_script = "To recap today's top stories. " + " ".join(s['headline'].rstrip(".") + "." for s in stories[:6])
+    # Sunday's brief is the week's round-up (weekly_roundup.py writes it).
+    weekly = bool(re.search(r"(?im)^##\s*Weekly Round-up", md_text))
+    recap_script = ("To recap this week's top stories. " if weekly else "To recap today's top stories. ")         + " ".join(s['headline'].rstrip(".") + "." for s in stories[:6])
 
     # Intro script
     lead_head = stories[0]['headline'] if stories else "Frontier Artificial Intelligence"
     intro_script = (
+        f"This week in AI: {lead_head}. "
+        f"From the SanMitra Newsroom, this is the Weekly AI Round-up for the week ending {formatted_date}."
+    ) if weekly else (
         f"Breaking this morning: {lead_head}. "
         f"From the SanMitra Newsroom, this is the Daily AI Brief for {formatted_date}."
     )
@@ -571,9 +576,11 @@ def parse_markdown_prompt(md_text: str) -> dict:
         return h[:max_chars].rsplit(" ", 1)[0].strip()
 
     top_heads = " | ".join([clean_title_part(s["headline"]) for s in stories[:3]])
-    yt_title = f"{top_heads} | AI News {formatted_date}"
+    yt_title = (f"This Week in AI | {top_heads} | Weekly Round-up {formatted_date}" if weekly
+                else f"{top_heads} | AI News {formatted_date}")
 
     episode = {
+        "weekly": weekly,
         "date": iso_date,
         "formattedDate": formatted_date,
         "title": yt_title,

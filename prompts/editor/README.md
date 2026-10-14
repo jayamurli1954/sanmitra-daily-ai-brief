@@ -32,3 +32,5 @@ and its outlet is added to yours as an `Also:` line. The crew only adds stories 
 total is under 8. About 120-140 words of summary per story gives 50-60 seconds of narration.
 
 Stock-market stories (share prices, indices, trading) are not covered.
+
+**Sundays** are the weekly round-up, built on Saturday night from the stories that aired Monday to Saturday. A Sunday editor file still goes first if you want to choose the week's top stories yourself.
