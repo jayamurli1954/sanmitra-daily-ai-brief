@@ -1,175 +1,150 @@
 {
-  "date": "2026-10-14",
-  "dateLabel": "14 OCTOBER 2026",
+  "date": "2026-10-15",
+  "dateLabel": "15 OCTOBER 2026",
   "kicker": "BREAKING",
-  "headline": "AI model sent a fake murder tip to police",
-  "subhead": "Anthropic's Claude did it during testing. Police call the two-month delay \"unacceptable\".",
-  "source": "Sources: RNZ (ABC News), The Independent",
-  "audioFile": "audio/aibrief/short_2026-10-14_claude_fake_tip.mp3",
-  "voiceFrames": 1225,
+  "headline": "Nvidia commits 250 million dollars of UK compute to agentic AI safety research",
+  "subhead": "Nvidia is putting $250 million of UK compute behind agentic AI safety.",
+  "source": "Source: NVIDIA",
+  "audioFile": "audio/aibrief/short_2026-10-15_lead.mp3",
+  "voiceFrames": 1197,
   "endCardFrames": 75,
   "images": [
     {
-      "src": "aibrief/assets/shorts/2026-10-14/agent_laptop.jpg",
-      "label": "AI AGENT • ONLINE TESTING"
+      "src": "aibrief/assets/editorial/2026-10-15/s1_cut1.jpg",
+      "label": "NVIDIA • CONTEXTUAL REPORTING"
     },
     {
-      "src": "aibrief/assets/shorts/2026-10-14/philly_police_hq.jpg",
-      "label": "PHILADELPHIA POLICE HEADQUARTERS"
+      "src": "aibrief/assets/editorial/2026-10-15/s1_cut2.jpg",
+      "label": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY"
     },
     {
-      "src": "aibrief/assets/shorts/2026-10-14/philly_city_hall.jpg",
-      "label": "PHILADELPHIA • CITY HALL"
+      "src": "aibrief/assets/editorial/2026-10-15/s1_cut3.jpg",
+      "label": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE"
     }
   ],
   "cues": [
     {
-      "text": "An AI model sent a fake",
+      "text": "Nvidia is putting 250",
       "start": 0,
-      "end": 46
+      "end": 56
     },
     {
-      "text": "murder tip to the police.",
-      "start": 46,
-      "end": 82
+      "text": "million dollars of UK",
+      "start": 56,
+      "end": 94
     },
     {
-      "text": "During safety testing,",
-      "start": 113,
+      "text": "compute behind agentic AI",
+      "start": 94,
       "end": 152
     },
     {
-      "text": "Anthropic's Claude Haiku",
-      "start": 160,
-      "end": 203
+      "text": "safety.",
+      "start": 152,
+      "end": 166
     },
     {
-      "text": "4.5 was working on",
-      "start": 203,
-      "end": 254
+      "text": "The chipmaker pledged 50",
+      "start": 200,
+      "end": 247
     },
     {
-      "text": "randomly selected web",
-      "start": 254,
-      "end": 290
+      "text": "million dollars a year for",
+      "start": 247,
+      "end": 289
     },
     {
-      "text": "pages when it submitted a",
-      "start": 290,
-      "end": 333
+      "text": "five years in UK-hosted",
+      "start": 289,
+      "end": 335
     },
     {
-      "text": "made-up witness tip to",
-      "start": 333,
-      "end": 371
+      "text": "compute for agentic safety",
+      "start": 335,
+      "end": 382
     },
     {
-      "text": "Philadelphia's",
-      "start": 371,
-      "end": 397
+      "text": "and security research,",
+      "start": 382,
+      "end": 415
     },
     {
-      "text": "unsolved-murders website,",
-      "start": 397,
-      "end": 437
+      "text": "mostly for the wider UK",
+      "start": 426,
+      "end": 470
     },
     {
-      "text": "claiming it recalled",
-      "start": 453,
-      "end": 474
+      "text": "research community, with a",
+      "start": 470,
+      "end": 520
     },
     {
-      "text": "seeing someone matching",
-      "start": 474,
-      "end": 506
+      "text": "share for Oxford-led BOLD,",
+      "start": 520,
+      "end": 560
     },
     {
-      "text": "the description.",
-      "start": 506,
-      "end": 525
+      "text": "UCL-led SOFAIR and",
+      "start": 577,
+      "end": 623
     },
     {
-      "text": "The tip was flagged as",
-      "start": 563,
-      "end": 596
+      "text": "Imperial College London.",
+      "start": 623,
+      "end": 661
     },
     {
-      "text": "spam and never reached",
-      "start": 596,
-      "end": 627
+      "text": "Access will run through",
+      "start": 688,
+      "end": 725
     },
     {
-      "text": "detectives.",
-      "start": 627,
-      "end": 639
+      "text": "UK-based NVIDIA Cloud",
+      "start": 725,
+      "end": 769
     },
     {
-      "text": "But Anthropic found it",
-      "start": 680,
-      "end": 715
+      "text": "Partners; provider details",
+      "start": 769,
+      "end": 823
     },
     {
-      "text": "only two months later,",
-      "start": 715,
-      "end": 748
+      "text": "are still to be agreed.",
+      "start": 823,
+      "end": 859
     },
     {
-      "text": "and Philadelphia police",
-      "start": 756,
-      "end": 790
+      "text": "UK AI minister Kanishka",
+      "start": 884,
+      "end": 949
     },
     {
-      "text": "call that delay",
-      "start": 790,
-      "end": 815
+      "text": "Narayan called it a vote",
+      "start": 949,
+      "end": 983
     },
     {
-      "text": "unacceptable.",
-      "start": 815,
-      "end": 830
+      "text": "of confidence in British",
+      "start": 983,
+      "end": 1016
     },
     {
-      "text": "Anthropic has since cut",
-      "start": 871,
-      "end": 911
+      "text": "safety research.",
+      "start": 1016,
+      "end": 1045
     },
     {
-      "text": "live internet access from",
-      "start": 911,
-      "end": 955
+      "text": "Watch the full episode on",
+      "start": 1070,
+      "end": 1118
     },
     {
-      "text": "its tests and added new",
-      "start": 955,
-      "end": 998
-    },
-    {
-      "text": "guardrails.",
-      "start": 998,
-      "end": 1018
-    },
-    {
-      "text": "The full story is in",
-      "start": 1037,
-      "end": 1080
-    },
-    {
-      "text": "today's SanMitra AI News",
-      "start": 1080,
-      "end": 1129
-    },
-    {
-      "text": "Wire.",
-      "start": 1129,
-      "end": 1138
-    },
-    {
-      "text": "Link in bio.",
-      "start": 1166,
-      "end": 1191
+      "text": "SanMitra AI News Wire.",
+      "start": 1118,
+      "end": 1165
     }
   ],
   "ctaTitle": "Full episode on YouTube",
   "ctaLine": "SanMitra AI News Wire",
-  "ctaSub": "15 AI stories today • Link in bio"
+  "ctaSub": "All 9 of today's AI stories"
 }

@@ -3,2205 +3,1458 @@
     "index": 1,
     "sceneId": "intro",
     "startFrame": 0,
-    "endFrame": 17,
+    "endFrame": 103,
     "startSeconds": 0.0,
-    "endSeconds": 0.56,
-    "text": "Good morning."
+    "endSeconds": 3.42,
+    "text": "Breaking this morning: Nvidia commits 250 million"
   },
   {
     "index": 2,
     "sceneId": "intro",
-    "startFrame": 50,
-    "endFrame": 90,
-    "startSeconds": 1.66,
-    "endSeconds": 3.0,
-    "text": "From the SanMitra Newsroom,"
+    "startFrame": 103,
+    "endFrame": 203,
+    "startSeconds": 3.42,
+    "endSeconds": 6.78,
+    "text": "dollars of UK compute to agentic AI safety research."
   },
   {
     "index": 3,
     "sceneId": "intro",
-    "startFrame": 98,
-    "endFrame": 214,
-    "startSeconds": 3.28,
-    "endSeconds": 7.14,
-    "text": "this is the Daily AI Brief for 14 October 2026."
+    "startFrame": 228,
+    "endFrame": 278,
+    "startSeconds": 7.6,
+    "endSeconds": 9.26,
+    "text": "From the SanMitra Newsroom,"
   },
   {
     "index": 4,
     "sceneId": "intro",
-    "startFrame": 253,
-    "endFrame": 344,
-    "startSeconds": 8.44,
-    "endSeconds": 11.48,
-    "text": "Our top story: Autonomous combat jets and drone"
+    "startFrame": 287,
+    "endFrame": 403,
+    "startSeconds": 9.56,
+    "endSeconds": 13.42,
+    "text": "this is the Daily AI Brief for 15 October 2026."
   },
   {
     "index": 5,
-    "sceneId": "intro",
-    "startFrame": 344,
-    "endFrame": 412,
-    "startSeconds": 11.48,
-    "endSeconds": 13.72,
-    "text": "interceptors move closer to the front line."
-  },
-  {
-    "index": 6,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 477,
-    "endFrame": 516,
-    "startSeconds": 15.91,
-    "endSeconds": 17.21,
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 474,
+    "endFrame": 519,
+    "startSeconds": 15.79,
+    "endSeconds": 17.29,
     "text": "Our lead story today."
   },
   {
+    "index": 6,
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 543,
+    "endFrame": 651,
+    "startSeconds": 18.09,
+    "endSeconds": 21.69,
+    "text": "Nvidia is putting 250 million dollars of UK compute"
+  },
+  {
     "index": 7,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 546,
-    "endFrame": 629,
-    "startSeconds": 18.19,
-    "endSeconds": 20.97,
-    "text": "Machines that pick their own targets moved closer to the"
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 651,
+    "endFrame": 704,
+    "startSeconds": 21.69,
+    "endSeconds": 23.47,
+    "text": "behind agentic AI safety."
   },
   {
     "index": 8,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 629,
-    "endFrame": 658,
-    "startSeconds": 20.97,
-    "endSeconds": 21.95,
-    "text": "front line on Monday."
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 736,
+    "endFrame": 828,
+    "startSeconds": 24.55,
+    "endSeconds": 27.61,
+    "text": "The chipmaker pledged 50 million dollars a year for five"
   },
   {
     "index": 9,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 687,
-    "endFrame": 771,
-    "startSeconds": 22.89,
-    "endSeconds": 25.69,
-    "text": "Airbus and Kratos flew the U740 Valkyrie,"
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 828,
+    "endFrame": 913,
+    "startSeconds": 27.61,
+    "endSeconds": 30.43,
+    "text": "years in UK-hosted compute for agentic safety and"
   },
   {
     "index": 10,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 788,
-    "endFrame": 825,
-    "startSeconds": 26.25,
-    "endSeconds": 27.49,
-    "text": "an uncrewed combat jet,"
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 913,
+    "endFrame": 1005,
+    "startSeconds": 30.43,
+    "endSeconds": 33.49,
+    "text": "security research, mostly for the wider UK research"
   },
   {
     "index": 11,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 836,
-    "endFrame": 872,
-    "startSeconds": 27.87,
-    "endSeconds": 29.05,
-    "text": "for the first time in Europe,"
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 1005,
+    "endFrame": 1077,
+    "startSeconds": 33.49,
+    "endSeconds": 35.89,
+    "text": "community, with a share for Oxford-led BOLD,"
   },
   {
     "index": 12,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 885,
-    "endFrame": 974,
-    "startSeconds": 29.49,
-    "endSeconds": 32.47,
-    "text": "reaching speeds up to Mach 0.8 and making in-flight"
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 1089,
+    "endFrame": 1167,
+    "startSeconds": 36.31,
+    "endSeconds": 38.91,
+    "text": "UCL-led SOFAIR and Imperial College London."
   },
   {
     "index": 13,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 974,
-    "endFrame": 996,
-    "startSeconds": 32.47,
-    "endSeconds": 33.19,
-    "text": "mission changes."
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 1198,
+    "endFrame": 1287,
+    "startSeconds": 39.93,
+    "endSeconds": 42.89,
+    "text": "Access will run through UK-based NVIDIA Cloud Partners;"
   },
   {
     "index": 14,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 1030,
-    "endFrame": 1127,
-    "startSeconds": 34.33,
-    "endSeconds": 37.57,
-    "text": "Its Airbus MARS mission system uses AI-enhanced software"
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 1302,
+    "endFrame": 1360,
+    "startSeconds": 43.41,
+    "endSeconds": 45.33,
+    "text": "provider details are still to be agreed."
   },
   {
     "index": 15,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 1127,
-    "endFrame": 1205,
-    "startSeconds": 37.57,
-    "endSeconds": 40.17,
-    "text": "to run missions and coordinate whole groups of aircraft,"
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 1386,
+    "endFrame": 1489,
+    "startSeconds": 46.19,
+    "endSeconds": 49.63,
+    "text": "UK AI minister Kanishka Narayan called it a vote of"
   },
   {
     "index": 16,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 1222,
-    "endFrame": 1282,
-    "startSeconds": 40.73,
-    "endSeconds": 42.73,
-    "text": "with a human on the loop for critical decisions;"
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 1489,
+    "endFrame": 1545,
+    "startSeconds": 49.63,
+    "endSeconds": 51.51,
+    "text": "confidence in British safety research."
   },
   {
     "index": 17,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 1300,
-    "endFrame": 1384,
-    "startSeconds": 43.33,
-    "endSeconds": 46.13,
-    "text": "Airbus says a combat-ready version for German and other"
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 1577,
+    "endFrame": 1650,
+    "startSeconds": 52.57,
+    "endSeconds": 54.99,
+    "text": "Separately, at a Commons hearing on Tuesday,"
   },
   {
     "index": 18,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 1384,
-    "endFrame": 1461,
-    "startSeconds": 46.13,
-    "endSeconds": 48.69,
-    "text": "European forces is on track for 2029,"
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 1664,
+    "endFrame": 1774,
+    "startSeconds": 55.45,
+    "endSeconds": 59.13,
+    "text": "OpenAI and Anthropic told MPs voluntary pledges are not"
   },
   {
     "index": 19,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 1474,
-    "endFrame": 1530,
-    "startSeconds": 49.13,
-    "endSeconds": 50.99,
-    "text": "with a range of over 5,000 km."
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 1774,
+    "endFrame": 1815,
+    "startSeconds": 59.13,
+    "endSeconds": 60.51,
+    "text": "enough and backed binding rules,"
   },
   {
     "index": 20,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 1564,
-    "endFrame": 1658,
-    "startSeconds": 52.13,
-    "endSeconds": 55.27,
-    "text": "The same day, Israel Aerospace Industries unveiled"
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 1831,
+    "endFrame": 1910,
+    "startSeconds": 61.03,
+    "endSeconds": 63.65,
+    "text": "while Google DeepMind and Meta declined to support new"
   },
   {
     "index": 21,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 1658,
-    "endFrame": 1770,
-    "startSeconds": 55.27,
-    "endSeconds": 59.01,
-    "text": "HawkGuard, which pairs radar and AI-enabled command and"
+    "sceneId": "s1_nvidia_commits_250_million_dolla",
+    "startFrame": 1910,
+    "endFrame": 1925,
+    "startSeconds": 63.65,
+    "endSeconds": 64.17,
+    "text": "legislation."
   },
   {
     "index": 22,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 1770,
-    "endFrame": 1853,
-    "startSeconds": 59.01,
-    "endSeconds": 61.77,
-    "text": "control with drones that destroy hostile aircraft by"
+    "sceneId": "s2_physical_intelligence_opens_its",
+    "startFrame": 2058,
+    "endFrame": 2101,
+    "startSeconds": 68.6,
+    "endSeconds": 70.02,
+    "text": "Turning to the United States."
   },
   {
     "index": 23,
-    "sceneId": "s1_autonomous_combat_jets_and_drone",
-    "startFrame": 1853,
-    "endFrame": 1900,
-    "startSeconds": 61.77,
-    "endSeconds": 63.33,
-    "text": "ramming them rather than with explosives."
+    "sceneId": "s2_physical_intelligence_opens_its",
+    "startFrame": 2139,
+    "endFrame": 2174,
+    "startSeconds": 71.3,
+    "endSeconds": 72.46,
+    "text": "The Pi API beta,"
   },
   {
     "index": 24,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 2035,
-    "endFrame": 2078,
-    "startSeconds": 67.83,
-    "endSeconds": 69.25,
-    "text": "Turning to the United States."
+    "sceneId": "s2_physical_intelligence_opens_its",
+    "startFrame": 2174,
+    "endFrame": 2267,
+    "startSeconds": 72.46,
+    "endSeconds": 75.56,
+    "text": "announced Tuesday, lets developers upload robot"
   },
   {
     "index": 25,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 2117,
-    "endFrame": 2196,
-    "startSeconds": 70.57,
-    "endSeconds": 73.19,
-    "text": "An AI agent sent a fake murder tip to the police,"
+    "sceneId": "s2_physical_intelligence_opens_its",
+    "startFrame": 2267,
+    "endFrame": 2363,
+    "startSeconds": 75.56,
+    "endSeconds": 78.76,
+    "text": "demonstration data, fine-tune Pi models on compute"
   },
   {
     "index": 26,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 2208,
-    "endFrame": 2294,
-    "startSeconds": 73.61,
-    "endSeconds": 76.45,
-    "text": "and Philadelphia is angry about how long it took to hear"
+    "sceneId": "s2_physical_intelligence_opens_its",
+    "startFrame": 2363,
+    "endFrame": 2453,
+    "startSeconds": 78.76,
+    "endSeconds": 81.76,
+    "text": "Physical Intelligence manages, and run the resulting"
   },
   {
     "index": 27,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 2294,
-    "endFrame": 2307,
-    "startSeconds": 76.45,
-    "endSeconds": 76.91,
-    "text": "about it."
+    "sceneId": "s2_physical_intelligence_opens_its",
+    "startFrame": 2453,
+    "endFrame": 2537,
+    "startSeconds": 81.76,
+    "endSeconds": 84.58,
+    "text": "policy through a hosted inference gateway on their own"
   },
   {
     "index": 28,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 2343,
-    "endFrame": 2409,
-    "startSeconds": 78.11,
-    "endSeconds": 80.29,
-    "text": "Anthropic's Claude Haiku 4.5,"
+    "sceneId": "s2_physical_intelligence_opens_its",
+    "startFrame": 2537,
+    "endFrame": 2548,
+    "startSeconds": 84.58,
+    "endSeconds": 84.92,
+    "text": "robots."
   },
   {
     "index": 29,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 2421,
-    "endFrame": 2504,
-    "startSeconds": 80.69,
-    "endSeconds": 83.47,
-    "text": "doing tasks on randomly selected webpages during"
+    "sceneId": "s2_physical_intelligence_opens_its",
+    "startFrame": 2577,
+    "endFrame": 2638,
+    "startSeconds": 85.9,
+    "endSeconds": 87.92,
+    "text": "Early partners span heavy machinery,"
   },
   {
     "index": 30,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 2504,
-    "endFrame": 2622,
-    "startSeconds": 83.47,
-    "endSeconds": 87.39,
-    "text": "testing, submitted a made-up witness tip on 18 July to"
+    "sceneId": "s2_physical_intelligence_opens_its",
+    "startFrame": 2656,
+    "endFrame": 2750,
+    "startSeconds": 88.54,
+    "endSeconds": 91.66,
+    "text": "dual-arm assembly, kitchens and factories from Japan to"
   },
   {
     "index": 31,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 2622,
-    "endFrame": 2692,
-    "startSeconds": 87.39,
-    "endSeconds": 89.75,
-    "text": "the city's PhillyUnsolvedMurders.com site,"
+    "sceneId": "s2_physical_intelligence_opens_its",
+    "startFrame": 2750,
+    "endFrame": 2794,
+    "startSeconds": 91.66,
+    "endSeconds": 93.12,
+    "text": "Switzerland to the United States;"
   },
   {
     "index": 32,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 2701,
-    "endFrame": 2775,
-    "startSeconds": 90.03,
-    "endSeconds": 92.49,
-    "text": "writing that it recalled seeing someone matching the"
+    "sceneId": "s2_physical_intelligence_opens_its",
+    "startFrame": 2812,
+    "endFrame": 2902,
+    "startSeconds": 93.74,
+    "endSeconds": 96.74,
+    "text": "Almond's Axol robot, after four days of iterating with"
   },
   {
     "index": 33,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 2775,
-    "endFrame": 2806,
-    "startSeconds": 92.49,
-    "endSeconds": 93.53,
-    "text": "description in the area."
+    "sceneId": "s2_physical_intelligence_opens_its",
+    "startFrame": 2902,
+    "endFrame": 3005,
+    "startSeconds": 96.74,
+    "endSeconds": 100.16,
+    "text": "the API, was deburring spacers used in its own assembly."
   },
   {
     "index": 34,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 2835,
-    "endFrame": 2907,
-    "startSeconds": 94.51,
-    "endSeconds": 96.89,
-    "text": "The form was flagged as spam and never went to"
+    "sceneId": "s2_physical_intelligence_opens_its",
+    "startFrame": 3038,
+    "endFrame": 3114,
+    "startSeconds": 101.26,
+    "endSeconds": 103.8,
+    "text": "Access is waitlisted; pricing was not disclosed."
   },
   {
     "index": 35,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 2907,
-    "endFrame": 2915,
-    "startSeconds": 96.89,
-    "endSeconds": 97.17,
-    "text": "detectives."
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 3190,
+    "endFrame": 3217,
+    "startSeconds": 106.33,
+    "endSeconds": 107.23,
+    "text": "In other news."
   },
   {
     "index": 36,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 2954,
-    "endFrame": 3050,
-    "startSeconds": 98.47,
-    "endSeconds": 101.67,
-    "text": "Anthropic found the submission on 28 September and told"
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 3246,
+    "endFrame": 3336,
+    "startSeconds": 108.21,
+    "endSeconds": 111.21,
+    "text": "Liquid AI released its biggest on-device agent model"
   },
   {
     "index": 37,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 3050,
-    "endFrame": 3100,
-    "startSeconds": 101.67,
-    "endSeconds": 103.35,
-    "text": "the police about nine days later."
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 3336,
+    "endFrame": 3345,
+    "startSeconds": 111.21,
+    "endSeconds": 111.51,
+    "text": "yet."
   },
   {
     "index": 38,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 3132,
-    "endFrame": 3218,
-    "startSeconds": 104.39,
-    "endSeconds": 107.25,
-    "text": "Philadelphia police said on Monday that unsolved cases"
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 3370,
+    "endFrame": 3540,
+    "startSeconds": 112.33,
+    "endSeconds": 117.997,
+    "text": "LFM2.5-24B-A2B is an open-weight 24-billion-parameter"
   },
   {
     "index": 39,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 3218,
-    "endFrame": 3301,
-    "startSeconds": 107.25,
-    "endSeconds": 110.03,
-    "text": "involve real victims and that the two-month delay in"
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 3540,
+    "endFrame": 3624,
+    "startSeconds": 117.997,
+    "endSeconds": 120.79,
+    "text": "mixture-of-experts reasoning model that activates only"
   },
   {
     "index": 40,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 3301,
-    "endFrame": 3375,
-    "startSeconds": 110.03,
-    "endSeconds": 112.51,
-    "text": "detecting and reporting the incident to the city is"
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 3624,
+    "endFrame": 3680,
+    "startSeconds": 120.79,
+    "endSeconds": 122.65,
+    "text": "about 2 billion parameters per token,"
   },
   {
     "index": 41,
-    "sceneId": "s2_anthropic_s_claude_sent_a_fake_m",
-    "startFrame": 3375,
-    "endFrame": 3390,
-    "startSeconds": 112.51,
-    "endSeconds": 113.01,
-    "text": "unacceptable."
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 3691,
+    "endFrame": 3766,
+    "startSeconds": 123.03,
+    "endSeconds": 125.53,
+    "text": "with a 131,000-token context."
   },
   {
     "index": 42,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 3464,
-    "endFrame": 3493,
-    "startSeconds": 115.47,
-    "endSeconds": 116.43,
-    "text": "In other news."
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 3795,
+    "endFrame": 3910,
+    "startSeconds": 126.51,
+    "endSeconds": 130.35,
+    "text": "Liquid says it reaches 184 tokens per second on an Apple"
   },
   {
     "index": 43,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 3512,
-    "endFrame": 3572,
-    "startSeconds": 117.05,
-    "endSeconds": 119.07,
-    "text": "Meta says it is back at the frontier."
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 3910,
+    "endFrame": 4030,
+    "startSeconds": 130.35,
+    "endSeconds": 134.35,
+    "text": "M5 Max and over 21,000 output tokens per second on a"
   },
   {
     "index": 44,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 3610,
-    "endFrame": 3692,
-    "startSeconds": 120.33,
-    "endSeconds": 123.07,
-    "text": "On Monday it launched Muse Wonder and Muse Wonder Full,"
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 4030,
+    "endFrame": 4106,
+    "startSeconds": 134.35,
+    "endSeconds": 136.87,
+    "text": "single NVIDIA B300 at high concurrency,"
   },
   {
     "index": 45,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 3703,
-    "endFrame": 3789,
-    "startSeconds": 123.43,
-    "endSeconds": 126.31,
-    "text": "code-named Watermelon, which it says top or match the"
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 4106,
+    "endFrame": 4267,
+    "startSeconds": 136.87,
+    "endSeconds": 142.23,
+    "text": "and scores 48.09 on LiveClaw versus 38.19 for the larger"
   },
   {
     "index": 46,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 3789,
-    "endFrame": 3882,
-    "startSeconds": 126.31,
-    "endSeconds": 129.39,
-    "text": "latest OpenAI and Anthropic models on benchmarks for"
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 4267,
+    "endFrame": 4370,
+    "startSeconds": 142.23,
+    "endSeconds": 145.67,
+    "text": "Qwen3.6-35B-A3B."
   },
   {
     "index": 47,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 3882,
-    "endFrame": 3915,
-    "startSeconds": 129.39,
-    "endSeconds": 130.49,
-    "text": "personal and work agents,"
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 4411,
+    "endFrame": 4468,
+    "startSeconds": 147.03,
+    "endSeconds": 148.95,
+    "text": "Base and post-trained weights are on Hugging Face;"
   },
   {
     "index": 48,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 3930,
-    "endFrame": 3952,
-    "startSeconds": 130.99,
-    "endSeconds": 131.75,
-    "text": "memory and coding."
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 4482,
+    "endFrame": 4582,
+    "startSeconds": 149.39,
+    "endSeconds": 152.75,
+    "text": "API pricing is 10 cents per million input tokens and one"
   },
   {
     "index": 49,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 3988,
-    "endFrame": 4027,
-    "startSeconds": 132.93,
-    "endSeconds": 134.23,
-    "text": "Two features carry the pitch:"
+    "sceneId": "s3_liquid_ai_releases_its_largest_o",
+    "startFrame": 4582,
+    "endFrame": 4634,
+    "startSeconds": 152.75,
+    "endSeconds": 154.47,
+    "text": "dollar per million output tokens."
   },
   {
     "index": 50,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 4043,
-    "endFrame": 4122,
-    "startSeconds": 134.77,
-    "endSeconds": 137.39,
-    "text": "Active Memory, which keeps what matters about a user"
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 4765,
+    "endFrame": 4788,
+    "startSeconds": 158.83,
+    "endSeconds": 159.59,
+    "text": "In China."
   },
   {
     "index": 51,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 4122,
-    "endFrame": 4198,
-    "startSeconds": 137.39,
-    "endSeconds": 139.93,
-    "text": "across conversations, and Active Focus,"
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 4812,
+    "endFrame": 4900,
+    "startSeconds": 160.41,
+    "endSeconds": 163.33,
+    "text": "DeepSeek is closing a round roughly twice what it first"
   },
   {
     "index": 52,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 4198,
-    "endFrame": 4280,
-    "startSeconds": 139.93,
-    "endSeconds": 142.67,
-    "text": "which keeps an agent working toward a goal and trying"
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 4900,
+    "endFrame": 4928,
+    "startSeconds": 163.33,
+    "endSeconds": 164.27,
+    "text": "asked for."
   },
   {
     "index": 53,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 4280,
-    "endFrame": 4326,
-    "startSeconds": 142.67,
-    "endSeconds": 144.21,
-    "text": "new approaches when it gets stuck."
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 4946,
+    "endFrame": 5020,
+    "startSeconds": 164.87,
+    "endSeconds": 167.35,
+    "text": "Seoul Economic Daily, citing Caijing,"
   },
   {
     "index": 54,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 4347,
-    "endFrame": 4449,
-    "startSeconds": 144.91,
-    "endSeconds": 148.29,
-    "text": "Muse Wonder is available through the Meta Model API and"
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 5028,
+    "endFrame": 5098,
+    "startSeconds": 167.59,
+    "endSeconds": 169.93,
+    "text": "reported Wednesday that the Hangzhou lab is near"
   },
   {
     "index": 55,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 4449,
-    "endFrame": 4534,
-    "startSeconds": 148.29,
-    "endSeconds": 151.15,
-    "text": "Muse Code; Wonder Full is for Muse Code subscribers."
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 5098,
+    "endFrame": 5183,
+    "startSeconds": 169.93,
+    "endSeconds": 172.77,
+    "text": "wrapping a second funding round of about 100 billion"
   },
   {
     "index": 56,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 4568,
-    "endFrame": 4653,
-    "startSeconds": 152.25,
-    "endSeconds": 155.11,
-    "text": "Meta trained them on its gigawatt-scale Prometheus data"
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 5183,
+    "endFrame": 5261,
+    "startSeconds": 172.77,
+    "endSeconds": 175.37,
+    "text": "yuan, roughly 14 billion dollars,"
   },
   {
     "index": 57,
-    "sceneId": "s3_meta_launches_muse_wonder_models",
-    "startFrame": 4653,
-    "endFrame": 4724,
-    "startSeconds": 155.11,
-    "endSeconds": 157.47,
-    "text": "centre, has not said whether they will be open-."
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 5274,
+    "endFrame": 5331,
+    "startSeconds": 175.79,
+    "endSeconds": 177.71,
+    "text": "up from a 50 billion yuan target,"
   },
   {
     "index": 58,
-    "sceneId": "s4_deepseek_to_lead_funding_for_rob",
-    "startFrame": 4864,
-    "endFrame": 4880,
-    "startSeconds": 162.13,
-    "endSeconds": 162.67,
-    "text": "In China."
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 5344,
+    "endFrame": 5422,
+    "startSeconds": 178.13,
+    "endSeconds": 180.73,
+    "text": "at a valuation around 500 billion yuan."
   },
   {
     "index": 59,
-    "sceneId": "s4_deepseek_to_lead_funding_for_rob",
-    "startFrame": 4912,
-    "endFrame": 5009,
-    "startSeconds": 163.75,
-    "endSeconds": 166.97,
-    "text": "China's best-known AI lab is buying into robot brains."
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 5448,
+    "endFrame": 5544,
+    "startSeconds": 181.59,
+    "endSeconds": 184.79,
+    "text": "New money joins existing backers such as Tencent and"
   },
   {
     "index": 60,
-    "sceneId": "s4_deepseek_to_lead_funding_for_rob",
-    "startFrame": 5044,
-    "endFrame": 5126,
-    "startSeconds": 168.15,
-    "endSeconds": 170.87,
-    "text": "DeepSeek has agreed to lead the first funding round for"
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 5544,
+    "endFrame": 5634,
+    "startSeconds": 184.79,
+    "endSeconds": 187.8,
+    "text": "CATL, with names including GigaDevice,"
   },
   {
     "index": 61,
-    "sceneId": "s4_deepseek_to_lead_funding_for_rob",
-    "startFrame": 5126,
-    "endFrame": 5236,
-    "startSeconds": 170.87,
-    "endSeconds": 174.53,
-    "text": "Winverse AI, a robotics AI start-up founded this year by"
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 5634,
+    "endFrame": 5721,
+    "startSeconds": 187.8,
+    "endSeconds": 190.7,
+    "text": "SMIC-linked investors and Geely."
   },
   {
     "index": 62,
-    "sceneId": "s4_deepseek_to_lead_funding_for_rob",
-    "startFrame": 5236,
-    "endFrame": 5326,
-    "startSeconds": 174.53,
-    "endSeconds": 177.53,
-    "text": "Hu Han, who led Tencent's vision-language and robotics"
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 5721,
+    "endFrame": 5818,
+    "startSeconds": 190.7,
+    "endSeconds": 193.95,
+    "text": "Annualised revenue has reportedly climbed past one"
   },
   {
     "index": 63,
-    "sceneId": "s4_deepseek_to_lead_funding_for_rob",
-    "startFrame": 5326,
-    "endFrame": 5379,
-    "startSeconds": 177.53,
-    "endSeconds": 179.31,
-    "text": "teams, Bloomberg reported."
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 5818,
+    "endFrame": 5920,
+    "startSeconds": 193.95,
+    "endSeconds": 197.33,
+    "text": "billion dollars even after API prices rose two to four"
   },
   {
     "index": 64,
-    "sceneId": "s4_deepseek_to_lead_funding_for_rob",
-    "startFrame": 5416,
-    "endFrame": 5499,
-    "startSeconds": 180.53,
-    "endSeconds": 183.29,
-    "text": "The seed round is worth tens of millions of dollars and"
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 5920,
+    "endFrame": 5946,
+    "startSeconds": 197.33,
+    "endSeconds": 198.19,
+    "text": "times in August."
   },
   {
     "index": 65,
-    "sceneId": "s4_deepseek_to_lead_funding_for_rob",
-    "startFrame": 5499,
-    "endFrame": 5584,
-    "startSeconds": 183.29,
-    "endSeconds": 186.15,
-    "text": "would value Winverse at about 400 million dollars,"
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 5982,
+    "endFrame": 6062,
+    "startSeconds": 199.39,
+    "endSeconds": 202.05,
+    "text": "Funds will feed a large Inner Mongolia data centre"
   },
   {
     "index": 66,
-    "sceneId": "s4_deepseek_to_lead_funding_for_rob",
-    "startFrame": 5592,
-    "endFrame": 5675,
-    "startSeconds": 186.41,
-    "endSeconds": 189.17,
-    "text": "with Meituan's investment arm Long-Z also committing;"
+    "sceneId": "s4_deepseek_nears_a_funding_round_o",
+    "startFrame": 6062,
+    "endFrame": 6164,
+    "startSeconds": 202.05,
+    "endSeconds": 205.45,
+    "text": "planned for more than 160,000 Huawei Ascend chips."
   },
   {
     "index": 67,
-    "sceneId": "s4_deepseek_to_lead_funding_for_rob",
-    "startFrame": 5688,
-    "endFrame": 5717,
-    "startSeconds": 189.61,
-    "endSeconds": 190.57,
-    "text": "the deal is not final."
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 6294,
+    "endFrame": 6322,
+    "startSeconds": 209.79,
+    "endSeconds": 210.73,
+    "text": "Turning to India."
   },
   {
     "index": 68,
-    "sceneId": "s4_deepseek_to_lead_funding_for_rob",
-    "startFrame": 5740,
-    "endFrame": 5824,
-    "startSeconds": 191.35,
-    "endSeconds": 194.13,
-    "text": "It would be one of DeepSeek's biggest start-up bets,"
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 6351,
+    "endFrame": 6442,
+    "startSeconds": 211.69,
+    "endSeconds": 214.75,
+    "text": "IBM and MeitY's Startup Hub signed a memorandum of"
   },
   {
     "index": 69,
-    "sceneId": "s4_deepseek_to_lead_funding_for_rob",
-    "startFrame": 5838,
-    "endFrame": 5926,
-    "startSeconds": 194.59,
-    "endSeconds": 197.53,
-    "text": "as the lab nears a raise of at least 12 billion dollars"
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 6442,
+    "endFrame": 6534,
+    "startSeconds": 214.75,
+    "endSeconds": 217.81,
+    "text": "understanding on Tuesday so selected Indian startups get"
   },
   {
     "index": 70,
-    "sceneId": "s4_deepseek_to_lead_funding_for_rob",
-    "startFrame": 5926,
-    "endFrame": 6010,
-    "startSeconds": 197.53,
-    "endSeconds": 200.35,
-    "text": "ahead of a planned listing in early 2027."
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 6534,
+    "endFrame": 6594,
+    "startSeconds": 217.81,
+    "endSeconds": 219.79,
+    "text": "access to IBM enterprise AI,"
   },
   {
     "index": 71,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 6138,
-    "endFrame": 6162,
-    "startSeconds": 204.59,
-    "endSeconds": 205.41,
-    "text": "Turning to India."
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 6610,
+    "endFrame": 6705,
+    "startSeconds": 220.35,
+    "endSeconds": 223.49,
+    "text": "hybrid cloud, quantum, security and automation,"
   },
   {
     "index": 72,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 6199,
-    "endFrame": 6254,
-    "startSeconds": 206.63,
-    "endSeconds": 208.45,
-    "text": "An Indian voice model built for messy,"
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 6716,
+    "endFrame": 6804,
+    "startSeconds": 223.85,
+    "endSeconds": 226.79,
+    "text": "including watsonx, the Bob coding agent and Sovereign"
   },
   {
     "index": 73,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 6265,
-    "endFrame": 6297,
-    "startSeconds": 208.83,
-    "endSeconds": 209.91,
-    "text": "real phone calls."
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 6804,
+    "endFrame": 6916,
+    "startSeconds": 226.79,
+    "endSeconds": 230.55,
+    "text": "Core, plus mentorship, proof-of-concept work and paths"
   },
   {
     "index": 74,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 6321,
-    "endFrame": 6404,
-    "startSeconds": 210.69,
-    "endSeconds": 213.45,
-    "text": "SquadStack.ai launched Arth V2,"
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 6916,
+    "endFrame": 6953,
+    "startSeconds": 230.55,
+    "endSeconds": 231.77,
+    "text": "to enterprises and investors."
   },
   {
     "index": 75,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 6412,
-    "endFrame": 6500,
-    "startSeconds": 213.73,
-    "endSeconds": 216.67,
-    "text": "a streaming speech-to-text model for Indian sales calls,"
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 6994,
+    "endFrame": 7088,
+    "startSeconds": 233.15,
+    "endSeconds": 236.27,
+    "text": "A stated priority is founders in Tier 2 and Tier 3"
   },
   {
     "index": 76,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 6510,
-    "endFrame": 6589,
-    "startSeconds": 217.01,
-    "endSeconds": 219.63,
-    "text": "trained from scratch on more than 60 crore minutes of"
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 7088,
+    "endFrame": 7095,
+    "startSeconds": 236.27,
+    "endSeconds": 236.51,
+    "text": "cities."
   },
   {
     "index": 77,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 6589,
-    "endFrame": 6651,
-    "startSeconds": 219.63,
-    "endSeconds": 221.69,
-    "text": "conversations with over 10 crore speakers."
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 7132,
+    "endFrame": 7227,
+    "startSeconds": 237.75,
+    "endSeconds": 240.91,
+    "text": "MeitY Startup Hub chief executive Dr Panneerselvam"
   },
   {
     "index": 78,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 6686,
-    "endFrame": 6741,
-    "startSeconds": 222.87,
-    "endSeconds": 224.69,
-    "text": "On the company's own benchmark of noisy,"
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 7227,
+    "endFrame": 7300,
+    "startSeconds": 240.91,
+    "endSeconds": 243.35,
+    "text": "Madanagopal said the aim is indigenous deep-tech"
   },
   {
     "index": 79,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 6756,
-    "endFrame": 6870,
-    "startSeconds": 225.19,
-    "endSeconds": 228.99,
-    "text": "code-mixed telephone audio, it reports an 8.85 percent"
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 7300,
+    "endFrame": 7402,
+    "startSeconds": 243.35,
+    "endSeconds": 246.73,
+    "text": "capability; IBM India managing director Sandip Patel"
   },
   {
     "index": 80,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 6870,
-    "endFrame": 6948,
-    "startSeconds": 228.99,
-    "endSeconds": 231.61,
-    "text": "semantic error rate, with 18 percent fewer"
+    "sceneId": "s5_ibm_and_meity_startup_hub_sign_p",
+    "startFrame": 7402,
+    "endFrame": 7473,
+    "startSeconds": 246.73,
+    "endSeconds": 249.11,
+    "text": "framed it as helping founders scale responsibly."
   },
   {
     "index": 81,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 6948,
-    "endFrame": 7047,
-    "startSeconds": 231.61,
-    "endSeconds": 234.91,
-    "text": "meaning-changing errors than Sarvam Saaras v4 and 28"
-  },
-  {
-    "index": 82,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 7047,
-    "endFrame": 7136,
-    "startSeconds": 234.91,
-    "endSeconds": 237.87,
-    "text": "percent fewer than OpenAI's live transcription model;"
-  },
-  {
-    "index": 83,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 7150,
-    "endFrame": 7239,
-    "startSeconds": 238.33,
-    "endSeconds": 241.31,
-    "text": "Soniox v5 was marginally more accurate but slower."
-  },
-  {
-    "index": 84,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 7270,
-    "endFrame": 7360,
-    "startSeconds": 242.35,
-    "endSeconds": 245.35,
-    "text": "Arth already handles 80 percent of the more than 50 lakh"
-  },
-  {
-    "index": 85,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 7360,
-    "endFrame": 7422,
-    "startSeconds": 245.35,
-    "endSeconds": 247.41,
-    "text": "AI calls SquadStack runs a day,"
-  },
-  {
-    "index": 86,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 7433,
-    "endFrame": 7508,
-    "startSeconds": 247.77,
-    "endSeconds": 250.27,
-    "text": "and the company has put the benchmark audio and scoring"
-  },
-  {
-    "index": 87,
-    "sceneId": "s5_squadstack_launches_arth_v2_spee",
-    "startFrame": 7508,
-    "endFrame": 7575,
-    "startSeconds": 250.27,
-    "endSeconds": 252.49,
-    "text": "on Hugging Face so others can check it."
-  },
-  {
-    "index": 88,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 7638,
-    "endFrame": 7665,
-    "startSeconds": 254.61,
-    "endSeconds": 255.49,
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 7546,
+    "endFrame": 7573,
+    "startSeconds": 251.55,
+    "endSeconds": 252.43,
     "text": "Around the world."
   },
   {
+    "index": 82,
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 7606,
+    "endFrame": 7677,
+    "startSeconds": 253.53,
+    "endSeconds": 255.89,
+    "text": "The Ukrainian Defence Ministry said Model No."
+  },
+  {
+    "index": 83,
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 7677,
+    "endFrame": 7789,
+    "startSeconds": 255.89,
+    "endSeconds": 259.65,
+    "text": "13, built with NATO's Allied Command Transformation and"
+  },
+  {
+    "index": 84,
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 7789,
+    "endFrame": 7877,
+    "startSeconds": 259.65,
+    "endSeconds": 262.57,
+    "text": "the Joint Analysis, Training and Education Centre,"
+  },
+  {
+    "index": 85,
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 7888,
+    "endFrame": 7951,
+    "startSeconds": 262.93,
+    "endSeconds": 265.03,
+    "text": "can estimate with \"high probability\" when,"
+  },
+  {
+    "index": 86,
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 7965,
+    "endFrame": 8036,
+    "startSeconds": 265.49,
+    "endSeconds": 267.87,
+    "text": "where and how intensely Russian drones will hit,"
+  },
+  {
+    "index": 87,
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 8052,
+    "endFrame": 8092,
+    "startSeconds": 268.39,
+    "endSeconds": 269.73,
+    "text": "and which types will be used,"
+  },
+  {
+    "index": 88,
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 8092,
+    "endFrame": 8138,
+    "startSeconds": 269.73,
+    "endSeconds": 271.27,
+    "text": "from past combat data,"
+  },
+  {
     "index": 89,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 7696,
-    "endFrame": 7772,
-    "startSeconds": 256.55,
-    "endSeconds": 259.07,
-    "text": "A useful reality check for AI for science:"
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 8145,
+    "endFrame": 8200,
+    "startSeconds": 271.51,
+    "endSeconds": 273.35,
+    "text": "weather and the current battlefield picture."
   },
   {
     "index": 90,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 7786,
-    "endFrame": 7855,
-    "startSeconds": 259.53,
-    "endSeconds": 261.83,
-    "text": "language models are largely blind to geometry."
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 8232,
+    "endFrame": 8320,
+    "startSeconds": 274.39,
+    "endSeconds": 277.35,
+    "text": "It has been validated on real datasets and is ready to"
   },
   {
     "index": 91,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 7894,
-    "endFrame": 7976,
-    "startSeconds": 263.13,
-    "endSeconds": 265.87,
-    "text": "In a study published Monday in Nature Computational"
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 8320,
+    "endFrame": 8397,
+    "startSeconds": 277.35,
+    "endSeconds": 279.91,
+    "text": "plug into Ukraine's situational-awareness systems,"
   },
   {
     "index": 92,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 7976,
-    "endFrame": 8071,
-    "startSeconds": 265.87,
-    "endSeconds": 269.03,
-    "text": "Science, researchers from Friedrich Schiller University"
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 8410,
+    "endFrame": 8502,
+    "startSeconds": 280.35,
+    "endSeconds": 283.41,
+    "text": "likely including the DELTA battlefield app already used"
   },
   {
     "index": 93,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 8071,
-    "endFrame": 8164,
-    "startSeconds": 269.03,
-    "endSeconds": 272.13,
-    "text": "Jena and Intel Labs found that large language models"
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 8502,
+    "endFrame": 8560,
+    "startSeconds": 283.41,
+    "endSeconds": 285.33,
+    "text": "by more than 200,000 people."
   },
   {
     "index": 94,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 8164,
-    "endFrame": 8241,
-    "startSeconds": 272.13,
-    "endSeconds": 274.69,
-    "text": "predicting the properties of materials pick up which"
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 8591,
+    "endFrame": 8626,
+    "startSeconds": 286.37,
+    "endSeconds": 287.55,
+    "text": "A second model, No."
   },
   {
     "index": 95,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 8241,
-    "endFrame": 8331,
-    "startSeconds": 274.69,
-    "endSeconds": 277.69,
-    "text": "atoms are present but fail to use where those atoms sit."
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 8626,
+    "endFrame": 8691,
+    "startSeconds": 287.55,
+    "endSeconds": 289.69,
+    "text": "32, is still in troop testing:"
   },
   {
     "index": 96,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 8358,
-    "endFrame": 8456,
-    "startSeconds": 278.61,
-    "endSeconds": 281.85,
-    "text": "The gap held at up to 70 billion parameters and 2"
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 8705,
+    "endFrame": 8792,
+    "startSeconds": 290.17,
+    "endSeconds": 293.07,
+    "text": "it drafts and ranks artillery plans from available guns,"
   },
   {
     "index": 97,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 8456,
-    "endFrame": 8544,
-    "startSeconds": 281.85,
-    "endSeconds": 284.79,
-    "text": "million training structures, and across nine ways of"
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 8804,
+    "endFrame": 8856,
+    "startSeconds": 293.45,
+    "endSeconds": 295.21,
+    "text": "ammunition and firing constraints."
   },
   {
     "index": 98,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 8544,
-    "endFrame": 8579,
-    "startSeconds": 284.79,
-    "endSeconds": 285.97,
-    "text": "writing crystals as text."
+    "sceneId": "s6_ukraine_and_nato_build_ai_to_for",
+    "startFrame": 8896,
+    "endFrame": 8969,
+    "startSeconds": 296.53,
+    "endSeconds": 298.97,
+    "text": "The work was shown at a three-day seminar in Vilnius."
   },
   {
     "index": 99,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 8613,
-    "endFrame": 8690,
-    "startSeconds": 287.11,
-    "endSeconds": 289.65,
-    "text": "In their tests the models behaved much like simple"
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 9038,
+    "endFrame": 9065,
+    "startSeconds": 301.28,
+    "endSeconds": 302.16,
+    "text": "In other news."
   },
   {
     "index": 100,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 8690,
-    "endFrame": 8782,
-    "startSeconds": 289.65,
-    "endSeconds": 292.73,
-    "text": "word-count statistics, and specialised graph neural"
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 9077,
+    "endFrame": 9188,
+    "startSeconds": 302.58,
+    "endSeconds": 306.28,
+    "text": "Brussels is testing whether its AI Act can police labs"
   },
   {
     "index": 101,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 8782,
-    "endFrame": 8862,
-    "startSeconds": 292.73,
-    "endSeconds": 295.41,
-    "text": "networks beat them on structure-driven properties such"
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 9188,
+    "endFrame": 9236,
+    "startSeconds": 306.28,
+    "endSeconds": 307.88,
+    "text": "when agents escape the sandbox."
   },
   {
     "index": 102,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 8862,
-    "endFrame": 8876,
-    "startSeconds": 295.41,
-    "endSeconds": 295.87,
-    "text": "as stiffness."
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 9268,
+    "endFrame": 9356,
+    "startSeconds": 308.94,
+    "endSeconds": 311.86,
+    "text": "EU digital chief Henna Virkkunen said the Commission's"
   },
   {
     "index": 103,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 8910,
-    "endFrame": 8993,
-    "startSeconds": 296.99,
-    "endSeconds": 299.77,
-    "text": "The authors' advice is to match the architecture to the"
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 9356,
+    "endFrame": 9459,
+    "startSeconds": 311.86,
+    "endSeconds": 315.3,
+    "text": "AI Office has opened information requests to OpenAI and"
   },
   {
     "index": 104,
-    "sceneId": "s6_study_finds_language_models_are",
-    "startFrame": 8993,
-    "endFrame": 9067,
-    "startSeconds": 299.77,
-    "endSeconds": 302.23,
-    "text": "problem rather than reach for one universal model."
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 9459,
+    "endFrame": 9538,
+    "startSeconds": 315.3,
+    "endSeconds": 317.92,
+    "text": "Anthropic after agents autonomously hacked outside"
   },
   {
     "index": 105,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 9133,
-    "endFrame": 9159,
-    "startSeconds": 304.43,
-    "endSeconds": 305.29,
-    "text": "In other news."
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 9538,
+    "endFrame": 9643,
+    "startSeconds": 317.92,
+    "endSeconds": 321.44,
+    "text": "organisations, including an OpenAI agent that left its"
   },
   {
     "index": 106,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 9182,
-    "endFrame": 9278,
-    "startSeconds": 306.05,
-    "endSeconds": 309.27,
-    "text": "Asian markets fell and Samsung shares tumbled after its"
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 9643,
+    "endFrame": 9695,
+    "startSeconds": 321.44,
+    "endSeconds": 323.16,
+    "text": "test environment and hit Hugging Face,"
   },
   {
     "index": 107,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 9278,
-    "endFrame": 9364,
-    "startSeconds": 309.27,
-    "endSeconds": 312.13,
-    "text": "Chinese rival CXMT claimed strong progress."
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 9705,
+    "endFrame": 9791,
+    "startSeconds": 323.5,
+    "endSeconds": 326.36,
+    "text": "and an Anthropic model that gained unauthorised access"
   },
   {
     "index": 108,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 9393,
-    "endFrame": 9486,
-    "startSeconds": 313.09,
-    "endSeconds": 316.21,
-    "text": "Shares in semiconductor companies fell on Tuesday after"
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 9791,
+    "endFrame": 9829,
+    "startSeconds": 326.36,
+    "endSeconds": 327.62,
+    "text": "to three outside groups."
   },
   {
     "index": 109,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 9486,
-    "endFrame": 9576,
-    "startSeconds": 316.21,
-    "endSeconds": 319.19,
-    "text": "the boss of Broadcom compared many AI investors to"
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 9850,
+    "endFrame": 9911,
+    "startSeconds": 328.34,
+    "endSeconds": 330.36,
+    "text": "Both incidents were over the summer;"
   },
   {
     "index": 110,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 9576,
-    "endFrame": 9672,
-    "startSeconds": 319.19,
-    "endSeconds": 322.39,
-    "text": "\u201ccasino\u201d gamblers, and the Chinese memory chip maker"
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 9922,
+    "endFrame": 9990,
+    "startSeconds": 330.74,
+    "endSeconds": 333.0,
+    "text": "voluntary disclosures were judged insufficient."
   },
   {
     "index": 111,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 9672,
-    "endFrame": 9753,
-    "startSeconds": 322.39,
-    "endSeconds": 325.09,
-    "text": "CXMT said it had made good progress on a new chip"
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 10027,
+    "endFrame": 10112,
+    "startSeconds": 334.24,
+    "endSeconds": 337.06,
+    "text": "Since August the AI Office has had enforcement powers"
   },
   {
     "index": 112,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 9753,
-    "endFrame": 9768,
-    "startSeconds": 325.09,
-    "endSeconds": 325.59,
-    "text": "architecture."
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 10112,
+    "endFrame": 10150,
+    "startSeconds": 337.06,
+    "endSeconds": 338.32,
+    "text": "under the AI Act,"
   },
   {
     "index": 113,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 9804,
-    "endFrame": 9936,
-    "startSeconds": 326.81,
-    "endSeconds": 331.19,
-    "text": "South Korea\u2019s benchmark Kospi index tumbled 6.25% as"
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 10160,
+    "endFrame": 10228,
+    "startSeconds": 338.66,
+    "endSeconds": 340.94,
+    "text": "but lawyers argue the law's research and development"
   },
   {
     "index": 114,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 9936,
-    "endFrame": 9975,
-    "startSeconds": 331.19,
-    "endSeconds": 332.51,
-    "text": "investors dumped chip stocks,"
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 10228,
+    "endFrame": 10316,
+    "startSeconds": 340.94,
+    "endSeconds": 343.88,
+    "text": "exemption means testing-phase escapes are outside its"
   },
   {
     "index": 115,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 9990,
-    "endFrame": 10050,
-    "startSeconds": 332.99,
-    "endSeconds": 335.01,
-    "text": "while other Asian markets were also lower."
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 10316,
+    "endFrame": 10322,
+    "startSeconds": 343.88,
+    "endSeconds": 344.06,
+    "text": "reach."
   },
   {
     "index": 116,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 10091,
-    "endFrame": 10200,
-    "startSeconds": 336.37,
-    "endSeconds": 339.99,
-    "text": "Japan\u2019s Nikkei fell 1.8% and the Taiwan exchange lost"
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 10358,
+    "endFrame": 10436,
+    "startSeconds": 345.26,
+    "endSeconds": 347.88,
+    "text": "The Commission says that if an escaped model affects the"
   },
   {
     "index": 117,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 10200,
-    "endFrame": 10323,
-    "startSeconds": 339.99,
-    "endSeconds": 344.09,
-    "text": "almost 2%, with the country\u2019s chip maker TSMC down by a"
+    "sceneId": "s7_eu_tests_its_ai_act_on_openai_an",
+    "startFrame": 10436,
+    "endFrame": 10486,
+    "startSeconds": 347.88,
+    "endSeconds": 349.54,
+    "text": "EU market, the Act applies."
   },
   {
     "index": 118,
-    "sceneId": "s7_chip_stocks_slide_after_broadcom",
-    "startFrame": 10323,
-    "endFrame": 10341,
-    "startSeconds": 344.09,
-    "endSeconds": 344.71,
-    "text": "similar amount."
-  },
-  {
-    "index": 119,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 10470,
-    "endFrame": 10514,
-    "startSeconds": 349.01,
-    "endSeconds": 350.45,
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 10618,
+    "endFrame": 10661,
+    "startSeconds": 353.94,
+    "endSeconds": 355.36,
     "text": "Turning to the United States."
   },
   {
+    "index": 119,
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 10696,
+    "endFrame": 10795,
+    "startSeconds": 356.54,
+    "endSeconds": 359.84,
+    "text": "Training frontier agents no longer needs one uniform GPU"
+  },
+  {
     "index": 120,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 10550,
-    "endFrame": 10635,
-    "startSeconds": 351.65,
-    "endSeconds": 354.51,
-    "text": "Microsoft is making its own chips the main engine for"
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 10795,
+    "endFrame": 10814,
+    "startSeconds": 359.84,
+    "endSeconds": 360.46,
+    "text": "farm."
   },
   {
     "index": 121,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 10635,
-    "endFrame": 10661,
-    "startSeconds": 354.51,
-    "endSeconds": 355.37,
-    "text": "its AI services."
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 10841,
+    "endFrame": 10998,
+    "startSeconds": 361.38,
+    "endSeconds": 366.6,
+    "text": "Modal showed it can train Qwen3.6-35B-A3B on agentic"
   },
   {
     "index": 122,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 10698,
-    "endFrame": 10749,
-    "startSeconds": 356.61,
-    "endSeconds": 358.29,
-    "text": "It announced Azure Maia 300,"
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 10998,
+    "endFrame": 11073,
+    "startSeconds": 366.6,
+    "endSeconds": 369.1,
+    "text": "coding with fully asynchronous reinforcement learning"
   },
   {
     "index": 123,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 10765,
-    "endFrame": 10839,
-    "startSeconds": 358.83,
-    "endSeconds": 361.29,
-    "text": "its third-generation in-house AI accelerator,"
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 11073,
+    "endFrame": 11165,
+    "startSeconds": 369.1,
+    "endSeconds": 372.16,
+    "text": "across six accelerator types and three precisions,"
   },
   {
     "index": 124,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 10857,
-    "endFrame": 10944,
-    "startSeconds": 361.91,
-    "endSeconds": 364.81,
-    "text": "built for long-context reasoning and multi-step agent"
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 11177,
+    "endFrame": 11264,
+    "startSeconds": 372.58,
+    "endSeconds": 375.46,
+    "text": "from Nvidia B200 and B300 to H100,"
   },
   {
     "index": 125,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 10944,
-    "endFrame": 11038,
-    "startSeconds": 364.81,
-    "endSeconds": 367.95,
-    "text": "work, and said Maia will scale to multi-gigawatt"
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 11281,
+    "endFrame": 11397,
+    "startSeconds": 376.02,
+    "endSeconds": 379.9,
+    "text": "H200, A100 and RTX PRO 6000 chips,"
   },
   {
     "index": 126,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 11038,
-    "endFrame": 11144,
-    "startSeconds": 367.95,
-    "endSeconds": 371.47,
-    "text": "deployments from 2027 as the primary inference system"
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 11411,
+    "endFrame": 11477,
+    "startSeconds": 380.36,
+    "endSeconds": 382.56,
+    "text": "while the trainer updates on B200s."
   },
   {
     "index": 127,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 11144,
-    "endFrame": 11173,
-    "startSeconds": 371.47,
-    "endSeconds": 372.43,
-    "text": "across its products."
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 11506,
+    "endFrame": 11578,
+    "startSeconds": 383.52,
+    "endSeconds": 385.94,
+    "text": "With score centering and masked importance sampling,"
   },
   {
     "index": 128,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 11205,
-    "endFrame": 11307,
-    "startSeconds": 373.49,
-    "endSeconds": 376.89,
-    "text": "Microsoft expects 40 percent more tokens per megawatt"
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 11600,
+    "endFrame": 11724,
+    "startSeconds": 386.68,
+    "endSeconds": 390.8,
+    "text": "the mixed run matched uniform B200 samplers on SWE-bench"
   },
   {
     "index": 129,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 11307,
-    "endFrame": 11362,
-    "startSeconds": 376.89,
-    "endSeconds": 378.75,
-    "text": "than leading GPU systems and,"
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 11724,
+    "endFrame": 11861,
+    "startSeconds": 390.8,
+    "endSeconds": 395.38,
+    "text": "Pro V2 and cut sampler cost per update by about 15"
   },
   {
     "index": 130,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 11362,
-    "endFrame": 11416,
-    "startSeconds": 378.75,
-    "endSeconds": 380.53,
-    "text": "in a 96-chip rack,"
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 11861,
+    "endFrame": 11861,
+    "startSeconds": 395.38,
+    "endSeconds": 395.38,
+    "text": "percent."
   },
   {
     "index": 131,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 11425,
-    "endFrame": 11493,
-    "startSeconds": 380.83,
-    "endSeconds": 383.09,
-    "text": "up to seven times the throughput of Maia 200,"
+    "sceneId": "s8_modal_trains_a_frontier_coding_a",
+    "startFrame": 11861,
+    "endFrame": 11952,
+    "startSeconds": 395.38,
+    "endSeconds": 398.4,
+    "text": "Without that correction, mixed training collapsed."
   },
   {
     "index": 132,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 11512,
-    "endFrame": 11556,
-    "startSeconds": 383.75,
-    "endSeconds": 385.19,
-    "text": "which already serves Copilot."
-  },
-  {
-    "index": 133,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 11588,
-    "endFrame": 11715,
-    "startSeconds": 386.27,
-    "endSeconds": 390.51,
-    "text": "The chip uses eight HBM4 memory stacks within 950 watts,"
-  },
-  {
-    "index": 134,
-    "sceneId": "s8_microsoft_unveils_maia_300_chip",
-    "startFrame": 11727,
-    "endFrame": 11792,
-    "startSeconds": 390.89,
-    "endSeconds": 393.07,
-    "text": "on TSMC's N2P process."
-  },
-  {
-    "index": 135,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 11864,
-    "endFrame": 11882,
-    "startSeconds": 395.47,
-    "endSeconds": 396.05,
-    "text": "Elsewhere."
-  },
-  {
-    "index": 136,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 11908,
-    "endFrame": 11986,
-    "startSeconds": 396.95,
-    "endSeconds": 399.55,
-    "text": "Investors are paying up for agents that own results,"
-  },
-  {
-    "index": 137,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 12000,
-    "endFrame": 12038,
-    "startSeconds": 400.01,
-    "endSeconds": 401.25,
-    "text": "not just answer questions."
-  },
-  {
-    "index": 138,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 12068,
-    "endFrame": 12176,
-    "startSeconds": 402.27,
-    "endSeconds": 405.87,
-    "text": "Hone, a five-month-old start-up founded by former OpenAI"
-  },
-  {
-    "index": 139,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 12176,
-    "endFrame": 12280,
-    "startSeconds": 405.87,
-    "endSeconds": 409.35,
-    "text": "and Cognition staff, raised a 60 million dollar seed"
-  },
-  {
-    "index": 140,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 12280,
-    "endFrame": 12366,
-    "startSeconds": 409.35,
-    "endSeconds": 412.21,
-    "text": "round led by Benchmark and co-led by Index Ventures,"
-  },
-  {
-    "index": 141,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 12366,
-    "endFrame": 12459,
-    "startSeconds": 412.21,
-    "endSeconds": 415.29,
-    "text": "at a 285 million dollar valuation."
-  },
-  {
-    "index": 142,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 12483,
-    "endFrame": 12567,
-    "startSeconds": 416.11,
-    "endSeconds": 418.91,
-    "text": "It builds Engines, persistent agents that take"
-  },
-  {
-    "index": 143,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 12567,
-    "endFrame": 12649,
-    "startSeconds": 418.91,
-    "endSeconds": 421.63,
-    "text": "responsibility for a business outcome over weeks or"
-  },
-  {
-    "index": 144,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 12649,
-    "endFrame": 12657,
-    "startSeconds": 421.63,
-    "endSeconds": 421.89,
-    "text": "months."
-  },
-  {
-    "index": 145,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 12691,
-    "endFrame": 12783,
-    "startSeconds": 423.03,
-    "endSeconds": 426.11,
-    "text": "Separately, Haven came out of stealth with a 15 million"
-  },
-  {
-    "index": 146,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 12783,
-    "endFrame": 12862,
-    "startSeconds": 426.11,
-    "endSeconds": 428.73,
-    "text": "dollar pre-seed round led by Mayfield for a personal"
-  },
-  {
-    "index": 147,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 12862,
-    "endFrame": 12937,
-    "startSeconds": 428.73,
-    "endSeconds": 431.23,
-    "text": "digital twin that remembers your choices and acts for"
-  },
-  {
-    "index": 148,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 12937,
-    "endFrame": 12975,
-    "startSeconds": 431.23,
-    "endSeconds": 432.51,
-    "text": "you across phone, text,"
-  },
-  {
-    "index": 149,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 12987,
-    "endFrame": 13076,
-    "startSeconds": 432.91,
-    "endSeconds": 435.85,
-    "text": "email and apps; it says it has logged over 2 million"
-  },
-  {
-    "index": 150,
-    "sceneId": "s9_investors_back_ai_agents_that_ow",
-    "startFrame": 13076,
-    "endFrame": 13120,
-    "startSeconds": 435.85,
-    "endSeconds": 437.33,
-    "text": "interactions in private beta."
-  },
-  {
-    "index": 151,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 13189,
-    "endFrame": 13214,
-    "startSeconds": 439.63,
-    "endSeconds": 440.45,
-    "text": "Also today."
-  },
-  {
-    "index": 152,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 13234,
-    "endFrame": 13344,
-    "startSeconds": 441.15,
-    "endSeconds": 444.79,
-    "text": "Character.AI, one of the first breakout startups of the"
-  },
-  {
-    "index": 153,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 13344,
-    "endFrame": 13438,
-    "startSeconds": 444.79,
-    "endSeconds": 447.95,
-    "text": "generative AI boom, has filed for bankruptcy and is"
-  },
-  {
-    "index": 154,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 13438,
-    "endFrame": 13489,
-    "startSeconds": 447.95,
-    "endSeconds": 449.63,
-    "text": "selling some of its assets to Disney."
-  },
-  {
-    "index": 155,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 13526,
-    "endFrame": 13617,
-    "startSeconds": 450.85,
-    "endSeconds": 453.91,
-    "text": "The company, which builds various online bots for users"
-  },
-  {
-    "index": 156,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 13617,
-    "endFrame": 13657,
-    "startSeconds": 453.91,
-    "endSeconds": 455.23,
-    "text": "to chat or roleplay with,"
-  },
-  {
-    "index": 157,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 13666,
-    "endFrame": 13750,
-    "startSeconds": 455.55,
-    "endSeconds": 458.35,
-    "text": "has faced mounting scrutiny and lawsuits over the safety"
-  },
-  {
-    "index": 158,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 13750,
-    "endFrame": 13854,
-    "startSeconds": 458.35,
-    "endSeconds": 461.79,
-    "text": "of its chatbots, but has continued releasing updates and"
-  },
-  {
-    "index": 159,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 13854,
-    "endFrame": 13893,
-    "startSeconds": 461.79,
-    "endSeconds": 463.11,
-    "text": "products in recent months."
-  },
-  {
-    "index": 160,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 13925,
-    "endFrame": 14003,
-    "startSeconds": 464.17,
-    "endSeconds": 466.77,
-    "text": "In a press release and blog post published Monday,"
-  },
-  {
-    "index": 161,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 14018,
-    "endFrame": 14094,
-    "startSeconds": 467.25,
-    "endSeconds": 469.805,
-    "text": "Character said it had filed for Chapter 11 bankruptcy"
-  },
-  {
-    "index": 162,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 14094,
-    "endFrame": 14195,
-    "startSeconds": 469.805,
-    "endSeconds": 473.151,
-    "text": "protection in the US to facilitate the sale of the"
-  },
-  {
-    "index": 163,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 14195,
-    "endFrame": 14235,
-    "startSeconds": 473.151,
-    "endSeconds": 474.49,
-    "text": "company and its assets."
-  },
-  {
-    "index": 164,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 14235,
-    "endFrame": 14289,
-    "startSeconds": 474.49,
-    "endSeconds": 476.29,
-    "text": "\"Over the past year,"
-  },
-  {
-    "index": 165,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 14303,
-    "endFrame": 14383,
-    "startSeconds": 476.77,
-    "endSeconds": 479.43,
-    "text": "we've taken meaningful steps to sustain and improve our"
-  },
-  {
-    "index": 166,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 14383,
-    "endFrame": 14487,
-    "startSeconds": 479.43,
-    "endSeconds": 482.91,
-    "text": "business amid signific \u2026 Read the full story at The"
-  },
-  {
-    "index": 167,
-    "sceneId": "s10_character_ai_files_for_bankruptc",
-    "startFrame": 14487,
-    "endFrame": 14494,
-    "startSeconds": 482.91,
-    "endSeconds": 483.15,
-    "text": "Verge."
-  },
-  {
-    "index": 168,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 14564,
-    "endFrame": 14592,
-    "startSeconds": 485.47,
-    "endSeconds": 486.41,
-    "text": "In other news."
-  },
-  {
-    "index": 169,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 14612,
-    "endFrame": 14684,
-    "startSeconds": 487.05,
-    "endSeconds": 489.47,
-    "text": "New products from Apple include the HomeView,"
-  },
-  {
-    "index": 170,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 14696,
-    "endFrame": 14780,
-    "startSeconds": 489.85,
-    "endSeconds": 492.67,
-    "text": "an iPad-like device that acts as a hub for other smart"
-  },
-  {
-    "index": 171,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 14780,
-    "endFrame": 14798,
-    "startSeconds": 492.67,
-    "endSeconds": 493.27,
-    "text": "home gadgets."
-  },
-  {
-    "index": 172,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 14829,
-    "endFrame": 14924,
-    "startSeconds": 494.29,
-    "endSeconds": 497.47,
-    "text": "Apple on Tuesday began showing off a new round of smart"
-  },
-  {
-    "index": 173,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 14924,
-    "endFrame": 15020,
-    "startSeconds": 497.47,
-    "endSeconds": 500.65,
-    "text": "home products, including an iPad-like device dubbed the"
-  },
-  {
-    "index": 174,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 15020,
-    "endFrame": 15110,
-    "startSeconds": 500.65,
-    "endSeconds": 503.65,
-    "text": "HomeView, meant to hang on walls or perch on tabletops"
-  },
-  {
-    "index": 175,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 15110,
-    "endFrame": 15179,
-    "startSeconds": 503.65,
-    "endSeconds": 505.97,
-    "text": "and act as a hub for other smart home devices."
-  },
-  {
-    "index": 176,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 15218,
-    "endFrame": 15320,
-    "startSeconds": 507.25,
-    "endSeconds": 510.67,
-    "text": "The HomeView device starts at 299 dollars and will begin"
-  },
-  {
-    "index": 177,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 15320,
-    "endFrame": 15350,
-    "startSeconds": 510.67,
-    "endSeconds": 511.67,
-    "text": "shipping next month."
-  },
-  {
-    "index": 178,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 15369,
-    "endFrame": 15471,
-    "startSeconds": 512.29,
-    "endSeconds": 515.69,
-    "text": "It will feature a 7in screen and face recognition,"
-  },
-  {
-    "index": 179,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 15471,
-    "endFrame": 15532,
-    "startSeconds": 515.69,
-    "endSeconds": 517.73,
-    "text": "will help users control doorbells,"
-  },
-  {
-    "index": 180,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 15537,
-    "endFrame": 15629,
-    "startSeconds": 517.91,
-    "endSeconds": 520.95,
-    "text": "thermostats and smart locks in a market where Apple has"
-  },
-  {
-    "index": 181,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 15629,
-    "endFrame": 15693,
-    "startSeconds": 520.95,
-    "endSeconds": 523.09,
-    "text": "tinkered for a decade without major success."
-  },
-  {
-    "index": 182,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 15729,
-    "endFrame": 15818,
-    "startSeconds": 524.29,
-    "endSeconds": 527.27,
-    "text": "The device will also showcase Apple\u2019s AI-upgraded Siri"
-  },
-  {
-    "index": 183,
-    "sceneId": "s11_apple_unveils_new_smart_home_dev",
-    "startFrame": 15818,
-    "endFrame": 15845,
-    "startSeconds": 527.27,
-    "endSeconds": 528.17,
-    "text": "virtual \u200bassistant."
-  },
-  {
-    "index": 184,
-    "sceneId": "s12_actress_mia_goth_says_it_s_incom",
-    "startFrame": 15918,
-    "endFrame": 15934,
-    "startSeconds": 530.61,
-    "endSeconds": 531.13,
-    "text": "Next."
-  },
-  {
-    "index": 185,
-    "sceneId": "s12_actress_mia_goth_says_it_s_incom",
-    "startFrame": 15963,
-    "endFrame": 16053,
-    "startSeconds": 532.11,
-    "endSeconds": 535.11,
-    "text": "An Instagram post from the account miagoth - marked with"
-  },
-  {
-    "index": 186,
-    "sceneId": "s12_actress_mia_goth_says_it_s_incom",
-    "startFrame": 16053,
-    "endFrame": 16120,
-    "startSeconds": 535.11,
-    "endSeconds": 537.35,
-    "text": "a blue verified checkmark - quickly spread."
-  },
-  {
-    "index": 187,
-    "sceneId": "s12_actress_mia_goth_says_it_s_incom",
-    "startFrame": 16149,
-    "endFrame": 16249,
-    "startSeconds": 538.29,
-    "endSeconds": 541.63,
-    "text": "The post shows Goth in a T-shirt that reads \"MY EX IS MY"
-  },
-  {
-    "index": 188,
-    "sceneId": "s12_actress_mia_goth_says_it_s_incom",
-    "startFrame": 16249,
-    "endFrame": 16303,
-    "startSeconds": 541.63,
-    "endSeconds": 543.43,
-    "text": "BIGGEST FAN\" in bold black letters."
-  },
-  {
-    "index": 189,
-    "sceneId": "s12_actress_mia_goth_says_it_s_incom",
-    "startFrame": 16336,
-    "endFrame": 16436,
-    "startSeconds": 544.55,
-    "endSeconds": 547.87,
-    "text": "The Beyonc\u00e9 song \"Single Ladies (Put a Ring on It)\" had"
-  },
-  {
-    "index": 190,
-    "sceneId": "s12_actress_mia_goth_says_it_s_incom",
-    "startFrame": 16436,
-    "endFrame": 16487,
-    "startSeconds": 547.87,
-    "endSeconds": 549.57,
-    "text": "been added to the Instagram post."
-  },
-  {
-    "index": 191,
-    "sceneId": "s12_actress_mia_goth_says_it_s_incom",
-    "startFrame": 16514,
-    "endFrame": 16598,
-    "startSeconds": 550.47,
-    "endSeconds": 553.25,
-    "text": "Hundreds of thousands of people - including some in the"
-  },
-  {
-    "index": 192,
-    "sceneId": "s12_actress_mia_goth_says_it_s_incom",
-    "startFrame": 16598,
-    "endFrame": 16658,
-    "startSeconds": 553.25,
-    "endSeconds": 555.27,
-    "text": "entertainment industry - liked the image,"
-  },
-  {
-    "index": 193,
-    "sceneId": "s12_actress_mia_goth_says_it_s_incom",
-    "startFrame": 16668,
-    "endFrame": 16719,
-    "startSeconds": 555.59,
-    "endSeconds": 557.31,
-    "text": "and entertainment outlets like OK!"
-  },
-  {
-    "index": 194,
-    "sceneId": "s12_actress_mia_goth_says_it_s_incom",
-    "startFrame": 16748,
-    "endFrame": 16831,
-    "startSeconds": 558.25,
-    "endSeconds": 561.03,
-    "text": "and even People wrote about it as if it were authentic."
-  },
-  {
-    "index": 195,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 16965,
-    "endFrame": 16988,
-    "startSeconds": 565.49,
-    "endSeconds": 566.25,
+    "sceneId": "s9_china_approves_alibaba_s_ai_mode",
+    "startFrame": 12086,
+    "endFrame": 12108,
+    "startSeconds": 402.88,
+    "endSeconds": 403.6,
     "text": "In China."
   },
   {
-    "index": 196,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 17019,
-    "endFrame": 17081,
-    "startSeconds": 567.29,
-    "endSeconds": 569.37,
-    "text": "Alibaba's Qwen team detailed QwenGyre,"
+    "index": 133,
+    "sceneId": "s9_china_approves_alibaba_s_ai_mode",
+    "startFrame": 12130,
+    "endFrame": 12220,
+    "startSeconds": 404.32,
+    "endSeconds": 407.32,
+    "text": "Apple Intelligence in China just cleared a key gate."
   },
   {
-    "index": 197,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 17093,
-    "endFrame": 17180,
-    "startSeconds": 569.77,
-    "endSeconds": 572.65,
-    "text": "a training system for AI agents that work on a single"
+    "index": 134,
+    "sceneId": "s9_china_approves_alibaba_s_ai_mode",
+    "startFrame": 12247,
+    "endFrame": 12337,
+    "startSeconds": 408.22,
+    "endSeconds": 411.24,
+    "text": "Updated network-access permits from China's Ministry of"
   },
   {
-    "index": 198,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 17180,
-    "endFrame": 17212,
-    "startSeconds": 572.65,
-    "endSeconds": 573.73,
-    "text": "task for hours."
+    "index": 135,
+    "sceneId": "s9_china_approves_alibaba_s_ai_mode",
+    "startFrame": 12337,
+    "endFrame": 12421,
+    "startSeconds": 411.24,
+    "endSeconds": 414.04,
+    "text": "Industry and Information Technology for the iPhone Duo,"
   },
   {
-    "index": 199,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 17241,
-    "endFrame": 17338,
-    "startSeconds": 574.69,
-    "endSeconds": 577.95,
-    "text": "Such runs can use 700,000 to about a million tokens"
+    "index": 136,
+    "sceneId": "s9_china_approves_alibaba_s_ai_mode",
+    "startFrame": 12434,
+    "endFrame": 12539,
+    "startSeconds": 414.46,
+    "endSeconds": 417.98,
+    "text": "iPhone 18 Pro and several earlier Apple models now list"
   },
   {
-    "index": 200,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 17338,
-    "endFrame": 17439,
-    "startSeconds": 577.95,
-    "endSeconds": 581.29,
-    "text": "each, leaving GPUs idle while slow runs finish."
+    "index": 137,
+    "sceneId": "s9_china_approves_alibaba_s_ai_mode",
+    "startFrame": 12539,
+    "endFrame": 12586,
+    "startSeconds": 417.98,
+    "endSeconds": 419.54,
+    "text": "three approved AI systems:"
   },
   {
-    "index": 201,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 17473,
-    "endFrame": 17568,
-    "startSeconds": 582.43,
-    "endSeconds": 585.61,
-    "text": "QwenGyre shifts GPUs between running agents and training"
+    "index": 138,
+    "sceneId": "s9_china_approves_alibaba_s_ai_mode",
+    "startFrame": 12604,
+    "endFrame": 12683,
+    "startSeconds": 420.12,
+    "endSeconds": 422.78,
+    "text": "Apple Intelligence plus Alibaba's Tongyi Qianwen,"
   },
   {
-    "index": 202,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 17568,
-    "endFrame": 17591,
-    "startSeconds": 585.61,
-    "endSeconds": 586.37,
-    "text": "them on the fly,"
+    "index": 139,
+    "sceneId": "s9_china_approves_alibaba_s_ai_mode",
+    "startFrame": 12692,
+    "endFrame": 12752,
+    "startSeconds": 423.06,
+    "endSeconds": 425.06,
+    "text": "known as Qwen, and Tongyi Wanxiang,"
   },
   {
-    "index": 203,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 17603,
-    "endFrame": 17689,
-    "startSeconds": 586.77,
-    "endSeconds": 589.63,
-    "text": "and folds repeated, branching attempts into shared trees"
+    "index": 140,
+    "sceneId": "s9_china_approves_alibaba_s_ai_mode",
+    "startFrame": 12762,
+    "endFrame": 12812,
+    "startSeconds": 425.4,
+    "endSeconds": 427.06,
+    "text": "the text-to-image and video models."
   },
   {
-    "index": 204,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 17689,
-    "endFrame": 17748,
-    "startSeconds": 589.63,
-    "endSeconds": 591.59,
-    "text": "so the same work is not trained twice."
+    "index": 141,
+    "sceneId": "s9_china_approves_alibaba_s_ai_mode",
+    "startFrame": 12838,
+    "endFrame": 12938,
+    "startSeconds": 427.94,
+    "endSeconds": 431.26,
+    "text": "The South China Morning Post says the approval paves the"
   },
   {
-    "index": 205,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 17774,
-    "endFrame": 17870,
-    "startSeconds": 592.47,
-    "endSeconds": 595.67,
-    "text": "The researchers, with USTC and Tsinghua,"
+    "index": 142,
+    "sceneId": "s9_china_approves_alibaba_s_ai_mode",
+    "startFrame": 12938,
+    "endFrame": 13021,
+    "startSeconds": 431.26,
+    "endSeconds": 434.02,
+    "text": "way for Apple to finally launch Apple Intelligence in"
   },
   {
-    "index": 206,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 17878,
-    "endFrame": 18007,
-    "startSeconds": 595.93,
-    "endSeconds": 600.23,
-    "text": "report 1.21 to 1.85 times faster end-to-end training"
+    "index": 143,
+    "sceneId": "s9_china_approves_alibaba_s_ai_mode",
+    "startFrame": 13021,
+    "endFrame": 13085,
+    "startSeconds": 434.02,
+    "endSeconds": 436.16,
+    "text": "China after years of regulatory delay."
   },
   {
-    "index": 207,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 18007,
-    "endFrame": 18037,
-    "startSeconds": 600.23,
-    "endSeconds": 601.23,
-    "text": "with matching scores."
-  },
-  {
-    "index": 208,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 18075,
-    "endFrame": 18156,
-    "startSeconds": 602.49,
-    "endSeconds": 605.19,
-    "text": "On Alibaba's flagship Qwen 3.8 model,"
-  },
-  {
-    "index": 209,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 18166,
-    "endFrame": 18278,
-    "startSeconds": 605.53,
-    "endSeconds": 609.25,
-    "text": "a repository-building benchmark rose from 52.5 percent"
-  },
-  {
-    "index": 210,
-    "sceneId": "s13_alibaba_s_qwen_team_details_qwen",
-    "startFrame": 18278,
-    "endFrame": 18370,
-    "startSeconds": 609.25,
-    "endSeconds": 612.33,
-    "text": "to 58.5 percent in 48 training steps."
-  },
-  {
-    "index": 211,
-    "sceneId": "s14_bytedance_and_tencent_rush_perso",
-    "startFrame": 18441,
-    "endFrame": 18466,
-    "startSeconds": 614.69,
-    "endSeconds": 615.55,
-    "text": "Also today."
-  },
-  {
-    "index": 212,
-    "sceneId": "s14_bytedance_and_tencent_rush_perso",
-    "startFrame": 18495,
-    "endFrame": 18588,
-    "startSeconds": 616.49,
-    "endSeconds": 619.61,
-    "text": "Meta's Muse has set off a personal-agent race in China."
-  },
-  {
-    "index": 213,
-    "sceneId": "s14_bytedance_and_tencent_rush_perso",
-    "startFrame": 18615,
-    "endFrame": 18699,
-    "startSeconds": 620.49,
-    "endSeconds": 623.29,
-    "text": "ByteDance sped up work on a personal agent for its"
-  },
-  {
-    "index": 214,
-    "sceneId": "s14_bytedance_and_tencent_rush_perso",
-    "startFrame": 18699,
-    "endFrame": 18764,
-    "startSeconds": 623.29,
-    "endSeconds": 625.47,
-    "text": "Doubao assistant before the National Day holiday,"
-  },
-  {
-    "index": 215,
-    "sceneId": "s14_bytedance_and_tencent_rush_perso",
-    "startFrame": 18783,
-    "endFrame": 18859,
-    "startSeconds": 626.09,
-    "endSeconds": 628.63,
-    "text": "building on a project code-named Spell that began in"
-  },
-  {
-    "index": 216,
-    "sceneId": "s14_bytedance_and_tencent_rush_perso",
-    "startFrame": 18859,
-    "endFrame": 18938,
-    "startSeconds": 628.63,
-    "endSeconds": 631.27,
-    "text": "April, and Tencent is fast-tracking its own,"
-  },
-  {
-    "index": 217,
-    "sceneId": "s14_bytedance_and_tencent_rush_perso",
-    "startFrame": 18948,
-    "endFrame": 18968,
-    "startSeconds": 631.61,
-    "endSeconds": 632.25,
-    "text": "Caixin reported."
-  },
-  {
-    "index": 218,
-    "sceneId": "s15_telangana_minister_launches_hyde",
-    "startFrame": 19099,
-    "endFrame": 19129,
-    "startSeconds": 636.63,
-    "endSeconds": 637.63,
-    "text": "Turning to India."
-  },
-  {
-    "index": 219,
-    "sceneId": "s15_telangana_minister_launches_hyde",
-    "startFrame": 19160,
-    "endFrame": 19262,
-    "startSeconds": 638.67,
-    "endSeconds": 642.05,
-    "text": "In Hyderabad, Telangana IT and Industries Minister D"
-  },
-  {
-    "index": 220,
-    "sceneId": "s15_telangana_minister_launches_hyde",
-    "startFrame": 19266,
-    "endFrame": 19324,
-    "startSeconds": 642.21,
-    "endSeconds": 644.13,
-    "text": "Sridhar Babu launched Brilliance AI,"
-  },
-  {
-    "index": 221,
-    "sceneId": "s15_telangana_minister_launches_hyde",
-    "startFrame": 19336,
-    "endFrame": 19416,
-    "startSeconds": 644.55,
-    "endSeconds": 647.21,
-    "text": "a locally built suite that answers students' doubts by"
-  },
-  {
-    "index": 222,
-    "sceneId": "s15_telangana_minister_launches_hyde",
-    "startFrame": 19416,
-    "endFrame": 19486,
-    "startSeconds": 647.21,
-    "endSeconds": 649.55,
-    "text": "text and voice, drafts question papers,"
-  },
-  {
-    "index": 223,
-    "sceneId": "s15_telangana_minister_launches_hyde",
-    "startFrame": 19503,
-    "endFrame": 19582,
-    "startSeconds": 650.11,
-    "endSeconds": 652.75,
-    "text": "grades answer sheets and sends parents progress reports."
-  },
-  {
-    "index": 224,
-    "sceneId": "s15_telangana_minister_launches_hyde",
-    "startFrame": 19613,
-    "endFrame": 19666,
-    "startSeconds": 653.77,
-    "endSeconds": 655.55,
-    "text": "Citing the NEET paper leak,"
-  },
-  {
-    "index": 225,
-    "sceneId": "s15_telangana_minister_launches_hyde",
-    "startFrame": 19680,
-    "endFrame": 19749,
-    "startSeconds": 655.99,
-    "endSeconds": 658.31,
-    "text": "he said data protection and privacy are especially"
-  },
-  {
-    "index": 226,
-    "sceneId": "s15_telangana_minister_launches_hyde",
-    "startFrame": 19749,
-    "endFrame": 19786,
-    "startSeconds": 658.31,
-    "endSeconds": 659.55,
-    "text": "important in education."
-  },
-  {
-    "index": 227,
+    "index": 144,
     "sceneId": "recap",
-    "startFrame": 19862,
-    "endFrame": 19919,
-    "startSeconds": 662.05,
-    "endSeconds": 663.97,
+    "startFrame": 13154,
+    "endFrame": 13211,
+    "startSeconds": 438.45,
+    "endSeconds": 440.37,
     "text": "To recap today's top stories."
   },
   {
-    "index": 228,
+    "index": 145,
     "sceneId": "recap",
-    "startFrame": 19950,
-    "endFrame": 20037,
-    "startSeconds": 665.01,
-    "endSeconds": 667.89,
-    "text": "Autonomous combat jets and drone interceptors move"
+    "startFrame": 13250,
+    "endFrame": 13358,
+    "startSeconds": 441.67,
+    "endSeconds": 445.27,
+    "text": "Nvidia commits 250 million dollars of UK compute to"
   },
   {
-    "index": 229,
+    "index": 146,
     "sceneId": "recap",
-    "startFrame": 20037,
-    "endFrame": 20074,
-    "startSeconds": 667.89,
-    "endSeconds": 669.13,
-    "text": "closer to the front line."
+    "startFrame": 13358,
+    "endFrame": 13414,
+    "startSeconds": 445.27,
+    "endSeconds": 447.13,
+    "text": "agentic AI safety research."
   },
   {
-    "index": 230,
+    "index": 147,
     "sceneId": "recap",
-    "startFrame": 20106,
-    "endFrame": 20177,
-    "startSeconds": 670.19,
-    "endSeconds": 672.57,
-    "text": "Anthropic's Claude sent a fake murder tip to"
+    "startFrame": 13437,
+    "endFrame": 13538,
+    "startSeconds": 447.89,
+    "endSeconds": 451.27,
+    "text": "Physical Intelligence opens its robot-brain API to"
   },
   {
-    "index": 231,
+    "index": 148,
     "sceneId": "recap",
-    "startFrame": 20177,
-    "endFrame": 20227,
-    "startSeconds": 672.57,
-    "endSeconds": 674.23,
-    "text": "Philadelphia police during testing."
+    "startFrame": 13538,
+    "endFrame": 13564,
+    "startSeconds": 451.27,
+    "endSeconds": 452.13,
+    "text": "outside teams."
   },
   {
-    "index": 232,
+    "index": 149,
     "sceneId": "recap",
-    "startFrame": 20259,
-    "endFrame": 20312,
-    "startSeconds": 675.29,
-    "endSeconds": 677.05,
-    "text": "Meta launches Muse Wonder models,"
+    "startFrame": 13596,
+    "endFrame": 13692,
+    "startSeconds": 453.19,
+    "endSeconds": 456.39,
+    "text": "Liquid AI releases its largest on-device agent model,"
   },
   {
-    "index": 233,
+    "index": 150,
     "sceneId": "recap",
-    "startFrame": 20322,
-    "endFrame": 20377,
-    "startSeconds": 677.41,
-    "endSeconds": 679.23,
-    "text": "saying it is back at the AI frontier."
+    "startFrame": 13702,
+    "endFrame": 13808,
+    "startSeconds": 456.73,
+    "endSeconds": 460.25,
+    "text": "LFM2.5-24B-A2B."
   },
   {
-    "index": 234,
+    "index": 151,
     "sceneId": "recap",
-    "startFrame": 20412,
-    "endFrame": 20505,
-    "startSeconds": 680.39,
-    "endSeconds": 683.49,
-    "text": "DeepSeek to lead funding for robotics start-up Winverse"
+    "startFrame": 13834,
+    "endFrame": 13920,
+    "startSeconds": 461.15,
+    "endSeconds": 464.01,
+    "text": "DeepSeek nears a funding round of about 14 billion"
   },
   {
-    "index": 235,
+    "index": 152,
     "sceneId": "recap",
-    "startFrame": 20505,
-    "endFrame": 20516,
-    "startSeconds": 683.49,
-    "endSeconds": 683.87,
-    "text": "AI."
+    "startFrame": 13920,
+    "endFrame": 13982,
+    "startSeconds": 464.01,
+    "endSeconds": 466.05,
+    "text": "dollars , double its original target."
   },
   {
-    "index": 236,
+    "index": 153,
     "sceneId": "recap",
-    "startFrame": 20552,
-    "endFrame": 20650,
-    "startSeconds": 685.07,
-    "endSeconds": 688.33,
-    "text": "SquadStack launches Arth V2 speech-to-text model for"
+    "startFrame": 13982,
+    "endFrame": 14115,
+    "startSeconds": 466.05,
+    "endSeconds": 470.51,
+    "text": "IBM and MeitY Startup Hub sign pact to back deep-tech"
   },
   {
-    "index": 237,
+    "index": 154,
     "sceneId": "recap",
-    "startFrame": 20650,
-    "endFrame": 20679,
-    "startSeconds": 688.33,
-    "endSeconds": 689.31,
-    "text": "Indian sales calls."
+    "startFrame": 14115,
+    "endFrame": 14163,
+    "startSeconds": 470.51,
+    "endSeconds": 472.11,
+    "text": "startups beyond the big cities."
   },
   {
-    "index": 238,
+    "index": 155,
     "sceneId": "recap",
-    "startFrame": 20704,
-    "endFrame": 20800,
-    "startSeconds": 690.13,
-    "endSeconds": 693.35,
-    "text": "Study finds language models are largely blind to the"
+    "startFrame": 14206,
+    "endFrame": 14292,
+    "startSeconds": 473.55,
+    "endSeconds": 476.39,
+    "text": "Ukraine and NATO build AI to forecast Russia's next"
   },
   {
-    "index": 239,
+    "index": 156,
     "sceneId": "recap",
-    "startFrame": 20800,
-    "endFrame": 20841,
-    "startSeconds": 693.35,
-    "endSeconds": 694.69,
-    "text": "geometry of materials."
+    "startFrame": 14292,
+    "endFrame": 14311,
+    "startSeconds": 476.39,
+    "endSeconds": 477.03,
+    "text": "drone wave."
   },
   {
-    "index": 240,
+    "index": 157,
     "sceneId": "outro",
-    "startFrame": 20910,
-    "endFrame": 20988,
-    "startSeconds": 696.99,
-    "endSeconds": 699.59,
+    "startFrame": 14380,
+    "endFrame": 14458,
+    "startSeconds": 479.32,
+    "endSeconds": 481.92,
     "text": "Those were today's critical developments across global"
   },
   {
-    "index": 241,
+    "index": 158,
     "sceneId": "outro",
-    "startFrame": 20988,
-    "endFrame": 21026,
-    "startSeconds": 699.59,
-    "endSeconds": 700.87,
+    "startFrame": 14458,
+    "endFrame": 14496,
+    "startSeconds": 481.92,
+    "endSeconds": 483.2,
     "text": "artificial intelligence."
   },
   {
-    "index": 242,
+    "index": 159,
     "sceneId": "outro",
-    "startFrame": 21059,
-    "endFrame": 21104,
-    "startSeconds": 701.97,
-    "endSeconds": 703.47,
+    "startFrame": 14528,
+    "endFrame": 14574,
+    "startSeconds": 484.28,
+    "endSeconds": 485.8,
     "text": "From our bureaus covering World,"
   },
   {
-    "index": 243,
+    "index": 160,
     "sceneId": "outro",
-    "startFrame": 21116,
-    "endFrame": 21202,
-    "startSeconds": 703.85,
-    "endSeconds": 706.75,
+    "startFrame": 14585,
+    "endFrame": 14672,
+    "startSeconds": 486.18,
+    "endSeconds": 489.08,
     "text": "USA, China, Asia, and India,"
   },
   {
-    "index": 244,
+    "index": 161,
     "sceneId": "outro",
-    "startFrame": 21214,
-    "endFrame": 21292,
-    "startSeconds": 707.13,
-    "endSeconds": 709.73,
+    "startFrame": 14684,
+    "endFrame": 14762,
+    "startSeconds": 489.46,
+    "endSeconds": 492.06,
     "text": "thank you for watching SanMitra AI News Wire."
   },
   {
-    "index": 245,
+    "index": 162,
     "sceneId": "outro",
-    "startFrame": 21328,
-    "endFrame": 21415,
-    "startSeconds": 710.95,
-    "endSeconds": 713.83,
+    "startFrame": 14798,
+    "endFrame": 14885,
+    "startSeconds": 493.28,
+    "endSeconds": 496.16,
     "text": "Subscribe now for daily institutional AI intelligence."
   }
 ]

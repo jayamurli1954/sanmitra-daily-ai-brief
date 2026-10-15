@@ -1,22 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-15",
   "stories": [
-    {
-      "story_id": "story_20261001_lead_story_elevenlabs_valuation_dou",
-      "story_chain_id": "chain_global_lead_story_elevenlab",
-      "headline": "👑 [LEAD STORY] ElevenLabs' valuation doubles to dollars 22 billion on surging AI voice-agent demand",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://reuters.com"
-      ],
-      "first_covered": "2026-10-01",
-      "last_major_update": "2026-10-01",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
     {
       "story_id": "story_20261002_deepmind_introduces_watermarking_fo",
       "story_chain_id": "chain_deepmind_deepmind_introduces_",
@@ -1557,6 +1542,261 @@
       "last_major_update": "2026-10-15",
       "update_phase": "initial_break",
       "impact_score": 71
+    },
+    {
+      "story_id": "story_20261015_nvidia_commits_250_million_dollars_",
+      "story_chain_id": "chain_global_nvidia_commits_250_m",
+      "headline": "Nvidia commits 250 million dollars of UK compute to agentic AI safety research",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261015_physical_intelligence_opens_its_rob",
+      "story_chain_id": "chain_global_physical_intelligenc",
+      "headline": "Physical Intelligence opens its robot-brain API to outside teams",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.pi.website/blog/api-beta"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261015_liquid_ai_releases_its_largest_on_d",
+      "story_chain_id": "chain_global_liquid_ai_releases_i",
+      "headline": "Liquid AI releases its largest on-device agent model, LFM2.5-24B-A2B",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261015_deepseek_nears_a_funding_round_of_a",
+      "story_chain_id": "chain_global_deepseek_nears_a_fun",
+      "headline": "DeepSeek nears a funding round of about 14 billion dollars , double its original target",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://en.sedaily.com/international/2026/10/14/deepseek-nears-14-billion-funding-round-double-its-original"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261015_ibm_and_meity_startup_hub_sign_pact",
+      "story_chain_id": "chain_global_ibm_and_meity_startu",
+      "headline": "IBM and MeitY Startup Hub sign pact to back deep-tech startups beyond the big cities",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://in.newsroom.ibm.com/IBM-MeitY-Startup-Hub-Sign-MoU"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261015_ukraine_and_nato_build_ai_to_foreca",
+      "story_chain_id": "chain_global_ukraine_and_nato_bui",
+      "headline": "Ukraine and NATO build AI to forecast Russia's next drone wave",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.businessinsider.com/ukraine-nato-artificial-intelligence-model-13-russian-drones-where-when-2026-10"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261015_eu_tests_its_ai_act_on_openai_and_a",
+      "story_chain_id": "chain_global_eu_tests_its_ai_act_",
+      "headline": "EU tests its AI Act on OpenAI and Anthropic after agents escaped their sandboxes",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261015_modal_trains_a_frontier_coding_agen",
+      "story_chain_id": "chain_global_modal_trains_a_front",
+      "headline": "Modal trains a frontier coding agent across six kinds of GPU at once",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://modal.com/blog/toward-rl-on-mixed-precision-mixed-accelerator-samplers"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261015_china_approves_alibaba_s_ai_models_",
+      "story_chain_id": "chain_global_china_approves_aliba",
+      "headline": "China approves Alibaba's AI models for Apple iPhones, clearing the way for Apple Intelligence",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.scmp.com/tech/big-tech/article/3370893/china-approves-alibaba-ai-models-use-iphone-duo-and-other-apple-handsets"
+      ],
+      "first_covered": "2026-10-15",
+      "last_major_update": "2026-10-15",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261016_anthropic_q3_revenue_surges_45_to_1",
+      "story_chain_id": "chain_global_anthropic_q3_revenue",
+      "headline": "Anthropic Q3 revenue surges 45% to $16.8 billion as AI startup gears up for $2 trillion IPO",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-q3-revenue-surges-45-to-16-8-billion-as-ai-startup-gears-up-for-2-trillion-ipo/articleshow/134956776.cms"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 87
+    },
+    {
+      "story_id": "story_20261016_amazon_s_bee_launches_two_new_perso",
+      "story_chain_id": "chain_global_amazon_s_bee_launche",
+      "headline": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 87
+    },
+    {
+      "story_id": "story_20261016_your_secrets_aren_t_safe_with_this_",
+      "story_chain_id": "chain_global_your_secrets_aren_t_",
+      "headline": "Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 82
+    },
+    {
+      "story_id": "story_20261016_youtube_music_launches_new_labels_a",
+      "story_chain_id": "chain_global_youtube_music_launch",
+      "headline": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261016_could_ai_change_the_stakes_in_the_d",
+      "story_chain_id": "chain_global_could_ai_change_the_",
+      "headline": "Could AI ‘change the stakes’ in the development of bioweapons?",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/14/could-ai-change-the-stakes-in-the-development-of-bioweapons"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261016_how_windows_is_being_optimized_for_",
+      "story_chain_id": "chain_global_how_windows_is_being",
+      "headline": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261016_now_that_character_ai_is_going_bank",
+      "story_chain_id": "chain_global_now_that_character_a",
+      "headline": "Now that Character.AI is going bankrupt, what happens to all of its users’ data?",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261016_asml_will_be_unable_to_meet_ai_driv",
+      "story_chain_id": "chain_global_asml_will_be_unable_",
+      "headline": "ASML will be unable to meet AI-driven customer demand in 2027, 2028",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/asml-will-be-unable-to-meet-ai-driven-customer-demand-in-2027-2028/articleshow/134957362.cms"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 68
     }
   ],
   "entity_index": {
