@@ -23,6 +23,13 @@ const REGIONS: Record<string, { label: string; code: string; from: string; to: s
 };
 const REGION_ORDER = ["WORLD", "USA", "CHINA", "ASIA", "INDIA"];
 
+// GLOBAL and any region without its own column go under WORLD, so every
+// story counted in the header also gets a card.
+const bureauOf = (s: any): string => {
+  const r = (s.region || "WORLD").toUpperCase();
+  return REGION_ORDER.includes(r) ? r : "WORLD";
+};
+
 const TOPICS = [
   { title: "AI Breakthroughs & Models", color: "#38bdf8" },
   { title: "Industry & Startup News", color: "#34d399" },
@@ -97,7 +104,7 @@ export const LinkedInCoverBanner: React.FC<LinkedInCoverProps> = ({ takeaways })
     region,
     style: REGIONS[region],
     items: stories
-      .filter((s) => (s.region || "WORLD").toUpperCase() === region)
+      .filter((s) => bureauOf(s) === region)
       .map((s) => ({
         num: ++n,
         headline: (s.headline || "").replace(/\s+,/g, ","),
