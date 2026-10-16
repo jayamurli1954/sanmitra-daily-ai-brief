@@ -3,7 +3,6 @@ Google Drive Cloud Archival Sync for SanMitra AI News Wire & OfficeMitra AI Insi
 Automatically syncs to the designated Google Drive folder (e.g. 'sanmitra-daily-ai-brief'):
   - 1080p Broadcast Video (AI_Brief_YYYY-MM-DD.mp4)
   - Custom Thumbnail (thumbnail_YYYY-MM-DD.png)
-  - 16:9 LinkedIn Cover Banner (linkedin_cover_YYYY-MM-DD.png)
   - LinkedIn Long-Form Article (linkedin_article.md)
   - Ready-to-Publish LinkedIn Post (linkedin_post.txt)
   - Ready-to-Publish Facebook Post (facebook_post.txt)
@@ -198,8 +197,6 @@ def main():
         f"out/aibrief/AI_Brief_{date_str}.mp4",
         f"out/aibrief/thumbnail_{date_str}.png",
         f"out/aibrief/thumbnail_primary.png",
-        f"out/aibrief/linkedin_cover_{date_str}.png",
-        f"out/aibrief/linkedin_cover.png",
         f"out/aibrief/linkedin_article.md",
         f"out/aibrief/linkedin_post.txt",
         f"out/aibrief/facebook_post.txt",

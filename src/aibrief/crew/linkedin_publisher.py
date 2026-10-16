@@ -1,18 +1,17 @@
 """
 LinkedInPublisher Agent - SanMitra AI News Wire v7.0
-Autonomous generation of executive LinkedIn dispatches and high-resolution cover banner rendering.
+Autonomous generation of executive LinkedIn dispatches.
 """
 
 import logging
 import os
-import subprocess
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("LinkedInPublisher")
 
 
 class LinkedInPublisher:
-    """Produces the formatted LinkedIn executive newsletter and renders the 1920x1080 cover banner."""
+    """Produces the formatted LinkedIn executive newsletter."""
 
     def __init__(self, episode_payload):
         self.episode = episode_payload
@@ -33,26 +32,8 @@ class LinkedInPublisher:
         logger.info(f"LinkedIn article written to {primary_post_path}")
         return primary_post_path
 
-    def render_cover_banner(self):
-        """Render high-resolution 1920x1080 LinkedIn Cover Banner via Remotion."""
-        out_banner = os.path.join("out", "aibrief", f"linkedin_cover_{self.date_str}.png")
-        primary_banner = os.path.join("out", "aibrief", "linkedin_cover.png")
-
-        cmd = f'npx remotion still AIBriefLinkedInCover {out_banner}'
-        logger.info(f"Rendering LinkedIn cover banner: {cmd}")
-        res = subprocess.run(cmd, shell=True)
-
-        if res.returncode == 0 and os.path.exists(out_banner):
-            import shutil
-            shutil.copyfile(out_banner, primary_banner)
-            logger.info(f"LinkedIn cover banner successfully generated: {primary_banner}")
-            return primary_banner
-        else:
-            logger.warning(f"Failed to render Remotion LinkedIn cover banner (code: {res.returncode})")
-            return None
-
     def publish_deliverables(self):
-        """Generate both text article and visual banner."""
-        text_file = self.generate_article_text()
-        banner_file = self.render_cover_banner()
-        return {"article": text_file, "banner": banner_file}
+        """Generate the article text. No cover image: the editor makes the
+        LinkedIn cover by hand (AIBriefLinkedInCover can still be rendered
+        manually with `npx remotion still`)."""
+        return {"article": self.generate_article_text()}

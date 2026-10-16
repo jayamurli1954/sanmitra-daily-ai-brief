@@ -148,11 +148,6 @@ def produce_from_prompt(prompt_file=None, privacy="private", upload_youtube=True
             f"Uploading 1080p Broadcast to YouTube ({privacy.upper()})"
         )
 
-    linkedin_cover = f"out/aibrief/linkedin_cover_{date_str}.png"
-    ok_cover = run_command(f"npx remotion still AIBriefLinkedInCover {linkedin_cover}", "Rendering 16:9 LinkedIn Article Cover Banner")
-    if os.path.exists(linkedin_cover):
-        shutil.copyfile(linkedin_cover, "out/aibrief/linkedin_cover.png")
-
     run_command(f"python src/aibrief/generate_linkedin_article.py --json {active_file}", "Generating LinkedIn Long-Form Article & Executive Dispatch")
 
     # 9. Google Drive Backup
@@ -165,7 +160,6 @@ def produce_from_prompt(prompt_file=None, privacy="private", upload_youtube=True
     print(f"📅 Date:     {date_str}")
     print(f"🎬 Video:    {video_out}")
     print(f"🖼️  Thumb:    {thumb_path}")
-    print(f"🎨 LI Cover: {linkedin_cover}")
     print(f"📝 LI Post:  out/aibrief/linkedin_article.md")
     print("=" * 75)
 
