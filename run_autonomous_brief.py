@@ -5,7 +5,7 @@ Executes the full end-to-end autonomous cycle with zero manual intervention:
   2. Story-Specific Editorial Visual Sourcing (14-day anti-repetition memory)
   3. Dual-Anchor Edge TTS Voiceover Synthesis (-14 LUFS mastering)
   4. Timed SRT Subtitles & Remotion Burn-in Captions
-  5. LinkedIn Executive Dispatch & 1080p Cover Banner Generation
+  5. LinkedIn Executive Dispatch
   6. High-Contrast YouTube Thumbnails (A/B/C) with Algorithmic CTR Ranking
   7. Headless 1080p Remotion Video Rendering
   8. Automated YouTube Upload (Private by default) & Google Drive Backup
@@ -205,7 +205,6 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
     print("🏆 FULL AUTONOMOUS BROADCAST DESK EXECUTION COMPLETE!")
     print(f"📺 Channel: https://www.youtube.com/@SanMitraTechSolutions")
     print(f"💼 LinkedIn Post: out/aibrief/linkedin_post.txt")
-    print(f"🖼️ LinkedIn Banner: out/aibrief/linkedin_cover.png")
     print(f"🖼️ YouTube Thumbnail: {thumb_primary}")
     print(f"📹 1080p Broadcast: {video_out}")
     print("=" * 80)

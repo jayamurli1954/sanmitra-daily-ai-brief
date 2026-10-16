@@ -270,7 +270,7 @@ def run_autonomous_crew(target_date=None, force_visuals=False):
     write_qa_summary(target_date, episode, prompt_origin, rejections, warnings)
 
     deliverables = LinkedInPublisher(episode).publish_deliverables()
-    logger.info(f"LinkedIn post: {deliverables.get('article')} | cover: {deliverables.get('banner')}")
+    logger.info(f"LinkedIn post: {deliverables.get('article')}")
     return episode
 
 
