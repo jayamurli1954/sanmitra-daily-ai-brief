@@ -64,25 +64,31 @@ const overlap = (a: string, b: string) => {
   return n / Math.min(wa.size, wb.size);
 };
 
+// Abbreviations whose full stop does not end a sentence ("8:11 a.m. to ...").
+const SENTENCE_END = /(?<!\b(?:a\.m|p\.m|No|Mr|Mrs|Ms|Dr|St|vs|Inc|Ltd|Co|U\.S|U\.K)\.)(?<=[.!?])\s+(?=["A-Z])/;
+// A sentence opening with a pronoun reads badly on its own, away from the script.
+const PRONOUN_OPENER = /^(they|it|he|she|this|that|these|those|its|their)/i;
+
 // The first sentence of the script that adds detail: not a lead-in, not a
-// restatement of the headline or the one-line hook.
-export const storySummary = (s: any): string => {
+// restatement of the headline or the one-line hook. Tall cards have room for
+// the sentence after it too.
+export const storySummary = (s: any, maxChars = 230): string => {
   const sentences: string[] = (s.script || "")
-    .split(/(?<=[.!?])\s+(?=["A-Z])/)
+    .split(SENTENCE_END)
     .map((x: string) => x.trim())
     .filter(Boolean);
   const why = s.whyThisMatters || "";
-  const pick =
-    sentences.find(
-      (x) =>
-        !LEAD_IN.test(x) &&
-        x.length > 40 &&
-        overlap(x, s.headline || "") < 0.6 &&
-        overlap(x, why) < 0.6,
-    ) ||
-    why ||
-    "";
-  return pick.length > 230 ? pick.slice(0, 227).replace(/\s+\S*$/, "") + "..." : pick;
+  // A short sentence that mostly repeats the headline or hook is a restatement;
+  // a long one that also covers the headline is the detail we want.
+  const restates = (x: string, ref: string) => x.length < 120 && overlap(x, ref) >= 0.6;
+  const usable = (x: string) =>
+    !LEAD_IN.test(x) && x.length > 40 && !restates(x, s.headline || "") && !restates(x, why);
+  let at = sentences.findIndex((x) => usable(x) && !PRONOUN_OPENER.test(x));
+  if (at < 0) at = sentences.findIndex(usable);
+  let pick = at >= 0 ? sentences[at] : why;
+  const next = at >= 0 ? sentences[at + 1] : undefined;
+  if (next && !LEAD_IN.test(next) && pick.length + next.length + 1 <= maxChars) pick += " " + next;
+  return pick.length > maxChars ? pick.slice(0, maxChars - 3).replace(/\s+\S*$/, "") + "..." : pick;
 };
 
 const longDate = (iso: string, offsetDays = 0) => {
@@ -99,6 +105,10 @@ export const LinkedInCoverBanner: React.FC<LinkedInCoverProps> = ({ takeaways })
   const notes: CoverTakeaway[] = (takeaways || ep?.coverTakeaways || []).slice(0, 5);
 
   // Columns in bureau order; stories numbered down each column, left to right.
+  // Two or fewer stories per column leaves tall cards: photo on top, more text.
+  const rows = Math.max(1, ...REGION_ORDER.map((r) => stories.filter((s) => bureauOf(s) === r).length));
+  const tall = rows <= 2;
+
   let n = 0;
   const columns = REGION_ORDER.map((region) => ({
     region,
@@ -108,12 +118,11 @@ export const LinkedInCoverBanner: React.FC<LinkedInCoverProps> = ({ takeaways })
       .map((s) => ({
         num: ++n,
         headline: (s.headline || "").replace(/\s+,/g, ","),
-        summary: storySummary(s),
+        summary: storySummary(s, tall ? 300 : 230),
         source: s.source || "",
         image: s.visualCuts?.[0]?.image || s.visual || "aibrief/backgrounds/ai_chips.jpg",
       })),
   })).filter((c) => c.items.length);
-  const rows = Math.max(1, ...columns.map((c) => c.items.length));
 
   const outlets = new Set(stories.map((s) => (s.source || "").trim()).filter(Boolean)).size;
   const iso = ep?.date || "";
@@ -280,13 +289,23 @@ export const LinkedInCoverBanner: React.FC<LinkedInCoverProps> = ({ takeaways })
                   key={it.num}
                   style={{
                     display: "flex",
-                    gap: 12,
+                    flexDirection: tall ? "column" : "row",
+                    gap: tall ? 10 : 12,
                     padding: "10px 0",
                     borderTop: i ? "1px solid #e2e8f0" : "none",
                     minHeight: 0,
                   }}
                 >
-                  <div style={{ position: "relative", width: "36%", flexShrink: 0, borderRadius: 10, overflow: "hidden" }}>
+                  <div
+                    style={{
+                      position: "relative",
+                      width: tall ? "100%" : "36%",
+                      height: tall ? "40%" : undefined,
+                      flexShrink: 0,
+                      borderRadius: 10,
+                      overflow: "hidden",
+                    }}
+                  >
                     <Img
                       src={staticFile(it.image)}
                       style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }}
@@ -313,14 +332,15 @@ export const LinkedInCoverBanner: React.FC<LinkedInCoverProps> = ({ takeaways })
                       {it.num}
                     </div>
                   </div>
-                  <div style={{ flex: 1, minWidth: 0, display: "flex", flexDirection: "column", gap: 5 }}>
+                  <div style={{ flex: 1, minWidth: 0, minHeight: 0, display: "flex", flexDirection: "column", gap: 5 }}>
                     <div
                       style={{
-                        fontSize: 18,
+                        fontSize: tall ? 20 : 18,
                         fontWeight: 800,
-                        lineHeight: 1.16,
+                        lineHeight: 1.18,
+                        flexShrink: 0,
                         display: "-webkit-box",
-                        WebkitLineClamp: 4,
+                        WebkitLineClamp: tall ? 3 : 4,
                         WebkitBoxOrient: "vertical",
                         overflow: "hidden",
                       }}
@@ -329,11 +349,11 @@ export const LinkedInCoverBanner: React.FC<LinkedInCoverProps> = ({ takeaways })
                     </div>
                     <div
                       style={{
-                        fontSize: 14.5,
+                        fontSize: tall ? 15.5 : 14.5,
                         color: MUTED,
                         lineHeight: 1.32,
                         display: "-webkit-box",
-                        WebkitLineClamp: rows > 3 ? 2 : 3,
+                        WebkitLineClamp: tall ? 4 : rows > 3 ? 2 : 3,
                         WebkitBoxOrient: "vertical",
                         overflow: "hidden",
                       }}
