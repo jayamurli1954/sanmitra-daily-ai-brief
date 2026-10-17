@@ -223,6 +223,7 @@ def generate_subtitles(data_path="src/aibrief/data/active_episode.json", timings
         if words:
             for w in words:
                 w["sceneId"] = scene_id
+                w["sceneStart"] = round(current_time, 3)  # evidence cards time themselves within the scene
                 all_word_timestamps.append(w)
 
             # One-line caption phrases that break at natural pauses.

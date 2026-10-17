@@ -91,6 +91,12 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
         print("[X] Subtitle generation failed. Not publishing a video without captions.")
         sys.exit(1)
 
+    # 5b. Evidence cards (datelines, name tags, stats, reported lines), timed to the words.
+    # Not fatal: without them the episode renders as before.
+    if not run_step("python generate_evidence_cards.py", "Building On-Screen Evidence Cards"):
+        with open(os.path.join("src", "aibrief", "data", "evidence_cards.json"), "w", encoding="utf-8") as f:
+            f.write("{}")
+
     # 6. Thumbnails Rendering & Algorithmic CTR Ranking
     os.makedirs(os.path.join("out", "aibrief"), exist_ok=True)
     thumb_path = f"out/aibrief/thumbnail_{date_str}.png"

@@ -7,6 +7,7 @@ import { BroadcastHeader } from "./components/BroadcastHeader";
 import { DynamicTicker } from "./components/DynamicTicker";
 import { SourceWatermark } from "./components/SourceWatermark";
 import { StoryCard } from "./components/StoryCard";
+import { EvidenceLayer } from "./components/EvidenceLayer";
 import { IntroScene } from "./scenes/IntroScene";
 import { OutroScene } from "./scenes/OutroScene";
 import { SectionTransition } from "./components/SectionTransition";
@@ -112,6 +113,7 @@ export const AIBriefVideo: React.FC = () => {
                     <Audio src={staticFile(scene.audioFile)} volume={1.0} />
                   )}
                   <StoryCard story={scene.story} />
+                  <EvidenceLayer storyId={scene.story.id} sourceUrl={scene.story.sourceUrl} />
                   <SourceWatermark
                     source={scene.story.source}
                     sourceUrl={scene.story.sourceUrl}
