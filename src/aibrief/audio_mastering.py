@@ -1,11 +1,14 @@
 """
 Broadcast Audio Mastering Engine for SanMitra AI News Wire.
 Uses Spotify's open-source Pedalboard library:
-1. 80 Hz High-Pass Filter (removes sub-bass rumble, plosives, and mic thumps)
-2. Broadcast Dynamic Range Compressor (tightens dynamic range for TV/radio punchiness)
-3. Speech Presence EQ (+2.0 dB at 3 kHz for crisp consonant articulation)
-4. Loudness Normalization to -14 LUFS (YouTube & broadcast audio standard)
-5. Peak Limiter (-1.0 dB true peak ceiling to prevent digital clipping)
+1. 60 Hz High-Pass Filter (removes rumble while keeping the voice's chest tone)
+2. Warmth Low Shelf (+2.0 dB below ~150 Hz)
+3. Two-stage compression: a slow leveler evens out sentence-to-sentence level,
+   then a fast compressor catches syllable peaks
+4. Speech Presence EQ (+2.0 dB at 3 kHz for crisp consonant articulation)
+5. High Shelf (-5.0 dB above ~7 kHz, tames Edge TTS sibilance and hiss)
+6. Loudness Normalization to -14 LUFS (YouTube & broadcast audio standard)
+7. Peak Limiter (-1.0 dB true peak ceiling to prevent digital clipping)
 """
 
 import os
@@ -13,11 +16,24 @@ import sys
 import numpy as np
 import pedalboard
 import pedalboard.io
-from pedalboard import Pedalboard, Compressor, HighpassFilter, PeakFilter, Limiter, Gain
+from pedalboard import (Pedalboard, Compressor, HighpassFilter, HighShelfFilter, Limiter,
+                        LowShelfFilter, PeakFilter)
 
 TARGET_LUFS = -14.0
 PEAK_CEILING_DB = -1.0
 PEAK_CEILING_LINEAR = 10 ** (PEAK_CEILING_DB / 20.0)  # ~0.891
+
+
+def build_voice_chain() -> Pedalboard:
+    """Studio broadcast processing chain applied before normalization and limiting."""
+    return Pedalboard([
+        HighpassFilter(cutoff_frequency_hz=60),
+        LowShelfFilter(cutoff_frequency_hz=150, gain_db=2.0, q=0.707),
+        Compressor(threshold_db=-26.0, ratio=1.5, attack_ms=40.0, release_ms=400.0),
+        Compressor(threshold_db=-18.0, ratio=2.5, attack_ms=15.0, release_ms=150.0),
+        PeakFilter(cutoff_frequency_hz=3000, gain_db=2.0, q=1.0),
+        HighShelfFilter(cutoff_frequency_hz=7000, gain_db=-5.0, q=0.707),
+    ])
 
 
 def master_audio_file(file_path: str, output_path: str = None) -> bool:
@@ -36,12 +52,7 @@ def master_audio_file(file_path: str, output_path: str = None) -> bool:
             audio = r.read(r.frames)
 
         # 1. Studio broadcast processing chain
-        board = Pedalboard([
-            HighpassFilter(cutoff_frequency_hz=80),
-            Compressor(threshold_db=-16.0, ratio=2.5, attack_ms=15.0, release_ms=120.0),
-            PeakFilter(cutoff_frequency_hz=3000, gain_db=2.0, q=1.0),
-        ])
-        processed = board(audio, sr)
+        processed = build_voice_chain()(audio, sr)
 
         # 2. Loudness normalization to -14 LUFS
         rms = np.sqrt(np.mean(processed ** 2))
