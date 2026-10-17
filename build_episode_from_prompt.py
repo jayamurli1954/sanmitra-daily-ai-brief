@@ -554,8 +554,9 @@ def parse_markdown_prompt(md_text: str) -> dict:
     # Intro script
     lead_head = stories[0]['headline'] if stories else "Frontier Artificial Intelligence"
     intro_script = (
-        f"This week in AI: {lead_head}. "
-        f"From the SanMitra Newsroom, this is the Weekly AI Round-up for the week ending {formatted_date}."
+        f"This week in AI, the stories you may have missed: {lead_head}. "
+        f"From the SanMitra Newsroom, this is the Weekly AI Round-up for the week ending {formatted_date}: "
+        "important developments that did not make our daily briefs."
     ) if weekly else (
         f"Breaking this morning: {lead_head}. "
         f"From the SanMitra Newsroom, this is the Daily AI Brief for {formatted_date}."
@@ -563,7 +564,8 @@ def parse_markdown_prompt(md_text: str) -> dict:
 
     # Outro script
     outro_script = (
-        "Those were today's critical developments across global artificial intelligence. "
+        ("Those were the week's important developments beyond the daily headlines. " if weekly else
+         "Those were today's critical developments across global artificial intelligence. ") +
         "From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. "
         "Subscribe now for daily institutional AI intelligence."
     )

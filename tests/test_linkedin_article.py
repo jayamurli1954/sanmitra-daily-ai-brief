@@ -33,6 +33,30 @@ class LinkedInArticleTest(unittest.TestCase):
             self.assertTrue(os.path.exists(os.path.join(d, "linkedin_article_2026-10-13.md")))
             return text
 
+    def test_weekly_round_up_says_these_are_stories_not_in_the_daily_episodes(self):
+        with tempfile.TemporaryDirectory() as d:
+            text = build_linkedin_article(episode=dict(EPISODE, date="2026-10-18", weekly=True),
+                                          output_article_path=os.path.join(d, "a.md"),
+                                          output_post_path=os.path.join(d, "p.txt"), video_url="https://youtu.be/x")
+        self.assertIn("Weekly AI Round-up — Sunday, 18 October 2026 (IST)", text)
+        self.assertIn("Important AI stories from 12 October to 17 October 2026 that did not make the daily episodes", text)
+        self.assertIn("This week's round-up brings 2 AI stories", text)
+        self.assertIn("Leading the week:", text)
+        self.assertIn("Watch this week's round-up: https://youtu.be/x", text)
+        self.assertIn("This week at a glance", text)
+        self.assertNotIn("Today", text.split("Subscribe")[0])
+
+    def test_weekly_narration_matches(self):
+        from build_episode_from_prompt import parse_markdown_prompt
+        md = ("# SanMitra AI News Wire\n\n## Weekly Round-up — Sunday, 18 October 2026 (IST)\n\n# USA\n\n"
+              "### ASML warns it cannot meet AI chip demand\nSource: Reuters\n"
+              "https://www.reuters.com/technology/asml-warns-ai-chip-demand-2026-10-15/\n\n"
+              + EPISODE["stories"][0]["script"] * 3 + "\n")
+        ep = parse_markdown_prompt(md)
+        self.assertTrue(ep["intro"]["script"].startswith("This week in AI, the stories you may have missed: ASML"))
+        self.assertIn("did not make our daily briefs", ep["intro"]["script"])
+        self.assertTrue(ep["outro"]["script"].startswith("Those were the week's important developments"))
+
     def test_header_dates(self):
         text = self.build()
         self.assertIn("AI Brief — Tuesday, 13 October 2026 (IST)", text)

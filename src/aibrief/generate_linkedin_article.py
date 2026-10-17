@@ -42,24 +42,25 @@ def clean_summary(text: str) -> str:
     return text[:1].upper() + text[1:] if text else text
 
 
-def generate_macro_intro(stories: List[Dict]) -> str:
-    """Opening paragraph built only from today's stories, so it can never cite news that is not in the brief."""
+def generate_macro_intro(stories: List[Dict], weekly: bool = False) -> str:
+    """Opening paragraph built only from the brief's stories, so it can never cite news that is not in the brief."""
     if not stories:
         return ""
     outlets = sorted({s.get("source", "").strip() for s in stories if s.get("source")})
     regions = [r for r in ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]
                if any(s.get("region", "").upper() == r for s in stories)]
     leads = [s.get("headline", "").strip() for s in stories[:3] if s.get("headline")]
-    intro = (f"Today's brief covers {len(stories)} AI stories from {len(outlets)} news outlets, "
+    what = "This week's round-up brings" if weekly else "Today's brief covers"
+    intro = (f"{what} {len(stories)} AI stories from {len(outlets)} news outlets, "
              f"across {', '.join(r.title() if r != 'USA' else r for r in regions)}.")
     if leads:
-        intro += " Leading the day: " + "; ".join(leads) + "."
+        intro += (" Leading the week: " if weekly else " Leading the day: ") + "; ".join(leads) + "."
     return intro
 
 
-def generate_key_takeaways(stories: List[Dict]) -> str:
+def generate_key_takeaways(stories: List[Dict], weekly: bool = False) -> str:
     """One line per bureau listing its headlines. No claim appears here that is not a story in the brief."""
-    lines = ["🎯 Today at a glance", ""]
+    lines = ["🎯 This week at a glance" if weekly else "🎯 Today at a glance", ""]
     for region in ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]:
         heads = [s.get("headline", "").strip() for s in stories if s.get("region", "").upper() == region]
         if heads:
@@ -111,17 +112,19 @@ def build_linkedin_article(
             bureau_map[reg] = []
         bureau_map[reg].append(s)
 
+    weekly = bool(ep.get("weekly"))
     lines = [
         "SanMitra AI News Wire",
-        (f"Weekly AI Round-up — {today_formatted} (IST)" if ep.get("weekly") else f"AI Brief — {today_formatted} (IST)"),
-        (f"The week's biggest AI stories, {(dt - timedelta(days=6)).strftime('%d %B')} to {yesterday_dt.strftime('%d %B %Y')}"
-         if ep.get("weekly") else f"Covering {yesterday_formatted}"),
+        (f"Weekly AI Round-up — {today_formatted} (IST)" if weekly else f"AI Brief — {today_formatted} (IST)"),
+        # The Sunday round-up is the week's stories that did not air in the daily episodes (weekly_roundup.py).
+        (f"Important AI stories from {(dt - timedelta(days=6)).strftime('%d %B')} to {yesterday_dt.strftime('%d %B %Y')} "
+         "that did not make the daily episodes" if weekly else f"Covering {yesterday_formatted}"),
         "",
-        generate_macro_intro(stories),
+        generate_macro_intro(stories, weekly),
         ""
     ]
     if video_url:
-        lines += [f"▶️ Watch today's video brief: {video_url}", ""]
+        lines += [f"▶️ Watch this week's round-up: {video_url}" if weekly else f"▶️ Watch today's video brief: {video_url}", ""]
 
     bureau_icons = {
         "WORLD": "🌍 WORLD",
@@ -158,7 +161,7 @@ def build_linkedin_article(
                 lines.append(src_url)
             lines.append("")
 
-    lines.append(generate_key_takeaways(stories))
+    lines.append(generate_key_takeaways(stories, weekly))
     lines.append("")
     lines.append(f"🔔 Get the daily AI brief every morning at 6:30 AM IST. Subscribe on YouTube: {CHANNEL_URL}")
     lines.append("")
