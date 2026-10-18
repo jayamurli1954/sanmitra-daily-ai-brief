@@ -63,11 +63,16 @@ ELECTION_TERMS = [
     "presidential candidate", "presidential debate", "running mate", "midterm", "midterms",
     "primaries", "caucus", "caucuses", "polling day", "election day", "political ad", "political ads",
     "political advertising", "campaign ad", "campaign ads", "lok sabha polls", "assembly polls",
+    # US politicians count too (editor, 2026-10-18): YouTube treats videos featuring federal
+    # officeholders as election content. Plain "lawmakers" is not a trigger (EU, India).
+    "senator", "sen.", "congressman", "congresswoman", "congressmen", "congresswomen", "congress",
+    "congressional", "senate", "house of representatives", "house speaker", "speaker of the house",
+    "capitol hill", "white house", "president trump", "trump", "vance", "biden",
 ]
 
 
 def is_election_story(title, body=""):
-    """True when the headline or the text mentions elections, voting or campaigns."""
+    """True when the headline or the text mentions elections, campaigns or US politicians."""
     return contains_any(f"{title or ''} {body or ''}", ELECTION_TERMS)
 
 
