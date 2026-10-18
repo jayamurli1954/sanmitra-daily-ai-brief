@@ -42,6 +42,9 @@ class StoryRulesTest(unittest.TestCase):
             ("Senate passes AI bill", "It came weeks before the midterms."),
             ("Georgia reviews whether AI can count ballots", ""),
             ("Election Commission of India issues AI guidelines", ""),
+            ("Sanders renews push to pause advanced AI", "Senator Bernie Sanders argued for a ban."),
+            ("Anthropic shops its AI safety bill to Congress", ""),
+            ("White House issues AI order", ""),
         ]:
             self.assertTrue(is_election_story(title, body), title)
         for title, body in [

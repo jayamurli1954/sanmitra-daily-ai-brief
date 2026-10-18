@@ -72,7 +72,7 @@ def check(date: str, editor_dir: str = os.path.join("prompts", "editor")) -> int
         if is_stock_market_story(s["headline"]):
             notes.append("stock-market headline: not covered")
         if is_election_story(s["headline"], body):
-            notes.append("mentions elections/voting: not covered (YouTube blocks promotion)")
+            notes.append("mentions elections or US politicians: not covered (YouTube blocks promotion)")
         if words < 60:
             notes.append(f"only {words} words (aim for 100-140 for ~50-60 seconds)")
         if i > MAX_EPISODE_STORIES:
