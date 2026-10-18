@@ -34,6 +34,42 @@ class StoryRulesTest(unittest.TestCase):
         kept = [i["title"] for i in h.filter_candidates(items)]
         self.assertNotIn("Chip stocks slide as AI investing fears grow", kept)
 
+    def test_election_stories(self):
+        from src.aibrief.crew.text_utils import is_election_story
+        for title, body in [
+            ("AI deepfakes flood US election campaign", ""),
+            ("Meta tightens rules on AI political ads", ""),
+            ("Senate passes AI bill", "It came weeks before the midterms."),
+            ("Georgia reviews whether AI can count ballots", ""),
+            ("Election Commission of India issues AI guidelines", ""),
+        ]:
+            self.assertTrue(is_election_story(title, body), title)
+        for title, body in [
+            ("Nvidia commits 250 million dollars to UK AI research", "The company devoted the funds to safety."),
+            ("OpenAI pivoted its device plans", "It selected a new supplier."),
+            ("India weighs disclosure rules for AI agents", "Officials are considering a consultation."),
+            ("Nvidia commits UK compute", "The minister called it a vote of confidence in British research."),
+            ("Anthropic proposes founder-control voting structure", "Shareholders keep voting rights."),
+        ]:
+            self.assertFalse(is_election_story(title, body), title)
+
+    def test_editor_merge_drops_election_stories_and_fills_the_space(self):
+        from src.aibrief.crew.editor_brief import merge_editor_brief
+        body = ("The company said the system is now in use across several states. Officials described the "
+                "rollout as a first step and said more details would follow next month.")
+        editor = ("# USA\n\n### Candidates use AI chatbots on the campaign trail\nSource: AP\n"
+                  "https://apnews.com/article/ai-campaign-123\n\n" + body + "\n\n"
+                  "### Nvidia ships a new chip\nSource: Reuters\nhttps://www.reuters.com/tech/nvidia-chip-123/\n\n"
+                  + body + "\n")
+        other = ("# INDIA\n\n### Kerala leads AI-ready jobs\nSource: Mint\nhttps://www.livemint.com/ai/kerala-123\n\n"
+                 + body + " Voters will decide next year.\n\n"
+                 "### TCS opens an AI lab\nSource: Mint\nhttps://www.livemint.com/ai/tcs-123\n\n" + body + "\n")
+        merged, report = merge_editor_brief(editor, other, "2026-10-19", 9)
+        self.assertNotIn("campaign trail", merged)
+        self.assertNotIn("Kerala leads", merged)
+        self.assertIn("TCS opens an AI lab", merged)
+        self.assertEqual(len(report["dropped_election"]), 2)
+
 
 if __name__ == "__main__":
     unittest.main()

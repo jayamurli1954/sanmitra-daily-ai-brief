@@ -119,6 +119,14 @@ def run_nightly_collection(target_date: str = None, push_git: bool = True, sync_
         print(f"[*] Dropping {len(market)} stock-market stories: " + "; ".join(s.get("headline", "")[:60] for s in market))
         candidate_stories = [s for s in candidate_stories if s not in market]
 
+    # No election news (YouTube blocks promotion of it): editor's decision, 2026-10-18.
+    from src.aibrief.crew.text_utils import is_election_story
+    election = [s for s in candidate_stories if is_election_story(
+        s.get("headline", ""), " ".join(str(s.get(k, "")) for k in ("summary", "script", "body", "whyThisMatters")))]
+    if election:
+        print(f"[*] Dropping {len(election)} election stories: " + "; ".join(s.get("headline", "")[:60] for s in election))
+        candidate_stories = [s for s in candidate_stories if s not in election]
+
     if not candidate_stories:
         print("[!] No candidate stories found from scraper. Engaging fallback.")
         return False

@@ -31,7 +31,7 @@ so put the most important first. A collected or crew story about the same event 
 and its outlet is added to yours as an `Also:` line. The crew only adds stories if the
 total is under 8. About 120-140 words of summary per story gives 50-60 seconds of narration.
 
-Stock-market stories (share prices, indices, trading) are not covered.
+Stock-market stories (share prices, indices, trading) are not covered. Neither is election news: anything mentioning elections, voters, ballots or campaigns, even in passing, is left out, because YouTube refuses to promote videos that mention elections.
 
 **Sundays** are the weekly round-up, built on Saturday night from the week's important stories that did *not* air Monday to Saturday (left out for length), so nothing repeats. Stories in your daily files that did not make the cut are included, if they have a link. A Sunday editor file still goes first if you want to choose the week's top stories yourself.
 
