@@ -21,7 +21,7 @@ import sys
 
 from validate_episode_sources import is_proper_article_url
 from src.aibrief.crew.fact_checker import MAX_EPISODE_STORIES, STORY_MAX_SENTENCES, STORY_MAX_WORDS
-from src.aibrief.crew.text_utils import same_event, split_sentences
+from src.aibrief.crew.text_utils import is_election_story, same_event, split_sentences
 from src.aibrief.source_authority import is_company_source
 
 if sys.stdout.encoding != 'utf-8':
@@ -323,6 +323,9 @@ def parse_markdown_prompt(md_text: str) -> dict:
 
                 body_lines = [l for l in chunk_lines[1:] if not is_metadata_line(l)]
                 body_clean = strip_unspoken_metadata(" ".join(body_lines))
+                if is_election_story(head_clean, body_clean):
+                    print(f"[SKIP] Election news is not covered (YouTube blocks promotion): {head_clean[:70]!r}.")
+                    continue
 
                 if head_clean and body_clean:
                     candidate_stories.append({
@@ -356,6 +359,9 @@ def parse_markdown_prompt(md_text: str) -> dict:
                 body_lines = first_lines[1:] if len(first_lines) > 1 else [head_clean]
                 body_clean = strip_unspoken_metadata(" ".join(body_lines))
                 srcs, source_url, research_desk = extract_attribution(clean_block)
+                if is_election_story(head_clean, body_clean):
+                    print(f"[SKIP] Election news is not covered (YouTube blocks promotion): {head_clean[:70]!r}.")
+                    continue
                 if not srcs or not is_proper_article_url(source_url):
                     print(f"[SKIP] No proper source for {head_clean[:70]!r}. Left out of the video.")
                     continue

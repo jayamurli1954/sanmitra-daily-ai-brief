@@ -49,6 +49,28 @@ def is_stock_market_story(title):
     return contains_any(title, STOCK_MARKET_TERMS)
 
 
+# No election news (editor's decision, 2026-10-18): YouTube disapproved two
+# episodes for promotion because they mentioned the US election. Unlike the
+# stock-market rule this is judged on the whole text, since a passing mention
+# in the narration is enough to block promotion.
+ELECTION_TERMS = [
+    "election", "elections", "electoral", "re-election", "reelection", "pre-election", "post-election",
+    "election commission", "electoral college", "ballot", "ballots", "ballot box", "voter", "voters",
+    # Not plain "vote"/"voting": "a vote of confidence" and shareholder "voting rights" are not elections.
+    "vote count", "vote counting", "votes cast", "postal vote", "popular vote", "voting machine",
+    "voting machines", "voting booth", "voting day", "polling station", "polling booth", "exit poll", "exit polls",
+    "opinion poll", "opinion polls", "campaign trail", "presidential race", "presidential campaign",
+    "presidential candidate", "presidential debate", "running mate", "midterm", "midterms",
+    "primaries", "caucus", "caucuses", "polling day", "election day", "political ad", "political ads",
+    "political advertising", "campaign ad", "campaign ads", "lok sabha polls", "assembly polls",
+]
+
+
+def is_election_story(title, body=""):
+    """True when the headline or the text mentions elections, voting or campaigns."""
+    return contains_any(f"{title or ''} {body or ''}", ELECTION_TERMS)
+
+
 def count_matches(text, keywords):
     lowered = (text or "").lower()
     return sum(1 for k in keywords if _keyword_pattern(k).search(lowered))

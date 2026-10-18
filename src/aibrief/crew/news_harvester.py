@@ -12,7 +12,7 @@ import re
 import urllib.parse
 import urllib.request
 
-from .text_utils import IST, clean_feed_text, contains_any, is_recent, is_stock_market_story, parse_published
+from .text_utils import IST, clean_feed_text, contains_any, is_election_story, is_recent, is_stock_market_story, parse_published
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("NewsHarvester")
@@ -224,7 +224,7 @@ class NewsHarvester:
     def filter_candidates(self, raw_items):
         """URL/title dedup, AI relevance and recency. Undated search hits are kept for now."""
         seen_urls, seen_titles, kept = set(), set(), []
-        rejected = {"duplicate": 0, "not_ai": 0, "stock_market": 0, "stale": 0}
+        rejected = {"duplicate": 0, "not_ai": 0, "stock_market": 0, "election": 0, "stale": 0}
 
         for item in raw_items:
             url = item.get("url", "").split("?")[0].rstrip("/")
@@ -239,6 +239,9 @@ class NewsHarvester:
                 continue
             if is_stock_market_story(item.get("title", "")):
                 rejected["stock_market"] += 1
+                continue
+            if is_election_story(item.get("title", ""), item.get("summary", "")):
+                rejected["election"] += 1
                 continue
             published = item.get("published", "")
             if parse_published(published) is not None and not is_recent(published, self.target_date, self.max_age_hours):

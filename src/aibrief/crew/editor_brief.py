@@ -21,7 +21,7 @@ stories fill any places left.
 import re
 from datetime import datetime
 
-from .text_utils import content_stems, same_event
+from .text_utils import content_stems, is_election_story, same_event
 
 REGION_ORDER = ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]
 _URL = re.compile(r"https?://\S+")
@@ -123,13 +123,24 @@ def render(stories, date_str, weekly=False):
 
 def merge_editor_brief(editor_md, other_md, date_str, max_stories):
     """Returns (merged markdown, report dict)."""
-    editor_stories = parse_stories(editor_md)
+    # No election news, from the editor or the crew (YouTube blocks promotion of it).
+    election = []
+
+    def allowed(story):
+        if is_election_story(story["headline"], _summary(story)):
+            election.append(story["headline"])
+            return False
+        return True
+
+    editor_stories = [s for s in parse_stories(editor_md) if allowed(s)]
     kept = editor_stories[:max_stories]
     editor_count = len(kept)
     merged_dupes = []
     # The editor's list is in priority order; anything past the cap waits for another day.
     dropped_for_space = [s["headline"] for s in editor_stories[max_stories:]]
     for story in parse_stories(other_md or ""):
+        if not allowed(story):
+            continue
         dup = _duplicate_of(story, kept)
         if dup is not None:
             if dup in kept[:editor_count]:
@@ -150,6 +161,7 @@ def merge_editor_brief(editor_md, other_md, date_str, max_stories):
         "added": len(kept) - editor_count,
         "duplicates": merged_dupes,
         "dropped_for_space": dropped_for_space,
+        "dropped_election": election,
         "total": len(kept),
     }
     weekly = "## Weekly Round-up" in (other_md or "")
