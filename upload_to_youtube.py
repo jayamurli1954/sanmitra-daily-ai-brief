@@ -20,6 +20,7 @@ if hasattr(sys.stdout, 'reconfigure'):
         pass
 
 try:
+    from google.auth.exceptions import RefreshError
     from google.auth.transport.requests import Request
     from google.oauth2.credentials import Credentials
     from google_auth_oauthlib.flow import InstalledAppFlow
@@ -58,8 +59,13 @@ def get_authenticated_service(interactive=False):
     
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
+            try:
+                creds.refresh(Request())
+            except RefreshError:
+                # Revoked or expired for good (Google expires logins every 7 days while the
+                # OAuth consent screen is in Testing). Sign in again instead of crashing.
+                creds = None
+        if not creds or not creds.valid:
             # Open the browser only on request: a scheduled run would wait on it forever.
             if not interactive:
                 print("[X] YouTube token missing, expired or revoked.")
