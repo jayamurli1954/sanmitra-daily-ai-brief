@@ -3,7 +3,7 @@ REM ============================================================================
 REM SanMitra AI News Wire - 10:15 PM IST nightly production on this PC
 REM Collects the day's AI news, builds tomorrow's episode (8-9 stories, topping up
 REM fact-checked stories), renders it, and uploads it to YouTube as PRIVATE with
-REM a scheduled publish at 06:30 IST. YouTube makes it public; the PC can be off.
+REM a scheduled publish at 09:30 IST. YouTube makes it public; the PC can be off.
 REM ==============================================================================
 cd /d "D:\MyProjects\Remotion Studio"
 set PYTHONIOENCODING=utf-8
@@ -33,8 +33,8 @@ REM No unaired stories this week: fall back to the day's news.
 if not exist "prompts\%EPISODE_DATE%.md" python nightly_brief_collector.py >> "%LOG%" 2>&1
 :produce
 
-REM 2. Build, fact-check, voice, render and upload (private until 06:30 IST).
-python run_autonomous_brief.py --date %EPISODE_DATE% --privacy private --publish-at-ist 06:30 >> "%LOG%" 2>&1
+REM 2. Build, fact-check, voice, render and upload (private until 09:30 IST).
+python run_autonomous_brief.py --date %EPISODE_DATE% --privacy private --publish-at-ist 09:30 >> "%LOG%" 2>&1
 set RC=%ERRORLEVEL%
 
 echo Finished at %TIME% with exit code %RC%. >> "%LOG%"
