@@ -163,7 +163,7 @@ def build_linkedin_article(
 
     lines.append(generate_key_takeaways(stories, weekly))
     lines.append("")
-    lines.append(f"🔔 Get the daily AI brief every morning at 6:30 AM IST. Subscribe on YouTube: {CHANNEL_URL}")
+    lines.append(f"🔔 Get the daily AI brief every morning at 9:30 AM IST. Subscribe on YouTube: {CHANNEL_URL}")
     lines.append("")
     lines.append("#AI #ArtificialIntelligence #AIGovernance #AISafety #AIInfrastructure #ChinaAI #IndiaAI #SanMitraAINewsWire #OfficeMitraAIInsights")
 
