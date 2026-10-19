@@ -180,6 +180,8 @@ def upload_video(youtube, file_path, title, description, tags, category_id="28",
     status = {
         "privacyStatus": "private" if publish_at else privacy_status,
         "selfDeclaredMadeForKids": False,
+        # YouTube's "altered or synthetic content" label: the narration is AI-generated (editor, 2026-10-19).
+        "containsSyntheticMedia": True,
     }
     # YouTube publishes a private video automatically at publishAt.
     if publish_at:
