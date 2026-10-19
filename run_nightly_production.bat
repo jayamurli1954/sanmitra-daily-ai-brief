@@ -18,6 +18,10 @@ echo ====================================================================== >> "
 echo NIGHTLY PRODUCTION for %EPISODE_DATE% - started %DATE% %TIME% >> "%LOG%"
 echo ====================================================================== >> "%LOG%"
 
+REM 0. An editor's brief saved as prompts\%EPISODE_DATE%.md instead of prompts\editor\
+REM    would be overwritten by the collector: move it into prompts\editor\ first.
+python adopt_editor_brief.py --date %EPISODE_DATE% >> "%LOG%" 2>&1
+
 REM 1. Sunday's episode is the week's round-up of stories that did not air Monday to
 REM    Saturday. Any other day: collect the day's news into prompts\%EPISODE_DATE%.md
 REM    (a short brief is not fatal: step 2 tops it up from the live harvest).
