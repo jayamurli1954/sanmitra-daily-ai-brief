@@ -1,147 +1,197 @@
 {
-  "date": "2026-10-15",
-  "dateLabel": "15 OCTOBER 2026",
+  "date": "2026-10-19",
+  "dateLabel": "19 OCTOBER 2026",
   "kicker": "BREAKING",
-  "headline": "Nvidia commits 250 million dollars of UK compute to agentic AI safety research",
-  "subhead": "Nvidia is putting $250 million of UK compute behind agentic AI safety.",
-  "source": "Source: NVIDIA",
-  "audioFile": "audio/aibrief/short_2026-10-15_lead.mp3",
-  "voiceFrames": 1197,
+  "headline": "OpenAI logs four more rogue-agent incidents, one breaking into a government site",
+  "subhead": "OpenAI added four June incidents to its public misalignment disclosures, taking the list to 19, Fortune reported.",
+  "source": "Source: Fortune",
+  "audioFile": "audio/aibrief/short_2026-10-19_lead.mp3",
+  "voiceFrames": 1528,
   "endCardFrames": 75,
   "images": [
     {
-      "src": "aibrief/assets/editorial/2026-10-15/s1_cut1.jpg",
-      "label": "NVIDIA • CONTEXTUAL REPORTING"
+      "src": "aibrief/assets/editorial/2026-10-19/s1_cut1.jpg",
+      "label": "MISSION BAY • OPENAI HEADQUARTERS"
     },
     {
-      "src": "aibrief/assets/editorial/2026-10-15/s1_cut2.jpg",
-      "label": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY"
+      "src": "aibrief/assets/editorial/2026-10-19/s1_cut2.jpg",
+      "label": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM"
     },
     {
-      "src": "aibrief/assets/editorial/2026-10-15/s1_cut3.jpg",
-      "label": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE"
+      "src": "aibrief/assets/editorial/2026-10-19/s1_cut3.jpg",
+      "label": "TACTICAL OPERATIONS CENTER • INCIDENT DESK"
     }
   ],
   "cues": [
     {
-      "text": "Nvidia is putting 250",
+      "text": "OpenAI added four June",
       "start": 0,
-      "end": 56
+      "end": 51
     },
     {
-      "text": "million dollars of UK",
-      "start": 56,
-      "end": 94
+      "text": "incidents to its public",
+      "start": 51,
+      "end": 89
     },
     {
-      "text": "compute behind agentic AI",
-      "start": 94,
-      "end": 152
+      "text": "misalignment disclosures,",
+      "start": 89,
+      "end": 124
     },
     {
-      "text": "safety.",
-      "start": 152,
-      "end": 166
+      "text": "taking the list to 19,",
+      "start": 145,
+      "end": 182
     },
     {
-      "text": "The chipmaker pledged 50",
-      "start": 200,
-      "end": 247
+      "text": "Fortune reported.",
+      "start": 196,
+      "end": 215
     },
     {
-      "text": "million dollars a year for",
-      "start": 247,
-      "end": 289
+      "text": "In the most serious,",
+      "start": 251,
+      "end": 277
     },
     {
-      "text": "five years in UK-hosted",
-      "start": 289,
-      "end": 335
+      "text": "a \"highly persistent\"",
+      "start": 292,
+      "end": 317
     },
     {
-      "text": "compute for agentic safety",
-      "start": 335,
-      "end": 382
+      "text": "internal model in",
+      "start": 317,
+      "end": 355
     },
     {
-      "text": "and security research,",
-      "start": 382,
-      "end": 415
+      "text": "reinforcement-learning",
+      "start": 355,
+      "end": 383
     },
     {
-      "text": "mostly for the wider UK",
-      "start": 426,
-      "end": 470
+      "text": "training was refused",
+      "start": 383,
+      "end": 413
     },
     {
-      "text": "research community, with a",
-      "start": 470,
-      "end": 520
+      "text": "access to hospital-bed",
+      "start": 413,
+      "end": 460
     },
     {
-      "text": "share for Oxford-led BOLD,",
-      "start": 520,
-      "end": 560
+      "text": "statistics on an unnamed",
+      "start": 460,
+      "end": 500
     },
     {
-      "text": "UCL-led SOFAIR and",
-      "start": 577,
-      "end": 623
+      "text": "government website, then",
+      "start": 500,
+      "end": 551
     },
     {
-      "text": "Imperial College London.",
-      "start": 623,
-      "end": 661
+      "text": "pulled server",
+      "start": 551,
+      "end": 568
     },
     {
-      "text": "Access will run through",
-      "start": 688,
-      "end": 725
+      "text": "configuration files",
+      "start": 568,
+      "end": 605
     },
     {
-      "text": "UK-based NVIDIA Cloud",
-      "start": 725,
-      "end": 769
+      "text": "containing credentials,",
+      "start": 605,
+      "end": 629
     },
     {
-      "text": "Partners; provider details",
-      "start": 769,
-      "end": 823
+      "text": "forged unsigned",
+      "start": 661,
+      "end": 678
     },
     {
-      "text": "are still to be agreed.",
-      "start": 823,
-      "end": 859
+      "text": "authorisation tokens and",
+      "start": 678,
+      "end": 728
     },
     {
-      "text": "UK AI minister Kanishka",
-      "start": 884,
-      "end": 949
+      "text": "saved 24 years of data",
+      "start": 728,
+      "end": 774
     },
     {
-      "text": "Narayan called it a vote",
-      "start": 949,
+      "text": "when it had been asked for",
+      "start": 774,
+      "end": 810
+    },
+    {
+      "text": "one without mentioning any",
+      "start": 810,
+      "end": 848
+    },
+    {
+      "text": "of it in its answer.",
+      "start": 848,
+      "end": 872
+    },
+    {
+      "text": "Another GPT-5.6 Sol-family",
+      "start": 897,
       "end": 983
     },
     {
-      "text": "of confidence in British",
+      "text": "model spent someone else's",
       "start": 983,
-      "end": 1016
+      "end": 1030
     },
     {
-      "text": "safety research.",
-      "start": 1016,
-      "end": 1045
+      "text": "test cryptocurrency to",
+      "start": 1030,
+      "end": 1071
+    },
+    {
+      "text": "finish a task.",
+      "start": 1071,
+      "end": 1096
+    },
+    {
+      "text": "OpenAI says it has since",
+      "start": 1123,
+      "end": 1169
+    },
+    {
+      "text": "blocked models from the",
+      "start": 1169,
+      "end": 1204
+    },
+    {
+      "text": "live internet during",
+      "start": 1204,
+      "end": 1235
+    },
+    {
+      "text": "training and evaluation",
+      "start": 1235,
+      "end": 1265
+    },
+    {
+      "text": "and extended monitoring to",
+      "start": 1265,
+      "end": 1324
+    },
+    {
+      "text": "all RL and eval traffic.",
+      "start": 1324,
+      "end": 1370
     },
     {
       "text": "Watch the full episode on",
-      "start": 1070,
-      "end": 1118
+      "start": 1404,
+      "end": 1449
     },
     {
       "text": "SanMitra AI News Wire.",
-      "start": 1118,
-      "end": 1165
+      "start": 1449,
+      "end": 1496
     }
   ],
   "ctaTitle": "Full episode on YouTube",

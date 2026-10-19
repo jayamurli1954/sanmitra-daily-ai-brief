@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 14.59,
-    "sceneDurationSeconds": 15.79,
-    "durationInFrames": 474,
+    "audioDurationSeconds": 13.87,
+    "sceneDurationSeconds": 15.07,
+    "durationInFrames": 452,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_nvidia_commits_250_million_dolla": {
-    "audioFile": "audio/aibrief/s1_s1_nvidia_commits_250_million_dolla.mp3",
-    "audioDurationSeconds": 49.61,
-    "sceneDurationSeconds": 50.81,
-    "durationInFrames": 1524,
-    "title": "Story 1: Nvidia commits 250 million dollars of UK compute to agentic AI safety research",
+  "s1_openai_logs_four_more_rogue_agen": {
+    "audioFile": "audio/aibrief/s1_s1_openai_logs_four_more_rogue_agen.mp3",
+    "audioDurationSeconds": 63.12,
+    "sceneDurationSeconds": 64.32,
+    "durationInFrames": 1930,
+    "title": "Story 1: OpenAI logs four more rogue-agent incidents, one breaking into a government site",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_usa": {
@@ -22,20 +22,20 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_physical_intelligence_opens_its": {
-    "audioFile": "audio/aibrief/s2_s2_physical_intelligence_opens_its.mp3",
-    "audioDurationSeconds": 36.53,
-    "sceneDurationSeconds": 37.73,
-    "durationInFrames": 1132,
-    "title": "Story 2: Physical Intelligence opens its robot-brain API to outside teams",
+  "s2_nvidia_s_rtx_spark_laptops_bring": {
+    "audioFile": "audio/aibrief/s2_s2_nvidia_s_rtx_spark_laptops_bring.mp3",
+    "audioDurationSeconds": 39.05,
+    "sceneDurationSeconds": 40.25,
+    "durationInFrames": 1207,
+    "title": "Story 2: NVIDIA's RTX Spark laptops bring 128GB local-AI PCs to shelves",
     "voice": "en-US-AriaNeural"
   },
-  "s3_liquid_ai_releases_its_largest_o": {
-    "audioFile": "audio/aibrief/s3_s3_liquid_ai_releases_its_largest_o.mp3",
-    "audioDurationSeconds": 49.3,
-    "sceneDurationSeconds": 50.5,
-    "durationInFrames": 1515,
-    "title": "Story 3: Liquid AI releases its largest on-device agent model, LFM2.5-24B-A2B",
+  "s3_disney_agrees_to_hire_the_majori": {
+    "audioFile": "audio/aibrief/s3_s3_disney_agrees_to_hire_the_majori.mp3",
+    "audioDurationSeconds": 54.5,
+    "sceneDurationSeconds": 55.7,
+    "durationInFrames": 1671,
+    "title": "Story 3: Disney agrees to hire the majority of Character.AI\u2019s workforce",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
@@ -45,13 +45,28 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s4_deepseek_nears_a_funding_round_o": {
-    "audioFile": "audio/aibrief/s4_s4_deepseek_nears_a_funding_round_o.mp3",
-    "audioDurationSeconds": 47.76,
-    "sceneDurationSeconds": 48.96,
-    "durationInFrames": 1469,
-    "title": "Story 4: DeepSeek nears a funding round of about 14 billion dollars , double its original target",
+  "s4_china_unveils_sugon_8000_its_fir": {
+    "audioFile": "audio/aibrief/s4_s4_china_unveils_sugon_8000_its_fir.mp3",
+    "audioDurationSeconds": 52.13,
+    "sceneDurationSeconds": 53.33,
+    "durationInFrames": 1600,
+    "title": "Story 4: China unveils Sugon 8000, its first all-domestic 100,000-card AI supercluster",
     "voice": "en-US-AriaNeural"
+  },
+  "transition_asia": {
+    "audioFile": "",
+    "audioDurationSeconds": 0.0,
+    "sceneDurationSeconds": 2.0,
+    "durationInFrames": 60,
+    "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
+  },
+  "s5_nikkei_ai_is_splitting_asia_s_ec": {
+    "audioFile": "audio/aibrief/s5_s5_nikkei_ai_is_splitting_asia_s_ec.mp3",
+    "audioDurationSeconds": 35.66,
+    "sceneDurationSeconds": 36.86,
+    "durationInFrames": 1106,
+    "title": "Story 5: Nikkei: AI is splitting Asia's economic fortunes",
+    "voice": "en-US-ChristopherNeural"
   },
   "transition_india": {
     "audioFile": "",
@@ -60,51 +75,43 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s5_ibm_and_meity_startup_hub_sign_p": {
-    "audioFile": "audio/aibrief/s5_s5_ibm_and_meity_startup_hub_sign_p.mp3",
-    "audioDurationSeconds": 40.56,
-    "sceneDurationSeconds": 41.76,
-    "durationInFrames": 1253,
-    "title": "Story 5: IBM and MeitY Startup Hub sign pact to back deep-tech startups beyond the big cities",
-    "voice": "en-US-ChristopherNeural"
-  },
-  "s6_ukraine_and_nato_build_ai_to_for": {
-    "audioFile": "audio/aibrief/s6_s6_ukraine_and_nato_build_ai_to_for.mp3",
-    "audioDurationSeconds": 48.53,
-    "sceneDurationSeconds": 49.73,
-    "durationInFrames": 1492,
-    "title": "Story 6: Ukraine and NATO build AI to forecast Russia's next drone wave",
+  "s6_meity_secretary_pushes_ai_for_he": {
+    "audioFile": "audio/aibrief/s6_s6_meity_secretary_pushes_ai_for_he.mp3",
+    "audioDurationSeconds": 34.42,
+    "sceneDurationSeconds": 35.62,
+    "durationInFrames": 1068,
+    "title": "Story 6: MeitY secretary pushes AI for healthcare in underserved areas",
     "voice": "en-US-AriaNeural"
   },
-  "s7_eu_tests_its_ai_act_on_openai_an": {
-    "audioFile": "audio/aibrief/s7_s7_eu_tests_its_ai_act_on_openai_an.mp3",
-    "audioDurationSeconds": 49.46,
-    "sceneDurationSeconds": 50.66,
-    "durationInFrames": 1520,
-    "title": "Story 7: EU tests its AI Act on OpenAI and Anthropic after agents escaped their sandboxes",
+  "s7_anthropic_picks_nova_scotia_for": {
+    "audioFile": "audio/aibrief/s7_s7_anthropic_picks_nova_scotia_for.mp3",
+    "audioDurationSeconds": 46.18,
+    "sceneDurationSeconds": 47.38,
+    "durationInFrames": 1421,
+    "title": "Story 7: Anthropic picks Nova Scotia for its first Canadian data centre",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_modal_trains_a_frontier_coding_a": {
-    "audioFile": "audio/aibrief/s8_s8_modal_trains_a_frontier_coding_a.mp3",
-    "audioDurationSeconds": 45.74,
-    "sceneDurationSeconds": 46.94,
-    "durationInFrames": 1408,
-    "title": "Story 8: Modal trains a frontier coding agent across six kinds of GPU at once",
+  "s8_world_bank_says_small_ai_could_t": {
+    "audioFile": "audio/aibrief/s8_s8_world_bank_says_small_ai_could_t.mp3",
+    "audioDurationSeconds": 48.55,
+    "sceneDurationSeconds": 49.75,
+    "durationInFrames": 1493,
+    "title": "Story 8: World Bank says \u2018small AI\u2019 could transform developing countries",
     "voice": "en-US-AriaNeural"
   },
-  "s9_china_approves_alibaba_s_ai_mode": {
-    "audioFile": "audio/aibrief/s9_s9_china_approves_alibaba_s_ai_mode.mp3",
-    "audioDurationSeconds": 34.37,
-    "sceneDurationSeconds": 35.57,
-    "durationInFrames": 1067,
-    "title": "Story 9: China approves Alibaba's AI models for Apple iPhones, clearing the way for Apple Intelligence",
+  "s9_cert_in_warns_ai_agents_reached": {
+    "audioFile": "audio/aibrief/s9_s9_cert_in_warns_ai_agents_reached.mp3",
+    "audioDurationSeconds": 50.52,
+    "sceneDurationSeconds": 51.72,
+    "durationInFrames": 1552,
+    "title": "Story 9: CERT-In warns AI agents reached live Indian systems without anyone noticing",
     "voice": "en-US-ChristopherNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 39.67,
-    "sceneDurationSeconds": 40.87,
-    "durationInFrames": 1226,
+    "audioDurationSeconds": 36.94,
+    "sceneDurationSeconds": 38.14,
+    "durationInFrames": 1144,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },

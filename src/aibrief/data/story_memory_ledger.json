@@ -1,160 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-10-15",
+  "last_updated": "2026-10-19",
   "stories": [
-    {
-      "story_id": "story_20261002_deepmind_introduces_watermarking_fo",
-      "story_chain_id": "chain_deepmind_deepmind_introduces_",
-      "headline": "DeepMind Introduces Watermarking for AI-Generated Biology",
-      "companies": [
-        "DeepMind"
-      ],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [],
-      "first_covered": "2026-10-02",
-      "last_major_update": "2026-10-02",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261002_ftc_opens_a_probe_into_frontier_ai_",
-      "story_chain_id": "chain_global_ftc_opens_a_probe_in",
-      "headline": "FTC Opens a Probe Into Frontier AI Labs",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [],
-      "first_covered": "2026-10-02",
-      "last_major_update": "2026-10-02",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261002_openai_pulls_gpt_6_1_astra",
-      "story_chain_id": "chain_openai_openai_pulls_gpt_6_1",
-      "headline": "OpenAI Pulls GPT-6.1 Astra",
-      "companies": [
-        "OpenAI"
-      ],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [],
-      "first_covered": "2026-10-02",
-      "last_major_update": "2026-10-02",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261002_deepseek_and_huawei_build_on_ascend",
-      "story_chain_id": "chain_deepseek_deepseek_and_huawei_",
-      "headline": "DeepSeek and Huawei Build on Ascend Chips",
-      "companies": [
-        "DeepSeek"
-      ],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [],
-      "first_covered": "2026-10-02",
-      "last_major_update": "2026-10-02",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261002_a_tokyo_court_protects_a_person_s_v",
-      "story_chain_id": "chain_global_a_tokyo_court_protec",
-      "headline": "A Tokyo Court Protects a Person's Voice",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [],
-      "first_covered": "2026-10-02",
-      "last_major_update": "2026-10-02",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261002_ajai_chowdhry_urges_sovereign_small",
-      "story_chain_id": "chain_global_ajai_chowdhry_urges_",
-      "headline": "Ajai Chowdhry Urges Sovereign Small Models for India",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [],
-      "first_covered": "2026-10-02",
-      "last_major_update": "2026-10-02",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261002_the_pentagon_plans_an_autonomous_wa",
-      "story_chain_id": "chain_global_the_pentagon_plans_a",
-      "headline": "The Pentagon Plans an Autonomous Warfare Command",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [],
-      "first_covered": "2026-10-02",
-      "last_major_update": "2026-10-02",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261002_google_launches_gemini_4_argon",
-      "story_chain_id": "chain_google_google_launches_gemi",
-      "headline": "Google Launches Gemini 4 Argon",
-      "companies": [
-        "Google"
-      ],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [],
-      "first_covered": "2026-10-02",
-      "last_major_update": "2026-10-02",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261002_openai_reports_an_attempt_to_extrac",
-      "story_chain_id": "chain_openai_openai_reports_an_at",
-      "headline": "OpenAI Reports an Attempt to Extract Model Reasoning",
-      "companies": [
-        "OpenAI"
-      ],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [],
-      "first_covered": "2026-10-02",
-      "last_major_update": "2026-10-02",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261002_south_korea_tests_generative_ai_in_",
-      "story_chain_id": "chain_global_south_korea_tests_ge",
-      "headline": "South Korea Tests Generative AI in a Defense Network",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [],
-      "first_covered": "2026-10-02",
-      "last_major_update": "2026-10-02",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261002_india_is_asked_to_write_its_own_ai_",
-      "story_chain_id": "chain_global_india_is_asked_to_wr",
-      "headline": "India Is Asked to Write Its Own AI Rules",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [],
-      "first_covered": "2026-10-02",
-      "last_major_update": "2026-10-02",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
     {
       "story_id": "story_20261003_ukraine_tests_faster_drone_intercep",
       "story_chain_id": "chain_global_ukraine_tests_faster",
@@ -1797,22 +1644,642 @@
       "last_major_update": "2026-10-16",
       "update_phase": "initial_break",
       "impact_score": 68
+    },
+    {
+      "story_id": "story_20261016_hundreds_of_scientists_urge_air_gap",
+      "story_chain_id": "chain_global_hundreds_of_scientis",
+      "headline": "Hundreds of scientists urge air-gapping cyber-capable AI",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately/"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261016_eight_states_sue_openai_over_chatgp",
+      "story_chain_id": "chain_global_eight_states_sue_ope",
+      "headline": "Eight states sue OpenAI over ChatGPT and children",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.nbcnews.com/tech/tech-news/openai-sued-eight-states-alleged-harm-chatgpt-rcna603614"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261016_anthropic_told_investors_q3_revenue",
+      "story_chain_id": "chain_global_anthropic_told_inves",
+      "headline": "Anthropic told investors Q3 revenue hit 16.8 billion dollars",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261016_deepseek_s_chat_and_api_went_dark_f",
+      "story_chain_id": "chain_global_deepseek_s_chat_and_",
+      "headline": "DeepSeek's chat and API went dark for nearly five hours",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.yicaiglobal.com/news/deepseek-suffers-nearly-five-hour-ai-service-outage-one-of-its-worst-this-year"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261016_anthropic_opens_a_singapore_office_",
+      "story_chain_id": "chain_global_anthropic_opens_a_si",
+      "headline": "Anthropic opens a Singapore office and signs a safety MOU",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://www.anthropic.com/news/singapore-office-opening"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261016_google_expands_ai_work_in_indian_fa",
+      "story_chain_id": "chain_global_google_expands_ai_wo",
+      "headline": "Google expands AI work in Indian farming, education and small business",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://blog.google/intl/en-in/company-news/from-lab-to-impact-advancing-ai-for-real-world-progress-in-india/"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261016_cern_and_mistral_partner_to_build_f",
+      "story_chain_id": "chain_global_cern_and_mistral_par",
+      "headline": "CERN and Mistral partner to build Flare, an AI model for physics",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.ksl.com/article/51636724/cern-and-mistral-partner-to-build-ai-foundation-models-for-physics"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261016_bytedance_sets_up_a_dedicated_ai_sa",
+      "story_chain_id": "chain_global_bytedance_sets_up_a_",
+      "headline": "ByteDance sets up a dedicated AI safety and alignment unit",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://technode.com/2026/10/13/bytedances-seed-ai-lab-creates-dedicated-model-safety-and-alignment-department/"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261016_niti_aayog_wants_power_and_water_ch",
+      "story_chain_id": "chain_global_niti_aayog_wants_pow",
+      "headline": "NITI Aayog wants power and water checks before data centres are approved",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.business-standard.com/economy/news/states-must-assess-resource-needs-before-approving-data-centres-niti-aayog-126101500447_1.html"
+      ],
+      "first_covered": "2026-10-16",
+      "last_major_update": "2026-10-16",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261017_meta_s_new_terms_may_allow_it_to_tr",
+      "story_chain_id": "chain_global_meta_s_new_terms_may",
+      "headline": "Meta’s new terms may allow it to train AI on news sites for free",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 82
+    },
+    {
+      "story_id": "story_20261017_meta_launches_an_open_weight_ai_mod",
+      "story_chain_id": "chain_global_meta_launches_an_ope",
+      "headline": "Meta launches an open-weight AI model that runs on Macs",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/16/meta-releases-muse-spark-open-a-new-open-weight-ai-model"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 79
+    },
+    {
+      "story_id": "story_20261017_sega_pulls_total_war_shogun_2_remas",
+      "story_chain_id": "chain_global_sega_pulls_total_war",
+      "headline": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 74
+    },
+    {
+      "story_id": "story_20261017_chatgpt_can_peek_at_your_chrome_tab",
+      "story_chain_id": "chain_global_chatgpt_can_peek_at_",
+      "headline": "ChatGPT can peek at your Chrome tabs now",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261017_bluesky_s_ai_tool_now_lets_you_make",
+      "story_chain_id": "chain_global_bluesky_s_ai_tool_no",
+      "headline": "Bluesky’s AI tool now lets you make games and apps to share on social",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261017_china_considers_new_export_curbs_on",
+      "story_chain_id": "chain_global_china_considers_new_",
+      "headline": "China considers new export curbs on solar, AI, biotech",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.thehindu.com/news/international/china-considers-new-export-curbs-on-solar-ai-biotech/article71591880.ece"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 66
+    },
+    {
+      "story_id": "story_20261017_cern_and_mistral_team_up_on_flare_f",
+      "story_chain_id": "chain_global_cern_and_mistral_tea",
+      "headline": "CERN and Mistral team up on Flare for collider physics",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261017_ftc_subpoenas_openai_and_anthropic_",
+      "story_chain_id": "chain_global_ftc_subpoenas_openai",
+      "headline": "FTC subpoenas OpenAI and Anthropic over safety incidents",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261017_meta_open_weights_muse_spark_open_a",
+      "story_chain_id": "chain_global_meta_open_weights_mu",
+      "headline": "Meta open-weights Muse Spark Open at 816B parameters",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://research.meta.ai/blog/muse-spark-open"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261017_beijing_drafts_export_curbs_on_mega",
+      "story_chain_id": "chain_global_beijing_drafts_expor",
+      "headline": "Beijing drafts export curbs on mega-parameter AI",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.straitstimes.com/business/china-plans-ai-export-curbs-to-exert-control-over-key-tech"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261017_hong_kong_opens_an_embodied_ai_appl",
+      "story_chain_id": "chain_global_hong_kong_opens_an_e",
+      "headline": "Hong Kong opens an embodied-AI applications hub",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://www.scmp.com/tech/tech-trends/article/3371095/hong-kong-vies-role-robotics-boom-launch-embodied-ai-hub"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261017_simons_openai_and_anthropic_put_15_",
+      "story_chain_id": "chain_global_simons_openai_and_an",
+      "headline": "Simons, OpenAI and Anthropic put 15 million dollars behind maths + AI",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261017_microsoft_finishes_pre_training_mai",
+      "story_chain_id": "chain_global_microsoft_finishes_p",
+      "headline": "Microsoft finishes pre-training MAI-Base-2",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261017_nvidia_open_weights_nemotron_3_5_su",
+      "story_chain_id": "chain_global_nvidia_open_weights_",
+      "headline": "Nvidia open-weights Nemotron 3.5 Super VL for agents",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261017_openai_pitches_daybreak_cyber_defen",
+      "story_chain_id": "chain_global_openai_pitches_daybr",
+      "headline": "OpenAI pitches Daybreak cyber defence to Korean CISOs",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://www.ajupress.com/view/20261016152749119"
+      ],
+      "first_covered": "2026-10-17",
+      "last_major_update": "2026-10-17",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261018_anthropic_s_clark_warns_imf_that_ai",
+      "story_chain_id": "chain_global_anthropic_s_clark_wa",
+      "headline": "Anthropic's Clark warns IMF that AI could remake US GDP by 2030",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://finance.yahoo.com/economy/articles/anthropics-clark-says-ais-impact-091449774.html"
+      ],
+      "first_covered": "2026-10-18",
+      "last_major_update": "2026-10-18",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261018_nvidia_s_jensen_huang_urges_us_chin",
+      "story_chain_id": "chain_global_nvidia_s_jensen_huan",
+      "headline": "Nvidia's Jensen Huang urges US China dialogue on AI safety",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/15/jensen-huang-nvidia-china-ai.html"
+      ],
+      "first_covered": "2026-10-18",
+      "last_major_update": "2026-10-18",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261018_reflection_open_weights_beam_a_501_",
+      "story_chain_id": "chain_global_reflection_open_weig",
+      "headline": "Reflection open-weights Beam, a 501-billion-parameter coding and agent model",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://reflection.ai/blog/beam-is-available"
+      ],
+      "first_covered": "2026-10-18",
+      "last_major_update": "2026-10-18",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261018_deepseek_ships_flash_1017_and_opens",
+      "story_chain_id": "chain_global_deepseek_ships_flash",
+      "headline": "DeepSeek ships Flash-1017 and opens search tools for AI agents",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/deepseek-api-search-fetch-endpoints-5-yuan-per-1000-requests-5-qps-agents-rag"
+      ],
+      "first_covered": "2026-10-18",
+      "last_major_update": "2026-10-18",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261018_north_korea_claims_it_tested_an_ai_",
+      "story_chain_id": "chain_global_north_korea_claims_i",
+      "headline": "North Korea claims it tested an AI-guided torpedo",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://www.washingtonpost.com/world/2026/10/16/north-korea-torpedo-kim-jong-un-ai/ff453ef0-c9dd-11f1-aefb-abe4112d087e_story.html"
+      ],
+      "first_covered": "2026-10-18",
+      "last_major_update": "2026-10-18",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261018_india_weighs_disclosure_rules_after",
+      "story_chain_id": "chain_global_india_weighs_disclos",
+      "headline": "India weighs disclosure rules after AI agents breached company systems",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
+      ],
+      "first_covered": "2026-10-18",
+      "last_major_update": "2026-10-18",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261018_claude_designs_leaner_quantum_circu",
+      "story_chain_id": "chain_global_claude_designs_leane",
+      "headline": "Claude designs leaner quantum circuits across eight tasks",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
+      ],
+      "first_covered": "2026-10-18",
+      "last_major_update": "2026-10-18",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261018_replit_s_ceo_says_the_anthropic_par",
+      "story_chain_id": "chain_global_replit_s_ceo_says_th",
+      "headline": "Replit's CEO says the Anthropic partnership is over, but insiders dispute it",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
+      ],
+      "first_covered": "2026-10-18",
+      "last_major_update": "2026-10-18",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261018_sanders_renews_push_to_pause_advanc",
+      "story_chain_id": "chain_global_sanders_renews_push_",
+      "headline": "Sanders renews push to pause advanced AI and ban superintelligence",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.sanders.senate.gov/op-eds/dont-let-big-tech-dictate-humanitys-future/"
+      ],
+      "first_covered": "2026-10-18",
+      "last_major_update": "2026-10-18",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261019_openai_logs_four_more_rogue_agent_i",
+      "story_chain_id": "chain_global_openai_logs_four_mor",
+      "headline": "OpenAI logs four more rogue-agent incidents, one breaking into a government site",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/"
+      ],
+      "first_covered": "2026-10-19",
+      "last_major_update": "2026-10-19",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261019_nvidia_s_rtx_spark_laptops_bring_12",
+      "story_chain_id": "chain_global_nvidia_s_rtx_spark_l",
+      "headline": "NVIDIA's RTX Spark laptops bring 128GB local-AI PCs to shelves",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs"
+      ],
+      "first_covered": "2026-10-19",
+      "last_major_update": "2026-10-19",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261019_disney_agrees_to_hire_the_majority_",
+      "story_chain_id": "chain_global_disney_agrees_to_hir",
+      "headline": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+      ],
+      "first_covered": "2026-10-19",
+      "last_major_update": "2026-10-19",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261019_china_unveils_sugon_8000_its_first_",
+      "story_chain_id": "chain_global_china_unveils_sugon_",
+      "headline": "China unveils Sugon 8000, its first all-domestic 100,000-card AI supercluster",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.globaltimes.cn/page/202610/1372462.shtml"
+      ],
+      "first_covered": "2026-10-19",
+      "last_major_update": "2026-10-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261019_nikkei_ai_is_splitting_asia_s_econo",
+      "story_chain_id": "chain_global_nikkei_ai_is_splitti",
+      "headline": "Nikkei: AI is splitting Asia's economic fortunes",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://asia.nikkei.com/economy/ai-climate-and-private-capital-reveal-asia-s-diverging-fortunes"
+      ],
+      "first_covered": "2026-10-19",
+      "last_major_update": "2026-10-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261019_meity_secretary_pushes_ai_for_healt",
+      "story_chain_id": "chain_global_meity_secretary_push",
+      "headline": "MeitY secretary pushes AI for healthcare in underserved areas",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://techobserver.in/news/egov/ai-healthcare-access-meity-stpi-iit-bhu-conclave-330062/"
+      ],
+      "first_covered": "2026-10-19",
+      "last_major_update": "2026-10-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261019_anthropic_picks_nova_scotia_for_its",
+      "story_chain_id": "chain_global_anthropic_picks_nova",
+      "headline": "Anthropic picks Nova Scotia for its first Canadian data centre",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://globalnews.ca/news/12105095/everwind-nova-scotia-data-centre/"
+      ],
+      "first_covered": "2026-10-19",
+      "last_major_update": "2026-10-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261019_world_bank_says_small_ai_could_tran",
+      "story_chain_id": "chain_global_world_bank_says_smal",
+      "headline": "World Bank says ‘small AI’ could transform developing countries",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies"
+      ],
+      "first_covered": "2026-10-19",
+      "last_major_update": "2026-10-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261019_cert_in_warns_ai_agents_reached_liv",
+      "story_chain_id": "chain_global_cert_in_warns_ai_age",
+      "headline": "CERT-In warns AI agents reached live Indian systems without anyone noticing",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.dqindia.com/news/cert-in-calls-for-tighter-controls-after-unauthorised-ai-access-12685895"
+      ],
+      "first_covered": "2026-10-19",
+      "last_major_update": "2026-10-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
     }
   ],
   "entity_index": {
-    "Deepmind": [
-      "2026-10-02"
-    ],
     "Openai": [
-      "2026-10-02",
       "2026-10-03",
       "2026-10-04"
-    ],
-    "Deepseek": [
-      "2026-10-02"
-    ],
-    "Google": [
-      "2026-10-02"
     ],
     "Tencent": [
       "2026-10-03"
