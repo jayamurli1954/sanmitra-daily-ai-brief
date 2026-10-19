@@ -150,6 +150,32 @@ def set_distribution_regions(youtube, video_id):
         print(f"[!] Failed to set viewing regions: {e}")
 
 
+# Closes every description, episodes and Shorts alike (editor, 2026-10-19).
+DISCLAIMER = (
+    "DISCLAIMER\n"
+    "SanMitra AI News Wire is an independent news summary channel. Each episode summarises reporting from the "
+    "outlets credited on screen and linked in this description; it does not do its own investigative reporting. "
+    "Facts were checked against those sources at the time of publication, but AI news moves fast, so please confirm "
+    "details with the original source before relying on them. Nothing here is investment, legal or professional "
+    "advice. The narration uses AI-generated voices, and the images are illustrative stock photos, not footage of "
+    "the events described. The channel is not affiliated with or endorsed by any company, government or "
+    "organisation mentioned. Spotted an error? Email contact@sanmitratech.in and we will correct it in the "
+    "pinned comment."
+)
+MAX_DESCRIPTION = 4900
+
+
+def with_disclaimer(description):
+    """The description with the disclaimer at the end, trimmed so the whole thing fits YouTube's limit."""
+    desc = (description or "").replace("<", "").replace(">", "").rstrip()
+    if "DISCLAIMER" in desc:
+        return desc[:MAX_DESCRIPTION]
+    room = MAX_DESCRIPTION - len(DISCLAIMER) - 2
+    if len(desc) > room:
+        desc = desc[:room].rsplit("\n", 1)[0]
+    return f"{desc}\n\n{DISCLAIMER}" if desc else DISCLAIMER
+
+
 def upload_video(youtube, file_path, title, description, tags, category_id="28", privacy_status="private", publish_at=None):
     status = {
         "privacyStatus": "private" if publish_at else privacy_status,
@@ -158,10 +184,8 @@ def upload_video(youtube, file_path, title, description, tags, category_id="28",
     # YouTube publishes a private video automatically at publishAt.
     if publish_at:
         status["publishAt"] = publish_at
-    # Sanitize and enforce YouTube API constraints (max 5000 chars, no angle brackets)
-    clean_desc = description.replace("<", "").replace(">", "")
-    if len(clean_desc) > 4900:
-        clean_desc = clean_desc[:4900].rsplit("\n", 1)[0] + "\n\n... (Visit sanmitra.ai for full brief)"
+    # YouTube API constraints (max 5000 chars, no angle brackets), disclaimer last.
+    clean_desc = with_disclaimer(description)
 
     safe_tags = []
     curr_len = 0
