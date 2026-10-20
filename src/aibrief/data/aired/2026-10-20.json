@@ -1,0 +1,455 @@
+{
+  "weekly": false,
+  "date": "2026-10-20",
+  "formattedDate": "20 October 2026",
+  "title": "Australia's Ghost Shark drone subs | Anthropic commits 5% of its shares | Tenstorrent raises 1.5 billion | AI News 20 October 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking this morning: Australia's Ghost Shark drone subs will carry armed drones and sea mines. From the SanMitra Newsroom, this is the Daily AI Brief for 20 October 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_australia_s_ghost_shark_drone_su",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Australia's Ghost Shark drone subs will carry armed drones and sea mines",
+      "subheadline": "Source: ABC News",
+      "importanceScore": 99,
+      "durationSeconds": 51,
+      "source": "ABC News",
+      "sourceUrl": "https://www.abc.net.au/news/2026-10-19/ghost-shark-fleet-aerial-drones-sea-mines-defence/107283746",
+      "researchDesk": "",
+      "script": "Our lead story today. Australia's Defence department declassified on 19 October three payloads for its Anduril-built Ghost Shark autonomous submarines: swarms of Anduril Altius aerial drones that can scout or carry about 4 kg of explosives against vessels, up to 12 sea mines per run to close waterways, and supply caches for special forces. \"Dozens and dozens\" are being delivered under a A1.7 billion dollars contract signed last year; the first arrived in January and Ghost Sharks are this month in exercises with the US and UK off Southern California. Defence Industry Minister Pat Conroy said the drones \"now have teeth\", and the payloads are being offered to the US and UK under AUKUS Pillar Two. (Themes: technology trends; AI policy and regulation)",
+      "whyThisMatters": "Australia's Defence department declassified on 19 October three payloads for its Anduril-built Ghost Shark autonomous submarines: swarms of Anduril Altius aerial drones that can scout or carry about 4 kg of explosives ag",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Australia's Ghost Shark drone subs will carry armed drones and sea mines",
+        "ABC News"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s1_cut1.jpg",
+          "badge": "TACTICAL AEROSPACE • AUTONOMOUS DRONE FLIGHT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s1_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s1_cut3.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_anthropic_commits_5_of_its_share",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Anthropic commits 5% of its shares to a Public Benefit Fund",
+      "subheadline": "Source: Anthropic",
+      "importanceScore": 95,
+      "durationSeconds": 61,
+      "source": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/news/public-benefit-fund",
+      "researchDesk": "",
+      "script": "Turning to the United States. Anthropic said late on 18 October (US time) that, subject to stockholder approval, it will commit 5% of its shares to the Anthropic Public Benefit Fund, with another 2% added at the board's discretion for every 50% rise in company value above a baseline it has not disclosed. The fund is a wholly owned LLC, not a charity, so it can make large nonprofit donations or direct payments to specific groups; Anthropic named AI's impact on jobs as one example and said none of the equity will go to lobbying or political giving. With co-founder pledges and an employee match, it says about 20% of its shares are now set aside for public purposes. Reuters noted that Elon Musk replied by pledging one SpaceX share to \"every kid in America\" next year. (Themes: AI industry and startup news; AI policy and regulation)",
+      "whyThisMatters": "Anthropic said late on 18 October (US time) that, subject to stockholder approval, it will commit 5% of its shares to the Anthropic Public Benefit Fund, with another 2% added at the board's discretion for every 50% rise ",
+      "sourceType": "company",
+      "keyPoints": [
+        "Anthropic commits 5% of its shares to a Public Benefit Fund",
+        "Anthropic"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s2_cut1.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s2_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s2_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_tenstorrent_raises_1_5_billion_d",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Tenstorrent raises 1.5 billion dollars at a 6.2 billion dollars valuation",
+      "subheadline": "Source: Tenstorrent",
+      "importanceScore": 95,
+      "durationSeconds": 32,
+      "source": "Tenstorrent",
+      "sourceUrl": "https://tenstorrent.com/en/newsroom/tenstorrent-announces-series-e",
+      "researchDesk": "",
+      "script": "In other news. Jim Keller's AI chip startup Tenstorrent said on 19 October it closed a 1.5 billion dollars Series E at a 6.2 billion dollars post-money valuation, more than double its December 2024 mark. Trace Capital and Innovation X led, with ARK Invest, Sandisk, Morgan Stanley, T. Rowe Price and Tether Investments among backers. The money will scale production of its Galaxy servers, which link dozens of its RISC-V-based AI chips. (Theme: AI industry and startup news)",
+      "whyThisMatters": "Jim Keller's AI chip startup Tenstorrent said on 19 October it closed a $1.5 billion Series E at a $6.2 billion post-money valuation, more than double its December 2024 mark.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Tenstorrent raises 1.5 billion dollars at a 6.2 billion dollars valuation",
+        "Tenstorrent"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s3_cut1.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s3_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s3_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_minimax_ships_m3_1_flash_cutting",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "MiniMax ships M3.1 Flash, cutting prices as the Flash-model race heats up",
+      "subheadline": "Source: Reuters via Investing.com",
+      "importanceScore": 90,
+      "durationSeconds": 40,
+      "source": "Reuters via Investing.com",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/chinas-minimax-launches-updated-ai-model-m31-flash-claims-major-improvements-4957342",
+      "researchDesk": "",
+      "script": "In China. Shanghai-based MiniMax launched M3.1 Flash on 19 October, claiming \"generational\" gains in agent tasks, coding and cybersecurity, almost three times faster online inference and about 70% lower usage costs, Reuters reported. China Fund News put API pricing at 1 yuan per million input tokens and 4 yuan per million output tokens, and said MiniMax has teased a higher-end Pro version. Benchmark and speed figures are company claims. (Theme: new AI models and tools) No other major Chinese model launch landed in this window; DeepSeek's Flash-1017 and the Sugon 8000 supercluster were covered in prior briefs.",
+      "whyThisMatters": "Shanghai-based MiniMax launched M3.1 Flash on 19 October, claiming \"generational\" gains in agent tasks, coding and cybersecurity, almost three times faster online inference and about 70% lower usage costs, Reuters report",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "MiniMax ships M3.1 Flash, cutting prices as the Flash-model race heats up",
+        "Reuters via Investing.com"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s4_cut1.jpg",
+          "badge": "MINIMAX GROUP • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s4_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s4_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_seoul_hosts_the_first_global_ai",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Seoul hosts the first Global AI & Digital Summit held outside the US",
+      "subheadline": "Source: The Korea Times",
+      "importanceScore": 90,
+      "durationSeconds": 38,
+      "source": "The Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/business/tech-science/20261019/global-ai-digital-summit-kicks-off-3-day-run-in-seoul",
+      "researchDesk": "",
+      "script": "In Asia. South Korea's science ministry and the World Bank Group opened the three-day Global AI & Digital Summit in Seoul on 19 October, with officials from about 60 countries plus companies and researchers, Yonhap reported. Science Minister Bae Kyung-hoon and the World Bank's Kim Sang-bu co-chair a ministerial meeting, and Seoul is presenting its \"AI for all\" initiative. It is a convening, not a new binding agreement. (Themes: AI policy and regulation; technology trends) No major new Japan or Singapore model launch or binding AI law landed in this window.",
+      "whyThisMatters": "South Korea's science ministry and the World Bank Group opened the three-day Global AI & Digital Summit in Seoul on 19 October, with officials from about 60 countries plus companies and researchers, Yonhap reported.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Seoul hosts the first Global AI & Digital Summit held outside the US",
+        "The Korea Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s5_cut1.jpg",
+          "badge": "SEOUL • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s5_cut2.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s5_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_birla_ai_labs_open_sources_yug_1",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Birla AI Labs open-sources Yug-1 for business forecasting",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 28,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/ai/ai-insights/birla-ai-labs-launches-yug-1-to-forecast-demand-and-spot-patterns-in-business-data/articleshow/135046483.cms",
+      "researchDesk": "",
+      "script": "Turning to India. Birla AI Labs released Yug-1 on 19 October, a 271.8-million-parameter time-series foundation model on GitHub and Hugging Face for demand planning, equipment monitoring, finance and infrastructure, with zero-shot probabilistic forecasts. Founder Ananya Birla said it scored 0.744 MASE on GiftEval (lower is better), ahead of Google's TimesFM 2.0 but behind IBM's and Salesforce's models; these are company-shared results. (Themes: new AI models and tools; AI breakthroughs)",
+      "whyThisMatters": "Birla AI Labs released Yug-1 on 19 October, a 271.8-million-parameter time-series foundation model on GitHub and Hugging Face for demand planning, equipment monitoring, finance and infrastructure, with zero-shot probabil",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Birla AI Labs open-sources Yug-1 for business forecasting",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s6_cut1.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s6_cut2.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s6_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_interpretable_ai_model_decodes_h",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Interpretable AI model decodes how immune cells are recruited into tissue",
+      "subheadline": "Source: Nature Biomedical Engineering",
+      "importanceScore": 90,
+      "durationSeconds": 33,
+      "source": "Nature Biomedical Engineering",
+      "sourceUrl": "https://www.nature.com/articles/s41551-026-01803-7",
+      "researchDesk": "",
+      "script": "Around the world. A Nature Biomedical Engineering research briefing published 19 October describes SPACER, an interpretable neural network that learns the rules of cell recruitment directly from spatial transcriptomics data. Across several cancers it points to local antigen-presentation machinery and tumour mucins as drivers of T-cell recruitment into tumours, and in a mouse model of severe checkpoint-inhibitor myocarditis it flags CD4+ T cells as key disease drivers. This is peer-reviewed research, not a clinical tool. (Theme: AI breakthroughs) ---",
+      "whyThisMatters": "A Nature Biomedical Engineering research briefing published 19 October describes SPACER, an interpretable neural network that learns the rules of cell recruitment directly from spatial transcriptomics data.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Interpretable AI model decodes how immune cells are recruited into tissue",
+        "Nature Biomedical Engineering"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s7_cut1.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s7_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s7_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_microsoft_pitches_project_percep",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Microsoft pitches Project Perception to contain \"agentic insiders\"",
+      "subheadline": "Source: Microsoft",
+      "importanceScore": 90,
+      "durationSeconds": 38,
+      "source": "Microsoft",
+      "sourceUrl": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+      "researchDesk": "",
+      "script": "Turning to the United States. In a 19 October post, Microsoft Security EVP Hayete Gallot argued that companies' own AI agents are now overprivileged \"agentic insiders\" that cannot be fully trusted, and said Project Perception, first announced in July, can discover agents, give each an identity and scoped permissions, and use \"Guardian Agents\" to supervise every action in real time. She also called for more model transparency, including chain-of-thought tokens, to judge whether an agent's intent matches its task. These are Microsoft's product claims. (Theme: new AI models and tools) ---",
+      "whyThisMatters": "In a 19 October post, Microsoft Security EVP Hayete Gallot argued that companies' own AI agents are now overprivileged \"agentic insiders\" that cannot be fully trusted, and said Project Perception, first announced in July",
+      "sourceType": "company",
+      "keyPoints": [
+        "Microsoft pitches Project Perception to contain \"agentic insiders\"",
+        "Microsoft"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s8_cut1.jpg",
+          "badge": "REDMOND • MICROSOFT REDMOND CAMPUS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s8_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s8_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_trade_marks_registry_drafts_ai_d",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Trade Marks Registry drafts AI disclosure rules for filings",
+      "subheadline": "Source: MediaNama",
+      "importanceScore": 90,
+      "durationSeconds": 31,
+      "source": "MediaNama",
+      "sourceUrl": "https://www.medianama.com/2026/10/223-india-trade-marks-registry-ai-guidelines/",
+      "researchDesk": "",
+      "script": "Turning to India. India's Trade Marks Registry has proposed that every filing declare whether AI was used, with non-disclosure treated as misrepresentation; AI-suggested citations must be checked against official sources, and AI may not be used to write or alter affidavits or fabricate evidence such as labels, invoices or survey data. The Registrar could strike off filings and refer agents or advocates for discipline. This is a draft out for comment. (Theme: AI policy and regulation)",
+      "whyThisMatters": "India's Trade Marks Registry has proposed that every filing declare whether AI was used, with non-disclosure treated as misrepresentation; AI-suggested citations must be checked against official sources, and AI may not b",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Trade Marks Registry drafts AI disclosure rules for filings",
+        "MediaNama"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s9_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s9_cut2.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-20/s9_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. Australia's Ghost Shark drone subs will carry armed drones and sea mines. Anthropic commits 5% of its shares to a Public Benefit Fund. Tenstorrent raises 1.5 billion dollars at a 6.2 billion dollars valuation. MiniMax ships M3.1 Flash, cutting prices as the Flash-model race heats up. Seoul hosts the first Global AI & Digital Summit held outside the US. Birla AI Labs open-sources Yug-1 for business forecasting.",
+    "items": [
+      "✓ Australia's Ghost Shark drone subs will carry ar",
+      "✓ Anthropic commits 5% of its shares to a Public B",
+      "✓ Tenstorrent raises 1.5 billion dollars at a 6.2 ",
+      "✓ MiniMax ships M3.1 Flash, cutting prices as the ",
+      "✓ Seoul hosts the first Global AI & Digital Summit",
+      "✓ Birla AI Labs open-sources Yug-1 for business fo",
+      "✓ Interpretable AI model decodes how immune cells "
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Australia's Ghost Shark drone subs will carry",
+    "Anthropic commits 5% of its shares to a Publi",
+    "Tenstorrent raises 1.5 billion dollars at a 6",
+    "MiniMax ships M3.1 Flash, cutting prices as t",
+    "Seoul hosts the first Global AI & Digital Sum",
+    "Birla AI Labs open-sources Yug-1 for business",
+    "Interpretable AI model decodes how immune cel",
+    "Microsoft pitches Project Perception to conta",
+    "Trade Marks Registry drafts AI disclosure rul"
+  ],
+  "thumbnail": {
+    "date": "20 OCTOBER 2026",
+    "headline": "AUSTRALIA'S GHOST SHARK DRONE SUBS WILL",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "AUSTRALIA'S GHOST SHARK DRONE SUBS",
+      "ANTHROPIC COMMITS 5% OF ITS SHARES",
+      "TENSTORRENT RAISES 1.5 BILLION",
+      "MINIMAX SHIPS M3.1 FLASH, CUTTING"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Australia's Ghost Shark drone subs | Anthropic commits 5% of its shares | Tenstorrent raises 1.5 billion | AI News 20 October 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 20 October 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

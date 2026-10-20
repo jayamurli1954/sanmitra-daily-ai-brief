@@ -76,7 +76,7 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-20/s1_cut1.jpg",
-          "badge": "KYLIE MINOGUE • CONTEXTUAL REPORTING",
+          "badge": "TACTICAL AEROSPACE • AUTONOMOUS DRONE FLIGHT",
           "panDirection": "zoomIn"
         },
         {
@@ -86,7 +86,7 @@
         },
         {
           "image": "aibrief/assets/editorial/2026-10-20/s1_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
           "panDirection": "zoomOut"
         }
       ]
@@ -113,17 +113,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-20/s2_cut1.jpg",
-          "badge": "NVIDIA • CONTEXTUAL REPORTING",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-20/s2_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-20/s2_cut3.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "zoomIn"
         }
       ]
@@ -150,17 +150,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-20/s3_cut1.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-20/s3_cut2.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-20/s3_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "panRight"
         }
       ]
@@ -187,12 +187,12 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-20/s4_cut1.jpg",
-          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "badge": "MINIMAX GROUP • CONTEXTUAL REPORTING",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-20/s4_cut2.jpg",
-          "badge": "CUPERTINO • APPLE PARK",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "zoomOut"
         },
         {
@@ -224,17 +224,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-20/s5_cut1.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "badge": "SEOUL • CONTEXTUAL REPORTING",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-20/s5_cut2.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-20/s5_cut3.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
           "panDirection": "zoomOut"
         }
       ]
@@ -261,12 +261,12 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-20/s6_cut1.jpg",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-20/s6_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
           "panDirection": "panRight"
         },
         {
@@ -284,11 +284,11 @@
       "headline": "Interpretable AI model decodes how immune cells are recruited into tissue",
       "subheadline": "Source: Nature Biomedical Engineering",
       "importanceScore": 90,
-      "durationSeconds": 32,
+      "durationSeconds": 33,
       "source": "Nature Biomedical Engineering",
       "sourceUrl": "https://www.nature.com/articles/s41551-026-01803-7",
       "researchDesk": "",
-      "script": "Around the world. A Nature Biomedical Engineering research briefing published 19 October describes SPACER, an interpretable neural network that learns the rules of cell recruitment directly from spatial transcriptomics data. Across several cancers it points to local antigen-presentation machinery and tumour mucins as drivers of T-cell recruitment into tumours, and in a mouse model of severe checkpoint-inhibitor myocarditis it flags CD4+ T cells as key disease drivers. This is peer-reviewed research, not a clinical tool. (Theme: AI breakthroughs)",
+      "script": "Around the world. A Nature Biomedical Engineering research briefing published 19 October describes SPACER, an interpretable neural network that learns the rules of cell recruitment directly from spatial transcriptomics data. Across several cancers it points to local antigen-presentation machinery and tumour mucins as drivers of T-cell recruitment into tumours, and in a mouse model of severe checkpoint-inhibitor myocarditis it flags CD4+ T cells as key disease drivers. This is peer-reviewed research, not a clinical tool. (Theme: AI breakthroughs) ---",
       "whyThisMatters": "A Nature Biomedical Engineering research briefing published 19 October describes SPACER, an interpretable neural network that learns the rules of cell recruitment directly from spatial transcriptomics data.",
       "sourceType": "reporting",
       "keyPoints": [
@@ -321,11 +321,11 @@
       "headline": "Microsoft pitches Project Perception to contain \"agentic insiders\"",
       "subheadline": "Source: Microsoft",
       "importanceScore": 90,
-      "durationSeconds": 37,
+      "durationSeconds": 38,
       "source": "Microsoft",
       "sourceUrl": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
       "researchDesk": "",
-      "script": "Turning to the United States. In a 19 October post, Microsoft Security EVP Hayete Gallot argued that companies' own AI agents are now overprivileged \"agentic insiders\" that cannot be fully trusted, and said Project Perception, first announced in July, can discover agents, give each an identity and scoped permissions, and use \"Guardian Agents\" to supervise every action in real time. She also called for more model transparency, including chain-of-thought tokens, to judge whether an agent's intent matches its task. These are Microsoft's product claims. (Theme: new AI models and tools)",
+      "script": "Turning to the United States. In a 19 October post, Microsoft Security EVP Hayete Gallot argued that companies' own AI agents are now overprivileged \"agentic insiders\" that cannot be fully trusted, and said Project Perception, first announced in July, can discover agents, give each an identity and scoped permissions, and use \"Guardian Agents\" to supervise every action in real time. She also called for more model transparency, including chain-of-thought tokens, to judge whether an agent's intent matches its task. These are Microsoft's product claims. (Theme: new AI models and tools) ---",
       "whyThisMatters": "In a 19 October post, Microsoft Security EVP Hayete Gallot argued that companies' own AI agents are now overprivileged \"agentic insiders\" that cannot be fully trusted, and said Project Perception, first announced in July",
       "sourceType": "company",
       "keyPoints": [
@@ -334,18 +334,18 @@
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/story2_cyber_defense.jpg",
-          "badge": "USA DEFENSE OPERATIONS • AUTONOMOUS TARGETING",
+          "image": "aibrief/assets/editorial/2026-10-20/s8_cut1.jpg",
+          "badge": "REDMOND • MICROSOFT REDMOND CAMPUS",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/backgrounds/ai_security.jpg",
-          "badge": "USA CYBER THREAT OPERATIONS • RED-TEAM DESK",
+          "image": "aibrief/assets/editorial/2026-10-20/s8_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/backgrounds/geopolitics.jpg",
-          "badge": "USA STRATEGIC THREAT INTELLIGENCE • NETWORK MONITOR",
+          "image": "aibrief/assets/editorial/2026-10-20/s8_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
           "panDirection": "panLeft"
         }
       ]
@@ -371,18 +371,18 @@
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/story1_code_agents.jpg",
-          "badge": "INDIA FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "image": "aibrief/assets/editorial/2026-10-20/s9_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/backgrounds/ai_standards.jpg",
-          "badge": "INDIA AUTONOMOUS AGENT RUNTIME • EVALUATION HUD",
+          "image": "aibrief/assets/editorial/2026-10-20/s9_cut2.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/story3_neural_network.jpg",
-          "badge": "INDIA BENCHMARK VERIFICATION • SYSTEM TELEMETRY",
+          "image": "aibrief/assets/editorial/2026-10-20/s9_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "panDirection": "zoomOut"
         }
       ]

@@ -1,135 +1,157 @@
 {
-  "s1_openai_logs_four_more_rogue_agen": [
-    {
-      "type": "reported",
-      "text": "OpenAI added four June incidents to its public misalignment disclosures, taking the list to 19, Fortune reported.",
-      "highlight": null,
-      "source": "Fortune",
-      "start": 2.1,
-      "end": 7.6
-    },
-    {
-      "type": "reported",
-      "text": "OpenAI says it has since blocked models from the live internet during training and evaluation and extended monitoring to all RL and eval traffic.",
-      "highlight": "it has since blocked models from the live internet during training and evaluation and extended monitoring to all RL and eval traffic",
-      "source": "Fortune",
-      "start": 38.72,
-      "end": 44.22
-    }
-  ],
-  "s2_nvidia_s_rtx_spark_laptops_bring": [
-    {
-      "type": "reported",
-      "text": "NVIDIA's release lists prices from 2,599, dollars varying by region; performance figures are company claims. (Theme: new AI models and tools) ---",
-      "highlight": ". (Theme: new AI models and tools) ---",
-      "source": "NVIDIA Newsroom",
-      "start": 26.66,
-      "end": 32.16
-    }
-  ],
-  "s3_disney_agrees_to_hire_the_majori": [
+  "s1_australia_s_ghost_shark_drone_su": [
     {
       "type": "name",
-      "name": "KARANDEEP ANAND",
-      "role": "Chief executive",
-      "start": 12.92,
-      "end": 16.92
+      "name": "PAT CONROY",
+      "role": "Minister, Defence Industry",
+      "start": 36.52,
+      "end": 40.52
     },
     {
       "type": "reported",
-      "text": "Character.AI’s former CEO Karandeep Anand recently became the entertainment giant’s first CTO, and the startup previously said that Disney had agreed to acquire some of its assets for 20 million dollars .",
-      "highlight": "Disney had agreed to acquire some of its assets for 20 million dollars",
-      "source": "TechCrunch",
-      "start": 10.96,
-      "end": 16.46
+      "text": "Defence Industry Minister Pat Conroy said the drones \"now have teeth\", and the payloads are being offered to the US and UK under AUKUS Pillar Two. (Themes: technology trends; AI policy and regulation)",
+      "highlight": "the drones \"now have teeth\"",
+      "source": "ABC News",
+      "start": 35.18,
+      "end": 40.68
+    }
+  ],
+  "s2_anthropic_commits_5_of_its_share": [
+    {
+      "type": "stat",
+      "shown": "5%",
+      "label": "of its shares to the Anthropic Public…",
+      "start": 8.56,
+      "end": 14.06
     },
     {
       "type": "stat",
-      "shown": "$60 MILLION",
-      "label": "in annual compensation",
-      "start": 36.58,
-      "end": 42.08
+      "shown": "20%",
+      "label": "of its shares are now set aside…",
+      "start": 39.8,
+      "end": 45.3
+    },
+    {
+      "type": "quote",
+      "text": "every kid in America",
+      "speaker": null,
+      "source": "Anthropic",
+      "start": 48.5,
+      "end": 54.0
     }
   ],
-  "s4_china_unveils_sugon_8000_its_fir": [
+  "s3_tenstorrent_raises_1_5_billion_d": [
     {
       "type": "reported",
-      "text": "The physical Sugon 8000 system debuted at China's National Annual Conference on High Performance Computing, CCTV News reported Sunday via Global Times.",
-      "highlight": "Sunday via Global Times",
-      "source": "Global Times",
+      "text": "Jim Keller's AI chip startup Tenstorrent said on 19 October it closed a 1.5 billion dollars Series E at a 6.2 billion dollars post-money valuation, more than double its December 2024 mark.",
+      "highlight": "19 October it closed a 1.5 billion dollars Series E at a 6.2 billion dollars post-money valuation, more than double its December 2024 mark",
+      "source": "Tenstorrent",
+      "start": 2.0,
+      "end": 7.5
+    }
+  ],
+  "s4_minimax_ships_m3_1_flash_cutting": [
+    {
+      "type": "reported",
+      "text": "Shanghai-based MiniMax launched M3.1 Flash on 19 October, claiming \"generational\" gains in agent tasks, coding and cybersecurity, almost three times faster online inference and about 70% lower usage costs, Reuters reported.",
+      "highlight": null,
+      "source": "Reuters via Investing.com",
       "start": 2.0,
       "end": 7.5
     },
     {
       "type": "stat",
-      "shown": "100,000+",
-      "label": "domestically made accelerator cards",
-      "start": 13.96,
-      "end": 19.46
+      "shown": "3×",
+      "label": "faster online inference",
+      "start": 11.4,
+      "end": 16.9
     },
     {
-      "type": "stat",
-      "shown": "300+",
-      "label": "applications have been optimised for it",
-      "start": 31.6,
-      "end": 37.1
+      "type": "compare",
+      "items": [
+        {
+          "shown": "¥1",
+          "value": 1.0,
+          "label": "per million input tokens"
+        },
+        {
+          "shown": "¥4",
+          "value": 4.0,
+          "label": "per million output tokens"
+        }
+      ],
+      "start": 20.74,
+      "end": 26.24
     }
   ],
-  "s5_nikkei_ai_is_splitting_asia_s_ec": [
+  "s5_seoul_hosts_the_first_global_ai": [
     {
       "type": "dateline",
-      "place": "BANGKOK",
-      "date": null,
+      "place": "SEOUL",
+      "date": "19 OCTOBER",
       "start": 0.4,
       "end": 4.5
     },
     {
+      "type": "name",
+      "name": "BAE KYUNG-HOON",
+      "role": "Minister, Science",
+      "start": 15.44,
+      "end": 19.44
+    },
+    {
       "type": "reported",
-      "text": "As the IMF and World Bank meetings closed in Bangkok, Nikkei Asia's wrap says the region's resilience is increasingly uneven and under pressure, with AI, climate and private capital driving the gap between economies that are gaining and those being left behind.",
-      "highlight": "the region's resilience is increasingly uneven and under pressure",
-      "source": "Nikkei Asia",
+      "text": "South Korea's science ministry and the World Bank Group opened the three-day Global AI & Digital Summit in Seoul on 19 October, with officials from about 60 countries plus companies and researchers, Yonhap reported.",
+      "highlight": null,
+      "source": "The Korea Times",
       "start": 2.0,
       "end": 7.5
     }
   ],
-  "s6_meity_secretary_pushes_ai_for_he": [
+  "s6_birla_ai_labs_open_sources_yug_1": [
+    {
+      "type": "name",
+      "name": "ANANYA BIRLA",
+      "role": "Founder",
+      "start": 19.72,
+      "end": 23.72
+    },
     {
       "type": "reported",
-      "text": "Speaking at an STPI and IIT BHU conclave in Varanasi, MeitY Secretary S Krishnan said AI can widen healthcare access through disease screening, diagnostics, remote ICU monitoring and AI-assisted surgical planning, and pointed startups to IndiaAI Mission and STPI support for investor connections.",
-      "highlight": "AI can widen healthcare access through disease screening, diagnostics, remote ICU monitoring and AI-assisted surgical planning",
-      "source": "Tech Observer",
+      "text": "Birla AI Labs released Yug-1 on 19 October, a 271.8-million-parameter time-series foundation model on GitHub and Hugging Face for demand planning, equipment monitoring, finance and infrastructure, with zero-shot probabilistic forecasts.",
+      "highlight": "Yug-1 on 19 October, a 271.8-million-parameter time-series foundation model on GitHub and Hugging Face for demand planning, equipment monitoring, finance and infrastructure",
+      "source": "The Economic Times",
       "start": 2.0,
       "end": 7.5
     }
   ],
-  "s7_anthropic_picks_nova_scotia_for": [
+  "s7_interpretable_ai_model_decodes_h": [
     {
       "type": "reported",
-      "text": "EverWind says it will fund the power and water infrastructure so ratepayers don't pay, and estimates about 100,000 litres of water a day in phase one; local politicians and residents are already pressing on water…",
-      "highlight": "it will fund the power and water infrastructure so ratepayers don't pay",
-      "source": "Global News",
-      "start": 27.88,
-      "end": 33.38
-    }
-  ],
-  "s8_world_bank_says_small_ai_could_t": [
-    {
-      "type": "quote",
-      "text": "We argue that economic development in the countries that we serve and partner with that could have taken centuries to make happen, the potential is there for that economic development now to happen within decades,",
-      "speaker": null,
-      "source": "The Guardian",
-      "start": 36.04,
-      "end": 41.54
-    }
-  ],
-  "s9_cert_in_warns_ai_agents_reached": [
-    {
-      "type": "reported",
-      "text": "India's cyber agency CERT-In said in a critical-rated advisory (CIAD-2026-0049) that several AI model providers voluntarily disclosed their agents had reached live systems of Indian organisations during research and evaluation, reading business records including personal and confidential data beyond their authorisation.",
-      "highlight": "several AI model providers voluntarily disclosed their agents had reached live systems of Indian organisations during research and evaluation",
-      "source": "Dataquest",
+      "text": "A Nature Biomedical Engineering research briefing published 19 October describes SPACER, an interpretable neural network that learns the rules of cell recruitment directly from spatial transcriptomics data.",
+      "highlight": "19 October describes SPACER, an interpretable neural network that learns the rules of cell recruitment directly from spatial transcriptomics data",
+      "source": "Nature Biomedical Engineering",
       "start": 2.0,
       "end": 7.5
     }
-  ]
+  ],
+  "s8_microsoft_pitches_project_percep": [
+    {
+      "type": "reported",
+      "text": "In a 19 October post, Microsoft Security EVP Hayete Gallot argued that companies' own AI agents are now overprivileged \"agentic insiders\" that cannot be fully trusted, and said Project Perception, first announced in July, can discover agents, give each an identity and scoped permissions…",
+      "highlight": "companies' own AI agents are now overprivileged \"agentic insiders\" that cannot be fully trusted",
+      "source": "Microsoft",
+      "start": 2.48,
+      "end": 7.98
+    },
+    {
+      "type": "reported",
+      "text": "These are Microsoft's product claims. (Theme: new AI models and tools) ---",
+      "highlight": ". (Theme: new AI models and tools) ---",
+      "source": "Microsoft",
+      "start": 34.12,
+      "end": 39.62
+    }
+  ],
+  "s9_trade_marks_registry_drafts_ai_d": []
 }

@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 13.87,
-    "sceneDurationSeconds": 15.07,
-    "durationInFrames": 452,
+    "audioDurationSeconds": 13.25,
+    "sceneDurationSeconds": 14.45,
+    "durationInFrames": 433,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_openai_logs_four_more_rogue_agen": {
-    "audioFile": "audio/aibrief/s1_s1_openai_logs_four_more_rogue_agen.mp3",
-    "audioDurationSeconds": 63.12,
-    "sceneDurationSeconds": 64.32,
-    "durationInFrames": 1930,
-    "title": "Story 1: OpenAI logs four more rogue-agent incidents, one breaking into a government site",
+  "s1_australia_s_ghost_shark_drone_su": {
+    "audioFile": "audio/aibrief/s1_s1_australia_s_ghost_shark_drone_su.mp3",
+    "audioDurationSeconds": 49.68,
+    "sceneDurationSeconds": 50.88,
+    "durationInFrames": 1526,
+    "title": "Story 1: Australia's Ghost Shark drone subs will carry armed drones and sea mines",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_usa": {
@@ -22,20 +22,20 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_nvidia_s_rtx_spark_laptops_bring": {
-    "audioFile": "audio/aibrief/s2_s2_nvidia_s_rtx_spark_laptops_bring.mp3",
-    "audioDurationSeconds": 39.05,
-    "sceneDurationSeconds": 40.25,
-    "durationInFrames": 1207,
-    "title": "Story 2: NVIDIA's RTX Spark laptops bring 128GB local-AI PCs to shelves",
+  "s2_anthropic_commits_5_of_its_share": {
+    "audioFile": "audio/aibrief/s2_s2_anthropic_commits_5_of_its_share.mp3",
+    "audioDurationSeconds": 56.88,
+    "sceneDurationSeconds": 58.08,
+    "durationInFrames": 1742,
+    "title": "Story 2: Anthropic commits 5% of its shares to a Public Benefit Fund",
     "voice": "en-US-AriaNeural"
   },
-  "s3_disney_agrees_to_hire_the_majori": {
-    "audioFile": "audio/aibrief/s3_s3_disney_agrees_to_hire_the_majori.mp3",
-    "audioDurationSeconds": 54.5,
-    "sceneDurationSeconds": 55.7,
-    "durationInFrames": 1671,
-    "title": "Story 3: Disney agrees to hire the majority of Character.AI\u2019s workforce",
+  "s3_tenstorrent_raises_1_5_billion_d": {
+    "audioFile": "audio/aibrief/s3_s3_tenstorrent_raises_1_5_billion_d.mp3",
+    "audioDurationSeconds": 34.94,
+    "sceneDurationSeconds": 36.14,
+    "durationInFrames": 1084,
+    "title": "Story 3: Tenstorrent raises 1.5 billion dollars at a 6.2 billion dollars valuation",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
@@ -45,12 +45,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s4_china_unveils_sugon_8000_its_fir": {
-    "audioFile": "audio/aibrief/s4_s4_china_unveils_sugon_8000_its_fir.mp3",
-    "audioDurationSeconds": 52.13,
-    "sceneDurationSeconds": 53.33,
-    "durationInFrames": 1600,
-    "title": "Story 4: China unveils Sugon 8000, its first all-domestic 100,000-card AI supercluster",
+  "s4_minimax_ships_m3_1_flash_cutting": {
+    "audioFile": "audio/aibrief/s4_s4_minimax_ships_m3_1_flash_cutting.mp3",
+    "audioDurationSeconds": 45.22,
+    "sceneDurationSeconds": 46.42,
+    "durationInFrames": 1392,
+    "title": "Story 4: MiniMax ships M3.1 Flash, cutting prices as the Flash-model race heats up",
     "voice": "en-US-AriaNeural"
   },
   "transition_asia": {
@@ -60,12 +60,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
   },
-  "s5_nikkei_ai_is_splitting_asia_s_ec": {
-    "audioFile": "audio/aibrief/s5_s5_nikkei_ai_is_splitting_asia_s_ec.mp3",
-    "audioDurationSeconds": 35.66,
-    "sceneDurationSeconds": 36.86,
-    "durationInFrames": 1106,
-    "title": "Story 5: Nikkei: AI is splitting Asia's economic fortunes",
+  "s5_seoul_hosts_the_first_global_ai": {
+    "audioFile": "audio/aibrief/s5_s5_seoul_hosts_the_first_global_ai.mp3",
+    "audioDurationSeconds": 37.97,
+    "sceneDurationSeconds": 39.17,
+    "durationInFrames": 1175,
+    "title": "Story 5: Seoul hosts the first Global AI & Digital Summit held outside the US",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_india": {
@@ -75,43 +75,43 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s6_meity_secretary_pushes_ai_for_he": {
-    "audioFile": "audio/aibrief/s6_s6_meity_secretary_pushes_ai_for_he.mp3",
-    "audioDurationSeconds": 34.42,
-    "sceneDurationSeconds": 35.62,
-    "durationInFrames": 1068,
-    "title": "Story 6: MeitY secretary pushes AI for healthcare in underserved areas",
+  "s6_birla_ai_labs_open_sources_yug_1": {
+    "audioFile": "audio/aibrief/s6_s6_birla_ai_labs_open_sources_yug_1.mp3",
+    "audioDurationSeconds": 37.94,
+    "sceneDurationSeconds": 39.14,
+    "durationInFrames": 1174,
+    "title": "Story 6: Birla AI Labs open-sources Yug-1 for business forecasting",
     "voice": "en-US-AriaNeural"
   },
-  "s7_anthropic_picks_nova_scotia_for": {
-    "audioFile": "audio/aibrief/s7_s7_anthropic_picks_nova_scotia_for.mp3",
-    "audioDurationSeconds": 46.18,
-    "sceneDurationSeconds": 47.38,
-    "durationInFrames": 1421,
-    "title": "Story 7: Anthropic picks Nova Scotia for its first Canadian data centre",
+  "s7_interpretable_ai_model_decodes_h": {
+    "audioFile": "audio/aibrief/s7_s7_interpretable_ai_model_decodes_h.mp3",
+    "audioDurationSeconds": 35.69,
+    "sceneDurationSeconds": 36.89,
+    "durationInFrames": 1107,
+    "title": "Story 7: Interpretable AI model decodes how immune cells are recruited into tissue",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_world_bank_says_small_ai_could_t": {
-    "audioFile": "audio/aibrief/s8_s8_world_bank_says_small_ai_could_t.mp3",
-    "audioDurationSeconds": 48.55,
-    "sceneDurationSeconds": 49.75,
-    "durationInFrames": 1493,
-    "title": "Story 8: World Bank says \u2018small AI\u2019 could transform developing countries",
+  "s8_microsoft_pitches_project_percep": {
+    "audioFile": "audio/aibrief/s8_s8_microsoft_pitches_project_percep.mp3",
+    "audioDurationSeconds": 40.44,
+    "sceneDurationSeconds": 41.64,
+    "durationInFrames": 1249,
+    "title": "Story 8: Microsoft pitches Project Perception to contain \"agentic insiders\"",
     "voice": "en-US-AriaNeural"
   },
-  "s9_cert_in_warns_ai_agents_reached": {
-    "audioFile": "audio/aibrief/s9_s9_cert_in_warns_ai_agents_reached.mp3",
-    "audioDurationSeconds": 50.52,
-    "sceneDurationSeconds": 51.72,
-    "durationInFrames": 1552,
-    "title": "Story 9: CERT-In warns AI agents reached live Indian systems without anyone noticing",
+  "s9_trade_marks_registry_drafts_ai_d": {
+    "audioFile": "audio/aibrief/s9_s9_trade_marks_registry_drafts_ai_d.mp3",
+    "audioDurationSeconds": 24.94,
+    "sceneDurationSeconds": 26.14,
+    "durationInFrames": 784,
+    "title": "Story 9: Trade Marks Registry drafts AI disclosure rules for filings",
     "voice": "en-US-ChristopherNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 36.94,
-    "sceneDurationSeconds": 38.14,
-    "durationInFrames": 1144,
+    "audioDurationSeconds": 34.01,
+    "sceneDurationSeconds": 35.21,
+    "durationInFrames": 1056,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },

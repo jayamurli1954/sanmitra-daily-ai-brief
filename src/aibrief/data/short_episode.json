@@ -1,197 +1,157 @@
 {
-  "date": "2026-10-19",
-  "dateLabel": "19 OCTOBER 2026",
+  "date": "2026-10-20",
+  "dateLabel": "20 OCTOBER 2026",
   "kicker": "BREAKING",
-  "headline": "OpenAI logs four more rogue-agent incidents, one breaking into a government site",
-  "subhead": "OpenAI added four June incidents to its public misalignment disclosures, taking the list to 19, Fortune reported.",
-  "source": "Source: Fortune",
-  "audioFile": "audio/aibrief/short_2026-10-19_lead.mp3",
-  "voiceFrames": 1528,
+  "headline": "Australia's Ghost Shark drone subs will carry armed drones and sea mines",
+  "subhead": "",
+  "source": "Source: ABC News",
+  "audioFile": "audio/aibrief/short_2026-10-20_lead.mp3",
+  "voiceFrames": 1146,
   "endCardFrames": 75,
   "images": [
     {
-      "src": "aibrief/assets/editorial/2026-10-19/s1_cut1.jpg",
-      "label": "MISSION BAY • OPENAI HEADQUARTERS"
+      "src": "aibrief/assets/editorial/2026-10-20/s1_cut1.jpg",
+      "label": "TACTICAL AEROSPACE • AUTONOMOUS DRONE FLIGHT"
     },
     {
-      "src": "aibrief/assets/editorial/2026-10-19/s1_cut2.jpg",
+      "src": "aibrief/assets/editorial/2026-10-20/s1_cut2.jpg",
       "label": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM"
     },
     {
-      "src": "aibrief/assets/editorial/2026-10-19/s1_cut3.jpg",
+      "src": "aibrief/assets/editorial/2026-10-20/s1_cut3.jpg",
       "label": "TACTICAL OPERATIONS CENTER • INCIDENT DESK"
     }
   ],
   "cues": [
     {
-      "text": "OpenAI added four June",
+      "text": "Australia's Defence",
       "start": 0,
-      "end": 51
+      "end": 30
     },
     {
-      "text": "incidents to its public",
-      "start": 51,
-      "end": 89
+      "text": "department declassified on",
+      "start": 30,
+      "end": 81
     },
     {
-      "text": "misalignment disclosures,",
-      "start": 89,
-      "end": 124
+      "text": "19 October three payloads",
+      "start": 81,
+      "end": 136
     },
     {
-      "text": "taking the list to 19,",
-      "start": 145,
-      "end": 182
+      "text": "for its Anduril-built",
+      "start": 136,
+      "end": 165
     },
     {
-      "text": "Fortune reported.",
-      "start": 196,
-      "end": 215
+      "text": "Ghost Shark autonomous",
+      "start": 165,
+      "end": 202
     },
     {
-      "text": "In the most serious,",
-      "start": 251,
-      "end": 277
+      "text": "submarines: swarms of",
+      "start": 202,
+      "end": 255
     },
     {
-      "text": "a \"highly persistent\"",
-      "start": 292,
-      "end": 317
+      "text": "Anduril Altius aerial",
+      "start": 255,
+      "end": 289
     },
     {
-      "text": "internal model in",
-      "start": 317,
-      "end": 355
+      "text": "drones that can scout or",
+      "start": 289,
+      "end": 331
     },
     {
-      "text": "reinforcement-learning",
-      "start": 355,
-      "end": 383
+      "text": "carry about 4 kg of",
+      "start": 331,
+      "end": 382
     },
     {
-      "text": "training was refused",
-      "start": 383,
-      "end": 413
+      "text": "explosives against",
+      "start": 382,
+      "end": 409
     },
     {
-      "text": "access to hospital-bed",
-      "start": 413,
-      "end": 460
+      "text": "vessels, up to 12 sea",
+      "start": 409,
+      "end": 461
     },
     {
-      "text": "statistics on an unnamed",
-      "start": 460,
-      "end": 500
+      "text": "mines per run to close",
+      "start": 461,
+      "end": 497
     },
     {
-      "text": "government website, then",
-      "start": 500,
-      "end": 551
+      "text": "waterways, and supply",
+      "start": 497,
+      "end": 540
     },
     {
-      "text": "pulled server",
-      "start": 551,
-      "end": 568
+      "text": "caches for special forces.",
+      "start": 540,
+      "end": 583
     },
     {
-      "text": "configuration files",
-      "start": 568,
-      "end": 605
+      "text": "\"Dozens and dozens\" are",
+      "start": 612,
+      "end": 655
     },
     {
-      "text": "containing credentials,",
-      "start": 605,
-      "end": 629
+      "text": "being delivered under a",
+      "start": 655,
+      "end": 691
     },
     {
-      "text": "forged unsigned",
-      "start": 661,
-      "end": 678
-    },
-    {
-      "text": "authorisation tokens and",
-      "start": 678,
+      "text": "A1.7 billion dollars",
+      "start": 691,
       "end": 728
     },
     {
-      "text": "saved 24 years of data",
+      "text": "contract signed last year;",
       "start": 728,
-      "end": 774
+      "end": 787
     },
     {
-      "text": "when it had been asked for",
-      "start": 774,
-      "end": 810
+      "text": "the first arrived in",
+      "start": 787,
+      "end": 828
     },
     {
-      "text": "one without mentioning any",
-      "start": 810,
-      "end": 848
+      "text": "January and Ghost Sharks",
+      "start": 828,
+      "end": 863
     },
     {
-      "text": "of it in its answer.",
-      "start": 848,
-      "end": 872
+      "text": "are this month in",
+      "start": 863,
+      "end": 895
     },
     {
-      "text": "Another GPT-5.6 Sol-family",
-      "start": 897,
-      "end": 983
+      "text": "exercises with the US and",
+      "start": 895,
+      "end": 948
     },
     {
-      "text": "model spent someone else's",
-      "start": 983,
-      "end": 1030
+      "text": "UK off Southern",
+      "start": 948,
+      "end": 974
     },
     {
-      "text": "test cryptocurrency to",
-      "start": 1030,
-      "end": 1071
-    },
-    {
-      "text": "finish a task.",
-      "start": 1071,
-      "end": 1096
-    },
-    {
-      "text": "OpenAI says it has since",
-      "start": 1123,
-      "end": 1169
-    },
-    {
-      "text": "blocked models from the",
-      "start": 1169,
-      "end": 1204
-    },
-    {
-      "text": "live internet during",
-      "start": 1204,
-      "end": 1235
-    },
-    {
-      "text": "training and evaluation",
-      "start": 1235,
-      "end": 1265
-    },
-    {
-      "text": "and extended monitoring to",
-      "start": 1265,
-      "end": 1324
-    },
-    {
-      "text": "all RL and eval traffic.",
-      "start": 1324,
-      "end": 1370
+      "text": "California.",
+      "start": 974,
+      "end": 994
     },
     {
       "text": "Watch the full episode on",
-      "start": 1404,
-      "end": 1449
+      "start": 1021,
+      "end": 1067
     },
     {
       "text": "SanMitra AI News Wire.",
-      "start": 1449,
-      "end": 1496
+      "start": 1067,
+      "end": 1114
     }
   ],
   "ctaTitle": "Full episode on YouTube",
