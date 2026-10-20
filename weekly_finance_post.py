@@ -141,7 +141,7 @@ def render(monday, picked):
     for n, r in zip(numbers, picked):
         s = r["story"]
         lines += [f"{n} {s['headline'].strip()}",
-                  _first_sentence(s.get("whyThisMatters") or s.get("script", "")),
+                  _first_sentence(s.get("script") or s.get("whyThisMatters", ""))  # whyThisMatters is stored cut short,
                   f"👉 What it means for accountants: {r['line']}"]
         if s.get("source"):
             source = re.sub(r"\s+,\s+", " / ", s["source"].strip())
