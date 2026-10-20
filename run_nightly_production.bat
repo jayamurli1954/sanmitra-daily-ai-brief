@@ -41,5 +41,9 @@ REM 2. Build, fact-check, voice, render and upload (private until 09:30 IST).
 python run_autonomous_brief.py --date %EPISODE_DATE% --privacy private --publish-at-ist 09:30 >> "%LOG%" 2>&1
 set RC=%ERRORLEVEL%
 
+REM 3. Monday's "AI for Accountants" LinkedIn post from the week's episodes
+REM    (writes only when the episode date is a Monday; never fails the run).
+python weekly_finance_post.py --date %EPISODE_DATE% >> "%LOG%" 2>&1
+
 echo Finished at %TIME% with exit code %RC%. >> "%LOG%"
 exit /b %RC%
