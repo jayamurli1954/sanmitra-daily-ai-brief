@@ -22,6 +22,7 @@ import re
 from datetime import datetime, timedelta
 
 from src.aibrief.crew.text_utils import contains_any, is_election_story, is_stock_market_story
+from src.aibrief.generate_linkedin_article import clean_summary
 
 AIRED_DIR = os.path.join("src", "aibrief", "data", "aired")
 OUT_DIR = os.path.join("out", "aibrief")
@@ -61,6 +62,7 @@ FINANCE_WORDS = sorted({w for _, words, _ in THEMES for w in words} | {
 
 def _first_sentence(text, max_chars=300):
     text = re.sub(r"^(Turning to [^.]+\.|Now to [^.]+\.|In another development,?|Elsewhere,?)\s*", "", (text or "").strip())
+    text = clean_summary(text)  # the anchor's spoken link-ins ("Expanding on ..., ")
     first = re.split(r"(?<=[.!?])\s+", text)[0] if text else ""
     return first if len(first) <= max_chars else first[:max_chars].rsplit(" ", 1)[0] + "…"
 
