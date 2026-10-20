@@ -33,6 +33,7 @@ import {
 import { OfficeMitraVideo } from "./officemitra/OfficeMitraVideo";
 import { OfficeMitraSquare } from "./officemitra/OfficeMitraSquare";
 import { OfficeMitraVertical } from "./officemitra/OfficeMitraVertical";
+import { OfficeMitraDemo, totalDemoFrames, FPS as OM_DEMO_FPS } from "./officemitra/demo/OfficeMitraDemo";
 import {
   OM_FPS,
   OM_HEIGHT,
@@ -47,6 +48,17 @@ export const RemotionRoot: React.FC = () => {
   return (
     <>
       {/* --- OfficeMitra + SSDV Product Commercials --- */}
+      {/* OfficeMitra product demo on real app screenshots (1920x1080) */}
+      <Composition
+        id="OfficeMitraDemo16x9"
+        component={OfficeMitraDemo}
+        durationInFrames={totalDemoFrames()}
+        fps={OM_DEMO_FPS}
+        width={1920}
+        height={1080}
+      />
+
+
       {/* OfficeMitra 16:9 Widescreen Master (1920x1080, 124s) */}
       <Composition
         id="OfficeMitraMaster16x9"
