@@ -45,6 +45,11 @@ class AdoptEditorBriefTest(unittest.TestCase):
         with open(os.path.join(self.p, "editor", "2026-10-20.md"), encoding="utf-8") as f:
             self.assertIn("Editor's own", f.read())
 
+    def test_editor_brief_with_a_pasted_pipeline_section_is_still_moved(self):
+        pasted = EDITOR + "\n\n# SanMitra AI News Wire\n## Daily AI Brief - copy\n\n### Pasted\nBody.\n"
+        self.write("2026-10-20.md", pasted)
+        self.assertEqual(adopt("2026-10-20", self.p), "moved")
+
     def test_nothing_saved(self):
         self.assertEqual(adopt("2026-10-20", self.p), "none")
 
