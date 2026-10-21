@@ -23,6 +23,17 @@ class StoryRulesTest(unittest.TestCase):
                   "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck"]:
             self.assertFalse(is_stock_market_story(h), h)
 
+    def test_ipo_and_company_results_headlines(self):
+        for h in ["Anthropic's draft IPO filing shows $16.3B revenue and an $80.7B loss",
+                  "Anthropic told investors Q3 revenue hit 16.8 billion dollars",
+                  "Infosys quarterly results beat estimates on AI deals",
+                  "Cerebras files DRHP-style papers to go public"]:
+            self.assertTrue(is_stock_market_story(h), h)
+        for h in ["DeepSeek nears a funding round of about 14 billion dollars",
+                  "OpenAI will train government staff through iGOT Karmayogi",
+                  "Hone raises 60 million dollars for AI agents"]:
+            self.assertFalse(is_stock_market_story(h), h)
+
     def test_harvest_drops_stock_market_stories(self):
         h = NewsHarvester(target_date="2026-10-14")
         items = [

@@ -40,6 +40,12 @@ STOCK_MARKET_TERMS = [
     "shares plunge", "shares plunged", "shares sink", "shares soar", "sell-off", "selloff",
     "wall street", "nasdaq", "dow jones", "s&p 500", "sensex", "nifty", "kospi", "nikkei",
     "hang seng", "ftse", "market cap", "market value", "stock exchange", "bear market", "bull market",
+    # IPO filings and company financial results are out too (editor, 2026-10-21): not purely AI news.
+    "ipo", "ipos", "initial public offering", "drhp", "draft red herring", "goes public", "go public",
+    "going public", "public listing", "files to list", "quarterly results", "annual results",
+    "q1 results", "q2 results", "q3 results", "q4 results", "q1 revenue", "q2 revenue", "q3 revenue",
+    "q4 revenue", "quarterly revenue", "quarterly profit", "quarterly loss", "half-year revenue",
+    "net profit", "net loss", "earnings",
 ]
 
 
