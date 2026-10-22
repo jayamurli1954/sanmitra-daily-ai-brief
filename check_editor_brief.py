@@ -17,7 +17,7 @@ from datetime import datetime, timedelta
 from build_episode_from_prompt import clean_text_for_broadcast, parse_markdown_prompt
 from src.aibrief.crew.editor_brief import merge_editor_brief, parse_stories
 from src.aibrief.crew.fact_checker import MAX_EPISODE_STORIES, MIN_EPISODE_STORIES
-from src.aibrief.crew.text_utils import is_election_story, is_stock_market_story
+from src.aibrief.crew.text_utils import is_election_story, is_personal_scandal_story, is_stock_market_story
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -71,6 +71,8 @@ def check(date: str, editor_dir: str = os.path.join("prompts", "editor")) -> int
             notes.append("no link: add the article URL on the Source line")
         if is_stock_market_story(s["headline"]):
             notes.append("stock-market headline: not covered")
+        if is_personal_scandal_story(s["headline"]):
+            notes.append("personal lawsuit / scandal / celebrity: not AI news")
         if is_election_story(s["headline"], body):
             notes.append("mentions elections or US politicians: not covered (YouTube blocks promotion)")
         if words < 60:
