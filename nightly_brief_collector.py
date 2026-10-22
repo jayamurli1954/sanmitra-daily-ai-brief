@@ -119,6 +119,13 @@ def run_nightly_collection(target_date: str = None, push_git: bool = True, sync_
         print(f"[*] Dropping {len(market)} stock-market stories: " + "; ".join(s.get("headline", "")[:60] for s in market))
         candidate_stories = [s for s in candidate_stories if s not in market]
 
+    # No personal lawsuits, abuse allegations or celebrity gossip: editor's decision, 2026-10-22.
+    from src.aibrief.crew.text_utils import is_personal_scandal_story
+    scandal = [s for s in candidate_stories if is_personal_scandal_story(s.get("headline", ""))]
+    if scandal:
+        print(f"[*] Dropping {len(scandal)} personal/scandal stories: " + "; ".join(s.get("headline", "")[:60] for s in scandal))
+        candidate_stories = [s for s in candidate_stories if s not in scandal]
+
     # No election news (YouTube blocks promotion of it): editor's decision, 2026-10-18.
     from src.aibrief.crew.text_utils import is_election_story
     election = [s for s in candidate_stories if is_election_story(

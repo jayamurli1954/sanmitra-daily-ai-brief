@@ -35,7 +35,7 @@ from datetime import datetime, timedelta
 
 from src.aibrief.crew.fact_checker import MAX_EPISODE_STORIES
 from src.aibrief.crew.editor_brief import _same_story, _summary, parse_stories
-from src.aibrief.crew.text_utils import is_election_story, is_stock_market_story
+from src.aibrief.crew.text_utils import is_election_story, is_personal_scandal_story, is_stock_market_story
 from src.aibrief.impact_scoring import score_story_impact
 from validate_episode_sources import is_proper_article_url
 
@@ -100,7 +100,7 @@ def unaired(candidates: list, aired: list) -> list:
     for s in candidates:
         if is_stock_market_story(s["headline"]) or not is_proper_article_url(s.get("primary_url", "")):
             continue
-        if is_election_story(s["headline"], _summary(s)):
+        if is_election_story(s["headline"], _summary(s)) or is_personal_scandal_story(s["headline"]):
             continue
         if re.search(r"\s\|\s+[A-Z][a-z]+ [A-Z][a-z]+$", s["headline"]):
             continue  # an opinion column ("... | Richard Wilson"), not news

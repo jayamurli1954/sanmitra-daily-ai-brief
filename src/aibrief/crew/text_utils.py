@@ -77,6 +77,32 @@ ELECTION_TERMS = [
 ]
 
 
+# Personal lawsuits, abuse allegations and celebrity gossip are not AI news, even when
+# a famous AI name is involved (editor, 2026-10-22: "Judge dismisses Sam Altman's
+# sister's sexual abuse lawsuit" was the collector's lead). Judged on the headline;
+# a headline that is about AI itself (deepfakes, chatbots, AI models) is kept.
+PERSONAL_SCANDAL_TERMS = [
+    "sexual abuse", "sexual assault", "sexual harassment", "sexual misconduct", "abuse lawsuit",
+    "abuse allegations", "rape", "molestation", "molested", "divorce", "custody battle",
+    "affair", "his sister", "her sister", "sister's", "sister’s", "his brother", "her brother",
+    "brother's", "brother’s",
+    "his wife", "her husband", "family feud", "estranged", "scandal", "gossip", "celebrity",
+    "actress", "actor", "bollywood", "hollywood star", "arrested", "murder", "domestic violence",
+    "defamation suit", "paternity",
+]
+AI_SUBJECT_TERMS = [
+    "deepfake", "deepfakes", "ai-generated", "ai generated", "chatbot", "chatbots", "ai model",
+    "ai models", "ai tool", "ai tools", "ai agent", "ai agents", "generative ai", "algorithm",
+    "ai image", "ai images", "ai video", "ai voice", "grok", "chatgpt", "gemini", "claude",
+]
+
+
+def is_personal_scandal_story(title):
+    """True for personal lawsuits, abuse allegations and celebrity gossip whose
+    headline is not about AI itself."""
+    return contains_any(title, PERSONAL_SCANDAL_TERMS) and not contains_any(title, AI_SUBJECT_TERMS)
+
+
 def is_election_story(title, body=""):
     """True when the headline or the text mentions elections, campaigns or US politicians."""
     return contains_any(f"{title or ''} {body or ''}", ELECTION_TERMS)

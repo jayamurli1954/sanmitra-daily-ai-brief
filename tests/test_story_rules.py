@@ -34,6 +34,18 @@ class StoryRulesTest(unittest.TestCase):
                   "Hone raises 60 million dollars for AI agents"]:
             self.assertFalse(is_stock_market_story(h), h)
 
+    def test_personal_scandal_headlines(self):
+        from src.aibrief.crew.text_utils import is_personal_scandal_story
+        for h in ["Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+                  "Actress Mia Goth says it's 'incomprehensible' that Instagram allows this",
+                  "Tech founder's divorce turns into a family feud"]:
+            self.assertTrue(is_personal_scandal_story(h), h)
+        for h in ["Grok generates deepfake sexual abuse images, regulators probe",
+                  "Actor sues studio over AI voice clone of his performance",
+                  "OpenAI sued by authors over training data",
+                  "Anthropic’s Claude sent a fake murder tip to Philadelphia police"]:
+            self.assertFalse(is_personal_scandal_story(h), h)
+
     def test_harvest_drops_stock_market_stories(self):
         h = NewsHarvester(target_date="2026-10-14")
         items = [
