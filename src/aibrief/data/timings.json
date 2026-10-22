@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 13.25,
-    "sceneDurationSeconds": 14.45,
-    "durationInFrames": 433,
+    "audioDurationSeconds": 12.91,
+    "sceneDurationSeconds": 14.11,
+    "durationInFrames": 423,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_australia_s_ghost_shark_drone_su": {
-    "audioFile": "audio/aibrief/s1_s1_australia_s_ghost_shark_drone_su.mp3",
-    "audioDurationSeconds": 49.68,
-    "sceneDurationSeconds": 50.88,
-    "durationInFrames": 1526,
-    "title": "Story 1: Australia's Ghost Shark drone subs will carry armed drones and sea mines",
+  "s1_the_pentagon_lays_out_how_it_wil": {
+    "audioFile": "audio/aibrief/s1_s1_the_pentagon_lays_out_how_it_wil.mp3",
+    "audioDurationSeconds": 46.58,
+    "sceneDurationSeconds": 47.78,
+    "durationInFrames": 1434,
+    "title": "Story 1: The Pentagon lays out how it will stand up an Autonomous Warfare Command",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_usa": {
@@ -22,20 +22,20 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_anthropic_commits_5_of_its_share": {
-    "audioFile": "audio/aibrief/s2_s2_anthropic_commits_5_of_its_share.mp3",
-    "audioDurationSeconds": 56.88,
-    "sceneDurationSeconds": 58.08,
-    "durationInFrames": 1742,
-    "title": "Story 2: Anthropic commits 5% of its shares to a Public Benefit Fund",
+  "s2_openai_s_models_and_codex_are_co": {
+    "audioFile": "audio/aibrief/s2_s2_openai_s_models_and_codex_are_co.mp3",
+    "audioDurationSeconds": 33.84,
+    "sceneDurationSeconds": 35.04,
+    "durationInFrames": 1051,
+    "title": "Story 2: OpenAI's models and Codex are coming to Google Cloud",
     "voice": "en-US-AriaNeural"
   },
-  "s3_tenstorrent_raises_1_5_billion_d": {
-    "audioFile": "audio/aibrief/s3_s3_tenstorrent_raises_1_5_billion_d.mp3",
-    "audioDurationSeconds": 34.94,
-    "sceneDurationSeconds": 36.14,
-    "durationInFrames": 1084,
-    "title": "Story 3: Tenstorrent raises 1.5 billion dollars at a 6.2 billion dollars valuation",
+  "s3_claude_designed_protein_binders": {
+    "audioFile": "audio/aibrief/s3_s3_claude_designed_protein_binders.mp3",
+    "audioDurationSeconds": 55.13,
+    "sceneDurationSeconds": 56.33,
+    "durationInFrames": 1690,
+    "title": "Story 3: Claude designed protein binders against scorpion neurotoxins",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
@@ -45,12 +45,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s4_minimax_ships_m3_1_flash_cutting": {
-    "audioFile": "audio/aibrief/s4_s4_minimax_ships_m3_1_flash_cutting.mp3",
-    "audioDurationSeconds": 45.22,
-    "sceneDurationSeconds": 46.42,
-    "durationInFrames": 1392,
-    "title": "Story 4: MiniMax ships M3.1 Flash, cutting prices as the Flash-model race heats up",
+  "s4_bytedance_alibaba_and_tencent_re": {
+    "audioFile": "audio/aibrief/s4_s4_bytedance_alibaba_and_tencent_re.mp3",
+    "audioDurationSeconds": 41.78,
+    "sceneDurationSeconds": 42.98,
+    "durationInFrames": 1290,
+    "title": "Story 4: ByteDance, Alibaba and Tencent reportedly order 35 billion dollars + of Nvidia cards",
     "voice": "en-US-AriaNeural"
   },
   "transition_asia": {
@@ -60,12 +60,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
   },
-  "s5_seoul_hosts_the_first_global_ai": {
-    "audioFile": "audio/aibrief/s5_s5_seoul_hosts_the_first_global_ai.mp3",
-    "audioDurationSeconds": 37.97,
-    "sceneDurationSeconds": 39.17,
-    "durationInFrames": 1175,
-    "title": "Story 5: Seoul hosts the first Global AI & Digital Summit held outside the US",
+  "s5_korea_and_japan_hold_their_secon": {
+    "audioFile": "audio/aibrief/s5_s5_korea_and_japan_hold_their_secon.mp3",
+    "audioDurationSeconds": 32.86,
+    "sceneDurationSeconds": 34.06,
+    "durationInFrames": 1022,
+    "title": "Story 5: Korea and Japan hold their second AI working-level talks",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_india": {
@@ -75,43 +75,43 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s6_birla_ai_labs_open_sources_yug_1": {
-    "audioFile": "audio/aibrief/s6_s6_birla_ai_labs_open_sources_yug_1.mp3",
-    "audioDurationSeconds": 37.94,
-    "sceneDurationSeconds": 39.14,
-    "durationInFrames": 1174,
-    "title": "Story 6: Birla AI Labs open-sources Yug-1 for business forecasting",
+  "s6_principal_scientific_adviser_say": {
+    "audioFile": "audio/aibrief/s6_s6_principal_scientific_adviser_say.mp3",
+    "audioDurationSeconds": 31.7,
+    "sceneDurationSeconds": 32.9,
+    "durationInFrames": 987,
+    "title": "Story 6: Principal Scientific Adviser says India is open to a dedicated AI law",
     "voice": "en-US-AriaNeural"
   },
-  "s7_interpretable_ai_model_decodes_h": {
-    "audioFile": "audio/aibrief/s7_s7_interpretable_ai_model_decodes_h.mp3",
-    "audioDurationSeconds": 35.69,
-    "sceneDurationSeconds": 36.89,
-    "durationInFrames": 1107,
-    "title": "Story 7: Interpretable AI model decodes how immune cells are recruited into tissue",
+  "s7_sensetime_open_sources_a_robot_t": {
+    "audioFile": "audio/aibrief/s7_s7_sensetime_open_sources_a_robot_t.mp3",
+    "audioDurationSeconds": 39.91,
+    "sceneDurationSeconds": 41.11,
+    "durationInFrames": 1233,
+    "title": "Story 7: SenseTime open-sources a robot test harness and a 27B \"robot brain\"",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_microsoft_pitches_project_percep": {
-    "audioFile": "audio/aibrief/s8_s8_microsoft_pitches_project_percep.mp3",
-    "audioDurationSeconds": 40.44,
-    "sceneDurationSeconds": 41.64,
-    "durationInFrames": 1249,
-    "title": "Story 8: Microsoft pitches Project Perception to contain \"agentic insiders\"",
+  "s8_korean_police_and_singapore_s_ht": {
+    "audioFile": "audio/aibrief/s8_s8_korean_police_and_singapore_s_ht.mp3",
+    "audioDurationSeconds": 24.86,
+    "sceneDurationSeconds": 26.06,
+    "durationInFrames": 782,
+    "title": "Story 8: Korean police and Singapore's HTX sign an AI and robotics policing pact",
     "voice": "en-US-AriaNeural"
   },
-  "s9_trade_marks_registry_drafts_ai_d": {
-    "audioFile": "audio/aibrief/s9_s9_trade_marks_registry_drafts_ai_d.mp3",
-    "audioDurationSeconds": 24.94,
-    "sceneDurationSeconds": 26.14,
-    "durationInFrames": 784,
-    "title": "Story 9: Trade Marks Registry drafts AI disclosure rules for filings",
+  "s9_openai_will_train_government_sta": {
+    "audioFile": "audio/aibrief/s9_s9_openai_will_train_government_sta.mp3",
+    "audioDurationSeconds": 32.57,
+    "sceneDurationSeconds": 33.77,
+    "durationInFrames": 1013,
+    "title": "Story 9: OpenAI will train government staff through iGOT Karmayogi",
     "voice": "en-US-ChristopherNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 34.01,
-    "sceneDurationSeconds": 35.21,
-    "durationInFrames": 1056,
+    "audioDurationSeconds": 33.12,
+    "sceneDurationSeconds": 34.32,
+    "durationInFrames": 1030,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },

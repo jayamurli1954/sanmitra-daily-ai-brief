@@ -1,0 +1,455 @@
+{
+  "weekly": false,
+  "date": "2026-10-21",
+  "formattedDate": "21 October 2026",
+  "title": "One hacker's AI agents broke into | Washington formally orders | Meta opens up Prometheus, its | AI News 21 October 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking this morning: One hacker's AI agents broke into more than 100 company websites. From the SanMitra Newsroom, this is the Daily AI Brief for 21 October 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_one_hacker_s_ai_agents_broke_int",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "One hacker's AI agents broke into more than 100 company websites",
+      "subheadline": "Source: The Verge",
+      "importanceScore": 99,
+      "durationSeconds": 63,
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "researchDesk": "",
+      "script": "Our lead story today. Security researcher Snorre Fagerland of NorForge watched a Chinese-speaking hacker hand almost an entire hacking campaign to AI agents, Reuters reported. Starting 25 September, the agents tried more than 1,200 e-commerce sites in the US, Canada, Australia and Japan from instructions of fewer than 100 Chinese characters, and reached sites belonging to more than 100 companies; Reuters named Deere, SharkNinja and Cummins among them. A successful break-in took about 23 hours, and Fagerland estimates about 5,000 dollars of tokens in total, roughly 50 dollars per hack, apparently using a mix of DeepSeek models and Claude Code. The campaign ran on exposed copies of Cairn, an open-source agent platform. How much data was taken is not known; Deere said it saw no sign sensitive data was accessed and SharkNinja said a standalone support site was hit and contained. The report was published Monday and has not been independently audited.",
+      "whyThisMatters": "Security researcher Snorre Fagerland of NorForge watched a Chinese-speaking hacker hand almost an entire hacking campaign to AI agents, Reuters reported.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "One hacker's AI agents broke into more than 100 company websites",
+        "The Verge"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s1_cut1.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s1_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s1_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_washington_formally_orders_deeps",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Washington formally orders DeepSeek out of all civilian federal agencies",
+      "subheadline": "Source: Federal Register",
+      "importanceScore": 95,
+      "durationSeconds": 55,
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive",
+      "researchDesk": "",
+      "script": "Turning to the United States. The Department of Homeland Security published a notice in the Federal Register on 20 October of an order that bars federal civilian agencies from buying DeepSeek products and makes them remove DeepSeek software, affiliate products and third-party products built on DeepSeek from their IT systems. It was issued under the 2018 Federal Acquisition Supply Chain Security Act after a Federal Acquisition Security Council review. Homeland Security Secretary Markwayne Mullin's letter cites data stored on servers in China and the risk that prompts could pass sensitive data to the Chinese government. Agencies can seek exceptions with 60 days' notice and a \"compelling justification\". The order was signed months ago and is only now public, and it does not cover private or personal use. (Theme: AI policy and regulation)",
+      "whyThisMatters": "The Department of Homeland Security published a notice in the Federal Register on 20 October of an order that bars federal civilian agencies from buying DeepSeek products and makes them remove DeepSeek software, affiliat",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Washington formally orders DeepSeek out of all civilian federal agencies",
+        "Federal Register"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s2_cut1.jpg",
+          "badge": "HANGZHOU • HOME CITY OF DEEPSEEK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s2_cut2.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s2_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_meta_opens_up_prometheus_its_gig",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Meta opens up Prometheus, its gigawatt-scale training cluster",
+      "subheadline": "Source: Meta Engineering",
+      "importanceScore": 95,
+      "durationSeconds": 36,
+      "source": "Meta Engineering",
+      "sourceUrl": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+      "researchDesk": "",
+      "script": "In other news. In an engineering post, Meta said the first phase of Prometheus in New Albany, Ohio is complete and trained its Muse models, including Muse Wonder, and that it is scaling the site toward about 1 million GPUs. It reports more than 85% \"goodput\" (useful training time) on pre-training runs and more than 90% on reinforcement-learning runs, with a mean time between interruptions of about 47,000 GPU hours, since raised above 54,000 after firmware and fleet fixes. These are Meta's own figures. (Theme: technology trends) ---",
+      "whyThisMatters": "In an engineering post, Meta said the first phase of Prometheus in New Albany, Ohio is complete and trained its Muse models, including Muse Wonder, and that it is scaling the site toward about 1 million GPUs.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Meta opens up Prometheus, its gigawatt-scale training cluster",
+        "Meta Engineering"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s3_cut1.jpg",
+          "badge": "MENLO PARK • META HEADQUARTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s3_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU CLUSTERS • ACCELERATED COMPUTE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s3_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_deepseek_open_sources_deepinfer",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "DeepSeek open-sources DeepInfer, the engine behind its own API",
+      "subheadline": "Source: East Money , Securities Times",
+      "importanceScore": 90,
+      "durationSeconds": 36,
+      "source": "East Money , Securities Times",
+      "sourceUrl": "https://finance.eastmoney.com/news/1345,202610203901464872.html",
+      "researchDesk": "",
+      "script": "In China. DeepSeek said on the afternoon of 20 October that it is fully open-sourcing DeepInfer, the internal framework that schedules its compute clusters to serve users. It says DeepInfer already runs high-throughput, low-latency serving of DeepSeek V4.1 Flash and that inference code for future models will be published there, with the aim of cutting compute cost and power use for anyone self-hosting. The release lands the same day as the US federal ban above. Performance claims are DeepSeek's own. (Theme: new AI models and tools)",
+      "whyThisMatters": "DeepSeek said on the afternoon of 20 October that it is fully open-sourcing DeepInfer, the internal framework that schedules its compute clusters to serve users.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "DeepSeek open-sources DeepInfer, the engine behind its own API",
+        "East Money , Securities Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s4_cut1.jpg",
+          "badge": "HANGZHOU • HOME CITY OF DEEPSEEK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s4_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s4_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_south_korea_pitches_an_ai_hub_wi",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "South Korea pitches an AI hub with six development banks",
+      "subheadline": "Source: The Korea Times (Yonhap)",
+      "importanceScore": 90,
+      "durationSeconds": 45,
+      "source": "The Korea Times (Yonhap)",
+      "sourceUrl": "https://www.koreatimes.co.kr/economy/20261020/finance-minister-pledges-support-for-global-ai-basic-society",
+      "researchDesk": "",
+      "script": "In Asia. Speaking at the Global AI and Digital Summit in Seoul on 20 October, Finance Minister Lee Hyoung-il said Korea is working with six multilateral development banks, including the World Bank, to set up an AI hub bringing their AI cooperation centres together in Korea, aimed at a \"global AI basic society\" where no country is left out. He also discussed with World Bank President Ajay Banga sharing Korean nuclear-power know-how to give developing countries stable electricity for AI. The finance ministry put attendance at about 900 people from some 160 countries. It is a stated plan, not a signed agreement. (Themes: AI policy and regulation; technology trends)",
+      "whyThisMatters": "Speaking at the Global AI and Digital Summit in Seoul on 20 October, Finance Minister Lee Hyoung-il said Korea is working with six multilateral development banks, including the World Bank, to set up an AI hub bringing th",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "South Korea pitches an AI hub with six development banks",
+        "The Korea Times (Yonhap)"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s5_cut1.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s5_cut2.jpg",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s5_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_government_maps_a_sovereign_air",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Government maps a sovereign, air-gapped AI compute tier",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 33,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/govt-plans-sovereign-ai-infrastructure-with-tighter-control-over-data-gpus/articleshow/135059320.cms",
+      "researchDesk": "",
+      "script": "Turning to India. The government is drawing up a sovereign AI map that sorts sectors and data by sensitivity, The Economic Times reported, citing people familiar with the matter. For critical sectors such as defence, the infrastructure including GPUs would be \"on-premises, entirely owned by the government and air-gapped\"; for less sensitive but important categories the state may own the hardware while private firms run it. This is reported, not yet an official policy. (Theme: AI policy and regulation)",
+      "whyThisMatters": "The government is drawing up a sovereign AI map that sorts sectors and data by sensitivity, The Economic Times reported, citing people familiar with the matter.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Government maps a sovereign, air-gapped AI compute tier",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s6_cut1.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s6_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s6_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_ant_group_open_sources_five_ming",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Ant Group open-sources five Ming-3.0 speech models",
+      "subheadline": "Source: AIbase",
+      "importanceScore": 90,
+      "durationSeconds": 30,
+      "source": "AIbase",
+      "sourceUrl": "https://news.aibase.cn/news/31738",
+      "researchDesk": "",
+      "script": "In China. Ant's Bailing team released the Ming-3.0 speech family on 20 October: text-to-speech models at 0.5B and tiny sizes, two audio-understanding models that transcribe, summarise and analyse long recordings, and a tiny speech-recognition model that takes hot-word lists without retraining. Weights are on Hugging Face and ModelScope. Ant cites Artificial Analysis results that put its TTS model joint-first on pronunciation robustness; benchmark figures are company-reported. (Theme: new AI models and tools)",
+      "whyThisMatters": "Ant's Bailing team released the Ming-3.0 speech family on 20 October: text-to-speech models at 0.5B and tiny sizes, two audio-understanding models that transcribe, summarise and analyse long recordings, and a tiny speech",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Ant Group open-sources five Ming-3.0 speech models",
+        "AIbase"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s7_cut1.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s7_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s7_cut3.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_beijing_drafts_new_policy_to_fus",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Beijing drafts new policy to fuse AI with manufacturing",
+      "subheadline": "Source: East Money , Securities Times",
+      "importanceScore": 90,
+      "durationSeconds": 26,
+      "source": "East Money , Securities Times",
+      "sourceUrl": "https://finance.eastmoney.com/news/1345,202610203901464872.html",
+      "researchDesk": "",
+      "script": "Next. At a State Council Information Office briefing on 20 October, MIIT chief engineer Wang Weiming said the ministry is drafting measures for next-generation smart manufacturing, backing industrial datasets, vertical and industry-specific models, an industrial AI operating system and pilot \"industrial agents\" for scheduling, defect detection and maintenance. No text or timeline has been published yet. (Theme: AI policy and regulation) ---",
+      "whyThisMatters": "At a State Council Information Office briefing on 20 October, MIIT chief engineer Wang Weiming said the ministry is drafting measures for next-generation smart manufacturing, backing industrial datasets, vertical and ind",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Beijing drafts new policy to fuse AI with manufacturing",
+        "East Money , Securities Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s8_cut1.jpg",
+          "badge": "BEIJING • STATE COUNCIL DIRECTIVES",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s8_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s8_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_sk_chairman_calls_for_shared_kor",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "SK chairman calls for shared Korea-Japan AI infrastructure",
+      "subheadline": "Source: The Chosun Ilbo",
+      "importanceScore": 90,
+      "durationSeconds": 38,
+      "source": "The Chosun Ilbo",
+      "sourceUrl": "https://www.chosun.com/english/market-money-en/2026/10/20/VSTU7XHKFJBVLEJ5PB6BTH722Q/",
+      "researchDesk": "",
+      "script": "In Asia. SK Group chairman Chey Tae-won, who also heads the Korea Chamber of Commerce and Industry, proposed a joint Korea-Japan government task force to build shared AI factories and infrastructure, arguing the power demands of AI make going it alone too costly and that the two economies together form a roughly 6 trillion dollars bloc. He also said reports that SK Hynix would build a joint fab with Kioxia were a misunderstanding. It is a proposal in an interview, not a government plan. (Theme: AI industry and startup news) ---",
+      "whyThisMatters": "SK Group chairman Chey Tae-won, who also heads the Korea Chamber of Commerce and Industry, proposed a joint Korea-Japan government task force to build shared AI factories and infrastructure, arguing the power demands of ",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SK chairman calls for shared Korea-Japan AI infrastructure",
+        "The Chosun Ilbo"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s9_cut1.jpg",
+          "badge": "TERRAIN SURVEY • RURAL INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s9_cut2.jpg",
+          "badge": "HYPERSCALE COMPUTE • SERVER CLUSTER",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-21/s9_cut3.jpg",
+          "badge": "HYPERSCALE COMPUTE • SERVER CLUSTER",
+          "panDirection": "zoomOut"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. One hacker's AI agents broke into more than 100 company websites. Washington formally orders DeepSeek out of all civilian federal agencies. Meta opens up Prometheus, its gigawatt-scale training cluster. DeepSeek open-sources DeepInfer, the engine behind its own API. South Korea pitches an AI hub with six development banks. Government maps a sovereign, air-gapped AI compute tier.",
+    "items": [
+      "✓ One hacker's AI agents broke into more than 100 ",
+      "✓ Washington formally orders DeepSeek out of all c",
+      "✓ Meta opens up Prometheus, its gigawatt-scale tra",
+      "✓ DeepSeek open-sources DeepInfer, the engine behi",
+      "✓ South Korea pitches an AI hub with six developme",
+      "✓ Government maps a sovereign, air-gapped AI compu",
+      "✓ Ant Group open-sources five Ming-3.0 speech mode"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "One hacker's AI agents broke into more than 1",
+    "Washington formally orders DeepSeek out of al",
+    "Meta opens up Prometheus, its gigawatt-scale ",
+    "DeepSeek open-sources DeepInfer, the engine b",
+    "South Korea pitches an AI hub with six develo",
+    "Government maps a sovereign, air-gapped AI co",
+    "Ant Group open-sources five Ming-3.0 speech m",
+    "Beijing drafts new policy to fuse AI with man",
+    "SK chairman calls for shared Korea-Japan AI i"
+  ],
+  "thumbnail": {
+    "date": "21 OCTOBER 2026",
+    "headline": "ONE HACKER'S AI AGENTS BROKE INTO MORE THAN",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "ONE HACKER'S AI AGENTS BROKE INTO",
+      "WASHINGTON FORMALLY ORDERS DEEPSEEK",
+      "META OPENS UP PROMETHEUS, ITS",
+      "DEEPSEEK OPEN-SOURCES DEEPINFER,"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "One hacker's AI agents broke into | Washington formally orders | Meta opens up Prometheus, its | AI News 21 October 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 21 October 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

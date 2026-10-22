@@ -1,157 +1,119 @@
 {
-  "s1_australia_s_ghost_shark_drone_su": [
-    {
-      "type": "name",
-      "name": "PAT CONROY",
-      "role": "Minister, Defence Industry",
-      "start": 36.52,
-      "end": 40.52
-    },
-    {
-      "type": "reported",
-      "text": "Defence Industry Minister Pat Conroy said the drones \"now have teeth\", and the payloads are being offered to the US and UK under AUKUS Pillar Two. (Themes: technology trends; AI policy and regulation)",
-      "highlight": "the drones \"now have teeth\"",
-      "source": "ABC News",
-      "start": 35.18,
-      "end": 40.68
-    }
-  ],
-  "s2_anthropic_commits_5_of_its_share": [
-    {
-      "type": "stat",
-      "shown": "5%",
-      "label": "of its shares to the Anthropic Public…",
-      "start": 8.56,
-      "end": 14.06
-    },
-    {
-      "type": "stat",
-      "shown": "20%",
-      "label": "of its shares are now set aside…",
-      "start": 39.8,
-      "end": 45.3
-    },
+  "s1_the_pentagon_lays_out_how_it_wil": [
     {
       "type": "quote",
-      "text": "every kid in America",
+      "text": "urgency does not excuse imprecision",
       "speaker": null,
+      "source": "U.S. Department of War",
+      "start": 35.04,
+      "end": 40.54
+    }
+  ],
+  "s2_openai_s_models_and_codex_are_co": [
+    {
+      "type": "quote",
+      "text": "in the coming weeks",
+      "speaker": null,
+      "source": "OpenAI",
+      "start": 24.4,
+      "end": 29.9
+    }
+  ],
+  "s3_claude_designed_protein_binders": [
+    {
+      "type": "reported",
+      "text": "Anthropic said an internal research model working in Claude Science ran a mostly autonomous 64-hour design campaign, generating 318,484 candidate proteins against five scorpion neurotoxins and picking 180 for lab tests; with 31 added by the team…",
+      "highlight": "an internal research model working in Claude Science ran a mostly autonomous 64-hour design campaign",
       "source": "Anthropic",
-      "start": 48.5,
-      "end": 54.0
-    }
-  ],
-  "s3_tenstorrent_raises_1_5_billion_d": [
-    {
-      "type": "reported",
-      "text": "Jim Keller's AI chip startup Tenstorrent said on 19 October it closed a 1.5 billion dollars Series E at a 6.2 billion dollars post-money valuation, more than double its December 2024 mark.",
-      "highlight": "19 October it closed a 1.5 billion dollars Series E at a 6.2 billion dollars post-money valuation, more than double its December 2024 mark",
-      "source": "Tenstorrent",
-      "start": 2.0,
-      "end": 7.5
-    }
-  ],
-  "s4_minimax_ships_m3_1_flash_cutting": [
-    {
-      "type": "reported",
-      "text": "Shanghai-based MiniMax launched M3.1 Flash on 19 October, claiming \"generational\" gains in agent tasks, coding and cybersecurity, almost three times faster online inference and about 70% lower usage costs, Reuters reported.",
-      "highlight": null,
-      "source": "Reuters via Investing.com",
       "start": 2.0,
       "end": 7.5
     },
     {
       "type": "stat",
-      "shown": "3×",
-      "label": "faster online inference",
-      "start": 11.4,
-      "end": 16.9
-    },
-    {
-      "type": "compare",
-      "items": [
-        {
-          "shown": "¥1",
-          "value": 1.0,
-          "label": "per million input tokens"
-        },
-        {
-          "shown": "¥4",
-          "value": 4.0,
-          "label": "per million output tokens"
-        }
-      ],
-      "start": 20.74,
-      "end": 26.24
-    }
-  ],
-  "s5_seoul_hosts_the_first_global_ai": [
-    {
-      "type": "dateline",
-      "place": "SEOUL",
-      "date": "19 OCTOBER",
-      "start": 0.4,
-      "end": 4.5
-    },
-    {
-      "type": "name",
-      "name": "BAE KYUNG-HOON",
-      "role": "Minister, Science",
-      "start": 15.44,
-      "end": 19.44
+      "shown": "318,484",
+      "label": "candidate proteins against five scorpion neurotoxins",
+      "start": 9.0,
+      "end": 14.5
     },
     {
       "type": "reported",
-      "text": "South Korea's science ministry and the World Bank Group opened the three-day Global AI & Digital Summit in Seoul on 19 October, with officials from about 60 countries plus companies and researchers, Yonhap reported.",
-      "highlight": null,
-      "source": "The Korea Times",
+      "text": "All 211 designs and data are being released. (Theme: AI breakthroughs) ---",
+      "highlight": ". (Theme: AI breakthroughs) ---",
+      "source": "Anthropic",
+      "start": 48.54,
+      "end": 54.04
+    }
+  ],
+  "s4_bytedance_alibaba_and_tencent_re": [
+    {
+      "type": "stat",
+      "shown": "3 MILLION+",
+      "label": "of Nvidia's new RTX PRO 5500 cards…",
+      "start": 4.46,
+      "end": 9.96
+    },
+    {
+      "type": "reported",
+      "text": "Total Chinese orders reportedly exceed 6 million while Nvidia may make only about 3 million globally in 2027, and one source said partners might get just 5 10% of what they asked for.",
+      "highlight": "partners might get just 5 10% of what they asked for",
+      "source": "Business Standard (Reuters)",
+      "start": 18.42,
+      "end": 23.92
+    }
+  ],
+  "s5_korea_and_japan_hold_their_secon": [
+    {
+      "type": "reported",
+      "text": "No agreements were announced. (Theme: AI policy and regulation)",
+      "highlight": ". (Theme: AI policy and regulation)",
+      "source": "Aju Press",
+      "start": 26.6,
+      "end": 32.1
+    }
+  ],
+  "s6_principal_scientific_adviser_say": [
+    {
+      "type": "reported",
+      "text": "Ajay Kumar Sood told NDTV the government is open to a dedicated AI law and has begun preparing a consultation paper on \"targeted regulatory guardrails\", saying AI risks have become much clearer in the last year or two.",
+      "highlight": "NDTV the government is open to a dedicated AI law and has begun preparing a consultation paper on \"targeted regulatory guardrails\"",
+      "source": "NDTV",
       "start": 2.0,
       "end": 7.5
-    }
-  ],
-  "s6_birla_ai_labs_open_sources_yug_1": [
-    {
-      "type": "name",
-      "name": "ANANYA BIRLA",
-      "role": "Founder",
-      "start": 19.72,
-      "end": 23.72
     },
     {
       "type": "reported",
-      "text": "Birla AI Labs released Yug-1 on 19 October, a 271.8-million-parameter time-series foundation model on GitHub and Hugging Face for demand planning, equipment monitoring, finance and infrastructure, with zero-shot probabilistic forecasts.",
-      "highlight": "Yug-1 on 19 October, a 271.8-million-parameter time-series foundation model on GitHub and Hugging Face for demand planning, equipment monitoring, finance and infrastructure",
-      "source": "The Economic Times",
-      "start": 2.0,
-      "end": 7.5
+      "text": "No draft or timeline has been published. (Theme: AI policy and regulation)",
+      "highlight": ". (Theme: AI policy and regulation)",
+      "source": "NDTV",
+      "start": 24.86,
+      "end": 30.36
     }
   ],
-  "s7_interpretable_ai_model_decodes_h": [
+  "s7_sensetime_open_sources_a_robot_t": [
     {
       "type": "reported",
-      "text": "A Nature Biomedical Engineering research briefing published 19 October describes SPACER, an interpretable neural network that learns the rules of cell recruitment directly from spatial transcriptomics data.",
-      "highlight": "19 October describes SPACER, an interpretable neural network that learns the rules of cell recruitment directly from spatial transcriptomics data",
-      "source": "Nature Biomedical Engineering",
+      "text": "SenseTime released SenseNova-RoboRSI, a framework that packages 12 simulated robot benchmarks behind one API, alongside a 27B embodied model preview.",
+      "highlight": "packages 12 simulated robot benchmarks behind one API, alongside a 27B embodied model preview",
+      "source": "Pandaily",
       "start": 2.0,
       "end": 7.5
-    }
-  ],
-  "s8_microsoft_pitches_project_percep": [
-    {
-      "type": "reported",
-      "text": "In a 19 October post, Microsoft Security EVP Hayete Gallot argued that companies' own AI agents are now overprivileged \"agentic insiders\" that cannot be fully trusted, and said Project Perception, first announced in July, can discover agents, give each an identity and scoped permissions…",
-      "highlight": "companies' own AI agents are now overprivileged \"agentic insiders\" that cannot be fully trusted",
-      "source": "Microsoft",
-      "start": 2.48,
-      "end": 7.98
     },
     {
-      "type": "reported",
-      "text": "These are Microsoft's product claims. (Theme: new AI models and tools) ---",
-      "highlight": ". (Theme: new AI models and tools) ---",
-      "source": "Microsoft",
-      "start": 34.12,
-      "end": 39.62
+      "type": "stat",
+      "shown": "131",
+      "label": "minutes",
+      "start": 19.94,
+      "end": 25.44
     }
   ],
-  "s9_trade_marks_registry_drafts_ai_d": []
+  "s8_korean_police_and_singapore_s_ht": [],
+  "s9_openai_will_train_government_sta": [
+    {
+      "type": "stat",
+      "shown": "1.7 CRORE+",
+      "label": "registered government employees",
+      "start": 10.68,
+      "end": 16.18
+    }
+  ]
 }

@@ -1,0 +1,462 @@
+{
+  "weekly": false,
+  "date": "2026-10-22",
+  "formattedDate": "22 October 2026",
+  "title": "The Pentagon lays out how it will | OpenAI's models and Codex are | Claude designed protein binders | AI News 22 October 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking this morning: The Pentagon lays out how it will stand up an Autonomous Warfare Command. From the SanMitra Newsroom, this is the Daily AI Brief for 22 October 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_the_pentagon_lays_out_how_it_wil",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "The Pentagon lays out how it will stand up an Autonomous Warfare Command",
+      "subheadline": "Source: U.S. Department of War",
+      "importanceScore": 99,
+      "durationSeconds": 49,
+      "source": "U.S. Department of War",
+      "sourceUrl": "https://www.war.gov/News/Releases/Release/Article/4630269/department-of-wars-project-agincourt-accelerates-autonomous-warfare-command-to/",
+      "researchDesk": "",
+      "script": "Our lead story today. In an open letter to the Joint Force and industry on 21 October, Project Agincourt leaders Owen West and Senior Chief Max Strasiser set out the operational roadmap for the Autonomous Warfare Command (AUTOWARCOM), a planned four-star command for unmanned and autonomous warfare that the Department of War is targeting for 1 October 2027. The letter says procurement decisions and money will be pushed directly to frontline units, and success will be judged by how fast a battlefield problem gets a fielded, scalable fix rather than by paperwork milestones; it also warns that \"urgency does not excuse imprecision\". It is a roadmap, not a stood-up command. (Themes: AI policy and regulation; technology trends)",
+      "whyThisMatters": "In an open letter to the Joint Force and industry on 21 October, Project Agincourt leaders Owen West and Senior Chief Max Strasiser set out the operational roadmap for the Autonomous Warfare Command (AUTOWARCOM), a plann",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "The Pentagon lays out how it will stand up an Autonomous Warfare Command",
+        "U.S. Department of War"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s1_cut1.jpg",
+          "badge": "ARLINGTON • THE PENTAGON HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s1_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s1_cut3.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_openai_s_models_and_codex_are_co",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "OpenAI's models and Codex are coming to Google Cloud",
+      "subheadline": "Source: OpenAI",
+      "importanceScore": 95,
+      "durationSeconds": 33,
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/index/openai-models-google-cloud",
+      "researchDesk": "",
+      "script": "Turning to the United States. OpenAI and Google Cloud announced on 21 October that OpenAI's frontier models and Codex agentic workflows will be sold through Google Cloud's Model Garden and Marketplace, and customers can count the spend against their existing Google Cloud commitments. OpenAI models will also come to Google Antigravity and the Gemini Agent. General availability is planned \"in the coming weeks\", and OpenAI says Microsoft remains its primary cloud partner. (Theme: new AI models and tools) ---",
+      "whyThisMatters": "OpenAI and Google Cloud announced on 21 October that OpenAI's frontier models and Codex agentic workflows will be sold through Google Cloud's Model Garden and Marketplace, and customers can count the spend against their ",
+      "sourceType": "company",
+      "keyPoints": [
+        "OpenAI's models and Codex are coming to Google Cloud",
+        "OpenAI"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s2_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s2_cut2.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s2_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_claude_designed_protein_binders",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Claude designed protein binders against scorpion neurotoxins",
+      "subheadline": "Source: Anthropic",
+      "importanceScore": 95,
+      "durationSeconds": 51,
+      "source": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "researchDesk": "",
+      "script": "Around the world. Anthropic said an internal research model working in Claude Science ran a mostly autonomous 64-hour design campaign, generating 318,484 candidate proteins against five scorpion neurotoxins and picking 180 for lab tests; with 31 added by the team, contract labs Adaptyv Bio and Twist Bioscience tested 211, and 17 met Anthropic's criteria as binders, each against a single toxin. The two strongest bound the Mexican scorpion toxin Cn2 at single-digit nanomolar strength and appear to hit the same site as a mouse-protective antibody. Anthropic is clear this is not an antivenom: nothing has been tested against real venom, in cells or in animals, and no multi-toxin design worked. All 211 designs and data are being released. (Theme: AI breakthroughs) ---",
+      "whyThisMatters": "Anthropic said an internal research model working in Claude Science ran a mostly autonomous 64-hour design campaign, generating 318,484 candidate proteins against five scorpion neurotoxins and picking 180 for lab tests; ",
+      "sourceType": "company",
+      "keyPoints": [
+        "Claude designed protein binders against scorpion neurotoxins",
+        "Anthropic"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s3_cut1.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s3_cut2.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s3_cut3.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_bytedance_alibaba_and_tencent_re",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "ByteDance, Alibaba and Tencent reportedly order 35 billion dollars + of Nvidia cards",
+      "subheadline": "Source: Business Standard (Reuters)",
+      "importanceScore": 90,
+      "durationSeconds": 44,
+      "source": "Business Standard (Reuters)",
+      "sourceUrl": "https://www.business-standard.com/world-news/bytedance-alibaba-tencent-place-over-35-billion-in-nvidia-chip-orders-126102000828_1.html",
+      "researchDesk": "",
+      "script": "In China. Reuters reports that the three companies have ordered more than 3 million of Nvidia's new RTX PRO 5500 cards at about 11,400 dollars each, mainly for AI inference, because it is among the most powerful Nvidia chips still legal to sell into China. Total Chinese orders reportedly exceed 6 million while Nvidia may make only about 3 million globally in 2027, and one source said partners might get just 5 10% of what they asked for. Samples are expected in December and deliveries from early 2027. The figures come from unnamed sources; the companies did not comment. (Themes: technology trends; AI industry and startup news)",
+      "whyThisMatters": "Reuters reports that the three companies have ordered more than 3 million of Nvidia's new RTX PRO 5500 cards at about $11,400 each, mainly for AI inference, because it is among the most powerful Nvidia chips still legal ",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "ByteDance, Alibaba and Tencent reportedly order 35 billion dollars + of Nvidia c",
+        "Business Standard (Reuters)"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s4_cut1.jpg",
+          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s4_cut2.jpg",
+          "badge": "HANGZHOU • ALIBABA CLOUD XIXI CAMPUS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s4_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_korea_and_japan_hold_their_secon",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Korea and Japan hold their second AI working-level talks",
+      "subheadline": "Source: Aju Press",
+      "importanceScore": 90,
+      "durationSeconds": 28,
+      "source": "Aju Press",
+      "sourceUrl": "https://www.ajupress.com/view/20261021170870187",
+      "researchDesk": "",
+      "script": "In Asia. More than 30 officials from the two governments, including both countries' AI Safety Institutes, met at South Korea's Foreign Ministry on 21 October to share AI policy updates and explore \"full-stack\" AI cooperation and joint research, with specific talks on AI safety governance, standards, intellectual property and coordination in multilateral forums. They plan to hold the meetings regularly. No agreements were announced. (Theme: AI policy and regulation)",
+      "whyThisMatters": "More than 30 officials from the two governments, including both countries' AI Safety Institutes, met at South Korea's Foreign Ministry on 21 October to share AI policy updates and explore \"full-stack\" AI cooperation and ",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Korea and Japan hold their second AI working-level talks",
+        "Aju Press"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s5_cut1.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s5_cut2.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s5_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_principal_scientific_adviser_say",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Principal Scientific Adviser says India is open to a dedicated AI law",
+      "subheadline": "Source: NDTV",
+      "importanceScore": 90,
+      "durationSeconds": 32,
+      "source": "NDTV",
+      "sourceUrl": "https://www.ndtv.com/artificial-intelligence/india-to-bring-new-ai-law-what-top-government-adviser-ajay-kumar-sood-told-ndtv-12214525",
+      "researchDesk": "",
+      "script": "Turning to India. Ajay Kumar Sood told NDTV the government is open to a dedicated AI law and has begun preparing a consultation paper on \"targeted regulatory guardrails\", saying AI risks have become much clearer in the last year or two. He singled out agentic AI as a \"new challenge\" and pointed to CERT-In's advice that agents run in sandboxes with a human approving critical actions. No draft or timeline has been published. (Theme: AI policy and regulation)",
+      "whyThisMatters": "Ajay Kumar Sood told NDTV the government is open to a dedicated AI law and has begun preparing a consultation paper on \"targeted regulatory guardrails\", saying AI risks have become much clearer in the last year or two.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Principal Scientific Adviser says India is open to a dedicated AI law",
+        "NDTV"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s6_cut1.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s6_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s6_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_sensetime_open_sources_a_robot_t",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "SenseTime open-sources a robot test harness and a 27B \"robot brain\"",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 35,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/sensetime-sensenova-roborsi-open-source-embodied-ai-harness-27b-preview",
+      "researchDesk": "",
+      "script": "In China. SenseTime released SenseNova-RoboRSI, a framework that packages 12 simulated robot benchmarks behind one API, alongside a 27B embodied model preview. In its own tests GPT-6 Astra could saturate some benchmarks given long runs, but stacking bowls took about 131 minutes and roughly 19 dollars of inference; SenseTime says its 27B model does embodied tasks at one-fiftieth of that cost. All results are SenseTime's own, and the GitHub roadmap still lists the 27B weights as pending. (Theme: new AI models and tools) ---",
+      "whyThisMatters": "SenseTime released SenseNova-RoboRSI, a framework that packages 12 simulated robot benchmarks behind one API, alongside a 27B embodied model preview.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SenseTime open-sources a robot test harness and a 27B \"robot brain\"",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s7_cut1.jpg",
+          "badge": "SENSETIME • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s7_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s7_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_korean_police_and_singapore_s_ht",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Korean police and Singapore's HTX sign an AI and robotics policing pact",
+      "subheadline": "Source: The Financial News (Yonhap)",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Financial News (Yonhap)",
+      "sourceUrl": "https://en.fnnews.com/news/202610202330595175",
+      "researchDesk": "",
+      "script": "In Asia. The Korean National Police Agency signed a memorandum of understanding with Singapore's Home Team Science and Technology Agency in Incheon on 21 October covering joint R&D, information sharing, training and field testing of AI and robotics for frontline policing. Specific projects are still to be identified. (Theme: technology trends) ---",
+      "whyThisMatters": "The Korean National Police Agency signed a memorandum of understanding with Singapore's Home Team Science and Technology Agency in Incheon on 21 October covering joint R&D, information sharing, training and field testing",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Korean police and Singapore's HTX sign an AI and robotics policing pact",
+        "The Financial News (Yonhap)"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s8_cut1.jpg",
+          "badge": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s8_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s8_cut3.jpg",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_openai_will_train_government_sta",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "OpenAI will train government staff through iGOT Karmayogi",
+      "subheadline": "Source: The Times of India",
+      "importanceScore": 90,
+      "durationSeconds": 30,
+      "source": "The Times of India",
+      "sourceUrl": "https://timesofindia.indiatimes.com/india/openai-to-train-government-employees-in-ai-through-mission-karmayogi-platform/articleshow/135091390.cms",
+      "researchDesk": "",
+      "script": "Turning to India. OpenAI and Karmayogi Bharat signed an MoU on 21 October to put approved OpenAI Academy courses on the iGOT Karmayogi platform, which has more than 1.7 crore registered government employees, covering eligible staff across central and state governments and Union territories. OpenAI provides the content; Karmayogi Bharat handles access and coordination. (Theme: AI industry and startup news) Want this daily? Follow me and tap the bell on my profile.",
+      "whyThisMatters": "OpenAI and Karmayogi Bharat signed an MoU on 21 October to put approved OpenAI Academy courses on the iGOT Karmayogi platform, which has more than 1.7 crore registered government employees, covering eligible staff across",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "OpenAI will train government staff through iGOT Karmayogi",
+        "The Times of India"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s9_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s9_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-22/s9_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "zoomOut"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. The Pentagon lays out how it will stand up an Autonomous Warfare Command. OpenAI's models and Codex are coming to Google Cloud. Claude designed protein binders against scorpion neurotoxins. ByteDance, Alibaba and Tencent reportedly order 35 billion dollars + of Nvidia cards. Korea and Japan hold their second AI working-level talks. Principal Scientific Adviser says India is open to a dedicated AI law.",
+    "items": [
+      "✓ The Pentagon lays out how it will stand up an Au",
+      "✓ OpenAI's models and Codex are coming to Google C",
+      "✓ Claude designed protein binders against scorpion",
+      "✓ ByteDance, Alibaba and Tencent reportedly order ",
+      "✓ Korea and Japan hold their second AI working-lev",
+      "✓ Principal Scientific Adviser says India is open ",
+      "✓ SenseTime open-sources a robot test harness and "
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "The Pentagon lays out how it will stand up an",
+    "OpenAI's models and Codex are coming to Googl",
+    "Claude designed protein binders against scorp",
+    "ByteDance, Alibaba and Tencent reportedly ord",
+    "Korea and Japan hold their second AI working-",
+    "Principal Scientific Adviser says India is op",
+    "SenseTime open-sources a robot test harness a",
+    "Korean police and Singapore's HTX sign an AI ",
+    "OpenAI will train government staff through iG"
+  ],
+  "thumbnail": {
+    "date": "22 OCTOBER 2026",
+    "headline": "THE PENTAGON LAYS OUT HOW IT WILL STAND UP",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "THE PENTAGON LAYS OUT HOW IT WILL",
+      "OPENAI'S MODELS AND CODEX ARE",
+      "CLAUDE DESIGNED PROTEIN BINDERS",
+      "BYTEDANCE, ALIBABA AND TENCENT"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "The Pentagon lays out how it will | OpenAI's models and Codex are | Claude designed protein binders | AI News 22 October 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 22 October 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}
