@@ -46,6 +46,18 @@ class StoryRulesTest(unittest.TestCase):
                   "Anthropic’s Claude sent a fake murder tip to Philadelphia police"]:
             self.assertFalse(is_personal_scandal_story(h), h)
 
+    def test_results_wording_without_the_word_results(self):
+        for h in ["Meta beats expectations but legal penalties hit profit amid AI race",
+                  "Samsung Electronics projects record $80 billion quarterly operating profit on HBM demand",
+                  "Alphabet tops estimates as cloud AI demand grows",
+                  "Microsoft third-quarter sales rise on Azure AI"]:
+            self.assertTrue(is_stock_market_story(h), h)
+        for h in ["Non-profit launches free AI tutor for rural schools",
+                  "Nonprofit coalition publishes AI safety guidance",
+                  "Nvidia will ship Rubin chips in the first quarter of 2027",
+                  "AI model beats human experts at protein design"]:
+            self.assertFalse(is_stock_market_story(h), h)
+
     def test_harvest_drops_stock_market_stories(self):
         h = NewsHarvester(target_date="2026-10-14")
         items = [

@@ -46,13 +46,22 @@ STOCK_MARKET_TERMS = [
     "q1 results", "q2 results", "q3 results", "q4 results", "q1 revenue", "q2 revenue", "q3 revenue",
     "q4 revenue", "quarterly revenue", "quarterly profit", "quarterly loss", "half-year revenue",
     "net profit", "net loss", "earnings",
+    # Results wording without the word "results" (editor, 2026-10-22: "Meta beats expectations
+    # but legal penalties hit profit amid AI race" got through).
+    "profit", "profits", "operating loss", "net income", "beats expectations", "beat expectations",
+    "misses expectations", "missed expectations", "tops expectations", "beats estimates", "beat estimates",
+    "misses estimates", "missed estimates", "tops estimates", "topped estimates", "analyst estimates",
+    "first-quarter", "second-quarter", "third-quarter", "fourth-quarter", "fiscal quarter",
+    "quarterly sales", "revenue forecast", "profit warning",
 ]
+# "Profit" inside these is about the kind of organisation, not its results.
+NOT_RESULTS = re.compile(r"\b(?:non-?profits?|not-for-profit)\b")
 
 
 def is_stock_market_story(title):
-    """True when the headline is about share prices or markets. Judged on the
-    headline only: a passing mention in the body does not exclude a story."""
-    return contains_any(title, STOCK_MARKET_TERMS)
+    """True when the headline is about share prices, markets or company results. Judged
+    on the headline only: a passing mention in the body does not exclude a story."""
+    return contains_any(NOT_RESULTS.sub(" ", (title or "").lower()), STOCK_MARKET_TERMS)
 
 
 # No election news (editor's decision, 2026-10-18): YouTube disapproved two
