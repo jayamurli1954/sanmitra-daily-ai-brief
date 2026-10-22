@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 12.91,
-    "sceneDurationSeconds": 14.11,
-    "durationInFrames": 423,
+    "audioDurationSeconds": 13.2,
+    "sceneDurationSeconds": 14.4,
+    "durationInFrames": 432,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_the_pentagon_lays_out_how_it_wil": {
-    "audioFile": "audio/aibrief/s1_s1_the_pentagon_lays_out_how_it_wil.mp3",
-    "audioDurationSeconds": 46.58,
-    "sceneDurationSeconds": 47.78,
-    "durationInFrames": 1434,
-    "title": "Story 1: The Pentagon lays out how it will stand up an Autonomous Warfare Command",
+  "s1_uk_working_to_identify_exposure": {
+    "audioFile": "audio/aibrief/s1_s1_uk_working_to_identify_exposure.mp3",
+    "audioDurationSeconds": 40.49,
+    "sceneDurationSeconds": 41.69,
+    "durationInFrames": 1251,
+    "title": "Story 1: UK working to identify exposure after global cyber-security warning",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_usa": {
@@ -22,20 +22,20 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_openai_s_models_and_codex_are_co": {
-    "audioFile": "audio/aibrief/s2_s2_openai_s_models_and_codex_are_co.mp3",
-    "audioDurationSeconds": 33.84,
-    "sceneDurationSeconds": 35.04,
-    "durationInFrames": 1051,
-    "title": "Story 2: OpenAI's models and Codex are coming to Google Cloud",
+  "s2_ai_firms_say_uk_has_a_year_to_he": {
+    "audioFile": "audio/aibrief/s2_s2_ai_firms_say_uk_has_a_year_to_he.mp3",
+    "audioDurationSeconds": 40.85,
+    "sceneDurationSeconds": 42.05,
+    "durationInFrames": 1261,
+    "title": "Story 2: AI firms say UK has a year to head off datacentre protests before construction is threatened",
     "voice": "en-US-AriaNeural"
   },
-  "s3_claude_designed_protein_binders": {
-    "audioFile": "audio/aibrief/s3_s3_claude_designed_protein_binders.mp3",
-    "audioDurationSeconds": 55.13,
-    "sceneDurationSeconds": 56.33,
-    "durationInFrames": 1690,
-    "title": "Story 3: Claude designed protein binders against scorpion neurotoxins",
+  "s3_1password_lets_ai_agents_use_you": {
+    "audioFile": "audio/aibrief/s3_s3_1password_lets_ai_agents_use_you.mp3",
+    "audioDurationSeconds": 42.62,
+    "sceneDurationSeconds": 43.82,
+    "durationInFrames": 1315,
+    "title": "Story 3: 1Password lets AI agents use your passwords without seeing them",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
@@ -45,12 +45,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s4_bytedance_alibaba_and_tencent_re": {
-    "audioFile": "audio/aibrief/s4_s4_bytedance_alibaba_and_tencent_re.mp3",
-    "audioDurationSeconds": 41.78,
-    "sceneDurationSeconds": 42.98,
-    "durationInFrames": 1290,
-    "title": "Story 4: ByteDance, Alibaba and Tencent reportedly order 35 billion dollars + of Nvidia cards",
+  "s4_deepseek_reportedly_raises_15_bi": {
+    "audioFile": "audio/aibrief/s4_s4_deepseek_reportedly_raises_15_bi.mp3",
+    "audioDurationSeconds": 14.26,
+    "sceneDurationSeconds": 15.46,
+    "durationInFrames": 464,
+    "title": "Story 4: DeepSeek reportedly raises 15 billion dollars days after US restrictions",
     "voice": "en-US-AriaNeural"
   },
   "transition_asia": {
@@ -60,12 +60,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
   },
-  "s5_korea_and_japan_hold_their_secon": {
-    "audioFile": "audio/aibrief/s5_s5_korea_and_japan_hold_their_secon.mp3",
-    "audioDurationSeconds": 32.86,
-    "sceneDurationSeconds": 34.06,
-    "durationInFrames": 1022,
-    "title": "Story 5: Korea and Japan hold their second AI working-level talks",
+  "s5_malaysia_s_tuju_app_struggles_af": {
+    "audioFile": "audio/aibrief/s5_s5_malaysia_s_tuju_app_struggles_af.mp3",
+    "audioDurationSeconds": 30.36,
+    "sceneDurationSeconds": 31.56,
+    "durationInFrames": 947,
+    "title": "Story 5: Malaysia\u2019s TuJu app struggles after Anwar suggests switching from Waze",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_india": {
@@ -75,43 +75,43 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s6_principal_scientific_adviser_say": {
-    "audioFile": "audio/aibrief/s6_s6_principal_scientific_adviser_say.mp3",
-    "audioDurationSeconds": 31.7,
-    "sceneDurationSeconds": 32.9,
-    "durationInFrames": 987,
-    "title": "Story 6: Principal Scientific Adviser says India is open to a dedicated AI law",
+  "s6_cognizant_acquires_dyflex_soluti": {
+    "audioFile": "audio/aibrief/s6_s6_cognizant_acquires_dyflex_soluti.mp3",
+    "audioDurationSeconds": 30.98,
+    "sceneDurationSeconds": 32.18,
+    "durationInFrames": 966,
+    "title": "Story 6: Cognizant acquires DyFlex Solutions to enhance AI and SAP transformation capabilities",
     "voice": "en-US-AriaNeural"
   },
-  "s7_sensetime_open_sources_a_robot_t": {
-    "audioFile": "audio/aibrief/s7_s7_sensetime_open_sources_a_robot_t.mp3",
-    "audioDurationSeconds": 39.91,
-    "sceneDurationSeconds": 41.11,
-    "durationInFrames": 1233,
-    "title": "Story 7: SenseTime open-sources a robot test harness and a 27B \"robot brain\"",
+  "s7_streameval_evaluating_interactiv": {
+    "audioFile": "audio/aibrief/s7_s7_streameval_evaluating_interactiv.mp3",
+    "audioDurationSeconds": 67.44,
+    "sceneDurationSeconds": 68.64,
+    "durationInFrames": 2059,
+    "title": "Story 7: StreamEval: Evaluating Interactive Streaming Video Generation Models",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_korean_police_and_singapore_s_ht": {
-    "audioFile": "audio/aibrief/s8_s8_korean_police_and_singapore_s_ht.mp3",
-    "audioDurationSeconds": 24.86,
-    "sceneDurationSeconds": 26.06,
-    "durationInFrames": 782,
-    "title": "Story 8: Korean police and Singapore's HTX sign an AI and robotics policing pact",
+  "s8_meta_beats_expectations_but_lega": {
+    "audioFile": "audio/aibrief/s8_s8_meta_beats_expectations_but_lega.mp3",
+    "audioDurationSeconds": 31.25,
+    "sceneDurationSeconds": 32.45,
+    "durationInFrames": 973,
+    "title": "Story 8: Meta beats expectations but legal penalties hit profit amid AI race",
     "voice": "en-US-AriaNeural"
   },
-  "s9_openai_will_train_government_sta": {
-    "audioFile": "audio/aibrief/s9_s9_openai_will_train_government_sta.mp3",
-    "audioDurationSeconds": 32.57,
-    "sceneDurationSeconds": 33.77,
-    "durationInFrames": 1013,
-    "title": "Story 9: OpenAI will train government staff through iGOT Karmayogi",
+  "s9_walmart_launches_tools_for_ai_ag": {
+    "audioFile": "audio/aibrief/s9_s9_walmart_launches_tools_for_ai_ag.mp3",
+    "audioDurationSeconds": 15.48,
+    "sceneDurationSeconds": 16.68,
+    "durationInFrames": 500,
+    "title": "Story 9: Walmart launches tools for AI agents to shop for customers",
     "voice": "en-US-ChristopherNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 33.12,
-    "sceneDurationSeconds": 34.32,
-    "durationInFrames": 1030,
+    "audioDurationSeconds": 36.5,
+    "sceneDurationSeconds": 37.7,
+    "durationInFrames": 1131,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },

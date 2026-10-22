@@ -277,23 +277,23 @@
       ]
     },
     {
-      "id": "s7_meta_beats_expectations_but_lega",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Meta beats expectations but legal penalties hit profit amid AI race",
-      "subheadline": "Source: The Economic Times",
+      "id": "s7_streameval_evaluating_interactiv",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+      "subheadline": "Source: arXiv Pre-print",
       "importanceScore": 90,
-      "durationSeconds": 33,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/meta-beats-expectations-but-legal-penalties-hit-profit-amid-ai-race/articleshow/135105927.cms",
+      "durationSeconds": 52,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2610.28402",
       "researchDesk": "",
-      "script": "Turning to the United States. Meta beat investor expectations for third-quarter revenue on Wednesday as it doubles down on a global AI race but the social media giant's profits took a hit due to an 18 billion dollars legal settlement with nearly all US states. The company reported 9.86 billion dollars in profits from July to September, almost 50 percent below investor expectations, which Meta said was dragged down by a 9.9 billion dollars charge related to the settlement.",
-      "whyThisMatters": "Meta beat investor expectations for third-quarter revenue on Wednesday as it doubles down on a global AI race but the social media giant's profits took a hit due to an $18 billion legal settlement with nearly all US stat",
+      "script": "Around the world. As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. The researchers introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying initial assets, incrementally arriving multimodal requests, and explicit requirements for state changes and content preservation. Performance is assessed along four evaluation dimensions: task execution, state consistency, visual fidelity, and audiovisual coordination, instantiated through ten task-specific metrics on a 0-100 scale. Evaluating 37 distinct models across 300 test cases, the researchers find that high visual quality and identity retention do not necessarily coincide with reliable request execution or sustained state consistency.",
+      "whyThisMatters": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Meta beats expectations but legal penalties hit profit amid AI race",
-        "The Economic Times"
+        "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+        "arXiv Pre-print"
       ],
       "visualCuts": [
         {
@@ -314,22 +314,22 @@
       ]
     },
     {
-      "id": "s8_walmart_launches_tools_for_ai_ag",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "Walmart launches tools for AI agents to shop for customers",
+      "id": "s8_meta_beats_expectations_but_lega",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Meta beats expectations but legal penalties hit profit amid AI race",
       "subheadline": "Source: The Economic Times",
       "importanceScore": 90,
-      "durationSeconds": 24,
+      "durationSeconds": 33,
       "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/tech-bytes/walmart-launches-tools-for-ai-agents-to-shop-for-customers/articleshow/135104524.cms",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/meta-beats-expectations-but-legal-penalties-hit-profit-amid-ai-race/articleshow/135105927.cms",
       "researchDesk": "",
-      "script": "Turning to India. Walmart on Wednesday intrduced new tools that will allow artificial intelligence agents to shop and complete transactions for customers, as the retailer seeks to position itself in the growing use of AI-powered assistants in online commerce.",
-      "whyThisMatters": "Walmart on Wednesday intrduced new tools that will allow artificial intelligence agents to shop and complete transactions for customers, as the retailer seeks to position itself in the growing use of AI-powered assistant",
+      "script": "Turning to the United States. Meta beat investor expectations for third-quarter revenue on Wednesday as it doubles down on a global AI race but the social media giant's profits took a hit due to an 18 billion dollars legal settlement with nearly all US states. The company reported 9.86 billion dollars in profits from July to September, almost 50 percent below investor expectations, which Meta said was dragged down by a 9.9 billion dollars charge related to the settlement.",
+      "whyThisMatters": "Meta beat investor expectations for third-quarter revenue on Wednesday as it doubles down on a global AI race but the social media giant's profits took a hit due to an $18 billion legal settlement with nearly all US stat",
       "sourceType": "reporting",
       "keyPoints": [
-        "Walmart launches tools for AI agents to shop for customers",
+        "Meta beats expectations but legal penalties hit profit amid AI race",
         "The Economic Times"
       ],
       "visualCuts": [
@@ -349,6 +349,43 @@
           "panDirection": "panLeft"
         }
       ]
+    },
+    {
+      "id": "s9_walmart_launches_tools_for_ai_ag",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Walmart launches tools for AI agents to shop for customers",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/tech-bytes/walmart-launches-tools-for-ai-agents-to-shop-for-customers/articleshow/135104524.cms",
+      "researchDesk": "",
+      "script": "Turning to India. Walmart on Wednesday intrduced new tools that will allow artificial intelligence agents to shop and complete transactions for customers, as the retailer seeks to position itself in the growing use of AI-powered assistants in online commerce.",
+      "whyThisMatters": "Walmart on Wednesday intrduced new tools that will allow artificial intelligence agents to shop and complete transactions for customers, as the retailer seeks to position itself in the growing use of AI-powered assistant",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Walmart launches tools for AI agents to shop for customers",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-23/s9_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-23/s9_cut2.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-23/s9_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        }
+      ]
     }
   ],
   "recap": {
@@ -362,7 +399,7 @@
       "✓ DeepSeek reportedly raises 15 billion dollars da",
       "✓ Malaysia’s TuJu app struggles after Anwar sugges",
       "✓ Cognizant acquires DyFlex Solutions to enhance A",
-      "✓ Meta beats expectations but legal penalties hit "
+      "✓ StreamEval: Evaluating Interactive Streaming Vid"
     ]
   },
   "outro": {
@@ -387,6 +424,7 @@
     "DeepSeek reportedly raises 15 billion dollars",
     "Malaysia’s TuJu app struggles after Anwar sug",
     "Cognizant acquires DyFlex Solutions to enhanc",
+    "StreamEval: Evaluating Interactive Streaming ",
     "Meta beats expectations but legal penalties h",
     "Walmart launches tools for AI agents to shop "
   ],
