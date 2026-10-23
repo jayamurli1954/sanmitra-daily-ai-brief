@@ -1,13 +1,13 @@
 {
   "weekly": false,
-  "date": "2026-10-23",
-  "formattedDate": "23 October 2026",
-  "title": "UK working to identify exposure | AI firms say UK has a year to head | 1Password lets AI agents use your | AI News 23 October 2026",
+  "date": "2026-10-24",
+  "formattedDate": "24 October 2026",
+  "title": "OpenAI nears up to 30 billion | Someone hacked the Switch 2 by | Experts cast doubt on Anthropic | AI News 24 October 2026",
   "intro": {
     "durationSeconds": 18,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "Breaking this morning: UK working to identify exposure after global cyber-security warning. From the SanMitra Newsroom, this is the Daily AI Brief for 23 October 2026."
+    "script": "Breaking this morning: OpenAI nears up to 30 billion dollars funding round at 1.25 trillion dollars valuation led by UAE investors. From the SanMitra Newsroom, this is the Daily AI Brief for 24 October 2026."
   },
   "transitions": [
     {
@@ -15,20 +15,6 @@
       "region": "USA",
       "title": "NEXT: USA & REGIONAL STRATEGY",
       "display": "NEXT: USA",
-      "durationSeconds": 2
-    },
-    {
-      "id": "transition_china",
-      "region": "CHINA",
-      "title": "NEXT: CHINA & REGIONAL STRATEGY",
-      "display": "NEXT: CHINA",
-      "durationSeconds": 2
-    },
-    {
-      "id": "transition_asia",
-      "region": "ASIA",
-      "title": "NEXT: ASIA & REGIONAL STRATEGY",
-      "display": "NEXT: ASIA",
       "durationSeconds": 2
     },
     {
@@ -55,335 +41,298 @@
   ],
   "stories": [
     {
-      "id": "s1_uk_working_to_identify_exposure",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "UK working to identify exposure after global cyber-security warning",
-      "subheadline": "Source: BBC",
+      "id": "s1_openai_nears_up_to_30_billion_do",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "OpenAI nears up to 30 billion dollars funding round at 1.25 trillion dollars valuation led by UAE investors",
+      "subheadline": "Source: CNBC",
       "importanceScore": 99,
-      "durationSeconds": 42,
-      "source": "BBC",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss",
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
       "researchDesk": "",
-      "script": "Our lead story today. The UK government says it is working to identify any potential exposure in its online services, after critical cyber-security flaws were identified in the PHP programming language that underpins a significant number of the world's websites. Governments and some of the world's biggest companies are rushing to protect systems that use PHP before hackers can exploit the flaws. The flaws were first discovered by AI, after which governments urged anyone who uses PHP to address them. A UK government spokesperson urged \"all organisations, private and public, large and small\" to follow guidance to protect their systems.",
-      "whyThisMatters": "The UK government says it is working to identify any potential exposure in its online services, after critical cyber-security flaws were identified in the PHP programming language that underpins a significant number of t",
+      "script": "Our lead story today. OpenAI is close to finalizing a new funding round that is meant to be a bridge to its 2027 IPO, sources familiar with the matter tell CNBC.",
+      "whyThisMatters": "OpenAI is close to finalizing a new funding round that is meant to be a bridge to its 2027 IPO, sources familiar with the matter tell CNBC.",
       "sourceType": "reporting",
       "keyPoints": [
-        "UK working to identify exposure after global cyber-security warning",
-        "BBC"
+        "OpenAI nears up to 30 billion dollars funding round at 1.25 trillion dollars val",
+        "CNBC"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s1_cut1.jpg",
-          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "image": "aibrief/assets/editorial/2026-10-24/s1_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s1_cut2.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "image": "aibrief/assets/editorial/2026-10-24/s1_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s1_cut3.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
-          "panDirection": "zoomOut"
-        }
-      ]
-    },
-    {
-      "id": "s2_ai_firms_say_uk_has_a_year_to_he",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "AI firms say UK has a year to head off datacentre protests before construction is threatened",
-      "subheadline": "Source: The Guardian",
-      "importanceScore": 95,
-      "durationSeconds": 42,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened",
-      "researchDesk": "",
-      "script": "Turning to the United States. Exclusive: Nvidia, Microsoft and Cisco taskforce urges ministers to offer areas greater benefits from tech infrastructure amid fears of US-style opposition AI companies have told ministers they have 12 months to head off public opposition to datacentres in the UK or risk US-style protests that could threaten their construction. Successive dry summers and rising energy bills are increasing public scrutiny of plans for the huge computer warehouses that are used to train and run AI models, says a submission to the Labour government from a group including the AI infrastructure companies Nvidia, Microsoft and Cisco.",
-      "whyThisMatters": "Exclusive: Nvidia, Microsoft and Cisco taskforce urges ministers to offer areas greater benefits from tech infrastructure amid fears of US-style opposition AI companies have told ministers they have 12 months to head off",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "AI firms say UK has a year to head off datacentre protests before construction i",
-        "The Guardian"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-10-23/s2_cut1.jpg",
-          "badge": "HANGZHOU • HOME CITY OF DEEPSEEK",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-23/s2_cut2.jpg",
-          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-23/s2_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-10-24/s1_cut3.jpg",
           "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
-          "panDirection": "zoomIn"
+          "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s3_1password_lets_ai_agents_use_you",
+      "id": "s2_someone_hacked_the_switch_2_by_u",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "1Password lets AI agents use your passwords without seeing them",
+      "headline": "Someone hacked the Switch 2 by using an old game and AI",
       "subheadline": "Source: The Verge",
       "importanceScore": 95,
-      "durationSeconds": 51,
+      "durationSeconds": 50,
       "source": "The Verge",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+      "sourceUrl": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
       "researchDesk": "",
-      "script": "In other news. 1Password is introducing a new feature that allows AI agents to sign into your accounts without actually seeing or handling your passwords. The aptly named 1Password for Agents doesn't give bots free reign to access all of your connected accounts - you'll still need to grant approval for sign-in requests - but should make it less cumbersome to use Agents for tasks that require them to log into various services. \"Agents are starting to do real work on our behalf. The old model where you hand over a credential and hope for the best doesn't work,\" 1Password chief product officer Aashish Tripathi said in a press statement. \"An agent should be a … Read the full story at The Verge.",
-      "whyThisMatters": "1Password is introducing a new feature that allows AI agents to sign into your accounts without actually seeing or handling your passwords.",
+      "script": "Also today. pepsipu on X \" data-has-syndication-rights=\"1\" src=\" /> The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable characters like Cinnamoroll, the red Angry Bird, Peter Griffin, and Steve from Minecraft . i jailbroke the nintendo switch 2 so i modded cinnamoroll, peter griffin, hatsune miku, and more into Mario Kart World, a switch 2 exclusive now watch my friends and i get cooked by bots learn more and get the exploit pic.twitter.com/BOcFhejRz1 - pepsipu (@pepsipu) October 22, 2026 OpenAI's Codex helped make this \" ns2jb \" jailbreak, according to Sammy Hajhamid , aka \"pe … Read the full story at The Verge.",
+      "whyThisMatters": "pepsipu on X \" data-has-syndication-rights=\"1\" src=\" /> The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable",
       "sourceType": "reporting",
       "keyPoints": [
-        "1Password lets AI agents use your passwords without seeing them",
+        "Someone hacked the Switch 2 by using an old game and AI",
         "The Verge"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s3_cut1.jpg",
+          "image": "aibrief/assets/editorial/2026-10-24/s2_cut1.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s2_cut2.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s2_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_experts_cast_doubt_on_anthropic",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 95,
+      "durationSeconds": 40,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts",
+      "researchDesk": "",
+      "script": "In other news. Anthropic claims AI will shift how work gets done and labor demand but some experts are skeptical of the vision Last year, the Anthropic CEO, Dario Amodei, warned that artificial intelligence could eliminate half of entry-level white-collar jobs and that in six months it would be writing 90% of code . Neither of those predictions came to pass. Now, in a report Anthropic published on Thursday, the company said it was hiring fewer junior technical workers and that human attention has become the new “bottleneck” as it increasingly relies on its Claude AI agents.",
+      "whyThisMatters": "Anthropic claims AI will shift how work gets done and labor demand – but some experts are skeptical of the vision Last year, the Anthropic CEO, Dario Amodei, warned that artificial intelligence could eliminate half of en",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Experts cast doubt on Anthropic report detailing how AI has altered work at the ",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s3_cut1.jpg",
           "badge": "MISSION BAY • OPENAI HEADQUARTERS",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s3_cut2.jpg",
-          "badge": "MENLO PARK • META HEADQUARTERS",
+          "image": "aibrief/assets/editorial/2026-10-24/s3_cut2.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s3_cut3.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "image": "aibrief/assets/editorial/2026-10-24/s3_cut3.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s4_deepseek_reportedly_raises_15_bi",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "DeepSeek reportedly raises 15 billion dollars days after US restrictions",
+      "id": "s4_oppo_find_x10_and_x10_pro_max_la",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Oppo Find X10 and X10 Pro Max launched in India: Triple 200MP cameras, 8,000 mAh battery, check price",
+      "subheadline": "Source: Mint",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Mint",
+      "sourceUrl": "https://www.livemint.com/technology/gadgets/oppo-find-x10-and-x10-pro-max-launched-in-india-triple-200mp-cameras-8-000-mah-battery-check-price-11792742409318.html",
+      "researchDesk": "",
+      "script": "Turning to India. Oppo has launched the Find X10 and Find X10 Pro Max in India, featuring up to three 200MP rear cameras, batteries of up to 8,000mAh and AI-powered tools.",
+      "whyThisMatters": "Oppo has launched the Find X10 and Find X10 Pro Max in India, featuring up to three 200MP rear cameras, batteries of up to 8,000mAh and AI-powered tools.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Oppo Find X10 and X10 Pro Max launched in India: Triple 200MP cameras, 8,000 mAh",
+        "Mint"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s4_cut1.jpg",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s4_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s4_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_the_guardian_view_on_ai_safety_t",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "The Guardian view on AI safety: the push for global regulation must advance | Editorial",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 48,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/commentisfree/2026/oct/22/the-guardian-view-on-ai-safety-the-push-for-global-regulation-must-advance",
+      "researchDesk": "",
+      "script": "Around the world. The current US administration is an obstacle, but public demand for protection will ultimately prevail Organisations around the world scrambled on Thursday to fix critical flaws in PHP, the software that powers much of the web. The vulnerabilities could allow attackers to take control of affected servers. Some websites were taken offline as a precaution while fixes were installed. The paradox is that while AI helped researchers uncover the flaw, it also threatens to accelerate the ability to exploit it. Amazon said that it had detected an attempt before the public disclosure of the PHP flaws. What the episode highlights is AI’s central role in security and not always for the right reasons.",
+      "whyThisMatters": "The current US administration is an obstacle, but public demand for protection will ultimately prevail Organisations around the world scrambled on Thursday to fix critical flaws in PHP, the software that powers much of t",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "The Guardian view on AI safety: the push for global regulation must advance | Ed",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s5_cut1.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s5_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s5_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_1password_launches_a_way_for_ai",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
       "subheadline": "Source: TechCrunch",
       "importanceScore": 90,
       "durationSeconds": 24,
       "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
       "researchDesk": "",
-      "script": "In China. DeepSeek has reportedly raised 15 billion dollars in one of China's largest funding rounds, just days after the US ordered federal agencies to remove its technology over national security concerns.",
-      "whyThisMatters": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns. ---",
+      "script": "Turning to the United States. The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "whyThisMatters": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
       "sourceType": "reporting",
       "keyPoints": [
-        "DeepSeek reportedly raises 15 billion dollars days after US restrictions",
+        "1Password launches a way for AI agents to log in on your behalf without seeing y",
         "TechCrunch"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s4_cut1.jpg",
-          "badge": "SAP • CONTEXTUAL REPORTING",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-23/s4_cut2.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "image": "aibrief/assets/editorial/2026-10-24/s6_cut1.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s4_cut3.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
-          "panDirection": "panLeft"
-        }
-      ]
-    },
-    {
-      "id": "s5_malaysia_s_tuju_app_struggles_af",
-      "region": "ASIA",
-      "category": "ASIA Intelligence",
-      "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "Malaysia’s TuJu app struggles after Anwar suggests switching from Waze",
-      "subheadline": "Source: South China Morning Post",
-      "importanceScore": 90,
-      "durationSeconds": 29,
-      "source": "South China Morning Post",
-      "sourceUrl": "https://www.scmp.com/news/asia/southeast-asia/article/3371744/malaysias-tuju-app-struggles-after-anwar-suggests-switching-waze",
-      "researchDesk": "",
-      "script": "In Asia. Malaysia’s highway authority is working to resolve technical disruptions affecting its TuJu navigation application following a sharp increase in users. In a statement on Thursday, the Lembaga Lebuhraya Malaysia (LLM) said the matter was being resolved together with the application provider Prosignal Consortium. LLM said the surge in users came after Prime Minister Anwar Ibrahim suggested that the public consider using a locally developed navigation application instead of Waze.",
-      "whyThisMatters": "Malaysia’s highway authority is working to resolve technical disruptions affecting its TuJu navigation application following a sharp increase in users.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Malaysia’s TuJu app struggles after Anwar suggests switching from Waze",
-        "South China Morning Post"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-10-23/s5_cut1.jpg",
-          "badge": "HANGZHOU • HOME CITY OF DEEPSEEK",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-23/s5_cut2.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-23/s5_cut3.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
-          "panDirection": "zoomOut"
-        }
-      ]
-    },
-    {
-      "id": "s6_cognizant_acquires_dyflex_soluti",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "Cognizant acquires DyFlex Solutions to enhance AI and SAP transformation capabilities",
-      "subheadline": "Source: The Economic Times",
-      "importanceScore": 90,
-      "durationSeconds": 26,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/information-tech/cognizant-acquires-dyflex-solutions-to-enhance-ai-and-sap-transformation-capabilities/articleshow/135120601.cms",
-      "researchDesk": "",
-      "script": "Turning to India. Cognizant Technology Solutions has signed an agreement to acquire DyFlex Solutions, enhancing its AI and SAP capabilities. This acquisition is expected to close in the first quarter of 2027, subject to regulatory approvals. DyFlex specializes in SAP transformation and is based in Australia and New Zealand. The deal marks Cognizant’s third acquisition in 2026 as it seeks to expand its services.",
-      "whyThisMatters": "Cognizant Technology Solutions has signed an agreement to acquire DyFlex Solutions, enhancing its AI and SAP capabilities.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Cognizant acquires DyFlex Solutions to enhance AI and SAP transformation capabil",
-        "The Economic Times"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-10-23/s6_cut1.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-23/s6_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-10-24/s6_cut2.jpg",
           "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s6_cut3.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "image": "aibrief/assets/editorial/2026-10-24/s6_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s7_streameval_evaluating_interactiv",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
-      "subheadline": "Source: arXiv Pre-print",
+      "id": "s7_etsy_bans_ai_generated_recipes_a",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Etsy bans AI-generated recipes and patterns from its online marketplace",
+      "subheadline": "Source: CNBC",
       "importanceScore": 90,
-      "durationSeconds": 52,
-      "source": "arXiv Pre-print",
-      "sourceUrl": "https://arxiv.org/abs/2610.28402",
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/22/etsy-bans-ai-generated-recipes-patterns-from-its-online-marketplace.html",
       "researchDesk": "",
-      "script": "Around the world. As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. The researchers introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying initial assets, incrementally arriving multimodal requests, and explicit requirements for state changes and content preservation. Performance is assessed along four evaluation dimensions: task execution, state consistency, visual fidelity, and audiovisual coordination, instantiated through ten task-specific metrics on a 0-100 scale. Evaluating 37 distinct models across 300 test cases, the researchers find that high visual quality and identity retention do not necessarily coincide with reliable request execution or sustained state consistency.",
-      "whyThisMatters": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important.",
+      "script": "In other news. Etsy also laid out clearer rules around AI usage on its platform, including barring sellers from creating bot-generated listings without any human involvement.",
+      "whyThisMatters": "Etsy also laid out clearer rules around AI usage on its platform, including barring sellers from creating bot-generated listings without any human involvement. ---",
       "sourceType": "reporting",
       "keyPoints": [
-        "StreamEval: Evaluating Interactive Streaming Video Generation Models",
-        "arXiv Pre-print"
+        "Etsy bans AI-generated recipes and patterns from its online marketplace",
+        "CNBC"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s7_cut1.jpg",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "image": "aibrief/assets/editorial/2026-10-24/s7_cut1.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s7_cut2.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "image": "aibrief/assets/editorial/2026-10-24/s7_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s7_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-10-24/s7_cut3.jpg",
           "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s8_meta_beats_expectations_but_lega",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Meta beats expectations but legal penalties hit profit amid AI race",
-      "subheadline": "Source: The Economic Times",
-      "importanceScore": 90,
-      "durationSeconds": 33,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/meta-beats-expectations-but-legal-penalties-hit-profit-amid-ai-race/articleshow/135105927.cms",
-      "researchDesk": "",
-      "script": "Turning to the United States. Meta beat investor expectations for third-quarter revenue on Wednesday as it doubles down on a global AI race but the social media giant's profits took a hit due to an 18 billion dollars legal settlement with nearly all US states. The company reported 9.86 billion dollars in profits from July to September, almost 50 percent below investor expectations, which Meta said was dragged down by a 9.9 billion dollars charge related to the settlement.",
-      "whyThisMatters": "Meta beat investor expectations for third-quarter revenue on Wednesday as it doubles down on a global AI race but the social media giant's profits took a hit due to an $18 billion legal settlement with nearly all US stat",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Meta beats expectations but legal penalties hit profit amid AI race",
-        "The Economic Times"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-10-23/s8_cut1.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-23/s8_cut2.jpg",
-          "badge": "HARDWARE ACCELERATION • SYSTEM INTEGRATION",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-23/s8_cut3.jpg",
-          "badge": "SEMICONDUCTOR WAFER • ADVANCED PACKAGING",
-          "panDirection": "panLeft"
-        }
-      ]
-    },
-    {
-      "id": "s9_walmart_launches_tools_for_ai_ag",
+      "id": "s8_php_security_flaw_india_activate",
       "region": "INDIA",
       "category": "INDIA Intelligence",
       "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "Walmart launches tools for AI agents to shop for customers",
+      "headline": "PHP security flaw: India activates emergency response; takes apps offline amid a global alert",
       "subheadline": "Source: The Economic Times",
       "importanceScore": 90,
       "durationSeconds": 24,
       "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/tech-bytes/walmart-launches-tools-for-ai-agents-to-shop-for-customers/articleshow/135104524.cms",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/php-security-flaw-india-activates-emergency-response-takes-apps-offline-amid-global-security-scramble/articleshow/135133793.cms",
       "researchDesk": "",
-      "script": "Turning to India. Walmart on Wednesday intrduced new tools that will allow artificial intelligence agents to shop and complete transactions for customers, as the retailer seeks to position itself in the growing use of AI-powered assistants in online commerce.",
-      "whyThisMatters": "Walmart on Wednesday intrduced new tools that will allow artificial intelligence agents to shop and complete transactions for customers, as the retailer seeks to position itself in the growing use of AI-powered assistant",
+      "script": "Turning to India. Two critical security flaws in PHP, the programming language underpinning an estimated 70% of the internet, have triggered emergency cybersecurity measures in India. Banks are auditing applications and preparing backups, while the government is patching official websites. Razorpay has deployed AI-led vulnerability detection and warned merchants about potential breaches.",
+      "whyThisMatters": "Two critical security flaws in PHP, the programming language underpinning an estimated 70% of the internet, have triggered emergency cybersecurity measures in India.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Walmart launches tools for AI agents to shop for customers",
+        "PHP security flaw: India activates emergency response; takes apps offline amid a",
         "The Economic Times"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s9_cut1.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
-          "panDirection": "zoomIn"
+          "image": "aibrief/assets/editorial/2026-10-24/s8_cut1.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-23/s9_cut2.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-23/s9_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-10-24/s8_cut2.jpg",
           "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s8_cut3.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "panLeft"
         }
       ]
     }
@@ -391,15 +340,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. UK working to identify exposure after global cyber-security warning. AI firms say UK has a year to head off datacentre protests before construction is threatened. 1Password lets AI agents use your passwords without seeing them. DeepSeek reportedly raises 15 billion dollars days after US restrictions. Malaysia’s TuJu app struggles after Anwar suggests switching from Waze. Cognizant acquires DyFlex Solutions to enhance AI and SAP transformation capabilities.",
+    "script": "To recap today's top stories. OpenAI nears up to 30 billion dollars funding round at 1.25 trillion dollars valuation led by UAE investors. Someone hacked the Switch 2 by using an old game and AI. Experts cast doubt on Anthropic report detailing how AI has altered work at the company. Oppo Find X10 and X10 Pro Max launched in India: Triple 200MP cameras, 8,000 mAh battery, check price. The Guardian view on AI safety: the push for global regulation must advance | Editorial. 1Password launches a way for AI agents to log in on your behalf without seeing your password.",
     "items": [
-      "✓ UK working to identify exposure after global cyb",
-      "✓ AI firms say UK has a year to head off datacentr",
-      "✓ 1Password lets AI agents use your passwords with",
-      "✓ DeepSeek reportedly raises 15 billion dollars da",
-      "✓ Malaysia’s TuJu app struggles after Anwar sugges",
-      "✓ Cognizant acquires DyFlex Solutions to enhance A",
-      "✓ StreamEval: Evaluating Interactive Streaming Vid"
+      "✓ OpenAI nears up to 30 billion dollars funding ro",
+      "✓ Someone hacked the Switch 2 by using an old game",
+      "✓ Experts cast doubt on Anthropic report detailing",
+      "✓ Oppo Find X10 and X10 Pro Max launched in India:",
+      "✓ The Guardian view on AI safety: the push for glo",
+      "✓ 1Password launches a way for AI agents to log in",
+      "✓ Etsy bans AI-generated recipes and patterns from"
     ]
   },
   "outro": {
@@ -418,30 +367,29 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "UK working to identify exposure after global ",
-    "AI firms say UK has a year to head off datace",
-    "1Password lets AI agents use your passwords w",
-    "DeepSeek reportedly raises 15 billion dollars",
-    "Malaysia’s TuJu app struggles after Anwar sug",
-    "Cognizant acquires DyFlex Solutions to enhanc",
-    "StreamEval: Evaluating Interactive Streaming ",
-    "Meta beats expectations but legal penalties h",
-    "Walmart launches tools for AI agents to shop "
+    "OpenAI nears up to 30 billion dollars funding",
+    "Someone hacked the Switch 2 by using an old g",
+    "Experts cast doubt on Anthropic report detail",
+    "Oppo Find X10 and X10 Pro Max launched in Ind",
+    "The Guardian view on AI safety: the push for ",
+    "1Password launches a way for AI agents to log",
+    "Etsy bans AI-generated recipes and patterns f",
+    "PHP security flaw: India activates emergency "
   ],
   "thumbnail": {
-    "date": "23 OCTOBER 2026",
-    "headline": "UK WORKING TO IDENTIFY EXPOSURE AFTER GLOBAL",
+    "date": "24 OCTOBER 2026",
+    "headline": "OPENAI NEARS UP TO 30 BILLION DOLLARS",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "UK WORKING TO IDENTIFY EXPOSURE",
-      "AI FIRMS SAY UK HAS A YEAR TO HEAD",
-      "1PASSWORD LETS AI AGENTS USE YOUR",
-      "DEEPSEEK REPORTEDLY RAISES 15"
+      "OPENAI NEARS UP TO 30 BILLION",
+      "SOMEONE HACKED THE SWITCH 2 BY",
+      "EXPERTS CAST DOUBT ON ANTHROPIC",
+      "OPPO FIND X10 AND X10 PRO MAX"
     ]
   },
   "youtubeMetadata": {
-    "title": "UK working to identify exposure | AI firms say UK has a year to head | 1Password lets AI agents use your | AI News 23 October 2026",
-    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 23 October 2026.",
+    "title": "OpenAI nears up to 30 billion | Someone hacked the Switch 2 by | Experts cast doubt on Anthropic | AI News 24 October 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 24 October 2026.",
     "tags": [
       "AI",
       "ArtificialIntelligence",

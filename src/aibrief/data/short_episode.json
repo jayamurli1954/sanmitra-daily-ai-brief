@@ -1,182 +1,187 @@
 {
-  "date": "2026-10-22",
-  "dateLabel": "22 OCTOBER 2026",
+  "date": "2026-10-23",
+  "dateLabel": "23 OCTOBER 2026",
   "kicker": "BREAKING",
-  "headline": "The Pentagon lays out how it will stand up an Autonomous Warfare Command",
+  "headline": "AI-found PHP flaws push governments to take websites offline",
   "subhead": "",
-  "source": "Source: U.S. Department of War",
-  "audioFile": "audio/aibrief/short_2026-10-22_lead.mp3",
-  "voiceFrames": 1372,
+  "source": "Source: Al Jazeera",
+  "audioFile": "audio/aibrief/short_2026-10-23_lead.mp3",
+  "voiceFrames": 1467,
   "endCardFrames": 75,
   "images": [
     {
-      "src": "aibrief/assets/editorial/2026-10-22/s1_cut1.jpg",
-      "label": "ARLINGTON • THE PENTAGON HEADQUARTERS"
-    },
-    {
-      "src": "aibrief/assets/editorial/2026-10-22/s1_cut2.jpg",
+      "src": "aibrief/assets/editorial/2026-10-23/s1_cut1.jpg",
       "label": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM"
     },
     {
-      "src": "aibrief/assets/editorial/2026-10-22/s1_cut3.jpg",
-      "label": "TACTICAL OPERATIONS CENTER • INCIDENT DESK"
+      "src": "aibrief/assets/editorial/2026-10-23/s1_cut2.jpg",
+      "label": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION"
+    },
+    {
+      "src": "aibrief/assets/editorial/2026-10-23/s1_cut3.jpg",
+      "label": "MULTILATERAL FORUM • REGULATORY HARMONIZATION"
     }
   ],
   "cues": [
     {
-      "text": "In an open letter to the",
+      "text": "Two critical flaws in PHP,",
       "start": 0,
-      "end": 39
+      "end": 46
     },
     {
-      "text": "Joint Force and industry",
-      "start": 39,
-      "end": 71
+      "text": "the language behind more",
+      "start": 68,
+      "end": 104
     },
     {
-      "text": "on 21 October,",
-      "start": 71,
-      "end": 89
+      "text": "than 70% of websites,",
+      "start": 104,
+      "end": 145
     },
     {
-      "text": "Project Agincourt leaders",
-      "start": 122,
-      "end": 167
+      "text": "prompted a rare NSA",
+      "start": 164,
+      "end": 196
     },
     {
-      "text": "Owen West and Senior Chief",
-      "start": 167,
-      "end": 218
+      "text": "warning to patch",
+      "start": 196,
+      "end": 224
     },
     {
-      "text": "Max Strasiser set out the",
-      "start": 218,
-      "end": 270
+      "text": "immediately or take sites",
+      "start": 224,
+      "end": 266
     },
     {
-      "text": "operational roadmap for",
-      "start": 270,
-      "end": 310
+      "text": "offline.",
+      "start": 266,
+      "end": 277
     },
     {
-      "text": "the Autonomous Warfare",
-      "start": 310,
-      "end": 337
+      "text": "Germany, France, Belgium,",
+      "start": 307,
+      "end": 369
     },
     {
-      "text": "Command (AUTOWARCOM), a",
-      "start": 337,
-      "end": 401
+      "text": "the Netherlands, Finland",
+      "start": 380,
+      "end": 409
     },
     {
-      "text": "planned four-star command",
-      "start": 401,
-      "end": 436
+      "text": "and the Czech Republic",
+      "start": 421,
+      "end": 444
     },
     {
-      "text": "for unmanned and",
-      "start": 436,
-      "end": 467
+      "text": "took some government sites",
+      "start": 444,
+      "end": 483
     },
     {
-      "text": "autonomous warfare that",
-      "start": 467,
-      "end": 507
+      "text": "down while patching,",
+      "start": 483,
+      "end": 517
     },
     {
-      "text": "the Department of War is",
-      "start": 507,
-      "end": 541
+      "text": "and Japan's Prime Minister",
+      "start": 522,
+      "end": 560
     },
     {
-      "text": "targeting for 1 October",
-      "start": 541,
-      "end": 567
+      "text": "warned about the risk.",
+      "start": 560,
+      "end": 594
     },
     {
-      "text": "2027.",
-      "start": 598,
-      "end": 626
+      "text": "The flaws, dubbed",
+      "start": 624,
+      "end": 655
     },
     {
-      "text": "The letter says",
-      "start": 653,
-      "end": 678
+      "text": "PHP2Shell, let an attacker",
+      "start": 655,
+      "end": 721
     },
     {
-      "text": "procurement decisions and",
-      "start": 678,
-      "end": 718
+      "text": "run commands on an",
+      "start": 721,
+      "end": 757
     },
     {
-      "text": "money will be pushed",
-      "start": 718,
-      "end": 742
+      "text": "unpatched server without a",
+      "start": 757,
+      "end": 801
     },
     {
-      "text": "directly to frontline",
-      "start": 742,
-      "end": 769
+      "text": "password.",
+      "start": 801,
+      "end": 809
     },
     {
-      "text": "units, and success will be",
-      "start": 769,
-      "end": 830
+      "text": "They were found with the",
+      "start": 835,
+      "end": 874
     },
     {
-      "text": "judged by how fast a",
-      "start": 830,
-      "end": 868
-    },
-    {
-      "text": "battlefield problem gets a",
-      "start": 868,
+      "text": "help of AI models:",
+      "start": 874,
       "end": 908
     },
     {
-      "text": "fielded, scalable fix",
-      "start": 908,
-      "end": 951
+      "text": "security firm Calif,",
+      "start": 919,
+      "end": 956
     },
     {
-      "text": "rather than by paperwork",
-      "start": 951,
-      "end": 989
+      "text": "working with OpenAI,",
+      "start": 974,
+      "end": 1003
     },
     {
-      "text": "milestones; it also warns",
-      "start": 989,
-      "end": 1051
+      "text": "reported the first in",
+      "start": 1019,
+      "end": 1049
     },
     {
-      "text": "that \"urgency does not",
-      "start": 1051,
+      "text": "August and Wiz reported",
+      "start": 1049,
       "end": 1087
     },
     {
-      "text": "excuse imprecision\".",
+      "text": "the second.",
       "start": 1087,
-      "end": 1122
+      "end": 1103
     },
     {
-      "text": "It is a roadmap,",
-      "start": 1153,
-      "end": 1171
+      "text": "The PHP Foundation warned",
+      "start": 1136,
+      "end": 1186
     },
     {
-      "text": "not a stood-up command.",
+      "text": "that AI tools now find",
       "start": 1186,
-      "end": 1218
+      "end": 1234
+    },
+    {
+      "text": "bugs faster \"for defenders",
+      "start": 1234,
+      "end": 1276
+    },
+    {
+      "text": "and attackers alike\".",
+      "start": 1276,
+      "end": 1313
     },
     {
       "text": "Watch the full episode on",
-      "start": 1244,
-      "end": 1293
+      "start": 1345,
+      "end": 1388
     },
     {
       "text": "SanMitra AI News Wire.",
-      "start": 1293,
-      "end": 1340
+      "start": 1388,
+      "end": 1436
     }
   ],
   "ctaTitle": "Full episode on YouTube",

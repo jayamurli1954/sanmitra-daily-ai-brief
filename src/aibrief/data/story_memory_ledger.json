@@ -1,82 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-10-22",
+  "last_updated": "2026-10-23",
   "stories": [
-    {
-      "story_id": "story_20261009_samsung_forecasts_record_third_quar",
-      "story_chain_id": "chain_global_samsung_forecasts_re",
-      "headline": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html"
-      ],
-      "first_covered": "2026-10-09",
-      "last_major_update": "2026-10-09",
-      "update_phase": "initial_break",
-      "impact_score": 91
-    },
-    {
-      "story_id": "story_20261009_microsoft_surface_laptop_ultra_pre_",
-      "story_chain_id": "chain_global_microsoft_surface_la",
-      "headline": "Microsoft Surface Laptop Ultra pre-orders open: Price, specs, 128GB RAM and sale date",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.livemint.com/technology/microsoft-surface-laptop-ultra-pre-orders-open-price-specs-128gb-ram-and-sale-date-11791437489433.html"
-      ],
-      "first_covered": "2026-10-09",
-      "last_major_update": "2026-10-09",
-      "update_phase": "initial_break",
-      "impact_score": 81
-    },
-    {
-      "story_id": "story_20261009_ai_startup_manus_raises_500_million",
-      "story_chain_id": "chain_global_ai_startup_manus_rai",
-      "headline": "AI startup Manus raises $500 million in first funding round since Meta breakup",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/08/manus-fund-raise-meta-muse-tencent.html"
-      ],
-      "first_covered": "2026-10-09",
-      "last_major_update": "2026-10-09",
-      "update_phase": "initial_break",
-      "impact_score": 75
-    },
-    {
-      "story_id": "story_20261009_us_government_google_join_zuckerber",
-      "story_chain_id": "chain_global_us_government_google",
-      "headline": "US government, Google join Zuckerberg-backed Biohub in $1.8 billion push for AI biology data",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/technology/us-government-google-join-zuckerberg-backed-biohub-in-1-8-billion-push-for-ai-biology-data/articleshow/134770321.cms"
-      ],
-      "first_covered": "2026-10-09",
-      "last_major_update": "2026-10-09",
-      "update_phase": "initial_break",
-      "impact_score": 68
-    },
-    {
-      "story_id": "story_20261009_one_nation_s_ai_video_is_vile_and_t",
-      "story_chain_id": "chain_global_one_nation_s_ai_vide",
-      "headline": "One Nation’s AI video is vile and tired – but the ensloppification of Australian politics doesn’t stop there",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/australia-news/2026/oct/09/one-nations-ai-video-is-vile-and-tired-but-the-ensloppification-of-australian-politics-doesnt-stop-there-ntwnfb"
-      ],
-      "first_covered": "2026-10-09",
-      "last_major_update": "2026-10-09",
-      "update_phase": "initial_break",
-      "impact_score": 66
-    },
     {
       "story_id": "story_20261010_anthropic_bans_users_from_needless_",
       "story_chain_id": "chain_global_anthropic_bans_users",
@@ -2189,6 +2114,261 @@
       ],
       "first_covered": "2026-10-23",
       "last_major_update": "2026-10-23",
+      "update_phase": "initial_break",
+      "impact_score": 68
+    },
+    {
+      "story_id": "story_20261023_ai_found_php_flaws_push_governments",
+      "story_chain_id": "chain_global_ai_found_php_flaws_p",
+      "headline": "AI-found PHP flaws push governments to take websites offline",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/10/22/world-leaders-warn-against-security-flaw-found-in-php-computer-programming"
+      ],
+      "first_covered": "2026-10-23",
+      "last_major_update": "2026-10-23",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261023_outside_evaluators_found_holes_in_o",
+      "story_chain_id": "chain_global_outside_evaluators_f",
+      "headline": "Outside evaluators found holes in OpenAI's agent-monitoring system",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html"
+      ],
+      "first_covered": "2026-10-23",
+      "last_major_update": "2026-10-23",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261023_thousands_of_ai_agents_read_a_mouse",
+      "story_chain_id": "chain_global_thousands_of_ai_agen",
+      "headline": "Thousands of AI agents read a mouse-brain atlas in 32 minutes",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://openai.com/index/scaling-ai-research-for-complex-biological-data"
+      ],
+      "first_covered": "2026-10-23",
+      "last_major_update": "2026-10-23",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261023_iflytek_open_sources_spark_x2_6_bui",
+      "story_chain_id": "chain_global_iflytek_open_sources",
+      "headline": "iFlytek open-sources Spark X2.6, built on Chinese chips",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.globaltimes.cn/page/202610/1372798.shtml"
+      ],
+      "first_covered": "2026-10-23",
+      "last_major_update": "2026-10-23",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261023_korea_and_us_air_forces_sign_a_pact",
+      "story_chain_id": "chain_global_korea_and_us_air_for",
+      "headline": "Korea and US air forces sign a pact on AI drone wingmen",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://en.yna.co.kr/view/AEN20261022003000315"
+      ],
+      "first_covered": "2026-10-23",
+      "last_major_update": "2026-10-23",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261023_chariot_launches_a_real_time_speech",
+      "story_chain_id": "chain_global_chariot_launches_a_r",
+      "headline": "Chariot launches a real-time speech model for 10 Indian languages",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://enterpriseai.economictimes.indiatimes.com/news/industry/indian-ai-startup-chariot-launches-real-time-speech-ai-model-claims-edge-over-google-and-sarvam/135116798"
+      ],
+      "first_covered": "2026-10-23",
+      "last_major_update": "2026-10-23",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261023_streameval_evaluating_interactive_s",
+      "story_chain_id": "chain_global_streameval_evaluatin",
+      "headline": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2610.28402"
+      ],
+      "first_covered": "2026-10-23",
+      "last_major_update": "2026-10-23",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261023_singapore_opens_a_national_embodied",
+      "story_chain_id": "chain_global_singapore_opens_a_na",
+      "headline": "Singapore opens a national embodied-AI challenge for chip factories",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://technode.global/2026/10/22/singapore-launches-first-national-embodied-ai-challenge-to-accelerate-real-world-robotics-deployment-in-manufacturing/"
+      ],
+      "first_covered": "2026-10-23",
+      "last_major_update": "2026-10-23",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261023_karta_ai_raises_3_million_dollars_t",
+      "story_chain_id": "chain_global_karta_ai_raises_3_mi",
+      "headline": "Karta AI raises 3 million dollars to automate bank and lender support calls",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://inc42.com/buzz/karta-ai-raises-3-mn-to-automate-inbound-calls-for-bfsi-players/"
+      ],
+      "first_covered": "2026-10-23",
+      "last_major_update": "2026-10-23",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261024_openai_nears_up_to_30_billion_fundi",
+      "story_chain_id": "chain_global_openai_nears_up_to_3",
+      "headline": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 87
+    },
+    {
+      "story_id": "story_20261024_someone_hacked_the_switch_2_by_usin",
+      "story_chain_id": "chain_global_someone_hacked_the_s",
+      "headline": "Someone hacked the Switch 2 by using an old game and AI",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 74
+    },
+    {
+      "story_id": "story_20261024_experts_cast_doubt_on_anthropic_rep",
+      "story_chain_id": "chain_global_experts_cast_doubt_o",
+      "headline": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261024_1password_launches_a_way_for_ai_age",
+      "story_chain_id": "chain_global_1password_launches_a",
+      "headline": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261024_the_guardian_view_on_ai_safety_the_",
+      "story_chain_id": "chain_global_the_guardian_view_on",
+      "headline": "The Guardian view on AI safety: the push for global regulation must advance | Editorial",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/commentisfree/2026/oct/22/the-guardian-view-on-ai-safety-the-push-for-global-regulation-must-advance"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261024_etsy_bans_ai_generated_recipes_and_",
+      "story_chain_id": "chain_global_etsy_bans_ai_generat",
+      "headline": "Etsy bans AI-generated recipes and patterns from its online marketplace",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/22/etsy-bans-ai-generated-recipes-patterns-from-its-online-marketplace.html"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261024_oppo_find_x10_and_x10_pro_max_launc",
+      "story_chain_id": "chain_global_oppo_find_x10_and_x1",
+      "headline": "Oppo Find X10 and X10 Pro Max launched in India: Triple 200MP cameras, 8,000 mAh battery, check price",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.livemint.com/technology/gadgets/oppo-find-x10-and-x10-pro-max-launched-in-india-triple-200mp-cameras-8-000-mah-battery-check-price-11792742409318.html"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261024_php_security_flaw_india_activates_e",
+      "story_chain_id": "chain_global_php_security_flaw_in",
+      "headline": "PHP security flaw: India activates emergency response; takes apps offline amid a global alert",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/php-security-flaw-india-activates-emergency-response-takes-apps-offline-amid-global-security-scramble/articleshow/135133793.cms"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
       "update_phase": "initial_break",
       "impact_score": 68
     }

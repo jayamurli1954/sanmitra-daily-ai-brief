@@ -1,119 +1,126 @@
 {
-  "s1_the_pentagon_lays_out_how_it_wil": [
+  "s1_ai_found_php_flaws_push_governme": [
+    {
+      "type": "stat",
+      "shown": "70%+",
+      "label": "of websites",
+      "start": 5.72,
+      "end": 11.22
+    },
+    {
+      "type": "reported",
+      "text": "They were found with the help of AI models: security firm Calif, working with OpenAI, reported the first in August and Wiz reported the second.",
+      "highlight": "the first in August and Wiz reported the second",
+      "source": "Al Jazeera",
+      "start": 29.2,
+      "end": 34.7
+    },
     {
       "type": "quote",
-      "text": "urgency does not excuse imprecision",
+      "text": "for defenders and attackers alike",
       "speaker": null,
-      "source": "U.S. Department of War",
-      "start": 35.04,
-      "end": 40.54
+      "source": "Al Jazeera",
+      "start": 43.7,
+      "end": 49.2
     }
   ],
-  "s2_openai_s_models_and_codex_are_co": [
-    {
-      "type": "quote",
-      "text": "in the coming weeks",
-      "speaker": null,
-      "source": "OpenAI",
-      "start": 24.4,
-      "end": 29.9
-    }
-  ],
-  "s3_claude_designed_protein_binders": [
+  "s2_outside_evaluators_found_holes_i": [
     {
       "type": "reported",
-      "text": "Anthropic said an internal research model working in Claude Science ran a mostly autonomous 64-hour design campaign, generating 318,484 candidate proteins against five scorpion neurotoxins and picking 180 for lab tests; with 31 added by the team…",
-      "highlight": "an internal research model working in Claude Science ran a mostly autonomous 64-hour design campaign",
-      "source": "Anthropic",
+      "text": "The nonprofits METR and Redwood Research said on 22 October that they ran a pilot review of OpenAI's internal misalignment-monitoring system.",
+      "highlight": "they ran a pilot review of OpenAI's internal misalignment-monitoring system",
+      "source": "CNBC",
+      "start": 2.5,
+      "end": 8.0
+    },
+    {
+      "type": "reported",
+      "text": "OpenAI says it has patched the flaws that affected production safeguards.",
+      "highlight": "affected production safeguards",
+      "source": "CNBC",
+      "start": 29.16,
+      "end": 34.66
+    }
+  ],
+  "s3_thousands_of_ai_agents_read_a_mo": [
+    {
+      "type": "stat",
+      "shown": "75%",
+      "label": "of the time",
+      "start": 39.24,
+      "end": 44.74
+    }
+  ],
+  "s4_iflytek_open_sources_spark_x2_6": [
+    {
+      "type": "dateline",
+      "place": "BEIJING",
+      "date": null,
+      "start": 0.4,
+      "end": 4.5
+    },
+    {
+      "type": "reported",
+      "text": "At its 1024 developer festival in Beijing, iFlytek released and open-sourced Spark X2.6.",
+      "highlight": "and open-sourced Spark X2.6",
+      "source": "Global Times",
       "start": 2.0,
       "end": 7.5
     },
     {
+      "type": "compare",
+      "items": [
+        {
+          "shown": "293 BILLION",
+          "value": 293.0,
+          "label": "total"
+        },
+        {
+          "shown": "30 BILLION",
+          "value": 30.0,
+          "label": "active parameters"
+        }
+      ],
+      "start": 10.3,
+      "end": 15.8
+    }
+  ],
+  "s5_korea_and_us_air_forces_sign_a_p": [],
+  "s6_chariot_launches_a_real_time_spe": [
+    {
+      "type": "reported",
+      "text": "It says the model made 9% fewer errors than Sarvam's Saaras v4 and 26% fewer than Google's Gemini 3.5 Transcribe across 79 public test sets, and 23% fewer than the next-best system in Hindi.",
+      "highlight": "the model made 9% fewer errors than Sarvam's Saaras v4 and 26% fewer than Google's Gemini 3.5 Transcribe across 79 public test sets",
+      "source": "ETEnterpriseAI",
+      "start": 13.34,
+      "end": 18.84
+    }
+  ],
+  "s7_streameval_evaluating_interactiv": [
+    {
       "type": "stat",
-      "shown": "318,484",
-      "label": "candidate proteins against five scorpion neurotoxins",
-      "start": 9.0,
-      "end": 14.5
+      "shown": "300",
+      "label": "scripted test cases lasting 15-300s",
+      "start": 25.34,
+      "end": 30.84
+    }
+  ],
+  "s8_singapore_opens_a_national_embod": [],
+  "s9_karta_ai_raises_3_million_dollar": [
+    {
+      "type": "stat",
+      "shown": "$3 MILLION",
+      "label": "seed round led by PeerCapital",
+      "start": 5.88,
+      "end": 11.38
     },
     {
       "type": "reported",
-      "text": "All 211 designs and data are being released. (Theme: AI breakthroughs) ---",
-      "highlight": ". (Theme: AI breakthroughs) ---",
-      "source": "Anthropic",
-      "start": 48.54,
-      "end": 54.04
-    }
-  ],
-  "s4_bytedance_alibaba_and_tencent_re": [
-    {
-      "type": "stat",
-      "shown": "3 MILLION+",
-      "label": "of Nvidia's new RTX PRO 5500 cards…",
-      "start": 4.46,
-      "end": 9.96
-    },
-    {
-      "type": "reported",
-      "text": "Total Chinese orders reportedly exceed 6 million while Nvidia may make only about 3 million globally in 2027, and one source said partners might get just 5 10% of what they asked for.",
-      "highlight": "partners might get just 5 10% of what they asked for",
-      "source": "Business Standard (Reuters)",
-      "start": 18.42,
-      "end": 23.92
-    }
-  ],
-  "s5_korea_and_japan_hold_their_secon": [
-    {
-      "type": "reported",
-      "text": "No agreements were announced. (Theme: AI policy and regulation)",
-      "highlight": ". (Theme: AI policy and regulation)",
-      "source": "Aju Press",
-      "start": 26.6,
-      "end": 32.1
-    }
-  ],
-  "s6_principal_scientific_adviser_say": [
-    {
-      "type": "reported",
-      "text": "Ajay Kumar Sood told NDTV the government is open to a dedicated AI law and has begun preparing a consultation paper on \"targeted regulatory guardrails\", saying AI risks have become much clearer in the last year or two.",
-      "highlight": "NDTV the government is open to a dedicated AI law and has begun preparing a consultation paper on \"targeted regulatory guardrails\"",
-      "source": "NDTV",
-      "start": 2.0,
-      "end": 7.5
-    },
-    {
-      "type": "reported",
-      "text": "No draft or timeline has been published. (Theme: AI policy and regulation)",
-      "highlight": ". (Theme: AI policy and regulation)",
-      "source": "NDTV",
-      "start": 24.86,
-      "end": 30.36
-    }
-  ],
-  "s7_sensetime_open_sources_a_robot_t": [
-    {
-      "type": "reported",
-      "text": "SenseTime released SenseNova-RoboRSI, a framework that packages 12 simulated robot benchmarks behind one API, alongside a 27B embodied model preview.",
-      "highlight": "packages 12 simulated robot benchmarks behind one API, alongside a 27B embodied model preview",
-      "source": "Pandaily",
-      "start": 2.0,
-      "end": 7.5
-    },
-    {
-      "type": "stat",
-      "shown": "131",
-      "label": "minutes",
-      "start": 19.94,
-      "end": 25.44
-    }
-  ],
-  "s8_korean_police_and_singapore_s_ht": [],
-  "s9_openai_will_train_government_sta": [
-    {
-      "type": "stat",
-      "shown": "1.7 CRORE+",
-      "label": "registered government employees",
-      "start": 10.68,
-      "end": 16.18
+      "text": "The company says its agent resolves about 70% of borrower queries without a human.",
+      "highlight": "its agent resolves about 70% of borrower queries without a human",
+      "source": "Inc42",
+      "start": 21.36,
+      "end": 26.86
     }
   ]
 }

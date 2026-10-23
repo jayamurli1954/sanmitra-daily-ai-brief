@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 13.2,
-    "sceneDurationSeconds": 14.4,
-    "durationInFrames": 432,
+    "audioDurationSeconds": 13.39,
+    "sceneDurationSeconds": 14.59,
+    "durationInFrames": 438,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_uk_working_to_identify_exposure": {
-    "audioFile": "audio/aibrief/s1_s1_uk_working_to_identify_exposure.mp3",
-    "audioDurationSeconds": 40.49,
-    "sceneDurationSeconds": 41.69,
-    "durationInFrames": 1251,
-    "title": "Story 1: UK working to identify exposure after global cyber-security warning",
+  "s1_ai_found_php_flaws_push_governme": {
+    "audioFile": "audio/aibrief/s1_s1_ai_found_php_flaws_push_governme.mp3",
+    "audioDurationSeconds": 51.79,
+    "sceneDurationSeconds": 52.99,
+    "durationInFrames": 1590,
+    "title": "Story 1: AI-found PHP flaws push governments to take websites offline",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_usa": {
@@ -22,20 +22,20 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_ai_firms_say_uk_has_a_year_to_he": {
-    "audioFile": "audio/aibrief/s2_s2_ai_firms_say_uk_has_a_year_to_he.mp3",
-    "audioDurationSeconds": 40.85,
-    "sceneDurationSeconds": 42.05,
-    "durationInFrames": 1261,
-    "title": "Story 2: AI firms say UK has a year to head off datacentre protests before construction is threatened",
+  "s2_outside_evaluators_found_holes_i": {
+    "audioFile": "audio/aibrief/s2_s2_outside_evaluators_found_holes_i.mp3",
+    "audioDurationSeconds": 48.43,
+    "sceneDurationSeconds": 49.63,
+    "durationInFrames": 1489,
+    "title": "Story 2: Outside evaluators found holes in OpenAI's agent-monitoring system",
     "voice": "en-US-AriaNeural"
   },
-  "s3_1password_lets_ai_agents_use_you": {
-    "audioFile": "audio/aibrief/s3_s3_1password_lets_ai_agents_use_you.mp3",
-    "audioDurationSeconds": 42.62,
-    "sceneDurationSeconds": 43.82,
-    "durationInFrames": 1315,
-    "title": "Story 3: 1Password lets AI agents use your passwords without seeing them",
+  "s3_thousands_of_ai_agents_read_a_mo": {
+    "audioFile": "audio/aibrief/s3_s3_thousands_of_ai_agents_read_a_mo.mp3",
+    "audioDurationSeconds": 51.38,
+    "sceneDurationSeconds": 52.58,
+    "durationInFrames": 1578,
+    "title": "Story 3: Thousands of AI agents read a mouse-brain atlas in 32 minutes",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
@@ -45,12 +45,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s4_deepseek_reportedly_raises_15_bi": {
-    "audioFile": "audio/aibrief/s4_s4_deepseek_reportedly_raises_15_bi.mp3",
-    "audioDurationSeconds": 14.26,
-    "sceneDurationSeconds": 15.46,
-    "durationInFrames": 464,
-    "title": "Story 4: DeepSeek reportedly raises 15 billion dollars days after US restrictions",
+  "s4_iflytek_open_sources_spark_x2_6": {
+    "audioFile": "audio/aibrief/s4_s4_iflytek_open_sources_spark_x2_6.mp3",
+    "audioDurationSeconds": 54.38,
+    "sceneDurationSeconds": 55.58,
+    "durationInFrames": 1668,
+    "title": "Story 4: iFlytek open-sources Spark X2.6, built on Chinese chips",
     "voice": "en-US-AriaNeural"
   },
   "transition_asia": {
@@ -60,12 +60,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
   },
-  "s5_malaysia_s_tuju_app_struggles_af": {
-    "audioFile": "audio/aibrief/s5_s5_malaysia_s_tuju_app_struggles_af.mp3",
-    "audioDurationSeconds": 30.36,
-    "sceneDurationSeconds": 31.56,
-    "durationInFrames": 947,
-    "title": "Story 5: Malaysia\u2019s TuJu app struggles after Anwar suggests switching from Waze",
+  "s5_korea_and_us_air_forces_sign_a_p": {
+    "audioFile": "audio/aibrief/s5_s5_korea_and_us_air_forces_sign_a_p.mp3",
+    "audioDurationSeconds": 34.54,
+    "sceneDurationSeconds": 35.74,
+    "durationInFrames": 1072,
+    "title": "Story 5: Korea and US air forces sign a pact on AI drone wingmen",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_india": {
@@ -75,12 +75,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s6_cognizant_acquires_dyflex_soluti": {
-    "audioFile": "audio/aibrief/s6_s6_cognizant_acquires_dyflex_soluti.mp3",
-    "audioDurationSeconds": 30.98,
-    "sceneDurationSeconds": 32.18,
-    "durationInFrames": 966,
-    "title": "Story 6: Cognizant acquires DyFlex Solutions to enhance AI and SAP transformation capabilities",
+  "s6_chariot_launches_a_real_time_spe": {
+    "audioFile": "audio/aibrief/s6_s6_chariot_launches_a_real_time_spe.mp3",
+    "audioDurationSeconds": 35.14,
+    "sceneDurationSeconds": 36.34,
+    "durationInFrames": 1090,
+    "title": "Story 6: Chariot launches a real-time speech model for 10 Indian languages",
     "voice": "en-US-AriaNeural"
   },
   "s7_streameval_evaluating_interactiv": {
@@ -91,27 +91,27 @@
     "title": "Story 7: StreamEval: Evaluating Interactive Streaming Video Generation Models",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_meta_beats_expectations_but_lega": {
-    "audioFile": "audio/aibrief/s8_s8_meta_beats_expectations_but_lega.mp3",
-    "audioDurationSeconds": 31.25,
-    "sceneDurationSeconds": 32.45,
-    "durationInFrames": 973,
-    "title": "Story 8: Meta beats expectations but legal penalties hit profit amid AI race",
+  "s8_singapore_opens_a_national_embod": {
+    "audioFile": "audio/aibrief/s8_s8_singapore_opens_a_national_embod.mp3",
+    "audioDurationSeconds": 33.43,
+    "sceneDurationSeconds": 34.63,
+    "durationInFrames": 1039,
+    "title": "Story 8: Singapore opens a national embodied-AI challenge for chip factories",
     "voice": "en-US-AriaNeural"
   },
-  "s9_walmart_launches_tools_for_ai_ag": {
-    "audioFile": "audio/aibrief/s9_s9_walmart_launches_tools_for_ai_ag.mp3",
-    "audioDurationSeconds": 15.48,
-    "sceneDurationSeconds": 16.68,
-    "durationInFrames": 500,
-    "title": "Story 9: Walmart launches tools for AI agents to shop for customers",
+  "s9_karta_ai_raises_3_million_dollar": {
+    "audioFile": "audio/aibrief/s9_s9_karta_ai_raises_3_million_dollar.mp3",
+    "audioDurationSeconds": 67.7,
+    "sceneDurationSeconds": 68.9,
+    "durationInFrames": 2067,
+    "title": "Story 9: Karta AI raises 3 million dollars to automate bank and lender support calls",
     "voice": "en-US-ChristopherNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 36.5,
-    "sceneDurationSeconds": 37.7,
-    "durationInFrames": 1131,
+    "audioDurationSeconds": 32.28,
+    "sceneDurationSeconds": 33.48,
+    "durationInFrames": 1004,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },

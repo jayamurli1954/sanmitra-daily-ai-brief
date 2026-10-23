@@ -1,0 +1,403 @@
+{
+  "weekly": false,
+  "date": "2026-10-24",
+  "formattedDate": "24 October 2026",
+  "title": "OpenAI nears up to 30 billion | Someone hacked the Switch 2 by | Experts cast doubt on Anthropic | AI News 24 October 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking this morning: OpenAI nears up to 30 billion dollars funding round at 1.25 trillion dollars valuation led by UAE investors. From the SanMitra Newsroom, this is the Daily AI Brief for 24 October 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_openai_nears_up_to_30_billion_do",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "OpenAI nears up to 30 billion dollars funding round at 1.25 trillion dollars valuation led by UAE investors",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 99,
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+      "researchDesk": "",
+      "script": "Our lead story today. OpenAI is close to finalizing a new funding round that is meant to be a bridge to its 2027 IPO, sources familiar with the matter tell CNBC.",
+      "whyThisMatters": "OpenAI is close to finalizing a new funding round that is meant to be a bridge to its 2027 IPO, sources familiar with the matter tell CNBC.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "OpenAI nears up to 30 billion dollars funding round at 1.25 trillion dollars val",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s1_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s1_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s1_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_someone_hacked_the_switch_2_by_u",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Someone hacked the Switch 2 by using an old game and AI",
+      "subheadline": "Source: The Verge",
+      "importanceScore": 95,
+      "durationSeconds": 50,
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+      "researchDesk": "",
+      "script": "Also today. pepsipu on X \" data-has-syndication-rights=\"1\" src=\" /> The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable characters like Cinnamoroll, the red Angry Bird, Peter Griffin, and Steve from Minecraft . i jailbroke the nintendo switch 2 so i modded cinnamoroll, peter griffin, hatsune miku, and more into Mario Kart World, a switch 2 exclusive now watch my friends and i get cooked by bots learn more and get the exploit pic.twitter.com/BOcFhejRz1 - pepsipu (@pepsipu) October 22, 2026 OpenAI's Codex helped make this \" ns2jb \" jailbreak, according to Sammy Hajhamid , aka \"pe … Read the full story at The Verge.",
+      "whyThisMatters": "pepsipu on X \" data-has-syndication-rights=\"1\" src=\" /> The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Someone hacked the Switch 2 by using an old game and AI",
+        "The Verge"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s2_cut1.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s2_cut2.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s2_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_experts_cast_doubt_on_anthropic",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 95,
+      "durationSeconds": 40,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts",
+      "researchDesk": "",
+      "script": "In other news. Anthropic claims AI will shift how work gets done and labor demand but some experts are skeptical of the vision Last year, the Anthropic CEO, Dario Amodei, warned that artificial intelligence could eliminate half of entry-level white-collar jobs and that in six months it would be writing 90% of code . Neither of those predictions came to pass. Now, in a report Anthropic published on Thursday, the company said it was hiring fewer junior technical workers and that human attention has become the new “bottleneck” as it increasingly relies on its Claude AI agents.",
+      "whyThisMatters": "Anthropic claims AI will shift how work gets done and labor demand – but some experts are skeptical of the vision Last year, the Anthropic CEO, Dario Amodei, warned that artificial intelligence could eliminate half of en",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Experts cast doubt on Anthropic report detailing how AI has altered work at the ",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s3_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s3_cut2.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s3_cut3.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_oppo_find_x10_and_x10_pro_max_la",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Oppo Find X10 and X10 Pro Max launched in India: Triple 200MP cameras, 8,000 mAh battery, check price",
+      "subheadline": "Source: Mint",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Mint",
+      "sourceUrl": "https://www.livemint.com/technology/gadgets/oppo-find-x10-and-x10-pro-max-launched-in-india-triple-200mp-cameras-8-000-mah-battery-check-price-11792742409318.html",
+      "researchDesk": "",
+      "script": "Turning to India. Oppo has launched the Find X10 and Find X10 Pro Max in India, featuring up to three 200MP rear cameras, batteries of up to 8,000mAh and AI-powered tools.",
+      "whyThisMatters": "Oppo has launched the Find X10 and Find X10 Pro Max in India, featuring up to three 200MP rear cameras, batteries of up to 8,000mAh and AI-powered tools.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Oppo Find X10 and X10 Pro Max launched in India: Triple 200MP cameras, 8,000 mAh",
+        "Mint"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s4_cut1.jpg",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s4_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s4_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_the_guardian_view_on_ai_safety_t",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "The Guardian view on AI safety: the push for global regulation must advance | Editorial",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 48,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/commentisfree/2026/oct/22/the-guardian-view-on-ai-safety-the-push-for-global-regulation-must-advance",
+      "researchDesk": "",
+      "script": "Around the world. The current US administration is an obstacle, but public demand for protection will ultimately prevail Organisations around the world scrambled on Thursday to fix critical flaws in PHP, the software that powers much of the web. The vulnerabilities could allow attackers to take control of affected servers. Some websites were taken offline as a precaution while fixes were installed. The paradox is that while AI helped researchers uncover the flaw, it also threatens to accelerate the ability to exploit it. Amazon said that it had detected an attempt before the public disclosure of the PHP flaws. What the episode highlights is AI’s central role in security and not always for the right reasons.",
+      "whyThisMatters": "The current US administration is an obstacle, but public demand for protection will ultimately prevail Organisations around the world scrambled on Thursday to fix critical flaws in PHP, the software that powers much of t",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "The Guardian view on AI safety: the push for global regulation must advance | Ed",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s5_cut1.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s5_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s5_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_1password_launches_a_way_for_ai",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "researchDesk": "",
+      "script": "Turning to the United States. The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "whyThisMatters": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "1Password launches a way for AI agents to log in on your behalf without seeing y",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s6_cut1.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s6_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s6_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_etsy_bans_ai_generated_recipes_a",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Etsy bans AI-generated recipes and patterns from its online marketplace",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/22/etsy-bans-ai-generated-recipes-patterns-from-its-online-marketplace.html",
+      "researchDesk": "",
+      "script": "In other news. Etsy also laid out clearer rules around AI usage on its platform, including barring sellers from creating bot-generated listings without any human involvement.",
+      "whyThisMatters": "Etsy also laid out clearer rules around AI usage on its platform, including barring sellers from creating bot-generated listings without any human involvement. ---",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Etsy bans AI-generated recipes and patterns from its online marketplace",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s7_cut1.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s7_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s7_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_php_security_flaw_india_activate",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "PHP security flaw: India activates emergency response; takes apps offline amid a global alert",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/php-security-flaw-india-activates-emergency-response-takes-apps-offline-amid-global-security-scramble/articleshow/135133793.cms",
+      "researchDesk": "",
+      "script": "Turning to India. Two critical security flaws in PHP, the programming language underpinning an estimated 70% of the internet, have triggered emergency cybersecurity measures in India. Banks are auditing applications and preparing backups, while the government is patching official websites. Razorpay has deployed AI-led vulnerability detection and warned merchants about potential breaches.",
+      "whyThisMatters": "Two critical security flaws in PHP, the programming language underpinning an estimated 70% of the internet, have triggered emergency cybersecurity measures in India.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "PHP security flaw: India activates emergency response; takes apps offline amid a",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s8_cut1.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s8_cut2.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-24/s8_cut3.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. OpenAI nears up to 30 billion dollars funding round at 1.25 trillion dollars valuation led by UAE investors. Someone hacked the Switch 2 by using an old game and AI. Experts cast doubt on Anthropic report detailing how AI has altered work at the company. Oppo Find X10 and X10 Pro Max launched in India: Triple 200MP cameras, 8,000 mAh battery, check price. The Guardian view on AI safety: the push for global regulation must advance | Editorial. 1Password launches a way for AI agents to log in on your behalf without seeing your password.",
+    "items": [
+      "✓ OpenAI nears up to 30 billion dollars funding ro",
+      "✓ Someone hacked the Switch 2 by using an old game",
+      "✓ Experts cast doubt on Anthropic report detailing",
+      "✓ Oppo Find X10 and X10 Pro Max launched in India:",
+      "✓ The Guardian view on AI safety: the push for glo",
+      "✓ 1Password launches a way for AI agents to log in",
+      "✓ Etsy bans AI-generated recipes and patterns from"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "OpenAI nears up to 30 billion dollars funding",
+    "Someone hacked the Switch 2 by using an old g",
+    "Experts cast doubt on Anthropic report detail",
+    "Oppo Find X10 and X10 Pro Max launched in Ind",
+    "The Guardian view on AI safety: the push for ",
+    "1Password launches a way for AI agents to log",
+    "Etsy bans AI-generated recipes and patterns f",
+    "PHP security flaw: India activates emergency "
+  ],
+  "thumbnail": {
+    "date": "24 OCTOBER 2026",
+    "headline": "OPENAI NEARS UP TO 30 BILLION DOLLARS",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "OPENAI NEARS UP TO 30 BILLION",
+      "SOMEONE HACKED THE SWITCH 2 BY",
+      "EXPERTS CAST DOUBT ON ANTHROPIC",
+      "OPPO FIND X10 AND X10 PRO MAX"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "OpenAI nears up to 30 billion | Someone hacked the Switch 2 by | Experts cast doubt on Anthropic | AI News 24 October 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 24 October 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}
