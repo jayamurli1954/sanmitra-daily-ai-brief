@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 13.39,
-    "sceneDurationSeconds": 14.59,
-    "durationInFrames": 438,
+    "audioDurationSeconds": 12.86,
+    "sceneDurationSeconds": 14.06,
+    "durationInFrames": 422,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_ai_found_php_flaws_push_governme": {
-    "audioFile": "audio/aibrief/s1_s1_ai_found_php_flaws_push_governme.mp3",
-    "audioDurationSeconds": 51.79,
-    "sceneDurationSeconds": 52.99,
-    "durationInFrames": 1590,
-    "title": "Story 1: AI-found PHP flaws push governments to take websites offline",
+  "s1_claude_writes_machine_checked_pr": {
+    "audioFile": "audio/aibrief/s1_s1_claude_writes_machine_checked_pr.mp3",
+    "audioDurationSeconds": 39.5,
+    "sceneDurationSeconds": 40.7,
+    "durationInFrames": 1221,
+    "title": "Story 1: Claude writes machine-checked proofs for 123 open-source libraries",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_usa": {
@@ -22,20 +22,20 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_outside_evaluators_found_holes_i": {
-    "audioFile": "audio/aibrief/s2_s2_outside_evaluators_found_holes_i.mp3",
-    "audioDurationSeconds": 48.43,
-    "sceneDurationSeconds": 49.63,
-    "durationInFrames": 1489,
-    "title": "Story 2: Outside evaluators found holes in OpenAI's agent-monitoring system",
+  "s2_us_military_tests_a_robot_strike": {
+    "audioFile": "audio/aibrief/s2_s2_us_military_tests_a_robot_strike.mp3",
+    "audioDurationSeconds": 38.14,
+    "sceneDurationSeconds": 39.34,
+    "durationInFrames": 1180,
+    "title": "Story 2: US military tests a robot strike team meant to go ahead of troops",
     "voice": "en-US-AriaNeural"
   },
-  "s3_thousands_of_ai_agents_read_a_mo": {
-    "audioFile": "audio/aibrief/s3_s3_thousands_of_ai_agents_read_a_mo.mp3",
-    "audioDurationSeconds": 51.38,
-    "sceneDurationSeconds": 52.58,
-    "durationInFrames": 1578,
-    "title": "Story 3: Thousands of AI agents read a mouse-brain atlas in 32 minutes",
+  "s3_microsoft_s_diagnostic_ai_beats": {
+    "audioFile": "audio/aibrief/s3_s3_microsoft_s_diagnostic_ai_beats.mp3",
+    "audioDurationSeconds": 36.84,
+    "sceneDurationSeconds": 38.04,
+    "durationInFrames": 1141,
+    "title": "Story 3: Microsoft's diagnostic AI beats generalist doctors on hard cases, per Science",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
@@ -45,28 +45,13 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s4_iflytek_open_sources_spark_x2_6": {
-    "audioFile": "audio/aibrief/s4_s4_iflytek_open_sources_spark_x2_6.mp3",
-    "audioDurationSeconds": 54.38,
-    "sceneDurationSeconds": 55.58,
-    "durationInFrames": 1668,
-    "title": "Story 4: iFlytek open-sources Spark X2.6, built on Chinese chips",
+  "s4_deepseek_is_reported_to_be_closi": {
+    "audioFile": "audio/aibrief/s4_s4_deepseek_is_reported_to_be_closi.mp3",
+    "audioDurationSeconds": 29.35,
+    "sceneDurationSeconds": 30.55,
+    "durationInFrames": 917,
+    "title": "Story 4: DeepSeek is reported to be closing a 15 billion dollars round",
     "voice": "en-US-AriaNeural"
-  },
-  "transition_asia": {
-    "audioFile": "",
-    "audioDurationSeconds": 0.0,
-    "sceneDurationSeconds": 2.0,
-    "durationInFrames": 60,
-    "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
-  },
-  "s5_korea_and_us_air_forces_sign_a_p": {
-    "audioFile": "audio/aibrief/s5_s5_korea_and_us_air_forces_sign_a_p.mp3",
-    "audioDurationSeconds": 34.54,
-    "sceneDurationSeconds": 35.74,
-    "durationInFrames": 1072,
-    "title": "Story 5: Korea and US air forces sign a pact on AI drone wingmen",
-    "voice": "en-US-ChristopherNeural"
   },
   "transition_india": {
     "audioFile": "",
@@ -75,42 +60,50 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s6_chariot_launches_a_real_time_spe": {
-    "audioFile": "audio/aibrief/s6_s6_chariot_launches_a_real_time_spe.mp3",
-    "audioDurationSeconds": 35.14,
-    "sceneDurationSeconds": 36.34,
-    "durationInFrames": 1090,
-    "title": "Story 6: Chariot launches a real-time speech model for 10 Indian languages",
-    "voice": "en-US-AriaNeural"
-  },
-  "s7_streameval_evaluating_interactiv": {
-    "audioFile": "audio/aibrief/s7_s7_streameval_evaluating_interactiv.mp3",
-    "audioDurationSeconds": 67.44,
-    "sceneDurationSeconds": 68.64,
-    "durationInFrames": 2059,
-    "title": "Story 7: StreamEval: Evaluating Interactive Streaming Video Generation Models",
+  "s5_india_is_building_its_own_milita": {
+    "audioFile": "audio/aibrief/s5_s5_india_is_building_its_own_milita.mp3",
+    "audioDurationSeconds": 31.54,
+    "sceneDurationSeconds": 32.74,
+    "durationInFrames": 982,
+    "title": "Story 5: India is building its own military AI layer",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_singapore_opens_a_national_embod": {
-    "audioFile": "audio/aibrief/s8_s8_singapore_opens_a_national_embod.mp3",
-    "audioDurationSeconds": 33.43,
-    "sceneDurationSeconds": 34.63,
-    "durationInFrames": 1039,
-    "title": "Story 8: Singapore opens a national embodied-AI challenge for chip factories",
+  "s6_minimax_opens_its_flash_model_we": {
+    "audioFile": "audio/aibrief/s6_s6_minimax_opens_its_flash_model_we.mp3",
+    "audioDurationSeconds": 28.61,
+    "sceneDurationSeconds": 29.81,
+    "durationInFrames": 894,
+    "title": "Story 6: MiniMax opens its Flash model weights; ByteDance ships 4K video",
     "voice": "en-US-AriaNeural"
   },
-  "s9_karta_ai_raises_3_million_dollar": {
-    "audioFile": "audio/aibrief/s9_s9_karta_ai_raises_3_million_dollar.mp3",
-    "audioDurationSeconds": 67.7,
-    "sceneDurationSeconds": 68.9,
-    "durationInFrames": 2067,
-    "title": "Story 9: Karta AI raises 3 million dollars to automate bank and lender support calls",
+  "s7_vaishnaw_says_an_ai_consultation": {
+    "audioFile": "audio/aibrief/s7_s7_vaishnaw_says_an_ai_consultation.mp3",
+    "audioDurationSeconds": 26.16,
+    "sceneDurationSeconds": 27.36,
+    "durationInFrames": 821,
+    "title": "Story 7: Vaishnaw says an AI consultation paper is weeks away",
+    "voice": "en-US-ChristopherNeural"
+  },
+  "s8_rogue_ai_agents_reached_indian_f": {
+    "audioFile": "audio/aibrief/s8_s8_rogue_ai_agents_reached_indian_f.mp3",
+    "audioDurationSeconds": 22.39,
+    "sceneDurationSeconds": 23.59,
+    "durationInFrames": 708,
+    "title": "Story 8: Rogue AI agents reached Indian firms' confidential data, officials say",
+    "voice": "en-US-AriaNeural"
+  },
+  "s9_tech_mahindra_signs_on_to_use_gr": {
+    "audioFile": "audio/aibrief/s9_s9_tech_mahindra_signs_on_to_use_gr.mp3",
+    "audioDurationSeconds": 20.26,
+    "sceneDurationSeconds": 21.46,
+    "durationInFrames": 644,
+    "title": "Story 9: Tech Mahindra signs on to use Grok Build",
     "voice": "en-US-ChristopherNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 32.28,
-    "sceneDurationSeconds": 33.48,
+    "audioDurationSeconds": 32.26,
+    "sceneDurationSeconds": 33.46,
     "durationInFrames": 1004,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"

@@ -55,10 +55,10 @@
         {
           "date": "2026-10-24",
           "filename": "s3_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1280px-1515_Third_Street.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
-          "phash": "e9e516c5069c58eb",
-          "category": "boardroom"
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=85",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "phash": "96cd13caa421ab9f",
+          "category": "policy"
         },
         {
           "date": "2026-10-24",
@@ -79,14 +79,6 @@
         {
           "date": "2026-10-24",
           "filename": "s4_cut1.jpg",
-          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=85",
-          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
-          "phash": "96cd13caa421ab9f",
-          "category": "policy"
-        },
-        {
-          "date": "2026-10-24",
-          "filename": "s4_cut2.jpg",
           "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=85",
           "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
           "phash": "96ea62505db5356c",
@@ -94,7 +86,7 @@
         },
         {
           "date": "2026-10-24",
-          "filename": "s4_cut3.jpg",
+          "filename": "s4_cut2.jpg",
           "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=85",
           "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
           "phash": "961d1537ddf31181",
@@ -102,11 +94,19 @@
         },
         {
           "date": "2026-10-24",
-          "filename": "s5_cut1.jpg",
+          "filename": "s4_cut3.jpg",
           "url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&q=85",
           "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
           "phash": "9a1cec9983633337",
           "category": "research"
+        },
+        {
+          "date": "2026-10-24",
+          "filename": "s5_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg/1280px-Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "phash": "8c736310ba5ce2e7",
+          "category": "researcher"
         },
         {
           "date": "2026-10-24",
@@ -127,14 +127,6 @@
         {
           "date": "2026-10-24",
           "filename": "s6_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg/1280px-Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg",
-          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
-          "phash": "8c736310ba5ce2e7",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-10-24",
-          "filename": "s6_cut2.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
           "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "phash": "87843a6f3cb1616e",
@@ -142,7 +134,7 @@
         },
         {
           "date": "2026-10-24",
-          "filename": "s6_cut3.jpg",
+          "filename": "s6_cut2.jpg",
           "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
           "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "phash": "c33c18c7613a66f3",
@@ -150,7 +142,7 @@
         },
         {
           "date": "2026-10-24",
-          "filename": "s7_cut1.jpg",
+          "filename": "s6_cut3.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
           "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "phash": "c7b03d433c638f68",
@@ -158,7 +150,7 @@
         },
         {
           "date": "2026-10-24",
-          "filename": "s7_cut2.jpg",
+          "filename": "s7_cut1.jpg",
           "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=85",
           "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
           "phash": "96707e694c345796",
@@ -166,7 +158,7 @@
         },
         {
           "date": "2026-10-24",
-          "filename": "s7_cut3.jpg",
+          "filename": "s7_cut2.jpg",
           "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85",
           "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "phash": "c33c18c7613a66f3",
@@ -174,39 +166,23 @@
         },
         {
           "date": "2026-10-24",
+          "filename": "s7_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 3",
+          "phash": "95d0cac5032517ff",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-10-24",
           "filename": "s8_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/NSOC-2012.jpg/1280px-NSOC-2012.jpg",
-          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
-          "phash": "a52d4a1ad0667f87",
-          "category": "defense"
+          "url": "public/aibrief/backgrounds/ai_standards.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "phash": "local_fallback",
+          "category": "research"
         },
         {
           "date": "2026-10-24",
           "filename": "s8_cut2.jpg",
-          "url": "public/aibrief/backgrounds/ai_standards.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
-          "phash": "local_fallback",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-24",
-          "filename": "s8_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=85",
-          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
-          "phash": "e99392d936339692",
-          "category": "policy"
-        },
-        {
-          "date": "2026-10-24",
-          "filename": "s9_cut1.jpg",
-          "url": "public/aibrief/backgrounds/ai_standards.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
-          "phash": "local_fallback",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-24",
-          "filename": "s9_cut2.jpg",
           "url": "public/aibrief/backgrounds/global_policy.jpg",
           "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "phash": "local_fallback",
@@ -214,11 +190,35 @@
         },
         {
           "date": "2026-10-24",
-          "filename": "s9_cut3.jpg",
+          "filename": "s8_cut3.jpg",
           "url": "public/aibrief/backgrounds/ai_security.jpg",
           "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "phash": "local_fallback",
           "category": "research"
+        },
+        {
+          "date": "2026-10-24",
+          "filename": "s9_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1280px-1515_Third_Street.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "phash": "e9e516c5069c58eb",
+          "category": "boardroom"
+        },
+        {
+          "date": "2026-10-24",
+          "filename": "s9_cut2.jpg",
+          "url": "public/aibrief/backgrounds/ai_standards.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "phash": "local_fallback",
+          "category": "research"
+        },
+        {
+          "date": "2026-10-24",
+          "filename": "s9_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=85",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "phash": "e99392d936339692",
+          "category": "policy"
         },
         {
           "date": "2026-10-24",
@@ -247,26 +247,26 @@
         {
           "date": "2026-10-24",
           "filename": "s11_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Heedless_Moths_%281921%29_-_Photoplay_Editorial.jpg/1280px-Heedless_Moths_%281921%29_-_Photoplay_Editorial.jpg",
-          "badge": "EDITORIAL • CONTEXTUAL REPORTING",
-          "phash": "f75061cdb89458e3",
+          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 1",
+          "phash": "95d0cac5032517ff",
           "category": "researcher"
         },
         {
           "date": "2026-10-24",
           "filename": "s11_cut2.jpg",
-          "url": "public/aibrief/backgrounds/ai_standards.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
-          "phash": "local_fallback",
-          "category": "research"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/NSOC-2012.jpg/1280px-NSOC-2012.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "phash": "a52d4a1ad0667f87",
+          "category": "defense"
         },
         {
           "date": "2026-10-24",
           "filename": "s11_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION • CUT 3",
-          "phash": "e5cd1e9486439be1",
-          "category": "researcher"
+          "url": "public/aibrief/backgrounds/ai_standards.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "phash": "local_fallback",
+          "category": "research"
         },
         {
           "date": "2026-10-24",
