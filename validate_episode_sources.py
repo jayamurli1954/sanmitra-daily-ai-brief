@@ -93,6 +93,8 @@ def normalize(text: str) -> str:
 
 # A path segment that identifies one article: a date like 20261015 or a long hex/number ID.
 ARTICLE_ID_SEGMENT = re.compile(r"\d{8,}|[0-9a-f]{16,}", re.IGNORECASE)
+# CGTN's ".../Kimi-K3-1-Pro-advances-1RuVCR0Vwha/p.html": a slug ending in a mixed letter-digit ID.
+SLUG_WITH_ID_SEGMENT = re.compile(r".+-(?=[A-Za-z0-9]*\d)(?=[A-Za-z0-9]*[A-Za-z])[A-Za-z0-9]{8,}")
 
 
 def is_proper_article_url(url: str) -> bool:
@@ -114,8 +116,12 @@ def is_proper_article_url(url: str) -> bool:
         return True
     # ".../She" is a truncated slug, not an article.
     if len(last) < 8 and not any(ch.isdigit() for ch in last):
-        # Xinhua's ".../20261015/<hex>/c.html": a short page name after a date or ID segment.
-        return "." in last and any(ARTICLE_ID_SEGMENT.fullmatch(part) for part in segments[:-1])
+        # Xinhua's ".../20261015/<hex>/c.html" or CGTN's ".../<slug-with-id>/p.html":
+        # a short page name after a date or ID segment.
+        return "." in last and any(
+            ARTICLE_ID_SEGMENT.fullmatch(part) or SLUG_WITH_ID_SEGMENT.fullmatch(part)
+            for part in segments[:-1]
+        )
     return True
 
 
