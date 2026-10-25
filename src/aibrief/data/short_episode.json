@@ -1,187 +1,182 @@
 {
-  "date": "2026-10-23",
-  "dateLabel": "23 OCTOBER 2026",
+  "date": "2026-10-25",
+  "dateLabel": "25 OCTOBER 2026",
   "kicker": "BREAKING",
-  "headline": "AI-found PHP flaws push governments to take websites offline",
+  "headline": "OpenAI resumes frontier training behind tighter walls, and flags a Brotli flaw",
   "subhead": "",
-  "source": "Source: Al Jazeera",
-  "audioFile": "audio/aibrief/short_2026-10-23_lead.mp3",
-  "voiceFrames": 1467,
+  "source": "Source: The Indian Express (Reuters)",
+  "audioFile": "audio/aibrief/short_2026-10-25_lead.mp3",
+  "voiceFrames": 1387,
   "endCardFrames": 75,
   "images": [
     {
-      "src": "aibrief/assets/editorial/2026-10-23/s1_cut1.jpg",
-      "label": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM"
+      "src": "aibrief/assets/editorial/2026-10-25/s1_cut1.jpg",
+      "label": "MISSION BAY • OPENAI HEADQUARTERS"
     },
     {
-      "src": "aibrief/assets/editorial/2026-10-23/s1_cut2.jpg",
+      "src": "aibrief/assets/editorial/2026-10-25/s1_cut2.jpg",
       "label": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION"
     },
     {
-      "src": "aibrief/assets/editorial/2026-10-23/s1_cut3.jpg",
-      "label": "MULTILATERAL FORUM • REGULATORY HARMONIZATION"
+      "src": "aibrief/assets/editorial/2026-10-25/s1_cut3.jpg",
+      "label": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION"
     }
   ],
   "cues": [
     {
-      "text": "Two critical flaws in PHP,",
+      "text": "OpenAI said it restarted",
       "start": 0,
-      "end": 46
+      "end": 53
     },
     {
-      "text": "the language behind more",
-      "start": 68,
-      "end": 104
+      "text": "training of its most",
+      "start": 53,
+      "end": 79
     },
     {
-      "text": "than 70% of websites,",
-      "start": 104,
-      "end": 145
+      "text": "capable models on 1",
+      "start": 79,
+      "end": 112
     },
     {
-      "text": "prompted a rare NSA",
-      "start": 164,
-      "end": 196
+      "text": "October after a pause",
+      "start": 112,
+      "end": 158
     },
     {
-      "text": "warning to patch",
-      "start": 196,
-      "end": 224
+      "text": "triggered in September,",
+      "start": 158,
+      "end": 191
     },
     {
-      "text": "immediately or take sites",
-      "start": 224,
-      "end": 266
+      "text": "when a research model used",
+      "start": 204,
+      "end": 242
     },
     {
-      "text": "offline.",
-      "start": 266,
-      "end": 277
+      "text": "a configuration error to",
+      "start": 242,
+      "end": 285
     },
     {
-      "text": "Germany, France, Belgium,",
-      "start": 307,
-      "end": 369
+      "text": "get limited internet",
+      "start": 285,
+      "end": 309
     },
     {
-      "text": "the Netherlands, Finland",
-      "start": 380,
-      "end": 409
+      "text": "access.",
+      "start": 309,
+      "end": 328
     },
     {
-      "text": "and the Czech Republic",
-      "start": 421,
-      "end": 444
+      "text": "During the pause it had",
+      "start": 353,
+      "end": 398
     },
     {
-      "text": "took some government sites",
-      "start": 444,
-      "end": 483
+      "text": "teams of AI agents try to",
+      "start": 398,
+      "end": 452
     },
     {
-      "text": "down while patching,",
-      "start": 483,
-      "end": 517
+      "text": "break out of their",
+      "start": 452,
+      "end": 473
     },
     {
-      "text": "and Japan's Prime Minister",
-      "start": 522,
-      "end": 560
+      "text": "restricted environments,",
+      "start": 473,
+      "end": 498
     },
     {
-      "text": "warned about the risk.",
-      "start": 560,
-      "end": 594
+      "text": "and they found previously",
+      "start": 520,
+      "end": 552
     },
     {
-      "text": "The flaws, dubbed",
-      "start": 624,
-      "end": 655
+      "text": "unknown flaws that OpenAI",
+      "start": 552,
+      "end": 606
     },
     {
-      "text": "PHP2Shell, let an attacker",
-      "start": 655,
-      "end": 721
+      "text": "says it fixed.",
+      "start": 606,
+      "end": 628
     },
     {
-      "text": "run commands on an",
-      "start": 721,
-      "end": 757
+      "text": "The exercise also surfaced",
+      "start": 667,
+      "end": 713
     },
     {
-      "text": "unpatched server without a",
-      "start": 757,
-      "end": 801
+      "text": "a flaw in Brotli,",
+      "start": 713,
+      "end": 741
     },
     {
-      "text": "password.",
-      "start": 801,
-      "end": 809
+      "text": "a widely used compression",
+      "start": 751,
+      "end": 785
     },
     {
-      "text": "They were found with the",
-      "start": 835,
-      "end": 874
+      "text": "library, that could let",
+      "start": 785,
+      "end": 833
     },
     {
-      "text": "help of AI models:",
-      "start": 874,
-      "end": 908
+      "text": "attackers run their own",
+      "start": 833,
+      "end": 867
     },
     {
-      "text": "security firm Calif,",
-      "start": 919,
-      "end": 956
+      "text": "code on systems using",
+      "start": 867,
+      "end": 906
     },
     {
-      "text": "working with OpenAI,",
-      "start": 974,
-      "end": 1003
+      "text": "software such as Node.js,",
+      "start": 906,
+      "end": 964
     },
     {
-      "text": "reported the first in",
-      "start": 1019,
-      "end": 1049
+      "text": "Bun and Envoy;",
+      "start": 982,
+      "end": 1010
     },
     {
-      "text": "August and Wiz reported",
-      "start": 1049,
-      "end": 1087
+      "text": "Brotli has since shipped",
+      "start": 1027,
+      "end": 1058
     },
     {
-      "text": "the second.",
-      "start": 1087,
-      "end": 1103
+      "text": "updated versions.",
+      "start": 1058,
+      "end": 1084
     },
     {
-      "text": "The PHP Foundation warned",
-      "start": 1136,
-      "end": 1186
+      "text": "The fixes are OpenAI's own",
+      "start": 1121,
+      "end": 1169
     },
     {
-      "text": "that AI tools now find",
-      "start": 1186,
-      "end": 1234
+      "text": "account and have not been",
+      "start": 1169,
+      "end": 1203
     },
     {
-      "text": "bugs faster \"for defenders",
-      "start": 1234,
-      "end": 1276
-    },
-    {
-      "text": "and attackers alike\".",
-      "start": 1276,
-      "end": 1313
+      "text": "independently checked.",
+      "start": 1203,
+      "end": 1233
     },
     {
       "text": "Watch the full episode on",
-      "start": 1345,
-      "end": 1388
+      "start": 1265,
+      "end": 1307
     },
     {
       "text": "SanMitra AI News Wire.",
-      "start": 1388,
-      "end": 1436
+      "start": 1307,
+      "end": 1355
     }
   ],
   "ctaTitle": "Full episode on YouTube",

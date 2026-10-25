@@ -1,126 +1,128 @@
 {
-  "s1_ai_found_php_flaws_push_governme": [
-    {
-      "type": "stat",
-      "shown": "70%+",
-      "label": "of websites",
-      "start": 5.72,
-      "end": 11.22
-    },
+  "s1_openai_resumes_frontier_training": [
     {
       "type": "reported",
-      "text": "They were found with the help of AI models: security firm Calif, working with OpenAI, reported the first in August and Wiz reported the second.",
-      "highlight": "the first in August and Wiz reported the second",
-      "source": "Al Jazeera",
-      "start": 29.2,
-      "end": 34.7
-    },
+      "text": "OpenAI said it restarted training of its most capable models on 1 October after a pause triggered in September, when a research model used a configuration error to get limited internet access.",
+      "highlight": "it restarted training of its most capable models on 1 October after a pause triggered in September",
+      "source": "The Indian Express (Reuters)",
+      "start": 2.08,
+      "end": 7.58
+    }
+  ],
+  "s2_american_express_cuts_5_of_staff": [
+    {
+      "type": "reported",
+      "text": "American Express said it will cut about 5% of its workforce, roughly 3,500 jobs, in a restructuring that comes with a 336 million dollars charge.",
+      "highlight": "it will cut about 5% of its workforce, roughly 3,500 jobs, in a restructuring that comes with a 336 million dollars charge",
+      "source": "CNBC",
+      "start": 2.52,
+      "end": 8.02
+    }
+  ],
+  "s3_openai_says_it_will_no_longer_tr": [
     {
       "type": "quote",
-      "text": "for defenders and attackers alike",
+      "text": "Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no internet access,",
       "speaker": null,
-      "source": "Al Jazeera",
-      "start": 43.7,
-      "end": 49.2
+      "source": "TechCrunch",
+      "start": 38.3,
+      "end": 43.8
     }
   ],
-  "s2_outside_evaluators_found_holes_i": [
-    {
-      "type": "reported",
-      "text": "The nonprofits METR and Redwood Research said on 22 October that they ran a pilot review of OpenAI's internal misalignment-monitoring system.",
-      "highlight": "they ran a pilot review of OpenAI's internal misalignment-monitoring system",
-      "source": "CNBC",
-      "start": 2.5,
-      "end": 8.0
-    },
-    {
-      "type": "reported",
-      "text": "OpenAI says it has patched the flaws that affected production safeguards.",
-      "highlight": "affected production safeguards",
-      "source": "CNBC",
-      "start": 29.16,
-      "end": 34.66
-    }
-  ],
-  "s3_thousands_of_ai_agents_read_a_mo": [
+  "s4_moonshot_s_kimi_k3_1_pro_nears_t": [
     {
       "type": "stat",
-      "shown": "75%",
-      "label": "of the time",
-      "start": 39.24,
-      "end": 44.74
-    }
-  ],
-  "s4_iflytek_open_sources_spark_x2_6": [
-    {
-      "type": "dateline",
-      "place": "BEIJING",
-      "date": null,
-      "start": 0.4,
-      "end": 4.5
+      "shown": "2.8 TRILLION",
+      "label": "total",
+      "start": 6.5,
+      "end": 12.0
     },
     {
       "type": "reported",
-      "text": "At its 1024 developer festival in Beijing, iFlytek released and open-sourced Spark X2.6.",
-      "highlight": "and open-sourced Spark X2.6",
-      "source": "Global Times",
+      "text": "Moonshot says it removed cyber-related data from training to limit offensive hacking ability, and reports 81.0% on its internal cyber test against 90.5% for an unfiltered version.",
+      "highlight": "it removed cyber-related data from training to limit offensive hacking ability",
+      "source": "Investing.com (Reuters)",
+      "start": 20.14,
+      "end": 25.64
+    },
+    {
+      "type": "stat",
+      "shown": "81.0%",
+      "label": "on its internal cyber test against 90",
+      "start": 27.48,
+      "end": 32.98
+    }
+  ],
+  "s5_japan_will_rebuild_its_defence_r": [
+    {
+      "type": "name",
+      "name": "SHINJIRO KOIZUMI",
+      "role": "Minister, Defence",
+      "start": 2.4,
+      "end": 6.4
+    },
+    {
+      "type": "reported",
+      "text": "Defence Minister Shinjiro Koizumi said the research institutes under Japan's Defense Equipment Agency will be reorganised from equipment-based units into functional ones such as AI, cyber, and command and control, so new technology reaches forces faster.",
+      "highlight": "the research institutes under Japan's Defense Equipment Agency will be reorganised from equipment-based units into functional ones such as AI, cyber",
+      "source": "Nikkei Asia",
+      "start": 2.0,
+      "end": 7.5
+    }
+  ],
+  "s6_it_secretary_says_ai_needs_more": [
+    {
+      "type": "reported",
+      "text": "IT Secretary S Krishnan said the Centre now explicitly sees the need for more AI regulation and is working on safety-focused legislation, adding that many agent break-ins happen because basic cyber hygiene was skipped.",
+      "highlight": "the Centre now explicitly sees the need for more AI regulation and is working on safety-focused legislation",
+      "source": "The Economic Times",
       "start": 2.0,
       "end": 7.5
     },
     {
-      "type": "compare",
-      "items": [
-        {
-          "shown": "293 BILLION",
-          "value": 293.0,
-          "label": "total"
-        },
-        {
-          "shown": "30 BILLION",
-          "value": 30.0,
-          "label": "active parameters"
-        }
-      ],
-      "start": 10.3,
-      "end": 15.8
+      "type": "stat",
+      "shown": "23,000",
+      "label": "government GPUs",
+      "start": 16.22,
+      "end": 21.72
     }
   ],
-  "s5_korea_and_us_air_forces_sign_a_p": [],
-  "s6_chariot_launches_a_real_time_spe": [
+  "s7_cohere_opens_a_confidential_comp": [
     {
       "type": "reported",
-      "text": "It says the model made 9% fewer errors than Sarvam's Saaras v4 and 26% fewer than Google's Gemini 3.5 Transcribe across 79 public test sets, and 23% fewer than the next-best system in Hindi.",
-      "highlight": "the model made 9% fewer errors than Sarvam's Saaras v4 and 26% fewer than Google's Gemini 3.5 Transcribe across 79 public test sets",
-      "source": "ETEnterpriseAI",
-      "start": 13.34,
-      "end": 18.84
-    }
-  ],
-  "s7_streameval_evaluating_interactiv": [
-    {
-      "type": "stat",
-      "shown": "300",
-      "label": "scripted test cases lasting 15-300s",
-      "start": 25.34,
-      "end": 30.84
-    }
-  ],
-  "s8_singapore_opens_a_national_embod": [],
-  "s9_karta_ai_raises_3_million_dollar": [
-    {
-      "type": "stat",
-      "shown": "$3 MILLION",
-      "label": "seed round led by PeerCapital",
-      "start": 5.88,
-      "end": 11.38
+      "text": "The company says hardware isolation, remote attestation and end-to-end encryption keep prompts and responses protected even while the model is running, a pitch aimed at banks, governments and others wary of sending sensitive data to AI.",
+      "highlight": "hardware isolation, remote attestation and end-to-end encryption keep prompts and responses protected even while the model is running",
+      "source": "Cohere",
+      "start": 10.68,
+      "end": 16.18
     },
     {
       "type": "reported",
-      "text": "The company says its agent resolves about 70% of borrower queries without a human.",
-      "highlight": "its agent resolves about 70% of borrower queries without a human",
-      "source": "Inc42",
-      "start": 21.36,
-      "end": 26.86
+      "text": "These are Cohere's own claims. (Theme: new AI models and tools) No new geopolitical or military AI incident with global reach was confirmed in this window.",
+      "highlight": ". (Theme: new AI models and tools) No new geopolitical or military AI incident with global reach was confirmed in this window",
+      "source": "Cohere",
+      "start": 24.36,
+      "end": 29.86
+    }
+  ],
+  "s8_uk_to_invest_100m_in_world_first": [
+    {
+      "type": "quote",
+      "text": "AI will transform daily life: every firm, community, hospital, school, and every aspect of our economy can benefit,",
+      "speaker": null,
+      "source": "BBC",
+      "start": 38.98,
+      "end": 44.48
+    }
+  ],
+  "s9_china_s_cabinet_tells_agencies_t": [
+    {
+      "type": "reported",
+      "text": "The State Council issued guidelines with 18 tasks in six areas to make AI adoption \"employment-friendly\".",
+      "highlight": "guidelines with 18 tasks in six areas to make AI adoption \"employment-friendly\"",
+      "source": "The State Council of China (Xinhua)",
+      "start": 2.0,
+      "end": 7.5
     }
   ]
 }

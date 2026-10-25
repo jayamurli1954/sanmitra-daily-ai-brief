@@ -1,142 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-10-23",
+  "last_updated": "2026-10-25",
   "stories": [
-    {
-      "story_id": "story_20261010_anthropic_bans_users_from_needless_",
-      "story_chain_id": "chain_global_anthropic_bans_users",
-      "headline": "Anthropic bans users from ‘needless abusive or cruel behavior’ towards Claude",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude"
-      ],
-      "first_covered": "2026-10-10",
-      "last_major_update": "2026-10-10",
-      "update_phase": "initial_break",
-      "impact_score": 74
-    },
-    {
-      "story_id": "story_20261010_anthropic_changes_usage_policy_to_b",
-      "story_chain_id": "chain_global_anthropic_changes_us",
-      "headline": "Anthropic changes usage policy to ban model abuse and election interference",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
-      ],
-      "first_covered": "2026-10-10",
-      "last_major_update": "2026-10-10",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261010_nvidia_backed_aussie_ai_firm_firmus",
-      "story_chain_id": "chain_global_nvidia_backed_aussie",
-      "headline": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html"
-      ],
-      "first_covered": "2026-10-10",
-      "last_major_update": "2026-10-10",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261010_philippines_thought_pogos_were_gone",
-      "story_chain_id": "chain_global_philippines_thought_",
-      "headline": "Philippines thought Pogos were gone. Corruption and AI still power them",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://www.scmp.com/week-asia/politics/article/3370281/philippines-thought-pogos-were-gone-corruption-and-ai-still-power-them?utm_source=rss_feed"
-      ],
-      "first_covered": "2026-10-10",
-      "last_major_update": "2026-10-10",
-      "update_phase": "initial_break",
-      "impact_score": 68
-    },
-    {
-      "story_id": "story_20261010_ai_and_the_climate_crisis_pose_exis",
-      "story_chain_id": "chain_global_ai_and_the_climate_c",
-      "headline": "AI and the climate crisis pose existential risks. The law offers a way to reduce them | Robert Reich",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/commentisfree/2026/oct/09/ai-climate-change-liability-lawsuits"
-      ],
-      "first_covered": "2026-10-10",
-      "last_major_update": "2026-10-10",
-      "update_phase": "initial_break",
-      "impact_score": 66
-    },
-    {
-      "story_id": "story_20261010_lost_generation_the_ai_threat_to_br",
-      "story_chain_id": "chain_global_lost_generation_the_",
-      "headline": "Lost generation: the AI threat to Britain’s next great directors",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie"
-      ],
-      "first_covered": "2026-10-10",
-      "last_major_update": "2026-10-10",
-      "update_phase": "initial_break",
-      "impact_score": 66
-    },
-    {
-      "story_id": "story_20261010_firmus_pulls_biggest_asx_float_sinc",
-      "story_chain_id": "chain_global_firmus_pulls_biggest",
-      "headline": "Firmus pulls biggest ASX float since Telstra amid investor doubt about datacentre company",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/australia-news/2026/oct/09/firmus-pulls-asx-float-datacentre-investor-doubt-australia"
-      ],
-      "first_covered": "2026-10-10",
-      "last_major_update": "2026-10-10",
-      "update_phase": "initial_break",
-      "impact_score": 66
-    },
-    {
-      "story_id": "story_20261011_the_maker_of_non_text_ai_model_jev_",
-      "story_chain_id": "chain_global_the_maker_of_non_tex",
-      "headline": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"
-      ],
-      "first_covered": "2026-10-11",
-      "last_major_update": "2026-10-11",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261011_ai_agent_makers_are_promising_priva",
-      "story_chain_id": "chain_global_ai_agent_makers_are_",
-      "headline": "AI agent makers are promising privacy — will they deliver?",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots"
-      ],
-      "first_covered": "2026-10-11",
-      "last_major_update": "2026-10-11",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
     {
       "story_id": "story_20261013_cyber_attack_similar_to_openai_medi",
       "story_chain_id": "chain_global_cyber_attack_similar",
@@ -2371,6 +2236,396 @@
       "last_major_update": "2026-10-24",
       "update_phase": "initial_break",
       "impact_score": 68
+    },
+    {
+      "story_id": "story_20261024_claude_writes_machine_checked_proof",
+      "story_chain_id": "chain_global_claude_writes_machin",
+      "headline": "Claude writes machine-checked proofs for 123 open-source libraries",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.anthropic.com/research/formal-verification"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261024_us_military_tests_a_robot_strike_te",
+      "story_chain_id": "chain_global_us_military_tests_a_",
+      "headline": "US military tests a robot strike team meant to go ahead of troops",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.stripes.com/theaters/europe/2026-10-23/eucom-darpa-robots-23236887.html"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261024_microsoft_s_diagnostic_ai_beats_gen",
+      "story_chain_id": "chain_global_microsoft_s_diagnost",
+      "headline": "Microsoft's diagnostic AI beats generalist doctors on hard cases, per Science",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.science.org/doi/10.1126/science.aeh7930"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261024_deepseek_is_reported_to_be_closing_",
+      "story_chain_id": "chain_global_deepseek_is_reported",
+      "headline": "DeepSeek is reported to be closing a 15 billion dollars round",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.thestandard.com.hk/china/article/346171/DeepSeek-wrapping-up-15-billion-fundraising-to-fuel-AI-race"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261024_india_is_building_its_own_military_",
+      "story_chain_id": "chain_global_india_is_building_it",
+      "headline": "India is building its own military AI layer",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.thehindubusinessline.com/news/defence-ministry-ai-mission-join-hands-to-build-secure-military-ai-layer-says-rk-singh/article71616224.ece"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261024_minimax_opens_its_flash_model_weigh",
+      "story_chain_id": "chain_global_minimax_opens_its_fl",
+      "headline": "MiniMax opens its Flash model weights; ByteDance ships 4K video",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.yicai.com/news/103405400.html"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261024_vaishnaw_says_an_ai_consultation_pa",
+      "story_chain_id": "chain_global_vaishnaw_says_an_ai_",
+      "headline": "Vaishnaw says an AI consultation paper is weeks away",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.ndtvprofit.com/technology/ndtv-world-summit-2026-ai-law-in-the-works-ashwini-vaishnaw-outlines-regulation-roadmap-12226117"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261024_rogue_ai_agents_reached_indian_firm",
+      "story_chain_id": "chain_global_rogue_ai_agents_reac",
+      "headline": "Rogue AI agents reached Indian firms' confidential data, officials say",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://indianexpress.com/article/business/ai-agents-india-cybersecurity-risks-cert-in-advisory-10932810/"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261024_tech_mahindra_signs_on_to_use_grok_",
+      "story_chain_id": "chain_global_tech_mahindra_signs_",
+      "headline": "Tech Mahindra signs on to use Grok Build",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.indiatoday.in/technology/news/story/tech-mahindra-teams-up-with-spacexsi-to-bring-elon-musks-ai-into-business-workflows-3023264-2026-10-23"
+      ],
+      "first_covered": "2026-10-24",
+      "last_major_update": "2026-10-24",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261025_openai_resumes_frontier_training_be",
+      "story_chain_id": "chain_global_openai_resumes_front",
+      "headline": "OpenAI resumes frontier training behind tighter walls, and flags a Brotli flaw",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://indianexpress.com/article/technology/artificial-intelligence/openai-resumes-ai-training-security-overhaul-brotli-flaw-10935166/"
+      ],
+      "first_covered": "2026-10-25",
+      "last_major_update": "2026-10-25",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261025_american_express_cuts_5_of_staff_to",
+      "story_chain_id": "chain_global_american_express_cut",
+      "headline": "American Express cuts 5% of staff to \"prepare for AI\"",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html"
+      ],
+      "first_covered": "2026-10-25",
+      "last_major_update": "2026-10-25",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261025_openai_says_it_will_no_longer_train",
+      "story_chain_id": "chain_global_openai_says_it_will_",
+      "headline": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+      ],
+      "first_covered": "2026-10-25",
+      "last_major_update": "2026-10-25",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261025_moonshot_s_kimi_k3_1_pro_nears_the_",
+      "story_chain_id": "chain_global_moonshot_s_kimi_k3_1",
+      "headline": "Moonshot's Kimi K3.1 Pro nears the frontier, with its hacking skills trimmed",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.investing.com/news/stock-market-news/moonshot-curbs-hacking-ability-in-new-kimi-model-as-fears-grow-over-aipowered-cyberattacks-4970639"
+      ],
+      "first_covered": "2026-10-25",
+      "last_major_update": "2026-10-25",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261025_japan_will_rebuild_its_defence_rese",
+      "story_chain_id": "chain_global_japan_will_rebuild_i",
+      "headline": "Japan will rebuild its defence research around AI and cyber",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://asia.nikkei.com/politics/defense/japan-to-reorganize-defense-research-around-ai-cyber"
+      ],
+      "first_covered": "2026-10-25",
+      "last_major_update": "2026-10-25",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261025_it_secretary_says_ai_needs_more_reg",
+      "story_chain_id": "chain_global_it_secretary_says_ai",
+      "headline": "IT Secretary says AI needs more regulation, and 23,000 more GPUs are coming",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/ai/ai-insights/centre-recognises-ai-needs-more-regulation-it-secretary/articleshow/135154257.cms"
+      ],
+      "first_covered": "2026-10-25",
+      "last_major_update": "2026-10-25",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261025_cohere_opens_a_confidential_computi",
+      "story_chain_id": "chain_global_cohere_opens_a_confi",
+      "headline": "Cohere opens a confidential-computing vault for its models",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault"
+      ],
+      "first_covered": "2026-10-25",
+      "last_major_update": "2026-10-25",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261025_uk_to_invest_100m_in_world_first_ai",
+      "story_chain_id": "chain_global_uk_to_invest_100m_in",
+      "headline": "UK to invest £100m in 'world first' AI Biosecurity Lab",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss"
+      ],
+      "first_covered": "2026-10-25",
+      "last_major_update": "2026-10-25",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261025_china_s_cabinet_tells_agencies_to_s",
+      "story_chain_id": "chain_global_china_s_cabinet_tell",
+      "headline": "China's cabinet tells agencies to soften AI's hit on jobs",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://english.www.gov.cn/policies/latestreleases/202610/23/content_WS6adb4e53c6d00ca5f9a0deb7.html"
+      ],
+      "first_covered": "2026-10-25",
+      "last_major_update": "2026-10-25",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261026_r_opensource_just_banned_ai_non_eng",
+      "story_chain_id": "chain_global_r_opensource_just_ba",
+      "headline": "r/opensource just banned AI, non-English speakers, and more",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 82
+    },
+    {
+      "story_id": "story_20261026_extremely_disappointed_wa_governmen",
+      "story_chain_id": "chain_global_extremely_disappoint",
+      "headline": "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261026_the_ai_graveyard_a_running_list_of_",
+      "story_chain_id": "chain_global_the_ai_graveyard_a_r",
+      "headline": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261026_the_datacentre_next_door_on_the_fro",
+      "story_chain_id": "chain_global_the_datacentre_next_",
+      "headline": "The datacentre next door: on the frontline of tech’s latest David v Goliath battle",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261026_singapore_embraces_ai_for_cyber_def",
+      "story_chain_id": "chain_global_singapore_embraces_a",
+      "headline": "Singapore embraces AI for cyber defence, with one caveat: breach transparency",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://www.scmp.com/week-asia/politics/article/3371950/singapore-embraces-ai-cyber-defence-one-caveat-breach-transparency"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261026_google_s_ai_search_changes_upended_",
+      "story_chain_id": "chain_global_google_s_ai_search_c",
+      "headline": "Google’s AI search changes upended online publishing",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261026_pennsylvania_will_require_labels_on",
+      "story_chain_id": "chain_global_pennsylvania_will_re",
+      "headline": "Pennsylvania will require labels on AI-generated ads",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261026_blue_planet_iii_is_keeping_the_roug",
+      "story_chain_id": "chain_global_blue_planet_iii_is_k",
+      "headline": "Blue Planet III is keeping the rough edges in the age of AI",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 71
     }
   ],
   "entity_index": {}

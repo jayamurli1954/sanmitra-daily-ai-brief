@@ -1,0 +1,396 @@
+{
+  "weekly": false,
+  "date": "2026-10-26",
+  "formattedDate": "26 October 2026",
+  "title": "r/opensource just banned AI, | The AI graveyard: a running list | Google’s AI search changes upended | AI News 26 October 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking this morning: r/opensource just banned AI, non-English speakers, and more. From the SanMitra Newsroom, this is the Daily AI Brief for 26 October 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_r_opensource_just_banned_ai_non",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "r/opensource just banned AI, non-English speakers, and more",
+      "subheadline": "Source: The Verge",
+      "importanceScore": 99,
+      "durationSeconds": 49,
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "researchDesk": "",
+      "script": "Our lead story today. The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source community.\" The new rules have set off a firestorm in the comments, and even spurred the creation of a rival sub r/trueopensource . Moderator Wolvereness has waded into the comments to explain that there's nuance and room for selective enforcement, such as \"software that incidentally has accessibility features that use AI,\" including … Read the full story at The Verge.",
+      "whyThisMatters": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "r/opensource just banned AI, non-English speakers, and more",
+        "The Verge"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s1_cut1.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s1_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s1_cut3.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_the_ai_graveyard_a_running_list",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "researchDesk": "",
+      "script": "Also today. From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "whyThisMatters": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s2_cut1.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s2_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s2_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_google_s_ai_search_changes_upend",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google’s AI search changes upended online publishing",
+      "subheadline": "Source: The Verge",
+      "importanceScore": 95,
+      "durationSeconds": 42,
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "researchDesk": "",
+      "script": "In other news. For more about AI's impact on the web, follow Emma Roth . The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. How it started The digital publishing industry has relied on Google for a very long time. Many outlets spent time and money optimizing their webpages to show up at the top of the search engine, with the goal of getting readers to click on their articles or discover their websites for the first time. For years, the relationship between Google and publishers was largely reciprocal; online pub … Read the full story at The Verge.",
+      "whyThisMatters": "For more about AI's impact on the web, follow Emma Roth .",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Google’s AI search changes upended online publishing",
+        "The Verge"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s3_cut1.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s3_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s3_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_singapore_embraces_ai_for_cyber",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Singapore embraces AI for cyber defence, with one caveat: breach transparency",
+      "subheadline": "Source: South China Morning Post",
+      "importanceScore": 90,
+      "durationSeconds": 42,
+      "source": "South China Morning Post",
+      "sourceUrl": "https://www.scmp.com/week-asia/politics/article/3371950/singapore-embraces-ai-cyber-defence-one-caveat-breach-transparency",
+      "researchDesk": "",
+      "script": "In Asia. The city state will take a ‘pragmatic’ approach to AI adoption as it seeks to bolster protection for its critical infrastructure At a summit earlier this month, Singapore launched a refreshed cybersecurity strategy that would see it progressively deploy AI across its cyber defence operations and work with industry partners to accelerate adoption, as it seeks to bolster protection for its critical infrastructure. “We will not need to develop our own AI models for every use case. What we really need is the capability to evaluate the best available models and to adapt them to our own needs.” ---",
+      "whyThisMatters": "The city state will take a ‘pragmatic’ approach to AI adoption as it seeks to bolster protection for its critical infrastructure At a summit earlier this month, Singapore launched a refreshed cybersecurity strategy that ",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Singapore embraces AI for cyber defence, with one caveat: breach transparency",
+        "South China Morning Post"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s4_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s4_cut2.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s4_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_extremely_disappointed_wa_gover",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 42,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai",
+      "researchDesk": "",
+      "script": "Around the world. WA paid Deloitte 166,000 dollars for flawed feasibility study on merging the University of Western Australia, Curtin university and Murdoch university Get our breaking news email , free app or daily news podcast The Western Australian government has said it is “extremely disappointed” and is seeking an “expedited” cost recovery from Deloitte after errors were discovered in a report on a potential university merger, including AI-hallucinated references and hundreds of millions of dollars in cost discrepancies. The WA government paid Deloitte 166,000 dollars for a feasibility study on merging the University of Western Australia, Curtin university and Murdoch university.",
+      "whyThisMatters": "WA paid Deloitte $166,000 for flawed feasibility study on merging the University of Western Australia, Curtin university and Murdoch university Get our breaking news email , free app or daily news podcast The Western Aus",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over f",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s5_cut1.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s5_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s5_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_the_datacentre_next_door_on_the",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "The datacentre next door: on the frontline of tech’s latest David v Goliath battle",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 62,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle",
+      "researchDesk": "",
+      "script": "Also today. The AI boom is pitting local residents against corporate giants seeking to power their energy-hungry networks but one Welsh city is fighting back Dale Johnston opens the gate to his neat suburban garden on the western fringes of Newport in South Wales. There’s a trampoline and a slide on the lawn for his grandchildren, and chairs for him and his wife. He should be enjoying the light draining from the perfect autumnal sky but almost his entire view is blotted out by a vast expanse of prefabricated panels. The 23 metre-high grey hulk looming over him and his neighbours is a hyperscale datacentre. It is heralded by the area’s Labour politicians as a job creator, yet all Johnston can think about is what he has lost: “Before, the sun used to come around here and it was lovely.” The way residents have been treated is “disgusting”.",
+      "whyThisMatters": "The AI boom is pitting local residents against corporate giants seeking to power their energy-hungry networks – but one Welsh city is fighting back Dale Johnston opens the gate to his neat suburban garden on the western ",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "The datacentre next door: on the frontline of tech’s latest David v Goliath batt",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s6_cut1.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s6_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s6_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_pennsylvania_will_require_labels",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Pennsylvania will require labels on AI-generated ads",
+      "subheadline": "Source: The Verge",
+      "importanceScore": 90,
+      "durationSeconds": 47,
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "researchDesk": "",
+      "script": "Turning to the United States. On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as the ad itself. That applies to TV commercials from multi-billion-dollar companies , as well as restaurants' ugly, crowded flyers about their wing specials. Pennsylvania is one of the first states to require disclosures on AI content. And it requires those labels regardless of where an ad … Read the full story at The Verge.",
+      "whyThisMatters": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Pennsylvania will require labels on AI-generated ads",
+        "The Verge"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s7_cut1.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 1",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s7_cut2.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s7_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_blue_planet_iii_is_keeping_the_r",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Blue Planet III is keeping the rough edges in the age of AI",
+      "subheadline": "Source: The Verge",
+      "importanceScore": 90,
+      "durationSeconds": 51,
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "researchDesk": "",
+      "script": "Next. BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue Planet III goes warts and all. Executive Producer Elizabeth White told The Guardian in the past, \"the amount of plankton and things\" floating in the water would have caused them to cut a shot. Or \"we might have framed out a boat or a buoy or gone: 'Oh, actually … the water conditions are not really good enough … Read the full story at The Verge.",
+      "whyThisMatters": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Blue Planet III is keeping the rough edges in the age of AI",
+        "The Verge"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s8_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s8_cut2.jpg",
+          "badge": "CUPERTINO • APPLE PARK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-26/s8_cut3.jpg",
+          "badge": "AEROSPACE TELEMETRY • RADAR MONITORING GRID",
+          "panDirection": "panLeft"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. r/opensource just banned AI, non-English speakers, and more. The AI graveyard: a running list of projects and startups that didn’t make it. Google’s AI search changes upended online publishing. Singapore embraces AI for cyber defence, with one caveat: breach transparency. ‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report. The datacentre next door: on the frontline of tech’s latest David v Goliath battle.",
+    "items": [
+      "✓ r/opensource just banned AI, non-English speaker",
+      "✓ The AI graveyard: a running list of projects and",
+      "✓ Google’s AI search changes upended online publis",
+      "✓ Singapore embraces AI for cyber defence, with on",
+      "✓ ‘Extremely disappointed’: WA government seeks re",
+      "✓ The datacentre next door: on the frontline of te",
+      "✓ Pennsylvania will require labels on AI-generated"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "r/opensource just banned AI, non-English spea",
+    "The AI graveyard: a running list of projects ",
+    "Google’s AI search changes upended online pub",
+    "Singapore embraces AI for cyber defence, with",
+    "‘Extremely disappointed’: WA government seeks",
+    "The datacentre next door: on the frontline of",
+    "Pennsylvania will require labels on AI-genera",
+    "Blue Planet III is keeping the rough edges in"
+  ],
+  "thumbnail": {
+    "date": "26 OCTOBER 2026",
+    "headline": "R/OPENSOURCE JUST BANNED AI, NON-ENGLISH",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "R/OPENSOURCE JUST BANNED AI,",
+      "THE AI GRAVEYARD: A RUNNING LIST OF",
+      "GOOGLE’S AI SEARCH CHANGES UPENDED",
+      "SINGAPORE EMBRACES AI FOR CYBER"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "r/opensource just banned AI, | The AI graveyard: a running list | Google’s AI search changes upended | AI News 26 October 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 26 October 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}
