@@ -58,6 +58,17 @@ class StoryRulesTest(unittest.TestCase):
                   "AI model beats human experts at protein design"]:
             self.assertFalse(is_stock_market_story(h), h)
 
+    def test_ipo_wording_without_the_word_ipo(self):
+        for h in ["Anthropic officially files for its public debut",
+                  "Cerebras makes its Nasdaq market debut",
+                  "Startup confidentially submits S-1 ahead of listing",
+                  "Chipmaker prices its public offering"]:
+            self.assertTrue(is_stock_market_story(h), h)
+        for h in ["Gemini 4 makes its debut in public preview",
+                  "Meta debuts Muse Spark open weights",
+                  "Moonshot launches Kimi K3.1 Pro"]:
+            self.assertFalse(is_stock_market_story(h), h)
+
     def test_harvest_drops_stock_market_stories(self):
         h = NewsHarvester(target_date="2026-10-14")
         items = [

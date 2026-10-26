@@ -42,7 +42,10 @@ STOCK_MARKET_TERMS = [
     "hang seng", "ftse", "market cap", "market value", "stock exchange", "bear market", "bull market",
     # IPO filings and company financial results are out too (editor, 2026-10-21): not purely AI news.
     "ipo", "ipos", "initial public offering", "drhp", "draft red herring", "goes public", "go public",
-    "going public", "public listing", "files to list", "quarterly results", "annual results",
+    "going public", "public listing", "files to list",
+    # "Anthropic officially files for its public debut" got through (editor, 2026-10-26).
+    "public debut", "market debut", "trading debut", "listing debut", "public offering", "s-1",
+    "quarterly results", "annual results",
     "q1 results", "q2 results", "q3 results", "q4 results", "q1 revenue", "q2 revenue", "q3 revenue",
     "q4 revenue", "quarterly revenue", "quarterly profit", "quarterly loss", "half-year revenue",
     "net profit", "net loss", "earnings",
