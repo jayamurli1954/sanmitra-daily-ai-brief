@@ -21,7 +21,7 @@ import sys
 
 from validate_episode_sources import is_proper_article_url
 from src.aibrief.crew.fact_checker import MAX_EPISODE_STORIES, STORY_MAX_SENTENCES, STORY_MAX_WORDS
-from src.aibrief.crew.text_utils import is_election_story, same_event, split_sentences
+from src.aibrief.crew.text_utils import is_election_story, is_paywalled_url, same_event, split_sentences
 from src.aibrief.source_authority import is_company_source
 
 if sys.stdout.encoding != 'utf-8':
@@ -224,6 +224,15 @@ def format_broadcast_narration(idx: int, region: str, headline: str, body: str, 
     narration = f"{transition} {content}"
     return clean_text_for_broadcast(narration)
 
+def _line_url(chunk: str, src_match) -> str:
+    """The link on a Source/Also line, or on the lines right after it."""
+    url_match = re.search(r"https?://\S+", src_match.group(1))
+    if not url_match:
+        # Look for the URL on following lines if not on the Source line itself
+        url_match = re.search(r"https?://\S+", chunk[src_match.end(): src_match.end() + 400])
+    return url_match.group(0).rstrip(").,]>\"'") if url_match else ""
+
+
 def extract_attribution(chunk: str) -> tuple:
     """Pull the outlet name and URL off a story block.
 
@@ -235,26 +244,20 @@ def extract_attribution(chunk: str) -> tuple:
     source_url = ""
     # Anchored to line start, handles bold (**Source:**, **Also:**) and plain (Source:, Also:)
     # Requires a colon so "open-sources" or "resources" never match.
-    src_match = re.search(r"(?im)^\s*\*{0,2}(?:Source|Also)\*{0,2}\s*:\s*(.+)$", chunk)
-    if src_match:
+    # The first line whose link is free to read wins: a subscription site in
+    # "Source:" gives way to a free "Also:" link.
+    lines = list(re.finditer(r"(?im)^\s*\*{0,2}(?:Source|Also)\*{0,2}\s*:\s*(.+)$", chunk))
+    for src_match in sorted(lines, key=lambda m: bool(is_paywalled_url(_line_url(chunk, m)))):
         raw_src = src_match.group(1).strip()
-        url_match = re.search(r"https?://\S+", raw_src)
-        if url_match:
-            source_url = url_match.group(0).rstrip(").,]>\"'")
+        source_url = _line_url(chunk, src_match)
         clean_src = re.sub(r"https?://\S+", "", raw_src)
-        clean_src = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", clean_src)
-        clean_src = re.sub(r"\[([^\]]+)\]", r"\1", clean_src)
+        clean_src = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"", clean_src)
+        clean_src = re.sub(r"\[([^\]]+)\]", r"", clean_src)
         clean_src = re.sub(r"[*_`]+", "", clean_src)
         clean_src = clean_src.replace("/", ",").strip(" -–—*")
         if clean_src:
             srcs.append(clean_src)
-
-        # Look for the URL on following lines if not on the Source line itself
-        if not source_url:
-            tail = chunk[src_match.end(): src_match.end() + 400]
-            next_url_match = re.search(r"https?://\S+", tail)
-            if next_url_match:
-                source_url = next_url_match.group(0).rstrip(").,]>\"'")
+        break
 
     if not source_url:
         url_line = re.search(r"(?m)^\s*(https?://\S+)\s*$", chunk)
@@ -320,6 +323,9 @@ def parse_markdown_prompt(md_text: str) -> dict:
                 if not srcs or not is_proper_article_url(source_url):
                     print(f"[SKIP] No proper source for {head_clean[:70]!r}. Left out of the video.")
                     continue
+                if is_paywalled_url(source_url):
+                    print(f"[SKIP] Only subscription-site links for {head_clean[:70]!r}. Left out of the video.")
+                    continue
 
                 body_lines = [l for l in chunk_lines[1:] if not is_metadata_line(l)]
                 body_clean = strip_unspoken_metadata(" ".join(body_lines))
@@ -364,6 +370,9 @@ def parse_markdown_prompt(md_text: str) -> dict:
                     continue
                 if not srcs or not is_proper_article_url(source_url):
                     print(f"[SKIP] No proper source for {head_clean[:70]!r}. Left out of the video.")
+                    continue
+                if is_paywalled_url(source_url):
+                    print(f"[SKIP] Only subscription-site links for {head_clean[:70]!r}. Left out of the video.")
                     continue
 
                 candidate_stories.append({

@@ -34,7 +34,6 @@ MAX_PER_ENTITY = 2
 
 # Publisher feeds. Bureau is only the default; the headline can reassign it.
 WIRE_FEEDS = [
-    {"bureau": "USA", "source": "The Verge", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "ai_section": True},
     {"bureau": "USA", "source": "TechCrunch", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "ai_section": True},
     {"bureau": "USA", "source": "Ars Technica", "url": "https://arstechnica.com/ai/feed/", "ai_section": True},
     {"bureau": "USA", "source": "CNBC", "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html"},
@@ -43,11 +42,7 @@ WIRE_FEEDS = [
     {"bureau": "WORLD", "source": "United Nations", "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml"},
     {"bureau": "CHINA", "source": "Sixth Tone", "url": "https://www.sixthtone.com/rss"},
     {"bureau": "CHINA", "source": "Rest of World", "url": "https://restofworld.org/feed/"},
-    {"bureau": "ASIA", "source": "Nikkei Asia", "url": "https://asia.nikkei.com/rss/feed/nar"},
-    {"bureau": "ASIA", "source": "South China Morning Post", "url": "https://www.scmp.com/rss/318215/feed"},
     {"bureau": "INDIA", "source": "The Economic Times", "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms"},
-    {"bureau": "INDIA", "source": "The Hindu", "url": "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"},
-    {"bureau": "INDIA", "source": "Mint", "url": "https://www.livemint.com/rss/technology"},
 ]
 
 AI_PATTERN = re.compile(

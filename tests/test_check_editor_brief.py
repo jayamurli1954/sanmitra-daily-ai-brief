@@ -40,6 +40,13 @@ class CheckEditorBriefTest(unittest.TestCase):
                      f"Source: The Guardian https://www.theguardian.com/business/chip-stocks\n\n{BODY}\n")
         self.assertIn("stock-market headline", out)
 
+    def test_subscription_site_link_is_flagged(self):
+        code, out = run(f"# USA\n\n### OpenAI claims its models disproved a complexity hypothesis\n"
+                        f"Source: The Verge https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth\n"
+                        f"Also: Decrypt https://decrypt.co/381956/openai-eth-false\n\n{BODY}\n")
+        self.assertEqual(code, 1)
+        self.assertIn("subscription site (theverge.com)", out)
+
     def test_free_form_layout_explains_the_format(self):
         code, out = run("AI Brief\n1. World - AI safety\nNvidia pledges $250 million\nSource: Reuters - headline\n")
         self.assertEqual(code, 1)
