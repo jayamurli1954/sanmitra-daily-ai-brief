@@ -1,0 +1,30 @@
+{
+  "episode": "ep001",
+  "title": "Profit is Vanity, Cash is Reality",
+  "scenes": [
+    {"id": "s01", "lines": [["N", "This is Ramesh. He runs a trading business, and this month was his best ever: fifty lakh rupees of sales, and ten lakh of profit."]]},
+    {"id": "s02", "lines": [["V", "Sir, we beat the target! Mehta Traders alone ordered fifteen lakh!"], ["N", "The whole office is celebrating. On paper, everything looks perfect."]]},
+    {"id": "s03", "lines": [["N", "Then Lata, his accountant, walks in with a question nobody else has asked."]]},
+    {"id": "s04", "lines": [["L", "Sir, salaries are due on Friday. Of that fifty lakh, only five lakh has actually come in."]]},
+    {"id": "s05", "lines": [["N", "Profit is vanity. Cash is reality. And the gap between the two has sunk more good businesses than bad products ever have."]]},
+    {"id": "s06", "lines": [["N", "How can a business make ten lakh of profit and still struggle to pay salaries? Because profit and cash are recorded at different moments. The moment Ramesh sends an invoice, the sale is counted, and his profit and loss statement shows it today. But the money arrives only when the customer pays: in thirty days, sixty days, sometimes ninety."]]},
+    {"id": "s07", "lines": [["N", "So look at this month again. Sales of fifty lakh. Profit of ten lakh. Collected from customers: five lakh. Still sitting with customers: forty-five lakh."]]},
+    {"id": "s08", "lines": [["N", "Meanwhile, salaries, suppliers, rent, GST and loan instalments do not wait for customers to pay. The profit is in the accounts. The cash is not in the bank."]]},
+    {"id": "s09", "lines": [["N", "Again and again, cash gets stuck in the same four places."]]},
+    {"id": "s10", "lines": [["N", "First, slow collections."], ["M", "Rameshji, you know my payment is always safe. Next month, definitely."], ["N", "Every customer who pays late is borrowing from your business, interest-free. If customers who used to pay in forty-five days now take seventy, that gap is cash you have quietly lent away."]]},
+    {"id": "s11", "lines": [["N", "Second, inventory. Ramesh's godown is full. Stock is an asset on the balance sheet, but it is also cash sitting on shelves. Until it is sold and paid for, it cannot pay a single salary."]]},
+    {"id": "s12", "lines": [["N", "Third, growth itself."], ["V", "Sir, if we give sixty days' credit, we can double the orders!"], ["N", "More sales mean more stock, more people and more credit, all paid for before the extra cash comes back. Growth is good. Unfunded growth is dangerous."]]},
+    {"id": "s13", "lines": [["N", "Fourth, capital spending. Last month Ramesh bought a new delivery van for twenty lakh. The cash left the bank on day one. But in the profit and loss account, the van appears only gradually, as depreciation of about two lakh a year."]]},
+    {"id": "s14", "lines": [["N", "The good news: a cash crunch rarely arrives without warning. Lata keeps a short list. Debtor days creeping up. Inventory rising faster than sales. The overdraft used more and more often. Supplier payments pushed back."]]},
+    {"id": "s15", "lines": [["K", "Ramesh bhai, it has been ninety days. We need our payment this week."]]},
+    {"id": "s16", "lines": [["N", "And the clearest sign of all: a bank balance falling month after month, while profit looks perfectly healthy. When two or three of these appear together, it is time to look closely at cash."]]},
+    {"id": "s17", "lines": [["N", "So what does Lata do? Something simple: a rolling cash flow forecast. Every week, she lists what she expects to receive and what must be paid, for the next eight weeks."], ["L", "Sir, look at week three. If nothing changes, we go four lakh below zero."]]},
+    {"id": "s18", "lines": [["N", "The problem is visible weeks before it arrives, while there is still time to act. So Ramesh acts. He calls his three biggest overdue customers. He agrees payment dates with Kapoor instead of missing them. And he arranges his bank limit before he needs it, not in a panic on a Friday afternoon."]]},
+    {"id": "s19", "lines": [["N", "A forecast does not need fancy software. A simple sheet, updated every Monday, is enough to start."]]},
+    {"id": "s20", "lines": [["N", "At SanMitra, we built OfficeMitra for exactly this. It reads your existing Tally or Zoho books, read-only, on your own computer, and shows a thirty, sixty and ninety day cash forecast, debtor aging and the warning signs on one screen."]]},
+    {"id": "s21", "lines": [["N", "None of this means profit is unimportant. Profit answers one question: did the business create value? Cash answers another: can the business keep operating tomorrow?"]]},
+    {"id": "s22", "lines": [["N", "Both matter. But when times are uncertain, look at cash first. Profitable companies survive a bad quarter. Businesses rarely survive running out of cash. Profit measures performance. Cash determines survival."]]},
+    {"id": "s23", "lines": [["N", "Try this this week: put three numbers side by side for last month. Your profit. The change in your bank balance. And the change in what customers owe you, plus your stock. If profit is high but the bank barely moved, the answer is almost always in that third number."]]},
+    {"id": "s24", "lines": [["N", "This is OfficeMitra Finance Insights. If this was useful, subscribe, and tell us in the comments: which number do you look at first every month?"]]}
+  ]
+}

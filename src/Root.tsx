@@ -34,6 +34,10 @@ import { OfficeMitraVideo } from "./officemitra/OfficeMitraVideo";
 import { OfficeMitraSquare } from "./officemitra/OfficeMitraSquare";
 import { OfficeMitraVertical } from "./officemitra/OfficeMitraVertical";
 import { OfficeMitraDemo, totalDemoFrames, FPS as OM_DEMO_FPS } from "./officemitra/demo/OfficeMitraDemo";
+import { FinanceStyleTest, styleTestFrames, FT_FPS } from "./finance/FinanceStyleTest";
+import { FinanceStyleTestAI, styleTestAIFrames, FT_AI_FPS } from "./finance/FinanceStyleTestAI";
+import { Pilot001, pilotFrames, EP_FPS } from "./finance/ep001/Pilot001";
+import { Episode002, episode002Frames } from "./finance/ep002/Episode002";
 import {
   OM_FPS,
   OM_HEIGHT,
@@ -48,6 +52,46 @@ export const RemotionRoot: React.FC = () => {
   return (
     <>
       {/* --- OfficeMitra + SSDV Product Commercials --- */}
+      {/* OfficeMitra Finance Insights, Episode 002: Working Capital */}
+      <Composition
+        id="FinanceEpisode002"
+        component={Episode002}
+        durationInFrames={episode002Frames()}
+        fps={EP_FPS}
+        width={1920}
+        height={1080}
+      />
+
+      {/* OfficeMitra Finance Insights, Episode 001 (pilot) */}
+      <Composition
+        id="FinancePilot001"
+        component={Pilot001}
+        durationInFrames={pilotFrames()}
+        fps={EP_FPS}
+        width={1920}
+        height={1080}
+      />
+
+      {/* Finance channel style test v3: AI-generated character art + animated charts */}
+      <Composition
+        id="FinanceStyleTestAI"
+        component={FinanceStyleTestAI}
+        durationInFrames={styleTestAIFrames()}
+        fps={FT_AI_FPS}
+        width={1920}
+        height={1080}
+      />
+
+      {/* Finance channel style test: flat 2D illustration drawn in code */}
+      <Composition
+        id="FinanceStyleTest"
+        component={FinanceStyleTest}
+        durationInFrames={styleTestFrames()}
+        fps={FT_FPS}
+        width={1920}
+        height={1080}
+      />
+
       {/* OfficeMitra product demo on real app screenshots (1920x1080) */}
       <Composition
         id="OfficeMitraDemo16x9"
