@@ -17,8 +17,8 @@ UK AI minister Kanishka Narayan warned that an agent-driven attack is likely, ci
 # INDIA
 
 ### HCLTech signs pact with Anthropic to set up dedicated AI business unit
-Source: Mint
-https://www.livemint.com/hcl-anthropic
+Source: Hindustan Times
+https://www.hindustantimes.com/hcl-anthropic
 
 HCLTech will set up a unit for agentic AI with Anthropic.
 """
@@ -41,7 +41,7 @@ The CEOs warned about capital.
 
 ### HCLTech to set up dedicated business unit for agentic AI solutions
 Source: Economic Times
-https://www.livemint.com/hcl-anthropic
+https://www.hindustantimes.com/hcl-anthropic
 
 Same link as the editor's story.
 """
@@ -60,7 +60,7 @@ class EditorBriefTest(unittest.TestCase):
         self.assertIn("Also: BBC https://www.bbc.co.uk/news/uk-cyber", merged)
         self.assertNotIn("In a speech, Kanishka Narayan", merged)
         # Same link already present: no extra Also line for it.
-        self.assertEqual(merged.count("https://www.livemint.com/hcl-anthropic"), 1)
+        self.assertEqual(merged.count("https://www.hindustantimes.com/hcl-anthropic"), 1)
 
     def test_cap_fills_with_editor_stories_first(self):
         merged, report = merge_editor_brief(EDITOR, COLLECTOR, "2026-10-13", 2)

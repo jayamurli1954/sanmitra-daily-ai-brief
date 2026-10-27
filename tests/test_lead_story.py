@@ -31,8 +31,8 @@ COLLECTOR = f"""# USA
 
 ### Microsoft unveils Maia 300 chip for its AI services
 Lead: yes
-Source: The Verge
-https://www.theverge.com/news/1009465/microsoft-maia-300
+Source: TechCrunch
+https://techcrunch.com/2026/10/09/microsoft-maia-300
 
 {BODY}
 """

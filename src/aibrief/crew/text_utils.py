@@ -10,6 +10,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 import html
 import re
+from urllib.parse import urlparse
 
 IST = timezone(timedelta(hours=5, minutes=30))
 
@@ -118,6 +119,29 @@ def is_personal_scandal_story(title):
 def is_election_story(title, body=""):
     """True when the headline or the text mentions elections, campaigns or US politicians."""
     return contains_any(f"{title or ''} {body or ''}", ELECTION_TERMS)
+
+
+# Sites that ask viewers to subscribe before they can read the article
+# (editor's decision, 2026-10-27). Source links must be free to read.
+PAYWALLED_DOMAINS = {
+    "theverge.com", "thehindu.com", "thehindubusinessline.com", "scmp.com", "nikkei.com",
+    "livemint.com", "business-standard.com", "wired.com", "technologyreview.com",
+    "bloomberg.com", "wsj.com", "ft.com", "theinformation.com", "nytimes.com",
+    "washingtonpost.com", "economist.com", "theatlantic.com", "newyorker.com",
+    "barrons.com", "businessinsider.com", "telegraph.co.uk",
+}
+# The Economic Times is free except its ET Prime section.
+PAYWALLED_PATHS = {"economictimes.indiatimes.com": "/prime/"}
+
+
+def is_paywalled_url(url):
+    """True when the link is on a site that asks readers to subscribe."""
+    parsed = urlparse((url or "").strip())
+    host = (parsed.hostname or "").lower()
+    if any(host == d or host.endswith("." + d) for d in PAYWALLED_DOMAINS):
+        return True
+    return any((host == d or host.endswith("." + d)) and prefix in parsed.path
+               for d, prefix in PAYWALLED_PATHS.items())
 
 
 def count_matches(text, keywords):

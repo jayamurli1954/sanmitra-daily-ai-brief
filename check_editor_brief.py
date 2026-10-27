@@ -7,17 +7,20 @@ Check the editor's brief before the night run picks it up.
 Reads prompts/editor/<date>.md the same way the night run does and reports
 what will be used: how many stories, which one leads, and anything that would
 be dropped (no link, unreadable layout, stock-market headline, over the cap).
+Links to sites that ask viewers to subscribe are flagged too.
 Exit code 0 means OK.
 """
 
 import os
 import sys
 from datetime import datetime, timedelta
+from urllib.parse import urlparse
 
 from build_episode_from_prompt import clean_text_for_broadcast, parse_markdown_prompt
 from src.aibrief.crew.editor_brief import merge_editor_brief, parse_stories
 from src.aibrief.crew.fact_checker import MAX_EPISODE_STORIES, MIN_EPISODE_STORIES
-from src.aibrief.crew.text_utils import is_election_story, is_personal_scandal_story, is_stock_market_story
+from src.aibrief.crew.text_utils import (is_election_story, is_paywalled_url, is_personal_scandal_story,
+                                         is_stock_market_story)
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -69,6 +72,10 @@ def check(date: str, editor_dir: str = os.path.join("prompts", "editor")) -> int
             notes.append("no 'Source:' line")
         if not s["primary_url"]:
             notes.append("no link: add the article URL on the Source line")
+        paywalled = sorted(u for u in s["urls"] if is_paywalled_url(u))
+        if paywalled:
+            sites = ", ".join(sorted({urlparse(u).hostname.removeprefix("www.") for u in paywalled}))
+            notes.append(f"subscription site ({sites}): link free coverage of the story instead")
         if is_stock_market_story(s["headline"]):
             notes.append("stock-market headline: not covered")
         if is_personal_scandal_story(s["headline"]):
@@ -88,7 +95,7 @@ def check(date: str, editor_dir: str = os.path.join("prompts", "editor")) -> int
             used.add(s["headline"])
         flag = "" if not notes else "  <-- " + "; ".join(notes)
         print(f"{i:2d}. [{status:4s}] {s['region']:6s} {s['headline'][:70]}  ({words} words){flag}")
-        if dropped or not s["primary_url"]:
+        if dropped or not s["primary_url"] or paywalled:
             problems += 1
 
     print()

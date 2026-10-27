@@ -12,7 +12,7 @@ import re
 import urllib.parse
 import urllib.request
 
-from .text_utils import (IST, clean_feed_text, contains_any, is_election_story, is_personal_scandal_story, is_recent,
+from .text_utils import (IST, clean_feed_text, contains_any, is_election_story, is_paywalled_url, is_personal_scandal_story, is_recent,
                          is_stock_market_story, parse_published)
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -28,8 +28,6 @@ USER_AGENT = (
 FEEDS = [
     {"outlet": "Reuters", "url": "https://www.reutersagency.com/feed/?best-topics=tech&post_type=best", "region": "WORLD"},
     {"outlet": "TechCrunch", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "region": "USA"},
-    {"outlet": "The Verge", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "region": "USA"},
-    {"outlet": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/", "region": "WORLD"},
     {"outlet": "Defense News", "url": "https://www.defensenews.com/arc/outboundfeeds/rss/category/technology/?outputType=xml", "region": "WORLD"},
     {"outlet": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab", "region": "USA"},
     {"outlet": "VentureBeat", "url": "https://venturebeat.com/category/ai/feed/", "region": "USA"},
@@ -37,7 +35,6 @@ FEEDS = [
     {"outlet": "The Economic Times", "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/rssfeeds/81580397.cms", "region": "INDIA"},
     {"outlet": "Inc42", "url": "https://inc42.com/feed/", "region": "INDIA"},
     {"outlet": "The Times of India", "url": "https://timesofindia.indiatimes.com/rssfeeds/66949542.cms", "region": "INDIA"},
-    {"outlet": "South China Morning Post", "url": "https://www.scmp.com/rss/318208/feed", "region": "CHINA"},
     {"outlet": "The Korea Times", "url": "https://www.koreatimes.co.kr/www/rss/tech.xml", "region": "ASIA"},
     {"outlet": "The Japan Times", "url": "https://www.japantimes.co.jp/feed/category/business/tech/", "region": "ASIA"},
     {"outlet": "Google", "url": "https://blog.google/technology/ai/rss/", "region": "USA"},
@@ -46,17 +43,15 @@ FEEDS = [
     {"outlet": "CNBC", "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html", "region": "USA"},
     {"outlet": "BBC", "url": "https://feeds.bbci.co.uk/news/technology/rss.xml", "region": "WORLD"},
     {"outlet": "NPR", "url": "https://feeds.npr.org/1019/rss.xml", "region": "USA"},
-    {"outlet": "Wired", "url": "https://www.wired.com/feed/tag/ai/latest/rss", "region": "USA"},
     {"outlet": "The Guardian", "url": "https://www.theguardian.com/uk/technology/rss", "region": "WORLD"},
     {"outlet": "Rest of World", "url": "https://restofworld.org/feed/latest", "region": "WORLD"},
     {"outlet": "The Register", "url": "https://www.theregister.com/software/ai_ml/headlines.atom", "region": "WORLD"},
-    {"outlet": "South China Morning Post", "url": "https://www.scmp.com/rss/36/feed", "region": "CHINA"},
-    {"outlet": "Nikkei Asia", "url": "https://asia.nikkei.com/rss/feed/nar", "region": "ASIA"},
     {"outlet": "Tech in Asia", "url": "https://www.techinasia.com/feed", "region": "ASIA"},
+    # Added 2026-10-27: free China coverage in place of the South China Morning Post,
+    # which asks viewers to subscribe (live-tested). Subscription sites are not used.
+    {"outlet": "TechNode", "url": "https://technode.com/feed/", "region": "CHINA"},
+    {"outlet": "Pandaily", "url": "https://pandaily.com/feed/", "region": "CHINA"},
     {"outlet": "The Economic Times", "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms", "region": "INDIA"},
-    {"outlet": "Business Standard", "url": "https://www.business-standard.com/rss/technology-108.rss", "region": "INDIA"},
-    {"outlet": "Mint", "url": "https://www.livemint.com/rss/AI", "region": "INDIA"},
-    {"outlet": "The Hindu BusinessLine", "url": "https://www.thehindubusinessline.com/info-tech/feeder/default.rss", "region": "INDIA"},
     {"outlet": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "region": "USA"},
     {"outlet": "Nvidia", "url": "https://nvidianews.nvidia.com/releases.xml", "region": "USA"},
 ]
@@ -131,7 +126,7 @@ class NewsHarvester:
 
                 for title, link, summary, published in entries:
                     title, link = clean_feed_text(title), link.strip()
-                    if title and link:
+                    if title and link and not is_paywalled_url(link):
                         items.append({
                             "title": title,
                             "source": feed_cfg["outlet"],
@@ -161,6 +156,8 @@ class NewsHarvester:
                     try:
                         for h in ddgs.news(q, max_results=5, timelimit="d"):
                             url = h.get("url") or h.get("href", "")
+                            if is_paywalled_url(url):
+                                continue
                             results.append({
                                 "title": clean_feed_text(h.get("title", "")),
                                 "source": h.get("source", "") or urllib.parse.urlparse(url).netloc.replace("www.", ""),
