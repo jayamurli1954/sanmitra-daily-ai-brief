@@ -98,7 +98,7 @@ def load_candidates(sunday: str) -> list:
 def unaired(candidates: list, aired: list) -> list:
     keep = []
     for s in candidates:
-        if is_stock_market_story(s["headline"]) or not is_proper_article_url(s.get("primary_url", "")):
+        if is_stock_market_story(s["headline"], s.get("primary_url", "")) or not is_proper_article_url(s.get("primary_url", "")):
             continue
         if is_election_story(s["headline"], _summary(s)) or is_personal_scandal_story(s["headline"]):
             continue

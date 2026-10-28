@@ -21,7 +21,7 @@ import sys
 
 from validate_episode_sources import is_proper_article_url
 from src.aibrief.crew.fact_checker import MAX_EPISODE_STORIES, STORY_MAX_SENTENCES, STORY_MAX_WORDS
-from src.aibrief.crew.text_utils import is_election_story, is_paywalled_url, same_event, split_sentences
+from src.aibrief.crew.text_utils import is_election_story, same_event, source_link_problem, split_sentences
 from src.aibrief.source_authority import is_company_source
 
 if sys.stdout.encoding != 'utf-8':
@@ -244,10 +244,10 @@ def extract_attribution(chunk: str) -> tuple:
     source_url = ""
     # Anchored to line start, handles bold (**Source:**, **Also:**) and plain (Source:, Also:)
     # Requires a colon so "open-sources" or "resources" never match.
-    # The first line whose link is free to read wins: a subscription site in
-    # "Source:" gives way to a free "Also:" link.
+    # The first line whose link viewers can read wins: a subscription site or a
+    # non-English page in "Source:" gives way to a free English "Also:" link.
     lines = list(re.finditer(r"(?im)^\s*\*{0,2}(?:Source|Also)\*{0,2}\s*:\s*(.+)$", chunk))
-    for src_match in sorted(lines, key=lambda m: bool(is_paywalled_url(_line_url(chunk, m)))):
+    for src_match in sorted(lines, key=lambda m: bool(source_link_problem(_line_url(chunk, m)))):
         raw_src = src_match.group(1).strip()
         source_url = _line_url(chunk, src_match)
         clean_src = re.sub(r"https?://\S+", "", raw_src)
@@ -323,8 +323,9 @@ def parse_markdown_prompt(md_text: str) -> dict:
                 if not srcs or not is_proper_article_url(source_url):
                     print(f"[SKIP] No proper source for {head_clean[:70]!r}. Left out of the video.")
                     continue
-                if is_paywalled_url(source_url):
-                    print(f"[SKIP] Only subscription-site links for {head_clean[:70]!r}. Left out of the video.")
+                if source_link_problem(source_url):
+                    print(f"[SKIP] No free English link for {head_clean[:70]!r} "
+                          f"({source_link_problem(source_url)}). Left out of the video.")
                     continue
 
                 body_lines = [l for l in chunk_lines[1:] if not is_metadata_line(l)]
@@ -371,8 +372,9 @@ def parse_markdown_prompt(md_text: str) -> dict:
                 if not srcs or not is_proper_article_url(source_url):
                     print(f"[SKIP] No proper source for {head_clean[:70]!r}. Left out of the video.")
                     continue
-                if is_paywalled_url(source_url):
-                    print(f"[SKIP] Only subscription-site links for {head_clean[:70]!r}. Left out of the video.")
+                if source_link_problem(source_url):
+                    print(f"[SKIP] No free English link for {head_clean[:70]!r} "
+                          f"({source_link_problem(source_url)}). Left out of the video.")
                     continue
 
                 candidate_stories.append({

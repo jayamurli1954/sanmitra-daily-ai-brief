@@ -42,6 +42,12 @@ WIRE_FEEDS = [
     {"bureau": "WORLD", "source": "United Nations", "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml"},
     {"bureau": "CHINA", "source": "Sixth Tone", "url": "https://www.sixthtone.com/rss"},
     {"bureau": "CHINA", "source": "Rest of World", "url": "https://restofworld.org/feed/"},
+    # Added 2026-10-28: free English coverage of China, Asia and India in place of the
+    # subscription feeds removed on 2026-10-27, which left collector-only nights short.
+    {"bureau": "CHINA", "source": "TechNode", "url": "https://technode.com/feed/"},
+    {"bureau": "CHINA", "source": "Pandaily", "url": "https://pandaily.com/feed/"},
+    {"bureau": "ASIA", "source": "Tech in Asia", "url": "https://www.techinasia.com/feed"},
+    {"bureau": "INDIA", "source": "Inc42", "url": "https://inc42.com/feed/"},
     {"bureau": "INDIA", "source": "The Economic Times", "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms"},
 ]
 
@@ -50,6 +56,9 @@ AI_PATTERN = re.compile(
     r"artificial intelligence|generative ai|machine learning|large language|"
     r"openai|anthropic|deepseek|nvidia|chatbot|\bllm\b|\bgpu\b|semiconductor|"
     r"humanoid|frontier model|ai model|ai agent|ai safety|ai chip|"
+    # Model releases from TechNode and Pandaily rarely say "AI" ("Ant Group
+    # open-sources Ling-3.1-flash"): the kind of model is the AI signal.
+    r"language model|world model|vision model|open-source model|robots?|robotics|"
     r"\bai\b"
     r")\b",
     re.I,
@@ -66,7 +75,7 @@ ROUTINE_PATTERN = re.compile(
 
 BREAKING_PATTERN = re.compile(
     r"\b("
-    r"launch(?:es|ed)?|unveil(?:s|ed)?|ban(?:s|ned)?|acqui(?:re|res|sition)|"
+    r"launch(?:es|ed)?|unveil(?:s|ed)?|open-sourc(?:es|ed)|releas(?:es|ed)|ban(?:s|ned)?|acqui(?:re|res|sition)|"
     r"halt(?:s|ed)?|pause(?:s|d)?|sue[sd]?|lawsuit|file[sd]?|approv(?:e|es|ed)|"
     r"warn(?:s|ed|ing)?|scrap(?:s|ped)?|cancel(?:s|led)?|sign(?:s|ed)?|"
     r"ditch(?:es|ed)?|abandon(?:s|ed)?|rollout|orders?|"
