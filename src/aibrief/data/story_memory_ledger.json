@@ -1,247 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-10-25",
+  "last_updated": "2026-10-28",
   "stories": [
-    {
-      "story_id": "story_20261013_cyber_attack_similar_to_openai_medi",
-      "story_chain_id": "chain_global_cyber_attack_similar",
-      "headline": "Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theguardian.com/technology/2026/oct/12/cyber-attack-like-openai-medicare-breach-seems-likely-in-uk-says-minister"
-      ],
-      "first_covered": "2026-10-13",
-      "last_major_update": "2026-10-13",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261013_ai_less_regulated_than_milk_microso",
-      "story_chain_id": "chain_global_ai_less_regulated_th",
-      "headline": "AI less regulated than milk, Microsoft president says in warning over safety",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules"
-      ],
-      "first_covered": "2026-10-13",
-      "last_major_update": "2026-10-13",
-      "update_phase": "initial_break",
-      "impact_score": 83
-    },
-    {
-      "story_id": "story_20261013_this_ai_startup_says_it_can_generat",
-      "story_chain_id": "chain_global_this_ai_startup_says",
-      "headline": "This AI startup says it can generate permit-ready blueprints in minutes",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/"
-      ],
-      "first_covered": "2026-10-13",
-      "last_major_update": "2026-10-13",
-      "update_phase": "initial_break",
-      "impact_score": 75
-    },
-    {
-      "story_id": "story_20261013_world_bank_jobs_council_urges_crisi",
-      "story_chain_id": "chain_global_world_bank_jobs_coun",
-      "headline": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
-      ],
-      "first_covered": "2026-10-13",
-      "last_major_update": "2026-10-13",
-      "update_phase": "initial_break",
-      "impact_score": 75
-    },
-    {
-      "story_id": "story_20261013_intel_broadcom_ceos_warn_capital_cr",
-      "story_chain_id": "chain_global_intel_broadcom_ceos_",
-      "headline": "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html"
-      ],
-      "first_covered": "2026-10-13",
-      "last_major_update": "2026-10-13",
-      "update_phase": "initial_break",
-      "impact_score": 75
-    },
-    {
-      "story_id": "story_20261013_ai_may_change_the_price_of_your_big",
-      "story_chain_id": "chain_global_ai_may_change_the_pr",
-      "headline": "AI may change the price of your Big Mac and groceries — what this means for shoppers",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/11/ai-dynamic-pricing-shoppers-groceries.html"
-      ],
-      "first_covered": "2026-10-13",
-      "last_major_update": "2026-10-13",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261013_sequoia_backed_chip_startup_nuvacor",
-      "story_chain_id": "chain_global_sequoia_backed_chip_",
-      "headline": "Sequoia-backed chip startup Nuvacore raising funds at about a $2.5 billion valuation",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/technology/sequoia-backed-chip-startup-nuvacore-raising-funds-at-about-a-2-5-billion-valuation/articleshow/134870940.cms"
-      ],
-      "first_covered": "2026-10-13",
-      "last_major_update": "2026-10-13",
-      "update_phase": "initial_break",
-      "impact_score": 68
-    },
-    {
-      "story_id": "story_20261013_ai_fuelling_growth_while_putting_as",
-      "story_chain_id": "chain_global_ai_fuelling_growth_w",
-      "headline": "AI fuelling growth while putting Asia’s young workers at risk, IMF meeting hears",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://www.scmp.com/week-asia/economics/article/3370618/ai-fuelling-growth-while-putting-asias-young-workers-risk-imf-meeting-hears?utm_source=rss_feed"
-      ],
-      "first_covered": "2026-10-13",
-      "last_major_update": "2026-10-13",
-      "update_phase": "initial_break",
-      "impact_score": 68
-    },
-    {
-      "story_id": "story_20261014_character_ai_files_for_bankruptcy",
-      "story_chain_id": "chain_global_character_ai_files_f",
-      "headline": "Character.AI files for bankruptcy",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney"
-      ],
-      "first_covered": "2026-10-14",
-      "last_major_update": "2026-10-14",
-      "update_phase": "initial_break",
-      "impact_score": 100
-    },
-    {
-      "story_id": "story_20261014_apple_unveils_new_smart_home_device",
-      "story_chain_id": "chain_global_apple_unveils_new_sm",
-      "headline": "Apple unveils new smart home devices that showcase upgraded Siri AI",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai"
-      ],
-      "first_covered": "2026-10-14",
-      "last_major_update": "2026-10-14",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261014_imf_warns_global_economy_could_soon",
-      "story_chain_id": "chain_global_imf_warns_global_eco",
-      "headline": "IMF warns global economy ‘could soon test the limits of resilience’",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026"
-      ],
-      "first_covered": "2026-10-14",
-      "last_major_update": "2026-10-14",
-      "update_phase": "initial_break",
-      "impact_score": 87
-    },
-    {
-      "story_id": "story_20261014_chip_stocks_slide_after_broadcom_bo",
-      "story_chain_id": "chain_global_chip_stocks_slide_af",
-      "headline": "Chip stocks slide after Broadcom boss likens AI investing to ‘casino’",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://www.theguardian.com/business/2026/oct/13/chip-stocks-broadcom-ai-samsung-shares-cxmt"
-      ],
-      "first_covered": "2026-10-14",
-      "last_major_update": "2026-10-14",
-      "update_phase": "initial_break",
-      "impact_score": 83
-    },
-    {
-      "story_id": "story_20261014_actress_mia_goth_says_it_s_incompre",
-      "story_chain_id": "chain_global_actress_mia_goth_say",
-      "headline": "Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce"
-      ],
-      "first_covered": "2026-10-14",
-      "last_major_update": "2026-10-14",
-      "update_phase": "initial_break",
-      "impact_score": 82
-    },
-    {
-      "story_id": "story_20261014_i_m_a_pediatrician_loss_of_human_co",
-      "story_chain_id": "chain_global_i_m_a_pediatrician_l",
-      "headline": "I’m a pediatrician. Loss of human connection is the biggest threat to kids, not AI | Megan Moreno",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/technology/2026/oct/13/human-connection-threat-children-ai-technology"
-      ],
-      "first_covered": "2026-10-14",
-      "last_major_update": "2026-10-14",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261014_afl_tells_sportsbet_to_stop_using_p",
-      "story_chain_id": "chain_global_afl_tells_sportsbet_",
-      "headline": "AFL tells Sportsbet to stop using players in AI generated content",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/australia-news/2026/oct/14/afl-tells-sportsbet-to-stop-using-players-in-ai-generated-content"
-      ],
-      "first_covered": "2026-10-14",
-      "last_major_update": "2026-10-14",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261014_imf_warns_of_ai_market_correction_c",
-      "story_chain_id": "chain_global_imf_warns_of_ai_mark",
-      "headline": "IMF warns of AI market correction, cyber threats to financial system",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://www.thehindu.com/business/imf-warns-of-ai-market-correction-cyber-threats-to-financial-system/article71578066.ece"
-      ],
-      "first_covered": "2026-10-14",
-      "last_major_update": "2026-10-14",
-      "update_phase": "initial_break",
-      "impact_score": 69
-    },
     {
       "story_id": "story_20261015_the_eyes_have_it_reform_politician_",
       "story_chain_id": "chain_global_the_eyes_have_it_ref",
@@ -2626,6 +2386,591 @@
       "last_major_update": "2026-10-26",
       "update_phase": "initial_break",
       "impact_score": 71
+    },
+    {
+      "story_id": "story_20261026_uk_safety_researchers_find_an_ai_mo",
+      "story_chain_id": "chain_global_uk_safety_researcher",
+      "headline": "UK safety researchers find an AI model kept targeting real people despite warnings",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://indianexpress.com/article/technology/artificial-intelligence/uk-ai-safety-institute-mythos-5-investigation-key-findings-10935969/"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261026_countries_face_growing_pressure_to_",
+      "story_chain_id": "chain_global_countries_face_growi",
+      "headline": "Countries face growing pressure to choose sides in the US China AI race",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://apnews.com/article/9974a3e5dc955a93935d131a4aeb8886"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261026_china_s_tech_giants_offer_close_to_",
+      "story_chain_id": "chain_global_china_s_tech_giants_",
+      "headline": "China's tech giants offer close to 1 million yuan for engineers who turn AI into products",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.scmp.com/tech/tech-trends/article/3371925/chinas-tech-giants-are-paying-1-million-yuan-new-kind-ai-engineer"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261026_south_korea_starts_designing_a_sing",
+      "story_chain_id": "chain_global_south_korea_starts_d",
+      "headline": "South Korea starts designing a single defence AI data centre",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://www.etnews.com/20261023000175"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261026_ncert_rolls_out_a_20_hour_ai_course",
+      "story_chain_id": "chain_global_ncert_rolls_out_a_20",
+      "headline": "NCERT rolls out a 20-hour AI course for classes 9 to 12",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.thehindu.com/education/20-hour-introductory-module-on-computational-thinking-and-artificial-intelligence-released-by-ncert/article71622775.ece"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261026_block_s_dessa_voice_model_laughs_pa",
+      "story_chain_id": "chain_global_block_s_dessa_voice_",
+      "headline": "Block's Dessa voice model laughs, pauses and talks over you like a person",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+      ],
+      "first_covered": "2026-10-26",
+      "last_major_update": "2026-10-26",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261027_softbank_reportedly_plans_50_billio",
+      "story_chain_id": "chain_global_softbank_reportedly_",
+      "headline": "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html"
+      ],
+      "first_covered": "2026-10-27",
+      "last_major_update": "2026-10-27",
+      "update_phase": "initial_break",
+      "impact_score": 87
+    },
+    {
+      "story_id": "story_20261027_australians_should_prepare_for_onli",
+      "story_chain_id": "chain_global_australians_should_p",
+      "headline": "Australians should prepare for online services to go down unexpectedly as threats rise, cyber agency warns",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/26/australians-should-prepare-for-online-services-to-go-down-unexpectedly-as-threats-rise-cyber-agency-warns"
+      ],
+      "first_covered": "2026-10-27",
+      "last_major_update": "2026-10-27",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261027_moonshot_resets_subscriber_quotas_a",
+      "story_chain_id": "chain_global_moonshot_resets_subs",
+      "headline": "Moonshot resets subscriber quotas after Kimi K3.1 Pro launch issues",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/moonshot-resets-subscriber-quotas-after-kimi-k3-1-pro-launch-issues/articleshow/135208663.cms"
+      ],
+      "first_covered": "2026-10-27",
+      "last_major_update": "2026-10-27",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261027_softbank_reportedly_plans_50_billio",
+      "story_chain_id": "chain_global_softbank_reportedly_",
+      "headline": "SoftBank reportedly plans 50 billion dollars tech investment in aspiring 'AI nation' Malaysia",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html"
+      ],
+      "first_covered": "2026-10-27",
+      "last_major_update": "2026-10-27",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261027_spacex_locks_in_40_billion_dollars_",
+      "story_chain_id": "chain_global_spacex_locks_in_40_b",
+      "headline": "SpaceX locks in 40 billion dollars GPU financing deal with Apollo",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
+      ],
+      "first_covered": "2026-10-27",
+      "last_major_update": "2026-10-27",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261027_anthropic_officially_files_for_its_",
+      "story_chain_id": "chain_global_anthropic_officially",
+      "headline": "Anthropic officially files for its public debut",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
+      ],
+      "first_covered": "2026-10-27",
+      "last_major_update": "2026-10-27",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261027_dear_chatgpt_12_year_old_wins_top_y",
+      "story_chain_id": "chain_global_dear_chatgpt_12_year",
+      "headline": "'Dear ChatGPT': 12-year-old wins top youth prize at Australian Poetry Slam video",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://www.theguardian.com/technology/video/2026/oct/26/dear-chatgpt-12-year-old-wins-top-youth-prize-at-australian-poetry-slam-video"
+      ],
+      "first_covered": "2026-10-27",
+      "last_major_update": "2026-10-27",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261027_reading_writing_sharing_and_interac",
+      "story_chain_id": "chain_global_reading_writing_shar",
+      "headline": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2610.31668"
+      ],
+      "first_covered": "2026-10-27",
+      "last_major_update": "2026-10-27",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261027_anthropic_sued_for_allegedly_using_",
+      "story_chain_id": "chain_global_anthropic_sued_for_a",
+      "headline": "Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music"
+      ],
+      "first_covered": "2026-10-27",
+      "last_major_update": "2026-10-27",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261027_why_cloud_computing_pioneer_wang_ji",
+      "story_chain_id": "chain_global_why_cloud_computing_",
+      "headline": "Why cloud computing pioneer Wang Jian thinks space is the next AI frontier",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.scmp.com/tech/tech-trends/article/3371979/why-cloud-computing-pioneer-wang-jian-thinks-space-next-ai-frontier"
+      ],
+      "first_covered": "2026-10-27",
+      "last_major_update": "2026-10-27",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261028_meta_announces_95_billion_stock_off",
+      "story_chain_id": "chain_global_meta_announces_95_bi",
+      "headline": "Meta announces $95 billion stock offering to fund AI expansion",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/oct/26/meta-plans-95bn-stock-offering-to-help-cover-ai-expansion"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 81
+    },
+    {
+      "story_id": "story_20261028_uk_government_met_137_businesses_ov",
+      "story_chain_id": "chain_global_uk_government_met_13",
+      "headline": "UK government met 137 businesses over AI datacentres – but no environmental groups",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/uk-news/2026/oct/27/uk-government-environmental-groups-ai-datacentres-expansion-plans-investigation"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261028_cohere_says_alibaba_s_qwen_model_tr",
+      "story_chain_id": "chain_global_cohere_says_alibaba_",
+      "headline": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261028_australia_warns_of_unprecedented_ai",
+      "story_chain_id": "chain_global_australia_warns_of_u",
+      "headline": "Australia warns of 'unprecedented' AI threat",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/australia-warns-of-unprecedented-ai-threat/articleshow/135226144.cms"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261028_apple_is_adding_an_ai_chatbot_to_pa",
+      "story_chain_id": "chain_global_apple_is_adding_an_a",
+      "headline": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261028_google_s_next_genie_ai_model_genera",
+      "story_chain_id": "chain_global_google_s_next_genie_",
+      "headline": "Google’s next Genie AI model generates more realistic experiences",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261028_cohere_says_an_alibaba_qwen_model_t",
+      "story_chain_id": "chain_global_cohere_says_an_aliba",
+      "headline": "Cohere says an Alibaba Qwen model tried to send a file to Beijing during a test",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261028_openai_releases_gpt_6_1_terra_at_ha",
+      "story_chain_id": "chain_global_openai_releases_gpt_",
+      "headline": "OpenAI releases GPT-6.1 Terra at half the price of its mid-tier models",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://thenextweb.com/news/openai-gpt-6-1-terra-computer-use"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261028_openai_claims_its_models_disproved_",
+      "story_chain_id": "chain_global_openai_claims_its_mo",
+      "headline": "OpenAI claims its models disproved the Exponential Time Hypothesis",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261028_tencent_open_sources_a_real_time_ch",
+      "story_chain_id": "chain_global_tencent_open_sources",
+      "headline": "Tencent open-sources a real-time Chinese-English interpretation model",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://technode.com/2026/10/27/tencent-open-sources-ai-model-for-real-time-chinese-english-interpretation/"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261028_singapore_launches_a_package_to_pus",
+      "story_chain_id": "chain_global_singapore_launches_a",
+      "headline": "Singapore launches a package to push companies into AI",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://english.news.cn/asiapacific/20261027/8b2cddf82be14e7c9b11576cb17a6b4a/c.html"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261028_sarvam_signs_a_five_year_deal_to_bu",
+      "story_chain_id": "chain_global_sarvam_signs_a_five_",
+      "headline": "Sarvam signs a five-year deal to build AI for India's armed forces",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.hindustantimes.com/india-news/armed-forces-sign-mou-with-sarvam-to-boost-ai-capabilities-101793088900459.html"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261028_general_compute_raises_100_million_",
+      "story_chain_id": "chain_global_general_compute_rais",
+      "headline": "General Compute raises 100 million dollars to build a cloud on non-Nvidia inference chips",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261028_ciil_releases_open_source_speech_ai",
+      "story_chain_id": "chain_global_ciil_releases_open_s",
+      "headline": "CIIL releases open-source speech AI for all 22 scheduled languages",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.thehindu.com/news/national/karnataka/ciil-launches-open-source-speech-ai-ecosystem-for-indian-languages/article71631788.ece"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261028_nvidia_backs_simplismart_which_help",
+      "story_chain_id": "chain_global_nvidia_backs_simplis",
+      "headline": "Nvidia backs Simplismart, which helps companies run AI on fewer GPUs",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/"
+      ],
+      "first_covered": "2026-10-28",
+      "last_major_update": "2026-10-28",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261029_cognite_reports_1_billion_in_verifi",
+      "story_chain_id": "chain_global_cognite_reports_1_bi",
+      "headline": "Cognite reports $1 billion in verified AI value, confirming impact of industrial AI solutions",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/cognite-reports-1-billion-in-verified-ai-value-confirming-impact-of-industrial-ai-solutions/articleshow/135266756.cms"
+      ],
+      "first_covered": "2026-10-29",
+      "last_major_update": "2026-10-29",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261029_emotional_intimacy_from_ai_chatbots",
+      "story_chain_id": "chain_global_emotional_intimacy_f",
+      "headline": "‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital duty of care laws",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/australia-news/2026/oct/28/emotional-intimacy-ai-chatbots-ban-digital-duty-of-care-laws-australian-politics"
+      ],
+      "first_covered": "2026-10-29",
+      "last_major_update": "2026-10-29",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261029_elonville_us_residents_say_musk_s_x",
+      "story_chain_id": "chain_global_elonville_us_residen",
+      "headline": "‘Elonville’: US residents say Musk’s xAI offered to buy homes if they don’t sue over datacenter noise",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi"
+      ],
+      "first_covered": "2026-10-29",
+      "last_major_update": "2026-10-29",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261029_ai_bots_flooded_2023_uk_government_",
+      "story_chain_id": "chain_global_ai_bots_flooded_2023",
+      "headline": "AI bots flooded 2023 UK government consultation on disposable vapes ban",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban"
+      ],
+      "first_covered": "2026-10-29",
+      "last_major_update": "2026-10-29",
+      "update_phase": "initial_break",
+      "impact_score": 75
+    },
+    {
+      "story_id": "story_20261029_social_media_is_full_of_weird_video",
+      "story_chain_id": "chain_global_social_media_is_full",
+      "headline": "Social media is full of weird video game mashups. Where are they all coming from?",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/games/2026/oct/28/social-media-is-full-of-weird-video-game-mashups-where-are-they-all-coming-from"
+      ],
+      "first_covered": "2026-10-29",
+      "last_major_update": "2026-10-29",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261029_south_korea_s_financial_industry_hi",
+      "story_chain_id": "chain_global_south_korea_s_financ",
+      "headline": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/"
+      ],
+      "first_covered": "2026-10-29",
+      "last_major_update": "2026-10-29",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261029_chart_anthropic_s_cash_pile_towers_",
+      "story_chain_id": "chain_global_chart_anthropic_s_ca",
+      "headline": "Chart: Anthropic's cash pile towers over nearly every U.S. company",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/27/anthropic-cash-investments-ipo.html"
+      ],
+      "first_covered": "2026-10-29",
+      "last_major_update": "2026-10-29",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261029_jim_cramer_warns_investors_not_to_g",
+      "story_chain_id": "chain_global_jim_cramer_warns_inv",
+      "headline": "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/27/jim-cramer-ai-trade-financing-risks.html"
+      ],
+      "first_covered": "2026-10-29",
+      "last_major_update": "2026-10-29",
+      "update_phase": "initial_break",
+      "impact_score": 72
     }
   ],
   "entity_index": {}

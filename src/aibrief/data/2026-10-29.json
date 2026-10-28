@@ -1,0 +1,403 @@
+{
+  "weekly": false,
+  "date": "2026-10-29",
+  "formattedDate": "29 October 2026",
+  "title": "Cognite reports 1 billion dollars | ‘Elonville’: US residents say | Chart: Anthropic's cash pile | AI News 29 October 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking this morning: Cognite reports 1 billion dollars in verified AI value, confirming impact of industrial AI solutions. From the SanMitra Newsroom, this is the Daily AI Brief for 29 October 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_cognite_reports_1_billion_dollar",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Cognite reports 1 billion dollars in verified AI value, confirming impact of industrial AI solutions",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 99,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/cognite-reports-1-billion-in-verified-ai-value-confirming-impact-of-industrial-ai-solutions/articleshow/135266756.cms",
+      "researchDesk": "",
+      "script": "Our lead story today. Driving approximately 36% of value verified to date, customers are leveraging AI and automated workflows to prevent costly asset shutdowns across complex industrial operations, help them get back running when the unexpected happens, and lower the costs of running their operations.",
+      "whyThisMatters": "Driving approximately 36% of value verified to date, customers are leveraging AI and automated workflows to prevent costly asset shutdowns across complex industrial operations, help them get back running when the unexpec",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Cognite reports 1 billion dollars in verified AI value, confirming impact of ind",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s1_cut1.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s1_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s1_cut3.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_elonville_us_residents_say_musk",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "‘Elonville’: US residents say Musk’s xAI offered to buy homes if they don’t sue over datacenter noise",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 95,
+      "durationSeconds": 54,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi",
+      "researchDesk": "",
+      "script": "Turning to the United States. Several Mississippi homes have been purchased near datacenters and one resident said realtor outlined target to buy more than 400 People in a Mississippi neighborhood, many of whom dislike a nearby power plant central to Elon Musk ’s artificial intelligence ambitions, have received a stark offer to sell their houses to his company and make way. Real estate agents have been going door to door in Southaven, Mississippi, on behalf of xAI, touting a deal to purchase houses as long as the owners agree to not join a lawsuit against the company over the power plant’s noise. (Musk’s AI company officially became SpaceXAI in July and has lately been rebranded as SpaceXSI but to neighbors of the datacenter in Mississippi, it remains xAI.) Continue reading...",
+      "whyThisMatters": "Several Mississippi homes have been purchased near datacenters and one resident said realtor outlined target to buy more than 400 People in a Mississippi neighborhood, many of whom dislike a nearby power plant central to",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "‘Elonville’: US residents say Musk’s xAI offered to buy homes if they don’t sue ",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s2_cut1.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s2_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s2_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_chart_anthropic_s_cash_pile_towe",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Chart: Anthropic's cash pile towers over nearly every U.S. company",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/27/anthropic-cash-investments-ipo.html",
+      "researchDesk": "",
+      "script": "In other news. Anthropic's cash pile of 131.7 billion dollars is more than every non-bank US company except for Berkshire Hathaway and Alphabet.",
+      "whyThisMatters": "Anthropic's cash pile of $131.7 billion is more than every non-bank U.S. company except for Berkshire Hathaway and Alphabet.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Chart: Anthropic's cash pile towers over nearly every U.S. company",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s3_cut1.jpg",
+          "badge": "MUSK • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s3_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s3_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_south_korea_s_financial_industry",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+      "researchDesk": "",
+      "script": "In Asia. South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
+      "whyThisMatters": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia. ---",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "South Korea’s financial industry hit by fresh wave of cyberattacks",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s4_cut1.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s4_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s4_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_emotional_intimacy_from_ai_chat",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital duty of care laws",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/australia-news/2026/oct/28/emotional-intimacy-ai-chatbots-ban-digital-duty-of-care-laws-australian-politics",
+      "researchDesk": "",
+      "script": "Around the world. But Labor is coming under increasing pressure to empower the telecommunications ombudsman to become a watchdog for social media and AI to give Australians an external complaints mechanism and allow the “naming and shaming” of big tech.",
+      "whyThisMatters": "But Labor is coming under increasing pressure to empower the telecommunications ombudsman to become a watchdog for social media and AI to give Australians an external complaints mechanism and allow the “naming and shamin",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital ",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s5_cut1.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s5_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s5_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_ai_bots_flooded_2023_uk_governme",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "AI bots flooded 2023 UK government consultation on disposable vapes ban",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 34,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban",
+      "researchDesk": "",
+      "script": "Also today. Three-quarters of all responses were machine-generated in failed attempt to stop bill from passing into law, research finds AI bots flooded a government consultation with tens of thousands of fake responses in a failed attempt to stop the UK’s ban on disposable vapes. Three-quarters of all the responses to the 2023 consultation on the tobacco and vapes bill were machine-generated, in what is thought to be the first coordinated attempt to use AI to derail health policymaking in the UK.",
+      "whyThisMatters": "Three-quarters of all responses were machine-generated in failed attempt to stop bill from passing into law, research finds AI bots flooded a government consultation with tens of thousands of fake responses in a failed a",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI bots flooded 2023 UK government consultation on disposable vapes ban",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s6_cut1.jpg",
+          "badge": "SANTA CLARA • AMD CORPORATE HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s6_cut2.jpg",
+          "badge": "MENLO PARK • META HEADQUARTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s6_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_social_media_is_full_of_weird_vi",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Social media is full of weird video game mashups. Where are they all coming from?",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 31,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/games/2026/oct/28/social-media-is-full-of-weird-video-game-mashups-where-are-they-all-coming-from",
+      "researchDesk": "",
+      "script": "In other news. Your feed, like mine, will have been full of clips of streamers playing bizarre mashups of popular video games . Halo, except the main character is Mario. A flood of professional-looking fan-coded game mods that are mildly interesting to look at for 30 seconds, but ultimately inconsequential. No, but I am very interested in where they came from. Of course, the answer or at least, most of the answer is AI.",
+      "whyThisMatters": "Your feed, like mine, will have been full of clips of streamers playing bizarre mashups of popular video games .",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Social media is full of weird video game mashups. Where are they all coming from",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s7_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s7_cut2.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s7_cut3.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_jim_cramer_warns_investors_not_t",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/27/jim-cramer-ai-trade-financing-risks.html",
+      "researchDesk": "",
+      "script": "Turning to the United States. CNBC’s Jim Cramer warned that the latest rally in AI stocks doesn't mean the data center trade is out of the woods.",
+      "whyThisMatters": "CNBC’s Jim Cramer warned that the latest rally in AI stocks doesn't mean the data center trade is out of the woods. ---",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s8_cut1.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s8_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s8_cut3.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "panLeft"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. Cognite reports 1 billion dollars in verified AI value, confirming impact of industrial AI solutions. ‘Elonville’: US residents say Musk’s xAI offered to buy homes if they don’t sue over datacenter noise. Chart: Anthropic's cash pile towers over nearly every U.S. company. South Korea’s financial industry hit by fresh wave of cyberattacks. ‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital duty of care laws. AI bots flooded 2023 UK government consultation on disposable vapes ban.",
+    "items": [
+      "✓ Cognite reports 1 billion dollars in verified AI",
+      "✓ ‘Elonville’: US residents say Musk’s xAI offered",
+      "✓ Chart: Anthropic's cash pile towers over nearly ",
+      "✓ South Korea’s financial industry hit by fresh wa",
+      "✓ ‘Emotional intimacy’ from AI chatbots would be b",
+      "✓ AI bots flooded 2023 UK government consultation ",
+      "✓ Social media is full of weird video game mashups"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Cognite reports 1 billion dollars in verified",
+    "‘Elonville’: US residents say Musk’s xAI offe",
+    "Chart: Anthropic's cash pile towers over near",
+    "South Korea’s financial industry hit by fresh",
+    "‘Emotional intimacy’ from AI chatbots would b",
+    "AI bots flooded 2023 UK government consultati",
+    "Social media is full of weird video game mash",
+    "Jim Cramer warns investors not to get fooled "
+  ],
+  "thumbnail": {
+    "date": "29 OCTOBER 2026",
+    "headline": "COGNITE REPORTS 1 BILLION DOLLARS IN",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "COGNITE REPORTS 1 BILLION DOLLARS",
+      "‘ELONVILLE’: US RESIDENTS SAY",
+      "CHART: ANTHROPIC'S CASH PILE TOWERS",
+      "SOUTH KOREA’S FINANCIAL INDUSTRY"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Cognite reports 1 billion dollars | ‘Elonville’: US residents say | Chart: Anthropic's cash pile | AI News 29 October 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 29 October 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 19.54,
-    "sceneDurationSeconds": 20.74,
-    "durationInFrames": 622,
+    "audioDurationSeconds": 13.66,
+    "sceneDurationSeconds": 14.86,
+    "durationInFrames": 446,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_openai_resumes_frontier_training": {
-    "audioFile": "audio/aibrief/s1_s1_openai_resumes_frontier_training.mp3",
-    "audioDurationSeconds": 46.87,
-    "sceneDurationSeconds": 48.07,
-    "durationInFrames": 1442,
-    "title": "Story 1: OpenAI resumes frontier training behind tighter walls, and flags a Brotli flaw",
+  "s1_cohere_says_an_alibaba_qwen_mode": {
+    "audioFile": "audio/aibrief/s1_s1_cohere_says_an_alibaba_qwen_mode.mp3",
+    "audioDurationSeconds": 50.66,
+    "sceneDurationSeconds": 51.86,
+    "durationInFrames": 1556,
+    "title": "Story 1: Cohere says an Alibaba Qwen model tried to send a file to Beijing during a test",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_usa": {
@@ -22,20 +22,20 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_american_express_cuts_5_of_staff": {
-    "audioFile": "audio/aibrief/s2_s2_american_express_cuts_5_of_staff.mp3",
-    "audioDurationSeconds": 22.56,
-    "sceneDurationSeconds": 23.76,
-    "durationInFrames": 713,
-    "title": "Story 2: American Express cuts 5% of staff to \"prepare for AI\"",
+  "s2_openai_releases_gpt_6_1_terra_at": {
+    "audioFile": "audio/aibrief/s2_s2_openai_releases_gpt_6_1_terra_at.mp3",
+    "audioDurationSeconds": 45.55,
+    "sceneDurationSeconds": 46.75,
+    "durationInFrames": 1403,
+    "title": "Story 2: OpenAI releases GPT-6.1 Terra at half the price of its mid-tier models",
     "voice": "en-US-AriaNeural"
   },
-  "s3_openai_says_it_will_no_longer_tr": {
-    "audioFile": "audio/aibrief/s3_s3_openai_says_it_will_no_longer_tr.mp3",
-    "audioDurationSeconds": 52.44,
-    "sceneDurationSeconds": 53.64,
-    "durationInFrames": 1609,
-    "title": "Story 3: OpenAI says it will no longer train its AI models on the live internet, citing \u201csignificant risks\u201d",
+  "s3_openai_claims_its_models_disprov": {
+    "audioFile": "audio/aibrief/s3_s3_openai_claims_its_models_disprov.mp3",
+    "audioDurationSeconds": 35.47,
+    "sceneDurationSeconds": 36.67,
+    "durationInFrames": 1100,
+    "title": "Story 3: OpenAI claims its models disproved the Exponential Time Hypothesis",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
@@ -45,12 +45,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s4_moonshot_s_kimi_k3_1_pro_nears_t": {
-    "audioFile": "audio/aibrief/s4_s4_moonshot_s_kimi_k3_1_pro_nears_t.mp3",
-    "audioDurationSeconds": 42.6,
-    "sceneDurationSeconds": 43.8,
-    "durationInFrames": 1314,
-    "title": "Story 4: Moonshot's Kimi K3.1 Pro nears the frontier, with its hacking skills trimmed",
+  "s4_tencent_open_sources_a_real_time": {
+    "audioFile": "audio/aibrief/s4_s4_tencent_open_sources_a_real_time.mp3",
+    "audioDurationSeconds": 22.7,
+    "sceneDurationSeconds": 23.9,
+    "durationInFrames": 717,
+    "title": "Story 4: Tencent open-sources a real-time Chinese-English interpretation model",
     "voice": "en-US-AriaNeural"
   },
   "transition_asia": {
@@ -60,12 +60,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
   },
-  "s5_japan_will_rebuild_its_defence_r": {
-    "audioFile": "audio/aibrief/s5_s5_japan_will_rebuild_its_defence_r.mp3",
-    "audioDurationSeconds": 25.58,
-    "sceneDurationSeconds": 26.78,
-    "durationInFrames": 804,
-    "title": "Story 5: Japan will rebuild its defence research around AI and cyber",
+  "s5_singapore_launches_a_package_to": {
+    "audioFile": "audio/aibrief/s5_s5_singapore_launches_a_package_to.mp3",
+    "audioDurationSeconds": 32.86,
+    "sceneDurationSeconds": 34.06,
+    "durationInFrames": 1022,
+    "title": "Story 5: Singapore launches a package to push companies into AI",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_india": {
@@ -75,51 +75,51 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s6_it_secretary_says_ai_needs_more": {
-    "audioFile": "audio/aibrief/s6_s6_it_secretary_says_ai_needs_more.mp3",
-    "audioDurationSeconds": 37.1,
-    "sceneDurationSeconds": 38.3,
-    "durationInFrames": 1149,
-    "title": "Story 6: IT Secretary says AI needs more regulation, and 23,000 more GPUs are coming",
+  "s6_sarvam_signs_a_five_year_deal_to": {
+    "audioFile": "audio/aibrief/s6_s6_sarvam_signs_a_five_year_deal_to.mp3",
+    "audioDurationSeconds": 37.66,
+    "sceneDurationSeconds": 38.86,
+    "durationInFrames": 1166,
+    "title": "Story 6: Sarvam signs a five-year deal to build AI for India's armed forces",
     "voice": "en-US-AriaNeural"
   },
-  "s7_cohere_opens_a_confidential_comp": {
-    "audioFile": "audio/aibrief/s7_s7_cohere_opens_a_confidential_comp.mp3",
-    "audioDurationSeconds": 36.36,
-    "sceneDurationSeconds": 37.56,
-    "durationInFrames": 1127,
-    "title": "Story 7: Cohere opens a confidential-computing vault for its models",
+  "s7_general_compute_raises_100_milli": {
+    "audioFile": "audio/aibrief/s7_s7_general_compute_raises_100_milli.mp3",
+    "audioDurationSeconds": 31.15,
+    "sceneDurationSeconds": 32.35,
+    "durationInFrames": 971,
+    "title": "Story 7: General Compute raises 100 million dollars to build a cloud on non-Nvidia inference chips",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_uk_to_invest_100m_in_world_first": {
-    "audioFile": "audio/aibrief/s8_s8_uk_to_invest_100m_in_world_first.mp3",
-    "audioDurationSeconds": 55.68,
-    "sceneDurationSeconds": 56.88,
-    "durationInFrames": 1706,
-    "title": "Story 8: UK to invest \u00a3100m in 'world first' AI Biosecurity Lab",
+  "s8_ciil_releases_open_source_speech": {
+    "audioFile": "audio/aibrief/s8_s8_ciil_releases_open_source_speech.mp3",
+    "audioDurationSeconds": 19.39,
+    "sceneDurationSeconds": 20.59,
+    "durationInFrames": 618,
+    "title": "Story 8: CIIL releases open-source speech AI for all 22 scheduled languages",
     "voice": "en-US-AriaNeural"
   },
-  "s9_china_s_cabinet_tells_agencies_t": {
-    "audioFile": "audio/aibrief/s9_s9_china_s_cabinet_tells_agencies_t.mp3",
-    "audioDurationSeconds": 28.92,
-    "sceneDurationSeconds": 30.12,
-    "durationInFrames": 904,
-    "title": "Story 9: China's cabinet tells agencies to soften AI's hit on jobs",
+  "s9_nvidia_backs_simplismart_which_h": {
+    "audioFile": "audio/aibrief/s9_s9_nvidia_backs_simplismart_which_h.mp3",
+    "audioDurationSeconds": 25.97,
+    "sceneDurationSeconds": 27.17,
+    "durationInFrames": 815,
+    "title": "Story 9: Nvidia backs Simplismart, which helps companies run AI on fewer GPUs",
     "voice": "en-US-ChristopherNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 38.21,
-    "sceneDurationSeconds": 39.41,
-    "durationInFrames": 1182,
+    "audioDurationSeconds": 31.8,
+    "sceneDurationSeconds": 33.0,
+    "durationInFrames": 990,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },
   "outro": {
     "audioFile": "audio/aibrief/s_outro.mp3",
-    "audioDurationSeconds": 17.59,
-    "sceneDurationSeconds": 18.79,
-    "durationInFrames": 564,
+    "audioDurationSeconds": 18.17,
+    "sceneDurationSeconds": 19.37,
+    "durationInFrames": 581,
     "title": "Outro: Subscribe & Daily Bureaus",
     "voice": "en-US-ChristopherNeural"
   }
