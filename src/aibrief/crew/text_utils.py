@@ -10,7 +10,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 import html
 import re
-from urllib.parse import urlparse
+from urllib.parse import unquote as urllib_unquote, urlparse
 
 IST = timezone(timedelta(hours=5, minutes=30))
 
@@ -35,7 +35,7 @@ def contains_any(text, keywords):
 # The channel does not cover stock-market news (editor's decision, 2026-10-14):
 # share-price moves, indices, trading. Startup funding rounds are not excluded.
 STOCK_MARKET_TERMS = [
-    "stock market", "stock markets", "stocks", "stock price", "share price", "share prices",
+    "stock market", "stock markets", "stock", "stock rally", "stock price", "share price", "share prices",
     "shares fell", "shares fall", "shares rose", "shares rise", "shares slide", "shares slid",
     "shares tumble", "shares tumbled", "shares jump", "shares jumped", "shares surge", "shares surged",
     "shares plunge", "shares plunged", "shares sink", "shares soar", "sell-off", "selloff",
@@ -62,10 +62,15 @@ STOCK_MARKET_TERMS = [
 NOT_RESULTS = re.compile(r"\b(?:non-?profits?|not-for-profit)\b")
 
 
-def is_stock_market_story(title):
+def is_stock_market_story(title, url=""):
     """True when the headline is about share prices, markets or company results. Judged
-    on the headline only: a passing mention in the body does not exclude a story."""
-    return contains_any(NOT_RESULTS.sub(" ", (title or "").lower()), STOCK_MARKET_TERMS)
+    on the headline and the link's slug only: a passing mention in the body does not
+    exclude a story. CNBC's "Anthropic's cash pile towers over nearly every U.S. company"
+    was an IPO piece; only its link said so (".../anthropic-cash-investments-ipo.html")."""
+    segments = [part for part in urlparse(url or "").path.split("/") if part]
+    slug = re.sub(r"\.[a-z]+$", "", segments[-1]).replace("-", " ") if segments else ""
+    text = NOT_RESULTS.sub(" ", f"{title or ''} {slug}".lower())
+    return contains_any(text, STOCK_MARKET_TERMS)
 
 
 # No election news (editor's decision, 2026-10-18): YouTube disapproved two
@@ -128,7 +133,7 @@ PAYWALLED_DOMAINS = {
     "livemint.com", "business-standard.com", "wired.com", "technologyreview.com",
     "bloomberg.com", "wsj.com", "ft.com", "theinformation.com", "nytimes.com",
     "washingtonpost.com", "economist.com", "theatlantic.com", "newyorker.com",
-    "barrons.com", "businessinsider.com", "telegraph.co.uk",
+    "barrons.com", "businessinsider.com", "telegraph.co.uk", "straitstimes.com",
 }
 # The Economic Times is free except its ET Prime section.
 PAYWALLED_PATHS = {"economictimes.indiatimes.com": "/prime/"}
@@ -138,10 +143,50 @@ def is_paywalled_url(url):
     """True when the link is on a site that asks readers to subscribe."""
     parsed = urlparse((url or "").strip())
     host = (parsed.hostname or "").lower()
-    if any(host == d or host.endswith("." + d) for d in PAYWALLED_DOMAINS):
+    if _on_domain(host, PAYWALLED_DOMAINS):
         return True
-    return any((host == d or host.endswith("." + d)) and prefix in parsed.path
-               for d, prefix in PAYWALLED_PATHS.items())
+    return any(_on_domain(host, [d]) and prefix in parsed.path for d, prefix in PAYWALLED_PATHS.items())
+
+
+def _on_domain(host, domains):
+    return any(host == d or host.endswith("." + d) for d in domains)
+
+
+# Source links must be English pages (editor, 2026-10-28): viewers cannot read a
+# Chinese or Korean article. English editions of these sites are allowed.
+NON_ENGLISH_DOMAINS = {
+    "eastmoney.com", "aibase.cn", "36kr.com", "sina.com.cn", "sina.cn", "sohu.com", "qq.com",
+    "163.com", "ithome.com", "jiqizhixin.com", "qbitai.com", "ifeng.com", "thepaper.cn",
+    "people.com.cn", "xinhuanet.com", "yicai.com", "cls.cn", "huxiu.com", "caixin.com",
+    "zhihu.com", "weibo.com", "bilibili.com", "baidu.com", "etnews.com", "chosun.com",
+    "yna.co.kr", "nikkei.com", "itmedia.co.jp",
+}
+# English editions and English-language sites on otherwise non-English domains.
+ENGLISH_HOSTS = {"eu.36kr.com", "english.etnews.com", "english.chosun.com", "en.yna.co.kr",
+                 "asia.nikkei.com", "chinadaily.com.cn", "globaltimes.cn", "ecns.cn"}
+# Japanese kana, Chinese characters and Korean Hangul in the link itself.
+_CJK = re.compile("[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]")
+
+
+def is_non_english_url(url):
+    """True when the link is to a page in Chinese, Japanese, Korean or another non-English edition."""
+    parsed = urlparse((url or "").strip())
+    host = (parsed.hostname or "").lower()
+    if not host:
+        return False
+    if host.startswith(("english.", "en.", "eng.")) or _on_domain(host, ENGLISH_HOSTS):
+        return False
+    return (_on_domain(host, NON_ENGLISH_DOMAINS) or host.endswith(".cn")
+            or bool(_CJK.search(urllib_unquote(parsed.path))))
+
+
+def source_link_problem(url):
+    """Why a source link cannot go out to viewers, or "" when it is fine."""
+    if is_paywalled_url(url):
+        return "subscription site"
+    if is_non_english_url(url):
+        return "not in English"
+    return ""
 
 
 def count_matches(text, keywords):

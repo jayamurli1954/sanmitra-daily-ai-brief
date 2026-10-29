@@ -12,8 +12,8 @@ import re
 import urllib.parse
 import urllib.request
 
-from .text_utils import (IST, clean_feed_text, contains_any, is_election_story, is_paywalled_url, is_personal_scandal_story, is_recent,
-                         is_stock_market_story, parse_published)
+from .text_utils import (IST, clean_feed_text, contains_any, is_election_story, is_personal_scandal_story, is_recent,
+                         is_stock_market_story, parse_published, source_link_problem)
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("NewsHarvester")
@@ -126,7 +126,7 @@ class NewsHarvester:
 
                 for title, link, summary, published in entries:
                     title, link = clean_feed_text(title), link.strip()
-                    if title and link and not is_paywalled_url(link):
+                    if title and link and not source_link_problem(link):
                         items.append({
                             "title": title,
                             "source": feed_cfg["outlet"],
@@ -156,7 +156,7 @@ class NewsHarvester:
                     try:
                         for h in ddgs.news(q, max_results=5, timelimit="d"):
                             url = h.get("url") or h.get("href", "")
-                            if is_paywalled_url(url):
+                            if source_link_problem(url):
                                 continue
                             results.append({
                                 "title": clean_feed_text(h.get("title", "")),
@@ -235,7 +235,7 @@ class NewsHarvester:
             if item.get("origin") != "papers" and not is_ai_story(item.get("title", ""), item.get("summary", "")):
                 rejected["not_ai"] += 1
                 continue
-            if is_stock_market_story(item.get("title", "")):
+            if is_stock_market_story(item.get("title", ""), item.get("url", "")):
                 rejected["stock_market"] += 1
                 continue
             if is_personal_scandal_story(item.get("title", "")):
