@@ -64,12 +64,13 @@ HIGH_IMPACT_TERMS = ["supercomputer", "data center", "state council", "directive
 BUREAU_ORDER = ["WORLD", "USA", "USA", "CHINA", "ASIA", "INDIA", "WORLD", "WORLD", "WORLD", "USA",
                 "CHINA", "CHINA", "ASIA", "INDIA", "USA"]
 
-# 8-9 stories of about 50-60 seconds each keeps an episode under 10 minutes
-# (changed 2026-10-14: the 6-7 minute episodes far outperformed 10-12 minute ones).
+# 8-10 stories of about 50-55 seconds each keeps an episode under 10 minutes
+# (changed 2026-10-14: the 6-7 minute episodes far outperformed 10-12 minute ones;
+# cap raised from 9 to 10 by the editor on 2026-10-29).
 MIN_EPISODE_STORIES = 8
-MAX_EPISODE_STORIES = 9
-# About 140 spoken words is 60 seconds at the anchors' pace.
-STORY_MAX_WORDS = 140
+MAX_EPISODE_STORIES = 10
+# About 140 spoken words is 60 seconds at the anchors' pace; 130 keeps ten stories under 10 minutes.
+STORY_MAX_WORDS = 130
 STORY_MAX_SENTENCES = 8
 
 MIN_ARTICLE_CHARS = 500

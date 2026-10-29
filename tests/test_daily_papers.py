@@ -72,16 +72,16 @@ class AddDailyPaperTest(unittest.TestCase):
         self.assertEqual(len(heads), 5)
 
     def test_replaces_last_collected_story_when_full(self):
-        heads = self.run_add(8)
-        self.assertEqual(len(heads), 9)
+        heads = self.run_add(9)
+        self.assertEqual(len(heads), 10)
         self.assertIn("Urbex: Agentic Spatial Grounding", heads)
-        self.assertNotIn("Collected story 7", heads)
+        self.assertNotIn("Collected story 8", heads)
         self.assertIn("Editor lead story", heads)
 
     def test_never_replaces_editor_stories(self):
-        heads = self.run_add(0, editor_heads=[f"Editor story {i}" for i in range(8)])
+        heads = self.run_add(0, editor_heads=[f"Editor story {i}" for i in range(9)])
         self.assertNotIn("Urbex: Agentic Spatial Grounding", heads)
-        self.assertEqual(len(heads), 9)
+        self.assertEqual(len(heads), 10)
 
 
 if __name__ == "__main__":
