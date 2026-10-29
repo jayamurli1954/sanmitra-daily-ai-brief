@@ -188,8 +188,8 @@ def format_broadcast_narration(idx: int, region: str, headline: str, body: str, 
             continue
         filtered_sentences.append(s)
 
-    # About 140 words is 60 seconds at the anchors' pace (8-9 stories, under 10 minutes).
-    # A sentence is added only if the story stays within ~150 words, so no story runs
+    # About 140 words is 60 seconds at the anchors' pace (8-10 stories, under 10 minutes).
+    # A sentence is added only if the story stays within ~140 words, so no story runs
     # much past a minute; the first sentence is always kept.
     kept, words = [], 0
     for sentence in filtered_sentences:
@@ -423,7 +423,7 @@ def parse_markdown_prompt(md_text: str) -> dict:
     if "INDIA" in by_region and by_region["INDIA"]:
         selected_stories.append(by_region["INDIA"].pop(0))
     
-    # Fill remaining slots from the brief: 8-9 stories of 50-60 seconds keep it under 10 minutes.
+    # Fill remaining slots from the brief: 8-10 stories of 50-55 seconds keep it under 10 minutes.
     for reg in ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]:
         while len(selected_stories) < MAX_EPISODE_STORIES and reg in by_region and by_region[reg]:
             selected_stories.append(by_region[reg].pop(0))

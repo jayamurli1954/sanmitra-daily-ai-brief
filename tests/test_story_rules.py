@@ -11,7 +11,7 @@ from src.aibrief.crew.text_utils import is_stock_market_story
 
 class StoryRulesTest(unittest.TestCase):
     def test_episode_size(self):
-        self.assertEqual((MIN_EPISODE_STORIES, MAX_EPISODE_STORIES), (8, 9))
+        self.assertEqual((MIN_EPISODE_STORIES, MAX_EPISODE_STORIES), (8, 10))
         self.assertLessEqual(STORY_MAX_WORDS * MAX_EPISODE_STORIES / 140, 10)  # ~140 words a minute
 
     def test_stock_market_headlines(self):
