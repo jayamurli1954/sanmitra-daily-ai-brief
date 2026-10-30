@@ -1,0 +1,448 @@
+{
+  "weekly": false,
+  "date": "2026-10-29",
+  "formattedDate": "29 October 2026",
+  "title": "22 countries meet on frontier AI | Anthropic extends a 40% Claude | Google DeepMind's Genie 4 world | AI News 29 October 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking this morning: 22 countries meet on frontier AI safety, and Singapore proposes an AI incident-reporting pilot. From the SanMitra Newsroom, this is the Daily AI Brief for 29 October 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_22_countries_meet_on_frontier_ai",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "22 countries meet on frontier AI safety, and Singapore proposes an AI incident-reporting pilot",
+      "subheadline": "Source: Prime Minister's Office Singapore",
+      "importanceScore": 99,
+      "durationSeconds": 63,
+      "source": "Prime Minister's Office Singapore",
+      "sourceUrl": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-virtual-leaders-meeting-on-frontier-ai-safety-co-hosted-by-norway-and-finland-oct-2026/",
+      "researchDesk": "",
+      "script": "Our lead story today. Finland's President Alexander Stubb and Norway's Prime Minister Jonas Gahr Store co-hosted an online meeting on 28 October with 22 countries and the European Commission on the safety of frontier AI models, covering cooperation on risk management, building trust in the safety of these models, and common rules for AI governance. It follows a September call by EU leaders and 20 countries for international oversight of frontier AI, after this year's incidents of AI agents breaking out of test environments. At the meeting, Singapore's Prime Minister Lawrence Wong proposed that interested countries start a small pilot to report and learn from AI incidents, modelled on how aviation shares near misses: first agree on common incident categories and what to share, then work out how to exchange the information securely. He argued that governments and businesses using AI also see serious failures that may not trigger existing reporting rules.",
+      "whyThisMatters": "Finland's President Alexander Stubb and Norway's Prime Minister Jonas Gahr Store co-hosted an online meeting on 28 October with 22 countries and the European Commission on the safety of frontier AI models, covering coope",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "22 countries meet on frontier AI safety, and Singapore proposes an AI incident-r",
+        "Prime Minister's Office Singapore"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s1_cut1.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s1_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s1_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_anthropic_extends_a_40_claude_di",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Anthropic extends a 40% Claude discount to state and local governments",
+      "subheadline": "Source: Anthropic",
+      "importanceScore": 95,
+      "durationSeconds": 28,
+      "source": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "researchDesk": "",
+      "script": "Turning to the United States. Anthropic expanded its agreement with the General Services Administration so that state, local, tribal and territorial governments can buy Claude Enterprise, Claude for Government and the Claude API at a 40% discount, with pay-for-what-you-use pricing and no minimum purchase. Anthropic estimates the deal could save government bodies about 1 billion dollars ; that figure is the company's own. (Theme: AI industry and startup news)",
+      "whyThisMatters": "Anthropic expanded its agreement with the General Services Administration so that state, local, tribal and territorial governments can buy Claude Enterprise, Claude for Government and the Claude API at a 40% discount, wi",
+      "sourceType": "company",
+      "keyPoints": [
+        "Anthropic extends a 40% Claude discount to state and local governments",
+        "Anthropic"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s2_cut1.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s2_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s2_cut3.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_google_deepmind_s_genie_4_world",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google DeepMind's Genie 4 world model adds sound and live steering",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 39,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "researchDesk": "",
+      "script": "In other news. Google DeepMind unveiled Genie 4, a model that generates interactive 3D worlds you can move through, now with native audio such as ambient sound and dialogue. Users can change the weather, camera or add people and objects in real time by typing, and TechCrunch reports scenes stay consistent for about two minutes, roughly double Genie 3. It is a research preview for trusted testers for now, with Google AI Ultra access planned, and Google lists object drift and text legibility as known limits. (Theme: new AI models and tools) ---",
+      "whyThisMatters": "Google DeepMind unveiled Genie 4, a model that generates interactive 3D worlds you can move through, now with native audio such as ambient sound and dialogue.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Google DeepMind's Genie 4 world model adds sound and live steering",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s3_cut1.jpg",
+          "badge": "KING'S CROSS • GOOGLE DEEPMIND CAMPUS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s3_cut2.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s3_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_diffuspace_open_sources_a_35b_di",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "DiffuSpace open-sources a 35B diffusion language model",
+      "subheadline": "Source: DiffuSpace",
+      "importanceScore": 90,
+      "durationSeconds": 34,
+      "source": "DiffuSpace",
+      "sourceUrl": "https://diffuspace.ai/blog/clover-35b/",
+      "researchDesk": "",
+      "script": "In China. Startup DiffuSpace released Clover-35B-A3B-Preview, an open-weight language model that generates text by diffusion rather than word by word, with 35 billion total and 3 billion active parameters. The company says it beats the same-size Qwen3.6-35B-A3B on agentic coding and runs 5 to 10 times faster; those are its own test results. DiffuSpace disclosed earlier this month that it raised nearly RMB 500 million across two rounds, with Huawei's Hubble among the backers. (Themes: new AI models and tools; technology trends)",
+      "whyThisMatters": "Startup DiffuSpace released Clover-35B-A3B-Preview, an open-weight language model that generates text by diffusion rather than word by word, with 35 billion total and 3 billion active parameters.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "DiffuSpace open-sources a 35B diffusion language model",
+        "DiffuSpace"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s4_cut1.jpg",
+          "badge": "BEIJING • OPEN-WEIGHT INFERENCE HUBS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s4_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s4_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_sebi_weighs_a_home_grown_ai_mode",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "SEBI weighs a home-grown AI model for the securities market",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 26,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/indias-markets-regulator-sebi-weighs-domestic-ai-model-for-securities-trading-chairman-says/articleshow/135260275.cms",
+      "researchDesk": "",
+      "script": "Turning to India. SEBI Chairman Tuhin Kanta Pandey said the regulator is putting in place IOSCO's supervisory toolkit for AI and is exploring a securities-market AI model built and governed in India as digital public infrastructure. He said AI tools can improve supervision and risk assessment but need reliable data, model oversight and clear accountability. No timeline was given. (Theme: AI policy and regulation)",
+      "whyThisMatters": "SEBI Chairman Tuhin Kanta Pandey said the regulator is putting in place IOSCO's supervisory toolkit for AI and is exploring a securities-market AI model built and governed in India as digital public infrastructure.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SEBI weighs a home-grown AI model for the securities market",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s5_cut1.jpg",
+          "badge": "SECURITIES AND EXCHANGE BOARD OF INDIA • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s5_cut2.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s5_cut3.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_the_netherlands_plans_to_cut_abo",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "The Netherlands plans to cut about 25,000 government jobs as it leans on AI",
+      "subheadline": "Source: The Next Web",
+      "importanceScore": 90,
+      "durationSeconds": 34,
+      "source": "The Next Web",
+      "sourceUrl": "https://thenextweb.com/news/dutch-government-jobs-25000-cuts-ai",
+      "researchDesk": "",
+      "script": "Around the world. The Dutch cabinet expects central government to have about 25,000 fewer full-time jobs by 2035, saving €900 million in 2027 and €3.5 billion a year from 2035. Police and defence are exempt, the split by ministry comes in the spring budget update, and the government will set out its AI goals and savings plans in the first quarter of 2027. It also wants to favour Dutch and European tech suppliers where it can. (Themes: technology trends; AI policy and regulation)",
+      "whyThisMatters": "The Dutch cabinet expects central government to have about 25,000 fewer full-time jobs by 2035, saving €900 million in 2027 and €3.5 billion a year from 2035.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "The Netherlands plans to cut about 25,000 government jobs as it leans on AI",
+        "The Next Web"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s6_cut1.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s6_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s6_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_axiom_says_ai_agents_helped_it_c",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Axiom says AI agents helped it computer-check the \"enormous theorem\"",
+      "subheadline": "Source: Axiom",
+      "importanceScore": 90,
+      "durationSeconds": 38,
+      "source": "Axiom",
+      "sourceUrl": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+      "researchDesk": "",
+      "script": "In other news. Axiom released what it calls the first complete computer-checked proof of the Classification of Finite Simple Groups, a result whose original proof runs to about 15,000 pages across more than 500 papers. Axiom says its engineers and mathematicians directed swarms of AI agents for 24 days, producing about 43.1 million lines of Lean code, and that the work turned up 34 notable deviations from the published record plus a new group-theory result. These are Axiom's own claims; outside mathematicians can now inspect the released code. (Theme: AI breakthroughs) ---",
+      "whyThisMatters": "Axiom released what it calls the first complete computer-checked proof of the Classification of Finite Simple Groups, a result whose original proof runs to about 15,000 pages across more than 500 papers.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Axiom says AI agents helped it computer-check the \"enormous theorem\"",
+        "Axiom"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s7_cut1.jpg",
+          "badge": "AXIOM • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s7_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s7_cut3.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_ant_group_updates_its_ling_model",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Ant Group updates its Ling model for personal AI agents",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/ant-group-ling-3-1-flash-1019-ling-3-1-flash-base-open-source-personal-agent-aa-index-44",
+      "researchDesk": "",
+      "script": "In China. Ant Group's Bailing team open-sourced Ling-3.1-flash-1019, a further-trained version tuned for multi-step personal-assistant tasks, along with its base model Ling-3.1-flash-base under the MIT licence. Ant reports gains on several agent and science benchmarks, including AutomationBench rising from 62% to 68%; those figures are Ant's own. (Theme: new AI models and tools) ---",
+      "whyThisMatters": "Ant Group's Bailing team open-sourced Ling-3.1-flash-1019, a further-trained version tuned for multi-step personal-assistant tasks, along with its base model Ling-3.1-flash-base under the MIT licence.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Ant Group updates its Ling model for personal AI agents",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s8_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s8_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s8_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_gnani_ai_launches_a_speech_to_te",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Gnani AI launches a speech-to-text model trained on Indian phone calls",
+      "subheadline": "Source: CIOL",
+      "importanceScore": 90,
+      "durationSeconds": 28,
+      "source": "CIOL",
+      "sourceUrl": "https://www.ciol.com/news/gnani-ais-prisma-v30-brings-new-capabilities-to-enterprise-voice-ai-12761619",
+      "researchDesk": "",
+      "script": "Turning to India. Bengaluru's Gnani AI released Prisma v3.0, a speech-to-text model trained on Indian telephone audio and heavily code-mixed speech, covering nine Indian languages plus Indian English in one model. In Gnani's own tests it posted a 16.9% word error rate against 19.98% for ElevenLabs Scribe v2. It is available now through Gnani's developer API. (Themes: new AI models and tools; AI industry and startup news)",
+      "whyThisMatters": "Bengaluru's Gnani AI released Prisma v3.0, a speech-to-text model trained on Indian telephone audio and heavily code-mixed speech, covering nine Indian languages plus Indian English in one model.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Gnani AI launches a speech-to-text model trained on Indian phone calls",
+        "CIOL"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s9_cut1.jpg",
+          "badge": "BENGALURU • INDIA SOVEREIGN TECH CAPITAL",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s9_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s9_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. 22 countries meet on frontier AI safety, and Singapore proposes an AI incident-reporting pilot. Anthropic extends a 40% Claude discount to state and local governments. Google DeepMind's Genie 4 world model adds sound and live steering. DiffuSpace open-sources a 35B diffusion language model. SEBI weighs a home-grown AI model for the securities market. The Netherlands plans to cut about 25,000 government jobs as it leans on AI.",
+    "items": [
+      "✓ 22 countries meet on frontier AI safety, and Sin",
+      "✓ Anthropic extends a 40% Claude discount to state",
+      "✓ Google DeepMind's Genie 4 world model adds sound",
+      "✓ DiffuSpace open-sources a 35B diffusion language",
+      "✓ SEBI weighs a home-grown AI model for the securi",
+      "✓ The Netherlands plans to cut about 25,000 govern",
+      "✓ Axiom says AI agents helped it computer-check th"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "22 countries meet on frontier AI safety, and ",
+    "Anthropic extends a 40% Claude discount to st",
+    "Google DeepMind's Genie 4 world model adds so",
+    "DiffuSpace open-sources a 35B diffusion langu",
+    "SEBI weighs a home-grown AI model for the sec",
+    "The Netherlands plans to cut about 25,000 gov",
+    "Axiom says AI agents helped it computer-check",
+    "Ant Group updates its Ling model for personal",
+    "Gnani AI launches a speech-to-text model trai"
+  ],
+  "thumbnail": {
+    "date": "29 OCTOBER 2026",
+    "headline": "22 COUNTRIES MEET ON FRONTIER AI SAFETY, AND",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "22 COUNTRIES MEET ON FRONTIER AI",
+      "ANTHROPIC EXTENDS A 40% CLAUDE",
+      "GOOGLE DEEPMIND'S GENIE 4 WORLD",
+      "DIFFUSPACE OPEN-SOURCES A 35B"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "22 countries meet on frontier AI | Anthropic extends a 40% Claude | Google DeepMind's Genie 4 world | AI News 29 October 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 29 October 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

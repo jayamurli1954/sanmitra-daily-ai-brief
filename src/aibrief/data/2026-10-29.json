@@ -2,14 +2,28 @@
   "weekly": false,
   "date": "2026-10-29",
   "formattedDate": "29 October 2026",
-  "title": "Cognite reports 1 billion dollars | ‘Elonville’: US residents say | Chart: Anthropic's cash pile | AI News 29 October 2026",
+  "title": "22 countries meet on frontier AI | Anthropic extends a 40% Claude | Google DeepMind's Genie 4 world | AI News 29 October 2026",
   "intro": {
     "durationSeconds": 18,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "Breaking this morning: Cognite reports 1 billion dollars in verified AI value, confirming impact of industrial AI solutions. From the SanMitra Newsroom, this is the Daily AI Brief for 29 October 2026."
+    "script": "Breaking this morning: 22 countries meet on frontier AI safety, and Singapore proposes an AI incident-reporting pilot. From the SanMitra Newsroom, this is the Daily AI Brief for 29 October 2026."
   },
   "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
     {
       "id": "transition_india",
       "region": "INDIA",
@@ -18,51 +32,44 @@
       "durationSeconds": 2
     },
     {
-      "id": "transition_usa",
-      "region": "USA",
-      "title": "NEXT: USA & REGIONAL STRATEGY",
-      "display": "NEXT: USA",
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
       "durationSeconds": 2
     },
     {
-      "id": "transition_asia",
-      "region": "ASIA",
-      "title": "NEXT: ASIA & REGIONAL STRATEGY",
-      "display": "NEXT: ASIA",
-      "durationSeconds": 2
-    },
-    {
-      "id": "transition_usa",
-      "region": "USA",
-      "title": "NEXT: USA & REGIONAL STRATEGY",
-      "display": "NEXT: USA",
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
       "durationSeconds": 2
     }
   ],
   "stories": [
     {
-      "id": "s1_cognite_reports_1_billion_dollar",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "Cognite reports 1 billion dollars in verified AI value, confirming impact of industrial AI solutions",
-      "subheadline": "Source: The Economic Times",
+      "id": "s1_22_countries_meet_on_frontier_ai",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "22 countries meet on frontier AI safety, and Singapore proposes an AI incident-reporting pilot",
+      "subheadline": "Source: Prime Minister's Office Singapore",
       "importanceScore": 99,
-      "durationSeconds": 24,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/cognite-reports-1-billion-in-verified-ai-value-confirming-impact-of-industrial-ai-solutions/articleshow/135266756.cms",
+      "durationSeconds": 63,
+      "source": "Prime Minister's Office Singapore",
+      "sourceUrl": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-virtual-leaders-meeting-on-frontier-ai-safety-co-hosted-by-norway-and-finland-oct-2026/",
       "researchDesk": "",
-      "script": "Our lead story today. Driving approximately 36% of value verified to date, customers are leveraging AI and automated workflows to prevent costly asset shutdowns across complex industrial operations, help them get back running when the unexpected happens, and lower the costs of running their operations.",
-      "whyThisMatters": "Driving approximately 36% of value verified to date, customers are leveraging AI and automated workflows to prevent costly asset shutdowns across complex industrial operations, help them get back running when the unexpec",
+      "script": "Our lead story today. Finland's President Alexander Stubb and Norway's Prime Minister Jonas Gahr Store co-hosted an online meeting on 28 October with 22 countries and the European Commission on the safety of frontier AI models, covering cooperation on risk management, building trust in the safety of these models, and common rules for AI governance. It follows a September call by EU leaders and 20 countries for international oversight of frontier AI, after this year's incidents of AI agents breaking out of test environments. At the meeting, Singapore's Prime Minister Lawrence Wong proposed that interested countries start a small pilot to report and learn from AI incidents, modelled on how aviation shares near misses: first agree on common incident categories and what to share, then work out how to exchange the information securely. He argued that governments and businesses using AI also see serious failures that may not trigger existing reporting rules.",
+      "whyThisMatters": "Finland's President Alexander Stubb and Norway's Prime Minister Jonas Gahr Store co-hosted an online meeting on 28 October with 22 countries and the European Commission on the safety of frontier AI models, covering coope",
       "sourceType": "reporting",
       "keyPoints": [
-        "Cognite reports 1 billion dollars in verified AI value, confirming impact of ind",
-        "The Economic Times"
+        "22 countries meet on frontier AI safety, and Singapore proposes an AI incident-r",
+        "Prime Minister's Office Singapore"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-29/s1_cut1.jpg",
-          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "zoomIn"
         },
         {
@@ -72,256 +79,256 @@
         },
         {
           "image": "aibrief/assets/editorial/2026-10-29/s1_cut3.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_elonville_us_residents_say_musk",
+      "id": "s2_anthropic_extends_a_40_claude_di",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "‘Elonville’: US residents say Musk’s xAI offered to buy homes if they don’t sue over datacenter noise",
-      "subheadline": "Source: The Guardian",
+      "headline": "Anthropic extends a 40% Claude discount to state and local governments",
+      "subheadline": "Source: Anthropic",
       "importanceScore": 95,
-      "durationSeconds": 54,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi",
+      "durationSeconds": 28,
+      "source": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/news/expanding-partnership-gsa",
       "researchDesk": "",
-      "script": "Turning to the United States. Several Mississippi homes have been purchased near datacenters and one resident said realtor outlined target to buy more than 400 People in a Mississippi neighborhood, many of whom dislike a nearby power plant central to Elon Musk ’s artificial intelligence ambitions, have received a stark offer to sell their houses to his company and make way. Real estate agents have been going door to door in Southaven, Mississippi, on behalf of xAI, touting a deal to purchase houses as long as the owners agree to not join a lawsuit against the company over the power plant’s noise. (Musk’s AI company officially became SpaceXAI in July and has lately been rebranded as SpaceXSI but to neighbors of the datacenter in Mississippi, it remains xAI.) Continue reading...",
-      "whyThisMatters": "Several Mississippi homes have been purchased near datacenters and one resident said realtor outlined target to buy more than 400 People in a Mississippi neighborhood, many of whom dislike a nearby power plant central to",
-      "sourceType": "reporting",
+      "script": "Turning to the United States. Anthropic expanded its agreement with the General Services Administration so that state, local, tribal and territorial governments can buy Claude Enterprise, Claude for Government and the Claude API at a 40% discount, with pay-for-what-you-use pricing and no minimum purchase. Anthropic estimates the deal could save government bodies about 1 billion dollars ; that figure is the company's own. (Theme: AI industry and startup news)",
+      "whyThisMatters": "Anthropic expanded its agreement with the General Services Administration so that state, local, tribal and territorial governments can buy Claude Enterprise, Claude for Government and the Claude API at a 40% discount, wi",
+      "sourceType": "company",
       "keyPoints": [
-        "‘Elonville’: US residents say Musk’s xAI offered to buy homes if they don’t sue ",
-        "The Guardian"
+        "Anthropic extends a 40% Claude discount to state and local governments",
+        "Anthropic"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-29/s2_cut1.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-29/s2_cut2.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-29/s2_cut3.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s3_chart_anthropic_s_cash_pile_towe",
+      "id": "s3_google_deepmind_s_genie_4_world",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Chart: Anthropic's cash pile towers over nearly every U.S. company",
-      "subheadline": "Source: CNBC",
-      "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/10/27/anthropic-cash-investments-ipo.html",
-      "researchDesk": "",
-      "script": "In other news. Anthropic's cash pile of 131.7 billion dollars is more than every non-bank US company except for Berkshire Hathaway and Alphabet.",
-      "whyThisMatters": "Anthropic's cash pile of $131.7 billion is more than every non-bank U.S. company except for Berkshire Hathaway and Alphabet.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Chart: Anthropic's cash pile towers over nearly every U.S. company",
-        "CNBC"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-10-29/s3_cut1.jpg",
-          "badge": "MUSK • CONTEXTUAL REPORTING",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-29/s3_cut2.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-29/s3_cut3.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
-          "panDirection": "panRight"
-        }
-      ]
-    },
-    {
-      "id": "s4_south_korea_s_financial_industry",
-      "region": "ASIA",
-      "category": "ASIA Intelligence",
-      "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+      "headline": "Google DeepMind's Genie 4 world model adds sound and live steering",
       "subheadline": "Source: TechCrunch",
-      "importanceScore": 90,
-      "durationSeconds": 24,
+      "importanceScore": 95,
+      "durationSeconds": 39,
       "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+      "sourceUrl": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
       "researchDesk": "",
-      "script": "In Asia. South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
-      "whyThisMatters": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia. ---",
+      "script": "In other news. Google DeepMind unveiled Genie 4, a model that generates interactive 3D worlds you can move through, now with native audio such as ambient sound and dialogue. Users can change the weather, camera or add people and objects in real time by typing, and TechCrunch reports scenes stay consistent for about two minutes, roughly double Genie 3. It is a research preview for trusted testers for now, with Google AI Ultra access planned, and Google lists object drift and text legibility as known limits. (Theme: new AI models and tools) ---",
+      "whyThisMatters": "Google DeepMind unveiled Genie 4, a model that generates interactive 3D worlds you can move through, now with native audio such as ambient sound and dialogue.",
       "sourceType": "reporting",
       "keyPoints": [
-        "South Korea’s financial industry hit by fresh wave of cyberattacks",
+        "Google DeepMind's Genie 4 world model adds sound and live steering",
         "TechCrunch"
       ],
       "visualCuts": [
         {
+          "image": "aibrief/assets/editorial/2026-10-29/s3_cut1.jpg",
+          "badge": "KING'S CROSS • GOOGLE DEEPMIND CAMPUS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s3_cut2.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s3_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_diffuspace_open_sources_a_35b_di",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "DiffuSpace open-sources a 35B diffusion language model",
+      "subheadline": "Source: DiffuSpace",
+      "importanceScore": 90,
+      "durationSeconds": 34,
+      "source": "DiffuSpace",
+      "sourceUrl": "https://diffuspace.ai/blog/clover-35b/",
+      "researchDesk": "",
+      "script": "In China. Startup DiffuSpace released Clover-35B-A3B-Preview, an open-weight language model that generates text by diffusion rather than word by word, with 35 billion total and 3 billion active parameters. The company says it beats the same-size Qwen3.6-35B-A3B on agentic coding and runs 5 to 10 times faster; those are its own test results. DiffuSpace disclosed earlier this month that it raised nearly RMB 500 million across two rounds, with Huawei's Hubble among the backers. (Themes: new AI models and tools; technology trends)",
+      "whyThisMatters": "Startup DiffuSpace released Clover-35B-A3B-Preview, an open-weight language model that generates text by diffusion rather than word by word, with 35 billion total and 3 billion active parameters.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "DiffuSpace open-sources a 35B diffusion language model",
+        "DiffuSpace"
+      ],
+      "visualCuts": [
+        {
           "image": "aibrief/assets/editorial/2026-10-29/s4_cut1.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "badge": "BEIJING • OPEN-WEIGHT INFERENCE HUBS",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-29/s4_cut2.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-29/s4_cut3.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
           "panDirection": "panLeft"
         }
       ]
     },
     {
-      "id": "s5_emotional_intimacy_from_ai_chat",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital duty of care laws",
-      "subheadline": "Source: The Guardian",
+      "id": "s5_sebi_weighs_a_home_grown_ai_mode",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "SEBI weighs a home-grown AI model for the securities market",
+      "subheadline": "Source: The Economic Times",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/australia-news/2026/oct/28/emotional-intimacy-ai-chatbots-ban-digital-duty-of-care-laws-australian-politics",
+      "durationSeconds": 26,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/indias-markets-regulator-sebi-weighs-domestic-ai-model-for-securities-trading-chairman-says/articleshow/135260275.cms",
       "researchDesk": "",
-      "script": "Around the world. But Labor is coming under increasing pressure to empower the telecommunications ombudsman to become a watchdog for social media and AI to give Australians an external complaints mechanism and allow the “naming and shaming” of big tech.",
-      "whyThisMatters": "But Labor is coming under increasing pressure to empower the telecommunications ombudsman to become a watchdog for social media and AI to give Australians an external complaints mechanism and allow the “naming and shamin",
+      "script": "Turning to India. SEBI Chairman Tuhin Kanta Pandey said the regulator is putting in place IOSCO's supervisory toolkit for AI and is exploring a securities-market AI model built and governed in India as digital public infrastructure. He said AI tools can improve supervision and risk assessment but need reliable data, model oversight and clear accountability. No timeline was given. (Theme: AI policy and regulation)",
+      "whyThisMatters": "SEBI Chairman Tuhin Kanta Pandey said the regulator is putting in place IOSCO's supervisory toolkit for AI and is exploring a securities-market AI model built and governed in India as digital public infrastructure.",
       "sourceType": "reporting",
       "keyPoints": [
-        "‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital ",
-        "The Guardian"
+        "SEBI weighs a home-grown AI model for the securities market",
+        "The Economic Times"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-29/s5_cut1.jpg",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "badge": "SECURITIES AND EXCHANGE BOARD OF INDIA • CONTEXTUAL REPORTING",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-29/s5_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-29/s5_cut3.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s6_ai_bots_flooded_2023_uk_governme",
+      "id": "s6_the_netherlands_plans_to_cut_abo",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "AI bots flooded 2023 UK government consultation on disposable vapes ban",
-      "subheadline": "Source: The Guardian",
+      "headline": "The Netherlands plans to cut about 25,000 government jobs as it leans on AI",
+      "subheadline": "Source: The Next Web",
       "importanceScore": 90,
       "durationSeconds": 34,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban",
+      "source": "The Next Web",
+      "sourceUrl": "https://thenextweb.com/news/dutch-government-jobs-25000-cuts-ai",
       "researchDesk": "",
-      "script": "Also today. Three-quarters of all responses were machine-generated in failed attempt to stop bill from passing into law, research finds AI bots flooded a government consultation with tens of thousands of fake responses in a failed attempt to stop the UK’s ban on disposable vapes. Three-quarters of all the responses to the 2023 consultation on the tobacco and vapes bill were machine-generated, in what is thought to be the first coordinated attempt to use AI to derail health policymaking in the UK.",
-      "whyThisMatters": "Three-quarters of all responses were machine-generated in failed attempt to stop bill from passing into law, research finds AI bots flooded a government consultation with tens of thousands of fake responses in a failed a",
+      "script": "Around the world. The Dutch cabinet expects central government to have about 25,000 fewer full-time jobs by 2035, saving €900 million in 2027 and €3.5 billion a year from 2035. Police and defence are exempt, the split by ministry comes in the spring budget update, and the government will set out its AI goals and savings plans in the first quarter of 2027. It also wants to favour Dutch and European tech suppliers where it can. (Themes: technology trends; AI policy and regulation)",
+      "whyThisMatters": "The Dutch cabinet expects central government to have about 25,000 fewer full-time jobs by 2035, saving €900 million in 2027 and €3.5 billion a year from 2035.",
       "sourceType": "reporting",
       "keyPoints": [
-        "AI bots flooded 2023 UK government consultation on disposable vapes ban",
-        "The Guardian"
+        "The Netherlands plans to cut about 25,000 government jobs as it leans on AI",
+        "The Next Web"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-29/s6_cut1.jpg",
-          "badge": "SANTA CLARA • AMD CORPORATE HEADQUARTERS",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-29/s6_cut2.jpg",
-          "badge": "MENLO PARK • META HEADQUARTERS",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-29/s6_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s7_social_media_is_full_of_weird_vi",
+      "id": "s7_axiom_says_ai_agents_helped_it_c",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Social media is full of weird video game mashups. Where are they all coming from?",
-      "subheadline": "Source: The Guardian",
+      "headline": "Axiom says AI agents helped it computer-check the \"enormous theorem\"",
+      "subheadline": "Source: Axiom",
       "importanceScore": 90,
-      "durationSeconds": 31,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/games/2026/oct/28/social-media-is-full-of-weird-video-game-mashups-where-are-they-all-coming-from",
+      "durationSeconds": 38,
+      "source": "Axiom",
+      "sourceUrl": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
       "researchDesk": "",
-      "script": "In other news. Your feed, like mine, will have been full of clips of streamers playing bizarre mashups of popular video games . Halo, except the main character is Mario. A flood of professional-looking fan-coded game mods that are mildly interesting to look at for 30 seconds, but ultimately inconsequential. No, but I am very interested in where they came from. Of course, the answer or at least, most of the answer is AI.",
-      "whyThisMatters": "Your feed, like mine, will have been full of clips of streamers playing bizarre mashups of popular video games .",
+      "script": "In other news. Axiom released what it calls the first complete computer-checked proof of the Classification of Finite Simple Groups, a result whose original proof runs to about 15,000 pages across more than 500 papers. Axiom says its engineers and mathematicians directed swarms of AI agents for 24 days, producing about 43.1 million lines of Lean code, and that the work turned up 34 notable deviations from the published record plus a new group-theory result. These are Axiom's own claims; outside mathematicians can now inspect the released code. (Theme: AI breakthroughs) ---",
+      "whyThisMatters": "Axiom released what it calls the first complete computer-checked proof of the Classification of Finite Simple Groups, a result whose original proof runs to about 15,000 pages across more than 500 papers.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Social media is full of weird video game mashups. Where are they all coming from",
-        "The Guardian"
+        "Axiom says AI agents helped it computer-check the \"enormous theorem\"",
+        "Axiom"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-29/s7_cut1.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "badge": "AXIOM • CONTEXTUAL REPORTING",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-29/s7_cut2.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-10-29/s7_cut3.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s8_jim_cramer_warns_investors_not_t",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
-      "subheadline": "Source: CNBC",
+      "id": "s8_ant_group_updates_its_ling_model",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Ant Group updates its Ling model for personal AI agents",
+      "subheadline": "Source: Pandaily",
       "importanceScore": 90,
       "durationSeconds": 24,
-      "source": "CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/10/27/jim-cramer-ai-trade-financing-risks.html",
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/ant-group-ling-3-1-flash-1019-ling-3-1-flash-base-open-source-personal-agent-aa-index-44",
       "researchDesk": "",
-      "script": "Turning to the United States. CNBC’s Jim Cramer warned that the latest rally in AI stocks doesn't mean the data center trade is out of the woods.",
-      "whyThisMatters": "CNBC’s Jim Cramer warned that the latest rally in AI stocks doesn't mean the data center trade is out of the woods. ---",
+      "script": "In China. Ant Group's Bailing team open-sourced Ling-3.1-flash-1019, a further-trained version tuned for multi-step personal-assistant tasks, along with its base model Ling-3.1-flash-base under the MIT licence. Ant reports gains on several agent and science benchmarks, including AutomationBench rising from 62% to 68%; those figures are Ant's own. (Theme: new AI models and tools) ---",
+      "whyThisMatters": "Ant Group's Bailing team open-sourced Ling-3.1-flash-1019, a further-trained version tuned for multi-step personal-assistant tasks, along with its base model Ling-3.1-flash-base under the MIT licence.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
-        "CNBC"
+        "Ant Group updates its Ling model for personal AI agents",
+        "Pandaily"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-10-29/s8_cut1.jpg",
-          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "panDirection": "panRight"
         },
         {
@@ -331,8 +338,45 @@
         },
         {
           "image": "aibrief/assets/editorial/2026-10-29/s8_cut3.jpg",
-          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_gnani_ai_launches_a_speech_to_te",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Gnani AI launches a speech-to-text model trained on Indian phone calls",
+      "subheadline": "Source: CIOL",
+      "importanceScore": 90,
+      "durationSeconds": 28,
+      "source": "CIOL",
+      "sourceUrl": "https://www.ciol.com/news/gnani-ais-prisma-v30-brings-new-capabilities-to-enterprise-voice-ai-12761619",
+      "researchDesk": "",
+      "script": "Turning to India. Bengaluru's Gnani AI released Prisma v3.0, a speech-to-text model trained on Indian telephone audio and heavily code-mixed speech, covering nine Indian languages plus Indian English in one model. In Gnani's own tests it posted a 16.9% word error rate against 19.98% for ElevenLabs Scribe v2. It is available now through Gnani's developer API. (Themes: new AI models and tools; AI industry and startup news)",
+      "whyThisMatters": "Bengaluru's Gnani AI released Prisma v3.0, a speech-to-text model trained on Indian telephone audio and heavily code-mixed speech, covering nine Indian languages plus Indian English in one model.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Gnani AI launches a speech-to-text model trained on Indian phone calls",
+        "CIOL"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s9_cut1.jpg",
+          "badge": "BENGALURU • INDIA SOVEREIGN TECH CAPITAL",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s9_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-29/s9_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
         }
       ]
     }
@@ -340,15 +384,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. Cognite reports 1 billion dollars in verified AI value, confirming impact of industrial AI solutions. ‘Elonville’: US residents say Musk’s xAI offered to buy homes if they don’t sue over datacenter noise. Chart: Anthropic's cash pile towers over nearly every U.S. company. South Korea’s financial industry hit by fresh wave of cyberattacks. ‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital duty of care laws. AI bots flooded 2023 UK government consultation on disposable vapes ban.",
+    "script": "To recap today's top stories. 22 countries meet on frontier AI safety, and Singapore proposes an AI incident-reporting pilot. Anthropic extends a 40% Claude discount to state and local governments. Google DeepMind's Genie 4 world model adds sound and live steering. DiffuSpace open-sources a 35B diffusion language model. SEBI weighs a home-grown AI model for the securities market. The Netherlands plans to cut about 25,000 government jobs as it leans on AI.",
     "items": [
-      "✓ Cognite reports 1 billion dollars in verified AI",
-      "✓ ‘Elonville’: US residents say Musk’s xAI offered",
-      "✓ Chart: Anthropic's cash pile towers over nearly ",
-      "✓ South Korea’s financial industry hit by fresh wa",
-      "✓ ‘Emotional intimacy’ from AI chatbots would be b",
-      "✓ AI bots flooded 2023 UK government consultation ",
-      "✓ Social media is full of weird video game mashups"
+      "✓ 22 countries meet on frontier AI safety, and Sin",
+      "✓ Anthropic extends a 40% Claude discount to state",
+      "✓ Google DeepMind's Genie 4 world model adds sound",
+      "✓ DiffuSpace open-sources a 35B diffusion language",
+      "✓ SEBI weighs a home-grown AI model for the securi",
+      "✓ The Netherlands plans to cut about 25,000 govern",
+      "✓ Axiom says AI agents helped it computer-check th"
     ]
   },
   "outro": {
@@ -367,28 +411,29 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "Cognite reports 1 billion dollars in verified",
-    "‘Elonville’: US residents say Musk’s xAI offe",
-    "Chart: Anthropic's cash pile towers over near",
-    "South Korea’s financial industry hit by fresh",
-    "‘Emotional intimacy’ from AI chatbots would b",
-    "AI bots flooded 2023 UK government consultati",
-    "Social media is full of weird video game mash",
-    "Jim Cramer warns investors not to get fooled "
+    "22 countries meet on frontier AI safety, and ",
+    "Anthropic extends a 40% Claude discount to st",
+    "Google DeepMind's Genie 4 world model adds so",
+    "DiffuSpace open-sources a 35B diffusion langu",
+    "SEBI weighs a home-grown AI model for the sec",
+    "The Netherlands plans to cut about 25,000 gov",
+    "Axiom says AI agents helped it computer-check",
+    "Ant Group updates its Ling model for personal",
+    "Gnani AI launches a speech-to-text model trai"
   ],
   "thumbnail": {
     "date": "29 OCTOBER 2026",
-    "headline": "COGNITE REPORTS 1 BILLION DOLLARS IN",
+    "headline": "22 COUNTRIES MEET ON FRONTIER AI SAFETY, AND",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "COGNITE REPORTS 1 BILLION DOLLARS",
-      "‘ELONVILLE’: US RESIDENTS SAY",
-      "CHART: ANTHROPIC'S CASH PILE TOWERS",
-      "SOUTH KOREA’S FINANCIAL INDUSTRY"
+      "22 COUNTRIES MEET ON FRONTIER AI",
+      "ANTHROPIC EXTENDS A 40% CLAUDE",
+      "GOOGLE DEEPMIND'S GENIE 4 WORLD",
+      "DIFFUSPACE OPEN-SOURCES A 35B"
     ]
   },
   "youtubeMetadata": {
-    "title": "Cognite reports 1 billion dollars | ‘Elonville’: US residents say | Chart: Anthropic's cash pile | AI News 29 October 2026",
+    "title": "22 countries meet on frontier AI | Anthropic extends a 40% Claude | Google DeepMind's Genie 4 world | AI News 29 October 2026",
     "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 29 October 2026.",
     "tags": [
       "AI",

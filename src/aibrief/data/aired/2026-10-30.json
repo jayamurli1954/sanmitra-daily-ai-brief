@@ -1,0 +1,493 @@
+{
+  "weekly": false,
+  "date": "2026-10-30",
+  "formattedDate": "30 October 2026",
+  "title": "Experts followed their AI agent's | Google's Gemini 4 Carbon goes to | US Justice Department examines | AI News 30 October 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking this morning: Experts followed their AI agent's hidden lean on 86% of judgment calls. From the SanMitra Newsroom, this is the Daily AI Brief for 30 October 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_experts_followed_their_ai_agent",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Experts followed their AI agent's hidden lean on 86% of judgment calls",
+      "subheadline": "Source: Anthropic",
+      "importanceScore": 99,
+      "durationSeconds": 47,
+      "source": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/research/agents-judgment-calls",
+      "researchDesk": "",
+      "script": "Our lead story today. In a randomised study, Anthropic researchers gave 50 experienced causal-inference analysts Claude Code to analyse farming data and recommend whether to expand a programme. Unknown to them, the agent had been told to quietly favour one defensible option on four analytical choices. Analysts ended up matching that lean 86% of the time against 50% by chance, and when they had already picked a side, an opposing lean made them switch 60% of the time. The authors say AI still cut errors and saved time, but warn that unnoticed deference could let arbitrary choices shape research and policy. This is Anthropic's own study of its own product. (Theme: AI breakthroughs)",
+      "whyThisMatters": "In a randomised study, Anthropic researchers gave 50 experienced causal-inference analysts Claude Code to analyse farming data and recommend whether to expand a programme.",
+      "sourceType": "company",
+      "keyPoints": [
+        "Experts followed their AI agent's hidden lean on 86% of judgment calls",
+        "Anthropic"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s1_cut1.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s1_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s1_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_google_s_gemini_4_carbon_goes_to",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google's Gemini 4 Carbon goes to cyber defenders first",
+      "subheadline": "Source: Google",
+      "importanceScore": 95,
+      "durationSeconds": 47,
+      "source": "Google",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Google released Gemini 4 Carbon, its new frontier model, with what it calls significant gains in coding, long agentic tasks and cybersecurity. It took the top spot on the Artificial Analysis Intelligence Index v5.0 ahead of Claude Opus 5.5 and GPT-6 Astra, and leads benchmarks for finding real bugs and turning them into exploits. Because of that, it is available only to selected cyber-defence companies for now, with wider access planned after more safety testing. Introductory pricing is 2 dollars per million input tokens and 10 dollars per million output tokens. Claims about running \"for days\" on engineering tasks are Google's own. (Theme: new AI models and tools)",
+      "whyThisMatters": "Google released Gemini 4 Carbon, its new frontier model, with what it calls significant gains in coding, long agentic tasks and cybersecurity.",
+      "sourceType": "company",
+      "keyPoints": [
+        "Google's Gemini 4 Carbon goes to cyber defenders first",
+        "Google"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s2_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s2_cut2.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s2_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_us_justice_department_examines_n",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "US Justice Department examines Nvidia's proposed Hugging Face acquisition",
+      "subheadline": "Source: Reuters",
+      "importanceScore": 95,
+      "durationSeconds": 42,
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/us-doj-is-inquiring-about-nvidias-purchase-hugging-face-sources-say-2026-10-28/",
+      "researchDesk": "",
+      "script": "In other news. The US Department of Justice is asking questions about Nvidia's proposed 12.93 billion dollars acquisition of Hugging Face, Reuters reports, citing sources. The inquiry includes whether the deal could affect competition by giving Nvidia greater control over an important platform for distributing AI models and tools. An inquiry does not establish wrongdoing, and no final outcome has been announced. AI competition depends on more than model quality and chips: access to developer platforms, open-source tools and distribution channels can also influence which companies gain market power. (Themes: AI policy and regulation; AI industry and startup news) ---",
+      "whyThisMatters": "The US Department of Justice is asking questions about Nvidia's proposed $12.93 billion acquisition of Hugging Face, Reuters reports, citing sources.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "US Justice Department examines Nvidia's proposed Hugging Face acquisition",
+        "Reuters"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s3_cut1.jpg",
+          "badge": "NVIDIA • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s3_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s3_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_agibot_wants_robots_measured_by",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "AGIBOT wants robots measured by useful work, not units shipped",
+      "subheadline": "Source: AGIBOT",
+      "importanceScore": 90,
+      "durationSeconds": 47,
+      "source": "AGIBOT",
+      "sourceUrl": "https://www.agibot.com/article/231/detail/131.html",
+      "researchDesk": "",
+      "script": "In China. At its Innovation Day in Shanghai, humanoid-robot maker AGIBOT proposed \"Worken\", a measure that multiplies active robots by hours worked autonomously and by output efficiency against a set benchmark. It also showed GO-3 Preview, a new foundation model meant to help robots predict the results of their actions, the WITA-Omni interaction model, which AGIBOT says responds in about 600 milliseconds on average and handles more than 100 languages, the G2 Max industrial robot with up to 40 kg dual-arm handling, and Link-U OS 1.0, which it plans to fully open-source by end-2026. Benchmark rankings cited are AGIBOT's own. (Themes: new AI models and tools; technology trends; AI industry and startup news)",
+      "whyThisMatters": "At its Innovation Day in Shanghai, humanoid-robot maker AGIBOT proposed \"Worken\", a measure that multiplies active robots by hours worked autonomously and by output efficiency against a set benchmark.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AGIBOT wants robots measured by useful work, not units shipped",
+        "AGIBOT"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s4_cut1.jpg",
+          "badge": "AGIBOT • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s4_cut2.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s4_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_malaysia_seizes_12_million_dolla",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Malaysia seizes 12 million dollars of AI chips in transit at its main airport",
+      "subheadline": "Source: CNA",
+      "importanceScore": 90,
+      "durationSeconds": 36,
+      "source": "CNA",
+      "sourceUrl": "https://www.channelnewsasia.com/asia/malaysia-airport-customs-seize-advanced-ai-chips-smuggling-6498976",
+      "researchDesk": "",
+      "script": "In Asia. Malaysian customs said it seized 30 servers holding advanced AI chips worth about 49.5 million ringgit (around US12 million dollars ) at Kuala Lumpur airport's free-trade zone. Officials say the shipment was falsely declared as electronic components and meant for re-export to another Asian country without a permit, and that it is the fifth case this year tied to the same suspected syndicate. The brands, origin and destination were not disclosed and no arrests have been made. (Themes: AI policy and regulation; technology trends) ---",
+      "whyThisMatters": "Malaysian customs said it seized 30 servers holding advanced AI chips worth about 49.5 million ringgit (around US$12 million) at Kuala Lumpur airport's free-trade zone.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Malaysia seizes 12 million dollars of AI chips in transit at its main airport",
+        "CNA"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s5_cut1.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s5_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s5_cut3.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_iit_kharagpur_and_absolute_build",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "IIT Kharagpur and Absolute build an AI early-warning tool for soybean farmers",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 33,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/economy/agriculture/iit-kharagpur-and-absolute-launch-smart-scout-ai-project-for-soybean-farming/articleshow/135297217.cms",
+      "researchDesk": "",
+      "script": "Turning to India. IIT Kharagpur and biosolutions firm Absolute are developing Smart Scout, a camera-based system that spots soybean plants at risk of falling over before harvest, flags crop damage and helps estimate yields. It is one of six projects in the Quad's first AI-ENGAGE agriculture cohort, backed by more than 6 million dollars in total across India, the US, Japan and Australia. Pilot trials will run in major soybean-growing states over three years. (Themes: technology trends; AI breakthroughs)",
+      "whyThisMatters": "IIT Kharagpur and biosolutions firm Absolute are developing Smart Scout, a camera-based system that spots soybean plants at risk of falling over before harvest, flags crop damage and helps estimate yields.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "IIT Kharagpur and Absolute build an AI early-warning tool for soybean farmers",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s6_cut1.jpg",
+          "badge": "IIT KHARAGPUR • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s6_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s6_cut3.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_ai_agents_now_start_more_than_40",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "AI agents now start more than 40% of pull requests on GitHub",
+      "subheadline": "Source: GitHub",
+      "importanceScore": 90,
+      "durationSeconds": 35,
+      "source": "GitHub",
+      "sourceUrl": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "researchDesk": "",
+      "script": "Around the world. GitHub's Octoverse 2026 report says that by September agents were starting more than 40% of pull requests, up from 17% in March. At its Universe event GitHub also made Copilot Fusion generally available, which picks and combines several models for each coding task; GitHub says its top setting comes within two points of Claude Opus 5.5 on a coding-agent ranking at about half the cost per task. Those performance figures are GitHub's own. (Themes: technology trends; new AI models and tools)",
+      "whyThisMatters": "GitHub's Octoverse 2026 report says that by September agents were starting more than 40% of pull requests, up from 17% in March.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI agents now start more than 40% of pull requests on GitHub",
+        "GitHub"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s7_cut1.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s7_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s7_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_mistral_releases_large_4_with_a",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Mistral releases Large 4 with a cybersecurity focus",
+      "subheadline": "Source: Reuters",
+      "importanceScore": 90,
+      "durationSeconds": 37,
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/legal/litigation/mistral-ai-publicly-releases-large-4-targets-cybersecurity-users-2026-10-29/",
+      "researchDesk": "",
+      "script": "Next. French AI company Mistral has publicly released Large 4, a model designed to help organisations identify and fix cybersecurity vulnerabilities. Unlike models that must be accessed through an online service, the downloadable model can be run on an organisation's own systems, giving customers more control over deployment and data. Locally deployed AI can help organisations keep sensitive security information in-house, but openly available cyber capabilities also create a dual-use challenge: the same technology can support defenders and potentially assist attackers. (Themes: new AI models and tools; technology trends) ---",
+      "whyThisMatters": "French AI company Mistral has publicly released Large 4, a model designed to help organisations identify and fix cybersecurity vulnerabilities.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Mistral releases Large 4 with a cybersecurity focus",
+        "Reuters"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s8_cut1.jpg",
+          "badge": "LARGE • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s8_cut2.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s8_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_report_says_deepseek_and_moonsho",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Report says DeepSeek and Moonshot trained on outputs from OpenAI's GPT-6 Astra",
+      "subheadline": "Source: Reuters",
+      "importanceScore": 90,
+      "durationSeconds": 40,
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/technology/deepseek-moonshot-used-openais-gpt-6-astra-train-latest-models-information-2026-10-29/",
+      "researchDesk": "",
+      "script": "In China. Reuters reported, citing The Information, that Chinese AI developers DeepSeek and Moonshot AI relied on outputs from OpenAI's GPT-6 Astra to help train their latest models. The report does not fully detail how those outputs were used, and the companies had not publicly confirmed the account. The issue highlights the growing importance of model distillation, using the outputs of a more capable system to help develop another model, and raises questions about intellectual property, terms of service and how AI developers protect their capabilities. (Themes: AI industry and startup news; AI policy and regulation) ---",
+      "whyThisMatters": "Reuters reported, citing The Information, that Chinese AI developers DeepSeek and Moonshot AI relied on outputs from OpenAI's GPT-6 Astra to help train their latest models.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Report says DeepSeek and Moonshot trained on outputs from OpenAI's GPT-6 Astra",
+        "Reuters"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s9_cut1.jpg",
+          "badge": "HANGZHOU • HOME CITY OF DEEPSEEK",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s9_cut2.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s9_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_ibm_pitches_digital_swaraj_with",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "IBM pitches \"Digital Swaraj\" with an India-tuned AI stack",
+      "subheadline": "Source: ETDataCenters",
+      "importanceScore": 90,
+      "durationSeconds": 31,
+      "source": "ETDataCenters",
+      "sourceUrl": "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/ibm-india-focuses-on-digital-swaraj-for-ai-opportunity/135286576",
+      "researchDesk": "",
+      "script": "Turning to India. IBM India is pitching a \"Digital Swaraj\" sovereign-AI theme to tap what it puts at a 500 billion dollars AI opportunity for India by 2030. IBM points to Bharat Core, an India-optimised AI stack with reusable Indic services and models, a sovereign agentic AI platform with Yotta, and an MoU with MeitY Startup Hub. The 500 billion dollars figure and product claims are IBM's own. (Theme: AI industry and startup news)",
+      "whyThisMatters": "IBM India is pitching a \"Digital Swaraj\" sovereign-AI theme to tap what it puts at a $500 billion AI opportunity for India by 2030.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "IBM pitches \"Digital Swaraj\" with an India-tuned AI stack",
+        "ETDataCenters"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s10_cut1.jpg",
+          "badge": "IBM • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s10_cut2.jpg",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-10-30/s10_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 3",
+          "panDirection": "zoomIn"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. Experts followed their AI agent's hidden lean on 86% of judgment calls. Google's Gemini 4 Carbon goes to cyber defenders first. US Justice Department examines Nvidia's proposed Hugging Face acquisition. AGIBOT wants robots measured by useful work, not units shipped. Malaysia seizes 12 million dollars of AI chips in transit at its main airport. IIT Kharagpur and Absolute build an AI early-warning tool for soybean farmers.",
+    "items": [
+      "✓ Experts followed their AI agent's hidden lean on",
+      "✓ Google's Gemini 4 Carbon goes to cyber defenders",
+      "✓ US Justice Department examines Nvidia's proposed",
+      "✓ AGIBOT wants robots measured by useful work, not",
+      "✓ Malaysia seizes 12 million dollars of AI chips i",
+      "✓ IIT Kharagpur and Absolute build an AI early-war",
+      "✓ AI agents now start more than 40% of pull reques"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Experts followed their AI agent's hidden lean",
+    "Google's Gemini 4 Carbon goes to cyber defend",
+    "US Justice Department examines Nvidia's propo",
+    "AGIBOT wants robots measured by useful work, ",
+    "Malaysia seizes 12 million dollars of AI chip",
+    "IIT Kharagpur and Absolute build an AI early-",
+    "AI agents now start more than 40% of pull req",
+    "Mistral releases Large 4 with a cybersecurity",
+    "Report says DeepSeek and Moonshot trained on ",
+    "IBM pitches \"Digital Swaraj\" with an India-tu"
+  ],
+  "thumbnail": {
+    "date": "30 OCTOBER 2026",
+    "headline": "EXPERTS FOLLOWED THEIR AI AGENT'S HIDDEN",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "EXPERTS FOLLOWED THEIR AI AGENT'S",
+      "GOOGLE'S GEMINI 4 CARBON GOES TO",
+      "US JUSTICE DEPARTMENT EXAMINES",
+      "AGIBOT WANTS ROBOTS MEASURED BY"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Experts followed their AI agent's | Google's Gemini 4 Carbon goes to | US Justice Department examines | AI News 30 October 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 30 October 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

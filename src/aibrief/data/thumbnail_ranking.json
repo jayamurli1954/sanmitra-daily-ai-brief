@@ -1,16 +1,16 @@
 {
   "winning_variant": "Variant A (Breaking Red)",
-  "winning_score": 61.95,
+  "winning_score": 61.6,
   "primary_output": "out/aibrief/thumbnail_primary.png",
-  "date_alias_output": "out/aibrief/thumbnail_2026-10-28.png",
+  "date_alias_output": "out/aibrief/thumbnail_2026-10-30.png",
   "rankings": [
     {
       "variant": "Variant A (Breaking Red)",
       "path": "out/aibrief/thumb_A.png",
       "exists": true,
-      "total_score": 61.95,
-      "contrast_score": 13.85,
-      "vibrancy_score": 19.1,
+      "total_score": 61.6,
+      "contrast_score": 13.53,
+      "vibrancy_score": 19.07,
       "mobile_acuity_score": 25.0,
       "hero_prominence_score": 4.0
     },
@@ -18,9 +18,9 @@
       "variant": "Variant B (Exclusive Cyan)",
       "path": "out/aibrief/thumb_B.png",
       "exists": true,
-      "total_score": 60.7,
-      "contrast_score": 13.69,
-      "vibrancy_score": 18.01,
+      "total_score": 60.34,
+      "contrast_score": 13.37,
+      "vibrancy_score": 17.97,
       "mobile_acuity_score": 25.0,
       "hero_prominence_score": 4.0
     },
@@ -28,9 +28,9 @@
       "variant": "Variant C (Critical Emerald)",
       "path": "out/aibrief/thumb_C.png",
       "exists": true,
-      "total_score": 57.62,
-      "contrast_score": 13.71,
-      "vibrancy_score": 14.91,
+      "total_score": 57.26,
+      "contrast_score": 13.39,
+      "vibrancy_score": 14.87,
       "mobile_acuity_score": 25.0,
       "hero_prominence_score": 4.0
     }
