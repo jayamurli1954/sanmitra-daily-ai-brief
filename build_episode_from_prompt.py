@@ -42,6 +42,9 @@ def is_metadata_line(line: str) -> bool:
         return True
     if re.match(r"^https?://", stripped, re.IGNORECASE):
         return True
+    # Markdown separators between stories (---, ***, ___, or an em-dash rule)
+    if re.fullmatch(r"[-—–*_\s]{3,}|[—–]", stripped):
+        return True
     # Anchored to line start, handles bold (**Source:**, **Also:**, **Desk:**) and plain (Source:, Also:, Desk:)
     if re.match(r"^\s*\*{0,2}(?:Source|Also|Desk|Lead)\*{0,2}\s*:", stripped, re.IGNORECASE):
         lower = stripped.lower()
@@ -71,6 +74,8 @@ def strip_unspoken_metadata(text: str) -> str:
     text = " ".join(kept)
     text = re.sub(r"(?i)\bDesk:\s*(?:ChatGPT and Grok|Scraper)\b", " ", text)
     text = re.sub(r"https?://\S+", "", text)
+    # Editor briefs tag stories "(Theme: ...)" / "(Themes: a; b)"; the 30 Oct episode read one aloud.
+    text = re.sub(r"\s*\(\s*Themes?\s*:[^)]*\)", "", text, flags=re.IGNORECASE)
     return text
 
 
