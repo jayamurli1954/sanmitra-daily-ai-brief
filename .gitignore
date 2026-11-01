@@ -15,3 +15,7 @@ token.json
 client_secret.json
 gdrive_service_account.json
 gdrive_token.json
+
+# LinkedIn sign-in (post_to_linkedin.py)
+linkedin_token.json
+linkedin_client.json

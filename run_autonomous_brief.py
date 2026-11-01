@@ -177,6 +177,13 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
                     build_linkedin_article(video_url=f"https://youtu.be/{video_id}")
                 except Exception as e:
                     print(f"[!] LinkedIn article link update failed: {e}")
+                # Posted by run_linkedin_post.bat once YouTube makes the video public.
+                try:
+                    from post_to_linkedin import queue_post
+                    with open(active_file, "r", encoding="utf-8") as f:
+                        queue_post(json.load(f), f"https://youtu.be/{video_id}", publish_at)
+                except Exception as e:
+                    print(f"[!] LinkedIn post not queued: {e}")
             # The day's lead story as a vertical Short pointing to this episode.
             # A failed Short never fails the episode.
             if video_id:

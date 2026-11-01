@@ -71,6 +71,37 @@ def generate_key_takeaways(stories: List[Dict], weekly: bool = False) -> str:
 
 
 CHANNEL_URL = "https://www.youtube.com/@SanMitraTechSolutions"
+HASHTAGS = "#AI #ArtificialIntelligence #AIGovernance #AISafety #AIInfrastructure #ChinaAI #IndiaAI #SanMitraAINewsWire #OfficeMitraAIInsights"
+SUBSCRIBE_LINE = f"🔔 Get the daily AI brief every morning at 9:30 AM IST. Subscribe on YouTube: {CHANNEL_URL}"
+LINKEDIN_POST_LIMIT = 3000
+
+
+def build_linkedin_post(ep: Dict, video_url: str, limit: int = LINKEDIN_POST_LIMIT) -> str:
+    """The short feed post that post_to_linkedin.py publishes: the article's header,
+    opening paragraph, video link and headlines, without the per-story summaries.
+    LinkedIn's API cannot publish long-form articles and caps a post at 3000
+    characters; when the headlines do not fit, the last bureaus are dropped."""
+    dt = datetime.strptime(ep["date"], "%Y-%m-%d")
+    weekly = bool(ep.get("weekly"))
+    stories = ep.get("stories", [])
+    head = "\n".join([
+        "SanMitra AI News Wire",
+        (f"Weekly AI Round-up — {dt.strftime('%A, %d %B %Y')} (IST)" if weekly
+         else f"AI Brief — {dt.strftime('%A, %d %B %Y')} (IST)"),
+        "",
+        generate_macro_intro(stories, weekly),
+        "",
+        (f"▶️ Watch this week's round-up: {video_url}" if weekly else f"▶️ Watch today's video brief: {video_url}"),
+    ])
+    tail = "\n\n".join([SUBSCRIBE_LINE, HASHTAGS])
+    # The title line, then one line per bureau.
+    glance = [line for line in generate_key_takeaways(stories, weekly).split("\n") if line]
+    for n in range(len(glance), 1, -1):
+        shown = glance[:n] + ([] if n == len(glance) else ["…and more in the video."])
+        text = "\n\n".join([head, "\n\n".join(shown), tail])
+        if len(text) <= limit:
+            return text
+    return "\n\n".join([head, tail])[:limit]
 
 
 def build_linkedin_article(
@@ -163,9 +194,9 @@ def build_linkedin_article(
 
     lines.append(generate_key_takeaways(stories, weekly))
     lines.append("")
-    lines.append(f"🔔 Get the daily AI brief every morning at 9:30 AM IST. Subscribe on YouTube: {CHANNEL_URL}")
+    lines.append(SUBSCRIBE_LINE)
     lines.append("")
-    lines.append("#AI #ArtificialIntelligence #AIGovernance #AISafety #AIInfrastructure #ChinaAI #IndiaAI #SanMitraAINewsWire #OfficeMitraAIInsights")
+    lines.append(HASHTAGS)
 
     article_content = "\n".join(lines)
 
