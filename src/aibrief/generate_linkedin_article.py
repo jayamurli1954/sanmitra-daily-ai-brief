@@ -71,6 +71,7 @@ def generate_key_takeaways(stories: List[Dict], weekly: bool = False) -> str:
 
 
 CHANNEL_URL = "https://www.youtube.com/@SanMitraTechSolutions"
+HASHTAGS = "#AI #ArtificialIntelligence #AIGovernance #AISafety #AIInfrastructure #ChinaAI #IndiaAI #SanMitraAINewsWire #OfficeMitraAIInsights"
 
 
 def build_linkedin_article(
@@ -165,7 +166,7 @@ def build_linkedin_article(
     lines.append("")
     lines.append(f"🔔 Get the daily AI brief every morning at 9:30 AM IST. Subscribe on YouTube: {CHANNEL_URL}")
     lines.append("")
-    lines.append("#AI #ArtificialIntelligence #AIGovernance #AISafety #AIInfrastructure #ChinaAI #IndiaAI #SanMitraAINewsWire #OfficeMitraAIInsights")
+    lines.append(HASHTAGS)
 
     article_content = "\n".join(lines)
 
