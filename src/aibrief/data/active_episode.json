@@ -1,13 +1,13 @@
 {
   "weekly": false,
-  "date": "2026-10-31",
-  "formattedDate": "31 October 2026",
-  "title": "AI inference chip startup | OpenAI-backed Thrive Holdings | Microsoft plans to raise 25 | AI News 31 October 2026",
+  "date": "2026-11-03",
+  "formattedDate": "03 November 2026",
+  "title": "Meituan launches LongCat-2.5 | Palantir AI tech unused or little | Apple confirms Qwen integration | AI News 03 November 2026",
   "intro": {
     "durationSeconds": 18,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "Breaking this morning: AI inference chip startup Nano-core Chip raises over RMB 1 billion in Series C2 funding. From the SanMitra Newsroom, this is the Daily AI Brief for 31 October 2026."
+    "script": "Breaking this morning: Meituan launches LongCat-2.5 multimodal AI model for extended coding tasks. From the SanMitra Newsroom, this is the Daily AI Brief for 03 November 2026."
   },
   "transitions": [
     {
@@ -18,10 +18,24 @@
       "durationSeconds": 2
     },
     {
-      "id": "transition_usa",
-      "region": "USA",
-      "title": "NEXT: USA & REGIONAL STRATEGY",
-      "display": "NEXT: USA",
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
       "durationSeconds": 2
     },
     {
@@ -32,344 +46,314 @@
       "durationSeconds": 2
     },
     {
-      "id": "transition_usa",
-      "region": "USA",
-      "title": "NEXT: USA & REGIONAL STRATEGY",
-      "display": "NEXT: USA",
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
       "durationSeconds": 2
     }
   ],
   "stories": [
     {
-      "id": "s1_ai_inference_chip_startup_nano_c",
+      "id": "s1_meituan_launches_longcat_2_5_mul",
       "region": "CHINA",
       "category": "CHINA Intelligence",
       "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "AI inference chip startup Nano-core Chip raises over RMB 1 billion in Series C2 funding",
+      "headline": "Meituan launches LongCat-2.5 multimodal AI model for extended coding tasks",
       "subheadline": "Source: TechNode",
       "importanceScore": 99,
-      "durationSeconds": 24,
+      "durationSeconds": 55,
       "source": "TechNode",
-      "sourceUrl": "https://technode.com/2026/10/30/ai-inference-chip-startup-nano-core-chip-raises-over-rmb-1-billion-in-series-c2-funding/",
+      "sourceUrl": "https://technode.com/2026/11/02/meituan-launches-longcat-2-5-multimodal-ai-model-for-extended-coding-tasks/",
       "researchDesk": "",
-      "script": "Our lead story today. Hangzhou-based AI inference chip developer Nano-core Chip has raised more than RMB 1 billion in Series C2 funding, the company announced on October 28. The round was led by JianTou Investment, with participation from Hangzhou Capital, Kaitai Capital, and other investors. The company will use the proceeds for product development and preparation for volume production.",
-      "whyThisMatters": "Hangzhou-based AI inference chip developer Nano-core Chip has raised more than RMB 1 billion in Series C2 funding, the company announced on October 28.",
+      "script": "Our lead story today. Meituan released LongCat-2.5 on November 2, adding stronger visual understanding and coding capabilities to its AI model lineup. The model has 1.6 trillion total parameters, with approximately 48 billion activated for each token, and is designed for tasks requiring sustained execution by AI agents. The company said it expanded training on long task sequences and used large-scale reinforcement learning to improve work on complex codebases and complete software projects. It also converts failures encountered by real agents into reproducible training tasks to address gaps in model performance. LongCat-2.5 processes visual and text inputs within a unified token framework, supporting visual coding, creative design, and 3D tasks. The model is available through Meituan’s online chat service and API platform, with GitHub and Hugging Face releases planned to follow.",
+      "whyThisMatters": "Meituan released LongCat-2.5 on November 2, adding stronger visual understanding and coding capabilities to its AI model lineup.",
       "sourceType": "reporting",
       "keyPoints": [
-        "AI inference chip startup Nano-core Chip raises over RMB 1 billion in Series C2 ",
+        "Meituan launches LongCat-2.5 multimodal AI model for extended coding tasks",
         "TechNode"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-10-31/s1_cut1.jpg",
-          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "image": "aibrief/assets/editorial/2026-11-03/s1_cut1.jpg",
+          "badge": "IPOS • CONTEXTUAL REPORTING",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-31/s1_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-11-03/s1_cut2.jpg",
           "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-31/s1_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-11-03/s1_cut3.jpg",
           "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_openai_backed_thrive_holdings_ac",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "OpenAI-backed Thrive Holdings acquires ADT",
-      "subheadline": "Source: TechCrunch",
-      "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
-      "researchDesk": "",
-      "script": "Turning to the United States. OpenAI-backed Thrive Holdings is buying ADT in a 15.3 billion dollars deal, with plans to bring AI to the home security business.",
-      "whyThisMatters": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "OpenAI-backed Thrive Holdings acquires ADT",
-        "TechCrunch"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s2_cut1.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s2_cut2.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s2_cut3.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "panDirection": "zoomIn"
-        }
-      ]
-    },
-    {
-      "id": "s3_microsoft_plans_to_raise_25_bill",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Microsoft plans to raise 25 billion dollars in debt as it pursues AI buildout",
-      "subheadline": "Source: CNBC",
-      "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html",
-      "researchDesk": "",
-      "script": "In other news. Microsoft boasts a strong credit rating and has managed to maintain positive free cash flow, unlike Meta, Alphabet and Amazon.",
-      "whyThisMatters": "Microsoft boasts a strong credit rating and has managed to maintain positive free cash flow, unlike Meta, Alphabet and Amazon.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Microsoft plans to raise 25 billion dollars in debt as it pursues AI buildout",
-        "CNBC"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s3_cut1.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s3_cut2.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s3_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
-          "panDirection": "panRight"
-        }
-      ]
-    },
-    {
-      "id": "s4_former_xiaomi_executive_launches",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Former Xiaomi executive launches smart ring and AI-powered sleep system",
-      "subheadline": "Source: TechNode",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "TechNode",
-      "sourceUrl": "https://technode.com/2026/10/30/former-xiaomi-executive-launches-smart-ring-and-ai-powered-sleep-system/",
-      "researchDesk": "",
-      "script": "In China. ISHO, the sleep technology startup founded by former Xiaomi executive Wang Teng, unveiled its first products on October 29: the ISHO Ring smart ring and the iFlow bed temperature-control system. Prices start at RMB 1,799 and RMB 9,999, respectively. The ring monitors physiological signals to track sleep and provide daily energy-management insights.",
-      "whyThisMatters": "ISHO, the sleep technology startup founded by former Xiaomi executive Wang Teng, unveiled its first products on October 29: the ISHO Ring smart ring and the iFlow bed temperature-control system.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Former Xiaomi executive launches smart ring and AI-powered sleep system",
-        "TechNode"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s4_cut1.jpg",
-          "badge": "REDMOND • MICROSOFT REDMOND CAMPUS",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s4_cut2.jpg",
-          "badge": "MENLO PARK • META HEADQUARTERS",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s4_cut3.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
-          "panDirection": "panLeft"
-        }
-      ]
-    },
-    {
-      "id": "s5_ghost_in_the_machine_how_ai_is_h",
+      "id": "s2_palantir_ai_tech_unused_or_littl",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Ghost in the machine: how AI is haunting the search for the supernatural",
+      "headline": "Palantir AI tech unused or little used by 29 NHS trusts said to be benefiting from it",
       "subheadline": "Source: The Guardian",
-      "importanceScore": 90,
-      "durationSeconds": 52,
+      "importanceScore": 95,
+      "durationSeconds": 44,
       "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/technology/ng-interactive/2026/oct/30/ai-ghost-hunting",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/02/palantir-unused-nhs-hospital-trusts",
       "researchDesk": "",
-      "script": "Around the world. Ghost hunting has changed in recent years due to AI chatbots, and paranormal enthusiasts are concerned Ghost hunting is a tech-heavy pursuit. When Amy Waine and Jarrad Cutting investigate haunted locations, they’re loaded up with software of their own design, such as an app that assigns signals from a phone’s sensors to different words in a database. In the age of ChatGPT, the ghost-hunting pair is probing the world of AI. They describe one of their latest inventions, an app called GhostTube Seer , as “the world’s first AI Ghost Hunting tool”. In the hands of paranormal investigators, scientific tools like EMF meters (used to detect electromagnetic fields) are repurposed to identify changes and anomalies that they believe indicate supernatural activity.",
-      "whyThisMatters": "Ghost hunting has changed in recent years due to AI chatbots, and paranormal enthusiasts are concerned Ghost hunting is a tech-heavy pursuit.",
+      "script": "Around the world. Exclusive: Gap between NHS claim and trusts’ comments described as ‘very misleading’ by senior health official More than two dozen hospital trusts the NHS claims have benefited from Palantir’s medical data platform are not using all or most of the AI-powered technology, the Guardian can reveal. The 29 hospital trusts that NHS England publicly lists as “realising benefits” from the controversial £330m federated data platform (FDP) have said the system is not live or they are not using any of its applications. The apparent gap between the NHS claim and the trusts’ understanding was described as “very misleading” by one senior health official.",
+      "whyThisMatters": "Exclusive: Gap between NHS claim and trusts’ comments described as ‘very misleading’ by senior health official More than two dozen hospital trusts the NHS claims have benefited from Palantir’s medical data platform are n",
       "sourceType": "reporting",
       "keyPoints": [
-        "Ghost in the machine: how AI is haunting the search for the supernatural",
+        "Palantir AI tech unused or little used by 29 NHS trusts said to be benefiting fr",
         "The Guardian"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-10-31/s5_cut1.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
-          "panDirection": "zoomIn"
+          "image": "aibrief/assets/editorial/2026-11-03/s2_cut1.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-31/s5_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-11-03/s2_cut2.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-03/s2_cut3.jpg",
           "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s5_cut3.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
-          "panDirection": "zoomOut"
-        }
-      ]
-    },
-    {
-      "id": "s6_theranos_whistleblower_tyler_shu",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
-      "subheadline": "Source: TechCrunch",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
-      "researchDesk": "",
-      "script": "Turning to the United States. The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
-      "whyThisMatters": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportuni",
-        "TechCrunch"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s6_cut1.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s6_cut2.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s6_cut3.jpg",
-          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s7_ex_palantir_execs_launch_dream_w",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Ex-Palantir execs launch Dream with 17 million dollars from a16z to build AI world models for construction",
-      "subheadline": "Source: TechCrunch",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "id": "s3_apple_confirms_qwen_integration",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Apple confirms Qwen integration for China AI rollout, with beta testing starting November 4",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 95,
+      "durationSeconds": 50,
+      "source": "TechNode",
+      "sourceUrl": "https://technode.com/2026/11/02/apple-confirms-qwen-integration-for-china-ai-rollout-with-beta-testing-starting-november-4/",
       "researchDesk": "",
-      "script": "In other news. Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
-      "whyThisMatters": "Dream is grounded in real physics and construction standards.",
+      "script": "In China. Apple will begin testing Apple Intelligence in mainland China on November 4, integrating Alibaba’s Qwen into Siri, Writing Tools, and Visual Intelligence. The features will arrive through an iOS developer beta before a wider release with iOS 27.3 in December, Apple announced on October 31. Users will be able to ask Qwen questions about text, images, and documents directly within Apple’s system features. They can sign in with a Qwen account or use Sign in with Apple, while Writing Tools will also support generating original content through Qwen. The initial rollout includes live translation, photo cleanup, Genmoji, natural-language photo searches, and summaries of messages, notifications, and recorded conversations. Support for other Apple platforms will follow after the necessary approvals.",
+      "whyThisMatters": "Apple will begin testing Apple Intelligence in mainland China on November 4, integrating Alibaba’s Qwen into Siri, Writing Tools, and Visual Intelligence.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Ex-Palantir execs launch Dream with 17 million dollars from a16z to build AI wor",
-        "TechCrunch"
+        "Apple confirms Qwen integration for China AI rollout, with beta testing starting",
+        "TechNode"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-10-31/s7_cut1.jpg",
-          "badge": "TYLER SHULTZ • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-11-03/s3_cut1.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-31/s7_cut2.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "image": "aibrief/assets/editorial/2026-11-03/s3_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-31/s7_cut3.jpg",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "image": "aibrief/assets/editorial/2026-11-03/s3_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s8_nvidia_says_megaspeed_dealings_w",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Nvidia says Megaspeed dealings were normal after probe report",
-      "subheadline": "Source: Tech in Asia",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Tech in Asia",
-      "sourceUrl": "https://www.techinasia.com/news/nvidia-megaspeed-dealings-normal-probe-report",
-      "researchDesk": "",
-      "script": "Next. Huang said Nvidia had reviewed Megaspeed’s graphics processing unit deployments and found no illegal diversion of its AI chips to China.",
-      "whyThisMatters": "Huang said Nvidia had reviewed Megaspeed’s graphics processing unit deployments and found no illegal diversion of its AI chips to China.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Nvidia says Megaspeed dealings were normal after probe report",
-        "Tech in Asia"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s8_cut1.jpg",
-          "badge": "NVIDIA • CONTEXTUAL REPORTING",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s8_cut2.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-10-31/s8_cut3.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
-          "panDirection": "panLeft"
-        }
-      ]
-    },
-    {
-      "id": "s9_nvidia_s_web_of_ai_bets_smart_st",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Nvidia's web of AI bets: smart strategy or bubble risk?",
+      "id": "s4_hsbc_to_open_hong_kong_ai_instit",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "HSBC to open Hong Kong AI Institute following Singapore launch",
       "subheadline": "Source: The Economic Times",
       "importanceScore": 90,
-      "durationSeconds": 30,
+      "durationSeconds": 24,
       "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidias-web-of-ai-bets-smart-strategy-or-bubble-risk/articleshow/135343465.cms",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/hsbc-to-open-hong-kong-ai-institute-following-singapore-launch/articleshow/135447713.cms",
       "researchDesk": "",
-      "script": "Elsewhere. Nvidia's 3 billion dollars investment in Meta's share sale, announced Tuesday, is the latest addition to a portfolio of stakes, loans and guarantees that has made the chip giant what some analysts describe as the central bank of the artificial intelligence boom. Nvidia also has around 36 billion dollars in cloud backstops and a guarantee of up to 105 billion dollars linked to an OpenAI data center, according to US media.",
-      "whyThisMatters": "Nvidia's $3 billion investment in Meta's share sale, announced Tuesday, is the latest addition to a portfolio of stakes, loans and guarantees that has made the chip giant what some analysts describe as the central bank o",
+      "script": "In Asia. The AI unit will work with Hong Kong University of Science and Technology as its anchor academic partner, Elhedery said, though he did not disclose headcount details.",
+      "whyThisMatters": "The AI unit will work with Hong Kong University of Science and Technology as its anchor academic partner, Elhedery said, though he did not disclose headcount details.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Nvidia's web of AI bets: smart strategy or bubble risk?",
+        "HSBC to open Hong Kong AI Institute following Singapore launch",
         "The Economic Times"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-10-31/s9_cut1.jpg",
-          "badge": "GHOST • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-11-03/s4_cut1.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-03/s4_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-03/s4_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_ai_debt_surge_pushes_magnificent",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "AI debt surge pushes Magnificent Seven borrowing to 578 billion dollars , up 45%: SBI Research",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-debt-surge-pushes-magnificent-seven-borrowing-to-usd-578-billion-up-45-sbi-research/articleshow/135443806.cms",
+      "researchDesk": "",
+      "script": "Turning to India. The combined debt of the seven largest US technology companies, widely known as the Magnificent Seven, has increased nearly 45 per cent to USD 578 billion by mid-2026, raising concerns over the financial risks linked to the rapid expansion of artificial intelligence infrastructure, according to a report by SBI Research.",
+      "whyThisMatters": "The combined debt of the seven largest US technology companies, widely known as the Magnificent Seven, has increased nearly 45 per cent to USD 578 billion by mid-2026, raising concerns over the financial risks linked to ",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI debt surge pushes Magnificent Seven borrowing to 578 billion dollars , up 45%",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-03/s5_cut1.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-31/s9_cut2.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "image": "aibrief/assets/editorial/2026-11-03/s5_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-10-31/s9_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-11-03/s5_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_sensetime_open_sources_9_billion",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "SenseTime open-sources 9-billion-parameter AI model that reuses layers for deeper processing",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 44,
+      "source": "TechNode",
+      "sourceUrl": "https://technode.com/2026/11/02/sensetime-open-sources-9-billion-parameter-ai-model-that-reuses-layers-for-deeper-processing/",
+      "researchDesk": "",
+      "script": "In China. SenseTime has released SenseNova Loop-9B-Preview, an open-source multimodal model that uses repeated computation to extend its processing depth without duplicating the corresponding model weights. The model accepts text and images and generates text for document understanding, coding, and tasks involving external tools. It runs a shared block of 24 decoder layers twice, creating a deeper computation path from a model with approximately nine billion parameters. The documented training setup supports sequences of up to 262,144 tokens and combines text, images, code, and tool-use examples. SenseTime has published model weights, inference instructions, and training guidance, with the project distributed under the Apache 2.0 license.",
+      "whyThisMatters": "SenseTime has released SenseNova Loop-9B-Preview, an open-source multimodal model that uses repeated computation to extend its processing depth without duplicating the corresponding model weights.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SenseTime open-sources 9-billion-parameter AI model that reuses layers for deepe",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-03/s6_cut1.jpg",
+          "badge": "CUPERTINO • APPLE PARK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-03/s6_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-03/s6_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_south_korea_s_lee_vows_to_make_b",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "South Korea's Lee vows to make bold AI investment in record budget push",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/south-koreas-lee-vows-to-make-bold-ai-investment-in-record-budget-push/articleshow/135443328.cms",
+      "researchDesk": "",
+      "script": "In Asia. His administration proposed in September increasing government spending by a record 12.8% next year to 820.9 trillion won (615.62 billion dollars ) aiming to strengthen South Korea's technological edge as global competition over AI intensifies.",
+      "whyThisMatters": "His administration proposed in September increasing government spending by a record 12.8% next year to 820.9 trillion won ($615.62 billion) aiming to strengthen South Korea's technological edge as global competition over",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "South Korea's Lee vows to make bold AI investment in record budget push",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-03/s7_cut1.jpg",
+          "badge": "SENSETIME • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-03/s7_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-03/s7_cut3.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_pronto_founder_s_provision_labs",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Pronto Founder’s Provision Labs Acquires Hardware Startup Basilisk Industries",
+      "subheadline": "Source: Inc42",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Inc42",
+      "sourceUrl": "https://inc42.com/buzz/pronto-founders-provision-labs-acquires-hardware-startup-basilisk-industries/",
+      "researchDesk": "",
+      "script": "Turning to India. Pronto founder Anjali Sardana’s physical AI venture Provision Labs has acquired Mumbai-based hardware startup Basilisk Industries for an undisclosed sum.",
+      "whyThisMatters": "Pronto founder Anjali Sardana’s physical AI venture Provision Labs has acquired Mumbai-based hardware startup Basilisk Industries for an undisclosed sum.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Pronto Founder’s Provision Labs Acquires Hardware Startup Basilisk Industries",
+        "Inc42"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-03/s8_cut1.jpg",
+          "badge": "HANGZHOU • HOME CITY OF DEEPSEEK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-03/s8_cut2.jpg",
           "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-03/s8_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panLeft"
         }
       ]
     }
@@ -377,15 +361,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. AI inference chip startup Nano-core Chip raises over RMB 1 billion in Series C2 funding. OpenAI-backed Thrive Holdings acquires ADT. Microsoft plans to raise 25 billion dollars in debt as it pursues AI buildout. Former Xiaomi executive launches smart ring and AI-powered sleep system. Ghost in the machine: how AI is haunting the search for the supernatural. Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’.",
+    "script": "To recap today's top stories. Meituan launches LongCat-2.5 multimodal AI model for extended coding tasks. Palantir AI tech unused or little used by 29 NHS trusts said to be benefiting from it. Apple confirms Qwen integration for China AI rollout, with beta testing starting November 4. HSBC to open Hong Kong AI Institute following Singapore launch. AI debt surge pushes Magnificent Seven borrowing to 578 billion dollars , up 45%: SBI Research. SenseTime open-sources 9-billion-parameter AI model that reuses layers for deeper processing.",
     "items": [
-      "✓ AI inference chip startup Nano-core Chip raises ",
-      "✓ OpenAI-backed Thrive Holdings acquires ADT",
-      "✓ Microsoft plans to raise 25 billion dollars in d",
-      "✓ Former Xiaomi executive launches smart ring and ",
-      "✓ Ghost in the machine: how AI is haunting the sea",
-      "✓ Theranos whistleblower Tyler Shultz warns that t",
-      "✓ Ex-Palantir execs launch Dream with 17 million d"
+      "✓ Meituan launches LongCat-2.5 multimodal AI model",
+      "✓ Palantir AI tech unused or little used by 29 NHS",
+      "✓ Apple confirms Qwen integration for China AI rol",
+      "✓ HSBC to open Hong Kong AI Institute following Si",
+      "✓ AI debt surge pushes Magnificent Seven borrowing",
+      "✓ SenseTime open-sources 9-billion-parameter AI mo",
+      "✓ South Korea's Lee vows to make bold AI investmen"
     ]
   },
   "outro": {
@@ -404,30 +388,29 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "AI inference chip startup Nano-core Chip rais",
-    "OpenAI-backed Thrive Holdings acquires ADT",
-    "Microsoft plans to raise 25 billion dollars i",
-    "Former Xiaomi executive launches smart ring a",
-    "Ghost in the machine: how AI is haunting the ",
-    "Theranos whistleblower Tyler Shultz warns tha",
-    "Ex-Palantir execs launch Dream with 17 millio",
-    "Nvidia says Megaspeed dealings were normal af",
-    "Nvidia's web of AI bets: smart strategy or bu"
+    "Meituan launches LongCat-2.5 multimodal AI mo",
+    "Palantir AI tech unused or little used by 29 ",
+    "Apple confirms Qwen integration for China AI ",
+    "HSBC to open Hong Kong AI Institute following",
+    "AI debt surge pushes Magnificent Seven borrow",
+    "SenseTime open-sources 9-billion-parameter AI",
+    "South Korea's Lee vows to make bold AI invest",
+    "Pronto Founder’s Provision Labs Acquires Hard"
   ],
   "thumbnail": {
-    "date": "31 OCTOBER 2026",
-    "headline": "AI INFERENCE CHIP STARTUP NANO-CORE CHIP",
+    "date": "03 NOVEMBER 2026",
+    "headline": "MEITUAN LAUNCHES LONGCAT-2.5 MULTIMODAL AI",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "AI INFERENCE CHIP STARTUP NANO-CORE",
-      "OPENAI-BACKED THRIVE HOLDINGS",
-      "MICROSOFT PLANS TO RAISE 25 BILLION",
-      "FORMER XIAOMI EXECUTIVE LAUNCHES"
+      "MEITUAN LAUNCHES LONGCAT-2.5",
+      "PALANTIR AI TECH UNUSED OR LITTLE",
+      "APPLE CONFIRMS QWEN INTEGRATION FOR",
+      "HSBC TO OPEN HONG KONG AI INSTITUTE"
     ]
   },
   "youtubeMetadata": {
-    "title": "AI inference chip startup | OpenAI-backed Thrive Holdings | Microsoft plans to raise 25 | AI News 31 October 2026",
-    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 31 October 2026.",
+    "title": "Meituan launches LongCat-2.5 | Palantir AI tech unused or little | Apple confirms Qwen integration | AI News 03 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 03 November 2026.",
     "tags": [
       "AI",
       "ArtificialIntelligence",

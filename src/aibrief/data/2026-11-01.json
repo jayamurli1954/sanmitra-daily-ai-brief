@@ -1,0 +1,486 @@
+{
+  "weekly": true,
+  "date": "2026-11-01",
+  "formattedDate": "01 November 2026",
+  "title": "This Week in AI | ‘Extremely disappointed’: WA | Ex-Palantir execs launch Dream | Wabi, the AI agent that builds | Weekly Round-up 01 November 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "This week in AI, the stories you may have missed: ‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report. From the SanMitra Newsroom, this is the Weekly AI Round-up for the week ending 01 November 2026: important developments that did not make our daily briefs."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_extremely_disappointed_wa_gover",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 99,
+      "durationSeconds": 43,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai",
+      "researchDesk": "",
+      "script": "Our lead story today. WA paid Deloitte 166,000 dollars for flawed feasibility study on merging the University of Western Australia, Curtin university and Murdoch university Get our breaking news email , free app or daily news podcast The Western Australian government has said it is “extremely disappointed” and is seeking an “expedited” cost recovery from Deloitte after errors were discovered in a report on a potential university merger, including AI-hallucinated references and hundreds of millions of dollars in cost discrepancies. The WA government paid Deloitte 166,000 dollars for a feasibility study on merging the University of Western Australia, Curtin university and Murdoch university.",
+      "whyThisMatters": "WA paid Deloitte $166,000 for flawed feasibility study on merging the University of Western Australia, Curtin university and Murdoch university Get our breaking news email , free app or daily news podcast The Western Aus",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over f",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s1_cut1.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s1_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s1_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_ex_palantir_execs_launch_dream_w",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Ex-Palantir execs launch Dream with 17 million dollars from a16z to build AI world models for construction",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 46,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Dream, a startup founded by former Palantir executives Andy Elder and Arjun Mathur, has come out of stealth with 17 million dollars in seed funding led by Andreessen Horowitz, with SV Angel, XYZ and Zigg Capital joining. It is building world models that automate building design and engineering, aiming to replace older architecture software. The model is trained on more than 100 million square feet of building data from US permit archives and follows real physics and construction standards, down to plumbing and air-conditioning systems. Architects, engineers and developers already use it for concept designs and cost estimates on 10 active projects in Texas and California.",
+      "whyThisMatters": "Dream, a startup founded by former Palantir executives Andy Elder and Arjun Mathur, has come out of stealth with 17 million dollars in seed funding led by Andreessen Horowitz, with SV Angel, XYZ and Zigg Capital joining.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Ex-Palantir execs launch Dream with 17 million dollars from a16z to build AI wor",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s2_cut1.jpg",
+          "badge": "DREAM • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s2_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s2_cut3.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_wabi_the_ai_agent_that_builds_mi",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Wabi, the AI agent that builds mini apps, now valued at 1.25 billion dollars after latest round",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 44,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+      "researchDesk": "",
+      "script": "In other news. Wabi, the AI app from Replika founder Eugenia Kuyda, has raised 55 million dollars at a 1.25 billion dollar valuation. IVP led the round, with Andreessen Horowitz, Forerunner and the Amazon Alexa Fund joining, along with Shopify chief Tobi Lütke and Salesforce chief Marc Benioff as angel investors. Wabi started as a tool for building apps from a prompt, then in September turned into an AI messenger it now calls a personal agent. The agent builds small custom apps on request, for meal planning, fitness plans, tracking local restaurants or trivia games. The round shows how strongly investors are betting on personal AI agents.",
+      "whyThisMatters": "Wabi, the AI app from Replika founder Eugenia Kuyda, has raised 55 million dollars at a 1.25 billion dollar valuation.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Wabi, the AI agent that builds mini apps, now valued at 1.25 billion dollars aft",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s3_cut1.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s3_cut2.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s3_cut3.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_ai_inference_chip_startup_nano_c",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "AI inference chip startup Nano-core Chip raises over RMB 1 billion in Series C2 funding",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 46,
+      "source": "TechNode",
+      "sourceUrl": "https://technode.com/2026/10/30/ai-inference-chip-startup-nano-core-chip-raises-over-rmb-1-billion-in-series-c2-funding/",
+      "researchDesk": "",
+      "script": "In China. Hangzhou-based Nano-core Chip, which designs chips for running AI models, has raised more than 1 billion yuan in a Series C2 round led by JianTou Investment, with Hangzhou Capital and Kaitai Capital joining. It follows a 1 billion yuan Series C1 round in September. Founded in 2021 out of a Peking University research institute in Zhejiang, the company combines near-memory and in-memory computing with RISC-V processors, for both devices and cloud servers. It says its first three chips have been taped out, with customer samples and first volume shipments planned for early 2027. China is pouring money into home-grown inference chips as access to Nvidia's top parts stays restricted.",
+      "whyThisMatters": "Hangzhou-based Nano-core Chip, which designs chips for running AI models, has raised more than 1 billion yuan in a Series C2 round led by JianTou Investment, with Hangzhou Capital and Kaitai Capital joining.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI inference chip startup Nano-core Chip raises over RMB 1 billion in Series C2 ",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s4_cut1.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s4_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s4_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_uttar_pradesh_approves_a_robotic",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Uttar Pradesh approves a robotics and AI park in Greater Noida",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/up-cabinet-approves-robotics-ai-park-in-greater-noida/articleshow/135230905.cms",
+      "researchDesk": "",
+      "script": "Turning to India. The UP Cabinet approved the 69.52-acre PRAGATI robotics and AI park, with shared testing, prototyping and GPU computing facilities for startups. The state projects more than 1 lakh direct and indirect jobs and Rs 2,000 crore a year in economic output at full scale; those are government estimates.",
+      "whyThisMatters": "The UP Cabinet approved the 69.52-acre PRAGATI robotics and AI park, with shared testing, prototyping and GPU computing facilities for startups.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Uttar Pradesh approves a robotics and AI park in Greater Noida",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s5_cut1.jpg",
+          "badge": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s5_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU CLUSTERS • ACCELERATED COMPUTE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s5_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_uk_government_met_137_businesses",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "UK government met 137 businesses over AI datacentres but no environmental groups",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 39,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/oct/27/uk-government-environmental-groups-ai-datacentres-expansion-plans-investigation",
+      "researchDesk": "",
+      "script": "Around the world. Investigation finds dozens of ministers and civil servants moved into AI roles as government developed datacentre expansion plans The UK’s policy on datacentres and AI was developed without any meetings with environmental groups, an investigation has found. The nonprofit organisation Spotlight on Corruption said a “considerable revolving door” shaped the government’s development of “AI growth zones”, a central plank of the former prime minister Keir Starmer’s AI and economic policy, with 38 ministers, senior civil servants and special advisers hired to positions in AI companies between July 2024 and September 2026.",
+      "whyThisMatters": "Investigation finds dozens of ministers and civil servants moved into AI roles as government developed datacentre expansion plans The UK’s policy on datacentres and AI was developed without any meetings with environmenta",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "UK government met 137 businesses over AI datacentres but no environmental groups",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s6_cut1.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s6_cut2.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s6_cut3.jpg",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_the_datacentre_next_door_on_the",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "The datacentre next door: on the frontline of tech’s latest David v Goliath battle",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 44,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle",
+      "researchDesk": "",
+      "script": "In other news. The AI boom is pitting local residents against corporate giants seeking to power their energy-hungry networks but one Welsh city is fighting back Dale Johnston opens the gate to his neat suburban garden on the western fringes of Newport in South Wales. There’s a trampoline and a slide on the lawn for his grandchildren, and chairs for him and his wife. He should be enjoying the light draining from the perfect autumnal sky but almost his entire view is blotted out by a vast expanse of prefabricated panels. The 23 metre-high grey hulk looming over him and his neighbours is a hyperscale datacentre.",
+      "whyThisMatters": "The AI boom is pitting local residents against corporate giants seeking to power their energy-hungry networks – but one Welsh city is fighting back Dale Johnston opens the gate to his neat suburban garden on the western ",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "The datacentre next door: on the frontline of tech’s latest David v Goliath batt",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s7_cut1.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s7_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s7_cut3.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_deepgram_acquires_pipecat_maker",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 47,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Voice AI company Deepgram has agreed to buy Daily, the company behind Pipecat, an open-source framework for real-time voice and video AI. The price was not disclosed, and Deepgram says Pipecat will stay open source. Pipecat stitches together live audio and video streams with speech recognition, a language model and speech synthesis, with the aim of cutting the delay before an AI agent answers. Daily also runs hosted infrastructure for voice and video calls. Alongside the deal, Deepgram is launching the Real-Time Context Standard, an open protocol built with the Pipecat team. It is a sign that voice agents are becoming a core battleground for AI infrastructure.",
+      "whyThisMatters": "Voice AI company Deepgram has agreed to buy Daily, the company behind Pipecat, an open-source framework for real-time voice and video AI.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s8_cut1.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s8_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s8_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_nvidia_says_megaspeed_dealings_w",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Nvidia says Megaspeed dealings were normal after probe report",
+      "subheadline": "Source: Tech in Asia",
+      "importanceScore": 90,
+      "durationSeconds": 30,
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/news/nvidia-megaspeed-dealings-normal-probe-report",
+      "researchDesk": "",
+      "script": "Elsewhere. Nvidia has pushed back after a probe report raised questions about its dealings with Megaspeed. Chief executive Jensen Huang said Nvidia had reviewed Megaspeed's graphics processor deployments, found no illegal diversion of its AI chips to China, and described the dealings as normal. The case shows how closely governments and the chip industry now watch where advanced AI chips end up, as export controls tighten and smuggling investigations spread across Asia.",
+      "whyThisMatters": "Nvidia has pushed back after a probe report raised questions about its dealings with Megaspeed.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nvidia says Megaspeed dealings were normal after probe report",
+        "Tech in Asia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s9_cut1.jpg",
+          "badge": "NVIDIA • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s9_cut2.jpg",
+          "badge": "HARDWARE ACCELERATION • SYSTEM INTEGRATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s9_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT • CUT 3",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_freshworks_acquires_ai_startup_r",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Freshworks Acquires AI Startup Robusta To Strengthen IT Operations Platform",
+      "subheadline": "Source: Inc42",
+      "importanceScore": 90,
+      "durationSeconds": 46,
+      "source": "Inc42",
+      "sourceUrl": "https://inc42.com/buzz/freshworks-acquires-ai-startup-robusta-to-strengthen-it-operations-platform/",
+      "researchDesk": "",
+      "script": "Turning to India. Freshworks has acquired Israel-based AI startup Robusta Dev for an undisclosed amount. Robusta, founded by Natan Yellin and Arik Alon, uses AI agents to work out what caused an outage, by analysing monitoring data, infrastructure details and recent code or configuration changes. It also maps how a failure spreads to connected services and recommends fixes, which engineers review and approve before anything reaches live systems. Freshworks, which has large engineering teams in India, will build this into Freshservice, its IT service management platform, and link it with FireHydrant, the incident-management startup it bought last year. The goal is fewer manual investigations and faster recovery when systems break.",
+      "whyThisMatters": "Freshworks has acquired Israel-based AI startup Robusta Dev for an undisclosed amount.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Freshworks Acquires AI Startup Robusta To Strengthen IT Operations Platform",
+        "Inc42"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s10_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s10_cut2.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-01/s10_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION • CUT 3",
+          "panDirection": "zoomIn"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap this week's top stories. ‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report. Ex-Palantir execs launch Dream with 17 million dollars from a16z to build AI world models for construction. Wabi, the AI agent that builds mini apps, now valued at 1.25 billion dollars after latest round. AI inference chip startup Nano-core Chip raises over RMB 1 billion in Series C2 funding. Uttar Pradesh approves a robotics and AI park in Greater Noida. UK government met 137 businesses over AI datacentres but no environmental groups.",
+    "items": [
+      "✓ ‘Extremely disappointed’: WA government seeks re",
+      "✓ Ex-Palantir execs launch Dream with 17 million d",
+      "✓ Wabi, the AI agent that builds mini apps, now va",
+      "✓ AI inference chip startup Nano-core Chip raises ",
+      "✓ Uttar Pradesh approves a robotics and AI park in",
+      "✓ UK government met 137 businesses over AI datacen",
+      "✓ The datacentre next door: on the frontline of te"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were the week's important developments beyond the daily headlines. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "‘Extremely disappointed’: WA government seeks",
+    "Ex-Palantir execs launch Dream with 17 millio",
+    "Wabi, the AI agent that builds mini apps, now",
+    "AI inference chip startup Nano-core Chip rais",
+    "Uttar Pradesh approves a robotics and AI park",
+    "UK government met 137 businesses over AI data",
+    "The datacentre next door: on the frontline of",
+    "Deepgram acquires Pipecat-maker Daily to bols",
+    "Nvidia says Megaspeed dealings were normal af",
+    "Freshworks Acquires AI Startup Robusta To Str"
+  ],
+  "thumbnail": {
+    "date": "01 NOVEMBER 2026",
+    "headline": "‘EXTREMELY DISAPPOINTED’: WA GOVERNMENT",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "‘EXTREMELY DISAPPOINTED’: WA",
+      "EX-PALANTIR EXECS LAUNCH DREAM WITH",
+      "WABI, THE AI AGENT THAT BUILDS MINI",
+      "AI INFERENCE CHIP STARTUP NANO-CORE"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "This Week in AI | ‘Extremely disappointed’: WA | Ex-Palantir execs launch Dream | Wabi, the AI agent that builds | Weekly Round-up 01 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 01 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

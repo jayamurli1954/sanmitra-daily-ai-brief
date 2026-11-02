@@ -1,182 +1,202 @@
 {
-  "date": "2026-10-30",
-  "dateLabel": "30 OCTOBER 2026",
+  "date": "2026-11-02",
+  "dateLabel": "02 NOVEMBER 2026",
   "kicker": "BREAKING",
-  "headline": "Experts followed their AI agent's hidden lean on 86% of judgment calls",
+  "headline": "America is firing up retired nuclear reactors to keep its AI data centres running",
   "subhead": "",
-  "source": "Source: Anthropic",
-  "audioFile": "audio/aibrief/short_2026-10-30_lead.mp3",
-  "voiceFrames": 1436,
+  "source": "Source: Tom's Hardware",
+  "audioFile": "audio/aibrief/short_2026-11-02_lead.mp3",
+  "voiceFrames": 1510,
   "endCardFrames": 75,
   "images": [
     {
-      "src": "aibrief/assets/editorial/2026-10-30/s1_cut1.jpg",
-      "label": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION"
+      "src": "aibrief/assets/editorial/2026-11-02/s1_cut1.jpg",
+      "label": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY"
     },
     {
-      "src": "aibrief/assets/editorial/2026-10-30/s1_cut2.jpg",
-      "label": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION"
+      "src": "aibrief/assets/editorial/2026-11-02/s1_cut2.jpg",
+      "label": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE"
     },
     {
-      "src": "aibrief/assets/editorial/2026-10-30/s1_cut3.jpg",
-      "label": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE"
+      "src": "aibrief/assets/editorial/2026-11-02/s1_cut3.jpg",
+      "label": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY"
     }
   ],
   "cues": [
     {
-      "text": "In a randomised study,",
+      "text": "The scramble for",
       "start": 0,
-      "end": 37
+      "end": 28
     },
     {
-      "text": "Anthropic researchers gave",
-      "start": 48,
-      "end": 92
+      "text": "electricity to power",
+      "start": 28,
+      "end": 59
     },
     {
-      "text": "50 experienced",
-      "start": 92,
-      "end": 122
+      "text": "artificial intelligence",
+      "start": 59,
+      "end": 86
     },
     {
-      "text": "causal-inference analysts",
-      "start": 122,
-      "end": 161
+      "text": "has pushed the United",
+      "start": 86,
+      "end": 129
     },
     {
-      "text": "Claude Code to analyse",
-      "start": 161,
-      "end": 200
+      "text": "States to an unusual step:",
+      "start": 129,
+      "end": 180
     },
     {
-      "text": "farming data and recommend",
-      "start": 200,
-      "end": 244
+      "text": "bringing shut-down nuclear",
+      "start": 191,
+      "end": 224
     },
     {
-      "text": "whether to expand a",
-      "start": 244,
-      "end": 283
+      "text": "plants back to life.",
+      "start": 224,
+      "end": 264
     },
     {
-      "text": "programme.",
-      "start": 283,
-      "end": 291
+      "text": "Operators are",
+      "start": 295,
+      "end": 321
     },
     {
-      "text": "Unknown to them,",
-      "start": 314,
-      "end": 348
+      "text": "recommissioning three",
+      "start": 321,
+      "end": 350
     },
     {
-      "text": "the agent had been told to",
-      "start": 358,
-      "end": 396
+      "text": "previously retired",
+      "start": 350,
+      "end": 382
     },
     {
-      "text": "quietly favour one",
-      "start": 396,
-      "end": 428
+      "text": "reactors expected to",
+      "start": 382,
+      "end": 427
     },
     {
-      "text": "defensible option on four",
-      "start": 428,
-      "end": 473
+      "text": "return about 2.25",
+      "start": 427,
+      "end": 479
     },
     {
-      "text": "analytical choices.",
-      "start": 473,
-      "end": 506
+      "text": "gigawatts to the grid,",
+      "start": 479,
+      "end": 510
     },
     {
-      "text": "Analysts ended up matching",
-      "start": 538,
-      "end": 581
+      "text": "with the output already",
+      "start": 520,
+      "end": 556
     },
     {
-      "text": "that lean 86% of the time",
-      "start": 581,
-      "end": 640
+      "text": "spoken for by large",
+      "start": 556,
+      "end": 589
     },
     {
-      "text": "against 50% by chance,",
-      "start": 640,
-      "end": 686
+      "text": "technology companies",
+      "start": 589,
+      "end": 622
     },
     {
-      "text": "and when they had already",
-      "start": 707,
-      "end": 733
+      "text": "building AI data centres.",
+      "start": 622,
+      "end": 670
     },
     {
-      "text": "picked a side,",
-      "start": 733,
-      "end": 755
+      "text": "In parallel, the US",
+      "start": 692,
+      "end": 751
     },
     {
-      "text": "an opposing lean made them",
-      "start": 767,
-      "end": 805
+      "text": "Department of Energy is",
+      "start": 761,
+      "end": 790
     },
     {
-      "text": "switch 60% of the time.",
-      "start": 805,
-      "end": 853
+      "text": "lending the utility",
+      "start": 790,
+      "end": 813
     },
     {
-      "text": "The authors say AI still",
-      "start": 871,
-      "end": 931
+      "text": "Constellation around five",
+      "start": 813,
+      "end": 864
     },
     {
-      "text": "cut errors and saved time,",
-      "start": 931,
-      "end": 976
+      "text": "billion dollars to uprate",
+      "start": 864,
+      "end": 906
     },
     {
-      "text": "but warn that unnoticed",
+      "text": "reactors at several",
+      "start": 906,
+      "end": 940
+    },
+    {
+      "text": "existing plants, adding",
+      "start": 940,
+      "end": 991
+    },
+    {
+      "text": "roughly a further",
       "start": 991,
       "end": 1014
     },
     {
-      "text": "deference could let",
+      "text": "gigawatt, most of it",
       "start": 1014,
-      "end": 1049
+      "end": 1059
     },
     {
-      "text": "arbitrary choices shape",
-      "start": 1049,
-      "end": 1088
+      "text": "earmarked for AI",
+      "start": 1059,
+      "end": 1087
     },
     {
-      "text": "research and policy.",
-      "start": 1088,
-      "end": 1118
+      "text": "operators.",
+      "start": 1087,
+      "end": 1104
     },
     {
-      "text": "This is Anthropic's own",
-      "start": 1157,
-      "end": 1192
+      "text": "Separately, Constellation",
+      "start": 1154,
+      "end": 1193
     },
     {
-      "text": "study of its own product.",
-      "start": 1192,
-      "end": 1226
+      "text": "struck a long-term deal to",
+      "start": 1193,
+      "end": 1238
     },
     {
-      "text": "(Theme: AI breakthroughs)",
-      "start": 1265,
-      "end": 1311
+      "text": "supply hundreds of",
+      "start": 1238,
+      "end": 1266
+    },
+    {
+      "text": "megawatts to a major cloud",
+      "start": 1266,
+      "end": 1308
+    },
+    {
+      "text": "provider's AI campuses.",
+      "start": 1308,
+      "end": 1350
     },
     {
       "text": "Watch the full episode on",
-      "start": 1311,
-      "end": 1356
+      "start": 1386,
+      "end": 1431
     },
     {
       "text": "SanMitra AI News Wire.",
-      "start": 1356,
-      "end": 1404
+      "start": 1431,
+      "end": 1478
     }
   ],
   "ctaTitle": "Full episode on YouTube",

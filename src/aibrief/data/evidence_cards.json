@@ -1,168 +1,78 @@
 {
-  "s1_experts_followed_their_ai_agent": [
+  "s1_america_is_firing_up_retired_nuc": [],
+  "s2_four_of_the_biggest_ai_companies": [
     {
-      "type": "reported",
-      "text": "Unknown to them, the agent had been told to quietly favour one defensible option on four analytical choices.",
-      "highlight": "to quietly favour one defensible option on four analytical choices",
-      "source": "Anthropic",
-      "start": 12.34,
-      "end": 17.84
-    },
-    {
-      "type": "stat",
-      "shown": "86%",
-      "label": "of the time against 50% by chance",
-      "start": 21.42,
-      "end": 26.92
-    }
-  ],
-  "s2_google_s_gemini_4_carbon_goes_to": [
-    {
-      "type": "reported",
-      "text": "Google released Gemini 4 Carbon, its new frontier model, with what it calls significant gains in coding, long agentic tasks and cybersecurity.",
-      "highlight": "Gemini 4 Carbon, its new frontier model",
-      "source": "Google",
-      "start": 2.38,
-      "end": 7.88
-    },
-    {
-      "type": "compare",
-      "items": [
-        {
-          "shown": "$2",
-          "value": 2.0,
-          "label": "per million input tokens"
-        },
-        {
-          "shown": "$10",
-          "value": 10.0,
-          "label": "per million output tokens"
-        }
-      ],
-      "start": 36.12,
-      "end": 41.62
-    }
-  ],
-  "s3_us_justice_department_examines_n": [
-    {
-      "type": "stat",
-      "shown": "$12.93 BILLION",
-      "label": "acquisition of Hugging Face",
-      "start": 5.36,
-      "end": 10.86
+      "type": "quote",
+      "text": "do not use for AI training",
+      "speaker": null,
+      "source": "gagadget",
+      "start": 14.9,
+      "end": 20.4
     },
     {
       "type": "reported",
-      "text": "An inquiry does not establish wrongdoing, and no final outcome has been announced.",
-      "highlight": null,
-      "source": "Reuters",
-      "start": 21.16,
-      "end": 26.66
+      "text": "Rollout and scope differ: Anthropic has begun honouring it, OpenAI says it will \"in the coming months\", and Microsoft and Google are targeting 2027, with Google's version also covering the data behind Gemini's answers.",
+      "highlight": "it will \"in the coming months\"",
+      "source": "gagadget",
+      "start": 28.74,
+      "end": 34.24
     }
   ],
-  "s4_agibot_wants_robots_measured_by": [
+  "s3_for_jpmorgan_amazon_fighting_ai": [],
+  "s4_deepseek_open_sources_its_coding": [
+    {
+      "type": "reported",
+      "text": "China's DeepSeek has released Harness, an open-source coding and work agent published under a permissive MIT licence, built around an architecture in which everything is a plug-in.",
+      "highlight": "Harness, an open-source coding and work agent published under a permissive MIT licence, built around an architecture in which everything is a plug-in",
+      "source": "OODA Loop",
+      "start": 2.0,
+      "end": 7.5
+    }
+  ],
+  "s5_japan_brings_its_ai_playbook_to": [],
+  "s6_bihar_approves_an_ai_policy_2026": [
     {
       "type": "dateline",
-      "place": "SHANGHAI",
+      "place": "DELHI",
+      "date": null,
+      "start": 0.4,
+      "end": 4.5
+    }
+  ],
+  "s7_norway_raises_its_national_cyber": [],
+  "s8_ai_is_stealing_indigenous_austra": [
+    {
+      "type": "reported",
+      "text": "Chair of National Gallery’s First Nations advisory group says the technology is undermining artists’ agency and the authenticity of their work Get our breaking news email…",
+      "highlight": "the technology is undermining artists’ agency and the authenticity of their work Get our breaking news email",
+      "source": "The Guardian",
+      "start": 2.0,
+      "end": 7.5
+    }
+  ],
+  "s9_disquiet_grows_in_albanese_s_bac": [
+    {
+      "type": "dateline",
+      "place": "SYDNEY",
       "date": null,
       "start": 0.4,
       "end": 4.5
     },
     {
-      "type": "reported",
-      "text": "It also showed GO-3 Preview, a new foundation model meant to help robots predict the results of their actions, the WITA-Omni interaction model, which AGIBOT says responds in about 600 milliseconds on average and handles more than 100 languages…",
-      "highlight": "responds in about 600 milliseconds on average and handles more than 100 languages",
-      "source": "AGIBOT",
-      "start": 14.22,
-      "end": 19.72
-    },
+      "type": "stat",
+      "shown": "3,000+",
+      "label": "cultural",
+      "start": 28.38,
+      "end": 33.88
+    }
+  ],
+  "s10_tata_communications_plans_a_450": [
     {
       "type": "stat",
-      "shown": "600",
-      "label": "milliseconds on average",
-      "start": 24.78,
-      "end": 30.28
-    },
-    {
-      "type": "reported",
-      "text": "Benchmark rankings cited are AGIBOT's own. (Themes: new AI models and tools; technology trends; AI industry and startup news)",
-      "highlight": "are AGIBOT's own. (Themes: new AI models and tools; technology trends; AI industry and startup news)",
-      "source": "AGIBOT",
-      "start": 39.22,
-      "end": 44.72
-    }
-  ],
-  "s5_malaysia_seizes_12_million_dolla": [
-    {
-      "type": "dateline",
-      "place": "KUALA LUMPUR",
-      "date": null,
-      "start": 0.4,
-      "end": 4.5
-    },
-    {
-      "type": "reported",
-      "text": "Malaysian customs said it seized 30 servers holding advanced AI chips worth about 49.5 million ringgit (around US12 million dollars ) at Kuala Lumpur airport's free-trade zone.",
-      "highlight": "it seized 30 servers holding advanced AI chips worth about 49.5 million ringgit (around US12 million dollars ) at Kuala Lumpur airport's free-trade zone",
-      "source": "CNA",
-      "start": 2.0,
-      "end": 7.5
-    }
-  ],
-  "s6_iit_kharagpur_and_absolute_build": [
-    {
-      "type": "stat",
-      "shown": "$6 MILLION+",
-      "label": "in total across India",
-      "start": 20.98,
-      "end": 26.48
-    }
-  ],
-  "s7_ai_agents_now_start_more_than_40": [
-    {
-      "type": "reported",
-      "text": "GitHub's Octoverse 2026 report says that by September agents were starting more than 40% of pull requests, up from 17% in March.",
-      "highlight": "by September agents were starting more than 40% of pull requests, up from 17% in March",
-      "source": "GitHub",
-      "start": 2.0,
-      "end": 7.5
-    }
-  ],
-  "s8_mistral_releases_large_4_with_a": [
-    {
-      "type": "reported",
-      "text": "French AI company Mistral has publicly released Large 4, a model designed to help organisations identify and fix cybersecurity vulnerabilities.",
-      "highlight": "Large 4, a model designed to help organisations identify and fix cybersecurity vulnerabilities",
-      "source": "Reuters",
-      "start": 2.0,
-      "end": 7.5
-    }
-  ],
-  "s9_report_says_deepseek_and_moonsho": [
-    {
-      "type": "reported",
-      "text": "Reuters reported, citing The Information, that Chinese AI developers DeepSeek and Moonshot AI relied on outputs from OpenAI's GPT-6 Astra to help train their latest models.",
-      "highlight": "Chinese AI developers DeepSeek and Moonshot AI relied on outputs from OpenAI's GPT-6 Astra to help train their latest models",
-      "source": "Reuters",
-      "start": 2.0,
-      "end": 7.5
-    }
-  ],
-  "s10_ibm_pitches_digital_swaraj_with": [
-    {
-      "type": "stat",
-      "shown": "$500 BILLION",
-      "label": "AI opportunity for India by 2030",
-      "start": 6.72,
-      "end": 12.22
-    },
-    {
-      "type": "reported",
-      "text": "The 500 billion dollars figure and product claims are IBM's own. (Theme: AI industry and startup news)",
-      "highlight": "are IBM's own. (Theme: AI industry and startup news)",
-      "source": "ETDataCenters",
-      "start": 23.44,
-      "end": 28.94
+      "shown": "$450 MILLION",
+      "label": "in building connectivity infrastructure in India tuned…",
+      "start": 4.96,
+      "end": 10.46
     }
   ]
 }

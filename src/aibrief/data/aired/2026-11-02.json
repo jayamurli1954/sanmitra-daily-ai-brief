@@ -1,0 +1,486 @@
+{
+  "weekly": false,
+  "date": "2026-11-02",
+  "formattedDate": "02 November 2026",
+  "title": "America is firing up retired | Four of the biggest AI companies | For JPMorgan, Amazon, fighting AI | AI News 02 November 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking this morning: America is firing up retired nuclear reactors to keep its AI data centres running. From the SanMitra Newsroom, this is the Daily AI Brief for 02 November 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_america_is_firing_up_retired_nuc",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "America is firing up retired nuclear reactors to keep its AI data centres running",
+      "subheadline": "Source: Tom's Hardware",
+      "importanceScore": 99,
+      "durationSeconds": 52,
+      "source": "Tom's Hardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/us-takes-unprecedented-step-of-recommissioning-nuclear-plants-due-to-ai-power-demand-2-25-gw-currently-on-tap-from-refurbished-reactors",
+      "researchDesk": "",
+      "script": "Our lead story today. The scramble for electricity to power artificial intelligence has pushed the United States to an unusual step: bringing shut-down nuclear plants back to life. Operators are recommissioning three previously retired reactors expected to return about 2.25 gigawatts to the grid, with the output already spoken for by large technology companies building AI data centres. In parallel, the US Department of Energy is lending the utility Constellation around five billion dollars to uprate reactors at several existing plants, adding roughly a further gigawatt, most of it earmarked for AI operators. Separately, Constellation struck a long-term deal to supply hundreds of megawatts to a major cloud provider's AI campuses. Why it matters: Compute is no longer the only bottleneck for AI; power is.",
+      "whyThisMatters": "The scramble for electricity to power artificial intelligence has pushed the United States to an unusual step: bringing shut-down nuclear plants back to life.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "America is firing up retired nuclear reactors to keep its AI data centres runnin",
+        "Tom's Hardware"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s1_cut1.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s1_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s1_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_four_of_the_biggest_ai_companies",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Four of the biggest AI companies agree on one way for websites to say \"don't train on me\"",
+      "subheadline": "Source: gagadget",
+      "importanceScore": 95,
+      "durationSeconds": 52,
+      "source": "gagadget",
+      "sourceUrl": "https://gagadget.com/en/732472-google-openai-anthropic-and-microsoft-back-one-ai-opt-out/",
+      "researchDesk": "",
+      "script": "Turning to the United States. OpenAI, Google, Microsoft and Anthropic have agreed to honour a single shared signal that lets website owners refuse to have their content used for AI training. Publishers would add a token effectively a \"do not use for AI training\" instruction to the robots.txt file that already governs web crawlers, and the four companies say they will respect it. The draft was written by an Anthropic engineer and is voluntary. Rollout and scope differ: Anthropic has begun honouring it, OpenAI says it will \"in the coming months\", and Microsoft and Google are targeting 2027, with Google's version also covering the data behind Gemini's answers. Why it matters: For years publishers have had no simple, common way to say no to AI training.",
+      "whyThisMatters": "OpenAI, Google, Microsoft and Anthropic have agreed to honour a single shared signal that lets website owners refuse to have their content used for AI training.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Four of the biggest AI companies agree on one way for websites to say \"don't tra",
+        "gagadget"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s2_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s2_cut2.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s2_cut3.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_for_jpmorgan_amazon_fighting_ai",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html",
+      "researchDesk": "",
+      "script": "In other news. As companies from Amazon to JPMorgan block AI personal agents like Meta's Muse, retail experts warn that technology that removes customer friction usually wins.",
+      "whyThisMatters": "As companies from Amazon to JPMorgan block AI personal agents like Meta's Muse, retail experts warn that technology that removes customer friction usually wins.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s3_cut1.jpg",
+          "badge": "MENLO PARK • META HEADQUARTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s3_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s3_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_deepseek_open_sources_its_coding",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "DeepSeek open-sources its coding agent and offers free web search to developers",
+      "subheadline": "Source: OODA Loop",
+      "importanceScore": 90,
+      "durationSeconds": 51,
+      "source": "OODA Loop",
+      "sourceUrl": "https://oodaloop.com/briefs/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices/",
+      "researchDesk": "",
+      "script": "In China. China's DeepSeek has released Harness, an open-source coding and work agent published under a permissive MIT licence, built around an architecture in which everything is a plug-in. Alongside it, the lab put out an open-weight model in its V4.1 line and opened its Search and Fetch tools so they can be called for free from Harness and from rival coding assistants, with the free search offer running through the start of November. The agent is free to use, even as the company raised prices for access to its most capable paid model. Why it matters: Giving away a capable agent and free search undercuts the pricing of Western coding tools and widens the audience for Chinese AI among developers worldwide.",
+      "whyThisMatters": "China's DeepSeek has released Harness, an open-source coding and work agent published under a permissive MIT licence, built around an architecture in which everything is a plug-in.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "DeepSeek open-sources its coding agent and offers free web search to developers",
+        "OODA Loop"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s4_cut1.jpg",
+          "badge": "HANGZHOU • HOME CITY OF DEEPSEEK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s4_cut2.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s4_cut3.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_japan_brings_its_ai_playbook_to",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Japan brings its AI playbook to Southeast Asia's small businesses",
+      "subheadline": "Source: THEPHILBIZNEWS",
+      "importanceScore": 90,
+      "durationSeconds": 54,
+      "source": "THEPHILBIZNEWS",
+      "sourceUrl": "https://thephilbiznews.com/2026/10/08/japan-advances-asean-ai-co-creation-for-msme-growth/",
+      "researchDesk": "",
+      "script": "In Asia. Japan is extending its national AI strategy outward, hosting a focus session with ASEAN countries on a joint initiative to help micro, small and medium-sized firms across the region adopt AI. Japanese companies including Preferred Networks presented work on practical, domain-specific \"vertical\" AI and on \"physical\" AI that builds on the country's manufacturing strengths. It sits on top of Japan's larger domestic push a homegrown AI model and a goal of putting millions of AI-equipped robots to work across more than a dozen sectors by 2040 backed by heavy multi-year government funding, driven in part by a shrinking workforce. Why it matters: Japan is positioning itself as a \"trusted partner\" offering an alternative to the US and Chinese AI ecosystems, pairing exports of technology with governance and skills.",
+      "whyThisMatters": "Japan is extending its national AI strategy outward, hosting a focus session with ASEAN countries on a joint initiative to help micro, small and medium-sized firms across the region adopt AI.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Japan brings its AI playbook to Southeast Asia's small businesses",
+        "THEPHILBIZNEWS"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s5_cut1.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s5_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s5_cut3.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_bihar_approves_an_ai_policy_2026",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Bihar approves an AI Policy 2026 to court AI firms, capability centres and startups",
+      "subheadline": "Source: Elets CIO",
+      "importanceScore": 90,
+      "durationSeconds": 51,
+      "source": "Elets CIO",
+      "sourceUrl": "https://cio.eletsonline.com/artificial-intelligence/bihar-cabinet-approves-ai-policy-2026-incentives-ai-companies-gccs-startups-ai-governance/76513/",
+      "researchDesk": "",
+      "script": "Turning to India. Bihar's state cabinet has cleared an Artificial Intelligence Policy 2026, joining a growing list of Indian states writing their own AI playbooks. The policy offers incentives to attract AI companies, global capability centres and startups to the state, and promises support for homegrown ventures through incubation, financial help, mentoring and better access to markets. It also sets out provisions for AI governance alongside the push for investment and jobs. Why it matters: India's AI story is increasingly being written at the state level, not just in Delhi. States competing on incentives, talent and data-centre-friendly rules will shape where investment and jobs actually land and whether regions outside the established tech hubs can get a share of the AI build-out.",
+      "whyThisMatters": "Bihar's state cabinet has cleared an Artificial Intelligence Policy 2026, joining a growing list of Indian states writing their own AI playbooks.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Bihar approves an AI Policy 2026 to court AI firms, capability centres and start",
+        "Elets CIO"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s6_cut1.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s6_cut2.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s6_cut3.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_norway_raises_its_national_cyber",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Norway raises its national cyber-risk level over AI, warning about agents that act on their own",
+      "subheadline": "Source: Center for Democracy & Technology",
+      "importanceScore": 90,
+      "durationSeconds": 58,
+      "source": "Center for Democracy & Technology",
+      "sourceUrl": "https://cdt.org/insights/cdt-europes-ai-bulletin-october-2026/",
+      "researchDesk": "",
+      "script": "Around the world. Norway's National Security Authority has lifted the country's national cyber-risk level to high, pointing specifically to large language models and agentic AI systems that can take actions, not just answer questions. The authority warns that the same tools that help defenders are lowering the skill and effort attackers need, letting them probe networks, write malicious code and run intrusions faster and at larger scale. It is one of the clearest moves yet by a national security agency to treat autonomous AI as a standing threat rather than a future risk. Why it matters: When a government formally raises its threat level because of AI, it signals that agentic systems have moved from research demonstrations to a live concern for critical infrastructure, business and ordinary users alike. European regulators and security agencies are increasingly aligned on this warning.",
+      "whyThisMatters": "Norway's National Security Authority has lifted the country's national cyber-risk level to high, pointing specifically to large language models and agentic AI — systems that can take actions, not just answer questions.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Norway raises its national cyber-risk level over AI, warning about agents that a",
+        "Center for Democracy & Technology"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s7_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s7_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s7_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_ai_is_stealing_indigenous_austra",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "AI is stealing Indigenous Australian art and churning out ‘Temu slop’, artist says",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 38,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb",
+      "researchDesk": "",
+      "script": "Next. Chair of National Gallery’s First Nations advisory group says the technology is undermining artists’ agency and the authenticity of their work Get our breaking news email , free app or daily news podcast AI is taking First Nations art and turning it into “Temu slop”, the Pitjantjatjara artist Sally Scales has said. Scales, the chair of the National Gallery of Australia’s First Nations advisory group, said the technology is undermining the agency of First Nations artists and the authenticity of their work and represents a “a theft” of cultural knowledge.",
+      "whyThisMatters": "Chair of National Gallery’s First Nations advisory group says the technology is undermining artists’ agency and the authenticity of their work Get our breaking news email , free app or daily news podcast AI is taking Fir",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI is stealing Indigenous Australian art and churning out ‘Temu slop’, artist sa",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s8_cut1.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s8_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s8_cut3.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_disquiet_grows_in_albanese_s_bac",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 42,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west",
+      "researchDesk": "",
+      "script": "Elsewhere. Inner west Sydney seat has long been safely held by the PM but potential changes to copyright laws are angering its large creative community Get our daily political email , free app or daily news podcast The prime minister is facing growing discontent within his own electorate as creatives push back against the federal government’s proposal to allow AI companies to scrape everything Australians create online. Anthony Albanese’s seat of Grayndler in Sydney’s inner west is home to more than 3,000 cultural and creative businesses, and 10% of its workers are employed in cultural and creative fields compared with 4.2% nationally.",
+      "whyThisMatters": "Inner west Sydney seat has long been safely held by the PM – but potential changes to copyright laws are angering its large creative community Get our daily political email , free app or daily news podcast The prime mini",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insan",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s9_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s9_cut2.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY • CUT 2",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s9_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 3",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_tata_communications_plans_a_450",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Tata Communications plans a 450-million-dollar bet on AI-ready connectivity in India",
+      "subheadline": "Source: Local Samosa",
+      "importanceScore": 90,
+      "durationSeconds": 55,
+      "source": "Local Samosa",
+      "sourceUrl": "https://www.localsamosa.com/news/startup-roundup-fifth-week-of-october-2026-12767345",
+      "researchDesk": "",
+      "script": "Turning to India. Tata Communications has outlined plans to invest about 450 million dollars in building connectivity infrastructure in India tuned for artificial intelligence the high-capacity, low-latency networking that links data centres, enterprises and AI services. The commitment comes as demand for AI compute inside India drives a wave of spending on the plumbing underneath it, from subsea and terrestrial links to the networks that move data between AI facilities. Why it matters: Running AI at national scale is not only about chips and data centres; it depends on the networks that connect them. Investment of this size signals that Indian operators expect sustained domestic demand for AI services, and it is the kind of infrastructure spending that quietly determines how fast and how affordably AI reaches businesses and users across the country.",
+      "whyThisMatters": "Tata Communications has outlined plans to invest about 450 million dollars in building connectivity infrastructure in India tuned for artificial intelligence — the high-capacity, low-latency networking that links data ce",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Tata Communications plans a 450-million-dollar bet on AI-ready connectivity in I",
+        "Local Samosa"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s10_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s10_cut2.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-02/s10_cut3.jpg",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "panDirection": "zoomIn"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. America is firing up retired nuclear reactors to keep its AI data centres running. Four of the biggest AI companies agree on one way for websites to say \"don't train on me\". For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy. DeepSeek open-sources its coding agent and offers free web search to developers. Japan brings its AI playbook to Southeast Asia's small businesses. Bihar approves an AI Policy 2026 to court AI firms, capability centres and startups.",
+    "items": [
+      "✓ America is firing up retired nuclear reactors to",
+      "✓ Four of the biggest AI companies agree on one wa",
+      "✓ For JPMorgan, Amazon, fighting AI bots like Meta",
+      "✓ DeepSeek open-sources its coding agent and offer",
+      "✓ Japan brings its AI playbook to Southeast Asia's",
+      "✓ Bihar approves an AI Policy 2026 to court AI fir",
+      "✓ Norway raises its national cyber-risk level over"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "America is firing up retired nuclear reactors",
+    "Four of the biggest AI companies agree on one",
+    "For JPMorgan, Amazon, fighting AI bots like M",
+    "DeepSeek open-sources its coding agent and of",
+    "Japan brings its AI playbook to Southeast Asi",
+    "Bihar approves an AI Policy 2026 to court AI ",
+    "Norway raises its national cyber-risk level o",
+    "AI is stealing Indigenous Australian art and ",
+    "Disquiet grows in Albanese’s back yard as Gra",
+    "Tata Communications plans a 450-million-dolla"
+  ],
+  "thumbnail": {
+    "date": "02 NOVEMBER 2026",
+    "headline": "AMERICA IS FIRING UP RETIRED NUCLEAR",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "AMERICA IS FIRING UP RETIRED",
+      "FOUR OF THE BIGGEST AI COMPANIES",
+      "FOR JPMORGAN, AMAZON, FIGHTING AI",
+      "DEEPSEEK OPEN-SOURCES ITS CODING"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "America is firing up retired | Four of the biggest AI companies | For JPMorgan, Amazon, fighting AI | AI News 02 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 02 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}
