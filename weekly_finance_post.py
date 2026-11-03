@@ -156,7 +156,7 @@ def render(monday, picked):
     lines += [
         "Which of these is already showing up in your firm or finance team? I would like to hear in the comments.",
         "",
-        f"🔔 The daily AI brief, every morning at 9:30 AM IST: {CHANNEL_URL}",
+        f"🔔 The daily AI brief, every evening at 9:30 PM IST: {CHANNEL_URL}",
         "",
         "#Accounting #Finance #CharteredAccountants #AIinFinance #Audit #SanMitraAINewsWire",
     ]

@@ -1,5 +1,5 @@
 @echo off
-REM Double-click to check tomorrow's editor brief (prompts\editor\<date>.md).
+REM Double-click to check tonight's editor brief (prompts\editor\<date>.md).
 cd /d "%~dp0"
 set PYTHONIOENCODING=utf-8
 set PYTHONUTF8=1

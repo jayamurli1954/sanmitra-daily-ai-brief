@@ -1,7 +1,7 @@
 """
 Check the editor's brief before the night run picks it up.
 
-    python check_editor_brief.py              # tomorrow's file (today's after midnight)
+    python check_editor_brief.py              # tonight's file (tomorrow's from 8 PM)
     python check_editor_brief.py 2026-10-15   # a specific air date
 
 Reads prompts/editor/<date>.md the same way the night run does and reports
@@ -38,9 +38,9 @@ Regions: # WORLD, # USA, # CHINA, # ASIA, # INDIA. Put the most important story 
 
 
 def default_date() -> str:
-    # In the evening the file is for tomorrow morning; after midnight, for today.
+    # Before 8 PM the file is for tonight's 9:30 PM episode; from 8 PM, for tomorrow's.
     now = datetime.now()
-    return (now + timedelta(days=1) if now.hour >= 6 else now).strftime("%Y-%m-%d")
+    return (now + timedelta(days=1) if now.hour >= 20 else now).strftime("%Y-%m-%d")
 
 
 def check(date: str, editor_dir: str = os.path.join("prompts", "editor")) -> int:

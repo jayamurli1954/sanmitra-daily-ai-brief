@@ -1,7 +1,7 @@
 # Editor's brief
 
-Save your own stories here as `YYYY-MM-DD.md`, named for the **morning the episode airs**
-(tonight's file for Wednesday 14 October is `2026-10-14.md`). Save it before the 10:15 PM run.
+Save your own stories here as `YYYY-MM-DD.md`, named for the **day the episode airs** at 9:30 PM
+(Wednesday 14 October's file is `2026-10-14.md`). Save it before the 7:00 PM run.
 
 Use the usual brief format. Every story needs a `Source:` line and a link:
 
@@ -23,7 +23,7 @@ One or two paragraphs summarising the story.
 
 Regions: `WORLD`, `USA`, `CHINA`, `ASIA`, `INDIA`.
 
-Your **first story is the day's lead**, whatever its region: the episode opens with it ("Breaking this morning: ...") and it becomes the day's Short.
+Your **first story is the day's lead**, whatever its region: the episode opens with it ("Breaking today: ...") and it becomes the day's Short.
 
 An episode has 8-9 stories of about 50-60 seconds each (under 10 minutes). Your stories
 go first, in the order you list them; if you send more than 9, the extras are left out,

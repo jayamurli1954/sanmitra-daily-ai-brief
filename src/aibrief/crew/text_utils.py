@@ -222,18 +222,24 @@ def parse_published(value):
 
 
 def broadcast_reference_time(target_date):
-    """06:00 IST on the broadcast date: the moment the episode goes out."""
+    """19:00 IST on the broadcast date: when the evening run collects the news."""
     day = datetime.strptime(target_date, "%Y-%m-%d")
-    return day.replace(hour=6, tzinfo=IST).astimezone(timezone.utc)
+    return day.replace(hour=19, tzinfo=IST).astimezone(timezone.utc)
 
 
-def is_recent(published, target_date, max_age_hours=36):
-    """True if published falls in the window before the broadcast. Unknown dates fail."""
+def broadcast_window_start(target_date):
+    """21:30 IST the day before: when the previous episode went out."""
+    day = datetime.strptime(target_date, "%Y-%m-%d") - timedelta(days=1)
+    return day.replace(hour=21, minute=30, tzinfo=IST).astimezone(timezone.utc)
+
+
+def is_recent(published, target_date):
+    """True if published falls between the previous episode and this run (9:30 PM to 7 PM IST,
+    plus an hour for stories that land while the run is going). Unknown dates fail."""
     dt = parse_published(published)
     if dt is None:
         return False
-    ref = broadcast_reference_time(target_date)
-    return ref - timedelta(hours=max_age_hours) <= dt <= ref + timedelta(hours=1)
+    return broadcast_window_start(target_date) <= dt <= broadcast_reference_time(target_date) + timedelta(hours=1)
 
 
 # ---------------------------------------------------------------------------
