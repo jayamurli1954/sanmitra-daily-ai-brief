@@ -6,15 +6,22 @@ article, and the anchors would otherwise read those sentences out word for word.
 Before the episode is built, Claude rewrites every story body in prompts/<date>.md
 in our own words: same facts, new sentences, the outlet credited once.
 
+Claude runs through Claude Code (`claude -p`) on the user's Claude subscription,
+not an API key: ANTHROPIC_API_KEY is removed from its environment so it cannot
+bill the API. The PC must be signed in once with `claude auth login`.
+
 A rewrite that states a figure the original text does not is retried once, then
-the original text is kept and the QA summary says so. Without ANTHROPIC_API_KEY,
-or when the API fails, the prompt is left as it is.
+the original text is kept and the QA summary says so. When Claude Code cannot
+run (signed out, usage limit), the prompt is left as it is.
 """
 
 import json
 import logging
 import os
 import re
+import shutil
+import subprocess
+import tempfile
 
 from .text_utils import unsupported_quantities
 
@@ -81,28 +88,35 @@ def story_bodies(lines):
     return [s for s in stories if s["body"]]
 
 
-def _ask_claude(client, items):
-    """{id: rewritten text} for the given [{id, headline, source, text}]."""
-    response = client.beta.messages.create(
-        model=MODEL,
-        max_tokens=16000,
-        betas=["server-side-fallback-2026-07-01"],
-        extra_body={"fallbacks": "default"},  # stories about hacking or weapons can trip a safety classifier
-        system=SYSTEM,
-        output_config={"effort": "medium", "format": {"type": "json_schema", "schema": SCHEMA}},
-        messages=[{"role": "user", "content": json.dumps({"stories": items}, ensure_ascii=False)}],
-    )
-    if response.stop_reason != "end_turn":
-        raise RuntimeError(f"rewrite stopped early ({response.stop_reason})")
-    text = next(b.text for b in response.content if b.type == "text")
-    return {s["id"]: s["text"].strip() for s in json.loads(text)["stories"] if s["text"].strip()}
+def _claude_command():
+    exe = shutil.which("claude") or os.path.join(os.path.expanduser("~"), ".local", "bin", "claude.exe")
+    # No tools, MCP servers, project settings or saved session: a plain text-in, JSON-out call.
+    return [exe, "-p", "--model", MODEL, "--effort", "medium", "--tools", "", "--strict-mcp-config",
+            "--setting-sources", "", "--no-session-persistence", "--output-format", "json",
+            "--system-prompt", SYSTEM, "--json-schema", json.dumps(SCHEMA)]
+
+
+def _ask_claude(items, run=subprocess.run):
+    """{id: rewritten text} for the given [{id, headline, source, text, words}]."""
+    env = {k: v for k, v in os.environ.items() if k not in ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN")}
+    done = run(_claude_command(), input=json.dumps({"stories": items}, ensure_ascii=False),
+               capture_output=True, text=True, encoding="utf-8", timeout=900, env=env,
+               cwd=tempfile.gettempdir())
+    try:
+        result = json.loads(done.stdout)
+    except ValueError:
+        raise RuntimeError(f"Claude Code failed: {(done.stderr or done.stdout or '').strip()[:200]}")
+    if result.get("is_error"):
+        raise RuntimeError(f"Claude Code: {result.get('result')}")
+    data = result.get("structured_output") or json.loads(result["result"])
+    return {s["id"]: s["text"].strip() for s in data["stories"] if s["text"].strip()}
 
 
 def _new_figures(rewritten, original):
     return unsupported_quantities(rewritten, original)
 
 
-def rewrite_prompt_stories(prompt_path, client=None):
+def rewrite_prompt_stories(prompt_path, run=subprocess.run):
     """Rewrite each story body in the prompt in our own words. Returns QA warnings."""
     with open(prompt_path, "r", encoding="utf-8") as f:
         md = f.read()
@@ -113,22 +127,16 @@ def rewrite_prompt_stories(prompt_path, client=None):
     if not stories:
         return []
 
-    if client is None:
-        if not os.environ.get("ANTHROPIC_API_KEY"):
-            return ["Story text was NOT rewritten (no ANTHROPIC_API_KEY): anchors read the outlets' own sentences."]
-        import anthropic
-        client = anthropic.Anthropic()
-
     originals = {i: " ".join(lines[n].strip() for n in s["body"]) for i, s in enumerate(stories)}
     items = [{"id": i, "headline": s["headline"], "source": s["source"], "text": originals[i],
               "words": min(MAX_WORDS, len(originals[i].split()))}
              for i, s in enumerate(stories)]
     try:
-        rewritten = _ask_claude(client, items)
+        rewritten = _ask_claude(items, run)
         retry = [it for it in items if it["id"] not in rewritten
                  or _new_figures(rewritten[it["id"]], originals[it["id"]])]
         if retry:
-            rewritten.update(_ask_claude(client, retry))
+            rewritten.update(_ask_claude(retry, run))
     except Exception as e:
         logger.warning(f"Story rewrite failed: {e}")
         return [f"Story text was NOT rewritten ({e}): anchors read the outlets' own sentences."]
