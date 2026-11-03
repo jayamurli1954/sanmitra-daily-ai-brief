@@ -58,7 +58,7 @@ class WeeklyFinancePostTest(unittest.TestCase):
         self.assertIn("AI for Accountants: the week of 19 to 25 October 2026", text)
         self.assertIn("👉 What it means for accountants:", text)
         self.assertIn("https://youtu.be/abcdefghijk", text)
-        self.assertIn("9:30 AM IST", text)
+        self.assertIn("9:30 PM IST", text)
         self.assertLessEqual(len(text), w.LINKEDIN_LIMIT)
 
 

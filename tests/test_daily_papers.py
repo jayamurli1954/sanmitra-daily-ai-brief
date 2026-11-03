@@ -19,7 +19,7 @@ def entry(title, upvotes, featured="2026-10-14T00:00:00.000Z", pid="2610.00001")
 
 class FetchDailyPaperTest(unittest.TestCase):
     def fetch(self, entries):
-        h = NewsHarvester(target_date="2026-10-15")
+        h = NewsHarvester(target_date="2026-10-14")
         with mock.patch.object(h, "_get_json", return_value=entries) as get:
             items = h.fetch_daily_paper()
         self.assertIn("date=2026-10-14", get.call_args[0][0])  # the day the episode covers

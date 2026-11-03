@@ -5,7 +5,7 @@ published in the window before the broadcast, and fetches the full article
 text that the fact-checker verifies against.
 """
 
-from datetime import datetime, timedelta
+from datetime import datetime
 import json
 import logging
 import re
@@ -74,7 +74,6 @@ AI_KEYWORDS = [
     "data center", "data centre", "supercomputer", "humanoid", "robotics", "hugging face",
 ]
 
-MAX_AGE_HOURS = 36
 
 
 def is_ai_story(title, summary=""):
@@ -91,9 +90,8 @@ def _entry_published(entry):
 class NewsHarvester:
     """Harvests candidate AI stories from the window before the broadcast."""
 
-    def __init__(self, target_date=None, max_age_hours=MAX_AGE_HOURS):
+    def __init__(self, target_date=None):
         self.target_date = target_date or datetime.now(IST).strftime("%Y-%m-%d")
-        self.max_age_hours = max_age_hours
 
     def fetch_feed_items(self):
         """Parse RSS/Atom feeds using feedparser or a regex fallback."""
@@ -245,7 +243,7 @@ class NewsHarvester:
                 rejected["election"] += 1
                 continue
             published = item.get("published", "")
-            if parse_published(published) is not None and not is_recent(published, self.target_date, self.max_age_hours):
+            if parse_published(published) is not None and not is_recent(published, self.target_date):
                 rejected["stale"] += 1
                 continue
             if parse_published(published) is None and item.get("origin") == "feed":
@@ -274,7 +272,7 @@ class NewsHarvester:
         """The most upvoted paper on Hugging Face Daily Papers for the day the
         episode covers, as a candidate citing its arXiv page; [] if none
         reaches MIN_PAPER_UPVOTES."""
-        covered = (datetime.strptime(self.target_date, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
+        covered = self.target_date  # the evening episode covers its own day
         try:
             entries = self._get_json(f"{self.DAILY_PAPERS_API}?date={covered}") or []
         except Exception as e:

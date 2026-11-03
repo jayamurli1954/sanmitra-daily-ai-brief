@@ -25,7 +25,7 @@ from src.aibrief.crew.prompt_writer import append_stories
 from validate_episode_sources import duplicate_events, research_text, source_appears_in_prompt, unsupported_figures
 
 DATE = "2026-10-10"
-FRESH = "2026-10-09T14:00:00+00:00"   # inside the window before 06:00 IST on DATE
+FRESH = "2026-10-10T06:00:00+00:00"   # 11:30 IST on DATE: between 21:30 IST the day before and 19:00 IST
 STALE = "2026-10-05T14:00:00+00:00"
 
 ARTICLE = (
@@ -57,7 +57,10 @@ class HarvestFilterTests(unittest.TestCase):
         self.assertTrue(is_recent(FRESH, DATE))
         self.assertFalse(is_recent(STALE, DATE))
         self.assertFalse(is_recent("", DATE))
-        self.assertTrue(is_recent("Fri, 09 Oct 2026 10:00:00 GMT", DATE))
+        self.assertTrue(is_recent("Sat, 10 Oct 2026 10:00:00 GMT", DATE))
+        self.assertFalse(is_recent("2026-10-09T15:45:00+00:00", DATE))  # 21:15 IST, before the last episode
+        self.assertTrue(is_recent("2026-10-09T16:15:00+00:00", DATE))   # 21:45 IST, after it
+        self.assertFalse(is_recent("2026-10-10T14:45:00+00:00", DATE))  # 20:15 IST, after the run
 
     def test_filter_drops_stale_undated_and_non_ai(self):
         harvester = NewsHarvester(target_date=DATE)
