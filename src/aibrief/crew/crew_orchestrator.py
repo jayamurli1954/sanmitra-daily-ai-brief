@@ -30,6 +30,7 @@ from .fact_checker import MAX_EPISODE_STORIES, MIN_EPISODE_STORIES, FactChecker
 from .linkedin_publisher import LinkedInPublisher
 from .news_harvester import NewsHarvester
 from .prompt_writer import append_stories, write_prompt
+from .story_rewriter import rewrite_prompt_stories
 from .text_utils import IST
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -244,6 +245,9 @@ def run_autonomous_crew(target_date=None, force_visuals=False):
             return give_up(f"Only {len(verified)} stories passed fact-checking (minimum {MIN_EPISODE_STORIES}). No episode today.")
         write_prompt(verified, target_date)
         prompt_origin = f"crew-drafted prompt {prompt_path}"
+
+    # Anchors read our own words, not the outlets' sentences.
+    warnings += rewrite_prompt_stories(prompt_path)
 
     episode = _build_episode(prompt_path, target_date)
     if not episode:
