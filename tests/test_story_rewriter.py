@@ -39,15 +39,13 @@ HSBC will open an AI institute in Hong Kong after Singapore.
 """
 
 
-def fake_client(*replies):
-    """A client whose beta.messages.create returns each reply ({id: text}) in turn."""
-    responses = [SimpleNamespace(
-        stop_reason="end_turn",
-        content=[SimpleNamespace(type="text", text=json.dumps(
-            {"stories": [{"id": i, "text": t} for i, t in r.items()]}))])
+def fake_claude(*replies):
+    """A subprocess.run stand-in: `claude -p` returns each reply ({id: text}) in turn."""
+    outputs = [SimpleNamespace(returncode=0, stderr="", stdout=json.dumps({
+        "type": "result", "is_error": False, "result": "",
+        "structured_output": {"stories": [{"id": i, "text": t} for i, t in r.items()]}}))
         for r in replies]
-    create = mock.Mock(side_effect=responses)
-    return SimpleNamespace(beta=SimpleNamespace(messages=SimpleNamespace(create=create))), create
+    return mock.Mock(side_effect=outputs)
 
 
 class StoryRewriterTest(unittest.TestCase):
@@ -64,17 +62,21 @@ class StoryRewriterTest(unittest.TestCase):
             return f.read()
 
     def test_bodies_are_replaced_and_links_kept(self):
-        client, create = fake_client({
+        run = fake_claude({
             0: "The Guardian reports that 29 trusts named by NHS England say the £330m platform is not live.",
             1: "HSBC plans an AI institute in Hong Kong, The Economic Times reports.",
         })
-        self.assertEqual(rewrite_prompt_stories(self.path, client=client), [])
+        with mock.patch.dict(os.environ, {"ANTHROPIC_API_KEY": "sk-test"}):
+            self.assertEqual(rewrite_prompt_stories(self.path, run=run), [])
         md = self.read()
         self.assertNotIn("can reveal", md)
         self.assertIn("Source: The Guardian\nhttps://www.theguardian.com/technology/2026/nov/02/palantir-nhs", md)
         self.assertIn("Lead: yes", md)
         self.assertIn(MARKER, md)
-        sent = json.loads(create.call_args.kwargs["messages"][0]["content"])["stories"]
+        args, kwargs = run.call_args
+        self.assertEqual(args[0][1], "-p")
+        self.assertNotIn("ANTHROPIC_API_KEY", kwargs["env"])  # the subscription pays, not the API key
+        sent = json.loads(kwargs["input"])["stories"]
         self.assertEqual([s["source"] for s in sent], ["The Guardian", "The Economic Times"])
         self.assertEqual(sent[1]["words"], 11)  # a short text asks for a short story
         stories = parse_markdown_prompt(md)["stories"]
@@ -82,12 +84,12 @@ class StoryRewriterTest(unittest.TestCase):
         self.assertIn("HSBC plans an AI institute", " ".join(s["script"] for s in stories))
 
     def test_a_new_figure_is_retried_then_the_original_kept(self):
-        client, create = fake_client(
+        run = fake_claude(
             {0: "The Guardian says 31 trusts are not using it.", 1: "HSBC plans a Hong Kong institute."},
             {0: "The Guardian says 31 trusts are not using it."},
         )
-        warnings = rewrite_prompt_stories(self.path, client=client)
-        self.assertEqual(create.call_count, 2)
+        warnings = rewrite_prompt_stories(self.path, run=run)
+        self.assertEqual(run.call_count, 2)
         self.assertEqual(len(warnings), 1)
         self.assertIn("Palantir", warnings[0])
         md = self.read()
@@ -95,23 +97,45 @@ class StoryRewriterTest(unittest.TestCase):
         self.assertIn("HSBC plans a Hong Kong institute.", md)
 
     def test_a_rewritten_prompt_is_not_sent_again(self):
-        client, create = fake_client({0: "One.", 1: "Two."})
-        rewrite_prompt_stories(self.path, client=client)
-        self.assertEqual(rewrite_prompt_stories(self.path, client=client), [])
-        self.assertEqual(create.call_count, 1)
+        run = fake_claude({0: "One.", 1: "Two."})
+        rewrite_prompt_stories(self.path, run=run)
+        self.assertEqual(rewrite_prompt_stories(self.path, run=run), [])
+        self.assertEqual(run.call_count, 1)
 
-    def test_api_failure_leaves_the_prompt_unchanged(self):
-        create = mock.Mock(side_effect=RuntimeError("overloaded"))
-        client = SimpleNamespace(beta=SimpleNamespace(messages=SimpleNamespace(create=create)))
-        warnings = rewrite_prompt_stories(self.path, client=client)
+    def test_signed_out_leaves_the_prompt_unchanged(self):
+        run = mock.Mock(return_value=SimpleNamespace(returncode=1, stderr="", stdout=json.dumps(
+            {"type": "result", "is_error": True, "result": "Not logged in · Please run /login"})))
+        with mock.patch.dict(os.environ, {}, clear=True):
+            warnings = rewrite_prompt_stories(self.path, run=run)
+        self.assertIn("NOT rewritten", warnings[0])
+        self.assertIn("Not logged in", warnings[0])
+        self.assertEqual(self.read(), PROMPT)
+
+    def test_claude_code_missing_leaves_the_prompt_unchanged(self):
+        run = mock.Mock(side_effect=FileNotFoundError("claude"))
+        with mock.patch.dict(os.environ, {}, clear=True):
+            warnings = rewrite_prompt_stories(self.path, run=run)
         self.assertIn("NOT rewritten", warnings[0])
         self.assertEqual(self.read(), PROMPT)
 
-    def test_no_api_key_is_a_warning(self):
-        with mock.patch.dict(os.environ, {}, clear=True):
-            warnings = rewrite_prompt_stories(self.path)
-        self.assertIn("no ANTHROPIC_API_KEY", warnings[0])
-        self.assertEqual(self.read(), PROMPT)
+    def test_api_key_takes_over_when_the_subscription_cannot_run(self):
+        run = mock.Mock(return_value=SimpleNamespace(returncode=1, stderr="", stdout=json.dumps(
+            {"type": "result", "is_error": True, "result": "Claude usage limit reached"})))
+        api = mock.Mock(return_value={0: "The Guardian says 29 trusts are not using it.", 1: "HSBC plans an institute."})
+        with mock.patch.dict(os.environ, {"ANTHROPIC_API_KEY": "sk-test"}):
+            warnings = rewrite_prompt_stories(self.path, run=run, api=api)
+        self.assertEqual(api.call_count, 1)
+        self.assertEqual(len(warnings), 1)
+        self.assertIn("API key", warnings[0])
+        self.assertIn("usage limit", warnings[0])
+        self.assertIn("HSBC plans an institute.", self.read())
+
+    def test_the_subscription_is_used_when_it_works(self):
+        run = fake_claude({0: "One.", 1: "Two."})
+        api = mock.Mock()
+        with mock.patch.dict(os.environ, {"ANTHROPIC_API_KEY": "sk-test"}):
+            self.assertEqual(rewrite_prompt_stories(self.path, run=run, api=api), [])
+        api.assert_not_called()
 
 
 if __name__ == "__main__":
