@@ -105,16 +105,37 @@ class StoryRewriterTest(unittest.TestCase):
     def test_signed_out_leaves_the_prompt_unchanged(self):
         run = mock.Mock(return_value=SimpleNamespace(returncode=1, stderr="", stdout=json.dumps(
             {"type": "result", "is_error": True, "result": "Not logged in · Please run /login"})))
-        warnings = rewrite_prompt_stories(self.path, run=run)
+        with mock.patch.dict(os.environ, {}, clear=True):
+            warnings = rewrite_prompt_stories(self.path, run=run)
         self.assertIn("NOT rewritten", warnings[0])
         self.assertIn("Not logged in", warnings[0])
         self.assertEqual(self.read(), PROMPT)
 
     def test_claude_code_missing_leaves_the_prompt_unchanged(self):
         run = mock.Mock(side_effect=FileNotFoundError("claude"))
-        warnings = rewrite_prompt_stories(self.path, run=run)
+        with mock.patch.dict(os.environ, {}, clear=True):
+            warnings = rewrite_prompt_stories(self.path, run=run)
         self.assertIn("NOT rewritten", warnings[0])
         self.assertEqual(self.read(), PROMPT)
+
+    def test_api_key_takes_over_when_the_subscription_cannot_run(self):
+        run = mock.Mock(return_value=SimpleNamespace(returncode=1, stderr="", stdout=json.dumps(
+            {"type": "result", "is_error": True, "result": "Claude usage limit reached"})))
+        api = mock.Mock(return_value={0: "The Guardian says 29 trusts are not using it.", 1: "HSBC plans an institute."})
+        with mock.patch.dict(os.environ, {"ANTHROPIC_API_KEY": "sk-test"}):
+            warnings = rewrite_prompt_stories(self.path, run=run, api=api)
+        self.assertEqual(api.call_count, 1)
+        self.assertEqual(len(warnings), 1)
+        self.assertIn("API key", warnings[0])
+        self.assertIn("usage limit", warnings[0])
+        self.assertIn("HSBC plans an institute.", self.read())
+
+    def test_the_subscription_is_used_when_it_works(self):
+        run = fake_claude({0: "One.", 1: "Two."})
+        api = mock.Mock()
+        with mock.patch.dict(os.environ, {"ANTHROPIC_API_KEY": "sk-test"}):
+            self.assertEqual(rewrite_prompt_stories(self.path, run=run, api=api), [])
+        api.assert_not_called()
 
 
 if __name__ == "__main__":

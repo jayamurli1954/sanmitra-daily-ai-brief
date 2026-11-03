@@ -6,13 +6,15 @@ article, and the anchors would otherwise read those sentences out word for word.
 Before the episode is built, Claude rewrites every story body in prompts/<date>.md
 in our own words: same facts, new sentences, the outlet credited once.
 
-Claude runs through Claude Code (`claude -p`) on the user's Claude subscription,
-not an API key: ANTHROPIC_API_KEY is removed from its environment so it cannot
-bill the API. The PC must be signed in once with `claude auth login`.
+Claude runs through Claude Code (`claude -p`) on the user's Claude subscription;
+ANTHROPIC_API_KEY is removed from its environment so it cannot bill the API. The
+PC must be signed in once with `claude auth login`. When Claude Code cannot run
+(signed out, 5-hour usage limit), the same request goes to the Claude API on
+ANTHROPIC_API_KEY instead, and the QA summary says the key paid.
 
 A rewrite that states a figure the original text does not is retried once, then
-the original text is kept and the QA summary says so. When Claude Code cannot
-run (signed out, usage limit), the prompt is left as it is.
+the original text is kept and the QA summary says so. When neither can run, the
+prompt is left as it is.
 """
 
 import json
@@ -112,11 +114,43 @@ def _ask_claude(items, run=subprocess.run):
     return {s["id"]: s["text"].strip() for s in data["stories"] if s["text"].strip()}
 
 
+def _ask_api(items):
+    """The same request through the Claude API, billed to ANTHROPIC_API_KEY."""
+    import anthropic
+    response = anthropic.Anthropic().beta.messages.create(
+        model=MODEL,
+        max_tokens=16000,
+        betas=["server-side-fallback-2026-07-01"],
+        extra_body={"fallbacks": "default"},  # stories about hacking or weapons can trip a safety classifier
+        system=SYSTEM,
+        output_config={"effort": "medium", "format": {"type": "json_schema", "schema": SCHEMA}},
+        messages=[{"role": "user", "content": json.dumps({"stories": items}, ensure_ascii=False)}],
+    )
+    if response.stop_reason != "end_turn":
+        raise RuntimeError(f"rewrite stopped early ({response.stop_reason})")
+    text = next(b.text for b in response.content if b.type == "text")
+    return {s["id"]: s["text"].strip() for s in json.loads(text)["stories"] if s["text"].strip()}
+
+
+def _ask(items, run, api, notes):
+    """Claude Code on the subscription first; the API key only when that fails."""
+    try:
+        return _ask_claude(items, run)
+    except Exception as e:
+        if not os.environ.get("ANTHROPIC_API_KEY"):
+            raise
+        note = f"Rewritten with the API key, not the Claude subscription ({e})."
+        if note not in notes:
+            logger.warning(note)
+            notes.append(note)
+        return api(items)
+
+
 def _new_figures(rewritten, original):
     return unsupported_quantities(rewritten, original)
 
 
-def rewrite_prompt_stories(prompt_path, run=subprocess.run):
+def rewrite_prompt_stories(prompt_path, run=subprocess.run, api=_ask_api):
     """Rewrite each story body in the prompt in our own words. Returns QA warnings."""
     with open(prompt_path, "r", encoding="utf-8") as f:
         md = f.read()
@@ -131,17 +165,18 @@ def rewrite_prompt_stories(prompt_path, run=subprocess.run):
     items = [{"id": i, "headline": s["headline"], "source": s["source"], "text": originals[i],
               "words": min(MAX_WORDS, len(originals[i].split()))}
              for i, s in enumerate(stories)]
+    notes = []
     try:
-        rewritten = _ask_claude(items, run)
+        rewritten = _ask(items, run, api, notes)
         retry = [it for it in items if it["id"] not in rewritten
                  or _new_figures(rewritten[it["id"]], originals[it["id"]])]
         if retry:
-            rewritten.update(_ask_claude(retry, run))
+            rewritten.update(_ask(retry, run, api, notes))
     except Exception as e:
         logger.warning(f"Story rewrite failed: {e}")
         return [f"Story text was NOT rewritten ({e}): anchors read the outlets' own sentences."]
 
-    warnings, replaced = [], {}
+    warnings, replaced = notes, {}
     for i, s in enumerate(stories):
         text = rewritten.get(i, "")
         extra = _new_figures(text, originals[i]) if text else ["no rewrite returned"]
@@ -160,5 +195,5 @@ def rewrite_prompt_stories(prompt_path, run=subprocess.run):
     out[first:first] = [MARKER, ""]
     with open(prompt_path, "w", encoding="utf-8") as f:
         f.write("\n".join(out) + "\n")
-    logger.info(f"Rewrote {len(stories) - len(warnings)} of {len(stories)} stories in {prompt_path}")
+    logger.info(f"Rewrote {sum(v is not None for v in replaced.values())} of {len(stories)} stories in {prompt_path}")
     return warnings
