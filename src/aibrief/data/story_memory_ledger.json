@@ -1,142 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-03",
   "stories": [
-    {
-      "story_id": "story_20261020_australia_s_ghost_shark_drone_subs_",
-      "story_chain_id": "chain_global_australia_s_ghost_sh",
-      "headline": "Australia's Ghost Shark drone subs will carry armed drones and sea mines",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.abc.net.au/news/2026-10-19/ghost-shark-fleet-aerial-drones-sea-mines-defence/107283746"
-      ],
-      "first_covered": "2026-10-20",
-      "last_major_update": "2026-10-20",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261020_anthropic_commits_5_of_its_shares_t",
-      "story_chain_id": "chain_global_anthropic_commits_5_",
-      "headline": "Anthropic commits 5% of its shares to a Public Benefit Fund",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.anthropic.com/news/public-benefit-fund"
-      ],
-      "first_covered": "2026-10-20",
-      "last_major_update": "2026-10-20",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261020_tenstorrent_raises_1_5_billion_doll",
-      "story_chain_id": "chain_global_tenstorrent_raises_1",
-      "headline": "Tenstorrent raises 1.5 billion dollars at a 6.2 billion dollars valuation",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://tenstorrent.com/en/newsroom/tenstorrent-announces-series-e"
-      ],
-      "first_covered": "2026-10-20",
-      "last_major_update": "2026-10-20",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261020_minimax_ships_m3_1_flash_cutting_pr",
-      "story_chain_id": "chain_global_minimax_ships_m3_1_f",
-      "headline": "MiniMax ships M3.1 Flash, cutting prices as the Flash-model race heats up",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://www.investing.com/news/stock-market-news/chinas-minimax-launches-updated-ai-model-m31-flash-claims-major-improvements-4957342"
-      ],
-      "first_covered": "2026-10-20",
-      "last_major_update": "2026-10-20",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261020_seoul_hosts_the_first_global_ai_dig",
-      "story_chain_id": "chain_global_seoul_hosts_the_firs",
-      "headline": "Seoul hosts the first Global AI & Digital Summit held outside the US",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://www.koreatimes.co.kr/business/tech-science/20261019/global-ai-digital-summit-kicks-off-3-day-run-in-seoul"
-      ],
-      "first_covered": "2026-10-20",
-      "last_major_update": "2026-10-20",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261020_birla_ai_labs_open_sources_yug_1_fo",
-      "story_chain_id": "chain_global_birla_ai_labs_open_s",
-      "headline": "Birla AI Labs open-sources Yug-1 for business forecasting",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/ai/ai-insights/birla-ai-labs-launches-yug-1-to-forecast-demand-and-spot-patterns-in-business-data/articleshow/135046483.cms"
-      ],
-      "first_covered": "2026-10-20",
-      "last_major_update": "2026-10-20",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261020_interpretable_ai_model_decodes_how_",
-      "story_chain_id": "chain_global_interpretable_ai_mod",
-      "headline": "Interpretable AI model decodes how immune cells are recruited into tissue",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.nature.com/articles/s41551-026-01803-7"
-      ],
-      "first_covered": "2026-10-20",
-      "last_major_update": "2026-10-20",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261020_microsoft_pitches_project_perceptio",
-      "story_chain_id": "chain_global_microsoft_pitches_pr",
-      "headline": "Microsoft pitches Project Perception to contain \"agentic insiders\"",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
-      ],
-      "first_covered": "2026-10-20",
-      "last_major_update": "2026-10-20",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261020_trade_marks_registry_drafts_ai_disc",
-      "story_chain_id": "chain_global_trade_marks_registry",
-      "headline": "Trade Marks Registry drafts AI disclosure rules for filings",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://www.medianama.com/2026/10/223-india-trade-marks-registry-ai-guidelines/"
-      ],
-      "first_covered": "2026-10-20",
-      "last_major_update": "2026-10-20",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
     {
       "story_id": "story_20261021_could_this_be_a_deep_blue_moment_fo",
       "story_chain_id": "chain_global_could_this_be_a_deep",
@@ -3031,6 +2896,171 @@
       "last_major_update": "2026-11-03",
       "update_phase": "initial_break",
       "impact_score": 68
+    },
+    {
+      "story_id": "story_20261103_ai_debt_surge_pushes_magnificent_se",
+      "story_chain_id": "chain_global_ai_debt_surge_pushes",
+      "headline": "AI debt surge pushes Magnificent Seven borrowing to 578 billion dollars , up 45%: SBI Research",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-debt-surge-pushes-magnificent-seven-borrowing-to-usd-578-billion-up-45-sbi-research/articleshow/135443806.cms"
+      ],
+      "first_covered": "2026-11-03",
+      "last_major_update": "2026-11-03",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261104_binance_says_fake_job_interviews_us",
+      "story_chain_id": "chain_global_binance_says_fake_jo",
+      "headline": "Binance says fake job interviews used as part of $6.3bn crypto hack",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss"
+      ],
+      "first_covered": "2026-11-04",
+      "last_major_update": "2026-11-04",
+      "update_phase": "initial_break",
+      "impact_score": 96
+    },
+    {
+      "story_id": "story_20261104_ai_inference_chipmaker_moffett_ai_r",
+      "story_chain_id": "chain_global_ai_inference_chipmak",
+      "headline": "AI inference chipmaker Moffett AI raises nearly RMB 1 billion in Series C+ funding",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://technode.com/2026/11/03/ai-inference-chipmaker-moffett-ai-raises-nearly-rmb-1-billion-in-series-c-funding/"
+      ],
+      "first_covered": "2026-11-04",
+      "last_major_update": "2026-11-04",
+      "update_phase": "initial_break",
+      "impact_score": 89
+    },
+    {
+      "story_id": "story_20261104_brookfield_plans_for_a_27_billion_a",
+      "story_chain_id": "chain_global_brookfield_plans_for",
+      "headline": "Brookfield plans for a $27 billion AI data center at UK power station",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html"
+      ],
+      "first_covered": "2026-11-04",
+      "last_major_update": "2026-11-04",
+      "update_phase": "initial_break",
+      "impact_score": 87
+    },
+    {
+      "story_id": "story_20261104_ai_powered_malware_highly_likely_to",
+      "story_chain_id": "chain_global_ai_powered_malware_h",
+      "headline": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure"
+      ],
+      "first_covered": "2026-11-04",
+      "last_major_update": "2026-11-04",
+      "update_phase": "initial_break",
+      "impact_score": 75
+    },
+    {
+      "story_id": "story_20261104_apple_restricts_dating_apps_and_ai_",
+      "story_chain_id": "chain_global_apple_restricts_dati",
+      "headline": "Apple restricts dating apps and AI companions to users 18 and up",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
+      ],
+      "first_covered": "2026-11-04",
+      "last_major_update": "2026-11-04",
+      "update_phase": "initial_break",
+      "impact_score": 75
+    },
+    {
+      "story_id": "story_20261104_bakers_and_cake_lovers_have_you_use",
+      "story_chain_id": "chain_global_bakers_and_cake_love",
+      "headline": "Bakers and cake lovers: have you used AI for inspiration?",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/food/2026/nov/03/bakers-and-cake-lovers-have-you-used-ai-for-inspiration"
+      ],
+      "first_covered": "2026-11-04",
+      "last_major_update": "2026-11-04",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261104_a_serious_failure_cps_prosecutor_ci",
+      "story_chain_id": "chain_global_a_serious_failure_cp",
+      "headline": "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI search",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search"
+      ],
+      "first_covered": "2026-11-04",
+      "last_major_update": "2026-11-04",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261104_new_york_times_and_other_outlets_su",
+      "story_chain_id": "chain_global_new_york_times_and_o",
+      "headline": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+      ],
+      "first_covered": "2026-11-04",
+      "last_major_update": "2026-11-04",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261104_china_s_lipstick_king_touts_ai_toke",
+      "story_chain_id": "chain_global_china_s_lipstick_kin",
+      "headline": "China's 'Lipstick King' touts AI tokens in first for Singles' Day festival",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-lipstick-king-touts-ai-tokens-in-first-for-singles-day-festival/articleshow/135495048.cms"
+      ],
+      "first_covered": "2026-11-04",
+      "last_major_update": "2026-11-04",
+      "update_phase": "initial_break",
+      "impact_score": 68
+    },
+    {
+      "story_id": "story_20261104_mercedes_benz_brings_doubao_ai_and_",
+      "story_chain_id": "chain_global_mercedes_benz_brings",
+      "headline": "Mercedes-Benz brings Doubao AI and China-developed cockpit to updated E-Class",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://technode.com/2026/11/03/mercedes-benz-brings-doubao-ai-and-china-developed-cockpit-to-updated-e-class/"
+      ],
+      "first_covered": "2026-11-04",
+      "last_major_update": "2026-11-04",
+      "update_phase": "initial_break",
+      "impact_score": 66
     }
   ],
   "entity_index": {}

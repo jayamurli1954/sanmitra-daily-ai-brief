@@ -1,20 +1,20 @@
 {
   "weekly": false,
-  "date": "2026-11-03",
-  "formattedDate": "03 November 2026",
-  "title": "Meituan launches LongCat-2.5 | Palantir AI tech unused or little | Apple confirms Qwen integration | AI News 03 November 2026",
+  "date": "2026-11-04",
+  "formattedDate": "04 November 2026",
+  "title": "Binance says fake job interviews | Brookfield plans for a 27 billion | Apple restricts dating apps and AI | AI News 04 November 2026",
   "intro": {
     "durationSeconds": 18,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "Breaking this morning: Meituan launches LongCat-2.5 multimodal AI model for extended coding tasks. From the SanMitra Newsroom, this is the Daily AI Brief for 03 November 2026."
+    "script": "Breaking this morning: Binance says fake job interviews used as part of 6.3 billion dollars crypto hack. From the SanMitra Newsroom, this is the Daily AI Brief for 04 November 2026."
   },
   "transitions": [
     {
-      "id": "transition_china",
-      "region": "CHINA",
-      "title": "NEXT: CHINA & REGIONAL STRATEGY",
-      "display": "NEXT: CHINA",
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
       "durationSeconds": 2
     },
     {
@@ -25,17 +25,10 @@
       "durationSeconds": 2
     },
     {
-      "id": "transition_asia",
-      "region": "ASIA",
-      "title": "NEXT: ASIA & REGIONAL STRATEGY",
-      "display": "NEXT: ASIA",
-      "durationSeconds": 2
-    },
-    {
-      "id": "transition_india",
-      "region": "INDIA",
-      "title": "NEXT: INDIA & REGIONAL STRATEGY",
-      "display": "NEXT: INDIA",
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
       "durationSeconds": 2
     },
     {
@@ -43,317 +36,377 @@
       "region": "CHINA",
       "title": "NEXT: CHINA & REGIONAL STRATEGY",
       "display": "NEXT: CHINA",
-      "durationSeconds": 2
-    },
-    {
-      "id": "transition_asia",
-      "region": "ASIA",
-      "title": "NEXT: ASIA & REGIONAL STRATEGY",
-      "display": "NEXT: ASIA",
-      "durationSeconds": 2
-    },
-    {
-      "id": "transition_india",
-      "region": "INDIA",
-      "title": "NEXT: INDIA & REGIONAL STRATEGY",
-      "display": "NEXT: INDIA",
       "durationSeconds": 2
     }
   ],
   "stories": [
     {
-      "id": "s1_meituan_launches_longcat_2_5_mul",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Meituan launches LongCat-2.5 multimodal AI model for extended coding tasks",
-      "subheadline": "Source: TechNode",
+      "id": "s1_binance_says_fake_job_interviews",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Binance says fake job interviews used as part of 6.3 billion dollars crypto hack",
+      "subheadline": "Source: BBC",
       "importanceScore": 99,
-      "durationSeconds": 55,
-      "source": "TechNode",
-      "sourceUrl": "https://technode.com/2026/11/02/meituan-launches-longcat-2-5-multimodal-ai-model-for-extended-coding-tasks/",
+      "durationSeconds": 44,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
       "researchDesk": "",
-      "script": "Our lead story today. Meituan released LongCat-2.5 on November 2, adding stronger visual understanding and coding capabilities to its AI model lineup. The model has 1.6 trillion total parameters, with approximately 48 billion activated for each token, and is designed for tasks requiring sustained execution by AI agents. The company said it expanded training on long task sequences and used large-scale reinforcement learning to improve work on complex codebases and complete software projects. It also converts failures encountered by real agents into reproducible training tasks to address gaps in model performance. LongCat-2.5 processes visual and text inputs within a unified token framework, supporting visual coding, creative design, and 3D tasks. The model is available through Meituan’s online chat service and API platform, with GitHub and Hugging Face releases planned to follow.",
-      "whyThisMatters": "Meituan released LongCat-2.5 on November 2, adding stronger visual understanding and coding capabilities to its AI model lineup.",
+      "script": "Our lead story today. Hackers who stole a record 6.3 billion dollars (£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed. Initial findings published by the company, which operates the world's largest cryptocurrency exchange, said hackers gained access to its systems through \"sophisticated, multi-stage campaign\". It said they used a range of techniques such as malicious software downloads to compromise the computers of Binance engineers and gain control over tools to drain its wallet of billions of dollars worth of crypto. Binance called it a \"serious and highly sophisticated security incident\" and apologised, saying \"this should not have happened\".",
+      "whyThisMatters": "Hackers who stole a record $6.3bn (£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Meituan launches LongCat-2.5 multimodal AI model for extended coding tasks",
-        "TechNode"
+        "Binance says fake job interviews used as part of 6.3 billion dollars crypto hack",
+        "BBC"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s1_cut1.jpg",
-          "badge": "IPOS • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-11-04/s1_cut1.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s1_cut2.jpg",
-          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "image": "aibrief/assets/editorial/2026-11-04/s1_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s1_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "image": "aibrief/assets/editorial/2026-11-04/s1_cut3.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_palantir_ai_tech_unused_or_littl",
+      "id": "s2_brookfield_plans_for_a_27_billio",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Brookfield plans for a 27 billion dollars AI data center at UK power station",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+      "researchDesk": "",
+      "script": "Turning to the United States. Europe is scrambling to develop infrastructure to support the rollout of AI amid high energy and land costs.",
+      "whyThisMatters": "Europe is scrambling to develop infrastructure to support the rollout of AI amid high energy and land costs.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Brookfield plans for a 27 billion dollars AI data center at UK power station",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s2_cut1.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s2_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s2_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_apple_restricts_dating_apps_and",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Apple restricts dating apps and AI companions to users 18 and up",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+      "researchDesk": "",
+      "script": "In other news. Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
+      "whyThisMatters": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Apple restricts dating apps and AI companions to users 18 and up",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s3_cut1.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s3_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s3_cut3.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_ai_inference_chipmaker_moffett_a",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "AI inference chipmaker Moffett AI raises nearly RMB 1 billion in Series C+ funding",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 47,
+      "source": "TechNode",
+      "sourceUrl": "https://technode.com/2026/11/03/ai-inference-chipmaker-moffett-ai-raises-nearly-rmb-1-billion-in-series-c-funding/",
+      "researchDesk": "",
+      "script": "In China. Moffett AI, a Shenzhen-based developer of AI inference chips, announced on November 3 that it had completed nearly RMB 1 billion in Series C+ funding. The financing follows another round of nearly RMB 1 billion approximately five months earlier. The proceeds will support upgrades to its sparse-computing inference chips, research into next-generation processors, and collaboration with research institutions and industry partners. Sparse computing reduces the calculations required to run AI models by exploiting sparsity in their data and operations. Moffett AI said it has deployed inference clusters across four regions in China and partnered with telecommunications operators. Its next-generation SP200 accelerator card is scheduled to arrive before the end of the year.",
+      "whyThisMatters": "Moffett AI, a Shenzhen-based developer of AI inference chips, announced on November 3 that it had completed nearly RMB 1 billion in Series C+ funding.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI inference chipmaker Moffett AI raises nearly RMB 1 billion in Series C+ fundi",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s4_cut1.jpg",
+          "badge": "ORACLE • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s4_cut2.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s4_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_ai_powered_malware_highly_likely",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Palantir AI tech unused or little used by 29 NHS trusts said to be benefiting from it",
+      "headline": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
       "subheadline": "Source: The Guardian",
-      "importanceScore": 95,
-      "durationSeconds": 44,
+      "importanceScore": 90,
+      "durationSeconds": 38,
       "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/02/palantir-unused-nhs-hospital-trusts",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
       "researchDesk": "",
-      "script": "Around the world. Exclusive: Gap between NHS claim and trusts’ comments described as ‘very misleading’ by senior health official More than two dozen hospital trusts the NHS claims have benefited from Palantir’s medical data platform are not using all or most of the AI-powered technology, the Guardian can reveal. The 29 hospital trusts that NHS England publicly lists as “realising benefits” from the controversial £330m federated data platform (FDP) have said the system is not live or they are not using any of its applications. The apparent gap between the NHS claim and the trusts’ understanding was described as “very misleading” by one senior health official.",
-      "whyThisMatters": "Exclusive: Gap between NHS claim and trusts’ comments described as ‘very misleading’ by senior health official More than two dozen hospital trusts the NHS claims have benefited from Palantir’s medical data platform are n",
+      "script": "Around the world. National Cyber Security Centre expects attacks on critical facilities such as power stations, airports and hospitals AI-powered malicious software is “highly likely” to be used in hacking attacks against the UK’s power stations, airports and hospitals by 2028, according to the state cybersecurity body. The National Cyber Security Centre (NCSC) said AI will probably enable a ransomware attack against critical national infrastructure [CNI] between now and 2028. The UK’s definition of CNI covers a range of facilities and services across sectors including energy, transport, defence, food, health and finance.",
+      "whyThisMatters": "National Cyber Security Centre expects attacks on critical facilities such as power stations, airports and hospitals AI-powered malicious software is “highly likely” to be used in hacking attacks against the UK’s power s",
       "sourceType": "reporting",
       "keyPoints": [
-        "Palantir AI tech unused or little used by 29 NHS trusts said to be benefiting fr",
+        "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
         "The Guardian"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s2_cut1.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "image": "aibrief/assets/editorial/2026-11-04/s5_cut1.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s5_cut2.jpg",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s5_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_bakers_and_cake_lovers_have_you",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Bakers and cake lovers: have you used AI for inspiration?",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 47,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/food/2026/nov/03/bakers-and-cake-lovers-have-you-used-ai-for-inspiration",
+      "researchDesk": "",
+      "script": "Also today. Whether you are a customer who has used AI to show a baker your dream cake, or a baker who has to up their game - or turn down orders based on AI inspo, we want to hear from you AI tools like Claude and ChatGPT are now widely used including for creative inspiration. We are keen to hear from people on what happens when AI meets a physical art: baking. Whether you are a customer who has used AI to show a baker your dream cake, or a baker who has to up their game - or turn down orders based on AI inspo, we want to hear from you.",
+      "whyThisMatters": "Whether you are a customer who has used AI to show a baker your dream cake, or a baker who has to up their game - or turn down – orders based on AI inspo, we want to hear from you AI tools like Claude and ChatGPT are now",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Bakers and cake lovers: have you used AI for inspiration?",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s6_cut1.jpg",
+          "badge": "IPOS • CONTEXTUAL REPORTING",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s2_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-11-04/s6_cut2.jpg",
           "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s2_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-11-04/s6_cut3.jpg",
           "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s3_apple_confirms_qwen_integration",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Apple confirms Qwen integration for China AI rollout, with beta testing starting November 4",
-      "subheadline": "Source: TechNode",
-      "importanceScore": 95,
-      "durationSeconds": 50,
-      "source": "TechNode",
-      "sourceUrl": "https://technode.com/2026/11/02/apple-confirms-qwen-integration-for-china-ai-rollout-with-beta-testing-starting-november-4/",
+      "id": "s7_a_serious_failure_cps_prosecuto",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI search",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 35,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search",
       "researchDesk": "",
-      "script": "In China. Apple will begin testing Apple Intelligence in mainland China on November 4, integrating Alibaba’s Qwen into Siri, Writing Tools, and Visual Intelligence. The features will arrive through an iOS developer beta before a wider release with iOS 27.3 in December, Apple announced on October 31. Users will be able to ask Qwen questions about text, images, and documents directly within Apple’s system features. They can sign in with a Qwen account or use Sign in with Apple, while Writing Tools will also support generating original content through Qwen. The initial rollout includes live translation, photo cleanup, Genmoji, natural-language photo searches, and summaries of messages, notifications, and recorded conversations. Support for other Apple platforms will follow after the necessary approvals.",
-      "whyThisMatters": "Apple will begin testing Apple Intelligence in mainland China on November 4, integrating Alibaba’s Qwen into Siri, Writing Tools, and Visual Intelligence.",
+      "script": "In other news. Exclusive: Nonexistent precedent cited in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings A senior crown prosecutor acting in a high court case cited an imaginary legal precedent in an error that has sparked fresh concerns about AI hallucinations infecting the justice system. Ravinder Dhillon, representing the Crown Prosecution Service (CPS), referenced an entirely made-up case during a dispute over whether a child should be prosecuted for the rape of his younger sister, court documents have revealed.",
+      "whyThisMatters": "Exclusive: Nonexistent precedent cited in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings A senior crown prosecutor acting in a high court case cited an imaginary legal precedent in",
       "sourceType": "reporting",
       "keyPoints": [
-        "Apple confirms Qwen integration for China AI rollout, with beta testing starting",
-        "TechNode"
+        "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI ",
+        "The Guardian"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s3_cut1.jpg",
-          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-11-04/s7_cut1.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s3_cut2.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "image": "aibrief/assets/editorial/2026-11-04/s7_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s3_cut3.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "image": "aibrief/assets/editorial/2026-11-04/s7_cut3.jpg",
+          "badge": "TERRAIN SURVEY • RURAL INFRASTRUCTURE",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s4_hsbc_to_open_hong_kong_ai_instit",
-      "region": "ASIA",
-      "category": "ASIA Intelligence",
-      "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "HSBC to open Hong Kong AI Institute following Singapore launch",
-      "subheadline": "Source: The Economic Times",
+      "id": "s8_new_york_times_and_other_outlets",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "subheadline": "Source: TechCrunch",
       "importanceScore": 90,
       "durationSeconds": 24,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/hsbc-to-open-hong-kong-ai-institute-following-singapore-launch/articleshow/135447713.cms",
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
       "researchDesk": "",
-      "script": "In Asia. The AI unit will work with Hong Kong University of Science and Technology as its anchor academic partner, Elhedery said, though he did not disclose headcount details.",
-      "whyThisMatters": "The AI unit will work with Hong Kong University of Science and Technology as its anchor academic partner, Elhedery said, though he did not disclose headcount details.",
+      "script": "Turning to the United States. The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "whyThisMatters": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
       "sourceType": "reporting",
       "keyPoints": [
-        "HSBC to open Hong Kong AI Institute following Singapore launch",
-        "The Economic Times"
+        "New York Times and other outlets sue web browser Brave over alleged content scra",
+        "TechCrunch"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s4_cut1.jpg",
-          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-11-04/s8_cut1.jpg",
+          "badge": "CUPERTINO • APPLE PARK",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s4_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-11-04/s8_cut2.jpg",
           "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s4_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-11-04/s8_cut3.jpg",
           "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
           "panDirection": "panLeft"
         }
       ]
     },
     {
-      "id": "s5_ai_debt_surge_pushes_magnificent",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "AI debt surge pushes Magnificent Seven borrowing to 578 billion dollars , up 45%: SBI Research",
+      "id": "s9_china_s_lipstick_king_touts_ai_t",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "China's 'Lipstick King' touts AI tokens in first for Singles' Day festival",
       "subheadline": "Source: The Economic Times",
       "importanceScore": 90,
       "durationSeconds": 24,
       "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-debt-surge-pushes-magnificent-seven-borrowing-to-usd-578-billion-up-45-sbi-research/articleshow/135443806.cms",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-lipstick-king-touts-ai-tokens-in-first-for-singles-day-festival/articleshow/135495048.cms",
       "researchDesk": "",
-      "script": "Turning to India. The combined debt of the seven largest US technology companies, widely known as the Magnificent Seven, has increased nearly 45 per cent to USD 578 billion by mid-2026, raising concerns over the financial risks linked to the rapid expansion of artificial intelligence infrastructure, according to a report by SBI Research.",
-      "whyThisMatters": "The combined debt of the seven largest US technology companies, widely known as the Magnificent Seven, has increased nearly 45 per cent to USD 578 billion by mid-2026, raising concerns over the financial risks linked to ",
+      "script": "In China. The launch is the first time AI token packages have been offered as a significant consumer product category during Singles' Day, the world's largest shopping festival originally held on November 11 each year.",
+      "whyThisMatters": "The launch is the first time AI token packages have been offered as a significant consumer product category during Singles' Day, the world's largest shopping festival originally held on November 11 each year.",
       "sourceType": "reporting",
       "keyPoints": [
-        "AI debt surge pushes Magnificent Seven borrowing to 578 billion dollars , up 45%",
+        "China's 'Lipstick King' touts AI tokens in first for Singles' Day festival",
         "The Economic Times"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s5_cut1.jpg",
+          "image": "aibrief/assets/editorial/2026-11-04/s9_cut1.jpg",
           "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s5_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "image": "aibrief/assets/editorial/2026-11-04/s9_cut2.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s5_cut3.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "image": "aibrief/assets/editorial/2026-11-04/s9_cut3.jpg",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s6_sensetime_open_sources_9_billion",
+      "id": "s10_mercedes_benz_brings_doubao_ai_a",
       "region": "CHINA",
       "category": "CHINA Intelligence",
       "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "SenseTime open-sources 9-billion-parameter AI model that reuses layers for deeper processing",
+      "headline": "Mercedes-Benz brings Doubao AI and China-developed cockpit to updated E-Class",
       "subheadline": "Source: TechNode",
       "importanceScore": 90,
-      "durationSeconds": 44,
+      "durationSeconds": 24,
       "source": "TechNode",
-      "sourceUrl": "https://technode.com/2026/11/02/sensetime-open-sources-9-billion-parameter-ai-model-that-reuses-layers-for-deeper-processing/",
+      "sourceUrl": "https://technode.com/2026/11/03/mercedes-benz-brings-doubao-ai-and-china-developed-cockpit-to-updated-e-class/",
       "researchDesk": "",
-      "script": "In China. SenseTime has released SenseNova Loop-9B-Preview, an open-source multimodal model that uses repeated computation to extend its processing depth without duplicating the corresponding model weights. The model accepts text and images and generates text for document understanding, coding, and tasks involving external tools. It runs a shared block of 24 decoder layers twice, creating a deeper computation path from a model with approximately nine billion parameters. The documented training setup supports sequences of up to 262,144 tokens and combines text, images, code, and tool-use examples. SenseTime has published model weights, inference instructions, and training guidance, with the project distributed under the Apache 2.0 license.",
-      "whyThisMatters": "SenseTime has released SenseNova Loop-9B-Preview, an open-source multimodal model that uses repeated computation to extend its processing depth without duplicating the corresponding model weights.",
+      "script": "Also today. Mercedes-Benz launched its updated long-wheelbase E-Class in China on November 2, introducing an AI cockpit independently developed under the leadership of its Chinese research team. The three E 300 L variants are priced from RMB 423,800 to RMB 509,800. The cockpit integrates ByteDance’s Doubao model into Mercedes-Benz’s virtual assistant and adds Huawei HiCar alongside Apple […]",
+      "whyThisMatters": "Mercedes-Benz launched its updated long-wheelbase E-Class in China on November 2, introducing an AI cockpit independently developed under the leadership of its Chinese research team.",
       "sourceType": "reporting",
       "keyPoints": [
-        "SenseTime open-sources 9-billion-parameter AI model that reuses layers for deepe",
+        "Mercedes-Benz brings Doubao AI and China-developed cockpit to updated E-Class",
         "TechNode"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s6_cut1.jpg",
-          "badge": "CUPERTINO • APPLE PARK",
+          "image": "aibrief/assets/editorial/2026-11-04/s10_cut1.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s6_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "image": "aibrief/assets/editorial/2026-11-04/s10_cut2.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 2",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-03/s6_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "image": "aibrief/assets/editorial/2026-11-04/s10_cut3.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
           "panDirection": "zoomIn"
-        }
-      ]
-    },
-    {
-      "id": "s7_south_korea_s_lee_vows_to_make_b",
-      "region": "ASIA",
-      "category": "ASIA Intelligence",
-      "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "South Korea's Lee vows to make bold AI investment in record budget push",
-      "subheadline": "Source: The Economic Times",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/south-koreas-lee-vows-to-make-bold-ai-investment-in-record-budget-push/articleshow/135443328.cms",
-      "researchDesk": "",
-      "script": "In Asia. His administration proposed in September increasing government spending by a record 12.8% next year to 820.9 trillion won (615.62 billion dollars ) aiming to strengthen South Korea's technological edge as global competition over AI intensifies.",
-      "whyThisMatters": "His administration proposed in September increasing government spending by a record 12.8% next year to 820.9 trillion won ($615.62 billion) aiming to strengthen South Korea's technological edge as global competition over",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "South Korea's Lee vows to make bold AI investment in record budget push",
-        "The Economic Times"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-03/s7_cut1.jpg",
-          "badge": "SENSETIME • CONTEXTUAL REPORTING",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-03/s7_cut2.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-03/s7_cut3.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
-          "panDirection": "panRight"
-        }
-      ]
-    },
-    {
-      "id": "s8_pronto_founder_s_provision_labs",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "Pronto Founder’s Provision Labs Acquires Hardware Startup Basilisk Industries",
-      "subheadline": "Source: Inc42",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Inc42",
-      "sourceUrl": "https://inc42.com/buzz/pronto-founders-provision-labs-acquires-hardware-startup-basilisk-industries/",
-      "researchDesk": "",
-      "script": "Turning to India. Pronto founder Anjali Sardana’s physical AI venture Provision Labs has acquired Mumbai-based hardware startup Basilisk Industries for an undisclosed sum.",
-      "whyThisMatters": "Pronto founder Anjali Sardana’s physical AI venture Provision Labs has acquired Mumbai-based hardware startup Basilisk Industries for an undisclosed sum.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Pronto Founder’s Provision Labs Acquires Hardware Startup Basilisk Industries",
-        "Inc42"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-03/s8_cut1.jpg",
-          "badge": "HANGZHOU • HOME CITY OF DEEPSEEK",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-03/s8_cut2.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-03/s8_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
-          "panDirection": "panLeft"
         }
       ]
     }
@@ -361,15 +414,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. Meituan launches LongCat-2.5 multimodal AI model for extended coding tasks. Palantir AI tech unused or little used by 29 NHS trusts said to be benefiting from it. Apple confirms Qwen integration for China AI rollout, with beta testing starting November 4. HSBC to open Hong Kong AI Institute following Singapore launch. AI debt surge pushes Magnificent Seven borrowing to 578 billion dollars , up 45%: SBI Research. SenseTime open-sources 9-billion-parameter AI model that reuses layers for deeper processing.",
+    "script": "To recap today's top stories. Binance says fake job interviews used as part of 6.3 billion dollars crypto hack. Brookfield plans for a 27 billion dollars AI data center at UK power station. Apple restricts dating apps and AI companions to users 18 and up. AI inference chipmaker Moffett AI raises nearly RMB 1 billion in Series C+ funding. AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028. Bakers and cake lovers: have you used AI for inspiration?.",
     "items": [
-      "✓ Meituan launches LongCat-2.5 multimodal AI model",
-      "✓ Palantir AI tech unused or little used by 29 NHS",
-      "✓ Apple confirms Qwen integration for China AI rol",
-      "✓ HSBC to open Hong Kong AI Institute following Si",
-      "✓ AI debt surge pushes Magnificent Seven borrowing",
-      "✓ SenseTime open-sources 9-billion-parameter AI mo",
-      "✓ South Korea's Lee vows to make bold AI investmen"
+      "✓ Binance says fake job interviews used as part of",
+      "✓ Brookfield plans for a 27 billion dollars AI dat",
+      "✓ Apple restricts dating apps and AI companions to",
+      "✓ AI inference chipmaker Moffett AI raises nearly ",
+      "✓ AI-powered malware ‘highly likely’ to be used to",
+      "✓ Bakers and cake lovers: have you used AI for ins",
+      "✓ ‘A serious failure’: CPS prosecutor cites imagin"
     ]
   },
   "outro": {
@@ -388,29 +441,31 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "Meituan launches LongCat-2.5 multimodal AI mo",
-    "Palantir AI tech unused or little used by 29 ",
-    "Apple confirms Qwen integration for China AI ",
-    "HSBC to open Hong Kong AI Institute following",
-    "AI debt surge pushes Magnificent Seven borrow",
-    "SenseTime open-sources 9-billion-parameter AI",
-    "South Korea's Lee vows to make bold AI invest",
-    "Pronto Founder’s Provision Labs Acquires Hard"
+    "Binance says fake job interviews used as part",
+    "Brookfield plans for a 27 billion dollars AI ",
+    "Apple restricts dating apps and AI companions",
+    "AI inference chipmaker Moffett AI raises near",
+    "AI-powered malware ‘highly likely’ to be used",
+    "Bakers and cake lovers: have you used AI for ",
+    "‘A serious failure’: CPS prosecutor cites ima",
+    "New York Times and other outlets sue web brow",
+    "China's 'Lipstick King' touts AI tokens in fi",
+    "Mercedes-Benz brings Doubao AI and China-deve"
   ],
   "thumbnail": {
-    "date": "03 NOVEMBER 2026",
-    "headline": "MEITUAN LAUNCHES LONGCAT-2.5 MULTIMODAL AI",
+    "date": "04 NOVEMBER 2026",
+    "headline": "BINANCE SAYS FAKE JOB INTERVIEWS USED AS",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "MEITUAN LAUNCHES LONGCAT-2.5",
-      "PALANTIR AI TECH UNUSED OR LITTLE",
-      "APPLE CONFIRMS QWEN INTEGRATION FOR",
-      "HSBC TO OPEN HONG KONG AI INSTITUTE"
+      "BINANCE SAYS FAKE JOB INTERVIEWS",
+      "BROOKFIELD PLANS FOR A 27 BILLION",
+      "APPLE RESTRICTS DATING APPS AND AI",
+      "AI INFERENCE CHIPMAKER MOFFETT AI"
     ]
   },
   "youtubeMetadata": {
-    "title": "Meituan launches LongCat-2.5 | Palantir AI tech unused or little | Apple confirms Qwen integration | AI News 03 November 2026",
-    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 03 November 2026.",
+    "title": "Binance says fake job interviews | Brookfield plans for a 27 billion | Apple restricts dating apps and AI | AI News 04 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 04 November 2026.",
     "tags": [
       "AI",
       "ArtificialIntelligence",

@@ -1,205 +1,200 @@
 {
-  "date": "2026-11-02",
-  "dateLabel": "02 NOVEMBER 2026",
+  "date": "2026-11-03",
+  "dateLabel": "03 NOVEMBER 2026",
   "kicker": "BREAKING",
-  "headline": "America is firing up retired nuclear reactors to keep its AI data centres running",
-  "subhead": "",
-  "source": "Source: Tom's Hardware",
-  "audioFile": "audio/aibrief/short_2026-11-02_lead.mp3",
-  "voiceFrames": 1510,
+  "headline": "Meituan launches LongCat-2.5 multimodal AI model for extended coding tasks",
+  "subhead": "Meituan released LongCat-2.5 on November 2, adding stronger visual understanding and coding capabilities to its AI model lineup.",
+  "source": "Source: TechNode",
+  "audioFile": "audio/aibrief/short_2026-11-03_lead.mp3",
+  "voiceFrames": 1655,
   "endCardFrames": 75,
   "images": [
     {
-      "src": "aibrief/assets/editorial/2026-11-02/s1_cut1.jpg",
-      "label": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY"
+      "src": "aibrief/assets/editorial/2026-11-03/s1_cut1.jpg",
+      "label": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION"
     },
     {
-      "src": "aibrief/assets/editorial/2026-11-02/s1_cut2.jpg",
-      "label": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE"
+      "src": "aibrief/assets/editorial/2026-11-03/s1_cut2.jpg",
+      "label": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION"
     },
     {
-      "src": "aibrief/assets/editorial/2026-11-02/s1_cut3.jpg",
-      "label": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY"
+      "src": "aibrief/assets/editorial/2026-11-03/s1_cut3.jpg",
+      "label": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE"
     }
   ],
   "cues": [
     {
-      "text": "The scramble for",
+      "text": "Meituan released",
       "start": 0,
-      "end": 28
+      "end": 27
     },
     {
-      "text": "electricity to power",
-      "start": 28,
-      "end": 59
+      "text": "LongCat-2.5 on November 2,",
+      "start": 27,
+      "end": 101
     },
     {
-      "text": "artificial intelligence",
-      "start": 59,
-      "end": 86
+      "text": "adding stronger visual",
+      "start": 106,
+      "end": 147
     },
     {
-      "text": "has pushed the United",
-      "start": 86,
-      "end": 129
+      "text": "understanding and coding",
+      "start": 147,
+      "end": 189
     },
     {
-      "text": "States to an unusual step:",
-      "start": 129,
-      "end": 180
+      "text": "capabilities to its AI",
+      "start": 189,
+      "end": 230
     },
     {
-      "text": "bringing shut-down nuclear",
-      "start": 191,
-      "end": 224
+      "text": "model lineup.",
+      "start": 230,
+      "end": 251
     },
     {
-      "text": "plants back to life.",
-      "start": 224,
-      "end": 264
+      "text": "The model has 1.6 trillion",
+      "start": 272,
+      "end": 342
     },
     {
-      "text": "Operators are",
-      "start": 295,
-      "end": 321
+      "text": "total parameters, with",
+      "start": 342,
+      "end": 392
     },
     {
-      "text": "recommissioning three",
-      "start": 321,
-      "end": 350
+      "text": "approximately 48 billion",
+      "start": 392,
+      "end": 437
     },
     {
-      "text": "previously retired",
-      "start": 350,
-      "end": 382
+      "text": "activated for each token,",
+      "start": 437,
+      "end": 482
     },
     {
-      "text": "reactors expected to",
-      "start": 382,
-      "end": 427
+      "text": "and is designed for tasks",
+      "start": 497,
+      "end": 532
     },
     {
-      "text": "return about 2.25",
-      "start": 427,
-      "end": 479
+      "text": "requiring sustained",
+      "start": 532,
+      "end": 564
     },
     {
-      "text": "gigawatts to the grid,",
-      "start": 479,
-      "end": 510
+      "text": "execution by AI agents.",
+      "start": 564,
+      "end": 626
     },
     {
-      "text": "with the output already",
-      "start": 520,
-      "end": 556
+      "text": "The company said it",
+      "start": 664,
+      "end": 689
     },
     {
-      "text": "spoken for by large",
-      "start": 556,
-      "end": 589
+      "text": "expanded training on long",
+      "start": 689,
+      "end": 727
     },
     {
-      "text": "technology companies",
-      "start": 589,
-      "end": 622
+      "text": "task sequences and used",
+      "start": 727,
+      "end": 776
     },
     {
-      "text": "building AI data centres.",
-      "start": 622,
-      "end": 670
+      "text": "large-scale reinforcement",
+      "start": 776,
+      "end": 806
     },
     {
-      "text": "In parallel, the US",
-      "start": 692,
-      "end": 751
+      "text": "learning to improve work",
+      "start": 806,
+      "end": 854
     },
     {
-      "text": "Department of Energy is",
-      "start": 761,
-      "end": 790
-    },
-    {
-      "text": "lending the utility",
-      "start": 790,
-      "end": 813
-    },
-    {
-      "text": "Constellation around five",
-      "start": 813,
-      "end": 864
-    },
-    {
-      "text": "billion dollars to uprate",
-      "start": 864,
+      "text": "on complex codebases and",
+      "start": 854,
       "end": 906
     },
     {
-      "text": "reactors at several",
+      "text": "complete software",
       "start": 906,
-      "end": 940
+      "end": 928
     },
     {
-      "text": "existing plants, adding",
-      "start": 940,
-      "end": 991
+      "text": "projects.",
+      "start": 928,
+      "end": 947
     },
     {
-      "text": "roughly a further",
-      "start": 991,
-      "end": 1014
+      "text": "It also converts failures",
+      "start": 985,
+      "end": 1023
     },
     {
-      "text": "gigawatt, most of it",
-      "start": 1014,
-      "end": 1059
+      "text": "encountered by real agents",
+      "start": 1023,
+      "end": 1070
     },
     {
-      "text": "earmarked for AI",
-      "start": 1059,
-      "end": 1087
+      "text": "into reproducible training",
+      "start": 1070,
+      "end": 1114
     },
     {
-      "text": "operators.",
-      "start": 1087,
-      "end": 1104
+      "text": "tasks to address gaps in",
+      "start": 1114,
+      "end": 1163
     },
     {
-      "text": "Separately, Constellation",
-      "start": 1154,
-      "end": 1193
+      "text": "model performance.",
+      "start": 1163,
+      "end": 1185
     },
     {
-      "text": "struck a long-term deal to",
-      "start": 1193,
-      "end": 1238
+      "text": "LongCat-2.5 processes",
+      "start": 1217,
+      "end": 1276
     },
     {
-      "text": "supply hundreds of",
-      "start": 1238,
-      "end": 1266
+      "text": "visual and text inputs",
+      "start": 1276,
+      "end": 1316
     },
     {
-      "text": "megawatts to a major cloud",
-      "start": 1266,
-      "end": 1308
+      "text": "within a unified token",
+      "start": 1316,
+      "end": 1357
     },
     {
-      "text": "provider's AI campuses.",
-      "start": 1308,
-      "end": 1350
+      "text": "framework, supporting",
+      "start": 1357,
+      "end": 1398
+    },
+    {
+      "text": "visual coding, creative",
+      "start": 1398,
+      "end": 1447
+    },
+    {
+      "text": "design, and 3D tasks.",
+      "start": 1447,
+      "end": 1498
     },
     {
       "text": "Watch the full episode on",
-      "start": 1386,
-      "end": 1431
+      "start": 1534,
+      "end": 1576
     },
     {
       "text": "SanMitra AI News Wire.",
-      "start": 1431,
-      "end": 1478
+      "start": 1576,
+      "end": 1623
     }
   ],
   "ctaTitle": "Full episode on YouTube",
   "ctaLine": "SanMitra AI News Wire",
-  "ctaSub": "All 10 of today's AI stories"
+  "ctaSub": "All 8 of today's AI stories"
 }

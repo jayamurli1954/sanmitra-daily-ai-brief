@@ -3,1629 +3,1044 @@
     "index": 1,
     "sceneId": "intro",
     "startFrame": 0,
-    "endFrame": 85,
+    "endFrame": 101,
     "startSeconds": 0.0,
-    "endSeconds": 2.84,
-    "text": "Breaking this morning: America is firing up retired"
+    "endSeconds": 3.37,
+    "text": "Breaking this morning: Meituan launches LongCat-2.5"
   },
   {
     "index": 2,
     "sceneId": "intro",
-    "startFrame": 85,
-    "endFrame": 182,
-    "startSeconds": 2.84,
-    "endSeconds": 6.06,
-    "text": "nuclear reactors to keep its AI data centres running."
+    "startFrame": 101,
+    "endFrame": 201,
+    "startSeconds": 3.37,
+    "endSeconds": 6.7,
+    "text": "multimodal AI model for extended coding tasks."
   },
   {
     "index": 3,
     "sceneId": "intro",
-    "startFrame": 214,
-    "endFrame": 254,
-    "startSeconds": 7.12,
-    "endSeconds": 8.48,
+    "startFrame": 241,
+    "endFrame": 281,
+    "startSeconds": 8.02,
+    "endSeconds": 9.36,
     "text": "From the SanMitra Newsroom,"
   },
   {
     "index": 4,
     "sceneId": "intro",
-    "startFrame": 263,
-    "endFrame": 370,
-    "startSeconds": 8.76,
-    "endSeconds": 12.34,
-    "text": "this is the Daily AI Brief for 02 November 2026."
+    "startFrame": 289,
+    "endFrame": 400,
+    "startSeconds": 9.64,
+    "endSeconds": 13.32,
+    "text": "this is the Daily AI Brief for 03 November 2026."
   },
   {
     "index": 5,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 441,
-    "endFrame": 480,
-    "startSeconds": 14.71,
-    "endSeconds": 16.01,
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 470,
+    "endFrame": 509,
+    "startSeconds": 15.67,
+    "endSeconds": 16.97,
     "text": "Our lead story today."
   },
   {
     "index": 6,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 512,
-    "endFrame": 579,
-    "startSeconds": 17.05,
-    "endSeconds": 19.29,
-    "text": "The scramble for electricity to power artificial"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 537,
+    "endFrame": 642,
+    "startSeconds": 17.91,
+    "endSeconds": 21.41,
+    "text": "Meituan released LongCat-2.5 on November 2,"
   },
   {
     "index": 7,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 579,
-    "endFrame": 662,
-    "startSeconds": 19.29,
-    "endSeconds": 22.07,
-    "text": "intelligence has pushed the United States to an unusual"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 652,
+    "endFrame": 720,
+    "startSeconds": 21.75,
+    "endSeconds": 24.01,
+    "text": "adding stronger visual understanding and coding"
   },
   {
     "index": 8,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 662,
-    "endFrame": 757,
-    "startSeconds": 22.07,
-    "endSeconds": 25.23,
-    "text": "step: bringing shut-down nuclear plants back to life."
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 720,
+    "endFrame": 788,
+    "startSeconds": 24.01,
+    "endSeconds": 26.27,
+    "text": "capabilities to its AI model lineup."
   },
   {
     "index": 9,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 788,
-    "endFrame": 870,
-    "startSeconds": 26.25,
-    "endSeconds": 29.01,
-    "text": "Operators are recommissioning three previously retired"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 813,
+    "endFrame": 900,
+    "startSeconds": 27.11,
+    "endSeconds": 30.01,
+    "text": "The model has 1.6 trillion total parameters,"
   },
   {
     "index": 10,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 870,
-    "endFrame": 981,
-    "startSeconds": 29.01,
-    "endSeconds": 32.69,
-    "text": "reactors expected to return about 2.25 gigawatts to the"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 914,
+    "endFrame": 1006,
+    "startSeconds": 30.47,
+    "endSeconds": 33.53,
+    "text": "with approximately 48 billion activated for each token,"
   },
   {
     "index": 11,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 981,
-    "endFrame": 1058,
-    "startSeconds": 32.69,
-    "endSeconds": 35.27,
-    "text": "grid, with the output already spoken for by large"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 1019,
+    "endFrame": 1102,
+    "startSeconds": 33.95,
+    "endSeconds": 36.73,
+    "text": "and is designed for tasks requiring sustained execution"
   },
   {
     "index": 12,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 1058,
-    "endFrame": 1136,
-    "startSeconds": 35.27,
-    "endSeconds": 37.85,
-    "text": "technology companies building AI data centres."
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 1102,
+    "endFrame": 1140,
+    "startSeconds": 36.73,
+    "endSeconds": 38.01,
+    "text": "by AI agents."
   },
   {
     "index": 13,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 1155,
-    "endFrame": 1262,
-    "startSeconds": 38.51,
-    "endSeconds": 42.07,
-    "text": "In parallel, the US Department of Energy is lending the"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 1176,
+    "endFrame": 1245,
+    "startSeconds": 39.19,
+    "endSeconds": 41.51,
+    "text": "The company said it expanded training on long task"
   },
   {
     "index": 14,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 1262,
-    "endFrame": 1347,
-    "startSeconds": 42.07,
-    "endSeconds": 44.89,
-    "text": "utility Constellation around five billion dollars to"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 1245,
+    "endFrame": 1340,
+    "startSeconds": 41.51,
+    "endSeconds": 44.65,
+    "text": "sequences and used large-scale reinforcement learning to"
   },
   {
     "index": 15,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 1347,
-    "endFrame": 1412,
-    "startSeconds": 44.89,
-    "endSeconds": 47.05,
-    "text": "uprate reactors at several existing plants,"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 1340,
+    "endFrame": 1369,
+    "startSeconds": 44.65,
+    "endSeconds": 45.627,
+    "text": "improve work on complex codebases and complete software"
   },
   {
     "index": 16,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 1412,
-    "endFrame": 1475,
-    "startSeconds": 47.05,
-    "endSeconds": 49.17,
-    "text": "adding roughly a further gigawatt,"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 1369,
+    "endFrame": 1370,
+    "startSeconds": 45.627,
+    "endSeconds": 45.65,
+    "text": "projects."
   },
   {
     "index": 17,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 1480,
-    "endFrame": 1539,
-    "startSeconds": 49.35,
-    "endSeconds": 51.29,
-    "text": "most of it earmarked for AI operators."
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 1444,
+    "endFrame": 1563,
+    "startSeconds": 48.15,
+    "endSeconds": 52.09,
+    "text": "It also converts failures encountered by real agents"
   },
   {
     "index": 18,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 1576,
-    "endFrame": 1668,
-    "startSeconds": 52.53,
-    "endSeconds": 55.61,
-    "text": "Separately, Constellation struck a long-term deal to"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 1563,
+    "endFrame": 1648,
+    "startSeconds": 52.09,
+    "endSeconds": 54.93,
+    "text": "into reproducible training tasks to address gaps in"
   },
   {
     "index": 19,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 1668,
-    "endFrame": 1749,
-    "startSeconds": 55.61,
-    "endSeconds": 58.31,
-    "text": "supply hundreds of megawatts to a major cloud provider's"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 1648,
+    "endFrame": 1671,
+    "startSeconds": 54.93,
+    "endSeconds": 55.69,
+    "text": "model performance."
   },
   {
     "index": 20,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 1749,
-    "endFrame": 1779,
-    "startSeconds": 58.31,
-    "endSeconds": 59.31,
-    "text": "AI campuses."
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 1696,
+    "endFrame": 1827,
+    "startSeconds": 56.55,
+    "endSeconds": 60.89,
+    "text": "LongCat-2.5 processes visual and text inputs within a"
   },
   {
     "index": 21,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 1813,
-    "endFrame": 1910,
-    "startSeconds": 60.43,
-    "endSeconds": 63.67,
-    "text": "Why it matters: Compute is no longer the only bottleneck"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 1827,
+    "endFrame": 1911,
+    "startSeconds": 60.89,
+    "endSeconds": 63.69,
+    "text": "unified token framework, supporting visual coding,"
   },
   {
     "index": 22,
-    "sceneId": "s1_america_is_firing_up_retired_nuc",
-    "startFrame": 1910,
-    "endFrame": 1965,
-    "startSeconds": 63.67,
-    "endSeconds": 65.49,
-    "text": "for AI; power is."
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 1929,
+    "endFrame": 1994,
+    "startSeconds": 64.31,
+    "endSeconds": 66.45,
+    "text": "creative design, and 3D tasks."
   },
   {
     "index": 23,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 2094,
-    "endFrame": 2137,
-    "startSeconds": 69.8,
-    "endSeconds": 71.22,
-    "text": "Turning to the United States."
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 2028,
+    "endFrame": 2106,
+    "startSeconds": 67.59,
+    "endSeconds": 70.21,
+    "text": "The model is available through Meituan\u2019s online chat"
   },
   {
     "index": 24,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 2171,
-    "endFrame": 2283,
-    "startSeconds": 72.38,
-    "endSeconds": 76.1,
-    "text": "OpenAI, Google, Microsoft and Anthropic have agreed to"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 2106,
+    "endFrame": 2158,
+    "startSeconds": 70.21,
+    "endSeconds": 71.93,
+    "text": "service and API platform,"
   },
   {
     "index": 25,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 2283,
-    "endFrame": 2366,
-    "startSeconds": 76.1,
-    "endSeconds": 78.86,
-    "text": "honour a single shared signal that lets website owners"
+    "sceneId": "s1_meituan_launches_longcat_2_5_mul",
+    "startFrame": 2170,
+    "endFrame": 2259,
+    "startSeconds": 72.35,
+    "endSeconds": 75.31,
+    "text": "with GitHub and Hugging Face releases planned to follow."
   },
   {
     "index": 26,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 2366,
-    "endFrame": 2450,
-    "startSeconds": 78.86,
-    "endSeconds": 81.68,
-    "text": "refuse to have their content used for AI training."
-  },
-  {
-    "index": 27,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 2476,
-    "endFrame": 2568,
-    "startSeconds": 82.54,
-    "endSeconds": 85.6,
-    "text": "Publishers would add a token effectively a \"do not use"
-  },
-  {
-    "index": 28,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 2568,
-    "endFrame": 2688,
-    "startSeconds": 85.6,
-    "endSeconds": 89.6,
-    "text": "for AI training\" instruction to the robots.txt file that"
-  },
-  {
-    "index": 29,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 2688,
-    "endFrame": 2734,
-    "startSeconds": 89.6,
-    "endSeconds": 91.12,
-    "text": "already governs web crawlers,"
-  },
-  {
-    "index": 30,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 2744,
-    "endFrame": 2809,
-    "startSeconds": 91.46,
-    "endSeconds": 93.62,
-    "text": "and the four companies say they will respect it."
-  },
-  {
-    "index": 31,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 2841,
-    "endFrame": 2923,
-    "startSeconds": 94.7,
-    "endSeconds": 97.42,
-    "text": "The draft was written by an Anthropic engineer and is"
-  },
-  {
-    "index": 32,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 2923,
-    "endFrame": 2932,
-    "startSeconds": 97.42,
-    "endSeconds": 97.72,
-    "text": "voluntary."
-  },
-  {
-    "index": 33,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 2962,
-    "endFrame": 3006,
-    "startSeconds": 98.74,
-    "endSeconds": 100.2,
-    "text": "Rollout and scope differ:"
-  },
-  {
-    "index": 34,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 3017,
-    "endFrame": 3069,
-    "startSeconds": 100.58,
-    "endSeconds": 102.3,
-    "text": "Anthropic has begun honouring it,"
-  },
-  {
-    "index": 35,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 3079,
-    "endFrame": 3139,
-    "startSeconds": 102.64,
-    "endSeconds": 104.64,
-    "text": "OpenAI says it will \"in the coming months\","
-  },
-  {
-    "index": 36,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 3152,
-    "endFrame": 3247,
-    "startSeconds": 105.08,
-    "endSeconds": 108.24,
-    "text": "and Microsoft and Google are targeting 2027,"
-  },
-  {
-    "index": 37,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 3257,
-    "endFrame": 3334,
-    "startSeconds": 108.56,
-    "endSeconds": 111.14,
-    "text": "with Google's version also covering the data behind"
-  },
-  {
-    "index": 38,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 3334,
-    "endFrame": 3363,
-    "startSeconds": 111.14,
-    "endSeconds": 112.1,
-    "text": "Gemini's answers."
-  },
-  {
-    "index": 39,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 3397,
-    "endFrame": 3491,
-    "startSeconds": 113.22,
-    "endSeconds": 116.36,
-    "text": "Why it matters: For years publishers have had no simple,"
-  },
-  {
-    "index": 40,
-    "sceneId": "s2_four_of_the_biggest_ai_companies",
-    "startFrame": 3505,
-    "endFrame": 3563,
-    "startSeconds": 116.84,
-    "endSeconds": 118.78,
-    "text": "common way to say no to AI training."
-  },
-  {
-    "index": 41,
-    "sceneId": "s3_for_jpmorgan_amazon_fighting_ai",
-    "startFrame": 3633,
-    "endFrame": 3658,
-    "startSeconds": 121.09,
-    "endSeconds": 121.95,
-    "text": "In other news."
-  },
-  {
-    "index": 42,
-    "sceneId": "s3_for_jpmorgan_amazon_fighting_ai",
-    "startFrame": 3693,
-    "endFrame": 3792,
-    "startSeconds": 123.11,
-    "endSeconds": 126.39,
-    "text": "As companies from Amazon to JPMorgan block AI personal"
-  },
-  {
-    "index": 43,
-    "sceneId": "s3_for_jpmorgan_amazon_fighting_ai",
-    "startFrame": 3792,
-    "endFrame": 3830,
-    "startSeconds": 126.39,
-    "endSeconds": 127.67,
-    "text": "agents like Meta's Muse,"
-  },
-  {
-    "index": 44,
-    "sceneId": "s3_for_jpmorgan_amazon_fighting_ai",
-    "startFrame": 3848,
-    "endFrame": 3920,
-    "startSeconds": 128.25,
-    "endSeconds": 130.67,
-    "text": "retail experts warn that technology that removes"
-  },
-  {
-    "index": 45,
-    "sceneId": "s3_for_jpmorgan_amazon_fighting_ai",
-    "startFrame": 3920,
-    "endFrame": 3969,
-    "startSeconds": 130.67,
-    "endSeconds": 132.31,
-    "text": "customer friction usually wins."
-  },
-  {
-    "index": 46,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 4101,
-    "endFrame": 4117,
-    "startSeconds": 136.7,
-    "endSeconds": 137.24,
-    "text": "In China."
-  },
-  {
-    "index": 47,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 4151,
-    "endFrame": 4210,
-    "startSeconds": 138.36,
-    "endSeconds": 140.34,
-    "text": "China's DeepSeek has released Harness,"
-  },
-  {
-    "index": 48,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 4210,
-    "endFrame": 4241,
-    "startSeconds": 140.34,
-    "endSeconds": 141.36,
-    "text": "an open-."
-  },
-  {
-    "index": 49,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 4278,
-    "endFrame": 4371,
-    "startSeconds": 142.6,
-    "endSeconds": 145.7,
-    "text": "Alongside it, the lab put out an open-weight model in"
-  },
-  {
-    "index": 50,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 4371,
-    "endFrame": 4484,
-    "startSeconds": 145.7,
-    "endSeconds": 149.46,
-    "text": "its V4.1 line and opened its Search and Fetch tools so"
-  },
-  {
-    "index": 51,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 4484,
-    "endFrame": 4556,
-    "startSeconds": 149.46,
-    "endSeconds": 151.86,
-    "text": "they can be called for free from Harness and from rival"
-  },
-  {
-    "index": 52,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 4556,
-    "endFrame": 4642,
-    "startSeconds": 151.86,
-    "endSeconds": 154.74,
-    "text": "coding assistants, with the free search offer running"
-  },
-  {
-    "index": 53,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 4642,
-    "endFrame": 4671,
-    "startSeconds": 154.74,
-    "endSeconds": 155.7,
-    "text": "through the start of November."
-  },
-  {
-    "index": 54,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 4708,
-    "endFrame": 4751,
-    "startSeconds": 156.94,
-    "endSeconds": 158.38,
-    "text": "The agent is free to use,"
-  },
-  {
-    "index": 55,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 4763,
-    "endFrame": 4855,
-    "startSeconds": 158.78,
-    "endSeconds": 161.82,
-    "text": "even as the company raised prices for access to its most"
-  },
-  {
-    "index": 56,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 4855,
-    "endFrame": 4887,
-    "startSeconds": 161.82,
-    "endSeconds": 162.9,
-    "text": "capable paid model."
-  },
-  {
-    "index": 57,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 4916,
-    "endFrame": 5014,
-    "startSeconds": 163.86,
-    "endSeconds": 167.14,
-    "text": "Why it matters: Giving away a capable agent and free"
-  },
-  {
-    "index": 58,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 5014,
-    "endFrame": 5104,
-    "startSeconds": 167.14,
-    "endSeconds": 170.12,
-    "text": "search undercuts the pricing of Western coding tools and"
-  },
-  {
-    "index": 59,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 5104,
-    "endFrame": 5189,
-    "startSeconds": 170.12,
-    "endSeconds": 172.98,
-    "text": "widens the audience for Chinese AI among developers"
-  },
-  {
-    "index": 60,
-    "sceneId": "s4_deepseek_open_sources_its_coding",
-    "startFrame": 5189,
-    "endFrame": 5209,
-    "startSeconds": 172.98,
-    "endSeconds": 173.64,
-    "text": "worldwide."
-  },
-  {
-    "index": 61,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 5341,
-    "endFrame": 5360,
-    "startSeconds": 178.04,
-    "endSeconds": 178.66,
-    "text": "In Asia."
-  },
-  {
-    "index": 62,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 5387,
-    "endFrame": 5482,
-    "startSeconds": 179.56,
-    "endSeconds": 182.72,
-    "text": "Japan is extending its national AI strategy outward,"
-  },
-  {
-    "index": 63,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 5493,
-    "endFrame": 5575,
-    "startSeconds": 183.1,
-    "endSeconds": 185.84,
-    "text": "hosting a focus session with ASEAN countries on a joint"
-  },
-  {
-    "index": 64,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 5575,
-    "endFrame": 5611,
-    "startSeconds": 185.84,
-    "endSeconds": 187.04,
-    "text": "initiative to help micro,"
-  },
-  {
-    "index": 65,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 5623,
-    "endFrame": 5719,
-    "startSeconds": 187.44,
-    "endSeconds": 190.64,
-    "text": "small and medium-sized firms across the region adopt AI."
-  },
-  {
-    "index": 66,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 5752,
-    "endFrame": 5819,
-    "startSeconds": 191.72,
-    "endSeconds": 193.98,
-    "text": "Japanese companies including Preferred Networks"
-  },
-  {
-    "index": 67,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 5819,
-    "endFrame": 5858,
-    "startSeconds": 193.98,
-    "endSeconds": 195.28,
-    "text": "presented work on practical,"
-  },
-  {
-    "index": 68,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 5873,
-    "endFrame": 5989,
-    "startSeconds": 195.78,
-    "endSeconds": 199.64,
-    "text": "domain-specific \"vertical\" AI and on \"physical\" AI that"
-  },
-  {
-    "index": 69,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 5989,
-    "endFrame": 6058,
-    "startSeconds": 199.64,
-    "endSeconds": 201.94,
-    "text": "builds on the country's manufacturing strengths."
-  },
-  {
-    "index": 70,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 6071,
-    "endFrame": 6169,
-    "startSeconds": 202.38,
-    "endSeconds": 205.62,
-    "text": "It sits on top of Japan's larger domestic push a"
-  },
-  {
-    "index": 71,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 6169,
-    "endFrame": 6254,
-    "startSeconds": 205.62,
-    "endSeconds": 208.46,
-    "text": "homegrown AI model and a goal of putting millions of"
-  },
-  {
-    "index": 72,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 6254,
-    "endFrame": 6331,
-    "startSeconds": 208.46,
-    "endSeconds": 211.02,
-    "text": "AI-equipped robots to work across more than a dozen"
-  },
-  {
-    "index": 73,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 6331,
-    "endFrame": 6417,
-    "startSeconds": 211.02,
-    "endSeconds": 213.9,
-    "text": "sectors by 2040 backed by heavy multi-year government"
-  },
-  {
-    "index": 74,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 6417,
-    "endFrame": 6497,
-    "startSeconds": 213.9,
-    "endSeconds": 216.56,
-    "text": "funding, driven in part by a shrinking workforce."
-  },
-  {
-    "index": 75,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 6525,
-    "endFrame": 6625,
-    "startSeconds": 217.5,
-    "endSeconds": 220.82,
-    "text": "Why it matters: Japan is positioning itself as a"
-  },
-  {
-    "index": 76,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 6625,
-    "endFrame": 6715,
-    "startSeconds": 220.82,
-    "endSeconds": 223.84,
-    "text": "\"trusted partner\" offering an alternative to the US and"
-  },
-  {
-    "index": 77,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 6715,
-    "endFrame": 6810,
-    "startSeconds": 223.84,
-    "endSeconds": 227.0,
-    "text": "Chinese AI ecosystems, pairing exports of technology"
-  },
-  {
-    "index": 78,
-    "sceneId": "s5_japan_brings_its_ai_playbook_to",
-    "startFrame": 6810,
-    "endFrame": 6855,
-    "startSeconds": 227.0,
-    "endSeconds": 228.5,
-    "text": "with governance and skills."
-  },
-  {
-    "index": 79,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 6987,
-    "endFrame": 7018,
-    "startSeconds": 232.91,
-    "endSeconds": 233.95,
-    "text": "Turning to India."
-  },
-  {
-    "index": 80,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 7046,
-    "endFrame": 7116,
-    "startSeconds": 234.85,
-    "endSeconds": 237.21,
-    "text": "Bihar's state cabinet has cleared an Artificial"
-  },
-  {
-    "index": 81,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 7116,
-    "endFrame": 7238,
-    "startSeconds": 237.21,
-    "endSeconds": 241.25,
-    "text": "Intelligence Policy 2026, joining a growing list of"
-  },
-  {
-    "index": 82,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 7238,
-    "endFrame": 7313,
-    "startSeconds": 241.25,
-    "endSeconds": 243.77,
-    "text": "Indian states writing their own AI playbooks."
-  },
-  {
-    "index": 83,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 7340,
-    "endFrame": 7433,
-    "startSeconds": 244.67,
-    "endSeconds": 247.77,
-    "text": "The policy offers incentives to attract AI companies,"
-  },
-  {
-    "index": 84,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 7452,
-    "endFrame": 7533,
-    "startSeconds": 248.39,
-    "endSeconds": 251.11,
-    "text": "global capability centres and startups to the state,"
-  },
-  {
-    "index": 85,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 7546,
-    "endFrame": 7622,
-    "startSeconds": 251.55,
-    "endSeconds": 254.05,
-    "text": "and promises support for homegrown ventures through"
-  },
-  {
-    "index": 86,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 7622,
-    "endFrame": 7729,
-    "startSeconds": 254.05,
-    "endSeconds": 257.65,
-    "text": "incubation, financial help, mentoring and better access"
-  },
-  {
-    "index": 87,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 7729,
-    "endFrame": 7746,
-    "startSeconds": 257.65,
-    "endSeconds": 258.21,
-    "text": "to markets."
-  },
-  {
-    "index": 88,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 7778,
-    "endFrame": 7875,
-    "startSeconds": 259.27,
-    "endSeconds": 262.49,
-    "text": "It also sets out provisions for AI governance alongside"
-  },
-  {
-    "index": 89,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 7875,
-    "endFrame": 7931,
-    "startSeconds": 262.49,
-    "endSeconds": 264.37,
-    "text": "the push for investment and jobs."
-  },
-  {
-    "index": 90,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 7965,
-    "endFrame": 8071,
-    "startSeconds": 265.49,
-    "endSeconds": 269.03,
-    "text": "Why it matters: India's AI story is increasingly being"
-  },
-  {
-    "index": 91,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 8071,
-    "endFrame": 8105,
-    "startSeconds": 269.03,
-    "endSeconds": 270.17,
-    "text": "written at the state level,"
-  },
-  {
-    "index": 92,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 8112,
-    "endFrame": 8138,
-    "startSeconds": 270.41,
-    "endSeconds": 271.25,
-    "text": "not just in Delhi."
-  },
-  {
-    "index": 93,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 8172,
-    "endFrame": 8213,
-    "startSeconds": 272.39,
-    "endSeconds": 273.77,
-    "text": "States competing on incentives,"
-  },
-  {
-    "index": 94,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 8235,
-    "endFrame": 8309,
-    "startSeconds": 274.49,
-    "endSeconds": 276.97,
-    "text": "talent and data-centre-friendly rules will shape where"
-  },
-  {
-    "index": 95,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 8309,
-    "endFrame": 8396,
-    "startSeconds": 276.97,
-    "endSeconds": 279.87,
-    "text": "investment and jobs actually land and whether regions"
-  },
-  {
-    "index": 96,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 8396,
-    "endFrame": 8486,
-    "startSeconds": 279.87,
-    "endSeconds": 282.85,
-    "text": "outside the established tech hubs can get a share of the"
-  },
-  {
-    "index": 97,
-    "sceneId": "s6_bihar_approves_an_ai_policy_2026",
-    "startFrame": 8486,
-    "endFrame": 8512,
-    "startSeconds": 282.85,
-    "endSeconds": 283.75,
-    "text": "AI build-out."
-  },
-  {
-    "index": 98,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 8581,
-    "endFrame": 8610,
-    "startSeconds": 286.02,
-    "endSeconds": 287.0,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 2326,
+    "endFrame": 2354,
+    "startSeconds": 77.54,
+    "endSeconds": 78.46,
     "text": "Around the world."
   },
   {
-    "index": 99,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 8638,
-    "endFrame": 8717,
-    "startSeconds": 287.94,
-    "endSeconds": 290.58,
-    "text": "Norway's National Security Authority has lifted the"
+    "index": 27,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 2381,
+    "endFrame": 2491,
+    "startSeconds": 79.36,
+    "endSeconds": 83.02,
+    "text": "Exclusive: Gap between NHS claim and trusts\u2019 comments"
   },
   {
-    "index": 100,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 8717,
-    "endFrame": 8782,
-    "startSeconds": 290.58,
-    "endSeconds": 292.74,
-    "text": "country's national cyber-risk level to high,"
+    "index": 28,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 2491,
+    "endFrame": 2587,
+    "startSeconds": 83.02,
+    "endSeconds": 86.24,
+    "text": "described as \u2018very misleading\u2019 by senior health official"
   },
   {
-    "index": 101,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 8792,
-    "endFrame": 8864,
-    "startSeconds": 293.06,
-    "endSeconds": 295.48,
-    "text": "pointing specifically to large language models and"
+    "index": 29,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 2587,
+    "endFrame": 2689,
+    "startSeconds": 86.24,
+    "endSeconds": 89.64,
+    "text": "More than two dozen hospital trusts the NHS claims have"
   },
   {
-    "index": 102,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 8864,
-    "endFrame": 8931,
-    "startSeconds": 295.48,
-    "endSeconds": 297.7,
-    "text": "agentic AI systems that can take actions,"
+    "index": 30,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 2689,
+    "endFrame": 2777,
+    "startSeconds": 89.64,
+    "endSeconds": 92.58,
+    "text": "benefited from Palantir\u2019s medical data platform are not"
   },
   {
-    "index": 103,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 8933,
-    "endFrame": 8985,
-    "startSeconds": 297.76,
-    "endSeconds": 299.5,
-    "text": "not just answer questions."
+    "index": 31,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 2777,
+    "endFrame": 2851,
+    "startSeconds": 92.58,
+    "endSeconds": 95.04,
+    "text": "using all or most of the AI-powered technology,"
   },
   {
-    "index": 104,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 9020,
-    "endFrame": 9088,
-    "startSeconds": 300.66,
-    "endSeconds": 302.92,
-    "text": "The authority warns that the same tools that help"
+    "index": 32,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 2870,
+    "endFrame": 2899,
+    "startSeconds": 95.66,
+    "endSeconds": 96.64,
+    "text": "the Guardian can reveal."
   },
   {
-    "index": 105,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 9088,
-    "endFrame": 9158,
-    "startSeconds": 302.92,
-    "endSeconds": 305.28,
-    "text": "defenders are lowering the skill and effort attackers"
+    "index": 33,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 2932,
+    "endFrame": 3044,
+    "startSeconds": 97.72,
+    "endSeconds": 101.46,
+    "text": "The 29 hospital trusts that NHS England publicly lists"
   },
   {
-    "index": 106,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 9158,
-    "endFrame": 9215,
-    "startSeconds": 305.28,
-    "endSeconds": 307.16,
-    "text": "need, letting them probe networks,"
+    "index": 34,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 3044,
+    "endFrame": 3166,
+    "startSeconds": 101.46,
+    "endSeconds": 105.54,
+    "text": "as \u201crealising benefits\u201d from the controversial \u00a3330m"
   },
   {
-    "index": 107,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 9229,
-    "endFrame": 9312,
-    "startSeconds": 307.62,
-    "endSeconds": 310.4,
-    "text": "write malicious code and run intrusions faster and at"
+    "index": 35,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 3166,
+    "endFrame": 3275,
+    "startSeconds": 105.54,
+    "endSeconds": 109.16,
+    "text": "federated data platform (FDP) have said the system is"
   },
   {
-    "index": 108,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 9312,
-    "endFrame": 9332,
-    "startSeconds": 310.4,
-    "endSeconds": 311.06,
-    "text": "larger scale."
+    "index": 36,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 3275,
+    "endFrame": 3356,
+    "startSeconds": 109.16,
+    "endSeconds": 111.88,
+    "text": "not live or they are not using any of its applications."
   },
   {
-    "index": 109,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 9350,
-    "endFrame": 9425,
-    "startSeconds": 311.68,
-    "endSeconds": 314.18,
-    "text": "It is one of the clearest moves yet by a national"
+    "index": 37,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 3393,
+    "endFrame": 3473,
+    "startSeconds": 113.1,
+    "endSeconds": 115.78,
+    "text": "The apparent gap between the NHS claim and the trusts\u2019"
   },
   {
-    "index": 110,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 9425,
-    "endFrame": 9526,
-    "startSeconds": 314.18,
-    "endSeconds": 317.52,
-    "text": "security agency to treat autonomous AI as a standing"
+    "index": 38,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 3473,
+    "endFrame": 3569,
+    "startSeconds": 115.78,
+    "endSeconds": 118.98,
+    "text": "understanding was described as \u201cvery misleading\u201d by one"
   },
   {
-    "index": 111,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 9526,
-    "endFrame": 9577,
-    "startSeconds": 317.52,
-    "endSeconds": 319.22,
-    "text": "threat rather than a future risk."
+    "index": 39,
+    "sceneId": "s2_palantir_ai_tech_unused_or_littl",
+    "startFrame": 3569,
+    "endFrame": 3599,
+    "startSeconds": 118.98,
+    "endSeconds": 119.98,
+    "text": "senior health official."
   },
   {
-    "index": 112,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 9603,
-    "endFrame": 9691,
-    "startSeconds": 320.1,
-    "endSeconds": 323.02,
-    "text": "Why it matters: When a government formally raises its"
+    "index": 40,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 3729,
+    "endFrame": 3745,
+    "startSeconds": 124.3,
+    "endSeconds": 124.84,
+    "text": "In China."
   },
   {
-    "index": 113,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 9691,
-    "endFrame": 9730,
-    "startSeconds": 323.02,
-    "endSeconds": 324.34,
-    "text": "threat level because of AI,"
+    "index": 41,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 3774,
+    "endFrame": 3858,
+    "startSeconds": 125.8,
+    "endSeconds": 128.6,
+    "text": "Apple will begin testing Apple Intelligence in mainland"
   },
   {
-    "index": 114,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 9751,
-    "endFrame": 9826,
-    "startSeconds": 325.02,
-    "endSeconds": 327.54,
-    "text": "it signals that agentic systems have moved from research"
+    "index": 42,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 3858,
+    "endFrame": 3904,
+    "startSeconds": 128.6,
+    "endSeconds": 130.14,
+    "text": "China on November 4,"
   },
   {
-    "index": 115,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 9826,
-    "endFrame": 9896,
-    "startSeconds": 327.54,
-    "endSeconds": 329.86,
-    "text": "demonstrations to a live concern for critical"
+    "index": 43,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 3914,
+    "endFrame": 3976,
+    "startSeconds": 130.48,
+    "endSeconds": 132.52,
+    "text": "integrating Alibaba\u2019s Qwen into Siri,"
   },
   {
-    "index": 116,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 9896,
-    "endFrame": 9988,
-    "startSeconds": 329.86,
-    "endSeconds": 332.94,
-    "text": "infrastructure, business and ordinary users alike."
+    "index": 44,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 3986,
+    "endFrame": 4044,
+    "startSeconds": 132.86,
+    "endSeconds": 134.8,
+    "text": "Writing Tools, and Visual Intelligence."
   },
   {
-    "index": 117,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 10019,
-    "endFrame": 10101,
-    "startSeconds": 333.98,
-    "endSeconds": 336.7,
-    "text": "European regulators and security agencies are"
+    "index": 45,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 4085,
+    "endFrame": 4169,
+    "startSeconds": 136.18,
+    "endSeconds": 138.96,
+    "text": "The features will arrive through an iOS developer beta"
   },
   {
-    "index": 118,
-    "sceneId": "s7_norway_raises_its_national_cyber",
-    "startFrame": 10101,
-    "endFrame": 10150,
-    "startSeconds": 336.7,
-    "endSeconds": 338.34,
-    "text": "increasingly aligned on this warning."
+    "index": 46,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 4169,
+    "endFrame": 4279,
+    "startSeconds": 138.96,
+    "endSeconds": 142.64,
+    "text": "before a wider release with iOS 27.3 in December,"
   },
   {
-    "index": 119,
-    "sceneId": "s8_ai_is_stealing_indigenous_austra",
-    "startFrame": 10217,
-    "endFrame": 10233,
-    "startSeconds": 340.57,
-    "endSeconds": 341.11,
-    "text": "Next."
+    "index": 47,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 4295,
+    "endFrame": 4342,
+    "startSeconds": 143.16,
+    "endSeconds": 144.74,
+    "text": "Apple announced on October 31."
   },
   {
-    "index": 120,
-    "sceneId": "s8_ai_is_stealing_indigenous_austra",
-    "startFrame": 10266,
-    "endFrame": 10354,
-    "startSeconds": 342.21,
-    "endSeconds": 345.15,
-    "text": "Chair of National Gallery\u2019s First Nations advisory group"
+    "index": 48,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 4376,
+    "endFrame": 4464,
+    "startSeconds": 145.86,
+    "endSeconds": 148.8,
+    "text": "Users will be able to ask Qwen questions about text,"
   },
   {
-    "index": 121,
-    "sceneId": "s8_ai_is_stealing_indigenous_austra",
-    "startFrame": 10354,
-    "endFrame": 10448,
-    "startSeconds": 345.15,
-    "endSeconds": 348.27,
-    "text": "says the technology is undermining artists\u2019 agency and"
+    "index": 49,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 4480,
+    "endFrame": 4571,
+    "startSeconds": 149.34,
+    "endSeconds": 152.36,
+    "text": "images, and documents directly within Apple\u2019s system"
   },
   {
-    "index": 122,
-    "sceneId": "s8_ai_is_stealing_indigenous_austra",
-    "startFrame": 10448,
-    "endFrame": 10516,
-    "startSeconds": 348.27,
-    "endSeconds": 350.55,
-    "text": "the authenticity of their work Get our breaking news"
+    "index": 50,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 4571,
+    "endFrame": 4582,
+    "startSeconds": 152.36,
+    "endSeconds": 152.72,
+    "text": "features."
   },
   {
-    "index": 123,
-    "sceneId": "s8_ai_is_stealing_indigenous_austra",
-    "startFrame": 10516,
-    "endFrame": 10635,
-    "startSeconds": 350.55,
-    "endSeconds": 354.49,
-    "text": "email , free app or daily news podcast AI is taking"
+    "index": 51,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 4616,
+    "endFrame": 4698,
+    "startSeconds": 153.88,
+    "endSeconds": 156.6,
+    "text": "They can sign in with a Qwen account or use Sign in with"
   },
   {
-    "index": 124,
-    "sceneId": "s8_ai_is_stealing_indigenous_austra",
-    "startFrame": 10635,
-    "endFrame": 10719,
-    "startSeconds": 354.49,
-    "endSeconds": 357.29,
-    "text": "First Nations art and turning it into \u201cTemu slop\u201d,"
+    "index": 52,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 4698,
+    "endFrame": 4782,
+    "startSeconds": 156.6,
+    "endSeconds": 159.4,
+    "text": "Apple, while Writing Tools will also support generating"
   },
   {
-    "index": 125,
-    "sceneId": "s8_ai_is_stealing_indigenous_austra",
-    "startFrame": 10733,
-    "endFrame": 10806,
-    "startSeconds": 357.77,
-    "endSeconds": 360.19,
-    "text": "the Pitjantjatjara artist Sally Scales has said."
+    "index": 53,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 4782,
+    "endFrame": 4832,
+    "startSeconds": 159.4,
+    "endSeconds": 161.06,
+    "text": "original content through Qwen."
   },
   {
-    "index": 126,
-    "sceneId": "s8_ai_is_stealing_indigenous_austra",
-    "startFrame": 10831,
-    "endFrame": 10933,
-    "startSeconds": 361.03,
-    "endSeconds": 364.43,
-    "text": "Scales, the chair of the National Gallery of Australia\u2019s"
+    "index": 54,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 4859,
+    "endFrame": 4925,
+    "startSeconds": 161.98,
+    "endSeconds": 164.18,
+    "text": "The initial rollout includes live translation,"
   },
   {
-    "index": 127,
-    "sceneId": "s8_ai_is_stealing_indigenous_austra",
-    "startFrame": 10933,
-    "endFrame": 10978,
-    "startSeconds": 364.43,
-    "endSeconds": 365.93,
-    "text": "First Nations advisory group,"
+    "index": 55,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 4950,
+    "endFrame": 5051,
+    "startSeconds": 165.0,
+    "endSeconds": 168.36,
+    "text": "photo cleanup, Genmoji, natural-language photo searches,"
   },
   {
-    "index": 128,
-    "sceneId": "s8_ai_is_stealing_indigenous_austra",
-    "startFrame": 10989,
-    "endFrame": 11074,
-    "startSeconds": 366.31,
-    "endSeconds": 369.15,
-    "text": "said the technology is undermining the agency of First"
+    "index": 56,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 5068,
+    "endFrame": 5105,
+    "startSeconds": 168.94,
+    "endSeconds": 170.16,
+    "text": "and summaries of messages,"
   },
   {
-    "index": 129,
-    "sceneId": "s8_ai_is_stealing_indigenous_austra",
-    "startFrame": 11074,
-    "endFrame": 11160,
-    "startSeconds": 369.15,
-    "endSeconds": 372.01,
-    "text": "Nations artists and the authenticity of their work and"
+    "index": 57,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 5122,
+    "endFrame": 5191,
+    "startSeconds": 170.72,
+    "endSeconds": 173.04,
+    "text": "notifications, and recorded conversations."
   },
   {
-    "index": 130,
-    "sceneId": "s8_ai_is_stealing_indigenous_austra",
-    "startFrame": 11160,
-    "endFrame": 11221,
-    "startSeconds": 372.01,
-    "endSeconds": 374.03,
-    "text": "represents a \u201ca theft\u201d of cultural knowledge."
+    "index": 58,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 5225,
+    "endFrame": 5316,
+    "startSeconds": 174.16,
+    "endSeconds": 177.2,
+    "text": "Support for other Apple platforms will follow after the"
   },
   {
-    "index": 131,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 11290,
-    "endFrame": 11308,
-    "startSeconds": 376.35,
-    "endSeconds": 376.95,
-    "text": "Elsewhere."
+    "index": 59,
+    "sceneId": "s3_apple_confirms_qwen_integration",
+    "startFrame": 5316,
+    "endFrame": 5346,
+    "startSeconds": 177.2,
+    "endSeconds": 178.2,
+    "text": "necessary approvals."
   },
   {
-    "index": 132,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 11331,
-    "endFrame": 11427,
-    "startSeconds": 377.71,
-    "endSeconds": 380.89,
-    "text": "Inner west Sydney seat has long been safely held by the"
+    "index": 60,
+    "sceneId": "s4_hsbc_to_open_hong_kong_ai_instit",
+    "startFrame": 5477,
+    "endFrame": 5498,
+    "startSeconds": 182.56,
+    "endSeconds": 183.26,
+    "text": "In Asia."
   },
   {
-    "index": 133,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 11427,
-    "endFrame": 11525,
-    "startSeconds": 380.89,
-    "endSeconds": 384.17,
-    "text": "PM but potential changes to copyright laws are angering"
+    "index": 61,
+    "sceneId": "s4_hsbc_to_open_hong_kong_ai_instit",
+    "startFrame": 5531,
+    "endFrame": 5611,
+    "startSeconds": 184.36,
+    "endSeconds": 187.04,
+    "text": "The AI unit will work with Hong Kong University of"
   },
   {
-    "index": 134,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 11525,
-    "endFrame": 11600,
-    "startSeconds": 384.17,
-    "endSeconds": 386.65,
-    "text": "its large creative community Get our daily political"
+    "index": 62,
+    "sceneId": "s4_hsbc_to_open_hong_kong_ai_instit",
+    "startFrame": 5611,
+    "endFrame": 5701,
+    "startSeconds": 187.04,
+    "endSeconds": 190.04,
+    "text": "Science and Technology as its anchor academic partner,"
   },
   {
-    "index": 135,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 11600,
-    "endFrame": 11690,
-    "startSeconds": 386.65,
-    "endSeconds": 389.67,
-    "text": "email , free app or daily news podcast The prime"
+    "index": 63,
+    "sceneId": "s4_hsbc_to_open_hong_kong_ai_instit",
+    "startFrame": 5710,
+    "endFrame": 5792,
+    "startSeconds": 190.34,
+    "endSeconds": 193.06,
+    "text": "Elhedery said, though he did not disclose headcount"
   },
   {
-    "index": 136,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 11690,
-    "endFrame": 11772,
-    "startSeconds": 389.67,
-    "endSeconds": 392.41,
-    "text": "minister is facing growing discontent within his own"
+    "index": 64,
+    "sceneId": "s4_hsbc_to_open_hong_kong_ai_instit",
+    "startFrame": 5792,
+    "endFrame": 5803,
+    "startSeconds": 193.06,
+    "endSeconds": 193.44,
+    "text": "details."
   },
   {
-    "index": 137,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 11772,
-    "endFrame": 11847,
-    "startSeconds": 392.41,
-    "endSeconds": 394.89,
-    "text": "electorate as creatives push back against the federal"
-  },
-  {
-    "index": 138,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 11847,
-    "endFrame": 11934,
-    "startSeconds": 394.89,
-    "endSeconds": 397.81,
-    "text": "government\u2019s proposal to allow AI companies to scrape"
-  },
-  {
-    "index": 139,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 11934,
-    "endFrame": 11989,
-    "startSeconds": 397.81,
-    "endSeconds": 399.63,
-    "text": "everything Australians create online."
-  },
-  {
-    "index": 140,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 12018,
-    "endFrame": 12108,
-    "startSeconds": 400.61,
-    "endSeconds": 403.59,
-    "text": "Anthony Albanese\u2019s seat of Grayndler in Sydney\u2019s inner"
-  },
-  {
-    "index": 141,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 12108,
-    "endFrame": 12190,
-    "startSeconds": 403.59,
-    "endSeconds": 406.33,
-    "text": "west is home to more than 3,000 cultural and creative"
-  },
-  {
-    "index": 142,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 12201,
-    "endFrame": 12293,
-    "startSeconds": 406.69,
-    "endSeconds": 409.77,
-    "text": "businesses, and 10% of its workers are employed in"
-  },
-  {
-    "index": 143,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 12293,
-    "endFrame": 12389,
-    "startSeconds": 409.77,
-    "endSeconds": 412.97,
-    "text": "cultural and creative fields compared with 4.2%"
-  },
-  {
-    "index": 144,
-    "sceneId": "s9_disquiet_grows_in_albanese_s_bac",
-    "startFrame": 12389,
-    "endFrame": 12402,
-    "startSeconds": 412.97,
-    "endSeconds": 413.41,
-    "text": "nationally."
-  },
-  {
-    "index": 145,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 12530,
-    "endFrame": 12560,
-    "startSeconds": 417.66,
-    "endSeconds": 418.66,
+    "index": 65,
+    "sceneId": "s5_ai_debt_surge_pushes_magnificent",
+    "startFrame": 5938,
+    "endFrame": 5966,
+    "startSeconds": 197.93,
+    "endSeconds": 198.87,
     "text": "Turning to India."
   },
   {
-    "index": 146,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 12588,
-    "endFrame": 12685,
-    "startSeconds": 419.6,
-    "endSeconds": 422.82,
-    "text": "Tata Communications has outlined plans to invest about"
+    "index": 66,
+    "sceneId": "s5_ai_debt_surge_pushes_magnificent",
+    "startFrame": 5999,
+    "endFrame": 6071,
+    "startSeconds": 199.97,
+    "endSeconds": 202.37,
+    "text": "The combined debt of the seven largest US technology"
   },
   {
-    "index": 147,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 12685,
-    "endFrame": 12769,
-    "startSeconds": 422.82,
-    "endSeconds": 425.62,
-    "text": "450 million dollars in building connectivity"
+    "index": 67,
+    "sceneId": "s5_ai_debt_surge_pushes_magnificent",
+    "startFrame": 6071,
+    "endFrame": 6161,
+    "startSeconds": 202.37,
+    "endSeconds": 205.37,
+    "text": "companies, widely known as the Magnificent Seven,"
   },
   {
-    "index": 148,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 12769,
-    "endFrame": 12842,
-    "startSeconds": 425.62,
-    "endSeconds": 428.08,
-    "text": "infrastructure in India tuned for artificial"
+    "index": 68,
+    "sceneId": "s5_ai_debt_surge_pushes_magnificent",
+    "startFrame": 6170,
+    "endFrame": 6310,
+    "startSeconds": 205.67,
+    "endSeconds": 210.35,
+    "text": "has increased nearly 45 per cent to USD 578 billion by"
   },
   {
-    "index": 149,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 12842,
-    "endFrame": 12938,
-    "startSeconds": 428.08,
-    "endSeconds": 431.28,
-    "text": "intelligence the high-capacity, low-latency networking"
+    "index": 69,
+    "sceneId": "s5_ai_debt_surge_pushes_magnificent",
+    "startFrame": 6310,
+    "endFrame": 6422,
+    "startSeconds": 210.35,
+    "endSeconds": 214.07,
+    "text": "mid-2026, raising concerns over the financial risks"
   },
   {
-    "index": 150,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 12938,
-    "endFrame": 12974,
-    "startSeconds": 431.28,
-    "endSeconds": 432.46,
-    "text": "that links data centres,"
+    "index": 70,
+    "sceneId": "s5_ai_debt_surge_pushes_magnificent",
+    "startFrame": 6422,
+    "endFrame": 6492,
+    "startSeconds": 214.07,
+    "endSeconds": 216.39,
+    "text": "linked to the rapid expansion of artificial intelligence"
   },
   {
-    "index": 151,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 13007,
-    "endFrame": 13048,
-    "startSeconds": 433.56,
-    "endSeconds": 434.92,
-    "text": "enterprises and AI services."
+    "index": 71,
+    "sceneId": "s5_ai_debt_surge_pushes_magnificent",
+    "startFrame": 6492,
+    "endFrame": 6598,
+    "startSeconds": 216.39,
+    "endSeconds": 219.95,
+    "text": "infrastructure, according to a report by SBI Research."
   },
   {
-    "index": 152,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 13085,
-    "endFrame": 13174,
-    "startSeconds": 436.16,
-    "endSeconds": 439.12,
-    "text": "The commitment comes as demand for AI compute inside"
+    "index": 72,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 6729,
+    "endFrame": 6746,
+    "startSeconds": 224.31,
+    "endSeconds": 224.85,
+    "text": "In China."
   },
   {
-    "index": 153,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 13174,
-    "endFrame": 13242,
-    "startSeconds": 439.12,
-    "endSeconds": 441.4,
-    "text": "India drives a wave of spending on the plumbing"
+    "index": 73,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 6778,
+    "endFrame": 6868,
+    "startSeconds": 225.95,
+    "endSeconds": 228.93,
+    "text": "SenseTime has released SenseNova Loop-9B-Preview,"
   },
   {
-    "index": 154,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 13242,
-    "endFrame": 13339,
-    "startSeconds": 441.4,
-    "endSeconds": 444.62,
-    "text": "underneath it, from subsea and terrestrial links to the"
+    "index": 74,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 6881,
+    "endFrame": 6891,
+    "startSeconds": 229.37,
+    "endSeconds": 229.69,
+    "text": "an open-."
   },
   {
-    "index": 155,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 13339,
-    "endFrame": 13408,
-    "startSeconds": 444.62,
-    "endSeconds": 446.92,
-    "text": "networks that move data between AI facilities."
+    "index": 75,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 6931,
+    "endFrame": 7033,
+    "startSeconds": 231.03,
+    "endSeconds": 234.43,
+    "text": "The model accepts text and images and generates text for"
   },
   {
-    "index": 156,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 13438,
-    "endFrame": 13555,
-    "startSeconds": 447.94,
-    "endSeconds": 451.82,
-    "text": "Why it matters: Running AI at national scale is not only"
+    "index": 76,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 7033,
+    "endFrame": 7130,
+    "startSeconds": 234.43,
+    "endSeconds": 237.65,
+    "text": "document understanding, coding, and tasks involving"
   },
   {
-    "index": 157,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 13555,
-    "endFrame": 13597,
-    "startSeconds": 451.82,
-    "endSeconds": 453.22,
-    "text": "about chips and data centres;"
+    "index": 77,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 7130,
+    "endFrame": 7160,
+    "startSeconds": 237.65,
+    "endSeconds": 238.65,
+    "text": "external tools."
   },
   {
-    "index": 158,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 13612,
-    "endFrame": 13671,
-    "startSeconds": 453.72,
-    "endSeconds": 455.7,
-    "text": "it depends on the networks that connect them."
+    "index": 78,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 7192,
+    "endFrame": 7284,
+    "startSeconds": 239.73,
+    "endSeconds": 242.81,
+    "text": "It runs a shared block of 24 decoder layers twice,"
   },
   {
-    "index": 159,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 13697,
-    "endFrame": 13784,
-    "startSeconds": 456.58,
-    "endSeconds": 459.46,
-    "text": "Investment of this size signals that Indian operators"
+    "index": 79,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 7300,
+    "endFrame": 7384,
+    "startSeconds": 243.35,
+    "endSeconds": 246.13,
+    "text": "creating a deeper computation path from a model with"
   },
   {
-    "index": 160,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 13784,
-    "endFrame": 13877,
-    "startSeconds": 459.46,
-    "endSeconds": 462.56,
-    "text": "expect sustained domestic demand for AI services,"
+    "index": 80,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 7384,
+    "endFrame": 7436,
+    "startSeconds": 246.13,
+    "endSeconds": 247.87,
+    "text": "approximately nine billion parameters."
   },
   {
-    "index": 161,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 13896,
-    "endFrame": 13968,
-    "startSeconds": 463.2,
-    "endSeconds": 465.6,
-    "text": "and it is the kind of infrastructure spending that"
+    "index": 81,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 7478,
+    "endFrame": 7567,
+    "startSeconds": 249.25,
+    "endSeconds": 252.23,
+    "text": "The documented training setup supports sequences of up"
   },
   {
-    "index": 162,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 13968,
-    "endFrame": 14053,
-    "startSeconds": 465.6,
-    "endSeconds": 468.42,
-    "text": "quietly determines how fast and how affordably AI"
+    "index": 82,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 7567,
+    "endFrame": 7697,
+    "startSeconds": 252.23,
+    "endSeconds": 256.57,
+    "text": "to 262,144 tokens and combines text,"
   },
   {
-    "index": 163,
-    "sceneId": "s10_tata_communications_plans_a_450",
-    "startFrame": 14053,
-    "endFrame": 14131,
-    "startSeconds": 468.42,
-    "endSeconds": 471.04,
-    "text": "reaches businesses and users across the country."
+    "index": 83,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 7709,
+    "endFrame": 7780,
+    "startSeconds": 256.97,
+    "endSeconds": 259.33,
+    "text": "images, code, and tool-use examples."
   },
   {
-    "index": 164,
+    "index": 84,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 7816,
+    "endFrame": 7872,
+    "startSeconds": 260.55,
+    "endSeconds": 262.39,
+    "text": "SenseTime has published model weights,"
+  },
+  {
+    "index": 85,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 7886,
+    "endFrame": 7951,
+    "startSeconds": 262.87,
+    "endSeconds": 265.03,
+    "text": "inference instructions, and training guidance,"
+  },
+  {
+    "index": 86,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 7965,
+    "endFrame": 8057,
+    "startSeconds": 265.49,
+    "endSeconds": 268.57,
+    "text": "with the project distributed under the Apache 2.0"
+  },
+  {
+    "index": 87,
+    "sceneId": "s6_sensetime_open_sources_9_billion",
+    "startFrame": 8057,
+    "endFrame": 8067,
+    "startSeconds": 268.57,
+    "endSeconds": 268.91,
+    "text": "license."
+  },
+  {
+    "index": 88,
+    "sceneId": "s7_south_korea_s_lee_vows_to_make_b",
+    "startFrame": 8202,
+    "endFrame": 8222,
+    "startSeconds": 273.4,
+    "endSeconds": 274.06,
+    "text": "In Asia."
+  },
+  {
+    "index": 89,
+    "sceneId": "s7_south_korea_s_lee_vows_to_make_b",
+    "startFrame": 8247,
+    "endFrame": 8320,
+    "startSeconds": 274.9,
+    "endSeconds": 277.32,
+    "text": "His administration proposed in September increasing"
+  },
+  {
+    "index": 90,
+    "sceneId": "s7_south_korea_s_lee_vows_to_make_b",
+    "startFrame": 8320,
+    "endFrame": 8469,
+    "startSeconds": 277.32,
+    "endSeconds": 282.3,
+    "text": "government spending by a record 12.8% next year to 820.9"
+  },
+  {
+    "index": 91,
+    "sceneId": "s7_south_korea_s_lee_vows_to_make_b",
+    "startFrame": 8469,
+    "endFrame": 8603,
+    "startSeconds": 282.3,
+    "endSeconds": 286.76,
+    "text": "trillion won (615.62 billion dollars ) aiming to"
+  },
+  {
+    "index": 92,
+    "sceneId": "s7_south_korea_s_lee_vows_to_make_b",
+    "startFrame": 8603,
+    "endFrame": 8683,
+    "startSeconds": 286.76,
+    "endSeconds": 289.42,
+    "text": "strengthen South Korea's technological edge as global"
+  },
+  {
+    "index": 93,
+    "sceneId": "s7_south_korea_s_lee_vows_to_make_b",
+    "startFrame": 8683,
+    "endFrame": 8749,
+    "startSeconds": 289.42,
+    "endSeconds": 291.62,
+    "text": "competition over AI intensifies."
+  },
+  {
+    "index": 94,
+    "sceneId": "s8_pronto_founder_s_provision_labs",
+    "startFrame": 8879,
+    "endFrame": 8910,
+    "startSeconds": 295.97,
+    "endSeconds": 297.01,
+    "text": "Turning to India."
+  },
+  {
+    "index": 95,
+    "sceneId": "s8_pronto_founder_s_provision_labs",
+    "startFrame": 8943,
+    "endFrame": 9031,
+    "startSeconds": 298.09,
+    "endSeconds": 301.03,
+    "text": "Pronto founder Anjali Sardana\u2019s physical AI venture"
+  },
+  {
+    "index": 96,
+    "sceneId": "s8_pronto_founder_s_provision_labs",
+    "startFrame": 9031,
+    "endFrame": 9110,
+    "startSeconds": 301.03,
+    "endSeconds": 303.67,
+    "text": "Provision Labs has acquired Mumbai-based hardware"
+  },
+  {
+    "index": 97,
+    "sceneId": "s8_pronto_founder_s_provision_labs",
+    "startFrame": 9110,
+    "endFrame": 9196,
+    "startSeconds": 303.67,
+    "endSeconds": 306.55,
+    "text": "startup Basilisk Industries for an undisclosed sum."
+  },
+  {
+    "index": 98,
     "sceneId": "recap",
-    "startFrame": 14197,
-    "endFrame": 14255,
-    "startSeconds": 473.24,
-    "endSeconds": 475.16,
+    "startFrame": 9265,
+    "endFrame": 9322,
+    "startSeconds": 308.83,
+    "endSeconds": 310.73,
     "text": "To recap today's top stories."
   },
   {
-    "index": 165,
+    "index": 99,
     "sceneId": "recap",
-    "startFrame": 14288,
-    "endFrame": 14386,
-    "startSeconds": 476.28,
-    "endSeconds": 479.52,
-    "text": "America is firing up retired nuclear reactors to keep"
+    "startFrame": 9354,
+    "endFrame": 9484,
+    "startSeconds": 311.81,
+    "endSeconds": 316.15,
+    "text": "Meituan launches LongCat-2.5 multimodal AI model for"
   },
   {
-    "index": 166,
+    "index": 100,
     "sceneId": "recap",
-    "startFrame": 14386,
-    "endFrame": 14435,
-    "startSeconds": 479.52,
-    "endSeconds": 481.16,
-    "text": "its AI data centres running."
+    "startFrame": 9484,
+    "endFrame": 9518,
+    "startSeconds": 316.15,
+    "endSeconds": 317.27,
+    "text": "extended coding tasks."
   },
   {
-    "index": 167,
+    "index": 101,
     "sceneId": "recap",
-    "startFrame": 14464,
-    "endFrame": 14552,
-    "startSeconds": 482.14,
-    "endSeconds": 485.06,
-    "text": "Four of the biggest AI companies agree on one way for"
+    "startFrame": 9553,
+    "endFrame": 9675,
+    "startSeconds": 318.43,
+    "endSeconds": 322.49,
+    "text": "Palantir AI tech unused or little used by 29 NHS trusts"
   },
   {
-    "index": 168,
+    "index": 102,
     "sceneId": "recap",
-    "startFrame": 14552,
-    "endFrame": 14618,
-    "startSeconds": 485.06,
-    "endSeconds": 487.26,
-    "text": "websites to say \"don't train on me\"."
+    "startFrame": 9675,
+    "endFrame": 9718,
+    "startSeconds": 322.49,
+    "endSeconds": 323.95,
+    "text": "said to be benefiting from it."
   },
   {
-    "index": 169,
+    "index": 103,
     "sceneId": "recap",
-    "startFrame": 14650,
-    "endFrame": 14767,
-    "startSeconds": 488.32,
-    "endSeconds": 492.22,
-    "text": "For JPMorgan, Amazon, fighting AI bots like Meta Muse"
+    "startFrame": 9744,
+    "endFrame": 9839,
+    "startSeconds": 324.79,
+    "endSeconds": 327.97,
+    "text": "Apple confirms Qwen integration for China AI rollout,"
   },
   {
-    "index": 170,
+    "index": 104,
     "sceneId": "recap",
-    "startFrame": 14767,
-    "endFrame": 14827,
-    "startSeconds": 492.22,
-    "endSeconds": 494.24,
-    "text": "may not be a winning long-term strategy."
+    "startFrame": 9839,
+    "endFrame": 9913,
+    "startSeconds": 327.97,
+    "endSeconds": 330.43,
+    "text": "with beta testing starting November 4."
   },
   {
-    "index": 171,
+    "index": 105,
     "sceneId": "recap",
-    "startFrame": 14866,
-    "endFrame": 14883,
-    "startSeconds": 495.52,
-    "endSeconds": 496.1,
-    "text": "DeepSeek open-."
+    "startFrame": 9945,
+    "endFrame": 10062,
+    "startSeconds": 331.51,
+    "endSeconds": 335.39,
+    "text": "HSBC to open Hong Kong AI Institute following Singapore"
   },
   {
-    "index": 172,
+    "index": 106,
     "sceneId": "recap",
-    "startFrame": 14939,
-    "endFrame": 15028,
-    "startSeconds": 497.96,
-    "endSeconds": 500.92,
-    "text": "Japan brings its AI playbook to Southeast Asia's small"
+    "startFrame": 10062,
+    "endFrame": 10075,
+    "startSeconds": 335.39,
+    "endSeconds": 335.83,
+    "text": "launch."
   },
   {
-    "index": 173,
+    "index": 107,
     "sceneId": "recap",
-    "startFrame": 15028,
-    "endFrame": 15041,
-    "startSeconds": 500.92,
-    "endSeconds": 501.38,
-    "text": "businesses."
+    "startFrame": 10094,
+    "endFrame": 10232,
+    "startSeconds": 336.47,
+    "endSeconds": 341.05,
+    "text": "AI debt surge pushes Magnificent Seven borrowing to 578"
   },
   {
-    "index": 174,
+    "index": 108,
     "sceneId": "recap",
-    "startFrame": 15041,
-    "endFrame": 15196,
-    "startSeconds": 501.38,
-    "endSeconds": 506.54,
-    "text": "Bihar approves an AI Policy 2026 to court AI firms,"
+    "startFrame": 10232,
+    "endFrame": 10288,
+    "startSeconds": 341.05,
+    "endSeconds": 342.95,
+    "text": "billion dollars , up 45%:"
   },
   {
-    "index": 175,
+    "index": 109,
     "sceneId": "recap",
-    "startFrame": 15211,
-    "endFrame": 15264,
-    "startSeconds": 507.04,
-    "endSeconds": 508.8,
-    "text": "capability centres and startups."
+    "startFrame": 10319,
+    "endFrame": 10348,
+    "startSeconds": 343.97,
+    "endSeconds": 344.93,
+    "text": "SBI Research."
   },
   {
-    "index": 176,
+    "index": 110,
+    "sceneId": "recap",
+    "startFrame": 10378,
+    "endFrame": 10406,
+    "startSeconds": 345.93,
+    "endSeconds": 346.87,
+    "text": "SenseTime open-."
+  },
+  {
+    "index": 111,
     "sceneId": "outro",
-    "startFrame": 15335,
-    "endFrame": 15412,
-    "startSeconds": 511.16,
-    "endSeconds": 513.74,
+    "startFrame": 10489,
+    "endFrame": 10566,
+    "startSeconds": 349.63,
+    "endSeconds": 352.21,
     "text": "Those were today's critical developments across global"
   },
   {
-    "index": 177,
+    "index": 112,
     "sceneId": "outro",
-    "startFrame": 15412,
-    "endFrame": 15453,
-    "startSeconds": 513.74,
-    "endSeconds": 515.1,
+    "startFrame": 10566,
+    "endFrame": 10605,
+    "startSeconds": 352.21,
+    "endSeconds": 353.51,
     "text": "artificial intelligence."
   },
   {
-    "index": 178,
+    "index": 113,
     "sceneId": "outro",
-    "startFrame": 15484,
-    "endFrame": 15529,
-    "startSeconds": 516.12,
-    "endSeconds": 517.64,
+    "startFrame": 10637,
+    "endFrame": 10683,
+    "startSeconds": 354.57,
+    "endSeconds": 356.11,
     "text": "From our bureaus covering World,"
   },
   {
-    "index": 179,
+    "index": 114,
     "sceneId": "outro",
-    "startFrame": 15541,
-    "endFrame": 15628,
-    "startSeconds": 518.02,
-    "endSeconds": 520.92,
+    "startFrame": 10695,
+    "endFrame": 10782,
+    "startSeconds": 356.49,
+    "endSeconds": 359.39,
     "text": "USA, China, Asia, and India,"
   },
   {
-    "index": 180,
+    "index": 115,
     "sceneId": "outro",
-    "startFrame": 15639,
-    "endFrame": 15717,
-    "startSeconds": 521.3,
-    "endSeconds": 523.9,
+    "startFrame": 10793,
+    "endFrame": 10871,
+    "startSeconds": 359.77,
+    "endSeconds": 362.37,
     "text": "thank you for watching SanMitra AI News Wire."
   },
   {
-    "index": 181,
+    "index": 116,
     "sceneId": "outro",
-    "startFrame": 15754,
-    "endFrame": 15840,
-    "startSeconds": 525.12,
-    "endSeconds": 528.0,
+    "startFrame": 10907,
+    "endFrame": 10994,
+    "startSeconds": 363.57,
+    "endSeconds": 366.45,
     "text": "Subscribe now for daily institutional AI intelligence."
   }
 ]

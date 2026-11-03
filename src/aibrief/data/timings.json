@@ -1,42 +1,27 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 13.51,
-    "sceneDurationSeconds": 14.71,
-    "durationInFrames": 441,
+    "audioDurationSeconds": 14.47,
+    "sceneDurationSeconds": 15.67,
+    "durationInFrames": 470,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_america_is_firing_up_retired_nuc": {
-    "audioFile": "audio/aibrief/s1_s1_america_is_firing_up_retired_nuc.mp3",
-    "audioDurationSeconds": 51.89,
-    "sceneDurationSeconds": 53.09,
-    "durationInFrames": 1593,
-    "title": "Story 1: America is firing up retired nuclear reactors to keep its AI data centres running",
+  "s1_meituan_launches_longcat_2_5_mul": {
+    "audioFile": "audio/aibrief/s1_s1_meituan_launches_longcat_2_5_mul.mp3",
+    "audioDurationSeconds": 60.67,
+    "sceneDurationSeconds": 61.87,
+    "durationInFrames": 1856,
+    "title": "Story 1: Meituan launches LongCat-2.5 multimodal AI model for extended coding tasks",
     "voice": "en-US-ChristopherNeural"
   },
-  "transition_usa": {
-    "audioFile": "",
-    "audioDurationSeconds": 0.0,
-    "sceneDurationSeconds": 2.0,
-    "durationInFrames": 60,
-    "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
-  },
-  "s2_four_of_the_biggest_ai_companies": {
-    "audioFile": "audio/aibrief/s2_s2_four_of_the_biggest_ai_companies.mp3",
-    "audioDurationSeconds": 50.09,
-    "sceneDurationSeconds": 51.29,
-    "durationInFrames": 1539,
-    "title": "Story 2: Four of the biggest AI companies agree on one way for websites to say \"don't train on me\"",
+  "s2_palantir_ai_tech_unused_or_littl": {
+    "audioFile": "audio/aibrief/s2_s2_palantir_ai_tech_unused_or_littl.mp3",
+    "audioDurationSeconds": 43.56,
+    "sceneDurationSeconds": 44.76,
+    "durationInFrames": 1343,
+    "title": "Story 2: Palantir AI tech unused or little used by 29 NHS trusts said to be benefiting from it",
     "voice": "en-US-AriaNeural"
-  },
-  "s3_for_jpmorgan_amazon_fighting_ai": {
-    "audioFile": "audio/aibrief/s3_s3_for_jpmorgan_amazon_fighting_ai.mp3",
-    "audioDurationSeconds": 12.41,
-    "sceneDurationSeconds": 13.61,
-    "durationInFrames": 408,
-    "title": "Story 3: For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
-    "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
     "audioFile": "",
@@ -45,13 +30,13 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s4_deepseek_open_sources_its_coding": {
-    "audioFile": "audio/aibrief/s4_s4_deepseek_open_sources_its_coding.mp3",
-    "audioDurationSeconds": 38.14,
-    "sceneDurationSeconds": 39.34,
-    "durationInFrames": 1180,
-    "title": "Story 4: DeepSeek open-sources its coding agent and offers free web search to developers",
-    "voice": "en-US-AriaNeural"
+  "s3_apple_confirms_qwen_integration": {
+    "audioFile": "audio/aibrief/s3_s3_apple_confirms_qwen_integration.mp3",
+    "audioDurationSeconds": 55.06,
+    "sceneDurationSeconds": 56.26,
+    "durationInFrames": 1688,
+    "title": "Story 3: Apple confirms Qwen integration for China AI rollout, with beta testing starting November 4",
+    "voice": "en-US-ChristopherNeural"
   },
   "transition_asia": {
     "audioFile": "",
@@ -60,13 +45,13 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
   },
-  "s5_japan_brings_its_ai_playbook_to": {
-    "audioFile": "audio/aibrief/s5_s5_japan_brings_its_ai_playbook_to.mp3",
-    "audioDurationSeconds": 51.67,
-    "sceneDurationSeconds": 52.87,
-    "durationInFrames": 1586,
-    "title": "Story 5: Japan brings its AI playbook to Southeast Asia's small businesses",
-    "voice": "en-US-ChristopherNeural"
+  "s4_hsbc_to_open_hong_kong_ai_instit": {
+    "audioFile": "audio/aibrief/s4_s4_hsbc_to_open_hong_kong_ai_instit.mp3",
+    "audioDurationSeconds": 12.17,
+    "sceneDurationSeconds": 13.37,
+    "durationInFrames": 401,
+    "title": "Story 4: HSBC to open Hong Kong AI Institute following Singapore launch",
+    "voice": "en-US-AriaNeural"
   },
   "transition_india": {
     "audioFile": "",
@@ -75,51 +60,43 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s6_bihar_approves_an_ai_policy_2026": {
-    "audioFile": "audio/aibrief/s6_s6_bihar_approves_an_ai_policy_2026.mp3",
-    "audioDurationSeconds": 51.91,
-    "sceneDurationSeconds": 53.11,
-    "durationInFrames": 1593,
-    "title": "Story 6: Bihar approves an AI Policy 2026 to court AI firms, capability centres and startups",
-    "voice": "en-US-AriaNeural"
-  },
-  "s7_norway_raises_its_national_cyber": {
-    "audioFile": "audio/aibrief/s7_s7_norway_raises_its_national_cyber.mp3",
-    "audioDurationSeconds": 53.35,
-    "sceneDurationSeconds": 54.55,
-    "durationInFrames": 1637,
-    "title": "Story 7: Norway raises its national cyber-risk level over AI, warning about agents that act on their own",
+  "s5_ai_debt_surge_pushes_magnificent": {
+    "audioFile": "audio/aibrief/s5_s5_ai_debt_surge_pushes_magnificent.mp3",
+    "audioDurationSeconds": 23.18,
+    "sceneDurationSeconds": 24.38,
+    "durationInFrames": 732,
+    "title": "Story 5: AI debt surge pushes Magnificent Seven borrowing to 578 billion dollars , up 45%: SBI Research",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_ai_is_stealing_indigenous_austra": {
-    "audioFile": "audio/aibrief/s8_s8_ai_is_stealing_indigenous_austra.mp3",
-    "audioDurationSeconds": 34.58,
-    "sceneDurationSeconds": 35.78,
-    "durationInFrames": 1074,
-    "title": "Story 8: AI is stealing Indigenous Australian art and churning out \u2018Temu slop\u2019, artist says",
+  "s6_sensetime_open_sources_9_billion": {
+    "audioFile": "audio/aibrief/s6_s6_sensetime_open_sources_9_billion.mp3",
+    "audioDurationSeconds": 45.89,
+    "sceneDurationSeconds": 47.09,
+    "durationInFrames": 1413,
+    "title": "Story 6: SenseTime open-sources 9-billion-parameter AI model that reuses layers for deeper processing",
     "voice": "en-US-AriaNeural"
   },
-  "s9_disquiet_grows_in_albanese_s_bac": {
-    "audioFile": "audio/aibrief/s9_s9_disquiet_grows_in_albanese_s_bac.mp3",
-    "audioDurationSeconds": 38.11,
-    "sceneDurationSeconds": 39.31,
-    "durationInFrames": 1179,
-    "title": "Story 9: Disquiet grows in Albanese\u2019s back yard as Grayndler artists unite against \u2018insane\u2019 AI proposal",
+  "s7_south_korea_s_lee_vows_to_make_b": {
+    "audioFile": "audio/aibrief/s7_s7_south_korea_s_lee_vows_to_make_b.mp3",
+    "audioDurationSeconds": 19.37,
+    "sceneDurationSeconds": 20.57,
+    "durationInFrames": 617,
+    "title": "Story 7: South Korea's Lee vows to make bold AI investment in record budget push",
     "voice": "en-US-ChristopherNeural"
   },
-  "s10_tata_communications_plans_a_450": {
-    "audioFile": "audio/aibrief/s10_s10_tata_communications_plans_a_450.mp3",
-    "audioDurationSeconds": 54.38,
-    "sceneDurationSeconds": 55.58,
-    "durationInFrames": 1668,
-    "title": "Story 10: Tata Communications plans a 450-million-dollar bet on AI-ready connectivity in India",
+  "s8_pronto_founder_s_provision_labs": {
+    "audioFile": "audio/aibrief/s8_s8_pronto_founder_s_provision_labs.mp3",
+    "audioDurationSeconds": 11.66,
+    "sceneDurationSeconds": 12.86,
+    "durationInFrames": 386,
+    "title": "Story 8: Pronto Founder\u2019s Provision Labs Acquires Hardware Startup Basilisk Industries",
     "voice": "en-US-AriaNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 36.72,
-    "sceneDurationSeconds": 37.92,
-    "durationInFrames": 1138,
+    "audioDurationSeconds": 39.6,
+    "sceneDurationSeconds": 40.8,
+    "durationInFrames": 1224,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },
