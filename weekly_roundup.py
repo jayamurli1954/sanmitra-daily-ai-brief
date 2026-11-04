@@ -106,6 +106,8 @@ def unaired(candidates: list, aired: list) -> list:
             continue  # an opinion column ("... | Richard Wilson"), not news
         if any(_same_story(s, a) for a in aired):
             continue
+        if "arxiv.org/abs/" in s.get("primary_url", ""):
+            continue  # papers go to the Research of the Week feature, not a news slot
         keep.append(s)
     return keep
 

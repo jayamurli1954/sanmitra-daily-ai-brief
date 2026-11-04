@@ -11,22 +11,24 @@ Produces today's episode JSON from a prompt in the approved format:
   3. build_episode_from_prompt.py builds the episode from that prompt, so the
      source traceability gate always has a prompt to check against.
 
-An episode has 8-9 stories of about 50-60 seconds (under 10 minutes); with fewer
-than 8, no episode is made.
+An episode has 8-10 news stories of about 40-55 seconds plus, when Hugging Face
+has a strongly upvoted paper, one research story (under 10 minutes); with fewer
+than 8 news stories, no episode is made.
 Every subprocess result is checked, and the orchestrator never falls back to an
 episode JSON that is already on disk, which could be yesterday's.
 """
 
-from datetime import datetime
+from datetime import datetime, timedelta
 import json
 import logging
 import os
+import re
 import subprocess
 import sys
 
 from src.aibrief.story_memory_ledger import StoryMemoryLedger
 
-from .fact_checker import MAX_EPISODE_STORIES, MIN_EPISODE_STORIES, FactChecker
+from .fact_checker import MAX_EPISODE_STORIES, MIN_EPISODE_STORIES, FactChecker, is_research_desk
 from .linkedin_publisher import LinkedInPublisher
 from .news_harvester import NewsHarvester
 from .prompt_writer import append_stories, write_prompt
@@ -46,11 +48,12 @@ def _run(args, description):
 
 
 def prompt_story_headlines(prompt_path):
-    """Headlines the builder will actually keep from this prompt (sourced, de-duplicated)."""
+    """News headlines the builder will actually keep from this prompt (sourced,
+    de-duplicated). The research story rides on top and does not count."""
     from build_episode_from_prompt import parse_markdown_prompt
     with open(prompt_path, "r", encoding="utf-8") as f:
         episode = parse_markdown_prompt(f.read())
-    return [s["headline"] for s in episode.get("stories", [])]
+    return [s["headline"] for s in episode.get("stories", []) if not is_research_desk(s.get("researchDesk"))]
 
 
 def _build_episode(prompt_path, target_date):
@@ -155,21 +158,28 @@ def _merge_editor_brief(editor_path, prompt_path, target_date, warnings):
                     f"({len(report['duplicates'])} duplicates removed).")
 
 
-def _add_daily_paper(prompt_path, target_date, editor_path, warnings):
-    """Give the day's most upvoted Hugging Face paper one slot in the brief.
-
-    The crew's own harvest only runs when a brief is short, so on a full day the
-    paper would never appear. It is added if there is room; otherwise it replaces
-    the last story that is neither the lead nor one of the editor's, or failing
-    that the editor's last story after the lead: research is a standing slot
-    (editor's decision, 2026-11-04, after viewers' searches showed most interest
-    in the latest AI research)."""
+def _append_research_story(prompt_path, target_date, story, weekly, warnings, label):
     from .editor_brief import parse_stories, render
     from .prompt_writer import render_story_sections
 
     with open(prompt_path, "r", encoding="utf-8") as f:
+        stories = parse_stories(f.read())
+    stories.append(parse_stories("\n".join(render_story_sections([story])))[0])
+    with open(prompt_path, "w", encoding="utf-8") as f:
+        f.write(render(stories, target_date, weekly=weekly))
+    logger.info(f"{label} added: {story['title'][:70]}")
+    warnings.append(f"{label} from Hugging Face Daily Papers: {story['title'][:70]}")
+
+
+def _add_daily_paper(prompt_path, target_date, warnings):
+    """Add the day's most upvoted Hugging Face paper on top of the news stories.
+
+    Research rides as an 11th story (editor's decision, 2026-11-04, after viewers'
+    searches showed most interest in the latest AI research), so it never takes a
+    news story's place. The crew's own harvest leaves papers out for the same reason."""
+    with open(prompt_path, "r", encoding="utf-8") as f:
         md = f.read()
-    # Sunday's round-up re-tells the week's stories; a new paper doesn't belong.
+    # Sunday's round-up gets the longer Research of the Week instead.
     if "arxiv.org/abs/" in md or "## Weekly Round-up" in md:
         return
     harvester = NewsHarvester(target_date=target_date)
@@ -181,30 +191,35 @@ def _add_daily_paper(prompt_path, target_date, editor_path, warnings):
     if not verified:
         logger.info(f"Daily paper not used: {checker.rejections}")
         return
+    _append_research_story(prompt_path, target_date, verified[0], False, warnings, "Research Watch story")
 
-    stories = parse_stories(md)
-    paper = parse_stories("\n".join(render_story_sections(verified)))[0]
-    editor_heads = set()
-    if os.path.exists(editor_path):
-        with open(editor_path, "r", encoding="utf-8") as f:
-            editor_heads = {s["headline"] for s in parse_stories(f.read())}
-    if len(stories) >= MAX_EPISODE_STORIES:
-        not_lead = [i for i, s in enumerate(stories)
-                    if not any(l.strip().lower() == "lead: yes" for l in s["lines"])]
-        collected = [i for i in not_lead if stories[i]["headline"] not in editor_heads]
-        replaceable = collected or not_lead
-        if not replaceable:
-            logger.info("Daily paper not used: no story other than the lead to replace.")
-            return
-        dropped = stories.pop(replaceable[-1])
-        logger.info(f"Daily paper replaces: {dropped['headline'][:70]}")
-        if dropped["headline"] in editor_heads:
-            warnings.append(f"Research story took the place of the editor's story: {dropped['headline'][:70]}")
-    stories.append(paper)
-    with open(prompt_path, "w", encoding="utf-8") as f:
-        f.write(render(stories, target_date))
-    logger.info(f"Daily paper added: {paper['headline'][:70]}")
-    warnings.append(f"Research story from Hugging Face Daily Papers: {paper['headline'][:70]}")
+
+def _aired_paper_ids(target_date, days=7):
+    """arXiv ids of papers that aired in the days before target_date."""
+    day = datetime.strptime(target_date, "%Y-%m-%d")
+    ids = set()
+    for n in range(1, days + 1):
+        path = os.path.join(DATA_DIR, "aired", f"{(day - timedelta(days=n)):%Y-%m-%d}.json")
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                for s in json.load(f).get("stories", []):
+                    ids.update(re.findall(r"arxiv\.org/abs/([\w.]+)", s.get("sourceUrl", "")))
+    return ids
+
+
+def _add_research_of_the_week(prompt_path, target_date, warnings):
+    """Sunday's round-up closes with a longer explainer of the week's top paper:
+    the most upvoted one Monday-Saturday that has not aired, else the most upvoted,
+    told from its abstract, introduction and conclusion."""
+    with open(prompt_path, "r", encoding="utf-8") as f:
+        md = f.read()
+    if "## Weekly Round-up" not in md or "arxiv.org/abs/" in md:
+        return
+    harvester = NewsHarvester(target_date=target_date)
+    feature = harvester.fetch_week_paper(exclude_ids=_aired_paper_ids(target_date))
+    if not feature:
+        return
+    _append_research_story(prompt_path, target_date, feature, True, warnings, "Research of the Week")
 
 
 def run_autonomous_crew(target_date=None, force_visuals=False):
@@ -230,9 +245,10 @@ def run_autonomous_crew(target_date=None, force_visuals=False):
 
     if os.path.exists(prompt_path):
         try:
-            _add_daily_paper(prompt_path, target_date, editor_path, warnings)
+            _add_daily_paper(prompt_path, target_date, warnings)
+            _add_research_of_the_week(prompt_path, target_date, warnings)
         except Exception as e:
-            logger.warning(f"Daily paper skipped: {e}")
+            logger.warning(f"Research story skipped: {e}")
 
     if os.path.exists(prompt_path):
         existing = prompt_story_headlines(prompt_path)

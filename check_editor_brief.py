@@ -111,10 +111,7 @@ def check(date: str, editor_dir: str = os.path.join("prompts", "editor")) -> int
         print(f"The night run adds collected stories to reach {MIN_EPISODE_STORIES}-{MAX_EPISODE_STORIES}.")
     else:
         print("That fills the episode.")
-    if n >= MAX_EPISODE_STORIES:
-        last = parse_markdown_prompt(merged)["stories"][-1]["headline"]
-        print(f"[i] On a day with a research paper it takes the place of your last story: {last[:70]}\n"
-              f"    Send {MAX_EPISODE_STORIES - 1} stories to keep all of yours.")
+    print("[i] The day's research story (Hugging Face Daily Papers) is added after these, when there is one.")
     if problems:
         print(f"\n[!] {problems} story/stories need attention (see the arrows above).")
         return 1

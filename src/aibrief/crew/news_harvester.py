@@ -5,7 +5,7 @@ published in the window before the broadcast, and fetches the full article
 text that the fact-checker verifies against.
 """
 
-from datetime import datetime
+from datetime import datetime, timedelta
 import json
 import logging
 import re
@@ -22,6 +22,44 @@ USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 )
+
+
+def third_person(text):
+    """Papers say "We propose..."; read aloud, that sounds like the newsroom's work."""
+    for pattern, repl in ((r"\bWe\b", "The researchers"), (r"\bwe\b", "the researchers"),
+                          (r"\bOur\b", "Their"), (r"\bour\b", "their")):
+        text = re.sub(pattern, repl, text)
+    return text
+
+
+_SECTION_HEADING = re.compile(r"^(?:\d+(?:\.\d+)*\.?\s+|Appendix\s)\S.{0,70}$")
+_CONCLUSION_HEADING = re.compile(r"^\d+\.?\s+(?:Conclusions?|Discussion|Summary)\b", re.IGNORECASE)
+_SPEAKABLE_JUNK = re.compile(r"\\|[{}_^]|\b(?:Fig|Figure|Table|Eq|Sec|Section|Appendix)\b\.?\s*\d|�|https?://")
+
+
+def paper_sections(text):
+    """Abstract, introduction and conclusion of a paper's full text, in that order,
+    with formulas, citations and figure references taken out; the methods and
+    results tables in between are not readable aloud."""
+    lines = [l.strip() for l in text.splitlines()]
+    wanted, keep = [], False
+    for line in lines:
+        if line.lower() in ("abstract", "abstract.") or re.match(r"^\d+\.?\s+Introduction\b", line, re.IGNORECASE) \
+                or _CONCLUSION_HEADING.match(line):
+            keep = True
+            continue
+        if _SECTION_HEADING.match(line) or line.lower().startswith(("references", "acknowledg")):
+            keep = False
+            continue
+        if keep and len(line) > 60 and not line.startswith("|"):
+            wanted.append(line)
+    joined = " ".join(wanted)
+    # Citations: "(Wan et al., 2025)", "(Black and others, 2024; Physical Intelligence, 2025)".
+    joined = re.sub(r"\s*\([^()]{0,160}?,\s*(?:19|20)\d{2}[a-z]?\)", "", joined)
+    joined = re.sub(r"\s*\[\d+(?:[,\u2013-]\s*\d+)*\]", "", joined)
+    # A sentence with maths, a figure reference or a link in it is dropped whole.
+    sentences = re.split(r"(?<=[.!?])\s+", joined)
+    return third_person(" ".join(s for s in sentences if not _SPEAKABLE_JUNK.search(s)))
 
 # "outlet" is the name viewers see on screen. It must be the publication,
 # never the feed ("TechCrunch AI") or a bare domain.
@@ -211,10 +249,7 @@ class NewsHarvester:
             text = text.split("Abstract:", 1)[1]
             text = re.split(r"\s(?:Comments:|Subjects:|Cite as:|Submission history|Additional Features"
                             r"|References & Citations|Bibliographic and Citation Tools)", text, maxsplit=1)[0]
-            # Abstracts say "We propose..."; read aloud, that sounds like the newsroom's work.
-            for pattern, repl in ((r"\bWe\b", "The researchers"), (r"\bwe\b", "the researchers"),
-                                  (r"\bOur\b", "Their"), (r"\bour\b", "their")):
-                text = re.sub(pattern, repl, text)
+            text = third_person(text)
         return {"text": text.strip(), "published": published}
 
     def filter_candidates(self, raw_items):
@@ -268,27 +303,30 @@ class NewsHarvester:
         with urllib.request.urlopen(req, timeout=15) as resp:
             return json.loads(resp.read().decode("utf-8"))
 
+    def _papers_featured_on(self, date):
+        """Papers on Daily Papers for one day that can run: MIN_PAPER_UPVOTES or more
+        and no question title (those fail the fact-checker's speculative-headline rule)."""
+        try:
+            entries = self._get_json(f"{self.DAILY_PAPERS_API}?date={date}") or []
+        except Exception as e:
+            logger.debug(f"Daily Papers fetch failed for {date}: {e}")
+            return []
+        papers = []
+        for entry in entries:
+            paper = entry.get("paper") or {}
+            if (paper.get("id") and paper.get("title") and "?" not in paper["title"]
+                    and paper.get("upvotes", 0) >= self.MIN_PAPER_UPVOTES):
+                # submittedOnDailyAt is the day it was featured on Daily Papers;
+                # publishedAt is its arXiv date, often weeks earlier.
+                papers.append(dict(paper, submitted=paper.get("submittedOnDailyAt") or entry.get("publishedAt", "")))
+        return papers
+
     def fetch_daily_paper(self):
         """The most upvoted paper on Hugging Face Daily Papers for the day the
         episode covers, as a candidate citing its arXiv page; [] if none
         reaches MIN_PAPER_UPVOTES."""
         covered = self.target_date  # the evening episode covers its own day
-        try:
-            entries = self._get_json(f"{self.DAILY_PAPERS_API}?date={covered}") or []
-        except Exception as e:
-            logger.debug(f"Daily Papers fetch failed: {e}")
-            return []
-        best = None
-        for entry in entries:
-            paper = entry.get("paper") or {}
-            # Question titles ("Can Coding Agents Build...?") fail the fact-checker's
-            # speculative-headline rule, so take the best paper that can run.
-            if (paper.get("id") and paper.get("title") and "?" not in paper["title"]
-                    and paper.get("upvotes", 0) >= self.MIN_PAPER_UPVOTES):
-                if best is None or paper["upvotes"] > best["upvotes"]:
-                    # submittedOnDailyAt is the day it was featured on Daily Papers;
-                    # publishedAt is its arXiv date, often weeks earlier.
-                    best = dict(paper, submitted=paper.get("submittedOnDailyAt") or entry.get("publishedAt", ""))
+        best = max(self._papers_featured_on(covered), key=lambda p: p["upvotes"], default=None)
         if not best:
             logger.info(f"Daily Papers: no paper with {self.MIN_PAPER_UPVOTES}+ upvotes for {covered}.")
             return []
@@ -303,8 +341,56 @@ class NewsHarvester:
             "origin": "papers",
         }]
 
+    def fetch_week_paper(self, exclude_ids=()):
+        """Sunday's Research of the Week: the most upvoted paper featured Monday-Saturday
+        that is not in exclude_ids (already aired), else the most upvoted one, as a
+        story whose text is drawn from its abstract, introduction and conclusion.
+        None if no paper reached MIN_PAPER_UPVOTES or its text cannot be read."""
+        from .fact_checker import FEATURE_DESK, FEATURE_MAX_SENTENCES
+        from .text_utils import extractive_summary
+
+        sunday = datetime.strptime(self.target_date, "%Y-%m-%d")
+        week = [(sunday - timedelta(days=n)).strftime("%Y-%m-%d") for n in range(6, 0, -1)]
+        papers = {p["id"]: p for date in week for p in self._papers_featured_on(date)}
+        ranked = sorted(papers.values(), key=lambda p: p["upvotes"], reverse=True)
+        ranked = [p for p in ranked if p["id"] not in exclude_ids] + [p for p in ranked if p["id"] in exclude_ids]
+        for paper in ranked[:3]:
+            text = self.fetch_paper_text(paper["id"])
+            # About 360 words of the paper's own sentences; the rewriter tells it in ~280.
+            summary = extractive_summary(text, max_sentences=FEATURE_MAX_SENTENCES + 6, max_words=360)
+            if len(summary.split()) < 120:
+                logger.info(f"Research of the Week: too little readable text in {paper['id']}, trying the next paper.")
+                continue
+            logger.info(f"Research of the Week: {paper['title'][:70]} ({paper['upvotes']} upvotes)")
+            return {
+                "title": clean_feed_text(paper["title"]),
+                "source": "arXiv",
+                "sourceUrl": f"https://arxiv.org/abs/{paper['id']}",
+                "summary": summary,
+                "region": "WORLD",
+                "desk": FEATURE_DESK,
+            }
+        logger.info("Research of the Week: no paper this week.")
+        return None
+
+    def fetch_paper_text(self, arxiv_id):
+        """The readable parts of a paper: its HTML full text on arXiv, or just the
+        abstract when the paper has no HTML version."""
+        try:
+            import trafilatura
+            req = urllib.request.Request(f"https://arxiv.org/html/{arxiv_id}", headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                full = trafilatura.extract(r.read().decode("utf-8", errors="ignore")) or ""
+            text = paper_sections(full)
+            if len(text.split()) >= 150:
+                return text
+        except Exception as e:
+            logger.debug(f"arXiv full text unavailable for {arxiv_id}: {e}")
+        return self.fetch_article(f"https://arxiv.org/abs/{arxiv_id}").get("text", "")
+
     def harvest(self):
-        return self.filter_candidates(self.fetch_feed_items() + self.search_recent_stories() + self.fetch_daily_paper())
+        # The day's paper is added on top of the news by the orchestrator, not in a news slot.
+        return self.filter_candidates(self.fetch_feed_items() + self.search_recent_stories())
 
 
 if __name__ == "__main__":

@@ -26,6 +26,8 @@ def render_story_sections(stories):
             lines.append(f"### {s['title']}")
             if s.get("lead"):
                 lines.append("Lead: yes")
+            if s.get("desk"):
+                lines.append(f"Desk: {s['desk']}")
             lines.append(f"Source: {s['source']}")
             lines.append(s["sourceUrl"])
             for extra in s.get("also", [])[:2]:
