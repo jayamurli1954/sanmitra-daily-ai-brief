@@ -227,7 +227,9 @@ class FactChecker:
             return self._reject({"title": story["title"], "url": story["sourceUrl"]},
                                 f"not published in the broadcast window (published: {published or 'unknown'})")
 
-        missing = ungrounded_claims(story["title"], body)
+        # A paper's headline is its own title, which its abstract need not repeat
+        # word for word ("Speed-of-Light Streaming Video Generation").
+        missing = [] if "arxiv.org/abs/" in story["sourceUrl"] else ungrounded_claims(story["title"], body)
         if missing:
             return self._reject({"title": story["title"], "url": story["sourceUrl"]},
                                 f"headline claims not found in the article: {', '.join(missing[:5])}")
