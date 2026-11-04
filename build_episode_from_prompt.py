@@ -20,7 +20,10 @@ import re
 import sys
 
 from validate_episode_sources import is_proper_article_url
-from src.aibrief.crew.fact_checker import MAX_EPISODE_STORIES, STORY_MAX_SENTENCES, STORY_MAX_WORDS
+from src.aibrief.crew.fact_checker import (
+    FEATURE_DESK, FEATURE_MAX_SENTENCES, FEATURE_MAX_WORDS, MAX_EPISODE_STORIES, STORY_MAX_SENTENCES,
+    STORY_MAX_WORDS, is_research_desk,
+)
 from src.aibrief.crew.text_utils import is_election_story, same_event, source_link_problem, split_sentences
 from src.aibrief.source_authority import is_company_source
 
@@ -170,7 +173,8 @@ def deduplicate_stories(raw_stories: list) -> list:
 
     return unique_stories
 
-def format_broadcast_narration(idx: int, region: str, headline: str, body: str, prev_region: str = None) -> str:
+def format_broadcast_narration(idx: int, region: str, headline: str, body: str, prev_region: str = None,
+                               desk: str = "") -> str:
     """Converts a raw news story into a calm, professional Bloomberg/Reuters broadcast delivery."""
     # Clean body of source attributions and the research-desk label.
     # Desk is stored on the episode. It is never spoken.
@@ -196,14 +200,18 @@ def format_broadcast_narration(idx: int, region: str, headline: str, body: str, 
     # About 140 words is 60 seconds at the anchors' pace (8-10 stories, under 10 minutes).
     # A sentence is added only if the story stays within ~140 words, so no story runs
     # much past a minute; the first sentence is always kept.
+    # Sunday's Research of the Week runs about two minutes.
+    feature = (desk or "").strip().lower() == FEATURE_DESK.lower()
+    max_words = FEATURE_MAX_WORDS if feature else STORY_MAX_WORDS
+    max_sentences = FEATURE_MAX_SENTENCES if feature else STORY_MAX_SENTENCES
     kept, words = [], 0
     for sentence in filtered_sentences:
         n = len(sentence.split())
-        if kept and words + n > STORY_MAX_WORDS + 10:
+        if kept and words + n > max_words + 10:
             break
         kept.append(sentence)
         words += n
-        if len(kept) >= STORY_MAX_SENTENCES or words >= STORY_MAX_WORDS:
+        if len(kept) >= max_sentences or words >= max_words:
             break
     content = " ".join(kept) if kept else cleaned_body[:700]
 
@@ -212,7 +220,11 @@ def format_broadcast_narration(idx: int, region: str, headline: str, body: str, 
     # regulatory scrutiny,", "In enterprise infrastructure,") was read out before
     # stories about weather balloons and grocery prices.
     transition = ""
-    if idx == 1:
+    if feature:
+        transition = "And now, our research story of the week."
+    elif is_research_desk(desk):
+        transition = "From the research desk."
+    elif idx == 1:
         transition = "Our lead story today."
     elif prev_region and region != prev_region:
         transition = {
@@ -393,6 +405,9 @@ def parse_markdown_prompt(md_text: str) -> dict:
 
     # Deduplicate stories
     unique_stories = deduplicate_stories(candidate_stories)
+    # The research story rides on top of the news stories, after them (10 + 1).
+    research = [s for s in unique_stories if is_research_desk(s.get("research_desk"))]
+    unique_stories = [s for s in unique_stories if s not in research]
 
     # Balance selection across bureaus (WORLD, USA, CHINA, ASIA, INDIA)
     by_region = {}
@@ -432,6 +447,7 @@ def parse_markdown_prompt(md_text: str) -> dict:
     for reg in ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]:
         while len(selected_stories) < MAX_EPISODE_STORIES and reg in by_region and by_region[reg]:
             selected_stories.append(by_region[reg].pop(0))
+    selected_stories += research[:1]
 
     # Load visual memory if present
     visual_mem_path = os.path.join("src", "aibrief", "data", "visual_memory.json")
@@ -457,7 +473,7 @@ def parse_markdown_prompt(md_text: str) -> dict:
         body = s["body"]
         srcs = s["sources"]
 
-        script = format_broadcast_narration(idx, reg, head, body, prev_reg)
+        script = format_broadcast_narration(idx, reg, head, body, prev_reg, s.get("research_desk") or "")
         prev_reg = reg
 
         pans = [

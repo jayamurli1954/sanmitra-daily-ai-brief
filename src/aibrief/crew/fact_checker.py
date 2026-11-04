@@ -73,6 +73,23 @@ MAX_EPISODE_STORIES = 10
 STORY_MAX_WORDS = 130
 STORY_MAX_SENTENCES = 8
 
+# One research story rides on top of the news stories (10 + 1, editor's decision
+# 2026-11-04; a 10-story episode ran 6.4 minutes). It is marked "Desk: Research Watch"
+# and kept shorter, since a paper's abstract is short. Sunday's round-up instead
+# carries a longer "Research of the Week" explainer, about two minutes.
+RESEARCH_DESK = "Research Watch"
+RESEARCH_MAX_WORDS = 90
+FEATURE_DESK = "Research of the Week"
+# Claude is asked for ~250 words and tends to run ~30% over (334 in the 1 Nov trial);
+# the builder's cap sits above that so the findings at the end are never cut.
+FEATURE_TARGET_WORDS = 250
+FEATURE_MAX_WORDS = 340
+FEATURE_MAX_SENTENCES = 30
+
+
+def is_research_desk(desk):
+    return (desk or "").strip().lower() in (RESEARCH_DESK.lower(), FEATURE_DESK.lower())
+
 MIN_ARTICLE_CHARS = 500
 REPEAT_WINDOW_DAYS = 7
 
@@ -229,17 +246,21 @@ class FactChecker:
 
         # A paper's headline is its own title, which its abstract need not repeat
         # word for word ("Speed-of-Light Streaming Video Generation").
-        missing = [] if "arxiv.org/abs/" in story["sourceUrl"] else ungrounded_claims(story["title"], body)
+        paper = "arxiv.org/abs/" in story["sourceUrl"]
+        missing = [] if paper else ungrounded_claims(story["title"], body)
         if missing:
             return self._reject({"title": story["title"], "url": story["sourceUrl"]},
                                 f"headline claims not found in the article: {', '.join(missing[:5])}")
 
-        summary = extractive_summary(body, max_sentences=STORY_MAX_SENTENCES, max_words=STORY_MAX_WORDS)
+        summary = extractive_summary(body, max_sentences=STORY_MAX_SENTENCES,
+                                     max_words=RESEARCH_MAX_WORDS if paper else STORY_MAX_WORDS)
         if not summary:
             return self._reject({"title": story["title"], "url": story["sourceUrl"]}, "no usable sentences in the article")
 
         verified = dict(story)
         verified.update({"summary": summary, "published": published, "articleText": body})
+        if paper:
+            verified["desk"] = RESEARCH_DESK
         return verified
 
     # -- Assembly -----------------------------------------------------------
