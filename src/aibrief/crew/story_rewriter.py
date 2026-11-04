@@ -25,6 +25,7 @@ import shutil
 import subprocess
 import tempfile
 
+from .fact_checker import FEATURE_DESK, FEATURE_TARGET_WORDS, RESEARCH_MAX_WORDS, is_research_desk
 from .text_utils import unsupported_quantities
 
 logger = logging.getLogger("StoryRewriter")
@@ -50,6 +51,10 @@ own announcement, say the company announced or said it.
 it with commentary, context, significance or speculation.
 - Plain spoken English. No markdown, bullet points, hashtags, URLs, region or section names, story \
 numbers, or newspaper labels such as "Exclusive" or "can reveal".
+- A story with a "desk" value is a research paper, and its text comes from the paper itself. Say \
+"the researchers", name the paper's title once, and explain it for a general audience: the problem it \
+tackles, what the researchers built, what they found and, only if the text says so, why it matters. \
+Spell out or explain jargon the text uses; still add no facts the text does not contain.
 
 Return every story id you were given, with its rewritten text."""
 
@@ -78,13 +83,15 @@ def story_bodies(lines):
     for i, line in enumerate(lines):
         stripped = line.strip()
         if stripped.startswith("### "):
-            current = {"headline": stripped[4:].strip(), "source": "", "body": []}
+            current = {"headline": stripped[4:].strip(), "source": "", "desk": "", "body": []}
             stories.append(current)
         elif re.match(r"^# (?!#)", stripped) or stripped.startswith("## ") or stripped == "---":
             current = None
         elif current is not None and stripped:
             if stripped.lower().startswith("source:"):
                 current["source"] = re.sub(r"https?://\S+", "", stripped.split(":", 1)[1]).strip(" —-")
+            if stripped.lower().startswith("desk:"):
+                current["desk"] = stripped.split(":", 1)[1].strip()
             if not _META.match(stripped):
                 current["body"].append(i)
     return [s for s in stories if s["body"]]
@@ -146,6 +153,12 @@ def _ask(items, run, api, notes):
         return api(items)
 
 
+def _word_target(desk):
+    if (desk or "").lower() == FEATURE_DESK.lower():
+        return FEATURE_TARGET_WORDS  # Sunday's Research of the Week: about two minutes
+    return RESEARCH_MAX_WORDS if is_research_desk(desk) else MAX_WORDS
+
+
 def _new_figures(rewritten, original):
     return unsupported_quantities(rewritten, original)
 
@@ -163,7 +176,8 @@ def rewrite_prompt_stories(prompt_path, run=subprocess.run, api=_ask_api):
 
     originals = {i: " ".join(lines[n].strip() for n in s["body"]) for i, s in enumerate(stories)}
     items = [{"id": i, "headline": s["headline"], "source": s["source"], "text": originals[i],
-              "words": min(MAX_WORDS, len(originals[i].split()))}
+              "words": min(_word_target(s["desk"]), len(originals[i].split()))}
+             | ({"desk": s["desk"]} if is_research_desk(s["desk"]) else {})
              for i, s in enumerate(stories)]
     notes = []
     try:

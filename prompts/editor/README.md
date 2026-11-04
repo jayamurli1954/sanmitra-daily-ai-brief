@@ -25,18 +25,21 @@ Regions: `WORLD`, `USA`, `CHINA`, `ASIA`, `INDIA`.
 
 Your **first story is the day's lead**, whatever its region: the episode opens with it ("Breaking today: ...") and it becomes the day's Short.
 
-An episode has 8-10 stories of about 50-55 seconds each (under 10 minutes). Your stories
+An episode has 8-10 news stories of about 40-55 seconds each, plus a research story (under 10 minutes). Your stories
 go first, in the order you list them; if you send more than 10, the extras are left out,
 so put the most important first. A collected or crew story about the same event is dropped
 and its outlet is added to yours as an `Also:` line. The crew only adds stories if the
 total is under 8. About 110-130 words of summary per story gives 50-55 seconds of narration.
 
-**Research slot:** every weekday episode carries one AI research story, the most upvoted paper
-on Hugging Face Daily Papers that day (30+ upvotes), read with the WORLD stories. You don't need to
-write it. Send at most **9** stories to keep all of yours: on a full day the research story takes
-the place of the last non-lead story, yours included, and the QA summary names the one it
-replaced. There is no research story on days with no well-upvoted paper (usually weekends),
-or when your brief already cites an arXiv paper.
+**Research Watch (10 + 1):** after the news stories, each episode closes with one AI research
+story, the most upvoted paper on Hugging Face Daily Papers that day (30+ upvotes), about 40 seconds.
+You don't write it, and it never takes one of your 10 places. There is none on days with no
+well-upvoted paper (usually Saturday), or when your brief already cites an arXiv paper.
+
+**Research of the Week (Sundays):** the round-up closes with a longer explainer, about two minutes,
+of the week's most upvoted paper that has not aired yet (the most upvoted one if all have aired).
+It is told from the paper's abstract, introduction and conclusion: the problem, what the
+researchers built, what they found. Papers are left out of the round-up's 10 news places.
 
 Stock-market stories (share prices, indices, trading) are not covered. Neither is election news: anything mentioning elections, voters, ballots or campaigns, even in passing, is left out, because YouTube refuses to promote videos that mention elections.
 
