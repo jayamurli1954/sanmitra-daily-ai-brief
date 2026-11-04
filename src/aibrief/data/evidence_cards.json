@@ -1,117 +1,64 @@
 {
-  "s1_meituan_launches_longcat_2_5_mul": [
+  "s1_binance_says_fake_job_interviews": [
     {
       "type": "reported",
-      "text": "Meituan released LongCat-2.5 on November 2, adding stronger visual understanding and coding capabilities to its AI model lineup.",
-      "highlight": "LongCat-2.5 on November 2, adding stronger visual understanding and coding capabilities to its AI model lineup",
-      "source": "TechNode",
-      "start": 2.04,
-      "end": 7.54
-    },
-    {
-      "type": "stat",
-      "shown": "1.6 TRILLION",
-      "label": "total parameters",
-      "start": 12.14,
-      "end": 17.64
+      "text": "Initial findings published by the company, which operates the world's largest cryptocurrency exchange, said hackers gained access to its systems through \"sophisticated, multi-stage campaign\".",
+      "highlight": "by the company",
+      "source": "BBC",
+      "start": 13.6,
+      "end": 19.1
     },
     {
       "type": "reported",
-      "text": "The company said it expanded training on long task sequences and used large-scale reinforcement learning to improve work on complex codebases and complete software projects.",
-      "highlight": "it expanded training on long task sequences and used large-scale reinforcement learning to improve work on complex codebases and complete software projects",
-      "source": "TechNode",
-      "start": 23.32,
-      "end": 28.82
+      "text": "It said they used a range of techniques such as malicious software downloads to compromise the computers of Binance engineers and gain control over tools to drain its wallet of billions of dollars worth of crypto.",
+      "highlight": "they used a range of techniques such as malicious software downloads to compromise the computers of Binance engineers and gain control over tools to drain its",
+      "source": "BBC",
+      "start": 25.0,
+      "end": 30.5
     }
   ],
-  "s2_palantir_ai_tech_unused_or_littl": [
+  "s2_brookfield_plans_for_a_27_billio": [],
+  "s3_apple_restricts_dating_apps_and": [],
+  "s4_ai_inference_chipmaker_moffett_a": [
     {
       "type": "reported",
-      "text": "Exclusive: Gap between NHS claim and trusts’ comments described as ‘very misleading’ by senior health official More than two dozen hospital trusts the NHS claims have benefited from Palantir’s medical data platform are not using all or most of the AI-powered technology…",
-      "highlight": "and trusts’ comments described as ‘very misleading’ by senior health official More than two dozen hospital trusts the NHS claims have benefited from Palantir’s medical data",
+      "text": "Moffett AI, a Shenzhen-based developer of AI inference chips, announced on November 3 that it had completed nearly RMB 1 billion in Series C+ funding.",
+      "highlight": "it had completed nearly RMB 1 billion in Series C+ funding",
+      "source": "TechNode",
+      "start": 2.0,
+      "end": 7.5
+    },
+    {
+      "type": "reported",
+      "text": "Moffett AI said it has deployed inference clusters across four regions in China and partnered with telecommunications operators.",
+      "highlight": "it has deployed inference clusters across four regions in China and partnered with telecommunications operators",
+      "source": "TechNode",
+      "start": 38.34,
+      "end": 43.84
+    }
+  ],
+  "s5_ai_powered_malware_highly_likely": [
+    {
+      "type": "reported",
+      "text": "The National Cyber Security Centre (NCSC) said AI will probably enable a ransomware attack against critical national infrastructure [CNI] between now and 2028.",
+      "highlight": "AI will probably enable a ransomware attack against critical national infrastructure [CNI] between now and 2028",
+      "source": "The Guardian",
+      "start": 20.84,
+      "end": 26.34
+    }
+  ],
+  "s6_bakers_and_cake_lovers_have_you": [],
+  "s7_a_serious_failure_cps_prosecuto": [
+    {
+      "type": "reported",
+      "text": "Exclusive: Nonexistent precedent cited in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings A senior crown prosecutor acting in a high court case cited an imaginary legal precedent in an error that has sparked fresh concerns about AI hallucinations…",
+      "highlight": "in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings A senior crown prosecutor acting in a high court case cited an",
       "source": "The Guardian",
       "start": 2.0,
       "end": 7.5
-    },
-    {
-      "type": "reported",
-      "text": "The apparent gap between the NHS claim and the trusts’ understanding was described as “very misleading” by one senior health official.",
-      "highlight": "and the trusts’ understanding was described as “very misleading” by one senior health official",
-      "source": "The Guardian",
-      "start": 35.36,
-      "end": 40.86
     }
   ],
-  "s3_apple_confirms_qwen_integration": [
-    {
-      "type": "reported",
-      "text": "The features will arrive through an iOS developer beta before a wider release with iOS 27.3 in December, Apple announced on October 31.",
-      "highlight": null,
-      "source": "TechNode",
-      "start": 11.68,
-      "end": 17.18
-    }
-  ],
-  "s4_hsbc_to_open_hong_kong_ai_instit": [
-    {
-      "type": "reported",
-      "text": "The AI unit will work with Hong Kong University of Science and Technology as its anchor academic partner, Elhedery said, though he did not disclose headcount details.",
-      "highlight": "though he did not disclose headcount details",
-      "source": "The Economic Times",
-      "start": 2.0,
-      "end": 7.5
-    }
-  ],
-  "s5_ai_debt_surge_pushes_magnificent": [
-    {
-      "type": "stat",
-      "shown": "45%",
-      "label": "to USD 578 billion by mid-2026",
-      "start": 8.46,
-      "end": 13.96
-    }
-  ],
-  "s6_sensetime_open_sources_9_billion": [
-    {
-      "type": "reported",
-      "text": "SenseTime has released SenseNova Loop-9B-Preview, an open-source multimodal model that uses repeated computation to extend its processing depth without duplicating the corresponding model weights.",
-      "highlight": "SenseNova Loop-9B-Preview, an open-source multimodal model that uses repeated computation to extend its processing depth without duplicating the corresponding model weights",
-      "source": "TechNode",
-      "start": 2.0,
-      "end": 7.5
-    },
-    {
-      "type": "stat",
-      "shown": "262,144",
-      "label": "tokens",
-      "start": 27.88,
-      "end": 33.38
-    },
-    {
-      "type": "reported",
-      "text": "SenseTime has published model weights, inference instructions, and training guidance, with the project distributed under the Apache 2.0 license.",
-      "highlight": "model weights, inference instructions",
-      "source": "TechNode",
-      "start": 36.04,
-      "end": 41.54
-    }
-  ],
-  "s7_south_korea_s_lee_vows_to_make_b": [
-    {
-      "type": "stat",
-      "shown": "12.8%",
-      "label": "next year to 820",
-      "start": 5.38,
-      "end": 10.88
-    }
-  ],
-  "s8_pronto_founder_s_provision_labs": [
-    {
-      "type": "name",
-      "name": "ANJALI SARDANA’S",
-      "role": "Founder, Pronto",
-      "start": 2.56,
-      "end": 6.56
-    }
-  ]
+  "s8_new_york_times_and_other_outlets": [],
+  "s9_china_s_lipstick_king_touts_ai_t": [],
+  "s10_mercedes_benz_brings_doubao_ai_a": []
 }
