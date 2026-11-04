@@ -23,6 +23,7 @@ import json
 import logging
 import os
 import re
+import shutil
 import subprocess
 import sys
 
@@ -33,13 +34,14 @@ from .linkedin_publisher import LinkedInPublisher
 from .news_harvester import NewsHarvester
 from .prompt_writer import append_stories, write_prompt
 from .story_rewriter import rewrite_prompt_stories
-from .text_utils import IST
+from .text_utils import IST, same_event
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("CrewOrchestrator")
 
 DATA_DIR = os.path.join("src", "aibrief", "data")
 ACTIVE_EPISODE = os.path.join(DATA_DIR, "active_episode.json")
+AIRED_DIR = os.path.join(DATA_DIR, "aired")
 
 
 def _run(args, description):
@@ -79,6 +81,54 @@ def _build_episode(prompt_path, target_date):
         logger.error(f"Built episode has {len(episode.get('stories', []))} stories; at least {MIN_EPISODE_STORIES} are required.")
         return None
     return episode
+
+
+def aired_headlines(target_date):
+    """Headlines of an episode already uploaded for target_date (empty if none)."""
+    path = os.path.join(AIRED_DIR, f"{target_date}.json")
+    if not os.path.exists(path):
+        return []
+    with open(path, "r", encoding="utf-8") as f:
+        return [s.get("headline", "") for s in json.load(f).get("stories", []) if s.get("headline")]
+
+
+def save_aired_episode(target_date, episode_path=ACTIVE_EPISODE):
+    """Copy what was uploaded to aired/<date>.json, the record Sunday's round-up and the
+    research slot read. A second upload for the same date keeps the first one's stories
+    too, so neither episode's stories come back in the round-up."""
+    with open(episode_path, "r", encoding="utf-8") as f:
+        episode = json.load(f)
+    path = os.path.join(AIRED_DIR, f"{target_date}.json")
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            earlier = json.load(f).get("stories", [])
+        have = {s.get("headline") for s in episode.get("stories", [])}
+        episode["stories"] = episode.get("stories", []) + [s for s in earlier if s.get("headline") not in have]
+    os.makedirs(AIRED_DIR, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(episode, f, ensure_ascii=False, indent=2)
+
+
+def _set_aside_aired_prompt(prompt_path, target_date, aired, warnings):
+    """A second run for a date that already has an upload must not build the same brief
+    again (4 Nov 2026: the old 10:15 PM run and the new 7 PM run both made a 4 Nov
+    episode, and the second reused the first's brief). When most of the brief's stories
+    already aired, it is moved aside and the crew drafts a fresh one."""
+    if not aired or not os.path.exists(prompt_path):
+        return False
+    headlines = prompt_story_headlines(prompt_path)
+    repeats = [h for h in headlines if any(h == a or same_event(h, a) for a in aired)]
+    if not headlines or len(repeats) * 2 < len(headlines):
+        return False
+    stamp = datetime.now(IST).strftime("%H%M")
+    backup = os.path.join("out", "aibrief", "logs", f"prompt_{target_date}_already_aired_{stamp}.md")
+    os.makedirs(os.path.dirname(backup), exist_ok=True)
+    shutil.move(prompt_path, backup)
+    note = (f"{len(repeats)} of {len(headlines)} stories in {prompt_path} already aired in today's earlier "
+            f"episode; the brief was moved to {backup} and a fresh one drafted.")
+    logger.warning(note)
+    warnings.append(note)
+    return True
 
 
 def record_aired_stories(target_date, episode_path=ACTIVE_EPISODE):
@@ -128,7 +178,9 @@ def _crew_verify(target_date, max_stories, exclude_titles=()):
     candidates = harvester.harvest()
     fact_checker = FactChecker(target_date=target_date, fetch_article=harvester.fetch_article,
                                ledger=StoryMemoryLedger())
-    verified = fact_checker.assemble_stories(candidates, max_stories=max_stories, exclude_titles=exclude_titles)
+    # Stories from an episode already uploaded today count as repeats too.
+    exclude = list(exclude_titles) + aired_headlines(target_date)
+    verified = fact_checker.assemble_stories(candidates, max_stories=max_stories, exclude_titles=exclude)
     return verified, fact_checker.rejections
 
 
@@ -187,7 +239,7 @@ def _add_daily_paper(prompt_path, target_date, warnings):
     if not candidates:
         return
     checker = FactChecker(target_date=target_date, fetch_article=harvester.fetch_article, ledger=StoryMemoryLedger())
-    verified = checker.assemble_stories(candidates, max_stories=1)
+    verified = checker.assemble_stories(candidates, max_stories=1, exclude_titles=aired_headlines(target_date))
     if not verified:
         logger.info(f"Daily paper not used: {checker.rejections}")
         return
@@ -239,16 +291,11 @@ def run_autonomous_crew(target_date=None, force_visuals=False):
         write_qa_summary(target_date, {"stories": []}, "none", rejections, [reason])
         return None
 
+    _set_aside_aired_prompt(prompt_path, target_date, aired_headlines(target_date), warnings)
+
     editor_path = os.path.join("prompts", "editor", f"{target_date}.md")
     if os.path.exists(editor_path):
         _merge_editor_brief(editor_path, prompt_path, target_date, warnings)
-
-    if os.path.exists(prompt_path):
-        try:
-            _add_daily_paper(prompt_path, target_date, warnings)
-            _add_research_of_the_week(prompt_path, target_date, warnings)
-        except Exception as e:
-            logger.warning(f"Research story skipped: {e}")
 
     if os.path.exists(prompt_path):
         existing = prompt_story_headlines(prompt_path)
@@ -268,6 +315,13 @@ def run_autonomous_crew(target_date=None, force_visuals=False):
             return give_up(f"Only {len(verified)} stories passed fact-checking (minimum {MIN_EPISODE_STORIES}). No episode today.")
         write_prompt(verified, target_date)
         prompt_origin = f"crew-drafted prompt {prompt_path}"
+
+    # After the brief is complete, whoever wrote it, so a crew-drafted brief gets one too.
+    try:
+        _add_daily_paper(prompt_path, target_date, warnings)
+        _add_research_of_the_week(prompt_path, target_date, warnings)
+    except Exception as e:
+        logger.warning(f"Research story skipped: {e}")
 
     # Anchors read our own words, not the outlets' sentences.
     warnings += rewrite_prompt_stories(prompt_path)
