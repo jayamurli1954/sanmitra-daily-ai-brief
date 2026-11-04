@@ -8,6 +8,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.aibrief.crew import crew_orchestrator as orch
 from src.aibrief.crew.editor_brief import parse_stories
+from src.aibrief.crew.fact_checker import FactChecker
 from src.aibrief.crew.news_harvester import NewsHarvester
 
 
@@ -78,10 +79,28 @@ class AddDailyPaperTest(unittest.TestCase):
         self.assertNotIn("Collected story 8", heads)
         self.assertIn("Editor lead story", heads)
 
-    def test_never_replaces_editor_stories(self):
+    def test_replaces_editors_last_story_but_never_the_lead_when_all_are_editors(self):
         heads = self.run_add(0, editor_heads=[f"Editor story {i}" for i in range(9)])
-        self.assertNotIn("Urbex: Agentic Spatial Grounding", heads)
         self.assertEqual(len(heads), 10)
+        self.assertIn("Urbex: Agentic Spatial Grounding", heads)
+        self.assertNotIn("Editor story 8", heads)
+        self.assertIn("Editor lead story", heads)
+
+    def test_collected_story_goes_before_an_editor_story(self):
+        heads = self.run_add(1, editor_heads=[f"Editor story {i}" for i in range(8)])
+        self.assertNotIn("Collected story 0", heads)
+        self.assertIn("Editor story 7", heads)
+
+
+class PaperTitleCheckTest(unittest.TestCase):
+    def test_paper_title_need_not_appear_in_the_abstract(self):
+        abstract = ("The researchers present a streaming video generator that renders frames as they are "
+                    "requested. " * 8)
+        checker = FactChecker(target_date="2026-10-14",
+                              fetch_article=lambda url: {"text": abstract, "published": ""})
+        story = {"title": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
+                 "sourceUrl": "https://arxiv.org/abs/2611.00859", "published": "2026-10-14T06:00:00+00:00"}
+        self.assertIsNotNone(checker.verify_against_article(story), checker.rejections)
 
 
 if __name__ == "__main__":

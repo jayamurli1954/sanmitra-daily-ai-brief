@@ -25,11 +25,18 @@ Regions: `WORLD`, `USA`, `CHINA`, `ASIA`, `INDIA`.
 
 Your **first story is the day's lead**, whatever its region: the episode opens with it ("Breaking today: ...") and it becomes the day's Short.
 
-An episode has 8-9 stories of about 50-60 seconds each (under 10 minutes). Your stories
-go first, in the order you list them; if you send more than 9, the extras are left out,
+An episode has 8-10 stories of about 50-55 seconds each (under 10 minutes). Your stories
+go first, in the order you list them; if you send more than 10, the extras are left out,
 so put the most important first. A collected or crew story about the same event is dropped
 and its outlet is added to yours as an `Also:` line. The crew only adds stories if the
-total is under 8. About 120-140 words of summary per story gives 50-60 seconds of narration.
+total is under 8. About 110-130 words of summary per story gives 50-55 seconds of narration.
+
+**Research slot:** every weekday episode carries one AI research story, the most upvoted paper
+on Hugging Face Daily Papers that day (30+ upvotes), read with the WORLD stories. You don't need to
+write it. Send at most **9** stories to keep all of yours: on a full day the research story takes
+the place of the last non-lead story, yours included, and the QA summary names the one it
+replaced. There is no research story on days with no well-upvoted paper (usually weekends),
+or when your brief already cites an arXiv paper.
 
 Stock-market stories (share prices, indices, trading) are not covered. Neither is election news: anything mentioning elections, voters, ballots or campaigns, even in passing, is left out, because YouTube refuses to promote videos that mention elections.
 
