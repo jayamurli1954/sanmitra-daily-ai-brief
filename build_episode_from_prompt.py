@@ -580,7 +580,7 @@ def parse_markdown_prompt(md_text: str) -> dict:
         f"From the SanMitra Newsroom, this is the Weekly AI Round-up for the week ending {formatted_date}: "
         "important developments that did not make our daily briefs."
     ) if weekly else (
-        f"Breaking this morning: {lead_head}. "
+        f"Breaking today: {lead_head}. "
         f"From the SanMitra Newsroom, this is the Daily AI Brief for {formatted_date}."
     )
 

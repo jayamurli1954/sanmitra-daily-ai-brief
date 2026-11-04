@@ -30,6 +30,7 @@ from .fact_checker import MAX_EPISODE_STORIES, MIN_EPISODE_STORIES, FactChecker
 from .linkedin_publisher import LinkedInPublisher
 from .news_harvester import NewsHarvester
 from .prompt_writer import append_stories, write_prompt
+from .story_rewriter import rewrite_prompt_stories
 from .text_utils import IST
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -159,7 +160,10 @@ def _add_daily_paper(prompt_path, target_date, editor_path, warnings):
 
     The crew's own harvest only runs when a brief is short, so on a full day the
     paper would never appear. It is added if there is room; otherwise it replaces
-    the last story that is neither the lead nor one of the editor's."""
+    the last story that is neither the lead nor one of the editor's, or failing
+    that the editor's last story after the lead: research is a standing slot
+    (editor's decision, 2026-11-04, after viewers' searches showed most interest
+    in the latest AI research)."""
     from .editor_brief import parse_stories, render
     from .prompt_writer import render_story_sections
 
@@ -185,13 +189,17 @@ def _add_daily_paper(prompt_path, target_date, editor_path, warnings):
         with open(editor_path, "r", encoding="utf-8") as f:
             editor_heads = {s["headline"] for s in parse_stories(f.read())}
     if len(stories) >= MAX_EPISODE_STORIES:
-        replaceable = [i for i, s in enumerate(stories)
-                       if s["headline"] not in editor_heads and not any(l.strip().lower() == "lead: yes" for l in s["lines"])]
+        not_lead = [i for i, s in enumerate(stories)
+                    if not any(l.strip().lower() == "lead: yes" for l in s["lines"])]
+        collected = [i for i in not_lead if stories[i]["headline"] not in editor_heads]
+        replaceable = collected or not_lead
         if not replaceable:
-            logger.info("Daily paper not used: every story is the editor's or the lead.")
+            logger.info("Daily paper not used: no story other than the lead to replace.")
             return
         dropped = stories.pop(replaceable[-1])
         logger.info(f"Daily paper replaces: {dropped['headline'][:70]}")
+        if dropped["headline"] in editor_heads:
+            warnings.append(f"Research story took the place of the editor's story: {dropped['headline'][:70]}")
     stories.append(paper)
     with open(prompt_path, "w", encoding="utf-8") as f:
         f.write(render(stories, target_date))
@@ -244,6 +252,9 @@ def run_autonomous_crew(target_date=None, force_visuals=False):
             return give_up(f"Only {len(verified)} stories passed fact-checking (minimum {MIN_EPISODE_STORIES}). No episode today.")
         write_prompt(verified, target_date)
         prompt_origin = f"crew-drafted prompt {prompt_path}"
+
+    # Anchors read our own words, not the outlets' sentences.
+    warnings += rewrite_prompt_stories(prompt_path)
 
     episode = _build_episode(prompt_path, target_date)
     if not episode:

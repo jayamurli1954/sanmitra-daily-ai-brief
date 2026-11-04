@@ -1,5 +1,5 @@
 """
-11:00 PM IST Nightly Intelligence Collector & Curation Agent for SanMitra AI News Wire v2.1.1.
+7:00 PM IST Intelligence Collector & Curation Agent for SanMitra AI News Wire v2.1.1.
 Executes end-to-end:
   1. Gathers 24-hour authentic AI news across 5 bureaus
   2. Evaluates Source Authority (Tiers 1-5) and 100-Point Impact Scores
@@ -80,8 +80,8 @@ def run_command(cmd: str, desc: str) -> bool:
 
 def run_nightly_collection(target_date: str = None, push_git: bool = True, sync_gdrive: bool = True) -> bool:
     if not target_date:
-        # 11:00 PM IST prepares the next morning's broadcast. GitHub's clock is UTC,
-        # so the date is decided in India time, not the machine clock.
+        # Before 8 PM IST the run prepares tonight's 9:30 PM broadcast; later runs prepare
+        # tomorrow's. GitHub's clock is UTC, so the date is decided in India time.
         ist = timezone(timedelta(hours=5, minutes=30))
         now = datetime.now(ist)
         if now.hour >= 20:
@@ -89,7 +89,7 @@ def run_nightly_collection(target_date: str = None, push_git: bool = True, sync_
         target_date = now.strftime("%Y-%m-%d")
 
     print("=" * 75)
-    print("🌙 SANMITRA AI NEWS WIRE — 11:00 PM NIGHT INTELLIGENCE AGENT")
+    print("🌙 SANMITRA AI NEWS WIRE — 7:00 PM INTELLIGENCE AGENT")
     print(f"📅 Target Production Date: {target_date}")
     print("=" * 75)
 
@@ -303,7 +303,7 @@ def run_nightly_collection(target_date: str = None, push_git: bool = True, sync_
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="11:00 PM Nightly AI News Wire Intelligence Collector")
+    parser = argparse.ArgumentParser(description="7:00 PM AI News Wire Intelligence Collector")
     parser.add_argument("--date", type=str, help="Episode date (YYYY-MM-DD, defaults to today)")
     parser.add_argument("--no-git", action="store_true", help="Skip Git commit and push")
     parser.add_argument("--no-gdrive", action="store_true", help="Skip Google Drive sync")

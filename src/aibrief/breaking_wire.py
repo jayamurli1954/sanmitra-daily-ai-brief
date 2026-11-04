@@ -17,6 +17,8 @@ from typing import Dict, List, Optional
 import requests
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 
+IST = timezone(timedelta(hours=5, minutes=30))
+
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 HEADERS = {
@@ -28,7 +30,6 @@ HEADERS = {
 
 MAX_STORIES = 12
 MIN_BODY_CHARS = 100
-LOOKBACK_HOURS = 30
 MAX_PAGE_FETCHES = 12
 MAX_PER_ENTITY = 2
 
@@ -283,6 +284,13 @@ def _same_story(a: set, b: set) -> bool:
     return len(overlap) >= 3 or (smaller and len(overlap) / smaller >= 0.55)
 
 
+def window_start() -> datetime:
+    """21:30 IST on the day of the previous episode (9:30 PM); a run from 8 PM on is for tomorrow."""
+    now = datetime.now(IST)
+    prev = now if now.hour >= 20 else now - timedelta(days=1)
+    return prev.replace(hour=21, minute=30, second=0, microsecond=0).astimezone(timezone.utc)
+
+
 def fetch_feed(feed: Dict) -> List[Dict]:
     bureau = feed["bureau"]
     source = feed["source"]
@@ -300,7 +308,7 @@ def fetch_feed(feed: Dict) -> List[Dict]:
     soup = BeautifulSoup(resp.content, "html.parser")
     nodes = soup.find_all("item") or soup.find_all("entry")
     now = datetime.now(timezone.utc)
-    cutoff = now - timedelta(hours=LOOKBACK_HOURS)
+    cutoff = window_start()
 
     for node in nodes[:20]:
         title_node = node.find("title")
@@ -453,7 +461,7 @@ def collect_breaking_stories(max_stories: int = MAX_STORIES) -> List[Dict]:
     _fetch_count["n"] = 0
     print("=" * 70)
     print("SANMITRA BREAKING WIRE")
-    print(f"Window: last {LOOKBACK_HOURS} hours | Cap: {max_stories} stories | Dek or article text required")
+    print(f"Window: since {window_start().astimezone(IST):%d %b %H:%M} IST | Cap: {max_stories} stories | Dek or article text required")
     print("=" * 70)
 
     pool: List[Dict] = []

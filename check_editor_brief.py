@@ -1,7 +1,7 @@
 """
 Check the editor's brief before the night run picks it up.
 
-    python check_editor_brief.py              # tomorrow's file (today's after midnight)
+    python check_editor_brief.py              # tonight's file (tomorrow's from 8 PM)
     python check_editor_brief.py 2026-10-15   # a specific air date
 
 Reads prompts/editor/<date>.md the same way the night run does and reports
@@ -38,9 +38,9 @@ Regions: # WORLD, # USA, # CHINA, # ASIA, # INDIA. Put the most important story 
 
 
 def default_date() -> str:
-    # In the evening the file is for tomorrow morning; after midnight, for today.
+    # Before 8 PM the file is for tonight's 9:30 PM episode; from 8 PM, for tomorrow's.
     now = datetime.now()
-    return (now + timedelta(days=1) if now.hour >= 6 else now).strftime("%Y-%m-%d")
+    return (now + timedelta(days=1) if now.hour >= 20 else now).strftime("%Y-%m-%d")
 
 
 def check(date: str, editor_dir: str = os.path.join("prompts", "editor")) -> int:
@@ -111,6 +111,10 @@ def check(date: str, editor_dir: str = os.path.join("prompts", "editor")) -> int
         print(f"The night run adds collected stories to reach {MIN_EPISODE_STORIES}-{MAX_EPISODE_STORIES}.")
     else:
         print("That fills the episode.")
+    if n >= MAX_EPISODE_STORIES:
+        last = parse_markdown_prompt(merged)["stories"][-1]["headline"]
+        print(f"[i] On a day with a research paper it takes the place of your last story: {last[:70]}\n"
+              f"    Send {MAX_EPISODE_STORIES - 1} stories to keep all of yours.")
     if problems:
         print(f"\n[!] {problems} story/stories need attention (see the arrows above).")
         return 1
