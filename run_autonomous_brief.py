@@ -168,9 +168,8 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
         if ok_yt:
             print("🎉 Video successfully uploaded to YouTube!")
             # Keep what actually aired; Sunday's weekly round-up is built from these.
-            aired_dir = os.path.join("src", "aibrief", "data", "aired")
-            os.makedirs(aired_dir, exist_ok=True)
-            shutil.copyfile(active_file, os.path.join(aired_dir, f"{date_str}.json"))
+            from src.aibrief.crew.crew_orchestrator import save_aired_episode
+            save_aired_episode(date_str, active_file)
             if video_id:
                 try:
                     from src.aibrief.generate_linkedin_article import build_linkedin_article
