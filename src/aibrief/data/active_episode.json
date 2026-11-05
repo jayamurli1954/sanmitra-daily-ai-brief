@@ -1,15 +1,22 @@
 {
   "weekly": false,
-  "date": "2026-11-04",
-  "formattedDate": "04 November 2026",
-  "title": "Binance says fake job interviews | Brookfield plans for a 27 billion | Apple restricts dating apps and AI | AI News 04 November 2026",
+  "date": "2026-11-05",
+  "formattedDate": "05 November 2026",
+  "title": "China blocks SoftBank's 5.4 | Google unveils 15 billion dollars | Meta acquires AI coding startup | AI News 05 November 2026",
   "intro": {
     "durationSeconds": 18,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "Breaking today: Binance says fake job interviews used as part of 6.3 billion dollars crypto hack. From the SanMitra Newsroom, this is the Daily AI Brief for 04 November 2026."
+    "script": "Breaking today: China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division: FT. From the SanMitra Newsroom, this is the Daily AI Brief for 05 November 2026."
   },
   "transitions": [
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
     {
       "id": "transition_usa",
       "region": "USA",
@@ -25,10 +32,17 @@
       "durationSeconds": 2
     },
     {
-      "id": "transition_usa",
-      "region": "USA",
-      "title": "NEXT: USA & REGIONAL STRATEGY",
-      "display": "NEXT: USA",
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
       "durationSeconds": 2
     },
     {
@@ -41,371 +55,371 @@
   ],
   "stories": [
     {
-      "id": "s1_binance_says_fake_job_interviews",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Binance says fake job interviews used as part of 6.3 billion dollars crypto hack",
-      "subheadline": "Source: BBC",
-      "importanceScore": 99,
-      "durationSeconds": 44,
-      "source": "BBC",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
-      "researchDesk": "",
-      "script": "Our lead story today. Hackers who stole a record 6.3 billion dollars (£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed. Initial findings published by the company, which operates the world's largest cryptocurrency exchange, said hackers gained access to its systems through \"sophisticated, multi-stage campaign\". It said they used a range of techniques such as malicious software downloads to compromise the computers of Binance engineers and gain control over tools to drain its wallet of billions of dollars worth of crypto. Binance called it a \"serious and highly sophisticated security incident\" and apologised, saying \"this should not have happened\".",
-      "whyThisMatters": "Hackers who stole a record $6.3bn (£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Binance says fake job interviews used as part of 6.3 billion dollars crypto hack",
-        "BBC"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s1_cut1.jpg",
-          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s1_cut2.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s1_cut3.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
-          "panDirection": "zoomOut"
-        }
-      ]
-    },
-    {
-      "id": "s2_brookfield_plans_for_a_27_billio",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Brookfield plans for a 27 billion dollars AI data center at UK power station",
-      "subheadline": "Source: CNBC",
-      "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
-      "researchDesk": "",
-      "script": "Turning to the United States. Europe is scrambling to develop infrastructure to support the rollout of AI amid high energy and land costs.",
-      "whyThisMatters": "Europe is scrambling to develop infrastructure to support the rollout of AI amid high energy and land costs.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Brookfield plans for a 27 billion dollars AI data center at UK power station",
-        "CNBC"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s2_cut1.jpg",
-          "badge": "MENLO PARK • META HEADQUARTERS",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s2_cut2.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s2_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
-          "panDirection": "zoomIn"
-        }
-      ]
-    },
-    {
-      "id": "s3_apple_restricts_dating_apps_and",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Apple restricts dating apps and AI companions to users 18 and up",
-      "subheadline": "Source: TechCrunch",
-      "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
-      "researchDesk": "",
-      "script": "In other news. Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
-      "whyThisMatters": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Apple restricts dating apps and AI companions to users 18 and up",
-        "TechCrunch"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s3_cut1.jpg",
-          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s3_cut2.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s3_cut3.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
-          "panDirection": "panRight"
-        }
-      ]
-    },
-    {
-      "id": "s4_ai_inference_chipmaker_moffett_a",
+      "id": "s1_china_blocks_softbank_s_5_4_bill",
       "region": "CHINA",
       "category": "CHINA Intelligence",
       "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "AI inference chipmaker Moffett AI raises nearly RMB 1 billion in Series C+ funding",
-      "subheadline": "Source: TechNode",
-      "importanceScore": 90,
-      "durationSeconds": 47,
-      "source": "TechNode",
-      "sourceUrl": "https://technode.com/2026/11/03/ai-inference-chipmaker-moffett-ai-raises-nearly-rmb-1-billion-in-series-c-funding/",
-      "researchDesk": "",
-      "script": "In China. Moffett AI, a Shenzhen-based developer of AI inference chips, announced on November 3 that it had completed nearly RMB 1 billion in Series C+ funding. The financing follows another round of nearly RMB 1 billion approximately five months earlier. The proceeds will support upgrades to its sparse-computing inference chips, research into next-generation processors, and collaboration with research institutions and industry partners. Sparse computing reduces the calculations required to run AI models by exploiting sparsity in their data and operations. Moffett AI said it has deployed inference clusters across four regions in China and partnered with telecommunications operators. Its next-generation SP200 accelerator card is scheduled to arrive before the end of the year.",
-      "whyThisMatters": "Moffett AI, a Shenzhen-based developer of AI inference chips, announced on November 3 that it had completed nearly RMB 1 billion in Series C+ funding.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "AI inference chipmaker Moffett AI raises nearly RMB 1 billion in Series C+ fundi",
-        "TechNode"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s4_cut1.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s4_cut2.jpg",
-          "badge": "SANTA CLARA • AMD CORPORATE HEADQUARTERS",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s4_cut3.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "panDirection": "panLeft"
-        }
-      ]
-    },
-    {
-      "id": "s5_ai_powered_malware_highly_likely",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
-      "subheadline": "Source: The Guardian",
-      "importanceScore": 90,
-      "durationSeconds": 38,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
-      "researchDesk": "",
-      "script": "Around the world. National Cyber Security Centre expects attacks on critical facilities such as power stations, airports and hospitals AI-powered malicious software is “highly likely” to be used in hacking attacks against the UK’s power stations, airports and hospitals by 2028, according to the state cybersecurity body. The National Cyber Security Centre (NCSC) said AI will probably enable a ransomware attack against critical national infrastructure [CNI] between now and 2028. The UK’s definition of CNI covers a range of facilities and services across sectors including energy, transport, defence, food, health and finance.",
-      "whyThisMatters": "National Cyber Security Centre expects attacks on critical facilities such as power stations, airports and hospitals AI-powered malicious software is “highly likely” to be used in hacking attacks against the UK’s power s",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
-        "The Guardian"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s5_cut1.jpg",
-          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s5_cut2.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s5_cut3.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
-          "panDirection": "zoomOut"
-        }
-      ]
-    },
-    {
-      "id": "s6_bakers_and_cake_lovers_have_you",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Bakers and cake lovers: have you used AI for inspiration?",
-      "subheadline": "Source: The Guardian",
-      "importanceScore": 90,
-      "durationSeconds": 47,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/food/2026/nov/03/bakers-and-cake-lovers-have-you-used-ai-for-inspiration",
-      "researchDesk": "",
-      "script": "Also today. Whether you are a customer who has used AI to show a baker your dream cake, or a baker who has to up their game - or turn down orders based on AI inspo, we want to hear from you AI tools like Claude and ChatGPT are now widely used including for creative inspiration. We are keen to hear from people on what happens when AI meets a physical art: baking. Whether you are a customer who has used AI to show a baker your dream cake, or a baker who has to up their game - or turn down orders based on AI inspo, we want to hear from you.",
-      "whyThisMatters": "Whether you are a customer who has used AI to show a baker your dream cake, or a baker who has to up their game - or turn down – orders based on AI inspo, we want to hear from you AI tools like Claude and ChatGPT are now",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Bakers and cake lovers: have you used AI for inspiration?",
-        "The Guardian"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s6_cut1.jpg",
-          "badge": "BAIDU • CONTEXTUAL REPORTING",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s6_cut2.jpg",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s6_cut3.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
-          "panDirection": "zoomIn"
-        }
-      ]
-    },
-    {
-      "id": "s7_a_serious_failure_cps_prosecuto",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI search",
-      "subheadline": "Source: The Guardian",
-      "importanceScore": 90,
-      "durationSeconds": 35,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search",
-      "researchDesk": "",
-      "script": "In other news. Exclusive: Nonexistent precedent cited in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings A senior crown prosecutor acting in a high court case cited an imaginary legal precedent in an error that has sparked fresh concerns about AI hallucinations infecting the justice system. Ravinder Dhillon, representing the Crown Prosecution Service (CPS), referenced an entirely made-up case during a dispute over whether a child should be prosecuted for the rape of his younger sister, court documents have revealed.",
-      "whyThisMatters": "Exclusive: Nonexistent precedent cited in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings A senior crown prosecutor acting in a high court case cited an imaginary legal precedent in",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI ",
-        "The Guardian"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s7_cut1.jpg",
-          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s7_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s7_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
-          "panDirection": "panRight"
-        }
-      ]
-    },
-    {
-      "id": "s8_new_york_times_and_other_outlets",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "New York Times and other outlets sue web browser Brave over alleged content scraping",
-      "subheadline": "Source: TechCrunch",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
-      "researchDesk": "",
-      "script": "Turning to the United States. The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
-      "whyThisMatters": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "New York Times and other outlets sue web browser Brave over alleged content scra",
-        "TechCrunch"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s8_cut1.jpg",
-          "badge": "SANTA CLARA • AMD CORPORATE HEADQUARTERS",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s8_cut2.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s8_cut3.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
-          "panDirection": "panLeft"
-        }
-      ]
-    },
-    {
-      "id": "s9_china_s_lipstick_king_touts_ai_t",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "China's 'Lipstick King' touts AI tokens in first for Singles' Day festival",
+      "headline": "China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division: FT",
       "subheadline": "Source: The Economic Times",
-      "importanceScore": 90,
+      "importanceScore": 99,
       "durationSeconds": 24,
       "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-lipstick-king-touts-ai-tokens-in-first-for-singles-day-festival/articleshow/135495048.cms",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/china-blocks-softbanks-5-4-billion-takeover-of-abbs-robotics-division-ft/articleshow/135565365.cms",
       "researchDesk": "",
-      "script": "In China. The launch is the first time AI token packages have been offered as a significant consumer product category during Singles' Day, the world's largest shopping festival originally held on November 11 each year.",
-      "whyThisMatters": "The launch is the first time AI token packages have been offered as a significant consumer product category during Singles' Day, the world's largest shopping festival originally held on November 11 each year.",
+      "script": "Our lead story today. Softbank had agreed to buy ABB's robotics business in October last year, as CEO Masayoshi Son sought to establish SoftBank as a core player in the development of artificial intelligence.",
+      "whyThisMatters": "Softbank had agreed to buy ABB's robotics business in October last year, as CEO Masayoshi Son sought to establish SoftBank as a core player in the development of artificial intelligence.",
       "sourceType": "reporting",
       "keyPoints": [
-        "China's 'Lipstick King' touts AI tokens in first for Singles' Day festival",
+        "China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division:",
         "The Economic Times"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-04/s9_cut1.jpg",
-          "badge": "COLD • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-11-05/s1_cut1.jpg",
+          "badge": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-04/s9_cut2.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "image": "aibrief/assets/editorial/2026-11-05/s1_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-04/s9_cut3.jpg",
-          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "image": "aibrief/assets/editorial/2026-11-05/s1_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s10_mercedes_benz_brings_doubao_ai_a",
+      "id": "s2_google_unveils_15_billion_dollar",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google unveils 15 billion dollars data centre investment in Malaysia",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 95,
+      "durationSeconds": 26,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/google-unveils-15-billion-data-centre-investment-in-malaysia/articleshow/135559941.cms",
+      "researchDesk": "",
+      "script": "Turning to the United States. Google announced plans on Wednesday to invest 15 billion dollars in Malaysia over the next two years to build data centres and other infrastructure as demand booms for artificial intelligence services. It said the 15 billion dollars investment will be made \"over the next two years (2027 to 2028)\", expanding on a 2 billion dollars investment announced in 2024.",
+      "whyThisMatters": "Google announced plans on Wednesday to invest $15 billion in Malaysia over the next two years to build data centres and other infrastructure as demand booms for artificial intelligence services.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Google unveils 15 billion dollars data centre investment in Malaysia",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s2_cut1.jpg",
+          "badge": "HUMANOID ROBOTICS • ELECTRIC ATLAS DEPLOYMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s2_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s2_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_meta_acquires_ai_coding_startup",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Meta acquires AI coding startup Conductor",
+      "subheadline": "Source: Tech in Asia",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/news/meta-acquires-ai-coding-startup-conductor",
+      "researchDesk": "",
+      "script": "In other news. Meta confirmed on November 4 that it acquired Conductor, an AI coding startup founded in 2024, as it expands its AI coding tools.",
+      "whyThisMatters": "Meta confirmed on November 4 that it acquired Conductor, an AI coding startup founded in 2024, as it expands its AI coding tools.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Meta acquires AI coding startup Conductor",
+        "Tech in Asia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s3_cut1.jpg",
+          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s3_cut2.jpg",
+          "badge": "WASHINGTON D.C. • THE WHITE HOUSE BRIEFING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s3_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_moonshot_ai_releases_kimi_k3_1_p",
       "region": "CHINA",
       "category": "CHINA Intelligence",
       "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Mercedes-Benz brings Doubao AI and China-developed cockpit to updated E-Class",
+      "headline": "Moonshot AI releases Kimi K3.1 Pro model weights",
       "subheadline": "Source: TechNode",
       "importanceScore": 90,
-      "durationSeconds": 24,
+      "durationSeconds": 43,
       "source": "TechNode",
-      "sourceUrl": "https://technode.com/2026/11/03/mercedes-benz-brings-doubao-ai-and-china-developed-cockpit-to-updated-e-class/",
+      "sourceUrl": "https://technode.com/2026/11/05/moonshot-ai-releases-kimi-k3-1-pro-model-weights/",
       "researchDesk": "",
-      "script": "Also today. Mercedes-Benz launched its updated long-wheelbase E-Class in China on November 2, introducing an AI cockpit independently developed under the leadership of its Chinese research team. The three E 300 L variants are priced from RMB 423,800 to RMB 509,800. The cockpit integrates ByteDance’s Doubao model into Mercedes-Benz’s virtual assistant and adds Huawei HiCar alongside Apple […]",
-      "whyThisMatters": "Mercedes-Benz launched its updated long-wheelbase E-Class in China on November 2, introducing an AI cockpit independently developed under the leadership of its Chinese research team.",
+      "script": "In China. Moonshot AI has released the weights of Kimi K3.1 Pro on Hugging Face, making its flagship multimodal model available for independent deployment. The model uses a mixture-of-experts architecture with 2.8 trillion total parameters and approximately 104 billion activated per inference, and supports a context window of around one million tokens. K3.1 Pro builds on Kimi K3 with expanded reinforcement learning for coding, 3D creation, financial research and long-running agent tasks. The weights release follows the model’s earlier availability through Kimi’s applications and API. Huawei has also announced inference support through vLLM Ascend and SGLang, covering its Atlas A3 and Ascend 950 systems.",
+      "whyThisMatters": "Moonshot AI has released the weights of Kimi K3.1 Pro on Hugging Face, making its flagship multimodal model available for independent deployment.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Mercedes-Benz brings Doubao AI and China-developed cockpit to updated E-Class",
+        "Moonshot AI releases Kimi K3.1 Pro model weights",
         "TechNode"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-04/s10_cut1.jpg",
-          "badge": "WUZHEN • CONTEXTUAL REPORTING",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s10_cut2.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "image": "aibrief/assets/editorial/2026-11-05/s4_cut1.jpg",
+          "badge": "DECEMBER • CONTEXTUAL REPORTING",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-04/s10_cut3.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "image": "aibrief/assets/editorial/2026-11-05/s4_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s4_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_reap_meitu_s_evelab_insight_expl",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Reap, Meitu’s EveLab Insight explore AI beauty shopping",
+      "subheadline": "Source: Tech in Asia",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/news/reap-meitus-evelab-insight-explore-ai-beauty-shopping",
+      "researchDesk": "",
+      "script": "In Asia. Reap said its service is designed to support agent-initiated card payments under user-approved mandates.",
+      "whyThisMatters": "Reap said its service is designed to support agent-initiated card payments under user-approved mandates.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Reap, Meitu’s EveLab Insight explore AI beauty shopping",
+        "Tech in Asia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s5_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s5_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s5_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_ai_sharpens_cat_and_mouse_hackin",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "AI sharpens cat-and-mouse hacking battle as companies strengthen defences",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-sharpens-cat-and-mouse-hacking-battle-as-companies-strengthen-defences/articleshow/135561625.cms",
+      "researchDesk": "",
+      "script": "Turning to India. From hacked supermarket fridges and a record cryptocurrency theft at Binance to an emergency over flaws in widely used web software, companies worldwide are facing a wave of cyber threats executives say AI is accelerating",
+      "whyThisMatters": "From hacked supermarket fridges and a record cryptocurrency theft at Binance to an emergency over flaws in widely used web software, companies worldwide are facing a wave of cyber threats executives say AI is acceleratin",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI sharpens cat-and-mouse hacking battle as companies strengthen defences",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s6_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s6_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s6_cut3.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_activists_across_europe_prepare",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Activists across Europe prepare two days of protests against datacentres",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 35,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/05/activists-across-europe-protests-ai-against-datacentres",
+      "researchDesk": "",
+      "script": "Around the world. More than 100 campaign groups will join together in 15 countries this week to call for a halt to major AI projects Protesters across Europe are planning two days of action against datacentres this week with demonstrations taking place in 15 countries. More than 100 groups are joining together for the “ Stop Dirty Data Centres ” events on Friday and Saturday. They are calling for a moratorium on large projects, citing environmental and social costs that “we can no longer afford”.",
+      "whyThisMatters": "More than 100 campaign groups will join together in 15 countries this week to call for a halt to major AI projects Protesters across Europe are planning two days of action against datacentres this week with demonstration",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Activists across Europe prepare two days of protests against datacentres",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s7_cut1.jpg",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s7_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s7_cut3.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_nothing_plans_december_launch_fo",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Nothing plans December launch for first AI-native device",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 41,
+      "source": "TechNode",
+      "sourceUrl": "https://technode.com/2026/11/05/nothing-plans-december-launch-for-first-ai-native-device/",
+      "researchDesk": "",
+      "script": "In China. Nothing plans to launch its first AI-native hardware product in December, founder and CEO Carl Pei said on November 4. Pei described the forthcoming device as a productivity tool without a screen, adding that its functions could not have been delivered through an app alone. In an essay titled “Toolmakers,” Pei argued that AI tools lack much of the context surrounding people’s work, including conversations and ideas that users do not manually enter into a chatbot. He suggested that everyday hardware could help close that gap. Nothing has not disclosed the device’s precise form, specifications or price.",
+      "whyThisMatters": "Nothing plans to launch its first AI-native hardware product in December, founder and CEO Carl Pei said on November 4.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nothing plans December launch for first AI-native device",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s8_cut1.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s8_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s8_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_moonshot_ai_launches_kimi_hosted",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Moonshot AI Launches Kimi Hosted Agents as a Managed Agent-Harness Cloud Service",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/moonshot-ai-kimi-hosted-agents-harness-as-a-service-sandbox-inference-hook",
+      "researchDesk": "",
+      "script": "Elsewhere. Moonshot AI's Kimi Hosted Agents offers a 24/7 managed agent harness with sandboxes, audit trails, Inference Hook and eight finance templates, so teams need not self-host the runtime.",
+      "whyThisMatters": "Moonshot AI's Kimi Hosted Agents offers a 24/7 managed agent harness with sandboxes, audit trails, Inference Hook and eight finance templates, so teams need not self-host the runtime.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Moonshot AI Launches Kimi Hosted Agents as a Managed Agent-Harness Cloud Service",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s9_cut1.jpg",
+          "badge": "MENLO PARK • META HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s9_cut2.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s9_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_uk_found_to_be_dangerously_relia",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 37,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
+      "researchDesk": "",
+      "script": "Also today. Delivering net zero also at risk, say MPs as they call for centralised policy and funding for mines and diversification The UK is “dangerously” dependent on China for critical raw materials needed for the military, renewable energy infrastructure and AI, a parliamentary investigation has found. MPs on the business select committee called for an urgent centralised policy and the creation of a “critical minerals finance facility” to help fund rare earth and other critical mineral mines, and deploy grants, equity and debt to accelerate a diversification programme.",
+      "whyThisMatters": "Delivering net zero also at risk, say MPs as they call for centralised policy and funding for mines and diversification The UK is “dangerously” dependent on China for critical raw materials needed for the military, renew",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "UK found to be ‘dangerously’ reliant on China for critical minerals needed for d",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s10_cut1.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s10_cut2.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 2",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s10_cut3.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
           "panDirection": "zoomIn"
         }
       ]
@@ -414,15 +428,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. Binance says fake job interviews used as part of 6.3 billion dollars crypto hack. Brookfield plans for a 27 billion dollars AI data center at UK power station. Apple restricts dating apps and AI companions to users 18 and up. AI inference chipmaker Moffett AI raises nearly RMB 1 billion in Series C+ funding. AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028. Bakers and cake lovers: have you used AI for inspiration?.",
+    "script": "To recap today's top stories. China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division: FT. Google unveils 15 billion dollars data centre investment in Malaysia. Meta acquires AI coding startup Conductor. Moonshot AI releases Kimi K3.1 Pro model weights. Reap, Meitu’s EveLab Insight explore AI beauty shopping. AI sharpens cat-and-mouse hacking battle as companies strengthen defences.",
     "items": [
-      "✓ Binance says fake job interviews used as part of",
-      "✓ Brookfield plans for a 27 billion dollars AI dat",
-      "✓ Apple restricts dating apps and AI companions to",
-      "✓ AI inference chipmaker Moffett AI raises nearly ",
-      "✓ AI-powered malware ‘highly likely’ to be used to",
-      "✓ Bakers and cake lovers: have you used AI for ins",
-      "✓ ‘A serious failure’: CPS prosecutor cites imagin"
+      "✓ China blocks SoftBank's 5.4 billion dollars take",
+      "✓ Google unveils 15 billion dollars data centre in",
+      "✓ Meta acquires AI coding startup Conductor",
+      "✓ Moonshot AI releases Kimi K3.1 Pro model weights",
+      "✓ Reap, Meitu’s EveLab Insight explore AI beauty s",
+      "✓ AI sharpens cat-and-mouse hacking battle as comp",
+      "✓ Activists across Europe prepare two days of prot"
     ]
   },
   "outro": {
@@ -441,31 +455,31 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "Binance says fake job interviews used as part",
-    "Brookfield plans for a 27 billion dollars AI ",
-    "Apple restricts dating apps and AI companions",
-    "AI inference chipmaker Moffett AI raises near",
-    "AI-powered malware ‘highly likely’ to be used",
-    "Bakers and cake lovers: have you used AI for ",
-    "‘A serious failure’: CPS prosecutor cites ima",
-    "New York Times and other outlets sue web brow",
-    "China's 'Lipstick King' touts AI tokens in fi",
-    "Mercedes-Benz brings Doubao AI and China-deve"
+    "China blocks SoftBank's 5.4 billion dollars t",
+    "Google unveils 15 billion dollars data centre",
+    "Meta acquires AI coding startup Conductor",
+    "Moonshot AI releases Kimi K3.1 Pro model weig",
+    "Reap, Meitu’s EveLab Insight explore AI beaut",
+    "AI sharpens cat-and-mouse hacking battle as c",
+    "Activists across Europe prepare two days of p",
+    "Nothing plans December launch for first AI-na",
+    "Moonshot AI Launches Kimi Hosted Agents as a ",
+    "UK found to be ‘dangerously’ reliant on China"
   ],
   "thumbnail": {
-    "date": "04 NOVEMBER 2026",
-    "headline": "BINANCE SAYS FAKE JOB INTERVIEWS USED AS",
+    "date": "05 NOVEMBER 2026",
+    "headline": "CHINA BLOCKS SOFTBANK'S 5.4 BILLION DOLLARS",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "BINANCE SAYS FAKE JOB INTERVIEWS",
-      "BROOKFIELD PLANS FOR A 27 BILLION",
-      "APPLE RESTRICTS DATING APPS AND AI",
-      "AI INFERENCE CHIPMAKER MOFFETT AI"
+      "CHINA BLOCKS SOFTBANK'S 5.4 BILLION",
+      "GOOGLE UNVEILS 15 BILLION DOLLARS",
+      "META ACQUIRES AI CODING STARTUP",
+      "MOONSHOT AI RELEASES KIMI K3.1 PRO"
     ]
   },
   "youtubeMetadata": {
-    "title": "Binance says fake job interviews | Brookfield plans for a 27 billion | Apple restricts dating apps and AI | AI News 04 November 2026",
-    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 04 November 2026.",
+    "title": "China blocks SoftBank's 5.4 | Google unveils 15 billion dollars | Meta acquires AI coding startup | AI News 05 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 05 November 2026.",
     "tags": [
       "AI",
       "ArtificialIntelligence",

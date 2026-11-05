@@ -1,64 +1,144 @@
 {
-  "s1_binance_says_fake_job_interviews": [
+  "s1_data_centers_are_turning_to_old": [
     {
       "type": "reported",
-      "text": "Initial findings published by the company, which operates the world's largest cryptocurrency exchange, said hackers gained access to its systems through \"sophisticated, multi-stage campaign\".",
-      "highlight": "by the company",
-      "source": "BBC",
-      "start": 13.6,
-      "end": 19.1
+      "text": "Audun Martinsen, an analyst at Rystad Energy, told the Times the priority is securing power as quickly as possible.",
+      "highlight": "the Times the priority is securing power as quickly as possible",
+      "source": "TechCrunch",
+      "start": 27.9,
+      "end": 33.4
     },
     {
-      "type": "reported",
-      "text": "It said they used a range of techniques such as malicious software downloads to compromise the computers of Binance engineers and gain control over tools to drain its wallet of billions of dollars worth of crypto.",
-      "highlight": "they used a range of techniques such as malicious software downloads to compromise the computers of Binance engineers and gain control over tools to drain its",
-      "source": "BBC",
-      "start": 25.0,
-      "end": 30.5
+      "type": "stat",
+      "shown": "100",
+      "label": "megawatts to the grid in Northern Virginia…",
+      "start": 44.2,
+      "end": 49.13
     }
   ],
-  "s2_brookfield_plans_for_a_27_billio": [],
-  "s3_apple_restricts_dating_apps_and": [],
-  "s4_ai_inference_chipmaker_moffett_a": [
+  "s2_anthropic_is_working_on_a_system": [
     {
       "type": "reported",
-      "text": "Moffett AI, a Shenzhen-based developer of AI inference chips, announced on November 3 that it had completed nearly RMB 1 billion in Series C+ funding.",
-      "highlight": "it had completed nearly RMB 1 billion in Series C+ funding",
-      "source": "TechNode",
+      "text": "Anthropic said in a blog post on Tuesday that it is developing an open source system to confirm which AI model generated a particular output.",
+      "highlight": "in a blog post on Tuesday that it is developing an open source system to confirm which AI model generated a particular output",
+      "source": "TechCrunch",
+      "start": 2.0,
+      "end": 7.5
+    }
+  ],
+  "s3_ai_inference_startup_fal_doubles": [
+    {
+      "type": "stat",
+      "shown": "$1.3 BILLION",
+      "label": "in new funding led by Bessemer Venture…",
+      "start": 8.6,
+      "end": 14.1
+    },
+    {
+      "type": "compare",
+      "items": [
+        {
+          "shown": "$16 BILLION",
+          "value": 16.0,
+          "label": "twice the 8 billion dollars valuation it…"
+        },
+        {
+          "shown": "$8 BILLION",
+          "value": 8.0,
+          "label": "valuation it reached in April"
+        }
+      ],
+      "start": 20.3,
+      "end": 25.8
+    }
+  ],
+  "s4_discontent_and_distrust_annual": [],
+  "s5_indiaai_mission_s_three_indigeno": [],
+  "s6_albanese_government_warned_it_s": [
+    {
+      "type": "reported",
+      "text": "An independent think tank has warned that Australia's federal government risks a repeat of the robodebt scandal, the Guardian reports.",
+      "highlight": "Australia's federal government risks a repeat of the robodebt scandal, the Guardian reports",
+      "source": "The Guardian",
       "start": 2.0,
       "end": 7.5
     },
     {
       "type": "reported",
-      "text": "Moffett AI said it has deployed inference clusters across four regions in China and partnered with telecommunications operators.",
-      "highlight": "it has deployed inference clusters across four regions in China and partnered with telecommunications operators",
-      "source": "TechNode",
-      "start": 38.34,
-      "end": 43.84
+      "text": "On Thursday she released the centre's report, titled Computer Says No.",
+      "highlight": "the centre's report, titled Computer Says No",
+      "source": "The Guardian",
+      "start": 24.52,
+      "end": 30.02
     }
   ],
-  "s5_ai_powered_malware_highly_likely": [
+  "s7_canva_layoffs_design_giant_to_cu": [
+    {
+      "type": "name",
+      "name": "MELANIE PERKINS",
+      "role": "Chief executive",
+      "start": 28.9,
+      "end": 32.9
+    },
+    {
+      "type": "stat",
+      "shown": "1,200+",
+      "label": "roles",
+      "start": 5.5,
+      "end": 11.0
+    },
+    {
+      "type": "stat",
+      "shown": "1,271",
+      "label": "people will be affected",
+      "start": 14.38,
+      "end": 19.88
+    },
+    {
+      "type": "quote",
+      "text": "without doubt the hardest moment in our thirteen-year history",
+      "speaker": "Melanie Perkins",
+      "source": "The Guardian",
+      "start": 31.18,
+      "end": 36.68
+    }
+  ],
+  "s8_ai_godfather_geoffrey_hinton_it": [
     {
       "type": "reported",
-      "text": "The National Cyber Security Centre (NCSC) said AI will probably enable a ransomware attack against critical national infrastructure [CNI] between now and 2028.",
-      "highlight": "AI will probably enable a ransomware attack against critical national infrastructure [CNI] between now and 2028",
+      "text": "He warned that a major incident could happen as soon as this year or next, such as a temporary shutdown of financial or power systems.",
+      "highlight": "a major incident could happen as soon as this year or next, such as a temporary shutdown of financial or power systems",
       "source": "The Guardian",
-      "start": 20.84,
-      "end": 26.34
+      "start": 21.28,
+      "end": 26.78
     }
   ],
-  "s6_bakers_and_cake_lovers_have_you": [],
-  "s7_a_serious_failure_cps_prosecuto": [
+  "s9_google_says_there_s_no_way_to_us": [
     {
       "type": "reported",
-      "text": "Exclusive: Nonexistent precedent cited in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings A senior crown prosecutor acting in a high court case cited an imaginary legal precedent in an error that has sparked fresh concerns about AI hallucinations…",
-      "highlight": "in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings A senior crown prosecutor acting in a high court case cited an",
+      "text": "Google said schools should decide whether students use AI in class.",
+      "highlight": "schools should decide whether students use AI in class",
       "source": "The Guardian",
-      "start": 2.0,
-      "end": 7.5
+      "start": 17.78,
+      "end": 23.28
     }
   ],
-  "s8_new_york_times_and_other_outlets": [],
-  "s9_china_s_lipstick_king_touts_ai_t": [],
-  "s10_mercedes_benz_brings_doubao_ai_a": []
+  "s10_netflix_s_new_ai_discover_tab_he": [
+    {
+      "type": "reported",
+      "text": "Netflix said on Tuesday it is introducing a new section called AI Discover, where viewers can try out new ways of choosing what to watch next.",
+      "highlight": "Tuesday it is introducing a new section called AI Discover, where viewers can try out new ways of choosing what to watch next",
+      "source": "TechCrunch",
+      "start": 2.38,
+      "end": 7.88
+    },
+    {
+      "type": "reported",
+      "text": "TechCrunch says the addition suggests Netflix wants to make its expanding catalogue simpler to browse.",
+      "highlight": "the addition suggests Netflix wants to make its expanding catalogue simpler to browse",
+      "source": "TechCrunch",
+      "start": 35.86,
+      "end": 41.36
+    }
+  ]
 }

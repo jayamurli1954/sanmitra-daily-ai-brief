@@ -2,12 +2,12 @@
   "weekly": false,
   "date": "2026-11-04",
   "formattedDate": "04 November 2026",
-  "title": "Binance says fake job interviews | Brookfield plans for a 27 billion | Apple restricts dating apps and AI | AI News 04 November 2026",
+  "title": "Data centers are turning to old | Anthropic is working on a system | AI inference startup Fal doubles | AI News 04 November 2026",
   "intro": {
     "durationSeconds": 18,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "Breaking today: Binance says fake job interviews used as part of 6.3 billion dollars crypto hack. From the SanMitra Newsroom, this is the Daily AI Brief for 04 November 2026."
+    "script": "Breaking today: Data centers are turning to old jet engines as the wait for power grows. From the SanMitra Newsroom, this is the Daily AI Brief for 04 November 2026."
   },
   "transitions": [
     {
@@ -18,10 +18,17 @@
       "durationSeconds": 2
     },
     {
-      "id": "transition_china",
-      "region": "CHINA",
-      "title": "NEXT: CHINA & REGIONAL STRATEGY",
-      "display": "NEXT: CHINA",
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
       "durationSeconds": 2
     },
     {
@@ -30,81 +37,74 @@
       "title": "NEXT: USA & REGIONAL STRATEGY",
       "display": "NEXT: USA",
       "durationSeconds": 2
-    },
-    {
-      "id": "transition_china",
-      "region": "CHINA",
-      "title": "NEXT: CHINA & REGIONAL STRATEGY",
-      "display": "NEXT: CHINA",
-      "durationSeconds": 2
     }
   ],
   "stories": [
     {
-      "id": "s1_binance_says_fake_job_interviews",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Binance says fake job interviews used as part of 6.3 billion dollars crypto hack",
-      "subheadline": "Source: BBC",
+      "id": "s1_data_centers_are_turning_to_old",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Data centers are turning to old jet engines as the wait for power grows",
+      "subheadline": "Source: TechCrunch",
       "importanceScore": 99,
-      "durationSeconds": 44,
-      "source": "BBC",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
+      "durationSeconds": 59,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
       "researchDesk": "",
-      "script": "Our lead story today. Hackers who stole a record 6.3 billion dollars (£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed. Initial findings published by the company, which operates the world's largest cryptocurrency exchange, said hackers gained access to its systems through \"sophisticated, multi-stage campaign\". It said they used a range of techniques such as malicious software downloads to compromise the computers of Binance engineers and gain control over tools to drain its wallet of billions of dollars worth of crypto. Binance called it a \"serious and highly sophisticated security incident\" and apologised, saying \"this should not have happened\".",
-      "whyThisMatters": "Hackers who stole a record $6.3bn (£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed.",
+      "script": "Our lead story today. Some artificial intelligence data centers are generating their own electricity with converted jet engines while they wait years for grid connections and new turbines, TechCrunch reports, citing the New York Times. The engines are taken from retired aircraft and rebuilt to run on natural gas. Nobody sees them as a long-term power source, but they show how far electricity supply has lagged behind the expansion of AI. For companies caught in those queues, the key appeal is how quickly the engines can be put to work. Audun Martinsen, an analyst at Rystad Energy, told the Times the priority is securing power as quickly as possible. He said jet-powered units can get a data center operating within 24 months. By comparison, the International Energy Agency says connecting 100 megawatts to the grid in Northern Virginia takes roughly seven years.",
+      "whyThisMatters": "Some artificial intelligence data centers are generating their own electricity with converted jet engines while they wait years for grid connections and new turbines, TechCrunch reports, citing the New York Times.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Binance says fake job interviews used as part of 6.3 billion dollars crypto hack",
-        "BBC"
+        "Data centers are turning to old jet engines as the wait for power grows",
+        "TechCrunch"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-04/s1_cut1.jpg",
-          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s1_cut2.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s1_cut3.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_brookfield_plans_for_a_27_billio",
+      "id": "s2_anthropic_is_working_on_a_system",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Brookfield plans for a 27 billion dollars AI data center at UK power station",
-      "subheadline": "Source: CNBC",
+      "headline": "Anthropic is working on a system to prove AI models’ identity",
+      "subheadline": "Source: TechCrunch",
       "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+      "durationSeconds": 52,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
       "researchDesk": "",
-      "script": "Turning to the United States. Europe is scrambling to develop infrastructure to support the rollout of AI amid high energy and land costs.",
-      "whyThisMatters": "Europe is scrambling to develop infrastructure to support the rollout of AI amid high energy and land costs.",
+      "script": "Also today. Anthropic said in a blog post on Tuesday that it is developing an open source system to confirm which AI model generated a particular output. The system is named FlashProve. It aims to deliver what researchers describe as provable inference, meaning a cryptographic proof that acts as a mathematical guarantee that a response was produced by a specific model. The goal is to let users check that an answer genuinely came from the model they believe they are using. Cryptographic email signatures let recipients verify who really sent a message, and FlashProve works in a similar way. It is designed to stop anyone passing one model off as another, even if the deception comes from the lab that built and operates the model.",
+      "whyThisMatters": "Anthropic said in a blog post on Tuesday that it is developing an open source system to confirm which AI model generated a particular output.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Brookfield plans for a 27 billion dollars AI data center at UK power station",
-        "CNBC"
+        "Anthropic is working on a system to prove AI models’ identity",
+        "TechCrunch"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-04/s2_cut1.jpg",
-          "badge": "MENLO PARK • META HEADQUARTERS",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s2_cut2.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "panRight"
         },
         {
@@ -115,139 +115,139 @@
       ]
     },
     {
-      "id": "s3_apple_restricts_dating_apps_and",
+      "id": "s3_ai_inference_startup_fal_doubles",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Apple restricts dating apps and AI companions to users 18 and up",
+      "headline": "AI inference startup Fal doubles its valuation to 16 billion dollars as demand surges",
       "subheadline": "Source: TechCrunch",
       "importanceScore": 95,
-      "durationSeconds": 24,
+      "durationSeconds": 57,
       "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
       "researchDesk": "",
-      "script": "In other news. Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
-      "whyThisMatters": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
+      "script": "In other news. Fal, a San Francisco startup that operates and hosts models generating video, images and audio, has secured 1.3 billion dollars in new funding led by Bessemer Venture Partners. Nvidia, Sound Ventures and T also took part. According to Bloomberg, the deal values Fal at 16 billion dollars , twice the 8 billion dollars valuation it reached in April. Fal announced its Series E and Series F rounds together, saying the two brought in a combined 1.65 billion dollars . Sequoia led the earlier round. The latest raise, the Series F, comes as demand climbs for inference, which is the work of running an already trained AI model to produce outputs. That demand is especially strong among customers using open source models. Fal passed 800 million dollars in annualized revenue earlier this year, the report said.",
+      "whyThisMatters": "Fal, a San Francisco startup that operates and hosts models generating video, images and audio, has secured $1.3 billion in new funding led by Bessemer Venture Partners.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Apple restricts dating apps and AI companions to users 18 and up",
+        "AI inference startup Fal doubles its valuation to 16 billion dollars as demand s",
         "TechCrunch"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-04/s3_cut1.jpg",
-          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s3_cut2.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s3_cut3.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s4_ai_inference_chipmaker_moffett_a",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "AI inference chipmaker Moffett AI raises nearly RMB 1 billion in Series C+ funding",
-      "subheadline": "Source: TechNode",
-      "importanceScore": 90,
-      "durationSeconds": 47,
-      "source": "TechNode",
-      "sourceUrl": "https://technode.com/2026/11/03/ai-inference-chipmaker-moffett-ai-raises-nearly-rmb-1-billion-in-series-c-funding/",
-      "researchDesk": "",
-      "script": "In China. Moffett AI, a Shenzhen-based developer of AI inference chips, announced on November 3 that it had completed nearly RMB 1 billion in Series C+ funding. The financing follows another round of nearly RMB 1 billion approximately five months earlier. The proceeds will support upgrades to its sparse-computing inference chips, research into next-generation processors, and collaboration with research institutions and industry partners. Sparse computing reduces the calculations required to run AI models by exploiting sparsity in their data and operations. Moffett AI said it has deployed inference clusters across four regions in China and partnered with telecommunications operators. Its next-generation SP200 accelerator card is scheduled to arrive before the end of the year.",
-      "whyThisMatters": "Moffett AI, a Shenzhen-based developer of AI inference chips, announced on November 3 that it had completed nearly RMB 1 billion in Series C+ funding.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "AI inference chipmaker Moffett AI raises nearly RMB 1 billion in Series C+ fundi",
-        "TechNode"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s4_cut1.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s4_cut2.jpg",
-          "badge": "SANTA CLARA • AMD CORPORATE HEADQUARTERS",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-04/s4_cut3.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "panDirection": "panLeft"
-        }
-      ]
-    },
-    {
-      "id": "s5_ai_powered_malware_highly_likely",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
+      "id": "s4_discontent_and_distrust_annual",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "‘Discontent and distrust’: annual social cohesion checkup shows exactly what’s making Australia angry",
       "subheadline": "Source: The Guardian",
       "importanceScore": 90,
-      "durationSeconds": 38,
+      "durationSeconds": 50,
       "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
+      "sourceUrl": "https://www.theguardian.com/australia-news/2026/nov/04/social-cohesion-report-australia-cost-of-living-economy-immigration-multiculturalism-ai-ntwnfb",
       "researchDesk": "",
-      "script": "Around the world. National Cyber Security Centre expects attacks on critical facilities such as power stations, airports and hospitals AI-powered malicious software is “highly likely” to be used in hacking attacks against the UK’s power stations, airports and hospitals by 2028, according to the state cybersecurity body. The National Cyber Security Centre (NCSC) said AI will probably enable a ransomware attack against critical national infrastructure [CNI] between now and 2028. The UK’s definition of CNI covers a range of facilities and services across sectors including energy, transport, defence, food, health and finance.",
-      "whyThisMatters": "National Cyber Security Centre expects attacks on critical facilities such as power stations, airports and hospitals AI-powered malicious software is “highly likely” to be used in hacking attacks against the UK’s power s",
+      "script": "In Asia. Most Australians still support immigration and multiculturalism, even as more of them feel financially worse off and grow gloomier and more distrustful of government, the Guardian reports, citing the annual Scanlon report on social cohesion. Respondents are more anxious about artificial intelligence than about climate change or war. Their top worries, though, are a global economic slowdown and the cost of living. The report is among the nation's largest social research projects. It finds that financial strain is also changing how people vote, with those facing hardship shifting their support to One Nation. Concern about antisemitism and Islamophobia has grown, yet overall social cohesion has held steady. The report's lead author acknowledges that many of the findings are troubling.",
+      "whyThisMatters": "Most Australians still support immigration and multiculturalism, even as more of them feel financially worse off and grow gloomier and more distrustful of government, the Guardian reports, citing the annual Scanlon repor",
       "sourceType": "reporting",
       "keyPoints": [
-        "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
+        "‘Discontent and distrust’: annual social cohesion checkup shows exactly what’s m",
         "The Guardian"
       ],
       "visualCuts": [
         {
+          "image": "aibrief/assets/editorial/2026-11-04/s4_cut1.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s4_cut2.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-04/s4_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_indiaai_mission_s_three_indigeno",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "IndiaAI Mission's three indigenous AI models target offline mobile access, secure use in critical sectors",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 52,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/indiaai-missions-three-indigenous-ai-models-target-offline-mobile-access-secure-use-in-critical-sectors/articleshow/135524432.cms",
+      "researchDesk": "",
+      "script": "Turning to India. India's Union Ministry of Electronics and Information Technology on Tuesday launched three homegrown artificial intelligence models under the Foundation Model initiative of the IndiaAI Mission, the Economic Times reports. The models are named EKA-1, Dhīr 2B and Dhīr 5B, and they were built by Bengaluru-based Socket AI and ZenteiQ. Planned uses range from working offline on mobile phones to secure deployment in sensitive fields such as defence, cybersecurity and banking. The aim is to reduce India's reliance on foreign AI technology and meet the country's own requirements. ZenteiQ's Dhīr 2B and Dhīr 5B are small models that run directly on phones and need no internet connection. That is expected to bring AI services to people in places where connectivity is poor.",
+      "whyThisMatters": "India's Union Ministry of Electronics and Information Technology on Tuesday launched three homegrown artificial intelligence models under the Foundation Model initiative of the IndiaAI Mission, the Economic Times reports",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "IndiaAI Mission's three indigenous AI models target offline mobile access, secur",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
           "image": "aibrief/assets/editorial/2026-11-04/s5_cut1.jpg",
-          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
+          "badge": "NEW DELHI • INDIAAI MISSION SAFETY FRAMEWORK",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s5_cut2.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s5_cut3.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s6_bakers_and_cake_lovers_have_you",
+      "id": "s6_albanese_government_warned_it_s",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Bakers and cake lovers: have you used AI for inspiration?",
+      "headline": "Albanese government warned it’s ‘sleepwalking into another robodebt scenario’ over use of algorithms and AI",
       "subheadline": "Source: The Guardian",
       "importanceScore": 90,
-      "durationSeconds": 47,
+      "durationSeconds": 56,
       "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/food/2026/nov/03/bakers-and-cake-lovers-have-you-used-ai-for-inspiration",
+      "sourceUrl": "https://www.theguardian.com/australia-news/2026/nov/05/albanese-government-warned-its-sleepwalking-into-another-robodebt-scenario-over-use-of-algorithms-and-ai",
       "researchDesk": "",
-      "script": "Also today. Whether you are a customer who has used AI to show a baker your dream cake, or a baker who has to up their game - or turn down orders based on AI inspo, we want to hear from you AI tools like Claude and ChatGPT are now widely used including for creative inspiration. We are keen to hear from people on what happens when AI meets a physical art: baking. Whether you are a customer who has used AI to show a baker your dream cake, or a baker who has to up their game - or turn down orders based on AI inspo, we want to hear from you.",
-      "whyThisMatters": "Whether you are a customer who has used AI to show a baker your dream cake, or a baker who has to up their game - or turn down – orders based on AI inspo, we want to hear from you AI tools like Claude and ChatGPT are now",
+      "script": "Around the world. An independent think tank has warned that Australia's federal government risks a repeat of the robodebt scandal, the Guardian reports. Dr Catherine Williams, chief executive of the Centre for Public Integrity, said the government was sleepwalking toward that outcome because there is little transparency and no legislation covering how algorithms and artificial intelligence shape official decisions. On Thursday she released the centre's report, titled Computer Says No. It reviews the government's reliance on automated decision-making tools and urges urgent reform. The centre fears Australians may not know when such systems have played a part in decisions about them. The report makes eight recommendations. They include a compulsory audit and a public register covering every use of automated decision-making, along with an independent watchdog with powers to monitor, audit and investigate the government.",
+      "whyThisMatters": "An independent think tank has warned that Australia's federal government risks a repeat of the robodebt scandal, the Guardian reports.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Bakers and cake lovers: have you used AI for inspiration?",
+        "Albanese government warned it’s ‘sleepwalking into another robodebt scenario’ ov",
         "The Guardian"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-04/s6_cut1.jpg",
-          "badge": "BAIDU • CONTEXTUAL REPORTING",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
           "panDirection": "zoomOut"
         },
         {
@@ -257,155 +257,155 @@
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s6_cut3.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s7_a_serious_failure_cps_prosecuto",
+      "id": "s7_canva_layoffs_design_giant_to_cu",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI search",
+      "headline": "Canva layoffs: design giant to cut or relocate more than 1,200 jobs in major restructure",
       "subheadline": "Source: The Guardian",
       "importanceScore": 90,
-      "durationSeconds": 35,
+      "durationSeconds": 59,
       "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search",
+      "sourceUrl": "https://www.theguardian.com/australia-news/2026/nov/04/canva-layoffs-job-cuts-restructure",
       "researchDesk": "",
-      "script": "In other news. Exclusive: Nonexistent precedent cited in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings A senior crown prosecutor acting in a high court case cited an imaginary legal precedent in an error that has sparked fresh concerns about AI hallucinations infecting the justice system. Ravinder Dhillon, representing the Crown Prosecution Service (CPS), referenced an entirely made-up case during a dispute over whether a child should be prosecuted for the rape of his younger sister, court documents have revealed.",
-      "whyThisMatters": "Exclusive: Nonexistent precedent cited in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings A senior crown prosecutor acting in a high court case cited an imaginary legal precedent in",
+      "script": "In other news. Australian-founded design company Canva will eliminate or move more than 1,200 roles, about 22 percent of its staff worldwide, in a sweeping overhaul, the Guardian reports. The company said 1,271 people will be affected as it works to remove management layers and bring more teams together in person. Among those leaving are employees who helped build the platform. In an email to staff on Wednesday, chief executive Melanie Perkins called the restructure \"without doubt the hardest moment in our thirteen-year history\". She said some workers would see their roles change or be asked to move to central hubs, while others would be saying farewell to colleagues and friends. The move reflects a wider pattern across the technology industry. Software firms are trying to fend off lower-cost artificial intelligence challengers while building AI tools deeply into their own products.",
+      "whyThisMatters": "Australian-founded design company Canva will eliminate or move more than 1,200 roles, about 22 percent of its staff worldwide, in a sweeping overhaul, the Guardian reports.",
       "sourceType": "reporting",
       "keyPoints": [
-        "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI ",
+        "Canva layoffs: design giant to cut or relocate more than 1,200 jobs in major res",
         "The Guardian"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-04/s7_cut1.jpg",
-          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s7_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s7_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s8_new_york_times_and_other_outlets",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "New York Times and other outlets sue web browser Brave over alleged content scraping",
-      "subheadline": "Source: TechCrunch",
+      "id": "s8_ai_godfather_geoffrey_hinton_it",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "AI ‘godfather’ Geoffrey Hinton: it might turn out we were better off without AI",
+      "subheadline": "Source: The Guardian",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "durationSeconds": 51,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
       "researchDesk": "",
-      "script": "Turning to the United States. The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
-      "whyThisMatters": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "script": "Next. Geoffrey Hinton, one of the scientists often called the godfathers of artificial intelligence, has suggested humanity might have been better off if the technology had never been created, the Guardian reports. The 78-year-old Nobel prize-winning computer scientist's work on artificial neural networks underpins modern AI. He warned that a major incident could happen as soon as this year or next, such as a temporary shutdown of financial or power systems. Hinton told the paper he does not consider himself a doomer, and he believes AI could lead to a wonderful future. Still, he said that within a decade, and perhaps sooner, it will become clear whether humanity can control the risks. Success, he said, could bring what he called radical abundance.",
+      "whyThisMatters": "Geoffrey Hinton, one of the scientists often called the godfathers of artificial intelligence, has suggested humanity might have been better off if the technology had never been created, the Guardian reports.",
       "sourceType": "reporting",
       "keyPoints": [
-        "New York Times and other outlets sue web browser Brave over alleged content scra",
-        "TechCrunch"
+        "AI ‘godfather’ Geoffrey Hinton: it might turn out we were better off without AI",
+        "The Guardian"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-04/s8_cut1.jpg",
-          "badge": "SANTA CLARA • AMD CORPORATE HEADQUARTERS",
+          "badge": "GEOFFREY HINTON • CONTEXTUAL REPORTING",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s8_cut2.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s8_cut3.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE • CUT 3",
           "panDirection": "panLeft"
         }
       ]
     },
     {
-      "id": "s9_china_s_lipstick_king_touts_ai_t",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "China's 'Lipstick King' touts AI tokens in first for Singles' Day festival",
-      "subheadline": "Source: The Economic Times",
+      "id": "s9_google_says_there_s_no_way_to_us",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Google says there’s no way to use Search without using artificial intelligence",
+      "subheadline": "Source: The Guardian",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-lipstick-king-touts-ai-tokens-in-first-for-singles-day-festival/articleshow/135495048.cms",
+      "durationSeconds": 58,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/03/google-search-artificial-intelligence",
       "researchDesk": "",
-      "script": "In China. The launch is the first time AI token packages have been offered as a significant consumer product category during Singles' Day, the world's largest shopping festival originally held on November 11 each year.",
-      "whyThisMatters": "The launch is the first time AI token packages have been offered as a significant consumer product category during Singles' Day, the world's largest shopping festival originally held on November 11 each year.",
+      "script": "Elsewhere. Google has conceded that its search engine cannot be separated from artificial intelligence, the Guardian reports. On Tuesday the company unveiled a set of new AI products for schools, along with more ways for teachers and administrators to limit or block those tools. Google said schools should decide whether students use AI in class. There is a trade-off, though. If a school or teacher switches off Google's AI features, students also lose access to Google Search. In a blog post, company executives said they were revising controls for Gemini, Gemini Notebook, Gemini in Classroom and Google Search after consulting schools, teachers, researchers and policymakers. These products will stay fully disabled for K-12 student accounts until administrators actively enable them. Chris Phillips, Google's vice-president for education, told the New York Times that Google Search does not exist without AI.",
+      "whyThisMatters": "Google has conceded that its search engine cannot be separated from artificial intelligence, the Guardian reports.",
       "sourceType": "reporting",
       "keyPoints": [
-        "China's 'Lipstick King' touts AI tokens in first for Singles' Day festival",
-        "The Economic Times"
+        "Google says there’s no way to use Search without using artificial intelligence",
+        "The Guardian"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-04/s9_cut1.jpg",
-          "badge": "COLD • CONTEXTUAL REPORTING",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s9_cut2.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s9_cut3.jpg",
-          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s10_mercedes_benz_brings_doubao_ai_a",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Mercedes-Benz brings Doubao AI and China-developed cockpit to updated E-Class",
-      "subheadline": "Source: TechNode",
+      "id": "s10_netflix_s_new_ai_discover_tab_he",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "subheadline": "Source: TechCrunch",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "TechNode",
-      "sourceUrl": "https://technode.com/2026/11/03/mercedes-benz-brings-doubao-ai-and-china-developed-cockpit-to-updated-e-class/",
+      "durationSeconds": 55,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
       "researchDesk": "",
-      "script": "Also today. Mercedes-Benz launched its updated long-wheelbase E-Class in China on November 2, introducing an AI cockpit independently developed under the leadership of its Chinese research team. The three E 300 L variants are priced from RMB 423,800 to RMB 509,800. The cockpit integrates ByteDance’s Doubao model into Mercedes-Benz’s virtual assistant and adds Huawei HiCar alongside Apple […]",
-      "whyThisMatters": "Mercedes-Benz launched its updated long-wheelbase E-Class in China on November 2, introducing an AI cockpit independently developed under the leadership of its Chinese research team.",
+      "script": "Turning to the United States. Netflix said on Tuesday it is introducing a new section called AI Discover, where viewers can try out new ways of choosing what to watch next. The first experimental feature in the section offers suggestions based on how a viewer is feeling at that moment. Users can pick from curated themes that feature clips from series and films. The themes are organized around mood, viewing tastes, how much time someone has, and titles that are new or trending. Options include something light, scare me, family movie night and quick watches. TechCrunch says the addition suggests Netflix wants to make its expanding catalogue simpler to browse. It points to a shift away from endless scrolling toward a more personalized way of finding programs, driven by artificial intelligence.",
+      "whyThisMatters": "Netflix said on Tuesday it is introducing a new section called AI Discover, where viewers can try out new ways of choosing what to watch next.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Mercedes-Benz brings Doubao AI and China-developed cockpit to updated E-Class",
-        "TechNode"
+        "Netflix’s new AI Discover tab helps you find something to watch based on your mo",
+        "TechCrunch"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-04/s10_cut1.jpg",
-          "badge": "WUZHEN • CONTEXTUAL REPORTING",
+          "badge": "NETFLIX, INC. • CONTEXTUAL REPORTING",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s10_cut2.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-04/s10_cut3.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 3",
           "panDirection": "zoomIn"
         }
       ]
@@ -414,15 +414,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. Binance says fake job interviews used as part of 6.3 billion dollars crypto hack. Brookfield plans for a 27 billion dollars AI data center at UK power station. Apple restricts dating apps and AI companions to users 18 and up. AI inference chipmaker Moffett AI raises nearly RMB 1 billion in Series C+ funding. AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028. Bakers and cake lovers: have you used AI for inspiration?.",
+    "script": "To recap today's top stories. Data centers are turning to old jet engines as the wait for power grows. Anthropic is working on a system to prove AI models’ identity. AI inference startup Fal doubles its valuation to 16 billion dollars as demand surges. ‘Discontent and distrust’: annual social cohesion checkup shows exactly what’s making Australia angry. IndiaAI Mission's three indigenous AI models target offline mobile access, secure use in critical sectors. Albanese government warned it’s ‘sleepwalking into another robodebt scenario’ over use of algorithms and AI.",
     "items": [
-      "✓ Binance says fake job interviews used as part of",
-      "✓ Brookfield plans for a 27 billion dollars AI dat",
-      "✓ Apple restricts dating apps and AI companions to",
-      "✓ AI inference chipmaker Moffett AI raises nearly ",
-      "✓ AI-powered malware ‘highly likely’ to be used to",
-      "✓ Bakers and cake lovers: have you used AI for ins",
-      "✓ ‘A serious failure’: CPS prosecutor cites imagin"
+      "✓ Data centers are turning to old jet engines as t",
+      "✓ Anthropic is working on a system to prove AI mod",
+      "✓ AI inference startup Fal doubles its valuation t",
+      "✓ ‘Discontent and distrust’: annual social cohesio",
+      "✓ IndiaAI Mission's three indigenous AI models tar",
+      "✓ Albanese government warned it’s ‘sleepwalking in",
+      "✓ Canva layoffs: design giant to cut or relocate m"
     ]
   },
   "outro": {
@@ -441,30 +441,30 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "Binance says fake job interviews used as part",
-    "Brookfield plans for a 27 billion dollars AI ",
-    "Apple restricts dating apps and AI companions",
-    "AI inference chipmaker Moffett AI raises near",
-    "AI-powered malware ‘highly likely’ to be used",
-    "Bakers and cake lovers: have you used AI for ",
-    "‘A serious failure’: CPS prosecutor cites ima",
-    "New York Times and other outlets sue web brow",
-    "China's 'Lipstick King' touts AI tokens in fi",
-    "Mercedes-Benz brings Doubao AI and China-deve"
+    "Data centers are turning to old jet engines a",
+    "Anthropic is working on a system to prove AI ",
+    "AI inference startup Fal doubles its valuatio",
+    "‘Discontent and distrust’: annual social cohe",
+    "IndiaAI Mission's three indigenous AI models ",
+    "Albanese government warned it’s ‘sleepwalking",
+    "Canva layoffs: design giant to cut or relocat",
+    "AI ‘godfather’ Geoffrey Hinton: it might turn",
+    "Google says there’s no way to use Search with",
+    "Netflix’s new AI Discover tab helps you find "
   ],
   "thumbnail": {
     "date": "04 NOVEMBER 2026",
-    "headline": "BINANCE SAYS FAKE JOB INTERVIEWS USED AS",
+    "headline": "DATA CENTERS ARE TURNING TO OLD JET ENGINES",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "BINANCE SAYS FAKE JOB INTERVIEWS",
-      "BROOKFIELD PLANS FOR A 27 BILLION",
-      "APPLE RESTRICTS DATING APPS AND AI",
-      "AI INFERENCE CHIPMAKER MOFFETT AI"
+      "DATA CENTERS ARE TURNING TO OLD JET",
+      "ANTHROPIC IS WORKING ON A SYSTEM TO",
+      "AI INFERENCE STARTUP FAL DOUBLES",
+      "‘DISCONTENT AND DISTRUST’: ANNUAL"
     ]
   },
   "youtubeMetadata": {
-    "title": "Binance says fake job interviews | Brookfield plans for a 27 billion | Apple restricts dating apps and AI | AI News 04 November 2026",
+    "title": "Data centers are turning to old | Anthropic is working on a system | AI inference startup Fal doubles | AI News 04 November 2026",
     "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 04 November 2026.",
     "tags": [
       "AI",
