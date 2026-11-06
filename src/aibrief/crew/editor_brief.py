@@ -12,19 +12,22 @@ prompts/editor/<date>.md in the usual prompt format:
 
     Summary paragraph.
 
-Editor stories come first, in the editor's order, up to MAX_EPISODE_STORIES (9).
+Editor stories come first, in the editor's order, up to MAX_EPISODE_STORIES.
 A collector or crew story about the same event is dropped and its outlet is added
 to the editor story as an "Also:" source, so the editor's wording wins. Remaining
-stories fill any places left.
+stories fill any places left. The day's paper ("Desk: Research Watch") is not a
+news story: it never takes one of those places and stays at the end.
 """
 
 import re
 from datetime import datetime
 
+from .fact_checker import is_research_desk
 from .text_utils import content_stems, is_election_story, same_event
 
 REGION_ORDER = ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]
 _URL = re.compile(r"https?://\S+")
+_DESK = re.compile(r"(?i)^\s*\*{0,2}Desk\*{0,2}\s*:\s*(.+?)(?:\*\*)?\s*$")
 
 
 def parse_stories(markdown):
@@ -80,6 +83,11 @@ def _same_story(a, b):
         return True
     shared_words = content_stems(a["headline"]) & content_stems(b["headline"])
     return len(shared_words) >= 2 and bool(_names(a) & _names(b))
+
+
+def _is_research(story):
+    """The day's paper ("Desk: Research Watch") rides on top of the news stories."""
+    return any((m := _DESK.match(l)) and is_research_desk(m.group(1)) for l in story["lines"])
 
 
 def _duplicate_of(story, kept):
@@ -138,8 +146,13 @@ def merge_editor_brief(editor_md, other_md, date_str, max_stories):
     merged_dupes = []
     # The editor's list is in priority order; anything past the cap waits for another day.
     dropped_for_space = [s["headline"] for s in editor_stories[max_stories:]]
+    research = []
     for story in parse_stories(other_md or ""):
         if not allowed(story):
+            continue
+        # A re-run's prompt already holds the day's paper; it must not take a news place.
+        if _is_research(story):
+            research.append(story)
             continue
         dup = _duplicate_of(story, kept)
         if dup is not None:
@@ -156,9 +169,11 @@ def merge_editor_brief(editor_md, other_md, date_str, max_stories):
         s["lines"] = [l for l in s["lines"] if not lead_re.match(l)]
     if editor_count:
         kept[0]["lines"].insert(1, "Lead: yes")
+    added = len(kept) - editor_count
+    kept += research
     report = {
         "editor": editor_count,
-        "added": len(kept) - editor_count,
+        "added": added,
         "duplicates": merged_dupes,
         "dropped_for_space": dropped_for_space,
         "dropped_election": election,

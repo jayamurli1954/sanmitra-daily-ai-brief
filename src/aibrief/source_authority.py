@@ -195,6 +195,15 @@ def is_company_source(url: str) -> bool:
     return bool(domain) and any(_domain_matches(domain, d) for d in COMPANY_DOMAINS)
 
 
+OPINION_PATH_MARKERS = ("/opinion", "/commentisfree", "/comment/", "/editorial", "/op-ed", "/column", "/letters/")
+
+
+def is_opinion_url(url: str) -> bool:
+    """Columns and comment pieces are not news, whichever route they arrive by."""
+    path = urlparse(url or "").path.lower()
+    return any(marker in path for marker in OPINION_PATH_MARKERS)
+
+
 def is_recognised_source(url: str) -> bool:
     """True only for a domain in the authority map above Tier 5.
 
