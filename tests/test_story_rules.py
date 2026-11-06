@@ -91,6 +91,11 @@ class StoryRulesTest(unittest.TestCase):
             ("Sanders renews push to pause advanced AI", "Senator Bernie Sanders argued for a ban."),
             ("Anthropic shops its AI safety bill to Congress", ""),
             ("White House issues AI order", ""),
+            # Electoral framing outside the US (editor, 2026-11-01).
+            ("Prime minister's own electorate fights AI copyright plan", "Residents of Grayndler wrote to him."),
+            ("AI chatbot campaigns in marginal seat", ""),
+            ("Opposition leader vows to curb AI data centres", ""),
+            ("By-election candidates debate AI jobs", ""),
         ]:
             self.assertTrue(is_election_story(title, body), title)
         for title, body in [
@@ -99,6 +104,9 @@ class StoryRulesTest(unittest.TestCase):
             ("India weighs disclosure rules for AI agents", "Officials are considering a consultation."),
             ("Nvidia commits UK compute", "The minister called it a vote of confidence in British research."),
             ("Anthropic proposes founder-control voting structure", "Shareholders keep voting rights."),
+            # Government AI policy still airs.
+            ("EU parliament approves AI liability rules", "The government welcomed the vote in parliament."),
+            ("Prime minister opens AI summit in Singapore", "Ministers from 30 countries attended."),
         ]:
             self.assertFalse(is_election_story(title, body), title)
 

@@ -30,9 +30,15 @@ HEADERS = {
     )
 }
 
-MAX_STORIES = 12
+# Gather a surplus (editor, 2026-11-02): the collector later drops stock-market,
+# election and scandal stories and dedupes, and the episode caps at 10. Selecting
+# only 12 here left just 8 on a day with 3 stock-market drops. We now gather a wider
+# pool (lower admission score) and select up to 18, so that after the
+# drops at least 10 strong stories remain and the episode fills all 10 slots. The top
+# 10 are the highest-ranked; the extra candidates only backfill when stories are cut.
+MAX_STORIES = 18
 MIN_BODY_CHARS = 100
-MAX_PAGE_FETCHES = 12
+MAX_PAGE_FETCHES = 18
 MAX_PER_ENTITY = 2
 
 # Publisher feeds. Bureau is only the default; the headline can reassign it.
@@ -408,7 +414,10 @@ def _within_entity_cap(story: Dict, chosen: List[Dict]) -> bool:
 
 
 def _select(items: List[Dict], max_stories: int) -> List[Dict]:
-    ranked = [s for s in items if s["breaking_score"] >= 45]
+    # Admit a wider pool (editor, 2026-11-02): lower the score floor from 45 to 40 so
+    # more candidates are selectable. The episode still uses only the top 10 after the
+    # stock-market / election / dedupe drops, so this just guarantees enough backfill.
+    ranked = [s for s in items if s["breaking_score"] >= 40]
     ranked.sort(key=lambda s: s["breaking_score"], reverse=True)
 
     chosen: List[Dict] = []

@@ -92,6 +92,19 @@ ELECTION_TERMS = [
     "senator", "sen.", "congressman", "congresswoman", "congressmen", "congresswomen", "congress",
     "congressional", "senate", "house of representatives", "house speaker", "speaker of the house",
     "capitol hill", "white house", "president trump", "trump", "vance", "biden",
+    # Electoral framing anywhere in the world (editor, 2026-11-01): a story built
+    # around a politician's seat, electorate or party is election content even with
+    # no US names - e.g. a prime minister's "electorate" fighting an AI copyright
+    # plan (The Guardian's Grayndler story reached an episode this way). Governance
+    # words (government, parliament, minister, "prime minister" at an AI summit) are
+    # left out on purpose so AI-policy coverage from India, the EU, Singapore and
+    # elsewhere still airs.
+    "electorate", "constituency", "constituencies",
+    "safe seat", "marginal seat", "swing seat", "parliamentary seat",
+    "parliamentary constituency", "by-election", "byelection",
+    "political party", "political parties", "ruling party", "opposition party",
+    "opposition leader", "leader of the opposition", "political campaign",
+    "political rally", "political donor", "political donation",
 ]
 
 
