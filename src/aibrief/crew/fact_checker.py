@@ -18,7 +18,7 @@ import logging
 import re
 import urllib.parse
 
-from src.aibrief.source_authority import is_company_source, is_recognised_source, score_source
+from src.aibrief.source_authority import is_company_source, is_opinion_url, is_recognised_source, score_source
 
 from .text_utils import contains_any, count_matches, extractive_summary, is_recent, same_event, ungrounded_claims
 
@@ -36,7 +36,6 @@ RUMOUR_MARKERS = [
 FEATURE_MARKERS = ["here are", "here's", "how to", "cartoon", "podcast", "newsletter", "week in review", "quiz",
                    "things to know", "what we know", "explained", "explainer"]
 
-OPINION_PATH_MARKERS = ("/opinion", "/commentisfree", "/comment/", "/editorial", "/op-ed", "/column", "/letters/")
 
 REGION_KEYWORDS = {
     "INDIA": ["india", "indian", "delhi", "new delhi", "mumbai", "bengaluru", "bangalore", "hyderabad",
@@ -152,7 +151,7 @@ class FactChecker:
             return self._reject(story, f"social or video platform ({netloc})")
         if not is_recognised_source(url):
             return self._reject(story, f"unrecognised or low-tier outlet ({netloc})")
-        if any(marker in parsed.path.lower() for marker in OPINION_PATH_MARKERS):
+        if is_opinion_url(url):
             return self._reject(story, "opinion or comment piece")
         if len(title) < 15:
             return self._reject(story, "headline too short")

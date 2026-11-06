@@ -17,6 +17,8 @@ from typing import Dict, List, Optional
 import requests
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 
+from src.aibrief.source_authority import is_opinion_url
+
 IST = timezone(timedelta(hours=5, minutes=30))
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
@@ -328,6 +330,8 @@ def fetch_feed(feed: Dict) -> List[Dict]:
 
         body = _item_body(node)
         link = _item_link(node)
+        if is_opinion_url(link):
+            continue
         blob = f"{headline} {body}"
         if body and not AI_PATTERN.search(blob) and not BREAKING_PATTERN.search(headline):
             continue
