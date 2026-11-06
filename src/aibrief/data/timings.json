@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 14.76,
-    "sceneDurationSeconds": 15.96,
-    "durationInFrames": 479,
+    "audioDurationSeconds": 13.01,
+    "sceneDurationSeconds": 14.21,
+    "durationInFrames": 426,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_china_blocks_softbank_s_5_4_bill": {
-    "audioFile": "audio/aibrief/s1_s1_china_blocks_softbank_s_5_4_bill.mp3",
-    "audioDurationSeconds": 14.02,
-    "sceneDurationSeconds": 15.22,
-    "durationInFrames": 456,
-    "title": "Story 1: China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division: FT",
+  "s1_russia_and_us_seek_to_block_plan": {
+    "audioFile": "audio/aibrief/s1_s1_russia_and_us_seek_to_block_plan.mp3",
+    "audioDurationSeconds": 44.04,
+    "sceneDurationSeconds": 45.24,
+    "durationInFrames": 1357,
+    "title": "Story 1: Russia and US seek to block plan for binding rules on autonomous weapons",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_usa": {
@@ -22,20 +22,20 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_google_unveils_15_billion_dollar": {
-    "audioFile": "audio/aibrief/s2_s2_google_unveils_15_billion_dollar.mp3",
-    "audioDurationSeconds": 27.7,
-    "sceneDurationSeconds": 28.9,
-    "durationInFrames": 867,
-    "title": "Story 2: Google unveils 15 billion dollars data centre investment in Malaysia",
+  "s2_google_sued_over_suicide_related": {
+    "audioFile": "audio/aibrief/s2_s2_google_sued_over_suicide_related.mp3",
+    "audioDurationSeconds": 34.68,
+    "sceneDurationSeconds": 35.88,
+    "durationInFrames": 1076,
+    "title": "Story 2: Google sued over suicide-related AI chats on school computer",
     "voice": "en-US-AriaNeural"
   },
-  "s3_meta_acquires_ai_coding_startup": {
-    "audioFile": "audio/aibrief/s3_s3_meta_acquires_ai_coding_startup.mp3",
-    "audioDurationSeconds": 14.42,
-    "sceneDurationSeconds": 15.62,
-    "durationInFrames": 469,
-    "title": "Story 3: Meta acquires AI coding startup Conductor",
+  "s3_meta_pauses_planned_terms_update": {
+    "audioFile": "audio/aibrief/s3_s3_meta_pauses_planned_terms_update.mp3",
+    "audioDurationSeconds": 16.32,
+    "sceneDurationSeconds": 17.52,
+    "durationInFrames": 526,
+    "title": "Story 3: Meta pauses planned terms updates, keeps existing rules in place",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
@@ -45,28 +45,13 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s4_moonshot_ai_releases_kimi_k3_1_p": {
-    "audioFile": "audio/aibrief/s4_s4_moonshot_ai_releases_kimi_k3_1_p.mp3",
-    "audioDurationSeconds": 50.35,
-    "sceneDurationSeconds": 51.55,
-    "durationInFrames": 1547,
-    "title": "Story 4: Moonshot AI releases Kimi K3.1 Pro model weights",
+  "s4_chinese_ai_lab_moonshot_turned_t": {
+    "audioFile": "audio/aibrief/s4_s4_chinese_ai_lab_moonshot_turned_t.mp3",
+    "audioDurationSeconds": 14.47,
+    "sceneDurationSeconds": 15.67,
+    "durationInFrames": 470,
+    "title": "Story 4: Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
     "voice": "en-US-AriaNeural"
-  },
-  "transition_asia": {
-    "audioFile": "",
-    "audioDurationSeconds": 0.0,
-    "sceneDurationSeconds": 2.0,
-    "durationInFrames": 60,
-    "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
-  },
-  "s5_reap_meitu_s_evelab_insight_expl": {
-    "audioFile": "audio/aibrief/s5_s5_reap_meitu_s_evelab_insight_expl.mp3",
-    "audioDurationSeconds": 14.04,
-    "sceneDurationSeconds": 15.24,
-    "durationInFrames": 457,
-    "title": "Story 5: Reap, Meitu\u2019s EveLab Insight explore AI beauty shopping",
-    "voice": "en-US-ChristopherNeural"
   },
   "transition_india": {
     "audioFile": "",
@@ -75,59 +60,51 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s6_ai_sharpens_cat_and_mouse_hackin": {
-    "audioFile": "audio/aibrief/s6_s6_ai_sharpens_cat_and_mouse_hackin.mp3",
-    "audioDurationSeconds": 21.05,
-    "sceneDurationSeconds": 22.25,
-    "durationInFrames": 667,
-    "title": "Story 6: AI sharpens cat-and-mouse hacking battle as companies strengthen defences",
-    "voice": "en-US-AriaNeural"
-  },
-  "s7_activists_across_europe_prepare": {
-    "audioFile": "audio/aibrief/s7_s7_activists_across_europe_prepare.mp3",
-    "audioDurationSeconds": 32.28,
-    "sceneDurationSeconds": 33.48,
-    "durationInFrames": 1004,
-    "title": "Story 7: Activists across Europe prepare two days of protests against datacentres",
+  "s5_cashfree_launches_checkout_for_a": {
+    "audioFile": "audio/aibrief/s5_s5_cashfree_launches_checkout_for_a.mp3",
+    "audioDurationSeconds": 14.66,
+    "sceneDurationSeconds": 15.86,
+    "durationInFrames": 476,
+    "title": "Story 5: Cashfree Launches \u2018Checkout For Agents\u2019 To Enable AI-Led Payments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_nothing_plans_december_launch_fo": {
-    "audioFile": "audio/aibrief/s8_s8_nothing_plans_december_launch_fo.mp3",
-    "audioDurationSeconds": 38.57,
-    "sceneDurationSeconds": 39.77,
-    "durationInFrames": 1193,
-    "title": "Story 8: Nothing plans December launch for first AI-native device",
+  "s6_nigel_farage_s_exit_from_the_tel": {
+    "audioFile": "audio/aibrief/s6_s6_nigel_farage_s_exit_from_the_tel.mp3",
+    "audioDurationSeconds": 51.22,
+    "sceneDurationSeconds": 52.42,
+    "durationInFrames": 1572,
+    "title": "Story 6: Nigel Farage's exit from the Telegraph may be cause for cheer. But there\u2019s a sobering side to this story | Jane Martinson",
     "voice": "en-US-AriaNeural"
   },
-  "s9_moonshot_ai_launches_kimi_hosted": {
-    "audioFile": "audio/aibrief/s9_s9_moonshot_ai_launches_kimi_hosted.mp3",
-    "audioDurationSeconds": 19.25,
-    "sceneDurationSeconds": 20.45,
-    "durationInFrames": 613,
-    "title": "Story 9: Moonshot AI Launches Kimi Hosted Agents as a Managed Agent-Harness Cloud Service",
+  "s7_china_unveils_an_ai_agent_identi": {
+    "audioFile": "audio/aibrief/s7_s7_china_unveils_an_ai_agent_identi.mp3",
+    "audioDurationSeconds": 17.9,
+    "sceneDurationSeconds": 19.1,
+    "durationInFrames": 573,
+    "title": "Story 7: China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign Self-Discipline Pact",
     "voice": "en-US-ChristopherNeural"
   },
-  "s10_uk_found_to_be_dangerously_relia": {
-    "audioFile": "audio/aibrief/s10_s10_uk_found_to_be_dangerously_relia.mp3",
-    "audioDurationSeconds": 38.52,
-    "sceneDurationSeconds": 39.72,
-    "durationInFrames": 1192,
-    "title": "Story 10: UK found to be \u2018dangerously\u2019 reliant on China for critical minerals needed for defence and AI",
+  "s8_cainiao_opens_its_global_warehou": {
+    "audioFile": "audio/aibrief/s8_s8_cainiao_opens_its_global_warehou.mp3",
+    "audioDurationSeconds": 18.14,
+    "sceneDurationSeconds": 19.34,
+    "durationInFrames": 580,
+    "title": "Story 8: Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI",
     "voice": "en-US-AriaNeural"
   },
-  "s11_from_pixels_to_actions_towards_n": {
-    "audioFile": "audio/aibrief/s11_s11_from_pixels_to_actions_towards_n.mp3",
-    "audioDurationSeconds": 47.33,
-    "sceneDurationSeconds": 48.53,
-    "durationInFrames": 1456,
-    "title": "Story 11: From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+  "s9_vflash_fast_accurate_visual_plan": {
+    "audioFile": "audio/aibrief/s9_s9_vflash_fast_accurate_visual_plan.mp3",
+    "audioDurationSeconds": 46.58,
+    "sceneDurationSeconds": 47.78,
+    "durationInFrames": 1434,
+    "title": "Story 9: VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
     "voice": "en-US-ChristopherNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 32.5,
-    "sceneDurationSeconds": 33.7,
-    "durationInFrames": 1011,
+    "audioDurationSeconds": 37.87,
+    "sceneDurationSeconds": 39.07,
+    "durationInFrames": 1172,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },
