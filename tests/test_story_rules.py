@@ -110,6 +110,32 @@ class StoryRulesTest(unittest.TestCase):
         ]:
             self.assertFalse(is_election_story(title, body), title)
 
+    def test_election_electoral_framing_worldwide(self):
+        # A politician's seat, electorate or party is election content even with no US
+        # names (editor, 2026-11-01): The Guardian's Grayndler story reached an episode.
+        from src.aibrief.crew.text_utils import is_election_story
+        for title, body in [
+            ("Disquiet grows in Albanese's back yard as Grayndler artists unite against AI proposal",
+             "The prime minister is facing discontent within his own electorate over the copyright plan."),
+            ("AI deepfakes surface ahead of a UK by-election", ""),
+            ("Ruling party pushes AI law as the opposition leader objects", ""),
+            ("A marginal seat becomes a test case for AI-generated attack ads", ""),
+        ]:
+            self.assertTrue(is_election_story(title, body), title)
+        # Governance, not elections: ministers, prime ministers and governments working on
+        # AI policy still air. These must NOT be caught by the electoral terms.
+        for title, body in [
+            ("Singapore PM Lawrence Wong backs a frontier AI safety pilot",
+             "The prime minister spoke at a virtual leaders meeting on AI safety."),
+            ("India's IT minister launches an AI governance consultation paper",
+             "The minister said the government will issue a paper on responsible AI."),
+            ("Europe's AI Act gets its first harmonised standard",
+             "The European Commission published a quality management system standard."),
+            ("Bihar approves an AI Policy 2026 for firms and startups",
+             "The state cabinet cleared incentives and AI governance provisions."),
+        ]:
+            self.assertFalse(is_election_story(title, body), title)
+
     def test_editor_merge_drops_election_stories_and_fills_the_space(self):
         from src.aibrief.crew.editor_brief import merge_editor_brief
         body = ("The company said the system is now in use across several states. Officials described the "
