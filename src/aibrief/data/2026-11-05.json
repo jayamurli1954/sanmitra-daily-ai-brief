@@ -99,12 +99,12 @@
       "headline": "Google unveils 15 billion dollars data centre investment in Malaysia",
       "subheadline": "Source: The Economic Times",
       "importanceScore": 95,
-      "durationSeconds": 26,
+      "durationSeconds": 27,
       "source": "The Economic Times",
       "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/google-unveils-15-billion-data-centre-investment-in-malaysia/articleshow/135559941.cms",
       "researchDesk": "",
-      "script": "Turning to the United States. Google announced plans on Wednesday to invest 15 billion dollars in Malaysia over the next two years to build data centres and other infrastructure as demand booms for artificial intelligence services. It said the 15 billion dollars investment will be made \"over the next two years (2027 to 2028)\", expanding on a 2 billion dollars investment announced in 2024.",
-      "whyThisMatters": "Google announced plans on Wednesday to invest $15 billion in Malaysia over the next two years to build data centres and other infrastructure as demand booms for artificial intelligence services.",
+      "script": "Turning to the United States. Google said on Wednesday it will spend 15 billion dollars in Malaysia on data centres and other infrastructure, according to The Economic Times. The company said the money will be invested over the next two years, from 2027 to 2028, as demand for artificial intelligence services surges. The new commitment builds on a 2 billion dollars investment Google announced in 2024.",
+      "whyThisMatters": "Google said on Wednesday it will spend $15 billion in Malaysia on data centres and other infrastructure, according to The Economic Times.",
       "sourceType": "reporting",
       "keyPoints": [
         "Google unveils 15 billion dollars data centre investment in Malaysia",
@@ -113,17 +113,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-05/s2_cut1.jpg",
-          "badge": "HUMANOID ROBOTICS • ELECTRIC ATLAS DEPLOYMENT",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s2_cut2.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s2_cut3.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "panDirection": "zoomIn"
         }
       ]
@@ -140,8 +140,8 @@
       "source": "Tech in Asia",
       "sourceUrl": "https://www.techinasia.com/news/meta-acquires-ai-coding-startup-conductor",
       "researchDesk": "",
-      "script": "In other news. Meta confirmed on November 4 that it acquired Conductor, an AI coding startup founded in 2024, as it expands its AI coding tools.",
-      "whyThisMatters": "Meta confirmed on November 4 that it acquired Conductor, an AI coding startup founded in 2024, as it expands its AI coding tools.",
+      "script": "In other news. Meta has bought Conductor, an AI coding startup founded in 2024, Tech in Asia reports. Meta confirmed the deal on November 4 as it broadens its AI coding tools.",
+      "whyThisMatters": "Meta has bought Conductor, an AI coding startup founded in 2024, Tech in Asia reports.",
       "sourceType": "reporting",
       "keyPoints": [
         "Meta acquires AI coding startup Conductor",
@@ -150,17 +150,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-05/s3_cut1.jpg",
-          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
+          "badge": "MENLO PARK • META HEADQUARTERS",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s3_cut2.jpg",
-          "badge": "WASHINGTON D.C. • THE WHITE HOUSE BRIEFING",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s3_cut3.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
           "panDirection": "panRight"
         }
       ]
@@ -173,12 +173,12 @@
       "headline": "Moonshot AI releases Kimi K3.1 Pro model weights",
       "subheadline": "Source: TechNode",
       "importanceScore": 90,
-      "durationSeconds": 43,
+      "durationSeconds": 47,
       "source": "TechNode",
       "sourceUrl": "https://technode.com/2026/11/05/moonshot-ai-releases-kimi-k3-1-pro-model-weights/",
       "researchDesk": "",
-      "script": "In China. Moonshot AI has released the weights of Kimi K3.1 Pro on Hugging Face, making its flagship multimodal model available for independent deployment. The model uses a mixture-of-experts architecture with 2.8 trillion total parameters and approximately 104 billion activated per inference, and supports a context window of around one million tokens. K3.1 Pro builds on Kimi K3 with expanded reinforcement learning for coding, 3D creation, financial research and long-running agent tasks. The weights release follows the model’s earlier availability through Kimi’s applications and API. Huawei has also announced inference support through vLLM Ascend and SGLang, covering its Atlas A3 and Ascend 950 systems.",
-      "whyThisMatters": "Moonshot AI has released the weights of Kimi K3.1 Pro on Hugging Face, making its flagship multimodal model available for independent deployment.",
+      "script": "In China. Moonshot AI has published the weights of Kimi K3.1 Pro on Hugging Face, TechNode reports, so organisations can now run the company's flagship multimodal model on their own. The model uses a mixture-of-experts design, with 2.8 trillion parameters in total and roughly 104 billion active for each inference. It can handle a context window of about one million tokens. Compared with Kimi K3, the new version adds more reinforcement learning aimed at coding, 3D creation, financial research and lengthy agent tasks. The model was previously offered only through Kimi's apps and API. Huawei said it will support inference through vLLM Ascend and SGLang on its Atlas A3 and Ascend 950 systems.",
+      "whyThisMatters": "Moonshot AI has published the weights of Kimi K3.1 Pro on Hugging Face, TechNode reports, so organisations can now run the company's flagship multimodal model on their own.",
       "sourceType": "reporting",
       "keyPoints": [
         "Moonshot AI releases Kimi K3.1 Pro model weights",
@@ -187,17 +187,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-05/s4_cut1.jpg",
-          "badge": "DECEMBER • CONTEXTUAL REPORTING",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s4_cut2.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s4_cut3.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
           "panDirection": "panLeft"
         }
       ]
@@ -214,8 +214,8 @@
       "source": "Tech in Asia",
       "sourceUrl": "https://www.techinasia.com/news/reap-meitus-evelab-insight-explore-ai-beauty-shopping",
       "researchDesk": "",
-      "script": "In Asia. Reap said its service is designed to support agent-initiated card payments under user-approved mandates.",
-      "whyThisMatters": "Reap said its service is designed to support agent-initiated card payments under user-approved mandates.",
+      "script": "In Asia. Reap and Meitu's EveLab Insight are exploring AI-driven beauty shopping, Tech in Asia reports. Reap said its service lets AI agents make card payments within limits users have approved.",
+      "whyThisMatters": "Reap and Meitu's EveLab Insight are exploring AI-driven beauty shopping, Tech in Asia reports.",
       "sourceType": "reporting",
       "keyPoints": [
         "Reap, Meitu’s EveLab Insight explore AI beauty shopping",
@@ -224,17 +224,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-05/s5_cut1.jpg",
-          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s5_cut2.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s5_cut3.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
           "panDirection": "zoomOut"
         }
       ]
@@ -251,8 +251,8 @@
       "source": "The Economic Times",
       "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-sharpens-cat-and-mouse-hacking-battle-as-companies-strengthen-defences/articleshow/135561625.cms",
       "researchDesk": "",
-      "script": "Turning to India. From hacked supermarket fridges and a record cryptocurrency theft at Binance to an emergency over flaws in widely used web software, companies worldwide are facing a wave of cyber threats executives say AI is accelerating",
-      "whyThisMatters": "From hacked supermarket fridges and a record cryptocurrency theft at Binance to an emergency over flaws in widely used web software, companies worldwide are facing a wave of cyber threats executives say AI is acceleratin",
+      "script": "Turning to India. Companies around the world are confronting a surge of cyber threats that executives say artificial intelligence is speeding up, according to The Economic Times. Recent incidents range from hacked supermarket fridges to a record cryptocurrency theft at Binance and an emergency over flaws in popular web software.",
+      "whyThisMatters": "Companies around the world are confronting a surge of cyber threats that executives say artificial intelligence is speeding up, according to The Economic Times.",
       "sourceType": "reporting",
       "keyPoints": [
         "AI sharpens cat-and-mouse hacking battle as companies strengthen defences",
@@ -261,17 +261,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-05/s6_cut1.jpg",
-          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s6_cut2.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s6_cut3.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "panDirection": "zoomIn"
         }
       ]
@@ -284,12 +284,12 @@
       "headline": "Activists across Europe prepare two days of protests against datacentres",
       "subheadline": "Source: The Guardian",
       "importanceScore": 90,
-      "durationSeconds": 35,
+      "durationSeconds": 34,
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/world/2026/nov/05/activists-across-europe-protests-ai-against-datacentres",
       "researchDesk": "",
-      "script": "Around the world. More than 100 campaign groups will join together in 15 countries this week to call for a halt to major AI projects Protesters across Europe are planning two days of action against datacentres this week with demonstrations taking place in 15 countries. More than 100 groups are joining together for the “ Stop Dirty Data Centres ” events on Friday and Saturday. They are calling for a moratorium on large projects, citing environmental and social costs that “we can no longer afford”.",
-      "whyThisMatters": "More than 100 campaign groups will join together in 15 countries this week to call for a halt to major AI projects Protesters across Europe are planning two days of action against datacentres this week with demonstration",
+      "script": "Around the world. Campaigners across Europe are getting ready for two days of demonstrations against datacentres, The Guardian reports. More than 100 groups in 15 countries are coordinating the action, which takes place on Friday and Saturday under the name Stop Dirty Data Centres. The groups want a halt to major artificial intelligence projects and are pressing for a moratorium on large datacentre developments. They point to environmental and social burdens, describing them as costs that \"we can no longer afford\".",
+      "whyThisMatters": "Campaigners across Europe are getting ready for two days of demonstrations against datacentres, The Guardian reports.",
       "sourceType": "reporting",
       "keyPoints": [
         "Activists across Europe prepare two days of protests against datacentres",
@@ -298,12 +298,12 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-05/s7_cut1.jpg",
-          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s7_cut2.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "badge": "TERRAIN SURVEY • RURAL INFRASTRUCTURE",
           "panDirection": "zoomIn"
         },
         {
@@ -325,8 +325,8 @@
       "source": "TechNode",
       "sourceUrl": "https://technode.com/2026/11/05/nothing-plans-december-launch-for-first-ai-native-device/",
       "researchDesk": "",
-      "script": "In China. Nothing plans to launch its first AI-native hardware product in December, founder and CEO Carl Pei said on November 4. Pei described the forthcoming device as a productivity tool without a screen, adding that its functions could not have been delivered through an app alone. In an essay titled “Toolmakers,” Pei argued that AI tools lack much of the context surrounding people’s work, including conversations and ideas that users do not manually enter into a chatbot. He suggested that everyday hardware could help close that gap. Nothing has not disclosed the device’s precise form, specifications or price.",
-      "whyThisMatters": "Nothing plans to launch its first AI-native hardware product in December, founder and CEO Carl Pei said on November 4.",
+      "script": "In China. Nothing will release its first AI-native hardware product in December, founder and chief executive Carl Pei said on November 4, according to TechNode. Pei called the device a screenless productivity tool and said an app on its own could not have provided what it does. In an essay called Toolmakers, he argued that AI tools miss much of the context around people's work, such as conversations and ideas that never get typed into a chatbot. He suggested ordinary hardware could help fill that gap. The company has not revealed the device's exact form, specifications or price.",
+      "whyThisMatters": "Nothing will release its first AI-native hardware product in December, founder and chief executive Carl Pei said on November 4, according to TechNode.",
       "sourceType": "reporting",
       "keyPoints": [
         "Nothing plans December launch for first AI-native device",
@@ -335,17 +335,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-05/s8_cut1.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "badge": "DECEMBER • CONTEXTUAL REPORTING",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s8_cut2.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s8_cut3.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE • CUT 3",
           "panDirection": "panLeft"
         }
       ]
@@ -362,8 +362,8 @@
       "source": "Pandaily",
       "sourceUrl": "https://pandaily.com/moonshot-ai-kimi-hosted-agents-harness-as-a-service-sandbox-inference-hook",
       "researchDesk": "",
-      "script": "Elsewhere. Moonshot AI's Kimi Hosted Agents offers a 24/7 managed agent harness with sandboxes, audit trails, Inference Hook and eight finance templates, so teams need not self-host the runtime.",
-      "whyThisMatters": "Moonshot AI's Kimi Hosted Agents offers a 24/7 managed agent harness with sandboxes, audit trails, Inference Hook and eight finance templates, so teams need not self-host the runtime.",
+      "script": "Elsewhere. Moonshot AI has launched Kimi Hosted Agents, a managed cloud service that runs AI agents around the clock, Pandaily reports. It includes sandboxes, audit trails, an Inference Hook and eight finance templates, sparing teams from hosting the runtime themselves.",
+      "whyThisMatters": "Moonshot AI has launched Kimi Hosted Agents, a managed cloud service that runs AI agents around the clock, Pandaily reports.",
       "sourceType": "reporting",
       "keyPoints": [
         "Moonshot AI Launches Kimi Hosted Agents as a Managed Agent-Harness Cloud Service",
@@ -372,17 +372,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-05/s9_cut1.jpg",
-          "badge": "MENLO PARK • META HEADQUARTERS",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s9_cut2.jpg",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s9_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
           "panDirection": "zoomOut"
         }
       ]
@@ -395,12 +395,12 @@
       "headline": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
       "subheadline": "Source: The Guardian",
       "importanceScore": 90,
-      "durationSeconds": 37,
+      "durationSeconds": 38,
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
       "researchDesk": "",
-      "script": "Also today. Delivering net zero also at risk, say MPs as they call for centralised policy and funding for mines and diversification The UK is “dangerously” dependent on China for critical raw materials needed for the military, renewable energy infrastructure and AI, a parliamentary investigation has found. MPs on the business select committee called for an urgent centralised policy and the creation of a “critical minerals finance facility” to help fund rare earth and other critical mineral mines, and deploy grants, equity and debt to accelerate a diversification programme.",
-      "whyThisMatters": "Delivering net zero also at risk, say MPs as they call for centralised policy and funding for mines and diversification The UK is “dangerously” dependent on China for critical raw materials needed for the military, renew",
+      "script": "Also today. A parliamentary inquiry has concluded that Britain relies on China to a dangerous degree for critical raw materials, The Guardian reports. Members of the business select committee said these materials are essential for the military, renewable energy infrastructure and artificial intelligence, and warned that reaching net zero is also under threat. The MPs urged an urgent, centralised policy. They also proposed a critical minerals finance facility to help pay for rare earth and other critical mineral mines, using grants, equity and debt to speed up efforts to diversify supply.",
+      "whyThisMatters": "A parliamentary inquiry has concluded that Britain relies on China to a dangerous degree for critical raw materials, The Guardian reports.",
       "sourceType": "reporting",
       "keyPoints": [
         "UK found to be ‘dangerously’ reliant on China for critical minerals needed for d",
@@ -409,18 +409,55 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-05/s10_cut1.jpg",
-          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s10_cut2.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 2",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-05/s10_cut3.jpg",
           "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
           "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s11_from_pixels_to_actions_towards_n",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 46,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.06918",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. Researchers are rethinking how robots turn sight into movement in a paper titled From Pixels to Actions, Towards Native Vision-Language-Action Policies. These models combine camera images, written instructions and physical actions. Usually a separate visual encoder first condenses an image into a summary, and only then does the system reason about what to do. The researchers argue this can discard the details that handling objects depends on, such as edges, depth, shape and small changes. Their system, NEO-VLA, drops the separate encoder. Light processing layers break images into pieces that are handled together with language, letting the action component draw on visual information at several stages.",
+      "whyThisMatters": "Researchers are rethinking how robots turn sight into movement in a paper titled From Pixels to Actions, Towards Native Vision-Language-Action Policies.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s11_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s11_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION • CUT 2",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s11_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
         }
       ]
     }
@@ -464,7 +501,8 @@
     "Activists across Europe prepare two days of p",
     "Nothing plans December launch for first AI-na",
     "Moonshot AI Launches Kimi Hosted Agents as a ",
-    "UK found to be ‘dangerously’ reliant on China"
+    "UK found to be ‘dangerously’ reliant on China",
+    "From Pixels to Actions - Towards Native Visio"
   ],
   "thumbnail": {
     "date": "05 NOVEMBER 2026",

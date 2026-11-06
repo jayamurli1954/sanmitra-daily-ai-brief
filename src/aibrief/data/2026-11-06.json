@@ -1,0 +1,403 @@
+{
+  "weekly": false,
+  "date": "2026-11-06",
+  "formattedDate": "06 November 2026",
+  "title": "Russia and US seek to block plan | Google sued over suicide-related | Meta pauses planned terms updates, | AI News 06 November 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking today: Russia and US seek to block plan for binding rules on autonomous weapons. From the SanMitra Newsroom, this is the Daily AI Brief for 06 November 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_russia_and_us_seek_to_block_plan",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Russia and US seek to block plan for binding rules on autonomous weapons",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 99,
+      "durationSeconds": 44,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/06/autonomous-weapons-ai-russia-us-binding-rules",
+      "researchDesk": "",
+      "script": "Our lead story today. UN conference this month seen as key moment after years of discussions on filling gap in governance of AI systems Plans to fill a gap in the global governance of autonomous weapons are in jeopardy as a group of nations led by Russia and the US move to use a UN conference this month to block proposals to negotiate a legally binding set of rules. The scale of the opposition will become clear at a diplomatic retreat starting on Friday before the seventh review conference on “certain conventional weapons” in Geneva due to be attended by 128 countries from 16 to 20 November.",
+      "whyThisMatters": "UN conference this month seen as key moment after years of discussions on filling gap in governance of AI systems Plans to fill a gap in the global governance of autonomous weapons are in jeopardy as a group of nations l",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Russia and US seek to block plan for binding rules on autonomous weapons",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s1_cut1.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s1_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s1_cut3.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_google_sued_over_suicide_related",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google sued over suicide-related AI chats on school computer",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 95,
+      "durationSeconds": 29,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-sued-over-suicide-related-ai-chats-on-school-computer/articleshow/135591823.cms",
+      "researchDesk": "",
+      "script": "Turning to the United States. The parents of a 13-year-old girl have sued Google claiming she planned a potential suicide and funeral using its AI technology on a school-issued computer. Developers of fast-evolving AI technology are facing a litany of similar lawsuits in the US. OpenAI faces several wrongful death suits, including from the parents of 16-year-old Adam Raine, a teenager who committed suicide allegedly using methods advised by ChatGPT.",
+      "whyThisMatters": "The parents of a 13-year-old girl have sued Google claiming she planned a potential suicide and funeral using its AI technology on a school-issued computer.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Google sued over suicide-related AI chats on school computer",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s2_cut1.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s2_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s2_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_meta_pauses_planned_terms_update",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Meta pauses planned terms updates, keeps existing rules in place",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/meta-pauses-planned-terms-updates-keeps-existing-rules-in-place/articleshow/135608532.cms",
+      "researchDesk": "",
+      "script": "In other news. Meta has paused planned updates to its Commercial Terms, Product Catalog Terms, Self-Serve Ad Terms and Ad Creative Generative AI Terms, meaning the changes will not take",
+      "whyThisMatters": "Meta has paused planned updates to its Commercial Terms, Product Catalog Terms, Self-Serve Ad Terms and Ad Creative Generative AI Terms, meaning the changes will not take",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Meta pauses planned terms updates, keeps existing rules in place",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s3_cut1.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s3_cut2.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s3_cut3.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_chinese_ai_lab_moonshot_turned_t",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
+      "researchDesk": "",
+      "script": "In China. Moonshot AI has sought leasing agreements with neoclouds for advanced chips in Europe, as US export controls restrict their import to China.",
+      "whyThisMatters": "Moonshot AI has sought leasing agreements with neoclouds for advanced chips in Europe, as U.S. export controls restrict their import to China.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. C",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s4_cut1.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s4_cut2.jpg",
+          "badge": "AEROSPACE TELEMETRY • RADAR MONITORING GRID",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s4_cut3.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_cashfree_launches_checkout_for_a",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments",
+      "subheadline": "Source: Inc42",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Inc42",
+      "sourceUrl": "https://inc42.com/buzz/cashfree-launches-checkout-for-agents-to-enable-ai-led-payments/",
+      "researchDesk": "",
+      "script": "Turning to India. Fintech soonicorn Cashfree Payments has launched ‘Checkout for Agents’, a new tool that enables AI agents to process customer payments…",
+      "whyThisMatters": "Fintech soonicorn Cashfree Payments has launched ‘Checkout for Agents’, a new tool that enables AI agents to process customer payments…",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments",
+        "Inc42"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s5_cut1.jpg",
+          "badge": "CUPERTINO • APPLE PARK",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s5_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s5_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_nigel_farage_s_exit_from_the_tel",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sobering side to this story | Jane Martinson",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 49,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/commentisfree/2026/nov/06/nigel-farage-telegraph-story-newspaper-ai",
+      "researchDesk": "",
+      "script": "Around the world. The clear-out at the newspaper seems driven less by politics than by a shift towards AI and journalism will pay the price Nigel Farage has been writing columns for the Daily Telegraph since 2016 , most of which have promoted the previously Brexit and now Reform UK party he leads, or accused his rivals of going soft on immigration . For this privilege the paper’s cash-strapped bosses paid him around £4,000 a month , adding up to nearly half a million pounds over the past decade. News broke this week that Farage’s services are no longer required by the Telegraph’s new German owners, Axel Springer, though sources close to Farage say that he resigned.",
+      "whyThisMatters": "The clear-out at the newspaper seems driven less by politics than by a shift towards AI – and journalism will pay the price Nigel Farage has been writing columns for the Daily Telegraph since 2016 , most of which have pr",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sob",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s6_cut1.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s6_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s6_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_china_unveils_an_ai_agent_identi",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign Self-Discipline Pact",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/wuzhen-ai-agent-identity-registration-resolution-platform-self-discipline-convention",
+      "researchDesk": "",
+      "script": "In China. An AI agent identity registration and resolution platform was unveiled at Wuzhen, while 20 organizations including Huawei, Alibaba and Tencent signed an agent self-discipline pact.",
+      "whyThisMatters": "An AI agent identity registration and resolution platform was unveiled at Wuzhen, while 20 organizations including Huawei, Alibaba and Tencent signed an agent self-discipline pact.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign S",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s7_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s7_cut2.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s7_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_cainiao_opens_its_global_warehou",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/cainiao-global-warehouse-network-embodied-ai-robot-training-tech-export-three-day-delivery",
+      "researchDesk": "",
+      "script": "Next. Cainiao is opening its global warehouse network to AI and robotics firms for real-world training, with 100+ test scenarios, and launched a three-day overseas delivery service for tech hardware.",
+      "whyThisMatters": "Cainiao is opening its global warehouse network to AI and robotics firms for real-world training, with 100+ test scenarios, and launched a three-day overseas delivery service for tech hardware.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for E",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s8_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s8_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s8_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panLeft"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. Russia and US seek to block plan for binding rules on autonomous weapons. Google sued over suicide-related AI chats on school computer. Meta pauses planned terms updates, keeps existing rules in place. Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC. Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments. Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sobering side to this story | Jane Martinson.",
+    "items": [
+      "✓ Russia and US seek to block plan for binding rul",
+      "✓ Google sued over suicide-related AI chats on sch",
+      "✓ Meta pauses planned terms updates, keeps existin",
+      "✓ Chinese AI lab Moonshot turned to Europe for Nvi",
+      "✓ Cashfree Launches ‘Checkout For Agents’ To Enabl",
+      "✓ Nigel Farage's exit from the Telegraph may be ca",
+      "✓ China Unveils an AI Agent Identity Registry at W"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Russia and US seek to block plan for binding ",
+    "Google sued over suicide-related AI chats on ",
+    "Meta pauses planned terms updates, keeps exis",
+    "Chinese AI lab Moonshot turned to Europe for ",
+    "Cashfree Launches ‘Checkout For Agents’ To En",
+    "Nigel Farage's exit from the Telegraph may be",
+    "China Unveils an AI Agent Identity Registry a",
+    "Cainiao Opens Its Global Warehouse Network as"
+  ],
+  "thumbnail": {
+    "date": "06 NOVEMBER 2026",
+    "headline": "RUSSIA AND US SEEK TO BLOCK PLAN FOR BINDING",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "RUSSIA AND US SEEK TO BLOCK PLAN",
+      "GOOGLE SUED OVER SUICIDE-RELATED AI",
+      "META PAUSES PLANNED TERMS UPDATES,",
+      "CHINESE AI LAB MOONSHOT TURNED TO"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Russia and US seek to block plan | Google sued over suicide-related | Meta pauses planned terms updates, | AI News 06 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 06 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

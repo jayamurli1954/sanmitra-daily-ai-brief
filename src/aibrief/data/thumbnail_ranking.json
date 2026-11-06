@@ -1,16 +1,16 @@
 {
   "winning_variant": "Variant A (Breaking Red)",
-  "winning_score": 61.93,
+  "winning_score": 61.79,
   "primary_output": "out/aibrief/thumbnail_primary.png",
-  "date_alias_output": "out/aibrief/thumbnail_2026-11-04.png",
+  "date_alias_output": "out/aibrief/thumbnail_2026-11-05.png",
   "rankings": [
     {
       "variant": "Variant A (Breaking Red)",
       "path": "out/aibrief/thumb_A.png",
       "exists": true,
-      "total_score": 61.93,
-      "contrast_score": 13.8,
-      "vibrancy_score": 19.13,
+      "total_score": 61.79,
+      "contrast_score": 13.7,
+      "vibrancy_score": 19.09,
       "mobile_acuity_score": 25.0,
       "hero_prominence_score": 4.0
     },
@@ -28,9 +28,9 @@
       "variant": "Variant C (Critical Emerald)",
       "path": "out/aibrief/thumb_C.png",
       "exists": true,
-      "total_score": 57.61,
-      "contrast_score": 13.65,
-      "vibrancy_score": 14.96,
+      "total_score": 57.46,
+      "contrast_score": 13.56,
+      "vibrancy_score": 14.9,
       "mobile_acuity_score": 25.0,
       "hero_prominence_score": 4.0
     }

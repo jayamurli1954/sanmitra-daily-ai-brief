@@ -1,190 +1,80 @@
 {
-  "date": "2026-11-04",
-  "dateLabel": "04 NOVEMBER 2026",
+  "date": "2026-11-05",
+  "dateLabel": "05 NOVEMBER 2026",
   "kicker": "BREAKING",
-  "headline": "Data centers are turning to old jet engines as the wait for power grows",
+  "headline": "China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division: FT",
   "subhead": "",
-  "source": "Source: TechCrunch",
-  "audioFile": "audio/aibrief/short_2026-11-04_lead.mp3",
-  "voiceFrames": 1315,
+  "source": "Source: The Economic Times",
+  "audioFile": "audio/aibrief/short_2026-11-05_lead.mp3",
+  "voiceFrames": 483,
   "endCardFrames": 75,
   "images": [
     {
-      "src": "aibrief/assets/editorial/2026-11-04/s1_cut1.jpg",
-      "label": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE"
+      "src": "aibrief/assets/editorial/2026-11-05/s1_cut1.jpg",
+      "label": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT"
     },
     {
-      "src": "aibrief/assets/editorial/2026-11-04/s1_cut2.jpg",
-      "label": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE"
+      "src": "aibrief/assets/editorial/2026-11-05/s1_cut2.jpg",
+      "label": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM"
     },
     {
-      "src": "aibrief/assets/editorial/2026-11-04/s1_cut3.jpg",
-      "label": "REGIONAL POWER GRID • SUBSTATION TELEMETRY"
+      "src": "aibrief/assets/editorial/2026-11-05/s1_cut3.jpg",
+      "label": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION"
     }
   ],
   "cues": [
     {
-      "text": "Some artificial",
+      "text": "Softbank had agreed to buy",
       "start": 0,
-      "end": 22
+      "end": 44
     },
     {
-      "text": "intelligence data centers",
-      "start": 22,
-      "end": 73
+      "text": "ABB's robotics business in",
+      "start": 44,
+      "end": 95
     },
     {
-      "text": "are generating their own",
-      "start": 73,
-      "end": 107
+      "text": "October last year,",
+      "start": 95,
+      "end": 127
     },
     {
-      "text": "electricity with converted",
-      "start": 107,
-      "end": 142
+      "text": "as CEO Masayoshi Son",
+      "start": 135,
+      "end": 185
     },
     {
-      "text": "jet engines while they",
-      "start": 142,
-      "end": 181
+      "text": "sought to establish",
+      "start": 185,
+      "end": 215
     },
     {
-      "text": "wait years for grid",
-      "start": 181,
-      "end": 209
+      "text": "SoftBank as a core player",
+      "start": 215,
+      "end": 260
     },
     {
-      "text": "connections and new",
-      "start": 209,
-      "end": 241
+      "text": "in the development of",
+      "start": 260,
+      "end": 293
     },
     {
-      "text": "turbines, TechCrunch",
-      "start": 241,
-      "end": 283
-    },
-    {
-      "text": "reports, citing the New",
-      "start": 283,
-      "end": 327
-    },
-    {
-      "text": "York Times.",
-      "start": 327,
-      "end": 343
-    },
-    {
-      "text": "The engines are taken from",
-      "start": 380,
-      "end": 417
-    },
-    {
-      "text": "retired aircraft and",
-      "start": 417,
-      "end": 456
-    },
-    {
-      "text": "rebuilt to run on natural",
-      "start": 456,
-      "end": 494
-    },
-    {
-      "text": "gas.",
-      "start": 494,
-      "end": 506
-    },
-    {
-      "text": "Nobody sees them as a",
-      "start": 533,
-      "end": 575
-    },
-    {
-      "text": "long-term power source,",
-      "start": 575,
-      "end": 608
-    },
-    {
-      "text": "but they show how far",
-      "start": 625,
-      "end": 653
-    },
-    {
-      "text": "electricity supply has",
-      "start": 653,
-      "end": 693
-    },
-    {
-      "text": "lagged behind the",
-      "start": 693,
-      "end": 720
-    },
-    {
-      "text": "expansion of AI.",
-      "start": 720,
-      "end": 745
-    },
-    {
-      "text": "For companies caught in",
-      "start": 770,
-      "end": 814
-    },
-    {
-      "text": "those queues, the key",
-      "start": 814,
-      "end": 851
-    },
-    {
-      "text": "appeal is how quickly the",
-      "start": 851,
-      "end": 890
-    },
-    {
-      "text": "engines can be put to",
-      "start": 899,
-      "end": 923
-    },
-    {
-      "text": "work.",
-      "start": 923,
-      "end": 929
-    },
-    {
-      "text": "Audun Martinsen, an",
-      "start": 958,
-      "end": 998
-    },
-    {
-      "text": "analyst at Rystad Energy,",
-      "start": 998,
-      "end": 1040
-    },
-    {
-      "text": "told the Times the",
-      "start": 1057,
-      "end": 1084
-    },
-    {
-      "text": "priority is securing power",
-      "start": 1084,
-      "end": 1124
-    },
-    {
-      "text": "as quickly as possible.",
-      "start": 1124,
-      "end": 1161
+      "text": "artificial intelligence.",
+      "start": 293,
+      "end": 316
     },
     {
       "text": "Watch the full episode on",
-      "start": 1189,
-      "end": 1237
+      "start": 351,
+      "end": 404
     },
     {
       "text": "SanMitra AI News Wire.",
-      "start": 1237,
-      "end": 1283
+      "start": 404,
+      "end": 451
     }
   ],
   "ctaTitle": "Full episode on YouTube",
   "ctaLine": "SanMitra AI News Wire",
-  "ctaSub": "All 10 of today's AI stories"
+  "ctaSub": "All 11 of today's AI stories"
 }

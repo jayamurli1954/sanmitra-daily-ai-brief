@@ -1,22 +1,15 @@
 {
   "weekly": false,
-  "date": "2026-11-05",
-  "formattedDate": "05 November 2026",
-  "title": "China blocks SoftBank's 5.4 | Google unveils 15 billion dollars | Meta acquires AI coding startup | AI News 05 November 2026",
+  "date": "2026-11-06",
+  "formattedDate": "06 November 2026",
+  "title": "Russia and US seek to block plan | Google sued over suicide-related | Meta pauses planned terms updates, | AI News 06 November 2026",
   "intro": {
     "durationSeconds": 18,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "Breaking today: China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division: FT. From the SanMitra Newsroom, this is the Daily AI Brief for 05 November 2026."
+    "script": "Breaking today: Russia and US seek to block plan for binding rules on autonomous weapons. From the SanMitra Newsroom, this is the Daily AI Brief for 06 November 2026."
   },
   "transitions": [
-    {
-      "id": "transition_china",
-      "region": "CHINA",
-      "title": "NEXT: CHINA & REGIONAL STRATEGY",
-      "display": "NEXT: CHINA",
-      "durationSeconds": 2
-    },
     {
       "id": "transition_usa",
       "region": "USA",
@@ -29,13 +22,6 @@
       "region": "CHINA",
       "title": "NEXT: CHINA & REGIONAL STRATEGY",
       "display": "NEXT: CHINA",
-      "durationSeconds": 2
-    },
-    {
-      "id": "transition_asia",
-      "region": "ASIA",
-      "title": "NEXT: ASIA & REGIONAL STRATEGY",
-      "display": "NEXT: ASIA",
       "durationSeconds": 2
     },
     {
@@ -55,372 +41,298 @@
   ],
   "stories": [
     {
-      "id": "s1_china_blocks_softbank_s_5_4_bill",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division: FT",
-      "subheadline": "Source: The Economic Times",
+      "id": "s1_russia_and_us_seek_to_block_plan",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Russia and US seek to block plan for binding rules on autonomous weapons",
+      "subheadline": "Source: The Guardian",
       "importanceScore": 99,
-      "durationSeconds": 24,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/china-blocks-softbanks-5-4-billion-takeover-of-abbs-robotics-division-ft/articleshow/135565365.cms",
+      "durationSeconds": 44,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/06/autonomous-weapons-ai-russia-us-binding-rules",
       "researchDesk": "",
-      "script": "Our lead story today. Softbank had agreed to buy ABB's robotics business in October last year, as CEO Masayoshi Son sought to establish SoftBank as a core player in the development of artificial intelligence.",
-      "whyThisMatters": "Softbank had agreed to buy ABB's robotics business in October last year, as CEO Masayoshi Son sought to establish SoftBank as a core player in the development of artificial intelligence.",
+      "script": "Our lead story today. UN conference this month seen as key moment after years of discussions on filling gap in governance of AI systems Plans to fill a gap in the global governance of autonomous weapons are in jeopardy as a group of nations led by Russia and the US move to use a UN conference this month to block proposals to negotiate a legally binding set of rules. The scale of the opposition will become clear at a diplomatic retreat starting on Friday before the seventh review conference on “certain conventional weapons” in Geneva due to be attended by 128 countries from 16 to 20 November.",
+      "whyThisMatters": "UN conference this month seen as key moment after years of discussions on filling gap in governance of AI systems Plans to fill a gap in the global governance of autonomous weapons are in jeopardy as a group of nations l",
       "sourceType": "reporting",
       "keyPoints": [
-        "China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division:",
-        "The Economic Times"
+        "Russia and US seek to block plan for binding rules on autonomous weapons",
+        "The Guardian"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s1_cut1.jpg",
-          "badge": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
+          "image": "aibrief/assets/editorial/2026-11-06/s1_cut1.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s1_cut2.jpg",
-          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "image": "aibrief/assets/editorial/2026-11-06/s1_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s1_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "image": "aibrief/assets/editorial/2026-11-06/s1_cut3.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_google_unveils_15_billion_dollar",
+      "id": "s2_google_sued_over_suicide_related",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Google unveils 15 billion dollars data centre investment in Malaysia",
+      "headline": "Google sued over suicide-related AI chats on school computer",
       "subheadline": "Source: The Economic Times",
       "importanceScore": 95,
-      "durationSeconds": 26,
+      "durationSeconds": 29,
       "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/google-unveils-15-billion-data-centre-investment-in-malaysia/articleshow/135559941.cms",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-sued-over-suicide-related-ai-chats-on-school-computer/articleshow/135591823.cms",
       "researchDesk": "",
-      "script": "Turning to the United States. Google announced plans on Wednesday to invest 15 billion dollars in Malaysia over the next two years to build data centres and other infrastructure as demand booms for artificial intelligence services. It said the 15 billion dollars investment will be made \"over the next two years (2027 to 2028)\", expanding on a 2 billion dollars investment announced in 2024.",
-      "whyThisMatters": "Google announced plans on Wednesday to invest $15 billion in Malaysia over the next two years to build data centres and other infrastructure as demand booms for artificial intelligence services.",
+      "script": "Turning to the United States. The parents of a 13-year-old girl have sued Google claiming she planned a potential suicide and funeral using its AI technology on a school-issued computer. Developers of fast-evolving AI technology are facing a litany of similar lawsuits in the US. OpenAI faces several wrongful death suits, including from the parents of 16-year-old Adam Raine, a teenager who committed suicide allegedly using methods advised by ChatGPT.",
+      "whyThisMatters": "The parents of a 13-year-old girl have sued Google claiming she planned a potential suicide and funeral using its AI technology on a school-issued computer.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Google unveils 15 billion dollars data centre investment in Malaysia",
+        "Google sued over suicide-related AI chats on school computer",
         "The Economic Times"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s2_cut1.jpg",
-          "badge": "HUMANOID ROBOTICS • ELECTRIC ATLAS DEPLOYMENT",
+          "image": "aibrief/assets/editorial/2026-11-06/s2_cut1.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s2_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-11-06/s2_cut2.jpg",
           "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s2_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-11-06/s2_cut3.jpg",
           "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s3_meta_acquires_ai_coding_startup",
+      "id": "s3_meta_pauses_planned_terms_update",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Meta acquires AI coding startup Conductor",
-      "subheadline": "Source: Tech in Asia",
+      "headline": "Meta pauses planned terms updates, keeps existing rules in place",
+      "subheadline": "Source: The Economic Times",
       "importanceScore": 95,
       "durationSeconds": 24,
-      "source": "Tech in Asia",
-      "sourceUrl": "https://www.techinasia.com/news/meta-acquires-ai-coding-startup-conductor",
-      "researchDesk": "",
-      "script": "In other news. Meta confirmed on November 4 that it acquired Conductor, an AI coding startup founded in 2024, as it expands its AI coding tools.",
-      "whyThisMatters": "Meta confirmed on November 4 that it acquired Conductor, an AI coding startup founded in 2024, as it expands its AI coding tools.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Meta acquires AI coding startup Conductor",
-        "Tech in Asia"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s3_cut1.jpg",
-          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s3_cut2.jpg",
-          "badge": "WASHINGTON D.C. • THE WHITE HOUSE BRIEFING",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s3_cut3.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "panDirection": "panRight"
-        }
-      ]
-    },
-    {
-      "id": "s4_moonshot_ai_releases_kimi_k3_1_p",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Moonshot AI releases Kimi K3.1 Pro model weights",
-      "subheadline": "Source: TechNode",
-      "importanceScore": 90,
-      "durationSeconds": 43,
-      "source": "TechNode",
-      "sourceUrl": "https://technode.com/2026/11/05/moonshot-ai-releases-kimi-k3-1-pro-model-weights/",
-      "researchDesk": "",
-      "script": "In China. Moonshot AI has released the weights of Kimi K3.1 Pro on Hugging Face, making its flagship multimodal model available for independent deployment. The model uses a mixture-of-experts architecture with 2.8 trillion total parameters and approximately 104 billion activated per inference, and supports a context window of around one million tokens. K3.1 Pro builds on Kimi K3 with expanded reinforcement learning for coding, 3D creation, financial research and long-running agent tasks. The weights release follows the model’s earlier availability through Kimi’s applications and API. Huawei has also announced inference support through vLLM Ascend and SGLang, covering its Atlas A3 and Ascend 950 systems.",
-      "whyThisMatters": "Moonshot AI has released the weights of Kimi K3.1 Pro on Hugging Face, making its flagship multimodal model available for independent deployment.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Moonshot AI releases Kimi K3.1 Pro model weights",
-        "TechNode"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s4_cut1.jpg",
-          "badge": "DECEMBER • CONTEXTUAL REPORTING",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s4_cut2.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s4_cut3.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "panDirection": "panLeft"
-        }
-      ]
-    },
-    {
-      "id": "s5_reap_meitu_s_evelab_insight_expl",
-      "region": "ASIA",
-      "category": "ASIA Intelligence",
-      "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "Reap, Meitu’s EveLab Insight explore AI beauty shopping",
-      "subheadline": "Source: Tech in Asia",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Tech in Asia",
-      "sourceUrl": "https://www.techinasia.com/news/reap-meitus-evelab-insight-explore-ai-beauty-shopping",
-      "researchDesk": "",
-      "script": "In Asia. Reap said its service is designed to support agent-initiated card payments under user-approved mandates.",
-      "whyThisMatters": "Reap said its service is designed to support agent-initiated card payments under user-approved mandates.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Reap, Meitu’s EveLab Insight explore AI beauty shopping",
-        "Tech in Asia"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s5_cut1.jpg",
-          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s5_cut2.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s5_cut3.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
-          "panDirection": "zoomOut"
-        }
-      ]
-    },
-    {
-      "id": "s6_ai_sharpens_cat_and_mouse_hackin",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "AI sharpens cat-and-mouse hacking battle as companies strengthen defences",
-      "subheadline": "Source: The Economic Times",
-      "importanceScore": 90,
-      "durationSeconds": 24,
       "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-sharpens-cat-and-mouse-hacking-battle-as-companies-strengthen-defences/articleshow/135561625.cms",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/meta-pauses-planned-terms-updates-keeps-existing-rules-in-place/articleshow/135608532.cms",
       "researchDesk": "",
-      "script": "Turning to India. From hacked supermarket fridges and a record cryptocurrency theft at Binance to an emergency over flaws in widely used web software, companies worldwide are facing a wave of cyber threats executives say AI is accelerating",
-      "whyThisMatters": "From hacked supermarket fridges and a record cryptocurrency theft at Binance to an emergency over flaws in widely used web software, companies worldwide are facing a wave of cyber threats executives say AI is acceleratin",
+      "script": "In other news. Meta has paused planned updates to its Commercial Terms, Product Catalog Terms, Self-Serve Ad Terms and Ad Creative Generative AI Terms, meaning the changes will not take",
+      "whyThisMatters": "Meta has paused planned updates to its Commercial Terms, Product Catalog Terms, Self-Serve Ad Terms and Ad Creative Generative AI Terms, meaning the changes will not take",
       "sourceType": "reporting",
       "keyPoints": [
-        "AI sharpens cat-and-mouse hacking battle as companies strengthen defences",
+        "Meta pauses planned terms updates, keeps existing rules in place",
         "The Economic Times"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s6_cut1.jpg",
-          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
-          "panDirection": "zoomOut"
+          "image": "aibrief/assets/editorial/2026-11-06/s3_cut1.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s6_cut2.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s6_cut3.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "image": "aibrief/assets/editorial/2026-11-06/s3_cut2.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
           "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s3_cut3.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s7_activists_across_europe_prepare",
+      "id": "s4_chinese_ai_lab_moonshot_turned_t",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
+      "researchDesk": "",
+      "script": "In China. Moonshot AI has sought leasing agreements with neoclouds for advanced chips in Europe, as US export controls restrict their import to China.",
+      "whyThisMatters": "Moonshot AI has sought leasing agreements with neoclouds for advanced chips in Europe, as U.S. export controls restrict their import to China.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. C",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s4_cut1.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s4_cut2.jpg",
+          "badge": "AEROSPACE TELEMETRY • RADAR MONITORING GRID",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s4_cut3.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_cashfree_launches_checkout_for_a",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments",
+      "subheadline": "Source: Inc42",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Inc42",
+      "sourceUrl": "https://inc42.com/buzz/cashfree-launches-checkout-for-agents-to-enable-ai-led-payments/",
+      "researchDesk": "",
+      "script": "Turning to India. Fintech soonicorn Cashfree Payments has launched ‘Checkout for Agents’, a new tool that enables AI agents to process customer payments…",
+      "whyThisMatters": "Fintech soonicorn Cashfree Payments has launched ‘Checkout for Agents’, a new tool that enables AI agents to process customer payments…",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments",
+        "Inc42"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s5_cut1.jpg",
+          "badge": "CUPERTINO • APPLE PARK",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s5_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s5_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_nigel_farage_s_exit_from_the_tel",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Activists across Europe prepare two days of protests against datacentres",
+      "headline": "Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sobering side to this story | Jane Martinson",
       "subheadline": "Source: The Guardian",
       "importanceScore": 90,
-      "durationSeconds": 35,
+      "durationSeconds": 49,
       "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/world/2026/nov/05/activists-across-europe-protests-ai-against-datacentres",
+      "sourceUrl": "https://www.theguardian.com/commentisfree/2026/nov/06/nigel-farage-telegraph-story-newspaper-ai",
       "researchDesk": "",
-      "script": "Around the world. More than 100 campaign groups will join together in 15 countries this week to call for a halt to major AI projects Protesters across Europe are planning two days of action against datacentres this week with demonstrations taking place in 15 countries. More than 100 groups are joining together for the “ Stop Dirty Data Centres ” events on Friday and Saturday. They are calling for a moratorium on large projects, citing environmental and social costs that “we can no longer afford”.",
-      "whyThisMatters": "More than 100 campaign groups will join together in 15 countries this week to call for a halt to major AI projects Protesters across Europe are planning two days of action against datacentres this week with demonstration",
+      "script": "Around the world. The clear-out at the newspaper seems driven less by politics than by a shift towards AI and journalism will pay the price Nigel Farage has been writing columns for the Daily Telegraph since 2016 , most of which have promoted the previously Brexit and now Reform UK party he leads, or accused his rivals of going soft on immigration . For this privilege the paper’s cash-strapped bosses paid him around £4,000 a month , adding up to nearly half a million pounds over the past decade. News broke this week that Farage’s services are no longer required by the Telegraph’s new German owners, Axel Springer, though sources close to Farage say that he resigned.",
+      "whyThisMatters": "The clear-out at the newspaper seems driven less by politics than by a shift towards AI – and journalism will pay the price Nigel Farage has been writing columns for the Daily Telegraph since 2016 , most of which have pr",
       "sourceType": "reporting",
       "keyPoints": [
-        "Activists across Europe prepare two days of protests against datacentres",
+        "Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sob",
         "The Guardian"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s7_cut1.jpg",
-          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s7_cut2.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s7_cut3.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
-          "panDirection": "panRight"
-        }
-      ]
-    },
-    {
-      "id": "s8_nothing_plans_december_launch_fo",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Nothing plans December launch for first AI-native device",
-      "subheadline": "Source: TechNode",
-      "importanceScore": 90,
-      "durationSeconds": 41,
-      "source": "TechNode",
-      "sourceUrl": "https://technode.com/2026/11/05/nothing-plans-december-launch-for-first-ai-native-device/",
-      "researchDesk": "",
-      "script": "In China. Nothing plans to launch its first AI-native hardware product in December, founder and CEO Carl Pei said on November 4. Pei described the forthcoming device as a productivity tool without a screen, adding that its functions could not have been delivered through an app alone. In an essay titled “Toolmakers,” Pei argued that AI tools lack much of the context surrounding people’s work, including conversations and ideas that users do not manually enter into a chatbot. He suggested that everyday hardware could help close that gap. Nothing has not disclosed the device’s precise form, specifications or price.",
-      "whyThisMatters": "Nothing plans to launch its first AI-native hardware product in December, founder and CEO Carl Pei said on November 4.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Nothing plans December launch for first AI-native device",
-        "TechNode"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s8_cut1.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s8_cut2.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "image": "aibrief/assets/editorial/2026-11-06/s6_cut1.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s8_cut3.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
-          "panDirection": "panLeft"
+          "image": "aibrief/assets/editorial/2026-11-06/s6_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s6_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s9_moonshot_ai_launches_kimi_hosted",
+      "id": "s7_china_unveils_an_ai_agent_identi",
       "region": "CHINA",
       "category": "CHINA Intelligence",
       "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Moonshot AI Launches Kimi Hosted Agents as a Managed Agent-Harness Cloud Service",
+      "headline": "China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign Self-Discipline Pact",
       "subheadline": "Source: Pandaily",
       "importanceScore": 90,
       "durationSeconds": 24,
       "source": "Pandaily",
-      "sourceUrl": "https://pandaily.com/moonshot-ai-kimi-hosted-agents-harness-as-a-service-sandbox-inference-hook",
+      "sourceUrl": "https://pandaily.com/wuzhen-ai-agent-identity-registration-resolution-platform-self-discipline-convention",
       "researchDesk": "",
-      "script": "Elsewhere. Moonshot AI's Kimi Hosted Agents offers a 24/7 managed agent harness with sandboxes, audit trails, Inference Hook and eight finance templates, so teams need not self-host the runtime.",
-      "whyThisMatters": "Moonshot AI's Kimi Hosted Agents offers a 24/7 managed agent harness with sandboxes, audit trails, Inference Hook and eight finance templates, so teams need not self-host the runtime.",
+      "script": "In China. An AI agent identity registration and resolution platform was unveiled at Wuzhen, while 20 organizations including Huawei, Alibaba and Tencent signed an agent self-discipline pact.",
+      "whyThisMatters": "An AI agent identity registration and resolution platform was unveiled at Wuzhen, while 20 organizations including Huawei, Alibaba and Tencent signed an agent self-discipline pact.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Moonshot AI Launches Kimi Hosted Agents as a Managed Agent-Harness Cloud Service",
+        "China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign S",
         "Pandaily"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s9_cut1.jpg",
-          "badge": "MENLO PARK • META HEADQUARTERS",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s9_cut2.jpg",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "image": "aibrief/assets/editorial/2026-11-06/s7_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s9_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
-          "panDirection": "zoomOut"
+          "image": "aibrief/assets/editorial/2026-11-06/s7_cut2.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s7_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s10_uk_found_to_be_dangerously_relia",
+      "id": "s8_cainiao_opens_its_global_warehou",
       "region": "CHINA",
       "category": "CHINA Intelligence",
       "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
-      "subheadline": "Source: The Guardian",
+      "headline": "Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI",
+      "subheadline": "Source: Pandaily",
       "importanceScore": 90,
-      "durationSeconds": 37,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/cainiao-global-warehouse-network-embodied-ai-robot-training-tech-export-three-day-delivery",
       "researchDesk": "",
-      "script": "Also today. Delivering net zero also at risk, say MPs as they call for centralised policy and funding for mines and diversification The UK is “dangerously” dependent on China for critical raw materials needed for the military, renewable energy infrastructure and AI, a parliamentary investigation has found. MPs on the business select committee called for an urgent centralised policy and the creation of a “critical minerals finance facility” to help fund rare earth and other critical mineral mines, and deploy grants, equity and debt to accelerate a diversification programme.",
-      "whyThisMatters": "Delivering net zero also at risk, say MPs as they call for centralised policy and funding for mines and diversification The UK is “dangerously” dependent on China for critical raw materials needed for the military, renew",
+      "script": "Next. Cainiao is opening its global warehouse network to AI and robotics firms for real-world training, with 100+ test scenarios, and launched a three-day overseas delivery service for tech hardware.",
+      "whyThisMatters": "Cainiao is opening its global warehouse network to AI and robotics firms for real-world training, with 100+ test scenarios, and launched a three-day overseas delivery service for tech hardware.",
       "sourceType": "reporting",
       "keyPoints": [
-        "UK found to be ‘dangerously’ reliant on China for critical minerals needed for d",
-        "The Guardian"
+        "Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for E",
+        "Pandaily"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s10_cut1.jpg",
-          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-05/s10_cut2.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 2",
+          "image": "aibrief/assets/editorial/2026-11-06/s8_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-05/s10_cut3.jpg",
-          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
-          "panDirection": "zoomIn"
+          "image": "aibrief/assets/editorial/2026-11-06/s8_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s8_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panLeft"
         }
       ]
     }
@@ -428,15 +340,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division: FT. Google unveils 15 billion dollars data centre investment in Malaysia. Meta acquires AI coding startup Conductor. Moonshot AI releases Kimi K3.1 Pro model weights. Reap, Meitu’s EveLab Insight explore AI beauty shopping. AI sharpens cat-and-mouse hacking battle as companies strengthen defences.",
+    "script": "To recap today's top stories. Russia and US seek to block plan for binding rules on autonomous weapons. Google sued over suicide-related AI chats on school computer. Meta pauses planned terms updates, keeps existing rules in place. Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC. Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments. Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sobering side to this story | Jane Martinson.",
     "items": [
-      "✓ China blocks SoftBank's 5.4 billion dollars take",
-      "✓ Google unveils 15 billion dollars data centre in",
-      "✓ Meta acquires AI coding startup Conductor",
-      "✓ Moonshot AI releases Kimi K3.1 Pro model weights",
-      "✓ Reap, Meitu’s EveLab Insight explore AI beauty s",
-      "✓ AI sharpens cat-and-mouse hacking battle as comp",
-      "✓ Activists across Europe prepare two days of prot"
+      "✓ Russia and US seek to block plan for binding rul",
+      "✓ Google sued over suicide-related AI chats on sch",
+      "✓ Meta pauses planned terms updates, keeps existin",
+      "✓ Chinese AI lab Moonshot turned to Europe for Nvi",
+      "✓ Cashfree Launches ‘Checkout For Agents’ To Enabl",
+      "✓ Nigel Farage's exit from the Telegraph may be ca",
+      "✓ China Unveils an AI Agent Identity Registry at W"
     ]
   },
   "outro": {
@@ -455,31 +367,29 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "China blocks SoftBank's 5.4 billion dollars t",
-    "Google unveils 15 billion dollars data centre",
-    "Meta acquires AI coding startup Conductor",
-    "Moonshot AI releases Kimi K3.1 Pro model weig",
-    "Reap, Meitu’s EveLab Insight explore AI beaut",
-    "AI sharpens cat-and-mouse hacking battle as c",
-    "Activists across Europe prepare two days of p",
-    "Nothing plans December launch for first AI-na",
-    "Moonshot AI Launches Kimi Hosted Agents as a ",
-    "UK found to be ‘dangerously’ reliant on China"
+    "Russia and US seek to block plan for binding ",
+    "Google sued over suicide-related AI chats on ",
+    "Meta pauses planned terms updates, keeps exis",
+    "Chinese AI lab Moonshot turned to Europe for ",
+    "Cashfree Launches ‘Checkout For Agents’ To En",
+    "Nigel Farage's exit from the Telegraph may be",
+    "China Unveils an AI Agent Identity Registry a",
+    "Cainiao Opens Its Global Warehouse Network as"
   ],
   "thumbnail": {
-    "date": "05 NOVEMBER 2026",
-    "headline": "CHINA BLOCKS SOFTBANK'S 5.4 BILLION DOLLARS",
+    "date": "06 NOVEMBER 2026",
+    "headline": "RUSSIA AND US SEEK TO BLOCK PLAN FOR BINDING",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "CHINA BLOCKS SOFTBANK'S 5.4 BILLION",
-      "GOOGLE UNVEILS 15 BILLION DOLLARS",
-      "META ACQUIRES AI CODING STARTUP",
-      "MOONSHOT AI RELEASES KIMI K3.1 PRO"
+      "RUSSIA AND US SEEK TO BLOCK PLAN",
+      "GOOGLE SUED OVER SUICIDE-RELATED AI",
+      "META PAUSES PLANNED TERMS UPDATES,",
+      "CHINESE AI LAB MOONSHOT TURNED TO"
     ]
   },
   "youtubeMetadata": {
-    "title": "China blocks SoftBank's 5.4 | Google unveils 15 billion dollars | Meta acquires AI coding startup | AI News 05 November 2026",
-    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 05 November 2026.",
+    "title": "Russia and US seek to block plan | Google sued over suicide-related | Meta pauses planned terms updates, | AI News 06 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 06 November 2026.",
     "tags": [
       "AI",
       "ArtificialIntelligence",

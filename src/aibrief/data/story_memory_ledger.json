@@ -1,217 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-11-05",
+  "last_updated": "2026-11-06",
   "stories": [
-    {
-      "story_id": "story_20261022_judge_dismisses_sam_altman_s_sister",
-      "story_chain_id": "chain_global_judge_dismisses_sam_",
-      "headline": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 86
-    },
-    {
-      "story_id": "story_20261022_new_prize_launches_for_books_co_wri",
-      "story_chain_id": "chain_global_new_prize_launches_f",
-      "headline": "New prize launches for books co-written with AI",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/books/2026/oct/21/new-prize-launches-books-co-written-with-ai-france"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 75
-    },
-    {
-      "story_id": "story_20261022_hugging_face_ceo_warns_that_netflix",
-      "story_chain_id": "chain_global_hugging_face_ceo_war",
-      "headline": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261022_conversational_gemini_navigation_co",
-      "story_chain_id": "chain_global_conversational_gemin",
-      "headline": "Conversational Gemini navigation comes to Apple CarPlay",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
-    {
-      "story_id": "story_20261022_in_china_an_ai_idol_s_maternity_lea",
-      "story_chain_id": "chain_global_in_china_an_ai_idol_",
-      "headline": "In China, an AI Idol’s ‘Maternity Leave’ Backfires on Her Creators",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://www.sixthtone.com/news/1019128/In"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 66
-    },
-    {
-      "story_id": "story_20261022_the_pentagon_lays_out_how_it_will_s",
-      "story_chain_id": "chain_global_the_pentagon_lays_ou",
-      "headline": "The Pentagon lays out how it will stand up an Autonomous Warfare Command",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.war.gov/News/Releases/Release/Article/4630269/department-of-wars-project-agincourt-accelerates-autonomous-warfare-command-to/"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261022_openai_s_models_and_codex_are_comin",
-      "story_chain_id": "chain_global_openai_s_models_and_",
-      "headline": "OpenAI's models and Codex are coming to Google Cloud",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://openai.com/index/openai-models-google-cloud"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261022_claude_designed_protein_binders_aga",
-      "story_chain_id": "chain_global_claude_designed_prot",
-      "headline": "Claude designed protein binders against scorpion neurotoxins",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261022_bytedance_alibaba_and_tencent_repor",
-      "story_chain_id": "chain_global_bytedance_alibaba_an",
-      "headline": "ByteDance, Alibaba and Tencent reportedly order 35 billion dollars + of Nvidia cards",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://www.business-standard.com/world-news/bytedance-alibaba-tencent-place-over-35-billion-in-nvidia-chip-orders-126102000828_1.html"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261022_korea_and_japan_hold_their_second_a",
-      "story_chain_id": "chain_global_korea_and_japan_hold",
-      "headline": "Korea and Japan hold their second AI working-level talks",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://www.ajupress.com/view/20261021170870187"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261022_principal_scientific_adviser_says_i",
-      "story_chain_id": "chain_global_principal_scientific",
-      "headline": "Principal Scientific Adviser says India is open to a dedicated AI law",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://www.ndtv.com/artificial-intelligence/india-to-bring-new-ai-law-what-top-government-adviser-ajay-kumar-sood-told-ndtv-12214525"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261022_sensetime_open_sources_a_robot_test",
-      "story_chain_id": "chain_global_sensetime_open_sourc",
-      "headline": "SenseTime open-sources a robot test harness and a 27B \"robot brain\"",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://pandaily.com/sensetime-sensenova-roborsi-open-source-embodied-ai-harness-27b-preview"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261022_korean_police_and_singapore_s_htx_s",
-      "story_chain_id": "chain_global_korean_police_and_si",
-      "headline": "Korean police and Singapore's HTX sign an AI and robotics policing pact",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://en.fnnews.com/news/202610202330595175"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261022_openai_will_train_government_staff_",
-      "story_chain_id": "chain_global_openai_will_train_go",
-      "headline": "OpenAI will train government staff through iGOT Karmayogi",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://timesofindia.indiatimes.com/india/openai-to-train-government-employees-in-ai-through-mission-karmayogi-platform/articleshow/135091390.cms"
-      ],
-      "first_covered": "2026-10-22",
-      "last_major_update": "2026-10-22",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
     {
       "story_id": "story_20261023_uk_working_to_identify_exposure_aft",
       "story_chain_id": "chain_global_uk_working_to_identi",
@@ -3181,6 +2971,171 @@
       "last_major_update": "2026-11-05",
       "update_phase": "initial_break",
       "impact_score": 67
+    },
+    {
+      "story_id": "story_20261105_china_blocks_softbank_s_5_4_billion",
+      "story_chain_id": "chain_global_china_blocks_softban",
+      "headline": "China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division: FT",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/china-blocks-softbanks-5-4-billion-takeover-of-abbs-robotics-division-ft/articleshow/135565365.cms"
+      ],
+      "first_covered": "2026-11-05",
+      "last_major_update": "2026-11-05",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261105_google_unveils_15_billion_dollars_d",
+      "story_chain_id": "chain_global_google_unveils_15_bi",
+      "headline": "Google unveils 15 billion dollars data centre investment in Malaysia",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/google-unveils-15-billion-data-centre-investment-in-malaysia/articleshow/135559941.cms"
+      ],
+      "first_covered": "2026-11-05",
+      "last_major_update": "2026-11-05",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261105_from_pixels_to_actions_towards_nati",
+      "story_chain_id": "chain_global_from_pixels_to_actio",
+      "headline": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.06918"
+      ],
+      "first_covered": "2026-11-05",
+      "last_major_update": "2026-11-05",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261106_russia_and_us_seek_to_block_plan_fo",
+      "story_chain_id": "chain_global_russia_and_us_seek_t",
+      "headline": "Russia and US seek to block plan for binding rules on autonomous weapons",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/world/2026/nov/06/autonomous-weapons-ai-russia-us-binding-rules"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261106_nigel_farage_s_exit_from_the_telegr",
+      "story_chain_id": "chain_global_nigel_farage_s_exit_",
+      "headline": "Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sobering side to this story | Jane Martinson",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/commentisfree/2026/nov/06/nigel-farage-telegraph-story-newspaper-ai"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261106_chinese_ai_lab_moonshot_turned_to_e",
+      "story_chain_id": "chain_global_chinese_ai_lab_moons",
+      "headline": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261106_google_sued_over_suicide_related_ai",
+      "story_chain_id": "chain_global_google_sued_over_sui",
+      "headline": "Google sued over suicide-related AI chats on school computer",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-sued-over-suicide-related-ai-chats-on-school-computer/articleshow/135591823.cms"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261106_meta_pauses_planned_terms_updates_k",
+      "story_chain_id": "chain_global_meta_pauses_planned_",
+      "headline": "Meta pauses planned terms updates, keeps existing rules in place",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/meta-pauses-planned-terms-updates-keeps-existing-rules-in-place/articleshow/135608532.cms"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261106_cashfree_launches_checkout_for_agen",
+      "story_chain_id": "chain_global_cashfree_launches_ch",
+      "headline": "Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://inc42.com/buzz/cashfree-launches-checkout-for-agents-to-enable-ai-led-payments/"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 70
+    },
+    {
+      "story_id": "story_20261106_china_unveils_an_ai_agent_identity_",
+      "story_chain_id": "chain_global_china_unveils_an_ai_",
+      "headline": "China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign Self-Discipline Pact",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/wuzhen-ai-agent-identity-registration-resolution-platform-self-discipline-convention"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 69
+    },
+    {
+      "story_id": "story_20261106_cainiao_opens_its_global_warehouse_",
+      "story_chain_id": "chain_global_cainiao_opens_its_gl",
+      "headline": "Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/cainiao-global-warehouse-network-embodied-ai-robot-training-tech-export-three-day-delivery"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 66
     }
   ],
   "entity_index": {}

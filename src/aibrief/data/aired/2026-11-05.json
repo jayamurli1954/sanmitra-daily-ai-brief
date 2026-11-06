@@ -1,0 +1,531 @@
+{
+  "weekly": false,
+  "date": "2026-11-05",
+  "formattedDate": "05 November 2026",
+  "title": "China blocks SoftBank's 5.4 | Google unveils 15 billion dollars | Meta acquires AI coding startup | AI News 05 November 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking today: China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division: FT. From the SanMitra Newsroom, this is the Daily AI Brief for 05 November 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_china_blocks_softbank_s_5_4_bill",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division: FT",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 99,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/china-blocks-softbanks-5-4-billion-takeover-of-abbs-robotics-division-ft/articleshow/135565365.cms",
+      "researchDesk": "",
+      "script": "Our lead story today. Softbank had agreed to buy ABB's robotics business in October last year, as CEO Masayoshi Son sought to establish SoftBank as a core player in the development of artificial intelligence.",
+      "whyThisMatters": "Softbank had agreed to buy ABB's robotics business in October last year, as CEO Masayoshi Son sought to establish SoftBank as a core player in the development of artificial intelligence.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division:",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s1_cut1.jpg",
+          "badge": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s1_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s1_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_google_unveils_15_billion_dollar",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google unveils 15 billion dollars data centre investment in Malaysia",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 95,
+      "durationSeconds": 27,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/google-unveils-15-billion-data-centre-investment-in-malaysia/articleshow/135559941.cms",
+      "researchDesk": "",
+      "script": "Turning to the United States. Google said on Wednesday it will spend 15 billion dollars in Malaysia on data centres and other infrastructure, according to The Economic Times. The company said the money will be invested over the next two years, from 2027 to 2028, as demand for artificial intelligence services surges. The new commitment builds on a 2 billion dollars investment Google announced in 2024.",
+      "whyThisMatters": "Google said on Wednesday it will spend $15 billion in Malaysia on data centres and other infrastructure, according to The Economic Times.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Google unveils 15 billion dollars data centre investment in Malaysia",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s2_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s2_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s2_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_meta_acquires_ai_coding_startup",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Meta acquires AI coding startup Conductor",
+      "subheadline": "Source: Tech in Asia",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/news/meta-acquires-ai-coding-startup-conductor",
+      "researchDesk": "",
+      "script": "In other news. Meta has bought Conductor, an AI coding startup founded in 2024, Tech in Asia reports. Meta confirmed the deal on November 4 as it broadens its AI coding tools.",
+      "whyThisMatters": "Meta has bought Conductor, an AI coding startup founded in 2024, Tech in Asia reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Meta acquires AI coding startup Conductor",
+        "Tech in Asia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s3_cut1.jpg",
+          "badge": "MENLO PARK • META HEADQUARTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s3_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s3_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_moonshot_ai_releases_kimi_k3_1_p",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Moonshot AI releases Kimi K3.1 Pro model weights",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 47,
+      "source": "TechNode",
+      "sourceUrl": "https://technode.com/2026/11/05/moonshot-ai-releases-kimi-k3-1-pro-model-weights/",
+      "researchDesk": "",
+      "script": "In China. Moonshot AI has published the weights of Kimi K3.1 Pro on Hugging Face, TechNode reports, so organisations can now run the company's flagship multimodal model on their own. The model uses a mixture-of-experts design, with 2.8 trillion parameters in total and roughly 104 billion active for each inference. It can handle a context window of about one million tokens. Compared with Kimi K3, the new version adds more reinforcement learning aimed at coding, 3D creation, financial research and lengthy agent tasks. The model was previously offered only through Kimi's apps and API. Huawei said it will support inference through vLLM Ascend and SGLang on its Atlas A3 and Ascend 950 systems.",
+      "whyThisMatters": "Moonshot AI has published the weights of Kimi K3.1 Pro on Hugging Face, TechNode reports, so organisations can now run the company's flagship multimodal model on their own.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Moonshot AI releases Kimi K3.1 Pro model weights",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s4_cut1.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s4_cut2.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s4_cut3.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_reap_meitu_s_evelab_insight_expl",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Reap, Meitu’s EveLab Insight explore AI beauty shopping",
+      "subheadline": "Source: Tech in Asia",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/news/reap-meitus-evelab-insight-explore-ai-beauty-shopping",
+      "researchDesk": "",
+      "script": "In Asia. Reap and Meitu's EveLab Insight are exploring AI-driven beauty shopping, Tech in Asia reports. Reap said its service lets AI agents make card payments within limits users have approved.",
+      "whyThisMatters": "Reap and Meitu's EveLab Insight are exploring AI-driven beauty shopping, Tech in Asia reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Reap, Meitu’s EveLab Insight explore AI beauty shopping",
+        "Tech in Asia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s5_cut1.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s5_cut2.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s5_cut3.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_ai_sharpens_cat_and_mouse_hackin",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "AI sharpens cat-and-mouse hacking battle as companies strengthen defences",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-sharpens-cat-and-mouse-hacking-battle-as-companies-strengthen-defences/articleshow/135561625.cms",
+      "researchDesk": "",
+      "script": "Turning to India. Companies around the world are confronting a surge of cyber threats that executives say artificial intelligence is speeding up, according to The Economic Times. Recent incidents range from hacked supermarket fridges to a record cryptocurrency theft at Binance and an emergency over flaws in popular web software.",
+      "whyThisMatters": "Companies around the world are confronting a surge of cyber threats that executives say artificial intelligence is speeding up, according to The Economic Times.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI sharpens cat-and-mouse hacking battle as companies strengthen defences",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s6_cut1.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s6_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s6_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_activists_across_europe_prepare",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Activists across Europe prepare two days of protests against datacentres",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 34,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/05/activists-across-europe-protests-ai-against-datacentres",
+      "researchDesk": "",
+      "script": "Around the world. Campaigners across Europe are getting ready for two days of demonstrations against datacentres, The Guardian reports. More than 100 groups in 15 countries are coordinating the action, which takes place on Friday and Saturday under the name Stop Dirty Data Centres. The groups want a halt to major artificial intelligence projects and are pressing for a moratorium on large datacentre developments. They point to environmental and social burdens, describing them as costs that \"we can no longer afford\".",
+      "whyThisMatters": "Campaigners across Europe are getting ready for two days of demonstrations against datacentres, The Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Activists across Europe prepare two days of protests against datacentres",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s7_cut1.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s7_cut2.jpg",
+          "badge": "TERRAIN SURVEY • RURAL INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s7_cut3.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_nothing_plans_december_launch_fo",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Nothing plans December launch for first AI-native device",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 41,
+      "source": "TechNode",
+      "sourceUrl": "https://technode.com/2026/11/05/nothing-plans-december-launch-for-first-ai-native-device/",
+      "researchDesk": "",
+      "script": "In China. Nothing will release its first AI-native hardware product in December, founder and chief executive Carl Pei said on November 4, according to TechNode. Pei called the device a screenless productivity tool and said an app on its own could not have provided what it does. In an essay called Toolmakers, he argued that AI tools miss much of the context around people's work, such as conversations and ideas that never get typed into a chatbot. He suggested ordinary hardware could help fill that gap. The company has not revealed the device's exact form, specifications or price.",
+      "whyThisMatters": "Nothing will release its first AI-native hardware product in December, founder and chief executive Carl Pei said on November 4, according to TechNode.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nothing plans December launch for first AI-native device",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s8_cut1.jpg",
+          "badge": "DECEMBER • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s8_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s8_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE • CUT 3",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_moonshot_ai_launches_kimi_hosted",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Moonshot AI Launches Kimi Hosted Agents as a Managed Agent-Harness Cloud Service",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/moonshot-ai-kimi-hosted-agents-harness-as-a-service-sandbox-inference-hook",
+      "researchDesk": "",
+      "script": "Elsewhere. Moonshot AI has launched Kimi Hosted Agents, a managed cloud service that runs AI agents around the clock, Pandaily reports. It includes sandboxes, audit trails, an Inference Hook and eight finance templates, sparing teams from hosting the runtime themselves.",
+      "whyThisMatters": "Moonshot AI has launched Kimi Hosted Agents, a managed cloud service that runs AI agents around the clock, Pandaily reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Moonshot AI Launches Kimi Hosted Agents as a Managed Agent-Harness Cloud Service",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s9_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s9_cut2.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s9_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_uk_found_to_be_dangerously_relia",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 38,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
+      "researchDesk": "",
+      "script": "Also today. A parliamentary inquiry has concluded that Britain relies on China to a dangerous degree for critical raw materials, The Guardian reports. Members of the business select committee said these materials are essential for the military, renewable energy infrastructure and artificial intelligence, and warned that reaching net zero is also under threat. The MPs urged an urgent, centralised policy. They also proposed a critical minerals finance facility to help pay for rare earth and other critical mineral mines, using grants, equity and debt to speed up efforts to diversify supply.",
+      "whyThisMatters": "A parliamentary inquiry has concluded that Britain relies on China to a dangerous degree for critical raw materials, The Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "UK found to be ‘dangerously’ reliant on China for critical minerals needed for d",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s10_cut1.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s10_cut2.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s10_cut3.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s11_from_pixels_to_actions_towards_n",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 46,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.06918",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. Researchers are rethinking how robots turn sight into movement in a paper titled From Pixels to Actions, Towards Native Vision-Language-Action Policies. These models combine camera images, written instructions and physical actions. Usually a separate visual encoder first condenses an image into a summary, and only then does the system reason about what to do. The researchers argue this can discard the details that handling objects depends on, such as edges, depth, shape and small changes. Their system, NEO-VLA, drops the separate encoder. Light processing layers break images into pieces that are handled together with language, letting the action component draw on visual information at several stages.",
+      "whyThisMatters": "Researchers are rethinking how robots turn sight into movement in a paper titled From Pixels to Actions, Towards Native Vision-Language-Action Policies.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s11_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s11_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION • CUT 2",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-05/s11_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division: FT. Google unveils 15 billion dollars data centre investment in Malaysia. Meta acquires AI coding startup Conductor. Moonshot AI releases Kimi K3.1 Pro model weights. Reap, Meitu’s EveLab Insight explore AI beauty shopping. AI sharpens cat-and-mouse hacking battle as companies strengthen defences.",
+    "items": [
+      "✓ China blocks SoftBank's 5.4 billion dollars take",
+      "✓ Google unveils 15 billion dollars data centre in",
+      "✓ Meta acquires AI coding startup Conductor",
+      "✓ Moonshot AI releases Kimi K3.1 Pro model weights",
+      "✓ Reap, Meitu’s EveLab Insight explore AI beauty s",
+      "✓ AI sharpens cat-and-mouse hacking battle as comp",
+      "✓ Activists across Europe prepare two days of prot"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "China blocks SoftBank's 5.4 billion dollars t",
+    "Google unveils 15 billion dollars data centre",
+    "Meta acquires AI coding startup Conductor",
+    "Moonshot AI releases Kimi K3.1 Pro model weig",
+    "Reap, Meitu’s EveLab Insight explore AI beaut",
+    "AI sharpens cat-and-mouse hacking battle as c",
+    "Activists across Europe prepare two days of p",
+    "Nothing plans December launch for first AI-na",
+    "Moonshot AI Launches Kimi Hosted Agents as a ",
+    "UK found to be ‘dangerously’ reliant on China",
+    "From Pixels to Actions - Towards Native Visio"
+  ],
+  "thumbnail": {
+    "date": "05 NOVEMBER 2026",
+    "headline": "CHINA BLOCKS SOFTBANK'S 5.4 BILLION DOLLARS",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "CHINA BLOCKS SOFTBANK'S 5.4 BILLION",
+      "GOOGLE UNVEILS 15 BILLION DOLLARS",
+      "META ACQUIRES AI CODING STARTUP",
+      "MOONSHOT AI RELEASES KIMI K3.1 PRO"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "China blocks SoftBank's 5.4 | Google unveils 15 billion dollars | Meta acquires AI coding startup | AI News 05 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 05 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}
