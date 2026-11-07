@@ -79,6 +79,10 @@ jobs:
           PRIVACY_SETTING: ${{ github.event.inputs.privacy || 'private' }}
           PROMPT_FILE: ${{ github.event.inputs.prompt_file }}
           GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+          # Edge TTS refuses GitHub runners; the official Azure endpoint serves the same voices.
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+          TTS_ENGINE: azure
         run: |
           # Never fall back to an older prompt: that re-publishes old news.
           TODAY=$(TZ=Asia/Kolkata date +%Y-%m-%d)
