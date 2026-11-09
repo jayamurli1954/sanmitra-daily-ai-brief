@@ -1,0 +1,486 @@
+{
+  "weekly": false,
+  "date": "2026-11-07",
+  "formattedDate": "07 November 2026",
+  "title": "Hundreds of Artex AI hacking tools | Activists break into building site | Crusoe sells troubled Wyoming data | AI News 07 November 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking today: Hundreds of Artex AI hacking tools found publicly exposed to the web. From the SanMitra Newsroom, this is the Daily AI Brief for 07 November 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_hundreds_of_artex_ai_hacking_too",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 99,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "researchDesk": "",
+      "script": "Our lead story today. Hundreds of servers running Artex, a penetration testing tool, were left open on the internet, letting anyone reach the hacking tool, TechCrunch reports, citing security researchers.",
+      "whyThisMatters": "Hundreds of servers running Artex, a penetration testing tool, were left open on the internet, letting anyone reach the hacking tool, TechCrunch reports, citing security researchers.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s1_cut1.jpg",
+          "badge": "ARTEX • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s1_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s1_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_activists_break_into_building_si",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Activists break into building site of Microsoft datacentre in Amsterdam",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 95,
+      "durationSeconds": 32,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/06/activists-break-into-building-site-of-microsoft-datacentre-in-amsterdam",
+      "researchDesk": "",
+      "script": "Also today. Activists have forced their way into the construction site of a Microsoft datacentre in Amsterdam, the Guardian reports. Members of Geef Tegengas, a Dutch direct action group, scuffled with police as they entered the Westpoort site. Some climbed a crane, set off flares and attached helium balloons to machinery. Other protests took place outside the fence and in other parts of Europe, part of growing opposition to the social and environmental toll of the AI boom.",
+      "whyThisMatters": "Activists have forced their way into the construction site of a Microsoft datacentre in Amsterdam, the Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Activists break into building site of Microsoft datacentre in Amsterdam",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s2_cut1.jpg",
+          "badge": "REDMOND • MICROSOFT REDMOND CAMPUS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s2_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s2_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_crusoe_sells_troubled_wyoming_da",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Crusoe sells troubled Wyoming data center project to Google",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 52,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "researchDesk": "",
+      "script": "In other news. Crusoe, the Denver-based data center developer recently valued at 30.9 billion dollars, confirmed on Friday it has sold an unfinished project in southeastern Wyoming to Google, TechCrunch reports. Crusoe had previously tried without success to sign Google as a customer for the site, and Google reportedly voiced worries about costs and timelines under Crusoe's management. Crusoe first announced the project last year alongside Tallgrass, an infrastructure firm backed by Blackstone, with ambitions to reach 10 gigawatts of capacity. Google did not reveal the purchase price but said it plans to invest 17 billion dollars building out the campus. The sale underscores the struggle independent developers face in completing huge projects on schedule and on budget, amid difficulties obtaining equipment and power.",
+      "whyThisMatters": "Crusoe, the Denver-based data center developer recently valued at 30.9 billion dollars, confirmed on Friday it has sold an unfinished project in southeastern Wyoming to Google, TechCrunch reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Crusoe sells troubled Wyoming data center project to Google",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s3_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s3_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s3_cut3.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_huawei_releases_standalone_harmo",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Huawei Releases Standalone HarmonyOS PC Assistant With Office Task Automation",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/huawei-harmonyos-pc-standalone-assistant-work-office-agent-release",
+      "researchDesk": "",
+      "script": "In China. Huawei has released a standalone HarmonyOS PC assistant featuring an office agent that can run in the cloud or locally, hand off tasks from a phone, and bill through AI-point memberships, Pandaily reports.",
+      "whyThisMatters": "Huawei has released a standalone HarmonyOS PC assistant featuring an office agent that can run in the cloud or locally, hand off tasks from a phone, and bill through AI-point memberships, Pandaily reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Huawei Releases Standalone HarmonyOS PC Assistant With Office Task Automation",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s4_cut1.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s4_cut2.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s4_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_usda_to_launch_ai_tool_to_check",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "USDA to launch AI tool to check crop production data after errors",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/usda-to-launch-ai-tool-to-check-crop-production-data-after-errors/articleshow/135626006.cms",
+      "researchDesk": "",
+      "script": "Turning to India. The US Department of Agriculture will apply an AI tool to its crop production report due on November 10, according to The Economic Times. Under Secretary Scott Hutchins said officials concluded the tool would have caught mistakes found in the department's September corn figures.",
+      "whyThisMatters": "The US Department of Agriculture will apply an AI tool to its crop production report due on November 10, according to The Economic Times.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "USDA to launch AI tool to check crop production data after errors",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s5_cut1.jpg",
+          "badge": "UNITED STATES DEPARTMENT OF AGRICULTURE • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s5_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s5_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_three_men_charged_in_us_with_usi",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Three men charged in US with using AI to impersonate CEOs and steal millions",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 42,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft",
+      "researchDesk": "",
+      "script": "Around the world. Three foreign nationals have been arrested and charged in the United States with allegedly using artificial intelligence to pose as company chief executives and lawyers, stealing more than 100 million dollars, the Guardian reports. An indictment unsealed by the Justice Department names Jacob Soall, Sharon Hazan and Guy Sheetrit. Prosecutors in the southern district of New York say the men manipulated the voices and images of executives and attorneys at several firms, persuading staff to transfer large sums. Soall and Hazan were detained in Spain over the summer, and Sheetrit was arrested in the United Kingdom in September.",
+      "whyThisMatters": "Three foreign nationals have been arrested and charged in the United States with allegedly using artificial intelligence to pose as company chief executives and lawyers, stealing more than 100 million dollars, the Guardi",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Three men charged in US with using AI to impersonate CEOs and steal millions",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s6_cut1.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s6_cut2.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s6_cut3.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_lanarkshire_ai_datacentre_to_ful",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Lanarkshire AI datacentre to fully rely on National Grid despite renewables claim",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 48,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/nov/07/lanarkshire-ai-datacentre-datavita-chapelhall-national-grid-renewable-energy",
+      "researchDesk": "",
+      "script": "In other news. DataVita, the company behind a major AI datacentre project near Glasgow, has conceded the development will run entirely on power from the National Grid, despite earlier promises of renewable supply, the Guardian reports. The firm, seen as central to Britain's AI strategy, had pledged that the Lanarkshire scheme would take 1GW from green sources, comparable to a small nuclear reactor or the country's largest windfarm. When questioned by the Guardian, DataVita said the arrangement depended on commercial agreements, planning, grid and consent processes. It has since quietly changed the plan, now describing the site, near Chapelhall outside Airdrie, as fully grid served. It says solar and wind farms might be connected later.",
+      "whyThisMatters": "DataVita, the company behind a major AI datacentre project near Glasgow, has conceded the development will run entirely on power from the National Grid, despite earlier promises of renewable supply, the Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Lanarkshire AI datacentre to fully rely on National Grid despite renewables clai",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s7_cut1.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s7_cut2.jpg",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s7_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_tech_companies_face_mounting_chi",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Tech companies face mounting child safety lawsuits while pushing AI into schools",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 49,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
+      "researchDesk": "",
+      "script": "Turning to the United States. Technology companies are facing a growing wave of child safety litigation even as they push artificial intelligence into classrooms, CNBC reports. Snap has reached a confidential settlement in a case alleging its technology caused serious psychological harm to two teenagers, after Meta, TikTok and YouTube earlier settled with the same plaintiffs. This week, Google was sued by parents who say their child experienced a psychological crisis after conversations with the Gemini chatbot inside Google Classroom. The concerns are mounting as AI firms chase trillion-dollar valuations and large internet companies spend heavily on advanced models for schools. Developmental psychologist Kate Blocker said engagement-driven features can harm users, calling for \"broader systemic changes in tech design.\"",
+      "whyThisMatters": "Technology companies are facing a growing wave of child safety litigation even as they push artificial intelligence into classrooms, CNBC reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Tech companies face mounting child safety lawsuits while pushing AI into schools",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s8_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s8_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s8_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_unitree_and_star_plus_legend_lau",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Unitree and Star Plus Legend Launch Limited-Edition UNI-DOGGIE Robot at 43,900 Yuan",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/unitree-star-plus-legend-uni-doggie-collectible-robot-dog",
+      "researchDesk": "",
+      "script": "In China. UNI-DOGGIE debuts at CIIE with a 2,000-unit worldwide limit. Launch reports say distributor ADATA purchased 1,000 units; that is not verified consumer sell-through.",
+      "whyThisMatters": "UNI-DOGGIE debuts at CIIE with a 2,000-unit worldwide limit.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Unitree and Star Plus Legend Launch Limited-Edition UNI-DOGGIE Robot at 43,900 Y",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s9_cut1.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s9_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s9_cut3.jpg",
+          "badge": "SEMICONDUCTOR WAFER • ADVANCED PACKAGING",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_deep_robotics_launches_x50_quadr",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "DEEP Robotics Launches X50 Quadruped With a Claimed 50-Kilogram Working Payload",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/deep-robotics-x50-heavy-duty-quadruped-50kg-payload-inspection-firefighting",
+      "researchDesk": "",
+      "script": "Also today. DEEP Robotics has launched its X50 four-legged robot, which the company says can haul 50 kilograms at 3 metres per second over more than two kilometres, aimed at industrial inspection, equipment transport and emergency work, Pandaily reports.",
+      "whyThisMatters": "DEEP Robotics has launched its X50 four-legged robot, which the company says can haul 50 kilograms at 3 metres per second over more than two kilometres, aimed at industrial inspection, equipment transport and emergency w",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "DEEP Robotics Launches X50 Quadruped With a Claimed 50-Kilogram Working Payload",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s10_cut1.jpg",
+          "badge": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s10_cut2.jpg",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-07/s10_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 3",
+          "panDirection": "zoomIn"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. Hundreds of Artex AI hacking tools found publicly exposed to the web. Activists break into building site of Microsoft datacentre in Amsterdam. Crusoe sells troubled Wyoming data center project to Google. Huawei Releases Standalone HarmonyOS PC Assistant With Office Task Automation. USDA to launch AI tool to check crop production data after errors. Three men charged in US with using AI to impersonate CEOs and steal millions.",
+    "items": [
+      "✓ Hundreds of Artex AI hacking tools found publicl",
+      "✓ Activists break into building site of Microsoft ",
+      "✓ Crusoe sells troubled Wyoming data center projec",
+      "✓ Huawei Releases Standalone HarmonyOS PC Assistan",
+      "✓ USDA to launch AI tool to check crop production ",
+      "✓ Three men charged in US with using AI to imperso",
+      "✓ Lanarkshire AI datacentre to fully rely on Natio"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Hundreds of Artex AI hacking tools found publ",
+    "Activists break into building site of Microso",
+    "Crusoe sells troubled Wyoming data center pro",
+    "Huawei Releases Standalone HarmonyOS PC Assis",
+    "USDA to launch AI tool to check crop producti",
+    "Three men charged in US with using AI to impe",
+    "Lanarkshire AI datacentre to fully rely on Na",
+    "Tech companies face mounting child safety law",
+    "Unitree and Star Plus Legend Launch Limited-E",
+    "DEEP Robotics Launches X50 Quadruped With a C"
+  ],
+  "thumbnail": {
+    "date": "07 NOVEMBER 2026",
+    "headline": "HUNDREDS OF ARTEX AI HACKING TOOLS FOUND",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "HUNDREDS OF ARTEX AI HACKING TOOLS",
+      "ACTIVISTS BREAK INTO BUILDING SITE",
+      "CRUSOE SELLS TROUBLED WYOMING DATA",
+      "HUAWEI RELEASES STANDALONE"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Hundreds of Artex AI hacking tools | Activists break into building site | Crusoe sells troubled Wyoming data | AI News 07 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 07 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

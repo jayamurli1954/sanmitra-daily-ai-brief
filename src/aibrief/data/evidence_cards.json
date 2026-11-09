@@ -1,111 +1,103 @@
 {
-  "s1_china_blocks_softbank_s_5_4_bill": [
-    {
-      "type": "name",
-      "name": "MASAYOSHI SON",
-      "role": "Chief executive",
-      "start": 7.2,
-      "end": 11.2
-    }
-  ],
-  "s2_google_unveils_15_billion_dollar": [
-    {
-      "type": "reported",
-      "text": "Google said on Wednesday it will spend 15 billion dollars in Malaysia on data centres and other infrastructure, according to The Economic Times.",
-      "highlight": "Wednesday it will spend 15 billion dollars in Malaysia on data centres and other infrastructure, according to The Economic Times",
-      "source": "The Economic Times",
-      "start": 2.38,
-      "end": 7.88
-    },
-    {
-      "type": "stat",
-      "shown": "$2 BILLION",
-      "label": "investment Google announced in 2024",
-      "start": 23.08,
-      "end": 27.2
-    }
-  ],
-  "s3_meta_acquires_ai_coding_startup": [],
-  "s4_moonshot_ai_releases_kimi_k3_1_p": [
-    {
-      "type": "reported",
-      "text": "Moonshot AI has published the weights of Kimi K3.1 Pro on Hugging Face, TechNode reports, so organisations can now run the company's flagship multimodal model on their own.",
-      "highlight": "the weights of Kimi K3.1 Pro on Hugging Face, TechNode reports, so organisations can now run the company's flagship multimodal model on their own",
-      "source": "TechNode",
-      "start": 2.0,
-      "end": 7.5
-    },
-    {
-      "type": "stat",
-      "shown": "2.8 TRILLION",
-      "label": "parameters in total",
-      "start": 16.28,
-      "end": 21.78
-    },
-    {
-      "type": "reported",
-      "text": "Huawei said it will support inference through vLLM Ascend and SGLang on its Atlas A3 and Ascend 950 systems.",
-      "highlight": "it will support inference through vLLM Ascend and SGLang on its Atlas A3 and Ascend 950 systems",
-      "source": "TechNode",
-      "start": 41.94,
-      "end": 47.44
-    }
-  ],
-  "s5_reap_meitu_s_evelab_insight_expl": [
-    {
-      "type": "reported",
-      "text": "Reap said its service lets AI agents make card payments within limits users have approved.",
-      "highlight": "its service lets AI agents make card payments within limits users have approved",
-      "source": "Tech in Asia",
-      "start": 7.72,
-      "end": 13.22
-    }
-  ],
-  "s6_ai_sharpens_cat_and_mouse_hackin": [],
-  "s7_activists_across_europe_prepare": [
+  "s1_cainiao_opens_its_global_warehou": [
     {
       "type": "stat",
       "shown": "100+",
-      "label": "groups in 15 countries are coordinating the…",
-      "start": 9.26,
-      "end": 14.76
+      "label": "test scenarios",
+      "start": 9.34,
+      "end": 14.84
     }
   ],
-  "s8_nothing_plans_december_launch_fo": [
+  "s2_megaspeed_exec_was_recruited_to": [
+    {
+      "type": "dateline",
+      "place": "SINGAPORE",
+      "date": null,
+      "start": 0.4,
+      "end": 4.5
+    },
     {
       "type": "name",
-      "name": "CARL PEI",
-      "role": "Chief executive",
-      "start": 6.76,
-      "end": 10.76
+      "name": "JENSEN HUANG",
+      "role": "Chief executive, Nvidia",
+      "start": 11.68,
+      "end": 15.68
     },
     {
       "type": "reported",
-      "text": "Nothing will release its first AI-native hardware product in December, founder and chief executive Carl Pei said on November 4, according to TechNode.",
-      "highlight": "November 4, according to TechNode",
-      "source": "TechNode",
+      "text": "A memo that circulated earlier this year claimed that China's Ministry of State Security recruited technology executive Alice Huang to spy on Nvidia chief executive Jensen Huang, TechCrunch reports, citing several media outlets.",
+      "highlight": "China's Ministry of State Security recruited technology executive Alice Huang to spy on Nvidia chief executive Jensen Huang, TechCrunch reports, citing several media outlets",
+      "source": "TechCrunch",
+      "start": 2.46,
+      "end": 7.96
+    },
+    {
+      "type": "reported",
+      "text": "The paper had already reported that Nvidia's CEO was a target of Chinese intelligence.",
+      "highlight": "Nvidia's CEO was a target of Chinese intelligence",
+      "source": "TechCrunch",
+      "start": 22.62,
+      "end": 28.12
+    }
+  ],
+  "s3_amazon_s_astro_home_robot_has_fa": [
+    {
+      "type": "reported",
+      "text": "He told Amazon's senior device executives to build one, and within a few years the team came up with Astro, priced at 1,450. trillion dollars he robot is essentially a tablet on wheels running Alexa.",
+      "highlight": "Amazon's senior device executives to build one",
+      "source": "CNBC",
+      "start": 20.96,
+      "end": 26.46
+    }
+  ],
+  "s4_chinese_ai_lab_moonshot_turned_t": [],
+  "s5_india_flags_chinese_linked_ai_to": [],
+  "s6_ai_clog_uk_public_bodies_battle": [
+    {
+      "type": "reported",
+      "text": "She says these messages began arriving slowly in 2024 and have since become overwhelming.",
+      "highlight": "these messages began arriving slowly in 2024 and have since become overwhelming",
+      "source": "The Guardian",
+      "start": 13.86,
+      "end": 19.36
+    },
+    {
+      "type": "quote",
+      "text": "It is definitely more taxing,",
+      "speaker": null,
+      "source": "The Guardian",
+      "start": 33.56,
+      "end": 39.06
+    }
+  ],
+  "s7_china_merchants_lionrock_ai_lab": [
+    {
+      "type": "reported",
+      "text": "LionRock AI Lab, part of China Merchants, has released Lion-ER-35B-A3B as open source, Pandaily reports.",
+      "highlight": "Lion-ER-35B-A3B as open source, Pandaily reports",
+      "source": "Pandaily",
       "start": 2.0,
       "end": 7.5
     },
     {
-      "type": "reported",
-      "text": "In an essay called Toolmakers, he argued that AI tools miss much of the context around people's work, such as conversations and ideas that never get typed into a chatbot.",
-      "highlight": "AI tools miss much of the context around people's work, such as conversations and ideas that never get typed into a chatbot",
-      "source": "TechNode",
-      "start": 17.58,
-      "end": 23.08
+      "type": "stat",
+      "shown": "3 BILLION",
+      "label": "active parameters",
+      "start": 11.12,
+      "end": 16.62
     }
   ],
-  "s9_moonshot_ai_launches_kimi_hosted": [],
-  "s10_uk_found_to_be_dangerously_relia": [
+  "s8_china_unveils_an_ai_agent_identi": [],
+  "s9_moxin_technology_launches_moworl": [],
+  "s10_cashfree_launches_checkout_for_a": [],
+  "s11_advances_in_agentic_computer_gra": [
     {
       "type": "reported",
-      "text": "Members of the business select committee said these materials are essential for the military, renewable energy infrastructure and artificial intelligence, and warned that reaching net zero is also under threat.",
-      "highlight": "these materials are essential for the military, renewable energy infrastructure and artificial intelligence",
-      "source": "The Guardian",
-      "start": 10.22,
-      "end": 15.72
+      "text": "They also built their own agent-based tool to help human researchers analyse large numbers of older and newly released papers.",
+      "highlight": null,
+      "source": "arXiv",
+      "start": 87.66,
+      "end": 93.16
     }
-  ],
-  "s11_from_pixels_to_actions_towards_n": []
+  ]
 }

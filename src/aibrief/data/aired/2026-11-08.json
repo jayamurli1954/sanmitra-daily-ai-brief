@@ -1,0 +1,531 @@
+{
+  "weekly": true,
+  "date": "2026-11-08",
+  "formattedDate": "08 November 2026",
+  "title": "This Week in AI | Cainiao Opens Its Global Warehouse | Megaspeed exec was recruited to | Amazon's Astro home robot has fans | Weekly Round-up 08 November 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "This week in AI, the stories you may have missed: Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI. From the SanMitra Newsroom, this is the Weekly AI Round-up for the week ending 08 November 2026: important developments that did not make our daily briefs."
+  },
+  "transitions": [
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_cainiao_opens_its_global_warehou",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 99,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/cainiao-global-warehouse-network-embodied-ai-robot-training-tech-export-three-day-delivery",
+      "researchDesk": "",
+      "script": "Our lead story today. Cainiao is opening its warehouses around the world to artificial intelligence and robotics companies as real-world training sites, with more than 100 test scenarios, Pandaily reports. The company has also launched a service that ships tech hardware overseas within three days.",
+      "whyThisMatters": "Cainiao is opening its warehouses around the world to artificial intelligence and robotics companies as real-world training sites, with more than 100 test scenarios, Pandaily reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for E",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s1_cut1.jpg",
+          "badge": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s1_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s1_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_megaspeed_exec_was_recruited_to",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 57,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "researchDesk": "",
+      "script": "Turning to the United States. A memo that circulated earlier this year claimed that China's Ministry of State Security recruited technology executive Alice Huang to spy on Nvidia chief executive Jensen Huang, TechCrunch reports, citing several media outlets. The New York Times first revealed the memo, which was reportedly based on US intelligence. The paper had already reported that Nvidia's CEO was a target of Chinese intelligence. The Financial Times later reported that the memo also alleged a romantic relationship between Jensen Huang and Alice Huang, an executive at Megaspeed, a company based in Singapore. An Nvidia spokesperson told the Times that Jensen Huang's dealings with Alice Huang were \"not unusual.\" The spokesperson added that Nvidia does not pass classified information to its customers. In a separate report, the Times examined New Matrix, a Chinese company.",
+      "whyThisMatters": "A memo that circulated earlier this year claimed that China's Ministry of State Security recruited technology executive Alice Huang to spy on Nvidia chief executive Jensen Huang, TechCrunch reports, citing several media ",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence ",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s2_cut1.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s2_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s2_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_amazon_s_astro_home_robot_has_fa",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 95,
+      "durationSeconds": 59,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/08/amazon-home-robot-fauna-sprout.html",
+      "researchDesk": "",
+      "script": "In other news. Amazon is trying again with its Astro home robot, even though there are signs the original may be headed for the scrap pile, CNBC reports. Bezos, the company's founder and then chief executive, is a fan of science fiction and robotics. He believed homes would soon have robots of their own. He told Amazon's senior device executives to build one, and within a few years the team came up with Astro, priced at 1,450. trillion dollars he robot is essentially a tablet on wheels running Alexa. It can move around a home by itself, recognize faces and act as a mobile security monitor. It was first shown to the public on stage at Amazon's fall 2021 event. But Astro stayed invitation-only and reached just a few thousand customers, some of whom now expect it won't last much longer.",
+      "whyThisMatters": "Amazon is trying again with its Astro home robot, even though there are signs the original may be headed for the scrap pile, CNBC reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why ",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s3_cut1.jpg",
+          "badge": "AMAZON (COMPANY) • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s3_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s3_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_chinese_ai_lab_moonshot_turned_t",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
+      "researchDesk": "",
+      "script": "In China. Chinese artificial intelligence lab Moonshot AI has tried to rent advanced Nvidia Blackwell chips from European neocloud providers, CNBC reports. US export controls restrict bringing such chips into China.",
+      "whyThisMatters": "Chinese artificial intelligence lab Moonshot AI has tried to rent advanced Nvidia Blackwell chips from European neocloud providers, CNBC reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. C",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s4_cut1.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s4_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s4_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_india_flags_chinese_linked_ai_to",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "India flags Chinese-linked AI tools in hacking campaign against financial firms",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/india-flags-chinese-linked-ai-tools-in-hacking-campaign-against-financial-firms/articleshow/135566096.cms",
+      "researchDesk": "",
+      "script": "Turning to India. India's cybersecurity agency has identified the hacking group behind a string of AI-driven attacks on financial companies, according to The Economic Times. The agency also named the group's tools, at least two of which have links to China. India joins a growing number of countries raising concerns about such activity.",
+      "whyThisMatters": "India's cybersecurity agency has identified the hacking group behind a string of AI-driven attacks on financial companies, according to The Economic Times.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "India flags Chinese-linked AI tools in hacking campaign against financial firms",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s5_cut1.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s5_cut2.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s5_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_ai_clog_uk_public_bodies_battle",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 56,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence",
+      "researchDesk": "",
+      "script": "Around the world. The Guardian reports that public bodies in the UK are struggling with a growing flood of complaints and letters written by AI chatbots. Hollie Wickens is a senior caseworker for a Labour MP. She says these messages began arriving slowly in 2024 and have since become overwhelming. By her estimate, about half of the emails her office gets now involve AI in some way. She has ten years in the job, but she says the trend has made requests and complaints harder and slower to read and handle. \"It is definitely more taxing,\" she said. Earlier this decade, applying for a job, making a complaint or objecting to a local planning proposal took real effort. People often had to do research, fill in forms, write formally and draw on specialist knowledge.",
+      "whyThisMatters": "The Guardian reports that public bodies in the UK are struggling with a growing flood of complaints and letters written by AI chatbots.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s6_cut1.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s6_cut2.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s6_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_china_merchants_lionrock_ai_lab",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "China Merchants' LionRock AI Lab Open-Sources Lion-ER-35B-A3B Embodied Reasoning Model",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/china-merchants-lionrock-ai-lab-lion-er-35b-a3b-embodied-reasoning-model-open-source",
+      "researchDesk": "",
+      "script": "In China. LionRock AI Lab, part of China Merchants, has released Lion-ER-35B-A3B as open source, Pandaily reports. The embodied reasoning model has 3 billion active parameters and was built with a capability-driven data engine. It beat its base model on ten benchmarks.",
+      "whyThisMatters": "LionRock AI Lab, part of China Merchants, has released Lion-ER-35B-A3B as open source, Pandaily reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "China Merchants' LionRock AI Lab Open-Sources Lion-ER-35B-A3B Embodied Reasoning",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s7_cut1.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s7_cut2.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s7_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_china_unveils_an_ai_agent_identi",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign Self-Discipline Pact",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/wuzhen-ai-agent-identity-registration-resolution-platform-self-discipline-convention",
+      "researchDesk": "",
+      "script": "Next. A new platform for registering and verifying the identities of AI agents has been launched at Wuzhen, Pandaily reports. Separately, 20 organizations, including Huawei, Alibaba and Tencent, signed a voluntary pact on how agents should behave.",
+      "whyThisMatters": "A new platform for registering and verifying the identities of AI agents has been launched at Wuzhen, Pandaily reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign S",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s8_cut1.jpg",
+          "badge": "WUZHEN • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s8_cut2.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s8_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_moxin_technology_launches_moworl",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Moxin Technology Launches MoWorld 2.0, an Ascend-Native 4D World Model That Simulates Physics",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/moxin-technology-moworld-2-0-ascend-native-4d-world-model-physics-gaussian-assets",
+      "researchDesk": "",
+      "script": "Elsewhere. Moxin Technology has launched MoWorld 2.0, a 4D world model that simulates gravity, elasticity and fluids in Gaussian scenes, Pandaily reports. It runs video inference at about 70 frames per second and is both trained and deployed on Huawei Ascend.",
+      "whyThisMatters": "Moxin Technology has launched MoWorld 2.0, a 4D world model that simulates gravity, elasticity and fluids in Gaussian scenes, Pandaily reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Moxin Technology Launches MoWorld 2.0, an Ascend-Native 4D World Model That Simu",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s9_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s9_cut2.jpg",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s9_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 3",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_cashfree_launches_checkout_for_a",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments",
+      "subheadline": "Source: Inc42",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Inc42",
+      "sourceUrl": "https://inc42.com/buzz/cashfree-launches-checkout-for-agents-to-enable-ai-led-payments/",
+      "researchDesk": "",
+      "script": "Turning to India. Cashfree Payments, a fintech start-up seen as close to a billion-dollar valuation, has launched a product called Checkout for Agents, Inc42 reports. It lets AI agents handle customer payments.",
+      "whyThisMatters": "Cashfree Payments, a fintech start-up seen as close to a billion-dollar valuation, has launched a product called Checkout for Agents, Inc42 reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments",
+        "Inc42"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s10_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s10_cut2.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s10_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION • CUT 3",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s11_advances_in_agentic_computer_gra",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Advances in Agentic Computer Graphics",
+      "subheadline": "Source: arXiv",
+      "importanceScore": 90,
+      "durationSeconds": 120,
+      "source": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2611.01860",
+      "researchDesk": "Research of the Week",
+      "script": "And now, our research story of the week. This week's research highlight is a survey titled Advances in Agentic Computer Graphics. It looks at how AI systems built on large language models, the technology behind today's chatbots, are starting to take on work in computer graphics. In graphics, software code sets out the steps for creating and changing images. These language models have become good at writing code, reasoning and using software tools, so they can now work as what are called agents. An agent writes graphics code, runs it in a graphics program, checks the result and uses that feedback to improve its next attempt. The researchers call these agentic graphics systems. Such systems have already done well at building and repeatedly editing 3D objects, animating objects with moving joints, and putting together moving scenes that simulate solid bodies and fluids. For example, a user no longer has to hand-tune the shader programs that control how a surface looks. Instead, they can guide an agent's changes with a short written instruction and, if they like, a reference picture. The researchers say the field is growing so fast that reviewing the research by hand cannot keep up. Different research areas also often use different words for the same ideas. To fix this, they propose one shared system for classifying agentic tools across graphics tasks. They also built their own agent-based tool to help human researchers analyse large numbers of older and newly released papers. With these, they map new trends and point to open problems. These include coordinating several agents and tools, designing ways for people and agents to work together, keeping up long-term planning and refinement, and finding dependable ways to evaluate interactive graphics systems.",
+      "whyThisMatters": "This week's research highlight is a survey titled Advances in Agentic Computer Graphics.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Advances in Agentic Computer Graphics",
+        "arXiv"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s11_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s11_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION • CUT 2",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-08/s11_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap this week's top stories. Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI. Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo. Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again. Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC. India flags Chinese-linked AI tools in hacking campaign against financial firms. ‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints.",
+    "items": [
+      "✓ Cainiao Opens Its Global Warehouse Network as a ",
+      "✓ Megaspeed exec was recruited to spy on Nvidia CE",
+      "✓ Amazon's Astro home robot has fans but looks des",
+      "✓ Chinese AI lab Moonshot turned to Europe for Nvi",
+      "✓ India flags Chinese-linked AI tools in hacking c",
+      "✓ ‘AI clog’: UK public bodies battle onslaught of ",
+      "✓ China Merchants' LionRock AI Lab Open-Sources Li"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were the week's important developments beyond the daily headlines. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Cainiao Opens Its Global Warehouse Network as",
+    "Megaspeed exec was recruited to spy on Nvidia",
+    "Amazon's Astro home robot has fans but looks ",
+    "Chinese AI lab Moonshot turned to Europe for ",
+    "India flags Chinese-linked AI tools in hackin",
+    "‘AI clog’: UK public bodies battle onslaught ",
+    "China Merchants' LionRock AI Lab Open-Sources",
+    "China Unveils an AI Agent Identity Registry a",
+    "Moxin Technology Launches MoWorld 2.0, an Asc",
+    "Cashfree Launches ‘Checkout For Agents’ To En",
+    "Advances in Agentic Computer Graphics"
+  ],
+  "thumbnail": {
+    "date": "08 NOVEMBER 2026",
+    "headline": "CAINIAO OPENS ITS GLOBAL WAREHOUSE NETWORK",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "CAINIAO OPENS ITS GLOBAL WAREHOUSE",
+      "MEGASPEED EXEC WAS RECRUITED TO SPY",
+      "AMAZON'S ASTRO HOME ROBOT HAS FANS",
+      "CHINESE AI LAB MOONSHOT TURNED TO"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "This Week in AI | Cainiao Opens Its Global Warehouse | Megaspeed exec was recruited to | Amazon's Astro home robot has fans | Weekly Round-up 08 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 08 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

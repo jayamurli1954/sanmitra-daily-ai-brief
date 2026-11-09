@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 13.01,
-    "sceneDurationSeconds": 14.21,
-    "durationInFrames": 426,
+    "audioDurationSeconds": 19.37,
+    "sceneDurationSeconds": 20.57,
+    "durationInFrames": 617,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_russia_and_us_seek_to_block_plan": {
-    "audioFile": "audio/aibrief/s1_s1_russia_and_us_seek_to_block_plan.mp3",
-    "audioDurationSeconds": 44.04,
-    "sceneDurationSeconds": 45.24,
-    "durationInFrames": 1357,
-    "title": "Story 1: Russia and US seek to block plan for binding rules on autonomous weapons",
+  "s1_cainiao_opens_its_global_warehou": {
+    "audioFile": "audio/aibrief/s1_s1_cainiao_opens_its_global_warehou.mp3",
+    "audioDurationSeconds": 19.06,
+    "sceneDurationSeconds": 20.26,
+    "durationInFrames": 608,
+    "title": "Story 1: Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_usa": {
@@ -22,20 +22,20 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_google_sued_over_suicide_related": {
-    "audioFile": "audio/aibrief/s2_s2_google_sued_over_suicide_related.mp3",
-    "audioDurationSeconds": 34.68,
-    "sceneDurationSeconds": 35.88,
-    "durationInFrames": 1076,
-    "title": "Story 2: Google sued over suicide-related AI chats on school computer",
+  "s2_megaspeed_exec_was_recruited_to": {
+    "audioFile": "audio/aibrief/s2_s2_megaspeed_exec_was_recruited_to.mp3",
+    "audioDurationSeconds": 58.18,
+    "sceneDurationSeconds": 59.38,
+    "durationInFrames": 1781,
+    "title": "Story 2: Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
     "voice": "en-US-AriaNeural"
   },
-  "s3_meta_pauses_planned_terms_update": {
-    "audioFile": "audio/aibrief/s3_s3_meta_pauses_planned_terms_update.mp3",
-    "audioDurationSeconds": 16.32,
-    "sceneDurationSeconds": 17.52,
-    "durationInFrames": 526,
-    "title": "Story 3: Meta pauses planned terms updates, keeps existing rules in place",
+  "s3_amazon_s_astro_home_robot_has_fa": {
+    "audioFile": "audio/aibrief/s3_s3_amazon_s_astro_home_robot_has_fa.mp3",
+    "audioDurationSeconds": 54.46,
+    "sceneDurationSeconds": 55.66,
+    "durationInFrames": 1670,
+    "title": "Story 3: Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_china": {
@@ -47,9 +47,9 @@
   },
   "s4_chinese_ai_lab_moonshot_turned_t": {
     "audioFile": "audio/aibrief/s4_s4_chinese_ai_lab_moonshot_turned_t.mp3",
-    "audioDurationSeconds": 14.47,
-    "sceneDurationSeconds": 15.67,
-    "durationInFrames": 470,
+    "audioDurationSeconds": 16.56,
+    "sceneDurationSeconds": 17.76,
+    "durationInFrames": 533,
     "title": "Story 4: Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
     "voice": "en-US-AriaNeural"
   },
@@ -60,59 +60,75 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s5_cashfree_launches_checkout_for_a": {
-    "audioFile": "audio/aibrief/s5_s5_cashfree_launches_checkout_for_a.mp3",
-    "audioDurationSeconds": 14.66,
-    "sceneDurationSeconds": 15.86,
-    "durationInFrames": 476,
-    "title": "Story 5: Cashfree Launches \u2018Checkout For Agents\u2019 To Enable AI-Led Payments",
+  "s5_india_flags_chinese_linked_ai_to": {
+    "audioFile": "audio/aibrief/s5_s5_india_flags_chinese_linked_ai_to.mp3",
+    "audioDurationSeconds": 22.01,
+    "sceneDurationSeconds": 23.21,
+    "durationInFrames": 696,
+    "title": "Story 5: India flags Chinese-linked AI tools in hacking campaign against financial firms",
     "voice": "en-US-ChristopherNeural"
   },
-  "s6_nigel_farage_s_exit_from_the_tel": {
-    "audioFile": "audio/aibrief/s6_s6_nigel_farage_s_exit_from_the_tel.mp3",
-    "audioDurationSeconds": 51.22,
-    "sceneDurationSeconds": 52.42,
-    "durationInFrames": 1572,
-    "title": "Story 6: Nigel Farage's exit from the Telegraph may be cause for cheer. But there\u2019s a sobering side to this story | Jane Martinson",
+  "s6_ai_clog_uk_public_bodies_battle": {
+    "audioFile": "audio/aibrief/s6_s6_ai_clog_uk_public_bodies_battle.mp3",
+    "audioDurationSeconds": 51.24,
+    "sceneDurationSeconds": 52.44,
+    "durationInFrames": 1573,
+    "title": "Story 6: \u2018AI clog\u2019: UK public bodies battle onslaught of chatbot-generated complaints",
     "voice": "en-US-AriaNeural"
   },
-  "s7_china_unveils_an_ai_agent_identi": {
-    "audioFile": "audio/aibrief/s7_s7_china_unveils_an_ai_agent_identi.mp3",
-    "audioDurationSeconds": 17.9,
-    "sceneDurationSeconds": 19.1,
-    "durationInFrames": 573,
-    "title": "Story 7: China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign Self-Discipline Pact",
+  "s7_china_merchants_lionrock_ai_lab": {
+    "audioFile": "audio/aibrief/s7_s7_china_merchants_lionrock_ai_lab.mp3",
+    "audioDurationSeconds": 20.04,
+    "sceneDurationSeconds": 21.24,
+    "durationInFrames": 637,
+    "title": "Story 7: China Merchants' LionRock AI Lab Open-Sources Lion-ER-35B-A3B Embodied Reasoning Model",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_cainiao_opens_its_global_warehou": {
-    "audioFile": "audio/aibrief/s8_s8_cainiao_opens_its_global_warehou.mp3",
-    "audioDurationSeconds": 18.14,
-    "sceneDurationSeconds": 19.34,
-    "durationInFrames": 580,
-    "title": "Story 8: Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI",
+  "s8_china_unveils_an_ai_agent_identi": {
+    "audioFile": "audio/aibrief/s8_s8_china_unveils_an_ai_agent_identi.mp3",
+    "audioDurationSeconds": 18.53,
+    "sceneDurationSeconds": 19.73,
+    "durationInFrames": 592,
+    "title": "Story 8: China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign Self-Discipline Pact",
     "voice": "en-US-AriaNeural"
   },
-  "s9_vflash_fast_accurate_visual_plan": {
-    "audioFile": "audio/aibrief/s9_s9_vflash_fast_accurate_visual_plan.mp3",
-    "audioDurationSeconds": 46.58,
-    "sceneDurationSeconds": 47.78,
-    "durationInFrames": 1434,
-    "title": "Story 9: VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+  "s9_moxin_technology_launches_moworl": {
+    "audioFile": "audio/aibrief/s9_s9_moxin_technology_launches_moworl.mp3",
+    "audioDurationSeconds": 19.13,
+    "sceneDurationSeconds": 20.33,
+    "durationInFrames": 610,
+    "title": "Story 9: Moxin Technology Launches MoWorld 2.0, an Ascend-Native 4D World Model That Simulates Physics",
+    "voice": "en-US-ChristopherNeural"
+  },
+  "s10_cashfree_launches_checkout_for_a": {
+    "audioFile": "audio/aibrief/s10_s10_cashfree_launches_checkout_for_a.mp3",
+    "audioDurationSeconds": 15.5,
+    "sceneDurationSeconds": 16.7,
+    "durationInFrames": 501,
+    "title": "Story 10: Cashfree Launches \u2018Checkout For Agents\u2019 To Enable AI-Led Payments",
+    "voice": "en-US-AriaNeural"
+  },
+  "s11_advances_in_agentic_computer_gra": {
+    "audioFile": "audio/aibrief/s11_s11_advances_in_agentic_computer_gra.mp3",
+    "audioDurationSeconds": 113.02,
+    "sceneDurationSeconds": 114.22,
+    "durationInFrames": 3426,
+    "title": "Story 11: Advances in Agentic Computer Graphics",
     "voice": "en-US-ChristopherNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 37.87,
-    "sceneDurationSeconds": 39.07,
-    "durationInFrames": 1172,
+    "audioDurationSeconds": 41.86,
+    "sceneDurationSeconds": 43.06,
+    "durationInFrames": 1292,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },
   "outro": {
     "audioFile": "audio/aibrief/s_outro.mp3",
-    "audioDurationSeconds": 18.17,
-    "sceneDurationSeconds": 19.37,
-    "durationInFrames": 581,
+    "audioDurationSeconds": 17.59,
+    "sceneDurationSeconds": 18.79,
+    "durationInFrames": 564,
     "title": "Outro: Subscribe & Daily Bureaus",
     "voice": "en-US-ChristopherNeural"
   }

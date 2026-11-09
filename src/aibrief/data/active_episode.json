@@ -1,22 +1,15 @@
 {
   "weekly": false,
-  "date": "2026-11-06",
-  "formattedDate": "06 November 2026",
-  "title": "India's CERT-In asks organisations | Google sued over suicide-related | Meta pauses planned terms updates, | AI News 06 November 2026",
+  "date": "2026-11-09",
+  "formattedDate": "09 November 2026",
+  "title": "Explained: Why Nvidia shares | Read Huang's email to his staff | Parents and teachers decry Google | AI News 09 November 2026",
   "intro": {
     "durationSeconds": 18,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "Breaking today: India's CERT-In asks organisations to audit what their AI agents can access and do. From the SanMitra Newsroom, this is the Daily AI Brief for 06 November 2026."
+    "script": "Breaking today: Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts warn can trigger a bloodbath?. From the SanMitra Newsroom, this is the Daily AI Brief for 09 November 2026."
   },
   "transitions": [
-    {
-      "id": "transition_india",
-      "region": "INDIA",
-      "title": "NEXT: INDIA & REGIONAL STRATEGY",
-      "display": "NEXT: INDIA",
-      "durationSeconds": 2
-    },
     {
       "id": "transition_usa",
       "region": "USA",
@@ -32,10 +25,10 @@
       "durationSeconds": 2
     },
     {
-      "id": "transition_india",
-      "region": "INDIA",
-      "title": "NEXT: INDIA & REGIONAL STRATEGY",
-      "display": "NEXT: INDIA",
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
       "durationSeconds": 2
     },
     {
@@ -48,371 +41,371 @@
   ],
   "stories": [
     {
-      "id": "s1_india_s_cert_in_asks_organisatio",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "India's CERT-In asks organisations to audit what their AI agents can access and do",
-      "subheadline": "Source: The Times of India",
+      "id": "s1_explained_why_nvidia_shares_drop",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts warn can trigger a bloodbath?",
+      "subheadline": "Source: The Economic Times",
       "importanceScore": 99,
-      "durationSeconds": 52,
-      "source": "The Times of India",
-      "sourceUrl": "https://timesofindia.indiatimes.com/business/india-business/cert-in-seeks-checks-on-access-of-ai-agents/articleshow/135589474.cms",
+      "durationSeconds": 30,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/explained-why-nvidia-shares-dropped-4-in-overnight-trade-and-what-analysts-warn-can-trigger-a-bloodbath/articleshow/135678630.cms",
       "researchDesk": "",
-      "script": "Our lead story today. CERT-In, India's national cybersecurity agency, is urging organisations to check whether their AI agents could leak confidential data or take actions that were never authorised, The Times of India reports. The agency's guidelines on auditing AI security call for strict permission controls, a log of every step an agent carries out, an emergency mechanism to halt an agent, and human sign-off before any significant action. They also address prompt injection, in which harmful instructions hidden within emails, documents or web pages attempt to hijack an agent. Indian companies are beginning to let AI agents into their financial records, internal systems, email and documents. The guidance treats permissions for agents and audit trails as a fundamental security measure, rather than something considered later.",
-      "whyThisMatters": "CERT-In, India's national cybersecurity agency, is urging organisations to check whether their AI agents could leak confidential data or take actions that were never authorised, The Times of India reports.",
+      "script": "Our lead story today. Nvidia shares dropped over 4% after CEO Jensen Huang acknowledged an affair with Alice Huang. Jensen Huang's relationship with Alice, a Chinese national, raised security concerns following intelligence reports. Nvidia has initiated an investigation into these allegations, although the board believes no secrets were compromised. Analysts suggest the company's upcoming earnings report will be crucial for market sentiment. Concerns linger over Huang's position if further evidence of wrongdoing emerges.",
+      "whyThisMatters": "Nvidia shares dropped over 4% after CEO Jensen Huang acknowledged an affair with Alice Huang.",
       "sourceType": "reporting",
       "keyPoints": [
-        "India's CERT-In asks organisations to audit what their AI agents can access and ",
-        "The Times of India"
+        "Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts war",
+        "The Economic Times"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-06/s1_cut1.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "image": "aibrief/assets/editorial/2026-11-09/s1_cut1.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-06/s1_cut2.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "image": "aibrief/assets/editorial/2026-11-09/s1_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-06/s1_cut3.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "image": "aibrief/assets/editorial/2026-11-09/s1_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_google_sued_over_suicide_related",
+      "id": "s2_read_huang_s_email_to_his_staff",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Google sued over suicide-related AI chats on school computer",
-      "subheadline": "Source: The Economic Times",
-      "importanceScore": 95,
-      "durationSeconds": 36,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-sued-over-suicide-related-ai-chats-on-school-computer/articleshow/135591823.cms",
-      "researchDesk": "",
-      "script": "Turning to the United States. The parents of a 13-year-old girl have filed a lawsuit against Google, The Economic Times reports. They claim she relied on the company's AI technology, on a computer supplied by her school, to plan a possible suicide as well as her own funeral. American AI developers are confronting a rising number of comparable cases. OpenAI is fighting several wrongful death claims, among them one from the parents of Adam Raine, a 16-year-old who allegedly ended his life using methods ChatGPT suggested.",
-      "whyThisMatters": "The parents of a 13-year-old girl have filed a lawsuit against Google, The Economic Times reports.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Google sued over suicide-related AI chats on school computer",
-        "The Economic Times"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s2_cut1.jpg",
-          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s2_cut2.jpg",
-          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s2_cut3.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
-          "panDirection": "zoomIn"
-        }
-      ]
-    },
-    {
-      "id": "s3_meta_pauses_planned_terms_update",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Meta pauses planned terms updates, keeps existing rules in place",
-      "subheadline": "Source: The Economic Times",
-      "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/meta-pauses-planned-terms-updates-keeps-existing-rules-in-place/articleshow/135608532.cms",
-      "researchDesk": "",
-      "script": "In other news. Meta has paused planned revisions to its Commercial Terms, Product Catalog Terms, Self-Serve Ad Terms and Ad Creative Generative AI Terms, according to The Economic Times. The existing rules will remain in force.",
-      "whyThisMatters": "Meta has paused planned revisions to its Commercial Terms, Product Catalog Terms, Self-Serve Ad Terms and Ad Creative Generative AI Terms, according to The Economic Times.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Meta pauses planned terms updates, keeps existing rules in place",
-        "The Economic Times"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s3_cut1.jpg",
-          "badge": "MENLO PARK • META HEADQUARTERS",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s3_cut2.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s3_cut3.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
-          "panDirection": "panRight"
-        }
-      ]
-    },
-    {
-      "id": "s4_chinese_ai_lab_moonshot_turned_t",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
+      "headline": "Read Huang's email to his staff and statement from Nvidia's board of directors",
       "subheadline": "Source: CNBC",
-      "importanceScore": 90,
-      "durationSeconds": 24,
+      "importanceScore": 95,
+      "durationSeconds": 53,
       "source": "CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
+      "sourceUrl": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html",
       "researchDesk": "",
-      "script": "In China. Moonshot AI, the Chinese artificial intelligence lab, has sought to rent advanced chips from European neocloud providers, CNBC reports. American export controls limit bringing such chips into China.",
-      "whyThisMatters": "Moonshot AI, the Chinese artificial intelligence lab, has sought to rent advanced chips from European neocloud providers, CNBC reports.",
+      "script": "Also today. Nvidia on Sunday said it has opened an investigation into co-founder and CEO Jensen Huang's relationship with a businesswoman who intelligence agencies said is a Chinese spy. Jensen is committed to continuing to lead NVIDIA as CEO without interruption,\" the company told CNBC in a statement. Below is a staff email from Huang obtained by CNBC and a statement released Sunday about the investigation from Nvidia's board of directors. Staff email from Huang: [From:] Jensen Huang [To:] Employees Subj.: A message to our company Nov. 8, 2026 To my colleagues at NVIDIA, I owe my family and all of you an apology. Throughout my life, my family has given me love and support. Instead, I let them down and damaged the life we built together.",
+      "whyThisMatters": "Nvidia on Sunday said it has opened an investigation into co-founder and CEO Jensen Huang's relationship with a businesswoman who intelligence agencies said is a Chinese spy.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. C",
+        "Read Huang's email to his staff and statement from Nvidia's board of directors",
         "CNBC"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-06/s4_cut1.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "image": "aibrief/assets/editorial/2026-11-09/s2_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s2_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-06/s4_cut2.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s4_cut3.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "panDirection": "panLeft"
-        }
-      ]
-    },
-    {
-      "id": "s5_cashfree_launches_checkout_for_a",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments",
-      "subheadline": "Source: Inc42",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Inc42",
-      "sourceUrl": "https://inc42.com/buzz/cashfree-launches-checkout-for-agents-to-enable-ai-led-payments/",
-      "researchDesk": "",
-      "script": "Turning to India. Cashfree Payments, a fintech start-up regarded as nearing a billion-dollar valuation, has introduced a product called Checkout for Agents, Inc42 reports. It allows AI agents to process customer payments.",
-      "whyThisMatters": "Cashfree Payments, a fintech start-up regarded as nearing a billion-dollar valuation, has introduced a product called Checkout for Agents, Inc42 reports.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments",
-        "Inc42"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s5_cut1.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "image": "aibrief/assets/editorial/2026-11-09/s2_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s5_cut2.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s5_cut3.jpg",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
-          "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s6_russia_and_us_seek_to_block_plan",
+      "id": "s3_parents_and_teachers_decry_googl",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Russia and US seek to block plan for binding rules on autonomous weapons",
+      "headline": "Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’",
       "subheadline": "Source: The Guardian",
-      "importanceScore": 90,
-      "durationSeconds": 52,
+      "importanceScore": 95,
+      "durationSeconds": 59,
       "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/world/2026/nov/06/autonomous-weapons-ai-russia-us-binding-rules",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/09/parents-teachers-google-search-schools-ai",
       "researchDesk": "",
-      "script": "Around the world. Russia and the United States are leading a bloc of nations seeking to derail negotiations on legally binding regulation of autonomous weapons, according to the Guardian. The countries intend to use a United Nations conference later this month to thwart the proposals. Many observers regard the gathering as a pivotal moment after years of argument over how weapons controlled by artificial intelligence should be governed, and attempts to fill that regulatory void now look vulnerable. The depth of resistance is expected to emerge at a diplomatic retreat that opens on Friday. That session comes before the seventh review conference on certain conventional weapons, set to take place in Geneva from 16 to 20 November, with 128 countries expected to take part.",
-      "whyThisMatters": "Russia and the United States are leading a bloc of nations seeking to derail negotiations on legally binding regulation of autonomous weapons, according to the Guardian.",
+      "script": "Around the world. Parents and teachers across the US are criticizing Google’s announcement that schools choosing to block AI tools could also lose access to Google Search. Google announced last week a range of new AI tools for schools and classrooms, alongside options allowing teachers and administrators to restrict their use. The company said schools should have control over whether students use AI in the classroom, but that schools that choose to block Google’s AI tools will also lose access to its search engine. “We believe schools should have control over AI in their classrooms and in providing administrators with controls to help them manage their approach,” said Chris Phillips, vice-president for education at Google. “After listening to schools, teachers, leading researchers, and policymakers, we are now updating our approach to controls for Gemini, Gemini Notebook, Gemini in Classroom, and Google Search.",
+      "whyThisMatters": "Parents and teachers across the US are criticizing Google’s announcement that schools choosing to block AI tools could also lose access to Google Search.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Russia and US seek to block plan for binding rules on autonomous weapons",
+        "Parents and teachers decry Google pledge to yank Search if schools block AI: ‘Th",
         "The Guardian"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-06/s6_cut1.jpg",
-          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
-          "panDirection": "zoomOut"
+          "image": "aibrief/assets/editorial/2026-11-09/s3_cut1.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-06/s6_cut2.jpg",
-          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s6_cut3.jpg",
-          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "image": "aibrief/assets/editorial/2026-11-09/s3_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
           "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s3_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s7_nigel_farage_s_exit_from_the_tel",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sobering side to this story | Jane Martinson",
-      "subheadline": "Source: The Guardian",
+      "id": "s4_topstar_unveils_star_a_full_size",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Topstar Unveils Star, a Full-Size Industrial Biped Humanoid, and S400 Machine for Robot Parts",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/topstar-star-industrial-biped-humanoid-s400-five-axis-machine",
+      "researchDesk": "",
+      "script": "In China. Topstar showed Star, a 172 cm, 72 kg biped with a 10 kg dual-arm payload for factory handling, plus the S400 five-axis machine for humanoid parts.",
+      "whyThisMatters": "Topstar showed Star, a 172 cm, 72 kg biped with a 10 kg dual-arm payload for factory handling, plus the S400 five-axis machine for humanoid parts.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Topstar Unveils Star, a Full-Size Industrial Biped Humanoid, and S400 Machine fo",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s4_cut1.jpg",
+          "badge": "STAR • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s4_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s4_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_samsung_hyundai_motor_group_join",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Samsung, Hyundai Motor Group join forces to lead future industries",
+      "subheadline": "Source: The Korea Times",
       "importanceScore": 90,
       "durationSeconds": 55,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/commentisfree/2026/nov/06/nigel-farage-telegraph-story-newspaper-ai",
+      "source": "The Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261109/samsung-hyundai-motor-group-join-forces-to-lead-future-industries?utm_source=rss",
       "researchDesk": "",
-      "script": "In other news. In a commentary for the Guardian, Jane Martinson contends that Nigel Farage leaving the Daily Telegraph carries a more worrying dimension. She suggests the upheaval at the newspaper appears to stem less from politics than from a shift toward artificial intelligence, and that journalism will pay the price. Farage had been a Telegraph columnist since 2016. Much of his output championed the party he heads, initially the Brexit party and currently Reform UK, or charged his rivals with being soft on immigration. The financially stretched paper paid him about £4,000 each month, nearly half a million pounds across the last decade. It became known this week that Axel Springer, the paper's new German owners, had decided against keeping his columns. Those around Farage, however, insist he chose to leave.",
-      "whyThisMatters": "In a commentary for the Guardian, Jane Martinson contends that Nigel Farage leaving the Daily Telegraph carries a more worrying dimension.",
+      "script": "In Asia. Samsung, Hyundai Motor Group join forces to lead future industries Summary Samsung Electronics and Hyundai Motor Group executives met Monday at Samsung’s training center in Seocheon, South Chungcheong Province, to strengthen cooperation in physical AI and next-generation mobility. The gathering brought together 177 executives and their spouses for an event called HMG Appreciation Day. The groups are looking to expand ties across electric vehicles, autonomous driving, software-defined vehicles and robotics. Their cooperation has grown from automotive components to future industries. Key Facts - Samsung Electronics Vice Chairman Jun Young-hyun said Samsung’s technologies, from components to finished products, could create opportunities when combined with Hyundai Motor Group’s future-mobility vision. - Hyundai Motor Group Vice Chair Chang Jae-hoon said cooperation had expanded beyond batteries and automotive electronics to robotics and energy.",
+      "whyThisMatters": "Samsung, Hyundai Motor Group join forces to lead future industries Summary Samsung Electronics and Hyundai Motor Group executives met Monday at Samsung’s training center in Seocheon, South Chungcheong Province, to streng",
       "sourceType": "reporting",
       "keyPoints": [
-        "Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sob",
-        "The Guardian"
+        "Samsung, Hyundai Motor Group join forces to lead future industries",
+        "The Korea Times"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-06/s7_cut1.jpg",
-          "badge": "JANE MARTINSON • CONTEXTUAL REPORTING",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s7_cut2.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "ASIA SILICON DIE • FABRICATION CLEANROOM",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-06/s7_cut3.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
-          "panDirection": "panRight"
-        }
-      ]
-    },
-    {
-      "id": "s8_china_unveils_an_ai_agent_identi",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign Self-Discipline Pact",
-      "subheadline": "Source: Pandaily",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Pandaily",
-      "sourceUrl": "https://pandaily.com/wuzhen-ai-agent-identity-registration-resolution-platform-self-discipline-convention",
-      "researchDesk": "",
-      "script": "In China. Pandaily reports that a platform for registering and checking the identities of AI agents has debuted at Wuzhen. In a separate move, 20 organizations including Huawei, Alibaba and Tencent signed a voluntary agreement on agent conduct.",
-      "whyThisMatters": "Pandaily reports that a platform for registering and checking the identities of AI agents has debuted at Wuzhen.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign S",
-        "Pandaily"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s8_cut1.jpg",
-          "badge": "WUZHEN • CONTEXTUAL REPORTING",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s8_cut2.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s8_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
-          "panDirection": "panLeft"
-        }
-      ]
-    },
-    {
-      "id": "s9_cainiao_opens_its_global_warehou",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI",
-      "subheadline": "Source: Pandaily",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Pandaily",
-      "sourceUrl": "https://pandaily.com/cainiao-global-warehouse-network-embodied-ai-robot-training-tech-export-three-day-delivery",
-      "researchDesk": "",
-      "script": "Elsewhere. Cainiao is opening its warehouses worldwide to AI and robotics firms as training grounds, offering more than 100 test scenarios, according to Pandaily. The company has also introduced a service shipping tech hardware abroad within three days.",
-      "whyThisMatters": "Cainiao is opening its warehouses worldwide to AI and robotics firms as training grounds, offering more than 100 test scenarios, according to Pandaily.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for E",
-        "Pandaily"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s9_cut1.jpg",
-          "badge": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-06/s9_cut2.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "ASIA ACCELERATED COMPUTE • TENSOR CLUSTERS",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-06/s9_cut3.jpg",
-          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "image": "aibrief/assets/story4_quantum_qpu.jpg",
+          "badge": "ASIA MICROELECTRONICS R&D • PACKAGING FLOOR",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s10_vflash_fast_accurate_visual_plan",
+      "id": "s6_it_firms_with_lower_capital_requ",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
-      "subheadline": "Source: arXiv Pre-print",
+      "headline": "IT firms with lower capital requirements may gain as investors shift focus to AI monetisation: Report",
+      "subheadline": "Source: The Economic Times",
       "importanceScore": 90,
-      "durationSeconds": 44,
-      "source": "arXiv Pre-print",
-      "sourceUrl": "https://arxiv.org/abs/2611.08449",
-      "researchDesk": "Research Watch",
-      "script": "From the research desk. The researchers behind a paper titled VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding are tackling a speed bottleneck in AI used for robots and self-driving cars. Such systems can plan not just in language but visually, marking their goals and forecasting motion with points, boxes around objects and paths. Today's vision-language models, which combine image understanding with text, generate those plans one coordinate after another, so richer plans are slower to produce. VFlash exploits the regular shape of these visual elements to compute all their coordinates simultaneously, using a compact helper model that drafts a whole element in one step.",
-      "whyThisMatters": "The researchers behind a paper titled VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding are tackling a speed bottleneck in AI used for robots and self-driving cars.",
+      "durationSeconds": 56,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/information-tech/it-firms-with-lower-capital-requirements-may-gain-as-investors-shift-focus-to-ai-monetisation-report/articleshow/135669532.cms",
+      "researchDesk": "",
+      "script": "Around the world. Information technology (IT) companies capable of monetising enterprise adoption of artificial intelligence (AI) without making substantial capital investments could gain an advantage as investors increasingly differentiate between businesses funding AI infrastructure and those generating returns from its adoption, according to a report by Anand Rathi. The report said the key risk to the AI opportunity is not weakening demand but the widening gap between infrastructure commitments and proven monetisation. This is expected to make funding discipline, cash conversion and returns on invested capital increasingly important factors in determining which companies benefit from the technology's expansion. \"We believe the key risk is not weakening AI demand, but the widening gap between infrastructure commitments and proven monetisation, making funding discipline, cash conversion & returns on invested capital increasingly critical differentiators,\" the report said.",
+      "whyThisMatters": "Information technology (IT) companies capable of monetising enterprise adoption of artificial intelligence (AI) without making substantial capital investments could gain an advantage as investors increasingly differentia",
       "sourceType": "reporting",
       "keyPoints": [
-        "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+        "IT firms with lower capital requirements may gain as investors shift focus to AI",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story1_code_agents.jpg",
+          "badge": "WORLD FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_standards.jpg",
+          "badge": "WORLD AUTONOMOUS AGENT RUNTIME • EVALUATION HUD",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/story3_neural_network.jpg",
+          "badge": "WORLD BENCHMARK VERIFICATION • SYSTEM TELEMETRY",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_nvidia_skt_rebellions_to_jointly",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Nvidia, SKT, Rebellions to jointly establish heterogeneous computing system for AI",
+      "subheadline": "Source: The Korea Times",
+      "importanceScore": 90,
+      "durationSeconds": 53,
+      "source": "The Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261109/nvidia-skt-rebellions-to-jointly-establish-heterogeneous-computing-system-for-ai-1?utm_source=rss",
+      "researchDesk": "",
+      "script": "In other news. Nvidia, SKT, Rebellions to jointly establish heterogeneous computing system for AI Summary Nvidia, SK Telecom and Rebellions agreed Monday to establish a heterogeneous AI computing system for SK Telecom AI data centers. Their memorandum of understanding calls for connecting Nvidia GPUs with Rebellions-designed NPUs through Nvidia’s NVLink Fusion program. The agreement was signed during AI Day Seoul, a two-day event hosted by Nvidia in southern Seoul. South Korea’s science ministry said the partnership could expand applications for domestic advanced semiconductors and create opportunities for local companies in global markets. Key Facts - NVLink Fusion lets hyperscalers and custom chip designers integrate their AI processors into Nvidia’s rack-scale infrastructure. - Nvidia AI infrastructure principal manager Jesse Clayton said the collaboration could help accelerate innovation in Korea.",
+      "whyThisMatters": "Nvidia, SKT, Rebellions to jointly establish heterogeneous computing system for AI Summary Nvidia, SK Telecom and Rebellions agreed Monday to establish a heterogeneous AI computing system for SK Telecom AI data centers.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nvidia, SKT, Rebellions to jointly establish heterogeneous computing system for ",
+        "The Korea Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "WORLD SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "WORLD ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/story4_quantum_qpu.jpg",
+          "badge": "WORLD MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_chinese_ai_firms_want_silicon_va",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Chinese AI firms want Silicon Valley’s top minds. Poaching them won’t be easy",
+      "subheadline": "Source: Rest of World",
+      "importanceScore": 90,
+      "durationSeconds": 36,
+      "source": "Rest of World",
+      "sourceUrl": "https://restofworld.org/2026/chinese-ai-labs-hire-silicon-valley-engineers-openai-anthropic/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "researchDesk": "",
+      "script": "Next. Chinese AI companies are hiring Silicon Valley-based engineers to work on their models, potentially tapping into the talent at American labs like OpenAI and Anthropic. MiniMax, the Hong Kong-listed Chinese AI startup, currently has around 16 San Francisco-based job openings listed on its website, including for a research lead focused on developing its core AI model. The company is also recruiting specialists in finance, law, life sciences, and cybersecurity, as well as a lead recruiter to attract top AI talent in Silicon Valley and Seattle.",
+      "whyThisMatters": "Chinese AI companies are hiring Silicon Valley-based engineers to work on their models, potentially tapping into the talent at American labs like OpenAI and Anthropic.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Chinese AI firms want Silicon Valley’s top minds. Poaching them won’t be easy",
+        "Rest of World"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story2_cyber_defense.jpg",
+          "badge": "WORLD DEFENSE OPERATIONS • AUTONOMOUS TARGETING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "WORLD CYBER THREAT OPERATIONS • RED-TEAM DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/geopolitics.jpg",
+          "badge": "WORLD STRATEGIC THREAT INTELLIGENCE • NETWORK MONITOR",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_nvidia_investigates_ceo_jensen_h",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 55,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+      "researchDesk": "",
+      "script": "In China. Nvidia has opened an investigation into co-founder and CEO Jensen Huang's relationship with a businesswoman who intelligence agencies say is a Chinese spy. US intelligence agencies have expressed concerns that the woman, Alice Huang, who is affiliated with a cloud company and an Nvidia customer called Megaspeed, has been passing information to Beijing, according to reports in The New York Times and the Financial Times. Huang told Nvidia staff in an email on Sunday that he had an affair with the woman and that Nvidia's board of directors had opened an independent investigation into the spying allegations. There is no excuse for what I did,\" Huang wrote in the message. \"I am deeply sorry.\" An Nvidia spokesperson said that Huang was committed to continuing as CEO of Nvidia without interruption.",
+      "whyThisMatters": "Nvidia has opened an investigation into co-founder and CEO Jensen Huang's relationship with a businesswoman who intelligence agencies say is a Chinese spy.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "CHINA SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "CHINA ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/story4_quantum_qpu.jpg",
+          "badge": "CHINA MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_splatanything_gaussian_spacing_n",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 39,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.08264",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. The researchers identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale targets, leading to ambiguous supervision. To address this, the researchers propose SplatAnything with Gaussian Spacing Normalization (GSNorm), which canonicalizes a robust scene-level statistic of Gaussian spacing to provide a more consistent spatial reference for Gaussian prediction.",
+      "whyThisMatters": "The researchers identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the recon",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbit",
         "arXiv Pre-print"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-06/s10_cut1.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "image": "aibrief/assets/story1_code_agents.jpg",
+          "badge": "WORLD FRONTIER AI RESEARCH • NEURAL HARNESS",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-06/s10_cut2.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "image": "aibrief/backgrounds/ai_standards.jpg",
+          "badge": "WORLD AUTONOMOUS AGENT RUNTIME • EVALUATION HUD",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-06/s10_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION • CUT 3",
+          "image": "aibrief/assets/story3_neural_network.jpg",
+          "badge": "WORLD BENCHMARK VERIFICATION • SYSTEM TELEMETRY",
           "panDirection": "zoomIn"
         }
       ]
@@ -421,15 +414,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. India's CERT-In asks organisations to audit what their AI agents can access and do. Google sued over suicide-related AI chats on school computer. Meta pauses planned terms updates, keeps existing rules in place. Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC. Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments. Russia and US seek to block plan for binding rules on autonomous weapons.",
+    "script": "To recap today's top stories. Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts warn can trigger a bloodbath?. Read Huang's email to his staff and statement from Nvidia's board of directors. Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’. Topstar Unveils Star, a Full-Size Industrial Biped Humanoid, and S400 Machine for Robot Parts. Samsung, Hyundai Motor Group join forces to lead future industries. IT firms with lower capital requirements may gain as investors shift focus to AI monetisation: Report.",
     "items": [
-      "✓ India's CERT-In asks organisations to audit what",
-      "✓ Google sued over suicide-related AI chats on sch",
-      "✓ Meta pauses planned terms updates, keeps existin",
-      "✓ Chinese AI lab Moonshot turned to Europe for Nvi",
-      "✓ Cashfree Launches ‘Checkout For Agents’ To Enabl",
-      "✓ Russia and US seek to block plan for binding rul",
-      "✓ Nigel Farage's exit from the Telegraph may be ca"
+      "✓ Explained: Why Nvidia shares dropped 4% in overn",
+      "✓ Read Huang's email to his staff and statement fr",
+      "✓ Parents and teachers decry Google pledge to yank",
+      "✓ Topstar Unveils Star, a Full-Size Industrial Bip",
+      "✓ Samsung, Hyundai Motor Group join forces to lead",
+      "✓ IT firms with lower capital requirements may gai",
+      "✓ Nvidia, SKT, Rebellions to jointly establish het"
     ]
   },
   "outro": {
@@ -448,31 +441,31 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "India's CERT-In asks organisations to audit w",
-    "Google sued over suicide-related AI chats on ",
-    "Meta pauses planned terms updates, keeps exis",
-    "Chinese AI lab Moonshot turned to Europe for ",
-    "Cashfree Launches ‘Checkout For Agents’ To En",
-    "Russia and US seek to block plan for binding ",
-    "Nigel Farage's exit from the Telegraph may be",
-    "China Unveils an AI Agent Identity Registry a",
-    "Cainiao Opens Its Global Warehouse Network as",
-    "VFlash: Fast, Accurate Visual Planning via Fl"
+    "Explained: Why Nvidia shares dropped 4% in ov",
+    "Read Huang's email to his staff and statement",
+    "Parents and teachers decry Google pledge to y",
+    "Topstar Unveils Star, a Full-Size Industrial ",
+    "Samsung, Hyundai Motor Group join forces to l",
+    "IT firms with lower capital requirements may ",
+    "Nvidia, SKT, Rebellions to jointly establish ",
+    "Chinese AI firms want Silicon Valley’s top mi",
+    "Nvidia investigates CEO Jensen Huang's relati",
+    "SplatAnything: Gaussian Spacing Normalization"
   ],
   "thumbnail": {
-    "date": "06 NOVEMBER 2026",
-    "headline": "INDIA'S CERT-IN ASKS ORGANISATIONS TO AUDIT",
+    "date": "09 NOVEMBER 2026",
+    "headline": "EXPLAINED: WHY NVIDIA SHARES DROPPED 4% IN",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "INDIA'S CERT-IN ASKS ORGANISATIONS",
-      "GOOGLE SUED OVER SUICIDE-RELATED AI",
-      "META PAUSES PLANNED TERMS UPDATES,",
-      "CHINESE AI LAB MOONSHOT TURNED TO"
+      "EXPLAINED: WHY NVIDIA SHARES",
+      "READ HUANG'S EMAIL TO HIS STAFF AND",
+      "PARENTS AND TEACHERS DECRY GOOGLE",
+      "TOPSTAR UNVEILS STAR, A FULL-SIZE"
     ]
   },
   "youtubeMetadata": {
-    "title": "India's CERT-In asks organisations | Google sued over suicide-related | Meta pauses planned terms updates, | AI News 06 November 2026",
-    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 06 November 2026.",
+    "title": "Explained: Why Nvidia shares | Read Huang's email to his staff | Parents and teachers decry Google | AI News 09 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 09 November 2026.",
     "tags": [
       "AI",
       "ArtificialIntelligence",

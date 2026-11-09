@@ -1,0 +1,479 @@
+{
+  "weekly": false,
+  "date": "2026-11-09",
+  "formattedDate": "09 November 2026",
+  "title": "Explained: Why Nvidia shares | Read Huang's email to his staff | Parents and teachers decry Google | AI News 09 November 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking today: Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts warn can trigger a bloodbath?. From the SanMitra Newsroom, this is the Daily AI Brief for 09 November 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_explained_why_nvidia_shares_drop",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts warn can trigger a bloodbath?",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 99,
+      "durationSeconds": 30,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/explained-why-nvidia-shares-dropped-4-in-overnight-trade-and-what-analysts-warn-can-trigger-a-bloodbath/articleshow/135678630.cms",
+      "researchDesk": "",
+      "script": "Our lead story today. Nvidia shares dropped over 4% after CEO Jensen Huang acknowledged an affair with Alice Huang. Jensen Huang's relationship with Alice, a Chinese national, raised security concerns following intelligence reports. Nvidia has initiated an investigation into these allegations, although the board believes no secrets were compromised. Analysts suggest the company's upcoming earnings report will be crucial for market sentiment. Concerns linger over Huang's position if further evidence of wrongdoing emerges.",
+      "whyThisMatters": "Nvidia shares dropped over 4% after CEO Jensen Huang acknowledged an affair with Alice Huang.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts war",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s1_cut1.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s1_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s1_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_read_huang_s_email_to_his_staff",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Read Huang's email to his staff and statement from Nvidia's board of directors",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 95,
+      "durationSeconds": 53,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html",
+      "researchDesk": "",
+      "script": "Also today. Nvidia on Sunday said it has opened an investigation into co-founder and CEO Jensen Huang's relationship with a businesswoman who intelligence agencies said is a Chinese spy. Jensen is committed to continuing to lead NVIDIA as CEO without interruption,\" the company told CNBC in a statement. Below is a staff email from Huang obtained by CNBC and a statement released Sunday about the investigation from Nvidia's board of directors. Staff email from Huang: [From:] Jensen Huang [To:] Employees Subj.: A message to our company Nov. 8, 2026 To my colleagues at NVIDIA, I owe my family and all of you an apology. Throughout my life, my family has given me love and support. Instead, I let them down and damaged the life we built together.",
+      "whyThisMatters": "Nvidia on Sunday said it has opened an investigation into co-founder and CEO Jensen Huang's relationship with a businesswoman who intelligence agencies said is a Chinese spy.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Read Huang's email to his staff and statement from Nvidia's board of directors",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s2_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s2_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s2_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_parents_and_teachers_decry_googl",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 95,
+      "durationSeconds": 59,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/09/parents-teachers-google-search-schools-ai",
+      "researchDesk": "",
+      "script": "Around the world. Parents and teachers across the US are criticizing Google’s announcement that schools choosing to block AI tools could also lose access to Google Search. Google announced last week a range of new AI tools for schools and classrooms, alongside options allowing teachers and administrators to restrict their use. The company said schools should have control over whether students use AI in the classroom, but that schools that choose to block Google’s AI tools will also lose access to its search engine. “We believe schools should have control over AI in their classrooms and in providing administrators with controls to help them manage their approach,” said Chris Phillips, vice-president for education at Google. “After listening to schools, teachers, leading researchers, and policymakers, we are now updating our approach to controls for Gemini, Gemini Notebook, Gemini in Classroom, and Google Search.",
+      "whyThisMatters": "Parents and teachers across the US are criticizing Google’s announcement that schools choosing to block AI tools could also lose access to Google Search.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Parents and teachers decry Google pledge to yank Search if schools block AI: ‘Th",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s3_cut1.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s3_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s3_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_topstar_unveils_star_a_full_size",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Topstar Unveils Star, a Full-Size Industrial Biped Humanoid, and S400 Machine for Robot Parts",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/topstar-star-industrial-biped-humanoid-s400-five-axis-machine",
+      "researchDesk": "",
+      "script": "In China. Topstar showed Star, a 172 cm, 72 kg biped with a 10 kg dual-arm payload for factory handling, plus the S400 five-axis machine for humanoid parts.",
+      "whyThisMatters": "Topstar showed Star, a 172 cm, 72 kg biped with a 10 kg dual-arm payload for factory handling, plus the S400 five-axis machine for humanoid parts.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Topstar Unveils Star, a Full-Size Industrial Biped Humanoid, and S400 Machine fo",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s4_cut1.jpg",
+          "badge": "STAR • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s4_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s4_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_samsung_hyundai_motor_group_join",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Samsung, Hyundai Motor Group join forces to lead future industries",
+      "subheadline": "Source: The Korea Times",
+      "importanceScore": 90,
+      "durationSeconds": 55,
+      "source": "The Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261109/samsung-hyundai-motor-group-join-forces-to-lead-future-industries?utm_source=rss",
+      "researchDesk": "",
+      "script": "In Asia. Samsung, Hyundai Motor Group join forces to lead future industries Summary Samsung Electronics and Hyundai Motor Group executives met Monday at Samsung’s training center in Seocheon, South Chungcheong Province, to strengthen cooperation in physical AI and next-generation mobility. The gathering brought together 177 executives and their spouses for an event called HMG Appreciation Day. The groups are looking to expand ties across electric vehicles, autonomous driving, software-defined vehicles and robotics. Their cooperation has grown from automotive components to future industries. Key Facts - Samsung Electronics Vice Chairman Jun Young-hyun said Samsung’s technologies, from components to finished products, could create opportunities when combined with Hyundai Motor Group’s future-mobility vision. - Hyundai Motor Group Vice Chair Chang Jae-hoon said cooperation had expanded beyond batteries and automotive electronics to robotics and energy.",
+      "whyThisMatters": "Samsung, Hyundai Motor Group join forces to lead future industries Summary Samsung Electronics and Hyundai Motor Group executives met Monday at Samsung’s training center in Seocheon, South Chungcheong Province, to streng",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Samsung, Hyundai Motor Group join forces to lead future industries",
+        "The Korea Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "ASIA SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "ASIA ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/story4_quantum_qpu.jpg",
+          "badge": "ASIA MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_it_firms_with_lower_capital_requ",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "IT firms with lower capital requirements may gain as investors shift focus to AI monetisation: Report",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 56,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/information-tech/it-firms-with-lower-capital-requirements-may-gain-as-investors-shift-focus-to-ai-monetisation-report/articleshow/135669532.cms",
+      "researchDesk": "",
+      "script": "Around the world. Information technology (IT) companies capable of monetising enterprise adoption of artificial intelligence (AI) without making substantial capital investments could gain an advantage as investors increasingly differentiate between businesses funding AI infrastructure and those generating returns from its adoption, according to a report by Anand Rathi. The report said the key risk to the AI opportunity is not weakening demand but the widening gap between infrastructure commitments and proven monetisation. This is expected to make funding discipline, cash conversion and returns on invested capital increasingly important factors in determining which companies benefit from the technology's expansion. \"We believe the key risk is not weakening AI demand, but the widening gap between infrastructure commitments and proven monetisation, making funding discipline, cash conversion & returns on invested capital increasingly critical differentiators,\" the report said.",
+      "whyThisMatters": "Information technology (IT) companies capable of monetising enterprise adoption of artificial intelligence (AI) without making substantial capital investments could gain an advantage as investors increasingly differentia",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "IT firms with lower capital requirements may gain as investors shift focus to AI",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story1_code_agents.jpg",
+          "badge": "WORLD FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_standards.jpg",
+          "badge": "WORLD AUTONOMOUS AGENT RUNTIME • EVALUATION HUD",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/story3_neural_network.jpg",
+          "badge": "WORLD BENCHMARK VERIFICATION • SYSTEM TELEMETRY",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_nvidia_skt_rebellions_to_jointly",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Nvidia, SKT, Rebellions to jointly establish heterogeneous computing system for AI",
+      "subheadline": "Source: The Korea Times",
+      "importanceScore": 90,
+      "durationSeconds": 53,
+      "source": "The Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261109/nvidia-skt-rebellions-to-jointly-establish-heterogeneous-computing-system-for-ai-1?utm_source=rss",
+      "researchDesk": "",
+      "script": "In other news. Nvidia, SKT, Rebellions to jointly establish heterogeneous computing system for AI Summary Nvidia, SK Telecom and Rebellions agreed Monday to establish a heterogeneous AI computing system for SK Telecom AI data centers. Their memorandum of understanding calls for connecting Nvidia GPUs with Rebellions-designed NPUs through Nvidia’s NVLink Fusion program. The agreement was signed during AI Day Seoul, a two-day event hosted by Nvidia in southern Seoul. South Korea’s science ministry said the partnership could expand applications for domestic advanced semiconductors and create opportunities for local companies in global markets. Key Facts - NVLink Fusion lets hyperscalers and custom chip designers integrate their AI processors into Nvidia’s rack-scale infrastructure. - Nvidia AI infrastructure principal manager Jesse Clayton said the collaboration could help accelerate innovation in Korea.",
+      "whyThisMatters": "Nvidia, SKT, Rebellions to jointly establish heterogeneous computing system for AI Summary Nvidia, SK Telecom and Rebellions agreed Monday to establish a heterogeneous AI computing system for SK Telecom AI data centers.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nvidia, SKT, Rebellions to jointly establish heterogeneous computing system for ",
+        "The Korea Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "WORLD SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "WORLD ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/story4_quantum_qpu.jpg",
+          "badge": "WORLD MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_chinese_ai_firms_want_silicon_va",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Chinese AI firms want Silicon Valley’s top minds. Poaching them won’t be easy",
+      "subheadline": "Source: Rest of World",
+      "importanceScore": 90,
+      "durationSeconds": 36,
+      "source": "Rest of World",
+      "sourceUrl": "https://restofworld.org/2026/chinese-ai-labs-hire-silicon-valley-engineers-openai-anthropic/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "researchDesk": "",
+      "script": "Next. Chinese AI companies are hiring Silicon Valley-based engineers to work on their models, potentially tapping into the talent at American labs like OpenAI and Anthropic. MiniMax, the Hong Kong-listed Chinese AI startup, currently has around 16 San Francisco-based job openings listed on its website, including for a research lead focused on developing its core AI model. The company is also recruiting specialists in finance, law, life sciences, and cybersecurity, as well as a lead recruiter to attract top AI talent in Silicon Valley and Seattle.",
+      "whyThisMatters": "Chinese AI companies are hiring Silicon Valley-based engineers to work on their models, potentially tapping into the talent at American labs like OpenAI and Anthropic.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Chinese AI firms want Silicon Valley’s top minds. Poaching them won’t be easy",
+        "Rest of World"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story2_cyber_defense.jpg",
+          "badge": "WORLD DEFENSE OPERATIONS • AUTONOMOUS TARGETING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_security.jpg",
+          "badge": "WORLD CYBER THREAT OPERATIONS • RED-TEAM DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/geopolitics.jpg",
+          "badge": "WORLD STRATEGIC THREAT INTELLIGENCE • NETWORK MONITOR",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_nvidia_investigates_ceo_jensen_h",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 55,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+      "researchDesk": "",
+      "script": "In China. Nvidia has opened an investigation into co-founder and CEO Jensen Huang's relationship with a businesswoman who intelligence agencies say is a Chinese spy. US intelligence agencies have expressed concerns that the woman, Alice Huang, who is affiliated with a cloud company and an Nvidia customer called Megaspeed, has been passing information to Beijing, according to reports in The New York Times and the Financial Times. Huang told Nvidia staff in an email on Sunday that he had an affair with the woman and that Nvidia's board of directors had opened an independent investigation into the spying allegations. There is no excuse for what I did,\" Huang wrote in the message. \"I am deeply sorry.\" An Nvidia spokesperson said that Huang was committed to continuing as CEO of Nvidia without interruption.",
+      "whyThisMatters": "Nvidia has opened an investigation into co-founder and CEO Jensen Huang's relationship with a businesswoman who intelligence agencies say is a Chinese spy.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/backgrounds/ai_chips.jpg",
+          "badge": "CHINA SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/backgrounds/cloud_infrastructure.jpg",
+          "badge": "CHINA ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/story4_quantum_qpu.jpg",
+          "badge": "CHINA MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_splatanything_gaussian_spacing_n",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 39,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.08264",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. The researchers identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale targets, leading to ambiguous supervision. To address this, the researchers propose SplatAnything with Gaussian Spacing Normalization (GSNorm), which canonicalizes a robust scene-level statistic of Gaussian spacing to provide a more consistent spatial reference for Gaussian prediction.",
+      "whyThisMatters": "The researchers identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the recon",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbit",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/story1_code_agents.jpg",
+          "badge": "WORLD FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/backgrounds/ai_standards.jpg",
+          "badge": "WORLD AUTONOMOUS AGENT RUNTIME • EVALUATION HUD",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/story3_neural_network.jpg",
+          "badge": "WORLD BENCHMARK VERIFICATION • SYSTEM TELEMETRY",
+          "panDirection": "zoomIn"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts warn can trigger a bloodbath?. Read Huang's email to his staff and statement from Nvidia's board of directors. Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’. Topstar Unveils Star, a Full-Size Industrial Biped Humanoid, and S400 Machine for Robot Parts. Samsung, Hyundai Motor Group join forces to lead future industries. IT firms with lower capital requirements may gain as investors shift focus to AI monetisation: Report.",
+    "items": [
+      "✓ Explained: Why Nvidia shares dropped 4% in overn",
+      "✓ Read Huang's email to his staff and statement fr",
+      "✓ Parents and teachers decry Google pledge to yank",
+      "✓ Topstar Unveils Star, a Full-Size Industrial Bip",
+      "✓ Samsung, Hyundai Motor Group join forces to lead",
+      "✓ IT firms with lower capital requirements may gai",
+      "✓ Nvidia, SKT, Rebellions to jointly establish het"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Explained: Why Nvidia shares dropped 4% in ov",
+    "Read Huang's email to his staff and statement",
+    "Parents and teachers decry Google pledge to y",
+    "Topstar Unveils Star, a Full-Size Industrial ",
+    "Samsung, Hyundai Motor Group join forces to l",
+    "IT firms with lower capital requirements may ",
+    "Nvidia, SKT, Rebellions to jointly establish ",
+    "Chinese AI firms want Silicon Valley’s top mi",
+    "Nvidia investigates CEO Jensen Huang's relati",
+    "SplatAnything: Gaussian Spacing Normalization"
+  ],
+  "thumbnail": {
+    "date": "09 NOVEMBER 2026",
+    "headline": "EXPLAINED: WHY NVIDIA SHARES DROPPED 4% IN",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "EXPLAINED: WHY NVIDIA SHARES",
+      "READ HUANG'S EMAIL TO HIS STAFF AND",
+      "PARENTS AND TEACHERS DECRY GOOGLE",
+      "TOPSTAR UNVEILS STAR, A FULL-SIZE"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Explained: Why Nvidia shares | Read Huang's email to his staff | Parents and teachers decry Google | AI News 09 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 09 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

@@ -1,652 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-11-06",
+  "last_updated": "2026-11-09",
   "stories": [
-    {
-      "story_id": "story_20261023_uk_working_to_identify_exposure_aft",
-      "story_chain_id": "chain_global_uk_working_to_identi",
-      "headline": "UK working to identify exposure after global cyber-security warning",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 84
-    },
-    {
-      "story_id": "story_20261023_deepseek_reportedly_raises_15b_days",
-      "story_chain_id": "chain_global_deepseek_reportedly_",
-      "headline": "DeepSeek reportedly raises $15B days after US restrictions",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 75
-    },
-    {
-      "story_id": "story_20261023_ai_firms_say_uk_has_a_year_to_head_",
-      "story_chain_id": "chain_global_ai_firms_say_uk_has_",
-      "headline": "AI firms say UK has a year to head off datacentre protests before construction is threatened",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261023_cognizant_acquires_dyflex_solutions",
-      "story_chain_id": "chain_global_cognizant_acquires_d",
-      "headline": "Cognizant acquires DyFlex Solutions to enhance AI and SAP transformation capabilities",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/information-tech/cognizant-acquires-dyflex-solutions-to-enhance-ai-and-sap-transformation-capabilities/articleshow/135120601.cms"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
-    {
-      "story_id": "story_20261023_1password_lets_ai_agents_use_your_p",
-      "story_chain_id": "chain_global_1password_lets_ai_ag",
-      "headline": "1Password lets AI agents use your passwords without seeing them",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
-    {
-      "story_id": "story_20261023_malaysia_s_tuju_app_struggles_after",
-      "story_chain_id": "chain_global_malaysia_s_tuju_app_",
-      "headline": "Malaysia’s TuJu app struggles after Anwar suggests switching from Waze",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://www.scmp.com/news/asia/southeast-asia/article/3371744/malaysias-tuju-app-struggles-after-anwar-suggests-switching-waze"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 68
-    },
-    {
-      "story_id": "story_20261023_meta_beats_expectations_but_legal_p",
-      "story_chain_id": "chain_global_meta_beats_expectati",
-      "headline": "Meta beats expectations but legal penalties hit profit amid AI race",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/technology/meta-beats-expectations-but-legal-penalties-hit-profit-amid-ai-race/articleshow/135105927.cms"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 68
-    },
-    {
-      "story_id": "story_20261023_walmart_launches_tools_for_ai_agent",
-      "story_chain_id": "chain_global_walmart_launches_too",
-      "headline": "Walmart launches tools for AI agents to shop for customers",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/tech-bytes/walmart-launches-tools-for-ai-agents-to-shop-for-customers/articleshow/135104524.cms"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 68
-    },
-    {
-      "story_id": "story_20261023_ai_found_php_flaws_push_governments",
-      "story_chain_id": "chain_global_ai_found_php_flaws_p",
-      "headline": "AI-found PHP flaws push governments to take websites offline",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.aljazeera.com/news/2026/10/22/world-leaders-warn-against-security-flaw-found-in-php-computer-programming"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261023_outside_evaluators_found_holes_in_o",
-      "story_chain_id": "chain_global_outside_evaluators_f",
-      "headline": "Outside evaluators found holes in OpenAI's agent-monitoring system",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261023_thousands_of_ai_agents_read_a_mouse",
-      "story_chain_id": "chain_global_thousands_of_ai_agen",
-      "headline": "Thousands of AI agents read a mouse-brain atlas in 32 minutes",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://openai.com/index/scaling-ai-research-for-complex-biological-data"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261023_iflytek_open_sources_spark_x2_6_bui",
-      "story_chain_id": "chain_global_iflytek_open_sources",
-      "headline": "iFlytek open-sources Spark X2.6, built on Chinese chips",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://www.globaltimes.cn/page/202610/1372798.shtml"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261023_korea_and_us_air_forces_sign_a_pact",
-      "story_chain_id": "chain_global_korea_and_us_air_for",
-      "headline": "Korea and US air forces sign a pact on AI drone wingmen",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://en.yna.co.kr/view/AEN20261022003000315"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261023_chariot_launches_a_real_time_speech",
-      "story_chain_id": "chain_global_chariot_launches_a_r",
-      "headline": "Chariot launches a real-time speech model for 10 Indian languages",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://enterpriseai.economictimes.indiatimes.com/news/industry/indian-ai-startup-chariot-launches-real-time-speech-ai-model-claims-edge-over-google-and-sarvam/135116798"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261023_streameval_evaluating_interactive_s",
-      "story_chain_id": "chain_global_streameval_evaluatin",
-      "headline": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://arxiv.org/abs/2610.28402"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261023_singapore_opens_a_national_embodied",
-      "story_chain_id": "chain_global_singapore_opens_a_na",
-      "headline": "Singapore opens a national embodied-AI challenge for chip factories",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://technode.global/2026/10/22/singapore-launches-first-national-embodied-ai-challenge-to-accelerate-real-world-robotics-deployment-in-manufacturing/"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261023_karta_ai_raises_3_million_dollars_t",
-      "story_chain_id": "chain_global_karta_ai_raises_3_mi",
-      "headline": "Karta AI raises 3 million dollars to automate bank and lender support calls",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://inc42.com/buzz/karta-ai-raises-3-mn-to-automate-inbound-calls-for-bfsi-players/"
-      ],
-      "first_covered": "2026-10-23",
-      "last_major_update": "2026-10-23",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261024_openai_nears_up_to_30_billion_fundi",
-      "story_chain_id": "chain_global_openai_nears_up_to_3",
-      "headline": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 87
-    },
-    {
-      "story_id": "story_20261024_someone_hacked_the_switch_2_by_usin",
-      "story_chain_id": "chain_global_someone_hacked_the_s",
-      "headline": "Someone hacked the Switch 2 by using an old game and AI",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 74
-    },
-    {
-      "story_id": "story_20261024_experts_cast_doubt_on_anthropic_rep",
-      "story_chain_id": "chain_global_experts_cast_doubt_o",
-      "headline": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261024_1password_launches_a_way_for_ai_age",
-      "story_chain_id": "chain_global_1password_launches_a",
-      "headline": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261024_the_guardian_view_on_ai_safety_the_",
-      "story_chain_id": "chain_global_the_guardian_view_on",
-      "headline": "The Guardian view on AI safety: the push for global regulation must advance | Editorial",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/commentisfree/2026/oct/22/the-guardian-view-on-ai-safety-the-push-for-global-regulation-must-advance"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261024_etsy_bans_ai_generated_recipes_and_",
-      "story_chain_id": "chain_global_etsy_bans_ai_generat",
-      "headline": "Etsy bans AI-generated recipes and patterns from its online marketplace",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/22/etsy-bans-ai-generated-recipes-patterns-from-its-online-marketplace.html"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261024_oppo_find_x10_and_x10_pro_max_launc",
-      "story_chain_id": "chain_global_oppo_find_x10_and_x1",
-      "headline": "Oppo Find X10 and X10 Pro Max launched in India: Triple 200MP cameras, 8,000 mAh battery, check price",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://www.livemint.com/technology/gadgets/oppo-find-x10-and-x10-pro-max-launched-in-india-triple-200mp-cameras-8-000-mah-battery-check-price-11792742409318.html"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
-    {
-      "story_id": "story_20261024_php_security_flaw_india_activates_e",
-      "story_chain_id": "chain_global_php_security_flaw_in",
-      "headline": "PHP security flaw: India activates emergency response; takes apps offline amid a global alert",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/technology/php-security-flaw-india-activates-emergency-response-takes-apps-offline-amid-global-security-scramble/articleshow/135133793.cms"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 68
-    },
-    {
-      "story_id": "story_20261024_claude_writes_machine_checked_proof",
-      "story_chain_id": "chain_global_claude_writes_machin",
-      "headline": "Claude writes machine-checked proofs for 123 open-source libraries",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.anthropic.com/research/formal-verification"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261024_us_military_tests_a_robot_strike_te",
-      "story_chain_id": "chain_global_us_military_tests_a_",
-      "headline": "US military tests a robot strike team meant to go ahead of troops",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.stripes.com/theaters/europe/2026-10-23/eucom-darpa-robots-23236887.html"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261024_microsoft_s_diagnostic_ai_beats_gen",
-      "story_chain_id": "chain_global_microsoft_s_diagnost",
-      "headline": "Microsoft's diagnostic AI beats generalist doctors on hard cases, per Science",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.science.org/doi/10.1126/science.aeh7930"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261024_deepseek_is_reported_to_be_closing_",
-      "story_chain_id": "chain_global_deepseek_is_reported",
-      "headline": "DeepSeek is reported to be closing a 15 billion dollars round",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://www.thestandard.com.hk/china/article/346171/DeepSeek-wrapping-up-15-billion-fundraising-to-fuel-AI-race"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261024_india_is_building_its_own_military_",
-      "story_chain_id": "chain_global_india_is_building_it",
-      "headline": "India is building its own military AI layer",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://www.thehindubusinessline.com/news/defence-ministry-ai-mission-join-hands-to-build-secure-military-ai-layer-says-rk-singh/article71616224.ece"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261024_minimax_opens_its_flash_model_weigh",
-      "story_chain_id": "chain_global_minimax_opens_its_fl",
-      "headline": "MiniMax opens its Flash model weights; ByteDance ships 4K video",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://www.yicai.com/news/103405400.html"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261024_vaishnaw_says_an_ai_consultation_pa",
-      "story_chain_id": "chain_global_vaishnaw_says_an_ai_",
-      "headline": "Vaishnaw says an AI consultation paper is weeks away",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://www.ndtvprofit.com/technology/ndtv-world-summit-2026-ai-law-in-the-works-ashwini-vaishnaw-outlines-regulation-roadmap-12226117"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261024_rogue_ai_agents_reached_indian_firm",
-      "story_chain_id": "chain_global_rogue_ai_agents_reac",
-      "headline": "Rogue AI agents reached Indian firms' confidential data, officials say",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://indianexpress.com/article/business/ai-agents-india-cybersecurity-risks-cert-in-advisory-10932810/"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261024_tech_mahindra_signs_on_to_use_grok_",
-      "story_chain_id": "chain_global_tech_mahindra_signs_",
-      "headline": "Tech Mahindra signs on to use Grok Build",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://www.indiatoday.in/technology/news/story/tech-mahindra-teams-up-with-spacexsi-to-bring-elon-musks-ai-into-business-workflows-3023264-2026-10-23"
-      ],
-      "first_covered": "2026-10-24",
-      "last_major_update": "2026-10-24",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261025_openai_resumes_frontier_training_be",
-      "story_chain_id": "chain_global_openai_resumes_front",
-      "headline": "OpenAI resumes frontier training behind tighter walls, and flags a Brotli flaw",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://indianexpress.com/article/technology/artificial-intelligence/openai-resumes-ai-training-security-overhaul-brotli-flaw-10935166/"
-      ],
-      "first_covered": "2026-10-25",
-      "last_major_update": "2026-10-25",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261025_american_express_cuts_5_of_staff_to",
-      "story_chain_id": "chain_global_american_express_cut",
-      "headline": "American Express cuts 5% of staff to \"prepare for AI\"",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html"
-      ],
-      "first_covered": "2026-10-25",
-      "last_major_update": "2026-10-25",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261025_openai_says_it_will_no_longer_train",
-      "story_chain_id": "chain_global_openai_says_it_will_",
-      "headline": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
-      ],
-      "first_covered": "2026-10-25",
-      "last_major_update": "2026-10-25",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261025_moonshot_s_kimi_k3_1_pro_nears_the_",
-      "story_chain_id": "chain_global_moonshot_s_kimi_k3_1",
-      "headline": "Moonshot's Kimi K3.1 Pro nears the frontier, with its hacking skills trimmed",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://www.investing.com/news/stock-market-news/moonshot-curbs-hacking-ability-in-new-kimi-model-as-fears-grow-over-aipowered-cyberattacks-4970639"
-      ],
-      "first_covered": "2026-10-25",
-      "last_major_update": "2026-10-25",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261025_japan_will_rebuild_its_defence_rese",
-      "story_chain_id": "chain_global_japan_will_rebuild_i",
-      "headline": "Japan will rebuild its defence research around AI and cyber",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://asia.nikkei.com/politics/defense/japan-to-reorganize-defense-research-around-ai-cyber"
-      ],
-      "first_covered": "2026-10-25",
-      "last_major_update": "2026-10-25",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261025_it_secretary_says_ai_needs_more_reg",
-      "story_chain_id": "chain_global_it_secretary_says_ai",
-      "headline": "IT Secretary says AI needs more regulation, and 23,000 more GPUs are coming",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/ai/ai-insights/centre-recognises-ai-needs-more-regulation-it-secretary/articleshow/135154257.cms"
-      ],
-      "first_covered": "2026-10-25",
-      "last_major_update": "2026-10-25",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261025_cohere_opens_a_confidential_computi",
-      "story_chain_id": "chain_global_cohere_opens_a_confi",
-      "headline": "Cohere opens a confidential-computing vault for its models",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault"
-      ],
-      "first_covered": "2026-10-25",
-      "last_major_update": "2026-10-25",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261025_uk_to_invest_100m_in_world_first_ai",
-      "story_chain_id": "chain_global_uk_to_invest_100m_in",
-      "headline": "UK to invest £100m in 'world first' AI Biosecurity Lab",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss"
-      ],
-      "first_covered": "2026-10-25",
-      "last_major_update": "2026-10-25",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261025_china_s_cabinet_tells_agencies_to_s",
-      "story_chain_id": "chain_global_china_s_cabinet_tell",
-      "headline": "China's cabinet tells agencies to soften AI's hit on jobs",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://english.www.gov.cn/policies/latestreleases/202610/23/content_WS6adb4e53c6d00ca5f9a0deb7.html"
-      ],
-      "first_covered": "2026-10-25",
-      "last_major_update": "2026-10-25",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
     {
       "story_id": "story_20261026_r_opensource_just_banned_ai_non_eng",
       "story_chain_id": "chain_global_r_opensource_just_ba",
@@ -3136,6 +2491,441 @@
       "last_major_update": "2026-11-06",
       "update_phase": "initial_break",
       "impact_score": 66
+    },
+    {
+      "story_id": "story_20261106_openai_launches_gpt_6_cyber_and_rat",
+      "story_chain_id": "chain_global_openai_launches_gpt_",
+      "headline": "OpenAI launches GPT-6 Cyber and rates it \"Critical\" for cyber risk",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://thenextweb.com/news/openai-gpt-6-cyber-launch-firefox-linux-daybreak-red"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261106_metr_finds_ai_is_helping_anthropic_",
+      "story_chain_id": "chain_global_metr_finds_ai_is_hel",
+      "headline": "METR finds AI is helping Anthropic improve its models about twice as fast",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261106_china_cracks_down_on_ai_fakes_that_",
+      "story_chain_id": "chain_global_china_cracks_down_on",
+      "headline": "China cracks down on AI fakes that impersonate celebrities",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.chinadaily.com.cn/a/202611/06/WS6aed9477e4b03ebf8519ad91.html"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261106_india_s_cert_in_asks_organisations_",
+      "story_chain_id": "chain_global_india_s_cert_in_asks",
+      "headline": "India's CERT-In asks organisations to audit what their AI agents can access and do",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://timesofindia.indiatimes.com/business/india-business/cert-in-seeks-checks-on-access-of-ai-agents/articleshow/135589474.cms"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261106_nato_opens_a_counter_drone_marketpl",
+      "story_chain_id": "chain_global_nato_opens_a_counter",
+      "headline": "NATO opens a counter-drone marketplace as Shield AI agrees to buy Echodyne",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.aerotime.aero/articles/nato-counter-drone-marketplace-16-systems"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261106_vflash_fast_accurate_visual_plannin",
+      "story_chain_id": "chain_global_vflash_fast_accurate",
+      "headline": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.08449"
+      ],
+      "first_covered": "2026-11-06",
+      "last_major_update": "2026-11-06",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261107_hundreds_of_artex_ai_hacking_tools_",
+      "story_chain_id": "chain_global_hundreds_of_artex_ai",
+      "headline": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+      ],
+      "first_covered": "2026-11-07",
+      "last_major_update": "2026-11-07",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261107_three_men_charged_in_us_with_using_",
+      "story_chain_id": "chain_global_three_men_charged_in",
+      "headline": "Three men charged in US with using AI to impersonate CEOs and steal millions",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft"
+      ],
+      "first_covered": "2026-11-07",
+      "last_major_update": "2026-11-07",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261107_activists_break_into_building_site_",
+      "story_chain_id": "chain_global_activists_break_into",
+      "headline": "Activists break into building site of Microsoft datacentre in Amsterdam",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theguardian.com/world/2026/nov/06/activists-break-into-building-site-of-microsoft-datacentre-in-amsterdam"
+      ],
+      "first_covered": "2026-11-07",
+      "last_major_update": "2026-11-07",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261107_usda_to_launch_ai_tool_to_check_cro",
+      "story_chain_id": "chain_global_usda_to_launch_ai_to",
+      "headline": "USDA to launch AI tool to check crop production data after errors",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/usda-to-launch-ai-tool-to-check-crop-production-data-after-errors/articleshow/135626006.cms"
+      ],
+      "first_covered": "2026-11-07",
+      "last_major_update": "2026-11-07",
+      "update_phase": "initial_break",
+      "impact_score": 71
+    },
+    {
+      "story_id": "story_20261107_huawei_releases_standalone_harmonyo",
+      "story_chain_id": "chain_global_huawei_releases_stan",
+      "headline": "Huawei Releases Standalone HarmonyOS PC Assistant With Office Task Automation",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/huawei-harmonyos-pc-standalone-assistant-work-office-agent-release"
+      ],
+      "first_covered": "2026-11-07",
+      "last_major_update": "2026-11-07",
+      "update_phase": "initial_break",
+      "impact_score": 69
+    },
+    {
+      "story_id": "story_20261107_unitree_and_star_plus_legend_launch",
+      "story_chain_id": "chain_global_unitree_and_star_plu",
+      "headline": "Unitree and Star Plus Legend Launch Limited-Edition UNI-DOGGIE Robot at 43,900 Yuan",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/unitree-star-plus-legend-uni-doggie-collectible-robot-dog"
+      ],
+      "first_covered": "2026-11-07",
+      "last_major_update": "2026-11-07",
+      "update_phase": "initial_break",
+      "impact_score": 69
+    },
+    {
+      "story_id": "story_20261107_deep_robotics_launches_x50_quadrupe",
+      "story_chain_id": "chain_global_deep_robotics_launch",
+      "headline": "DEEP Robotics Launches X50 Quadruped With a Claimed 50-Kilogram Working Payload",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/deep-robotics-x50-heavy-duty-quadruped-50kg-payload-inspection-firefighting"
+      ],
+      "first_covered": "2026-11-07",
+      "last_major_update": "2026-11-07",
+      "update_phase": "initial_break",
+      "impact_score": 69
+    },
+    {
+      "story_id": "story_20261107_crusoe_sells_troubled_wyoming_data_",
+      "story_chain_id": "chain_global_crusoe_sells_trouble",
+      "headline": "Crusoe sells troubled Wyoming data center project to Google",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+      ],
+      "first_covered": "2026-11-07",
+      "last_major_update": "2026-11-07",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261107_lanarkshire_ai_datacentre_to_fully_",
+      "story_chain_id": "chain_global_lanarkshire_ai_datac",
+      "headline": "Lanarkshire AI datacentre to fully rely on National Grid despite renewables claim",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/uk-news/2026/nov/07/lanarkshire-ai-datacentre-datavita-chapelhall-national-grid-renewable-energy"
+      ],
+      "first_covered": "2026-11-07",
+      "last_major_update": "2026-11-07",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261107_tech_companies_face_mounting_child_",
+      "story_chain_id": "chain_global_tech_companies_face_",
+      "headline": "Tech companies face mounting child safety lawsuits while pushing AI into schools",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html"
+      ],
+      "first_covered": "2026-11-07",
+      "last_major_update": "2026-11-07",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261108_cainiao_opens_its_global_warehouse_",
+      "story_chain_id": "chain_global_cainiao_opens_its_gl",
+      "headline": "Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/cainiao-global-warehouse-network-embodied-ai-robot-training-tech-export-three-day-delivery"
+      ],
+      "first_covered": "2026-11-08",
+      "last_major_update": "2026-11-08",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261108_megaspeed_exec_was_recruited_to_spy",
+      "story_chain_id": "chain_global_megaspeed_exec_was_r",
+      "headline": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+      ],
+      "first_covered": "2026-11-08",
+      "last_major_update": "2026-11-08",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261108_amazon_s_astro_home_robot_has_fans_",
+      "story_chain_id": "chain_global_amazon_s_astro_home_",
+      "headline": "Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/08/amazon-home-robot-fauna-sprout.html"
+      ],
+      "first_covered": "2026-11-08",
+      "last_major_update": "2026-11-08",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261108_chinese_ai_lab_moonshot_turned_to_e",
+      "story_chain_id": "chain_global_chinese_ai_lab_moons",
+      "headline": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html"
+      ],
+      "first_covered": "2026-11-08",
+      "last_major_update": "2026-11-08",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261108_india_flags_chinese_linked_ai_tools",
+      "story_chain_id": "chain_global_india_flags_chinese_",
+      "headline": "India flags Chinese-linked AI tools in hacking campaign against financial firms",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/india-flags-chinese-linked-ai-tools-in-hacking-campaign-against-financial-firms/articleshow/135566096.cms"
+      ],
+      "first_covered": "2026-11-08",
+      "last_major_update": "2026-11-08",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261108_ai_clog_uk_public_bodies_battle_ons",
+      "story_chain_id": "chain_global_ai_clog_uk_public_bo",
+      "headline": "‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence"
+      ],
+      "first_covered": "2026-11-08",
+      "last_major_update": "2026-11-08",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261108_china_merchants_lionrock_ai_lab_ope",
+      "story_chain_id": "chain_global_china_merchants_lion",
+      "headline": "China Merchants' LionRock AI Lab Open-Sources Lion-ER-35B-A3B Embodied Reasoning Model",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/china-merchants-lionrock-ai-lab-lion-er-35b-a3b-embodied-reasoning-model-open-source"
+      ],
+      "first_covered": "2026-11-08",
+      "last_major_update": "2026-11-08",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261108_china_unveils_an_ai_agent_identity_",
+      "story_chain_id": "chain_global_china_unveils_an_ai_",
+      "headline": "China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign Self-Discipline Pact",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/wuzhen-ai-agent-identity-registration-resolution-platform-self-discipline-convention"
+      ],
+      "first_covered": "2026-11-08",
+      "last_major_update": "2026-11-08",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261108_moxin_technology_launches_moworld_2",
+      "story_chain_id": "chain_global_moxin_technology_lau",
+      "headline": "Moxin Technology Launches MoWorld 2.0, an Ascend-Native 4D World Model That Simulates Physics",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/moxin-technology-moworld-2-0-ascend-native-4d-world-model-physics-gaussian-assets"
+      ],
+      "first_covered": "2026-11-08",
+      "last_major_update": "2026-11-08",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261108_cashfree_launches_checkout_for_agen",
+      "story_chain_id": "chain_global_cashfree_launches_ch",
+      "headline": "Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://inc42.com/buzz/cashfree-launches-checkout-for-agents-to-enable-ai-led-payments/"
+      ],
+      "first_covered": "2026-11-08",
+      "last_major_update": "2026-11-08",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261108_advances_in_agentic_computer_graphi",
+      "story_chain_id": "chain_global_advances_in_agentic_",
+      "headline": "Advances in Agentic Computer Graphics",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.01860"
+      ],
+      "first_covered": "2026-11-08",
+      "last_major_update": "2026-11-08",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261109_explained_why_nvidia_shares_dropped",
+      "story_chain_id": "chain_global_explained_why_nvidia",
+      "headline": "Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts warn can trigger a bloodbath?",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/explained-why-nvidia-shares-dropped-4-in-overnight-trade-and-what-analysts-warn-can-trigger-a-bloodbath/articleshow/135678630.cms"
+      ],
+      "first_covered": "2026-11-09",
+      "last_major_update": "2026-11-09",
+      "update_phase": "initial_break",
+      "impact_score": 79
+    },
+    {
+      "story_id": "story_20261109_topstar_unveils_star_a_full_size_in",
+      "story_chain_id": "chain_global_topstar_unveils_star",
+      "headline": "Topstar Unveils Star, a Full-Size Industrial Biped Humanoid, and S400 Machine for Robot Parts",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/topstar-star-industrial-biped-humanoid-s400-five-axis-machine"
+      ],
+      "first_covered": "2026-11-09",
+      "last_major_update": "2026-11-09",
+      "update_phase": "initial_break",
+      "impact_score": 69
     }
   ],
   "entity_index": {}

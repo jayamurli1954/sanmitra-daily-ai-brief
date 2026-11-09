@@ -1,0 +1,44 @@
+AI Brief — Tuesday, 10 November 2026 (IST) — covering Monday 9 November 2026
+
+> Nvidia's board has opened an independent investigation after reports that Jensen Huang was targeted by Chinese intelligence, and Huang admitted an affair in a staff memo; China calls the spy claim groundless.
+> MIT unveiled one AI model that simulates everything from sand to proteins, Apple Intelligence was cleared for iPads and Macs in China, Korean NPUs will pair with Nvidia GPUs, and India's CERT-In set AI security audit rules.
+
+# WORLD
+
+### Nvidia's board opens an independent probe into reports its CEO was a spy target
+No major military AI incident was confirmed in the window. Nvidia's board said on Sunday (US time) that a committee of independent directors, helped by outside counsel, will investigate reports that founder and CEO Jensen Huang was the target of a foreign intelligence effort. The board said it has "no reason to believe that either national security or NVIDIA secrets were compromised" and still has confidence in Huang. In an email to staff, Huang admitted being unfaithful to his wife and said he will cooperate fully. CNBC reports, citing The New York Times and the Financial Times, that US intelligence agencies believe the woman involved, Alice Huang of Nvidia customer Megaspeed, has been passing information to Beijing; that is a reported intelligence assessment, not a court finding. On Monday China's foreign ministry called the spy allegation "groundless" and "a smear against China," NPR reports. Nvidia says Huang will keep leading the company without interruption. (Theme: AI industry and startup news)
+Source: NVIDIA https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors
+Also: CNBC https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html
+Also: NPR https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy
+
+# USA
+
+### One MIT model simulates sand, fluids and folding proteins
+Researchers at MIT, the University of British Columbia and elsewhere introduced WorldParticle, a single deep-learning system that represents every material as tiny particles and predicts how they move step by step, instead of using a separate simulator for each kind of physics. Because it learns the dynamics rather than following a fixed equation, the team says it can adapt to materials and forces it never saw in training. In tests on six physical phenomena, including deformable objects, granular materials and proteins, the researchers report higher accuracy than numerical simulation methods, and they say it modelled protein structure changes about 100 times faster. These are the authors' own results. Possible uses include soft robots and medicine design. No major US model launch or funding close was confirmed in the window. (Theme: AI breakthroughs)
+Source: MIT News https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109
+
+# CHINA
+
+### Apple Intelligence is registered for iPads and Macs in China
+Shanghai's cyberspace regulator said on Monday that Apple Intelligence, Apple's generative AI service, has been registered for use on tablets and laptops in China, Reuters reports. China requires large language models and generative AI services to be registered before they are offered to the public, and Apple's service was approved for iPhones in July. Neither the regulator nor the report gave a rollout date for iPads and Macs. (Theme: AI policy and regulation)
+Source: Reuters (via StreetInsider) https://www.streetinsider.com/Reuters/Apple+Intelligence+AI+service+registers+with+Chinese+regulator+for+use+on+tablets%2C+laptops/27310788.html
+
+# ASIA
+
+### Korean AI chips will run beside Nvidia GPUs in SK Telecom's data centre
+At Nvidia AI Day Seoul on Monday, Nvidia, Rebellions and SK Telecom signed a memorandum of understanding to build combined GPU and NPU systems. Rebellions will connect its next-generation Rebel R200 neural processing units to Nvidia's platform with NVLink Fusion and use Nvidia's MGX rack design, and SK Telecom plans to test and deploy the systems in its AI data centre. The plan splits AI answers into two stages: Nvidia GPUs handle "prefill," the heavy work of reading a prompt, while Rebellions' chips handle "decode," producing the answer word by word, which the companies hope will raise throughput and cut power use. Korea's Ministry of Science and ICT backs the effort, and R200 systems are expected to be ready in 2028. This is an MOU, so the performance gains are goals, not results. Seoul Economic Daily adds that Nvidia also announced investment plans for Korean AI and robotics startups. (Theme: Technology trends)
+Source: NVIDIA https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion
+Also: Seoul Economic Daily https://en.sedaily.com/technology/2026/11/09/korean-npus-gain-nvidia-gpu-link-in-bid-for-global-ai
+
+# INDIA
+
+### CERT-In issues guidelines for auditing the security of AI systems
+India's national cybersecurity agency, CERT-In, has issued AI Security Auditing Guidelines version 1.0, Industrial Cyber reported on Monday. The framework applies to AI that organisations in India build, buy, deploy or run, and to systems that process Indian data or serve Indian users. It sorts AI into four risk tiers, from low to critical, which set how deep, frequent and independent audits must be, and it lists nine audit areas from governance and data quality to human oversight and supply-chain checks. Extra rules cover generative and agentic AI, including prompt injection, data and model poisoning, and "excessive agency." The report did not give an exact release date. (Theme: AI policy and regulation)
+Source: Industrial Cyber https://industrialcyber.co/ai/indias-cert-in-issues-ai-security-auditing-guidelines-targeting-model-poisoning-prompt-injection-agentic-ai-threats/
+
+### Airtel builds its own AI agent platform, Agent Bridge
+Bharti Airtel told analysts on its Q2 FY27 earnings call that it has built an in-house AI agent platform called Agent Bridge and added GPU capacity across its data centres, which it says helps it deploy AI faster in customer service and internal work. The company uses AI in support bots, video KYC, broadband fieldwork and network energy management, and is studying managed GPU services and a wider enterprise AI offering through Airtel Cloud. These are company statements; Airtel did not say which applications run on Agent Bridge. (Theme: New AI models and tools)
+Source: TelecomTalk https://telecomtalk.info/bhartiairtel-builds-agent-ai-platform-gpu-capacity/1013766/
+
+—
+Want this daily? Follow me and tap the bell on my profile.

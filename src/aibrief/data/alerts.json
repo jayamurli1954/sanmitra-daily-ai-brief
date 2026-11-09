@@ -1,5 +1,72 @@
 [
   {
+    "timestamp": "2026-11-09T19:40:46.310606",
+    "severity": "HIGH",
+    "message": "Episode failed Editorial Quality Gate (Composite: 58.5/100)",
+    "score_details": {
+      "date": "2026-11-09",
+      "composite_quality_score": 58.5,
+      "passes_quality_gate": false,
+      "threshold": 80.0,
+      "freshness_score": 95.0,
+      "source_authority_score": 0.0,
+      "bureau_balance_score": 50.0,
+      "active_bureaus": [],
+      "duplication_score": 100.0,
+      "visual_freshness_score": 65.0,
+      "category_distribution": {
+        "hardware": 3,
+        "semiconductor": 1,
+        "datacenter": 2,
+        "boardroom": 1,
+        "defense": 1,
+        "research": 1,
+        "researcher": 2,
+        "policy": 1
+      },
+      "failed_checks": [
+        "Average Source Authority 0.0 < 85.0 required",
+        "Only 0 bureaus active (minimum 3 required)",
+        "Visual diversity cap exceeded in categories: ['hardware']"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-11-09T19:37:33.481341",
+    "severity": "HIGH",
+    "message": "Episode failed Editorial Quality Gate (Composite: 76.0/100)",
+    "score_details": {
+      "date": "2026-11-09",
+      "composite_quality_score": 76.0,
+      "passes_quality_gate": false,
+      "threshold": 80.0,
+      "freshness_score": 95.0,
+      "source_authority_score": 70.0,
+      "bureau_balance_score": 50.0,
+      "active_bureaus": [
+        "USA",
+        "CHINA"
+      ],
+      "duplication_score": 100.0,
+      "visual_freshness_score": 65.0,
+      "category_distribution": {
+        "hardware": 3,
+        "semiconductor": 1,
+        "datacenter": 2,
+        "boardroom": 1,
+        "defense": 1,
+        "research": 1,
+        "researcher": 2,
+        "policy": 1
+      },
+      "failed_checks": [
+        "Average Source Authority 70.0 < 85.0 required",
+        "Only 2 bureaus active (minimum 3 required)",
+        "Visual diversity cap exceeded in categories: ['hardware']"
+      ]
+    }
+  },
+  {
     "timestamp": "2026-11-06T20:32:36.791345",
     "severity": "HIGH",
     "message": "Episode failed Editorial Quality Gate (Composite: 77.0/100)",

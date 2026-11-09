@@ -1,0 +1,479 @@
+{
+  "weekly": false,
+  "date": "2026-11-06",
+  "formattedDate": "06 November 2026",
+  "title": "OpenAI launches GPT-6 Cyber and | METR finds AI is helping Anthropic | Google sued over suicide-related | AI News 06 November 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking today: OpenAI launches GPT-6 Cyber and rates it \"Critical\" for cyber risk. From the SanMitra Newsroom, this is the Daily AI Brief for 06 November 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_openai_launches_gpt_6_cyber_and",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "OpenAI launches GPT-6 Cyber and rates it \"Critical\" for cyber risk",
+      "subheadline": "Source: The Next Web",
+      "importanceScore": 99,
+      "durationSeconds": 47,
+      "source": "The Next Web",
+      "sourceUrl": "https://thenextweb.com/news/openai-gpt-6-cyber-launch-firefox-linux-daybreak-red",
+      "researchDesk": "",
+      "script": "Our lead story today. OpenAI has launched GPT-6 Cyber, a model built to discover and confirm exploitable weaknesses in software while keeping within the boundaries a security researcher defines. Under its own safety framework, the company classifies the model's cyber capability as \"Critical\". As a result, access is currently limited to chosen customers in its Daybreak Red programme, via the API and Codex, though OpenAI intends to broaden availability over the next few weeks. According to the company, the model uncovered 81 high-severity vulnerabilities in Firefox that had not been known before. It also achieved 48.5 percent on OpenAI's ExploitGym benchmark, compared with 32.1 percent for GPT-5.6 Cyber. Those results come from OpenAI itself.",
+      "whyThisMatters": "OpenAI has launched GPT-6 Cyber, a model built to discover and confirm exploitable weaknesses in software while keeping within the boundaries a security researcher defines.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "OpenAI launches GPT-6 Cyber and rates it \"Critical\" for cyber risk",
+        "The Next Web"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s1_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s1_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s1_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_metr_finds_ai_is_helping_anthrop",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "METR finds AI is helping Anthropic improve its models about twice as fast",
+      "subheadline": "Source: METR",
+      "importanceScore": 95,
+      "durationSeconds": 53,
+      "source": "METR",
+      "sourceUrl": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "researchDesk": "",
+      "script": "Also today. The independent evaluator METR has released an assessment of Anthropic's internal research covering August to October. METR estimates that the capabilities of Anthropic's models are advancing roughly 1.9 times faster than they did between March 2024 and October 2025. It says AI tools that accelerate employees' coding and experimental work likely explain most of that gain. METR said it saw no obvious constraint that would prevent further acceleration within the next year. However, Anthropic blacked out much of the evidence METR regarded as most revealing, pointing to competitive confidentiality, which means the full grounds for the findings cannot be verified publicly. If AI is now hastening the creation of its own successors, progress could speed up sharply, raising the stakes for independent measurement and openness.",
+      "whyThisMatters": "The independent evaluator METR has released an assessment of Anthropic's internal research covering August to October.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "METR finds AI is helping Anthropic improve its models about twice as fast",
+        "METR"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s2_cut1.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s2_cut2.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s2_cut3.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_google_sued_over_suicide_related",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google sued over suicide-related AI chats on school computer",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 95,
+      "durationSeconds": 36,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-sued-over-suicide-related-ai-chats-on-school-computer/articleshow/135591823.cms",
+      "researchDesk": "",
+      "script": "In other news. Google is being sued by the parents of a 13-year-old girl, according to The Economic Times. They allege that she used the company's AI technology, on a computer provided by her school, to plan a possible suicide and her own funeral. AI developers in the United States face a growing number of similar cases. OpenAI is contesting several wrongful death lawsuits, including one brought by the parents of Adam Raine, a 16-year-old who allegedly took his own life using methods suggested by ChatGPT.",
+      "whyThisMatters": "Google is being sued by the parents of a 13-year-old girl, according to The Economic Times.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Google sued over suicide-related AI chats on school computer",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s3_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s3_cut2.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s3_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_china_cracks_down_on_ai_fakes_th",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "China cracks down on AI fakes that impersonate celebrities",
+      "subheadline": "Source: China Daily",
+      "importanceScore": 90,
+      "durationSeconds": 34,
+      "source": "China Daily",
+      "sourceUrl": "https://www.chinadaily.com.cn/a/202611/06/WS6aed9477e4b03ebf8519ad91.html",
+      "researchDesk": "",
+      "script": "In China. The Cyberspace Administration of China, the country's internet regulator, says it has taken down more than 47,000 posts and punished 3,961 accounts that used artificial intelligence to pose as celebrities, China Daily reports. The crackdown focuses on AI-generated faces and voices used to deceive the public or promote products. With convincing deepfakes now cheap to produce, impersonation of famous people has become a large-scale problem, and regulators are beginning to target the accounts behind it as well as the content itself.",
+      "whyThisMatters": "The Cyberspace Administration of China, the country's internet regulator, says it has taken down more than 47,000 posts and punished 3,961 accounts that used artificial intelligence to pose as celebrities, China Daily re",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "China cracks down on AI fakes that impersonate celebrities",
+        "China Daily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s4_cut1.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s4_cut2.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s4_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_india_s_cert_in_asks_organisatio",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "India's CERT-In asks organisations to audit what their AI agents can access and do",
+      "subheadline": "Source: The Times of India",
+      "importanceScore": 90,
+      "durationSeconds": 52,
+      "source": "The Times of India",
+      "sourceUrl": "https://timesofindia.indiatimes.com/business/india-business/cert-in-seeks-checks-on-access-of-ai-agents/articleshow/135589474.cms",
+      "researchDesk": "",
+      "script": "Turning to India. CERT-In, India's national cybersecurity agency, has urged organisations to check whether their AI agents could leak confidential data or take actions they were never permitted to perform, The Times of India reports. The agency's AI security auditing guidelines call for strict controls on permissions, a log of every step an agent takes, an emergency mechanism to halt an agent, and sign-off from a human before any significant action. The guidance also addresses prompt injection, in which harmful instructions concealed in documents, emails or web pages attempt to hijack an agent. Indian companies are beginning to let AI agents reach email, files, internal systems and financial data, and the guidelines treat agent permissions and audit records as a core security safeguard from the outset.",
+      "whyThisMatters": "CERT-In, India's national cybersecurity agency, has urged organisations to check whether their AI agents could leak confidential data or take actions they were never permitted to perform, The Times of India reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "India's CERT-In asks organisations to audit what their AI agents can access and ",
+        "The Times of India"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s5_cut1.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s5_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s5_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_nato_opens_a_counter_drone_marke",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "NATO opens a counter-drone marketplace as Shield AI agrees to buy Echodyne",
+      "subheadline": "Source: AeroTime",
+      "importanceScore": 90,
+      "durationSeconds": 48,
+      "source": "AeroTime",
+      "sourceUrl": "https://www.aerotime.aero/articles/nato-counter-drone-marketplace-16-systems",
+      "researchDesk": "",
+      "script": "Around the world. NATO's communications agency has launched a marketplace where allied nations can buy from a list of 16 pre-approved counter-drone systems, without having to hold tenders of their own, AeroTime reports. An additional 3.1 million euros has been earmarked for more testing. The French company Alta Ares, which develops interceptors powered by artificial intelligence, says it secured six of the 16 lots. In a separate deal, Shield AI, the company behind the Hivemind AI pilot, has agreed to acquire radar manufacturer Echodyne to bolster its counter-drone offerings. Drones have pushed rapid, AI-assisted air defence up military agendas, and NATO is now buying that capability off a prepared catalogue, much as governments purchase software.",
+      "whyThisMatters": "NATO's communications agency has launched a marketplace where allied nations can buy from a list of 16 pre-approved counter-drone systems, without having to hold tenders of their own, AeroTime reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "NATO opens a counter-drone marketplace as Shield AI agrees to buy Echodyne",
+        "AeroTime"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s6_cut1.jpg",
+          "badge": "TACTICAL AEROSPACE • AUTONOMOUS DRONE FLIGHT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s6_cut2.jpg",
+          "badge": "BRUSSELS • NATO OPERATIONS CENTER",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s6_cut3.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_russia_and_us_seek_to_block_plan",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Russia and US seek to block plan for binding rules on autonomous weapons",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 53,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/06/autonomous-weapons-ai-russia-us-binding-rules",
+      "researchDesk": "",
+      "script": "In other news. A group of countries led by Russia and the United States is working to derail talks on legally binding rules for autonomous weapons, the Guardian reports. The two nations plan to use a United Nations conference later this month to block the proposals. Many observers see the meeting as a turning point after years of dispute over how weapons run by artificial intelligence should be governed, and efforts to close that gap in regulation now appear at risk. The extent of the opposition is likely to become clear at a diplomatic retreat beginning on Friday. That meeting precedes the seventh review conference on certain conventional weapons, which is scheduled to be held in Geneva from 16 to 20 November. 128 countries are expected to attend.",
+      "whyThisMatters": "A group of countries led by Russia and the United States is working to derail talks on legally binding rules for autonomous weapons, the Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Russia and US seek to block plan for binding rules on autonomous weapons",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s7_cut1.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s7_cut2.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s7_cut3.jpg",
+          "badge": "AEROSPACE TELEMETRY • RADAR MONITORING GRID",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_nigel_farage_s_exit_from_the_tel",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sobering side to this story | Jane Martinson",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 57,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/commentisfree/2026/nov/06/nigel-farage-telegraph-story-newspaper-ai",
+      "researchDesk": "",
+      "script": "Next. Writing in the Guardian, commentator Jane Martinson argues that Nigel Farage's departure from the Daily Telegraph has a more troubling side. In her view, the turmoil at the paper seems driven less by politics than by a move toward artificial intelligence, with journalism ultimately bearing the cost. Farage had written a column for the Telegraph since 2016. Much of that writing promoted the party he leads, first the Brexit party and now Reform UK, or accused his opponents of weakness on immigration. The cash-strapped paper paid him roughly £4,000 a month, close to half a million pounds over the past ten years. This week it emerged that Axel Springer, the Telegraph's new German owner, had opted not to continue his columns. People close to Farage, though, maintain that the decision to go was his own.",
+      "whyThisMatters": "Writing in the Guardian, commentator Jane Martinson argues that Nigel Farage's departure from the Daily Telegraph has a more troubling side.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sob",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s8_cut1.jpg",
+          "badge": "JANE MARTINSON • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s8_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s8_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_meta_pauses_planned_terms_update",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Meta pauses planned terms updates, keeps existing rules in place",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/meta-pauses-planned-terms-updates-keeps-existing-rules-in-place/articleshow/135608532.cms",
+      "researchDesk": "",
+      "script": "Turning to the United States. Meta has put on hold planned changes to its Commercial Terms, Product Catalog Terms, Self-Serve Ad Terms and Ad Creative Generative AI Terms, The Economic Times reports. The current rules stay in effect.",
+      "whyThisMatters": "Meta has put on hold planned changes to its Commercial Terms, Product Catalog Terms, Self-Serve Ad Terms and Ad Creative Generative AI Terms, The Economic Times reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Meta pauses planned terms updates, keeps existing rules in place",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s9_cut1.jpg",
+          "badge": "MENLO PARK • META HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s9_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s9_cut3.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_vflash_fast_accurate_visual_plan",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 47,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.08449",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. In a paper titled VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding, the researchers take on a speed problem in the AI that guides robots and self-driving cars. These systems can plan visually as well as in words, marking targets and predicting movement using points, boxes drawn around objects, and paths. Current vision-language models, which pair image understanding with text, produce such plans one coordinate at a time, so more detailed plans take longer. VFlash takes advantage of the predictable shapes of these visual elements to work out all of their coordinates at once, relying on a small assistant model that sketches an entire element in a single step.",
+      "whyThisMatters": "In a paper titled VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding, the researchers take on a speed problem in the AI that guides robots and self-driving cars.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s10_cut1.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s10_cut2.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-06/s10_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomIn"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. OpenAI launches GPT-6 Cyber and rates it \"Critical\" for cyber risk. METR finds AI is helping Anthropic improve its models about twice as fast. Google sued over suicide-related AI chats on school computer. China cracks down on AI fakes that impersonate celebrities. India's CERT-In asks organisations to audit what their AI agents can access and do. NATO opens a counter-drone marketplace as Shield AI agrees to buy Echodyne.",
+    "items": [
+      "✓ OpenAI launches GPT-6 Cyber and rates it \"Critic",
+      "✓ METR finds AI is helping Anthropic improve its m",
+      "✓ Google sued over suicide-related AI chats on sch",
+      "✓ China cracks down on AI fakes that impersonate c",
+      "✓ India's CERT-In asks organisations to audit what",
+      "✓ NATO opens a counter-drone marketplace as Shield",
+      "✓ Russia and US seek to block plan for binding rul"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "OpenAI launches GPT-6 Cyber and rates it \"Cri",
+    "METR finds AI is helping Anthropic improve it",
+    "Google sued over suicide-related AI chats on ",
+    "China cracks down on AI fakes that impersonat",
+    "India's CERT-In asks organisations to audit w",
+    "NATO opens a counter-drone marketplace as Shi",
+    "Russia and US seek to block plan for binding ",
+    "Nigel Farage's exit from the Telegraph may be",
+    "Meta pauses planned terms updates, keeps exis",
+    "VFlash: Fast, Accurate Visual Planning via Fl"
+  ],
+  "thumbnail": {
+    "date": "06 NOVEMBER 2026",
+    "headline": "OPENAI LAUNCHES GPT-6 CYBER AND RATES IT",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "OPENAI LAUNCHES GPT-6 CYBER AND",
+      "METR FINDS AI IS HELPING ANTHROPIC",
+      "GOOGLE SUED OVER SUICIDE-RELATED AI",
+      "CHINA CRACKS DOWN ON AI FAKES THAT"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "OpenAI launches GPT-6 Cyber and | METR finds AI is helping Anthropic | Google sued over suicide-related | AI News 06 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 06 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}
