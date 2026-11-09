@@ -61,6 +61,19 @@ STOCK_MARKET_TERMS = [
 # "Profit" inside these is about the kind of organisation, not its results.
 NOT_RESULTS = re.compile(r"\b(?:non-?profits?|not-for-profit)\b")
 
+# Share-price moves in any wording (editor, 2026-11-09: "Why Nvidia shares dropped 4% in
+# overnight trade" and "IT firms ... may gain as investors shift focus" reached an episode).
+# "Shares" then a move verb, at most one word apart, so "OpenAI shares details" still airs.
+MARKET_MOVES = re.compile(
+    r"\b(?:shares?|stocks?)\s+(?:\w+\s+)?(?:drop|drops|dropped|dip|dips|dipped|fall|falls|fell|slip|slips|slipped|"
+    r"rise|rises|rose|gain|gains|gained|climb|climbs|climbed|rally|rallies|rallied|jump|jumps|jumped|"
+    r"soar|soars|soared|sink|sinks|sank|slump|slumps|slumped|crash|crashes|crashed|decline|declines|declined|"
+    r"tumble|tumbles|tumbled|plunge|plunges|plunged|surge|surges|surged)\b"
+    r"|\b(?:overnight|early|late|intraday|pre-market|premarket|after-hours)\s+trad(?:e|ing)\b"
+    r"|\binvestors?\s+(?:shift|shifts|flee|flees|dump|dumps|pile|piles|rush|rushes|sentiment)\b"
+    r"|\banalysts?\s+warn\b.*\bbloodbath\b"
+)
+
 
 def is_stock_market_story(title, url=""):
     """True when the headline is about share prices, markets or company results. Judged
@@ -70,7 +83,7 @@ def is_stock_market_story(title, url=""):
     segments = [part for part in urlparse(url or "").path.split("/") if part]
     slug = re.sub(r"\.[a-z]+$", "", segments[-1]).replace("-", " ") if segments else ""
     text = NOT_RESULTS.sub(" ", f"{title or ''} {slug}".lower())
-    return contains_any(text, STOCK_MARKET_TERMS)
+    return contains_any(text, STOCK_MARKET_TERMS) or bool(MARKET_MOVES.search(text))
 
 
 # No election news (editor's decision, 2026-10-18): YouTube disapproved two
