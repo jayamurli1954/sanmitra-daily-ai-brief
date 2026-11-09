@@ -23,6 +23,19 @@ class StoryRulesTest(unittest.TestCase):
                   "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck"]:
             self.assertFalse(is_stock_market_story(h), h)
 
+    def test_share_moves_in_any_wording(self):
+        # 9 Nov 2026: both reached an episode before this rule.
+        for h in ["Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts warn can trigger a bloodbath?",
+                  "IT firms with lower capital requirements may gain as investors shift focus to AI money",
+                  "SK hynix shares sharply climbed on HBM demand", "Chip stocks dipped in early trading"]:
+            self.assertTrue(is_stock_market_story(h), h)
+        # "Shares" as a verb, and funding rounds, still air.
+        for h in ["OpenAI shares details of its new safety framework", "Google shares new research on AI tutors",
+                  "Fal raises $1.3 billion as demand for AI inference grows",
+                  "Peppermint raises 100 crore rupees from investors to expand cleaning robots",
+                  "Meta shares plan to open-source its next model"]:
+            self.assertFalse(is_stock_market_story(h), h)
+
     def test_ipo_and_company_results_headlines(self):
         for h in ["Anthropic's draft IPO filing shows $16.3B revenue and an $80.7B loss",
                   "Anthropic told investors Q3 revenue hit 16.8 billion dollars",
