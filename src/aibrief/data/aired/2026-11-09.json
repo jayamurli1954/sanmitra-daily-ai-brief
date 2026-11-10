@@ -1,0 +1,517 @@
+{
+  "weekly": false,
+  "date": "2026-11-09",
+  "formattedDate": "09 November 2026",
+  "title": "42AI emerges with a model designed | Fal raises 1.3 billion dollars as | US Justice Department announces a | AI News 09 November 2026",
+  "intro": {
+    "durationSeconds": 18,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "Breaking today: 42AI emerges with a model designed to predict human behavior. From the SanMitra Newsroom, this is the Daily AI Brief for 09 November 2026."
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_42ai_emerges_with_a_model_design",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "42AI emerges with a model designed to predict human behavior",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 99,
+      "durationSeconds": 47,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "researchDesk": "",
+      "script": "Our lead story today. An Israeli-American startup called 42AI has made its public debut, TechCrunch reported on 2 November. The company says its system, which it calls a behavioral world model, can estimate how people will react when they face situations they have not met before. Financial brokerages are its first market. The startup has disclosed 62.5 million dollars in seed funding. That money came from its founders and Infinity Group over three years, not in one new round. Its predictive performance is so far only the company's own claim. The widely quoted figure of 98% accuracy measures whether trading flows land within a range. It does not mean every trade is predicted correctly.",
+      "whyThisMatters": "An Israeli-American startup called 42AI has made its public debut, TechCrunch reported on 2 November.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "42AI emerges with a model designed to predict human behavior",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s1_cut1.jpg",
+          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s1_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s1_cut3.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_fal_raises_1_3_billion_dollars_a",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Fal raises 1.3 billion dollars as demand for AI inference grows",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 48,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Fal, a company that hosts video, image and audio models, has raised 1.3 billion dollars in a Series F round, TechCrunch reported on 3 November. Bessemer Venture Partners led the round, which reportedly values Fal at 16 billion dollars , twice its valuation in April. Fal disclosed its Series E and Series F at the same time, for a combined 1.65 billion dollars . That total includes the 1.3 billion dollars rather than adding to it. The deal points to investors moving money toward the business of running AI models for customers. Even so, the high cost of computing continues to put pressure on the profit margins of these inference providers.",
+      "whyThisMatters": "Fal, a company that hosts video, image and audio models, has raised $1.3 billion in a Series F round, TechCrunch reported on 3 November.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Fal raises 1.3 billion dollars as demand for AI inference grows",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s2_cut1.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s2_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s2_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_us_justice_department_announces",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "US Justice Department announces a consolidated AI enforcement task force",
+      "subheadline": "Source: US Department of Justice",
+      "importanceScore": 95,
+      "durationSeconds": 41,
+      "source": "US Department of Justice",
+      "sourceUrl": "https://www.justice.gov/opa/pr/department-justice-launches-super-intelligence-task-force",
+      "researchDesk": "",
+      "script": "In other news. The US Justice Department announced on 5 November what it calls a Super Intelligence Task Force. The unit will coordinate enforcement against illegal uses of artificial intelligence by foreign actors, criminal groups and companies. According to Nextgov, it absorbs the department's earlier AI litigation task force and will draw up guidance on prosecutions and compliance. While the public announcement came this week, the memorandum behind it is dated 13 October. The phrase super intelligence reflects the administration's own choice of words. It does not indicate that artificial intelligence surpassing humans across the board has been achieved.",
+      "whyThisMatters": "The US Justice Department announced on 5 November what it calls a Super Intelligence Task Force.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "US Justice Department announces a consolidated AI enforcement task force",
+        "US Department of Justice"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s3_cut1.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s3_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s3_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_google_expands_singapore_researc",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Google expands Singapore research with more than 6 million dollars in funding",
+      "subheadline": "Source: Google",
+      "importanceScore": 90,
+      "durationSeconds": 33,
+      "source": "Google",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/research/partnering-singapore-advance-scientific-discovery/",
+      "researchDesk": "",
+      "script": "In Asia. Google announced on 3 November that it is broadening its academic partnerships in Singapore with more than 6 million dollars in support for research and capacity building, alongside its recently opened research hub in the city. The projects include Alzheimer's research assisted by AI at NUS, work on computing efficiency and regional languages, studies on AI safety at NTU, and backing for INSEAD's Thrive Lab. These are commitments of funding and planned research, rather than finished scientific advances.",
+      "whyThisMatters": "Google announced on 3 November that it is broadening its academic partnerships in Singapore with more than $6 million in support for research and capacity building, alongside its recently opened research hub in the city.",
+      "sourceType": "company",
+      "keyPoints": [
+        "Google expands Singapore research with more than 6 million dollars in funding",
+        "Google"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s4_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s4_cut2.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s4_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_peppermint_raises_100_crore_rupe",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Peppermint raises 100 crore rupees to expand autonomous cleaning robots",
+      "subheadline": "Source: Peppermint Robotics",
+      "importanceScore": 90,
+      "durationSeconds": 49,
+      "source": "Peppermint Robotics",
+      "sourceUrl": "https://www.peppermintrobotics.com/north-america/blog/pre-series-b",
+      "researchDesk": "",
+      "script": "Turning to India. Peppermint Robotics, which is based in Pune and Austin, announced on 4 November that it has raised 100 crore rupees in a Pre-Series B round. The round was led by pi Ventures and Crane Venture Partners, with Asiana Fund also taking part. The deal combines fresh investment with sales of existing shares, meaning the business itself will not receive the full 100 crore rupees . The company's autonomous cleaning robots rely on computer vision and LiDAR to map spaces, plan routes and steer around obstacles. Peppermint plans to increase manufacturing, move into cleanroom robotics and set up an assembly line in North America. Figures on its deployments and revenue growth are the company's own claims.",
+      "whyThisMatters": "Peppermint Robotics, which is based in Pune and Austin, announced on 4 November that it has raised ₹100 crore in a Pre-Series B round.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Peppermint raises 100 crore rupees to expand autonomous cleaning robots",
+        "Peppermint Robotics"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s5_cut1.jpg",
+          "badge": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s5_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s5_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_parents_and_teachers_decry_googl",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 57,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/09/parents-teachers-google-search-schools-ai",
+      "researchDesk": "",
+      "script": "Around the world. Google is facing criticism from parents and teachers in the United States over a new condition attached to its classroom technology, the Guardian reports. Last week the company released a group of artificial intelligence tools for schools, along with settings that let teachers and administrators limit how those tools are used. Google says each school can decide for itself whether students get access to AI. But there is a condition. Any school that switches off the AI tools will also lose access to Google Search. Chris Phillips, Google's vice-president for education, defended the policy. \"We believe schools should have control over AI in their classrooms,\" he said. Phillips added that the company sought input from researchers, policymakers, schools and teachers before it changed the controls covering Gemini, Gemini Notebook, Gemini in Classroom and Google Search.",
+      "whyThisMatters": "Google is facing criticism from parents and teachers in the United States over a new condition attached to its classroom technology, the Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Parents and teachers decry Google pledge to yank Search if schools block AI: ‘Th",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s6_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s6_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s6_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_nvidia_skt_rebellions_to_jointly",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Nvidia, SKT, Rebellions to jointly establish heterogeneous computing system for AI",
+      "subheadline": "Source: The Korea Times",
+      "importanceScore": 90,
+      "durationSeconds": 55,
+      "source": "The Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261109/nvidia-skt-rebellions-to-jointly-establish-heterogeneous-computing-system-for-ai-1?utm_source=rss",
+      "researchDesk": "",
+      "script": "In other news. Nvidia, SK Telecom and the chip designer Rebellions plan to jointly build a hybrid artificial intelligence computing system for SK Telecom's data centers, according to the Korea Times. The three companies signed a memorandum of understanding on Monday at AI Day Seoul, a two-day Nvidia event in the south of the city. Under the arrangement, Rebellions' neural processing chips will connect to Nvidia's graphics processors through a program called NVLink Fusion. The program lets major cloud operators and makers of custom chips attach their own AI processors to Nvidia's rack-scale systems. South Korea's science ministry said the deal could create new applications for the country's advanced chips and strengthen the position of Korean companies in overseas markets. Nvidia also held a forum that drew more than 20 Korean startups.",
+      "whyThisMatters": "Nvidia, SK Telecom and the chip designer Rebellions plan to jointly build a hybrid artificial intelligence computing system for SK Telecom's data centers, according to the Korea Times.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nvidia, SKT, Rebellions to jointly establish heterogeneous computing system for ",
+        "The Korea Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s7_cut1.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s7_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s7_cut3.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_chinese_ai_firms_want_silicon_va",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Chinese AI firms want Silicon Valley’s top minds. Poaching them won’t be easy",
+      "subheadline": "Source: Rest of World",
+      "importanceScore": 90,
+      "durationSeconds": 52,
+      "source": "Rest of World",
+      "sourceUrl": "https://restofworld.org/2026/chinese-ai-labs-hire-silicon-valley-engineers-openai-anthropic/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "researchDesk": "",
+      "script": "Next. Chinese artificial intelligence companies are trying to hire engineers in Silicon Valley, Rest of World reports, a push that could open a path to talent from American labs such as OpenAI and Anthropic. MiniMax, a startup whose shares trade in Hong Kong, lists roughly 16 vacancies in San Francisco on its website. They include a position heading research on its main AI model. The company is also seeking experts in life sciences, law, finance and cybersecurity, as well as a senior recruiter to attract top AI engineers from Silicon Valley and Seattle. Moonshot AI, the developer of the Kimi model, is recruiting solutions architects in the United States. Those staff would help corporate clients build its models into their businesses. Success is far from guaranteed.",
+      "whyThisMatters": "Chinese artificial intelligence companies are trying to hire engineers in Silicon Valley, Rest of World reports, a push that could open a path to talent from American labs such as OpenAI and Anthropic.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Chinese AI firms want Silicon Valley’s top minds. Poaching them won’t be easy",
+        "Rest of World"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s8_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s8_cut2.jpg",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s8_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE • CUT 3",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_google_adds_two_new_tpu_chips_as",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google adds two new TPU chips as it takes on Nvidia in AI hardware",
+      "subheadline": "Source: Reuters",
+      "importanceScore": 90,
+      "durationSeconds": 49,
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/business/google-to-introduce-two-variants-its-in-house-chips-bloomberg-news-reports-2026-11-09/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Google is rolling out two new versions of its own Tensor Processing Unit chip, Reuters reports. The first, the 8tx, is designed for government agencies and regulated industries, and includes encryption in the hardware itself to safeguard sensitive information. The second, the 8i Max, targets demanding AI workloads such as coding assistants, mathematical reasoning and drug discovery. Google is increasingly selling access to its chips through Google Cloud instead of reserving them for its own operations. The move shows that competition in AI now extends beyond the models themselves. Command of chips, cloud capacity and computing costs is growing just as important, and Google is presenting its processors as an alternative to Nvidia's hardware.",
+      "whyThisMatters": "Google is rolling out two new versions of its own Tensor Processing Unit chip, Reuters reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Google adds two new TPU chips as it takes on Nvidia in AI hardware",
+        "Reuters"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s9_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s9_cut2.jpg",
+          "badge": "HARDWARE ACCELERATION • SYSTEM INTEGRATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s9_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT • CUT 3",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_nvidia_s_board_opens_an_independ",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Nvidia's board opens an independent investigation after reports its CEO was targeted by foreign intelligence",
+      "subheadline": "Source: Nvidia",
+      "importanceScore": 90,
+      "durationSeconds": 41,
+      "source": "Nvidia",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/default.aspx",
+      "researchDesk": "",
+      "script": "Also today. Nvidia said its board of directors has formed an independent committee, backed by outside lawyers, to look into reports that chief executive Jensen Huang may have been the target of a foreign intelligence operation. The company said it has no current reason to think that national security or its own confidential information was compromised. Nvidia added that Huang has agreed to fully cooperate with the inquiry. Because Nvidia plays a central role in the worldwide AI supply chain, questions about the security of its leadership and of access to advanced chips carry weight far beyond the company.",
+      "whyThisMatters": "Nvidia said its board of directors has formed an independent committee, backed by outside lawyers, to look into reports that chief executive Jensen Huang may have been the target of a foreign intelligence operation.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nvidia's board opens an independent investigation after reports its CEO was targ",
+        "Nvidia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s10_cut1.jpg",
+          "badge": "SEMICONDUCTOR WAFER • ADVANCED PACKAGING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s10_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT • CUT 2",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s10_cut3.jpg",
+          "badge": "TERRAIN SURVEY • RURAL INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s11_splatanything_gaussian_spacing_n",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 54,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.08264",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. The researchers behind a paper titled SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes want a widely used 3D modelling technique to perform more consistently across very different scenes. The technique, known as 3D Gaussian splatting, represents a scene as a large number of small, blob-like shapes called Gaussians. In quicker feed-forward versions, a neural network predicts those shapes in one pass. The researchers found that existing approaches resize scenes using one overall distance measure, yet the spacing between neighbouring Gaussians still swings widely depending on scene size and camera placement. That leaves the network uncertain how big each Gaussian should be. Their solution, called GSNorm, rescales each scene using a robust estimate of that spacing, giving the network a steadier reference point.",
+      "whyThisMatters": "The researchers behind a paper titled SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes want a widely used 3D modelling technique to perform more consistently across very differe",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbit",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s11_cut1.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s11_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION • CUT 2",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-09/s11_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. 42AI emerges with a model designed to predict human behavior. Fal raises 1.3 billion dollars as demand for AI inference grows. US Justice Department announces a consolidated AI enforcement task force. Google expands Singapore research with more than 6 million dollars in funding. Peppermint raises 100 crore rupees to expand autonomous cleaning robots. Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’.",
+    "items": [
+      "✓ 42AI emerges with a model designed to predict hu",
+      "✓ Fal raises 1.3 billion dollars as demand for AI ",
+      "✓ US Justice Department announces a consolidated A",
+      "✓ Google expands Singapore research with more than",
+      "✓ Peppermint raises 100 crore rupees to expand aut",
+      "✓ Parents and teachers decry Google pledge to yank",
+      "✓ Nvidia, SKT, Rebellions to jointly establish het"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "42AI emerges with a model designed to predict",
+    "Fal raises 1.3 billion dollars as demand for ",
+    "US Justice Department announces a consolidate",
+    "Google expands Singapore research with more t",
+    "Peppermint raises 100 crore rupees to expand ",
+    "Parents and teachers decry Google pledge to y",
+    "Nvidia, SKT, Rebellions to jointly establish ",
+    "Chinese AI firms want Silicon Valley’s top mi",
+    "Google adds two new TPU chips as it takes on ",
+    "Nvidia's board opens an independent investiga",
+    "SplatAnything: Gaussian Spacing Normalization"
+  ],
+  "thumbnail": {
+    "date": "09 NOVEMBER 2026",
+    "headline": "42AI EMERGES WITH A MODEL DESIGNED TO",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "42AI EMERGES WITH A MODEL DESIGNED",
+      "FAL RAISES 1.3 BILLION DOLLARS AS",
+      "US JUSTICE DEPARTMENT ANNOUNCES A",
+      "GOOGLE EXPANDS SINGAPORE RESEARCH"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "42AI emerges with a model designed | Fal raises 1.3 billion dollars as | US Justice Department announces a | AI News 09 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 09 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

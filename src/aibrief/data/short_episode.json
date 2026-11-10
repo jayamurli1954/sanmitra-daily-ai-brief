@@ -1,102 +1,192 @@
 {
-  "date": "2026-11-08",
-  "dateLabel": "08 NOVEMBER 2026",
+  "date": "2026-11-09",
+  "dateLabel": "09 NOVEMBER 2026",
   "kicker": "BREAKING",
-  "headline": "Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI",
-  "subhead": "",
-  "source": "Source: Pandaily",
-  "audioFile": "audio/aibrief/short_2026-11-08_lead.mp3",
-  "voiceFrames": 654,
+  "headline": "42AI emerges with a model designed to predict human behavior",
+  "subhead": "An Israeli-American startup called 42AI has made its public debut, TechCrunch reported on 2 November.",
+  "source": "Source: TechCrunch",
+  "audioFile": "audio/aibrief/short_2026-11-09_lead.mp3",
+  "voiceFrames": 1506,
   "endCardFrames": 75,
   "images": [
     {
-      "src": "aibrief/assets/editorial/2026-11-08/s1_cut1.jpg",
-      "label": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT"
+      "src": "aibrief/assets/editorial/2026-11-09/s1_cut1.jpg",
+      "label": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM"
     },
     {
-      "src": "aibrief/assets/editorial/2026-11-08/s1_cut2.jpg",
-      "label": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY"
+      "src": "aibrief/assets/editorial/2026-11-09/s1_cut2.jpg",
+      "label": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION"
     },
     {
-      "src": "aibrief/assets/editorial/2026-11-08/s1_cut3.jpg",
-      "label": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE"
+      "src": "aibrief/assets/editorial/2026-11-09/s1_cut3.jpg",
+      "label": "MULTILATERAL FORUM • REGULATORY HARMONIZATION"
     }
   ],
   "cues": [
     {
-      "text": "Cainiao is opening its",
+      "text": "An Israeli-American",
       "start": 0,
-      "end": 43
+      "end": 35
     },
     {
-      "text": "warehouses around the",
-      "start": 43,
-      "end": 74
+      "text": "startup called 42AI has",
+      "start": 35,
+      "end": 98
     },
     {
-      "text": "world to artificial",
-      "start": 74,
-      "end": 100
+      "text": "made its public debut,",
+      "start": 98,
+      "end": 129
     },
     {
-      "text": "intelligence and robotics",
-      "start": 100,
-      "end": 144
+      "text": "TechCrunch reported on 2",
+      "start": 145,
+      "end": 177
     },
     {
-      "text": "companies as real-world",
-      "start": 144,
-      "end": 189
+      "text": "November.",
+      "start": 177,
+      "end": 182
     },
     {
-      "text": "training sites, with more",
-      "start": 189,
-      "end": 238
+      "text": "The company says its",
+      "start": 218,
+      "end": 262
     },
     {
-      "text": "than 100 test scenarios,",
-      "start": 238,
-      "end": 279
+      "text": "system, which it calls a",
+      "start": 262,
+      "end": 303
     },
     {
-      "text": "Pandaily reports.",
-      "start": 299,
-      "end": 324
+      "text": "behavioral world model,",
+      "start": 303,
+      "end": 335
     },
     {
-      "text": "The company has also",
-      "start": 362,
-      "end": 391
+      "text": "can estimate how people",
+      "start": 347,
+      "end": 380
     },
     {
-      "text": "launched a service that",
-      "start": 391,
-      "end": 424
+      "text": "will react when they face",
+      "start": 380,
+      "end": 418
     },
     {
-      "text": "ships tech hardware",
-      "start": 424,
-      "end": 452
+      "text": "situations they have not",
+      "start": 418,
+      "end": 456
     },
     {
-      "text": "overseas within three",
-      "start": 452,
-      "end": 490
+      "text": "met before.",
+      "start": 456,
+      "end": 473
     },
     {
-      "text": "days.",
-      "start": 490,
-      "end": 502
+      "text": "Financial brokerages are",
+      "start": 507,
+      "end": 547
+    },
+    {
+      "text": "its first market.",
+      "start": 547,
+      "end": 570
+    },
+    {
+      "text": "The startup has disclosed",
+      "start": 602,
+      "end": 638
+    },
+    {
+      "text": "62.5 million dollars in",
+      "start": 638,
+      "end": 712
+    },
+    {
+      "text": "seed funding.",
+      "start": 712,
+      "end": 728
+    },
+    {
+      "text": "That money came from its",
+      "start": 753,
+      "end": 797
+    },
+    {
+      "text": "founders and Infinity",
+      "start": 797,
+      "end": 827
+    },
+    {
+      "text": "Group over three years,",
+      "start": 827,
+      "end": 865
+    },
+    {
+      "text": "not in one new round.",
+      "start": 865,
+      "end": 908
+    },
+    {
+      "text": "Its predictive performance",
+      "start": 941,
+      "end": 974
+    },
+    {
+      "text": "is so far only the",
+      "start": 974,
+      "end": 1017
+    },
+    {
+      "text": "company's own claim.",
+      "start": 1017,
+      "end": 1048
+    },
+    {
+      "text": "The widely quoted figure",
+      "start": 1081,
+      "end": 1117
+    },
+    {
+      "text": "of 98% accuracy measures",
+      "start": 1117,
+      "end": 1179
+    },
+    {
+      "text": "whether trading flows land",
+      "start": 1179,
+      "end": 1222
+    },
+    {
+      "text": "within a range.",
+      "start": 1222,
+      "end": 1243
+    },
+    {
+      "text": "It does not mean every",
+      "start": 1277,
+      "end": 1307
+    },
+    {
+      "text": "trade is predicted",
+      "start": 1307,
+      "end": 1332
+    },
+    {
+      "text": "correctly.",
+      "start": 1332,
+      "end": 1351
     },
     {
       "text": "Watch the full episode on",
-      "start": 533,
-      "end": 575
+      "start": 1384,
+      "end": 1427
     },
     {
       "text": "SanMitra AI News Wire.",
-      "start": 575,
-      "end": 622
+      "start": 1427,
+      "end": 1475
     }
   ],
   "ctaTitle": "Full episode on YouTube",

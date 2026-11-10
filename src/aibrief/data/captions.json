@@ -3,1593 +3,1962 @@
     "index": 1,
     "sceneId": "intro",
     "startFrame": 0,
-    "endFrame": 31,
+    "endFrame": 118,
     "startSeconds": 0.0,
-    "endSeconds": 1.02,
-    "text": "This week in AI,"
+    "endSeconds": 3.94,
+    "text": "Breaking today: 42AI emerges with a model designed to"
   },
   {
     "index": 2,
     "sceneId": "intro",
-    "startFrame": 47,
-    "endFrame": 85,
-    "startSeconds": 1.58,
-    "endSeconds": 2.84,
-    "text": "the stories you may have missed:"
+    "startFrame": 118,
+    "endFrame": 148,
+    "startSeconds": 3.94,
+    "endSeconds": 4.92,
+    "text": "predict human behavior."
   },
   {
     "index": 3,
     "sceneId": "intro",
-    "startFrame": 106,
-    "endFrame": 176,
-    "startSeconds": 3.54,
-    "endSeconds": 5.86,
-    "text": "Cainiao Opens Its Global Warehouse Network as a"
+    "startFrame": 180,
+    "endFrame": 224,
+    "startSeconds": 6.0,
+    "endSeconds": 7.46,
+    "text": "From the SanMitra Newsroom,"
   },
   {
     "index": 4,
     "sceneId": "intro",
-    "startFrame": 176,
-    "endFrame": 239,
-    "startSeconds": 5.86,
-    "endSeconds": 7.96,
-    "text": "Real-World Training Ground for Embodied AI."
+    "startFrame": 232,
+    "endFrame": 341,
+    "startSeconds": 7.74,
+    "endSeconds": 11.38,
+    "text": "this is the Daily AI Brief for 09 November 2026."
   },
   {
     "index": 5,
-    "sceneId": "intro",
-    "startFrame": 274,
-    "endFrame": 317,
-    "startSeconds": 9.14,
-    "endSeconds": 10.56,
-    "text": "From the SanMitra Newsroom,"
-  },
-  {
-    "index": 6,
-    "sceneId": "intro",
-    "startFrame": 325,
-    "endFrame": 398,
-    "startSeconds": 10.82,
-    "endSeconds": 13.28,
-    "text": "this is the Weekly AI Round-up for the week ending 08"
-  },
-  {
-    "index": 7,
-    "sceneId": "intro",
-    "startFrame": 398,
-    "endFrame": 523,
-    "startSeconds": 13.28,
-    "endSeconds": 17.42,
-    "text": "November 2026: important developments that did not make"
-  },
-  {
-    "index": 8,
-    "sceneId": "intro",
-    "startFrame": 523,
-    "endFrame": 545,
-    "startSeconds": 17.42,
-    "endSeconds": 18.16,
-    "text": "our daily briefs."
-  },
-  {
-    "index": 9,
-    "sceneId": "s1_cainiao_opens_its_global_warehou",
-    "startFrame": 617,
-    "endFrame": 662,
-    "startSeconds": 20.57,
-    "endSeconds": 22.07,
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 412,
+    "endFrame": 450,
+    "startSeconds": 13.73,
+    "endSeconds": 15.01,
     "text": "Our lead story today."
   },
   {
+    "index": 6,
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 483,
+    "endFrame": 586,
+    "startSeconds": 16.09,
+    "endSeconds": 19.53,
+    "text": "An Israeli-American startup called 42AI has made its"
+  },
+  {
+    "index": 7,
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 586,
+    "endFrame": 657,
+    "startSeconds": 19.53,
+    "endSeconds": 21.89,
+    "text": "public debut, TechCrunch reported on 2 November."
+  },
+  {
+    "index": 8,
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 703,
+    "endFrame": 742,
+    "startSeconds": 23.43,
+    "endSeconds": 24.75,
+    "text": "The company says its system,"
+  },
+  {
+    "index": 9,
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 752,
+    "endFrame": 808,
+    "startSeconds": 25.07,
+    "endSeconds": 26.93,
+    "text": "which it calls a behavioral world model,"
+  },
+  {
     "index": 10,
-    "sceneId": "s1_cainiao_opens_its_global_warehou",
-    "startFrame": 686,
-    "endFrame": 765,
-    "startSeconds": 22.87,
-    "endSeconds": 25.51,
-    "text": "Cainiao is opening its warehouses around the world to"
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 818,
+    "endFrame": 885,
+    "startSeconds": 27.27,
+    "endSeconds": 29.51,
+    "text": "can estimate how people will react when they face"
   },
   {
     "index": 11,
-    "sceneId": "s1_cainiao_opens_its_global_warehou",
-    "startFrame": 765,
-    "endFrame": 837,
-    "startSeconds": 25.51,
-    "endSeconds": 27.91,
-    "text": "artificial intelligence and robotics companies as"
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 885,
+    "endFrame": 941,
+    "startSeconds": 29.51,
+    "endSeconds": 31.37,
+    "text": "situations they have not met before."
   },
   {
     "index": 12,
-    "sceneId": "s1_cainiao_opens_its_global_warehou",
-    "startFrame": 837,
-    "endFrame": 924,
-    "startSeconds": 27.91,
-    "endSeconds": 30.79,
-    "text": "real-world training sites, with more than 100 test"
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 974,
+    "endFrame": 1036,
+    "startSeconds": 32.47,
+    "endSeconds": 34.53,
+    "text": "Financial brokerages are its first market."
   },
   {
     "index": 13,
-    "sceneId": "s1_cainiao_opens_its_global_warehou",
-    "startFrame": 924,
-    "endFrame": 979,
-    "startSeconds": 30.79,
-    "endSeconds": 32.63,
-    "text": "scenarios, Pandaily reports."
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 1068,
+    "endFrame": 1180,
+    "startSeconds": 35.61,
+    "endSeconds": 39.35,
+    "text": "The startup has disclosed 62.5 million dollars in seed"
   },
   {
     "index": 14,
-    "sceneId": "s1_cainiao_opens_its_global_warehou",
-    "startFrame": 1015,
-    "endFrame": 1094,
-    "startSeconds": 33.83,
-    "endSeconds": 36.47,
-    "text": "The company has also launched a service that ships tech"
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 1180,
+    "endFrame": 1191,
+    "startSeconds": 39.35,
+    "endSeconds": 39.69,
+    "text": "funding."
   },
   {
     "index": 15,
-    "sceneId": "s1_cainiao_opens_its_global_warehou",
-    "startFrame": 1094,
-    "endFrame": 1155,
-    "startSeconds": 36.47,
-    "endSeconds": 38.51,
-    "text": "hardware overseas within three days."
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 1213,
+    "endFrame": 1298,
+    "startSeconds": 40.43,
+    "endSeconds": 43.25,
+    "text": "That money came from its founders and Infinity Group"
   },
   {
     "index": 16,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 1285,
-    "endFrame": 1328,
-    "startSeconds": 42.83,
-    "endSeconds": 44.25,
-    "text": "Turning to the United States."
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 1298,
+    "endFrame": 1366,
+    "startSeconds": 43.25,
+    "endSeconds": 45.55,
+    "text": "over three years, not in one new round."
   },
   {
     "index": 17,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 1365,
-    "endFrame": 1446,
-    "startSeconds": 45.49,
-    "endSeconds": 48.21,
-    "text": "A memo that circulated earlier this year claimed that"
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 1398,
+    "endFrame": 1485,
+    "startSeconds": 46.59,
+    "endSeconds": 49.51,
+    "text": "Its predictive performance is so far only the company's"
   },
   {
     "index": 18,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 1446,
-    "endFrame": 1532,
-    "startSeconds": 48.21,
-    "endSeconds": 51.05,
-    "text": "China's Ministry of State Security recruited technology"
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 1485,
+    "endFrame": 1501,
+    "startSeconds": 49.51,
+    "endSeconds": 50.03,
+    "text": "own claim."
   },
   {
     "index": 19,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 1532,
-    "endFrame": 1641,
-    "startSeconds": 51.05,
-    "endSeconds": 54.71,
-    "text": "executive Alice Huang to spy on Nvidia chief executive"
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 1531,
+    "endFrame": 1629,
+    "startSeconds": 51.03,
+    "endSeconds": 54.31,
+    "text": "The widely quoted figure of 98% accuracy measures"
   },
   {
     "index": 20,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 1641,
-    "endFrame": 1704,
-    "startSeconds": 54.71,
-    "endSeconds": 56.81,
-    "text": "Jensen Huang, TechCrunch reports,"
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
+    "startFrame": 1629,
+    "endFrame": 1698,
+    "startSeconds": 54.31,
+    "endSeconds": 56.61,
+    "text": "whether trading flows land within a range."
   },
   {
     "index": 21,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
+    "sceneId": "s1_42ai_emerges_with_a_model_design",
     "startFrame": 1720,
-    "endFrame": 1763,
-    "startSeconds": 57.33,
-    "endSeconds": 58.77,
-    "text": "citing several media outlets."
+    "endFrame": 1800,
+    "startSeconds": 57.35,
+    "endSeconds": 60.01,
+    "text": "It does not mean every trade is predicted correctly."
   },
   {
     "index": 22,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 1800,
-    "endFrame": 1858,
-    "startSeconds": 59.99,
-    "endSeconds": 61.95,
-    "text": "The New York Times first revealed the memo,"
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 1930,
+    "endFrame": 1973,
+    "startSeconds": 64.33,
+    "endSeconds": 65.77,
+    "text": "Turning to the United States."
   },
   {
     "index": 23,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 1871,
-    "endFrame": 1930,
-    "startSeconds": 62.37,
-    "endSeconds": 64.35,
-    "text": "which was reportedly based on US intelligence."
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 2007,
+    "endFrame": 2066,
+    "startSeconds": 66.91,
+    "endSeconds": 68.85,
+    "text": "Fal, a company that hosts video,"
   },
   {
     "index": 24,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 1970,
-    "endFrame": 2074,
-    "startSeconds": 65.65,
-    "endSeconds": 69.15,
-    "text": "The paper had already reported that Nvidia's CEO was a"
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 2078,
+    "endFrame": 2110,
+    "startSeconds": 69.27,
+    "endSeconds": 70.35,
+    "text": "image and audio models,"
   },
   {
     "index": 25,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 2074,
-    "endFrame": 2107,
-    "startSeconds": 69.15,
-    "endSeconds": 70.23,
-    "text": "target of Chinese intelligence."
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 2122,
+    "endFrame": 2222,
+    "startSeconds": 70.75,
+    "endSeconds": 74.07,
+    "text": "has raised 1.3 billion dollars in a Series F round,"
   },
   {
     "index": 26,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 2132,
-    "endFrame": 2242,
-    "startSeconds": 71.07,
-    "endSeconds": 74.73,
-    "text": "The Financial Times later reported that the memo also"
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 2238,
+    "endFrame": 2276,
+    "startSeconds": 74.59,
+    "endSeconds": 75.85,
+    "text": "TechCrunch reported on 3 November."
   },
   {
     "index": 27,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 2242,
-    "endFrame": 2336,
-    "startSeconds": 74.73,
-    "endSeconds": 77.85,
-    "text": "alleged a romantic relationship between Jensen Huang and"
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 2320,
+    "endFrame": 2379,
+    "startSeconds": 77.33,
+    "endSeconds": 79.29,
+    "text": "Bessemer Venture Partners led the round,"
   },
   {
     "index": 28,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 2336,
-    "endFrame": 2410,
-    "startSeconds": 77.85,
-    "endSeconds": 80.33,
-    "text": "Alice Huang, an executive at Megaspeed,"
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 2391,
+    "endFrame": 2492,
+    "startSeconds": 79.69,
+    "endSeconds": 83.05,
+    "text": "which reportedly values Fal at 16 billion dollars ,"
   },
   {
     "index": 29,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 2419,
-    "endFrame": 2460,
-    "startSeconds": 80.63,
-    "endSeconds": 82.01,
-    "text": "a company based in Singapore."
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 2492,
+    "endFrame": 2541,
+    "startSeconds": 83.05,
+    "endSeconds": 84.71,
+    "text": "twice its valuation in April."
   },
   {
     "index": 30,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 2499,
-    "endFrame": 2573,
-    "startSeconds": 83.29,
-    "endSeconds": 85.77,
-    "text": "An Nvidia spokesperson told the Times that Jensen"
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 2578,
+    "endFrame": 2658,
+    "startSeconds": 85.95,
+    "endSeconds": 88.61,
+    "text": "Fal disclosed its Series E and Series F at the same"
   },
   {
     "index": 31,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 2573,
-    "endFrame": 2661,
-    "startSeconds": 85.77,
-    "endSeconds": 88.69,
-    "text": "Huang's dealings with Alice Huang were \"not unusual.\""
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 2658,
+    "endFrame": 2782,
+    "startSeconds": 88.61,
+    "endSeconds": 92.73,
+    "text": "time, for a combined 1.65 billion dollars ."
   },
   {
     "index": 32,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 2694,
-    "endFrame": 2774,
-    "startSeconds": 89.81,
-    "endSeconds": 92.47,
-    "text": "The spokesperson added that Nvidia does not pass"
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 2782,
+    "endFrame": 2898,
+    "startSeconds": 92.73,
+    "endSeconds": 96.61,
+    "text": "That total includes the 1.3 billion dollars rather than"
   },
   {
     "index": 33,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 2774,
-    "endFrame": 2833,
-    "startSeconds": 92.47,
-    "endSeconds": 94.43,
-    "text": "classified information to its customers."
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 2898,
+    "endFrame": 2918,
+    "startSeconds": 96.61,
+    "endSeconds": 97.25,
+    "text": "adding to it."
   },
   {
     "index": 34,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 2870,
-    "endFrame": 2903,
-    "startSeconds": 95.65,
-    "endSeconds": 96.77,
-    "text": "In a separate report,"
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 2948,
+    "endFrame": 3026,
+    "startSeconds": 98.27,
+    "endSeconds": 100.85,
+    "text": "The deal points to investors moving money toward the"
   },
   {
     "index": 35,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 2916,
-    "endFrame": 2960,
-    "startSeconds": 97.19,
-    "endSeconds": 98.65,
-    "text": "the Times examined New Matrix,"
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 3026,
+    "endFrame": 3086,
+    "startSeconds": 100.85,
+    "endSeconds": 102.87,
+    "text": "business of running AI models for customers."
   },
   {
     "index": 36,
-    "sceneId": "s2_megaspeed_exec_was_recruited_to",
-    "startFrame": 2972,
-    "endFrame": 2995,
-    "startSeconds": 99.07,
-    "endSeconds": 99.83,
-    "text": "a Chinese company."
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 3121,
+    "endFrame": 3224,
+    "startSeconds": 104.03,
+    "endSeconds": 107.45,
+    "text": "Even so, the high cost of computing continues to put"
   },
   {
     "index": 37,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 3066,
-    "endFrame": 3094,
-    "startSeconds": 102.21,
-    "endSeconds": 103.15,
-    "text": "In other news."
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 3224,
+    "endFrame": 3289,
+    "startSeconds": 107.45,
+    "endSeconds": 109.63,
+    "text": "pressure on the profit margins of these inference"
   },
   {
     "index": 38,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 3126,
-    "endFrame": 3206,
-    "startSeconds": 104.19,
-    "endSeconds": 106.87,
-    "text": "Amazon is trying again with its Astro home robot,"
+    "sceneId": "s2_fal_raises_1_3_billion_dollars_a",
+    "startFrame": 3289,
+    "endFrame": 3302,
+    "startSeconds": 109.63,
+    "endSeconds": 110.05,
+    "text": "providers."
   },
   {
     "index": 39,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 3216,
-    "endFrame": 3284,
-    "startSeconds": 107.19,
-    "endSeconds": 109.45,
-    "text": "even though there are signs the original may be headed"
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 3377,
+    "endFrame": 3401,
+    "startSeconds": 112.57,
+    "endSeconds": 113.37,
+    "text": "In other news."
   },
   {
     "index": 40,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 3284,
-    "endFrame": 3313,
-    "startSeconds": 109.45,
-    "endSeconds": 110.43,
-    "text": "for the scrap pile,"
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 3417,
+    "endFrame": 3524,
+    "startSeconds": 113.91,
+    "endSeconds": 117.47,
+    "text": "The US Justice Department announced on 5 November what"
   },
   {
     "index": 41,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 3323,
-    "endFrame": 3355,
-    "startSeconds": 110.77,
-    "endSeconds": 111.83,
-    "text": "CNBC reports."
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 3524,
+    "endFrame": 3586,
+    "startSeconds": 117.47,
+    "endSeconds": 119.55,
+    "text": "it calls a Super Intelligence Task Force."
   },
   {
     "index": 42,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 3383,
-    "endFrame": 3477,
-    "startSeconds": 112.77,
-    "endSeconds": 115.91,
-    "text": "Bezos, the company's founder and then chief executive,"
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 3620,
+    "endFrame": 3688,
+    "startSeconds": 120.67,
+    "endSeconds": 122.95,
+    "text": "The unit will coordinate enforcement against illegal"
   },
   {
     "index": 43,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 3494,
-    "endFrame": 3550,
-    "startSeconds": 116.45,
-    "endSeconds": 118.33,
-    "text": "is a fan of science fiction and robotics."
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 3688,
+    "endFrame": 3774,
+    "startSeconds": 122.95,
+    "endSeconds": 125.81,
+    "text": "uses of artificial intelligence by foreign actors,"
   },
   {
     "index": 44,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 3591,
-    "endFrame": 3670,
-    "startSeconds": 119.69,
-    "endSeconds": 122.35,
-    "text": "He believed homes would soon have robots of their own."
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 3786,
+    "endFrame": 3825,
+    "startSeconds": 126.19,
+    "endSeconds": 127.49,
+    "text": "criminal groups and companies."
   },
   {
     "index": 45,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 3701,
-    "endFrame": 3790,
-    "startSeconds": 123.37,
-    "endSeconds": 126.35,
-    "text": "He told Amazon's senior device executives to build one,"
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 3862,
+    "endFrame": 3941,
+    "startSeconds": 128.73,
+    "endSeconds": 131.37,
+    "text": "According to Nextgov, it absorbs the department's"
   },
   {
     "index": 46,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 3800,
-    "endFrame": 3868,
-    "startSeconds": 126.65,
-    "endSeconds": 128.93,
-    "text": "and within a few years the team came up with Astro,"
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 3941,
+    "endFrame": 4027,
+    "startSeconds": 131.37,
+    "endSeconds": 134.23,
+    "text": "earlier AI litigation task force and will draw up"
   },
   {
     "index": 47,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 3892,
-    "endFrame": 3926,
-    "startSeconds": 129.75,
-    "endSeconds": 130.85,
-    "text": "priced at 1,450."
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 4027,
+    "endFrame": 4084,
+    "startSeconds": 134.23,
+    "endSeconds": 136.13,
+    "text": "guidance on prosecutions and compliance."
   },
   {
     "index": 48,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 3969,
-    "endFrame": 4058,
-    "startSeconds": 132.29,
-    "endSeconds": 135.27,
-    "text": "trillion dollars he robot is essentially a tablet on"
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 4116,
+    "endFrame": 4182,
+    "startSeconds": 137.21,
+    "endSeconds": 139.39,
+    "text": "While the public announcement came this week,"
   },
   {
     "index": 49,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 4058,
-    "endFrame": 4083,
-    "startSeconds": 135.27,
-    "endSeconds": 136.11,
-    "text": "wheels running Alexa."
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 4192,
+    "endFrame": 4250,
+    "startSeconds": 139.73,
+    "endSeconds": 141.65,
+    "text": "the memorandum behind it is dated 13 October."
   },
   {
     "index": 50,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 4116,
-    "endFrame": 4176,
-    "startSeconds": 137.21,
-    "endSeconds": 139.21,
-    "text": "It can move around a home by itself,"
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 4287,
+    "endFrame": 4365,
+    "startSeconds": 142.91,
+    "endSeconds": 145.51,
+    "text": "The phrase super intelligence reflects the"
   },
   {
     "index": 51,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 4185,
-    "endFrame": 4270,
-    "startSeconds": 139.51,
-    "endSeconds": 142.33,
-    "text": "recognize faces and act as a mobile security monitor."
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 4365,
+    "endFrame": 4420,
+    "startSeconds": 145.51,
+    "endSeconds": 147.33,
+    "text": "administration's own choice of words."
   },
   {
     "index": 52,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 4301,
-    "endFrame": 4393,
-    "startSeconds": 143.37,
-    "endSeconds": 146.43,
-    "text": "It was first shown to the public on stage at Amazon's"
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 4453,
+    "endFrame": 4522,
+    "startSeconds": 148.43,
+    "endSeconds": 150.73,
+    "text": "It does not indicate that artificial intelligence"
   },
   {
     "index": 53,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 4393,
-    "endFrame": 4435,
-    "startSeconds": 146.43,
-    "endSeconds": 147.83,
-    "text": "fall 2021 event."
+    "sceneId": "s3_us_justice_department_announces",
+    "startFrame": 4522,
+    "endFrame": 4594,
+    "startSeconds": 150.73,
+    "endSeconds": 153.15,
+    "text": "surpassing humans across the board has been achieved."
   },
   {
     "index": 54,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 4468,
-    "endFrame": 4556,
-    "startSeconds": 148.93,
-    "endSeconds": 151.85,
-    "text": "But Astro stayed invitation-only and reached just a few"
+    "sceneId": "s4_google_expands_singapore_researc",
+    "startFrame": 4726,
+    "endFrame": 4746,
+    "startSeconds": 157.55,
+    "endSeconds": 158.21,
+    "text": "In Asia."
   },
   {
     "index": 55,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 4556,
-    "endFrame": 4643,
-    "startSeconds": 151.85,
-    "endSeconds": 154.77,
-    "text": "thousand customers, some of whom now expect it won't"
+    "sceneId": "s4_google_expands_singapore_researc",
+    "startFrame": 4772,
+    "endFrame": 4862,
+    "startSeconds": 159.07,
+    "endSeconds": 162.07,
+    "text": "Google announced on 3 November that it is broadening its"
   },
   {
     "index": 56,
-    "sceneId": "s3_amazon_s_astro_home_robot_has_fa",
-    "startFrame": 4643,
-    "endFrame": 4666,
-    "startSeconds": 154.77,
-    "endSeconds": 155.55,
-    "text": "last much longer."
+    "sceneId": "s4_google_expands_singapore_researc",
+    "startFrame": 4862,
+    "endFrame": 4950,
+    "startSeconds": 162.07,
+    "endSeconds": 165.01,
+    "text": "academic partnerships in Singapore with more than 6"
   },
   {
     "index": 57,
-    "sceneId": "s4_chinese_ai_lab_moonshot_turned_t",
-    "startFrame": 4796,
-    "endFrame": 4819,
-    "startSeconds": 159.87,
-    "endSeconds": 160.63,
-    "text": "In China."
+    "sceneId": "s4_google_expands_singapore_researc",
+    "startFrame": 4950,
+    "endFrame": 5022,
+    "startSeconds": 165.01,
+    "endSeconds": 167.41,
+    "text": "million dollars in support for research and capacity"
   },
   {
     "index": 58,
-    "sceneId": "s4_chinese_ai_lab_moonshot_turned_t",
-    "startFrame": 4836,
-    "endFrame": 4943,
-    "startSeconds": 161.19,
-    "endSeconds": 164.77,
-    "text": "Chinese artificial intelligence lab Moonshot AI has"
+    "sceneId": "s4_google_expands_singapore_researc",
+    "startFrame": 5022,
+    "endFrame": 5126,
+    "startSeconds": 167.41,
+    "endSeconds": 170.87,
+    "text": "building, alongside its recently opened research hub in"
   },
   {
     "index": 59,
-    "sceneId": "s4_chinese_ai_lab_moonshot_turned_t",
-    "startFrame": 4943,
-    "endFrame": 5024,
-    "startSeconds": 164.77,
-    "endSeconds": 167.47,
-    "text": "tried to rent advanced Nvidia Blackwell chips from"
+    "sceneId": "s4_google_expands_singapore_researc",
+    "startFrame": 5126,
+    "endFrame": 5136,
+    "startSeconds": 170.87,
+    "endSeconds": 171.21,
+    "text": "the city."
   },
   {
     "index": 60,
-    "sceneId": "s4_chinese_ai_lab_moonshot_turned_t",
-    "startFrame": 5024,
-    "endFrame": 5120,
-    "startSeconds": 167.47,
-    "endSeconds": 170.67,
-    "text": "European neocloud providers, CNBC reports."
+    "sceneId": "s4_google_expands_singapore_researc",
+    "startFrame": 5168,
+    "endFrame": 5263,
+    "startSeconds": 172.27,
+    "endSeconds": 175.43,
+    "text": "The projects include Alzheimer's research assisted by AI"
   },
   {
     "index": 61,
-    "sceneId": "s4_chinese_ai_lab_moonshot_turned_t",
-    "startFrame": 5155,
-    "endFrame": 5248,
-    "startSeconds": 171.83,
-    "endSeconds": 174.95,
-    "text": "US export controls restrict bringing such chips into"
+    "sceneId": "s4_google_expands_singapore_researc",
+    "startFrame": 5263,
+    "endFrame": 5361,
+    "startSeconds": 175.43,
+    "endSeconds": 178.71,
+    "text": "at NUS, work on computing efficiency and regional"
   },
   {
     "index": 62,
-    "sceneId": "s4_chinese_ai_lab_moonshot_turned_t",
-    "startFrame": 5248,
-    "endFrame": 5261,
-    "startSeconds": 174.95,
-    "endSeconds": 175.37,
-    "text": "China."
+    "sceneId": "s4_google_expands_singapore_researc",
+    "startFrame": 5361,
+    "endFrame": 5452,
+    "startSeconds": 178.71,
+    "endSeconds": 181.75,
+    "text": "languages, studies on AI safety at NTU,"
   },
   {
     "index": 63,
-    "sceneId": "s5_india_flags_chinese_linked_ai_to",
-    "startFrame": 5389,
-    "endFrame": 5416,
-    "startSeconds": 179.63,
-    "endSeconds": 180.53,
-    "text": "Turning to India."
+    "sceneId": "s4_google_expands_singapore_researc",
+    "startFrame": 5462,
+    "endFrame": 5517,
+    "startSeconds": 182.07,
+    "endSeconds": 183.89,
+    "text": "and backing for INSEAD's Thrive Lab."
   },
   {
     "index": 64,
-    "sceneId": "s5_india_flags_chinese_linked_ai_to",
-    "startFrame": 5416,
-    "endFrame": 5537,
-    "startSeconds": 180.53,
-    "endSeconds": 184.57,
-    "text": "India's cybersecurity agency has identified the hacking"
+    "sceneId": "s4_google_expands_singapore_researc",
+    "startFrame": 5539,
+    "endFrame": 5621,
+    "startSeconds": 184.63,
+    "endSeconds": 187.37,
+    "text": "These are commitments of funding and planned research,"
   },
   {
     "index": 65,
-    "sceneId": "s5_india_flags_chinese_linked_ai_to",
-    "startFrame": 5537,
-    "endFrame": 5623,
-    "startSeconds": 184.57,
-    "endSeconds": 187.43,
-    "text": "group behind a string of AI-driven attacks on financial"
+    "sceneId": "s4_google_expands_singapore_researc",
+    "startFrame": 5621,
+    "endFrame": 5693,
+    "startSeconds": 187.37,
+    "endSeconds": 189.77,
+    "text": "rather than finished scientific advances."
   },
   {
     "index": 66,
-    "sceneId": "s5_india_flags_chinese_linked_ai_to",
-    "startFrame": 5623,
-    "endFrame": 5693,
-    "startSeconds": 187.43,
-    "endSeconds": 189.77,
-    "text": "companies, according to The Economic Times."
-  },
-  {
-    "index": 67,
-    "sceneId": "s5_india_flags_chinese_linked_ai_to",
-    "startFrame": 5722,
-    "endFrame": 5791,
-    "startSeconds": 190.75,
-    "endSeconds": 193.03,
-    "text": "The agency also named the group's tools,"
-  },
-  {
-    "index": 68,
-    "sceneId": "s5_india_flags_chinese_linked_ai_to",
-    "startFrame": 5806,
-    "endFrame": 5866,
-    "startSeconds": 193.53,
-    "endSeconds": 195.55,
-    "text": "at least two of which have links to China."
-  },
-  {
-    "index": 69,
-    "sceneId": "s5_india_flags_chinese_linked_ai_to",
-    "startFrame": 5908,
-    "endFrame": 5965,
-    "startSeconds": 196.93,
-    "endSeconds": 198.83,
-    "text": "India joins a growing number of countries raising"
-  },
-  {
-    "index": 70,
-    "sceneId": "s5_india_flags_chinese_linked_ai_to",
-    "startFrame": 5965,
-    "endFrame": 6014,
-    "startSeconds": 198.83,
-    "endSeconds": 200.47,
-    "text": "concerns about such activity."
-  },
-  {
-    "index": 71,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 6085,
-    "endFrame": 6112,
-    "startSeconds": 202.84,
-    "endSeconds": 203.74,
-    "text": "Around the world."
-  },
-  {
-    "index": 72,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 6145,
-    "endFrame": 6231,
-    "startSeconds": 204.84,
-    "endSeconds": 207.7,
-    "text": "The Guardian reports that public bodies in the UK are"
-  },
-  {
-    "index": 73,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 6231,
-    "endFrame": 6297,
-    "startSeconds": 207.7,
-    "endSeconds": 209.9,
-    "text": "struggling with a growing flood of complaints and"
-  },
-  {
-    "index": 74,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 6297,
-    "endFrame": 6349,
-    "startSeconds": 209.9,
-    "endSeconds": 211.64,
-    "text": "letters written by AI chatbots."
-  },
-  {
-    "index": 75,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 6376,
-    "endFrame": 6471,
-    "startSeconds": 212.54,
-    "endSeconds": 215.7,
-    "text": "Hollie Wickens is a senior caseworker for a Labour MP."
-  },
-  {
-    "index": 76,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 6507,
-    "endFrame": 6602,
-    "startSeconds": 216.9,
-    "endSeconds": 220.08,
-    "text": "She says these messages began arriving slowly in 2024"
-  },
-  {
-    "index": 77,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 6602,
-    "endFrame": 6658,
-    "startSeconds": 220.08,
-    "endSeconds": 221.92,
-    "text": "and have since become overwhelming."
-  },
-  {
-    "index": 78,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 6692,
-    "endFrame": 6779,
-    "startSeconds": 223.06,
-    "endSeconds": 225.98,
-    "text": "By her estimate, about half of the emails her office"
-  },
-  {
-    "index": 79,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 6779,
-    "endFrame": 6843,
-    "startSeconds": 225.98,
-    "endSeconds": 228.1,
-    "text": "gets now involve AI in some way."
-  },
-  {
-    "index": 80,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 6863,
-    "endFrame": 6919,
-    "startSeconds": 228.76,
-    "endSeconds": 230.62,
-    "text": "She has ten years in the job,"
-  },
-  {
-    "index": 81,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 6930,
-    "endFrame": 7010,
-    "startSeconds": 231.0,
-    "endSeconds": 233.66,
-    "text": "but she says the trend has made requests and complaints"
-  },
-  {
-    "index": 82,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 7010,
-    "endFrame": 7069,
-    "startSeconds": 233.66,
-    "endSeconds": 235.64,
-    "text": "harder and slower to read and handle."
-  },
-  {
-    "index": 83,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 7098,
-    "endFrame": 7168,
-    "startSeconds": 236.6,
-    "endSeconds": 238.92,
-    "text": "\"It is definitely more taxing,\" she said."
-  },
-  {
-    "index": 84,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 7196,
-    "endFrame": 7266,
-    "startSeconds": 239.88,
-    "endSeconds": 242.2,
-    "text": "Earlier this decade, applying for a job,"
-  },
-  {
-    "index": 85,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 7277,
-    "endFrame": 7351,
-    "startSeconds": 242.56,
-    "endSeconds": 245.04,
-    "text": "making a complaint or objecting to a local planning"
-  },
-  {
-    "index": 86,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 7351,
-    "endFrame": 7396,
-    "startSeconds": 245.04,
-    "endSeconds": 246.54,
-    "text": "proposal took real effort."
-  },
-  {
-    "index": 87,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 7429,
-    "endFrame": 7475,
-    "startSeconds": 247.62,
-    "endSeconds": 249.18,
-    "text": "People often had to do research,"
-  },
-  {
-    "index": 88,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 7489,
-    "endFrame": 7571,
-    "startSeconds": 249.62,
-    "endSeconds": 252.38,
-    "text": "fill in forms, write formally and draw on specialist"
-  },
-  {
-    "index": 89,
-    "sceneId": "s6_ai_clog_uk_public_bodies_battle",
-    "startFrame": 7571,
-    "endFrame": 7590,
-    "startSeconds": 252.38,
-    "endSeconds": 253.0,
-    "text": "knowledge."
-  },
-  {
-    "index": 90,
-    "sceneId": "s7_china_merchants_lionrock_ai_lab",
-    "startFrame": 7718,
-    "endFrame": 7741,
-    "startSeconds": 257.28,
-    "endSeconds": 258.02,
-    "text": "In China."
-  },
-  {
-    "index": 91,
-    "sceneId": "s7_china_merchants_lionrock_ai_lab",
-    "startFrame": 7767,
-    "endFrame": 7847,
-    "startSeconds": 258.9,
-    "endSeconds": 261.58,
-    "text": "LionRock AI Lab, part of China Merchants,"
-  },
-  {
-    "index": 92,
-    "sceneId": "s7_china_merchants_lionrock_ai_lab",
-    "startFrame": 7864,
-    "endFrame": 8011,
-    "startSeconds": 262.12,
-    "endSeconds": 267.04,
-    "text": "has released Lion-ER-35B-A3B as open ."
-  },
-  {
-    "index": 93,
-    "sceneId": "s7_china_merchants_lionrock_ai_lab",
-    "startFrame": 8011,
-    "endFrame": 8090,
-    "startSeconds": 267.04,
-    "endSeconds": 269.66,
-    "text": "The embodied reasoning model has 3 billion active"
-  },
-  {
-    "index": 94,
-    "sceneId": "s7_china_merchants_lionrock_ai_lab",
-    "startFrame": 8090,
-    "endFrame": 8171,
-    "startSeconds": 269.66,
-    "endSeconds": 272.38,
-    "text": "parameters and was built with a capability-driven data"
-  },
-  {
-    "index": 95,
-    "sceneId": "s7_china_merchants_lionrock_ai_lab",
-    "startFrame": 8171,
-    "endFrame": 8183,
-    "startSeconds": 272.38,
-    "endSeconds": 272.78,
-    "text": "engine."
-  },
-  {
-    "index": 96,
-    "sceneId": "s7_china_merchants_lionrock_ai_lab",
-    "startFrame": 8217,
-    "endFrame": 8278,
-    "startSeconds": 273.9,
-    "endSeconds": 275.94,
-    "text": "It beat its base model on ten benchmarks."
-  },
-  {
-    "index": 97,
-    "sceneId": "s8_china_unveils_an_ai_agent_identi",
-    "startFrame": 8356,
-    "endFrame": 8372,
-    "startSeconds": 278.52,
-    "endSeconds": 279.08,
-    "text": "Next."
-  },
-  {
-    "index": 98,
-    "sceneId": "s8_china_unveils_an_ai_agent_identi",
-    "startFrame": 8401,
-    "endFrame": 8486,
-    "startSeconds": 280.02,
-    "endSeconds": 282.86,
-    "text": "A new platform for registering and verifying the"
-  },
-  {
-    "index": 99,
-    "sceneId": "s8_china_unveils_an_ai_agent_identi",
-    "startFrame": 8486,
-    "endFrame": 8578,
-    "startSeconds": 282.86,
-    "endSeconds": 285.92,
-    "text": "identities of AI agents has been launched at Wuzhen,"
-  },
-  {
-    "index": 100,
-    "sceneId": "s8_china_unveils_an_ai_agent_identi",
-    "startFrame": 8578,
-    "endFrame": 8608,
-    "startSeconds": 285.92,
-    "endSeconds": 286.92,
-    "text": "Pandaily reports."
-  },
-  {
-    "index": 101,
-    "sceneId": "s8_china_unveils_an_ai_agent_identi",
-    "startFrame": 8642,
-    "endFrame": 8737,
-    "startSeconds": 288.06,
-    "endSeconds": 291.22,
-    "text": "Separately, 20 organizations, including Huawei,"
-  },
-  {
-    "index": 102,
-    "sceneId": "s8_china_unveils_an_ai_agent_identi",
-    "startFrame": 8762,
-    "endFrame": 8848,
-    "startSeconds": 292.08,
-    "endSeconds": 294.92,
-    "text": "Alibaba and Tencent, signed a voluntary pact on how"
-  },
-  {
-    "index": 103,
-    "sceneId": "s8_china_unveils_an_ai_agent_identi",
-    "startFrame": 8848,
-    "endFrame": 8877,
-    "startSeconds": 294.92,
-    "endSeconds": 295.9,
-    "text": "agents should behave."
-  },
-  {
-    "index": 104,
-    "sceneId": "s9_moxin_technology_launches_moworl",
-    "startFrame": 8948,
-    "endFrame": 8966,
-    "startSeconds": 298.25,
-    "endSeconds": 298.85,
-    "text": "Elsewhere."
-  },
-  {
-    "index": 105,
-    "sceneId": "s9_moxin_technology_launches_moworl",
-    "startFrame": 8966,
-    "endFrame": 9092,
-    "startSeconds": 298.85,
-    "endSeconds": 303.05,
-    "text": "Moxin Technology has launched MoWorld 2.0,"
-  },
-  {
-    "index": 106,
-    "sceneId": "s9_moxin_technology_launches_moworl",
-    "startFrame": 9101,
-    "endFrame": 9168,
-    "startSeconds": 303.37,
-    "endSeconds": 305.61,
-    "text": "a 4D world model that simulates gravity,"
-  },
-  {
-    "index": 107,
-    "sceneId": "s9_moxin_technology_launches_moworl",
-    "startFrame": 9188,
-    "endFrame": 9258,
-    "startSeconds": 306.25,
-    "endSeconds": 308.61,
-    "text": "elasticity and fluids in Gaussian scenes,"
-  },
-  {
-    "index": 108,
-    "sceneId": "s9_moxin_technology_launches_moworl",
-    "startFrame": 9266,
-    "endFrame": 9288,
-    "startSeconds": 308.87,
-    "endSeconds": 309.59,
-    "text": "Pandaily reports."
-  },
-  {
-    "index": 109,
-    "sceneId": "s9_moxin_technology_launches_moworl",
-    "startFrame": 9328,
-    "endFrame": 9415,
-    "startSeconds": 310.95,
-    "endSeconds": 313.83,
-    "text": "It runs video inference at about 70 frames per second"
-  },
-  {
-    "index": 110,
-    "sceneId": "s9_moxin_technology_launches_moworl",
-    "startFrame": 9415,
-    "endFrame": 9486,
-    "startSeconds": 313.83,
-    "endSeconds": 316.19,
-    "text": "and is both trained and deployed on Huawei Ascend."
-  },
-  {
-    "index": 111,
-    "sceneId": "s10_cashfree_launches_checkout_for_a",
-    "startFrame": 9617,
-    "endFrame": 9646,
-    "startSeconds": 320.58,
-    "endSeconds": 321.54,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 5827,
+    "endFrame": 5856,
+    "startSeconds": 194.23,
+    "endSeconds": 195.19,
     "text": "Turning to India."
   },
   {
+    "index": 67,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 5882,
+    "endFrame": 5973,
+    "startSeconds": 196.05,
+    "endSeconds": 199.11,
+    "text": "Peppermint Robotics, which is based in Pune and Austin,"
+  },
+  {
+    "index": 68,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 5986,
+    "endFrame": 6072,
+    "startSeconds": 199.53,
+    "endSeconds": 202.39,
+    "text": "announced on 4 November that it has raised 100 crore"
+  },
+  {
+    "index": 69,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 6072,
+    "endFrame": 6124,
+    "startSeconds": 202.39,
+    "endSeconds": 204.13,
+    "text": "rupees in a Pre-Series B round."
+  },
+  {
+    "index": 70,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 6150,
+    "endFrame": 6234,
+    "startSeconds": 204.99,
+    "endSeconds": 207.81,
+    "text": "The round was led by pi Ventures and Crane Venture"
+  },
+  {
+    "index": 71,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 6234,
+    "endFrame": 6324,
+    "startSeconds": 207.81,
+    "endSeconds": 210.79,
+    "text": "Partners, with Asiana Fund also taking part."
+  },
+  {
+    "index": 72,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 6354,
+    "endFrame": 6430,
+    "startSeconds": 211.79,
+    "endSeconds": 214.33,
+    "text": "The deal combines fresh investment with sales of"
+  },
+  {
+    "index": 73,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 6430,
+    "endFrame": 6514,
+    "startSeconds": 214.33,
+    "endSeconds": 217.15,
+    "text": "existing shares, meaning the business itself will not"
+  },
+  {
+    "index": 74,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 6514,
+    "endFrame": 6594,
+    "startSeconds": 217.15,
+    "endSeconds": 219.81,
+    "text": "receive the full 100 crore rupees ."
+  },
+  {
+    "index": 75,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 6594,
+    "endFrame": 6685,
+    "startSeconds": 219.81,
+    "endSeconds": 222.83,
+    "text": "The company's autonomous cleaning robots rely on"
+  },
+  {
+    "index": 76,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 6685,
+    "endFrame": 6751,
+    "startSeconds": 222.83,
+    "endSeconds": 225.03,
+    "text": "computer vision and LiDAR to map spaces,"
+  },
+  {
+    "index": 77,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 6761,
+    "endFrame": 6825,
+    "startSeconds": 225.37,
+    "endSeconds": 227.49,
+    "text": "plan routes and steer around obstacles."
+  },
+  {
+    "index": 78,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 6856,
+    "endFrame": 6917,
+    "startSeconds": 228.55,
+    "endSeconds": 230.57,
+    "text": "Peppermint plans to increase manufacturing,"
+  },
+  {
+    "index": 79,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 6932,
+    "endFrame": 7018,
+    "startSeconds": 231.07,
+    "endSeconds": 233.93,
+    "text": "move into cleanroom robotics and set up an assembly line"
+  },
+  {
+    "index": 80,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 7018,
+    "endFrame": 7046,
+    "startSeconds": 233.93,
+    "endSeconds": 234.87,
+    "text": "in North America."
+  },
+  {
+    "index": 81,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 7071,
+    "endFrame": 7153,
+    "startSeconds": 235.69,
+    "endSeconds": 238.43,
+    "text": "Figures on its deployments and revenue growth are the"
+  },
+  {
+    "index": 82,
+    "sceneId": "s5_peppermint_raises_100_crore_rupe",
+    "startFrame": 7153,
+    "endFrame": 7181,
+    "startSeconds": 238.43,
+    "endSeconds": 239.37,
+    "text": "company's own claims."
+  },
+  {
+    "index": 83,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 7255,
+    "endFrame": 7282,
+    "startSeconds": 241.82,
+    "endSeconds": 242.74,
+    "text": "Around the world."
+  },
+  {
+    "index": 84,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 7311,
+    "endFrame": 7400,
+    "startSeconds": 243.7,
+    "endSeconds": 246.66,
+    "text": "Google is facing criticism from parents and teachers in"
+  },
+  {
+    "index": 85,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 7400,
+    "endFrame": 7481,
+    "startSeconds": 246.66,
+    "endSeconds": 249.36,
+    "text": "the United States over a new condition attached to its"
+  },
+  {
+    "index": 86,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 7481,
+    "endFrame": 7547,
+    "startSeconds": 249.36,
+    "endSeconds": 251.58,
+    "text": "classroom technology, the Guardian reports."
+  },
+  {
+    "index": 87,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 7580,
+    "endFrame": 7659,
+    "startSeconds": 252.66,
+    "endSeconds": 255.3,
+    "text": "Last week the company released a group of artificial"
+  },
+  {
+    "index": 88,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 7659,
+    "endFrame": 7710,
+    "startSeconds": 255.3,
+    "endSeconds": 257.0,
+    "text": "intelligence tools for schools,"
+  },
+  {
+    "index": 89,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 7724,
+    "endFrame": 7799,
+    "startSeconds": 257.46,
+    "endSeconds": 259.96,
+    "text": "along with settings that let teachers and administrators"
+  },
+  {
+    "index": 90,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 7799,
+    "endFrame": 7853,
+    "startSeconds": 259.96,
+    "endSeconds": 261.78,
+    "text": "limit how those tools are used."
+  },
+  {
+    "index": 91,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 7888,
+    "endFrame": 7964,
+    "startSeconds": 262.92,
+    "endSeconds": 265.48,
+    "text": "Google says each school can decide for itself whether"
+  },
+  {
+    "index": 92,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 7964,
+    "endFrame": 8010,
+    "startSeconds": 265.48,
+    "endSeconds": 267.0,
+    "text": "students get access to AI."
+  },
+  {
+    "index": 93,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 8041,
+    "endFrame": 8071,
+    "startSeconds": 268.02,
+    "endSeconds": 269.02,
+    "text": "But there is a condition."
+  },
+  {
+    "index": 94,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 8101,
+    "endFrame": 8204,
+    "startSeconds": 270.02,
+    "endSeconds": 273.46,
+    "text": "Any school that switches off the AI tools will also lose"
+  },
+  {
+    "index": 95,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 8204,
+    "endFrame": 8240,
+    "startSeconds": 273.46,
+    "endSeconds": 274.68,
+    "text": "access to Google Search."
+  },
+  {
+    "index": 96,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 8278,
+    "endFrame": 8351,
+    "startSeconds": 275.92,
+    "endSeconds": 278.38,
+    "text": "Chris Phillips, Google's vice-president for education,"
+  },
+  {
+    "index": 97,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 8370,
+    "endFrame": 8396,
+    "startSeconds": 279.0,
+    "endSeconds": 279.88,
+    "text": "defended the policy."
+  },
+  {
+    "index": 98,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 8434,
+    "endFrame": 8510,
+    "startSeconds": 281.14,
+    "endSeconds": 283.66,
+    "text": "\"We believe schools should have control over AI in their"
+  },
+  {
+    "index": 99,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 8510,
+    "endFrame": 8550,
+    "startSeconds": 283.66,
+    "endSeconds": 285.0,
+    "text": "classrooms,\" he said."
+  },
+  {
+    "index": 100,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 8582,
+    "endFrame": 8650,
+    "startSeconds": 286.06,
+    "endSeconds": 288.34,
+    "text": "Phillips added that the company sought input from"
+  },
+  {
+    "index": 101,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 8650,
+    "endFrame": 8750,
+    "startSeconds": 288.34,
+    "endSeconds": 291.68,
+    "text": "researchers, policymakers, schools and teachers before"
+  },
+  {
+    "index": 102,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 8750,
+    "endFrame": 8803,
+    "startSeconds": 291.68,
+    "endSeconds": 293.44,
+    "text": "it changed the controls covering Gemini,"
+  },
+  {
+    "index": 103,
+    "sceneId": "s6_parents_and_teachers_decry_googl",
+    "startFrame": 8827,
+    "endFrame": 8918,
+    "startSeconds": 294.22,
+    "endSeconds": 297.28,
+    "text": "Gemini Notebook, Gemini in Classroom and Google Search."
+  },
+  {
+    "index": 104,
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 9040,
+    "endFrame": 9040,
+    "startSeconds": 301.34,
+    "endSeconds": 301.34,
+    "text": "In other news."
+  },
+  {
+    "index": 105,
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 9040,
+    "endFrame": 9160,
+    "startSeconds": 301.34,
+    "endSeconds": 305.34,
+    "text": "Nvidia, SK Telecom and the chip designer Rebellions plan"
+  },
+  {
+    "index": 106,
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 9160,
+    "endFrame": 9226,
+    "startSeconds": 305.34,
+    "endSeconds": 307.54,
+    "text": "to jointly build a hybrid artificial intelligence"
+  },
+  {
+    "index": 107,
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 9226,
+    "endFrame": 9326,
+    "startSeconds": 307.54,
+    "endSeconds": 310.88,
+    "text": "computing system for SK Telecom's data centers,"
+  },
+  {
+    "index": 108,
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 9332,
+    "endFrame": 9371,
+    "startSeconds": 311.08,
+    "endSeconds": 312.38,
+    "text": "according to the Korea Times."
+  },
+  {
+    "index": 109,
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 9407,
+    "endFrame": 9475,
+    "startSeconds": 313.56,
+    "endSeconds": 315.82,
+    "text": "The three companies signed a memorandum of understanding"
+  },
+  {
+    "index": 110,
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 9475,
+    "endFrame": 9532,
+    "startSeconds": 315.82,
+    "endSeconds": 317.72,
+    "text": "on Monday at AI Day Seoul,"
+  },
+  {
+    "index": 111,
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 9544,
+    "endFrame": 9617,
+    "startSeconds": 318.14,
+    "endSeconds": 320.56,
+    "text": "a two-day Nvidia event in the south of the city."
+  },
+  {
     "index": 112,
-    "sceneId": "s10_cashfree_launches_checkout_for_a",
-    "startFrame": 9679,
-    "endFrame": 9773,
-    "startSeconds": 322.64,
-    "endSeconds": 325.78,
-    "text": "Cashfree Payments, a fintech start-up seen as close to a"
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 9649,
+    "endFrame": 9722,
+    "startSeconds": 321.62,
+    "endSeconds": 324.08,
+    "text": "Under the arrangement, Rebellions' neural processing"
   },
   {
     "index": 113,
-    "sceneId": "s10_cashfree_launches_checkout_for_a",
-    "startFrame": 9773,
-    "endFrame": 9865,
-    "startSeconds": 325.78,
-    "endSeconds": 328.82,
-    "text": "billion-dollar valuation, has launched a product called"
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 9722,
+    "endFrame": 9799,
+    "startSeconds": 324.08,
+    "endSeconds": 326.64,
+    "text": "chips will connect to Nvidia's graphics processors"
   },
   {
     "index": 114,
-    "sceneId": "s10_cashfree_launches_checkout_for_a",
-    "startFrame": 9865,
-    "endFrame": 9940,
-    "startSeconds": 328.82,
-    "endSeconds": 331.32,
-    "text": "Checkout for Agents, Inc42 reports."
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 9799,
+    "endFrame": 9866,
+    "startSeconds": 326.64,
+    "endSeconds": 328.86,
+    "text": "through a program called NVLink Fusion."
   },
   {
     "index": 115,
-    "sceneId": "s10_cashfree_launches_checkout_for_a",
-    "startFrame": 9977,
-    "endFrame": 10046,
-    "startSeconds": 332.58,
-    "endSeconds": 334.86,
-    "text": "It lets AI agents handle customer payments."
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 9866,
+    "endFrame": 9985,
+    "startSeconds": 328.86,
+    "endSeconds": 332.84,
+    "text": "The program lets major cloud operators and makers of"
   },
   {
     "index": 116,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 10118,
-    "endFrame": 10190,
-    "startSeconds": 337.28,
-    "endSeconds": 339.68,
-    "text": "And now, our research story of the week."
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 9985,
+    "endFrame": 10088,
+    "startSeconds": 332.84,
+    "endSeconds": 336.26,
+    "text": "custom chips attach their own AI processors to Nvidia's"
   },
   {
     "index": 117,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 10220,
-    "endFrame": 10297,
-    "startSeconds": 340.68,
-    "endSeconds": 343.24,
-    "text": "This week's research highlight is a survey titled"
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 10088,
+    "endFrame": 10118,
+    "startSeconds": 336.26,
+    "endSeconds": 337.26,
+    "text": "rack-scale systems."
   },
   {
     "index": 118,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 10297,
-    "endFrame": 10357,
-    "startSeconds": 343.24,
-    "endSeconds": 345.22,
-    "text": "Advances in Agentic Computer Graphics."
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 10158,
+    "endFrame": 10227,
+    "startSeconds": 338.6,
+    "endSeconds": 340.9,
+    "text": "South Korea's science ministry said the deal could"
   },
   {
     "index": 119,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 10393,
-    "endFrame": 10475,
-    "startSeconds": 346.44,
-    "endSeconds": 349.18,
-    "text": "It looks at how AI systems built on large language"
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 10227,
+    "endFrame": 10306,
+    "startSeconds": 340.9,
+    "endSeconds": 343.54,
+    "text": "create new applications for the country's advanced chips"
   },
   {
     "index": 120,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 10475,
-    "endFrame": 10561,
-    "startSeconds": 349.18,
-    "endSeconds": 352.02,
-    "text": "models, the technology behind today's chatbots,"
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 10306,
+    "endFrame": 10377,
+    "startSeconds": 343.54,
+    "endSeconds": 345.9,
+    "text": "and strengthen the position of Korean companies in"
   },
   {
     "index": 121,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 10572,
-    "endFrame": 10646,
-    "startSeconds": 352.4,
-    "endSeconds": 354.86,
-    "text": "are starting to take on work in computer graphics."
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 10377,
+    "endFrame": 10404,
+    "startSeconds": 345.9,
+    "endSeconds": 346.8,
+    "text": "overseas markets."
   },
   {
     "index": 122,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 10663,
-    "endFrame": 10763,
-    "startSeconds": 355.42,
-    "endSeconds": 358.78,
-    "text": "In graphics, software code sets out the steps for"
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 10441,
+    "endFrame": 10531,
+    "startSeconds": 348.02,
+    "endSeconds": 351.02,
+    "text": "Nvidia also held a forum that drew more than 20 Korean"
   },
   {
     "index": 123,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 10763,
-    "endFrame": 10805,
-    "startSeconds": 358.78,
-    "endSeconds": 360.16,
-    "text": "creating and changing images."
+    "sceneId": "s7_nvidia_skt_rebellions_to_jointly",
+    "startFrame": 10531,
+    "endFrame": 10544,
+    "startSeconds": 351.02,
+    "endSeconds": 351.48,
+    "text": "startups."
   },
   {
     "index": 124,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 10832,
-    "endFrame": 10917,
-    "startSeconds": 361.06,
-    "endSeconds": 363.9,
-    "text": "These language models have become good at writing code,"
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 10619,
+    "endFrame": 10637,
+    "startSeconds": 353.98,
+    "endSeconds": 354.56,
+    "text": "Next."
   },
   {
     "index": 125,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 10927,
-    "endFrame": 10982,
-    "startSeconds": 364.22,
-    "endSeconds": 366.08,
-    "text": "reasoning and using software tools,"
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 10664,
+    "endFrame": 10756,
+    "startSeconds": 355.48,
+    "endSeconds": 358.54,
+    "text": "Chinese artificial intelligence companies are trying to"
   },
   {
     "index": 126,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 10982,
-    "endFrame": 11056,
-    "startSeconds": 366.08,
-    "endSeconds": 368.54,
-    "text": "so they can now work as what are called agents."
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 10756,
+    "endFrame": 10811,
+    "startSeconds": 358.54,
+    "endSeconds": 360.38,
+    "text": "hire engineers in Silicon Valley,"
   },
   {
     "index": 127,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 11090,
-    "endFrame": 11140,
-    "startSeconds": 369.66,
-    "endSeconds": 371.34,
-    "text": "An agent writes graphics code,"
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 10822,
+    "endFrame": 10858,
+    "startSeconds": 360.74,
+    "endSeconds": 361.94,
+    "text": "Rest of World reports,"
   },
   {
     "index": 128,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 11148,
-    "endFrame": 11191,
-    "startSeconds": 371.6,
-    "endSeconds": 373.04,
-    "text": "runs it in a graphics program,"
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 10871,
+    "endFrame": 10944,
+    "startSeconds": 362.36,
+    "endSeconds": 364.8,
+    "text": "a push that could open a path to talent from American"
   },
   {
     "index": 129,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 11203,
-    "endFrame": 11287,
-    "startSeconds": 373.44,
-    "endSeconds": 376.24,
-    "text": "checks the result and uses that feedback to improve its"
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 10944,
+    "endFrame": 11018,
+    "startSeconds": 364.8,
+    "endSeconds": 367.26,
+    "text": "labs such as OpenAI and Anthropic."
   },
   {
     "index": 130,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 11287,
-    "endFrame": 11304,
-    "startSeconds": 376.24,
-    "endSeconds": 376.8,
-    "text": "next attempt."
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 11045,
+    "endFrame": 11135,
+    "startSeconds": 368.18,
+    "endSeconds": 371.18,
+    "text": "MiniMax, a startup whose shares trade in Hong Kong,"
   },
   {
     "index": 131,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 11337,
-    "endFrame": 11415,
-    "startSeconds": 377.9,
-    "endSeconds": 380.5,
-    "text": "The researchers call these agentic graphics systems."
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 11147,
+    "endFrame": 11243,
+    "startSeconds": 371.56,
+    "endSeconds": 374.78,
+    "text": "lists roughly 16 vacancies in San Francisco on its"
   },
   {
     "index": 132,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 11446,
-    "endFrame": 11527,
-    "startSeconds": 381.52,
-    "endSeconds": 384.24,
-    "text": "Such systems have already done well at building and"
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 11243,
+    "endFrame": 11251,
+    "startSeconds": 374.78,
+    "endSeconds": 375.04,
+    "text": "website."
   },
   {
     "index": 133,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 11527,
-    "endFrame": 11584,
-    "startSeconds": 384.24,
-    "endSeconds": 386.12,
-    "text": "repeatedly editing 3D objects,"
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 11282,
+    "endFrame": 11372,
+    "startSeconds": 376.06,
+    "endSeconds": 379.08,
+    "text": "They include a position heading research on its main AI"
   },
   {
     "index": 134,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 11596,
-    "endFrame": 11647,
-    "startSeconds": 386.52,
-    "endSeconds": 388.24,
-    "text": "animating objects with moving joints,"
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 11372,
+    "endFrame": 11386,
+    "startSeconds": 379.08,
+    "endSeconds": 379.52,
+    "text": "model."
   },
   {
     "index": 135,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 11647,
-    "endFrame": 11739,
-    "startSeconds": 388.24,
-    "endSeconds": 391.3,
-    "text": "and putting together moving scenes that simulate solid"
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 11412,
+    "endFrame": 11499,
+    "startSeconds": 380.4,
+    "endSeconds": 383.3,
+    "text": "The company is also seeking experts in life sciences,"
   },
   {
     "index": 136,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 11739,
-    "endFrame": 11767,
-    "startSeconds": 391.3,
-    "endSeconds": 392.22,
-    "text": "bodies and fluids."
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 11515,
+    "endFrame": 11567,
+    "startSeconds": 383.82,
+    "endSeconds": 385.56,
+    "text": "law, finance and cybersecurity,"
   },
   {
     "index": 137,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 11794,
-    "endFrame": 11895,
-    "startSeconds": 393.12,
-    "endSeconds": 396.5,
-    "text": "For example, a user no longer has to hand-tune the"
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 11589,
+    "endFrame": 11669,
+    "startSeconds": 386.3,
+    "endSeconds": 388.98,
+    "text": "as well as a senior recruiter to attract top AI"
   },
   {
     "index": 138,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 11895,
-    "endFrame": 11970,
-    "startSeconds": 396.5,
-    "endSeconds": 399.0,
-    "text": "shader programs that control how a surface looks."
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 11669,
+    "endFrame": 11741,
+    "startSeconds": 388.98,
+    "endSeconds": 391.38,
+    "text": "engineers from Silicon Valley and Seattle."
   },
   {
     "index": 139,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 12001,
-    "endFrame": 12091,
-    "startSeconds": 400.04,
-    "endSeconds": 403.04,
-    "text": "Instead, they can guide an agent's changes with a short"
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 11771,
+    "endFrame": 11850,
+    "startSeconds": 392.36,
+    "endSeconds": 395.0,
+    "text": "Moonshot AI, the developer of the Kimi model,"
   },
   {
     "index": 140,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 12091,
-    "endFrame": 12153,
-    "startSeconds": 403.04,
-    "endSeconds": 405.1,
-    "text": "written instruction and, if they like,"
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 11859,
+    "endFrame": 11945,
+    "startSeconds": 395.3,
+    "endSeconds": 398.16,
+    "text": "is recruiting solutions architects in the United States."
   },
   {
     "index": 141,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 12163,
-    "endFrame": 12190,
-    "startSeconds": 405.44,
-    "endSeconds": 406.34,
-    "text": "a reference picture."
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 11979,
+    "endFrame": 12053,
+    "startSeconds": 399.3,
+    "endSeconds": 401.76,
+    "text": "Those staff would help corporate clients build its"
   },
   {
     "index": 142,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 12221,
-    "endFrame": 12305,
-    "startSeconds": 407.36,
-    "endSeconds": 410.18,
-    "text": "The researchers say the field is growing so fast that"
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 12053,
+    "endFrame": 12089,
+    "startSeconds": 401.76,
+    "endSeconds": 402.96,
+    "text": "models into their businesses."
   },
   {
     "index": 143,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 12305,
-    "endFrame": 12376,
-    "startSeconds": 410.18,
-    "endSeconds": 412.54,
-    "text": "reviewing the research by hand cannot keep up."
+    "sceneId": "s8_chinese_ai_firms_want_silicon_va",
+    "startFrame": 12125,
+    "endFrame": 12172,
+    "startSeconds": 404.16,
+    "endSeconds": 405.72,
+    "text": "Success is far from guaranteed."
   },
   {
     "index": 144,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 12400,
-    "endFrame": 12487,
-    "startSeconds": 413.34,
-    "endSeconds": 416.22,
-    "text": "Different research areas also often use different words"
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 12304,
+    "endFrame": 12344,
+    "startSeconds": 410.12,
+    "endSeconds": 411.46,
+    "text": "Turning to the United States."
   },
   {
     "index": 145,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 12487,
-    "endFrame": 12513,
-    "startSeconds": 416.22,
-    "endSeconds": 417.1,
-    "text": "for the same ideas."
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 12376,
+    "endFrame": 12466,
+    "startSeconds": 412.54,
+    "endSeconds": 415.52,
+    "text": "Google is rolling out two new versions of its own Tensor"
   },
   {
     "index": 146,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 12541,
-    "endFrame": 12638,
-    "startSeconds": 418.04,
-    "endSeconds": 421.28,
-    "text": "To fix this, they propose one shared system for"
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 12466,
+    "endFrame": 12529,
+    "startSeconds": 415.52,
+    "endSeconds": 417.62,
+    "text": "Processing Unit chip, Reuters reports."
   },
   {
     "index": 147,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 12638,
-    "endFrame": 12719,
-    "startSeconds": 421.28,
-    "endSeconds": 423.98,
-    "text": "classifying agentic tools across graphics tasks."
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 12566,
+    "endFrame": 12613,
+    "startSeconds": 418.88,
+    "endSeconds": 420.44,
+    "text": "The first, the 8tx,"
   },
   {
     "index": 148,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 12754,
-    "endFrame": 12842,
-    "startSeconds": 425.14,
-    "endSeconds": 428.08,
-    "text": "They also built their own agent-based tool to help human"
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 12624,
+    "endFrame": 12694,
+    "startSeconds": 420.8,
+    "endSeconds": 423.12,
+    "text": "is designed for government agencies and regulated"
   },
   {
     "index": 149,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 12842,
-    "endFrame": 12926,
-    "startSeconds": 428.08,
-    "endSeconds": 430.86,
-    "text": "researchers analyse large numbers of older and newly"
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 12694,
+    "endFrame": 12775,
+    "startSeconds": 423.12,
+    "endSeconds": 425.82,
+    "text": "industries, and includes encryption in the hardware"
   },
   {
     "index": 150,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 12926,
-    "endFrame": 12952,
-    "startSeconds": 430.86,
-    "endSeconds": 431.72,
-    "text": "released papers."
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 12775,
+    "endFrame": 12838,
+    "startSeconds": 425.82,
+    "endSeconds": 427.94,
+    "text": "itself to safeguard sensitive information."
   },
   {
     "index": 151,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 12985,
-    "endFrame": 13069,
-    "startSeconds": 432.84,
-    "endSeconds": 435.62,
-    "text": "With these, they map new trends and point to open"
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 12875,
+    "endFrame": 12922,
+    "startSeconds": 429.18,
+    "endSeconds": 430.74,
+    "text": "The second, the 8i Max,"
   },
   {
     "index": 152,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 13069,
-    "endFrame": 13090,
-    "startSeconds": 435.62,
-    "endSeconds": 436.32,
-    "text": "problems."
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 12922,
+    "endFrame": 13010,
+    "startSeconds": 430.74,
+    "endSeconds": 433.66,
+    "text": "targets demanding AI workloads such as coding"
   },
   {
     "index": 153,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 13120,
-    "endFrame": 13196,
-    "startSeconds": 437.32,
-    "endSeconds": 439.86,
-    "text": "These include coordinating several agents and tools,"
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 13010,
+    "endFrame": 13100,
+    "startSeconds": 433.66,
+    "endSeconds": 436.68,
+    "text": "assistants, mathematical reasoning and drug discovery."
   },
   {
     "index": 154,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 13210,
-    "endFrame": 13285,
-    "startSeconds": 440.32,
-    "endSeconds": 442.82,
-    "text": "designing ways for people and agents to work together,"
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 13128,
+    "endFrame": 13217,
+    "startSeconds": 437.6,
+    "endSeconds": 440.56,
+    "text": "Google is increasingly selling access to its chips"
   },
   {
     "index": 155,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 13300,
-    "endFrame": 13352,
-    "startSeconds": 443.34,
-    "endSeconds": 445.08,
-    "text": "keeping up long-term planning and refinement,"
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 13217,
+    "endFrame": 13294,
+    "startSeconds": 440.56,
+    "endSeconds": 443.14,
+    "text": "through Google Cloud instead of reserving them for its"
   },
   {
     "index": 156,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 13372,
-    "endFrame": 13441,
-    "startSeconds": 445.74,
-    "endSeconds": 448.02,
-    "text": "and finding dependable ways to evaluate interactive"
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 13294,
+    "endFrame": 13313,
+    "startSeconds": 443.14,
+    "endSeconds": 443.78,
+    "text": "own operations."
   },
   {
     "index": 157,
-    "sceneId": "s11_advances_in_agentic_computer_gra",
-    "startFrame": 13441,
-    "endFrame": 13474,
-    "startSeconds": 448.02,
-    "endSeconds": 449.12,
-    "text": "graphics systems."
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 13354,
+    "endFrame": 13452,
+    "startSeconds": 445.14,
+    "endSeconds": 448.4,
+    "text": "The move shows that competition in AI now extends beyond"
   },
   {
     "index": 158,
-    "sceneId": "recap",
-    "startFrame": 13545,
-    "endFrame": 13605,
-    "startSeconds": 451.5,
-    "endSeconds": 453.5,
-    "text": "To recap this week's top stories."
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 13452,
+    "endFrame": 13484,
+    "startSeconds": 448.4,
+    "endSeconds": 449.48,
+    "text": "the models themselves."
   },
   {
     "index": 159,
-    "sceneId": "recap",
-    "startFrame": 13634,
-    "endFrame": 13717,
-    "startSeconds": 454.48,
-    "endSeconds": 457.24,
-    "text": "Cainiao Opens Its Global Warehouse Network as a"
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 13516,
+    "endFrame": 13617,
+    "startSeconds": 450.52,
+    "endSeconds": 453.9,
+    "text": "Command of chips, cloud capacity and computing costs is"
   },
   {
     "index": 160,
-    "sceneId": "recap",
-    "startFrame": 13717,
-    "endFrame": 13782,
-    "startSeconds": 457.24,
-    "endSeconds": 459.4,
-    "text": "Real-World Training Ground for Embodied AI."
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 13617,
+    "endFrame": 13649,
+    "startSeconds": 453.9,
+    "endSeconds": 454.96,
+    "text": "growing just as important,"
   },
   {
     "index": 161,
-    "sceneId": "recap",
-    "startFrame": 13820,
-    "endFrame": 13915,
-    "startSeconds": 460.66,
-    "endSeconds": 463.82,
-    "text": "Megaspeed exec was recruited to spy on Nvidia CEO,"
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 13663,
+    "endFrame": 13732,
+    "startSeconds": 455.44,
+    "endSeconds": 457.74,
+    "text": "and Google is presenting its processors as an"
   },
   {
     "index": 162,
-    "sceneId": "recap",
-    "startFrame": 13939,
-    "endFrame": 13993,
-    "startSeconds": 464.64,
-    "endSeconds": 466.42,
-    "text": "according to US intelligence memo."
+    "sceneId": "s9_google_adds_two_new_tpu_chips_as",
+    "startFrame": 13732,
+    "endFrame": 13777,
+    "startSeconds": 457.74,
+    "endSeconds": 459.22,
+    "text": "alternative to Nvidia's hardware."
   },
   {
     "index": 163,
-    "sceneId": "recap",
-    "startFrame": 14039,
-    "endFrame": 14117,
-    "startSeconds": 467.96,
-    "endSeconds": 470.58,
-    "text": "Amazon's Astro home robot has fans but looks destined"
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 13849,
+    "endFrame": 13874,
+    "startSeconds": 461.62,
+    "endSeconds": 462.46,
+    "text": "Also today."
   },
   {
     "index": 164,
-    "sceneId": "recap",
-    "startFrame": 14117,
-    "endFrame": 14216,
-    "startSeconds": 470.58,
-    "endSeconds": 473.86,
-    "text": "for the 'trash heap.' Why it's trying again."
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 13897,
+    "endFrame": 13982,
+    "startSeconds": 463.22,
+    "endSeconds": 466.08,
+    "text": "Nvidia said its board of directors has formed an"
   },
   {
     "index": 165,
-    "sceneId": "recap",
-    "startFrame": 14245,
-    "endFrame": 14342,
-    "startSeconds": 474.84,
-    "endSeconds": 478.06,
-    "text": "Chinese AI lab Moonshot turned to Europe for Nvidia"
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 13982,
+    "endFrame": 14064,
+    "startSeconds": 466.08,
+    "endSeconds": 468.8,
+    "text": "independent committee, backed by outside lawyers,"
   },
   {
     "index": 166,
-    "sceneId": "recap",
-    "startFrame": 14342,
-    "endFrame": 14395,
-    "startSeconds": 478.06,
-    "endSeconds": 479.84,
-    "text": "Blackwell access amid U.S."
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 14078,
+    "endFrame": 14161,
+    "startSeconds": 469.28,
+    "endSeconds": 472.04,
+    "text": "to look into reports that chief executive Jensen Huang"
   },
   {
     "index": 167,
-    "sceneId": "recap",
-    "startFrame": 14395,
-    "endFrame": 14419,
-    "startSeconds": 479.84,
-    "endSeconds": 480.64,
-    "text": "China curbs, ."
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 14161,
+    "endFrame": 14221,
+    "startSeconds": 472.04,
+    "endSeconds": 474.04,
+    "text": "may have been the target of a foreign intelligence"
   },
   {
     "index": 168,
-    "sceneId": "recap",
-    "startFrame": 14453,
-    "endFrame": 14552,
-    "startSeconds": 481.76,
-    "endSeconds": 485.08,
-    "text": "India flags Chinese-linked AI tools in hacking campaign"
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 14221,
+    "endFrame": 14241,
+    "startSeconds": 474.04,
+    "endSeconds": 474.7,
+    "text": "operation."
   },
   {
     "index": 169,
-    "sceneId": "recap",
-    "startFrame": 14552,
-    "endFrame": 14593,
-    "startSeconds": 485.08,
-    "endSeconds": 486.44,
-    "text": "against financial firms."
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 14281,
+    "endFrame": 14360,
+    "startSeconds": 476.02,
+    "endSeconds": 478.68,
+    "text": "The company said it has no current reason to think that"
   },
   {
     "index": 170,
-    "sceneId": "recap",
-    "startFrame": 14618,
-    "endFrame": 14723,
-    "startSeconds": 487.26,
-    "endSeconds": 490.76,
-    "text": "\u2018AI clog\u2019: UK public bodies battle onslaught of"
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 14360,
+    "endFrame": 14443,
+    "startSeconds": 478.68,
+    "endSeconds": 481.44,
+    "text": "national security or its own confidential information"
   },
   {
     "index": 171,
-    "sceneId": "recap",
-    "startFrame": 14723,
-    "endFrame": 14761,
-    "startSeconds": 490.76,
-    "endSeconds": 492.04,
-    "text": "chatbot-generated complaints."
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 14443,
+    "endFrame": 14467,
+    "startSeconds": 481.44,
+    "endSeconds": 482.24,
+    "text": "was compromised."
   },
   {
     "index": 172,
-    "sceneId": "outro",
-    "startFrame": 14837,
-    "endFrame": 14913,
-    "startSeconds": 494.56,
-    "endSeconds": 497.1,
-    "text": "Those were the week's important developments beyond the"
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 14511,
+    "endFrame": 14591,
+    "startSeconds": 483.7,
+    "endSeconds": 486.36,
+    "text": "Nvidia added that Huang has agreed to fully cooperate"
   },
   {
     "index": 173,
-    "sceneId": "outro",
-    "startFrame": 14913,
-    "endFrame": 14935,
-    "startSeconds": 497.1,
-    "endSeconds": 497.84,
-    "text": "daily headlines."
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 14591,
+    "endFrame": 14617,
+    "startSeconds": 486.36,
+    "endSeconds": 487.22,
+    "text": "with the inquiry."
   },
   {
     "index": 174,
-    "sceneId": "outro",
-    "startFrame": 14971,
-    "endFrame": 15014,
-    "startSeconds": 499.04,
-    "endSeconds": 500.48,
-    "text": "From our bureaus covering World,"
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 14650,
+    "endFrame": 14744,
+    "startSeconds": 488.34,
+    "endSeconds": 491.48,
+    "text": "Because Nvidia plays a central role in the worldwide AI"
   },
   {
     "index": 175,
-    "sceneId": "outro",
-    "startFrame": 15026,
-    "endFrame": 15112,
-    "startSeconds": 500.86,
-    "endSeconds": 503.74,
-    "text": "USA, China, Asia, and India,"
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 14744,
+    "endFrame": 14836,
+    "startSeconds": 491.48,
+    "endSeconds": 494.54,
+    "text": "supply chain, questions about the security of its"
   },
   {
     "index": 176,
-    "sceneId": "outro",
-    "startFrame": 15126,
-    "endFrame": 15202,
-    "startSeconds": 504.2,
-    "endSeconds": 506.72,
-    "text": "thank you for watching SanMitra AI News Wire."
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 14836,
+    "endFrame": 14924,
+    "startSeconds": 494.54,
+    "endSeconds": 497.46,
+    "text": "leadership and of access to advanced chips carry weight"
   },
   {
     "index": 177,
+    "sceneId": "s10_nvidia_s_board_opens_an_independ",
+    "startFrame": 14924,
+    "endFrame": 14961,
+    "startSeconds": 497.46,
+    "endSeconds": 498.7,
+    "text": "far beyond the company."
+  },
+  {
+    "index": 178,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 15029,
+    "endFrame": 15064,
+    "startSeconds": 500.98,
+    "endSeconds": 502.14,
+    "text": "From the research desk."
+  },
+  {
+    "index": 179,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 15097,
+    "endFrame": 15172,
+    "startSeconds": 503.24,
+    "endSeconds": 505.74,
+    "text": "The researchers behind a paper titled SplatAnything:"
+  },
+  {
+    "index": 180,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 15187,
+    "endFrame": 15289,
+    "startSeconds": 506.24,
+    "endSeconds": 509.62,
+    "text": "Gaussian Spacing Normalization for Feed-forward 3DGS"
+  },
+  {
+    "index": 181,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 15289,
+    "endFrame": 15385,
+    "startSeconds": 509.62,
+    "endSeconds": 512.84,
+    "text": "across Arbitrary Scenes want a widely used 3D modelling"
+  },
+  {
+    "index": 182,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 15385,
+    "endFrame": 15467,
+    "startSeconds": 512.84,
+    "endSeconds": 515.58,
+    "text": "technique to perform more consistently across very"
+  },
+  {
+    "index": 183,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 15467,
+    "endFrame": 15488,
+    "startSeconds": 515.58,
+    "endSeconds": 516.28,
+    "text": "different scenes."
+  },
+  {
+    "index": 184,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 15515,
+    "endFrame": 15610,
+    "startSeconds": 517.18,
+    "endSeconds": 520.32,
+    "text": "The technique, known as 3D Gaussian splatting,"
+  },
+  {
+    "index": 185,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 15616,
+    "endFrame": 15685,
+    "startSeconds": 520.54,
+    "endSeconds": 522.84,
+    "text": "represents a scene as a large number of small,"
+  },
+  {
+    "index": 186,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 15697,
+    "endFrame": 15748,
+    "startSeconds": 523.24,
+    "endSeconds": 524.94,
+    "text": "blob-like shapes called Gaussians."
+  },
+  {
+    "index": 187,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 15779,
+    "endFrame": 15830,
+    "startSeconds": 525.98,
+    "endSeconds": 527.66,
+    "text": "In quicker feed-forward versions,"
+  },
+  {
+    "index": 188,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 15845,
+    "endFrame": 15919,
+    "startSeconds": 528.18,
+    "endSeconds": 530.64,
+    "text": "a neural network predicts those shapes in one pass."
+  },
+  {
+    "index": 189,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 15919,
+    "endFrame": 16027,
+    "startSeconds": 530.64,
+    "endSeconds": 534.22,
+    "text": "The researchers found that existing approaches resize"
+  },
+  {
+    "index": 190,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 16027,
+    "endFrame": 16103,
+    "startSeconds": 534.22,
+    "endSeconds": 536.76,
+    "text": "scenes using one overall distance measure,"
+  },
+  {
+    "index": 191,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 16112,
+    "endFrame": 16181,
+    "startSeconds": 537.06,
+    "endSeconds": 539.38,
+    "text": "yet the spacing between neighbouring Gaussians still"
+  },
+  {
+    "index": 192,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 16181,
+    "endFrame": 16263,
+    "startSeconds": 539.38,
+    "endSeconds": 542.1,
+    "text": "swings widely depending on scene size and camera"
+  },
+  {
+    "index": 193,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 16263,
+    "endFrame": 16277,
+    "startSeconds": 542.1,
+    "endSeconds": 542.56,
+    "text": "placement."
+  },
+  {
+    "index": 194,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 16305,
+    "endFrame": 16393,
+    "startSeconds": 543.5,
+    "endSeconds": 546.44,
+    "text": "That leaves the network uncertain how big each Gaussian"
+  },
+  {
+    "index": 195,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 16393,
+    "endFrame": 16410,
+    "startSeconds": 546.44,
+    "endSeconds": 547.0,
+    "text": "should be."
+  },
+  {
+    "index": 196,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 16438,
+    "endFrame": 16496,
+    "startSeconds": 547.94,
+    "endSeconds": 549.88,
+    "text": "Their solution, called GSNorm,"
+  },
+  {
+    "index": 197,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 16508,
+    "endFrame": 16590,
+    "startSeconds": 550.28,
+    "endSeconds": 553.0,
+    "text": "rescales each scene using a robust estimate of that"
+  },
+  {
+    "index": 198,
+    "sceneId": "s11_splatanything_gaussian_spacing_n",
+    "startFrame": 16590,
+    "endFrame": 16670,
+    "startSeconds": 553.0,
+    "endSeconds": 555.68,
+    "text": "spacing, giving the network a steadier reference point."
+  },
+  {
+    "index": 199,
+    "sceneId": "recap",
+    "startFrame": 16738,
+    "endFrame": 16796,
+    "startSeconds": 557.93,
+    "endSeconds": 559.85,
+    "text": "To recap today's top stories."
+  },
+  {
+    "index": 200,
+    "sceneId": "recap",
+    "startFrame": 16830,
+    "endFrame": 16927,
+    "startSeconds": 560.99,
+    "endSeconds": 564.23,
+    "text": "42AI emerges with a model designed to predict human"
+  },
+  {
+    "index": 201,
+    "sceneId": "recap",
+    "startFrame": 16927,
+    "endFrame": 16941,
+    "startSeconds": 564.23,
+    "endSeconds": 564.69,
+    "text": "behavior."
+  },
+  {
+    "index": 202,
+    "sceneId": "recap",
+    "startFrame": 16972,
+    "endFrame": 17079,
+    "startSeconds": 565.73,
+    "endSeconds": 569.29,
+    "text": "Fal raises 1.3 billion dollars as demand for AI"
+  },
+  {
+    "index": 203,
+    "sceneId": "recap",
+    "startFrame": 17079,
+    "endFrame": 17104,
+    "startSeconds": 569.29,
+    "endSeconds": 570.13,
+    "text": "inference grows."
+  },
+  {
+    "index": 204,
+    "sceneId": "recap",
+    "startFrame": 17139,
+    "endFrame": 17229,
+    "startSeconds": 571.29,
+    "endSeconds": 574.31,
+    "text": "US Justice Department announces a consolidated AI"
+  },
+  {
+    "index": 205,
+    "sceneId": "recap",
+    "startFrame": 17229,
+    "endFrame": 17271,
+    "startSeconds": 574.31,
+    "endSeconds": 575.71,
+    "text": "enforcement task force."
+  },
+  {
+    "index": 206,
+    "sceneId": "recap",
+    "startFrame": 17306,
+    "endFrame": 17389,
+    "startSeconds": 576.85,
+    "endSeconds": 579.63,
+    "text": "Google expands Singapore research with more than 6"
+  },
+  {
+    "index": 207,
+    "sceneId": "recap",
+    "startFrame": 17389,
+    "endFrame": 17426,
+    "startSeconds": 579.63,
+    "endSeconds": 580.87,
+    "text": "million dollars in funding."
+  },
+  {
+    "index": 208,
+    "sceneId": "recap",
+    "startFrame": 17458,
+    "endFrame": 17549,
+    "startSeconds": 581.95,
+    "endSeconds": 584.97,
+    "text": "Peppermint raises 100 crore rupees to expand autonomous"
+  },
+  {
+    "index": 209,
+    "sceneId": "recap",
+    "startFrame": 17549,
+    "endFrame": 17582,
+    "startSeconds": 584.97,
+    "endSeconds": 586.07,
+    "text": "cleaning robots."
+  },
+  {
+    "index": 210,
+    "sceneId": "recap",
+    "startFrame": 17606,
+    "endFrame": 17700,
+    "startSeconds": 586.85,
+    "endSeconds": 590.01,
+    "text": "Parents and teachers decry Google pledge to yank Search"
+  },
+  {
+    "index": 211,
+    "sceneId": "recap",
+    "startFrame": 17700,
+    "endFrame": 17738,
+    "startSeconds": 590.01,
+    "endSeconds": 591.25,
+    "text": "if schools block AI:"
+  },
+  {
+    "index": 212,
+    "sceneId": "recap",
+    "startFrame": 17758,
+    "endFrame": 17803,
+    "startSeconds": 591.93,
+    "endSeconds": 593.43,
+    "text": "\u2018This threat is nothing but extortion\u2019."
+  },
+  {
+    "index": 213,
     "sceneId": "outro",
-    "startFrame": 15238,
-    "endFrame": 15324,
-    "startSeconds": 507.92,
-    "endSeconds": 510.8,
+    "startFrame": 17874,
+    "endFrame": 17952,
+    "startSeconds": 595.8,
+    "endSeconds": 598.4,
+    "text": "Those were today's critical developments across global"
+  },
+  {
+    "index": 214,
+    "sceneId": "outro",
+    "startFrame": 17952,
+    "endFrame": 17990,
+    "startSeconds": 598.4,
+    "endSeconds": 599.68,
+    "text": "artificial intelligence."
+  },
+  {
+    "index": 215,
+    "sceneId": "outro",
+    "startFrame": 18022,
+    "endFrame": 18068,
+    "startSeconds": 600.74,
+    "endSeconds": 602.28,
+    "text": "From our bureaus covering World,"
+  },
+  {
+    "index": 216,
+    "sceneId": "outro",
+    "startFrame": 18080,
+    "endFrame": 18167,
+    "startSeconds": 602.66,
+    "endSeconds": 605.56,
+    "text": "USA, China, Asia, and India,"
+  },
+  {
+    "index": 217,
+    "sceneId": "outro",
+    "startFrame": 18178,
+    "endFrame": 18256,
+    "startSeconds": 605.94,
+    "endSeconds": 608.54,
+    "text": "thank you for watching SanMitra AI News Wire."
+  },
+  {
+    "index": 218,
+    "sceneId": "outro",
+    "startFrame": 18293,
+    "endFrame": 18379,
+    "startSeconds": 609.76,
+    "endSeconds": 612.62,
     "text": "Subscribe now for daily institutional AI intelligence."
   }
 ]

@@ -1,103 +1,158 @@
 {
-  "s1_cainiao_opens_its_global_warehou": [
+  "s1_42ai_emerges_with_a_model_design": [
+    {
+      "type": "reported",
+      "text": "An Israeli-American startup called 42AI has made its public debut, TechCrunch reported on 2 November.",
+      "highlight": null,
+      "source": "TechCrunch",
+      "start": 2.16,
+      "end": 7.66
+    },
     {
       "type": "stat",
-      "shown": "100+",
-      "label": "test scenarios",
-      "start": 9.34,
-      "end": 14.84
+      "shown": "$62.5 MILLION",
+      "label": "in seed funding",
+      "start": 22.82,
+      "end": 28.32
+    },
+    {
+      "type": "stat",
+      "shown": "98%",
+      "label": "accuracy measures whether trading flows land within…",
+      "start": 38.6,
+      "end": 44.1
     }
   ],
-  "s2_megaspeed_exec_was_recruited_to": [
+  "s2_fal_raises_1_3_billion_dollars_a": [
+    {
+      "type": "reported",
+      "text": "Fal, a company that hosts video, image and audio models, has raised 1.3 billion dollars in a Series F round, TechCrunch reported on 3 November.",
+      "highlight": null,
+      "source": "TechCrunch",
+      "start": 2.38,
+      "end": 7.88
+    },
+    {
+      "type": "stat",
+      "shown": "$16 BILLION",
+      "label": "twice its valuation in April",
+      "start": 16.9,
+      "end": 22.4
+    }
+  ],
+  "s3_us_justice_department_announces": [
+    {
+      "type": "reported",
+      "text": "The US Justice Department announced on 5 November what it calls a Super Intelligence Task Force.",
+      "highlight": "5 November what it calls a Super Intelligence Task Force",
+      "source": "US Department of Justice",
+      "start": 2.0,
+      "end": 7.5
+    }
+  ],
+  "s4_google_expands_singapore_researc": [
     {
       "type": "dateline",
       "place": "SINGAPORE",
+      "date": "3 NOVEMBER",
+      "start": 0.4,
+      "end": 4.5
+    },
+    {
+      "type": "reported",
+      "text": "Google announced on 3 November that it is broadening its academic partnerships in Singapore with more than 6 million dollars in support for research and capacity building, alongside its recently opened research hub in the city.",
+      "highlight": "it is broadening its academic partnerships in Singapore with more than 6 million dollars in support for research and capacity building",
+      "source": "Google",
+      "start": 2.0,
+      "end": 7.5
+    }
+  ],
+  "s5_peppermint_raises_100_crore_rupe": [
+    {
+      "type": "dateline",
+      "place": "PUNE",
+      "date": "4 NOVEMBER",
+      "start": 0.4,
+      "end": 4.5
+    },
+    {
+      "type": "reported",
+      "text": "Peppermint Robotics, which is based in Pune and Austin, announced on 4 November that it has raised 100 crore rupees in a Pre-Series B round.",
+      "highlight": "it has raised 100 crore rupees in a Pre-Series B round",
+      "source": "Peppermint Robotics",
+      "start": 2.0,
+      "end": 7.5
+    },
+    {
+      "type": "reported",
+      "text": "Figures on its deployments and revenue growth are the company's own claims.",
+      "highlight": null,
+      "source": "Peppermint Robotics",
+      "start": 41.26,
+      "end": 45.89
+    }
+  ],
+  "s6_parents_and_teachers_decry_googl": [
+    {
+      "type": "reported",
+      "text": "Google says each school can decide for itself whether students get access to AI.",
+      "highlight": "each school can decide for itself whether students get access to AI",
+      "source": "The Guardian",
+      "start": 20.9,
+      "end": 26.4
+    },
+    {
+      "type": "quote",
+      "text": "We believe schools should have control over AI in their classrooms,",
+      "speaker": null,
+      "source": "The Guardian",
+      "start": 39.12,
+      "end": 44.62
+    }
+  ],
+  "s7_nvidia_skt_rebellions_to_jointly": [
+    {
+      "type": "dateline",
+      "place": "SEOUL",
       "date": null,
       "start": 0.4,
       "end": 4.5
     },
     {
+      "type": "reported",
+      "text": "South Korea's science ministry said the deal could create new applications for the country's advanced chips and strengthen the position of Korean companies in overseas markets.",
+      "highlight": "the deal could create new applications for the country's advanced chips and strengthen the position of Korean companies in overseas markets",
+      "source": "The Korea Times",
+      "start": 38.76,
+      "end": 44.26
+    }
+  ],
+  "s8_chinese_ai_firms_want_silicon_va": [
+    {
+      "type": "dateline",
+      "place": "SILICON VALLEY",
+      "date": null,
+      "start": 0.4,
+      "end": 4.5
+    }
+  ],
+  "s9_google_adds_two_new_tpu_chips_as": [],
+  "s10_nvidia_s_board_opens_an_independ": [
+    {
       "type": "name",
       "name": "JENSEN HUANG",
-      "role": "Chief executive, Nvidia",
-      "start": 11.68,
-      "end": 15.68
+      "role": "Chief executive",
+      "start": 9.5,
+      "end": 13.5
     },
     {
       "type": "reported",
-      "text": "A memo that circulated earlier this year claimed that China's Ministry of State Security recruited technology executive Alice Huang to spy on Nvidia chief executive Jensen Huang, TechCrunch reports, citing several media outlets.",
-      "highlight": "China's Ministry of State Security recruited technology executive Alice Huang to spy on Nvidia chief executive Jensen Huang, TechCrunch reports, citing several media outlets",
-      "source": "TechCrunch",
-      "start": 2.46,
-      "end": 7.96
-    },
-    {
-      "type": "reported",
-      "text": "The paper had already reported that Nvidia's CEO was a target of Chinese intelligence.",
-      "highlight": "Nvidia's CEO was a target of Chinese intelligence",
-      "source": "TechCrunch",
-      "start": 22.62,
-      "end": 28.12
-    }
-  ],
-  "s3_amazon_s_astro_home_robot_has_fa": [
-    {
-      "type": "reported",
-      "text": "He told Amazon's senior device executives to build one, and within a few years the team came up with Astro, priced at 1,450. trillion dollars he robot is essentially a tablet on wheels running Alexa.",
-      "highlight": "Amazon's senior device executives to build one",
-      "source": "CNBC",
-      "start": 20.96,
-      "end": 26.46
-    }
-  ],
-  "s4_chinese_ai_lab_moonshot_turned_t": [],
-  "s5_india_flags_chinese_linked_ai_to": [],
-  "s6_ai_clog_uk_public_bodies_battle": [
-    {
-      "type": "reported",
-      "text": "She says these messages began arriving slowly in 2024 and have since become overwhelming.",
-      "highlight": "these messages began arriving slowly in 2024 and have since become overwhelming",
-      "source": "The Guardian",
-      "start": 13.86,
-      "end": 19.36
-    },
-    {
-      "type": "quote",
-      "text": "It is definitely more taxing,",
-      "speaker": null,
-      "source": "The Guardian",
-      "start": 33.56,
-      "end": 39.06
-    }
-  ],
-  "s7_china_merchants_lionrock_ai_lab": [
-    {
-      "type": "reported",
-      "text": "LionRock AI Lab, part of China Merchants, has released Lion-ER-35B-A3B as open source, Pandaily reports.",
-      "highlight": "Lion-ER-35B-A3B as open source, Pandaily reports",
-      "source": "Pandaily",
+      "text": "Nvidia said its board of directors has formed an independent committee, backed by outside lawyers, to look into reports that chief executive Jensen Huang may have been the target of a foreign intelligence operation.",
+      "highlight": "its board of directors has formed an independent committee",
+      "source": "Nvidia",
       "start": 2.0,
       "end": 7.5
-    },
-    {
-      "type": "stat",
-      "shown": "3 BILLION",
-      "label": "active parameters",
-      "start": 11.12,
-      "end": 16.62
     }
   ],
-  "s8_china_unveils_an_ai_agent_identi": [],
-  "s9_moxin_technology_launches_moworl": [],
-  "s10_cashfree_launches_checkout_for_a": [],
-  "s11_advances_in_agentic_computer_gra": [
-    {
-      "type": "reported",
-      "text": "They also built their own agent-based tool to help human researchers analyse large numbers of older and newly released papers.",
-      "highlight": null,
-      "source": "arXiv",
-      "start": 87.66,
-      "end": 93.16
-    }
-  ]
+  "s11_splatanything_gaussian_spacing_n": []
 }
