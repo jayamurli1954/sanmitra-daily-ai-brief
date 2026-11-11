@@ -26,7 +26,7 @@ import os
 import shutil
 import sys
 import urllib.request
-from PIL import Image, ImageEnhance, ImageOps
+from PIL import Image, ImageEnhance, ImageOps, ImageFilter
 
 if sys.stdout.encoding != 'utf-8':
     try:
@@ -225,7 +225,21 @@ def cleanup_old_visual_assets(current_date_str: str, retention_days: int = 7):
 
 def crop_and_grade(im: Image.Image) -> Image.Image:
     # 1. Fit to 1920x1080 (16:9)
-    im = ImageOps.fit(im, (TARGET_WIDTH, TARGET_HEIGHT), method=Image.Resampling.LANCZOS)
+    # If it is a vertical portrait (taller than wide), avoid extreme zoom by creating a broadcast pillarbox:
+    if im.height > im.width:
+        # Blurred ambient backdrop
+        bg = ImageOps.fit(im, (TARGET_WIDTH, TARGET_HEIGHT), method=Image.Resampling.LANCZOS)
+        bg = bg.filter(ImageFilter.GaussianBlur(radius=45))
+        bg = ImageEnhance.Brightness(bg).enhance(0.35)
+        # Scale foreground portrait to sit comfortably on the right half, leaving left open for title cards
+        target_h = 760
+        fg_w = int(im.width * (target_h / im.height))
+        fg = im.resize((fg_w, target_h), Image.Resampling.LANCZOS)
+        bg.paste(fg, (1150, 50))
+        im = bg
+    else:
+        im = ImageOps.fit(im, (TARGET_WIDTH, TARGET_HEIGHT), centering=(0.5, 0.5), method=Image.Resampling.LANCZOS)
+
     # 2. Subtle institutional broadcast grading: enhance contrast + slight saturation
     enhancer_contrast = ImageEnhance.Contrast(im)
     im = enhancer_contrast.enhance(1.08)
@@ -391,7 +405,11 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
                 pool_category = "hardware"
                 local_fallback = "public/aibrief/backgrounds/ai_chips.jpg"
                 fallback_badge = "ADVANCED SILICON DIE • FABRICATION CLEANROOM"
-            elif any(k in tag_text for k in ["defense", "missile", "radar", "military", "nato", "flank", "targeting", "drone", "strike", "swarms", "kill-chain", "cyber", "threat", "robotics", "actuator"]):
+            elif any(k in tag_text for k in ["cyber", "threat", "hack", "breach", "incident", "vulnerability", "audit", "security"]):
+                pool_category = "cyber"
+                local_fallback = "public/aibrief/backgrounds/ai_security.jpg"
+                fallback_badge = "SECURITY OPERATIONS • INCIDENT RESPONSE SOC"
+            elif any(k in tag_text for k in ["defense", "missile", "radar", "military", "nato", "flank", "targeting", "drone", "strike", "swarms", "kill-chain"]):
                 pool_category = "defense"
                 local_fallback = "public/aibrief/backgrounds/ai_security.jpg"
                 fallback_badge = "DEFENSE OPERATIONS • LIVE TELEMETRY"

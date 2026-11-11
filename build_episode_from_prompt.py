@@ -589,15 +589,20 @@ def parse_markdown_prompt(md_text: str) -> dict:
     weekly = bool(re.search(r"(?im)^##\s*Weekly Round-up", md_text))
     recap_script = ("To recap this week's top stories. " if weekly else "To recap today's top stories. ")         + " ".join(s['headline'].rstrip(".") + "." for s in stories[:6])
 
-    # Intro script
+    # Filter out research desk stories from the opening headlines
+    news_stories = [s for s in stories if not is_research_desk(s.get("research_desk") or s.get("researchDesk"))]
+    headline_lines = [s['headline'].rstrip(".") + "." for s in news_stories]
+
     lead_head = stories[0]['headline'] if stories else "Frontier Artificial Intelligence"
     intro_script = (
         f"This week in AI, the stories you may have missed: {lead_head}. "
         f"From the SanMitra Newsroom, this is the Weekly AI Round-up for the week ending {formatted_date}: "
         "important developments that did not make our daily briefs."
     ) if weekly else (
-        f"Breaking today: {lead_head}. "
-        f"From the SanMitra Newsroom, this is the Daily AI Brief for {formatted_date}."
+        f"From the SanMitra Newsroom, this is the Daily AI Brief for {formatted_date}. "
+        "First, today's top headlines: "
+        + " ".join(headline_lines)
+        + " And now, the news in brief."
     )
 
     # Outro script
@@ -625,10 +630,11 @@ def parse_markdown_prompt(md_text: str) -> dict:
         "formattedDate": formatted_date,
         "title": yt_title,
         "intro": {
-            "durationSeconds": 18,
+            "durationSeconds": max(int(len(intro_script.split()) * 0.42), 20),
             "headline": "GLOBAL AI INTELLIGENCE WIRE",
             "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-            "script": clean_text_for_broadcast(intro_script)
+            "script": clean_text_for_broadcast(intro_script),
+            "headlines": [s['headline'] for s in news_stories]
         },
         "transitions": transitions,
         "stories": stories,
