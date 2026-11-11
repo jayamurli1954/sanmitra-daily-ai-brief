@@ -20,8 +20,8 @@ VOICE_VOLUME = {
 
 
 def anchor_for(segment_id: str, story_number: int | None = None) -> str:
-    """Christopher opens the show, reads the odd stories, the recap, and the close.
-    Aria reads the even stories and the market snapshot.
+    """Christopher opens the show with the headlines.
+    Aria starts Story 1 with the news in brief, and Christopher reads Story 2, alternating throughout.
     """
     if segment_id in ("intro", "recap", "outro"):
         return LEAD_VOICE
@@ -29,7 +29,8 @@ def anchor_for(segment_id: str, story_number: int | None = None) -> str:
         return CORRESPONDENT_VOICE
     if story_number is None:
         return LEAD_VOICE
-    return LEAD_VOICE if story_number % 2 == 1 else CORRESPONDENT_VOICE
+    # Aria reads odd stories (Story 1, 3, 5...), Christopher reads even stories (Story 2, 4, 6...)
+    return CORRESPONDENT_VOICE if story_number % 2 == 1 else LEAD_VOICE
 
 def clean_script_for_tts(text: str) -> str:
     """

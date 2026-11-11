@@ -23,7 +23,7 @@ One or two paragraphs summarising the story.
 
 Regions: `WORLD`, `USA`, `CHINA`, `ASIA`, `INDIA`.
 
-Your **first story is the day's lead**, whatever its region: the episode opens with it ("Breaking today: ...") and it becomes the day's Short.
+Your **first story is the day's lead**, whatever its region: it is the first headline in the opening, the first story told, and the day's Short.
 
 An episode has 8-10 news stories of about 40-55 seconds each, plus a research story (under 10 minutes). Your stories
 go first, in the order you list them; if you send more than 10, the extras are left out,

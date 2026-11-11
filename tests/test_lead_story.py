@@ -50,7 +50,8 @@ class LeadStoryTest(unittest.TestCase):
 
     def test_intro_opens_on_the_lead_and_the_mark_is_not_spoken(self):
         _, ep = self.episode()
-        self.assertTrue(ep["intro"]["script"].startswith("Breaking today: SquadStack launches Arth V2"))
+        self.assertIn("SquadStack launches Arth V2", ep["intro"]["script"])
+        self.assertIn("And now, the news in brief", ep["intro"]["script"])
         self.assertTrue(all("Lead" not in s["script"] for s in ep["stories"]))
 
     def test_without_editor_the_collector_lead_opens(self):

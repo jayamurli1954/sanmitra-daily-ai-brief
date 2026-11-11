@@ -279,12 +279,14 @@ def build_daily_episode(target_date: str = None) -> dict:
     print("=" * 70)
     print(f"SANMITRA AI NEWS WIRE — BREAKING INTAKE")
     print(f"Target Date: {target_date} ({formatted_date})")
-    print("Scope: full-text breaks only, maximum 12, no filler stories")
+    print("Scope: full-text breaks only, maximum 18, no filler stories")
     print("=" * 70)
 
     from src.aibrief.breaking_wire import collect_breaking_stories
 
-    wire_stories = collect_breaking_stories(max_stories=12)
+    # Pull a surplus so that after the collector drops stock-market, election and
+    # scandal stories (and dedupes), at least 10 remain to fill the episode.
+    wire_stories = collect_breaking_stories(max_stories=18)
     if not wire_stories:
         print("[X] No full-text breaking stories. Leaving the current episode unchanged.")
         return {}

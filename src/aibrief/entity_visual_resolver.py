@@ -25,20 +25,21 @@ HEADERS = {
 }
 
 def to_wiki_thumb(url: Optional[str], width: int = 1280) -> str:
-    """Converts a Wikimedia Commons original file URL into a fast CDN thumbnail URL."""
+    """Converts a Wikimedia Commons or Wikipedia original file URL into a fast CDN thumbnail URL."""
     if not url:
         return ""
     clean_url = url.split("?")[0]
-    if "upload.wikimedia.org/wikipedia/commons/" in clean_url and "/thumb/" not in clean_url:
-        parts = clean_url.split("/commons/")
-        filename = parts[1].split("/")[-1]
-        ext = filename.split(".")[-1].lower()
-        if ext == "svg":
-            return f"{parts[0]}/commons/thumb/{parts[1]}/{width}px-{filename}.png"
-        return f"{parts[0]}/commons/thumb/{parts[1]}/{width}px-{filename}"
-    elif "upload.wikimedia.org/wikipedia/commons/thumb/" in clean_url:
-        if clean_url.lower().endswith(".svg"):
-            return f"{clean_url}.png"
+    for domain in ("/commons/", "/en/"):
+        if f"upload.wikimedia.org/wikipedia{domain}" in clean_url and "/thumb/" not in clean_url:
+            parts = clean_url.split(domain)
+            filename = parts[1].split("/")[-1]
+            ext = filename.split(".")[-1].lower()
+            if ext == "svg":
+                return f"{parts[0]}{domain}thumb/{parts[1]}/{width}px-{filename}.png"
+            return f"{parts[0]}{domain}thumb/{parts[1]}/{width}px-{filename}"
+        elif f"upload.wikimedia.org/wikipedia{domain}thumb/" in clean_url:
+            if clean_url.lower().endswith(".svg"):
+                return f"{clean_url}.png"
     return clean_url
 
 # Curated high-res authentic editorial assets for common entities & topics
@@ -47,7 +48,7 @@ CURATED_ENTITY_MAP = {
     "jay clayton": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/70/Official_portrait_of_Jay_Clayton_%282026%29.jpg"), "OFFICIAL PORTRAIT • SIF CHAIR JAY CLAYTON"),
     "sam altman": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/5a/Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg"), "SAN FRANCISCO • SAM ALTMAN AI DOCTRINE"),
     "josephine teo": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/3f/Josephine_Teo_at_AsiaTech_X_Artificial_Intelligence_%28ATxAI%29%2C_Capella_Singapore%2C_31_May_2024_-_cropped.jpg"), "MINISTER JOSEPHINE TEO • AI SAFEGUARDS DESK"),
-    "jensen huang": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/8/87/Jensen_Huang_at_Computex_2023.jpg"), "KEYNOTE STAGE • JENSEN HUANG NVIDIA"),
+    "jensen huang": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg"), "KEYNOTE STAGE • JENSEN HUANG NVIDIA"),
     "sundar pichai": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d6/Sundar_pichai.png"), "EXECUTIVE BRIEFING • SUNDAR PICHAI ALPHABET"),
     "justin trudeau": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/b/b6/Justin_Trudeau_2023_%28cropped%29.jpg"), "OFFICIAL ENGAGEMENT • CANADIAN FEDERAL DESK"),
     "mark carney": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/a/a2/Mark_Carney_2019.jpg"), "MACROECONOMIC AI SUMMIT • MARK CARNEY"),
@@ -57,6 +58,8 @@ CURATED_ENTITY_MAP = {
     "vaishnaw": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/35/Ashwini_Vaishnaw_cropped.jpg"), "NEW DELHI • UNION IT MINISTER ASHWINI VAISHNAW"),
     "charlton": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/b/b6/Parliament_House_at_dusk%2C_Canberra_ACT.jpg"), "CANBERRA • ASSISTANT MINISTER ANDREW CHARLTON"),
     "stampe": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7c/Christiansborg_Slot_Copenhagen_2014_01.jpg"), "COPENHAGEN • DANISH CULTURE MINISTRY"),
+    "albanese": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7b/Anthony_Albanese_portrait_%28re-crop%29.jpg"), "CANBERRA • PRIME MINISTER ANTHONY ALBANESE"),
+    "anthony albanese": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7b/Anthony_Albanese_portrait_%28re-crop%29.jpg"), "CANBERRA • PRIME MINISTER ANTHONY ALBANESE"),
 
     # Institutions & Government
     "white house": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/1d/White_House_north_and_south_sides.jpg"), "WASHINGTON D.C. • THE WHITE HOUSE BRIEFING"),
@@ -98,6 +101,16 @@ CURATED_ENTITY_MAP = {
     "workbuddy": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Tencent_Seafront_Tower_in_Dec2020.jpg"), "SHENZHEN • TENCENT WORKBUDDY AI FILE OS"),
     "manus": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/e/e2/Zhongguancun_from_Huangzhuang_North_Footbridge_%2820201214122926%29.jpg"), "BEIJING • MANUS AI AGENT LAB"),
     "butterfly effect": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/e/e2/Zhongguancun_from_Huangzhuang_North_Footbridge_%2820201214122926%29.jpg"), "BEIJING • BUTTERFLY EFFECT AGENT LAB"),
+    "qantas": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d1/Qantas_%28VH-ZNN%29_Boeing_787-9_Dreamliner_on_final_at_Melbourne_Airport_%281%29.jpg"), "SYDNEY • QANTAS FLEET OPERATIONS"),
+    "hugging face": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/e/ea/Hugging_Face_logo.svg"), "OPEN SCIENCE • HUGGING FACE PLATFORM"),
+    "red hat": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Hat_logo.svg"), "RALEIGH • RED HAT ENTERPRISE SYSTEMS"),
+    "openshift": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Hat_logo.svg"), "HYBRID CLOUD • OPENSHIFT 5 RUNTIME"),
+    "hygon": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg"), "CHENGDU • HYGON INDUSTRIAL PROCESSORS"),
+    "robbyant": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/9b/Atlas_during_testing.jpg"), "HANGZHOU • ROBBYANT DEXTEROUS TACTILE LAB"),
+    "tactile": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/9b/Atlas_during_testing.jpg"), "EMBODIED ROBOTICS • DEXTEROUS MANIPULATION"),
+    "lawsuit": ("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=85", "FEDERAL DISTRICT COURT • SECURITIES LITIGATION"),
+    "sue": ("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=85", "FEDERAL DISTRICT COURT • SECURITIES LITIGATION"),
+    "fridge": ("https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=1920&q=85", "RETAIL COLD CHAIN • AUTOMATED REFRIGERATION"),
     "biren": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg/1280px-Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg"), "SHANGHAI • BIREN TECHNOLOGY CHIP PLACEMENT"),
     "alibaba": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/39/Phase_4_of_Alibaba_Xixi_Park_20200913.jpg"), "HANGZHOU • ALIBABA CLOUD XIXI CAMPUS"),
     "amd": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/11/2485_Augustine_Drive_headquarters_in_Santa_Clara%2C_California.jpg"), "SANTA CLARA • AMD CORPORATE HEADQUARTERS"),
@@ -173,13 +186,17 @@ CURATED_ENTITY_MAP = {
 # location-free images: a named place here (Canberra, Capitol Hill, Samsung HQ)
 # ended up captioned as the setting of unrelated stories.
 DOMAIN_POOLS = {
+    "cyber": [
+        (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/5a/NSOC-2012.jpg"), "SECURITY OPERATIONS • INCIDENT RESPONSE SOC"),
+        ("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85", "CYBER THREAT OPERATIONS • LIVE TELEMETRY"),
+        ("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=85", "NETWORK SECURITY DESK • ACCESS LOG AUDIT"),
+        ("https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1920&q=85", "INFORMATION SECURITY & DATA AUDITING")
+    ],
     "defense": [
-        (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/6f/FBX_T.jpg"), "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM"),
         (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/5a/NSOC-2012.jpg"), "TACTICAL OPERATIONS CENTER • INCIDENT DESK"),
-        ("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85", "CYBER DEFENSE OPERATIONS • LIVE INCIDENT FEED"),
-        ("https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1920&q=85", "AEROSPACE TELEMETRY • RADAR MONITORING GRID"),
         ("https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1920&q=85", "DEFENSE RESEARCH LAB • AUTONOMOUS GUIDANCE"),
-        ("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=85", "NETWORK SECURITY OPERATIONS • SENSOR AUDIT")
+        (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/2/2f/U-s-service-members-stand-by-a-patriot-missile-battery-in-gaziantep-turkey.jpg"), "AIR DEFENSE • PATRIOT RADAR BATTERY"),
+        ("https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1920&q=85", "AEROSPACE TELEMETRY • RADAR MONITORING GRID")
     ],
     "policy": [
         ("https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1920&q=85", "MULTILATERAL FORUM • REGULATORY HARMONIZATION"),
@@ -223,10 +240,9 @@ def crop_and_grade(im: Image.Image) -> Image.Image:
 
 
 BANNED_WIKI_KEYWORDS = [
-    "polygon", "diagram", "election", "map", "flag", "coat_of_arms", "emblem",
-    "logo", "chart", "graph", "survey", "schema", "symbol", "attack", "storming", "protest",
-    "beer", "carlsberg", "tuborg", "alcohol", "painting", "portrait", "oil_on_canvas",
-    "sailing", "frigate", "hermione", "manga", "anime", "cartoon", "comic", "drawing", "illustration",
+    "polygon", "diagram", "election", "survey", "schema", "attack", "storming", "protest",
+    "beer", "carlsberg", "tuborg", "alcohol", "oil_on_canvas",
+    "sailing", "frigate", "hermione", "manga", "anime", "cartoon", "comic", "drawing",
     "temple", "mosque", "church", "sculpture", "statue", "monument"
 ]
 
@@ -290,10 +306,10 @@ def search_wikipedia_image(query: str) -> Optional[Tuple[str, str]]:
                 if not _title_matches(query, title):
                     continue
 
-                # Exclude diagrams, election maps, coats of arms, polygons, beers, paintings, manga
+                # Exclude diagrams, election maps, polygons, beers, paintings, manga
                 if any(k in src_lower or k in title_lower for k in BANNED_WIKI_KEYWORDS):
                     continue
-                if src_lower.endswith(".svg") or src_lower.endswith(".gif") or ".svg." in src_lower:
+                if src_lower.endswith(".gif"):
                     continue
 
                 return to_wiki_thumb(src), title
@@ -385,20 +401,21 @@ def resolve_cuts_for_story(
 
     # 1. Match curated entities appearing in the HEADLINE first (primary subject of the story)
     for key, (img_url, badge) in CURATED_ENTITY_MAP.items():
-        if len(cuts) >= 2:
+        if len(cuts) >= 3:
             break
         if re.search(r'\b' + re.escape(key) + r'\b', hl_text, re.IGNORECASE):
             if not any(c[0] == img_url for c in cuts):
                 cuts.append((img_url, badge))
 
-    # 2. If fewer than 2 cuts matched, check body/script text for secondary contextual entities
-    if len(cuts) < 2:
+    # 2. Check body/script text for secondary contextual entities or leaders mentioned
+    if len(cuts) < 3:
         for key, (img_url, badge) in CURATED_ENTITY_MAP.items():
-            if len(cuts) >= 2:
+            if len(cuts) >= 3:
                 break
-            # A company named once in the body is usually a comparison ("matches OpenAI
-            # and Anthropic"), not the subject; Meta's launch got OpenAI's headquarters.
-            if _mentions(key, body_text) >= 2:
+            mentions = _mentions(key, body_text)
+            is_person = any(w in badge.lower() for w in ["minister", "chair", "ceo", "director", "sam altman", "jensen huang", "albanese", "portrait", "leadership"])
+            threshold = 1 if is_person else 2
+            if mentions >= threshold:
                 if not any(c[0] == img_url for c in cuts):
                     cuts.append((img_url, badge))
 
