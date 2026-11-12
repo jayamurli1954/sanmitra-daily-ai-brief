@@ -1,59 +1,401 @@
 {
   "history": [
     {
-      "date": "2026-11-10",
-      "count": 48,
+      "date": "2026-11-12",
+      "count": 42,
       "assets": [
         {
-          "date": "2026-11-10",
+          "date": "2026-11-12",
           "filename": "s1_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "phash": "87843a6f3cb1616e",
-          "category": "hardware"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Phoenician_alphabet.svg/1280px-Phoenician_alphabet.svg.png",
+          "badge": "ALPHABET • CONTEXTUAL REPORTING",
+          "phash": "0000000000000000",
+          "category": "researcher"
         },
         {
-          "date": "2026-11-10",
+          "date": "2026-11-12",
           "filename": "s1_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1920&q=85",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "phash": "95fc2d8332c89937",
+          "category": "policy"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s1_cut3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/NSOC-2012.jpg/1280px-NSOC-2012.jpg",
+          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
+          "phash": "a52d4a1ad0667f87",
+          "category": "cyber"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s2_cut1.jpg",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "phash": "e99392d936339692",
+          "category": "product_demo"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s2_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "phash": "95d0cac5032517ff",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s2_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "phash": "e5cd1e9486439be1",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s3_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/NAVER_Green_Factory.jpg/1280px-NAVER_Green_Factory.jpg",
+          "badge": "NAVER • CONTEXTUAL REPORTING",
+          "phash": "e7c6dc9628c61cc3",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s3_cut2.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
           "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "phash": "87843a6f3cb1616e",
           "category": "semiconductor"
         },
         {
-          "date": "2026-11-10",
-          "filename": "s1_cut3.jpg",
+          "date": "2026-11-12",
+          "filename": "s3_cut3.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
           "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
           "phash": "c7b03d433c638f68",
           "category": "datacenter"
         },
         {
-          "date": "2026-11-10",
-          "filename": "s2_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
-          "phash": "c7b03d433c638f68",
+          "date": "2026-11-12",
+          "filename": "s4_cut1.jpg",
+          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "phash": "e5cd1e94864b9be0",
+          "category": "research"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s4_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&q=85",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "phash": "c283b91ae67b846d",
+          "category": "research"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s4_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1920&q=85",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "phash": "ef838e8da13194d5",
+          "category": "research"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s5_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Aerial_view_of_Apple_Park_dllu.jpg/1280px-Aerial_view_of_Apple_Park_dllu.jpg",
+          "badge": "CUPERTINO • APPLE PARK",
+          "phash": "80bee3ea1ac72939",
+          "category": "product_demo"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s5_cut2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "phash": "87843a6f3cb1616e",
           "category": "hardware"
         },
         {
-          "date": "2026-11-10",
-          "filename": "s2_cut2.jpg",
+          "date": "2026-11-12",
+          "filename": "s5_cut3.jpg",
           "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
           "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "phash": "c33c18c7613a66f3",
           "category": "datacenter"
         },
         {
-          "date": "2026-11-10",
-          "filename": "s2_cut3.jpg",
+          "date": "2026-11-12",
+          "filename": "s6_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Tencent_Seafront_Tower_in_Dec2020.jpg/1280px-Tencent_Seafront_Tower_in_Dec2020.jpg",
+          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
+          "phash": "96926b6d4c6d494b",
+          "category": "boardroom"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s6_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=85",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "phash": "96ea62505db5356c",
+          "category": "research"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s6_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=85",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "phash": "961d1537ddf31181",
+          "category": "research"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s7_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Qantas_%28VH-ZNN%29_Boeing_787-9_Dreamliner_on_final_at_Melbourne_Airport_%281%29.jpg/1280px-Qantas_%28VH-ZNN%29_Boeing_787-9_Dreamliner_on_final_at_Melbourne_Airport_%281%29.jpg",
+          "badge": "SYDNEY • QANTAS FLEET OPERATIONS",
+          "phash": "f30c0dd3d22d2bd2",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s7_cut2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "phash": "c7b03d433c638f68",
+          "category": "energy"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s7_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=85",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "phash": "96707e694c345796",
+          "category": "hardware"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s8_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/NHS_England_logo.svg/1280px-NHS_England_logo.svg.png",
+          "badge": "NHS ENGLAND • CONTEXTUAL REPORTING",
+          "phash": "d5d4d05816f6666a",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s8_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "phash": "c33c18c7613a66f3",
+          "category": "hardware"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s8_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=85",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "phash": "96cd13caa421ab9f",
+          "category": "policy"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s9_cut1.jpg",
           "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=85",
           "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
           "phash": "e01f60cf08e732f9",
           "category": "energy"
         },
         {
-          "date": "2026-11-10",
+          "date": "2026-11-12",
+          "filename": "s9_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1920&q=85",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "phash": "f39580afd7c49720",
+          "category": "energy"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s9_cut3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "phash": "87843a6f3cb1616e",
+          "category": "semiconductor"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s10_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1280px-1515_Third_Street.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "phash": "e9e516c5069c58eb",
+          "category": "boardroom"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s10_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY • CUT 2",
+          "phash": "e99392d936339692",
+          "category": "product_demo"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s10_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 3",
+          "phash": "95d0cac5032517ff",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s11_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Andrew_Aziz_Cramer_%28cropped%29.jpg/1280px-Andrew_Aziz_Cramer_%28cropped%29.jpg",
+          "badge": "JIM CRAMER • CONTEXTUAL REPORTING",
+          "phash": "96b04b36496bb5a9",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s11_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 2",
+          "phash": "95d0cac5032517ff",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s11_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=85",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "phash": "e99392d936339692",
+          "category": "policy"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s12_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/1280px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg",
+          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
+          "phash": "b5b56c484fce4a4a",
+          "category": "semiconductor"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s12_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1920&q=85",
+          "badge": "HARDWARE ACCELERATION • SYSTEM INTEGRATION",
+          "phash": "85f04f67780c3b2e",
+          "category": "hardware"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s12_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=1920&q=85",
+          "badge": "SEMICONDUCTOR WAFER • ADVANCED PACKAGING",
+          "phash": "8b83d352dadad292",
+          "category": "hardware"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s13_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Meta_Platforms_Headquarters_Menlo_Park_California.jpg/1280px-Meta_Platforms_Headquarters_Menlo_Park_California.jpg",
+          "badge": "MENLO PARK • META HEADQUARTERS",
+          "phash": "8d971568ae11d62f",
+          "category": "boardroom"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s13_cut2.jpg",
+          "url": "public/aibrief/backgrounds/ai_security.jpg",
+          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
+          "phash": "local_fallback",
+          "category": "cyber"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s13_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY • CUT 3",
+          "phash": "e99392d936339692",
+          "category": "product_demo"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s14_cut1.jpg",
+          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
+          "badge": "HIGH-DENSITY GPU CLUSTERS • ACCELERATED COMPUTE",
+          "phash": "c33c18c7613a66f3",
+          "category": "datacenter"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s14_cut2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY • CUT 2",
+          "phash": "87843a6f3cb1616e",
+          "category": "semiconductor"
+        },
+        {
+          "date": "2026-11-12",
+          "filename": "s14_cut3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE • CUT 3",
+          "phash": "c7b03d433c638f68",
+          "category": "datacenter"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "count": 33,
+      "assets": [
+        {
+          "date": "2026-11-11",
+          "filename": "s1_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Platform_37_-_2026-04-25_2.jpg/1280px-Platform_37_-_2026-04-25_2.jpg",
+          "badge": "KING'S CROSS • GOOGLE DEEPMIND CAMPUS",
+          "phash": "b3b642a9f4e2ccc1",
+          "category": "boardroom"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s1_cut2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/1280px-Googleplex_HQ_%28cropped%29.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "phash": "e0c0cf0fd83d983b",
+          "category": "boardroom"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s1_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "phash": "e5cd1e9486439be1",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s2_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/1280px-Googleplex_HQ_%28cropped%29.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "phash": "e0c0cf0fd83d983b",
+          "category": "boardroom"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s2_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "phash": "e5cd1e94864b9be0",
+          "category": "research"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s2_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&q=85",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "phash": "c283b91ae67b846d",
+          "category": "research"
+        },
+        {
+          "date": "2026-11-11",
           "filename": "s3_cut1.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1280px-1515_Third_Street.jpg",
           "badge": "MISSION BAY • OPENAI HEADQUARTERS",
@@ -61,72 +403,230 @@
           "category": "boardroom"
         },
         {
-          "date": "2026-11-10",
+          "date": "2026-11-11",
           "filename": "s3_cut2.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/FBX_T.jpg/1280px-FBX_T.jpg",
-          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
-          "phash": "d4cb7b14c87a47e0",
-          "category": "defense"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s3_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
-          "phash": "e5cd1e94864b9be0",
+          "url": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1920&q=85",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "phash": "ef838e8da13194d5",
           "category": "research"
         },
         {
-          "date": "2026-11-10",
+          "date": "2026-11-11",
+          "filename": "s3_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=85",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "phash": "96ea62505db5356c",
+          "category": "research"
+        },
+        {
+          "date": "2026-11-11",
           "filename": "s4_cut1.jpg",
-          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-          "badge": "HIGH-DENSITY GPU CLUSTERS • ACCELERATED COMPUTE",
-          "phash": "c33c18c7613a66f3",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phase_4_of_Alibaba_Xixi_Park_20200913.jpg/1280px-Phase_4_of_Alibaba_Xixi_Park_20200913.jpg",
+          "badge": "HANGZHOU • ALIBABA CLOUD XIXI CAMPUS",
+          "phash": "828a9f1cb1e76c4d",
+          "category": "boardroom"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s4_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1920&q=85",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "phash": "95fc2d8332c89937",
+          "category": "policy"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s4_cut3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/NSOC-2012.jpg/1280px-NSOC-2012.jpg",
+          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
+          "phash": "a52d4a1ad0667f87",
+          "category": "cyber"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s5_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/ASEAN_Flag.svg/1280px-ASEAN_Flag.svg.png",
+          "badge": "ASEAN • CONTEXTUAL REPORTING",
+          "phash": "c9ce316d663992c6",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s5_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "phash": "e99392d936339692",
+          "category": "product_demo"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s5_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "phash": "95d0cac5032517ff",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s6_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/1280px-Tirumala_090615.jpg",
+          "badge": "ANDHRA PRADESH • CONTEXTUAL REPORTING",
+          "phash": "cc0c39a68a6f98fa",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s6_cut2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "phash": "c7b03d433c638f68",
           "category": "datacenter"
         },
         {
-          "date": "2026-11-10",
-          "filename": "s4_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=85",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
-          "phash": "96707e694c345796",
+          "date": "2026-11-11",
+          "filename": "s6_cut3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "phash": "c7b03d433c638f68",
+          "category": "energy"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s7_cut1.jpg",
+          "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=85",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "phash": "961d1537ddf31181",
+          "category": "research"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s7_cut2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "phash": "87843a6f3cb1616e",
+          "category": "semiconductor"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s7_cut3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "phash": "87843a6f3cb1616e",
           "category": "hardware"
         },
         {
-          "date": "2026-11-10",
-          "filename": "s4_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
-          "phash": "c33c18c7613a66f3",
-          "category": "hardware"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s5_cut1.jpg",
+          "date": "2026-11-11",
+          "filename": "s8_cut1.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/1280px-Googleplex_HQ_%28cropped%29.jpg",
           "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
           "phash": "e0c0cf0fd83d983b",
           "category": "boardroom"
         },
         {
-          "date": "2026-11-10",
-          "filename": "s5_cut2.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2485_Augustine_Drive_headquarters_in_Santa_Clara%2C_California.jpg/1280px-2485_Augustine_Drive_headquarters_in_Santa_Clara%2C_California.jpg",
-          "badge": "SANTA CLARA • AMD CORPORATE HEADQUARTERS",
-          "phash": "9f9df25588d42ac1",
-          "category": "boardroom"
+          "date": "2026-11-11",
+          "filename": "s8_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "phash": "c33c18c7613a66f3",
+          "category": "datacenter"
         },
         {
-          "date": "2026-11-10",
-          "filename": "s5_cut3.jpg",
+          "date": "2026-11-11",
+          "filename": "s8_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=85",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "phash": "e01f60cf08e732f9",
+          "category": "energy"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s9_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/New_Year%27s_Eve_on_Sydney_Harbour.jpg/1280px-New_Year%27s_Eve_on_Sydney_Harbour.jpg",
+          "badge": "FIREWORKS • CONTEXTUAL REPORTING",
+          "phash": "c5c7ca3c6b24b5e0",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s9_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=85",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "phash": "96707e694c345796",
+          "category": "hardware"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s9_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "phash": "c33c18c7613a66f3",
+          "category": "hardware"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s10_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
+          "badge": "SOUTH KOREA • CONTEXTUAL REPORTING",
+          "phash": "be9c9923e594e381",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s10_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY • CUT 2",
+          "phash": "e99392d936339692",
+          "category": "product_demo"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s10_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 3",
+          "phash": "95d0cac5032517ff",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s11_cut1.jpg",
+          "url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&q=85",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "phash": "9a1cec9983633337",
+          "category": "research"
+        },
+        {
+          "date": "2026-11-11",
+          "filename": "s11_cut2.jpg",
           "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION • CUT 2",
           "phash": "e5cd1e9486439be1",
           "category": "researcher"
         },
         {
+          "date": "2026-11-11",
+          "filename": "s11_cut3.jpg",
+          "url": "public/aibrief/backgrounds/ai_standards.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "phash": "local_fallback",
+          "category": "research"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "count": 33,
+      "assets": [
+        {
           "date": "2026-11-10",
-          "filename": "s6_cut1.jpg",
+          "filename": "s1_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Parliament_House_at_dusk%2C_Canberra_ACT.jpg/1280px-Parliament_House_at_dusk%2C_Canberra_ACT.jpg",
+          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
+          "phash": "bf00006fd3f708db",
+          "category": "government"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s1_cut2.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1280px-1515_Third_Street.jpg",
           "badge": "MISSION BAY • OPENAI HEADQUARTERS",
           "phash": "e9e516c5069c58eb",
@@ -134,11 +634,123 @@
         },
         {
           "date": "2026-11-10",
-          "filename": "s6_cut2.jpg",
+          "filename": "s1_cut3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Anthony_Albanese_portrait_%28re-crop%29.jpg/1280px-Anthony_Albanese_portrait_%28re-crop%29.jpg",
+          "badge": "CANBERRA • PRIME MINISTER ANTHONY ALBANESE",
+          "phash": "99d592f71f183861",
+          "category": "government"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s2_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1280px-1515_Third_Street.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "phash": "e9e516c5069c58eb",
+          "category": "boardroom"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s2_cut2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Anthony_Albanese_portrait_%28re-crop%29.jpg/1280px-Anthony_Albanese_portrait_%28re-crop%29.jpg",
+          "badge": "CANBERRA • PRIME MINISTER ANTHONY ALBANESE",
+          "phash": "99d592f71f183861",
+          "category": "government"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s2_cut3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Parliament_House_at_dusk%2C_Canberra_ACT.jpg/1280px-Parliament_House_at_dusk%2C_Canberra_ACT.jpg",
+          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
+          "phash": "bf00006fd3f708db",
+          "category": "government"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s3_cut1.jpg",
+          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "phash": "e5cd1e94864b9be0",
+          "category": "research"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s3_cut2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg/1280px-Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg",
+          "badge": "HUGGING FACE • GLOBAL POLICY & SAFETY",
+          "phash": "b8bc1e651ce70e46",
+          "category": "boardroom"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s3_cut3.jpg",
           "url": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1920&q=85",
           "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "phash": "95fc2d8332c89937",
           "category": "policy"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s4_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Atlas_during_testing.jpg/1280px-Atlas_during_testing.jpg",
+          "badge": "HANGZHOU • ROBBYANT DEXTEROUS TACTILE LAB",
+          "phash": "d9d9c143e626666c",
+          "category": "laboratory"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s4_cut2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "phash": "87843a6f3cb1616e",
+          "category": "semiconductor"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s4_cut3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "phash": "c7b03d433c638f68",
+          "category": "datacenter"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s5_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Red_Hat_logo.svg/1280px-Red_Hat_logo.svg.png",
+          "badge": "RALEIGH • RED HAT ENTERPRISE SYSTEMS",
+          "phash": "945e87619ccc6793",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s5_cut2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/NSOC-2012.jpg/1280px-NSOC-2012.jpg",
+          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
+          "phash": "a52d4a1ad0667f87",
+          "category": "cyber"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s5_cut3.jpg",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "phash": "e99392d936339692",
+          "category": "product_demo"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s6_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Parliament_House_at_dusk%2C_Canberra_ACT.jpg/1280px-Parliament_House_at_dusk%2C_Canberra_ACT.jpg",
+          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
+          "phash": "bf00006fd3f708db",
+          "category": "government"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s6_cut2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Qantas_%28VH-ZNN%29_Boeing_787-9_Dreamliner_on_final_at_Melbourne_Airport_%281%29.jpg/1280px-Qantas_%28VH-ZNN%29_Boeing_787-9_Dreamliner_on_final_at_Melbourne_Airport_%281%29.jpg",
+          "badge": "SYDNEY • QANTAS FLEET OPERATIONS",
+          "phash": "f30c0dd3d22d2bd2",
+          "category": "researcher"
         },
         {
           "date": "2026-11-10",
@@ -151,14 +763,22 @@
         {
           "date": "2026-11-10",
           "filename": "s7_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Red_Hat_Tower_--_15_February_2017_%28cropped%29.jpeg/1280px-Red_Hat_Tower_--_15_February_2017_%28cropped%29.jpeg",
-          "badge": "RED HAT • CONTEXTUAL REPORTING",
-          "phash": "fffe88140095a0fd",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Sydney_Airport_%28Kingsford_Smith%29_-_aerial_view_%28cropped%29.jpg/1280px-Sydney_Airport_%28Kingsford_Smith%29_-_aerial_view_%28cropped%29.jpg",
+          "badge": "SYDNEY • REGIONAL HEADQUARTERS",
+          "phash": "87d9b2cce9870ec4",
           "category": "boardroom"
         },
         {
           "date": "2026-11-10",
           "filename": "s7_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "phash": "e5cd1e9486439be1",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s7_cut3.jpg",
           "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&q=85",
           "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
           "phash": "c283b91ae67b846d",
@@ -166,7 +786,23 @@
         },
         {
           "date": "2026-11-10",
-          "filename": "s7_cut3.jpg",
+          "filename": "s8_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/1280px-Tour_Eiffel_Wikimedia_Commons.jpg",
+          "badge": "PARIS • EUROPEAN SECURITY DESK",
+          "phash": "f70cac733906cc72",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s8_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1578916171728-46686eac8d58",
+          "badge": "RETAIL COLD CHAIN • AUTOMATED REFRIGERATION",
+          "phash": "89b6593a1ec92778",
+          "category": "researcher"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s8_cut3.jpg",
           "url": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1920&q=85",
           "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
           "phash": "ef838e8da13194d5",
@@ -174,15 +810,63 @@
         },
         {
           "date": "2026-11-10",
-          "filename": "s8_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1280px-1515_Third_Street.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
-          "phash": "e9e516c5069c58eb",
-          "category": "boardroom"
+          "filename": "s9_cut1.jpg",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f",
+          "badge": "FEDERAL DISTRICT COURT • SECURITIES LITIGATION",
+          "phash": "e99392d936339692",
+          "category": "researcher"
         },
         {
           "date": "2026-11-10",
-          "filename": "s8_cut2.jpg",
+          "filename": "s9_cut2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/1280px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg",
+          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
+          "phash": "a1875ea0dfc63362",
+          "category": "semiconductor"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s9_cut3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "phash": "87843a6f3cb1616e",
+          "category": "hardware"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s10_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
+          "badge": "CHENGDU • HYGON INDUSTRIAL PROCESSORS",
+          "phash": "87843a6f3cb1616e",
+          "category": "robotics"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s10_cut2.jpg",
+          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "phash": "c33c18c7613a66f3",
+          "category": "datacenter"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s10_cut3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "phash": "c7b03d433c638f68",
+          "category": "energy"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s11_cut1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Atlas_during_testing.jpg/1280px-Atlas_during_testing.jpg",
+          "badge": "EMBODIED ROBOTICS • DEXTEROUS MANIPULATION",
+          "phash": "d9d9c143e626666c",
+          "category": "robotics"
+        },
+        {
+          "date": "2026-11-10",
+          "filename": "s11_cut2.jpg",
           "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=85",
           "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
           "phash": "96ea62505db5356c",
@@ -190,203 +874,11 @@
         },
         {
           "date": "2026-11-10",
-          "filename": "s8_cut3.jpg",
+          "filename": "s11_cut3.jpg",
           "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=85",
           "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
           "phash": "961d1537ddf31181",
           "category": "research"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s9_cut1.jpg",
-          "url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&q=85",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
-          "phash": "9a1cec9983633337",
-          "category": "research"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s9_cut2.jpg",
-          "url": "public/aibrief/backgrounds/ai_standards.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
-          "phash": "local_fallback",
-          "category": "research"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s9_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=85",
-          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
-          "phash": "96cd13caa421ab9f",
-          "category": "policy"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s10_cut1.jpg",
-          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-          "badge": "HIGH-DENSITY GPU CLUSTERS • ACCELERATED COMPUTE",
-          "phash": "c33c18c7613a66f3",
-          "category": "datacenter"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s10_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1920&q=85",
-          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
-          "phash": "f39580afd7c49720",
-          "category": "energy"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s10_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1920&q=85",
-          "badge": "TERRAIN SURVEY • RURAL INFRASTRUCTURE",
-          "phash": "983b362aa0e65a7b",
-          "category": "energy"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s11_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Qantas_%28VH-ZNN%29_Boeing_787-9_Dreamliner_on_final_at_Melbourne_Airport_%281%29.jpg/1280px-Qantas_%28VH-ZNN%29_Boeing_787-9_Dreamliner_on_final_at_Melbourne_Airport_%281%29.jpg",
-          "badge": "QANTAS • CONTEXTUAL REPORTING",
-          "phash": "f30c0dd3d22d2bd2",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s11_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 2",
-          "phash": "95d0cac5032517ff",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s11_cut3.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/NSOC-2012.jpg/1280px-NSOC-2012.jpg",
-          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
-          "phash": "a52d4a1ad0667f87",
-          "category": "defense"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s12_cut1.jpg",
-          "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1920&q=85",
-          "badge": "HARDWARE ACCELERATION • SYSTEM INTEGRATION",
-          "phash": "85f04f67780c3b2e",
-          "category": "hardware"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s12_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=1920&q=85",
-          "badge": "SEMICONDUCTOR WAFER • ADVANCED PACKAGING",
-          "phash": "8b83d352dadad292",
-          "category": "hardware"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s12_cut3.jpg",
-          "url": "public/aibrief/backgrounds/ai_chips.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
-          "phash": "local_fallback",
-          "category": "hardware"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s13_cut1.jpg",
-          "url": "public/aibrief/backgrounds/ai_standards.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
-          "phash": "local_fallback",
-          "category": "research"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s13_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=85",
-          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
-          "phash": "e99392d936339692",
-          "category": "policy"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s13_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 3",
-          "phash": "95d0cac5032517ff",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s14_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg/1280px-Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg",
-          "badge": "SYDNEY • CONTEXTUAL REPORTING",
-          "phash": "dd22025fbc2243df",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s14_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=85",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
-          "phash": "95d0cac5032517ff",
-          "category": "policy"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s14_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 3",
-          "phash": "95d0cac5032517ff",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s15_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/1280px-Googleplex_HQ_%28cropped%29.jpg",
-          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
-          "phash": "e0c0cf0fd83d983b",
-          "category": "boardroom"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s15_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 2",
-          "phash": "95d0cac5032517ff",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s15_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1920&q=85",
-          "badge": "AEROSPACE TELEMETRY • RADAR MONITORING GRID",
-          "phash": "d1cb03868d9fc2f1",
-          "category": "defense"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s16_cut1.jpg",
-          "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1920&q=85",
-          "badge": "DEFENSE RESEARCH LAB • AUTONOMOUS GUIDANCE",
-          "phash": "c2b8dd7695338863",
-          "category": "defense"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s16_cut2.jpg",
-          "url": "public/aibrief/backgrounds/ai_standards.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
-          "phash": "local_fallback",
-          "category": "research"
-        },
-        {
-          "date": "2026-11-10",
-          "filename": "s16_cut3.jpg",
-          "url": "public/aibrief/backgrounds/global_policy.jpg",
-          "badge": "LEGISLATIVE OVERSIGHT • STATUTORY REVIEW",
-          "phash": "local_fallback",
-          "category": "policy"
         }
       ]
     },
@@ -3341,426 +3833,6 @@
           "category": "hardware"
         }
       ]
-    },
-    {
-      "date": "2026-10-28",
-      "count": 27,
-      "assets": [
-        {
-          "date": "2026-10-28",
-          "filename": "s1_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phase_4_of_Alibaba_Xixi_Park_20200913.jpg/1280px-Phase_4_of_Alibaba_Xixi_Park_20200913.jpg",
-          "badge": "HANGZHOU • ALIBABA CLOUD XIXI CAMPUS",
-          "phash": "828a9f1cb1e76c4d",
-          "category": "boardroom"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s1_cut2.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/FBX_T.jpg/1280px-FBX_T.jpg",
-          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
-          "phash": "d4cb7b14c87a47e0",
-          "category": "defense"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s1_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
-          "phash": "e5cd1e94864b9be0",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s2_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1280px-1515_Third_Street.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
-          "phash": "e9e516c5069c58eb",
-          "category": "boardroom"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s2_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
-          "phash": "e5cd1e9486439be1",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s2_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&q=85",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
-          "phash": "c283b91ae67b846d",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s3_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1280px-1515_Third_Street.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
-          "phash": "e9e516c5069c58eb",
-          "category": "boardroom"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s3_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1509228468518-180dd4864904",
-          "badge": "ADVANCED MATHEMATICS • FORMAL PROOF VERIFICATION",
-          "phash": "c7917029974ad72e",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s3_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1920&q=85",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
-          "phash": "ef838e8da13194d5",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s4_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Tencent_Seafront_Tower_in_Dec2020.jpg/1280px-Tencent_Seafront_Tower_in_Dec2020.jpg",
-          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
-          "phash": "e9ea93540ce0accf",
-          "category": "boardroom"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s4_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=85",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
-          "phash": "96ea62505db5356c",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s4_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=85",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
-          "phash": "961d1537ddf31181",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s5_cut1.jpg",
-          "url": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1920&q=85",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
-          "phash": "95fc2d8332c89937",
-          "category": "policy"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s5_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
-          "phash": "95d0cac5032517ff",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s5_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&q=85",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
-          "phash": "9a1cec9983633337",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s6_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg/1280px-Bharat_Mandapam_Pragati_Maidan.jpg",
-          "badge": "BENGALURU • INDIA SOVEREIGN TECH CAPITAL",
-          "phash": "e88a6ae8ca2e2af6",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s6_cut2.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "phash": "87843a6f3cb1616e",
-          "category": "semiconductor"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s6_cut3.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
-          "phash": "c7b03d433c638f68",
-          "category": "datacenter"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s7_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "phash": "87843a6f3cb1616e",
-          "category": "hardware"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s7_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
-          "phash": "c33c18c7613a66f3",
-          "category": "datacenter"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s7_cut3.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
-          "phash": "c7b03d433c638f68",
-          "category": "energy"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s8_cut1.jpg",
-          "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=85",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
-          "phash": "96707e694c345796",
-          "category": "hardware"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s8_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
-          "phash": "c33c18c7613a66f3",
-          "category": "hardware"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s8_cut3.jpg",
-          "url": "public/aibrief/backgrounds/ai_standards.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
-          "phash": "local_fallback",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s9_cut1.jpg",
-          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-          "badge": "HIGH-DENSITY GPU CLUSTERS • ACCELERATED COMPUTE",
-          "phash": "c33c18c7613a66f3",
-          "category": "datacenter"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s9_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=85",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
-          "phash": "e01f60cf08e732f9",
-          "category": "energy"
-        },
-        {
-          "date": "2026-10-28",
-          "filename": "s9_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1920&q=85",
-          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
-          "phash": "f39580afd7c49720",
-          "category": "energy"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "count": 24,
-      "assets": [
-        {
-          "date": "2026-10-27",
-          "filename": "s1_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Portcity_Takeshiba.jpg/1280px-Portcity_Takeshiba.jpg",
-          "badge": "SOFTBANK GROUP • CONTEXTUAL REPORTING",
-          "phash": "b847144fd618ef45",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s1_cut2.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/FBX_T.jpg/1280px-FBX_T.jpg",
-          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
-          "phash": "d4cb7b14c87a47e0",
-          "category": "defense"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s1_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
-          "phash": "e5cd1e94864b9be0",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s2_cut1.jpg",
-          "url": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1920&q=85",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
-          "phash": "95fc2d8332c89937",
-          "category": "policy"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s2_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-          "badge": "HIGH-DENSITY GPU CLUSTERS • ACCELERATED COMPUTE",
-          "phash": "c33c18c7613a66f3",
-          "category": "datacenter"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s2_cut3.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "phash": "87843a6f3cb1616e",
-          "category": "semiconductor"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s3_cut1.jpg",
-          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=85",
-          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
-          "phash": "96cd13caa421ab9f",
-          "category": "policy"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s3_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
-          "phash": "95d0cac5032517ff",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s3_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
-          "phash": "e5cd1e9486439be1",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s4_cut1.jpg",
-          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&q=85",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
-          "phash": "c283b91ae67b846d",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s4_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1920&q=85",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
-          "phash": "ef838e8da13194d5",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s4_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=85",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
-          "phash": "96ea62505db5356c",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s5_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/NuyoricanPoetsCafe.JPG/1280px-NuyoricanPoetsCafe.JPG",
-          "badge": "POETRY SLAM • CONTEXTUAL REPORTING",
-          "phash": "da0976d625ac6279",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s5_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=85",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
-          "phash": "961d1537ddf31181",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s5_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&q=85",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
-          "phash": "9a1cec9983633337",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s6_cut1.jpg",
-          "url": "public/aibrief/backgrounds/ai_standards.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
-          "phash": "local_fallback",
-          "category": "research"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s6_cut2.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
-          "phash": "c7b03d433c638f68",
-          "category": "datacenter"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s6_cut3.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg/1280px-Aerial_photograph_of_Globalfoundries_Dresden.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "phash": "87843a6f3cb1616e",
-          "category": "hardware"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s7_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg/1280px-Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg",
-          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
-          "phash": "8c736310ba5ce2e7",
-          "category": "researcher"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s7_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
-          "phash": "c33c18c7613a66f3",
-          "category": "datacenter"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s7_cut3.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
-          "phash": "c7b03d433c638f68",
-          "category": "energy"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s8_cut1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phase_4_of_Alibaba_Xixi_Park_20200913.jpg/1280px-Phase_4_of_Alibaba_Xixi_Park_20200913.jpg",
-          "badge": "HANGZHOU • ALIBABA CLOUD XIXI CAMPUS",
-          "phash": "828a9f1cb1e76c4d",
-          "category": "boardroom"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s8_cut2.jpg",
-          "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=85",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
-          "phash": "e01f60cf08e732f9",
-          "category": "energy"
-        },
-        {
-          "date": "2026-10-27",
-          "filename": "s8_cut3.jpg",
-          "url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1920&q=85",
-          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
-          "phash": "f39580afd7c49720",
-          "category": "energy"
-        }
-      ]
     }
   ],
   "banned": [
@@ -3771,5 +3843,5 @@
     "gov_white_house.jpg",
     "us_china_talks.png"
   ],
-  "last_updated": "2026-11-10"
+  "last_updated": "2026-11-12"
 }

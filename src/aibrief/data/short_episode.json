@@ -1,192 +1,177 @@
 {
-  "date": "2026-11-09",
-  "dateLabel": "09 NOVEMBER 2026",
+  "date": "2026-11-11",
+  "dateLabel": "11 NOVEMBER 2026",
   "kicker": "BREAKING",
-  "headline": "42AI emerges with a model designed to predict human behavior",
-  "subhead": "An Israeli-American startup called 42AI has made its public debut, TechCrunch reported on 2 November.",
-  "source": "Source: TechCrunch",
-  "audioFile": "audio/aibrief/short_2026-11-09_lead.mp3",
-  "voiceFrames": 1506,
+  "headline": "DeepMind's AlphaProof Code formally verifies parts of Signal's encryption",
+  "subhead": "",
+  "source": "Source: Google DeepMind",
+  "audioFile": "audio/aibrief/short_2026-11-11_lead.mp3",
+  "voiceFrames": 1304,
   "endCardFrames": 75,
   "images": [
     {
-      "src": "aibrief/assets/editorial/2026-11-09/s1_cut1.jpg",
-      "label": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM"
+      "src": "aibrief/assets/editorial/2026-11-11/s1_cut1.jpg",
+      "label": "KING'S CROSS • GOOGLE DEEPMIND CAMPUS"
     },
     {
-      "src": "aibrief/assets/editorial/2026-11-09/s1_cut2.jpg",
+      "src": "aibrief/assets/editorial/2026-11-11/s1_cut2.jpg",
+      "label": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS"
+    },
+    {
+      "src": "aibrief/assets/editorial/2026-11-11/s1_cut3.jpg",
       "label": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION"
-    },
-    {
-      "src": "aibrief/assets/editorial/2026-11-09/s1_cut3.jpg",
-      "label": "MULTILATERAL FORUM • REGULATORY HARMONIZATION"
     }
   ],
   "cues": [
     {
-      "text": "An Israeli-American",
+      "text": "Google DeepMind has",
       "start": 0,
-      "end": 35
+      "end": 34
     },
     {
-      "text": "startup called 42AI has",
-      "start": 35,
-      "end": 98
+      "text": "unveiled AlphaProof Code,",
+      "start": 34,
+      "end": 76
     },
     {
-      "text": "made its public debut,",
-      "start": 98,
-      "end": 129
+      "text": "an agentic AI system that",
+      "start": 86,
+      "end": 137
     },
     {
-      "text": "TechCrunch reported on 2",
-      "start": 145,
-      "end": 177
+      "text": "generated Lean proofs,",
+      "start": 137,
+      "end": 169
     },
     {
-      "text": "November.",
-      "start": 177,
-      "end": 182
+      "text": "checked by machine,",
+      "start": 182,
+      "end": 206
     },
     {
-      "text": "The company says its",
-      "start": 218,
-      "end": 262
+      "text": "for core security",
+      "start": 222,
+      "end": 246
     },
     {
-      "text": "system, which it calls a",
-      "start": 262,
-      "end": 303
+      "text": "properties of the actual",
+      "start": 246,
+      "end": 285
     },
     {
-      "text": "behavioral world model,",
-      "start": 303,
-      "end": 335
+      "text": "production code",
+      "start": 285,
+      "end": 311
     },
     {
-      "text": "can estimate how people",
-      "start": 347,
-      "end": 380
+      "text": "underpinning the Signal",
+      "start": 311,
+      "end": 343
     },
     {
-      "text": "will react when they face",
-      "start": 380,
-      "end": 418
+      "text": "messaging protocol.",
+      "start": 343,
+      "end": 373
     },
     {
-      "text": "situations they have not",
-      "start": 418,
-      "end": 456
+      "text": "The verified properties",
+      "start": 406,
+      "end": 443
     },
     {
-      "text": "met before.",
-      "start": 456,
-      "end": 473
+      "text": "include forward secrecy",
+      "start": 443,
+      "end": 481
     },
     {
-      "text": "Financial brokerages are",
-      "start": 507,
-      "end": 547
+      "text": "and authentication, and",
+      "start": 481,
+      "end": 538
     },
     {
-      "text": "its first market.",
-      "start": 547,
-      "end": 570
+      "text": "the proofs reach right",
+      "start": 538,
+      "end": 566
     },
     {
-      "text": "The startup has disclosed",
-      "start": 602,
-      "end": 638
+      "text": "down to the compiled",
+      "start": 566,
+      "end": 593
     },
     {
-      "text": "62.5 million dollars in",
-      "start": 638,
-      "end": 712
+      "text": "machine code.",
+      "start": 593,
+      "end": 619
     },
     {
-      "text": "seed funding.",
-      "start": 712,
-      "end": 728
+      "text": "The work paired AI agents",
+      "start": 644,
+      "end": 693
     },
     {
-      "text": "That money came from its",
-      "start": 753,
-      "end": 797
+      "text": "with mathematical proof",
+      "start": 693,
+      "end": 730
     },
     {
-      "text": "founders and Infinity",
-      "start": 797,
-      "end": 827
+      "text": "methods and specifications",
+      "start": 730,
+      "end": 764
     },
     {
-      "text": "Group over three years,",
-      "start": 827,
-      "end": 865
+      "text": "written by people,",
+      "start": 764,
+      "end": 806
     },
     {
-      "text": "not in one new round.",
-      "start": 865,
-      "end": 908
+      "text": "producing proof code that",
+      "start": 816,
+      "end": 855
     },
     {
-      "text": "Its predictive performance",
-      "start": 941,
-      "end": 974
+      "text": "runs to millions of lines.",
+      "start": 855,
+      "end": 890
     },
     {
-      "text": "is so far only the",
-      "start": 974,
-      "end": 1017
+      "text": "DeepMind describes it as a",
+      "start": 921,
+      "end": 970
     },
     {
-      "text": "company's own claim.",
-      "start": 1017,
-      "end": 1048
+      "text": "research proof of concept,",
+      "start": 970,
+      "end": 1006
     },
     {
-      "text": "The widely quoted figure",
-      "start": 1081,
-      "end": 1117
+      "text": "noting that the proofs",
+      "start": 1022,
+      "end": 1047
     },
     {
-      "text": "of 98% accuracy measures",
-      "start": 1117,
-      "end": 1179
+      "text": "address selected",
+      "start": 1047,
+      "end": 1072
     },
     {
-      "text": "whether trading flows land",
-      "start": 1179,
-      "end": 1222
+      "text": "properties rather than",
+      "start": 1072,
+      "end": 1112
     },
     {
-      "text": "within a range.",
-      "start": 1222,
-      "end": 1243
-    },
-    {
-      "text": "It does not mean every",
-      "start": 1277,
-      "end": 1307
-    },
-    {
-      "text": "trade is predicted",
-      "start": 1307,
-      "end": 1332
-    },
-    {
-      "text": "correctly.",
-      "start": 1332,
-      "end": 1351
+      "text": "every conceivable attack.",
+      "start": 1112,
+      "end": 1151
     },
     {
       "text": "Watch the full episode on",
-      "start": 1384,
-      "end": 1427
+      "start": 1181,
+      "end": 1225
     },
     {
       "text": "SanMitra AI News Wire.",
-      "start": 1427,
-      "end": 1475
+      "start": 1225,
+      "end": 1272
     }
   ],
   "ctaTitle": "Full episode on YouTube",

@@ -1,158 +1,98 @@
 {
-  "s1_42ai_emerges_with_a_model_design": [
+  "s1_deepmind_s_alphaproof_code_forma": [
     {
       "type": "reported",
-      "text": "An Israeli-American startup called 42AI has made its public debut, TechCrunch reported on 2 November.",
-      "highlight": null,
-      "source": "TechCrunch",
-      "start": 2.16,
-      "end": 7.66
-    },
-    {
-      "type": "stat",
-      "shown": "$62.5 MILLION",
-      "label": "in seed funding",
-      "start": 22.82,
-      "end": 28.32
-    },
-    {
-      "type": "stat",
-      "shown": "98%",
-      "label": "accuracy measures whether trading flows land within…",
-      "start": 38.6,
-      "end": 44.1
+      "text": "Even so, the company says it is a strong signal that AI could make formal software verification practical.",
+      "highlight": "AI could make formal software verification practical",
+      "source": "Google DeepMind",
+      "start": 41.36,
+      "end": 46.86
     }
   ],
-  "s2_fal_raises_1_3_billion_dollars_a": [
+  "s2_google_makes_gemini_4_carbon_wid": [
     {
       "type": "reported",
-      "text": "Fal, a company that hosts video, image and audio models, has raised 1.3 billion dollars in a Series F round, TechCrunch reported on 3 November.",
-      "highlight": null,
-      "source": "TechCrunch",
-      "start": 2.38,
-      "end": 7.88
-    },
-    {
-      "type": "stat",
-      "shown": "$16 BILLION",
-      "label": "twice its valuation in April",
-      "start": 16.9,
-      "end": 22.4
-    }
-  ],
-  "s3_us_justice_department_announces": [
-    {
-      "type": "reported",
-      "text": "The US Justice Department announced on 5 November what it calls a Super Intelligence Task Force.",
-      "highlight": "5 November what it calls a Super Intelligence Task Force",
-      "source": "US Department of Justice",
-      "start": 2.0,
-      "end": 7.5
-    }
-  ],
-  "s4_google_expands_singapore_researc": [
-    {
-      "type": "dateline",
-      "place": "SINGAPORE",
-      "date": "3 NOVEMBER",
-      "start": 0.4,
-      "end": 4.5
-    },
-    {
-      "type": "reported",
-      "text": "Google announced on 3 November that it is broadening its academic partnerships in Singapore with more than 6 million dollars in support for research and capacity building, alongside its recently opened research hub in the city.",
-      "highlight": "it is broadening its academic partnerships in Singapore with more than 6 million dollars in support for research and capacity building",
+      "text": "Google said Gemini 4 Carbon can now be accessed through the paid Gemini API, Google AI Studio and Gemini for business.",
+      "highlight": "Gemini 4 Carbon can now be accessed through the paid Gemini API, Google AI Studio and Gemini for business",
       "source": "Google",
       "start": 2.0,
       "end": 7.5
     }
   ],
-  "s5_peppermint_raises_100_crore_rupe": [
-    {
-      "type": "dateline",
-      "place": "PUNE",
-      "date": "4 NOVEMBER",
-      "start": 0.4,
-      "end": 4.5
-    },
+  "s3_openai_opens_chatgpt_to_business": [
     {
       "type": "reported",
-      "text": "Peppermint Robotics, which is based in Pune and Austin, announced on 4 November that it has raised 100 crore rupees in a Pre-Series B round.",
-      "highlight": "it has raised 100 crore rupees in a Pre-Series B round",
-      "source": "Peppermint Robotics",
+      "text": "OpenAI announced a beta called Businesses in ChatGPT, which allows companies to claim and control their profiles within ChatGPT.",
+      "highlight": "a beta called Businesses in ChatGPT",
+      "source": "OpenAI",
       "start": 2.0,
       "end": 7.5
     },
     {
       "type": "reported",
-      "text": "Figures on its deployments and revenue growth are the company's own claims.",
-      "highlight": null,
-      "source": "Peppermint Robotics",
-      "start": 41.26,
-      "end": 45.89
+      "text": "OpenAI said businesses will not receive individual customer conversations.",
+      "highlight": "businesses will not receive individual customer conversations",
+      "source": "OpenAI",
+      "start": 41.02,
+      "end": 46.52
     }
   ],
-  "s6_parents_and_teachers_decry_googl": [
+  "s4_alibaba_opens_a_preview_of_qwen4": [],
+  "s5_dassault_systemes_to_set_up_an_a": [],
+  "s6_andhra_pradesh_clears_a_rs_31_38": [
     {
-      "type": "reported",
-      "text": "Google says each school can decide for itself whether students get access to AI.",
-      "highlight": "each school can decide for itself whether students get access to AI",
-      "source": "The Guardian",
-      "start": 20.9,
-      "end": 26.4
+      "type": "stat",
+      "shown": "512",
+      "label": "megawatt green AI data centre worth 31",
+      "start": 3.84,
+      "end": 9.34
     },
     {
-      "type": "quote",
-      "text": "We believe schools should have control over AI in their classrooms,",
-      "speaker": null,
-      "source": "The Guardian",
-      "start": 39.12,
-      "end": 44.62
+      "type": "stat",
+      "shown": "₹570 CRORE",
+      "label": "Epack plant that will produce equipment for…",
+      "start": 23.7,
+      "end": 29.2
     }
   ],
-  "s7_nvidia_skt_rebellions_to_jointly": [
-    {
-      "type": "dateline",
-      "place": "SEOUL",
-      "date": null,
-      "start": 0.4,
-      "end": 4.5
-    },
+  "s7_hackers_used_ai_agents_to_steal": [],
+  "s8_adobe_brings_ai_agents_into_crea": [
     {
       "type": "reported",
-      "text": "South Korea's science ministry said the deal could create new applications for the country's advanced chips and strengthen the position of Korean companies in overseas markets.",
-      "highlight": "the deal could create new applications for the country's advanced chips and strengthen the position of Korean companies in overseas markets",
-      "source": "The Korea Times",
-      "start": 38.76,
-      "end": 44.26
+      "text": "Adobe announced a wide-ranging expansion of its AI tools spanning Creative Cloud, Firefly and GenStudio.",
+      "highlight": "a wide-ranging expansion of its AI tools spanning Creative Cloud, Firefly and GenStudio",
+      "source": "Adobe",
+      "start": 2.34,
+      "end": 7.84
     }
   ],
-  "s8_chinese_ai_firms_want_silicon_va": [
+  "s9_fireworks_ai_details_a_security": [
     {
-      "type": "dateline",
-      "place": "SILICON VALLEY",
-      "date": null,
-      "start": 0.4,
-      "end": 4.5
-    }
-  ],
-  "s9_google_adds_two_new_tpu_chips_as": [],
-  "s10_nvidia_s_board_opens_an_independ": [
-    {
-      "type": "name",
-      "name": "JENSEN HUANG",
-      "role": "Chief executive",
-      "start": 9.5,
-      "end": 13.5
+      "type": "reported",
+      "text": "Fireworks AI, which provides AI infrastructure, has released more details on a security incident in October that started at an outside cloud provider.",
+      "highlight": "more details on a security incident in October that started at an outside cloud provider",
+      "source": "Fireworks AI",
+      "start": 2.0,
+      "end": 7.5
     },
     {
       "type": "reported",
-      "text": "Nvidia said its board of directors has formed an independent committee, backed by outside lawyers, to look into reports that chief executive Jensen Huang may have been the target of a foreign intelligence operation.",
-      "highlight": "its board of directors has formed an independent committee",
-      "source": "Nvidia",
+      "text": "Fireworks said the incident is contained, credentials have been strengthened and its investigation continues.",
+      "highlight": "the incident is contained, credentials have been strengthened and its investigation continues",
+      "source": "Fireworks AI",
+      "start": 25.08,
+      "end": 30.58
+    }
+  ],
+  "s10_south_korea_jumps_to_10th_in_imd": [
+    {
+      "type": "reported",
+      "text": "South Korea rose eight places to 10th out of 70 economies in the newest IMD World Digital Competitiveness ranking, the country's science ministry said, according to Yonhap.",
+      "highlight": "according to Yonhap",
+      "source": "Yonhap",
       "start": 2.0,
       "end": 7.5
     }
   ],
-  "s11_splatanything_gaussian_spacing_n": []
+  "s11_world_in_context_learning_for_ag": []
 }

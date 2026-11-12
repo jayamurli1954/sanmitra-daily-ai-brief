@@ -1,0 +1,290 @@
+AI Brief — Thursday, 12 November 2026 (IST) — covering Wednesday 11 November 2026
+
+> Anthropic set a price range for an IPO that could value it at up to $1.4 trillion, Google opened up Gemini 4 Carbon, and China answered with new Baidu, Alibaba and MiniMax models.
+> DeepMind used AI to mathematically check Signal's encryption code, while New York opened registration for frontier AI developers.
+
+# WORLD
+
+No confirmed military AI incident (an attack or accident involving AI) in this window. The biggest defence stories were about autonomous weapons and drone security.
+
+### China's GJ-11 combat drone carries out its first live weapons drop
+China's air force says its Hongdu GJ-11 uncrewed combat aircraft has made its first live drop of a precision-guided munition and is now in service "at the system level", according to Aviation Week, citing Chinese state media. It's a sign that uncrewed combat aircraft are moving out of testing and into service. Details come from the PLA and have not been independently checked. (Theme: Technology trends)
+Source: Aviation Week https://aviationweek.com/defense/budget-policy-operations/hongdu-gj-11-ucav-conducts-first-live-drop-enters-service-plaaf
+
+### Germany reportedly bans Chinese-made drones from military bases
+Germany has banned commercially available Chinese-made drones from its military bases and training grounds, effective immediately, over fears they could send sensitive data to Beijing. Der Spiegel first reported this, and The Guardian picked it up. Western militaries are increasingly worried about connected Chinese hardware. (Theme: AI policy and regulation)
+Source: The Guardian https://www.theguardian.com/world/2026/nov/11/germany-bans-chinese-drones-military-bases-spying-security
+
+# USA
+
+### Anthropic starts its IPO roadshow with a valuation of up to $1.4 trillion
+Anthropic has launched the roadshow for its proposed Nasdaq listing under the ticker ANT. It set a price range of $70 to $78 a share for 825 million Class A shares, which would raise up to about $64.4 billion and value the company at up to about $1.404 trillion at the top of the range. The range was filed late on 10 November US time, and the final price is not set yet. (Theme: AI industry and startup news)
+Source: Anthropic https://www.anthropic.com/news/roadshow-launch
+Also: CNBC https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html
+
+### Google makes Gemini 4 Carbon, its strongest model, widely available
+Gemini 4 Carbon is now available through the paid Gemini API, Google AI Studio and Gemini for business, and is rolling out to Google AI Ultra subscribers in the Gemini app and AI Mode in Search. Google pitches it at long agent tasks such as complex coding, research and security work. Launch pricing is $2 per million input tokens and $10 per million output tokens. Calling it Google's "strongest" model is the company's own description. (Theme: New AI models and tools)
+Source: Google https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/
+
+### DeepMind's AlphaProof Code formally verifies parts of Signal's encryption
+Google DeepMind used a new AI system, AlphaProof Code, to produce machine-checked Lean proofs of key security properties of Signal's real production code, including forward secrecy and authentication, down to the compiled machine code. The proofs cover specific properties, not every possible attack. The work is a strong sign that AI can make formal software verification practical. (Theme: AI breakthroughs)
+Source: Google DeepMind https://deepmind.google/blog/introducing-alphaproof-code/
+Also: WIRED https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/
+
+### New York opens frontier AI registration and an AI testing centre
+Governor Kathy Hochul opened the state's RAISE Act portal, where large frontier AI developers must register by 1 January 2027. She also launched a research centre at SUNY Binghamton, where researchers will independently test frontier AI systems and develop safety standards. (Theme: AI policy and regulation)
+Source: New York State https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research
+
+# CHINA
+
+### Baidu releases ERNIE 5.5 Flash Preview, with open weights promised
+Baidu released ERNIE 5.5 Flash Preview, a mixture-of-experts model with 280 billion total parameters (14 billion active) and a million-token context window, tuned for coding, 3D modelling, knowledge work and video creation. The API is live on Qianfan, and Xinhua reports the weights will be open-sourced on 25 November. Baidu itself calls this an unfinished checkpoint, and its benchmark claims come from the company. (Theme: New AI models and tools)
+Source: Baidu https://ernie.baidu.com/release/ernie-5-5-flash-preview/
+Also: Xinhua https://www.xinhuanet.com/tech/20261111/183aa161e70b4942b622e10b5e3da605/c.html
+
+### Alibaba opens a preview of Qwen4-Max
+Alibaba opened a preview of Qwen4-Max, the flagship of its next Qwen generation. It accepts image and video input and handles up to a million tokens of context. It is available through Alibaba's Token Plan subscription and in the Qwen app, Qoder, QwenWork and QwenStudio. The full Qwen4 launch is still to come. (Theme: New AI models and tools)
+Source: TechNode https://technode.com/2026/11/11/alibaba-opens-qwen4-max-preview-with-a-million-token-context-window/
+
+### MiniMax open-sources H3-Image for fast 4K images
+MiniMax released H3-Image, an image generation and editing model, with open weights on the evening of 10 November China time. The company says it is 1.5 to 2 times faster than mainstream tools in standard mode and costs about 50% to 70% of their price. Those speed and price figures are company claims. (Theme: New AI models and tools)
+Source: The Paper https://www.thepaper.cn/newsDetail_forward_34452449
+
+# ASIA
+
+### Singapore start-up Sapiens says it cuts robot AI training to 30 minutes
+Sapiens Technology says it trains only one to three billion parameters of a model instead of the whole thing, which cuts robotics training from weeks or months to as little as 30 minutes. It says it is in talks with more than 30 robotics and medical firms in the US, China and Singapore. These are the company's own claims and have not been independently tested. (Theme: AI breakthroughs)
+Source: The Straits Times https://www.straitstimes.com/tech/singapore-start-up-sapiens-cracks-ai-training-bottleneck-makes-waves-overseas
+
+### South Korea jumps to 10th in IMD's digital and AI competitiveness ranking
+South Korea's science ministry says the country climbed eight places to 10th of 70 economies in the IMD ranking. The US is first, Singapore second in Asia-Pacific, China seventh and Japan 19th. (Theme: Technology trends)
+Source: Yonhap https://en.yna.co.kr/view/AEN20261111002200320
+
+### Dassault Systèmes to set up an ASEAN industrial AI lab in Singapore
+Dassault Systèmes signed an MoU with Singapore's Economic Development Board to set up its ASEAN Industrial AI Virtual Twin Lab there. It plans to hire more than 30 AI professionals over five years. (Theme: AI industry and startup news)
+Source: TNGlobal https://technode.global/2026/11/11/frances-dassault-systemes-to-set-up-asean-industrial-ai-virtual-twin-lab-in-singapore/
+
+# INDIA
+
+### Andhra Pradesh clears a Rs 31,387 crore AI data centre near Visakhapatnam
+The Andhra Pradesh Cabinet approved a 512 MW green AI data centre by AM Intelligence at Bheemunipatnam, worth Rs 31,387 crore. It also cleared land at Bhogapuram for Reliance's giga-scale AI data centre and a Rs 570 crore Epack plant that will make AI data centre equipment. (Theme: AI industry and startup news)
+Source: The New Indian Express https://www.newindianexpress.com/states/andhra-pradesh/2026/Nov/11/ap-cabinet-clears-rs-313k-crore-ai-data-centre-at-bhimili
+
+### YoLearn.ai launches Pragya, a K-12 tutoring LLM built on NEP 2020
+YoLearn.ai launched Pragya, a model fine-tuned on CBSE curriculum data for tutoring in more than 12 Indian languages. It will power the company's tutor in its 20,000 partner schools. The claim that it is "India's first" such model and its teacher-panel scores come from the company, and the article is a sponsored "Spotlight" piece. (Theme: New AI models and tools)
+Source: The Times of India https://timesofindia.indiatimes.com/education/yolearn-ai-launches-pragya-indias-first-llm-for-k-12-built-on-nep-2020-and-ncf-2023/articleshow/135733251.cms
+
+### BCG ranks India an AI "Rising Contender", powered by talent rather than compute
+BCG's AI Maturity Matrix 2026, which covers more than 75 economies, puts India in the second of four readiness tiers. That is below the seven "AI Pioneers", including the US, China and Japan. BCG says India's strength is its large pool of AI specialists and IT-services workers. (Theme: Technology trends)
+Source: Mint (PTI) https://www.livemint.com/technology/india-ranked-an-ai-rising-contender-by-bcg-built-on-talent-rather-than-compute-11794397321852.html
+
+—
+Want this daily? Follow me and tap the bell on my profile.
+
+
+
+# SANMITRA AI NEWS WIRE
+
+## Daily AI Brief — Wednesday, 11 November 2026
+
+Reporting window: Tuesday, 10 November, 6:32 PM to Wednesday, 11 November 2026, 6:32 PM IST.
+
+I’ll organise the brief under WORLD, USA, CHINA, ASIA and INDIA, with the key developments, why each matters, and source links. I’ll distinguish confirmed announcements from reports and proposals.
+
+The strongest developments in this reporting window point to three shifts: AI agents are moving into business workflows, AI is becoming a tool for proving software security, and the financial and security risks around AI infrastructure are growing.
+
+# SANMITRA AI NEWS WIRE
+
+## Daily AI Brief — Wednesday, 11 November 2026
+
+**Reporting window:** Tuesday, 10 November, 6:32 PM to Wednesday, 11 November 2026, 6:32 PM IST
+
+**Today's edition:** AI security, business agents, creative automation, robotics and the changing economics of frontier AI.
+
+---
+
+# 🌍 WORLD
+
+### 1. AI Agents Used in Cyber Espionage to Steal Government Documents
+
+A Kazakhstan-linked hacking group reportedly used an autonomous AI-agent framework to steal more than 2,000 national security-related documents from Tajikistan. According to cybersecurity researchers at CloudSEK, the group used AI agents for reconnaissance, intrusion support, writing custom software and organising stolen files.
+
+The operation reportedly involved the open-source Hermes agent framework. Investigators discovered the activity after the attackers accidentally exposed a server containing operational data.
+
+**Why it matters:** AI-assisted cyberattacks are moving beyond generating phishing messages or writing malicious code. Autonomous agents can potentially coordinate several stages of an attack. The challenge for organisations is to defend against systems that can operate with considerable independence.
+
+**Source:** [Reuters](https://www.reuters.com/legal/government/kazakhstan-linked-hackers-used-ai-steal-tajik-government-documents-researchers-2026-11-11/)
+
+### 2. Google DeepMind Uses AI to Verify Signal's Encryption
+
+Google DeepMind has introduced AlphaProof Code, an agentic AI framework used to formally verify key security properties in the code underlying Signal's messaging protocol.
+
+The project combined AI agents with mathematical proof techniques and human-guided specifications. Google says the system generated millions of lines of machine-checked proof code to verify selected properties of Signal's implementation.
+
+This was a proof-of-concept research project, not a claim that every possible vulnerability in Signal has been eliminated.
+
+**Why it matters:** AI is increasingly being used not just to find software vulnerabilities, but to provide mathematical evidence that specific security properties hold. This could become an important development in software assurance, cryptography and critical infrastructure security.
+
+**Source:** [Google DeepMind — AlphaProof Code](https://deepmind.google/blog/introducing-alphaproof-code/)
+
+---
+
+# 🇺🇸 USA
+
+### 3. OpenAI Opens ChatGPT to Business Profiles and Business Agents
+
+OpenAI has introduced **Businesses in ChatGPT**, a beta programme that allows companies to claim and manage their business profiles.
+
+Through its Business Hub, eligible businesses can update company information, provide product feeds with pricing and availability, and view aggregated insights such as mentions and website clicks.
+
+The company is also introducing Business Agents. Customers will be able to interact with an organisation's agent to ask questions about products and services. The initial rollout is for eligible US e-commerce and online-service businesses.
+
+OpenAI says customer conversations will not be shared with businesses; the insights provided are aggregated.
+
+**Why it matters:** This is an important step in the evolution of online discovery. Businesses may increasingly need to manage how they are represented inside AI platforms, just as they currently manage their presence on search engines and marketplaces.
+
+For SMEs, this could eventually create a new customer-acquisition channel.
+
+**Source:** [OpenAI — Introducing Businesses in ChatGPT](https://openai.com/index/introducing-businesses-chatgpt/)
+
+### 4. Adobe Brings AI Agents into Creative Workflows
+
+Adobe has announced a major expansion of AI-powered creative tools across Creative Cloud, Firefly and GenStudio.
+
+Its Creative Agent is being expanded to orchestrate multi-step creative workflows. Adobe is also introducing integrations that allow third-party agents to work with applications such as Photoshop, Illustrator, Premiere Pro and After Effects.
+
+The expanded partnership with Google will bring Adobe tools into more Google products, while Google's AI models will become more accessible within Adobe's creative ecosystem.
+
+**Why it matters:** The direction is changing from AI tools that generate individual images or videos to AI agents that can coordinate multiple stages of a professional creative workflow.
+
+For media companies, marketing teams and content producers, this could reduce production time while keeping established creative applications at the centre of the process.
+
+**Source:** [Adobe — A New Era of Creativity](https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity)
+
+### 5. Anthropic's IPO Roadshow Targets a Valuation of Up to $1.4 Trillion
+
+Anthropic has begun the roadshow for its proposed public offering, targeting a valuation of up to approximately $1.4 trillion.
+
+The reported offering involves up to 825 million shares priced between $70 and $78, potentially raising as much as $64.4 billion. The company is also pursuing a separate private placement involving major technology investors.
+
+The proposed valuation is enormous, but it also comes at a time when investors are questioning whether the revenue generated by AI companies will justify their massive infrastructure and development costs.
+
+**Why it matters:** This is more than an IPO story. It is a test of whether financial markets believe the AI industry can convert extraordinary investment into sustainable profits.
+
+The outcome could influence valuations, fundraising and investment decisions across the wider AI ecosystem.
+
+**Source:** [Reuters — Anthropic's IPO Roadshow](https://www.reuters.com/podcasts/reuters-morning-bid/trillion-dollar-question-2026-11-11/)
+
+---
+
+# 🇨🇳 CHINA
+
+### 6. US and China Explore Cooperation on AI Risks While Competing for Leadership
+
+US Treasury Secretary Scott Bessent has said that the United States and China should explore cooperation on AI-related risks while remaining realistic about their strategic differences.
+
+Ahead of the planned meeting between President Donald Trump and President Xi Jinping, Bessent discussed a proposed bilateral dialogue on superintelligence.
+
+The discussions could cover testing advanced AI models, keeping human judgement central and establishing channels for reporting serious incidents.
+
+**Why it matters:** AI is now both an economic competition and a national-security issue. Even countries competing for technological leadership may need common mechanisms to manage risks from increasingly powerful AI systems.
+
+Cooperation on safety does not necessarily mean cooperation on technology or strategic interests.
+
+**Source:** [Reuters — US-China AI Cooperation and Competition](https://www.reuters.com/world/china/us-china-should-stay-clear-eyed-ai-cooperation-competition-bessent-says-2026-11-11/)
+
+---
+
+# 🌏 ASIA
+
+### 7. Fireworks AI Security Incident Raises Questions About AI Supply-Chain Risk
+
+AI infrastructure provider Fireworks AI has disclosed further findings from an October security incident involving a third-party cloud provider.
+
+The company says attackers reached internal development machines and accessed certain account and billing information. For a limited number of accounts, the incident also affected secrets, datasets and incomplete model weights.
+
+Fireworks says it has taken containment and credential-hardening measures and is continuing its investigation. Its bulletin says it has not detected an impact on its inference and training SDK services, which use zero-data-retention defaults.
+
+**Why it matters:** AI companies increasingly depend on external cloud providers, model hosts, datasets and development infrastructure. A weakness in one supplier can expose information belonging to several downstream customers.
+
+AI security must therefore extend beyond the model itself to the entire technology supply chain.
+
+**Source:** [Fireworks AI — Security Incident Update](https://fireworks.ai/security/bulletins/october-2026-security-incident-update)
+
+---
+
+# 🇮🇳 INDIA
+
+### 8. AI Business Agents Could Open a New Digital Channel for Indian SMEs
+
+OpenAI's new Business Hub and Business Agents are initially being rolled out to eligible businesses in the United States. However, the direction has implications for Indian businesses as well.
+
+A business profile inside an AI platform could eventually become another place where customers discover a company, compare products, check availability and ask questions before making a purchase.
+
+For Indian SMEs, exporters, service providers and technology companies, this raises an important question: how will their products and services be represented when customers increasingly use AI assistants instead of conventional search?
+
+**Why it matters:** Indian businesses should begin thinking about structured product information, accurate digital profiles and AI-readable service catalogues. These may become important elements of digital visibility.
+
+**Source:** [OpenAI — Introducing Businesses in ChatGPT](https://openai.com/index/introducing-businesses-chatgpt/)
+
+---
+
+# THE BIG PICTURE
+
+Today's developments reveal an important change in the AI landscape.
+
+AI is no longer confined to answering questions, generating content or assisting individual users. It is increasingly becoming an operational layer connecting businesses, customers, software, infrastructure and decision-making.
+
+Three developments deserve particular attention:
+
+**1. From assistants to business agents**
+
+AI platforms are beginning to facilitate direct interactions between customers and businesses. This could change online discovery, customer service and digital commerce.
+
+**2. From software testing to mathematical verification**
+
+Google DeepMind's work on Signal demonstrates how AI can contribute to formal verification. This is a potentially significant development for software security.
+
+**3. From AI innovation to AI infrastructure risk**
+
+The reported cyber-espionage operation and the Fireworks incident highlight the growing security exposure created by autonomous agents and interconnected AI suppliers.
+
+---
+
+# KEY TAKEAWAYS FOR BUSINESS LEADERS
+
+- **Digital visibility:** Businesses should prepare for a world where AI assistants become an important channel for product and service discovery.
+- **Security:** AI agents need carefully controlled permissions, monitoring and audit trails.
+- **Supply-chain resilience:** Organisations should examine the security practices of their cloud, model and AI infrastructure providers.
+- **Financial discipline:** The proposed Anthropic IPO illustrates the scale of AI investment, but profitability and infrastructure costs remain important questions.
+- **Human oversight:** More autonomous systems make accountability and human supervision increasingly important.
+
+---
+
+# CLOSING THOUGHT
+
+The next phase of AI will not be measured only by how intelligent a model becomes.
+
+It will be measured by how reliably that intelligence can operate in the real world — how securely it handles information, how responsibly it interacts with people, and how much measurable value it creates for businesses.
+
+**The future belongs not simply to those who build powerful AI, but to those who can deploy it responsibly and make it work.**
+
+---
+
+**SANMITRA AI NEWS WIRE**
+
+*Technology for Trust, Governance and Growth*
+
+Watch the daily AI news update on YouTube:\
+[https://www.youtube.com/@SanMitraTechSolutions](https://www.youtube.com/@SanMitraTechSolutions)
+
+Subscribe for your daily AI news update.
+
+\#ArtificialIntelligence #AI #AIagents #CyberSecurity #OpenAI #GoogleDeepMind #Anthropic #Adobe #BusinessAI #SanMitraTech
+
+## Editorial notes
+
+- The reporting window is fixed to the last 24 hours in IST. Some announcements were originally published on 10 November in other time zones but fall inside that window.
+- The India section contains a business implication of OpenAI's announcement, not a separate India-specific product launch.
+- I have not carried forward older model launches or previous Nvidia developments merely because they remain prominent in today's coverage.
+

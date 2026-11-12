@@ -1,0 +1,543 @@
+{
+  "weekly": false,
+  "date": "2026-11-11",
+  "formattedDate": "11 November 2026",
+  "title": "DeepMind's AlphaProof Code | Google makes Gemini 4 Carbon | OpenAI opens ChatGPT to business | AI News 11 November 2026",
+  "intro": {
+    "durationSeconds": 50,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 11 November 2026. First, today's top headlines: DeepMind's AlphaProof Code formally verifies parts of Signal's encryption. Google makes Gemini 4 Carbon widely available. OpenAI opens ChatGPT to business profiles and business agents. Alibaba opens a preview of Qwen4-Max. Dassault Systemes to set up an ASEAN industrial AI lab in Singapore. Andhra Pradesh clears a Rs 31,387 crore AI data centre near Visakhapatnam. Hackers used AI agents to steal Tajik government documents, researchers say. Adobe brings AI agents into creative workflows. Fireworks AI details a security incident that reached secrets and model weights. South Korea jumps to 10th in IMD's digital and AI competitiveness ranking. And now, the news in brief.",
+    "headlines": [
+      "DeepMind's AlphaProof Code formally verifies parts of Signal's encryption",
+      "Google makes Gemini 4 Carbon widely available",
+      "OpenAI opens ChatGPT to business profiles and business agents",
+      "Alibaba opens a preview of Qwen4-Max",
+      "Dassault Systemes to set up an ASEAN industrial AI lab in Singapore",
+      "Andhra Pradesh clears a Rs 31,387 crore AI data centre near Visakhapatnam",
+      "Hackers used AI agents to steal Tajik government documents, researchers say",
+      "Adobe brings AI agents into creative workflows",
+      "Fireworks AI details a security incident that reached secrets and model weights",
+      "South Korea jumps to 10th in IMD's digital and AI competitiveness ranking"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_deepmind_s_alphaproof_code_forma",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "DeepMind's AlphaProof Code formally verifies parts of Signal's encryption",
+      "subheadline": "Source: Google DeepMind",
+      "importanceScore": 99,
+      "durationSeconds": 59,
+      "source": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "researchDesk": "",
+      "script": "Our lead story today. Google DeepMind has unveiled AlphaProof Code, an agentic AI system that generated Lean proofs, checked by machine, for core security properties of the actual production code underpinning the Signal messaging protocol. The verified properties include forward secrecy and authentication, and the proofs reach right down to the compiled machine code. The work paired AI agents with mathematical proof methods and specifications written by people, producing proof code that runs to millions of lines. DeepMind describes it as a research proof of concept, noting that the proofs address selected properties rather than every conceivable attack. Even so, the company says it is a strong signal that AI could make formal software verification practical. That would mean going beyond bug-hunting to offer mathematical evidence that particular security guarantees hold, a development that could matter for cryptography and critical infrastructure.",
+      "whyThisMatters": "Google DeepMind has unveiled AlphaProof Code, an agentic AI system that generated Lean proofs, checked by machine, for core security properties of the actual production code underpinning the Signal messaging protocol.",
+      "sourceType": "company",
+      "keyPoints": [
+        "DeepMind's AlphaProof Code formally verifies parts of Signal's encryption",
+        "Google DeepMind"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s1_cut1.jpg",
+          "badge": "KING'S CROSS • GOOGLE DEEPMIND CAMPUS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s1_cut2.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s1_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_google_makes_gemini_4_carbon_wid",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google makes Gemini 4 Carbon widely available",
+      "subheadline": "Source: Google",
+      "importanceScore": 95,
+      "durationSeconds": 48,
+      "source": "Google",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "researchDesk": "",
+      "script": "Also today. Google said Gemini 4 Carbon can now be accessed through the paid Gemini API, Google AI Studio and Gemini for business. The model is also rolling out to Google AI Ultra subscribers, both in the Gemini app and in AI Mode in Search. The company is positioning it for agent work that stretches over long periods, including complex coding, research and security tasks, and describes it as its strongest model. At launch, the price is two dollars per million input tokens and ten dollars per million output tokens. The wider availability brings Google's leading model to developers and businesses as competitors in the US and China release new frontier models at a near-weekly pace.",
+      "whyThisMatters": "Google said Gemini 4 Carbon can now be accessed through the paid Gemini API, Google AI Studio and Gemini for business.",
+      "sourceType": "company",
+      "keyPoints": [
+        "Google makes Gemini 4 Carbon widely available",
+        "Google"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s2_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s2_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s2_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_openai_opens_chatgpt_to_business",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "OpenAI opens ChatGPT to business profiles and business agents",
+      "subheadline": "Source: OpenAI",
+      "importanceScore": 95,
+      "durationSeconds": 55,
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "researchDesk": "",
+      "script": "In other news. OpenAI announced a beta called Businesses in ChatGPT, which allows companies to claim and control their profiles within ChatGPT. Using a Business Hub, qualifying firms can edit company information and provide product feeds with pricing and availability details. They can also view aggregated data, such as how often they are mentioned and how many clicks reach their websites. OpenAI is also launching Business Agents, which give customers a way to ask a firm's agent about what it sells and the services it offers. The initial rollout is limited to eligible e-commerce and online-service businesses in the US. OpenAI said businesses will not receive individual customer conversations. Firms may soon have to curate how they show up in AI assistants, as they already do on search engines and marketplaces.",
+      "whyThisMatters": "OpenAI announced a beta called Businesses in ChatGPT, which allows companies to claim and control their profiles within ChatGPT.",
+      "sourceType": "company",
+      "keyPoints": [
+        "OpenAI opens ChatGPT to business profiles and business agents",
+        "OpenAI"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s3_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s3_cut2.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s3_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_alibaba_opens_a_preview_of_qwen4",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Alibaba opens a preview of Qwen4-Max",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 37,
+      "source": "TechNode",
+      "sourceUrl": "https://technode.com/2026/11/11/alibaba-opens-qwen4-max-preview-with-a-million-token-context-window/",
+      "researchDesk": "",
+      "script": "In China. Alibaba has launched a preview of Qwen4-Max, the top model in its upcoming generation of Qwen models, TechNode reports. The model takes images and video as input and can process as many as a million tokens of context. Users can try it through Alibaba's Token Plan subscription, as well as in the Qwen app, Qoder, QwenWork and QwenStudio. The complete Qwen4 release has yet to arrive. Because Qwen ranks among the most popular open model families with developers globally, its next generation carries weight far beyond China.",
+      "whyThisMatters": "Alibaba has launched a preview of Qwen4-Max, the top model in its upcoming generation of Qwen models, TechNode reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Alibaba opens a preview of Qwen4-Max",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s4_cut1.jpg",
+          "badge": "HANGZHOU • ALIBABA CLOUD XIXI CAMPUS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s4_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s4_cut3.jpg",
+          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_dassault_systemes_to_set_up_an_a",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Dassault Systemes to set up an ASEAN industrial AI lab in Singapore",
+      "subheadline": "Source: TNGlobal",
+      "importanceScore": 90,
+      "durationSeconds": 36,
+      "source": "TNGlobal",
+      "sourceUrl": "https://technode.global/2026/11/11/frances-dassault-systemes-to-set-up-asean-industrial-ai-virtual-twin-lab-in-singapore/",
+      "researchDesk": "",
+      "script": "In Asia. Dassault Systemes, the French software group, has signed a memorandum of understanding with Singapore's Economic Development Board to establish its ASEAN Industrial AI Virtual Twin Lab in the city-state, TNGlobal reports. The lab will use AI and virtual twins, which are detailed digital replicas of products, factories and processes, for manufacturing and industry throughout Southeast Asia. Dassault intends to recruit more than 30 AI professionals at the lab over five years. The move strengthens Singapore's ambition to serve as the region's centre for applied industrial AI.",
+      "whyThisMatters": "Dassault Systemes, the French software group, has signed a memorandum of understanding with Singapore's Economic Development Board to establish its ASEAN Industrial AI Virtual Twin Lab in the city-state, TNGlobal reports",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Dassault Systemes to set up an ASEAN industrial AI lab in Singapore",
+        "TNGlobal"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s5_cut1.jpg",
+          "badge": "ASEAN • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s5_cut2.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s5_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_andhra_pradesh_clears_a_rs_31_38",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Andhra Pradesh clears a Rs 31,387 crore AI data centre near Visakhapatnam",
+      "subheadline": "Source: The New Indian Express",
+      "importanceScore": 90,
+      "durationSeconds": 34,
+      "source": "The New Indian Express",
+      "sourceUrl": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Nov/11/ap-cabinet-clears-rs-313k-crore-ai-data-centre-at-bhimili",
+      "researchDesk": "",
+      "script": "Turning to India. The Andhra Pradesh Cabinet has approved a 512 megawatt green AI data centre worth 31,387 crore rupees, to be built by AM Intelligence at Bheemunipatnam near Visakhapatnam, The New Indian Express reports. The cabinet also cleared land at Bhogapuram for a giga-scale AI data centre by Reliance. It also approved a 570 crore rupee Epack plant that will produce equipment for AI data centres. The decisions reinforce the Visakhapatnam coast as one of India's leading hubs for AI computing infrastructure.",
+      "whyThisMatters": "The Andhra Pradesh Cabinet has approved a 512 megawatt green AI data centre worth 31,387 crore rupees, to be built by AM Intelligence at Bheemunipatnam near Visakhapatnam, The New Indian Express reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Andhra Pradesh clears a Rs 31,387 crore AI data centre near Visakhapatnam",
+        "The New Indian Express"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s6_cut1.jpg",
+          "badge": "ANDHRA PRADESH • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s6_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s6_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_hackers_used_ai_agents_to_steal",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Hackers used AI agents to steal Tajik government documents, researchers say",
+      "subheadline": "Source: Reuters",
+      "importanceScore": 90,
+      "durationSeconds": 44,
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/legal/government/kazakhstan-linked-hackers-used-ai-steal-tajik-government-documents-researchers-2026-11-11/",
+      "researchDesk": "",
+      "script": "Around the world. Researchers at the cybersecurity firm CloudSEK say a hacking group with links to Kazakhstan relied on autonomous AI agents to take more than 2,000 documents tied to national security from Tajikistan, Reuters reports. The agents were reportedly built on the open-source Hermes framework. They were used to scout targets, support the break-ins, write tailored software and organise the stolen material. The operation came to light because the attackers mistakenly left a server open that held their operational data. The findings point to AI in hacking moving past phishing and malicious code, toward agents that manage multiple phases of an attack, which makes defence harder.",
+      "whyThisMatters": "Researchers at the cybersecurity firm CloudSEK say a hacking group with links to Kazakhstan relied on autonomous AI agents to take more than 2,000 documents tied to national security from Tajikistan, Reuters reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Hackers used AI agents to steal Tajik government documents, researchers say",
+        "Reuters"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s7_cut1.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s7_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s7_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_adobe_brings_ai_agents_into_crea",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Adobe brings AI agents into creative workflows",
+      "subheadline": "Source: Adobe",
+      "importanceScore": 90,
+      "durationSeconds": 49,
+      "source": "Adobe",
+      "sourceUrl": "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity",
+      "researchDesk": "",
+      "script": "Turning to the United States. Adobe announced a wide-ranging expansion of its AI tools spanning Creative Cloud, Firefly and GenStudio. The company is extending its Creative Agent so it can carry out creative workflows involving several steps. New integrations will also allow outside agents to operate within Photoshop, Illustrator, Premiere Pro and After Effects. Under a broader partnership with Google, Adobe tools will appear in more Google products, and Adobe users will get greater access to Google's AI models. The direction is moving away from AI that produces one image or clip at a time, toward agents that manage multiple stages of professional production. That could shorten turnaround for media and marketing teams, with familiar creative software remaining central.",
+      "whyThisMatters": "Adobe announced a wide-ranging expansion of its AI tools spanning Creative Cloud, Firefly and GenStudio.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Adobe brings AI agents into creative workflows",
+        "Adobe"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s8_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s8_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s8_cut3.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_fireworks_ai_details_a_security",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Fireworks AI details a security incident that reached secrets and model weights",
+      "subheadline": "Source: Fireworks AI",
+      "importanceScore": 90,
+      "durationSeconds": 49,
+      "source": "Fireworks AI",
+      "sourceUrl": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+      "researchDesk": "",
+      "script": "Elsewhere. Fireworks AI, which provides AI infrastructure, has released more details on a security incident in October that started at an outside cloud provider. The company said attackers got into internal development machines and viewed some account and billing information. In a limited set of accounts, they also reached secrets, datasets and model weights that were incomplete. Fireworks said the incident is contained, credentials have been strengthened and its investigation continues. It added that it has found no effect on its inference and training services, which by default do not retain customer data. The episode shows that AI security must extend across the full supply chain, from cloud hosts to datasets and development tools, not only the model itself.",
+      "whyThisMatters": "Fireworks AI, which provides AI infrastructure, has released more details on a security incident in October that started at an outside cloud provider.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Fireworks AI details a security incident that reached secrets and model weights",
+        "Fireworks AI"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s9_cut1.jpg",
+          "badge": "FIREWORKS • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s9_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s9_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_south_korea_jumps_to_10th_in_imd",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "South Korea jumps to 10th in IMD's digital and AI competitiveness ranking",
+      "subheadline": "Source: Yonhap",
+      "importanceScore": 90,
+      "durationSeconds": 36,
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261111002200320",
+      "researchDesk": "",
+      "script": "In Asia. South Korea rose eight places to 10th out of 70 economies in the newest IMD World Digital Competitiveness ranking, the country's science ministry said, according to Yonhap. The ranking gauges how prepared economies are to take up digital technology and AI. The United States took first place. Singapore placed second in the Asia-Pacific region, China seventh and Japan 19th. South Korea's rise follows substantial government investment in AI computing, talent and public-sector use, as Seoul aims to rank among the world's top three AI powers.",
+      "whyThisMatters": "South Korea rose eight places to 10th out of 70 economies in the newest IMD World Digital Competitiveness ranking, the country's science ministry said, according to Yonhap.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "South Korea jumps to 10th in IMD's digital and AI competitiveness ranking",
+        "Yonhap"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s10_cut1.jpg",
+          "badge": "SOUTH KOREA • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s10_cut2.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY • CUT 2",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s10_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK • CUT 3",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s11_world_in_context_learning_for_ag",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "World In-Context Learning for Agentic Robot Manipulation",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 60,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.12885",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. In a paper titled World In-Context Learning for Agentic Robot Manipulation, the researchers tackle a tension in how robots learn. Skills from training usually sit in a network's weights, its internal parameters, and that binds them to the setting where training happened. In-context learning avoids this problem. It means picking up a task from examples given while the model is working. But it has trailed behind, because a demonstration recorded elsewhere reveals nothing about the robot's present surroundings. The researchers observed that this kind of learning captures meaning, like the steps of a task and what objects are for, rather than appearance, so it transfers between settings. In their method, a frozen model begins from a demonstration and practises the task in a simulator or similar environment. It holds the resulting feedback in its context rather than undergoing retraining.",
+      "whyThisMatters": "In a paper titled World In-Context Learning for Agentic Robot Manipulation, the researchers tackle a tension in how robots learn.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "World In-Context Learning for Agentic Robot Manipulation",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s11_cut1.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s11_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION • CUT 2",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-11/s11_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. DeepMind's AlphaProof Code formally verifies parts of Signal's encryption. Google makes Gemini 4 Carbon widely available. OpenAI opens ChatGPT to business profiles and business agents. Alibaba opens a preview of Qwen4-Max. Dassault Systemes to set up an ASEAN industrial AI lab in Singapore. Andhra Pradesh clears a Rs 31,387 crore AI data centre near Visakhapatnam.",
+    "items": [
+      "✓ DeepMind's AlphaProof Code formally verifies par",
+      "✓ Google makes Gemini 4 Carbon widely available",
+      "✓ OpenAI opens ChatGPT to business profiles and bu",
+      "✓ Alibaba opens a preview of Qwen4-Max",
+      "✓ Dassault Systemes to set up an ASEAN industrial ",
+      "✓ Andhra Pradesh clears a Rs 31,387 crore AI data ",
+      "✓ Hackers used AI agents to steal Tajik government"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "DeepMind's AlphaProof Code formally verifies ",
+    "Google makes Gemini 4 Carbon widely available",
+    "OpenAI opens ChatGPT to business profiles and",
+    "Alibaba opens a preview of Qwen4-Max",
+    "Dassault Systemes to set up an ASEAN industri",
+    "Andhra Pradesh clears a Rs 31,387 crore AI da",
+    "Hackers used AI agents to steal Tajik governm",
+    "Adobe brings AI agents into creative workflow",
+    "Fireworks AI details a security incident that",
+    "South Korea jumps to 10th in IMD's digital an",
+    "World In-Context Learning for Agentic Robot M"
+  ],
+  "thumbnail": {
+    "date": "11 NOVEMBER 2026",
+    "headline": "DEEPMIND'S ALPHAPROOF CODE FORMALLY VERIFIES",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "DEEPMIND'S ALPHAPROOF CODE FORMALLY",
+      "GOOGLE MAKES GEMINI 4 CARBON WIDELY",
+      "OPENAI OPENS CHATGPT TO BUSINESS",
+      "ALIBABA OPENS A PREVIEW OF QWEN4-MAX"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "DeepMind's AlphaProof Code | Google makes Gemini 4 Carbon | OpenAI opens ChatGPT to business | AI News 11 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 11 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

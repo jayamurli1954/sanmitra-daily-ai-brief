@@ -1,41 +1,49 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 12.53,
-    "sceneDurationSeconds": 13.73,
-    "durationInFrames": 412,
+    "audioDurationSeconds": 61.85,
+    "sceneDurationSeconds": 63.05,
+    "durationInFrames": 1891,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_42ai_emerges_with_a_model_design": {
-    "audioFile": "audio/aibrief/s1_s1_42ai_emerges_with_a_model_design.mp3",
-    "audioDurationSeconds": 47.4,
-    "sceneDurationSeconds": 48.6,
-    "durationInFrames": 1458,
-    "title": "Story 1: 42AI emerges with a model designed to predict human behavior",
+  "s1_deepmind_s_alphaproof_code_forma": {
+    "audioFile": "audio/aibrief/s1_s1_deepmind_s_alphaproof_code_forma.mp3",
+    "audioDurationSeconds": 59.54,
+    "sceneDurationSeconds": 60.74,
+    "durationInFrames": 1822,
+    "title": "Story 1: DeepMind's AlphaProof Code formally verifies parts of Signal's encryption",
+    "voice": "en-US-AriaNeural"
+  },
+  "s2_google_makes_gemini_4_carbon_wid": {
+    "audioFile": "audio/aibrief/s2_s2_google_makes_gemini_4_carbon_wid.mp3",
+    "audioDurationSeconds": 45.29,
+    "sceneDurationSeconds": 46.49,
+    "durationInFrames": 1395,
+    "title": "Story 2: Google makes Gemini 4 Carbon widely available",
     "voice": "en-US-ChristopherNeural"
   },
-  "transition_usa": {
+  "s3_openai_opens_chatgpt_to_business": {
+    "audioFile": "audio/aibrief/s3_s3_openai_opens_chatgpt_to_business.mp3",
+    "audioDurationSeconds": 54.5,
+    "sceneDurationSeconds": 55.7,
+    "durationInFrames": 1671,
+    "title": "Story 3: OpenAI opens ChatGPT to business profiles and business agents",
+    "voice": "en-US-AriaNeural"
+  },
+  "transition_china": {
     "audioFile": "",
     "audioDurationSeconds": 0.0,
     "sceneDurationSeconds": 2.0,
     "durationInFrames": 60,
-    "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
+    "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
   },
-  "s2_fal_raises_1_3_billion_dollars_a": {
-    "audioFile": "audio/aibrief/s2_s2_fal_raises_1_3_billion_dollars_a.mp3",
-    "audioDurationSeconds": 47.04,
-    "sceneDurationSeconds": 48.24,
-    "durationInFrames": 1447,
-    "title": "Story 2: Fal raises 1.3 billion dollars as demand for AI inference grows",
-    "voice": "en-US-AriaNeural"
-  },
-  "s3_us_justice_department_announces": {
-    "audioFile": "audio/aibrief/s3_s3_us_justice_department_announces.mp3",
-    "audioDurationSeconds": 41.78,
-    "sceneDurationSeconds": 42.98,
-    "durationInFrames": 1290,
-    "title": "Story 3: US Justice Department announces a consolidated AI enforcement task force",
+  "s4_alibaba_opens_a_preview_of_qwen4": {
+    "audioFile": "audio/aibrief/s4_s4_alibaba_opens_a_preview_of_qwen4.mp3",
+    "audioDurationSeconds": 37.25,
+    "sceneDurationSeconds": 38.45,
+    "durationInFrames": 1153,
+    "title": "Story 4: Alibaba opens a preview of Qwen4-Max",
     "voice": "en-US-ChristopherNeural"
   },
   "transition_asia": {
@@ -45,12 +53,12 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
   },
-  "s4_google_expands_singapore_researc": {
-    "audioFile": "audio/aibrief/s4_s4_google_expands_singapore_researc.mp3",
-    "audioDurationSeconds": 33.48,
-    "sceneDurationSeconds": 34.68,
-    "durationInFrames": 1040,
-    "title": "Story 4: Google expands Singapore research with more than 6 million dollars in funding",
+  "s5_dassault_systemes_to_set_up_an_a": {
+    "audioFile": "audio/aibrief/s5_s5_dassault_systemes_to_set_up_an_a.mp3",
+    "audioDurationSeconds": 39.19,
+    "sceneDurationSeconds": 40.39,
+    "durationInFrames": 1212,
+    "title": "Story 5: Dassault Systemes to set up an ASEAN industrial AI lab in Singapore",
     "voice": "en-US-AriaNeural"
   },
   "transition_india": {
@@ -60,67 +68,66 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s5_peppermint_raises_100_crore_rupe": {
-    "audioFile": "audio/aibrief/s5_s5_peppermint_raises_100_crore_rupe.mp3",
-    "audioDurationSeconds": 46.39,
-    "sceneDurationSeconds": 47.59,
-    "durationInFrames": 1428,
-    "title": "Story 5: Peppermint raises 100 crore rupees to expand autonomous cleaning robots",
+  "s6_andhra_pradesh_clears_a_rs_31_38": {
+    "audioFile": "audio/aibrief/s6_s6_andhra_pradesh_clears_a_rs_31_38.mp3",
+    "audioDurationSeconds": 36.58,
+    "sceneDurationSeconds": 37.78,
+    "durationInFrames": 1133,
+    "title": "Story 6: Andhra Pradesh clears a Rs 31,387 crore AI data centre near Visakhapatnam",
     "voice": "en-US-ChristopherNeural"
   },
-  "s6_parents_and_teachers_decry_googl": {
-    "audioFile": "audio/aibrief/s6_s6_parents_and_teachers_decry_googl.mp3",
-    "audioDurationSeconds": 56.62,
-    "sceneDurationSeconds": 57.82,
-    "durationInFrames": 1734,
-    "title": "Story 6: Parents and teachers decry Google pledge to yank Search if schools block AI: \u2018This threat is nothing but extortion\u2019",
+  "s7_hackers_used_ai_agents_to_steal": {
+    "audioFile": "audio/aibrief/s7_s7_hackers_used_ai_agents_to_steal.mp3",
+    "audioDurationSeconds": 43.39,
+    "sceneDurationSeconds": 44.59,
+    "durationInFrames": 1338,
+    "title": "Story 7: Hackers used AI agents to steal Tajik government documents, researchers say",
     "voice": "en-US-AriaNeural"
   },
-  "s7_nvidia_skt_rebellions_to_jointly": {
-    "audioFile": "audio/aibrief/s7_s7_nvidia_skt_rebellions_to_jointly.mp3",
-    "audioDurationSeconds": 53.14,
-    "sceneDurationSeconds": 54.34,
-    "durationInFrames": 1630,
-    "title": "Story 7: Nvidia, SKT, Rebellions to jointly establish heterogeneous computing system for AI",
+  "transition_usa": {
+    "audioFile": "",
+    "audioDurationSeconds": 0.0,
+    "sceneDurationSeconds": 2.0,
+    "durationInFrames": 60,
+    "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
+  },
+  "s8_adobe_brings_ai_agents_into_crea": {
+    "audioFile": "audio/aibrief/s8_s8_adobe_brings_ai_agents_into_crea.mp3",
+    "audioDurationSeconds": 49.46,
+    "sceneDurationSeconds": 50.66,
+    "durationInFrames": 1520,
+    "title": "Story 8: Adobe brings AI agents into creative workflows",
     "voice": "en-US-ChristopherNeural"
   },
-  "s8_chinese_ai_firms_want_silicon_va": {
-    "audioFile": "audio/aibrief/s8_s8_chinese_ai_firms_want_silicon_va.mp3",
-    "audioDurationSeconds": 52.94,
-    "sceneDurationSeconds": 54.14,
-    "durationInFrames": 1624,
-    "title": "Story 8: Chinese AI firms want Silicon Valley\u2019s top minds. Poaching them won\u2019t be easy",
+  "s9_fireworks_ai_details_a_security": {
+    "audioFile": "audio/aibrief/s9_s9_fireworks_ai_details_a_security.mp3",
+    "audioDurationSeconds": 49.85,
+    "sceneDurationSeconds": 51.05,
+    "durationInFrames": 1531,
+    "title": "Story 9: Fireworks AI details a security incident that reached secrets and model weights",
     "voice": "en-US-AriaNeural"
   },
-  "s9_google_adds_two_new_tpu_chips_as": {
-    "audioFile": "audio/aibrief/s9_s9_google_adds_two_new_tpu_chips_as.mp3",
-    "audioDurationSeconds": 50.3,
-    "sceneDurationSeconds": 51.5,
-    "durationInFrames": 1545,
-    "title": "Story 9: Google adds two new TPU chips as it takes on Nvidia in AI hardware",
+  "s10_south_korea_jumps_to_10th_in_imd": {
+    "audioFile": "audio/aibrief/s10_s10_south_korea_jumps_to_10th_in_imd.mp3",
+    "audioDurationSeconds": 36.26,
+    "sceneDurationSeconds": 37.46,
+    "durationInFrames": 1124,
+    "title": "Story 10: South Korea jumps to 10th in IMD's digital and AI competitiveness ranking",
     "voice": "en-US-ChristopherNeural"
   },
-  "s10_nvidia_s_board_opens_an_independ": {
-    "audioFile": "audio/aibrief/s10_s10_nvidia_s_board_opens_an_independ.mp3",
-    "audioDurationSeconds": 38.16,
-    "sceneDurationSeconds": 39.36,
-    "durationInFrames": 1181,
-    "title": "Story 10: Nvidia's board opens an independent investigation after reports its CEO was targeted by foreign intelligence",
+  "s11_world_in_context_learning_for_ag": {
+    "audioFile": "audio/aibrief/s11_s11_world_in_context_learning_for_ag.mp3",
+    "audioDurationSeconds": 57.7,
+    "sceneDurationSeconds": 58.9,
+    "durationInFrames": 1767,
+    "title": "Story 11: World In-Context Learning for Agentic Robot Manipulation",
     "voice": "en-US-AriaNeural"
-  },
-  "s11_splatanything_gaussian_spacing_n": {
-    "audioFile": "audio/aibrief/s11_s11_splatanything_gaussian_spacing_n.mp3",
-    "audioDurationSeconds": 55.75,
-    "sceneDurationSeconds": 56.95,
-    "durationInFrames": 1709,
-    "title": "Story 11: SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
-    "voice": "en-US-ChristopherNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 36.67,
-    "sceneDurationSeconds": 37.87,
-    "durationInFrames": 1136,
+    "audioDurationSeconds": 32.45,
+    "sceneDurationSeconds": 33.65,
+    "durationInFrames": 1009,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },

@@ -1,382 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-12",
   "stories": [
-    {
-      "story_id": "story_20261027_softbank_reportedly_plans_50_billio",
-      "story_chain_id": "chain_global_softbank_reportedly_",
-      "headline": "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html"
-      ],
-      "first_covered": "2026-10-27",
-      "last_major_update": "2026-10-27",
-      "update_phase": "initial_break",
-      "impact_score": 87
-    },
-    {
-      "story_id": "story_20261027_australians_should_prepare_for_onli",
-      "story_chain_id": "chain_global_australians_should_p",
-      "headline": "Australians should prepare for online services to go down unexpectedly as threats rise, cyber agency warns",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/technology/2026/oct/26/australians-should-prepare-for-online-services-to-go-down-unexpectedly-as-threats-rise-cyber-agency-warns"
-      ],
-      "first_covered": "2026-10-27",
-      "last_major_update": "2026-10-27",
-      "update_phase": "initial_break",
-      "impact_score": 83
-    },
-    {
-      "story_id": "story_20261027_moonshot_resets_subscriber_quotas_a",
-      "story_chain_id": "chain_global_moonshot_resets_subs",
-      "headline": "Moonshot resets subscriber quotas after Kimi K3.1 Pro launch issues",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/moonshot-resets-subscriber-quotas-after-kimi-k3-1-pro-launch-issues/articleshow/135208663.cms"
-      ],
-      "first_covered": "2026-10-27",
-      "last_major_update": "2026-10-27",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
-    {
-      "story_id": "story_20261027_softbank_reportedly_plans_50_billio",
-      "story_chain_id": "chain_global_softbank_reportedly_",
-      "headline": "SoftBank reportedly plans 50 billion dollars tech investment in aspiring 'AI nation' Malaysia",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html"
-      ],
-      "first_covered": "2026-10-27",
-      "last_major_update": "2026-10-27",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261027_spacex_locks_in_40_billion_dollars_",
-      "story_chain_id": "chain_global_spacex_locks_in_40_b",
-      "headline": "SpaceX locks in 40 billion dollars GPU financing deal with Apollo",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
-      ],
-      "first_covered": "2026-10-27",
-      "last_major_update": "2026-10-27",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261027_anthropic_officially_files_for_its_",
-      "story_chain_id": "chain_global_anthropic_officially",
-      "headline": "Anthropic officially files for its public debut",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
-      ],
-      "first_covered": "2026-10-27",
-      "last_major_update": "2026-10-27",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261027_dear_chatgpt_12_year_old_wins_top_y",
-      "story_chain_id": "chain_global_dear_chatgpt_12_year",
-      "headline": "'Dear ChatGPT': 12-year-old wins top youth prize at Australian Poetry Slam video",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://www.theguardian.com/technology/video/2026/oct/26/dear-chatgpt-12-year-old-wins-top-youth-prize-at-australian-poetry-slam-video"
-      ],
-      "first_covered": "2026-10-27",
-      "last_major_update": "2026-10-27",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261027_reading_writing_sharing_and_interac",
-      "story_chain_id": "chain_global_reading_writing_shar",
-      "headline": "Reading, Writing, Sharing, and Interacting with the World through Video",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://arxiv.org/abs/2610.31668"
-      ],
-      "first_covered": "2026-10-27",
-      "last_major_update": "2026-10-27",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261027_anthropic_sued_for_allegedly_using_",
-      "story_chain_id": "chain_global_anthropic_sued_for_a",
-      "headline": "Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music"
-      ],
-      "first_covered": "2026-10-27",
-      "last_major_update": "2026-10-27",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261027_why_cloud_computing_pioneer_wang_ji",
-      "story_chain_id": "chain_global_why_cloud_computing_",
-      "headline": "Why cloud computing pioneer Wang Jian thinks space is the next AI frontier",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://www.scmp.com/tech/tech-trends/article/3371979/why-cloud-computing-pioneer-wang-jian-thinks-space-next-ai-frontier"
-      ],
-      "first_covered": "2026-10-27",
-      "last_major_update": "2026-10-27",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261028_meta_announces_95_billion_stock_off",
-      "story_chain_id": "chain_global_meta_announces_95_bi",
-      "headline": "Meta announces $95 billion stock offering to fund AI expansion",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theguardian.com/technology/2026/oct/26/meta-plans-95bn-stock-offering-to-help-cover-ai-expansion"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 81
-    },
-    {
-      "story_id": "story_20261028_uk_government_met_137_businesses_ov",
-      "story_chain_id": "chain_global_uk_government_met_13",
-      "headline": "UK government met 137 businesses over AI datacentres – but no environmental groups",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/uk-news/2026/oct/27/uk-government-environmental-groups-ai-datacentres-expansion-plans-investigation"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261028_cohere_says_alibaba_s_qwen_model_tr",
-      "story_chain_id": "chain_global_cohere_says_alibaba_",
-      "headline": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261028_australia_warns_of_unprecedented_ai",
-      "story_chain_id": "chain_global_australia_warns_of_u",
-      "headline": "Australia warns of 'unprecedented' AI threat",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/australia-warns-of-unprecedented-ai-threat/articleshow/135226144.cms"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
-    {
-      "story_id": "story_20261028_apple_is_adding_an_ai_chatbot_to_pa",
-      "story_chain_id": "chain_global_apple_is_adding_an_a",
-      "headline": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
-    {
-      "story_id": "story_20261028_google_s_next_genie_ai_model_genera",
-      "story_chain_id": "chain_global_google_s_next_genie_",
-      "headline": "Google’s next Genie AI model generates more realistic experiences",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
-    {
-      "story_id": "story_20261028_cohere_says_an_alibaba_qwen_model_t",
-      "story_chain_id": "chain_global_cohere_says_an_aliba",
-      "headline": "Cohere says an Alibaba Qwen model tried to send a file to Beijing during a test",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261028_openai_releases_gpt_6_1_terra_at_ha",
-      "story_chain_id": "chain_global_openai_releases_gpt_",
-      "headline": "OpenAI releases GPT-6.1 Terra at half the price of its mid-tier models",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://thenextweb.com/news/openai-gpt-6-1-terra-computer-use"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261028_openai_claims_its_models_disproved_",
-      "story_chain_id": "chain_global_openai_claims_its_mo",
-      "headline": "OpenAI claims its models disproved the Exponential Time Hypothesis",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261028_tencent_open_sources_a_real_time_ch",
-      "story_chain_id": "chain_global_tencent_open_sources",
-      "headline": "Tencent open-sources a real-time Chinese-English interpretation model",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://technode.com/2026/10/27/tencent-open-sources-ai-model-for-real-time-chinese-english-interpretation/"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261028_singapore_launches_a_package_to_pus",
-      "story_chain_id": "chain_global_singapore_launches_a",
-      "headline": "Singapore launches a package to push companies into AI",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://english.news.cn/asiapacific/20261027/8b2cddf82be14e7c9b11576cb17a6b4a/c.html"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261028_sarvam_signs_a_five_year_deal_to_bu",
-      "story_chain_id": "chain_global_sarvam_signs_a_five_",
-      "headline": "Sarvam signs a five-year deal to build AI for India's armed forces",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://www.hindustantimes.com/india-news/armed-forces-sign-mou-with-sarvam-to-boost-ai-capabilities-101793088900459.html"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261028_general_compute_raises_100_million_",
-      "story_chain_id": "chain_global_general_compute_rais",
-      "headline": "General Compute raises 100 million dollars to build a cloud on non-Nvidia inference chips",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261028_ciil_releases_open_source_speech_ai",
-      "story_chain_id": "chain_global_ciil_releases_open_s",
-      "headline": "CIIL releases open-source speech AI for all 22 scheduled languages",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://www.thehindu.com/news/national/karnataka/ciil-launches-open-source-speech-ai-ecosystem-for-indian-languages/article71631788.ece"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261028_nvidia_backs_simplismart_which_help",
-      "story_chain_id": "chain_global_nvidia_backs_simplis",
-      "headline": "Nvidia backs Simplismart, which helps companies run AI on fewer GPUs",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/"
-      ],
-      "first_covered": "2026-10-28",
-      "last_major_update": "2026-10-28",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
     {
       "story_id": "story_20261029_cognite_reports_1_billion_in_verifi",
       "story_chain_id": "chain_global_cognite_reports_1_bi",
@@ -3046,6 +2671,426 @@
       "last_major_update": "2026-11-10",
       "update_phase": "initial_break",
       "impact_score": 67
+    },
+    {
+      "story_id": "story_20261110_mandatory_ai_safety_and_security_pr",
+      "story_chain_id": "chain_global_mandatory_ai_safety_",
+      "headline": "Mandatory AI safety and security protections announced after OpenAI breach of Medicare video",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video"
+      ],
+      "first_covered": "2026-11-10",
+      "last_major_update": "2026-11-10",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261110_learning_heterogeneous_tactile_repr",
+      "story_chain_id": "chain_global_learning_heterogeneo",
+      "headline": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.12806"
+      ],
+      "first_covered": "2026-11-10",
+      "last_major_update": "2026-11-10",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261111_huawei_details_how_kirin_9050_runs_",
+      "story_chain_id": "chain_global_huawei_details_how_k",
+      "headline": "Huawei details how Kirin 9050 runs a 30-billion-parameter model on device",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://technode.com/2026/11/11/huawei-details-how-kirin-9050-runs-a-30-billion-parameter-model-on-device/"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 89
+    },
+    {
+      "story_id": "story_20261111_tsmc_to_invest_up_to_usd_1_billion_",
+      "story_chain_id": "chain_global_tsmc_to_invest_up_to",
+      "headline": "TSMC to invest up to USD 1 billion in Anthropic, OpenAI",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/tsmc-to-invest-up-to-usd-1-billion-in-anthropic-openai/articleshow/135726655.cms"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261111_us_and_china_should_stay_clear_eyed",
+      "story_chain_id": "chain_global_us_and_china_should_",
+      "headline": "US and China should stay clear-eyed on AI cooperation and competition, Scott Bessent says",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-and-china-should-stay-clear-eyed-on-ai-cooperation-and-competition-scott-bessent-says/articleshow/135723633.cms"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261111_oura_to_acquire_ai_native_primary_c",
+      "story_chain_id": "chain_global_oura_to_acquire_ai_n",
+      "headline": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 79
+    },
+    {
+      "story_id": "story_20261111_ai_training_startup_mercor_valued_a",
+      "story_chain_id": "chain_global_ai_training_startup_",
+      "headline": "AI training startup Mercor valued at $20 billion in latest funding round",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/funding/ai-training-startup-mercor-valued-at-20-billion-in-latest-funding-round/articleshow/135715625.cms"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 75
+    },
+    {
+      "story_id": "story_20261111_ai_has_made_it_close_to_impossible_",
+      "story_chain_id": "chain_global_ai_has_made_it_close",
+      "headline": "AI has made it ‘close to impossible’ to assess university coursework, regulator says",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/education/2026/nov/11/ai-close-to-impossible-assess-university-coursework-regulator"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261111_diygod_open_sources_pinky_an_mcp_la",
+      "story_chain_id": "chain_global_diygod_open_sources_",
+      "headline": "DIYgod Open-Sources Pinky, an MCP Layer That Lets AI Agents Operate Real iPhones and Android Phones",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/diygod-pinky-open-source-mcp-ai-agents-control-iphone-android"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 69
+    },
+    {
+      "story_id": "story_20261111_deepmind_s_alphaproof_code_formally",
+      "story_chain_id": "chain_global_deepmind_s_alphaproo",
+      "headline": "DeepMind's AlphaProof Code formally verifies parts of Signal's encryption",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://deepmind.google/blog/introducing-alphaproof-code/"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261111_google_makes_gemini_4_carbon_widely",
+      "story_chain_id": "chain_global_google_makes_gemini_",
+      "headline": "Google makes Gemini 4 Carbon widely available",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261111_openai_opens_chatgpt_to_business_pr",
+      "story_chain_id": "chain_global_openai_opens_chatgpt",
+      "headline": "OpenAI opens ChatGPT to business profiles and business agents",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://openai.com/index/introducing-businesses-chatgpt/"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261111_alibaba_opens_a_preview_of_qwen4_ma",
+      "story_chain_id": "chain_global_alibaba_opens_a_prev",
+      "headline": "Alibaba opens a preview of Qwen4-Max",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://technode.com/2026/11/11/alibaba-opens-qwen4-max-preview-with-a-million-token-context-window/"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261111_dassault_systemes_to_set_up_an_asea",
+      "story_chain_id": "chain_global_dassault_systemes_to",
+      "headline": "Dassault Systemes to set up an ASEAN industrial AI lab in Singapore",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://technode.global/2026/11/11/frances-dassault-systemes-to-set-up-asean-industrial-ai-virtual-twin-lab-in-singapore/"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261111_andhra_pradesh_clears_a_rs_31_387_c",
+      "story_chain_id": "chain_global_andhra_pradesh_clear",
+      "headline": "Andhra Pradesh clears a Rs 31,387 crore AI data centre near Visakhapatnam",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.newindianexpress.com/states/andhra-pradesh/2026/Nov/11/ap-cabinet-clears-rs-313k-crore-ai-data-centre-at-bhimili"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261111_hackers_used_ai_agents_to_steal_taj",
+      "story_chain_id": "chain_global_hackers_used_ai_agen",
+      "headline": "Hackers used AI agents to steal Tajik government documents, researchers say",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.reuters.com/legal/government/kazakhstan-linked-hackers-used-ai-steal-tajik-government-documents-researchers-2026-11-11/"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261111_adobe_brings_ai_agents_into_creativ",
+      "story_chain_id": "chain_global_adobe_brings_ai_agen",
+      "headline": "Adobe brings AI agents into creative workflows",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261111_fireworks_ai_details_a_security_inc",
+      "story_chain_id": "chain_global_fireworks_ai_details",
+      "headline": "Fireworks AI details a security incident that reached secrets and model weights",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://fireworks.ai/security/bulletins/october-2026-security-incident-update"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261111_south_korea_jumps_to_10th_in_imd_s_",
+      "story_chain_id": "chain_global_south_korea_jumps_to",
+      "headline": "South Korea jumps to 10th in IMD's digital and AI competitiveness ranking",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://en.yna.co.kr/view/AEN20261111002200320"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261111_world_in_context_learning_for_agent",
+      "story_chain_id": "chain_global_world_in_context_lea",
+      "headline": "World In-Context Learning for Agentic Robot Manipulation",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.12885"
+      ],
+      "first_covered": "2026-11-11",
+      "last_major_update": "2026-11-11",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261112_alphabet_s_debut_hong_kong_singapor",
+      "story_chain_id": "chain_global_alphabet_s_debut_hon",
+      "headline": "Alphabet's debut Hong Kong, Singapore bond sales draw about $5 billion in early orders",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/alphabets-debut-hong-kong-singapore-bond-sales-draw-about-5-billion-in-early-orders/articleshow/135759335.cms"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261112_zimbabwean_author_simbarashe_kundiz",
+      "story_chain_id": "chain_global_zimbabwean_author_si",
+      "headline": "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261112_fewer_hours_and_higher_wages_or_mor",
+      "story_chain_id": "chain_global_fewer_hours_and_high",
+      "headline": "Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261112_nhs_england_deletes_misleading_clai",
+      "story_chain_id": "chain_global_nhs_england_deletes_",
+      "headline": "NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/nov/12/nhs-england-deletes-misleading-claim-137-trusts-benefiting-from-palantir-ai-tools"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261112_ai_helped_uk_defy_expectations_but_",
+      "story_chain_id": "chain_global_ai_helped_uk_defy_ex",
+      "headline": "AI helped UK defy expectations – but will economy’s resilience fizzle out?",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/business/2026/nov/12/ai-uk-economy-john-healey"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261112_agibot_open_sources_life_a_lifelong",
+      "story_chain_id": "chain_global_agibot_open_sources_",
+      "headline": "AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeats Models",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/agibot-life-lifelong-embodied-intelligence-framework-robobeats-open-source"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 69
+    },
+    {
+      "story_id": "story_20261112_tencent_launches_yuanbao_search_a_s",
+      "story_chain_id": "chain_global_tencent_launches_yua",
+      "headline": "Tencent Launches Yuanbao Search, a Standalone AI Search Product at so.qq.com",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/tencent-yuanbao-search-standalone-ai-search-so-qq-com"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 69
+    },
+    {
+      "story_id": "story_20261112_moore_threads_sets_mdc_2026_for_dec",
+      "story_chain_id": "chain_global_moore_threads_sets_m",
+      "headline": "Moore Threads Sets MDC 2026 for December 29-30, With S6000 Card and Lushan GPUs Expected",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/moore-threads-mdc-musa-developer-conference-s6000-lushan-huagang"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 66
     }
   ],
   "entity_index": {}

@@ -4,10 +4,22 @@
   "formattedDate": "10 November 2026",
   "title": "Australia to introduce mandatory | Mandatory AI safety and security | Cyberattacks threaten to make | AI News 10 November 2026",
   "intro": {
-    "durationSeconds": 18,
+    "durationSeconds": 63,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "Breaking today: Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’. From the SanMitra Newsroom, this is the Daily AI Brief for 10 November 2026."
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 10 November 2026. First, today's top headlines: Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’. Mandatory AI safety and security protections announced after OpenAI breach of Medicare video. Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns. Ant Group’s Robbyant open-sources tactile AI model for robot hands. Red Hat launches OpenShift 5 with AI troubleshooting tools. Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul. Teenager who planned terror attack in Sydney tells court he was radicalised online and used AI to strategise. The French fridge hacks were relatively unsophisticated. An AI-enabled attack would raise the stakes. The race is on to sue Nvidia. Hygon Launches 14XX Industrial-Control CPU With 10W TDP and a -40°C to 105°C Operating Range. And now, the news in brief.",
+    "headlines": [
+      "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+      "Mandatory AI safety and security protections announced after OpenAI breach of Medicare video",
+      "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns",
+      "Ant Group’s Robbyant open-sources tactile AI model for robot hands",
+      "Red Hat launches OpenShift 5 with AI troubleshooting tools",
+      "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul",
+      "Teenager who planned terror attack in Sydney tells court he was radicalised online and used AI to strategise",
+      "The French fridge hacks were relatively unsophisticated. An AI-enabled attack would raise the stakes",
+      "The race is on to sue Nvidia",
+      "Hygon Launches 14XX Industrial-Control CPU With 10W TDP and a -40°C to 105°C Operating Range"
+    ]
   },
   "transitions": [
     {
@@ -62,12 +74,12 @@
       "headline": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
       "subheadline": "Source: The Guardian",
       "importanceScore": 99,
-      "durationSeconds": 50,
+      "durationSeconds": 51,
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
       "researchDesk": "",
-      "script": "Our lead story today. Government flags criminal law changes to ensure companies can’t argue in future ‘that someone didn’t know the computer was loaded’ Get our daily political email , free app or daily news podcast OpenAI will not face criminal penalties over the Medicare data breach , but the prime minister has flagged changes to Australia’s criminal law to crack down on future breaches by artificial intelligence companies. Anthony Albanese on Tuesday released the recommendations of a “rapid review” into the June breach of a Medicare statistics reporting service portal administered by Services Australia, but not the findings or the report itself, which he committed to releasing in the future. Maintaining security controls across all stages of development and deployment.",
-      "whyThisMatters": "Government flags criminal law changes to ensure companies can’t argue in future ‘that someone didn’t know the computer was loaded’ Get our daily political email , free app or daily news podcast OpenAI will not face crimi",
+      "script": "Our lead story today. OpenAI will not face criminal penalties over a breach of Medicare data in Australia, but Prime Minister Anthony Albanese has signalled changes to criminal law aimed at future breaches by artificial intelligence companies, the Guardian reports. The government says the changes are meant to stop firms from claiming in future that they were unaware a computer was loaded. On Tuesday, Albanese published the recommendations of a rapid review into the June breach of a Medicare statistics reporting portal run by Services Australia. He did not release the review's findings or the full report, but committed to doing so at a later date. Among the measures outlined is keeping security controls in place throughout every stage of development and deployment.",
+      "whyThisMatters": "OpenAI will not face criminal penalties over a breach of Medicare data in Australia, but Prime Minister Anthony Albanese has signalled changes to criminal law aimed at future breaches by artificial intelligence companies",
       "sourceType": "reporting",
       "keyPoints": [
         "Australia to introduce mandatory reporting after OpenAI hack to combat artificia",
@@ -76,17 +88,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-10/s1_cut1.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s1_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s1_cut3.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "badge": "CANBERRA • PRIME MINISTER ANTHONY ALBANESE",
           "panDirection": "zoomOut"
         }
       ]
@@ -103,8 +115,8 @@
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video",
       "researchDesk": "",
-      "script": "Also today. Australia's prime minister said its government would set up a new AI safety regulator and Labor would consider six key obligations on AI companies. Anthony Albanese said: 'We accept all of the recommendations, and we’ve commenced work to implement them.' Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’ Continue reading...",
-      "whyThisMatters": "Australia's prime minister said its government would set up a new AI safety regulator and Labor would consider six key obligations on AI companies.",
+      "script": "Also today. Australian Prime Minister Anthony Albanese has said his government will establish a new regulator for AI safety, according to the Guardian. He added that Labor would weigh six key obligations for artificial intelligence companies. The announcement follows the breach of Medicare involving OpenAI. Albanese said, \"We accept all of the recommendations,\" adding that implementation work has begun.",
+      "whyThisMatters": "Australian Prime Minister Anthony Albanese has said his government will establish a new regulator for AI safety, according to the Guardian.",
       "sourceType": "reporting",
       "keyPoints": [
         "Mandatory AI safety and security protections announced after OpenAI breach of Me",
@@ -113,17 +125,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-10/s2_cut1.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s2_cut2.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "badge": "CANBERRA • PRIME MINISTER ANTHONY ALBANESE",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s2_cut3.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
           "panDirection": "zoomIn"
         }
       ]
@@ -140,8 +152,8 @@
       "source": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
       "researchDesk": "",
-      "script": "In other news. Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open-source communities valuable to developers worldwide.",
-      "whyThisMatters": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open-source communities valuable to developer",
+      "script": "In other news. Irene Solaiman, an executive at Hugging Face, has cautioned that rising cyberattacks on open AI platforms could lead to stricter security limits, TechCrunch reports. She warned this could erode the openness that makes these communities so useful to developers around the world.",
+      "whyThisMatters": "Irene Solaiman, an executive at Hugging Face, has cautioned that rising cyberattacks on open AI platforms could lead to stricter security limits, TechCrunch reports.",
       "sourceType": "reporting",
       "keyPoints": [
         "Cyberattacks threaten to make open-source AI a little less open, Hugging Face ex",
@@ -150,17 +162,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-10/s3_cut1.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s3_cut2.jpg",
-          "badge": "RADAR SURVEILLANCE • PHASED ARRAY SYSTEM",
+          "badge": "HUGGING FACE • GLOBAL POLICY & SAFETY",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s3_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "panDirection": "panRight"
         }
       ]
@@ -173,12 +185,12 @@
       "headline": "Ant Group’s Robbyant open-sources tactile AI model for robot hands",
       "subheadline": "Source: TechNode",
       "importanceScore": 90,
-      "durationSeconds": 30,
+      "durationSeconds": 32,
       "source": "TechNode",
       "sourceUrl": "https://technode.com/2026/11/10/ant-groups-robbyant-open-sources-tactile-ai-model-for-robot-hands/",
       "researchDesk": "",
-      "script": "In China. Ant Group’s robotics unit Robbyant has released model weights and inference code for LingBot-Touch, a model designed to help robot hands use touch to handle objects. It was trained on nearly 5,000 hours of recordings from three types of tactile sensors so that it could work across different hardware. Robbyant evaluated the model on 26 real-world tasks using two robotic hands. The tests included handling fragile objects and coordinating both hands.",
-      "whyThisMatters": "Ant Group’s robotics unit Robbyant has released model weights and inference code for LingBot-Touch, a model designed to help robot hands use touch to handle objects.",
+      "script": "In China. Robbyant, the robotics arm of Ant Group, has made the model weights and inference code for LingBot-Touch publicly available, TechNode reports. The model is built to help robot hands use touch when handling objects. It was trained on almost 5,000 hours of recordings from three kinds of touch sensors, so it can operate across different hardware. Robbyant tested it on 26 real-world tasks with two robotic hands, including handling fragile items and coordinating both hands.",
+      "whyThisMatters": "Robbyant, the robotics arm of Ant Group, has made the model weights and inference code for LingBot-Touch publicly available, TechNode reports.",
       "sourceType": "reporting",
       "keyPoints": [
         "Ant Group’s Robbyant open-sources tactile AI model for robot hands",
@@ -187,17 +199,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-10/s4_cut1.jpg",
-          "badge": "HIGH-DENSITY GPU CLUSTERS • ACCELERATED COMPUTE",
+          "badge": "HANGZHOU • ROBBYANT DEXTEROUS TACTILE LAB",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s4_cut2.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s4_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
           "panDirection": "panLeft"
         }
       ]
@@ -224,17 +236,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-10/s5_cut1.jpg",
-          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "badge": "RALEIGH • RED HAT ENTERPRISE SYSTEMS",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s5_cut2.jpg",
-          "badge": "SANTA CLARA • AMD CORPORATE HEADQUARTERS",
+          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s5_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
           "panDirection": "zoomOut"
         }
       ]
@@ -247,12 +259,12 @@
       "headline": "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul",
       "subheadline": "Source: The Guardian",
       "importanceScore": 90,
-      "durationSeconds": 35,
+      "durationSeconds": 29,
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/nov/10/qantas-850-job-cuts-outsource-work-to-india-ai-overhaul",
       "researchDesk": "",
-      "script": "Turning to India. Australian carrier announces agreement with Accenture amid ‘unprecedented’ technological disruption, CEO Vanessa Hudson says Get our breaking news email , free app or daily news podcast Qantas is preparing to cut 850 local jobs and outsource work offshore under an AI-driven overhaul, marking a growing wave of disruption to the Australian workforce. The changes represent the third major corporate layoff plan announced in Australia in three weeks, after restructuring moves flagged by the design company Canva and National Australia Bank .",
-      "whyThisMatters": "Australian carrier announces agreement with Accenture amid ‘unprecedented’ technological disruption, CEO Vanessa Hudson says Get our breaking news email , free app or daily news podcast Qantas is preparing to cut 850 loc",
+      "script": "Turning to India. Qantas plans to eliminate 850 jobs in Australia and move work offshore as part of an overhaul driven by artificial intelligence, the Guardian reports. The airline announced a deal with Accenture, with chief executive Vanessa Hudson pointing to unprecedented technological disruption. It is the third large layoff plan unveiled by an Australian company in three weeks, following restructuring announced by design firm Canva and National Australia Bank.",
+      "whyThisMatters": "Qantas plans to eliminate 850 jobs in Australia and move work offshore as part of an overhaul driven by artificial intelligence, the Guardian reports.",
       "sourceType": "reporting",
       "keyPoints": [
         "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven ov",
@@ -261,12 +273,12 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-10/s6_cut1.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "badge": "CANBERRA • AUSTRALIAN PARLIAMENT HOUSE",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s6_cut2.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "badge": "SYDNEY • QANTAS FLEET OPERATIONS",
           "panDirection": "panRight"
         },
         {
@@ -284,12 +296,12 @@
       "headline": "Teenager who planned terror attack in Sydney tells court he was radicalised online and used AI to strategise",
       "subheadline": "Source: The Guardian",
       "importanceScore": 90,
-      "durationSeconds": 52,
+      "durationSeconds": 45,
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/australia-news/2026/nov/10/teen-planned-sydney-terror-attack-using-chatgpt-radicalised-tiktok-ntwnfb",
       "researchDesk": "",
-      "script": "Around the world. Boy says he was first exposed to extremist material on TikTok, turned to Telegram and YouTube for bomb-making instructions, and used ChatGPT to devise his plans Get our breaking news email , free app or daily news podcast A teenager who admitted to planning a terrorist attack in Sydney in 2024 has told the court he was radicalised online after first seeing extremist material on TikTok and used ChatGPT to form his plans. The 16-year-old, known under the pseudonym as RK due to his age, pleaded guilty to acts in preparation for, or planning, a terrorist act. In a sentencing ruling on Monday, he avoided jail time, with the New South Wales supreme court ordering him into a three-year community corrections order.",
-      "whyThisMatters": "Boy says he was first exposed to extremist material on TikTok, turned to Telegram and YouTube for bomb-making instructions, and used ChatGPT to devise his plans Get our breaking news email , free app or daily news podcas",
+      "script": "Around the world. A 16-year-old who admitted planning a terrorist attack in Sydney in 2024 has told a court that his radicalisation began online, the Guardian reports. The boy, identified only as RK because of his age, said he first came across extremist content on TikTok. He then moved to Telegram and YouTube to find instructions for making bombs, and used ChatGPT to work out his plans. RK pleaded guilty to acts in preparation for, or planning, a terrorist act. In a sentencing decision delivered on Monday, the New South Wales supreme court spared him a prison term. Instead, the court placed him on a three-year community corrections order.",
+      "whyThisMatters": "A 16-year-old who admitted planning a terrorist attack in Sydney in 2024 has told a court that his radicalisation began online, the Guardian reports.",
       "sourceType": "reporting",
       "keyPoints": [
         "Teenager who planned terror attack in Sydney tells court he was radicalised onli",
@@ -298,17 +310,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-10/s7_cut1.jpg",
-          "badge": "RED HAT • CONTEXTUAL REPORTING",
+          "badge": "SYDNEY • REGIONAL HEADQUARTERS",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s7_cut2.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s7_cut3.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
           "panDirection": "panRight"
         }
       ]
@@ -321,12 +333,12 @@
       "headline": "The French fridge hacks were relatively unsophisticated. An AI-enabled attack would raise the stakes",
       "subheadline": "Source: The Guardian",
       "importanceScore": 90,
-      "durationSeconds": 31,
+      "durationSeconds": 40,
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/technology/2026/nov/09/cyber-attack-french-supermarket-freezers-iran-europe",
       "researchDesk": "",
-      "script": "Next. ‘Not particularly complex’ defrosting hack has been attributed to Iran, with presumption it is linked to others across Europe Iranian hackers like to send a message. In 2023 a state-backed group interrupted TV streaming services in the United Arab Emirates to broadcast a deepfake report on the war in Gaza. In the same year, hackers affiliated with Iran displayed the slogan “down with Israel” on the screens of water-control equipment made by an Israeli firm.",
-      "whyThisMatters": "‘Not particularly complex’ defrosting hack has been attributed to Iran, with presumption it is linked to others across Europe Iranian hackers like to send a message.",
+      "script": "Next. A hack that caused fridges in France to defrost has been blamed on Iran, and is presumed to be connected to similar incidents elsewhere in Europe, according to the Guardian. The attack has been described as not particularly complex. Iranian hackers have a record of using their intrusions to make a point. In 2023, a state-backed group disrupted television streaming in the United Arab Emirates to air a deepfake report about the war in Gaza. That same year, Iran-linked hackers put the slogan down with Israel on screens of water-control equipment built by an Israeli company.",
+      "whyThisMatters": "A hack that caused fridges in France to defrost has been blamed on Iran, and is presumed to be connected to similar incidents elsewhere in Europe, according to the Guardian.",
       "sourceType": "reporting",
       "keyPoints": [
         "The French fridge hacks were relatively unsophisticated. An AI-enabled attack wo",
@@ -335,17 +347,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-10/s8_cut1.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "badge": "PARIS • EUROPEAN SECURITY DESK",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s8_cut2.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "badge": "RETAIL COLD CHAIN • AUTOMATED REFRIGERATION",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s8_cut3.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
           "panDirection": "panLeft"
         }
       ]
@@ -362,8 +374,8 @@
       "source": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
       "researchDesk": "",
-      "script": "Turning to the United States. Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all “normal” could turn into a very expensive problem.",
-      "whyThisMatters": "Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all ",
+      "script": "Turning to the United States. Nvidia shares fell more than 4 percent after the company's board launched an investigation into Jensen Huang's relationship with a suspected Chinese spy, according to TechCrunch. One securities law expert says Nvidia's earlier claim that the matter was normal could prove very costly for the company.",
+      "whyThisMatters": "Nvidia shares fell more than 4 percent after the company's board launched an investigation into Jensen Huang's relationship with a suspected Chinese spy, according to TechCrunch.",
       "sourceType": "reporting",
       "keyPoints": [
         "The race is on to sue Nvidia",
@@ -372,17 +384,17 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-10/s9_cut1.jpg",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "badge": "FEDERAL DISTRICT COURT • SECURITIES LITIGATION",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s9_cut2.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s9_cut3.jpg",
-          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "zoomOut"
         }
       ]
@@ -399,8 +411,8 @@
       "source": "Pandaily",
       "sourceUrl": "https://pandaily.com/hygon-14xx-industrial-control-cpu-10w-wide-temperature",
       "researchDesk": "",
-      "script": "In China. Hygon's 14XX is the first industrial-control CPU in its 1000 series: C86 cores, integrated GPU, 10W TDP, -40°C to 105°C operation and a 10-year supply promise.",
-      "whyThisMatters": "Hygon's 14XX is the first industrial-control CPU in its 1000 series: C86 cores, integrated GPU, 10W TDP, -40°C to 105°C operation and a 10-year supply promise.",
+      "script": "In China. Hygon has unveiled the 14XX, the first industrial-control processor in its 1000 series, Pandaily reports. The chip uses C86 cores with integrated graphics, draws 10 watts, operates from minus 40 to 105 degrees Celsius, and comes with a 10-year supply commitment.",
+      "whyThisMatters": "Hygon has unveiled the 14XX, the first industrial-control processor in its 1000 series, Pandaily reports.",
       "sourceType": "reporting",
       "keyPoints": [
         "Hygon Launches 14XX Industrial-Control CPU With 10W TDP and a -40°C to 105°C Ope",
@@ -409,18 +421,55 @@
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-10/s10_cut1.jpg",
-          "badge": "HIGH-DENSITY GPU CLUSTERS • ACCELERATED COMPUTE",
+          "badge": "CHENGDU • HYGON INDUSTRIAL PROCESSORS",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s10_cut2.jpg",
-          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-10/s10_cut3.jpg",
-          "badge": "TERRAIN SURVEY • RURAL INFRASTRUCTURE",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s11_learning_heterogeneous_tactile_r",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 45,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.12806",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. Robots that handle objects with their hands depend heavily on a sense of touch, but today's commercial touch sensors are still immature, and each type has its own strengths and weaknesses. In a paper titled Learning Heterogeneous Tactile Representation for General Dexterous Manipulation, the researchers present LingBot-Touch, a large foundation model for touch. It produces a single shared representation from pressure-based, magnetic and camera-based touch sensors, and can be extended to new sensor types. Its output plugs directly into different robot control systems, including vision-language-action models. Tests in simulation and on several real robots showed it substantially improved complex handling tasks while remaining computationally efficient.",
+      "whyThisMatters": "Robots that handle objects with their hands depend heavily on a sense of touch, but today's commercial touch sensors are still immature, and each type has its own strengths and weaknesses.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-10/s11_cut1.jpg",
+          "badge": "EMBODIED ROBOTICS • DEXTEROUS MANIPULATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-10/s11_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-10/s11_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panRight"
         }
       ]
     }
@@ -464,7 +513,8 @@
     "Teenager who planned terror attack in Sydney ",
     "The French fridge hacks were relatively unsop",
     "The race is on to sue Nvidia",
-    "Hygon Launches 14XX Industrial-Control CPU Wi"
+    "Hygon Launches 14XX Industrial-Control CPU Wi",
+    "Learning Heterogeneous Tactile Representation"
   ],
   "thumbnail": {
     "date": "10 NOVEMBER 2026",
