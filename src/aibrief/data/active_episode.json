@@ -1,22 +1,23 @@
 {
   "weekly": false,
-  "date": "2026-11-12",
-  "formattedDate": "12 November 2026",
-  "title": "Alphabet's debut Hong Kong, | Zimbabwean author Simbarashe | AgiBot Open-Sources LIFE, a | AI News 12 November 2026",
+  "date": "2026-11-13",
+  "formattedDate": "13 November 2026",
+  "title": "South Korea’s Hyundai Card | Nebius tests the neocloud playbook | SoftBank’s billion-dollar loss may | AI News 13 November 2026",
   "intro": {
     "durationSeconds": 53,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 12 November 2026. First, today's top headlines: Alphabet's debut Hong Kong, Singapore bond sales draw about 5 billion dollars in early orders. Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story. AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeats Models. Fewer hours and higher wages or more burnout and surveillance: employers told to prepare for AI. NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools. AI helped UK defy expectations but will economy’s resilience fizzle out?. Tencent Launches Yuanbao Search, a Standalone AI Search Product at so.qq.com. Moore Threads Sets MDC 2026 for December 29-30, With S6000 Card and Lushan GPUs Expected. And now, the news in brief.",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 13 November 2026. First, today's top headlines: South Korea’s Hyundai Card launches AI tools for partners. Nebius tests the neocloud playbook with 40 billion dollars in planned spending. SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions. Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model. SG physical AI startup Ropedia expands robotics training data. The rise of 'housefishing'. Nectar launches an AI agent to automate creator discovery and outreach for brands. Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit. Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearly 5,000 Unit Orders. And now, the news in brief.",
     "headlines": [
-      "Alphabet's debut Hong Kong, Singapore bond sales draw about 5 billion dollars in early orders",
-      "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
-      "AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeats Models",
-      "Fewer hours and higher wages or more burnout and surveillance: employers told to prepare for AI",
-      "NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools",
-      "AI helped UK defy expectations but will economy’s resilience fizzle out?",
-      "Tencent Launches Yuanbao Search, a Standalone AI Search Product at so.qq.com",
-      "Moore Threads Sets MDC 2026 for December 29-30, With S6000 Card and Lushan GPUs Expected"
+      "South Korea’s Hyundai Card launches AI tools for partners",
+      "Nebius tests the neocloud playbook with 40 billion dollars in planned spending",
+      "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model",
+      "SG physical AI startup Ropedia expands robotics training data",
+      "The rise of 'housefishing'",
+      "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearly 5,000 Unit Orders"
     ]
   },
   "transitions": [
@@ -28,10 +29,31 @@
       "durationSeconds": 2
     },
     {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
       "id": "transition_china",
       "region": "CHINA",
       "title": "NEXT: CHINA & REGIONAL STRATEGY",
       "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
       "durationSeconds": 2
     },
     {
@@ -44,298 +66,335 @@
   ],
   "stories": [
     {
-      "id": "s1_alphabet_s_debut_hong_kong_singa",
+      "id": "s1_south_korea_s_hyundai_card_launc",
       "region": "ASIA",
       "category": "ASIA Intelligence",
       "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "Alphabet's debut Hong Kong, Singapore bond sales draw about 5 billion dollars in early orders",
-      "subheadline": "Source: The Economic Times",
+      "headline": "South Korea’s Hyundai Card launches AI tools for partners",
+      "subheadline": "Source: Tech in Asia",
       "importanceScore": 99,
       "durationSeconds": 24,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/alphabets-debut-hong-kong-singapore-bond-sales-draw-about-5-billion-in-early-orders/articleshow/135759335.cms",
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/news/south-koreas-hyundai-card-launches-ai-tools-for-partners",
       "researchDesk": "",
-      "script": "Our lead story today. The strong order books give Alphabet flexibility to increase its planned financing as it accelerates investment in AI infrastructure, even as recent volatility in technology shares has made investors more selective.",
-      "whyThisMatters": "The strong order books give Alphabet flexibility to increase its planned financing as it accelerates investment in AI infrastructure, even as recent volatility in technology shares has made investors more selective.",
+      "script": "Our lead story today. yundai said PLCC 2.0 builds on about US800 million dollars in investment AI and data science over the past decade.",
+      "whyThisMatters": "yundai said PLCC 2.0 builds on about US$800 million in investment AI and data science over the past decade.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Alphabet's debut Hong Kong, Singapore bond sales draw about 5 billion dollars in",
-        "The Economic Times"
+        "South Korea’s Hyundai Card launches AI tools for partners",
+        "Tech in Asia"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-12/s1_cut1.jpg",
-          "badge": "ALPHABET • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-11-13/s1_cut1.jpg",
+          "badge": "SOUTH KOREA • CONTEXTUAL REPORTING",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-12/s1_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-11-13/s1_cut2.jpg",
           "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-12/s1_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-11-13/s1_cut3.jpg",
           "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_zimbabwean_author_simbarashe_kun",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
-      "subheadline": "Source: The Guardian",
-      "importanceScore": 95,
-      "durationSeconds": 38,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story",
-      "researchDesk": "",
-      "script": "Around the world. After a month-long investigation it was concluded that Kundizeza’s story The Blue Fighter, which won the £10,000 Caine prize, was ‘human-written’ Zimbabwean author Simbarashe Kundizeza has been cleared of using AI to write a prize-winning short story, after the prestigious Caine prize for African writers concluded that his entry was “human-written” after a month-long investigation. Kundizeza’s story The Blue Fighter , which charts the declining fortunes of a family after the father invests in fish tanks, was announced as the winner of the £10,000 prize on 6 October.",
-      "whyThisMatters": "After a month-long investigation it was concluded that Kundizeza’s story The Blue Fighter, which won the £10,000 Caine prize, was ‘human-written’ Zimbabwean author Simbarashe Kundizeza has been cleared of using AI to wri",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winnin",
-        "The Guardian"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-12/s2_cut1.jpg",
-          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-12/s2_cut2.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-12/s2_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
-          "panDirection": "zoomIn"
-        }
-      ]
-    },
-    {
-      "id": "s3_agibot_open_sources_life_a_lifel",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeats Models",
-      "subheadline": "Source: Pandaily",
+      "id": "s2_nebius_tests_the_neocloud_playbo",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Nebius tests the neocloud playbook with 40 billion dollars in planned spending",
+      "subheadline": "Source: TechCrunch",
       "importanceScore": 95,
       "durationSeconds": 24,
-      "source": "Pandaily",
-      "sourceUrl": "https://pandaily.com/agibot-life-lifelong-embodied-intelligence-framework-robobeats-open-source",
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
       "researchDesk": "",
-      "script": "In China. AgiBot's open-source LIFE gives robots continuous sensing via RoboBeats models, reanalyzable memory and reusable tools. Its own tests show 60.5% on SSS-Bench and faster day-long recall.",
-      "whyThisMatters": "AgiBot's open-source LIFE gives robots continuous sensing via RoboBeats models, reanalyzable memory and reusable tools.",
+      "script": "Turning to the United States. Nebius plans to fund its 40 billion dollars AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+      "whyThisMatters": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
       "sourceType": "reporting",
       "keyPoints": [
-        "AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeat",
-        "Pandaily"
+        "Nebius tests the neocloud playbook with 40 billion dollars in planned spending",
+        "TechCrunch"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-12/s3_cut1.jpg",
-          "badge": "NAVER • CONTEXTUAL REPORTING",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-12/s3_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-12/s3_cut3.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
-          "panDirection": "panRight"
-        }
-      ]
-    },
-    {
-      "id": "s4_fewer_hours_and_higher_wages_or",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Fewer hours and higher wages or more burnout and surveillance: employers told to prepare for AI",
-      "subheadline": "Source: The Guardian",
-      "importanceScore": 90,
-      "durationSeconds": 48,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai",
-      "researchDesk": "",
-      "script": "Around the world. Workplace relations minister Amanda Rishworth launches best practice guide on AI adoption after Qantas and Canva job cuts Get our daily political email , free app or daily news podcast Entry-level jobs will be the first to be automated due to AI, but it could mean fewer hours and higher wages for ordinary workers or make jobs tougher with more burnout and workplace surveillance the government has warned employers. While major companies like Qantas and Canva slash their workforces in restructures spurred by AI changes, workplace relations minister Amanda Rishworth said employers must give workers “a clear plan” about how automation could affect their jobs, and the opportunity to move into new roles.",
-      "whyThisMatters": "Workplace relations minister Amanda Rishworth launches best practice guide on AI adoption after Qantas and Canva job cuts Get our daily political email , free app or daily news podcast Entry-level jobs will be the first ",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Fewer hours and higher wages or more burnout and surveillance: employers told to",
-        "The Guardian"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-12/s4_cut1.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-12/s4_cut2.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "image": "aibrief/assets/editorial/2026-11-13/s2_cut1.jpg",
+          "badge": "REDMOND • MICROSOFT REDMOND CAMPUS",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-12/s4_cut3.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
-          "panDirection": "panLeft"
-        }
-      ]
-    },
-    {
-      "id": "s5_nhs_england_deletes_misleading_c",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools",
-      "subheadline": "Source: The Guardian",
-      "importanceScore": 90,
-      "durationSeconds": 52,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/12/nhs-england-deletes-misleading-claim-137-trusts-benefiting-from-palantir-ai-tools",
-      "researchDesk": "",
-      "script": "Elsewhere. Exclusive: The Guardian revealed 29 hospital trusts were not or hardly using the controversial patient data tech NHS England has deleted a claim from its website stating 137 hospital trusts are benefiting from Palantir’s AI health data system after the Guardian revealed 29 of them were not using all or most of the controversial technology. Health bosses had published a list of all the NHS bodies “live” with and “realising benefits” from the AI-powered federated data platform (FDP), a system set up to improve patient outcomes, boost operating theatre efficiency and speed up bed discharges. But after 29 trusts said it was either not live or they were not using any of its applications, the original list of hospitals appears to have been taken down.",
-      "whyThisMatters": "Exclusive: The Guardian revealed 29 hospital trusts were not or hardly using the controversial patient data tech NHS England has deleted a claim from its website stating 137 hospital trusts are benefiting from Palantir’s",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI to",
-        "The Guardian"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-12/s5_cut1.jpg",
-          "badge": "CUPERTINO • APPLE PARK",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-12/s5_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-12/s5_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
-          "panDirection": "zoomOut"
-        }
-      ]
-    },
-    {
-      "id": "s6_ai_helped_uk_defy_expectations_b",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "AI helped UK defy expectations but will economy’s resilience fizzle out?",
-      "subheadline": "Source: The Guardian",
-      "importanceScore": 90,
-      "durationSeconds": 49,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/business/2026/nov/12/ai-uk-economy-john-healey",
-      "researchDesk": "",
-      "script": "Also today. Despite John Healey’s defiance, the economy faces threats from a tech slowdown and energy bills this winter AI helps UK economy grow at fastest pace for more than two years The forecasters were clear when John Healey became chancellor in July: Britain’s resilience to the war in the Middle East would not last. The global economic headwinds were too strong, inflation was beginning to rise and growth would slow to a trickle. Four months into the job, the economy is continuing to defy expectations after growing by 0.7% in the third quarter the fastest expansion in two and a half years. It puts the UK on course to be the second-fastest growing G7 economy this year.",
-      "whyThisMatters": "Despite John Healey’s defiance, the economy faces threats from a tech slowdown and energy bills this winter AI helps UK economy grow at fastest pace for more than two years The forecasters were clear when John Healey bec",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "AI helped UK defy expectations but will economy’s resilience fizzle out?",
-        "The Guardian"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-12/s6_cut1.jpg",
-          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-12/s6_cut2.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "image": "aibrief/assets/editorial/2026-11-13/s2_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-12/s6_cut3.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "image": "aibrief/assets/editorial/2026-11-13/s2_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s7_tencent_launches_yuanbao_search",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Tencent Launches Yuanbao Search, a Standalone AI Search Product at so.qq.com",
-      "subheadline": "Source: Pandaily",
-      "importanceScore": 90,
+      "id": "s3_softbank_s_billion_dollar_loss_m",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
       "durationSeconds": 24,
-      "source": "Pandaily",
-      "sourceUrl": "https://pandaily.com/tencent-yuanbao-search-standalone-ai-search-so-qq-com",
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
       "researchDesk": "",
-      "script": "In China. Tencent's Yuanbao Search, at so.qq.com and in QQ Browser, gives AI answers over the web, WeChat Official Accounts, Channels and academic papers, with cited sources and collapsible ads.",
-      "whyThisMatters": "Tencent's Yuanbao Search, at so.qq.com and in QQ Browser, gives AI answers over the web, WeChat Official Accounts, Channels and academic papers, with cited sources and collapsible ads.",
+      "script": "In other news. SoftBank lost over 3 billion dollars preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+      "whyThisMatters": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Tencent Launches Yuanbao Search, a Standalone AI Search Product at so.qq.com",
-        "Pandaily"
+        "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+        "TechCrunch"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-12/s7_cut1.jpg",
-          "badge": "SYDNEY • QANTAS FLEET OPERATIONS",
+          "image": "aibrief/assets/editorial/2026-11-13/s3_cut1.jpg",
+          "badge": "SOFTBANK GROUP • CONTEXTUAL REPORTING",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-12/s7_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-11-13/s3_cut2.jpg",
           "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-12/s7_cut3.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "image": "aibrief/assets/editorial/2026-11-13/s3_cut3.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s8_moore_threads_sets_mdc_2026_for",
+      "id": "s4_huawei_cloud_sets_november_16_la",
       "region": "CHINA",
       "category": "CHINA Intelligence",
       "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Moore Threads Sets MDC 2026 for December 29-30, With S6000 Card and Lushan GPUs Expected",
+      "headline": "Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model",
       "subheadline": "Source: Pandaily",
       "importanceScore": 90,
       "durationSeconds": 24,
       "source": "Pandaily",
-      "sourceUrl": "https://pandaily.com/moore-threads-mdc-musa-developer-conference-s6000-lushan-huagang",
+      "sourceUrl": "https://pandaily.com/huawei-cloud-cloudrobo-wm1-2-ascend-native-embodied-world-model-launch-preview",
       "researchDesk": "",
-      "script": "Next. Moore Threads' MDC 2026 runs Dec 29-30 in Beijing with 10+ launches promised. Reports point to an S6000 AI card and Lushan graphics GPUs on the Huagang architecture.",
-      "whyThisMatters": "Moore Threads' MDC 2026 runs Dec 29-30 in Beijing with 10+ launches promised.",
+      "script": "In China. Huawei Cloud will unveil CloudRobo-WM1.2, billed as the first Ascend-native world model from its Industry AI Dream Factory, at an online launch on Nov 16.",
+      "whyThisMatters": "Huawei Cloud will unveil CloudRobo-WM1.2, billed as the first Ascend-native world model from its Industry AI Dream Factory, at an online launch on Nov 16.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Moore Threads Sets MDC 2026 for December 29-30, With S6000 Card and Lushan GPUs ",
+        "Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Nativ",
         "Pandaily"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-12/s8_cut1.jpg",
-          "badge": "NHS ENGLAND • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-11-13/s4_cut1.jpg",
+          "badge": "NVIDIA • CONTEXTUAL REPORTING",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-12/s8_cut2.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "image": "aibrief/assets/editorial/2026-11-13/s4_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-12/s8_cut3.jpg",
-          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "image": "aibrief/assets/editorial/2026-11-13/s4_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_sg_physical_ai_startup_ropedia_e",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "SG physical AI startup Ropedia expands robotics training data",
+      "subheadline": "Source: Tech in Asia",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/news/sg-physical-ai-startup-ropedia-expands-robotics-training-data",
+      "researchDesk": "",
+      "script": "In Asia. The launch comes as robotics firms seek less resource-intensive ways to generate reusable training data.",
+      "whyThisMatters": "The launch comes as robotics firms seek less resource-intensive ways to generate reusable training data.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SG physical AI startup Ropedia expands robotics training data",
+        "Tech in Asia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s5_cut1.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s5_cut2.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s5_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_the_rise_of_housefishing",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "The rise of 'housefishing'",
+      "subheadline": "Source: BBC",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
+      "researchDesk": "",
+      "script": "Around the world. Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
+      "whyThisMatters": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "The rise of 'housefishing'",
+        "BBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s6_cut1.jpg",
+          "badge": "ROBOT • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s6_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s6_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_nectar_launches_an_ai_agent_to_a",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "whyThisMatters": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nectar launches an AI agent to automate creator discovery and outreach for brand",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s7_cut1.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s7_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s7_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_hugging_face_ceo_vows_to_keep_fi",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "researchDesk": "",
+      "script": "Next. Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "whyThisMatters": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadershi",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s e",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s8_cut1.jpg",
+          "badge": "NECTAR • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s8_cut2.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s8_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_former_cainiao_cto_s_robot_start",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearly 5,000 Unit Orders",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/quantum-dynamics-li-qiang-embodied-robots-cainiao-double-11-warehouse-orders",
+      "researchDesk": "",
+      "script": "In China. Quantum Dynamics, founded by ex-Cainiao CTO Li Qiang, says its robots worked Double 11 in Cainiao warehouses. Its nearly 5,000 unit orders include many not yet delivered.",
+      "whyThisMatters": "Quantum Dynamics, founded by ex-Cainiao CTO Li Qiang, says its robots worked Double 11 in Cainiao warehouses.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearl",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s9_cut1.jpg",
+          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s9_cut2.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s9_cut3.jpg",
+          "badge": "BEIJING • OPEN-WEIGHT INFERENCE HUBS",
+          "panDirection": "zoomOut"
         }
       ]
     }
@@ -343,15 +402,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. Alphabet's debut Hong Kong, Singapore bond sales draw about 5 billion dollars in early orders. Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story. AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeats Models. Fewer hours and higher wages or more burnout and surveillance: employers told to prepare for AI. NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools. AI helped UK defy expectations but will economy’s resilience fizzle out?.",
+    "script": "To recap today's top stories. South Korea’s Hyundai Card launches AI tools for partners. Nebius tests the neocloud playbook with 40 billion dollars in planned spending. SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions. Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model. SG physical AI startup Ropedia expands robotics training data. The rise of 'housefishing'.",
     "items": [
-      "✓ Alphabet's debut Hong Kong, Singapore bond sales",
-      "✓ Zimbabwean author Simbarashe Kundizeza cleared o",
-      "✓ AgiBot Open-Sources LIFE, a Lifelong Embodied AI",
-      "✓ Fewer hours and higher wages or more burnout and",
-      "✓ NHS England deletes ‘misleading’ claim 137 trust",
-      "✓ AI helped UK defy expectations but will economy’",
-      "✓ Tencent Launches Yuanbao Search, a Standalone AI"
+      "✓ South Korea’s Hyundai Card launches AI tools for",
+      "✓ Nebius tests the neocloud playbook with 40 billi",
+      "✓ SoftBank’s billion-dollar loss may have put a ca",
+      "✓ Huawei Cloud Sets November 16 Launch for CloudRo",
+      "✓ SG physical AI startup Ropedia expands robotics ",
+      "✓ The rise of 'housefishing'",
+      "✓ Nectar launches an AI agent to automate creator "
     ]
   },
   "outro": {
@@ -370,29 +429,30 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "Alphabet's debut Hong Kong, Singapore bond sa",
-    "Zimbabwean author Simbarashe Kundizeza cleare",
-    "AgiBot Open-Sources LIFE, a Lifelong Embodied",
-    "Fewer hours and higher wages or more burnout ",
-    "NHS England deletes ‘misleading’ claim 137 tr",
-    "AI helped UK defy expectations but will econo",
-    "Tencent Launches Yuanbao Search, a Standalone",
-    "Moore Threads Sets MDC 2026 for December 29-3"
+    "South Korea’s Hyundai Card launches AI tools ",
+    "Nebius tests the neocloud playbook with 40 bi",
+    "SoftBank’s billion-dollar loss may have put a",
+    "Huawei Cloud Sets November 16 Launch for Clou",
+    "SG physical AI startup Ropedia expands roboti",
+    "The rise of 'housefishing'",
+    "Nectar launches an AI agent to automate creat",
+    "Hugging Face CEO vows to keep fighting for op",
+    "Former Cainiao CTO's Robot Startup Joins Doub"
   ],
   "thumbnail": {
-    "date": "12 NOVEMBER 2026",
-    "headline": "ALPHABET'S DEBUT HONG KONG, SINGAPORE BOND",
+    "date": "13 NOVEMBER 2026",
+    "headline": "SOUTH KOREA’S HYUNDAI CARD LAUNCHES AI TOOLS",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "ALPHABET'S DEBUT HONG KONG,",
-      "ZIMBABWEAN AUTHOR SIMBARASHE",
-      "AGIBOT OPEN-SOURCES LIFE, A",
-      "FEWER HOURS AND HIGHER WAGES OR"
+      "SOUTH KOREA’S HYUNDAI CARD LAUNCHES",
+      "NEBIUS TESTS THE NEOCLOUD PLAYBOOK",
+      "SOFTBANK’S BILLION-DOLLAR LOSS MAY",
+      "HUAWEI CLOUD SETS NOVEMBER 16"
     ]
   },
   "youtubeMetadata": {
-    "title": "Alphabet's debut Hong Kong, | Zimbabwean author Simbarashe | AgiBot Open-Sources LIFE, a | AI News 12 November 2026",
-    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 12 November 2026.",
+    "title": "South Korea’s Hyundai Card | Nebius tests the neocloud playbook | SoftBank’s billion-dollar loss may | AI News 13 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 13 November 2026.",
     "tags": [
       "AI",
       "ArtificialIntelligence",

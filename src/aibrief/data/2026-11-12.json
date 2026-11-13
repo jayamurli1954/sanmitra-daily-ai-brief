@@ -2,24 +2,40 @@
   "weekly": false,
   "date": "2026-11-12",
   "formattedDate": "12 November 2026",
-  "title": "Alphabet's debut Hong Kong, | Zimbabwean author Simbarashe | AgiBot Open-Sources LIFE, a | AI News 12 November 2026",
+  "title": "Rights groups urge a treaty on | Google launches the Gemini | DeepMind's AlphaGenome 2 predicts | AI News 12 November 2026",
   "intro": {
     "durationSeconds": 53,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 12 November 2026. First, today's top headlines: Alphabet's debut Hong Kong, Singapore bond sales draw about 5 billion dollars in early orders. Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story. AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeats Models. Fewer hours and higher wages or more burnout and surveillance: employers told to prepare for AI. NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools. AI helped UK defy expectations but will economy’s resilience fizzle out?. Tencent Launches Yuanbao Search, a Standalone AI Search Product at so.qq.com. Moore Threads Sets MDC 2026 for December 29-30, With S6000 Card and Lushan GPUs Expected. And now, the news in brief.",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 12 November 2026. First, today's top headlines: Rights groups urge a treaty on \"killer robots\" before next week's UN talks. Google launches the Gemini Decisions API for fast yes/no and scoring calls. DeepMind's AlphaGenome 2 predicts how DNA changes affect individual cell types. Baidu launches ERNIE Lightning and a video model at Baidu World 2026. Japan weighs binding orders and penalties for AI firms after incidents. OpenAI now processes API requests inside India. Databricks launches an always-on Genie agent for enterprise work. United Airlines restricts third-party AI agents from booking flights. Google releases A2UI 1.0, an open standard for AI-generated screens. Beijing plans capacity for 200,000 robots a year by 2028. And now, the news in brief.",
     "headlines": [
-      "Alphabet's debut Hong Kong, Singapore bond sales draw about 5 billion dollars in early orders",
-      "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
-      "AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeats Models",
-      "Fewer hours and higher wages or more burnout and surveillance: employers told to prepare for AI",
-      "NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools",
-      "AI helped UK defy expectations but will economy’s resilience fizzle out?",
-      "Tencent Launches Yuanbao Search, a Standalone AI Search Product at so.qq.com",
-      "Moore Threads Sets MDC 2026 for December 29-30, With S6000 Card and Lushan GPUs Expected"
+      "Rights groups urge a treaty on \"killer robots\" before next week's UN talks",
+      "Google launches the Gemini Decisions API for fast yes/no and scoring calls",
+      "DeepMind's AlphaGenome 2 predicts how DNA changes affect individual cell types",
+      "Baidu launches ERNIE Lightning and a video model at Baidu World 2026",
+      "Japan weighs binding orders and penalties for AI firms after incidents",
+      "OpenAI now processes API requests inside India",
+      "Databricks launches an always-on Genie agent for enterprise work",
+      "United Airlines restricts third-party AI agents from booking flights",
+      "Google releases A2UI 1.0, an open standard for AI-generated screens",
+      "Beijing plans capacity for 200,000 robots a year by 2028"
     ]
   },
   "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
     {
       "id": "transition_asia",
       "region": "ASIA",
@@ -28,10 +44,17 @@
       "durationSeconds": 2
     },
     {
-      "id": "transition_china",
-      "region": "CHINA",
-      "title": "NEXT: CHINA & REGIONAL STRATEGY",
-      "display": "NEXT: CHINA",
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
       "durationSeconds": 2
     },
     {
@@ -44,298 +67,409 @@
   ],
   "stories": [
     {
-      "id": "s1_alphabet_s_debut_hong_kong_singa",
-      "region": "ASIA",
-      "category": "ASIA Intelligence",
-      "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "Alphabet's debut Hong Kong, Singapore bond sales draw about 5 billion dollars in early orders",
-      "subheadline": "Source: The Economic Times",
+      "id": "s1_rights_groups_urge_a_treaty_on_k",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Rights groups urge a treaty on \"killer robots\" before next week's UN talks",
+      "subheadline": "Source: Human Rights Watch",
       "importanceScore": 99,
-      "durationSeconds": 24,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/alphabets-debut-hong-kong-singapore-bond-sales-draw-about-5-billion-in-early-orders/articleshow/135759335.cms",
+      "durationSeconds": 53,
+      "source": "Human Rights Watch",
+      "sourceUrl": "https://www.hrw.org/news/2026/11/12/global-treaty-needed-to-combat-autonomous-weapons-threat",
       "researchDesk": "",
-      "script": "Our lead story today. The strong order books give Alphabet flexibility to increase its planned financing as it accelerates investment in AI infrastructure, even as recent volatility in technology shares has made investors more selective.",
-      "whyThisMatters": "The strong order books give Alphabet flexibility to increase its planned financing as it accelerates investment in AI infrastructure, even as recent volatility in technology shares has made investors more selective.",
+      "script": "Our lead story today. Three advocacy organisations want governments to start negotiating a binding legal protocol on autonomous weapons, with a firm deadline, when states meet in Geneva next week. Human Rights Watch says it is making the call together with Amnesty International and the Stop Killer Robots campaign ahead of the Convention on Conventional Weapons Review Conference, which is scheduled for 16 to 20 November. The conference meets just once in five years, so the groups see it as an unusual opportunity. They say weapons that can choose and strike targets without meaningful human control are already being tested and used. Many countries support a binding treaty. Leading military powers, however, have preferred voluntary guidelines, and discussions under the convention have been stuck for over ten years.",
+      "whyThisMatters": "Three advocacy organisations want governments to start negotiating a binding legal protocol on autonomous weapons, with a firm deadline, when states meet in Geneva next week.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Alphabet's debut Hong Kong, Singapore bond sales draw about 5 billion dollars in",
-        "The Economic Times"
+        "Rights groups urge a treaty on \"killer robots\" before next week's UN talks",
+        "Human Rights Watch"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-12/s1_cut1.jpg",
-          "badge": "ALPHABET • CONTEXTUAL REPORTING",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s1_cut2.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "badge": "DEFENSE RESEARCH LAB • AUTONOMOUS GUIDANCE",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s1_cut3.jpg",
-          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
+          "badge": "AIR DEFENSE • PATRIOT RADAR BATTERY",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_zimbabwean_author_simbarashe_kun",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
-      "subheadline": "Source: The Guardian",
+      "id": "s2_google_launches_the_gemini_decis",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google launches the Gemini Decisions API for fast yes/no and scoring calls",
+      "subheadline": "Source: Google",
       "importanceScore": 95,
-      "durationSeconds": 38,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story",
+      "durationSeconds": 52,
+      "source": "Google",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
       "researchDesk": "",
-      "script": "Around the world. After a month-long investigation it was concluded that Kundizeza’s story The Blue Fighter, which won the £10,000 Caine prize, was ‘human-written’ Zimbabwean author Simbarashe Kundizeza has been cleared of using AI to write a prize-winning short story, after the prestigious Caine prize for African writers concluded that his entry was “human-written” after a month-long investigation. Kundizeza’s story The Blue Fighter , which charts the declining fortunes of a family after the father invests in fish tanks, was announced as the winner of the £10,000 prize on 6 October.",
-      "whyThisMatters": "After a month-long investigation it was concluded that Kundizeza’s story The Blue Fighter, which won the £10,000 Caine prize, was ‘human-written’ Zimbabwean author Simbarashe Kundizeza has been cleared of using AI to wri",
-      "sourceType": "reporting",
+      "script": "Turning to the United States. Google has unveiled Gemini Decision 1 along with a new Decisions API. The system is built to give quick verdicts rather than long written responses. In a single pass, the model can work through as many as 1,000 closed questions about one input. Those can be yes-or-no questions, multiple choice, or scoring against a rubric. Inputs can be text, images, audio, video or PDF files. Google says results come back with probabilities and confidence scores within 150 to 250 milliseconds. The price is ten cents per million input tokens, and output is free. The company is aiming it at tasks inside AI agents, such as routing requests, checking policies and grading work, where speed counts for more than a lengthy answer.",
+      "whyThisMatters": "Google has unveiled Gemini Decision 1 along with a new Decisions API.",
+      "sourceType": "company",
       "keyPoints": [
-        "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winnin",
-        "The Guardian"
+        "Google launches the Gemini Decisions API for fast yes/no and scoring calls",
+        "Google"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-12/s2_cut1.jpg",
-          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s2_cut2.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s2_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s3_agibot_open_sources_life_a_lifel",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeats Models",
-      "subheadline": "Source: Pandaily",
+      "id": "s3_deepmind_s_alphagenome_2_predict",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "DeepMind's AlphaGenome 2 predicts how DNA changes affect individual cell types",
+      "subheadline": "Source: Google DeepMind",
       "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "Pandaily",
-      "sourceUrl": "https://pandaily.com/agibot-life-lifelong-embodied-intelligence-framework-robobeats-open-source",
+      "durationSeconds": 50,
+      "source": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
       "researchDesk": "",
-      "script": "In China. AgiBot's open-source LIFE gives robots continuous sensing via RoboBeats models, reanalyzable memory and reusable tools. Its own tests show 60.5% on SSS-Bench and faster day-long recall.",
-      "whyThisMatters": "AgiBot's open-source LIFE gives robots continuous sensing via RoboBeats models, reanalyzable memory and reusable tools.",
-      "sourceType": "reporting",
+      "script": "In other news. Google DeepMind has announced AlphaGenome 2, a model that forecasts how differences in DNA affect various human cell types. It was trained on over 100 million single-cell profiles drawn from 68 tissues. DeepMind says that, compared with its earlier model, it spots close to twice as many variants that alter gene expression in particular cell types. A single genetic variant can behave differently depending on which cell carries it, so predictions at the level of individual cells could help scientists work out how diseases develop. Researchers doing non-commercial work can use it through the AlphaGenome API, and commercial research has access through a private preview. The model is meant for research and is not approved for clinical diagnosis.",
+      "whyThisMatters": "Google DeepMind has announced AlphaGenome 2, a model that forecasts how differences in DNA affect various human cell types.",
+      "sourceType": "company",
       "keyPoints": [
-        "AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeat",
-        "Pandaily"
+        "DeepMind's AlphaGenome 2 predicts how DNA changes affect individual cell types",
+        "Google DeepMind"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-12/s3_cut1.jpg",
-          "badge": "NAVER • CONTEXTUAL REPORTING",
+          "badge": "KING'S CROSS • GOOGLE DEEPMIND CAMPUS",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s3_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s3_cut3.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s4_fewer_hours_and_higher_wages_or",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Fewer hours and higher wages or more burnout and surveillance: employers told to prepare for AI",
-      "subheadline": "Source: The Guardian",
+      "id": "s4_baidu_launches_ernie_lightning_a",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Baidu launches ERNIE Lightning and a video model at Baidu World 2026",
+      "subheadline": "Source: TPS Report",
       "importanceScore": 90,
-      "durationSeconds": 48,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai",
+      "durationSeconds": 49,
+      "source": "TPS Report",
+      "sourceUrl": "https://tpsreport.news/news/baidu-ernie-lightning-wizshot-me-qianfan",
       "researchDesk": "",
-      "script": "Around the world. Workplace relations minister Amanda Rishworth launches best practice guide on AI adoption after Qantas and Canva job cuts Get our daily political email , free app or daily news podcast Entry-level jobs will be the first to be automated due to AI, but it could mean fewer hours and higher wages for ordinary workers or make jobs tougher with more burnout and workplace surveillance the government has warned employers. While major companies like Qantas and Canva slash their workforces in restructures spurred by AI changes, workplace relations minister Amanda Rishworth said employers must give workers “a clear plan” about how automation could affect their jobs, and the opportunity to move into new roles.",
-      "whyThisMatters": "Workplace relations minister Amanda Rishworth launches best practice guide on AI adoption after Qantas and Canva job cuts Get our daily political email , free app or daily news podcast Entry-level jobs will be the first ",
+      "script": "In China. Baidu used its Baidu World 2026 conference to unveil two new models, according to TPS Report. ERNIE Lightning is a reasoning model designed primarily for Baidu Search. ERNIE-Wizshot-ME turns a single photograph into a talking video with expressive faces and costs 0.7 yuan for each second of footage. Business customers can use both through Baidu's Qianfan cloud platform. Baidu claims Lightning lowers the cost of its inference engine, the system that runs its models, by over 30 percent on chips from Kunlunxin, Baidu's in-house chip unit. That figure comes from Baidu, which has released no benchmarks. The launches show Baidu's drive to power its AI with domestic chips while US export controls restrict access to Nvidia hardware.",
+      "whyThisMatters": "Baidu used its Baidu World 2026 conference to unveil two new models, according to TPS Report.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Fewer hours and higher wages or more burnout and surveillance: employers told to",
-        "The Guardian"
+        "Baidu launches ERNIE Lightning and a video model at Baidu World 2026",
+        "TPS Report"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-12/s4_cut1.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "badge": "BAIDU • CONTEXTUAL REPORTING",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s4_cut2.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s4_cut3.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "panLeft"
         }
       ]
     },
     {
-      "id": "s5_nhs_england_deletes_misleading_c",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools",
-      "subheadline": "Source: The Guardian",
+      "id": "s5_japan_weighs_binding_orders_and",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Japan weighs binding orders and penalties for AI firms after incidents",
+      "subheadline": "Source: Kyodo News",
       "importanceScore": 90,
-      "durationSeconds": 52,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/12/nhs-england-deletes-misleading-claim-137-trusts-benefiting-from-palantir-ai-tools",
+      "durationSeconds": 48,
+      "source": "Kyodo News",
+      "sourceUrl": "https://english.kyodonews.net/articles/-/91104",
       "researchDesk": "",
-      "script": "Elsewhere. Exclusive: The Guardian revealed 29 hospital trusts were not or hardly using the controversial patient data tech NHS England has deleted a claim from its website stating 137 hospital trusts are benefiting from Palantir’s AI health data system after the Guardian revealed 29 of them were not using all or most of the controversial technology. Health bosses had published a list of all the NHS bodies “live” with and “realising benefits” from the AI-powered federated data platform (FDP), a system set up to improve patient outcomes, boost operating theatre efficiency and speed up bed discharges. But after 29 trusts said it was either not live or they were not using any of its applications, the original list of hospitals appears to have been taken down.",
-      "whyThisMatters": "Exclusive: The Guardian revealed 29 hospital trusts were not or hardly using the controversial patient data tech NHS England has deleted a claim from its website stating 137 hospital trusts are benefiting from Palantir’s",
+      "script": "In Asia. Kyodo News reports, citing a source, that Japan is considering legally binding orders, enforced with penalties, against AI companies that refuse to cooperate with the government after incidents involving advanced AI. A government working group is examining the country's 2025 AI law, which relies on voluntary cooperation and carries no penalties of any kind. An outline of the review is expected by the end of the year. Such a step would be a change of direction for Japan. Among major economies, it has so far taken one of the lightest approaches to regulating AI. The review comes amid rising concern about the misuse of powerful models and about cyber incidents linked to AI.",
+      "whyThisMatters": "Kyodo News reports, citing a source, that Japan is considering legally binding orders, enforced with penalties, against AI companies that refuse to cooperate with the government after incidents involving advanced AI.",
       "sourceType": "reporting",
       "keyPoints": [
-        "NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI to",
-        "The Guardian"
+        "Japan weighs binding orders and penalties for AI firms after incidents",
+        "Kyodo News"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-12/s5_cut1.jpg",
-          "badge": "CUPERTINO • APPLE PARK",
+          "badge": "JAPAN • CONTEXTUAL REPORTING",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s5_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s5_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "badge": "CYBER THREAT OPERATIONS • LIVE TELEMETRY",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s6_ai_helped_uk_defy_expectations_b",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "AI helped UK defy expectations but will economy’s resilience fizzle out?",
-      "subheadline": "Source: The Guardian",
+      "id": "s6_openai_now_processes_api_request",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "OpenAI now processes API requests inside India",
+      "subheadline": "Source: The Week",
       "importanceScore": 90,
-      "durationSeconds": 49,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/business/2026/nov/12/ai-uk-economy-john-healey",
+      "durationSeconds": 47,
+      "source": "The Week",
+      "sourceUrl": "https://www.theweek.in/wire-updates/business/2026/11/12/openai-to-process-ai-requests-within-india-for-businesses-with-data-localisation-needs.html",
       "researchDesk": "",
-      "script": "Also today. Despite John Healey’s defiance, the economy faces threats from a tech slowdown and energy bills this winter AI helps UK economy grow at fastest pace for more than two years The forecasters were clear when John Healey became chancellor in July: Britain’s resilience to the war in the Middle East would not last. The global economic headwinds were too strong, inflation was beginning to rise and growth would slow to a trickle. Four months into the job, the economy is continuing to defy expectations after growing by 0.7% in the third quarter the fastest expansion in two and a half years. It puts the UK on course to be the second-fastest growing G7 economy this year.",
-      "whyThisMatters": "Despite John Healey’s defiance, the economy faces threats from a tech slowdown and energy bills this winter AI helps UK economy grow at fastest pace for more than two years The forecasters were clear when John Healey bec",
+      "script": "Turning to India. OpenAI has begun processing API requests locally in India, The Week reports. For supported workloads, both the incoming request and the model's computation now take place within the country, which goes further than just storing data there. The service starts with GPT-6 Luna through the Responses and Chat Completions APIs. Supported customer content is also kept in India. The offering targets businesses that face rules requiring data to stay in the country, including banks and other financial companies. For regulated organisations, where data is processed can be as important as where it is stored. The change could therefore remove a significant barrier to using AI in sensitive business workflows.",
+      "whyThisMatters": "OpenAI has begun processing API requests locally in India, The Week reports.",
       "sourceType": "reporting",
       "keyPoints": [
-        "AI helped UK defy expectations but will economy’s resilience fizzle out?",
-        "The Guardian"
+        "OpenAI now processes API requests inside India",
+        "The Week"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-12/s6_cut1.jpg",
-          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s6_cut2.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s6_cut3.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s7_tencent_launches_yuanbao_search",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Tencent Launches Yuanbao Search, a Standalone AI Search Product at so.qq.com",
-      "subheadline": "Source: Pandaily",
+      "id": "s7_databricks_launches_an_always_on",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Databricks launches an always-on Genie agent for enterprise work",
+      "subheadline": "Source: Databricks",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Pandaily",
-      "sourceUrl": "https://pandaily.com/tencent-yuanbao-search-standalone-ai-search-so-qq-com",
+      "durationSeconds": 55,
+      "source": "Databricks",
+      "sourceUrl": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex",
       "researchDesk": "",
-      "script": "In China. Tencent's Yuanbao Search, at so.qq.com and in QQ Browser, gives AI answers over the web, WeChat Official Accounts, Channels and academic papers, with cited sources and collapsible ads.",
-      "whyThisMatters": "Tencent's Yuanbao Search, at so.qq.com and in QQ Browser, gives AI answers over the web, WeChat Official Accounts, Channels and academic papers, with cited sources and collapsible ads.",
+      "script": "Turning to the United States. Databricks has unveiled the latest generation of its Genie AI agent. It is designed to keep working on complex business tasks around the clock instead of simply answering questions from staff. The company says Genie can watch over data, handle longer assignments and bring findings to people without being prompted. A business ontology, essentially a structured map of the company, gives it context about an organisation's data, staff and processes. For administrators, Databricks describes several controls. These include restricting which tools the agent may use, keeping a record of each action it takes and capping its spending. The launch is part of a broader move away from assistants that wait for instructions and toward agents that work as operational coworkers, with governance designed in from the outset.",
+      "whyThisMatters": "Databricks has unveiled the latest generation of its Genie AI agent.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Tencent Launches Yuanbao Search, a Standalone AI Search Product at so.qq.com",
-        "Pandaily"
+        "Databricks launches an always-on Genie agent for enterprise work",
+        "Databricks"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-12/s7_cut1.jpg",
-          "badge": "SYDNEY • QANTAS FLEET OPERATIONS",
+          "badge": "DATABRICKS • CONTEXTUAL REPORTING",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s7_cut2.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s7_cut3.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s8_moore_threads_sets_mdc_2026_for",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Moore Threads Sets MDC 2026 for December 29-30, With S6000 Card and Lushan GPUs Expected",
-      "subheadline": "Source: Pandaily",
+      "id": "s8_united_airlines_restricts_third",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "United Airlines restricts third-party AI agents from booking flights",
+      "subheadline": "Source: United Airlines",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Pandaily",
-      "sourceUrl": "https://pandaily.com/moore-threads-mdc-musa-developer-conference-s6000-lushan-huagang",
+      "durationSeconds": 47,
+      "source": "United Airlines",
+      "sourceUrl": "https://united.mediaroom.com/news-releases?item=125496",
       "researchDesk": "",
-      "script": "Next. Moore Threads' MDC 2026 runs Dec 29-30 in Beijing with 10+ launches promised. Reports point to an S6000 AI card and Lushan graphics GPUs on the Huagang architecture.",
-      "whyThisMatters": "Moore Threads' MDC 2026 runs Dec 29-30 in Beijing with 10+ launches promised.",
+      "script": "Next. United Airlines says it is limiting outside AI agents from using its website and app to make bookings and other changes for customers. The airline points to risks involving account credentials, purchases customers never meant to make, and changes to reservations and loyalty points. It also cites rules that require a person to give certain acknowledgements, for example confirming baggage restrictions when checking in. The decision draws a practical line for agentic AI. Even if an agent is capable of booking a flight, a company will not necessarily let it make purchases for a customer. Before agents can shop for people, businesses will need clear policies on identity, authorisation, liability and human sign-off.",
+      "whyThisMatters": "United Airlines says it is limiting outside AI agents from using its website and app to make bookings and other changes for customers.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Moore Threads Sets MDC 2026 for December 29-30, With S6000 Card and Lushan GPUs ",
-        "Pandaily"
+        "United Airlines restricts third-party AI agents from booking flights",
+        "United Airlines"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-12/s8_cut1.jpg",
-          "badge": "NHS ENGLAND • CONTEXTUAL REPORTING",
+          "badge": "UNITED AIRLINES • CONTEXTUAL REPORTING",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s8_cut2.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-12/s8_cut3.jpg",
-          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
           "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_google_releases_a2ui_1_0_an_open",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google releases A2UI 1.0, an open standard for AI-generated screens",
+      "subheadline": "Source: Google Developers Blog",
+      "importanceScore": 90,
+      "durationSeconds": 49,
+      "source": "Google Developers Blog",
+      "sourceUrl": "https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/",
+      "researchDesk": "",
+      "script": "Elsewhere. Google has announced version 1.0 of A2UI, an open protocol that lets AI agents respond with interactive screens rather than plain text. The agent describes an interface, such as a form or a chart, and the app then builds it from its own native components. The result matches the look and feel of the rest of the app. The new version adds function calls that work in both directions, along with renderers for web and mobile frameworks. Instead of reading a wall of text and then doing the next step manually, users could be shown a screen to check, adjust and approve. Because the standard is open, agents and apps from other companies can use it as well.",
+      "whyThisMatters": "Google has announced version 1.0 of A2UI, an open protocol that lets AI agents respond with interactive screens rather than plain text.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Google releases A2UI 1.0, an open standard for AI-generated screens",
+        "Google Developers Blog"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-12/s9_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-12/s9_cut2.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-12/s9_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_beijing_plans_capacity_for_200_0",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Beijing plans capacity for 200,000 robots a year by 2028",
+      "subheadline": "Source: EastFrontier",
+      "importanceScore": 90,
+      "durationSeconds": 52,
+      "source": "EastFrontier",
+      "sourceUrl": "https://eastfrontier.com/2026/11/12/beijings-embodied-ai-plan-targets-200-000-robots-a-year-and-200-firms/",
+      "researchDesk": "",
+      "script": "In China. Beijing's industry bureau has released an action plan for embodied AI, meaning AI that runs physical machines such as robots, covering 2026 to 2028, EastFrontier reports. The plan calls for a minimum of five world-class humanoid robot manufacturers and no fewer than 200 robot-related firms. It also sets a goal of being able to produce 200,000 robots annually, and of a 50,000-petaflop computing cluster for training robot AI models. The plan is dated 11 November. China is betting big on humanoid and service robots as an emerging industry, and city governments are competing to attract the top manufacturers. Beijing is already home to several humanoid start-ups and held the first humanoid robot games. The plan aims to move from prototypes to mass production.",
+      "whyThisMatters": "Beijing's industry bureau has released an action plan for embodied AI, meaning AI that runs physical machines such as robots, covering 2026 to 2028, EastFrontier reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Beijing plans capacity for 200,000 robots a year by 2028",
+        "EastFrontier"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-12/s10_cut1.jpg",
+          "badge": "BEIJING • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-12/s10_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-12/s10_cut3.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s11_scaling_mathematical_proof_super",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 52,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2610.40394",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. The researchers behind a paper titled Scaling Mathematical Proof Supervision from Structured Textbooks are tackling a weakness in how AI language models learn mathematics. Training material is usually chopped into isolated problems with answers. That loses the order of topics and the links between ideas found in the original books. In response, the researchers built TOME-Math. They drew it from 2,118 university-level textbooks and turned those into about 380 thousand proof records. The collection keeps chapters in sequence, pairs each statement with its proof, follows references between results and logs where every entry came from. After full training on this data, the model's average test score rose 16.7 percentage points above the base model, and it also beat three public training datasets.",
+      "whyThisMatters": "The researchers behind a paper titled Scaling Mathematical Proof Supervision from Structured Textbooks are tackling a weakness in how AI language models learn mathematics.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Scaling Mathematical Proof Supervision from Structured Textbooks",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-12/s11_cut1.jpg",
+          "badge": "ADVANCED MATHEMATICS • FORMAL PROOF VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-12/s11_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-12/s11_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panRight"
         }
       ]
     }
@@ -343,15 +477,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. Alphabet's debut Hong Kong, Singapore bond sales draw about 5 billion dollars in early orders. Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story. AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeats Models. Fewer hours and higher wages or more burnout and surveillance: employers told to prepare for AI. NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools. AI helped UK defy expectations but will economy’s resilience fizzle out?.",
+    "script": "To recap today's top stories. Rights groups urge a treaty on \"killer robots\" before next week's UN talks. Google launches the Gemini Decisions API for fast yes/no and scoring calls. DeepMind's AlphaGenome 2 predicts how DNA changes affect individual cell types. Baidu launches ERNIE Lightning and a video model at Baidu World 2026. Japan weighs binding orders and penalties for AI firms after incidents. OpenAI now processes API requests inside India.",
     "items": [
-      "✓ Alphabet's debut Hong Kong, Singapore bond sales",
-      "✓ Zimbabwean author Simbarashe Kundizeza cleared o",
-      "✓ AgiBot Open-Sources LIFE, a Lifelong Embodied AI",
-      "✓ Fewer hours and higher wages or more burnout and",
-      "✓ NHS England deletes ‘misleading’ claim 137 trust",
-      "✓ AI helped UK defy expectations but will economy’",
-      "✓ Tencent Launches Yuanbao Search, a Standalone AI"
+      "✓ Rights groups urge a treaty on \"killer robots\" b",
+      "✓ Google launches the Gemini Decisions API for fas",
+      "✓ DeepMind's AlphaGenome 2 predicts how DNA change",
+      "✓ Baidu launches ERNIE Lightning and a video model",
+      "✓ Japan weighs binding orders and penalties for AI",
+      "✓ OpenAI now processes API requests inside India",
+      "✓ Databricks launches an always-on Genie agent for"
     ]
   },
   "outro": {
@@ -370,28 +504,31 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "Alphabet's debut Hong Kong, Singapore bond sa",
-    "Zimbabwean author Simbarashe Kundizeza cleare",
-    "AgiBot Open-Sources LIFE, a Lifelong Embodied",
-    "Fewer hours and higher wages or more burnout ",
-    "NHS England deletes ‘misleading’ claim 137 tr",
-    "AI helped UK defy expectations but will econo",
-    "Tencent Launches Yuanbao Search, a Standalone",
-    "Moore Threads Sets MDC 2026 for December 29-3"
+    "Rights groups urge a treaty on \"killer robots",
+    "Google launches the Gemini Decisions API for ",
+    "DeepMind's AlphaGenome 2 predicts how DNA cha",
+    "Baidu launches ERNIE Lightning and a video mo",
+    "Japan weighs binding orders and penalties for",
+    "OpenAI now processes API requests inside Indi",
+    "Databricks launches an always-on Genie agent ",
+    "United Airlines restricts third-party AI agen",
+    "Google releases A2UI 1.0, an open standard fo",
+    "Beijing plans capacity for 200,000 robots a y",
+    "Scaling Mathematical Proof Supervision from S"
   ],
   "thumbnail": {
     "date": "12 NOVEMBER 2026",
-    "headline": "ALPHABET'S DEBUT HONG KONG, SINGAPORE BOND",
+    "headline": "RIGHTS GROUPS URGE A TREATY ON \"KILLER",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "ALPHABET'S DEBUT HONG KONG,",
-      "ZIMBABWEAN AUTHOR SIMBARASHE",
-      "AGIBOT OPEN-SOURCES LIFE, A",
-      "FEWER HOURS AND HIGHER WAGES OR"
+      "RIGHTS GROUPS URGE A TREATY ON",
+      "GOOGLE LAUNCHES THE GEMINI",
+      "DEEPMIND'S ALPHAGENOME 2 PREDICTS",
+      "BAIDU LAUNCHES ERNIE LIGHTNING AND"
     ]
   },
   "youtubeMetadata": {
-    "title": "Alphabet's debut Hong Kong, | Zimbabwean author Simbarashe | AgiBot Open-Sources LIFE, a | AI News 12 November 2026",
+    "title": "Rights groups urge a treaty on | Google launches the Gemini | DeepMind's AlphaGenome 2 predicts | AI News 12 November 2026",
     "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 12 November 2026.",
     "tags": [
       "AI",

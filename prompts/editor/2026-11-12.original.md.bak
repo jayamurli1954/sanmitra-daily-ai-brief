@@ -1,0 +1,241 @@
+AI Brief — Thursday, 12 November 2026 (IST) — last 24 hours
+
+> Nvidia's board is reportedly weighing whether to remove Jensen Huang, Google shipped a fast "decisions" model and AlphaGenome 2, and Baidu launched new ERNIE models at Baidu World.
+> Japan is weighing penalties for AI firms, and OpenAI now runs API requests inside India.
+
+# WORLD
+
+No confirmed military AI incident (an attack or accident involving AI) in this window. The main defence story is a push for a treaty on autonomous weapons.
+
+### Rights groups urge a treaty on "killer robots" before next week's UN talks
+Amnesty International, Human Rights Watch and Stop Killer Robots are urging governments to start time-bound negotiations on a legally binding protocol on autonomous weapons at the Convention on Conventional Weapons Review Conference in Geneva, which runs 16 to 20 November. The conference happens only once every five years. They warn that these systems are already being tested and deployed. (Theme: AI policy and regulation)
+Source: Human Rights Watch https://www.hrw.org/news/2026/11/12/global-treaty-needed-to-combat-autonomous-weapons-threat
+
+### EU countries push back on US plan to widen its Pax Silica AI alliance
+According to Euronews, which has seen the draft, EU ambassadors raised concerns about a US declaration that would turn Pax Silica, its AI supply-chain alliance, into a wider economic-security pact due to be endorsed in San Francisco on Sunday. Their objections include vague definitions of "sensitive technologies", Washington's use of the word "superintelligence", and risks to the EU AI Act. (Theme: AI policy and regulation)
+Source: Euronews https://www.euronews.com/2026/11/12/trumps-upgrade-of-us-led-ai-alliance-runs-into-european-resistance
+
+# USA
+
+### Nvidia's board reportedly weighs removing Jensen Huang
+Nvidia's board met on Wednesday, US time, to decide whether to remove CEO Jensen Huang, according to reports cited by The Guardian. The Wall Street Journal reported that the company was preparing to fire him, and Nvidia shares fell more than 8% in after-hours trading. The meeting follows a New York Times report of a second affair, this time with a company executive, on top of his relationship with a woman alleged to be a Chinese spy. When this brief was written, no decision had been announced, and Nvidia had not commented. (Theme: AI industry and startup news)
+Source: The Guardian https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair
+Also: ABC News https://abcnews.com/US/nvidia-board-reportedly-preparing-oust-ceo-jensen-huang/story?id=138062059
+
+### Google launches the Gemini Decisions API for fast yes/no and scoring calls
+Google's new Gemini Decision 1 model can answer up to 1,000 yes/no, multiple-choice or rubric-scoring questions about a single input in one pass. The input can be text, images, audio, video or PDFs. It is aimed at quick routing, policy checks and grading inside AI agents, and costs $0.10 per million input tokens, with output not billed. Its accuracy claims come from Google. (Theme: New AI models and tools)
+Source: Google https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
+
+### DeepMind's AlphaGenome 2 predicts how DNA changes affect individual cell types
+AlphaGenome 2 was trained on more than 100 million single-cell profiles from 68 tissues. DeepMind says it finds nearly twice as many gene-expression-linked variants in specific cell types as its earlier model. It is available for non-commercial research and is not approved for clinical diagnosis. (Theme: AI breakthroughs)
+Source: Google DeepMind https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/
+Also: The Verge https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model
+
+# CHINA
+
+### Baidu launches ERNIE Lightning and a video model at Baidu World 2026
+Baidu introduced ERNIE Lightning, a reasoning model built first for Baidu Search, and ERNIE-Wizshot-ME, which turns a still photo into a talking video with expressive faces, priced at 0.7 yuan per second. Both are live on its Qianfan cloud for business customers. Baidu says Lightning cuts its inference engine cost by more than 30% on Kunlunxin chips. That is a company claim, and Baidu has published no benchmarks. (Theme: New AI models and tools)
+Source: TPS Report https://tpsreport.news/news/baidu-ernie-lightning-wizshot-me-qianfan
+
+### Beijing plans capacity for 200,000 robots a year by 2028
+Beijing's industry bureau has issued a 2026–2028 embodied-AI action plan. It aims for at least five world-class humanoid makers, at least 200 robot-related firms, capacity to build 200,000 robots a year, and a 50,000 PFlops training cluster. The plan is dated 11 November and was widely reported today. (Theme: Technology trends)
+Source: Beijing Municipal Government https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html
+Also: EastFrontier https://eastfrontier.com/2026/11/12/beijings-embodied-ai-plan-targets-200-000-robots-a-year-and-200-firms/
+
+# ASIA
+
+### Japan weighs binding orders and penalties for AI firms after incidents
+According to Kyodo, citing one source, a government working group is considering legally binding orders, with penalties, against AI businesses that do not cooperate after incidents involving advanced AI. Japan's 2025 AI law has no penalties. An outline of the review is due by the end of the year. (Theme: AI policy and regulation)
+Source: Kyodo News https://english.kyodonews.net/articles/-/91104
+
+### US reportedly moves to close the Southeast Asia route to AI chips
+Yonhap, citing The Information, reports that the US Commerce Department is finalising rules that would require export licences for Nvidia Blackwell-class chips going to Singapore, Malaysia, Thailand, Indonesia, Brazil, Norway and South Africa. The aim is to stop Chinese firms from using the chips remotely through data centres in those countries. The rules have not been published and could come out this month. (Theme: AI policy and regulation)
+Source: Yonhap (Korean) https://www.yna.co.kr/view/AKR20261112121900009
+
+# INDIA
+
+### OpenAI now runs API requests inside India
+OpenAI launched local processing for its API in India. For supported workloads, both the request and the model computation now happen in the country, not just data storage. It starts with GPT-6 Luna through the Responses and Chat Completions APIs and is aimed at businesses with data-localisation needs. (Theme: AI industry and startup news)
+Source: The Hindu https://www.thehindu.com/business/openai-now-allows-enterprises-to-process-ai-requests-within-india/article71692799.ece
+Also: The Economic Times https://economictimes.indiatimes.com/ai/ai-insights/openai-brings-local-inference-to-india-starting-with-gpt-6-luna/articleshow/135760461.cms
+
+### Chariot releases a text-to-speech model for 11 Indian languages
+Chariot is a lab backed by the IndiaAI Mission and founded by former Google DeepMind and Meta FAIR researchers. It launched Chariot-1-TTS-Multilingual, which covers 11 Indian languages plus English, with more than 50 voices, mixing two languages in one sentence, and voice cloning from a few seconds of audio. Its benchmark wins are company claims. (Theme: New AI models and tools)
+Source: Analytics India Magazine https://analyticsindiamag.com/ai-news/chariot-launches-multilingual-tts-model-with-support-for-11-indian-languages
+
+### Kendriya Vidyalayas get a "Samiksha" AI bot to monitor schools
+Education Minister Pralhad Joshi launched an AI-integrated Vidya Samiksha Kendra for Kendriya Vidyalaya Sangathan. Its Samiksha bot reads attendance, results, infrastructure and admissions data, flags gaps and suggests fixes. He wants it extended to every KV and possibly to the wider school system. (Theme: Technology trends)
+Source: Elets digitalLEARNING https://digitallearning.eletsonline.com/2026/11/kvs-samiksha-ai-bot/
+
+
+
+# SANMITRA AI NEWS WIRE
+
+## Daily AI Brief — Thursday, 12 November 2026
+
+Reporting window: Wednesday, 11 November, 7:11 PM to Thursday, 12 November 2026, 7:11 PM IST.
+
+Today's developments show AI moving further into business operations, cybersecurity, scientific research and industrial investment. Three stories stand out: Anthropic's new enterprise tools and proposed IPO, Google's launch of a specialised decision-making API, and growing questions about how autonomous AI agents should be controlled.
+
+## Today's major developments
+
+### 🌍 WORLD
+
+1\. AI agents are becoming a cybersecurity concern for software companies
+
+A new UC Berkeley research finding highlighted in today's technology coverage suggests AI can help attackers turn publicly available software patches into working exploits in roughly two hours, at a cost below $30. The concern is the mismatch in speed: organisations may take months to apply security updates, while attackers can use AI to analyse and exploit the weaknesses much faster.
+
+Why it matters: The time between a vulnerability being disclosed and being exploited could shrink dramatically. Software vendors and IT teams will need faster patching, continuous testing and AI-assisted defence.
+
+Source: [Reuters — AI and the cybersecurity challenge](https://www.reuters.com/technology/artificial-intelligence/nvidia-drama-revives-chip-export-ban-debate-2026-11-11/?utm_source=chatgpt.com)&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.reuters.com\&sz=32)
+
+reuters.com
+
+
+
+### 🇺🇸 USA
+
+2\. Databricks launches an always-on autonomous enterprise agent
+
+Databricks has introduced a new generation of Genie, designed to work continuously on complex business tasks rather than simply answer employee questions. It can monitor information, handle longer-running assignments and proactively bring findings to users. Its business ontology is intended to give it context about an organisation's data, people and processes. Databricks also describes administrative controls for tool access, action tracing and spending limits.
+
+Why it matters: This is a move towards AI as an operational coworker. Imagine an agent monitoring sales, cash flow or project performance, identifying exceptions and preparing actions for management review.
+
+Source: [Databricks — New Genie for enterprise work](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex?utm_source=chatgpt.com)&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.databricks.com\&sz=32)
+
+Databricks+1
+
+
+
+3\. Google launches Gemini Decisions API for rapid, structured decisions
+
+Google has introduced Gemini Decision 1 and a new Decisions API. Instead of generating a long written response, the system evaluates up to 1,000 closed-ended questions in one pass, using text, images, audio, video or PDFs. Google says it returns probabilities and confidence scores in 150–250 milliseconds, at a price of $0.10 per million input tokens, with no output-token charge.
+
+Why it matters: Many business processes do not need an essay from AI. They need a decision: classify an invoice, check a policy, route a request or score a document. A specialised decision model could make such high-volume workflows faster and cheaper.
+
+Source: [Google Developers Blog](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/?utm_source=chatgpt.com)&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://blog.google\&sz=32)
+
+blog.google
+
+
+
+4\. Google DeepMind introduces AlphaGenome 2 for cell-level genetic research
+
+DeepMind has announced AlphaGenome 2, a model designed to predict how DNA variations affect different human cell types. The company says it was trained on more than 100 million cell profiles across 68 tissues and can identify nearly twice as many gene-expression-changing variants as its previous model.
+
+It is available for non-commercial research through the AlphaGenome API, with a private preview for commercial research.
+
+Why it matters: The same DNA variant can have different effects depending on the cell in which it occurs. Better cell-specific predictions could help researchers investigate disease mechanisms and identify promising directions for biomedical research. This is a research tool, not a clinical diagnostic.
+
+Source: [Google DeepMind — AlphaGenome 2](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/?utm_source=chatgpt.com)&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://deepmind.google\&sz=32)
+
+Google DeepMind
+
+
+
+5\. United Airlines restricts unauthorised AI agents from booking flights
+
+United Airlines says it is restricting third-party AI agents from accessing its digital platforms to make bookings and other changes on behalf of customers. The airline cites risks involving account credentials, unintended purchases, changes to reservations and loyalty points. It also points to regulatory requirements where a human must make certain acknowledgements, such as confirming baggage restrictions during check-in.
+
+Why it matters: This is an important real-world boundary for agentic AI. An agent may be capable of booking a flight, but capability does not automatically give it permission to transact on a customer's behalf. Businesses will need clear rules for identity, authorisation, liability and human approval.
+
+Source: [United Airlines — Restricts access for third-party AI agents](https://united.mediaroom.com/news-releases?item=125496\&utm_source=chatgpt.com)&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://united.mediaroom.com\&sz=32)
+
+News Releases+1
+
+
+
+6\. Anthropic's proposed IPO reportedly attracts demand several times greater than shares offered
+
+Reports say Anthropic's proposed public offering has attracted orders several times the number of shares available. The proposed offering is priced at $70–$78 per share in its preliminary prospectus, with the company seeking a Nasdaq listing under the ticker ANT. The demand figures are based on reports citing people familiar with the offering, not a final published allocation.
+
+Why it matters: The proposed listing is becoming a major test of investor appetite for frontier AI companies. But strong demand does not settle the larger questions about infrastructure spending, profitability and the long-term economics of advanced AI.
+
+Source: [Economic Times — Anthropic IPO demand](https://m.economictimes.com/markets/us-stocks/anthropics-ipo-is-said-to-be-multiple-times-oversubscribed/articleshow/135743507.cms?utm_source=chatgpt.com)&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://m.economictimes.com\&sz=32)
+
+m.economictimes.com
+
+
+
+### 🌏 ASIA
+
+7\. Google releases A2UI 1.0, an open protocol for AI-generated interfaces
+
+Google has released version 1.0 of A2UI, an open protocol that allows AI agents to return interactive screens rather than only text. An agent can describe a form, chart or other interface, while the application renders it using its own native components. The release includes bidirectional function calls and renderer support across web and mobile technologies.
+
+Why it matters: This could change how people interact with AI applications. Instead of receiving a block of text and manually carrying out the next step, users may receive an interactive screen to review, edit, confirm or complete a task.
+
+Source: [Google Developers Blog — A2UI 1.0](https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/?utm_source=chatgpt.com)&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://developers.googleblog.com\&sz=32)
+
+Google Developers Blog
+
+
+
+### 🇮🇳 INDIA
+
+8\. OpenAI brings local AI processing to India for eligible API customers
+
+OpenAI has announced local processing and inference for supported API workloads in India, initially using GPT-6 Luna. For eligible customers and supported requests, both the processing of the request and the model computation take place in India. Supported customer content is also stored in-country.
+
+The initial offering covers the Responses and Chat Completions APIs and is aimed at organisations with data-localisation requirements, including businesses in financial services.
+
+Why it matters: This could remove an important obstacle for Indian enterprises considering AI for sensitive business workflows. For banks, financial institutions and other regulated organisations, the location where data is processed can matter as much as where it is stored.
+
+Source: [The Week — OpenAI to process AI requests within India](https://www.theweek.in/wire-updates/business/2026/11/12/openai-to-process-ai-requests-within-india-for-businesses-with-data-localisation-needs.html?utm_source=chatgpt.com)&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.theweek.in\&sz=32)
+
+The Week
+
+
+
+## THE BIG PICTURE
+
+Today's news reveals four important shifts:
+
+1. From assistants to autonomous coworkers: Databricks Genie illustrates how enterprise AI is moving towards continuous monitoring, analysis and action.
+2. From conversation to decisions: Google's Decisions API and A2UI show two different ways of making AI more useful in real workflows.
+3. From capability to permission: United Airlines' restrictions demonstrate that organisations will not automatically allow external agents to transact on their platforms.
+4. From cloud access to data sovereignty: OpenAI's India inference facility addresses a practical concern for organisations handling sensitive information.
+
+## KEY TAKEAWAYS FOR BUSINESS LEADERS
+
+- Finance and operations: Explore AI agents for continuous monitoring of cash flow, receivables, payables and operational exceptions.
+- Governance: Establish permission levels, approval limits and audit trails before deploying autonomous agents.
+- Cybersecurity: Reduce the time between vulnerability disclosure and patch deployment.
+- Data localisation: Reassess AI deployment options now that supported OpenAI API processing is available within India.
+- Investment discipline: Evaluate AI projects on measurable productivity and business outcomes, not model demonstrations alone.
+
+## CLOSING THOUGHT
+
+The AI industry is entering a more demanding phase.
+
+It is no longer enough for an AI system to produce an impressive answer. Businesses want it to monitor, decide, execute and deliver results. But every additional capability brings questions about security, authority, accountability and cost.
+
+The next competitive advantage will not come from simply having an AI agent. It will come from knowing what that agent is allowed to do, what it must not do, and how its work is verified.
+
+SANMITRA AI NEWS WIRE
+
+Technology for Trust, Governance and Growth
+
+Today's video brief: No video link supplied yet.
+
+YouTube channel: [https://www.youtube.com/@SanMitraTechSolutions](https://www.youtube.com/@SanMitraTechSolutions?utm_source=chatgpt.com)
+
+\#ArtificialIntelligence #AIAgents #EnterpriseAI #CyberSecurity #GoogleDeepMind #OpenAI #Databricks #IndiaAI #AIInfrastructure #SanMitraAINewsWire
+
+Editorial note: I found no sufficiently verified, distinct China-specific development to include in this strict 24-hour edition, so I have not recycled yesterday's Qwen4-Max announcement. Some reports dated 11 November may have been published before the precise 7:11 PM IST cutoff; publication timestamps were not consistently available. The brief prioritises developments reported on 12 November and relevant late-11-November announcements.

@@ -1,87 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 61.85,
-    "sceneDurationSeconds": 63.05,
-    "durationInFrames": 1891,
+    "audioDurationSeconds": 65.76,
+    "sceneDurationSeconds": 66.96,
+    "durationInFrames": 2009,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_deepmind_s_alphaproof_code_forma": {
-    "audioFile": "audio/aibrief/s1_s1_deepmind_s_alphaproof_code_forma.mp3",
-    "audioDurationSeconds": 59.54,
-    "sceneDurationSeconds": 60.74,
-    "durationInFrames": 1822,
-    "title": "Story 1: DeepMind's AlphaProof Code formally verifies parts of Signal's encryption",
-    "voice": "en-US-AriaNeural"
-  },
-  "s2_google_makes_gemini_4_carbon_wid": {
-    "audioFile": "audio/aibrief/s2_s2_google_makes_gemini_4_carbon_wid.mp3",
-    "audioDurationSeconds": 45.29,
-    "sceneDurationSeconds": 46.49,
-    "durationInFrames": 1395,
-    "title": "Story 2: Google makes Gemini 4 Carbon widely available",
-    "voice": "en-US-ChristopherNeural"
-  },
-  "s3_openai_opens_chatgpt_to_business": {
-    "audioFile": "audio/aibrief/s3_s3_openai_opens_chatgpt_to_business.mp3",
-    "audioDurationSeconds": 54.5,
-    "sceneDurationSeconds": 55.7,
-    "durationInFrames": 1671,
-    "title": "Story 3: OpenAI opens ChatGPT to business profiles and business agents",
-    "voice": "en-US-AriaNeural"
-  },
-  "transition_china": {
-    "audioFile": "",
-    "audioDurationSeconds": 0.0,
-    "sceneDurationSeconds": 2.0,
-    "durationInFrames": 60,
-    "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
-  },
-  "s4_alibaba_opens_a_preview_of_qwen4": {
-    "audioFile": "audio/aibrief/s4_s4_alibaba_opens_a_preview_of_qwen4.mp3",
-    "audioDurationSeconds": 37.25,
-    "sceneDurationSeconds": 38.45,
-    "durationInFrames": 1153,
-    "title": "Story 4: Alibaba opens a preview of Qwen4-Max",
-    "voice": "en-US-ChristopherNeural"
-  },
-  "transition_asia": {
-    "audioFile": "",
-    "audioDurationSeconds": 0.0,
-    "sceneDurationSeconds": 2.0,
-    "durationInFrames": 60,
-    "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
-  },
-  "s5_dassault_systemes_to_set_up_an_a": {
-    "audioFile": "audio/aibrief/s5_s5_dassault_systemes_to_set_up_an_a.mp3",
-    "audioDurationSeconds": 39.19,
-    "sceneDurationSeconds": 40.39,
-    "durationInFrames": 1212,
-    "title": "Story 5: Dassault Systemes to set up an ASEAN industrial AI lab in Singapore",
-    "voice": "en-US-AriaNeural"
-  },
-  "transition_india": {
-    "audioFile": "",
-    "audioDurationSeconds": 0.0,
-    "sceneDurationSeconds": 2.0,
-    "durationInFrames": 60,
-    "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
-  },
-  "s6_andhra_pradesh_clears_a_rs_31_38": {
-    "audioFile": "audio/aibrief/s6_s6_andhra_pradesh_clears_a_rs_31_38.mp3",
-    "audioDurationSeconds": 36.58,
-    "sceneDurationSeconds": 37.78,
-    "durationInFrames": 1133,
-    "title": "Story 6: Andhra Pradesh clears a Rs 31,387 crore AI data centre near Visakhapatnam",
-    "voice": "en-US-ChristopherNeural"
-  },
-  "s7_hackers_used_ai_agents_to_steal": {
-    "audioFile": "audio/aibrief/s7_s7_hackers_used_ai_agents_to_steal.mp3",
-    "audioDurationSeconds": 43.39,
-    "sceneDurationSeconds": 44.59,
-    "durationInFrames": 1338,
-    "title": "Story 7: Hackers used AI agents to steal Tajik government documents, researchers say",
+  "s1_rights_groups_urge_a_treaty_on_k": {
+    "audioFile": "audio/aibrief/s1_s1_rights_groups_urge_a_treaty_on_k.mp3",
+    "audioDurationSeconds": 51.82,
+    "sceneDurationSeconds": 53.02,
+    "durationInFrames": 1590,
+    "title": "Story 1: Rights groups urge a treaty on \"killer robots\" before next week's UN talks",
     "voice": "en-US-AriaNeural"
   },
   "transition_usa": {
@@ -91,43 +22,112 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s8_adobe_brings_ai_agents_into_crea": {
-    "audioFile": "audio/aibrief/s8_s8_adobe_brings_ai_agents_into_crea.mp3",
+  "s2_google_launches_the_gemini_decis": {
+    "audioFile": "audio/aibrief/s2_s2_google_launches_the_gemini_decis.mp3",
+    "audioDurationSeconds": 53.28,
+    "sceneDurationSeconds": 54.48,
+    "durationInFrames": 1634,
+    "title": "Story 2: Google launches the Gemini Decisions API for fast yes/no and scoring calls",
+    "voice": "en-US-ChristopherNeural"
+  },
+  "s3_deepmind_s_alphagenome_2_predict": {
+    "audioFile": "audio/aibrief/s3_s3_deepmind_s_alphagenome_2_predict.mp3",
     "audioDurationSeconds": 49.46,
     "sceneDurationSeconds": 50.66,
     "durationInFrames": 1520,
-    "title": "Story 8: Adobe brings AI agents into creative workflows",
-    "voice": "en-US-ChristopherNeural"
-  },
-  "s9_fireworks_ai_details_a_security": {
-    "audioFile": "audio/aibrief/s9_s9_fireworks_ai_details_a_security.mp3",
-    "audioDurationSeconds": 49.85,
-    "sceneDurationSeconds": 51.05,
-    "durationInFrames": 1531,
-    "title": "Story 9: Fireworks AI details a security incident that reached secrets and model weights",
+    "title": "Story 3: DeepMind's AlphaGenome 2 predicts how DNA changes affect individual cell types",
     "voice": "en-US-AriaNeural"
   },
-  "s10_south_korea_jumps_to_10th_in_imd": {
-    "audioFile": "audio/aibrief/s10_s10_south_korea_jumps_to_10th_in_imd.mp3",
-    "audioDurationSeconds": 36.26,
-    "sceneDurationSeconds": 37.46,
-    "durationInFrames": 1124,
-    "title": "Story 10: South Korea jumps to 10th in IMD's digital and AI competitiveness ranking",
+  "transition_china": {
+    "audioFile": "",
+    "audioDurationSeconds": 0.0,
+    "sceneDurationSeconds": 2.0,
+    "durationInFrames": 60,
+    "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
+  },
+  "s4_baidu_launches_ernie_lightning_a": {
+    "audioFile": "audio/aibrief/s4_s4_baidu_launches_ernie_lightning_a.mp3",
+    "audioDurationSeconds": 51.22,
+    "sceneDurationSeconds": 52.42,
+    "durationInFrames": 1572,
+    "title": "Story 4: Baidu launches ERNIE Lightning and a video model at Baidu World 2026",
     "voice": "en-US-ChristopherNeural"
   },
-  "s11_world_in_context_learning_for_ag": {
-    "audioFile": "audio/aibrief/s11_s11_world_in_context_learning_for_ag.mp3",
-    "audioDurationSeconds": 57.7,
-    "sceneDurationSeconds": 58.9,
-    "durationInFrames": 1767,
-    "title": "Story 11: World In-Context Learning for Agentic Robot Manipulation",
+  "transition_asia": {
+    "audioFile": "",
+    "audioDurationSeconds": 0.0,
+    "sceneDurationSeconds": 2.0,
+    "durationInFrames": 60,
+    "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
+  },
+  "s5_japan_weighs_binding_orders_and": {
+    "audioFile": "audio/aibrief/s5_s5_japan_weighs_binding_orders_and.mp3",
+    "audioDurationSeconds": 35.81,
+    "sceneDurationSeconds": 37.01,
+    "durationInFrames": 1110,
+    "title": "Story 5: Japan weighs binding orders and penalties for AI firms after incidents",
+    "voice": "en-US-AriaNeural"
+  },
+  "transition_india": {
+    "audioFile": "",
+    "audioDurationSeconds": 0.0,
+    "sceneDurationSeconds": 2.0,
+    "durationInFrames": 60,
+    "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
+  },
+  "s6_openai_now_processes_api_request": {
+    "audioFile": "audio/aibrief/s6_s6_openai_now_processes_api_request.mp3",
+    "audioDurationSeconds": 47.74,
+    "sceneDurationSeconds": 48.94,
+    "durationInFrames": 1468,
+    "title": "Story 6: OpenAI now processes API requests inside India",
+    "voice": "en-US-ChristopherNeural"
+  },
+  "s7_databricks_launches_an_always_on": {
+    "audioFile": "audio/aibrief/s7_s7_databricks_launches_an_always_on.mp3",
+    "audioDurationSeconds": 53.47,
+    "sceneDurationSeconds": 54.67,
+    "durationInFrames": 1640,
+    "title": "Story 7: Databricks launches an always-on Genie agent for enterprise work",
+    "voice": "en-US-AriaNeural"
+  },
+  "s8_united_airlines_restricts_third": {
+    "audioFile": "audio/aibrief/s8_s8_united_airlines_restricts_third.mp3",
+    "audioDurationSeconds": 46.25,
+    "sceneDurationSeconds": 47.45,
+    "durationInFrames": 1423,
+    "title": "Story 8: United Airlines restricts third-party AI agents from booking flights",
+    "voice": "en-US-ChristopherNeural"
+  },
+  "s9_google_releases_a2ui_1_0_an_open": {
+    "audioFile": "audio/aibrief/s9_s9_google_releases_a2ui_1_0_an_open.mp3",
+    "audioDurationSeconds": 43.75,
+    "sceneDurationSeconds": 44.95,
+    "durationInFrames": 1349,
+    "title": "Story 9: Google releases A2UI 1.0, an open standard for AI-generated screens",
+    "voice": "en-US-AriaNeural"
+  },
+  "s10_beijing_plans_capacity_for_200_0": {
+    "audioFile": "audio/aibrief/s10_s10_beijing_plans_capacity_for_200_0.mp3",
+    "audioDurationSeconds": 53.66,
+    "sceneDurationSeconds": 54.86,
+    "durationInFrames": 1646,
+    "title": "Story 10: Beijing plans capacity for 200,000 robots a year by 2028",
+    "voice": "en-US-ChristopherNeural"
+  },
+  "s11_scaling_mathematical_proof_super": {
+    "audioFile": "audio/aibrief/s11_s11_scaling_mathematical_proof_super.mp3",
+    "audioDurationSeconds": 55.01,
+    "sceneDurationSeconds": 56.21,
+    "durationInFrames": 1686,
+    "title": "Story 11: Scaling Mathematical Proof Supervision from Structured Textbooks",
     "voice": "en-US-AriaNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 32.45,
-    "sceneDurationSeconds": 33.65,
-    "durationInFrames": 1009,
+    "audioDurationSeconds": 36.12,
+    "sceneDurationSeconds": 37.32,
+    "durationInFrames": 1120,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },

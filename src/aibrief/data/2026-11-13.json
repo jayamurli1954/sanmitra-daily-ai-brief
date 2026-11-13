@@ -1,0 +1,466 @@
+{
+  "weekly": false,
+  "date": "2026-11-13",
+  "formattedDate": "13 November 2026",
+  "title": "South Korea’s Hyundai Card | Nebius tests the neocloud playbook | SoftBank’s billion-dollar loss may | AI News 13 November 2026",
+  "intro": {
+    "durationSeconds": 53,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 13 November 2026. First, today's top headlines: South Korea’s Hyundai Card launches AI tools for partners. Nebius tests the neocloud playbook with 40 billion dollars in planned spending. SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions. Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model. SG physical AI startup Ropedia expands robotics training data. The rise of 'housefishing'. Nectar launches an AI agent to automate creator discovery and outreach for brands. Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit. Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearly 5,000 Unit Orders. And now, the news in brief.",
+    "headlines": [
+      "South Korea’s Hyundai Card launches AI tools for partners",
+      "Nebius tests the neocloud playbook with 40 billion dollars in planned spending",
+      "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model",
+      "SG physical AI startup Ropedia expands robotics training data",
+      "The rise of 'housefishing'",
+      "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearly 5,000 Unit Orders"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_south_korea_s_hyundai_card_launc",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "South Korea’s Hyundai Card launches AI tools for partners",
+      "subheadline": "Source: Tech in Asia",
+      "importanceScore": 99,
+      "durationSeconds": 24,
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/news/south-koreas-hyundai-card-launches-ai-tools-for-partners",
+      "researchDesk": "",
+      "script": "Our lead story today. yundai said PLCC 2.0 builds on about US800 million dollars in investment AI and data science over the past decade.",
+      "whyThisMatters": "yundai said PLCC 2.0 builds on about US$800 million in investment AI and data science over the past decade.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "South Korea’s Hyundai Card launches AI tools for partners",
+        "Tech in Asia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s1_cut1.jpg",
+          "badge": "SOUTH KOREA • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s1_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s1_cut3.jpg",
+          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_nebius_tests_the_neocloud_playbo",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Nebius tests the neocloud playbook with 40 billion dollars in planned spending",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Nebius plans to fund its 40 billion dollars AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+      "whyThisMatters": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nebius tests the neocloud playbook with 40 billion dollars in planned spending",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s2_cut1.jpg",
+          "badge": "REDMOND • MICROSOFT REDMOND CAMPUS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s2_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s2_cut3.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_softbank_s_billion_dollar_loss_m",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "researchDesk": "",
+      "script": "In other news. SoftBank lost over 3 billion dollars preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+      "whyThisMatters": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s3_cut1.jpg",
+          "badge": "SOFTBANK GROUP • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s3_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s3_cut3.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_huawei_cloud_sets_november_16_la",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/huawei-cloud-cloudrobo-wm1-2-ascend-native-embodied-world-model-launch-preview",
+      "researchDesk": "",
+      "script": "In China. Huawei Cloud will unveil CloudRobo-WM1.2, billed as the first Ascend-native world model from its Industry AI Dream Factory, at an online launch on Nov 16.",
+      "whyThisMatters": "Huawei Cloud will unveil CloudRobo-WM1.2, billed as the first Ascend-native world model from its Industry AI Dream Factory, at an online launch on Nov 16.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Nativ",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s4_cut1.jpg",
+          "badge": "NVIDIA • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s4_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s4_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_sg_physical_ai_startup_ropedia_e",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "SG physical AI startup Ropedia expands robotics training data",
+      "subheadline": "Source: Tech in Asia",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/news/sg-physical-ai-startup-ropedia-expands-robotics-training-data",
+      "researchDesk": "",
+      "script": "In Asia. The launch comes as robotics firms seek less resource-intensive ways to generate reusable training data.",
+      "whyThisMatters": "The launch comes as robotics firms seek less resource-intensive ways to generate reusable training data.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SG physical AI startup Ropedia expands robotics training data",
+        "Tech in Asia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s5_cut1.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s5_cut2.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s5_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_the_rise_of_housefishing",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "The rise of 'housefishing'",
+      "subheadline": "Source: BBC",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
+      "researchDesk": "",
+      "script": "Around the world. Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
+      "whyThisMatters": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "The rise of 'housefishing'",
+        "BBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s6_cut1.jpg",
+          "badge": "ROBOT • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s6_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s6_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_nectar_launches_an_ai_agent_to_a",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "whyThisMatters": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nectar launches an AI agent to automate creator discovery and outreach for brand",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s7_cut1.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s7_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s7_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_hugging_face_ceo_vows_to_keep_fi",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "researchDesk": "",
+      "script": "Next. Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "whyThisMatters": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadershi",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s e",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s8_cut1.jpg",
+          "badge": "NECTAR • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s8_cut2.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s8_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_former_cainiao_cto_s_robot_start",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearly 5,000 Unit Orders",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/quantum-dynamics-li-qiang-embodied-robots-cainiao-double-11-warehouse-orders",
+      "researchDesk": "",
+      "script": "In China. Quantum Dynamics, founded by ex-Cainiao CTO Li Qiang, says its robots worked Double 11 in Cainiao warehouses. Its nearly 5,000 unit orders include many not yet delivered.",
+      "whyThisMatters": "Quantum Dynamics, founded by ex-Cainiao CTO Li Qiang, says its robots worked Double 11 in Cainiao warehouses.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearl",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s9_cut1.jpg",
+          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s9_cut2.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s9_cut3.jpg",
+          "badge": "BEIJING • OPEN-WEIGHT INFERENCE HUBS",
+          "panDirection": "zoomOut"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. South Korea’s Hyundai Card launches AI tools for partners. Nebius tests the neocloud playbook with 40 billion dollars in planned spending. SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions. Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model. SG physical AI startup Ropedia expands robotics training data. The rise of 'housefishing'.",
+    "items": [
+      "✓ South Korea’s Hyundai Card launches AI tools for",
+      "✓ Nebius tests the neocloud playbook with 40 billi",
+      "✓ SoftBank’s billion-dollar loss may have put a ca",
+      "✓ Huawei Cloud Sets November 16 Launch for CloudRo",
+      "✓ SG physical AI startup Ropedia expands robotics ",
+      "✓ The rise of 'housefishing'",
+      "✓ Nectar launches an AI agent to automate creator "
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "South Korea’s Hyundai Card launches AI tools ",
+    "Nebius tests the neocloud playbook with 40 bi",
+    "SoftBank’s billion-dollar loss may have put a",
+    "Huawei Cloud Sets November 16 Launch for Clou",
+    "SG physical AI startup Ropedia expands roboti",
+    "The rise of 'housefishing'",
+    "Nectar launches an AI agent to automate creat",
+    "Hugging Face CEO vows to keep fighting for op",
+    "Former Cainiao CTO's Robot Startup Joins Doub"
+  ],
+  "thumbnail": {
+    "date": "13 NOVEMBER 2026",
+    "headline": "SOUTH KOREA’S HYUNDAI CARD LAUNCHES AI TOOLS",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "SOUTH KOREA’S HYUNDAI CARD LAUNCHES",
+      "NEBIUS TESTS THE NEOCLOUD PLAYBOOK",
+      "SOFTBANK’S BILLION-DOLLAR LOSS MAY",
+      "HUAWEI CLOUD SETS NOVEMBER 16"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "South Korea’s Hyundai Card | Nebius tests the neocloud playbook | SoftBank’s billion-dollar loss may | AI News 13 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 13 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

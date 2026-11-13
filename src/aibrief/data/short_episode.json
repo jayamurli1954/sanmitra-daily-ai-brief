@@ -1,177 +1,182 @@
 {
-  "date": "2026-11-11",
-  "dateLabel": "11 NOVEMBER 2026",
+  "date": "2026-11-12",
+  "dateLabel": "12 NOVEMBER 2026",
   "kicker": "BREAKING",
-  "headline": "DeepMind's AlphaProof Code formally verifies parts of Signal's encryption",
+  "headline": "Rights groups urge a treaty on \"killer robots\" before next week's UN talks",
   "subhead": "",
-  "source": "Source: Google DeepMind",
-  "audioFile": "audio/aibrief/short_2026-11-11_lead.mp3",
-  "voiceFrames": 1304,
+  "source": "Source: Human Rights Watch",
+  "audioFile": "audio/aibrief/short_2026-11-12_lead.mp3",
+  "voiceFrames": 1333,
   "endCardFrames": 75,
   "images": [
     {
-      "src": "aibrief/assets/editorial/2026-11-11/s1_cut1.jpg",
-      "label": "KING'S CROSS • GOOGLE DEEPMIND CAMPUS"
+      "src": "aibrief/assets/editorial/2026-11-12/s1_cut1.jpg",
+      "label": "TACTICAL OPERATIONS CENTER • INCIDENT DESK"
     },
     {
-      "src": "aibrief/assets/editorial/2026-11-11/s1_cut2.jpg",
-      "label": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS"
+      "src": "aibrief/assets/editorial/2026-11-12/s1_cut2.jpg",
+      "label": "DEFENSE RESEARCH LAB • AUTONOMOUS GUIDANCE"
     },
     {
-      "src": "aibrief/assets/editorial/2026-11-11/s1_cut3.jpg",
-      "label": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION"
+      "src": "aibrief/assets/editorial/2026-11-12/s1_cut3.jpg",
+      "label": "AIR DEFENSE • PATRIOT RADAR BATTERY"
     }
   ],
   "cues": [
     {
-      "text": "Google DeepMind has",
+      "text": "Three advocacy",
       "start": 0,
-      "end": 34
+      "end": 22
     },
     {
-      "text": "unveiled AlphaProof Code,",
-      "start": 34,
-      "end": 76
+      "text": "organisations want",
+      "start": 22,
+      "end": 61
     },
     {
-      "text": "an agentic AI system that",
-      "start": 86,
-      "end": 137
+      "text": "governments to start",
+      "start": 61,
+      "end": 89
     },
     {
-      "text": "generated Lean proofs,",
-      "start": 137,
-      "end": 169
+      "text": "negotiating a binding",
+      "start": 89,
+      "end": 123
     },
     {
-      "text": "checked by machine,",
-      "start": 182,
-      "end": 206
+      "text": "legal protocol on",
+      "start": 123,
+      "end": 160
     },
     {
-      "text": "for core security",
-      "start": 222,
-      "end": 246
+      "text": "autonomous weapons, with a",
+      "start": 160,
+      "end": 209
     },
     {
-      "text": "properties of the actual",
-      "start": 246,
-      "end": 285
+      "text": "firm deadline, when states",
+      "start": 209,
+      "end": 253
     },
     {
-      "text": "production code",
-      "start": 285,
-      "end": 311
+      "text": "meet in Geneva next week.",
+      "start": 253,
+      "end": 297
     },
     {
-      "text": "underpinning the Signal",
-      "start": 311,
-      "end": 343
+      "text": "Human Rights Watch says it",
+      "start": 326,
+      "end": 371
     },
     {
-      "text": "messaging protocol.",
-      "start": 343,
-      "end": 373
+      "text": "is making the call",
+      "start": 371,
+      "end": 394
     },
     {
-      "text": "The verified properties",
-      "start": 406,
-      "end": 443
+      "text": "together with Amnesty",
+      "start": 394,
+      "end": 424
     },
     {
-      "text": "include forward secrecy",
-      "start": 443,
-      "end": 481
+      "text": "International and the Stop",
+      "start": 424,
+      "end": 474
     },
     {
-      "text": "and authentication, and",
-      "start": 481,
-      "end": 538
+      "text": "Killer Robots campaign",
+      "start": 474,
+      "end": 507
     },
     {
-      "text": "the proofs reach right",
-      "start": 538,
-      "end": 566
+      "text": "ahead of the Convention on",
+      "start": 507,
+      "end": 552
     },
     {
-      "text": "down to the compiled",
-      "start": 566,
-      "end": 593
+      "text": "Conventional Weapons",
+      "start": 552,
+      "end": 577
     },
     {
-      "text": "machine code.",
-      "start": 593,
-      "end": 619
+      "text": "Review Conference, which",
+      "start": 577,
+      "end": 626
     },
     {
-      "text": "The work paired AI agents",
-      "start": 644,
-      "end": 693
+      "text": "is scheduled for 16 to 20",
+      "start": 626,
+      "end": 668
     },
     {
-      "text": "with mathematical proof",
-      "start": 693,
-      "end": 730
+      "text": "November.",
+      "start": 668,
+      "end": 676
     },
     {
-      "text": "methods and specifications",
-      "start": 730,
-      "end": 764
+      "text": "The conference meets just",
+      "start": 725,
+      "end": 761
     },
     {
-      "text": "written by people,",
-      "start": 764,
-      "end": 806
+      "text": "once in five years,",
+      "start": 761,
+      "end": 792
     },
     {
-      "text": "producing proof code that",
-      "start": 816,
-      "end": 855
+      "text": "so the groups see it as an",
+      "start": 792,
+      "end": 841
     },
     {
-      "text": "runs to millions of lines.",
-      "start": 855,
-      "end": 890
+      "text": "unusual opportunity.",
+      "start": 841,
+      "end": 869
     },
     {
-      "text": "DeepMind describes it as a",
-      "start": 921,
-      "end": 970
+      "text": "They say weapons that can",
+      "start": 869,
+      "end": 941
     },
     {
-      "text": "research proof of concept,",
-      "start": 970,
-      "end": 1006
+      "text": "choose and strike targets",
+      "start": 941,
+      "end": 979
     },
     {
-      "text": "noting that the proofs",
-      "start": 1022,
-      "end": 1047
+      "text": "without meaningful human",
+      "start": 979,
+      "end": 1016
     },
     {
-      "text": "address selected",
-      "start": 1047,
-      "end": 1072
+      "text": "control are already being",
+      "start": 1016,
+      "end": 1061
     },
     {
-      "text": "properties rather than",
-      "start": 1072,
-      "end": 1112
+      "text": "tested and used.",
+      "start": 1061,
+      "end": 1087
     },
     {
-      "text": "every conceivable attack.",
-      "start": 1112,
-      "end": 1151
+      "text": "Many countries support a",
+      "start": 1127,
+      "end": 1160
+    },
+    {
+      "text": "binding treaty.",
+      "start": 1160,
+      "end": 1179
     },
     {
       "text": "Watch the full episode on",
-      "start": 1181,
-      "end": 1225
+      "start": 1208,
+      "end": 1254
     },
     {
       "text": "SanMitra AI News Wire.",
-      "start": 1225,
-      "end": 1272
+      "start": 1254,
+      "end": 1301
     }
   ],
   "ctaTitle": "Full episode on YouTube",

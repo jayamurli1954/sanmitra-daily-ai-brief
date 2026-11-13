@@ -1,0 +1,216 @@
+AI Brief — Friday, 13 November 2026 (IST) — last 24 hours
+
+> Jensen Huang has resigned as Nvidia CEO, with CFO Colette Kress stepping in, and nonprofits have sued five AI labs to freeze frontier models.
+> Google shipped Gemini 4 Hydrogen, SpaceX plans $74 billion in AI campuses, and India's IT ministry is questioning how gig-worker video is used to train robots.
+
+# WORLD
+
+No confirmed military AI incident (an attack or accident involving AI) in this window. The main defence story is a report on Britain's plans for AI targeting.
+
+### Report: UK defence ministry wants targeting that is "autonomous by default"
+The Bureau of Investigative Journalism says official documents it obtained describe a Ministry of Defence targeting system that is "autonomous by default, human by exception", with a first version of its Digital Targeting Web expected next year. That would be a sharp change from the UK's earlier stress on human control. This is based on the Bureau's reading of the documents and has not been confirmed by the ministry. It lands days before UN talks on autonomous weapons in Geneva from 16 to 20 November. (Theme: AI policy and regulation)
+Source: The Bureau of Investigative Journalism https://www.thebureauinvestigates.com/stories/2026-11-13/revealed-mod-aiming-to-remove-humans-from-military-targeting-decisions
+
+# USA
+
+### Jensen Huang resigns as Nvidia CEO; Colette Kress named interim chief
+Huang stepped down on Thursday, US time, after reports of extramarital affairs, including one with a woman US intelligence officials reportedly believe was recruited by Chinese intelligence. He also leaves the board. CFO Colette Kress is interim CEO while the board searches inside and outside the company, and longtime director Harvey Jones becomes Nvidia's first board chair. Reuters says the shares closed down 4.3%. China has called the spying allegations baseless, and Nvidia still plans to report earnings next week. (Theme: AI industry and startup news)
+Source: NPR https://www.npr.org/2026/11/12/nx-s1-6037833/jensen-huang-nvidia-board-fired
+Also: The Japan Times https://www.japantimes.co.jp/business/2026/11/13/companies/nvidia-huang-ousted/
+
+### Nonprofits sue five AI labs to freeze more capable models
+A coalition of safety and consumer groups filed suit in San Francisco Superior Court against Anthropic, Google, Meta, OpenAI and SpaceXSI. They are asking the court to halt training and release of models more capable than today's, and they point to the companies' own warnings about bioweapon and cyberattack risks. These are the plaintiffs' claims. No court has ruled yet. (Theme: AI policy and regulation)
+Source: Al Jazeera https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development
+
+### Google launches Gemini 4 Hydrogen, a fast model for coding and agents
+Google says Hydrogen brings near-frontier intelligence at lower cost and higher speed. It is rolling out across the Gemini API, AI Studio, Search, the Gemini app and its Antigravity coding tool. Speed and quality claims come from Google. (Theme: New AI models and tools)
+Source: Google https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/
+
+### SpaceX plans more than $74 billion in AI supercomputing campuses
+SpaceX says it will build two AI computing sites: about $50 billion in Arizona and up to $24 billion in Texas near Starbase, where the facility will generate its own power. The Arizona site still needs local approval. It shows how compute and power are becoming the main AI build-out story. (Theme: Technology trends)
+Source: The Hill https://thehill.com/policy/technology/6217630-spacex-plans-data-centers-texas-arizona/
+
+# CHINA
+
+### Tencent launches Hy Realtime, a voice model that can sing and use tools
+Tencent's Hunyuan team released Hy Realtime, a real-time voice model that recovers meaning from half-finished or self-corrected speech, decides on its own when to search the web, and can sing songs on request. It is live in Yuanbao voice calls and Tencent customer service, and a Tencent Cloud API is coming. Its quality claims come from Tencent's own tests. (Theme: New AI models and tools)
+Source: IT Home (Chinese) https://www.ithome.com/1/026/825.htm
+
+### China Telecom releases a model trained entirely on Huawei Ascend chips
+Xing4.0-29B-A4B is a mixture-of-experts model with 29 billion parameters, of which 4 billion are active at a time. China Telecom says it is the first model of its size trained fully on Ascend NPUs with the MindSpore framework, and it reports a SWE-bench Verified score of 75.0. Those are developer figures, but the release is a real test of China's push to train models without Nvidia. (Theme: AI breakthroughs)
+Source: TheNextGenTechInsider https://www.thenextgentechinsider.com/pulse/china-telecom-launches-xing40-29b-a4b-mixture-of-experts-model
+
+# ASIA
+
+### Japan to launch an AI safety partnership with ASEAN
+Digital Minister Toshiharu Furukawa said Japan will start an AI safety and security partnership with the Association of Southeast Asian Nations (ASEAN), citing the misuse of AI in cyberattacks. Details have not been released yet. (Theme: AI policy and regulation)
+Source: Nikkei (Japanese) https://www.nikkei.com/article/DGXZQOUA1319C0T11C26A1000000/
+
+### Korea Aerospace tests AI drone navigation that works without GPS
+At a defence AI summit in Seoul, KAI said it is flight-testing AI that lets drones fix their own position when GPS is jammed. It is also developing an AI pilot, KAiLOT, with Konan Technology so drones can fly alongside FA-50 jets. These are company statements on work in progress. (Theme: Technology trends)
+Source: Edaily https://en.edaily.co.kr/news/eda202611135302/
+
+# INDIA
+
+### MeitY questions platforms that film homes to train robots
+The IT ministry met Snabbit, Pronto, Urban Company and robotics firms on Thursday about gig workers wearing head cameras to record household tasks for physical-AI training, ET reports, citing three people. Officials asked about consent, privacy and data-storage safeguards. Pronto has started in-home recording, while Urban Company and Snabbit decided against it. (Theme: AI policy and regulation)
+Source: The Economic Times https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/meity-flags-physical-ai-data-use-us-data-centre-woes-may-benefit-india/articleshow/135786144.cms
+
+### CAG to unveil an in-house audit LLM built by IIT Madras
+The Comptroller and Auditor General will launch CAG LLM 2.0, trained on about 65,000 internal inspection reports. It will help auditors with groundwork and analysis but will not carry out audits on its own. The launch is set for Audit Diwas on 16 November. (Theme: AI industry and startup news)
+Source: Rediff https://www.rediff.com/business/report/cag-to-launch-in-house-llm-20-developed-by-iit-madras-for-enhanced-auditing/20261113.htm
+Also: Business Standard https://www.business-standard.com/finance/news/cag-to-launch-in-house-ai-model-to-help-auditors-analyse-financial-data-126111201735_1.html
+
+### NTT DATA and IIT Jammu set up an AI centre for climate resilience
+The new centre will apply AI, digital twins and sensors to floods and landslides in the Tawi and Chenab river basins, and will include research on Dogri-language AI and a startup lab. (Theme: Technology trends)
+Source: Express Computer https://www.expresscomputer.in/amp/news/ntt-data-and-iit-jammu-to-establish-ai-coe-focused-on-climate-resilience/141307/
+
+—
+Want this daily? Follow me and tap the bell on my profile.
+
+# **SANMITRA AI NEWS WIRE**
+
+## **Daily AI Brief — Friday, 13 November 2026**
+
+Reporting window: Thursday, 12 November to Friday, 13 November 2026 · Last 24 hours · IST
+
+The big story today is that AI is moving into a new phase: faster and more affordable models, increasingly autonomous agents, growing regulatory scrutiny—and a major leadership shock at the centre of the AI chip industry.
+
+## **🌍 WORLD**
+
+### **1. Lawsuit seeks to halt development of frontier AI models**
+
+A coalition of nonprofit organisations has filed a lawsuit in California against five major AI developers, including OpenAI, Anthropic, Google, Meta and SpaceX’s AI division. The groups are seeking a court order to stop development of the companies’ most advanced models, arguing that their activities create risks to public health and safety.
+
+The case adds a new dimension to the debate over AI governance: whether existing consumer-protection and public-nuisance laws can be used to challenge the development of powerful AI systems.
+
+**Why it matters:** AI regulation is no longer confined to policy discussions. Legal challenges could influence how frontier models are tested, released and supervised.
+
+**Source:** [Reuters — OpenAI, Google and Anthropic hit with lawsuit](https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/?utm_source=chatgpt.com)
+
+## **🇺🇸 USA**
+
+### **2. Jensen Huang resigns as NVIDIA CEO; Colette Kress named interim chief**
+
+In a major development for the global AI industry, NVIDIA announced that Jensen Huang has resigned as president, CEO and board member, effective immediately. CFO Colette Kress has been appointed interim CEO while the board searches for a permanent successor. Harvey C. Jones has been named the company's first-ever board chair.
+
+NVIDIA says its existing leadership team and product roadmap will continue without interruption.
+
+**Why it matters:** NVIDIA is central to the global AI computing supply chain. The leadership transition raises questions about the company's next strategic phase, even as customers and developers will be watching for continuity in its chip roadmap and supply commitments.
+
+**Source:** [NVIDIA — Official announcement](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition?utm_source=chatgpt.com)
+
+### **3. Google launches Gemini 4 Hydrogen for faster coding and AI agents**
+
+Google has introduced Gemini 4 Hydrogen, a model designed for rapid execution in everyday coding and agentic workflows. It has a one-million-token context window and is available across the Gemini API, AI Studio, Google Search and other Google products.
+
+Google lists pricing at $1.50 per million input tokens and $7.50 per million output tokens. It is also introducing an Orchestrator in Google Antigravity to switch between models such as Hydrogen and the more advanced Carbon, depending on the task.
+
+**Why it matters:** The model strategy is shifting from relying on one large model for every task to combining powerful reasoning models with faster, lower-cost execution models. This could make AI agents more economical for software development and enterprise automation.
+
+**Source:** [Google — Introducing Gemini 4 Hydrogen](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/?utm_source=chatgpt.com)
+
+### **4. Google brings Gemini-powered reasoning into Search**
+
+Google is upgrading Search with Gemini 4 Hydrogen. The new experience is designed to handle complex, multi-part questions, conduct simultaneous searches and present more structured responses, including tables and images.
+
+**Why it matters:** Search is evolving beyond a list of links. The challenge for Google will be to make AI-generated answers useful while continuing to direct users to reliable original sources.
+
+**Source:** [Google — Search gets a major upgrade](https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/?utm_source=chatgpt.com)
+
+### **5. OpenAI introduces AI security tools to find and fix software vulnerabilities**
+
+OpenAI has introduced Daybreak Red Team and Defense Factory, a set of tools aimed at identifying weaknesses in software and helping developers address them. Red Team is in early access, while suggested fixes from Defense Factory are intended for engineering review before deployment.
+
+**Why it matters:** As AI becomes more capable at writing and operating software, it can also help identify security weaknesses. The value of these tools will depend on the quality of their findings and the effectiveness of human review before fixes go live.
+
+**Source:** [OpenAI — Daybreak security initiative](https://www.openai.com/?utm_source=chatgpt.com)
+
+### **6. OpenAI builds a continuous AI security “Defense Factory”**
+
+OpenAI has described a major internal security initiative that brought together more than 250 people across over 100 service areas. The effort is intended to create a continuous defensive process: map systems, identify and validate vulnerabilities, assign responsibility, verify fixes and improve security through repeated testing.
+
+**Why it matters:** AI is becoming part of software development and business infrastructure. Security cannot remain a periodic audit; it needs to become a continuous operational process.
+
+**Source:** [OpenAI — How an internal security sprint grew into a Defense Factory](https://openai.com/the-defense-factory/?utm_source=chatgpt.com)
+
+## **🇨🇳 CHINA**
+
+### **7. More than $3 billion in Chinese AI projects depend on restricted NVIDIA chips**
+
+A Reuters investigation has identified Chinese AI-computing projects worth more than 23 billion yuan (approximately $3.2 billion) that were planned or built around restricted NVIDIA processors, including H100, H200 and H800 chips.
+
+The projects include data centres, local government-backed ventures and university infrastructure. Some are operating or under construction, while others face uncertainty over chip availability and possible redesigns using domestic alternatives.
+
+**Why it matters:** The AI competition between the United States and China is increasingly a contest over access to computing infrastructure. Export restrictions may influence not only which chips China can buy, but also where Chinese companies choose to build and operate their AI workloads.
+
+**Source:** [Reuters — Chinese AI projects face uncertainty over NVIDIA chips](https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/?utm_source=chatgpt.com)
+
+### **8. Chinese AI companies look overseas for access to NVIDIA computing**
+
+Chinese AI companies are reportedly seeking computing capacity at overseas data centres, including facilities in Southeast Asia. They are concerned that Washington could tighten controls on remote access to advanced NVIDIA chips.
+
+The issue highlights a possible new enforcement challenge: restricting the physical export of chips may not be enough if companies can access the same computing power through cloud infrastructure abroad.
+
+**Why it matters:** AI infrastructure is becoming a geopolitical issue extending beyond chip manufacturing to cloud access, data-centre location and cross-border technology controls.
+
+**Source:** [Reuters — Chinese AI firms seek NVIDIA chip capacity overseas](https://www.reuters.com/world/china/chinese-ai-firms-rush-secure-nvidia-chip-capacity-spy-scandal-stirs-fear-us-2026-11-12/?utm_source=chatgpt.com)
+
+## **🌏 ASIA**
+
+### **9. Anthropic's regional usage restrictions take effect**
+
+Anthropic's updated regional usage policy is reported to have taken effect on 12 November. It restricts Claude use from mainland China, companies registered there and certain entities controlled by individuals or institutions in restricted regions.
+
+**Why it matters:** AI vendor selection is increasingly a compliance decision, not just a technical or commercial one. Multinational companies need to understand whether ownership structures, subsidiaries and operating locations affect their ability to use particular AI services.
+
+**Source:** [Anthropic — Usage policies](https://www.anthropic.com/legal/aup?utm_source=chatgpt.com)
+
+## **🇮🇳 INDIA**
+
+### **10. OpenAI enables supported AI requests to be processed inside India**
+
+OpenAI has introduced an option for eligible businesses to have supported API requests processed on servers located in India. This extends its existing India data-storage capabilities to the processing stage.
+
+For example, when an eligible business asks an AI model to summarise an internal document, the computation involved in reading and generating the summary can take place in India.
+
+**Why it matters:** This is significant for Indian banks, payment companies, financial institutions and other organisations with data-residency requirements. Local processing could make it easier to evaluate AI deployments in regulated environments, although businesses must still check eligibility, supported services and contractual conditions.
+
+**Source:** [The Times of India — OpenAI lets businesses get AI requests processed in India](https://timesofindia.indiatimes.com/business/india-business/openai-lets-biz-to-get-ai-requests-processed-in-india/articleshow/135784921.cms?utm_source=chatgpt.com)
+
+# **THE BIG PICTURE**
+
+Three developments stand out from the last 24 hours.
+
+**1. AI models are becoming more economical to deploy.** Google's Gemini 4 Hydrogen illustrates the growing importance of fast, cost-effective models for coding and agentic workflows. The industry is moving towards a combination of specialised models rather than relying on one expensive model for every task.
+
+**2. AI infrastructure is now a strategic asset.** NVIDIA's leadership transition and the continuing uncertainty around China's access to advanced chips show how closely AI development is tied to semiconductor supply, computing capacity and geopolitics.
+
+**3. Trust and governance are becoming business requirements.** The lawsuit against leading AI companies, OpenAI's security initiative and India's local-processing option all point to the same issue: organisations need AI that is not only capable, but also secure, accountable and compliant.
+
+# **KEY TAKEAWAYS FOR BUSINESS LEADERS**
+
+- **Review AI costs:** Compare models on cost per completed task, not just token prices.
+- **Build with model flexibility:** Avoid making critical workflows dependent on a single AI provider.
+- **Strengthen security:** Treat AI agents and their permissions as part of the organisation's security perimeter.
+- **Check data residency:** Understand where data is stored, processed and accessed.
+- **Watch infrastructure risk:** Semiconductor supply and cloud access can affect AI availability and long-term costs.
+
+# **CLOSING THOUGHT**
+
+The next stage of AI adoption will not be decided by model intelligence alone.
+
+It will be decided by how reliably, securely and economically businesses can put that intelligence to work.
+
+*SanMitra AI News Wire*\
+*Technology for Trust, Governance and Growth*
+
+**Watch the daily AI news update:**\
+[SanMitra Tech Solutions — YouTube](https://www.youtube.com/@SanMitraTechSolutions?utm_source=chatgpt.com)
+
+*Follow the channel for your daily AI news updates.*
+
+\#AI #ArtificialIntelligence #Gemini #OpenAI #NVIDIA #ChinaAI #IndiaAI #AIGovernance #AISecurity #EnterpriseAI #SanMitraAINewsWire
+
+Editorial note: This brief prioritises developments reported or announced during the 12–13 November 2026 window. Some company performance and capability figures are company-reported claims, not independent validation. The NVIDIA leadership announcement is based on the company's own release.
+

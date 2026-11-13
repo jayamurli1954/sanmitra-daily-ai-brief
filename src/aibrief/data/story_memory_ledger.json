@@ -1,262 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-13",
   "stories": [
-    {
-      "story_id": "story_20261029_cognite_reports_1_billion_in_verifi",
-      "story_chain_id": "chain_global_cognite_reports_1_bi",
-      "headline": "Cognite reports $1 billion in verified AI value, confirming impact of industrial AI solutions",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/cognite-reports-1-billion-in-verified-ai-value-confirming-impact-of-industrial-ai-solutions/articleshow/135266756.cms"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 83
-    },
-    {
-      "story_id": "story_20261029_emotional_intimacy_from_ai_chatbots",
-      "story_chain_id": "chain_global_emotional_intimacy_f",
-      "headline": "‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital duty of care laws",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/australia-news/2026/oct/28/emotional-intimacy-ai-chatbots-ban-digital-duty-of-care-laws-australian-politics"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 83
-    },
-    {
-      "story_id": "story_20261029_elonville_us_residents_say_musk_s_x",
-      "story_chain_id": "chain_global_elonville_us_residen",
-      "headline": "‘Elonville’: US residents say Musk’s xAI offered to buy homes if they don’t sue over datacenter noise",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 83
-    },
-    {
-      "story_id": "story_20261029_ai_bots_flooded_2023_uk_government_",
-      "story_chain_id": "chain_global_ai_bots_flooded_2023",
-      "headline": "AI bots flooded 2023 UK government consultation on disposable vapes ban",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 75
-    },
-    {
-      "story_id": "story_20261029_social_media_is_full_of_weird_video",
-      "story_chain_id": "chain_global_social_media_is_full",
-      "headline": "Social media is full of weird video game mashups. Where are they all coming from?",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/games/2026/oct/28/social-media-is-full-of-weird-video-game-mashups-where-are-they-all-coming-from"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261029_south_korea_s_financial_industry_hi",
-      "story_chain_id": "chain_global_south_korea_s_financ",
-      "headline": "South Korea’s financial industry hit by fresh wave of cyberattacks",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261029_chart_anthropic_s_cash_pile_towers_",
-      "story_chain_id": "chain_global_chart_anthropic_s_ca",
-      "headline": "Chart: Anthropic's cash pile towers over nearly every U.S. company",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/27/anthropic-cash-investments-ipo.html"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261029_jim_cramer_warns_investors_not_to_g",
-      "story_chain_id": "chain_global_jim_cramer_warns_inv",
-      "headline": "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/10/27/jim-cramer-ai-trade-financing-risks.html"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261029_22_countries_meet_on_frontier_ai_sa",
-      "story_chain_id": "chain_global_22_countries_meet_on",
-      "headline": "22 countries meet on frontier AI safety, and Singapore proposes an AI incident-reporting pilot",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-virtual-leaders-meeting-on-frontier-ai-safety-co-hosted-by-norway-and-finland-oct-2026/"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261029_anthropic_extends_a_40_claude_disco",
-      "story_chain_id": "chain_global_anthropic_extends_a_",
-      "headline": "Anthropic extends a 40% Claude discount to state and local governments",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.anthropic.com/news/expanding-partnership-gsa"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261029_google_deepmind_s_genie_4_world_mod",
-      "story_chain_id": "chain_global_google_deepmind_s_ge",
-      "headline": "Google DeepMind's Genie 4 world model adds sound and live steering",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261029_diffuspace_open_sources_a_35b_diffu",
-      "story_chain_id": "chain_global_diffuspace_open_sour",
-      "headline": "DiffuSpace open-sources a 35B diffusion language model",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://finance.eastmoney.com/a/202610283911774416.html"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261029_sebi_weighs_a_home_grown_ai_model_f",
-      "story_chain_id": "chain_global_sebi_weighs_a_home_g",
-      "headline": "SEBI weighs a home-grown AI model for the securities market",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/indias-markets-regulator-sebi-weighs-domestic-ai-model-for-securities-trading-chairman-says/articleshow/135260275.cms"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261029_the_netherlands_plans_to_cut_about_",
-      "story_chain_id": "chain_global_the_netherlands_plan",
-      "headline": "The Netherlands plans to cut about 25,000 government jobs as it leans on AI",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://thenextweb.com/news/dutch-government-jobs-25000-cuts-ai"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261029_axiom_says_ai_agents_helped_it_comp",
-      "story_chain_id": "chain_global_axiom_says_ai_agents",
-      "headline": "Axiom says AI agents helped it computer-check the \"enormous theorem\"",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://axiommath.ai/research/the-enormous-theorem-formalized/"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261029_ant_group_updates_its_ling_model_fo",
-      "story_chain_id": "chain_global_ant_group_updates_it",
-      "headline": "Ant Group updates its Ling model for personal AI agents",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://news.aibase.cn/news/31918"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261029_gnani_ai_launches_a_speech_to_text_",
-      "story_chain_id": "chain_global_gnani_ai_launches_a_",
-      "headline": "Gnani AI launches a speech-to-text model trained on Indian phone calls",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://www.ciol.com/news/gnani-ais-prisma-v30-brings-new-capabilities-to-enterprise-voice-ai-12761619"
-      ],
-      "first_covered": "2026-10-29",
-      "last_major_update": "2026-10-29",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
     {
       "story_id": "story_20261030_microsoft_hits_10_quarters_of_recor",
       "story_chain_id": "chain_global_microsoft_hits_10_qu",
@@ -3091,6 +2836,306 @@
       "last_major_update": "2026-11-12",
       "update_phase": "initial_break",
       "impact_score": 66
+    },
+    {
+      "story_id": "story_20261112_rights_groups_urge_a_treaty_on_kill",
+      "story_chain_id": "chain_global_rights_groups_urge_a",
+      "headline": "Rights groups urge a treaty on \"killer robots\" before next week's UN talks",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.hrw.org/news/2026/11/12/global-treaty-needed-to-combat-autonomous-weapons-threat"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261112_google_launches_the_gemini_decision",
+      "story_chain_id": "chain_global_google_launches_the_",
+      "headline": "Google launches the Gemini Decisions API for fast yes/no and scoring calls",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261112_deepmind_s_alphagenome_2_predicts_h",
+      "story_chain_id": "chain_global_deepmind_s_alphageno",
+      "headline": "DeepMind's AlphaGenome 2 predicts how DNA changes affect individual cell types",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261112_baidu_launches_ernie_lightning_and_",
+      "story_chain_id": "chain_global_baidu_launches_ernie",
+      "headline": "Baidu launches ERNIE Lightning and a video model at Baidu World 2026",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://tpsreport.news/news/baidu-ernie-lightning-wizshot-me-qianfan"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261112_japan_weighs_binding_orders_and_pen",
+      "story_chain_id": "chain_global_japan_weighs_binding",
+      "headline": "Japan weighs binding orders and penalties for AI firms after incidents",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://english.kyodonews.net/articles/-/91104"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261112_openai_now_processes_api_requests_i",
+      "story_chain_id": "chain_global_openai_now_processes",
+      "headline": "OpenAI now processes API requests inside India",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.theweek.in/wire-updates/business/2026/11/12/openai-to-process-ai-requests-within-india-for-businesses-with-data-localisation-needs.html"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261112_databricks_launches_an_always_on_ge",
+      "story_chain_id": "chain_global_databricks_launches_",
+      "headline": "Databricks launches an always-on Genie agent for enterprise work",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261112_united_airlines_restricts_third_par",
+      "story_chain_id": "chain_global_united_airlines_rest",
+      "headline": "United Airlines restricts third-party AI agents from booking flights",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://united.mediaroom.com/news-releases?item=125496"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261112_google_releases_a2ui_1_0_an_open_st",
+      "story_chain_id": "chain_global_google_releases_a2ui",
+      "headline": "Google releases A2UI 1.0, an open standard for AI-generated screens",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261112_beijing_plans_capacity_for_200_000_",
+      "story_chain_id": "chain_global_beijing_plans_capaci",
+      "headline": "Beijing plans capacity for 200,000 robots a year by 2028",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://eastfrontier.com/2026/11/12/beijings-embodied-ai-plan-targets-200-000-robots-a-year-and-200-firms/"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261112_scaling_mathematical_proof_supervis",
+      "story_chain_id": "chain_global_scaling_mathematical",
+      "headline": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2610.40394"
+      ],
+      "first_covered": "2026-11-12",
+      "last_major_update": "2026-11-12",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261113_south_korea_s_hyundai_card_launches",
+      "story_chain_id": "chain_global_south_korea_s_hyunda",
+      "headline": "South Korea’s Hyundai Card launches AI tools for partners",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://www.techinasia.com/news/south-koreas-hyundai-card-launches-ai-tools-for-partners"
+      ],
+      "first_covered": "2026-11-13",
+      "last_major_update": "2026-11-13",
+      "update_phase": "initial_break",
+      "impact_score": 82
+    },
+    {
+      "story_id": "story_20261113_nebius_tests_the_neocloud_playbook_",
+      "story_chain_id": "chain_global_nebius_tests_the_neo",
+      "headline": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+      ],
+      "first_covered": "2026-11-13",
+      "last_major_update": "2026-11-13",
+      "update_phase": "initial_break",
+      "impact_score": 79
+    },
+    {
+      "story_id": "story_20261113_softbank_s_billion_dollar_loss_may_",
+      "story_chain_id": "chain_global_softbank_s_billion_d",
+      "headline": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
+      ],
+      "first_covered": "2026-11-13",
+      "last_major_update": "2026-11-13",
+      "update_phase": "initial_break",
+      "impact_score": 79
+    },
+    {
+      "story_id": "story_20261113_the_rise_of_housefishing",
+      "story_chain_id": "chain_global_the_rise_of_housefis",
+      "headline": "The rise of 'housefishing'",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss"
+      ],
+      "first_covered": "2026-11-13",
+      "last_major_update": "2026-11-13",
+      "update_phase": "initial_break",
+      "impact_score": 73
+    },
+    {
+      "story_id": "story_20261113_nectar_launches_an_ai_agent_to_auto",
+      "story_chain_id": "chain_global_nectar_launches_an_a",
+      "headline": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
+      ],
+      "first_covered": "2026-11-13",
+      "last_major_update": "2026-11-13",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261113_hugging_face_ceo_vows_to_keep_fight",
+      "story_chain_id": "chain_global_hugging_face_ceo_vow",
+      "headline": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/"
+      ],
+      "first_covered": "2026-11-13",
+      "last_major_update": "2026-11-13",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261113_huawei_cloud_sets_november_16_launc",
+      "story_chain_id": "chain_global_huawei_cloud_sets_no",
+      "headline": "Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/huawei-cloud-cloudrobo-wm1-2-ascend-native-embodied-world-model-launch-preview"
+      ],
+      "first_covered": "2026-11-13",
+      "last_major_update": "2026-11-13",
+      "update_phase": "initial_break",
+      "impact_score": 69
+    },
+    {
+      "story_id": "story_20261113_former_cainiao_cto_s_robot_startup_",
+      "story_chain_id": "chain_global_former_cainiao_cto_s",
+      "headline": "Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearly 5,000 Unit Orders",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/quantum-dynamics-li-qiang-embodied-robots-cainiao-double-11-warehouse-orders"
+      ],
+      "first_covered": "2026-11-13",
+      "last_major_update": "2026-11-13",
+      "update_phase": "initial_break",
+      "impact_score": 69
+    },
+    {
+      "story_id": "story_20261113_sg_physical_ai_startup_ropedia_expa",
+      "story_chain_id": "chain_global_sg_physical_ai_start",
+      "headline": "SG physical AI startup Ropedia expands robotics training data",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://www.techinasia.com/news/sg-physical-ai-startup-ropedia-expands-robotics-training-data"
+      ],
+      "first_covered": "2026-11-13",
+      "last_major_update": "2026-11-13",
+      "update_phase": "initial_break",
+      "impact_score": 67
     }
   ],
   "entity_index": {}
