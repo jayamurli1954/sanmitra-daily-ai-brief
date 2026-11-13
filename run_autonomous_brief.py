@@ -176,6 +176,17 @@ def run_pipeline(date_str=None, privacy="private", upload_youtube=True, render_v
                     build_linkedin_article(video_url=f"https://youtu.be/{video_id}")
                 except Exception as e:
                     print(f"[!] LinkedIn article link update failed: {e}")
+                # The full article in the editor's format, written by Claude.
+                # Without an API key, or on failure, the template article stays.
+                if os.environ.get("ANTHROPIC_API_KEY"):
+                    try:
+                        from src.aibrief.write_linkedin_article import write_article
+                        with open(active_file, "r", encoding="utf-8") as f:
+                            write_article(json.load(f), f"https://youtu.be/{video_id}")
+                    except Exception as e:
+                        print(f"[!] Claude LinkedIn article failed, template article kept: {e}")
+                else:
+                    print("[!] ANTHROPIC_API_KEY not set: LinkedIn article is the template version.")
             # The day's lead story as a vertical Short pointing to this episode.
             # A failed Short never fails the episode.
             if video_id:
