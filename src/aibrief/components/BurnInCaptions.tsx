@@ -40,19 +40,16 @@ export const BurnInCaptions: React.FC<BurnInCaptionsProps> = ({
     <div
       style={{
         position: "absolute",
-        // Story scenes: the gap above the lower third (which starts at y=810).
-        // Intro, recap and outro fill the middle of the frame with cards, so
-        // their captions sit just above the ticker instead.
-        top: isStoryScene ? 734 : 940,
+        // Story scenes: just above the clean lower-third bar. Intro, recap and
+        // outro fill the middle of the frame, so captions sit near the bottom.
+        bottom: isStoryScene ? 290 : 60,
         left: "50%",
         transform: "translateX(-50%)",
-        backgroundColor: "rgba(0, 0, 0, 0.88)",
-        border: "2px solid rgba(250, 204, 21, 0.85)",
-        padding: "8px 30px",
-        borderRadius: 10,
-        boxShadow: "0 6px 20px rgba(0, 0, 0, 0.85)",
+        backgroundColor: "rgba(0, 0, 0, 0.62)",
+        padding: "6px 22px",
+        borderRadius: 6,
         zIndex: 48,
-        maxWidth: 1700,
+        maxWidth: 1600,
         whiteSpace: "nowrap",
         textAlign: "center",
         pointerEvents: "none",
@@ -63,11 +60,9 @@ export const BurnInCaptions: React.FC<BurnInCaptionsProps> = ({
       <span
         style={{
           color: "#ffffff",
-          fontSize: 38,
-          fontWeight: 800,
+          fontSize: 34,
+          fontWeight: 600,
           lineHeight: 1.25,
-          letterSpacing: 0.3,
-          textShadow: "0 2px 6px rgba(0,0,0,1)",
         }}
       >
         {activeCue.text}
