@@ -1,0 +1,162 @@
+name: Cloud Fallback Production (PC asleep at 7 PM)
+
+# Production normally runs on the PC at 7:00 PM IST (run_nightly_production.bat).
+# When that run starts it pushes an empty "episode claim <date> by PC" commit.
+# This workflow wakes at about 7:45 PM IST: if nobody has claimed today's
+# episode, the PC was off or asleep, so the episode is produced here instead.
+# The cloud run pushes its own claim first, so a PC that wakes later skips.
+on:
+  schedule:
+    # 14:15 UTC = 19:45 IST. GitHub often starts scheduled runs 10-30 min late.
+    - cron: '15 14 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Build and render but do not upload, claim or commit (for testing)'
+        type: boolean
+        default: true
+      force:
+        description: 'Produce even if today''s episode is already claimed'
+        type: boolean
+        default: false
+
+concurrency:
+  group: cloud-fallback
+  cancel-in-progress: false
+
+jobs:
+  fallback:
+    name: Produce today's episode if the PC did not
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    permissions:
+      contents: write
+    env:
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+      FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force }}
+
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 100
+
+      - name: Has today's episode been claimed?
+        id: claim
+        run: |
+          TODAY=$(TZ=Asia/Kolkata date +%Y-%m-%d)
+          echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+          CLAIM=$(git log -100 --format=%s | grep -F "episode claim $TODAY " | head -1 || true)
+          if [ -n "$CLAIM" ] && [ "$FORCE" != "true" ]; then
+            echo "[*] Already claimed: $CLAIM. Nothing to do."
+            echo "produce=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "[!] No claim for $TODAY (or forced): producing in the cloud."
+          echo "produce=true" >> "$GITHUB_OUTPUT"
+          if [ "$DRY_RUN" != "true" ]; then
+            git config user.name "SanMitra Intelligence Bot"
+            git config user.email "bot@sanmitratech.com"
+            git commit --allow-empty -m "Auto: episode claim $TODAY by cloud [skip ci]"
+            git push origin HEAD:main
+          fi
+
+      - name: Setup Node.js 20
+        if: steps.claim.outputs.produce == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Setup Python 3.11
+        if: steps.claim.outputs.produce == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install System Multimedia Libraries
+        if: steps.claim.outputs.produce == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-noto-color-emoji fonts-dejavu-core
+
+      - name: Install Dependencies
+        if: steps.claim.outputs.produce == 'true'
+        run: |
+          npm ci
+          pip install -r requirements.txt
+          pip install imagehash PyWavelets
+
+      - name: Run Fact-Check and Gate Tests
+        if: steps.claim.outputs.produce == 'true'
+        run: python -m unittest discover -s tests -v
+
+      - name: Configure Cloud Authentication Secrets
+        if: steps.claim.outputs.produce == 'true'
+        env:
+          TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+          GDRIVE_TOKEN_JSON: ${{ secrets.GDRIVE_TOKEN_JSON }}
+          CLIENT_SECRET_JSON: ${{ secrets.CLIENT_SECRET_JSON }}
+        run: |
+          if [ -n "$TOKEN_JSON" ]; then echo "$TOKEN_JSON" > token.json; fi
+          if [ -n "$GDRIVE_TOKEN_JSON" ]; then echo "$GDRIVE_TOKEN_JSON" > gdrive_token.json; fi
+          if [ -n "$CLIENT_SECRET_JSON" ]; then echo "$CLIENT_SECRET_JSON" > client_secret.json; fi
+
+      # Same order as run_nightly_production.bat: editor brief, then Sunday's
+      # round-up or the day's collection, then build, voice, render and upload.
+      - name: Collect, Build, Render and Upload
+        if: steps.claim.outputs.produce == 'true'
+        env:
+          TODAY: ${{ steps.claim.outputs.today }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+          # The runner has no Claude Code sign-in, so the story rewrite is billed to this key.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python adopt_editor_brief.py --date "$TODAY"
+          if [ "$(date -d "$TODAY" +%A)" = "Sunday" ]; then
+            python weekly_roundup.py --date "$TODAY" || true
+          fi
+          if [ ! -f "prompts/$TODAY.md" ]; then
+            python nightly_brief_collector.py --date "$TODAY" --no-git --no-gdrive || echo "[!] Collector failed; the build tops up from the live harvest."
+          fi
+
+          if [ "$DRY_RUN" = "true" ]; then
+            python run_autonomous_brief.py --date "$TODAY" --no-upload
+            exit 0
+          fi
+
+          # 21:30 IST if there is still time to set it, otherwise 23:59 IST. An upload
+          # that finishes after the chosen time is published by YouTube on arrival.
+          NOW=$(TZ=Asia/Kolkata date +%H%M)
+          if [ "$NOW" -lt 2125 ]; then PUBLISH_AT=21:30; else PUBLISH_AT=23:59; fi
+          python run_autonomous_brief.py --date "$TODAY" --privacy private --publish-at-ist "$PUBLISH_AT"
+
+      # Without this the next run (PC or cloud) forgets the 14-day visual memory
+      # and the story ledger, and the no-repeat rules cannot work.
+      - name: Commit Episode Memory Back to the Repository
+        if: steps.claim.outputs.produce == 'true' && env.DRY_RUN != 'true' && always()
+        run: |
+          git config user.name "SanMitra Intelligence Bot"
+          git config user.email "bot@sanmitratech.com"
+          git add prompts/ src/aibrief/data/visual_memory.json src/aibrief/data/story_memory_ledger.json || true
+          if git diff --staged --quiet; then
+            echo "[*] No memory changes to commit."
+          else
+            git commit -m "Auto: episode memory for ${{ steps.claim.outputs.today }} (cloud fallback) [skip ci]"
+            git stash --quiet || true
+            git pull --rebase origin main && git push origin HEAD:main
+          fi
+
+      # The repository is public: the MP4 is deliberately NOT uploaded as an artifact.
+      - name: Upload QA Summary, Thumbnails and Posts
+        if: steps.claim.outputs.produce == 'true' && always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloud-fallback-${{ steps.claim.outputs.today }}
+          path: |
+            out/aibrief/*.png
+            out/aibrief/*.srt
+            out/aibrief/*.txt
+            out/aibrief/*.md
+          retention-days: 7
