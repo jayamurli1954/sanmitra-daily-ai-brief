@@ -4,22 +4,55 @@ REM SanMitra AI News Wire - 7:00 PM IST evening production on this PC
 REM Collects the day's AI news, builds today's episode (8-10 stories, topping up
 REM fact-checked stories), renders it, and uploads it to YouTube as PRIVATE with
 REM a scheduled publish at 21:30 IST. YouTube makes it public; the PC can be off.
-REM A run that starts at 8 PM or later (a late or catch-up run) cannot be ready by
-REM 9:30 PM, so it builds tomorrow's episode and publishes it at 09:30 IST instead.
+REM A late or catch-up run (the PC was asleep at 7 PM) cannot be ready by 9:30 PM:
+REM   started 8 PM to 9:59 PM  -> still builds TODAY's episode, public at 23:59 IST
+REM                               (or on upload, if the upload finishes after that)
+REM   started 10 PM or later   -> builds tomorrow's episode, public at 09:30 IST
+REM Only one production may run at a time: the runs share timings, audio and
+REM metadata files, so a second run started alongside the first corrupts both.
 REM ==============================================================================
 cd /d "D:\MyProjects\Remotion Studio"
 set PYTHONIOENCODING=utf-8
 set PYTHONUTF8=1
 if not exist "out\aibrief\logs" mkdir "out\aibrief\logs"
 
-for /f %%i in ('powershell -NoProfile -Command "if ((Get-Date).Hour -lt 20) { (Get-Date).ToString('yyyy-MM-dd') } else { (Get-Date).AddDays(1).ToString('yyyy-MM-dd') }"') do set EPISODE_DATE=%%i
-for /f %%i in ('powershell -NoProfile -Command "if ((Get-Date).Hour -lt 20) { '21:30' } else { '09:30' }"') do set PUBLISH_AT=%%i
+REM Refuse to start while another production is running (scheduled or started by hand).
+powershell -NoProfile -Command "if (Get-CimInstance Win32_Process | Where-Object { $_.Name -eq 'python.exe' -and $_.CommandLine -match 'run_autonomous_brief|nightly_brief_collector|weekly_roundup' }) { exit 1 } else { exit 0 }"
+if errorlevel 1 (
+    echo %DATE% %TIME% run_nightly_production.bat skipped: another production run is already active >> "out\aibrief\logs\skipped_runs.log"
+    exit /b 0
+)
+
+for /f %%i in ('powershell -NoProfile -Command "if ((Get-Date).Hour -lt 22) { (Get-Date).ToString('yyyy-MM-dd') } else { (Get-Date).AddDays(1).ToString('yyyy-MM-dd') }"') do set EPISODE_DATE=%%i
+for /f %%i in ('powershell -NoProfile -Command "$h = (Get-Date).Hour; if ($h -lt 20) { '21:30' } elseif ($h -lt 22) { '23:59' } else { '09:30' }"') do set PUBLISH_AT=%%i
 for /f %%i in ('powershell -NoProfile -Command "Get-Date -Format yyyy-MM-dd_HHmm"') do set RUNSTAMP=%%i
 set LOG=out\aibrief\logs\nightly_%RUNSTAMP%.log
 
 echo ====================================================================== >> "%LOG%"
 echo PRODUCTION for %EPISODE_DATE% at %PUBLISH_AT% IST - started %DATE% %TIME% >> "%LOG%"
 echo ====================================================================== >> "%LOG%"
+
+REM Sync with GitHub, then claim the episode. The cloud fallback
+REM (.github\workflows\cloud_fallback.yml) wakes at about 7:45 PM IST and produces
+REM the episode itself when nobody has claimed it, so the claim is what tells it
+REM this PC is awake. A cloud claim means it is already producing: skip.
+git pull --no-rebase --no-edit origin main >> "%LOG%" 2>&1
+if errorlevel 1 (
+    echo [!] git pull failed: commits from GitHub, including cloud fallback memory, are not merged. >> "%LOG%"
+    git merge --abort >> "%LOG%" 2>&1
+    git fetch origin main >> "%LOG%" 2>&1
+)
+git log origin/main -100 --format=%%s | findstr /C:"episode claim %EPISODE_DATE% by cloud" >nul
+if not errorlevel 1 (
+    echo The cloud fallback already claimed %EPISODE_DATE%: skipping this run. >> "%LOG%"
+    exit /b 0
+)
+git log origin/main -100 --format=%%s | findstr /C:"episode claim %EPISODE_DATE% by PC" >nul
+if errorlevel 1 (
+    git commit --allow-empty --only -m "Auto: episode claim %EPISODE_DATE% by PC [skip ci]" >> "%LOG%" 2>&1
+    git push origin main >> "%LOG%" 2>&1
+    if errorlevel 1 echo [!] Could not push the episode claim: the cloud fallback may also produce %EPISODE_DATE%. >> "%LOG%"
+)
 
 REM 0. An editor's brief saved as prompts\%EPISODE_DATE%.md instead of prompts\editor\
 REM    would be overwritten by the collector: move it into prompts\editor\ first.
