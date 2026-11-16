@@ -1,0 +1,512 @@
+{
+  "weekly": false,
+  "date": "2026-11-16",
+  "formattedDate": "16 November 2026",
+  "title": "SK Hynix to spend 1 billion | ‘Standing on one leg’: IMF chief | Freshworks alums raise 53 million | AI News 16 November 2026",
+  "intro": {
+    "durationSeconds": 62,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 16 November 2026. First, today's top headlines: SK Hynix to spend 1 billion dollars over five years to support chip suppliers. ‘Standing on one leg’: IMF chief warns about global economy as AI circular financing hits 1 trillion dollars. Freshworks alums raise 53 million dollars to take on Salesforce, HubSpot with AI-native CRM. Tencent Cloud signs AI deal with Capital A’s logistics arm. New hardware for the billion-dollar quantum computing race. IBM investing 3 billion dollars annually in India, plans 10 billion dollars global quantum push: CEO. Alibaba unveils new flagship AI model with safety upgrades. Huawei Launches Xiaoyi AI Membership With Credit-Based Plans From 49 to 499 Yuan a Month. upGrad Enters Enterprise Advisory With Launch Of upGrad Next. Europe hunts for Palantir alternatives as militaries seek to limit US dependence. And now, the news in brief.",
+    "headlines": [
+      "SK Hynix to spend 1 billion dollars over five years to support chip suppliers",
+      "‘Standing on one leg’: IMF chief warns about global economy as AI circular financing hits 1 trillion dollars",
+      "Freshworks alums raise 53 million dollars to take on Salesforce, HubSpot with AI-native CRM",
+      "Tencent Cloud signs AI deal with Capital A’s logistics arm",
+      "New hardware for the billion-dollar quantum computing race",
+      "IBM investing 3 billion dollars annually in India, plans 10 billion dollars global quantum push: CEO",
+      "Alibaba unveils new flagship AI model with safety upgrades",
+      "Huawei Launches Xiaoyi AI Membership With Credit-Based Plans From 49 to 499 Yuan a Month",
+      "upGrad Enters Enterprise Advisory With Launch Of upGrad Next",
+      "Europe hunts for Palantir alternatives as militaries seek to limit US dependence"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_sk_hynix_to_spend_1_billion_doll",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "SK Hynix to spend 1 billion dollars over five years to support chip suppliers",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 99,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/sk-hynix-to-spend-1-billion-over-five-years-to-support-chip-suppliers/articleshow/135878099.cms",
+      "researchDesk": "",
+      "script": "Our lead story today. South Korea's SK Hynix said on Monday it plans to spend 1.4 trillion won (1.05 billion dollars ) over the next five years to support domestic suppliers of semiconductor materials, parts and equipment, aiming to strengthen its supply chain as competition intensifies",
+      "whyThisMatters": "South Korea's SK Hynix said on Monday it plans to spend 1.4 trillion won ($1.05 billion) over the next five years to support domestic suppliers of semiconductor materials, parts and equipment, aiming to strengthen its su",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SK Hynix to spend 1 billion dollars over five years to support chip suppliers",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s1_cut1.jpg",
+          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s1_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s1_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_standing_on_one_leg_imf_chief_w",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "‘Standing on one leg’: IMF chief warns about global economy as AI circular financing hits 1 trillion dollars",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html",
+      "researchDesk": "",
+      "script": "Turning to the United States. Kristalina Georgieva says circular financing among AI companies has grown to just over 1 trillion dollars , two-thirds of it debt, as investor enthusiasm cools",
+      "whyThisMatters": "Kristalina Georgieva says circular financing among AI companies has grown to just over $1 trillion, two-thirds of it debt, as investor enthusiasm cools",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "‘Standing on one leg’: IMF chief warns about global economy as AI circular finan",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s2_cut1.jpg",
+          "badge": "SK HYNIX • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s2_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s2_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_freshworks_alums_raise_53_millio",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Freshworks alums raise 53 million dollars to take on Salesforce, HubSpot with AI-native CRM",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+      "researchDesk": "",
+      "script": "In other news. Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+      "whyThisMatters": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Freshworks alums raise 53 million dollars to take on Salesforce, HubSpot with AI",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s3_cut1.jpg",
+          "badge": "IBM • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s3_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s3_cut3.jpg",
+          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_tencent_cloud_signs_ai_deal_with",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Tencent Cloud signs AI deal with Capital A’s logistics arm",
+      "subheadline": "Source: Tech in Asia",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/news/tencent-cloud-signs-ai-deal-capital-logistics-arm",
+      "researchDesk": "",
+      "script": "In China. Teleport said its network moves up to 1.25 million parcels a day using capacity from more than 55 airline partners.",
+      "whyThisMatters": "Teleport said its network moves up to 1.25 million parcels a day using capacity from more than 55 airline partners.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Tencent Cloud signs AI deal with Capital A’s logistics arm",
+        "Tech in Asia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s4_cut1.jpg",
+          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s4_cut2.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s4_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_new_hardware_for_the_billion_dol",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "New hardware for the billion-dollar quantum computing race",
+      "subheadline": "Source: Tech in Asia",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/hardware-billiondollar-quantum-computing-race",
+      "researchDesk": "",
+      "script": "In Asia. Quantum Logic aims to capitalize on the AI-driven quantum boom by solving the cryogenic limitations preventing massive qubit scaling.",
+      "whyThisMatters": "Quantum Logic aims to capitalize on the AI-driven quantum boom by solving the cryogenic limitations preventing massive qubit scaling.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "New hardware for the billion-dollar quantum computing race",
+        "Tech in Asia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s5_cut1.jpg",
+          "badge": "NEXT • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s5_cut2.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s5_cut3.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_ibm_investing_3_billion_dollars",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "IBM investing 3 billion dollars annually in India, plans 10 billion dollars global quantum push: CEO",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/ibm-investing-3-billion-annually-in-india-plans-10-billion-global-quantum-push-ceo/articleshow/135884070.cms",
+      "researchDesk": "",
+      "script": "Turning to India. AI could displace 10-20% of jobs over the next decade, with the business process outsourcing (BPO) industry likely to face some of the biggest reductions in employment, Krishna said, arguing that businesses and governments would need to prepare workers for changes in the nature of work.",
+      "whyThisMatters": "AI could displace 10-20% of jobs over the next decade, with the business process outsourcing (BPO) industry likely to face some of the biggest reductions in employment, Krishna said, arguing that businesses and governmen",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "IBM investing 3 billion dollars annually in India, plans 10 billion dollars glob",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s6_cut1.jpg",
+          "badge": "STANDING • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s6_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s6_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_alibaba_unveils_new_flagship_ai",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Alibaba unveils new flagship AI model with safety upgrades",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/alibaba-unveils-new-flagship-ai-model-with-safety-upgrades/articleshow/135874755.cms",
+      "researchDesk": "",
+      "script": "In China. China's Alibaba unveiled its new flagship artificial intelligence model Qwen4-Max on Sunday, saying it enhanced the system's ability to handle complex professional and scientific work while improving protections against safety risks.",
+      "whyThisMatters": "China's Alibaba unveiled its new flagship artificial intelligence model Qwen4-Max on Sunday, saying it enhanced the system's ability to handle complex professional and scientific work while improving protections against ",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Alibaba unveils new flagship AI model with safety upgrades",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s7_cut1.jpg",
+          "badge": "HANGZHOU • ALIBABA CLOUD XIXI CAMPUS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s7_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s7_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_huawei_launches_xiaoyi_ai_member",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Huawei Launches Xiaoyi AI Membership With Credit-Based Plans From 49 to 499 Yuan a Month",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/huawei-xiaoyi-ai-membership-credit-plans-xiaoyi-work-harmonyos",
+      "researchDesk": "",
+      "script": "Next. Huawei's new Xiaoyi AI membership turns paid features into credits: 49 yuan for 1,000, Pro at 199 yuan for 6,000 and Max at 499 yuan for 15,000 a month.",
+      "whyThisMatters": "Huawei's new Xiaoyi AI membership turns paid features into credits: 49 yuan for 1,000, Pro at 199 yuan for 6,000 and Max at 499 yuan for 15,000 a month.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Huawei Launches Xiaoyi AI Membership With Credit-Based Plans From 49 to 499 Yuan",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s8_cut1.jpg",
+          "badge": "HUAWEI • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s8_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s8_cut3.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_upgrad_enters_enterprise_advisor",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "upGrad Enters Enterprise Advisory With Launch Of upGrad Next",
+      "subheadline": "Source: Inc42",
+      "importanceScore": 90,
+      "durationSeconds": 48,
+      "source": "Inc42",
+      "sourceUrl": "https://inc42.com/buzz/upgrad-enters-enterprise-advisory-with-launch-of-upgrad-next/",
+      "researchDesk": "",
+      "script": "Turning to India. upGrad has launched upGrad Next, an enterprise advisory practice that combines consulting with the edtech company’s existing workforce skilling and hiring services The launch puts upGrad in a position to advise companies on how to restructure teams and prepare employees for AI adoption, then help implement those changes Four former Deloitte and EY executives will lead the practice as managing directors, with more senior leaders expected to join in the coming weeks Edtech unicorn upGrad has launched upGrad Next, an enterprise advisory practice that will help companies restructure their organisations and prepare their employees for AI adoption. The new vertical will advise senior executives on organisational structure, hiring, employee compensation, and workforce development.",
+      "whyThisMatters": "upGrad has launched upGrad Next, an enterprise advisory practice that combines consulting with the edtech company’s existing workforce skilling and hiring services The launch puts upGrad in a position to advise companies",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "upGrad Enters Enterprise Advisory With Launch Of upGrad Next",
+        "Inc42"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s9_cut1.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s9_cut2.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s9_cut3.jpg",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_europe_hunts_for_palantir_altern",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Europe hunts for Palantir alternatives as militaries seek to limit US dependence",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence/articleshow/135877776.cms",
+      "researchDesk": "",
+      "script": "Also today. Last week, Germany's Helsing unveiled military intelligence software called Clarity. It is part of a broader market for AI-powered systems designed to accelerate military decision-making by helping sift through vast quantities of data to help identify threats and recommend action, including targeting and attacks.",
+      "whyThisMatters": "Last week, Germany's Helsing unveiled military intelligence software called Clarity.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Europe hunts for Palantir alternatives as militaries seek to limit US dependence",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s10_cut1.jpg",
+          "badge": "PALANTIR • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s10_cut2.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-16/s10_cut3.jpg",
+          "badge": "DEFENSE RESEARCH LAB • AUTONOMOUS GUIDANCE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. SK Hynix to spend 1 billion dollars over five years to support chip suppliers. ‘Standing on one leg’: IMF chief warns about global economy as AI circular financing hits 1 trillion dollars. Freshworks alums raise 53 million dollars to take on Salesforce, HubSpot with AI-native CRM. Tencent Cloud signs AI deal with Capital A’s logistics arm. New hardware for the billion-dollar quantum computing race. IBM investing 3 billion dollars annually in India, plans 10 billion dollars global quantum push: CEO.",
+    "items": [
+      "✓ SK Hynix to spend 1 billion dollars over five ye",
+      "✓ ‘Standing on one leg’: IMF chief warns about glo",
+      "✓ Freshworks alums raise 53 million dollars to tak",
+      "✓ Tencent Cloud signs AI deal with Capital A’s log",
+      "✓ New hardware for the billion-dollar quantum comp",
+      "✓ IBM investing 3 billion dollars annually in Indi",
+      "✓ Alibaba unveils new flagship AI model with safet"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "SK Hynix to spend 1 billion dollars over five",
+    "‘Standing on one leg’: IMF chief warns about ",
+    "Freshworks alums raise 53 million dollars to ",
+    "Tencent Cloud signs AI deal with Capital A’s ",
+    "New hardware for the billion-dollar quantum c",
+    "IBM investing 3 billion dollars annually in I",
+    "Alibaba unveils new flagship AI model with sa",
+    "Huawei Launches Xiaoyi AI Membership With Cre",
+    "upGrad Enters Enterprise Advisory With Launch",
+    "Europe hunts for Palantir alternatives as mil"
+  ],
+  "thumbnail": {
+    "date": "16 NOVEMBER 2026",
+    "headline": "SK HYNIX TO SPEND 1 BILLION DOLLARS OVER",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "SK HYNIX TO SPEND 1 BILLION DOLLARS",
+      "‘STANDING ON ONE LEG’: IMF CHIEF",
+      "FRESHWORKS ALUMS RAISE 53 MILLION",
+      "TENCENT CLOUD SIGNS AI DEAL WITH"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "SK Hynix to spend 1 billion | ‘Standing on one leg’: IMF chief | Freshworks alums raise 53 million | AI News 16 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 16 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

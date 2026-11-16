@@ -1,0 +1,445 @@
+{
+  "weekly": false,
+  "date": "2026-11-14",
+  "formattedDate": "14 November 2026",
+  "title": "Microsoft says services fully | Jensen Huang’s departure blasts | AI agent startup LangChain hits 3 | AI News 14 November 2026",
+  "intro": {
+    "durationSeconds": 55,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 14 November 2026. First, today's top headlines: Microsoft says services fully restored after day-long global outage. Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say. AI agent startup LangChain hits 3 billion dollars valuation. Export-banned Nvidia chips are behind China’s most powerful AI models uh-oh, Jensen!. ‘It’s like the wild west’: how AI has rocked the literary world. ‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths. Nvidia approaches Arm Holdings CEO Haas to take over Jensen Huang's job, Elon Musk backs Huang's reinstatement. ChatGPT’s new Wallet lets AI agents shop and check out for you. Meet the seven co-founders of Anthropic. And now, the news in brief.",
+    "headlines": [
+      "Microsoft says services fully restored after day-long global outage",
+      "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "AI agent startup LangChain hits 3 billion dollars valuation",
+      "Export-banned Nvidia chips are behind China’s most powerful AI models uh-oh, Jensen!",
+      "‘It’s like the wild west’: how AI has rocked the literary world",
+      "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths",
+      "Nvidia approaches Arm Holdings CEO Haas to take over Jensen Huang's job, Elon Musk backs Huang's reinstatement",
+      "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "Meet the seven co-founders of Anthropic"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_microsoft_says_services_fully_re",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Microsoft says services fully restored after day-long global outage",
+      "subheadline": "Source: BBC",
+      "importanceScore": 99,
+      "durationSeconds": 58,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+      "researchDesk": "",
+      "script": "Our lead story today. Microsoft says its services are back to normal after a worldwide outage that disrupted several of its most widely used tools. According to the BBC, the company said early on Saturday morning that it had finished work on the root cause, and that customers of Outlook, Teams and Copilot should no longer see problems. The disruption reached more than 70 countries. It affected companies, government services and individual users alike. The products involved have more than 430 million users around the globe. Microsoft apologised and said the fault was introduced during what it called a \"network capacity upgrade.\" The company said neither a cyber-attack nor an artificial intelligence agent was to blame. Experts described the incident as a \"stark reminder\" of how much businesses and essential services depend on a handful of large technology providers.",
+      "whyThisMatters": "Microsoft says its services are back to normal after a worldwide outage that disrupted several of its most widely used tools.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Microsoft says services fully restored after day-long global outage",
+        "BBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s1_cut1.jpg",
+          "badge": "WORLD DEFENSE OPERATIONS • AUTONOMOUS TARGETING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s1_cut2.jpg",
+          "badge": "WORLD CYBER THREAT OPERATIONS • RED-TEAM DESK",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s1_cut3.jpg",
+          "badge": "WORLD STRATEGIC THREAT INTELLIGENCE • NETWORK MONITOR",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_jensen_huang_s_departure_blasts",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 56,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Jensen Huang's resignation from Nvidia is sending shockwaves through the AI startup world, TechCrunch reports. Huang co-founded the chipmaker and led it for 33 years before formally stepping down. One founder of a so-called neocloud company told TechCrunch the news felt \"like a bomb went off.\" In recent years Nvidia has become one of the most active backers of young companies, investing tens of billions of dollars in startups each year. According to PitchBook, it has taken part in 105 funding rounds this year alone, frequently as the lead investor. Maria Davidson, founder of Relational Capital, warned that any change in that strategy would hit many young companies hard. Investors say Huang's exit leaves startups without one of their strongest advocates and with much less money available for now.",
+      "whyThisMatters": "Jensen Huang's resignation from Nvidia is sending shockwaves through the AI startup world, TechCrunch reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s2_cut1.jpg",
+          "badge": "USA SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s2_cut2.jpg",
+          "badge": "USA ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s2_cut3.jpg",
+          "badge": "USA MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_ai_agent_startup_langchain_hits",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "AI agent startup LangChain hits 3 billion dollars valuation",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 55,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "researchDesk": "",
+      "script": "In other news. LangChain, a startup that helps businesses manage AI agents, has raised 300 million dollars in a Series C round that values it at 3 billion dollars, the company announced on Friday. CapitalG led the round. Other participants included Singapore's GIC, DFJ Growth, IVP and Sapphire Ventures. The new valuation is more than twice the 1.25 billion dollars the company was worth roughly a year ago, when it raised 125 million dollars in a round led by IVP. LangChain started in 2022 as a widely used open source project. It tackled jobs that early large language models struggled with, such as web searches, calling software interfaces and working with databases. As the leading AI labs built tools that now handle those tasks well, LangChain shifted to managing AI agents.",
+      "whyThisMatters": "LangChain, a startup that helps businesses manage AI agents, has raised 300 million dollars in a Series C round that values it at 3 billion dollars, the company announced on Friday.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI agent startup LangChain hits 3 billion dollars valuation",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s3_cut1.jpg",
+          "badge": "USA FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s3_cut2.jpg",
+          "badge": "USA AUTONOMOUS AGENT RUNTIME • EVALUATION HUD",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s3_cut3.jpg",
+          "badge": "USA BENCHMARK VERIFICATION • SYSTEM TELEMETRY",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_export_banned_nvidia_chips_are_b",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Export-banned Nvidia chips are behind China’s most powerful AI models uh-oh, Jensen!",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 51,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "researchDesk": "",
+      "script": "In China. China's leading open-weight AI models were trained on Nvidia chips that the United States had barred from export to the country, according to a new research effort reported by TechCrunch. The findings suggest Chinese frontier labs have broad access to Nvidia's Blackwell GPUs, underscoring the scale of the challenge facing the chip designer. The report comes in the same week that Nvidia chief executive Jensen Huang left the company. He had admitted to an affair with Alice Huang, an executive at Megaspeed, a firm implicated in smuggling Nvidia chips into China. Alice Huang has also been alleged to be an agent of Chinese intelligence. Much of the public attention has focused on Jensen Huang's relationships with a customer and two employees.",
+      "whyThisMatters": "China's leading open-weight AI models were trained on Nvidia chips that the United States had barred from export to the country, according to a new research effort reported by TechCrunch.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Export-banned Nvidia chips are behind China’s most powerful AI models uh-oh, Jen",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s4_cut1.jpg",
+          "badge": "CHINA SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s4_cut2.jpg",
+          "badge": "CHINA ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s4_cut3.jpg",
+          "badge": "CHINA MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_it_s_like_the_wild_west_how_ai",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "‘It’s like the wild west’: how AI has rocked the literary world",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 51,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/books/ng-interactive/2026/nov/14/its-like-the-wild-west-how-ai-has-rocked-the-literary-world",
+      "researchDesk": "",
+      "script": "Around the world. Artificial intelligence is reshaping how some novelists work, and one romance writer offers a striking example, the Guardian reports. Coral Hart first broke through writing for Mills & Boon. In 2012 she began experimenting with self-publishing, drawn to dark romance, a subgenre of troubled, toxic love stories that was gaining readers online but that traditional publishers avoided. Three years later, she was doing well enough to self-publish full-time. Hart sells through Kindle Unlimited, where the algorithm favours authors who release a new title at least once a month. She says she knows writers who employ more than a dozen ghostwriters to keep up. On her own, Hart can produce 10,000 words a day, but AI lets her go much further.",
+      "whyThisMatters": "Artificial intelligence is reshaping how some novelists work, and one romance writer offers a striking example, the Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "‘It’s like the wild west’: how AI has rocked the literary world",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s5_cut1.jpg",
+          "badge": "WORLD FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s5_cut2.jpg",
+          "badge": "WORLD AUTONOMOUS AGENT RUNTIME • EVALUATION HUD",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s5_cut3.jpg",
+          "badge": "WORLD BENCHMARK VERIFICATION • SYSTEM TELEMETRY",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_ahead_of_his_time_ai_helps_unlo",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 59,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "researchDesk": "",
+      "script": "Also today. Artificial intelligence is helping researchers decode the private notebooks of one of the twentieth century's great mathematical minds, the Guardian reports. The Austrian logician Kurt Gödel published two incompleteness theorems in 1931 that reshaped mathematics and helped lay the groundwork for the digital era. After his landmark work of the 1930s, he put out only a handful of papers. Yet he left behind tens of thousands of unpublished pages, which historians of science regard as highly valuable. Since 2017, Finnish logician Jan von Plato has directed a project at Helsinki University to make sense of 16 notebooks Gödel filled in the early 1940s. Known as the workbooks, they run to 1,009 tightly packed pages on mathematics and logic. Much of the material is in Gabelsberger, a German shorthand that had already fallen out of use when Gödel wrote in it.",
+      "whyThisMatters": "Artificial intelligence is helping researchers decode the private notebooks of one of the twentieth century's great mathematical minds, the Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who ",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s6_cut1.jpg",
+          "badge": "WORLD FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s6_cut2.jpg",
+          "badge": "WORLD AUTONOMOUS AGENT RUNTIME • EVALUATION HUD",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s6_cut3.jpg",
+          "badge": "WORLD BENCHMARK VERIFICATION • SYSTEM TELEMETRY",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_nvidia_approaches_arm_holdings_c",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Nvidia approaches Arm Holdings CEO Haas to take over Jensen Huang's job, Elon Musk backs Huang's reinstatement",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 49,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/nvidia-approaches-arm-holdings-ceo-haas-to-take-over-jensen-huangs-job-elon-musk-backs-huangs-reinstatement/articleshow/135821129.cms",
+      "researchDesk": "",
+      "script": "In other news. Nvidia's board has reached out to Arm Holdings chief executive Rene Haas as a possible replacement for Jensen Huang, the Economic Times reports, citing the Financial Times. Huang resigned as head of the chipmaker amid a controversy over alleged extramarital relationships. According to people familiar with the matter, Haas is one of several candidates the board is weighing as it considers its leadership options. Haas has run Arm, the SoftBank-backed British chip designer, since 2022. More than a decade ago he spent around seven years at Nvidia, and he is understood to have close working ties with Huang and a number of board members. Nvidia, however, says the search is still in its early stages.",
+      "whyThisMatters": "Nvidia's board has reached out to Arm Holdings chief executive Rene Haas as a possible replacement for Jensen Huang, the Economic Times reports, citing the Financial Times.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nvidia approaches Arm Holdings CEO Haas to take over Jensen Huang's job, Elon Mu",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s7_cut1.jpg",
+          "badge": "WORLD SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s7_cut2.jpg",
+          "badge": "WORLD ACCELERATED COMPUTE • TENSOR CLUSTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s7_cut3.jpg",
+          "badge": "WORLD MICROELECTRONICS R&D • PACKAGING FLOOR",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_chatgpt_s_new_wallet_lets_ai_age",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 56,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "researchDesk": "",
+      "script": "Turning to the United States. OpenAI has introduced a wallet feature that allows its AI agents to help users choose products and then buy them, TechCrunch reports. The agents are called dots. The feature launched on Friday, and at first only a limited number of users in the United States will have access. OpenAI says shoppers stay in charge of every purchase. Before checkout, they can review the items, the total cost and the payment card to be charged. Each purchase must also be approved directly through a security check such as Face ID or a fingerprint, which creates a record of the transaction. The launch comes as companies building consumer AI tools search for the right fit with users, trying to show how their products can help people get everyday tasks done more efficiently.",
+      "whyThisMatters": "OpenAI has introduced a wallet feature that allows its AI agents to help users choose products and then buy them, TechCrunch reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s8_cut1.jpg",
+          "badge": "USA DEFENSE OPERATIONS • AUTONOMOUS TARGETING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s8_cut2.jpg",
+          "badge": "USA CYBER THREAT OPERATIONS • RED-TEAM DESK",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s8_cut3.jpg",
+          "badge": "USA STRATEGIC THREAT INTELLIGENCE • NETWORK MONITOR",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_meet_the_seven_co_founders_of_an",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Meet the seven co-founders of Anthropic",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 55,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
+      "researchDesk": "",
+      "script": "Elsewhere. Anthropic, the artificial intelligence company founded in 2021, is preparing to go public, with trading expected to start on November 19, CNBC reports. The listing is set to rank among the largest IPOs ever, and each of its seven co-founders stands to be worth many billions of dollars. The founding group included four researchers, a former journalist, a public policy specialist and an engineer. At the end of 2020, siblings Dario and Daniela Amodei were vice presidents at OpenAI, the maker of ChatGPT. They had become unhappy with how their employer approached AI safety, worried that the abilities of AI models could outpace human understanding of them. Early the following year they started Anthropic, bringing several OpenAI colleagues along: Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish and Chris Olah.",
+      "whyThisMatters": "Anthropic, the artificial intelligence company founded in 2021, is preparing to go public, with trading expected to start on November 19, CNBC reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Meet the seven co-founders of Anthropic",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s9_cut1.jpg",
+          "badge": "USA FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s9_cut2.jpg",
+          "badge": "USA AUTONOMOUS AGENT RUNTIME • EVALUATION HUD",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-14/s9_cut3.jpg",
+          "badge": "USA BENCHMARK VERIFICATION • SYSTEM TELEMETRY",
+          "panDirection": "zoomOut"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. Microsoft says services fully restored after day-long global outage. Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say. AI agent startup LangChain hits 3 billion dollars valuation. Export-banned Nvidia chips are behind China’s most powerful AI models uh-oh, Jensen!. ‘It’s like the wild west’: how AI has rocked the literary world. ‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths.",
+    "items": [
+      "✓ Microsoft says services fully restored after day",
+      "✓ Jensen Huang’s departure blasts big hole in AI s",
+      "✓ AI agent startup LangChain hits 3 billion dollar",
+      "✓ Export-banned Nvidia chips are behind China’s mo",
+      "✓ ‘It’s like the wild west’: how AI has rocked the",
+      "✓ ‘Ahead of his time’: AI helps unlock discoveries",
+      "✓ Nvidia approaches Arm Holdings CEO Haas to take "
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Microsoft says services fully restored after ",
+    "Jensen Huang’s departure blasts big hole in A",
+    "AI agent startup LangChain hits 3 billion dol",
+    "Export-banned Nvidia chips are behind China’s",
+    "‘It’s like the wild west’: how AI has rocked ",
+    "‘Ahead of his time’: AI helps unlock discover",
+    "Nvidia approaches Arm Holdings CEO Haas to ta",
+    "ChatGPT’s new Wallet lets AI agents shop and ",
+    "Meet the seven co-founders of Anthropic"
+  ],
+  "thumbnail": {
+    "date": "14 NOVEMBER 2026",
+    "headline": "MICROSOFT SAYS SERVICES FULLY RESTORED AFTER",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "MICROSOFT SAYS SERVICES FULLY",
+      "JENSEN HUANG’S DEPARTURE BLASTS BIG",
+      "AI AGENT STARTUP LANGCHAIN HITS 3",
+      "EXPORT-BANNED NVIDIA CHIPS ARE"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Microsoft says services fully | Jensen Huang’s departure blasts | AI agent startup LangChain hits 3 | AI News 14 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 14 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

@@ -1,5 +1,78 @@
 [
   {
+    "timestamp": "2026-11-15T22:18:04.825217",
+    "severity": "HIGH",
+    "message": "Episode failed Editorial Quality Gate (Composite: 78.5/100)",
+    "score_details": {
+      "date": "2026-11-15",
+      "composite_quality_score": 78.5,
+      "passes_quality_gate": false,
+      "threshold": 80.0,
+      "freshness_score": 95.0,
+      "source_authority_score": 80.0,
+      "bureau_balance_score": 50.0,
+      "active_bureaus": [
+        "WORLD"
+      ],
+      "duplication_score": 100.0,
+      "visual_freshness_score": 65.0,
+      "category_distribution": {
+        "robotics": 2,
+        "policy": 1,
+        "cyber": 2,
+        "datacenter": 2,
+        "energy": 3,
+        "researcher": 6,
+        "semiconductor": 1,
+        "product_demo": 2,
+        "research": 7,
+        "boardroom": 1,
+        "hardware": 3
+      },
+      "failed_checks": [
+        "Average Source Authority 80.0 < 85.0 required",
+        "Only 1 bureaus active (minimum 3 required)",
+        "Visual diversity cap exceeded in categories: ['energy', 'researcher', 'research', 'hardware']"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-11-14T21:35:51.002662",
+    "severity": "HIGH",
+    "message": "Episode failed Editorial Quality Gate (Composite: 58.5/100)",
+    "score_details": {
+      "date": "2026-11-14",
+      "composite_quality_score": 58.5,
+      "passes_quality_gate": false,
+      "threshold": 80.0,
+      "freshness_score": 95.0,
+      "source_authority_score": 0.0,
+      "bureau_balance_score": 50.0,
+      "active_bureaus": [],
+      "duplication_score": 100.0,
+      "visual_freshness_score": 65.0,
+      "category_distribution": {
+        "researcher": 4,
+        "defense": 2,
+        "robotics": 3,
+        "semiconductor": 3,
+        "datacenter": 2,
+        "boardroom": 4,
+        "hardware": 3,
+        "energy": 3,
+        "policy": 2,
+        "research": 5,
+        "cyber": 1,
+        "product_demo": 1
+      },
+      "failed_checks": [
+        "Average Source Authority 0.0 < 85.0 required",
+        "Only 0 bureaus active (minimum 3 required)",
+        "Visual diversity cap exceeded in categories: ['researcher', 'robotics', 'semiconductor', 'boardroom', 'hardware', 'energy', 'research']"
+      ]
+    }
+  },
+  {
     "timestamp": "2026-11-09T19:45:04.212158",
     "severity": "HIGH",
     "message": "Episode failed Editorial Quality Gate (Composite: 58.5/100)",

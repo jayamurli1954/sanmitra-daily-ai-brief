@@ -1,0 +1,465 @@
+{
+  "weekly": true,
+  "date": "2026-11-15",
+  "formattedDate": "15 November 2026",
+  "title": "This Week in AI | South Korea's top scorer in tax | Asian governments react to Nvidia | The AI graveyard: a running list | Weekly Round-up 15 November 2026",
+  "intro": {
+    "durationSeconds": 20,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "This week in AI, the stories you may have missed: South Korea's top scorer in tax accountancy exam admits cheating. From the SanMitra Newsroom, this is the Weekly AI Round-up for the week ending 15 November 2026: important developments that did not make our daily briefs.",
+    "headlines": [
+      "South Korea's top scorer in tax accountancy exam admits cheating",
+      "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "SG physical AI startup Ropedia expands robotics training data",
+      "Sarvam Ropes In Google Cloud India MD Sashikumar Sreedharan As President & CBO",
+      "The rise of 'housefishing'",
+      "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "South Korea’s Hyundai Card launches AI tools for partners"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_south_korea_s_top_scorer_in_tax",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "South Korea's top scorer in tax accountancy exam admits cheating",
+      "subheadline": "Source: BBC",
+      "importanceScore": 99,
+      "durationSeconds": 51,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
+      "researchDesk": "",
+      "script": "Our lead story today. The person who came top in South Korea's certified tax accountant exam has confessed to cheating with a tiny camera, a mobile phone and AI tools, the BBC reports. Han Won-seok, who is 34, made the admission in a video posted on Sunday to the YouTube channel of his lawyer, Lee Don-Ho. He said he had also confessed to the Seoul Metropolitan Police Agency and told officers how he did it. In the first round, Han scored 397.5 out of 400, getting only one of 160 questions wrong. That result raised suspicions and set off speculation online. \"I cheated in both the first and second rounds,\" Han said, adding that he had relied on electronic gadgets and generative AI.",
+      "whyThisMatters": "The person who came top in South Korea's certified tax accountant exam has confessed to cheating with a tiny camera, a mobile phone and AI tools, the BBC reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "South Korea's top scorer in tax accountancy exam admits cheating",
+        "BBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s1_cut1.jpg",
+          "badge": "SOUTH KOREA • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s1_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s1_cut3.jpg",
+          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_asian_governments_react_to_nvidi",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 55,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Governments across Asia have reacted in different ways to Jensen Huang's exit from Nvidia, TechCrunch reports. Some have moved to reaffirm their commitments on chip supplies. Others are watching for any effect on local projects or are dealing with investigations that are still under way. On Sunday, November 8, Nvidia's board opened an independent inquiry following reports that Huang had been the target of a Chinese spying operation. Nvidia's reach extends well beyond America. It has close relationships with firms around the world, especially in Asia, where many of its main partners play central roles in the AI industry. In China, the foreign ministry on November 10 dismissed claims that a Chinese businesswoman connected to Huang was a spy, calling the allegations groundless and a smear against Beijing.",
+      "whyThisMatters": "Governments across Asia have reacted in different ways to Jensen Huang's exit from Nvidia, TechCrunch reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s2_cut1.jpg",
+          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s2_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s2_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_the_ai_graveyard_a_running_list",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 55,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "researchDesk": "",
+      "script": "In other news. TechCrunch is keeping a running list of artificial intelligence products and startups that have failed. Last month the chatbot platform Character.ai filed for bankruptcy only five years after it launched. A few weeks ago, the privacy-focused AI assistant Ollie said it was shutting down. Many AI projects never get beyond the companies that develop them. S&P Global Market Intelligence estimates that about 42% of corporate AI initiatives are eventually dropped. The reasons include a lack of funding, technical hurdles, competition, trouble scaling up and simply weak demand from users. The list covers notable AI launches, startups and bets that have closed, changed direction or fallen well short of expectations. The publication describes it as a record of lessons the wider industry might learn, rather than a tally of failures.",
+      "whyThisMatters": "TechCrunch is keeping a running list of artificial intelligence products and startups that have failed.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s3_cut1.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s3_cut2.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s3_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_sg_physical_ai_startup_ropedia_e",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "SG physical AI startup Ropedia expands robotics training data",
+      "subheadline": "Source: Tech in Asia",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/news/sg-physical-ai-startup-ropedia-expands-robotics-training-data",
+      "researchDesk": "",
+      "script": "In Asia. Singapore physical AI startup Ropedia is expanding its robotics training data, Tech in Asia reports, as robot makers look for cheaper ways to produce reusable data.",
+      "whyThisMatters": "Singapore physical AI startup Ropedia is expanding its robotics training data, Tech in Asia reports, as robot makers look for cheaper ways to produce reusable data.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SG physical AI startup Ropedia expands robotics training data",
+        "Tech in Asia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s4_cut1.jpg",
+          "badge": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s4_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s4_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_sarvam_ropes_in_google_cloud_ind",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Sarvam Ropes In Google Cloud India MD Sashikumar Sreedharan As President & CBO",
+      "subheadline": "Source: Inc42",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Inc42",
+      "sourceUrl": "https://inc42.com/buzz/sarvam-ropes-in-google-cloud-india-md-sashikumar-sreedharan-as-president-cbo/",
+      "researchDesk": "",
+      "script": "Turning to India. AI unicorn Sarvam has hired Sashikumar Sreedharan, previously managing director of Google Cloud India, to serve as president and chief business officer, according to Inc42.",
+      "whyThisMatters": "AI unicorn Sarvam has hired Sashikumar Sreedharan, previously managing director of Google Cloud India, to serve as president and chief business officer, according to Inc42.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Sarvam Ropes In Google Cloud India MD Sashikumar Sreedharan As President & CBO",
+        "Inc42"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s5_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s5_cut2.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s5_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_the_rise_of_housefishing",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "The rise of 'housefishing'",
+      "subheadline": "Source: BBC",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
+      "researchDesk": "",
+      "script": "Around the world. The BBC reports that experts are cautioning against AI-edited property photos, warning heavy enhancement can mislead people looking to buy.",
+      "whyThisMatters": "The BBC reports that experts are cautioning against AI-edited property photos, warning heavy enhancement can mislead people looking to buy.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "The rise of 'housefishing'",
+        "BBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s6_cut1.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s6_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s6_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_nectar_launches_an_ai_agent_to_a",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "researchDesk": "",
+      "script": "Turning to the United States. TechCrunch reports that Nectar has released an AI agent that helps brands find creators, handle outreach and partnerships, and measure campaign performance.",
+      "whyThisMatters": "TechCrunch reports that Nectar has released an AI agent that helps brands find creators, handle outreach and partnerships, and measure campaign performance.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nectar launches an AI agent to automate creator discovery and outreach for brand",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s7_cut1.jpg",
+          "badge": "NECTAR • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s7_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s7_cut3.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_south_korea_s_hyundai_card_launc",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "South Korea’s Hyundai Card launches AI tools for partners",
+      "subheadline": "Source: Tech in Asia",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/news/south-koreas-hyundai-card-launches-ai-tools-for-partners",
+      "researchDesk": "",
+      "script": "In Asia. Hyundai Card has launched AI tools for its partners, Tech in Asia reports. The company said PLCC 2.0 draws on roughly US800 million dollars invested in AI and data science over the last decade.",
+      "whyThisMatters": "Hyundai Card has launched AI tools for its partners, Tech in Asia reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "South Korea’s Hyundai Card launches AI tools for partners",
+        "Tech in Asia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s8_cut1.jpg",
+          "badge": "SOUTH KOREA • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s8_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s8_cut3.jpg",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_confucius4_r2t2_a_stable_prefix",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+      "subheadline": "Source: arXiv",
+      "importanceScore": 90,
+      "durationSeconds": 107,
+      "source": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2611.06043",
+      "researchDesk": "Research of the Week",
+      "script": "And now, our research story of the week. Researchers have introduced a speech recognition system built so it never goes back and changes words it has already produced. Their paper is titled Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription. ASR stands for automatic speech recognition, and streaming means the transcript is generated while someone is still talking. Live captions, translation software and voice assistants increasingly act on each word the moment it appears. When a recognizer later revises an early word, a problem sometimes called flicker, any work built on it is wasted, and an AI agent might even take the wrong action. The researchers argue that this kind of stability matters just as much as accuracy and speed. To tackle it, they took an existing model, Qwen3-ASR-1.7B, and gave it further training on 1,500 hours of Chinese and English audio, leaving its core audio-processing components frozen. The method rests on an idea they call the Longest Stable Prefix, essentially the opening stretch of a transcript that can safely be committed without later correction. They provide mathematical proof that this measure behaves consistently and matches what the model would output after hearing the complete recording. Training on these labels turns a model designed for finished recordings into a stable live transcriber, with no change to its underlying design. In testing, the system came close to the original model's quality on full recordings while producing steady text with little delay. The improvements also carried over to languages beyond the two used in training.",
+      "whyThisMatters": "Researchers have introduced a speech recognition system built so it never goes back and changes words it has already produced.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcri",
+        "arXiv"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s9_cut1.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s9_cut2.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-15/s9_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomOut"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap this week's top stories. South Korea's top scorer in tax accountancy exam admits cheating. Asian governments react to Nvidia CEO Jensen Huang’s exit. The AI graveyard: a running list of projects and startups that didn’t make it. SG physical AI startup Ropedia expands robotics training data. Sarvam Ropes In Google Cloud India MD Sashikumar Sreedharan As President & CBO. The rise of 'housefishing'.",
+    "items": [
+      "✓ South Korea's top scorer in tax accountancy exam",
+      "✓ Asian governments react to Nvidia CEO Jensen Hua",
+      "✓ The AI graveyard: a running list of projects and",
+      "✓ SG physical AI startup Ropedia expands robotics ",
+      "✓ Sarvam Ropes In Google Cloud India MD Sashikumar",
+      "✓ The rise of 'housefishing'",
+      "✓ Nectar launches an AI agent to automate creator "
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were the week's important developments beyond the daily headlines. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "South Korea's top scorer in tax accountancy e",
+    "Asian governments react to Nvidia CEO Jensen ",
+    "The AI graveyard: a running list of projects ",
+    "SG physical AI startup Ropedia expands roboti",
+    "Sarvam Ropes In Google Cloud India MD Sashiku",
+    "The rise of 'housefishing'",
+    "Nectar launches an AI agent to automate creat",
+    "South Korea’s Hyundai Card launches AI tools ",
+    "Confucius4-R2T2: A Stable-Prefix Streaming AS"
+  ],
+  "thumbnail": {
+    "date": "15 NOVEMBER 2026",
+    "headline": "SOUTH KOREA'S TOP SCORER IN TAX ACCOUNTANCY",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "SOUTH KOREA'S TOP SCORER IN TAX",
+      "ASIAN GOVERNMENTS REACT TO NVIDIA",
+      "THE AI GRAVEYARD: A RUNNING LIST OF",
+      "SG PHYSICAL AI STARTUP ROPEDIA"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "This Week in AI | South Korea's top scorer in tax | Asian governments react to Nvidia | The AI graveyard: a running list | Weekly Round-up 15 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 15 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

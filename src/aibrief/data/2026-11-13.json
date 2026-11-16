@@ -2,33 +2,27 @@
   "weekly": false,
   "date": "2026-11-13",
   "formattedDate": "13 November 2026",
-  "title": "South Korea’s Hyundai Card | Nebius tests the neocloud playbook | SoftBank’s billion-dollar loss may | AI News 13 November 2026",
+  "title": "Report: UK defence ministry wants | Jensen Huang resigns as Nvidia | Nonprofits sue five AI labs to | AI News 13 November 2026",
   "intro": {
-    "durationSeconds": 53,
+    "durationSeconds": 55,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 13 November 2026. First, today's top headlines: South Korea’s Hyundai Card launches AI tools for partners. Nebius tests the neocloud playbook with 40 billion dollars in planned spending. SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions. Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model. SG physical AI startup Ropedia expands robotics training data. The rise of 'housefishing'. Nectar launches an AI agent to automate creator discovery and outreach for brands. Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit. Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearly 5,000 Unit Orders. And now, the news in brief.",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 13 November 2026. First, today's top headlines: Report: UK defence ministry wants targeting that is \"autonomous by default\". Jensen Huang resigns as Nvidia CEO; Colette Kress named interim chief. Nonprofits sue five AI labs to freeze more capable models. China Telecom releases a model trained entirely on Huawei Ascend chips. Korea Aerospace tests AI drone navigation that works without GPS. MeitY questions platforms that film homes to train robots. Google launches Gemini 4 Hydrogen, a fast model for coding and agents. SpaceX plans more than 74 billion dollars in AI supercomputing campuses. Chinese AI projects worth over 3 billion dollars depend on restricted Nvidia chips. CAG to unveil an in-house audit LLM built by IIT Madras. And now, the news in brief.",
     "headlines": [
-      "South Korea’s Hyundai Card launches AI tools for partners",
-      "Nebius tests the neocloud playbook with 40 billion dollars in planned spending",
-      "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-      "Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model",
-      "SG physical AI startup Ropedia expands robotics training data",
-      "The rise of 'housefishing'",
-      "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-      "Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearly 5,000 Unit Orders"
+      "Report: UK defence ministry wants targeting that is \"autonomous by default\"",
+      "Jensen Huang resigns as Nvidia CEO; Colette Kress named interim chief",
+      "Nonprofits sue five AI labs to freeze more capable models",
+      "China Telecom releases a model trained entirely on Huawei Ascend chips",
+      "Korea Aerospace tests AI drone navigation that works without GPS",
+      "MeitY questions platforms that film homes to train robots",
+      "Google launches Gemini 4 Hydrogen, a fast model for coding and agents",
+      "SpaceX plans more than 74 billion dollars in AI supercomputing campuses",
+      "Chinese AI projects worth over 3 billion dollars depend on restricted Nvidia chips",
+      "CAG to unveil an in-house audit LLM built by IIT Madras"
     ]
   },
   "transitions": [
     {
-      "id": "transition_asia",
-      "region": "ASIA",
-      "title": "NEXT: ASIA & REGIONAL STRATEGY",
-      "display": "NEXT: ASIA",
-      "durationSeconds": 2
-    },
-    {
       "id": "transition_usa",
       "region": "USA",
       "title": "NEXT: USA & REGIONAL STRATEGY",
@@ -50,6 +44,13 @@
       "durationSeconds": 2
     },
     {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
       "id": "transition_usa",
       "region": "USA",
       "title": "NEXT: USA & REGIONAL STRATEGY",
@@ -61,340 +62,421 @@
       "region": "CHINA",
       "title": "NEXT: CHINA & REGIONAL STRATEGY",
       "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
       "durationSeconds": 2
     }
   ],
   "stories": [
     {
-      "id": "s1_south_korea_s_hyundai_card_launc",
-      "region": "ASIA",
-      "category": "ASIA Intelligence",
-      "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "South Korea’s Hyundai Card launches AI tools for partners",
-      "subheadline": "Source: Tech in Asia",
+      "id": "s1_report_uk_defence_ministry_wants",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Report: UK defence ministry wants targeting that is \"autonomous by default\"",
+      "subheadline": "Source: The Bureau of Investigative Journalism",
       "importanceScore": 99,
-      "durationSeconds": 24,
-      "source": "Tech in Asia",
-      "sourceUrl": "https://www.techinasia.com/news/south-koreas-hyundai-card-launches-ai-tools-for-partners",
+      "durationSeconds": 47,
+      "source": "The Bureau of Investigative Journalism",
+      "sourceUrl": "https://www.thebureauinvestigates.com/stories/2026-11-13/revealed-mod-aiming-to-remove-humans-from-military-targeting-decisions",
       "researchDesk": "",
-      "script": "Our lead story today. yundai said PLCC 2.0 builds on about US800 million dollars in investment AI and data science over the past decade.",
-      "whyThisMatters": "yundai said PLCC 2.0 builds on about US$800 million in investment AI and data science over the past decade.",
+      "script": "Our lead story today. Britain's Ministry of Defence is planning a targeting system that official papers describe as \"autonomous by default, human by exception,\" according to the Bureau of Investigative Journalism. The investigative outlet says the documents it obtained also show that an initial version of the ministry's Digital Targeting Web is expected next year. That approach would be a major shift away from the UK's earlier focus on keeping humans in control. The findings reflect the Bureau's own reading of the papers, and the ministry has not confirmed them. The report comes just before United Nations talks on autonomous weapons, which are due to take place in Geneva from 16 to 20 November.",
+      "whyThisMatters": "Britain's Ministry of Defence is planning a targeting system that official papers describe as \"autonomous by default, human by exception,\" according to the Bureau of Investigative Journalism.",
       "sourceType": "reporting",
       "keyPoints": [
-        "South Korea’s Hyundai Card launches AI tools for partners",
-        "Tech in Asia"
+        "Report: UK defence ministry wants targeting that is \"autonomous by default\"",
+        "The Bureau of Investigative Journalism"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-13/s1_cut1.jpg",
-          "badge": "SOUTH KOREA • CONTEXTUAL REPORTING",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s1_cut2.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s1_cut3.jpg",
-          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
+          "badge": "AIR DEFENSE • PATRIOT RADAR BATTERY",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_nebius_tests_the_neocloud_playbo",
+      "id": "s2_jensen_huang_resigns_as_nvidia_c",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Nebius tests the neocloud playbook with 40 billion dollars in planned spending",
-      "subheadline": "Source: TechCrunch",
+      "headline": "Jensen Huang resigns as Nvidia CEO; Colette Kress named interim chief",
+      "subheadline": "Source: NPR",
       "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "durationSeconds": 45,
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/11/12/nx-s1-6037833/jensen-huang-nvidia-board-fired",
       "researchDesk": "",
-      "script": "Turning to the United States. Nebius plans to fund its 40 billion dollars AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
-      "whyThisMatters": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+      "script": "Turning to the United States. Jensen Huang has resigned as chief executive of Nvidia, NPR reports. He stepped down on Thursday, US time, after reports of extramarital affairs. One of them was reportedly with a woman whom US intelligence officials suspect Chinese intelligence had recruited. Huang is also leaving the board. Chief financial officer Colette Kress will serve as interim chief executive while the board considers candidates from both inside and outside Nvidia. Harvey Jones, a director of long standing, becomes the first person ever to chair Nvidia's board. The company says its leadership and product plans will carry on uninterrupted. China has rejected the spying allegations as baseless.",
+      "whyThisMatters": "Jensen Huang has resigned as chief executive of Nvidia, NPR reports.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Nebius tests the neocloud playbook with 40 billion dollars in planned spending",
-        "TechCrunch"
+        "Jensen Huang resigns as Nvidia CEO; Colette Kress named interim chief",
+        "NPR"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-13/s2_cut1.jpg",
-          "badge": "REDMOND • MICROSOFT REDMOND CAMPUS",
+          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s2_cut2.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s2_cut3.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s3_softbank_s_billion_dollar_loss_m",
+      "id": "s3_nonprofits_sue_five_ai_labs_to_f",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-      "subheadline": "Source: TechCrunch",
+      "headline": "Nonprofits sue five AI labs to freeze more capable models",
+      "subheadline": "Source: Al Jazeera",
       "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "durationSeconds": 32,
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development",
       "researchDesk": "",
-      "script": "In other news. SoftBank lost over 3 billion dollars preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
-      "whyThisMatters": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers.",
+      "script": "In other news. A coalition of safety and consumer advocacy groups has sued Anthropic, Google, Meta, OpenAI and SpaceXSI in San Francisco Superior Court, Al Jazeera reports. The groups are asking the court to stop the companies from training or releasing any models more powerful than those that exist now. They cite the firms' own warnings about the danger of bioweapons and cyberattacks. These allegations come from the plaintiffs, and no court has ruled on the case yet.",
+      "whyThisMatters": "A coalition of safety and consumer advocacy groups has sued Anthropic, Google, Meta, OpenAI and SpaceXSI in San Francisco Superior Court, Al Jazeera reports.",
       "sourceType": "reporting",
       "keyPoints": [
-        "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-        "TechCrunch"
+        "Nonprofits sue five AI labs to freeze more capable models",
+        "Al Jazeera"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-13/s3_cut1.jpg",
-          "badge": "SOFTBANK GROUP • CONTEXTUAL REPORTING",
+          "badge": "FEDERAL DISTRICT COURT • SECURITIES LITIGATION",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s3_cut2.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s3_cut3.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s4_huawei_cloud_sets_november_16_la",
+      "id": "s4_china_telecom_releases_a_model_t",
       "region": "CHINA",
       "category": "CHINA Intelligence",
       "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model",
-      "subheadline": "Source: Pandaily",
+      "headline": "China Telecom releases a model trained entirely on Huawei Ascend chips",
+      "subheadline": "Source: TheNextGenTechInsider",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Pandaily",
-      "sourceUrl": "https://pandaily.com/huawei-cloud-cloudrobo-wm1-2-ascend-native-embodied-world-model-launch-preview",
+      "durationSeconds": 40,
+      "source": "TheNextGenTechInsider",
+      "sourceUrl": "https://www.thenextgentechinsider.com/pulse/china-telecom-launches-xing40-29b-a4b-mixture-of-experts-model",
       "researchDesk": "",
-      "script": "In China. Huawei Cloud will unveil CloudRobo-WM1.2, billed as the first Ascend-native world model from its Industry AI Dream Factory, at an online launch on Nov 16.",
-      "whyThisMatters": "Huawei Cloud will unveil CloudRobo-WM1.2, billed as the first Ascend-native world model from its Industry AI Dream Factory, at an online launch on Nov 16.",
+      "script": "In China. China Telecom has released an AI model trained entirely on Huawei's Ascend chips, TheNextGenTechInsider reports. The model, called Xing4.0-29B-A4B, uses a mixture-of-experts design. It has 29 billion parameters in total, but only 4 billion are used at any one time. China Telecom says it is the first model of this size trained solely on Ascend NPUs using the MindSpore framework, and it reports a score of 75.0 on SWE-bench Verified. Those figures come from the developer. Even so, the release is a real test of China's effort to train AI models without relying on Nvidia.",
+      "whyThisMatters": "China Telecom has released an AI model trained entirely on Huawei's Ascend chips, TheNextGenTechInsider reports.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Nativ",
-        "Pandaily"
+        "China Telecom releases a model trained entirely on Huawei Ascend chips",
+        "TheNextGenTechInsider"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-13/s4_cut1.jpg",
-          "badge": "NVIDIA • CONTEXTUAL REPORTING",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s4_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s4_cut3.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "panDirection": "panLeft"
         }
       ]
     },
     {
-      "id": "s5_sg_physical_ai_startup_ropedia_e",
+      "id": "s5_korea_aerospace_tests_ai_drone_n",
       "region": "ASIA",
       "category": "ASIA Intelligence",
       "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "SG physical AI startup Ropedia expands robotics training data",
-      "subheadline": "Source: Tech in Asia",
+      "headline": "Korea Aerospace tests AI drone navigation that works without GPS",
+      "subheadline": "Source: Edaily",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Tech in Asia",
-      "sourceUrl": "https://www.techinasia.com/news/sg-physical-ai-startup-ropedia-expands-robotics-training-data",
+      "durationSeconds": 28,
+      "source": "Edaily",
+      "sourceUrl": "https://en.edaily.co.kr/news/eda202611135302/",
       "researchDesk": "",
-      "script": "In Asia. The launch comes as robotics firms seek less resource-intensive ways to generate reusable training data.",
-      "whyThisMatters": "The launch comes as robotics firms seek less resource-intensive ways to generate reusable training data.",
+      "script": "In Asia. Korea Aerospace, known as KAI, says it is flight-testing artificial intelligence that lets drones work out their own location when GPS signals are jammed, Edaily reports. At a defence AI summit in Seoul, the company also said it is working with Konan Technology on an AI pilot called KAiLOT. The system is meant to let drones fly together with FA-50 jets. Both projects are still under development.",
+      "whyThisMatters": "Korea Aerospace, known as KAI, says it is flight-testing artificial intelligence that lets drones work out their own location when GPS signals are jammed, Edaily reports.",
       "sourceType": "reporting",
       "keyPoints": [
-        "SG physical AI startup Ropedia expands robotics training data",
-        "Tech in Asia"
+        "Korea Aerospace tests AI drone navigation that works without GPS",
+        "Edaily"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-13/s5_cut1.jpg",
-          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "badge": "TACTICAL AEROSPACE • AUTONOMOUS DRONE FLIGHT",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s5_cut2.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "badge": "DEFENSE RESEARCH LAB • AUTONOMOUS GUIDANCE",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s5_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s6_the_rise_of_housefishing",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "The rise of 'housefishing'",
-      "subheadline": "Source: BBC",
+      "id": "s6_meity_questions_platforms_that_f",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "MeitY questions platforms that film homes to train robots",
+      "subheadline": "Source: The Economic Times",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "BBC",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
+      "durationSeconds": 31,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/meity-flags-physical-ai-data-use-us-data-centre-woes-may-benefit-india/articleshow/135786144.cms",
       "researchDesk": "",
-      "script": "Around the world. Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
-      "whyThisMatters": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
+      "script": "Turning to India. The IT ministry, MeitY, met Snabbit, Pronto, Urban Company and several robotics firms on Thursday, The Economic Times reports, citing three sources. The meeting covered gig workers who wear cameras on their heads to film household chores. That footage is used to train physical AI. Officials asked about consent, privacy and how the data is stored. Pronto has already begun filming inside homes, while Urban Company and Snabbit chose not to.",
+      "whyThisMatters": "The IT ministry, MeitY, met Snabbit, Pronto, Urban Company and several robotics firms on Thursday, The Economic Times reports, citing three sources.",
       "sourceType": "reporting",
       "keyPoints": [
-        "The rise of 'housefishing'",
-        "BBC"
+        "MeitY questions platforms that film homes to train robots",
+        "The Economic Times"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-13/s6_cut1.jpg",
-          "badge": "ROBOT • CONTEXTUAL REPORTING",
+          "badge": "NEW DELHI • INDIA SOVEREIGN AI INITIATIVE",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s6_cut2.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "badge": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s6_cut3.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s7_nectar_launches_an_ai_agent_to_a",
+      "id": "s7_google_launches_gemini_4_hydroge",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "subheadline": "Source: TechCrunch",
+      "headline": "Google launches Gemini 4 Hydrogen, a fast model for coding and agents",
+      "subheadline": "Source: Google",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "durationSeconds": 33,
+      "source": "Google",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
       "researchDesk": "",
-      "script": "Turning to the United States. Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
-      "whyThisMatters": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
-      "sourceType": "reporting",
+      "script": "Turning to the United States. Google says Hydrogen brings near-frontier intelligence at lower cost and higher speed, with a one-million-token context window. It is rolling out across the Gemini API, AI Studio, the Gemini app and its Antigravity coding tool, where a new Orchestrator switches between Hydrogen and the larger Carbon model depending on the task. Google Search is also being upgraded with Hydrogen to handle complex, multi-part questions with more structured answers. Speed and quality claims come from Google.",
+      "whyThisMatters": "Google says Hydrogen brings near-frontier intelligence at lower cost and higher speed, with a one-million-token context window.",
+      "sourceType": "company",
       "keyPoints": [
-        "Nectar launches an AI agent to automate creator discovery and outreach for brand",
-        "TechCrunch"
+        "Google launches Gemini 4 Hydrogen, a fast model for coding and agents",
+        "Google"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-13/s7_cut1.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s7_cut2.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s7_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s8_hugging_face_ceo_vows_to_keep_fi",
+      "id": "s8_spacex_plans_more_than_74_billio",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-      "subheadline": "Source: TechCrunch",
+      "headline": "SpaceX plans more than 74 billion dollars in AI supercomputing campuses",
+      "subheadline": "Source: The Hill",
       "importanceScore": 90,
       "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/policy/technology/6217630-spacex-plans-data-centers-texas-arizona/",
       "researchDesk": "",
-      "script": "Next. Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
-      "whyThisMatters": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadershi",
+      "script": "Next. SpaceX says it will build two AI computing sites: about 50 billion dollars in Arizona and up to 24 billion dollars in Texas near Starbase, where the facility will generate its own power. The Arizona site still needs local approval. It shows how compute and power are becoming the main AI build-out story.",
+      "whyThisMatters": "SpaceX says it will build two AI computing sites: about $50 billion in Arizona and up to $24 billion in Texas near Starbase, where the facility will generate its own power.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s e",
-        "TechCrunch"
+        "SpaceX plans more than 74 billion dollars in AI supercomputing campuses",
+        "The Hill"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-13/s8_cut1.jpg",
-          "badge": "NECTAR • CONTEXTUAL REPORTING",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
           "panDirection": "panRight"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s8_cut2.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
           "panDirection": "zoomOut"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s8_cut3.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
           "panDirection": "panLeft"
         }
       ]
     },
     {
-      "id": "s9_former_cainiao_cto_s_robot_start",
+      "id": "s9_chinese_ai_projects_worth_over_3",
       "region": "CHINA",
       "category": "CHINA Intelligence",
       "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearly 5,000 Unit Orders",
-      "subheadline": "Source: Pandaily",
+      "headline": "Chinese AI projects worth over 3 billion dollars depend on restricted Nvidia chips",
+      "subheadline": "Source: Reuters",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Pandaily",
-      "sourceUrl": "https://pandaily.com/quantum-dynamics-li-qiang-embodied-robots-cainiao-double-11-warehouse-orders",
+      "durationSeconds": 35,
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/",
       "researchDesk": "",
-      "script": "In China. Quantum Dynamics, founded by ex-Cainiao CTO Li Qiang, says its robots worked Double 11 in Cainiao warehouses. Its nearly 5,000 unit orders include many not yet delivered.",
-      "whyThisMatters": "Quantum Dynamics, founded by ex-Cainiao CTO Li Qiang, says its robots worked Double 11 in Cainiao warehouses.",
+      "script": "In China. A Reuters investigation has found that Chinese AI computing projects worth more than 23 billion yuan, or about 3.2 billion dollars, were planned or built around restricted Nvidia processors. These include the H100, H200 and H800 chips. The projects range from data centres to ventures backed by local governments and university infrastructure. Some Chinese AI companies fear the US could further restrict remote use of Nvidia hardware. Several are now looking for computing capacity at data centres abroad, including in Southeast Asia.",
+      "whyThisMatters": "A Reuters investigation has found that Chinese AI computing projects worth more than 23 billion yuan, or about 3.2 billion dollars, were planned or built around restricted Nvidia processors.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearl",
-        "Pandaily"
+        "Chinese AI projects worth over 3 billion dollars depend on restricted Nvidia chi",
+        "Reuters"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/editorial/2026-11-13/s9_cut1.jpg",
-          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
+          "badge": "NVIDIA • CONTEXTUAL REPORTING",
           "panDirection": "zoomIn"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s9_cut2.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "panDirection": "panLeft"
         },
         {
           "image": "aibrief/assets/editorial/2026-11-13/s9_cut3.jpg",
-          "badge": "BEIJING • OPEN-WEIGHT INFERENCE HUBS",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
           "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_cag_to_unveil_an_in_house_audit",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "CAG to unveil an in-house audit LLM built by IIT Madras",
+      "subheadline": "Source: Rediff",
+      "importanceScore": 90,
+      "durationSeconds": 26,
+      "source": "Rediff",
+      "sourceUrl": "https://www.rediff.com/business/report/cag-to-launch-in-house-llm-20-developed-by-iit-madras-for-enhanced-auditing/20261113.htm",
+      "researchDesk": "",
+      "script": "Turning to India. The Comptroller and Auditor General is set to launch CAG LLM 2.0, an in-house AI language model built by IIT Madras, Rediff reports. The model was trained on roughly 65,000 internal inspection reports. It will help auditors with preparatory work and analysis, but it will not conduct audits by itself. The launch is planned for Audit Diwas on 16 November.",
+      "whyThisMatters": "The Comptroller and Auditor General is set to launch CAG LLM 2.0, an in-house AI language model built by IIT Madras, Rediff reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "CAG to unveil an in-house audit LLM built by IIT Madras",
+        "Rediff"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s10_cut1.jpg",
+          "badge": "CHENNAI • IIT MADRAS RESEARCH CAMPUS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s10_cut2.jpg",
+          "badge": "NETWORK SECURITY DESK • ACCESS LOG AUDIT",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s10_cut3.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s11_so_arena_benchmarking_the_capabi",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 48,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.15777",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. Researchers have released a new testing framework in a paper titled \"SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models.\" System One models are designed to make quick, general-purpose decisions without first writing out long streams of text. The researchers argue that overall scores on existing tests say little about how broad these models' skills really are, or how far their choices can be trusted. SO-Arena spans 11 domains and five families of capability. Its correct answers come from reliable sources and are checked by hand. Difficulty is graded using criteria specific to each domain. Models are also tested interactively, taking repeated actions inside sandboxes, which are contained test environments.",
+      "whyThisMatters": "Researchers have released a new testing framework in a paper titled \"SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models.\" System One models are designed to make quick, general-purpose dec",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Mod",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s11_cut1.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s11_cut2.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-13/s11_cut3.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "panRight"
         }
       ]
     }
@@ -402,15 +484,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. South Korea’s Hyundai Card launches AI tools for partners. Nebius tests the neocloud playbook with 40 billion dollars in planned spending. SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions. Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model. SG physical AI startup Ropedia expands robotics training data. The rise of 'housefishing'.",
+    "script": "To recap today's top stories. Report: UK defence ministry wants targeting that is \"autonomous by default\". Jensen Huang resigns as Nvidia CEO; Colette Kress named interim chief. Nonprofits sue five AI labs to freeze more capable models. China Telecom releases a model trained entirely on Huawei Ascend chips. Korea Aerospace tests AI drone navigation that works without GPS. MeitY questions platforms that film homes to train robots.",
     "items": [
-      "✓ South Korea’s Hyundai Card launches AI tools for",
-      "✓ Nebius tests the neocloud playbook with 40 billi",
-      "✓ SoftBank’s billion-dollar loss may have put a ca",
-      "✓ Huawei Cloud Sets November 16 Launch for CloudRo",
-      "✓ SG physical AI startup Ropedia expands robotics ",
-      "✓ The rise of 'housefishing'",
-      "✓ Nectar launches an AI agent to automate creator "
+      "✓ Report: UK defence ministry wants targeting that",
+      "✓ Jensen Huang resigns as Nvidia CEO; Colette Kres",
+      "✓ Nonprofits sue five AI labs to freeze more capab",
+      "✓ China Telecom releases a model trained entirely ",
+      "✓ Korea Aerospace tests AI drone navigation that w",
+      "✓ MeitY questions platforms that film homes to tra",
+      "✓ Google launches Gemini 4 Hydrogen, a fast model "
     ]
   },
   "outro": {
@@ -429,29 +511,31 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "South Korea’s Hyundai Card launches AI tools ",
-    "Nebius tests the neocloud playbook with 40 bi",
-    "SoftBank’s billion-dollar loss may have put a",
-    "Huawei Cloud Sets November 16 Launch for Clou",
-    "SG physical AI startup Ropedia expands roboti",
-    "The rise of 'housefishing'",
-    "Nectar launches an AI agent to automate creat",
-    "Hugging Face CEO vows to keep fighting for op",
-    "Former Cainiao CTO's Robot Startup Joins Doub"
+    "Report: UK defence ministry wants targeting t",
+    "Jensen Huang resigns as Nvidia CEO; Colette K",
+    "Nonprofits sue five AI labs to freeze more ca",
+    "China Telecom releases a model trained entire",
+    "Korea Aerospace tests AI drone navigation tha",
+    "MeitY questions platforms that film homes to ",
+    "Google launches Gemini 4 Hydrogen, a fast mod",
+    "SpaceX plans more than 74 billion dollars in ",
+    "Chinese AI projects worth over 3 billion doll",
+    "CAG to unveil an in-house audit LLM built by ",
+    "SO-Arena: Benchmarking the Capability Spectru"
   ],
   "thumbnail": {
     "date": "13 NOVEMBER 2026",
-    "headline": "SOUTH KOREA’S HYUNDAI CARD LAUNCHES AI TOOLS",
+    "headline": "REPORT: UK DEFENCE MINISTRY WANTS TARGETING",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "SOUTH KOREA’S HYUNDAI CARD LAUNCHES",
-      "NEBIUS TESTS THE NEOCLOUD PLAYBOOK",
-      "SOFTBANK’S BILLION-DOLLAR LOSS MAY",
-      "HUAWEI CLOUD SETS NOVEMBER 16"
+      "REPORT: UK DEFENCE MINISTRY WANTS",
+      "JENSEN HUANG RESIGNS AS NVIDIA CEO;",
+      "NONPROFITS SUE FIVE AI LABS TO",
+      "CHINA TELECOM RELEASES A MODEL"
     ]
   },
   "youtubeMetadata": {
-    "title": "South Korea’s Hyundai Card | Nebius tests the neocloud playbook | SoftBank’s billion-dollar loss may | AI News 13 November 2026",
+    "title": "Report: UK defence ministry wants | Jensen Huang resigns as Nvidia | Nonprofits sue five AI labs to | AI News 13 November 2026",
     "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 13 November 2026.",
     "tags": [
       "AI",
