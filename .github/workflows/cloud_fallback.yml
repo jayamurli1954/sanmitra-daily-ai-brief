@@ -46,6 +46,15 @@ jobs:
         run: |
           TODAY=$(TZ=Asia/Kolkata date +%Y-%m-%d)
           echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+          # GitHub can start a scheduled run hours late. On 15 Nov 2026 it fired at
+          # 01:15 IST, claimed the NEXT day's episode, found no news and failed, and
+          # the PC then skipped its 7 PM run. Outside the evening window, do nothing.
+          NOW=$(TZ=Asia/Kolkata date +%H%M)
+          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$NOW" -lt 1930 ] || [ "$NOW" -ge 2230 ]; }; then
+            echo "[*] Scheduled run started at $NOW IST, outside 19:30-22:30 IST. Doing nothing."
+            echo "produce=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           CLAIM=$(git log -100 --format=%s | grep -F "episode claim $TODAY " | head -1 || true)
           if [ -n "$CLAIM" ] && [ "$FORCE" != "true" ]; then
             echo "[*] Already claimed: $CLAIM. Nothing to do."
@@ -134,8 +143,10 @@ jobs:
 
       # Without this the next run (PC or cloud) forgets the 14-day visual memory
       # and the story ledger, and the no-repeat rules cannot work.
+      # Only after a successful run: a failed run's half-written memory must not
+      # replace the real 14-day visual memory (it did on 15 Nov 2026).
       - name: Commit Episode Memory Back to the Repository
-        if: steps.claim.outputs.produce == 'true' && env.DRY_RUN != 'true' && always()
+        if: success() && steps.claim.outputs.produce == 'true' && env.DRY_RUN != 'true'
         run: |
           git config user.name "SanMitra Intelligence Bot"
           git config user.email "bot@sanmitratech.com"
@@ -147,6 +158,17 @@ jobs:
             git stash --quiet || true
             git pull --rebase origin main && git push origin HEAD:main
           fi
+
+      # A cloud run that claimed the episode and then failed hands it back, so a
+      # PC that wakes later still produces it (run_nightly_production.bat checks).
+      - name: Release the Claim if the Cloud Run Failed
+        if: failure() && steps.claim.outputs.produce == 'true' && env.DRY_RUN != 'true'
+        run: |
+          git config user.name "SanMitra Intelligence Bot"
+          git config user.email "bot@sanmitratech.com"
+          git stash --include-untracked --quiet || true
+          git commit --allow-empty -m "Auto: episode release ${{ steps.claim.outputs.today }} by cloud [skip ci]"
+          git pull --rebase origin main && git push origin HEAD:main
 
       # The repository is public: the MP4 is deliberately NOT uploaded as an artifact.
       - name: Upload QA Summary, Thumbnails and Posts
