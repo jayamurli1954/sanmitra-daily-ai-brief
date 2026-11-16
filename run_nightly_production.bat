@@ -43,10 +43,15 @@ if errorlevel 1 (
     git fetch origin main >> "%LOG%" 2>&1
 )
 git log origin/main -100 --format=%%s | findstr /C:"episode claim %EPISODE_DATE% by cloud" >nul
-if not errorlevel 1 (
+if errorlevel 1 goto claimcheckdone
+REM The cloud claimed it. If it then failed it pushed a release: produce here after all.
+git log origin/main -100 --format=%%s | findstr /C:"episode release %EPISODE_DATE% by cloud" >nul
+if errorlevel 1 (
     echo The cloud fallback already claimed %EPISODE_DATE%: skipping this run. >> "%LOG%"
     exit /b 0
 )
+echo The cloud fallback claimed %EPISODE_DATE% and then failed: producing here. >> "%LOG%"
+:claimcheckdone
 git log origin/main -100 --format=%%s | findstr /C:"episode claim %EPISODE_DATE% by PC" >nul
 if errorlevel 1 (
     git commit --allow-empty --only -m "Auto: episode claim %EPISODE_DATE% by PC [skip ci]" >> "%LOG%" 2>&1
