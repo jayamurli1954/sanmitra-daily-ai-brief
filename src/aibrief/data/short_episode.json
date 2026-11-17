@@ -1,160 +1,110 @@
 {
-  "date": "2026-11-15",
-  "dateLabel": "15 NOVEMBER 2026",
+  "date": "2026-11-16",
+  "dateLabel": "16 NOVEMBER 2026",
   "kicker": "BREAKING",
-  "headline": "South Korea's top scorer in tax accountancy exam admits cheating",
+  "headline": "SK Hynix to spend 1 billion dollars over five years to support chip suppliers",
   "subhead": "",
-  "source": "Source: BBC",
-  "audioFile": "audio/aibrief/short_2026-11-15_lead.mp3",
-  "voiceFrames": 1269,
+  "source": "Source: The Economic Times",
+  "audioFile": "audio/aibrief/short_2026-11-16_lead.mp3",
+  "voiceFrames": 759,
   "endCardFrames": 75,
   "images": [
     {
-      "src": "aibrief/assets/editorial/2026-11-15/s1_cut1.jpg",
-      "label": "SOUTH KOREA • CONTEXTUAL REPORTING"
+      "src": "aibrief/assets/editorial/2026-11-16/s1_cut1.jpg",
+      "label": "SK HYNIX • CONTEXTUAL REPORTING"
     },
     {
-      "src": "aibrief/assets/editorial/2026-11-15/s1_cut2.jpg",
-      "label": "MULTILATERAL FORUM • REGULATORY HARMONIZATION"
+      "src": "aibrief/assets/editorial/2026-11-16/s1_cut2.jpg",
+      "label": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY"
     },
     {
-      "src": "aibrief/assets/editorial/2026-11-15/s1_cut3.jpg",
-      "label": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC"
+      "src": "aibrief/assets/editorial/2026-11-16/s1_cut3.jpg",
+      "label": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE"
     }
   ],
   "cues": [
     {
-      "text": "The person who came top in",
+      "text": "SK Hynix said on Monday it",
       "start": 0,
-      "end": 46
+      "end": 61
     },
     {
-      "text": "South Korea's certified",
-      "start": 46,
-      "end": 78
+      "text": "will invest 1.4 trillion",
+      "start": 61,
+      "end": 112
     },
     {
-      "text": "tax accountant exam has",
-      "start": 78,
-      "end": 128
+      "text": "won, or 1.05 billion",
+      "start": 112,
+      "end": 191
     },
     {
-      "text": "confessed to cheating with",
-      "start": 128,
-      "end": 162
+      "text": "dollars , across the next",
+      "start": 191,
+      "end": 239
     },
     {
-      "text": "a tiny camera,",
-      "start": 162,
-      "end": 184
+      "text": "five years to back South",
+      "start": 239,
+      "end": 278
     },
     {
-      "text": "a mobile phone and AI",
-      "start": 195,
-      "end": 229
+      "text": "Korean suppliers of",
+      "start": 278,
+      "end": 316
     },
     {
-      "text": "tools, the BBC reports.",
-      "start": 229,
-      "end": 280
+      "text": "semiconductor materials,",
+      "start": 316,
+      "end": 352
     },
     {
-      "text": "Han Won-seok, who is 34,",
-      "start": 317,
-      "end": 364
+      "text": "parts and equipment,",
+      "start": 369,
+      "end": 395
     },
     {
-      "text": "made the admission in a",
-      "start": 381,
-      "end": 412
+      "text": "The Economic Times",
+      "start": 408,
+      "end": 436
     },
     {
-      "text": "video posted on Sunday to",
-      "start": 412,
-      "end": 458
+      "text": "reports.",
+      "start": 436,
+      "end": 445
     },
     {
-      "text": "the YouTube channel of his",
-      "start": 458,
-      "end": 491
+      "text": "The chipmaker wants a",
+      "start": 487,
+      "end": 518
     },
     {
-      "text": "lawyer, Lee Don-Ho.",
-      "start": 491,
-      "end": 529
+      "text": "sturdier supply chain as",
+      "start": 518,
+      "end": 558
     },
     {
-      "text": "He said he had also",
-      "start": 556,
-      "end": 589
+      "text": "rivalry in the industry",
+      "start": 558,
+      "end": 592
     },
     {
-      "text": "confessed to the Seoul",
-      "start": 589,
-      "end": 617
-    },
-    {
-      "text": "Metropolitan Police Agency",
-      "start": 617,
-      "end": 660
-    },
-    {
-      "text": "and told officers how he",
-      "start": 660,
-      "end": 712
-    },
-    {
-      "text": "did it.",
-      "start": 712,
-      "end": 722
-    },
-    {
-      "text": "In the first round,",
-      "start": 744,
-      "end": 778
-    },
-    {
-      "text": "Han scored 397.5 out of",
-      "start": 791,
-      "end": 872
-    },
-    {
-      "text": "400, getting only one of",
-      "start": 872,
-      "end": 928
-    },
-    {
-      "text": "160 questions wrong.",
-      "start": 928,
-      "end": 981
-    },
-    {
-      "text": "That result raised",
-      "start": 1014,
-      "end": 1037
-    },
-    {
-      "text": "suspicions and set off",
-      "start": 1037,
-      "end": 1082
-    },
-    {
-      "text": "speculation online.",
-      "start": 1082,
-      "end": 1114
+      "text": "grows.",
+      "start": 592,
+      "end": 604
     },
     {
       "text": "Watch the full episode on",
-      "start": 1144,
-      "end": 1190
+      "start": 628,
+      "end": 680
     },
     {
       "text": "SanMitra AI News Wire.",
-      "start": 1190,
-      "end": 1238
+      "start": 680,
+      "end": 727
     }
   ],
   "ctaTitle": "Full episode on YouTube",
   "ctaLine": "SanMitra AI News Wire",
-  "ctaSub": "All 9 of today's AI stories"
+  "ctaSub": "All 11 of today's AI stories"
 }

@@ -1,157 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "stories": [
-    {
-      "story_id": "story_20261102_ai_is_stealing_indigenous_australia",
-      "story_chain_id": "chain_global_ai_is_stealing_indig",
-      "headline": "AI is stealing Indigenous Australian art and churning out ‘Temu slop’, artist says",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb"
-      ],
-      "first_covered": "2026-11-02",
-      "last_major_update": "2026-11-02",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261102_disquiet_grows_in_albanese_s_back_y",
-      "story_chain_id": "chain_global_disquiet_grows_in_al",
-      "headline": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west"
-      ],
-      "first_covered": "2026-11-02",
-      "last_major_update": "2026-11-02",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261102_for_jpmorgan_amazon_fighting_ai_bot",
-      "story_chain_id": "chain_global_for_jpmorgan_amazon_",
-      "headline": "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html"
-      ],
-      "first_covered": "2026-11-02",
-      "last_major_update": "2026-11-02",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261102_america_is_firing_up_retired_nuclea",
-      "story_chain_id": "chain_global_america_is_firing_up",
-      "headline": "America is firing up retired nuclear reactors to keep its AI data centres running",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.tomshardware.com/tech-industry/big-tech/us-takes-unprecedented-step-of-recommissioning-nuclear-plants-due-to-ai-power-demand-2-25-gw-currently-on-tap-from-refurbished-reactors"
-      ],
-      "first_covered": "2026-11-02",
-      "last_major_update": "2026-11-02",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261102_four_of_the_biggest_ai_companies_ag",
-      "story_chain_id": "chain_global_four_of_the_biggest_",
-      "headline": "Four of the biggest AI companies agree on one way for websites to say \"don't train on me\"",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://gagadget.com/en/732472-google-openai-anthropic-and-microsoft-back-one-ai-opt-out/"
-      ],
-      "first_covered": "2026-11-02",
-      "last_major_update": "2026-11-02",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261102_deepseek_open_sources_its_coding_ag",
-      "story_chain_id": "chain_global_deepseek_open_source",
-      "headline": "DeepSeek open-sources its coding agent and offers free web search to developers",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://oodaloop.com/briefs/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices/"
-      ],
-      "first_covered": "2026-11-02",
-      "last_major_update": "2026-11-02",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261102_japan_brings_its_ai_playbook_to_sou",
-      "story_chain_id": "chain_global_japan_brings_its_ai_",
-      "headline": "Japan brings its AI playbook to Southeast Asia's small businesses",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://thephilbiznews.com/2026/10/08/japan-advances-asean-ai-co-creation-for-msme-growth/"
-      ],
-      "first_covered": "2026-11-02",
-      "last_major_update": "2026-11-02",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261102_bihar_approves_an_ai_policy_2026_to",
-      "story_chain_id": "chain_global_bihar_approves_an_ai",
-      "headline": "Bihar approves an AI Policy 2026 to court AI firms, capability centres and startups",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://cio.eletsonline.com/artificial-intelligence/bihar-cabinet-approves-ai-policy-2026-incentives-ai-companies-gccs-startups-ai-governance/76513/"
-      ],
-      "first_covered": "2026-11-02",
-      "last_major_update": "2026-11-02",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261102_norway_raises_its_national_cyber_ri",
-      "story_chain_id": "chain_global_norway_raises_its_na",
-      "headline": "Norway raises its national cyber-risk level over AI, warning about agents that act on their own",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://cdt.org/insights/cdt-europes-ai-bulletin-october-2026/"
-      ],
-      "first_covered": "2026-11-02",
-      "last_major_update": "2026-11-02",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261102_tata_communications_plans_a_450_mil",
-      "story_chain_id": "chain_global_tata_communications_",
-      "headline": "Tata Communications plans a 450-million-dollar bet on AI-ready connectivity in India",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://www.localsamosa.com/news/startup-roundup-fifth-week-of-october-2026-12767345"
-      ],
-      "first_covered": "2026-11-02",
-      "last_major_update": "2026-11-02",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
     {
       "story_id": "story_20261103_meituan_launches_longcat_2_5_multim",
       "story_chain_id": "chain_global_meituan_launches_lon",
@@ -3076,6 +2926,216 @@
       "last_major_update": "2026-11-16",
       "update_phase": "initial_break",
       "impact_score": 68
+    },
+    {
+      "story_id": "story_20261116_sk_hynix_to_spend_1_billion_dollars",
+      "story_chain_id": "chain_global_sk_hynix_to_spend_1_",
+      "headline": "SK Hynix to spend 1 billion dollars over five years to support chip suppliers",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/sk-hynix-to-spend-1-billion-over-five-years-to-support-chip-suppliers/articleshow/135878099.cms"
+      ],
+      "first_covered": "2026-11-16",
+      "last_major_update": "2026-11-16",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261116_standing_on_one_leg_imf_chief_warns",
+      "story_chain_id": "chain_global_standing_on_one_leg_",
+      "headline": "‘Standing on one leg’: IMF chief warns about global economy as AI circular financing hits 1 trillion dollars",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html"
+      ],
+      "first_covered": "2026-11-16",
+      "last_major_update": "2026-11-16",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261116_freshworks_alums_raise_53_million_d",
+      "story_chain_id": "chain_global_freshworks_alums_rai",
+      "headline": "Freshworks alums raise 53 million dollars to take on Salesforce, HubSpot with AI-native CRM",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/"
+      ],
+      "first_covered": "2026-11-16",
+      "last_major_update": "2026-11-16",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261116_ibm_investing_3_billion_dollars_ann",
+      "story_chain_id": "chain_global_ibm_investing_3_bill",
+      "headline": "IBM investing 3 billion dollars annually in India, plans 10 billion dollars global quantum push: CEO",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/ibm-investing-3-billion-annually-in-india-plans-10-billion-global-quantum-push-ceo/articleshow/135884070.cms"
+      ],
+      "first_covered": "2026-11-16",
+      "last_major_update": "2026-11-16",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261116_envisioning_agentic_robotics_a_new_",
+      "story_chain_id": "chain_global_envisioning_agentic_",
+      "headline": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.18359"
+      ],
+      "first_covered": "2026-11-16",
+      "last_major_update": "2026-11-16",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261117_us_government_confirms_investigatio",
+      "story_chain_id": "chain_global_us_government_confir",
+      "headline": "US government confirms investigation into tech firm Megaspeed",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss"
+      ],
+      "first_covered": "2026-11-17",
+      "last_major_update": "2026-11-17",
+      "update_phase": "initial_break",
+      "impact_score": 84
+    },
+    {
+      "story_id": "story_20261117_baidu_s_robin_li_warns_of_ai_bubble",
+      "story_chain_id": "chain_global_baidu_s_robin_li_war",
+      "headline": "Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spending",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://technode.com/2026/11/17/baidus-robin-li-warns-of-ai-bubble-risk-as-applications-lag-infrastructure-spending/"
+      ],
+      "first_covered": "2026-11-17",
+      "last_major_update": "2026-11-17",
+      "update_phase": "initial_break",
+      "impact_score": 77
+    },
+    {
+      "story_id": "story_20261117_huawei_reveals_the_design_of_its_fi",
+      "story_chain_id": "chain_global_huawei_reveals_the_d",
+      "headline": "Huawei reveals the design of its first OSTA phone ahead of November 20 launch",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://technode.com/2026/11/17/huawei-reveals-the-design-of-its-first-osta-phone-ahead-of-november-20-launch/"
+      ],
+      "first_covered": "2026-11-17",
+      "last_major_update": "2026-11-17",
+      "update_phase": "initial_break",
+      "impact_score": 77
+    },
+    {
+      "story_id": "story_20261117_openai_sued_by_california_over_hugg",
+      "story_chain_id": "chain_global_openai_sued_by_calif",
+      "headline": "OpenAI sued by California over Hugging Face attack",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss"
+      ],
+      "first_covered": "2026-11-17",
+      "last_major_update": "2026-11-17",
+      "update_phase": "initial_break",
+      "impact_score": 76
+    },
+    {
+      "story_id": "story_20261117_fbi_says_artex_ai_open_source_hacki",
+      "story_chain_id": "chain_global_fbi_says_artex_ai_op",
+      "headline": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/"
+      ],
+      "first_covered": "2026-11-17",
+      "last_major_update": "2026-11-17",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261117_cybersecurity_ai_startup_corma_reac",
+      "story_chain_id": "chain_global_cybersecurity_ai_sta",
+      "headline": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+      ],
+      "first_covered": "2026-11-17",
+      "last_major_update": "2026-11-17",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261117_india_s_velocity_unveils_ai_tool_fo",
+      "story_chain_id": "chain_global_india_s_velocity_unv",
+      "headline": "India’s Velocity unveils AI tool for D2C shipping",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.techinasia.com/news/indias-velocity-unveils-ai-tool-d2c-shipping"
+      ],
+      "first_covered": "2026-11-17",
+      "last_major_update": "2026-11-17",
+      "update_phase": "initial_break",
+      "impact_score": 70
+    },
+    {
+      "story_id": "story_20261117_india_nine_other_nations_sign_joint",
+      "story_chain_id": "chain_global_india_nine_other_nat",
+      "headline": "India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://inc42.com/buzz/india-nine-other-nations-sign-declaration-to-secure-ai-supply-chains/"
+      ],
+      "first_covered": "2026-11-17",
+      "last_major_update": "2026-11-17",
+      "update_phase": "initial_break",
+      "impact_score": 67
+    },
+    {
+      "story_id": "story_20261117_unitree_s_wang_xingxing_says_robot_",
+      "story_chain_id": "chain_global_unitree_s_wang_xingx",
+      "headline": "Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain Challenges",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://pandaily.com/unitree-wang-xingxing-apec-robot-generalization-manufacturing-compute"
+      ],
+      "first_covered": "2026-11-17",
+      "last_major_update": "2026-11-17",
+      "update_phase": "initial_break",
+      "impact_score": 66
     }
   ],
   "entity_index": {}

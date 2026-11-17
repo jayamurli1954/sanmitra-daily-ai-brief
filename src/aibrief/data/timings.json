@@ -1,18 +1,18 @@
 {
   "intro": {
     "audioFile": "audio/aibrief/s0_intro.mp3",
-    "audioDurationSeconds": 18.34,
-    "sceneDurationSeconds": 19.54,
-    "durationInFrames": 586,
+    "audioDurationSeconds": 71.9,
+    "sceneDurationSeconds": 73.1,
+    "durationInFrames": 2193,
     "title": "Intro: Today's Biggest AI Developments",
     "voice": "en-US-ChristopherNeural"
   },
-  "s1_south_korea_s_top_scorer_in_tax": {
-    "audioFile": "audio/aibrief/s1_s1_south_korea_s_top_scorer_in_tax.mp3",
-    "audioDurationSeconds": 48.5,
-    "sceneDurationSeconds": 49.7,
-    "durationInFrames": 1491,
-    "title": "Story 1: South Korea's top scorer in tax accountancy exam admits cheating",
+  "s1_sk_hynix_to_spend_1_billion_doll": {
+    "audioFile": "audio/aibrief/s1_s1_sk_hynix_to_spend_1_billion_doll.mp3",
+    "audioDurationSeconds": 23.5,
+    "sceneDurationSeconds": 24.7,
+    "durationInFrames": 741,
+    "title": "Story 1: SK Hynix to spend 1 billion dollars over five years to support chip suppliers",
     "voice": "en-US-AriaNeural"
   },
   "transition_usa": {
@@ -22,21 +22,36 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: USA & REGIONAL STRATEGY"
   },
-  "s2_asian_governments_react_to_nvidi": {
-    "audioFile": "audio/aibrief/s2_s2_asian_governments_react_to_nvidi.mp3",
-    "audioDurationSeconds": 52.22,
-    "sceneDurationSeconds": 53.42,
-    "durationInFrames": 1603,
-    "title": "Story 2: Asian governments react to Nvidia CEO Jensen Huang\u2019s exit",
+  "s2_standing_on_one_leg_imf_chief_w": {
+    "audioFile": "audio/aibrief/s2_s2_standing_on_one_leg_imf_chief_w.mp3",
+    "audioDurationSeconds": 16.22,
+    "sceneDurationSeconds": 17.42,
+    "durationInFrames": 523,
+    "title": "Story 2: \u2018Standing on one leg\u2019: IMF chief warns about global economy as AI circular financing hits 1 trillion dollars",
     "voice": "en-US-ChristopherNeural"
   },
-  "s3_the_ai_graveyard_a_running_list": {
-    "audioFile": "audio/aibrief/s3_s3_the_ai_graveyard_a_running_list.mp3",
-    "audioDurationSeconds": 56.93,
-    "sceneDurationSeconds": 58.13,
-    "durationInFrames": 1744,
-    "title": "Story 3: The AI graveyard: a running list of projects and startups that didn\u2019t make it",
+  "s3_freshworks_alums_raise_53_millio": {
+    "audioFile": "audio/aibrief/s3_s3_freshworks_alums_raise_53_millio.mp3",
+    "audioDurationSeconds": 10.46,
+    "sceneDurationSeconds": 11.66,
+    "durationInFrames": 350,
+    "title": "Story 3: Freshworks alums raise 53 million dollars to take on Salesforce, HubSpot with AI-native CRM",
     "voice": "en-US-AriaNeural"
+  },
+  "transition_china": {
+    "audioFile": "",
+    "audioDurationSeconds": 0.0,
+    "sceneDurationSeconds": 2.0,
+    "durationInFrames": 60,
+    "title": "Transition: NEXT: CHINA & REGIONAL STRATEGY"
+  },
+  "s4_tencent_cloud_signs_ai_deal_with": {
+    "audioFile": "audio/aibrief/s4_s4_tencent_cloud_signs_ai_deal_with.mp3",
+    "audioDurationSeconds": 16.08,
+    "sceneDurationSeconds": 17.28,
+    "durationInFrames": 518,
+    "title": "Story 4: Tencent Cloud signs AI deal with Capital A\u2019s logistics arm",
+    "voice": "en-US-ChristopherNeural"
   },
   "transition_asia": {
     "audioFile": "",
@@ -45,13 +60,13 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: ASIA & REGIONAL STRATEGY"
   },
-  "s4_sg_physical_ai_startup_ropedia_e": {
-    "audioFile": "audio/aibrief/s4_s4_sg_physical_ai_startup_ropedia_e.mp3",
-    "audioDurationSeconds": 12.41,
-    "sceneDurationSeconds": 13.61,
-    "durationInFrames": 408,
-    "title": "Story 4: SG physical AI startup Ropedia expands robotics training data",
-    "voice": "en-US-ChristopherNeural"
+  "s5_new_hardware_for_the_billion_dol": {
+    "audioFile": "audio/aibrief/s5_s5_new_hardware_for_the_billion_dol.mp3",
+    "audioDurationSeconds": 14.16,
+    "sceneDurationSeconds": 15.36,
+    "durationInFrames": 461,
+    "title": "Story 5: New hardware for the billion-dollar quantum computing race",
+    "voice": "en-US-AriaNeural"
   },
   "transition_india": {
     "audioFile": "",
@@ -60,59 +75,67 @@
     "durationInFrames": 60,
     "title": "Transition: NEXT: INDIA & REGIONAL STRATEGY"
   },
-  "s5_sarvam_ropes_in_google_cloud_ind": {
-    "audioFile": "audio/aibrief/s5_s5_sarvam_ropes_in_google_cloud_ind.mp3",
-    "audioDurationSeconds": 13.9,
-    "sceneDurationSeconds": 15.1,
-    "durationInFrames": 453,
-    "title": "Story 5: Sarvam Ropes In Google Cloud India MD Sashikumar Sreedharan As President & CBO",
-    "voice": "en-US-AriaNeural"
-  },
-  "s6_the_rise_of_housefishing": {
-    "audioFile": "audio/aibrief/s6_s6_the_rise_of_housefishing.mp3",
-    "audioDurationSeconds": 10.49,
-    "sceneDurationSeconds": 11.69,
-    "durationInFrames": 351,
-    "title": "Story 6: The rise of 'housefishing'",
+  "s6_ibm_investing_3_billion_dollars": {
+    "audioFile": "audio/aibrief/s6_s6_ibm_investing_3_billion_dollars.mp3",
+    "audioDurationSeconds": 20.23,
+    "sceneDurationSeconds": 21.43,
+    "durationInFrames": 643,
+    "title": "Story 6: IBM investing 3 billion dollars annually in India, plans 10 billion dollars global quantum push: CEO",
     "voice": "en-US-ChristopherNeural"
   },
-  "s7_nectar_launches_an_ai_agent_to_a": {
-    "audioFile": "audio/aibrief/s7_s7_nectar_launches_an_ai_agent_to_a.mp3",
-    "audioDurationSeconds": 12.58,
-    "sceneDurationSeconds": 13.78,
-    "durationInFrames": 413,
-    "title": "Story 7: Nectar launches an AI agent to automate creator discovery and outreach for brands",
+  "s7_alibaba_unveils_new_flagship_ai": {
+    "audioFile": "audio/aibrief/s7_s7_alibaba_unveils_new_flagship_ai.mp3",
+    "audioDurationSeconds": 19.39,
+    "sceneDurationSeconds": 20.59,
+    "durationInFrames": 618,
+    "title": "Story 7: Alibaba unveils new flagship AI model with safety upgrades",
     "voice": "en-US-AriaNeural"
   },
-  "s8_south_korea_s_hyundai_card_launc": {
-    "audioFile": "audio/aibrief/s8_s8_south_korea_s_hyundai_card_launc.mp3",
-    "audioDurationSeconds": 16.46,
-    "sceneDurationSeconds": 17.66,
-    "durationInFrames": 530,
-    "title": "Story 8: South Korea\u2019s Hyundai Card launches AI tools for partners",
+  "s8_huawei_launches_xiaoyi_ai_member": {
+    "audioFile": "audio/aibrief/s8_s8_huawei_launches_xiaoyi_ai_member.mp3",
+    "audioDurationSeconds": 19.56,
+    "sceneDurationSeconds": 20.76,
+    "durationInFrames": 623,
+    "title": "Story 8: Huawei Launches Xiaoyi AI Membership With Credit-Based Plans From 49 to 499 Yuan a Month",
     "voice": "en-US-ChristopherNeural"
   },
-  "s9_confucius4_r2t2_a_stable_prefix": {
-    "audioFile": "audio/aibrief/s9_s9_confucius4_r2t2_a_stable_prefix.mp3",
-    "audioDurationSeconds": 104.06,
-    "sceneDurationSeconds": 105.26,
-    "durationInFrames": 3158,
-    "title": "Story 9: Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+  "s9_upgrad_enters_enterprise_advisor": {
+    "audioFile": "audio/aibrief/s9_s9_upgrad_enters_enterprise_advisor.mp3",
+    "audioDurationSeconds": 38.86,
+    "sceneDurationSeconds": 40.06,
+    "durationInFrames": 1202,
+    "title": "Story 9: upGrad Enters Enterprise Advisory With Launch Of upGrad Next",
+    "voice": "en-US-AriaNeural"
+  },
+  "s10_europe_hunts_for_palantir_altern": {
+    "audioFile": "audio/aibrief/s10_s10_europe_hunts_for_palantir_altern.mp3",
+    "audioDurationSeconds": 26.09,
+    "sceneDurationSeconds": 27.29,
+    "durationInFrames": 819,
+    "title": "Story 10: Europe hunts for Palantir alternatives as militaries seek to limit US dependence",
+    "voice": "en-US-ChristopherNeural"
+  },
+  "s11_envisioning_agentic_robotics_a_n": {
+    "audioFile": "audio/aibrief/s11_s11_envisioning_agentic_robotics_a_n.mp3",
+    "audioDurationSeconds": 51.72,
+    "sceneDurationSeconds": 52.92,
+    "durationInFrames": 1588,
+    "title": "Story 11: Envisioning Agentic Robotics: A New Era of Robotic Systems",
     "voice": "en-US-AriaNeural"
   },
   "recap": {
     "audioFile": "audio/aibrief/s_recap.mp3",
-    "audioDurationSeconds": 31.63,
-    "sceneDurationSeconds": 32.83,
-    "durationInFrames": 985,
+    "audioDurationSeconds": 40.99,
+    "sceneDurationSeconds": 42.19,
+    "durationInFrames": 1266,
     "title": "Headlines Recap: Today's Critical Developments",
     "voice": "en-US-ChristopherNeural"
   },
   "outro": {
     "audioFile": "audio/aibrief/s_outro.mp3",
-    "audioDurationSeconds": 17.59,
-    "sceneDurationSeconds": 18.79,
-    "durationInFrames": 564,
+    "audioDurationSeconds": 18.17,
+    "sceneDurationSeconds": 19.37,
+    "durationInFrames": 581,
     "title": "Outro: Subscribe & Daily Bureaus",
     "voice": "en-US-ChristopherNeural"
   }

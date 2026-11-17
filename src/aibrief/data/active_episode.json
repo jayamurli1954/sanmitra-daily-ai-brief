@@ -1,32 +1,31 @@
 {
   "weekly": false,
-  "date": "2026-11-16",
-  "formattedDate": "16 November 2026",
-  "title": "SK Hynix to spend 1 billion | ‘Standing on one leg’: IMF chief | Freshworks alums raise 53 million | AI News 16 November 2026",
+  "date": "2026-11-17",
+  "formattedDate": "17 November 2026",
+  "title": "US government confirms | OpenAI sued by California over | Cybersecurity AI startup Corma | AI News 17 November 2026",
   "intro": {
-    "durationSeconds": 62,
+    "durationSeconds": 53,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 16 November 2026. First, today's top headlines: SK Hynix to spend 1 billion dollars over five years to support chip suppliers. ‘Standing on one leg’: IMF chief warns about global economy as AI circular financing hits 1 trillion dollars. Freshworks alums raise 53 million dollars to take on Salesforce, HubSpot with AI-native CRM. Tencent Cloud signs AI deal with Capital A’s logistics arm. New hardware for the billion-dollar quantum computing race. IBM investing 3 billion dollars annually in India, plans 10 billion dollars global quantum push: CEO. Alibaba unveils new flagship AI model with safety upgrades. Huawei Launches Xiaoyi AI Membership With Credit-Based Plans From 49 to 499 Yuan a Month. upGrad Enters Enterprise Advisory With Launch Of upGrad Next. Europe hunts for Palantir alternatives as militaries seek to limit US dependence. And now, the news in brief.",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 17 November 2026. First, today's top headlines: US government confirms investigation into tech firm Megaspeed. OpenAI sued by California over Hugging Face attack. Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 months. Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spending. FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’. India’s Velocity unveils AI tool for D2C shipping. Huawei reveals the design of its first OSTA phone ahead of November 20 launch. Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain Challenges. India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains. And now, the news in brief.",
     "headlines": [
-      "SK Hynix to spend 1 billion dollars over five years to support chip suppliers",
-      "‘Standing on one leg’: IMF chief warns about global economy as AI circular financing hits 1 trillion dollars",
-      "Freshworks alums raise 53 million dollars to take on Salesforce, HubSpot with AI-native CRM",
-      "Tencent Cloud signs AI deal with Capital A’s logistics arm",
-      "New hardware for the billion-dollar quantum computing race",
-      "IBM investing 3 billion dollars annually in India, plans 10 billion dollars global quantum push: CEO",
-      "Alibaba unveils new flagship AI model with safety upgrades",
-      "Huawei Launches Xiaoyi AI Membership With Credit-Based Plans From 49 to 499 Yuan a Month",
-      "upGrad Enters Enterprise Advisory With Launch Of upGrad Next",
-      "Europe hunts for Palantir alternatives as militaries seek to limit US dependence"
+      "US government confirms investigation into tech firm Megaspeed",
+      "OpenAI sued by California over Hugging Face attack",
+      "Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 months",
+      "Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spending",
+      "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+      "India’s Velocity unveils AI tool for D2C shipping",
+      "Huawei reveals the design of its first OSTA phone ahead of November 20 launch",
+      "Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain Challenges",
+      "India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains"
     ]
   },
   "transitions": [
     {
-      "id": "transition_asia",
-      "region": "ASIA",
-      "title": "NEXT: ASIA & REGIONAL STRATEGY",
-      "display": "NEXT: ASIA",
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
       "durationSeconds": 2
     },
     {
@@ -74,372 +73,335 @@
   ],
   "stories": [
     {
-      "id": "s1_sk_hynix_to_spend_1_billion_doll",
-      "region": "ASIA",
-      "category": "ASIA Intelligence",
-      "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "SK Hynix to spend 1 billion dollars over five years to support chip suppliers",
-      "subheadline": "Source: The Economic Times",
+      "id": "s1_us_government_confirms_investiga",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "US government confirms investigation into tech firm Megaspeed",
+      "subheadline": "Source: BBC",
       "importanceScore": 99,
-      "durationSeconds": 24,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/sk-hynix-to-spend-1-billion-over-five-years-to-support-chip-suppliers/articleshow/135878099.cms",
+      "durationSeconds": 47,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
       "researchDesk": "",
-      "script": "Our lead story today. South Korea's SK Hynix said on Monday it plans to spend 1.4 trillion won (1.05 billion dollars ) over the next five years to support domestic suppliers of semiconductor materials, parts and equipment, aiming to strengthen its supply chain as competition intensifies",
-      "whyThisMatters": "South Korea's SK Hynix said on Monday it plans to spend 1.4 trillion won ($1.05 billion) over the next five years to support domestic suppliers of semiconductor materials, parts and equipment, aiming to strengthen its su",
+      "script": "Our lead story today. The United States has confirmed it is investigating computing company Megaspeed, suspecting it of violating US export controls by helping to ship tech giant Nvidia's chips to China. In a joint statement, the US Department of Justice and Department of Commerce said they had been investigating Singapore-based firm Megaspeed since 2024. It comes after questions were raised about the possibility high-end AI chips may have ended up in China despite US export restrictions. Concerns emerged in recent weeks after Nvidia founder Jensen Huang revealed he had an extramarital affair , allegedly with former Megaspeed executive Alice Huang. US authorities suspect her of spying for Beijing, which China denies.",
+      "whyThisMatters": "The United States has confirmed it is investigating computing company Megaspeed, suspecting it of violating US export controls by helping to ship tech giant Nvidia's chips to China.",
       "sourceType": "reporting",
       "keyPoints": [
-        "SK Hynix to spend 1 billion dollars over five years to support chip suppliers",
-        "The Economic Times"
+        "US government confirms investigation into tech firm Megaspeed",
+        "BBC"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s1_cut1.jpg",
-          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
+          "image": "aibrief/assets/editorial/2026-11-17/s1_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s1_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-11-17/s1_cut2.jpg",
           "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s1_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "image": "aibrief/assets/editorial/2026-11-17/s1_cut3.jpg",
+          "badge": "FEDERAL DISTRICT COURT • SECURITIES LITIGATION",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_standing_on_one_leg_imf_chief_w",
+      "id": "s2_openai_sued_by_california_over_h",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "‘Standing on one leg’: IMF chief warns about global economy as AI circular financing hits 1 trillion dollars",
-      "subheadline": "Source: CNBC",
+      "headline": "OpenAI sued by California over Hugging Face attack",
+      "subheadline": "Source: BBC",
       "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html",
+      "durationSeconds": 43,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
       "researchDesk": "",
-      "script": "Turning to the United States. Kristalina Georgieva says circular financing among AI companies has grown to just over 1 trillion dollars , two-thirds of it debt, as investor enthusiasm cools",
-      "whyThisMatters": "Kristalina Georgieva says circular financing among AI companies has grown to just over $1 trillion, two-thirds of it debt, as investor enthusiasm cools",
+      "script": "Turning to the United States. California Attorney General Rob Bonta sued OpenAI on Monday, alleging the ChatGPT-maker misled and endangered the public by developing artificial intelligence (AI) models without proper safeguards. In the lawsuit, Bonta cited the July 2026 attack on the AI platform Hugging Face by experimental OpenAI agents which accessed the internet to breach that company's internal systems. Bonta claimed OpenAI created a public nuisance and violated the state's unfair competition laws. OpenAI spokesperson Drew Pusateri told the BBC in a statement that Bonta's lawsuit \"appears to single out OpenAI over a challenge that's been identified by every major AI lab\".",
+      "whyThisMatters": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the ChatGPT-maker misled and endangered the public by developing artificial intelligence (AI) models without proper safeguards.",
       "sourceType": "reporting",
       "keyPoints": [
-        "‘Standing on one leg’: IMF chief warns about global economy as AI circular finan",
-        "CNBC"
+        "OpenAI sued by California over Hugging Face attack",
+        "BBC"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s2_cut1.jpg",
-          "badge": "SK HYNIX • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-11-17/s2_cut1.jpg",
+          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s2_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "image": "aibrief/assets/editorial/2026-11-17/s2_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s2_cut3.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "image": "aibrief/assets/editorial/2026-11-17/s2_cut3.jpg",
+          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s3_freshworks_alums_raise_53_millio",
+      "id": "s3_cybersecurity_ai_startup_corma_r",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Freshworks alums raise 53 million dollars to take on Salesforce, HubSpot with AI-native CRM",
+      "headline": "Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 months",
       "subheadline": "Source: TechCrunch",
       "importanceScore": 95,
       "durationSeconds": 24,
       "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
       "researchDesk": "",
-      "script": "In other news. Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
-      "whyThisMatters": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+      "script": "In other news. Three months since introducing its product, AI cybersecurity startup Corba has raised a 125 million dollars Series A at a 1 billion dollars valuation led by NEA.",
+      "whyThisMatters": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Freshworks alums raise 53 million dollars to take on Salesforce, HubSpot with AI",
+        "Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 mo",
         "TechCrunch"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s3_cut1.jpg",
-          "badge": "IBM • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-11-17/s3_cut1.jpg",
+          "badge": "MILLIONAIRE • CONTEXTUAL REPORTING",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s3_cut2.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "image": "aibrief/assets/editorial/2026-11-17/s3_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s3_cut3.jpg",
-          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
+          "image": "aibrief/assets/editorial/2026-11-17/s3_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s4_tencent_cloud_signs_ai_deal_with",
+      "id": "s4_baidu_s_robin_li_warns_of_ai_bub",
       "region": "CHINA",
       "category": "CHINA Intelligence",
       "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Tencent Cloud signs AI deal with Capital A’s logistics arm",
-      "subheadline": "Source: Tech in Asia",
+      "headline": "Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spending",
+      "subheadline": "Source: TechNode",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Tech in Asia",
-      "sourceUrl": "https://www.techinasia.com/news/tencent-cloud-signs-ai-deal-capital-logistics-arm",
+      "durationSeconds": 42,
+      "source": "TechNode",
+      "sourceUrl": "https://technode.com/2026/11/17/baidus-robin-li-warns-of-ai-bubble-risk-as-applications-lag-infrastructure-spending/",
       "researchDesk": "",
-      "script": "In China. Teleport said its network moves up to 1.25 million parcels a day using capacity from more than 55 airline partners.",
-      "whyThisMatters": "Teleport said its network moves up to 1.25 million parcels a day using capacity from more than 55 airline partners.",
+      "script": "In China. Baidu CEO Robin Li warned on Tuesday that the AI industry could face a bubble if businesses fail to turn adoption into higher profits. Speaking at the APEC CEO Summit in Shenzhen, Li said the spread of AI applications had fallen short of expectations despite heavy spending on infrastructure, rapid model development and rising token use. Li said companies need to rethink how they organize work to turn AI capabilities into business gains. He pointed to changes Baidu has made internally, building on a theme he raised at Baidu World last week about how companies can organize around AI.",
+      "whyThisMatters": "Baidu CEO Robin Li warned on Tuesday that the AI industry could face a bubble if businesses fail to turn adoption into higher profits.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Tencent Cloud signs AI deal with Capital A’s logistics arm",
-        "Tech in Asia"
+        "Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spen",
+        "TechNode"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s4_cut1.jpg",
-          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
+          "image": "aibrief/assets/editorial/2026-11-17/s4_cut1.jpg",
+          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s4_cut2.jpg",
-          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "image": "aibrief/assets/editorial/2026-11-17/s4_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s4_cut3.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "image": "aibrief/assets/editorial/2026-11-17/s4_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
           "panDirection": "panLeft"
         }
       ]
     },
     {
-      "id": "s5_new_hardware_for_the_billion_dol",
+      "id": "s5_fbi_says_artex_ai_open_source_ha",
       "region": "ASIA",
       "category": "ASIA Intelligence",
       "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "New hardware for the billion-dollar quantum computing race",
+      "headline": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "researchDesk": "",
+      "script": "In Asia. The FBI says that the open source hacking tool was used in cyberattacks targeting a US IT giant and the South Korean financial industry.",
+      "whyThisMatters": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "FBI says Artex AI open source hacking tool used to breach networks in ‘under thr",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s5_cut1.jpg",
+          "badge": "BAIDU • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s5_cut2.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s5_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_india_s_velocity_unveils_ai_tool",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "India’s Velocity unveils AI tool for D2C shipping",
       "subheadline": "Source: Tech in Asia",
       "importanceScore": 90,
       "durationSeconds": 24,
       "source": "Tech in Asia",
-      "sourceUrl": "https://www.techinasia.com/hardware-billiondollar-quantum-computing-race",
+      "sourceUrl": "https://www.techinasia.com/news/indias-velocity-unveils-ai-tool-d2c-shipping",
       "researchDesk": "",
-      "script": "In Asia. Quantum Logic aims to capitalize on the AI-driven quantum boom by solving the cryogenic limitations preventing massive qubit scaling.",
-      "whyThisMatters": "Quantum Logic aims to capitalize on the AI-driven quantum boom by solving the cryogenic limitations preventing massive qubit scaling.",
+      "script": "Turning to India. Velocity said Vector uses the Model Context Protocol, introduced by Anthropic, to connect shipping workflows with AI apps such as Claude and ChatGPT.",
+      "whyThisMatters": "Velocity said Vector uses the Model Context Protocol, introduced by Anthropic, to connect shipping workflows with AI apps such as Claude and ChatGPT.",
       "sourceType": "reporting",
       "keyPoints": [
-        "New hardware for the billion-dollar quantum computing race",
+        "India’s Velocity unveils AI tool for D2C shipping",
         "Tech in Asia"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s5_cut1.jpg",
-          "badge": "NEXT • CONTEXTUAL REPORTING",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-16/s5_cut2.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-16/s5_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-11-17/s6_cut1.jpg",
           "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
           "panDirection": "zoomOut"
-        }
-      ]
-    },
-    {
-      "id": "s6_ibm_investing_3_billion_dollars",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "IBM investing 3 billion dollars annually in India, plans 10 billion dollars global quantum push: CEO",
-      "subheadline": "Source: The Economic Times",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/ibm-investing-3-billion-annually-in-india-plans-10-billion-global-quantum-push-ceo/articleshow/135884070.cms",
-      "researchDesk": "",
-      "script": "Turning to India. AI could displace 10-20% of jobs over the next decade, with the business process outsourcing (BPO) industry likely to face some of the biggest reductions in employment, Krishna said, arguing that businesses and governments would need to prepare workers for changes in the nature of work.",
-      "whyThisMatters": "AI could displace 10-20% of jobs over the next decade, with the business process outsourcing (BPO) industry likely to face some of the biggest reductions in employment, Krishna said, arguing that businesses and governmen",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "IBM investing 3 billion dollars annually in India, plans 10 billion dollars glob",
-        "The Economic Times"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-16/s6_cut1.jpg",
-          "badge": "STANDING • CONTEXTUAL REPORTING",
-          "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s6_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-11-17/s6_cut2.jpg",
           "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s6_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-11-17/s6_cut3.jpg",
           "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s7_alibaba_unveils_new_flagship_ai",
+      "id": "s7_huawei_reveals_the_design_of_its",
       "region": "CHINA",
       "category": "CHINA Intelligence",
       "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Alibaba unveils new flagship AI model with safety upgrades",
-      "subheadline": "Source: The Economic Times",
+      "headline": "Huawei reveals the design of its first OSTA phone ahead of November 20 launch",
+      "subheadline": "Source: TechNode",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/alibaba-unveils-new-flagship-ai-model-with-safety-upgrades/articleshow/135874755.cms",
+      "durationSeconds": 35,
+      "source": "TechNode",
+      "sourceUrl": "https://technode.com/2026/11/17/huawei-reveals-the-design-of-its-first-osta-phone-ahead-of-november-20-launch/",
       "researchDesk": "",
-      "script": "In China. China's Alibaba unveiled its new flagship artificial intelligence model Qwen4-Max on Sunday, saying it enhanced the system's ability to handle complex professional and scientific work while improving protections against safety risks.",
-      "whyThisMatters": "China's Alibaba unveiled its new flagship artificial intelligence model Qwen4-Max on Sunday, saying it enhanced the system's ability to handle complex professional and scientific work while improving protections against ",
+      "script": "In China. Huawei’s new smartphone brand OSTA on Tuesday revealed the design of its first phone, the O1 Pro, ahead of its November 20 launch. The phone has an unusually wide body and a purple gradient finish, with a horizontal pill-shaped rear camera module. OSTA is positioning the O1 Pro as an AI phone running HarmonyOS. The brand showed custom icons and wallpapers that carry the same color scheme across the interface. It also previewed a dedicated AI companion with its own chat interface.",
+      "whyThisMatters": "Huawei’s new smartphone brand OSTA on Tuesday revealed the design of its first phone, the O1 Pro, ahead of its November 20 launch.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Alibaba unveils new flagship AI model with safety upgrades",
-        "The Economic Times"
+        "Huawei reveals the design of its first OSTA phone ahead of November 20 launch",
+        "TechNode"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s7_cut1.jpg",
-          "badge": "HANGZHOU • ALIBABA CLOUD XIXI CAMPUS",
+          "image": "aibrief/assets/editorial/2026-11-17/s7_cut1.jpg",
+          "badge": "HUAWEI • CONTEXTUAL REPORTING",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s7_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "image": "aibrief/assets/editorial/2026-11-17/s7_cut2.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s7_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "image": "aibrief/assets/editorial/2026-11-17/s7_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s8_huawei_launches_xiaoyi_ai_member",
+      "id": "s8_unitree_s_wang_xingxing_says_rob",
       "region": "CHINA",
       "category": "CHINA Intelligence",
       "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Huawei Launches Xiaoyi AI Membership With Credit-Based Plans From 49 to 499 Yuan a Month",
+      "headline": "Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain Challenges",
       "subheadline": "Source: Pandaily",
       "importanceScore": 90,
       "durationSeconds": 24,
       "source": "Pandaily",
-      "sourceUrl": "https://pandaily.com/huawei-xiaoyi-ai-membership-credit-plans-xiaoyi-work-harmonyos",
+      "sourceUrl": "https://pandaily.com/unitree-wang-xingxing-apec-robot-generalization-manufacturing-compute",
       "researchDesk": "",
-      "script": "Next. Huawei's new Xiaoyi AI membership turns paid features into credits: 49 yuan for 1,000, Pro at 199 yuan for 6,000 and Max at 499 yuan for 15,000 a month.",
-      "whyThisMatters": "Huawei's new Xiaoyi AI membership turns paid features into credits: 49 yuan for 1,000, Pro at 199 yuan for 6,000 and Max at 499 yuan for 15,000 a month.",
+      "script": "Next. At APEC, Wang Xingxing said robot-model generalization remains difficult and warned that manufacturing, reliability, service and compute must scale too.",
+      "whyThisMatters": "At APEC, Wang Xingxing said robot-model generalization remains difficult and warned that manufacturing, reliability, service and compute must scale too.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Huawei Launches Xiaoyi AI Membership With Credit-Based Plans From 49 to 499 Yuan",
+        "Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain",
         "Pandaily"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s8_cut1.jpg",
-          "badge": "HUAWEI • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-11-17/s8_cut1.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s8_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-11-17/s8_cut2.jpg",
           "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s8_cut3.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "image": "aibrief/assets/editorial/2026-11-17/s8_cut3.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
           "panDirection": "panLeft"
         }
       ]
     },
     {
-      "id": "s9_upgrad_enters_enterprise_advisor",
+      "id": "s9_india_nine_other_nations_sign_jo",
       "region": "INDIA",
       "category": "INDIA Intelligence",
       "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "upGrad Enters Enterprise Advisory With Launch Of upGrad Next",
+      "headline": "India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains",
       "subheadline": "Source: Inc42",
       "importanceScore": 90,
-      "durationSeconds": 48,
+      "durationSeconds": 24,
       "source": "Inc42",
-      "sourceUrl": "https://inc42.com/buzz/upgrad-enters-enterprise-advisory-with-launch-of-upgrad-next/",
+      "sourceUrl": "https://inc42.com/buzz/india-nine-other-nations-sign-declaration-to-secure-ai-supply-chains/",
       "researchDesk": "",
-      "script": "Turning to India. upGrad has launched upGrad Next, an enterprise advisory practice that combines consulting with the edtech company’s existing workforce skilling and hiring services The launch puts upGrad in a position to advise companies on how to restructure teams and prepare employees for AI adoption, then help implement those changes Four former Deloitte and EY executives will lead the practice as managing directors, with more senior leaders expected to join in the coming weeks Edtech unicorn upGrad has launched upGrad Next, an enterprise advisory practice that will help companies restructure their organisations and prepare their employees for AI adoption. The new vertical will advise senior executives on organisational structure, hiring, employee compensation, and workforce development.",
-      "whyThisMatters": "upGrad has launched upGrad Next, an enterprise advisory practice that combines consulting with the edtech company’s existing workforce skilling and hiring services The launch puts upGrad in a position to advise companies",
+      "script": "Turning to India. India and nine other nations have signed a joint declaration to safeguard supply chains and infrastructure that are central to…",
+      "whyThisMatters": "India and nine other nations have signed a joint declaration to safeguard supply chains and infrastructure that are central to…",
       "sourceType": "reporting",
       "keyPoints": [
-        "upGrad Enters Enterprise Advisory With Launch Of upGrad Next",
+        "India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains",
         "Inc42"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s9_cut1.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "image": "aibrief/assets/editorial/2026-11-17/s9_cut1.jpg",
+          "badge": "CANBERRA • PRIME MINISTER ANTHONY ALBANESE",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s9_cut2.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "image": "aibrief/assets/editorial/2026-11-17/s9_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-16/s9_cut3.jpg",
-          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "image": "aibrief/assets/editorial/2026-11-17/s9_cut3.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
           "panDirection": "zoomOut"
-        }
-      ]
-    },
-    {
-      "id": "s10_europe_hunts_for_palantir_altern",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "Europe hunts for Palantir alternatives as militaries seek to limit US dependence",
-      "subheadline": "Source: The Economic Times",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/tech/technology/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence/articleshow/135877776.cms",
-      "researchDesk": "",
-      "script": "Also today. Last week, Germany's Helsing unveiled military intelligence software called Clarity. It is part of a broader market for AI-powered systems designed to accelerate military decision-making by helping sift through vast quantities of data to help identify threats and recommend action, including targeting and attacks.",
-      "whyThisMatters": "Last week, Germany's Helsing unveiled military intelligence software called Clarity.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Europe hunts for Palantir alternatives as militaries seek to limit US dependence",
-        "The Economic Times"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-16/s10_cut1.jpg",
-          "badge": "PALANTIR • CONTEXTUAL REPORTING",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-16/s10_cut2.jpg",
-          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-16/s10_cut3.jpg",
-          "badge": "DEFENSE RESEARCH LAB • AUTONOMOUS GUIDANCE",
-          "panDirection": "zoomIn"
         }
       ]
     }
@@ -447,15 +409,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. SK Hynix to spend 1 billion dollars over five years to support chip suppliers. ‘Standing on one leg’: IMF chief warns about global economy as AI circular financing hits 1 trillion dollars. Freshworks alums raise 53 million dollars to take on Salesforce, HubSpot with AI-native CRM. Tencent Cloud signs AI deal with Capital A’s logistics arm. New hardware for the billion-dollar quantum computing race. IBM investing 3 billion dollars annually in India, plans 10 billion dollars global quantum push: CEO.",
+    "script": "To recap today's top stories. US government confirms investigation into tech firm Megaspeed. OpenAI sued by California over Hugging Face attack. Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 months. Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spending. FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’. India’s Velocity unveils AI tool for D2C shipping.",
     "items": [
-      "✓ SK Hynix to spend 1 billion dollars over five ye",
-      "✓ ‘Standing on one leg’: IMF chief warns about glo",
-      "✓ Freshworks alums raise 53 million dollars to tak",
-      "✓ Tencent Cloud signs AI deal with Capital A’s log",
-      "✓ New hardware for the billion-dollar quantum comp",
-      "✓ IBM investing 3 billion dollars annually in Indi",
-      "✓ Alibaba unveils new flagship AI model with safet"
+      "✓ US government confirms investigation into tech f",
+      "✓ OpenAI sued by California over Hugging Face atta",
+      "✓ Cybersecurity AI startup Corma reaches 1 billion",
+      "✓ Baidu’s Robin Li warns of AI bubble risk as appl",
+      "✓ FBI says Artex AI open source hacking tool used ",
+      "✓ India’s Velocity unveils AI tool for D2C shippin",
+      "✓ Huawei reveals the design of its first OSTA phon"
     ]
   },
   "outro": {
@@ -474,31 +436,30 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "SK Hynix to spend 1 billion dollars over five",
-    "‘Standing on one leg’: IMF chief warns about ",
-    "Freshworks alums raise 53 million dollars to ",
-    "Tencent Cloud signs AI deal with Capital A’s ",
-    "New hardware for the billion-dollar quantum c",
-    "IBM investing 3 billion dollars annually in I",
-    "Alibaba unveils new flagship AI model with sa",
-    "Huawei Launches Xiaoyi AI Membership With Cre",
-    "upGrad Enters Enterprise Advisory With Launch",
-    "Europe hunts for Palantir alternatives as mil"
+    "US government confirms investigation into tec",
+    "OpenAI sued by California over Hugging Face a",
+    "Cybersecurity AI startup Corma reaches 1 bill",
+    "Baidu’s Robin Li warns of AI bubble risk as a",
+    "FBI says Artex AI open source hacking tool us",
+    "India’s Velocity unveils AI tool for D2C ship",
+    "Huawei reveals the design of its first OSTA p",
+    "Unitree's Wang Xingxing Says Robot Generaliza",
+    "India & Nine Other Nations Sign Joint Declara"
   ],
   "thumbnail": {
-    "date": "16 NOVEMBER 2026",
-    "headline": "SK HYNIX TO SPEND 1 BILLION DOLLARS OVER",
+    "date": "17 NOVEMBER 2026",
+    "headline": "US GOVERNMENT CONFIRMS INVESTIGATION INTO",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "SK HYNIX TO SPEND 1 BILLION DOLLARS",
-      "‘STANDING ON ONE LEG’: IMF CHIEF",
-      "FRESHWORKS ALUMS RAISE 53 MILLION",
-      "TENCENT CLOUD SIGNS AI DEAL WITH"
+      "US GOVERNMENT CONFIRMS",
+      "OPENAI SUED BY CALIFORNIA OVER",
+      "CYBERSECURITY AI STARTUP CORMA",
+      "BAIDU’S ROBIN LI WARNS OF AI BUBBLE"
     ]
   },
   "youtubeMetadata": {
-    "title": "SK Hynix to spend 1 billion | ‘Standing on one leg’: IMF chief | Freshworks alums raise 53 million | AI News 16 November 2026",
-    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 16 November 2026.",
+    "title": "US government confirms | OpenAI sued by California over | Cybersecurity AI startup Corma | AI News 17 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 17 November 2026.",
     "tags": [
       "AI",
       "ArtificialIntelligence",
