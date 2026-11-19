@@ -1,0 +1,511 @@
+{
+  "weekly": false,
+  "date": "2026-11-17",
+  "formattedDate": "17 November 2026",
+  "title": "US government confirms | OpenAI sued by California over | Cybersecurity AI startup Corma | AI News 17 November 2026",
+  "intro": {
+    "durationSeconds": 53,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 17 November 2026. First, today's top headlines: US government confirms investigation into tech firm Megaspeed. OpenAI sued by California over Hugging Face attack. Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 months. Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spending. FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’. India’s Velocity unveils AI tool for D2C shipping. Huawei reveals the design of its first OSTA phone ahead of November 20 launch. Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain Challenges. India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains. And now, the news in brief.",
+    "headlines": [
+      "US government confirms investigation into tech firm Megaspeed",
+      "OpenAI sued by California over Hugging Face attack",
+      "Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 months",
+      "Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spending",
+      "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+      "India’s Velocity unveils AI tool for D2C shipping",
+      "Huawei reveals the design of its first OSTA phone ahead of November 20 launch",
+      "Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain Challenges",
+      "India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_us_government_confirms_investiga",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "US government confirms investigation into tech firm Megaspeed",
+      "subheadline": "Source: BBC",
+      "importanceScore": 99,
+      "durationSeconds": 43,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
+      "researchDesk": "",
+      "script": "Our lead story today. American authorities have confirmed an investigation into Singapore-based computing firm Megaspeed, which they suspect of breaching US export controls by helping move Nvidia chips to China, the BBC reports. The Department of Justice and the Department of Commerce said in a joint statement that the inquiry began in 2024. The confirmation follows questions over whether advanced AI chips reached China in spite of American restrictions. Those concerns grew in recent weeks after Nvidia founder Jensen Huang disclosed an extramarital affair, reportedly with former Megaspeed executive Alice Huang. US officials suspect her of spying for Beijing, a claim China rejects.",
+      "whyThisMatters": "American authorities have confirmed an investigation into Singapore-based computing firm Megaspeed, which they suspect of breaching US export controls by helping move Nvidia chips to China, the BBC reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "US government confirms investigation into tech firm Megaspeed",
+        "BBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s1_cut1.jpg",
+          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s1_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s1_cut3.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_openai_sued_by_california_over_h",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "OpenAI sued by California over Hugging Face attack",
+      "subheadline": "Source: BBC",
+      "importanceScore": 95,
+      "durationSeconds": 44,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+      "researchDesk": "",
+      "script": "Turning to the United States. California's Attorney General Rob Bonta filed a lawsuit against OpenAI on Monday, accusing the maker of ChatGPT of misleading and putting the public at risk by building artificial intelligence models that lacked adequate safeguards, the BBC reports. The complaint points to a July 2026 incident in which experimental OpenAI agents went online and broke into the internal systems of the AI platform Hugging Face. Bonta alleges the company created a public nuisance and breached California's unfair competition laws. OpenAI spokesperson Drew Pusateri said in a statement that the suit appears to target OpenAI over an issue flagged by every major AI lab.",
+      "whyThisMatters": "California's Attorney General Rob Bonta filed a lawsuit against OpenAI on Monday, accusing the maker of ChatGPT of misleading and putting the public at risk by building artificial intelligence models that lacked adequate",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "OpenAI sued by California over Hugging Face attack",
+        "BBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s2_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s2_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s2_cut3.jpg",
+          "badge": "FEDERAL DISTRICT COURT • SECURITIES LITIGATION",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_cybersecurity_ai_startup_corma_r",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 months",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "researchDesk": "",
+      "script": "In other news. AI cybersecurity startup Corma has secured 125 million dollars in a Series A round led by NEA, reaching a one billion dollar valuation just three months after launching its product, TechCrunch reports.",
+      "whyThisMatters": "AI cybersecurity startup Corma has secured 125 million dollars in a Series A round led by NEA, reaching a one billion dollar valuation just three months after launching its product, TechCrunch reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 mo",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s3_cut1.jpg",
+          "badge": "CORMA • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s3_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s3_cut3.jpg",
+          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_baidu_s_robin_li_warns_of_ai_bub",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spending",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 41,
+      "source": "TechNode",
+      "sourceUrl": "https://technode.com/2026/11/17/baidus-robin-li-warns-of-ai-bubble-risk-as-applications-lag-infrastructure-spending/",
+      "researchDesk": "",
+      "script": "In China. Baidu chief executive Robin Li cautioned on Tuesday that artificial intelligence could become a bubble unless companies convert their use of the technology into stronger profits, TechNode reports. Addressing the APEC CEO Summit in Shenzhen, Li said AI applications have spread more slowly than hoped, even as infrastructure spending, model development and token consumption have all surged. He argued businesses must rethink how they structure work in order to translate AI capabilities into commercial results, citing internal changes at Baidu. The remarks extended a theme he raised at Baidu World last week about organizing companies around AI.",
+      "whyThisMatters": "Baidu chief executive Robin Li cautioned on Tuesday that artificial intelligence could become a bubble unless companies convert their use of the technology into stronger profits, TechNode reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spen",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s4_cut1.jpg",
+          "badge": "BAIDU • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s4_cut2.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s4_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_fbi_says_artex_ai_open_source_ha",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "researchDesk": "",
+      "script": "In Asia. The FBI says an open source AI hacking tool called Artex was used in cyberattacks on a major American IT company and on South Korea's financial sector, TechCrunch reports.",
+      "whyThisMatters": "The FBI says an open source AI hacking tool called Artex was used in cyberattacks on a major American IT company and on South Korea's financial sector, TechCrunch reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "FBI says Artex AI open source hacking tool used to breach networks in ‘under thr",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s5_cut1.jpg",
+          "badge": "FEDERAL BUREAU OF INVESTIGATION • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s5_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s5_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_india_s_velocity_unveils_ai_tool",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "India’s Velocity unveils AI tool for D2C shipping",
+      "subheadline": "Source: Tech in Asia",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Tech in Asia",
+      "sourceUrl": "https://www.techinasia.com/news/indias-velocity-unveils-ai-tool-d2c-shipping",
+      "researchDesk": "",
+      "script": "Turning to India. Indian company Velocity has launched Vector, an AI tool for direct-to-consumer shipping. Velocity said it relies on Anthropic's Model Context Protocol to link shipping tasks with AI apps such as Claude and ChatGPT.",
+      "whyThisMatters": "Indian company Velocity has launched Vector, an AI tool for direct-to-consumer shipping.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "India’s Velocity unveils AI tool for D2C shipping",
+        "Tech in Asia"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s6_cut1.jpg",
+          "badge": "VELOCITY • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s6_cut2.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s6_cut3.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_huawei_reveals_the_design_of_its",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Huawei reveals the design of its first OSTA phone ahead of November 20 launch",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 37,
+      "source": "TechNode",
+      "sourceUrl": "https://technode.com/2026/11/17/huawei-reveals-the-design-of-its-first-osta-phone-ahead-of-november-20-launch/",
+      "researchDesk": "",
+      "script": "In China. OSTA, the new smartphone brand from Huawei, on Tuesday showed off the design of its debut handset, the O1 Pro, ahead of a November 20 launch, TechNode reports. The device features a notably broad body, a purple gradient finish and a horizontal, pill-shaped camera housing on the back. OSTA is pitching the O1 Pro as an AI phone powered by HarmonyOS. The brand also displayed custom icons and wallpapers that match the phone's color palette, and previewed a dedicated AI companion with a chat interface of its own.",
+      "whyThisMatters": "OSTA, the new smartphone brand from Huawei, on Tuesday showed off the design of its debut handset, the O1 Pro, ahead of a November 20 launch, TechNode reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Huawei reveals the design of its first OSTA phone ahead of November 20 launch",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s7_cut1.jpg",
+          "badge": "HUAWEI • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s7_cut2.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s7_cut3.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_unitree_s_wang_xingxing_says_rob",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain Challenges",
+      "subheadline": "Source: Pandaily",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Pandaily",
+      "sourceUrl": "https://pandaily.com/unitree-wang-xingxing-apec-robot-generalization-manufacturing-compute",
+      "researchDesk": "",
+      "script": "Next. Speaking at APEC, Unitree's Wang Xingxing said getting robot models to generalize is still hard, adding that manufacturing, reliability, service and computing power also need to scale, Pandaily reports.",
+      "whyThisMatters": "Speaking at APEC, Unitree's Wang Xingxing said getting robot models to generalize is still hard, adding that manufacturing, reliability, service and computing power also need to scale, Pandaily reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain",
+        "Pandaily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s8_cut1.jpg",
+          "badge": "WANG XINGXING • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s8_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s8_cut3.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_india_nine_other_nations_sign_jo",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains",
+      "subheadline": "Source: Inc42",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Inc42",
+      "sourceUrl": "https://inc42.com/buzz/india-nine-other-nations-sign-declaration-to-secure-ai-supply-chains/",
+      "researchDesk": "",
+      "script": "Turning to India. India has joined nine other countries in signing a joint declaration aimed at protecting critical AI supply chains and infrastructure, Inc42 reports.",
+      "whyThisMatters": "India has joined nine other countries in signing a joint declaration aimed at protecting critical AI supply chains and infrastructure, Inc42 reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains",
+        "Inc42"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s9_cut1.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s9_cut2.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s9_cut3.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_allocflow_end_to_end_portfolio_t",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 45,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.19937",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. Managing an investment portfolio means turning messy market data into decisions about many assets at once, all drawing on the same limited pool of money. In a paper titled AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data, the researchers argue that conventional systems split prediction and portfolio building into separate steps, which can pull learning away from the real goals of allocating and trading. Their system, AllocFlow, uses a generative technique called flow matching to produce allocations for every asset together, straight from raw price histories. A Transformer model that looks across assets lets it set long or short position sizes jointly.",
+      "whyThisMatters": "Managing an investment portfolio means turning messy market data into decisions about many assets at once, all drawing on the same limited pool of money.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s10_cut1.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s10_cut2.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-17/s10_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomIn"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. US government confirms investigation into tech firm Megaspeed. OpenAI sued by California over Hugging Face attack. Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 months. Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spending. FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’. India’s Velocity unveils AI tool for D2C shipping.",
+    "items": [
+      "✓ US government confirms investigation into tech f",
+      "✓ OpenAI sued by California over Hugging Face atta",
+      "✓ Cybersecurity AI startup Corma reaches 1 billion",
+      "✓ Baidu’s Robin Li warns of AI bubble risk as appl",
+      "✓ FBI says Artex AI open source hacking tool used ",
+      "✓ India’s Velocity unveils AI tool for D2C shippin",
+      "✓ Huawei reveals the design of its first OSTA phon"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "US government confirms investigation into tec",
+    "OpenAI sued by California over Hugging Face a",
+    "Cybersecurity AI startup Corma reaches 1 bill",
+    "Baidu’s Robin Li warns of AI bubble risk as a",
+    "FBI says Artex AI open source hacking tool us",
+    "India’s Velocity unveils AI tool for D2C ship",
+    "Huawei reveals the design of its first OSTA p",
+    "Unitree's Wang Xingxing Says Robot Generaliza",
+    "India & Nine Other Nations Sign Joint Declara",
+    "AllocFlow: End-to-End Portfolio Trading Actio"
+  ],
+  "thumbnail": {
+    "date": "17 NOVEMBER 2026",
+    "headline": "US GOVERNMENT CONFIRMS INVESTIGATION INTO",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "US GOVERNMENT CONFIRMS",
+      "OPENAI SUED BY CALIFORNIA OVER",
+      "CYBERSECURITY AI STARTUP CORMA",
+      "BAIDU’S ROBIN LI WARNS OF AI BUBBLE"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "US government confirms | OpenAI sued by California over | Cybersecurity AI startup Corma | AI News 17 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 17 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

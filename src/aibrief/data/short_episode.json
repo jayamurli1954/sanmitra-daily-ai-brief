@@ -1,110 +1,185 @@
 {
-  "date": "2026-11-16",
-  "dateLabel": "16 NOVEMBER 2026",
+  "date": "2026-11-17",
+  "dateLabel": "17 NOVEMBER 2026",
   "kicker": "BREAKING",
-  "headline": "SK Hynix to spend 1 billion dollars over five years to support chip suppliers",
+  "headline": "US government confirms investigation into tech firm Megaspeed",
   "subhead": "",
-  "source": "Source: The Economic Times",
-  "audioFile": "audio/aibrief/short_2026-11-16_lead.mp3",
-  "voiceFrames": 759,
+  "source": "Source: BBC",
+  "audioFile": "audio/aibrief/short_2026-11-17_lead.mp3",
+  "voiceFrames": 1418,
   "endCardFrames": 75,
   "images": [
     {
-      "src": "aibrief/assets/editorial/2026-11-16/s1_cut1.jpg",
-      "label": "SK HYNIX • CONTEXTUAL REPORTING"
+      "src": "aibrief/assets/editorial/2026-11-17/s1_cut1.jpg",
+      "label": "KEYNOTE STAGE • JENSEN HUANG NVIDIA"
     },
     {
-      "src": "aibrief/assets/editorial/2026-11-16/s1_cut2.jpg",
+      "src": "aibrief/assets/editorial/2026-11-17/s1_cut2.jpg",
       "label": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY"
     },
     {
-      "src": "aibrief/assets/editorial/2026-11-16/s1_cut3.jpg",
+      "src": "aibrief/assets/editorial/2026-11-17/s1_cut3.jpg",
       "label": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE"
     }
   ],
   "cues": [
     {
-      "text": "SK Hynix said on Monday it",
+      "text": "American authorities have",
       "start": 0,
-      "end": 61
+      "end": 40
     },
     {
-      "text": "will invest 1.4 trillion",
-      "start": 61,
-      "end": 112
+      "text": "confirmed an investigation",
+      "start": 40,
+      "end": 77
     },
     {
-      "text": "won, or 1.05 billion",
-      "start": 112,
-      "end": 191
+      "text": "into Singapore-based",
+      "start": 77,
+      "end": 115
     },
     {
-      "text": "dollars , across the next",
-      "start": 191,
-      "end": 239
+      "text": "computing firm Megaspeed,",
+      "start": 115,
+      "end": 159
     },
     {
-      "text": "five years to back South",
-      "start": 239,
-      "end": 278
+      "text": "which they suspect of",
+      "start": 171,
+      "end": 200
     },
     {
-      "text": "Korean suppliers of",
-      "start": 278,
-      "end": 316
+      "text": "breaching US export",
+      "start": 200,
+      "end": 236
     },
     {
-      "text": "semiconductor materials,",
-      "start": 316,
-      "end": 352
+      "text": "controls by helping move",
+      "start": 236,
+      "end": 277
     },
     {
-      "text": "parts and equipment,",
-      "start": 369,
-      "end": 395
+      "text": "Nvidia chips to China,",
+      "start": 277,
+      "end": 315
     },
     {
-      "text": "The Economic Times",
-      "start": 408,
-      "end": 436
+      "text": "the BBC reports.",
+      "start": 329,
+      "end": 356
     },
     {
-      "text": "reports.",
-      "start": 436,
-      "end": 445
+      "text": "The Department of Justice",
+      "start": 395,
+      "end": 429
     },
     {
-      "text": "The chipmaker wants a",
-      "start": 487,
-      "end": 518
+      "text": "and the Department of",
+      "start": 429,
+      "end": 460
     },
     {
-      "text": "sturdier supply chain as",
-      "start": 518,
-      "end": 558
+      "text": "Commerce said in a joint",
+      "start": 460,
+      "end": 492
     },
     {
-      "text": "rivalry in the industry",
-      "start": 558,
-      "end": 592
+      "text": "statement that the inquiry",
+      "start": 492,
+      "end": 528
     },
     {
-      "text": "grows.",
-      "start": 592,
-      "end": 604
+      "text": "began in 2024.",
+      "start": 528,
+      "end": 571
+    },
+    {
+      "text": "The confirmation follows",
+      "start": 608,
+      "end": 646
+    },
+    {
+      "text": "questions over whether",
+      "start": 646,
+      "end": 683
+    },
+    {
+      "text": "advanced AI chips reached",
+      "start": 683,
+      "end": 729
+    },
+    {
+      "text": "China in spite of American",
+      "start": 729,
+      "end": 773
+    },
+    {
+      "text": "restrictions.",
+      "start": 773,
+      "end": 788
+    },
+    {
+      "text": "Those concerns grew in",
+      "start": 819,
+      "end": 870
+    },
+    {
+      "text": "recent weeks after Nvidia",
+      "start": 870,
+      "end": 911
+    },
+    {
+      "text": "founder Jensen Huang",
+      "start": 911,
+      "end": 948
+    },
+    {
+      "text": "disclosed an extramarital",
+      "start": 948,
+      "end": 995
+    },
+    {
+      "text": "affair, reportedly with",
+      "start": 995,
+      "end": 1042
+    },
+    {
+      "text": "former Megaspeed executive",
+      "start": 1042,
+      "end": 1083
+    },
+    {
+      "text": "Alice Huang.",
+      "start": 1083,
+      "end": 1122
+    },
+    {
+      "text": "US officials suspect her",
+      "start": 1122,
+      "end": 1182
+    },
+    {
+      "text": "of spying for Beijing,",
+      "start": 1182,
+      "end": 1210
+    },
+    {
+      "text": "a claim China rejects.",
+      "start": 1229,
+      "end": 1259
     },
     {
       "text": "Watch the full episode on",
-      "start": 628,
-      "end": 680
+      "start": 1294,
+      "end": 1339
     },
     {
       "text": "SanMitra AI News Wire.",
-      "start": 680,
-      "end": 727
+      "start": 1339,
+      "end": 1385
     }
   ],
   "ctaTitle": "Full episode on YouTube",
   "ctaLine": "SanMitra AI News Wire",
-  "ctaSub": "All 11 of today's AI stories"
+  "ctaSub": "All 10 of today's AI stories"
 }

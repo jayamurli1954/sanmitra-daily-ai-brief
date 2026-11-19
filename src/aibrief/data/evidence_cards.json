@@ -1,74 +1,55 @@
 {
-  "s1_sk_hynix_to_spend_1_billion_doll": [
+  "s1_microsoft_agent_framework_hit_by": [],
+  "s2_google_launches_gemini_4_neon_fr": [],
+  "s3_openai_deploys_frontier_models_t": [
     {
       "type": "reported",
-      "text": "SK Hynix said on Monday it will invest 1.4 trillion won, or 1.05 billion dollars , across the next five years to back South Korean suppliers of semiconductor materials, parts and equipment, The Economic Times reports.",
-      "highlight": "Monday it will invest 1.4 trillion won",
-      "source": "The Economic Times",
-      "start": 2.1,
-      "end": 7.6
+      "text": "OpenAI also announced an ongoing partnership with electronic design automation leader Synopsys to integrate specialized models directly into commercial chip synthesis pipelines.",
+      "highlight": "an ongoing partnership with electronic design automation leader Synopsys to integrate specialized models directly into commercial chip synthesis pipelines",
+      "source": "OpenAI",
+      "start": 25.82,
+      "end": 31.32
     }
   ],
-  "s2_standing_on_one_leg_imf_chief_w": [
+  "s4_tencent_releases_downloadable_we": [
     {
       "type": "reported",
-      "text": "IMF chief Kristalina Georgieva says circular financing between AI companies now tops 1 trillion dollars , CNBC reports.",
-      "highlight": "circular financing between AI companies now tops 1 trillion dollars , CNBC reports",
+      "text": "Chinese technology conglomerate Tencent has publicly released the model weights for Hy4 Flash, offering full precision, FP8, and base model checkpoints for open developer fine-tuning.",
+      "highlight": "the model weights for Hy4 Flash, offering full precision, FP8",
+      "source": "TechNode",
+      "start": 2.0,
+      "end": 7.5
+    }
+  ],
+  "s5_south_korea_proposes_4_6_trillio": [],
+  "s6_sarvam_defends_token_factory_ami": [],
+  "s7_apple_releases_fastframes_intera": [
+    {
+      "type": "reported",
+      "text": "Apple's machine learning research division has released FastFrames, a family of open weights designed for real-time, interactive video generation.",
+      "highlight": "FastFrames, a family of open weights designed for real-time, interactive video generation",
+      "source": "Hugging Face",
+      "start": 2.0,
+      "end": 7.5
+    },
+    {
+      "type": "stat",
+      "shown": "16×",
+      "label": "throughput increase over prior baselines",
+      "start": 28.22,
+      "end": 33.72
+    }
+  ],
+  "s8_citibank_and_us_lenders_shift_fi": [],
+  "s9_us_commission_warns_of_pla_deman": [
+    {
+      "type": "reported",
+      "text": "The United States-China Economic and Security Review Commission reported in its annual assessment that Chinese entities continue active efforts to acquire advanced Nvidia accelerators for military artificial intelligence workloads.",
+      "highlight": "Chinese entities continue active efforts to acquire advanced Nvidia accelerators for military artificial intelligence workloads",
       "source": "CNBC",
       "start": 2.0,
       "end": 7.5
     }
   ],
-  "s3_freshworks_alums_raise_53_millio": [
-    {
-      "type": "stat",
-      "shown": "100+",
-      "label": "customers across 13 countries",
-      "start": 3.34,
-      "end": 8.84
-    }
-  ],
-  "s4_tencent_cloud_signs_ai_deal_with": [
-    {
-      "type": "reported",
-      "text": "Teleport says it handles up to 1.25 million parcels daily through more than 55 airline partners.",
-      "highlight": "it handles up to 1.25 million parcels daily through more than 55 airline partners",
-      "source": "Tech in Asia",
-      "start": 8.66,
-      "end": 14.16
-    }
-  ],
-  "s5_new_hardware_for_the_billion_dol": [],
-  "s6_ibm_investing_3_billion_dollars": [
-    {
-      "type": "reported",
-      "text": "IBM chief executive Krishna has warned that artificial intelligence could eliminate 10-20% of jobs within the coming ten years, with business process outsourcing among the hardest hit, according to The Economic Times.",
-      "highlight": "artificial intelligence could eliminate 10-20% of jobs within the coming ten years",
-      "source": "The Economic Times",
-      "start": 2.0,
-      "end": 7.5
-    }
-  ],
-  "s7_alibaba_unveils_new_flagship_ai": [
-    {
-      "type": "reported",
-      "text": "The Chinese company said on Sunday the system now copes better with demanding professional and scientific tasks and offers stronger safeguards against safety risks.",
-      "highlight": "Sunday the system now copes better with demanding professional and scientific tasks and offers stronger safeguards against safety risks",
-      "source": "The Economic Times",
-      "start": 9.36,
-      "end": 14.86
-    }
-  ],
-  "s8_huawei_launches_xiaoyi_ai_member": [
-    {
-      "type": "stat",
-      "shown": "¥49",
-      "label": "for 1",
-      "start": 8.54,
-      "end": 14.04
-    }
-  ],
-  "s9_upgrad_enters_enterprise_advisor": [],
-  "s10_europe_hunts_for_palantir_altern": [],
-  "s11_envisioning_agentic_robotics_a_n": []
+  "s10_siemens_deploys_eigen_industrial": []
 }

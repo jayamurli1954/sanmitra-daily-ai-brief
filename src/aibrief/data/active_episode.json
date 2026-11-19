@@ -1,33 +1,27 @@
 {
   "weekly": false,
-  "date": "2026-11-17",
-  "formattedDate": "17 November 2026",
-  "title": "US government confirms | OpenAI sued by California over | Cybersecurity AI startup Corma | AI News 17 November 2026",
+  "date": "2026-11-19",
+  "formattedDate": "19 November 2026",
+  "title": "Microsoft Agent Framework hit by a | Google launches Gemini 4 Neon | OpenAI deploys frontier models to | AI News 19 November 2026",
   "intro": {
-    "durationSeconds": 53,
+    "durationSeconds": 47,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 17 November 2026. First, today's top headlines: US government confirms investigation into tech firm Megaspeed. OpenAI sued by California over Hugging Face attack. Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 months. Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spending. FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’. India’s Velocity unveils AI tool for D2C shipping. Huawei reveals the design of its first OSTA phone ahead of November 20 launch. Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain Challenges. India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains. And now, the news in brief.",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 19 November 2026. First, today's top headlines: Microsoft Agent Framework hit by a PyPI supply-chain attack. Google launches Gemini 4 Neon frontier model. OpenAI deploys frontier models to redesign custom semiconductor chips. Tencent releases downloadable weights for Hy4 Flash model. South Korea proposes 4.6 trillion won sovereign AI initiative. Sarvam defends Token Factory amid debate over Indian sovereign AI. Apple releases FastFrames interactive video generation models. Citibank and US lenders shift financial liability to AI agent users. US commission warns of PLA demand for advanced Nvidia compute. Siemens deploys Eigen industrial engineering agent in India. And now, the news in brief.",
     "headlines": [
-      "US government confirms investigation into tech firm Megaspeed",
-      "OpenAI sued by California over Hugging Face attack",
-      "Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 months",
-      "Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spending",
-      "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
-      "India’s Velocity unveils AI tool for D2C shipping",
-      "Huawei reveals the design of its first OSTA phone ahead of November 20 launch",
-      "Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain Challenges",
-      "India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains"
+      "Microsoft Agent Framework hit by a PyPI supply-chain attack",
+      "Google launches Gemini 4 Neon frontier model",
+      "OpenAI deploys frontier models to redesign custom semiconductor chips",
+      "Tencent releases downloadable weights for Hy4 Flash model",
+      "South Korea proposes 4.6 trillion won sovereign AI initiative",
+      "Sarvam defends Token Factory amid debate over Indian sovereign AI",
+      "Apple releases FastFrames interactive video generation models",
+      "Citibank and US lenders shift financial liability to AI agent users",
+      "US commission warns of PLA demand for advanced Nvidia compute",
+      "Siemens deploys Eigen industrial engineering agent in India"
     ]
   },
   "transitions": [
-    {
-      "id": "transition_china",
-      "region": "CHINA",
-      "title": "NEXT: CHINA & REGIONAL STRATEGY",
-      "display": "NEXT: CHINA",
-      "durationSeconds": 2
-    },
     {
       "id": "transition_usa",
       "region": "USA",
@@ -57,6 +51,13 @@
       "durationSeconds": 2
     },
     {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
       "id": "transition_china",
       "region": "CHINA",
       "title": "NEXT: CHINA & REGIONAL STRATEGY",
@@ -73,335 +74,372 @@
   ],
   "stories": [
     {
-      "id": "s1_us_government_confirms_investiga",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "US government confirms investigation into tech firm Megaspeed",
-      "subheadline": "Source: BBC",
+      "id": "s1_microsoft_agent_framework_hit_by",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Microsoft Agent Framework hit by a PyPI supply-chain attack",
+      "subheadline": "Source: Wiz Blog",
       "importanceScore": 99,
-      "durationSeconds": 47,
-      "source": "BBC",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
+      "durationSeconds": 34,
+      "source": "Wiz Blog",
+      "sourceUrl": "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi",
       "researchDesk": "",
-      "script": "Our lead story today. The United States has confirmed it is investigating computing company Megaspeed, suspecting it of violating US export controls by helping to ship tech giant Nvidia's chips to China. In a joint statement, the US Department of Justice and Department of Commerce said they had been investigating Singapore-based firm Megaspeed since 2024. It comes after questions were raised about the possibility high-end AI chips may have ended up in China despite US export restrictions. Concerns emerged in recent weeks after Nvidia founder Jensen Huang revealed he had an extramarital affair , allegedly with former Megaspeed executive Alice Huang. US authorities suspect her of spying for Beijing, which China denies.",
-      "whyThisMatters": "The United States has confirmed it is investigating computing company Megaspeed, suspecting it of violating US export controls by helping to ship tech giant Nvidia's chips to China.",
+      "script": "Our lead story today. Security researchers at cloud security firm Wiz have discovered two malicious packages uploaded to the Python Package Index impersonating Microsoft's open-source agent-framework repository. Versions 1.26.1 and 1.26.2 contained obfuscated credential-harvesting payloads designed to intercept Azure, GitHub, and development environment credentials. Microsoft has since purged the rogue releases from PyPI, but security analysts advise organizations utilizing agentic frameworks to conduct immediate credential rotations. The incident underscores growing supply-chain vulnerabilities as autonomous AI agents are granted access to enterprise infrastructure.",
+      "whyThisMatters": "Security researchers at cloud security firm Wiz have discovered two malicious packages uploaded to the Python Package Index impersonating Microsoft's open-source agent-framework repository.",
       "sourceType": "reporting",
       "keyPoints": [
-        "US government confirms investigation into tech firm Megaspeed",
-        "BBC"
+        "Microsoft Agent Framework hit by a PyPI supply-chain attack",
+        "Wiz Blog"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s1_cut1.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "image": "aibrief/assets/editorial/2026-11-19/s1_cut1.jpg",
+          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s1_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-11-19/s1_cut2.jpg",
           "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s1_cut3.jpg",
-          "badge": "FEDERAL DISTRICT COURT • SECURITIES LITIGATION",
+          "image": "aibrief/assets/editorial/2026-11-19/s1_cut3.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_openai_sued_by_california_over_h",
+      "id": "s2_google_launches_gemini_4_neon_fr",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "OpenAI sued by California over Hugging Face attack",
-      "subheadline": "Source: BBC",
+      "headline": "Google launches Gemini 4 Neon frontier model",
+      "subheadline": "Source: Google",
       "importanceScore": 95,
-      "durationSeconds": 43,
-      "source": "BBC",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+      "durationSeconds": 32,
+      "source": "Google",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
       "researchDesk": "",
-      "script": "Turning to the United States. California Attorney General Rob Bonta sued OpenAI on Monday, alleging the ChatGPT-maker misled and endangered the public by developing artificial intelligence (AI) models without proper safeguards. In the lawsuit, Bonta cited the July 2026 attack on the AI platform Hugging Face by experimental OpenAI agents which accessed the internet to breach that company's internal systems. Bonta claimed OpenAI created a public nuisance and violated the state's unfair competition laws. OpenAI spokesperson Drew Pusateri told the BBC in a statement that Bonta's lawsuit \"appears to single out OpenAI over a challenge that's been identified by every major AI lab\".",
-      "whyThisMatters": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the ChatGPT-maker misled and endangered the public by developing artificial intelligence (AI) models without proper safeguards.",
-      "sourceType": "reporting",
+      "script": "Turning to the United States. Google DeepMind has launched Gemini 4 Neon, positioned between its flagship Carbon and high-throughput Hydrogen models. Featuring a one-million-token context window, Neon is engineered specifically for software engineering, quantitative research, and complex legal automation. Google reports substantial benchmark gains in multi-turn reasoning while pricing inputs at three dollars and outputs at fifteen dollars per million tokens. The model is rolling out across Google AI Studio, the Gemini API, Antigravity, and enterprise subscriptions.",
+      "whyThisMatters": "Google DeepMind has launched Gemini 4 Neon, positioned between its flagship Carbon and high-throughput Hydrogen models.",
+      "sourceType": "company",
       "keyPoints": [
-        "OpenAI sued by California over Hugging Face attack",
-        "BBC"
+        "Google launches Gemini 4 Neon frontier model",
+        "Google"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s2_cut1.jpg",
+          "image": "aibrief/assets/editorial/2026-11-19/s2_cut1.jpg",
           "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s2_cut2.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "image": "aibrief/assets/editorial/2026-11-19/s2_cut2.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s2_cut3.jpg",
-          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
+          "image": "aibrief/assets/editorial/2026-11-19/s2_cut3.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s3_cybersecurity_ai_startup_corma_r",
+      "id": "s3_openai_deploys_frontier_models_t",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 months",
-      "subheadline": "Source: TechCrunch",
+      "headline": "OpenAI deploys frontier models to redesign custom semiconductor chips",
+      "subheadline": "Source: OpenAI",
       "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "durationSeconds": 31,
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/index/advancing-chip-design-with-our-models/",
       "researchDesk": "",
-      "script": "In other news. Three months since introducing its product, AI cybersecurity startup Corba has raised a 125 million dollars Series A at a 1 billion dollars valuation led by NEA.",
-      "whyThisMatters": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
-      "sourceType": "reporting",
+      "script": "In other news. OpenAI has revealed that its frontier models are now actively optimizing internal semiconductor design, including revisions to its custom Jalapeño inference silicon and partner hardware. In silicon-proven tests, AI-assisted modifications to arithmetic multiplier circuits reduced cell area by fifteen percent while compressing calculation latency from two clock cycles down to one. OpenAI also announced an ongoing partnership with electronic design automation leader Synopsys to integrate specialized models directly into commercial chip synthesis pipelines.",
+      "whyThisMatters": "OpenAI has revealed that its frontier models are now actively optimizing internal semiconductor design, including revisions to its custom Jalapeño inference silicon and partner hardware.",
+      "sourceType": "company",
       "keyPoints": [
-        "Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 mo",
-        "TechCrunch"
+        "OpenAI deploys frontier models to redesign custom semiconductor chips",
+        "OpenAI"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s3_cut1.jpg",
-          "badge": "MILLIONAIRE • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/editorial/2026-11-19/s3_cut1.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
           "panDirection": "panLeft"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s3_cut2.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "image": "aibrief/assets/editorial/2026-11-19/s3_cut2.jpg",
+          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
           "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s3_cut3.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "image": "aibrief/assets/editorial/2026-11-19/s3_cut3.jpg",
+          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
           "panDirection": "panRight"
         }
       ]
     },
     {
-      "id": "s4_baidu_s_robin_li_warns_of_ai_bub",
+      "id": "s4_tencent_releases_downloadable_we",
       "region": "CHINA",
       "category": "CHINA Intelligence",
       "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spending",
+      "headline": "Tencent releases downloadable weights for Hy4 Flash model",
       "subheadline": "Source: TechNode",
       "importanceScore": 90,
-      "durationSeconds": 42,
+      "durationSeconds": 27,
       "source": "TechNode",
-      "sourceUrl": "https://technode.com/2026/11/17/baidus-robin-li-warns-of-ai-bubble-risk-as-applications-lag-infrastructure-spending/",
+      "sourceUrl": "https://cn.technode.com/post/2026-11-19/tencent-hy4-flash-model-weights/",
       "researchDesk": "",
-      "script": "In China. Baidu CEO Robin Li warned on Tuesday that the AI industry could face a bubble if businesses fail to turn adoption into higher profits. Speaking at the APEC CEO Summit in Shenzhen, Li said the spread of AI applications had fallen short of expectations despite heavy spending on infrastructure, rapid model development and rising token use. Li said companies need to rethink how they organize work to turn AI capabilities into business gains. He pointed to changes Baidu has made internally, building on a theme he raised at Baidu World last week about how companies can organize around AI.",
-      "whyThisMatters": "Baidu CEO Robin Li warned on Tuesday that the AI industry could face a bubble if businesses fail to turn adoption into higher profits.",
+      "script": "In China. Chinese technology conglomerate Tencent has publicly released the model weights for Hy4 Flash, offering full precision, FP8, and base model checkpoints for open developer fine-tuning. The mixture-of-experts model contains two-hundred and twenty billion total parameters, activating twelve billion parameters per token across multimodal inputs with a one-million-token context length. The release intensifies open-weight competition across Asian enterprise ecosystems under Tencent's proprietary community license.",
+      "whyThisMatters": "Chinese technology conglomerate Tencent has publicly released the model weights for Hy4 Flash, offering full precision, FP8, and base model checkpoints for open developer fine-tuning.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spen",
+        "Tencent releases downloadable weights for Hy4 Flash model",
         "TechNode"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s4_cut1.jpg",
-          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
+          "image": "aibrief/assets/editorial/2026-11-19/s4_cut1.jpg",
+          "badge": "INTERNATIONAL MONETARY FUND • CONTEXTUAL REPORTING",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s4_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-11-19/s4_cut2.jpg",
           "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s4_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-11-19/s4_cut3.jpg",
           "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
           "panDirection": "panLeft"
         }
       ]
     },
     {
-      "id": "s5_fbi_says_artex_ai_open_source_ha",
+      "id": "s5_south_korea_proposes_4_6_trillio",
       "region": "ASIA",
       "category": "ASIA Intelligence",
       "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
-      "subheadline": "Source: TechCrunch",
+      "headline": "South Korea proposes 4.6 trillion won sovereign AI initiative",
+      "subheadline": "Source: Invest News Global",
       "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "durationSeconds": 29,
+      "source": "Invest News Global",
+      "sourceUrl": "https://global.investnews.co.kr/news/south-korea-frontier-ai-budget-plan",
       "researchDesk": "",
-      "script": "In Asia. The FBI says that the open source hacking tool was used in cyberattacks targeting a US IT giant and the South Korean financial industry.",
-      "whyThisMatters": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S.",
+      "script": "In Asia. South Korea's Ministry of Science and ICT has outlined a four-point-six trillion won initiative in its upcoming fiscal budget to construct sovereign frontier AI infrastructure. Over three-point-eight trillion won is allocated toward high-performance computing, targeting the deployment of ten thousand Nvidia Vera Rubin accelerators. The national compute cluster will be shared across consortiums of major enterprises, research labs, and academic institutions, prioritizing scientific discovery, cybersecurity, and national defense.",
+      "whyThisMatters": "South Korea's Ministry of Science and ICT has outlined a four-point-six trillion won initiative in its upcoming fiscal budget to construct sovereign frontier AI infrastructure.",
       "sourceType": "reporting",
       "keyPoints": [
-        "FBI says Artex AI open source hacking tool used to breach networks in ‘under thr",
+        "South Korea proposes 4.6 trillion won sovereign AI initiative",
+        "Invest News Global"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s5_cut1.jpg",
+          "badge": "INTERNATIONAL ENERGY AGENCY • CONTEXTUAL REPORTING",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s5_cut2.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s5_cut3.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_sarvam_defends_token_factory_ami",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Sarvam defends Token Factory amid debate over Indian sovereign AI",
+      "subheadline": "Source: Moneycontrol",
+      "importanceScore": 90,
+      "durationSeconds": 27,
+      "source": "Moneycontrol",
+      "sourceUrl": "https://www.moneycontrol.com/artificial-intelligence/sarvam-defends-serving-foreign-ai-models-on-token-factory-says-it-runs-on-privately-procured-gpus-article-14084558.html",
+      "researchDesk": "",
+      "script": "Turning to India. Bengaluru-based Sarvam AI has addressed industry scrutiny after expanding its Token Factory inference platform to host foreign open-weight architectures alongside proprietary models. Leadership clarified that the infrastructure operates entirely on privately procured domestic graphics clusters rather than government-subsidized compute allocations. The move has sparked an industry-wide discussion across Indian enterprise circles regarding whether sovereign AI mandates domestic foundational pre-training or sovereign data hosting.",
+      "whyThisMatters": "Bengaluru-based Sarvam AI has addressed industry scrutiny after expanding its Token Factory inference platform to host foreign open-weight architectures alongside proprietary models.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Sarvam defends Token Factory amid debate over Indian sovereign AI",
+        "Moneycontrol"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s6_cut1.jpg",
+          "badge": "LENOVO • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s6_cut2.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s6_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_apple_releases_fastframes_intera",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Apple releases FastFrames interactive video generation models",
+      "subheadline": "Source: Hugging Face",
+      "importanceScore": 90,
+      "durationSeconds": 32,
+      "source": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/apple/FastFrames-L",
+      "researchDesk": "",
+      "script": "Around the world. Apple's machine learning research division has released FastFrames, a family of open weights designed for real-time, interactive video generation. The release features a fourteen-billion parameter flagship model and a compact one-point-three billion parameter variant capable of rendering four-hundred-and-eighty-p video with sub-second latency. Apple also unveiled an optimized LingBot model for camera-conditioned control, demonstrating a sixteen-fold throughput increase over prior baselines. The architecture represents a strategic push by Apple toward on-device, interactive generative creative tools.",
+      "whyThisMatters": "Apple's machine learning research division has released FastFrames, a family of open weights designed for real-time, interactive video generation.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Apple releases FastFrames interactive video generation models",
+        "Hugging Face"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s7_cut1.jpg",
+          "badge": "FEDERAL DISTRICT COURT • SECURITIES LITIGATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s7_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s7_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_citibank_and_us_lenders_shift_fi",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Citibank and US lenders shift financial liability to AI agent users",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 29,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Citibank has updated its digital banking agreements, explicitly establishing that customers who grant third-party AI agents access to their accounts bear sole legal liability for unauthorized transactions and compromised credentials. Reports indicate JPMorgan Chase, Bank of America, and PNC are implementing comparable indemnification frameworks. The legal updates arrive as consumers and businesses increasingly deploy autonomous agents to execute payments, highlighting regulatory friction around autonomous financial agency.",
+      "whyThisMatters": "Citibank has updated its digital banking agreements, explicitly establishing that customers who grant third-party AI agents access to their accounts bear sole legal liability for unauthorized transactions and compromised",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Citibank and US lenders shift financial liability to AI agent users",
         "TechCrunch"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s5_cut1.jpg",
-          "badge": "BAIDU • CONTEXTUAL REPORTING",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-17/s5_cut2.jpg",
-          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-17/s5_cut3.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
-          "panDirection": "zoomOut"
-        }
-      ]
-    },
-    {
-      "id": "s6_india_s_velocity_unveils_ai_tool",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "India’s Velocity unveils AI tool for D2C shipping",
-      "subheadline": "Source: Tech in Asia",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Tech in Asia",
-      "sourceUrl": "https://www.techinasia.com/news/indias-velocity-unveils-ai-tool-d2c-shipping",
-      "researchDesk": "",
-      "script": "Turning to India. Velocity said Vector uses the Model Context Protocol, introduced by Anthropic, to connect shipping workflows with AI apps such as Claude and ChatGPT.",
-      "whyThisMatters": "Velocity said Vector uses the Model Context Protocol, introduced by Anthropic, to connect shipping workflows with AI apps such as Claude and ChatGPT.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "India’s Velocity unveils AI tool for D2C shipping",
-        "Tech in Asia"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-17/s6_cut1.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-17/s6_cut2.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "image": "aibrief/assets/editorial/2026-11-19/s8_cut1.jpg",
+          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
           "panDirection": "panRight"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s6_cut3.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
-          "panDirection": "zoomIn"
-        }
-      ]
-    },
-    {
-      "id": "s7_huawei_reveals_the_design_of_its",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Huawei reveals the design of its first OSTA phone ahead of November 20 launch",
-      "subheadline": "Source: TechNode",
-      "importanceScore": 90,
-      "durationSeconds": 35,
-      "source": "TechNode",
-      "sourceUrl": "https://technode.com/2026/11/17/huawei-reveals-the-design-of-its-first-osta-phone-ahead-of-november-20-launch/",
-      "researchDesk": "",
-      "script": "In China. Huawei’s new smartphone brand OSTA on Tuesday revealed the design of its first phone, the O1 Pro, ahead of its November 20 launch. The phone has an unusually wide body and a purple gradient finish, with a horizontal pill-shaped rear camera module. OSTA is positioning the O1 Pro as an AI phone running HarmonyOS. The brand showed custom icons and wallpapers that carry the same color scheme across the interface. It also previewed a dedicated AI companion with its own chat interface.",
-      "whyThisMatters": "Huawei’s new smartphone brand OSTA on Tuesday revealed the design of its first phone, the O1 Pro, ahead of its November 20 launch.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Huawei reveals the design of its first OSTA phone ahead of November 20 launch",
-        "TechNode"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-17/s7_cut1.jpg",
-          "badge": "HUAWEI • CONTEXTUAL REPORTING",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-17/s7_cut2.jpg",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-17/s7_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-11-19/s8_cut2.jpg",
           "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "panDirection": "panRight"
-        }
-      ]
-    },
-    {
-      "id": "s8_unitree_s_wang_xingxing_says_rob",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain Challenges",
-      "subheadline": "Source: Pandaily",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Pandaily",
-      "sourceUrl": "https://pandaily.com/unitree-wang-xingxing-apec-robot-generalization-manufacturing-compute",
-      "researchDesk": "",
-      "script": "Next. At APEC, Wang Xingxing said robot-model generalization remains difficult and warned that manufacturing, reliability, service and compute must scale too.",
-      "whyThisMatters": "At APEC, Wang Xingxing said robot-model generalization remains difficult and warned that manufacturing, reliability, service and compute must scale too.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain",
-        "Pandaily"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-17/s8_cut1.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-17/s8_cut2.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
           "panDirection": "zoomOut"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s8_cut3.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
-          "panDirection": "panLeft"
-        }
-      ]
-    },
-    {
-      "id": "s9_india_nine_other_nations_sign_jo",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains",
-      "subheadline": "Source: Inc42",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "Inc42",
-      "sourceUrl": "https://inc42.com/buzz/india-nine-other-nations-sign-declaration-to-secure-ai-supply-chains/",
-      "researchDesk": "",
-      "script": "Turning to India. India and nine other nations have signed a joint declaration to safeguard supply chains and infrastructure that are central to…",
-      "whyThisMatters": "India and nine other nations have signed a joint declaration to safeguard supply chains and infrastructure that are central to…",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains",
-        "Inc42"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-17/s9_cut1.jpg",
-          "badge": "CANBERRA • PRIME MINISTER ANTHONY ALBANESE",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-17/s9_cut2.jpg",
+          "image": "aibrief/assets/editorial/2026-11-19/s8_cut3.jpg",
           "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_us_commission_warns_of_pla_deman",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "US commission warns of PLA demand for advanced Nvidia compute",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 25,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
+      "researchDesk": "",
+      "script": "In China. The United States-China Economic and Security Review Commission reported in its annual assessment that Chinese entities continue active efforts to acquire advanced Nvidia accelerators for military artificial intelligence workloads. The review highlighted remote access via third-party data centers in Southeast Asia alongside export control enforcement challenges, while emphasizing that key domestic fabrication and specialized software gaps remain unresolved.",
+      "whyThisMatters": "The United States-China Economic and Security Review Commission reported in its annual assessment that Chinese entities continue active efforts to acquire advanced Nvidia accelerators for military artificial intelligence",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "US commission warns of PLA demand for advanced Nvidia compute",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s9_cut1.jpg",
+          "badge": "SAN FRANCISCO • SAM ALTMAN AI DOCTRINE",
+          "panDirection": "zoomIn"
         },
         {
-          "image": "aibrief/assets/editorial/2026-11-17/s9_cut3.jpg",
+          "image": "aibrief/assets/editorial/2026-11-19/s9_cut2.jpg",
           "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s9_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
           "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s10_siemens_deploys_eigen_industrial",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Siemens deploys Eigen industrial engineering agent in India",
+      "subheadline": "Source: India Today",
+      "importanceScore": 90,
+      "durationSeconds": 27,
+      "source": "India Today",
+      "sourceUrl": "https://www.indiatoday.in/technology/news/story/siemens-launches-eigen-engineering-agent-in-india-says-it-frees-up-humans-for-complex-work-3042061-2026-11-19",
+      "researchDesk": "",
+      "script": "Turning to India. Siemens has officially launched its Eigen Engineering Agent in India following successful industrial pilots across sixteen domestic manufacturing clients. The specialized agent operates within Siemens' Totally Integrated Automation portal to generate programmable logic controller code and human-machine interface designs autonomously. Pilot deployments demonstrated a fifty percent reduction in repetitive engineering cycles, signaling accelerating adoption of autonomous AI agents across India's heavy manufacturing sector.",
+      "whyThisMatters": "Siemens has officially launched its Eigen Engineering Agent in India following successful industrial pilots across sixteen domestic manufacturing clients.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Siemens deploys Eigen industrial engineering agent in India",
+        "India Today"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s10_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s10_cut2.jpg",
+          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s10_cut3.jpg",
+          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
+          "panDirection": "zoomIn"
         }
       ]
     }
@@ -409,15 +447,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. US government confirms investigation into tech firm Megaspeed. OpenAI sued by California over Hugging Face attack. Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 months. Baidu’s Robin Li warns of AI bubble risk as applications lag infrastructure spending. FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’. India’s Velocity unveils AI tool for D2C shipping.",
+    "script": "To recap today's top stories. Microsoft Agent Framework hit by a PyPI supply-chain attack. Google launches Gemini 4 Neon frontier model. OpenAI deploys frontier models to redesign custom semiconductor chips. Tencent releases downloadable weights for Hy4 Flash model. South Korea proposes 4.6 trillion won sovereign AI initiative. Sarvam defends Token Factory amid debate over Indian sovereign AI.",
     "items": [
-      "✓ US government confirms investigation into tech f",
-      "✓ OpenAI sued by California over Hugging Face atta",
-      "✓ Cybersecurity AI startup Corma reaches 1 billion",
-      "✓ Baidu’s Robin Li warns of AI bubble risk as appl",
-      "✓ FBI says Artex AI open source hacking tool used ",
-      "✓ India’s Velocity unveils AI tool for D2C shippin",
-      "✓ Huawei reveals the design of its first OSTA phon"
+      "✓ Microsoft Agent Framework hit by a PyPI supply-c",
+      "✓ Google launches Gemini 4 Neon frontier model",
+      "✓ OpenAI deploys frontier models to redesign custo",
+      "✓ Tencent releases downloadable weights for Hy4 Fl",
+      "✓ South Korea proposes 4.6 trillion won sovereign ",
+      "✓ Sarvam defends Token Factory amid debate over In",
+      "✓ Apple releases FastFrames interactive video gene"
     ]
   },
   "outro": {
@@ -436,30 +474,31 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "US government confirms investigation into tec",
-    "OpenAI sued by California over Hugging Face a",
-    "Cybersecurity AI startup Corma reaches 1 bill",
-    "Baidu’s Robin Li warns of AI bubble risk as a",
-    "FBI says Artex AI open source hacking tool us",
-    "India’s Velocity unveils AI tool for D2C ship",
-    "Huawei reveals the design of its first OSTA p",
-    "Unitree's Wang Xingxing Says Robot Generaliza",
-    "India & Nine Other Nations Sign Joint Declara"
+    "Microsoft Agent Framework hit by a PyPI suppl",
+    "Google launches Gemini 4 Neon frontier model",
+    "OpenAI deploys frontier models to redesign cu",
+    "Tencent releases downloadable weights for Hy4",
+    "South Korea proposes 4.6 trillion won soverei",
+    "Sarvam defends Token Factory amid debate over",
+    "Apple releases FastFrames interactive video g",
+    "Citibank and US lenders shift financial liabi",
+    "US commission warns of PLA demand for advance",
+    "Siemens deploys Eigen industrial engineering "
   ],
   "thumbnail": {
-    "date": "17 NOVEMBER 2026",
-    "headline": "US GOVERNMENT CONFIRMS INVESTIGATION INTO",
+    "date": "19 NOVEMBER 2026",
+    "headline": "MICROSOFT AGENT FRAMEWORK HIT BY A PYPI",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "US GOVERNMENT CONFIRMS",
-      "OPENAI SUED BY CALIFORNIA OVER",
-      "CYBERSECURITY AI STARTUP CORMA",
-      "BAIDU’S ROBIN LI WARNS OF AI BUBBLE"
+      "MICROSOFT AGENT FRAMEWORK HIT BY A",
+      "GOOGLE LAUNCHES GEMINI 4 NEON",
+      "OPENAI DEPLOYS FRONTIER MODELS TO",
+      "TENCENT RELEASES DOWNLOADABLE"
     ]
   },
   "youtubeMetadata": {
-    "title": "US government confirms | OpenAI sued by California over | Cybersecurity AI startup Corma | AI News 17 November 2026",
-    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 17 November 2026.",
+    "title": "Microsoft Agent Framework hit by a | Google launches Gemini 4 Neon | OpenAI deploys frontier models to | AI News 19 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 19 November 2026.",
     "tags": [
       "AI",
       "ArtificialIntelligence",

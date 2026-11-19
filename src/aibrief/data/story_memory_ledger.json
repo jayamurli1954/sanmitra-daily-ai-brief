@@ -1,322 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-18",
   "stories": [
-    {
-      "story_id": "story_20261103_meituan_launches_longcat_2_5_multim",
-      "story_chain_id": "chain_global_meituan_launches_lon",
-      "headline": "Meituan launches LongCat-2.5 multimodal AI model for extended coding tasks",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://technode.com/2026/11/02/meituan-launches-longcat-2-5-multimodal-ai-model-for-extended-coding-tasks/"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 81
-    },
-    {
-      "story_id": "story_20261103_ai_debt_surge_pushes_magnificent_se",
-      "story_chain_id": "chain_global_ai_debt_surge_pushes",
-      "headline": "AI debt surge pushes Magnificent Seven borrowing to $578 billion, up 45%: SBI Research",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-debt-surge-pushes-magnificent-seven-borrowing-to-usd-578-billion-up-45-sbi-research/articleshow/135443806.cms"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 75
-    },
-    {
-      "story_id": "story_20261103_palantir_ai_tech_unused_or_little_u",
-      "story_chain_id": "chain_global_palantir_ai_tech_unu",
-      "headline": "Palantir AI tech unused or little used by 29 NHS trusts said to be benefiting from it",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/technology/2026/nov/02/palantir-unused-nhs-hospital-trusts"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261103_hsbc_to_open_hong_kong_ai_institute",
-      "story_chain_id": "chain_global_hsbc_to_open_hong_ko",
-      "headline": "HSBC to open Hong Kong AI Institute following Singapore launch",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/hsbc-to-open-hong-kong-ai-institute-following-singapore-launch/articleshow/135447713.cms"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
-    {
-      "story_id": "story_20261103_pronto_founder_s_provision_labs_acq",
-      "story_chain_id": "chain_global_pronto_founder_s_pro",
-      "headline": "Pronto Founder’s Provision Labs Acquires Hardware Startup Basilisk Industries",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://inc42.com/buzz/pronto-founders-provision-labs-acquires-hardware-startup-basilisk-industries/"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 70
-    },
-    {
-      "story_id": "story_20261103_apple_confirms_qwen_integration_for",
-      "story_chain_id": "chain_global_apple_confirms_qwen_",
-      "headline": "Apple confirms Qwen integration for China AI rollout, with beta testing starting November 4",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://technode.com/2026/11/02/apple-confirms-qwen-integration-for-china-ai-rollout-with-beta-testing-starting-november-4/"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 69
-    },
-    {
-      "story_id": "story_20261103_sensetime_open_sources_9_billion_pa",
-      "story_chain_id": "chain_global_sensetime_open_sourc",
-      "headline": "SenseTime open-sources 9-billion-parameter AI model that reuses layers for deeper processing",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://technode.com/2026/11/02/sensetime-open-sources-9-billion-parameter-ai-model-that-reuses-layers-for-deeper-processing/"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 69
-    },
-    {
-      "story_id": "story_20261103_south_korea_s_lee_vows_to_make_bold",
-      "story_chain_id": "chain_global_south_korea_s_lee_vo",
-      "headline": "South Korea's Lee vows to make bold AI investment in record budget push",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/technology/south-koreas-lee-vows-to-make-bold-ai-investment-in-record-budget-push/articleshow/135443328.cms"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 68
-    },
-    {
-      "story_id": "story_20261103_ai_debt_surge_pushes_magnificent_se",
-      "story_chain_id": "chain_global_ai_debt_surge_pushes",
-      "headline": "AI debt surge pushes Magnificent Seven borrowing to 578 billion dollars , up 45%: SBI Research",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-debt-surge-pushes-magnificent-seven-borrowing-to-usd-578-billion-up-45-sbi-research/articleshow/135443806.cms"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261104_binance_says_fake_job_interviews_us",
-      "story_chain_id": "chain_global_binance_says_fake_jo",
-      "headline": "Binance says fake job interviews used as part of $6.3bn crypto hack",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 96
-    },
-    {
-      "story_id": "story_20261104_ai_inference_chipmaker_moffett_ai_r",
-      "story_chain_id": "chain_global_ai_inference_chipmak",
-      "headline": "AI inference chipmaker Moffett AI raises nearly RMB 1 billion in Series C+ funding",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://technode.com/2026/11/03/ai-inference-chipmaker-moffett-ai-raises-nearly-rmb-1-billion-in-series-c-funding/"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 89
-    },
-    {
-      "story_id": "story_20261104_brookfield_plans_for_a_27_billion_a",
-      "story_chain_id": "chain_global_brookfield_plans_for",
-      "headline": "Brookfield plans for a $27 billion AI data center at UK power station",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 87
-    },
-    {
-      "story_id": "story_20261104_ai_powered_malware_highly_likely_to",
-      "story_chain_id": "chain_global_ai_powered_malware_h",
-      "headline": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 75
-    },
-    {
-      "story_id": "story_20261104_apple_restricts_dating_apps_and_ai_",
-      "story_chain_id": "chain_global_apple_restricts_dati",
-      "headline": "Apple restricts dating apps and AI companions to users 18 and up",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 75
-    },
-    {
-      "story_id": "story_20261104_bakers_and_cake_lovers_have_you_use",
-      "story_chain_id": "chain_global_bakers_and_cake_love",
-      "headline": "Bakers and cake lovers: have you used AI for inspiration?",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/food/2026/nov/03/bakers-and-cake-lovers-have-you-used-ai-for-inspiration"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261104_a_serious_failure_cps_prosecutor_ci",
-      "story_chain_id": "chain_global_a_serious_failure_cp",
-      "headline": "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI search",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261104_new_york_times_and_other_outlets_su",
-      "story_chain_id": "chain_global_new_york_times_and_o",
-      "headline": "New York Times and other outlets sue web browser Brave over alleged content scraping",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261104_china_s_lipstick_king_touts_ai_toke",
-      "story_chain_id": "chain_global_china_s_lipstick_kin",
-      "headline": "China's 'Lipstick King' touts AI tokens in first for Singles' Day festival",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-lipstick-king-touts-ai-tokens-in-first-for-singles-day-festival/articleshow/135495048.cms"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 68
-    },
-    {
-      "story_id": "story_20261104_mercedes_benz_brings_doubao_ai_and_",
-      "story_chain_id": "chain_global_mercedes_benz_brings",
-      "headline": "Mercedes-Benz brings Doubao AI and China-developed cockpit to updated E-Class",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://technode.com/2026/11/03/mercedes-benz-brings-doubao-ai-and-china-developed-cockpit-to-updated-e-class/"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 66
-    },
-    {
-      "story_id": "story_20261104_binance_says_fake_job_interviews_us",
-      "story_chain_id": "chain_global_binance_says_fake_jo",
-      "headline": "Binance says fake job interviews used as part of 6.3 billion dollars crypto hack",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261104_brookfield_plans_for_a_27_billion_d",
-      "story_chain_id": "chain_global_brookfield_plans_for",
-      "headline": "Brookfield plans for a 27 billion dollars AI data center at UK power station",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html"
-      ],
-      "first_covered": "2026-11-03",
-      "last_major_update": "2026-11-03",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
     {
       "story_id": "story_20261104_route_anything_a_study_of_model_and",
       "story_chain_id": "chain_global_route_anything_a_stu",
@@ -3134,6 +2819,51 @@
       ],
       "first_covered": "2026-11-17",
       "last_major_update": "2026-11-17",
+      "update_phase": "initial_break",
+      "impact_score": 66
+    },
+    {
+      "story_id": "story_20261117_cybersecurity_ai_startup_corma_reac",
+      "story_chain_id": "chain_global_cybersecurity_ai_sta",
+      "headline": "Cybersecurity AI startup Corma reaches 1 billion dollars valuation in about 3 months",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+      ],
+      "first_covered": "2026-11-17",
+      "last_major_update": "2026-11-17",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261117_allocflow_end_to_end_portfolio_trad",
+      "story_chain_id": "chain_global_allocflow_end_to_end",
+      "headline": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.19937"
+      ],
+      "first_covered": "2026-11-17",
+      "last_major_update": "2026-11-17",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261118_bot_interrupted_deepseek_users_repo",
+      "story_chain_id": "chain_global_bot_interrupted_deep",
+      "headline": "Bot, Interrupted: DeepSeek Users Report New Limits on Free Chats",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.sixthtone.com/news/1019284/Bot,"
+      ],
+      "first_covered": "2026-11-18",
+      "last_major_update": "2026-11-18",
       "update_phase": "initial_break",
       "impact_score": 66
     }

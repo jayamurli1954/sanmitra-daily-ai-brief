@@ -1,0 +1,444 @@
+{
+  "weekly": false,
+  "date": "2026-11-18",
+  "formattedDate": "18 November 2026",
+  "title": "Southeast Asia’s data center boom | Nvidia clarifies when it will and | Felicis leads 7.5 million dollars | AI News 18 November 2026",
+  "intro": {
+    "durationSeconds": 52,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 18 November 2026. First, today's top headlines: Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk. Nvidia clarifies when it will and won’t keep financing neoclouds. Felicis leads 7.5 million dollars bet on Unsiloed AI to make enterprise documents usable by AI agents. Elton John backs Australian artists in fight against AI in surprise Aria awards appearance. Beyond the AI hype: How Industrial AI is reshaping India’s factories and infrastructure. The seven Anthropic founders who are about to become multi-billionaires. Security flaw found in Java, world's third-largest programming language. Nvidia says it won't reinstate Huang as it reports soaring sales. And now, the news in brief.",
+    "headlines": [
+      "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+      "Nvidia clarifies when it will and won’t keep financing neoclouds",
+      "Felicis leads 7.5 million dollars bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "Elton John backs Australian artists in fight against AI in surprise Aria awards appearance",
+      "Beyond the AI hype: How Industrial AI is reshaping India’s factories and infrastructure",
+      "The seven Anthropic founders who are about to become multi-billionaires",
+      "Security flaw found in Java, world's third-largest programming language",
+      "Nvidia says it won't reinstate Huang as it reports soaring sales"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_southeast_asia_s_data_center_boo",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 99,
+      "durationSeconds": 52,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
+      "researchDesk": "",
+      "script": "Our lead story today. Washington's latest export controls could put the brakes on Southeast Asia's rapid build-out of data centers, CNBC reports. Under an interim rule the Commerce Department issued on Monday, data centers based in Singapore, Malaysia, Thailand and Indonesia must now obtain a license from the US government before buying advanced artificial intelligence chips, Nvidia's among them. Operators whose facilities already host large Chinese clients have 90 days to seek that license, or they risk export restrictions down the line. The measure takes aim at the region's growing function as a supplier of computing power to companies from China. Construction of data centers across Southeast Asia has climbed sharply, driven by demand for the semiconductors used to train and build AI models.",
+      "whyThisMatters": "Washington's latest export controls could put the brakes on Southeast Asia's rapid build-out of data centers, CNBC reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put t",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s1_cut1.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s1_cut2.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s1_cut3.jpg",
+          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s2_nvidia_clarifies_when_it_will_an",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Nvidia clarifies when it will and won’t keep financing neoclouds",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 55,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Nvidia has spelled out when it will continue to fund so-called neoclouds, and the issue matters because of how its ousted chief executive operated, TechCrunch reports. Over the weekend, 197,000 people, Elon Musk among them, signed a petition urging the chipmaker to reinstate Jensen Huang. Part of his appeal was that he channeled Nvidia's vast profits into financing the AI boom, not just promoting it. On Tuesday the company reported third-quarter net income of 64.9 billion dollars , compared with 59.7 billion dollars in the previous quarter. Still, Nvidia's growth relies on a steady stream of customers constructing and enlarging data centers that buy its chips and systems. Under Huang, Nvidia invested heavily in AI startups and neoclouds and lately started guaranteeing huge loans for new data centers.",
+      "whyThisMatters": "Nvidia has spelled out when it will continue to fund so-called neoclouds, and the issue matters because of how its ousted chief executive operated, TechCrunch reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nvidia clarifies when it will and won’t keep financing neoclouds",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s2_cut1.jpg",
+          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s2_cut2.jpg",
+          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s2_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_felicis_leads_7_5_million_dollar",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Felicis leads 7.5 million dollars bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 47,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+      "researchDesk": "",
+      "script": "In other news. Unsiloed AI has secured 7.5 million dollars in seed funding to help companies make their documents usable by AI agents, TechCrunch reports. The round was led by Silicon Valley venture firm Felicis, joined by Y Combinator, Orange Collective and Uncorrelated Ventures, along with angel investors Aarthi Ramamurthy and Beth Turner. The startup is targeting a growing obstacle for businesses adopting AI agents to automate tasks: much of the information they need sits inside complicated files. Corporate documents frequently contain tables, charts and intricate formatting that AI systems may fail to read correctly. Unsiloed AI says it is building specialized technology to make that material easier for agents to access.",
+      "whyThisMatters": "Unsiloed AI has secured $7.5 million in seed funding to help companies make their documents usable by AI agents, TechCrunch reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Felicis leads 7.5 million dollars bet on Unsiloed AI to make enterprise document",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s3_cut1.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s3_cut2.jpg",
+          "badge": "TACTICAL OPERATIONS CENTER • INCIDENT DESK",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s3_cut3.jpg",
+          "badge": "AIR DEFENSE • PATRIOT RADAR BATTERY",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s4_elton_john_backs_australian_arti",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Elton John backs Australian artists in fight against AI in surprise Aria awards appearance",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 55,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/music/2026/nov/18/elton-john-ai-campaign-australia-artists-aria-awards-copyright",
+      "researchDesk": "",
+      "script": "In Asia. Elton John made an unannounced appearance at the 2026 Aria awards to support Australian artists in their push against AI companies, the Guardian reports. In a pre-recorded message played during Wednesday's ceremony, the British star endorsed Not AI's To Take, a campaign supported by the creative and media sectors. The campaign urges the Albanese government to defend copyright law as AI firms lobby for changes, and to make sure Australian artists are paid and consulted when AI developers want to use their work for training. John said he had long admired the talent of Australian performers and wanted to send the government a direct message, telling it that it has a duty to protect the country's artists. \"Don't let AI use any Australian artist's work without full permission,\" he said.",
+      "whyThisMatters": "Elton John made an unannounced appearance at the 2026 Aria awards to support Australian artists in their push against AI companies, the Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Elton John backs Australian artists in fight against AI in surprise Aria awards ",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s4_cut1.jpg",
+          "badge": "CANBERRA • PRIME MINISTER ANTHONY ALBANESE",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s4_cut2.jpg",
+          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s4_cut3.jpg",
+          "badge": "CYBER THREAT OPERATIONS • LIVE TELEMETRY",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s5_beyond_the_ai_hype_how_industria",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Beyond the AI hype: How Industrial AI is reshaping India’s factories and infrastructure",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 55,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/beyond-the-ai-hype-how-industrial-ai-is-reshaping-indias-factories-and-infrastructure/articleshow/135934331.cms",
+      "researchDesk": "",
+      "script": "Turning to India. Artificial intelligence is shifting from chatbots and coding tools into the physical backbone of India's economy, the Economic Times reports. The trend covers AI-driven engineering, digital twins, self-running buildings and smarter railways, where success is judged by productivity, speed of innovation, energy savings and resilience. So-called industrial AI blends artificial intelligence with engineering expertise, live operating data, automation and digital twins, which are virtual replicas of real systems, to improve the running of factories, buildings, power grids and transport networks. This shift is the central theme of Transform, Siemens India Innovation Day 2026, held under the banner \"AI for the Real World.\" The emphasis is on putting AI to work in industrial settings, rather than treating it as a standalone trial, where dependability, safety, cybersecurity and tangible results are essential.",
+      "whyThisMatters": "Artificial intelligence is shifting from chatbots and coding tools into the physical backbone of India's economy, the Economic Times reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Beyond the AI hype: How Industrial AI is reshaping India’s factories and infrast",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s5_cut1.jpg",
+          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s5_cut2.jpg",
+          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s5_cut3.jpg",
+          "badge": "HIGH-VOLTAGE DATACENTER • MEGAWATT CLUSTER",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s6_the_seven_anthropic_founders_who",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "The seven Anthropic founders who are about to become multi-billionaires",
+      "subheadline": "Source: BBC",
+      "importanceScore": 90,
+      "durationSeconds": 58,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "researchDesk": "",
+      "script": "Around the world. Seven people who walked away from OpenAI in 2021 to found Anthropic are hours from becoming multi-billionaires, at least on paper, the BBC reports. The company, which makes the AI platform Claude, has grown in only five years from an obscure start-up into a technology heavyweight valued at more than a trillion dollars. Anthropic is now listing on the US stock market, with its shares priced in a range of 70 trillion dollars o 78. dollars Should the offering land at the top of that band, each founder's stake would be worth no less than 18.5 billion dollars . All seven are in their thirties or forties. Among them is Dario Amodei, who in 2020 was employed at OpenAI. That firm went on to introduce generative artificial intelligence to the general public with the launch of ChatGPT.",
+      "whyThisMatters": "Seven people who walked away from OpenAI in 2021 to found Anthropic are hours from becoming multi-billionaires, at least on paper, the BBC reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "The seven Anthropic founders who are about to become multi-billionaires",
+        "BBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s6_cut1.jpg",
+          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s6_cut2.jpg",
+          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s6_cut3.jpg",
+          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_security_flaw_found_in_java_worl",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Security flaw found in Java, world's third-largest programming language",
+      "subheadline": "Source: BBC",
+      "importanceScore": 90,
+      "durationSeconds": 52,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=RSS&at_campaign=rss",
+      "researchDesk": "",
+      "script": "In other news. A cyber-security start-up has used artificial intelligence to detect a critical weakness in Java, one of the world's most widely used programming languages, according to the BBC. The firm, Calif, located the bug in the way Java handles memory. The company had recently exposed a separate security problem in another language, PHP. Java underpins systems at almost every major global company, including Apple and Amazon, and is also relied on by numerous banks, hospitals and governments. Computer scientist Professor Toby Walsh noted that the language is designed to strengthen security by taking care of memory management. That, he said, is why \"this is such an unlikely and serious flaw\". The finding follows several significant technology disruptions, among them a large outage at Microsoft.",
+      "whyThisMatters": "A cyber-security start-up has used artificial intelligence to detect a critical weakness in Java, one of the world's most widely used programming languages, according to the BBC.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Security flaw found in Java, world's third-largest programming language",
+        "BBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s7_cut1.jpg",
+          "badge": "SECURITY • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s7_cut2.jpg",
+          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s7_cut3.jpg",
+          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s8_nvidia_says_it_won_t_reinstate_h",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+      "subheadline": "Source: BBC",
+      "importanceScore": 90,
+      "durationSeconds": 56,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+      "researchDesk": "",
+      "script": "Next. Nvidia has said it will not bring back its ousted co-founder Jensen Huang, even as it posted a doubling of sales to above 100 billion dollars , the BBC reports. The figures were the company's first since Huang's abrupt departure last week, and cover the quarter immediately before the scandal came to light. Interim chief executive Colette Kress told investors operations were continuing as normal, adding: \"We've got this.\" Earlier on Tuesday, Huang had said he would be \"honoured\" to come back and run the chipmaker. He resigned after allegations of extramarital affairs, one of them reportedly with a suspected Chinese spy. Nvidia's chair, Harvey Jones, rejected the idea, saying: \"The board does not intend to reinstate him.\" Sales for the three months ending 25 October climbed to 115.8 billion dollars , or £86.9bn.",
+      "whyThisMatters": "Nvidia has said it will not bring back its ousted co-founder Jensen Huang, even as it posted a doubling of sales to above $100bn, the BBC reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nvidia says it won't reinstate Huang as it reports soaring sales",
+        "BBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s8_cut1.jpg",
+          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
+          "panDirection": "panRight"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s8_cut2.jpg",
+          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
+          "panDirection": "zoomOut"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s8_cut3.jpg",
+          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s9_telechat_to_xing4_advancing_fron",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 47,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.22115",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. In a paper titled TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks, the researchers introduce Xing 4, a new family of large language models that builds on the earlier TeleChat series. The models were developed on Ascend domestic chips, and the report explains how the team designed both the models and the computing systems used to train them. The researchers examine trade-offs such as activating only parts of a model at a time and speeding up text generation, weighing model power against computing and memory costs. Training relied on the MindSpore HyperParallel framework to split work efficiently across many machines and handle very long inputs.",
+      "whyThisMatters": "In a paper titled TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks, the researchers introduce Xing 4, a new family of large language models that builds on the earlier TeleChat series.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frame",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s9_cut1.jpg",
+          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
+          "panDirection": "zoomIn"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s9_cut2.jpg",
+          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
+          "panDirection": "panLeft"
+        },
+        {
+          "image": "aibrief/assets/editorial/2026-11-18/s9_cut3.jpg",
+          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
+          "panDirection": "zoomOut"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk. Nvidia clarifies when it will and won’t keep financing neoclouds. Felicis leads 7.5 million dollars bet on Unsiloed AI to make enterprise documents usable by AI agents. Elton John backs Australian artists in fight against AI in surprise Aria awards appearance. Beyond the AI hype: How Industrial AI is reshaping India’s factories and infrastructure. The seven Anthropic founders who are about to become multi-billionaires.",
+    "items": [
+      "✓ Southeast Asia’s data center boom leaned on Chin",
+      "✓ Nvidia clarifies when it will and won’t keep fin",
+      "✓ Felicis leads 7.5 million dollars bet on Unsiloe",
+      "✓ Elton John backs Australian artists in fight aga",
+      "✓ Beyond the AI hype: How Industrial AI is reshapi",
+      "✓ The seven Anthropic founders who are about to be",
+      "✓ Security flaw found in Java, world's third-large"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Southeast Asia’s data center boom leaned on C",
+    "Nvidia clarifies when it will and won’t keep ",
+    "Felicis leads 7.5 million dollars bet on Unsi",
+    "Elton John backs Australian artists in fight ",
+    "Beyond the AI hype: How Industrial AI is resh",
+    "The seven Anthropic founders who are about to",
+    "Security flaw found in Java, world's third-la",
+    "Nvidia says it won't reinstate Huang as it re",
+    "TeleChat to Xing4: Advancing Frontier Agentic"
+  ],
+  "thumbnail": {
+    "date": "18 NOVEMBER 2026",
+    "headline": "SOUTHEAST ASIA’S DATA CENTER BOOM LEANED ON",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "SOUTHEAST ASIA’S DATA CENTER BOOM",
+      "NVIDIA CLARIFIES WHEN IT WILL AND",
+      "FELICIS LEADS 7.5 MILLION DOLLARS",
+      "ELTON JOHN BACKS AUSTRALIAN ARTISTS"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Southeast Asia’s data center boom | Nvidia clarifies when it will and | Felicis leads 7.5 million dollars | AI News 18 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 18 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}
