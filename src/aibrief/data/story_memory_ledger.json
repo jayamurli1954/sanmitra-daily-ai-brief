@@ -3,411 +3,6 @@
   "last_updated": "2026-11-20",
   "stories": [
     {
-      "story_id": "story_20261104_route_anything_a_study_of_model_and",
-      "story_chain_id": "chain_global_route_anything_a_stu",
-      "headline": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://arxiv.org/abs/2611.05275"
-      ],
-      "first_covered": "2026-11-04",
-      "last_major_update": "2026-11-04",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261104_data_centers_are_turning_to_old_jet",
-      "story_chain_id": "chain_global_data_centers_are_tur",
-      "headline": "Data centers are turning to old jet engines as the wait for power grows",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
-      ],
-      "first_covered": "2026-11-04",
-      "last_major_update": "2026-11-04",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261104_anthropic_is_working_on_a_system_to",
-      "story_chain_id": "chain_global_anthropic_is_working",
-      "headline": "Anthropic is working on a system to prove AI models’ identity",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
-      ],
-      "first_covered": "2026-11-04",
-      "last_major_update": "2026-11-04",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261104_ai_inference_startup_fal_doubles_it",
-      "story_chain_id": "chain_global_ai_inference_startup",
-      "headline": "AI inference startup Fal doubles its valuation to 16 billion dollars as demand surges",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
-      ],
-      "first_covered": "2026-11-04",
-      "last_major_update": "2026-11-04",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261104_discontent_and_distrust_annual_soci",
-      "story_chain_id": "chain_global_discontent_and_distr",
-      "headline": "‘Discontent and distrust’: annual social cohesion checkup shows exactly what’s making Australia angry",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://www.theguardian.com/australia-news/2026/nov/04/social-cohesion-report-australia-cost-of-living-economy-immigration-multiculturalism-ai-ntwnfb"
-      ],
-      "first_covered": "2026-11-04",
-      "last_major_update": "2026-11-04",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261104_indiaai_mission_s_three_indigenous_",
-      "story_chain_id": "chain_global_indiaai_mission_s_th",
-      "headline": "IndiaAI Mission's three indigenous AI models target offline mobile access, secure use in critical sectors",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/indiaai-missions-three-indigenous-ai-models-target-offline-mobile-access-secure-use-in-critical-sectors/articleshow/135524432.cms"
-      ],
-      "first_covered": "2026-11-04",
-      "last_major_update": "2026-11-04",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261104_albanese_government_warned_it_s_sle",
-      "story_chain_id": "chain_global_albanese_government_",
-      "headline": "Albanese government warned it’s ‘sleepwalking into another robodebt scenario’ over use of algorithms and AI",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/australia-news/2026/nov/05/albanese-government-warned-its-sleepwalking-into-another-robodebt-scenario-over-use-of-algorithms-and-ai"
-      ],
-      "first_covered": "2026-11-04",
-      "last_major_update": "2026-11-04",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261104_canva_layoffs_design_giant_to_cut_o",
-      "story_chain_id": "chain_global_canva_layoffs_design",
-      "headline": "Canva layoffs: design giant to cut or relocate more than 1,200 jobs in major restructure",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/australia-news/2026/nov/04/canva-layoffs-job-cuts-restructure"
-      ],
-      "first_covered": "2026-11-04",
-      "last_major_update": "2026-11-04",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261104_ai_godfather_geoffrey_hinton_it_mig",
-      "story_chain_id": "chain_global_ai_godfather_geoffre",
-      "headline": "AI ‘godfather’ Geoffrey Hinton: it might turn out we were better off without AI",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai"
-      ],
-      "first_covered": "2026-11-04",
-      "last_major_update": "2026-11-04",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261104_google_says_there_s_no_way_to_use_s",
-      "story_chain_id": "chain_global_google_says_there_s_",
-      "headline": "Google says there’s no way to use Search without using artificial intelligence",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/technology/2026/nov/03/google-search-artificial-intelligence"
-      ],
-      "first_covered": "2026-11-04",
-      "last_major_update": "2026-11-04",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261104_netflix_s_new_ai_discover_tab_helps",
-      "story_chain_id": "chain_global_netflix_s_new_ai_dis",
-      "headline": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/"
-      ],
-      "first_covered": "2026-11-04",
-      "last_major_update": "2026-11-04",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261105_china_blocks_softbank_s_5_4_billion",
-      "story_chain_id": "chain_global_china_blocks_softban",
-      "headline": "China blocks SoftBank's $5.4 billion takeover of ABB's robotics division: FT",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/technology/china-blocks-softbanks-5-4-billion-takeover-of-abbs-robotics-division-ft/articleshow/135565365.cms"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261105_moonshot_ai_releases_kimi_k3_1_pro_",
-      "story_chain_id": "chain_global_moonshot_ai_releases",
-      "headline": "Moonshot AI releases Kimi K3.1 Pro model weights",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://technode.com/2026/11/05/moonshot-ai-releases-kimi-k3-1-pro-model-weights/"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 89
-    },
-    {
-      "story_id": "story_20261105_nothing_plans_december_launch_for_f",
-      "story_chain_id": "chain_global_nothing_plans_decemb",
-      "headline": "Nothing plans December launch for first AI-native device",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://technode.com/2026/11/05/nothing-plans-december-launch-for-first-ai-native-device/"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 89
-    },
-    {
-      "story_id": "story_20261105_google_unveils_15_billion_data_cent",
-      "story_chain_id": "chain_global_google_unveils_15_bi",
-      "headline": "Google unveils $15 billion data centre investment in Malaysia",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/technology/google-unveils-15-billion-data-centre-investment-in-malaysia/articleshow/135559941.cms"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 83
-    },
-    {
-      "story_id": "story_20261105_meta_acquires_ai_coding_startup_con",
-      "story_chain_id": "chain_global_meta_acquires_ai_cod",
-      "headline": "Meta acquires AI coding startup Conductor",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.techinasia.com/news/meta-acquires-ai-coding-startup-conductor"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 82
-    },
-    {
-      "story_id": "story_20261105_moonshot_ai_launches_kimi_hosted_ag",
-      "story_chain_id": "chain_global_moonshot_ai_launches",
-      "headline": "Moonshot AI Launches Kimi Hosted Agents as a Managed Agent-Harness Cloud Service",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://pandaily.com/moonshot-ai-kimi-hosted-agents-harness-as-a-service-sandbox-inference-hook"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 81
-    },
-    {
-      "story_id": "story_20261105_activists_across_europe_prepare_two",
-      "story_chain_id": "chain_global_activists_across_eur",
-      "headline": "Activists across Europe prepare two days of protests against datacentres",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/world/2026/nov/05/activists-across-europe-protests-ai-against-datacentres"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261105_uk_found_to_be_dangerously_reliant_",
-      "story_chain_id": "chain_global_uk_found_to_be_dange",
-      "headline": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261105_ai_sharpens_cat_and_mouse_hacking_b",
-      "story_chain_id": "chain_global_ai_sharpens_cat_and_",
-      "headline": "AI sharpens cat-and-mouse hacking battle as companies strengthen defences",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-sharpens-cat-and-mouse-hacking-battle-as-companies-strengthen-defences/articleshow/135561625.cms"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
-    {
-      "story_id": "story_20261105_india_flags_chinese_linked_ai_tools",
-      "story_chain_id": "chain_global_india_flags_chinese_",
-      "headline": "India flags Chinese-linked AI tools in hacking campaign against financial firms",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/india-flags-chinese-linked-ai-tools-in-hacking-campaign-against-financial-firms/articleshow/135566096.cms"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
-    {
-      "story_id": "story_20261105_china_merchants_lionrock_ai_lab_ope",
-      "story_chain_id": "chain_global_china_merchants_lion",
-      "headline": "China Merchants' LionRock AI Lab Open-Sources Lion-ER-35B-A3B Embodied Reasoning Model",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://pandaily.com/china-merchants-lionrock-ai-lab-lion-er-35b-a3b-embodied-reasoning-model-open-source"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 69
-    },
-    {
-      "story_id": "story_20261105_moxin_technology_launches_moworld_2",
-      "story_chain_id": "chain_global_moxin_technology_lau",
-      "headline": "Moxin Technology Launches MoWorld 2.0, an Ascend-Native 4D World Model That Simulates Physics",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://pandaily.com/moxin-technology-moworld-2-0-ascend-native-4d-world-model-physics-gaussian-assets"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 69
-    },
-    {
-      "story_id": "story_20261105_reap_meitu_s_evelab_insight_explore",
-      "story_chain_id": "chain_global_reap_meitu_s_evelab_",
-      "headline": "Reap, Meitu’s EveLab Insight explore AI beauty shopping",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://www.techinasia.com/news/reap-meitus-evelab-insight-explore-ai-beauty-shopping"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 67
-    },
-    {
-      "story_id": "story_20261105_china_blocks_softbank_s_5_4_billion",
-      "story_chain_id": "chain_global_china_blocks_softban",
-      "headline": "China blocks SoftBank's 5.4 billion dollars takeover of ABB's robotics division: FT",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/technology/china-blocks-softbanks-5-4-billion-takeover-of-abbs-robotics-division-ft/articleshow/135565365.cms"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261105_google_unveils_15_billion_dollars_d",
-      "story_chain_id": "chain_global_google_unveils_15_bi",
-      "headline": "Google unveils 15 billion dollars data centre investment in Malaysia",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/technology/google-unveils-15-billion-data-centre-investment-in-malaysia/articleshow/135559941.cms"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261105_from_pixels_to_actions_towards_nati",
-      "story_chain_id": "chain_global_from_pixels_to_actio",
-      "headline": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://arxiv.org/abs/2611.06918"
-      ],
-      "first_covered": "2026-11-05",
-      "last_major_update": "2026-11-05",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
       "story_id": "story_20261106_russia_and_us_seek_to_block_plan_fo",
       "story_chain_id": "chain_global_russia_and_us_seek_t",
       "headline": "Russia and US seek to block plan for binding rules on autonomous weapons",
@@ -3179,6 +2774,156 @@
       ],
       "first_covered": "2026-11-19",
       "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261120_traumatized_teens_sue_school_cops_a",
+      "story_chain_id": "chain_global_traumatized_teens_su",
+      "headline": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/"
+      ],
+      "first_covered": "2026-11-20",
+      "last_major_update": "2026-11-20",
+      "update_phase": "initial_break",
+      "impact_score": 75
+    },
+    {
+      "story_id": "story_20261120_nextdc_vows_to_keep_future_datacent",
+      "story_chain_id": "chain_global_nextdc_vows_to_keep_",
+      "headline": "NextDC vows to keep future datacentres away from homes after community backlash in Melbourne",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/australia-news/2026/nov/20/nextdc-vows-to-keep-future-datacentres-away-from-homes-after-community-backlash-in-melbourne"
+      ],
+      "first_covered": "2026-11-20",
+      "last_major_update": "2026-11-20",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261120_academic_integrity_matters_but_stud",
+      "story_chain_id": "chain_global_academic_integrity_m",
+      "headline": "Academic integrity matters, but students shouldn’t be penalised for using AI | Letter",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/education/2026/nov/19/academic-integrity-matters-but-students-shouldnt-be-penalised-for-using-ai"
+      ],
+      "first_covered": "2026-11-20",
+      "last_major_update": "2026-11-20",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261120_meta_s_ai_agent_muse_is_mixing_up_c",
+      "story_chain_id": "chain_global_meta_s_ai_agent_muse",
+      "headline": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+      ],
+      "first_covered": "2026-11-20",
+      "last_major_update": "2026-11-20",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261120_asia_payments_group_launches_ai_com",
+      "story_chain_id": "chain_global_asia_payments_group_",
+      "headline": "Asia payments group launches AI commerce policy initiative",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.techinasia.com/news/asia-payments-group-launches-ai-commerce-policy-initiative"
+      ],
+      "first_covered": "2026-11-20",
+      "last_major_update": "2026-11-20",
+      "update_phase": "initial_break",
+      "impact_score": 70
+    },
+    {
+      "story_id": "story_20261120_india_s_anthropic_question_sharecha",
+      "story_chain_id": "chain_global_india_s_anthropic_qu",
+      "headline": "India’s Anthropic Question, ShareChat’s Turnaround & More",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://inc42.com/buzz/indias-anthropic-question-sharechats-turnaround-more/"
+      ],
+      "first_covered": "2026-11-20",
+      "last_major_update": "2026-11-20",
+      "update_phase": "initial_break",
+      "impact_score": 67
+    },
+    {
+      "story_id": "story_20261120_anthropic_s_australian_data_centre_",
+      "story_chain_id": "chain_global_anthropic_s_australi",
+      "headline": "Anthropic's Australian data centre overwhelmingly opposed by residents",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropics-australian-data-centre-overwhelmingly-opposed-by-residents/articleshow/136010716.cms"
+      ],
+      "first_covered": "2026-11-20",
+      "last_major_update": "2026-11-20",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261120_california_investigates_nvidia_over",
+      "story_chain_id": "chain_global_california_investiga",
+      "headline": "California investigates Nvidia over whether chip exports ended up in China",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china"
+      ],
+      "first_covered": "2026-11-20",
+      "last_major_update": "2026-11-20",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261120_experts_say_powering_data_centers_u",
+      "story_chain_id": "chain_global_experts_say_powering",
+      "headline": "Experts say powering data centers uses more water than cooling them",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.npr.org/2026/11/20/nx-s1-6045780/experts-say-powering-data-centers-uses-more-water-than-cooling-them"
+      ],
+      "first_covered": "2026-11-20",
+      "last_major_update": "2026-11-20",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261120_mind2act_world_a_diagnostic_benchma",
+      "story_chain_id": "chain_global_mind2act_world_a_dia",
+      "headline": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.26444"
+      ],
+      "first_covered": "2026-11-20",
+      "last_major_update": "2026-11-20",
       "update_phase": "initial_break",
       "impact_score": 90
     }
