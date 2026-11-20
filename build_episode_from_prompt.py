@@ -522,25 +522,20 @@ def parse_markdown_prompt(md_text: str) -> dict:
                 ("aibrief/assets/story6_network_grid.jpg", f"{reg} ENTERPRISE AUTOMATION BENCHMARK")
             ]
 
-        # Check for fresh story-specific downloaded assets for this date
+        # Check for fresh story-specific downloaded assets for this date (single hero visual)
         date_editorial_dir = os.path.join("public", "aibrief", "assets", "editorial", iso_date)
         f_cut1 = os.path.join(date_editorial_dir, f"s{idx}_cut1.jpg")
-        f_cut2 = os.path.join(date_editorial_dir, f"s{idx}_cut2.jpg")
-        f_cut3 = os.path.join(date_editorial_dir, f"s{idx}_cut3.jpg")
 
-        cut1_img = f"aibrief/assets/editorial/{iso_date}/s{idx}_cut1.jpg" if os.path.exists(f_cut1) else domain_cuts[0][0]
-        cut1_badge = visual_memory_badges.get(f"s{idx}_cut1.jpg", domain_cuts[0][1]) if os.path.exists(f_cut1) else domain_cuts[0][1]
-
-        cut2_img = f"aibrief/assets/editorial/{iso_date}/s{idx}_cut2.jpg" if os.path.exists(f_cut2) else domain_cuts[1][0]
-        cut2_badge = visual_memory_badges.get(f"s{idx}_cut2.jpg", domain_cuts[1][1]) if os.path.exists(f_cut2) else domain_cuts[1][1]
-
-        cut3_img = f"aibrief/assets/editorial/{iso_date}/s{idx}_cut3.jpg" if os.path.exists(f_cut3) else domain_cuts[2][0]
-        cut3_badge = visual_memory_badges.get(f"s{idx}_cut3.jpg", domain_cuts[2][1]) if os.path.exists(f_cut3) else domain_cuts[2][1]
+        if os.path.exists(f_cut1):
+            hero_img = f"aibrief/assets/editorial/{iso_date}/s{idx}_cut1.jpg"
+            hero_badge = visual_memory_badges.get(f"s{idx}_cut1.jpg", f"{reg} • SPECIAL REPORT")
+        else:
+            fallback_name = "default_ai_brain_ai.jpg" if idx % 2 == 1 else "default_ai_network.jpg"
+            hero_img = f"aibrief/assets/fallbacks/{fallback_name}"
+            hero_badge = f"{reg} • SPECIAL REPORT"
 
         visual_cuts = [
-            {"image": cut1_img, "badge": cut1_badge, "panDirection": pans[0]},
-            {"image": cut2_img, "badge": cut2_badge, "panDirection": pans[1]},
-            {"image": cut3_img, "badge": cut3_badge, "panDirection": pans[2]}
+            {"image": hero_img, "badge": hero_badge, "panDirection": pans[0]}
         ]
 
         slug = re.sub(r"[^a-z0-9]+", "_", head.lower())[:32].strip("_")

@@ -178,7 +178,12 @@ CURATED_ENTITY_MAP = {
     "new york city": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg"), "NEW YORK CITY • MUNICIPAL AI GOVERNANCE COUNCIL"),
     "nato": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/5a/NSOC-2012.jpg"), "BRUSSELS • NATO OPERATIONS CENTER"),
     "data center": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/57/Data_Center_of_CNPC.jpg"), "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT"),
-    "datacentre": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/57/Data_Center_of_CNPC.jpg"), "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT")
+    "datacentre": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/57/Data_Center_of_CNPC.jpg"), "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT"),
+    "nvidia": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cc/Nvidia_HQ.jpg"), "SANTA CLARA • NVIDIA CORPORATE HEADQUARTERS"),
+    "siemens": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/2/2c/Siemens_AG_-_Corporate_Headquarters%2C_Munich_02.jpg"), "MUNICH • SIEMENS GLOBAL HEADQUARTERS"),
+    "citibank": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/39/388_Greenwich_Street_%2824252%29.jpg"), "NEW YORK • CITIGROUP GLOBAL HEADQUARTERS"),
+    "citi": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/39/388_Greenwich_Street_%2824252%29.jpg"), "NEW YORK • CITIGROUP GLOBAL HEADQUARTERS"),
+    "gift city": ("https://upload.wikimedia.org/wikipedia/commons/9/93/Gift_City.jpg", "GUJARAT • GIFT CITY INTERNATIONAL FINANCIAL TECH-CITY")
 }
 
 # Domain-specific B-roll pools (100% authentic editorial visuals, NO server cables, NO plasma balls, NO toy drones)
@@ -391,115 +396,48 @@ def resolve_cuts_for_story(
     global_used_urls: Optional[set] = None
 ) -> List[Tuple[str, str]]:
     """
-    Returns 3 distinct (url, badge) visual cuts tailored directly to the story's real content.
-    Guaranteed to return 3 distinct cuts with word-boundary matching and robust domain isolation.
+    Returns EXACTLY 1 authoritative (url, badge) hero visual cut tailored directly to the story's real content.
+    Strict single-cut architecture:
+      1. Official corporate campus/headquarters or verified logo
+      2. Official executive portrait ONLY if person is explicitly named in headline/story
+      3. Approved universal fallback (circuit brain / digital network)
+    ZERO random stock filler (no power lines, random lakes, or arbitrary maps).
     """
     hl_text = headline.lower()
     full_text = f"{headline} {summary}".lower()
     body_text = (summary or "").replace(headline or "", " ", 1).lower()
-    cuts = []
 
     # 1. Match curated entities appearing in the HEADLINE first (primary subject of the story)
     for key, (img_url, badge) in CURATED_ENTITY_MAP.items():
-        if len(cuts) >= 3:
-            break
         if re.search(r'\b' + re.escape(key) + r'\b', hl_text, re.IGNORECASE):
-            if not any(c[0] == img_url for c in cuts):
-                cuts.append((img_url, badge))
+            return [(img_url, badge)]
 
     # 2. Check body/script text for secondary contextual entities or leaders mentioned
-    if len(cuts) < 3:
-        for key, (img_url, badge) in CURATED_ENTITY_MAP.items():
-            if len(cuts) >= 3:
-                break
-            mentions = _mentions(key, body_text)
-            is_person = any(w in badge.lower() for w in ["minister", "chair", "ceo", "director", "sam altman", "jensen huang", "albanese", "portrait", "leadership"])
-            threshold = 1 if is_person else 2
-            if mentions >= threshold:
-                if not any(c[0] == img_url for c in cuts):
-                    cuts.append((img_url, badge))
+    for key, (img_url, badge) in CURATED_ENTITY_MAP.items():
+        mentions = _mentions(key, body_text)
+        is_person = any(w in badge.lower() for w in ["minister", "chair", "ceo", "director", "sam altman", "jensen huang", "albanese", "portrait", "leadership"])
+        threshold = 1 if is_person else 2
+        if mentions >= threshold:
+            return [(img_url, badge)]
 
     # 3. If no entity matched yet, try live Wikipedia image search for the headline's names
-    if not cuts:
-        for ent in headline_entities(headline):
-            if ent.lower() in ("china", "asia", "india", "usa", "us", "uk", "europe", "world", "big"):
-                continue
-            wiki_res = search_wikipedia_image(ent)
-            if wiki_res:
-                src, title = wiki_res
-                badge = f"{title.upper()} • CONTEXTUAL REPORTING"
-                if not any(c[0] == src for c in cuts):
-                    cuts.append((src, badge))
-                    break
+    for ent in headline_entities(headline):
+        if ent.lower() in ("china", "asia", "india", "usa", "us", "uk", "europe", "world", "big"):
+            continue
+        wiki_res = search_wikipedia_image(ent)
+        if wiki_res:
+            src, title = wiki_res
+            badge = f"{title.upper()} • CONTEXTUAL REPORTING"
+            return [(src, badge)]
 
-    # 4. Determine domain for complementary operational B-roll
-    text = full_text
-    domain = "policy"
-    # Whole words only: substring tests matched "ban" in "bank", "mit" in "submit", "die" in "diet".
-    if _has_any(text, ["missile", "missiles", "military", "weapon", "weapons", "warhead", "pyongyang", "air-defense", "ballistic", "nato", "targeting", "drone", "drones", "interceptor", "interceptors", "incursion", "swarms", "kill-chain"]):
-        domain = "defense"
-    elif _has_any(text, ["chip", "chips", "semiconductor", "semiconductors", "amd", "nvidia", "gpu", "gpus", "hardware", "wafer", "silicon", "soc", "npu", "cpu", "cpus", "processor", "accelerator"]):
-        domain = "hardware"
-    elif _has_any(text, ["datacentre", "data centre", "data center", "grid", "power", "energy", "substation", "hyperscale", "petaflops", "megawatt", "gigawatt"]):
-        domain = "energy"
-    elif _has_any(text, ["research", "researchers", "benchmark", "benchmarks", "foundation model", "study", "paper", "agent", "agents", "deepseek", "weights", "mathematics", "maths", "biology", "laboratory"]):
-        domain = "research"
-    elif _has_any(text, ["privacy", "ban", "whistleblower", "hearing", "council", "senate", "governance", "liability", "regulation", "regulator", "lawsuit", "bankruptcy", "court"]):
-        domain = "policy"
-
-    pool = DOMAIN_POOLS.get(domain, DOMAIN_POOLS["policy"])
-
-    # Pick from primary domain pool avoiding URLs already used across this story or episode
-    for pool_url, pool_badge in pool:
-        if len(cuts) >= 3:
-            break
-        if not any(c[0] == pool_url for c in cuts):
-            if global_used_urls is not None and pool_url in global_used_urls:
-                continue
-            cuts.append((pool_url, pool_badge))
-            if global_used_urls is not None:
-                global_used_urls.add(pool_url)
-
-    # 5. Strict domain-isolated padding (NEVER cross defense with policy/banking!)
-    SAFE_BACKUP_DOMAINS = {
-        "policy": ["research", "hardware"],
-        "defense": ["hardware", "research"],
-        "hardware": ["research", "energy"],
-        "research": ["hardware", "policy"],
-        "energy": ["hardware", "policy"]
-    }
-
-    if len(cuts) < 3:
-        for backup_domain in SAFE_BACKUP_DOMAINS.get(domain, ["research", "hardware"]):
-            for pool_url, pool_badge in DOMAIN_POOLS.get(backup_domain, []):
-                if len(cuts) >= 3:
-                    break
-                if not any(c[0] == pool_url for c in cuts):
-                    if global_used_urls is not None and pool_url in global_used_urls:
-                        continue
-                    cuts.append((pool_url, pool_badge))
-                    if global_used_urls is not None:
-                        global_used_urls.add(pool_url)
-
-    # Fallback rotation if all pools are exhausted by a large episode (guarantee 3 unique cuts)
-    fallback_index = 0
-    while len(cuts) < 3:
-        idx_pick = (idx + fallback_index) % len(pool)
-        fallback_index += 1
-        p_url, p_badge = pool[idx_pick]
-        if not any(c[0] == p_url for c in cuts):
-            cuts.append((p_url, f"{p_badge} • CUT {len(cuts)+1}"))
-        else:
-            # Pick only from safe backup domain pools
-            for b_dom in SAFE_BACKUP_DOMAINS.get(domain, ["research", "hardware"]):
-                for b_url, b_b in DOMAIN_POOLS.get(b_dom, []):
-                    if not any(c[0] == b_url for c in cuts):
-                        cuts.append((b_url, b_b))
-                        break
-                if len(cuts) >= 3:
-                    break
-
-    return cuts[:3]
+    # 4. Mandatory universal fallback (strictly no generic/unconnected stock photos)
+    fallback_img = (
+        "aibrief/assets/fallbacks/default_ai_brain_ai.jpg"
+        if idx % 2 == 1
+        else "aibrief/assets/fallbacks/default_ai_network.jpg"
+    )
+    fallback_badge = f"{region} • AI INTELLIGENCE WIRE"
+    return [(fallback_img, fallback_badge)]
 
 
 def download_and_process_image(url: str, dest_path: str) -> bool:

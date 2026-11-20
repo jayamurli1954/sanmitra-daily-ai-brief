@@ -278,8 +278,8 @@ def stills_match_episode(dest_dir: str, headlines: list) -> bool:
                 return False
     except Exception:
         return False
-    return all(os.path.exists(os.path.join(dest_dir, f"s{i}_cut{c}.jpg"))
-               for i in range(1, len(headlines) + 1) for c in (1, 2, 3))
+    return all(os.path.exists(os.path.join(dest_dir, f"s{i}_cut1.jpg"))
+               for i in range(1, len(headlines) + 1))
 
 
 def download_daily_visuals(date_str: str, force: bool = False, retention_days: int = 7):
@@ -396,103 +396,29 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
         except Exception as e:
             print(f"    [!] Error downloading from {url}: {e}")
 
-        # If primary candidate failed or was rejected, apply guaranteed high-grade broadcast fallback
+        # If primary candidate failed or was rejected, apply guaranteed approved fallback
         if not success:
-            print(f"    [*] Applying high-grade broadcast texture for {filename}...")
-            # Derive domain strictly from badge and semantic category, never filename substrings
-            tag_text = f"{badge} {category}".lower()
-            if any(k in tag_text for k in ["chip", "semiconductor", "wafer", "hardware", "soc", "silicon", "gpu", "die", "npu"]):
-                pool_category = "hardware"
-                local_fallback = "public/aibrief/backgrounds/ai_chips.jpg"
-                fallback_badge = "ADVANCED SILICON DIE • FABRICATION CLEANROOM"
-            elif any(k in tag_text for k in ["cyber", "threat", "hack", "breach", "incident", "vulnerability", "audit", "security"]):
-                pool_category = "cyber"
-                local_fallback = "public/aibrief/backgrounds/ai_security.jpg"
-                fallback_badge = "SECURITY OPERATIONS • INCIDENT RESPONSE SOC"
-            elif any(k in tag_text for k in ["defense", "missile", "radar", "military", "nato", "flank", "targeting", "drone", "strike", "swarms", "kill-chain"]):
-                pool_category = "defense"
-                local_fallback = "public/aibrief/backgrounds/ai_security.jpg"
-                fallback_badge = "DEFENSE OPERATIONS • LIVE TELEMETRY"
-            elif any(k in tag_text for k in ["datacenter", "datacentre", "cloud", "grid", "power", "bedrock", "megawatt", "cluster"]):
-                pool_category = "energy"
-                local_fallback = "public/aibrief/backgrounds/cloud_infrastructure.jpg"
-                fallback_badge = "HYPERSCALE COMPUTE • SERVER CLUSTER"
-            elif any(k in tag_text for k in ["research", "model", "bench", "eval", "vista", "mit", "proof", "math", "cellular", "biology"]):
-                pool_category = "research"
-                local_fallback = "public/aibrief/backgrounds/ai_standards.jpg"
-                fallback_badge = "FRONTIER AI RESEARCH • NEURAL HARNESS"
-            else:
-                pool_category = "policy"
-                local_fallback = "public/aibrief/backgrounds/global_policy.jpg"
-                fallback_badge = "LEGISLATIVE OVERSIGHT • STATUTORY REVIEW"
-
-            backup_pool = DOMAIN_POOLS.get(pool_category, DOMAIN_POOLS["policy"])
-            for b_url, b_badge in backup_pool:
-                if b_url in used_fallback_urls:
-                    continue
-                clean_b = b_url.lower()
-                if any(b in clean_b for b in BANNED_ASSETS):
-                    continue
+            story_idx = int(re.search(r's(\d+)_', filename).group(1)) if re.search(r's(\d+)_', filename) else 1
+            fallback_name = "default_ai_brain_ai.jpg" if story_idx % 2 == 1 else "default_ai_network.jpg"
+            local_fallback = os.path.join("public", "aibrief", "assets", "fallbacks", fallback_name)
+            fallback_badge = "AI INTELLIGENCE WIRE • NEURAL ARCHITECTURE"
+            if os.path.exists(local_fallback):
                 try:
-                    time.sleep(0.2)
-                    req = urllib.request.Request(b_url, headers=headers)
-                    with urllib.request.urlopen(req, timeout=12) as r:
-                        data = r.read()
-                        im = Image.open(io.BytesIO(data)).convert("RGB")
-                        im = crop_and_grade(im)
-                        im.save(dest_file, quality=92)
-                        b_hash = mgr.compute_phash(im)
-                        used_fallback_urls.add(b_url)
-                        print(f"    [+] Backup saved: {dest_file} ({b_badge})")
-                        used_this_run.append({
-                            "date": date_str,
-                            "filename": filename,
-                            "url": b_url,
-                            "badge": b_badge,
-                            "phash": b_hash,
-                            "category": pool_category
-                        })
-                        success = True
-                        break
-                except Exception:
-                    pass
-
-            # Guaranteed local broadcast background fallback so every single cut exists on disk
-            if not success:
-                story_prefix = filename.split("_")[0]
-                if story_prefix not in story_used_locals:
-                    story_used_locals[story_prefix] = set()
-
-                if local_fallback in story_used_locals[story_prefix]:
-                    alt_candidates = [
-                        "public/aibrief/backgrounds/global_policy.jpg",
-                        "public/aibrief/backgrounds/ai_security.jpg",
-                        "public/aibrief/backgrounds/cloud_infrastructure.jpg",
-                        "public/aibrief/backgrounds/ai_chips.jpg",
-                        "public/aibrief/backgrounds/ai_standards.jpg",
-                        "public/aibrief/backgrounds/geopolitics.jpg"
-                    ]
-                    for alt in alt_candidates:
-                        if alt not in story_used_locals[story_prefix] and os.path.exists(alt):
-                            local_fallback = alt
-                            break
-                story_used_locals[story_prefix].add(local_fallback)
-
-                if os.path.exists(local_fallback):
-                    try:
-                        shutil.copyfile(local_fallback, dest_file)
-                        print(f"    [+] Local domain fallback applied: {dest_file} ({fallback_badge})")
-                        used_this_run.append({
-                            "date": date_str,
-                            "filename": filename,
-                            "url": local_fallback,
-                            "badge": fallback_badge,
-                            "phash": "local_fallback",
-                            "category": pool_category
-                        })
-                        success = True
-                    except Exception as e:
-                        print(f"    [!] Error copying local fallback: {e}")
+                    shutil.copyfile(local_fallback, dest_file)
+                    print(f"    [+] Approved universal fallback applied: {dest_file} ({fallback_name})")
+                    used_this_run.append({
+                        "date": date_str,
+                        "filename": filename,
+                        "url": local_fallback,
+                        "badge": fallback_badge,
+                        "phash": "approved_fallback",
+                        "category": "ai_neural"
+                    })
+                    success = True
+                except Exception as e:
+                    print(f"    [!] Error copying approved fallback: {e}")
+            else:
+                print(f"    [!] Error: approved fallback not found: {local_fallback}")
 
     # Register in 14-day pHash visual memory
     if used_this_run:

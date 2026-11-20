@@ -41,426 +41,94 @@ export interface VisualCut {
  * • Rapid scene transitions every 4.0 seconds (120 frames)
  */
 export const getStoryVisualCuts = (story: Story): VisualCut[] => {
-  // 1. If explicit visualCuts are provided in the episode data, prioritize them
+  // 1. If explicit visualCuts are provided in the episode data, strictly prioritize the single hero cut
   if (story.visualCuts && story.visualCuts.length > 0) {
-    return story.visualCuts;
+    return [story.visualCuts[0]];
   }
 
-  // 2. Pre-defined story visual treatments
-  switch (story.id) {
-    case "gpt6_astra_launch":
-      return [
-        {
-          image: "aibrief/assets/story1_openai_stage.jpg",
-          badge: "OPENAI KEYNOTE AUDITORIUM • GLOBAL PREVIEW",
-          panDirection: "zoomIn",
-        },
-        {
-          image: "aibrief/assets/editorial/person_sam_altman.jpg",
-          badge: "LEADERSHIP BRIEFING • FRONTIER LAB",
-          panDirection: "zoomIn",
-          isPortrait: true,
-          personName: "SAM ALTMAN",
-          personTitle: "CHIEF EXECUTIVE OFFICER, OPENAI",
-          companyTag: "OPENAI • SAN FRANCISCO, CA",
-          quote: "Frontier systems are transitioning from conversational assistants to goal-directed autonomous agents operating across enterprise environments.",
-        },
-        {
-          image: "aibrief/assets/story1_code_agents.jpg",
-          badge: "AUTONOMOUS RUNTIME • MULTI-STEP WORKFLOWS",
-          panDirection: "panRight",
-        },
-        {
-          image: "aibrief/backgrounds/ai_chips.jpg",
-          badge: "NEURAL ACCELERATOR FABRICATION • ENTERPRISE SCALE",
-          panDirection: "zoomOut",
-        },
-        {
-          image: "aibrief/assets/story1_datacenter.jpg",
-          badge: "HYPERSCALE COMPUTE CORRIDOR • DEVDAY ROADMAP",
-          panDirection: "panLeft",
-        },
-        {
-          image: "aibrief/assets/story6_network_grid.jpg",
-          badge: "ENTERPRISE AUTOMATION BENCHMARK • 2026",
-          panDirection: "zoomIn",
-        },
-      ];
-
-    case "anthropic_accenture_safety":
-      return [
-        {
-          image: "aibrief/assets/story2_cyber_defense.jpg",
-          badge: "CYBER DEFENSE OPERATIONS • $1B ALLIANCE",
-          panDirection: "zoomIn",
-        },
-        {
-          image: "aibrief/assets/editorial/person_dario_amodei.jpg",
-          badge: "AI SAFETY ARCHITECTURE • LEADERSHIP",
-          panDirection: "zoomIn",
-          isPortrait: true,
-          personName: "DARIO AMODEI",
-          personTitle: "CHIEF EXECUTIVE OFFICER, ANTHROPIC",
-          companyTag: "ANTHROPIC • SAN FRANCISCO, CA",
-          quote: "As agentic AI models acquire system authority, verifiable mathematical safety guardrails become the foundational imperative for global industry.",
-        },
-        {
-          image: "aibrief/backgrounds/ai_security.jpg",
-          badge: "INTELLIGENCE DESK • EMBEDDED EVALUATOR SQUADS",
-          panDirection: "panLeft",
-        },
-        {
-          image: "aibrief/assets/story2_security_audit.jpg",
-          badge: "THREAT INTELLIGENCE • DISRUPTED EXPLOIT VECTORS",
-          panDirection: "zoomOut",
-        },
-        {
-          image: "aibrief/assets/story2_corporate_boardroom.jpg",
-          badge: "ACCENTURE GLOBAL DEPLOYMENT • 5-YEAR PACT",
-          panDirection: "panRight",
-        },
-      ];
-
-    case "gemini_live_thinking":
-      return [
-        {
-          image: "aibrief/assets/story3_deepmind_lab.jpg",
-          badge: "GOOGLE DEEPMIND • ADVANCED REASONING LAB",
-          panDirection: "zoomIn",
-        },
-        {
-          image: "aibrief/assets/editorial/person_sundar_pichai.jpg",
-          badge: "EXECUTIVE STRATEGY • SYSTEMS SCALING",
-          panDirection: "zoomIn",
-          isPortrait: true,
-          personName: "SUNDAR PICHAI",
-          personTitle: "CHIEF EXECUTIVE OFFICER, ALPHABET & GOOGLE",
-          companyTag: "GOOGLE DEEPMIND • MOUNTAIN VIEW, CA",
-          quote: "By coupling real-time multimodal reasoning with deep reflection loops, frontier intelligence can solve problems previously beyond algorithmic reach.",
-        },
-        {
-          image: "aibrief/assets/story3_neural_network.jpg",
-          badge: "MULTIMODAL ARCHITECTURE • EXTENDED THINKING",
-          panDirection: "zoomOut",
-        },
-        {
-          image: "aibrief/assets/story3_economic_data.jpg",
-          badge: "AI & ECONOMY ATLAS • LABOR MARKET TRANSFORMATION",
-          panDirection: "panRight",
-        },
-        {
-          image: "aibrief/backgrounds/cloud_infrastructure.jpg",
-          badge: "AI HYPERCOMPUTER TPU FABRIC • CLOUD SCALE",
-          panDirection: "panLeft",
-        },
-      ];
-
-    case "nvidia_isaac_quantum":
-      return [
-        {
-          image: "aibrief/assets/story4_nvidia_robotics.jpg",
-          badge: "PHYSICAL AI • INDUSTRIAL ROBOTICS AUTOMATION",
-          panDirection: "zoomIn",
-        },
-        {
-          image: "aibrief/assets/editorial/person_jensen_huang.jpg",
-          badge: "ACCELERATED COMPUTING • FOUNDER & CEO",
-          panDirection: "zoomIn",
-          isPortrait: true,
-          personName: "JENSEN HUANG",
-          personTitle: "PRESIDENT & CEO, NVIDIA",
-          companyTag: "NVIDIA • SANTA CLARA, CA",
-          quote: "The next wave of artificial intelligence is Physical AI. Robotics and digital twins running on accelerated computing will redefine modern manufacturing.",
-        },
-        {
-          image: "aibrief/assets/story4_quantum_qpu.jpg",
-          badge: "IONQ ALLIANCE • QUANTUM PROCESSING UNIT",
-          panDirection: "panRight",
-        },
-        {
-          image: "aibrief/assets/story4_autonomous_robot.jpg",
-          badge: "ISAAC ROS 5.0 • AUTONOMOUS AGENT PIPELINE",
-          panDirection: "zoomOut",
-        },
-        {
-          image: "aibrief/backgrounds/ai_chips.jpg",
-          badge: "TENSOR CORE HARDWARE • DSX READY STANDARD",
-          panDirection: "panLeft",
-        },
-      ];
-
-    case "us_senate_agent_probe":
-      return [
-        {
-          image: "aibrief/assets/editorial/gov_canberra_parliament.jpg",
-          badge: "PARLIAMENT HOUSE • BIPARTISAN OVERSIGHT",
-          panDirection: "zoomIn",
-        },
-        {
-          image: "aibrief/assets/story5_hearing_room.jpg",
-          badge: "SENATE COMMITTEE CHAMBER • INCIDENT DISCLOSURE",
-          panDirection: "panLeft",
-        },
-        {
-          image: "aibrief/assets/story5_cyber_alert.jpg",
-          badge: "NETWORK ACCESS AUDIT • AGENT CREDENTIAL PERMISSIONS",
-          panDirection: "zoomOut",
-        },
-        {
-          image: "aibrief/backgrounds/ai_standards.jpg",
-          badge: "CONGRESSIONAL DELIBERATIONS • CISO TESTIMONY",
-          panDirection: "panRight",
-        },
-        {
-          image: "aibrief/backgrounds/global_policy.jpg",
-          badge: "MANDATORY REPORTING PROTOCOLS • 2026 STANDARDS",
-          panDirection: "zoomIn",
-        },
-      ];
-
-    case "india_ai_sovereign_gpus":
-      return [
-        {
-          image: "aibrief/assets/story6_datacenter_servers.jpg",
-          badge: "SOVEREIGN COMPUTE • 38,000+ GPUS ONBOARDED",
-          panDirection: "zoomIn",
-        },
-        {
-          image: "aibrief/assets/story6_network_grid.jpg",
-          badge: "MINISTRY OF ELECTRONICS & IT • NEW DELHI",
-          panDirection: "zoomOut",
-        },
-        {
-          image: "aibrief/backgrounds/cloud_infrastructure.jpg",
-          badge: "HYDERABAD TECH CORRIDOR • ASIA CLOUD REGION",
-          panDirection: "panRight",
-        },
-        {
-          image: "aibrief/assets/story6_indian_engineers.jpg",
-          badge: "INDIAAI MISSION • RESEARCH PUBLIC UTILITY",
-          panDirection: "zoomIn",
-        },
-        {
-          image: "aibrief/assets/story6_network_grid.jpg",
-          badge: "NATIONAL AI INFRASTRUCTURE & SEMICON INDIA",
-          panDirection: "panLeft",
-        },
-      ];
-
-    // Archived stories
-    case "un_deepseek":
-      return [
-        {
-          image: "aibrief/backgrounds/global_policy.jpg",
-          badge: "UN GENERAL ASSEMBLY • NEW YORK HEADQUARTERS",
-          panDirection: "zoomIn",
-        },
-        {
-          image: "aibrief/assets/editorial/person_sam_altman.jpg",
-          badge: "UNSC EXPERT WITNESS • OPENAI",
-          panDirection: "zoomIn",
-          isPortrait: true,
-          personName: "SAM ALTMAN",
-          personTitle: "CEO, OPENAI",
-          companyTag: "UNITED NATIONS SECURITY COUNCIL",
-        },
-        {
-          image: "aibrief/assets/editorial/person_dario_amodei.jpg",
-          badge: "UNSC EXPERT WITNESS • ANTHROPIC",
-          panDirection: "zoomIn",
-          isPortrait: true,
-          personName: "DARIO AMODEI",
-          personTitle: "CEO, ANTHROPIC",
-          companyTag: "UNITED NATIONS SECURITY COUNCIL",
-        },
-        {
-          image: "aibrief/backgrounds/ai_standards.jpg",
-          badge: "SECURITY COUNCIL CONSULTATIONS",
-          panDirection: "panRight",
-        },
-      ];
-
-    default: {
-      const text = `${story.headline} ${story.script} ${story.keyPoints?.join(" ") || ""} ${story.category || ""} ${story.region}`.toLowerCase();
-      const dynamicCuts: VisualCut[] = [];
-
-      // 1. VIP Person mentions
-      if (text.includes("sam altman") || text.includes("altman")) {
-        dynamicCuts.push({
-          image: "aibrief/assets/editorial/person_sam_altman.jpg",
-          badge: "LEADERSHIP BRIEFING • FRONTIER LAB",
-          panDirection: "zoomIn",
-          isPortrait: true,
-          personName: "SAM ALTMAN",
-          personTitle: "CHIEF EXECUTIVE OFFICER, OPENAI",
-          companyTag: "OPENAI • SAN FRANCISCO, CA",
-        });
-      } else if (text.includes("dario amodei") || text.includes("amodei")) {
-        dynamicCuts.push({
-          image: "aibrief/assets/editorial/person_dario_amodei.jpg",
-          badge: "AI SAFETY ARCHITECTURE • LEADERSHIP",
-          panDirection: "zoomIn",
-          isPortrait: true,
-          personName: "DARIO AMODEI",
-          personTitle: "CHIEF EXECUTIVE OFFICER, ANTHROPIC",
-          companyTag: "ANTHROPIC • SAN FRANCISCO, CA",
-        });
-      } else if (text.includes("jensen huang") || text.includes("jensen")) {
-        dynamicCuts.push({
-          image: "aibrief/assets/editorial/person_jensen_huang.jpg",
-          badge: "ACCELERATED COMPUTING • FOUNDER & CEO",
-          panDirection: "zoomIn",
-          isPortrait: true,
-          personName: "JENSEN HUANG",
-          personTitle: "PRESIDENT & CEO, NVIDIA",
-          companyTag: "NVIDIA • SANTA CLARA, CA",
-        });
-      } else if (text.includes("sundar pichai") || text.includes("pichai")) {
-        dynamicCuts.push({
-          image: "aibrief/assets/editorial/person_sundar_pichai.jpg",
-          badge: "EXECUTIVE STRATEGY • SYSTEMS SCALING",
-          panDirection: "zoomIn",
-          isPortrait: true,
-          personName: "SUNDAR PICHAI",
-          personTitle: "CHIEF EXECUTIVE OFFICER, ALPHABET & GOOGLE",
-          companyTag: "GOOGLE DEEPMIND • MOUNTAIN VIEW, CA",
-        });
-      }
-
-      // 2. Robotics / Physical AI
-      if (text.includes("robot") || text.includes("physical ai") || text.includes("humanoid") || text.includes("automation")) {
-        dynamicCuts.push({
-          image: "aibrief/assets/story4_nvidia_robotics.jpg",
-          badge: "PHYSICAL AI • INDUSTRIAL ROBOTICS AUTOMATION",
-          panDirection: "zoomIn",
-        });
-        dynamicCuts.push({
-          image: "aibrief/assets/story4_quantum_qpu.jpg",
-          badge: "AUTONOMOUS ASSEMBLY CORRIDOR • FACTORY TELEMETRY",
-          panDirection: "panRight",
-        });
-        dynamicCuts.push({
-          image: "aibrief/assets/story4_autonomous_robot.jpg",
-          badge: "AGENTIC ROBOTICS SENSING PIPELINE",
-          panDirection: "zoomOut",
-        });
-      }
-
-      // 3. Chips / Silicon / Hardware
-      if (text.includes("chip") || text.includes("gpu") || text.includes("semiconductor") || text.includes("silicon") || text.includes("hardware") || text.includes("tsmc")) {
-        dynamicCuts.push({
-          image: "aibrief/backgrounds/ai_chips.jpg",
-          badge: "NEURAL ACCELERATOR WAFER • ADVANCED PACKAGING",
-          panDirection: "zoomOut",
-        });
-        dynamicCuts.push({
-          image: "aibrief/backgrounds/cloud_infrastructure.jpg",
-          badge: "TENSOR CORE HARDWARE TELEMETRY",
-          panDirection: "panLeft",
-        });
-      }
-
-      // 4. Government / UN / Policy
-      if (text.includes("united nations") || text.includes("security council") || text.includes("un ") || text.includes("multilateral")) {
-        dynamicCuts.push({
-          image: "aibrief/assets/editorial/fin_tokyo_district.jpg",
-          badge: "UNITED NATIONS HEADQUARTERS • NEW YORK",
-          panDirection: "zoomIn",
-        });
-        dynamicCuts.push({
-          image: "aibrief/backgrounds/global_policy.jpg",
-          badge: "MULTILATERAL AI GOVERNANCE FRAMEWORK",
-          panDirection: "panRight",
-        });
-      } else if (text.includes("senate") || text.includes("congress") || text.includes("capitol") || text.includes("hearing") || text.includes("oversight") || text.includes("regulation") || text.includes("policy")) {
-        dynamicCuts.push({
-          image: "aibrief/assets/editorial/gov_canberra_parliament.jpg",
-          badge: "PARLIAMENT HOUSE • LEGISLATIVE OVERSIGHT",
-          panDirection: "zoomIn",
-        });
-        dynamicCuts.push({
-          image: "aibrief/assets/editorial/fin_tokyo_district.jpg",
-          badge: "CONGRESSIONAL DELIBERATIONS & STANDARDS",
-          panDirection: "panLeft",
-        });
-      }
-
-      // 5. India / Asia
-      if (text.includes("india") || text.includes("indiaai") || text.includes("delhi") || text.includes("meity") || text.includes("hyderabad")) {
-        dynamicCuts.push({
-          image: "aibrief/assets/story6_network_grid.jpg",
-          badge: "MINISTRY OF ELECTRONICS & IT • NEW DELHI",
-          panDirection: "zoomOut",
-        });
-        dynamicCuts.push({
-          image: "aibrief/assets/story6_indian_engineers.jpg",
-          badge: "NATIONAL AI RESEARCH & INDIGENOUS COMPUTE",
-          panDirection: "panRight",
-        });
-      }
-
-      // 6. Cyber / Security / Threat Intelligence
-      if (text.includes("cyber") || text.includes("security") || text.includes("breach") || text.includes("defense") || text.includes("hack") || text.includes("vulnerability")) {
-        dynamicCuts.push({
-          image: "aibrief/assets/story2_cyber_defense.jpg",
-          badge: "CYBER THREAT OPERATIONS • LIVE DEFENSE FEED",
-          panDirection: "zoomIn",
-        });
-        dynamicCuts.push({
-          image: "aibrief/backgrounds/ai_security.jpg",
-          badge: "AGENTIC RED-TEAMING & PERMISSIONS AUDIT",
-          panDirection: "panLeft",
-        });
-      }
-
-      // 7. General Lab / Compute / Code / Telemetry fallback cuts to ensure minimum 5 distinct cuts
-      const generalPool: VisualCut[] = [
-        {
-          image: "aibrief/assets/story6_datacenter_servers.jpg",
-          badge: "HYPERSCALE COMPUTE CORRIDOR • CLOUD REGION",
-          panDirection: "zoomIn",
-        },
-        {
-          image: "aibrief/assets/story1_code_agents.jpg",
-          badge: "AUTONOMOUS SYSTEM TELEMETRY & RUNTIME",
-          panDirection: "panRight",
-        },
-        {
-          image: "aibrief/assets/story4_quantum_qpu.jpg",
-          badge: "RESEARCH LABORATORY • INSTRUMENT FLOOR",
-          panDirection: "zoomOut",
-        },
-        {
-          image: "aibrief/assets/story6_network_grid.jpg",
-          badge: "ENTERPRISE AUTOMATION BENCHMARK • 2026",
-          panDirection: "panLeft",
-        },
-        {
-          image: "aibrief/backgrounds/cloud_infrastructure.jpg",
-          badge: "DISTRIBUTED CLUSTER FABRIC • HIGH THROUGHPUT",
-          panDirection: "zoomIn",
-        },
-      ];
-
-      for (const poolCut of generalPool) {
-        if (dynamicCuts.length >= 6) break;
-        if (!dynamicCuts.some((c) => c.image === poolCut.image)) {
-          dynamicCuts.push(poolCut);
-        }
-      }
-
-      return dynamicCuts;
-    }
+  // 2. If heroImage or image is provided directly
+  const heroImg = (story as any).heroImage || (story as any).image;
+  if (heroImg) {
+    return [
+      {
+        image: heroImg,
+        badge: story.categoryTag || "SPECIAL REPORT",
+        panDirection: "zoomIn",
+      },
+    ];
   }
+
+  // 3. Fall back strictly to approved universal AI textures (NO random landmarks or stock people)
+  return [
+    {
+      image: "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
+      badge: `${story.region || "GLOBAL"} • AI INTELLIGENCE WIRE`,
+      panDirection: "zoomIn",
+    },
+  ];
 };
 
 interface StoryCardProps {
   story: Story;
 }
 
+export const getStoryEntityLogo = (story: Story): { name: string; logo: string } | null => {
+  const text = `${story.headline} ${story.script || ""} ${story.source || ""}`.toLowerCase();
+  if (text.includes("openai") || text.includes("chatgpt")) {
+    return { name: "OPENAI", logo: "aibrief/assets/logos/openai.svg" };
+  }
+  if (text.includes("hugging face") || text.includes("huggingface")) {
+    return { name: "HUGGING FACE", logo: "aibrief/assets/logos/huggingface.svg" };
+  }
+  if (text.includes("nvidia")) {
+    return { name: "NVIDIA", logo: "aibrief/assets/logos/nvidia.svg" };
+  }
+  if (text.includes("qantas")) {
+    return { name: "QANTAS", logo: "aibrief/assets/logos/qantas.svg" };
+  }
+  if (text.includes("anthropic") || text.includes("claude")) {
+    return { name: "ANTHROPIC", logo: "aibrief/assets/logos/anthropic.svg" };
+  }
+  if (text.includes("google") || text.includes("deepmind") || text.includes("gemini")) {
+    return { name: "GOOGLE", logo: "aibrief/assets/logos/google.svg" };
+  }
+  if (text.includes("microsoft")) {
+    return { name: "MICROSOFT", logo: "aibrief/assets/logos/microsoft.svg" };
+  }
+  if (text.includes("apple")) {
+    return { name: "APPLE", logo: "aibrief/assets/logos/apple.svg" };
+  }
+  if (text.includes("meta") || text.includes("llama")) {
+    return { name: "META", logo: "aibrief/assets/logos/meta.svg" };
+  }
+  if (text.includes("red hat") || text.includes("openshift")) {
+    return { name: "RED HAT", logo: "aibrief/assets/logos/redhat.svg" };
+  }
+  if (text.includes("australia") || text.includes("australian") || text.includes("canberra")) {
+    return { name: "AUSTRALIA", logo: "aibrief/assets/logos/australia.svg" };
+  }
+  if (text.includes("tencent")) {
+    return { name: "TENCENT", logo: "aibrief/assets/logos/tencent.svg" };
+  }
+  if (text.includes("korea") || text.includes("seoul")) {
+    return { name: "REPUBLIC OF KOREA", logo: "aibrief/assets/logos/south_korea.svg" };
+  }
+  if (text.includes("sarvam")) {
+    return { name: "SARVAM AI", logo: "aibrief/assets/logos/sarvam.svg" };
+  }
+  if (text.includes("citi") || text.includes("citibank")) {
+    return { name: "CITIBANK", logo: "aibrief/assets/logos/citibank.svg" };
+  }
+  if (text.includes("siemens")) {
+    return { name: "SIEMENS", logo: "aibrief/assets/logos/siemens.svg" };
+  }
+  return null;
+};
+
 export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
+  const entityLogo = getStoryEntityLogo(story);
 
   // Entrance animation for lower-third banner
   const textEntrance = spring({
@@ -469,13 +137,13 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
     config: { damping: 14, stiffness: 85 },
   });
 
-  // Fast-Paced 4.0-Second Cuts (120 frames @ 30 FPS)
+  // Single Authoritative Hero Cut Standard (Zero Multi-Cut Switching)
   const cuts = getStoryVisualCuts(story);
-  const cutDuration = 120; // Exactly 4.0 seconds per visual
-  const totalCuts = cuts.length;
-  const currentCutIndex = Math.floor(frame / cutDuration) % totalCuts;
-  const nextCutIndex = (currentCutIndex + 1) % totalCuts;
-  const currentCut = cuts[currentCutIndex];
+  const cutDuration = 999999;
+  const totalCuts = 1;
+  const currentCutIndex = 0;
+  const nextCutIndex = 0;
+  const currentCut = cuts[0];
 
   // keyPoints usually holds a truncated headline and the outlet name, which the
   // lower third already shows. Only surface a point that adds information.
@@ -490,15 +158,23 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
   });
   const nextCut = cuts[nextCutIndex];
 
-  // Local frame progress within current 4-second cut [0.0 to 1.0]
-  const localCutFrame = frame % cutDuration;
-  const localCutProgress = localCutFrame / cutDuration;
+  // Local frame progress: continuous over entire story when single cut, or 4-second cycles when multi-cut
+  const localCutProgress =
+    totalCuts > 1
+      ? (frame % cutDuration) / cutDuration
+      : interpolate(frame, [0, sceneDurationInFrames || 900], [0, 1], {
+          extrapolateLeft: "clamp",
+          extrapolateRight: "clamp",
+        });
 
-  // 12-frame crossfade between cuts
-  const crossfade = interpolate(localCutFrame, [cutDuration - 12, cutDuration], [0, 1], {
-    extrapolateLeft: "clamp",
-    extrapolateRight: "clamp",
-  });
+  // Crossfade between cuts only when multiple cuts exist
+  const crossfade =
+    totalCuts > 1
+      ? interpolate(frame % cutDuration, [cutDuration - 12, cutDuration], [0, 1], {
+          extrapolateLeft: "clamp",
+          extrapolateRight: "clamp",
+        })
+      : 0;
 
   // Cinematic Ken Burns Pan/Zoom calculation
   const getKenBurnsTransform = (cut: VisualCut, progress: number) => {
@@ -776,6 +452,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
                 width: "100%",
                 height: "100%",
                 objectFit: "cover",
+                objectPosition: "center 20%",
                 transform: getKenBurnsTransform(currentCut, localCutProgress),
               }}
             />
@@ -858,6 +535,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
+                  objectPosition: "center 20%",
                   transform: getKenBurnsTransform(nextCut, 0),
                 }}
               />
@@ -1018,6 +696,47 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
             </div>
           )}
         </div>
+
+        {/* On-Screen Television Brand / Entity Bug (Top Right) */}
+        {entityLogo && (
+          <div
+            style={{
+              position: "absolute",
+              top: 86,
+              right: 56,
+              display: "flex",
+              alignItems: "center",
+              gap: 12,
+              backgroundColor: "rgba(4, 8, 18, 0.9)",
+              border: "1px solid rgba(56, 189, 248, 0.45)",
+              borderRadius: 8,
+              padding: "6px 16px",
+              backdropFilter: "blur(14px)",
+              zIndex: 25,
+              boxShadow: "0 10px 30px rgba(0, 0, 0, 0.75)",
+            }}
+          >
+            <Img
+              src={staticFile(entityLogo.logo)}
+              style={{
+                height: 28,
+                width: "auto",
+                maxWidth: 90,
+                objectFit: "contain",
+              }}
+            />
+            <span
+              style={{
+                color: "#ffffff",
+                fontSize: 16,
+                fontWeight: 900,
+                letterSpacing: 1.5,
+              }}
+            >
+              {entityLogo.name}
+            </span>
+          </div>
+        )}
 
         {/* Motion Graphic Overlay Layer (Layered during cut index 3) */}
         <div
