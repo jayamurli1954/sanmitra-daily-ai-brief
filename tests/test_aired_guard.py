@@ -67,7 +67,7 @@ class AiredGuardTest(unittest.TestCase):
         self.assertEqual(sorted(orch.aired_headlines("2026-11-04")), sorted([HEADS[0], HEADS[1], HEADS[3]]))
 
     def test_crew_drafted_brief_gets_the_research_story(self):
-        with mock.patch.object(orch, "_crew_verify", return_value=([{"title": h} for h in HEADS * 2], [])), \
+        with mock.patch.object(orch, "_crew_verify", return_value=([{"title": h} for h in HEADS * 3], [])), \
              mock.patch.object(orch, "write_prompt"), \
              mock.patch.object(orch, "_add_daily_paper") as paper, \
              mock.patch.object(orch, "_add_research_of_the_week"), \

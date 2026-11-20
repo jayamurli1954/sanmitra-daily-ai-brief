@@ -18,7 +18,9 @@ import logging
 import re
 import urllib.parse
 
+from src.aibrief.paywall_detector import find_free_alternative, has_paywall_markers, is_paywalled_url
 from src.aibrief.source_authority import is_company_source, is_opinion_url, is_recognised_source, score_source
+from src.aibrief.url_cleaner import clean_and_shorten_url
 
 from .text_utils import contains_any, count_matches, extractive_summary, is_recent, same_event, ungrounded_claims
 
@@ -63,10 +65,8 @@ HIGH_IMPACT_TERMS = ["supercomputer", "data center", "state council", "directive
 BUREAU_ORDER = ["WORLD", "USA", "USA", "CHINA", "ASIA", "INDIA", "WORLD", "WORLD", "WORLD", "USA",
                 "CHINA", "CHINA", "ASIA", "INDIA", "USA"]
 
-# 8-10 stories of about 50-55 seconds each keeps an episode under 10 minutes
-# (changed 2026-10-14: the 6-7 minute episodes far outperformed 10-12 minute ones;
-# cap raised from 9 to 10 by the editor on 2026-10-29).
-MIN_EPISODE_STORIES = 8
+# Minimum 10 news stories (excluding research desk) is strictly enforced.
+MIN_EPISODE_STORIES = 10
 MAX_EPISODE_STORIES = 10
 # About 140 spoken words is 60 seconds at the anchors' pace; 130 keeps ten stories under 10 minutes.
 STORY_MAX_WORDS = 130
@@ -238,6 +238,15 @@ class FactChecker:
             return self._reject({"title": story["title"], "url": story["sourceUrl"]},
                                 "article text could not be extracted, nothing to verify against")
 
+        if has_paywall_markers(body):
+            alt = find_free_alternative(story["title"], original_url=story["sourceUrl"])
+            if alt:
+                story["sourceUrl"] = alt["url"]
+                story["source"] = alt["source"]
+            else:
+                return self._reject({"title": story["title"], "url": story["sourceUrl"]},
+                                    "article text contains subscription paywall markers and no free alternative")
+
         published = story["published"] or article.get("published", "")
         if not is_recent(published, self.target_date):
             return self._reject({"title": story["title"], "url": story["sourceUrl"]},
@@ -257,6 +266,7 @@ class FactChecker:
             return self._reject({"title": story["title"], "url": story["sourceUrl"]}, "no usable sentences in the article")
 
         verified = dict(story)
+        verified["sourceUrl"] = clean_and_shorten_url(verified["sourceUrl"])
         verified.update({"summary": summary, "published": published, "articleText": body})
         if paper:
             verified["desk"] = RESEARCH_DESK

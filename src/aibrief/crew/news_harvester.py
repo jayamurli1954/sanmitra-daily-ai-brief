@@ -84,7 +84,7 @@ FEEDS = [
     {"outlet": "The Guardian", "url": "https://www.theguardian.com/uk/technology/rss", "region": "WORLD"},
     {"outlet": "Rest of World", "url": "https://restofworld.org/feed/latest", "region": "WORLD"},
     {"outlet": "The Register", "url": "https://www.theregister.com/software/ai_ml/headlines.atom", "region": "WORLD"},
-    {"outlet": "Tech in Asia", "url": "https://www.techinasia.com/feed", "region": "ASIA"},
+    {"outlet": "KrASIA", "url": "https://kr-asia.com/feed", "region": "ASIA"},
     # Added 2026-10-27: free China coverage in place of the South China Morning Post,
     # which asks viewers to subscribe (live-tested). Subscription sites are not used.
     {"outlet": "TechNode", "url": "https://technode.com/feed/", "region": "CHINA"},

@@ -57,7 +57,7 @@ class StockMarketTest(unittest.TestCase):
 class WireFeedsTest(unittest.TestCase):
     def test_free_china_asia_india_feeds(self):
         sources = {f["source"] for f in WIRE_FEEDS}
-        self.assertTrue({"TechNode", "Pandaily", "Tech in Asia", "Inc42"} <= sources)
+        self.assertTrue({"TechNode", "Pandaily", "KrASIA", "Inc42"} <= sources)
 
     def test_model_releases_count_as_ai_breaks(self):
         lead = "Ant Group Open-Sources Ling-3.1-flash-1019, a language model tuned for personal agents"

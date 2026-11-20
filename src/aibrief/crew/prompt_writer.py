@@ -10,6 +10,8 @@ from datetime import datetime
 import logging
 import os
 
+from src.aibrief.url_cleaner import clean_and_shorten_url
+
 logger = logging.getLogger("PromptWriter")
 
 BUREAUS = ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]
@@ -29,9 +31,10 @@ def render_story_sections(stories):
             if s.get("desk"):
                 lines.append(f"Desk: {s['desk']}")
             lines.append(f"Source: {s['source']}")
-            lines.append(s["sourceUrl"])
+            lines.append(clean_and_shorten_url(s["sourceUrl"]))
             for extra in s.get("also", [])[:2]:
-                lines.append(f"Also: {extra['source']} {extra['url']}")
+                extra_url = clean_and_shorten_url(extra.get("url", ""))
+                lines.append(f"Also: {extra['source']} {extra_url}")
             lines += ["", s["summary"], ""]
         lines += ["---", ""]
     return lines

@@ -18,6 +18,8 @@ import re
 import sys
 from typing import Dict, List, Optional
 
+from src.aibrief.url_cleaner import clean_and_shorten_url
+
 # Ensure project root is in sys.path
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 if PROJECT_ROOT not in sys.path:
@@ -158,7 +160,7 @@ def build_linkedin_article(
             if src:
                 lines.append(f"Source: {src}")
             if src_url:
-                lines.append(src_url)
+                lines.append(clean_and_shorten_url(src_url))
             lines.append("")
 
     lines.append(generate_key_takeaways(stories, weekly))

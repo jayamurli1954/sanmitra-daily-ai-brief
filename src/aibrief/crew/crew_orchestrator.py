@@ -77,8 +77,9 @@ def _build_episode(prompt_path, target_date):
     if episode.get("date") != target_date:
         logger.error(f"Built episode is dated {episode.get('date')}, expected {target_date}; check the prompt's date line.")
         return None
-    if len(episode.get("stories", [])) < MIN_EPISODE_STORIES:
-        logger.error(f"Built episode has {len(episode.get('stories', []))} stories; at least {MIN_EPISODE_STORIES} are required.")
+    news_stories = [s for s in episode.get("stories", []) if not is_research_desk(s.get("research_desk") or s.get("researchDesk"))]
+    if len(news_stories) < MIN_EPISODE_STORIES:
+        logger.error(f"Built episode has {len(news_stories)} news stories (excluding research desk); at least {MIN_EPISODE_STORIES} are required.")
         return None
     return episode
 

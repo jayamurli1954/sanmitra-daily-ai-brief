@@ -24,8 +24,9 @@ import re
 import sys
 from urllib.parse import urlparse
 
-from src.aibrief.crew.fact_checker import MIN_EPISODE_STORIES
-from src.aibrief.crew.text_utils import same_event, unsupported_quantities
+from src.aibrief.crew.fact_checker import MIN_EPISODE_STORIES, is_research_desk
+from src.aibrief.crew.text_utils import is_paywalled_url, same_event, unsupported_quantities
+from src.aibrief.url_cleaner import is_shortener_host
 
 if hasattr(sys.stdout, "reconfigure"):
     try:
@@ -107,12 +108,17 @@ def is_proper_article_url(url: str) -> bool:
     parsed = urlparse(cleaned)
     if parsed.scheme not in ("http", "https") or not parsed.netloc:
         return False
+    if is_shortener_host(parsed.netloc):
+        return len(parsed.path.strip("/")) >= 3
     segments = [part for part in parsed.path.split("/") if part]
     if not segments:
         return False
     last = segments[-1]
     # Check if query string contains article IDs
     if parsed.query and any(ch.isdigit() for ch in parsed.query) and len(parsed.query) >= 6:
+        return True
+    # Economic times & Times of India shortened articleshow IDs
+    if "indiatimes.com" in parsed.netloc.lower() and "articleshow" in parsed.path and any(ch.isdigit() for ch in last):
         return True
     # ".../She" is a truncated slug, not an article.
     if len(last) < 8 and not any(ch.isdigit() for ch in last):
@@ -217,10 +223,11 @@ def validate(date_str: str) -> bool:
         return False
 
     all_ok = True
-    if len(stories) < MIN_EPISODE_STORIES:
+    news_stories = [s for s in stories if not is_research_desk(s.get("research_desk") or s.get("researchDesk"))]
+    if len(news_stories) < MIN_EPISODE_STORIES:
         all_ok = False
-        print(f"[FAIL] Episode has {len(stories)} stories; at least {MIN_EPISODE_STORIES} are required "
-              "for a 10+ minute broadcast.\n")
+        print(f"[FAIL] Episode has {len(news_stories)} news stories (excluding research desk); "
+              f"at least {MIN_EPISODE_STORIES} news stories are required.\n")
 
     intro_problems = intro_scene_problems()
     if intro_problems:
@@ -255,6 +262,12 @@ def validate(date_str: str) -> bool:
             problems.append(
                 f"sourceUrl is not a full article link: '{source_url}'. "
                 "This story must not be in the video."
+            )
+
+        if is_paywalled_url(source_url):
+            problems.append(
+                f"sourceUrl points to a subscription/paywalled site: '{source_url}'. "
+                "Paywalled links are prohibited; an open free alternative must be cited or the story dropped."
             )
 
         if not source_appears_in_prompt(source, prompt_text):

@@ -1,24 +1,24 @@
 {
   "weekly": false,
-  "date": "2026-11-19",
-  "formattedDate": "19 November 2026",
-  "title": "Microsoft Agent Framework hit by a | Google launches Gemini 4 Neon | OpenAI deploys frontier models to | AI News 19 November 2026",
+  "date": "2026-11-20",
+  "formattedDate": "20 November 2026",
+  "title": "Traumatized teens sue school, cops | Meta’s AI agent Muse is mixing up | Google brings computer use to | AI News 20 November 2026",
   "intro": {
-    "durationSeconds": 47,
+    "durationSeconds": 58,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 19 November 2026. First, today's top headlines: Microsoft Agent Framework hit by a PyPI supply-chain attack. Google launches Gemini 4 Neon frontier model. OpenAI deploys frontier models to redesign custom semiconductor chips. Tencent releases downloadable weights for Hy4 Flash model. South Korea proposes 4.6 trillion won sovereign AI initiative. Sarvam defends Token Factory amid debate over Indian sovereign AI. Apple releases FastFrames interactive video generation models. Citibank and US lenders shift financial liability to AI agent users. US commission warns of PLA demand for advanced Nvidia compute. Siemens deploys Eigen industrial engineering agent in India. And now, the news in brief.",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 20 November 2026. First, today's top headlines: Traumatized teens sue school, cops after Doritos bag triggers AI gun alert. Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says. Google brings computer use to Gemini desktop app on macOS. Anthropic's Australian data centre overwhelmingly opposed by residents. India’s Anthropic Question, ShareChat’s Turnaround & More. NextDC vows to keep future datacentres away from homes after community backlash in Melbourne. Academic integrity matters, but students shouldn’t be penalised for using AI | Letter. California investigates Nvidia over whether chip exports ended up in China. Lagarde says EU funds should take first losses on chip plants, data centers. Experts say powering data centers uses more water than cooling them. And now, the news in brief.",
     "headlines": [
-      "Microsoft Agent Framework hit by a PyPI supply-chain attack",
-      "Google launches Gemini 4 Neon frontier model",
-      "OpenAI deploys frontier models to redesign custom semiconductor chips",
-      "Tencent releases downloadable weights for Hy4 Flash model",
-      "South Korea proposes 4.6 trillion won sovereign AI initiative",
-      "Sarvam defends Token Factory amid debate over Indian sovereign AI",
-      "Apple releases FastFrames interactive video generation models",
-      "Citibank and US lenders shift financial liability to AI agent users",
-      "US commission warns of PLA demand for advanced Nvidia compute",
-      "Siemens deploys Eigen industrial engineering agent in India"
+      "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "Google brings computer use to Gemini desktop app on macOS",
+      "Anthropic's Australian data centre overwhelmingly opposed by residents",
+      "India’s Anthropic Question, ShareChat’s Turnaround & More",
+      "NextDC vows to keep future datacentres away from homes after community backlash in Melbourne",
+      "Academic integrity matters, but students shouldn’t be penalised for using AI | Letter",
+      "California investigates Nvidia over whether chip exports ended up in China",
+      "Lagarde says EU funds should take first losses on chip plants, data centers",
+      "Experts say powering data centers uses more water than cooling them"
     ]
   },
   "transitions": [
@@ -27,13 +27,6 @@
       "region": "USA",
       "title": "NEXT: USA & REGIONAL STRATEGY",
       "display": "NEXT: USA",
-      "durationSeconds": 2
-    },
-    {
-      "id": "transition_china",
-      "region": "CHINA",
-      "title": "NEXT: CHINA & REGIONAL STRATEGY",
-      "display": "NEXT: CHINA",
       "durationSeconds": 2
     },
     {
@@ -56,390 +49,303 @@
       "title": "NEXT: USA & REGIONAL STRATEGY",
       "display": "NEXT: USA",
       "durationSeconds": 2
-    },
-    {
-      "id": "transition_china",
-      "region": "CHINA",
-      "title": "NEXT: CHINA & REGIONAL STRATEGY",
-      "display": "NEXT: CHINA",
-      "durationSeconds": 2
-    },
-    {
-      "id": "transition_india",
-      "region": "INDIA",
-      "title": "NEXT: INDIA & REGIONAL STRATEGY",
-      "display": "NEXT: INDIA",
-      "durationSeconds": 2
     }
   ],
   "stories": [
     {
-      "id": "s1_microsoft_agent_framework_hit_by",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Microsoft Agent Framework hit by a PyPI supply-chain attack",
-      "subheadline": "Source: Wiz Blog",
+      "id": "s1_traumatized_teens_sue_school_cop",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "subheadline": "Source: Ars Technica",
       "importanceScore": 99,
-      "durationSeconds": 34,
-      "source": "Wiz Blog",
-      "sourceUrl": "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi",
+      "durationSeconds": 49,
+      "source": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
       "researchDesk": "",
-      "script": "Our lead story today. Security researchers at cloud security firm Wiz have discovered two malicious packages uploaded to the Python Package Index impersonating Microsoft's open-source agent-framework repository. Versions 1.26.1 and 1.26.2 contained obfuscated credential-harvesting payloads designed to intercept Azure, GitHub, and development environment credentials. Microsoft has since purged the rogue releases from PyPI, but security analysts advise organizations utilizing agentic frameworks to conduct immediate credential rotations. The incident underscores growing supply-chain vulnerabilities as autonomous AI agents are granted access to enterprise infrastructure.",
-      "whyThisMatters": "Security researchers at cloud security firm Wiz have discovered two malicious packages uploaded to the Python Package Index impersonating Microsoft's open-source agent-framework repository.",
+      "script": "Our lead story today. Four Black high school students in Baltimore County are suing their school and police after an AI gun detection system mistook a bag of chips for a weapon, Ars Technica reports. In October 2025, the teens were sharing Cool Ranch Doritos after football practice while waiting to be picked up. The school's AI system then flagged one of them, who was holding the snack bag, as a possible gunman. Baltimore County Public Schools officials reviewed the linked security camera footage and, within two minutes, concluded there was no real threat. Recognising the Doritos bag, they cancelled the alert, which told other school staff and the Baltimore County Police Department that no response was required.",
+      "whyThisMatters": "Four Black high school students in Baltimore County are suing their school and police after an AI gun detection system mistook a bag of chips for a weapon, Ars Technica reports.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Microsoft Agent Framework hit by a PyPI supply-chain attack",
-        "Wiz Blog"
+        "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+        "Ars Technica"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-19/s1_cut1.jpg",
-          "badge": "ANTHROPIC • CONTEXTUAL REPORTING",
+          "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
+          "badge": "USA • SPECIAL REPORT",
           "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s1_cut2.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s1_cut3.jpg",
-          "badge": "AGENT HARNESS AUDIT • SCAFFOLD VERIFICATION",
-          "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s2_google_launches_gemini_4_neon_fr",
+      "id": "s2_meta_s_ai_agent_muse_is_mixing_u",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Google launches Gemini 4 Neon frontier model",
-      "subheadline": "Source: Google",
-      "importanceScore": 95,
-      "durationSeconds": 32,
-      "source": "Google",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-      "researchDesk": "",
-      "script": "Turning to the United States. Google DeepMind has launched Gemini 4 Neon, positioned between its flagship Carbon and high-throughput Hydrogen models. Featuring a one-million-token context window, Neon is engineered specifically for software engineering, quantitative research, and complex legal automation. Google reports substantial benchmark gains in multi-turn reasoning while pricing inputs at three dollars and outputs at fifteen dollars per million tokens. The model is rolling out across Google AI Studio, the Gemini API, Antigravity, and enterprise subscriptions.",
-      "whyThisMatters": "Google DeepMind has launched Gemini 4 Neon, positioned between its flagship Carbon and high-throughput Hydrogen models.",
-      "sourceType": "company",
-      "keyPoints": [
-        "Google launches Gemini 4 Neon frontier model",
-        "Google"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s2_cut1.jpg",
-          "badge": "SHENZHEN • TENCENT SEAFRONT TOWERS",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s2_cut2.jpg",
-          "badge": "RESEARCH SCIENTISTS • ALGORITHMIC GOVERNANCE",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s2_cut3.jpg",
-          "badge": "DEVELOPER PLATFORM • MULTI-AGENT WORKSPACE",
-          "panDirection": "zoomIn"
-        }
-      ]
-    },
-    {
-      "id": "s3_openai_deploys_frontier_models_t",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "OpenAI deploys frontier models to redesign custom semiconductor chips",
-      "subheadline": "Source: OpenAI",
-      "importanceScore": 95,
-      "durationSeconds": 31,
-      "source": "OpenAI",
-      "sourceUrl": "https://openai.com/index/advancing-chip-design-with-our-models/",
-      "researchDesk": "",
-      "script": "In other news. OpenAI has revealed that its frontier models are now actively optimizing internal semiconductor design, including revisions to its custom Jalapeño inference silicon and partner hardware. In silicon-proven tests, AI-assisted modifications to arithmetic multiplier circuits reduced cell area by fifteen percent while compressing calculation latency from two clock cycles down to one. OpenAI also announced an ongoing partnership with electronic design automation leader Synopsys to integrate specialized models directly into commercial chip synthesis pipelines.",
-      "whyThisMatters": "OpenAI has revealed that its frontier models are now actively optimizing internal semiconductor design, including revisions to its custom Jalapeño inference silicon and partner hardware.",
-      "sourceType": "company",
-      "keyPoints": [
-        "OpenAI deploys frontier models to redesign custom semiconductor chips",
-        "OpenAI"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s3_cut1.jpg",
-          "badge": "MULTILATERAL FORUM • REGULATORY HARMONIZATION",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s3_cut2.jpg",
-          "badge": "STANDARDS AUDITING • COMPLIANCE FRAMEWORK",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s3_cut3.jpg",
-          "badge": "SECURITY OPERATIONS • INCIDENT RESPONSE SOC",
-          "panDirection": "panRight"
-        }
-      ]
-    },
-    {
-      "id": "s4_tencent_releases_downloadable_we",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "Tencent releases downloadable weights for Hy4 Flash model",
-      "subheadline": "Source: TechNode",
-      "importanceScore": 90,
-      "durationSeconds": 27,
-      "source": "TechNode",
-      "sourceUrl": "https://cn.technode.com/post/2026-11-19/tencent-hy4-flash-model-weights/",
-      "researchDesk": "",
-      "script": "In China. Chinese technology conglomerate Tencent has publicly released the model weights for Hy4 Flash, offering full precision, FP8, and base model checkpoints for open developer fine-tuning. The mixture-of-experts model contains two-hundred and twenty billion total parameters, activating twelve billion parameters per token across multimodal inputs with a one-million-token context length. The release intensifies open-weight competition across Asian enterprise ecosystems under Tencent's proprietary community license.",
-      "whyThisMatters": "Chinese technology conglomerate Tencent has publicly released the model weights for Hy4 Flash, offering full precision, FP8, and base model checkpoints for open developer fine-tuning.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Tencent releases downloadable weights for Hy4 Flash model",
-        "TechNode"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s4_cut1.jpg",
-          "badge": "INTERNATIONAL MONETARY FUND • CONTEXTUAL REPORTING",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s4_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s4_cut3.jpg",
-          "badge": "HYPERSCALE AI CLUSTER • SERVER INFRASTRUCTURE",
-          "panDirection": "panLeft"
-        }
-      ]
-    },
-    {
-      "id": "s5_south_korea_proposes_4_6_trillio",
-      "region": "ASIA",
-      "category": "ASIA Intelligence",
-      "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "South Korea proposes 4.6 trillion won sovereign AI initiative",
-      "subheadline": "Source: Invest News Global",
-      "importanceScore": 90,
-      "durationSeconds": 29,
-      "source": "Invest News Global",
-      "sourceUrl": "https://global.investnews.co.kr/news/south-korea-frontier-ai-budget-plan",
-      "researchDesk": "",
-      "script": "In Asia. South Korea's Ministry of Science and ICT has outlined a four-point-six trillion won initiative in its upcoming fiscal budget to construct sovereign frontier AI infrastructure. Over three-point-eight trillion won is allocated toward high-performance computing, targeting the deployment of ten thousand Nvidia Vera Rubin accelerators. The national compute cluster will be shared across consortiums of major enterprises, research labs, and academic institutions, prioritizing scientific discovery, cybersecurity, and national defense.",
-      "whyThisMatters": "South Korea's Ministry of Science and ICT has outlined a four-point-six trillion won initiative in its upcoming fiscal budget to construct sovereign frontier AI infrastructure.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "South Korea proposes 4.6 trillion won sovereign AI initiative",
-        "Invest News Global"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s5_cut1.jpg",
-          "badge": "INTERNATIONAL ENERGY AGENCY • CONTEXTUAL REPORTING",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s5_cut2.jpg",
-          "badge": "HYPERSCALE FACILITY • CLOUD INFRASTRUCTURE",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s5_cut3.jpg",
-          "badge": "REGIONAL POWER GRID • SUBSTATION TELEMETRY",
-          "panDirection": "zoomOut"
-        }
-      ]
-    },
-    {
-      "id": "s6_sarvam_defends_token_factory_ami",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "Sarvam defends Token Factory amid debate over Indian sovereign AI",
-      "subheadline": "Source: Moneycontrol",
-      "importanceScore": 90,
-      "durationSeconds": 27,
-      "source": "Moneycontrol",
-      "sourceUrl": "https://www.moneycontrol.com/artificial-intelligence/sarvam-defends-serving-foreign-ai-models-on-token-factory-says-it-runs-on-privately-procured-gpus-article-14084558.html",
-      "researchDesk": "",
-      "script": "Turning to India. Bengaluru-based Sarvam AI has addressed industry scrutiny after expanding its Token Factory inference platform to host foreign open-weight architectures alongside proprietary models. Leadership clarified that the infrastructure operates entirely on privately procured domestic graphics clusters rather than government-subsidized compute allocations. The move has sparked an industry-wide discussion across Indian enterprise circles regarding whether sovereign AI mandates domestic foundational pre-training or sovereign data hosting.",
-      "whyThisMatters": "Bengaluru-based Sarvam AI has addressed industry scrutiny after expanding its Token Factory inference platform to host foreign open-weight architectures alongside proprietary models.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Sarvam defends Token Factory amid debate over Indian sovereign AI",
-        "Moneycontrol"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s6_cut1.jpg",
-          "badge": "LENOVO • CONTEXTUAL REPORTING",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s6_cut2.jpg",
-          "badge": "REGULATORY OVERSIGHT • JUDICIAL INQUIRY",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s6_cut3.jpg",
-          "badge": "METROPOLITAN CIVIC CENTER • ETHICS DESK",
-          "panDirection": "zoomIn"
-        }
-      ]
-    },
-    {
-      "id": "s7_apple_releases_fastframes_intera",
-      "region": "WORLD",
-      "category": "WORLD Intelligence",
-      "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Apple releases FastFrames interactive video generation models",
-      "subheadline": "Source: Hugging Face",
-      "importanceScore": 90,
-      "durationSeconds": 32,
-      "source": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/apple/FastFrames-L",
-      "researchDesk": "",
-      "script": "Around the world. Apple's machine learning research division has released FastFrames, a family of open weights designed for real-time, interactive video generation. The release features a fourteen-billion parameter flagship model and a compact one-point-three billion parameter variant capable of rendering four-hundred-and-eighty-p video with sub-second latency. Apple also unveiled an optimized LingBot model for camera-conditioned control, demonstrating a sixteen-fold throughput increase over prior baselines. The architecture represents a strategic push by Apple toward on-device, interactive generative creative tools.",
-      "whyThisMatters": "Apple's machine learning research division has released FastFrames, a family of open weights designed for real-time, interactive video generation.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Apple releases FastFrames interactive video generation models",
-        "Hugging Face"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s7_cut1.jpg",
-          "badge": "FEDERAL DISTRICT COURT • SECURITIES LITIGATION",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s7_cut2.jpg",
-          "badge": "DIGITAL TELEMETRY • SYSTEM EVALUATION",
-          "panDirection": "zoomIn"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s7_cut3.jpg",
-          "badge": "LABORATORY INSTRUMENTATION • MODEL EVALUATION",
-          "panDirection": "panRight"
-        }
-      ]
-    },
-    {
-      "id": "s8_citibank_and_us_lenders_shift_fi",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Citibank and US lenders shift financial liability to AI agent users",
+      "headline": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
       "subheadline": "Source: TechCrunch",
-      "importanceScore": 90,
-      "durationSeconds": 29,
+      "importanceScore": 95,
+      "durationSeconds": 24,
       "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
       "researchDesk": "",
-      "script": "Turning to the United States. Citibank has updated its digital banking agreements, explicitly establishing that customers who grant third-party AI agents access to their accounts bear sole legal liability for unauthorized transactions and compromised credentials. Reports indicate JPMorgan Chase, Bank of America, and PNC are implementing comparable indemnification frameworks. The legal updates arrive as consumers and businesses increasingly deploy autonomous agents to execute payments, highlighting regulatory friction around autonomous financial agency.",
-      "whyThisMatters": "Citibank has updated its digital banking agreements, explicitly establishing that customers who grant third-party AI agents access to their accounts bear sole legal liability for unauthorized transactions and compromised",
+      "script": "Also today. Meta's AI agent Muse may be confusing conversations and exposing private information, TechCrunch reports. Employees said it showed them childcare requests, career advice, product orders and bank balances that were never theirs.",
+      "whyThisMatters": "Meta's AI agent Muse may be confusing conversations and exposing private information, TechCrunch reports.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Citibank and US lenders shift financial liability to AI agent users",
+        "Meta’s AI agent Muse is mixing up conversations and could be exposing private da",
         "TechCrunch"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-19/s8_cut1.jpg",
-          "badge": "KEYNOTE STAGE • JENSEN HUANG NVIDIA",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s8_cut2.jpg",
-          "badge": "SEMICONDUCTOR FAB • ADVANCED FOUNDRY",
+          "image": "aibrief/assets/fallbacks/default_ai_network.jpg",
+          "badge": "USA • SPECIAL REPORT",
           "panDirection": "zoomOut"
-        },
+        }
+      ]
+    },
+    {
+      "id": "s3_google_brings_computer_use_to_ge",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google brings computer use to Gemini desktop app on macOS",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "researchDesk": "",
+      "script": "In other news. Google announced that it is bringing computer use capabilities to its Gemini desktop application on macOS, allowing the artificial intelligence to complete tasks on users' behalf. The system can navigate native Mac applications and browse websites in the background to handle multi-step actions autonomously.",
+      "whyThisMatters": "Google announced that it is bringing computer use capabilities to its Gemini desktop application on macOS, allowing the artificial intelligence to complete tasks on users' behalf.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Google brings computer use to Gemini desktop app on macOS",
+        "TechCrunch"
+      ],
+      "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-19/s8_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
+          "badge": "USA • SPECIAL REPORT",
           "panDirection": "panLeft"
         }
       ]
     },
     {
-      "id": "s9_us_commission_warns_of_pla_deman",
-      "region": "CHINA",
-      "category": "CHINA Intelligence",
-      "categoryTag": "CHINA • SPECIAL REPORT",
-      "headline": "US commission warns of PLA demand for advanced Nvidia compute",
-      "subheadline": "Source: CNBC",
+      "id": "s4_anthropic_s_australian_data_cent",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Anthropic's Australian data centre overwhelmingly opposed by residents",
+      "subheadline": "Source: The Economic Times",
       "importanceScore": 90,
-      "durationSeconds": 25,
-      "source": "CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
+      "durationSeconds": 55,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/articleshow/136010716.cms",
       "researchDesk": "",
-      "script": "In China. The United States-China Economic and Security Review Commission reported in its annual assessment that Chinese entities continue active efforts to acquire advanced Nvidia accelerators for military artificial intelligence workloads. The review highlighted remote access via third-party data centers in Southeast Asia alongside export control enforcement challenges, while emphasizing that key domestic fabrication and specialized software gaps remain unresolved.",
-      "whyThisMatters": "The United States-China Economic and Security Review Commission reported in its annual assessment that Chinese entities continue active efforts to acquire advanced Nvidia accelerators for military artificial intelligence",
+      "script": "In Asia. Residents in regional Australia are overwhelmingly against a planned data centre that would have Anthropic as its anchor tenant, according to a project filing reported by The Economic Times. The proposed Western Downs Digital Park sits about 250 kilometres, or 155 miles, west of Brisbane and would be the AI company's first Australian facility, setting up a confrontation with the local community. Of nearly 600 public submissions, only two backed the project and one was neutral. The other 595 either opposed it or sought a delay until developers resolved certain environmental issues. The filing, lodged on behalf of developer Zerra DC, acknowledged that many submissions raised reasonable concerns about water, power, noise, roads, housing and the size of the project. Zerra and Anthropic representatives could not immediately be reached for comment.",
+      "whyThisMatters": "Residents in regional Australia are overwhelmingly against a planned data centre that would have Anthropic as its anchor tenant, according to a project filing reported by The Economic Times.",
       "sourceType": "reporting",
       "keyPoints": [
-        "US commission warns of PLA demand for advanced Nvidia compute",
+        "Anthropic's Australian data centre overwhelmingly opposed by residents",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_network.jpg",
+          "badge": "ASIA • SPECIAL REPORT",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s5_india_s_anthropic_question_share",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "India’s Anthropic Question, ShareChat’s Turnaround & More",
+      "subheadline": "Source: Inc42",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Inc42",
+      "sourceUrl": "https://inc42.com/buzz/indias-anthropic-question-sharechats-turnaround-more/",
+      "researchDesk": "",
+      "script": "Turning to India. Inc42 says Anthropic's hugely successful listing is putting India's AI ambitions under intense scrutiny.",
+      "whyThisMatters": "Inc42 says Anthropic's hugely successful listing is putting India's AI ambitions under intense scrutiny.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "India’s Anthropic Question, ShareChat’s Turnaround & More",
+        "Inc42"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
+          "badge": "INDIA • SPECIAL REPORT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s6_nextdc_vows_to_keep_future_datac",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "NextDC vows to keep future datacentres away from homes after community backlash in Melbourne",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 44,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/australia-news/2026/nov/20/nextdc-vows-to-keep-future-datacentres-away-from-homes-after-community-backlash-in-melbourne",
+      "researchDesk": "",
+      "script": "Around the world. NextDC says it will stop pursuing new data centre developments close to homes, after community opposition in inner Melbourne cut its share price by 40 percent, according to the Guardian. Chief executive Craig Scroggie said public expectations of data centres have shifted in the era of artificial intelligence, and the company will change how it deals with local communities. The comments came at NextDC's first annual general meeting since it had to postpone a contested expansion of its M3 site in West Footscray. That delay followed a decision by power provider Jemena to halt work on new 22-metre power poles as residents protested.",
+      "whyThisMatters": "NextDC says it will stop pursuing new data centre developments close to homes, after community opposition in inner Melbourne cut its share price by 40 percent, according to the Guardian.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "NextDC vows to keep future datacentres away from homes after community backlash ",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_network.jpg",
+          "badge": "WORLD • SPECIAL REPORT",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s7_academic_integrity_matters_but_s",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Academic integrity matters, but students shouldn’t be penalised for using AI | Letter",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 30,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/education/2026/nov/19/academic-integrity-matters-but-students-shouldnt-be-penalised-for-using-ai",
+      "researchDesk": "",
+      "script": "In other news. A letter published in the Guardian argues that students should not be punished for turning to AI, even as academic integrity remains important. The writer says society has let powerful new technologies spread with little democratic debate, public scrutiny or government oversight. The letter adds that AI is far more than a cheap way to cheat, and has rapidly reshaped how people work, communicate, solve problems, research and learn.",
+      "whyThisMatters": "A letter published in the Guardian argues that students should not be punished for turning to AI, even as academic integrity remains important.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Academic integrity matters, but students shouldn’t be penalised for using AI | L",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
+          "badge": "WORLD • SPECIAL REPORT",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s8_california_investigates_nvidia_o",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "California investigates Nvidia over whether chip exports ended up in China",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 56,
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+      "researchDesk": "",
+      "script": "Next. California has issued an investigative subpoena to Nvidia, the Guardian reports, following a scandal that led co-founder and longtime chief executive Jensen Huang to step down. State Attorney General Rob Bonta is examining whether the California-based company's advanced semiconductor chips were exported in ways that ended up in China, in breach of US restrictions. Bonta said the conduct of Nvidia and its former chief raises serious warning signs, including over how the company may have misled investors. He described Nvidia's position as a complicated, cross-border situation, but stressed that under corporate securities law, \"companies cannot mislead their investors.\" The subpoena was issued on Thursday. It came a week after Huang resigned, when it emerged he had had multiple affairs, one of them with Alice Huang, who is suspected of being a Chinese spy.",
+      "whyThisMatters": "California has issued an investigative subpoena to Nvidia, the Guardian reports, following a scandal that led co-founder and longtime chief executive Jensen Huang to step down.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "California investigates Nvidia over whether chip exports ended up in China",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_network.jpg",
+          "badge": "WORLD • SPECIAL REPORT",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s9_lagarde_says_eu_funds_should_tak",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Lagarde says EU funds should take first losses on chip plants, data centers",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 59,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/20/lagarde-eu-data-center-funding.html",
+      "researchDesk": "",
+      "script": "Turning to the United States. European Central Bank President Christine Lagarde said on Friday that public money from the European Union should absorb the first losses on large chip-plant and data-center projects, as a way to draw in private investment, CNBC reports. Speaking at the Frankfurt European Banking Congress, in her last address there before leaving the ECB in February, Lagarde said that where a challenge needs a European answer, the institutions able to deliver it should be reinforced. In technology, she argued, projects requiring European scale call for public-private partnerships at the European level, with public funds, including the EU budget, \"taking the first losses and drawing in private capital.\" Lagarde has warned before that Europe lacks the data center capacity to meet its own needs, and that current plans for up to seven gigafactories across the European Union fall short.",
+      "whyThisMatters": "European Central Bank President Christine Lagarde said on Friday that public money from the European Union should absorb the first losses on large chip-plant and data-center projects, as a way to draw in private investme",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Lagarde says EU funds should take first losses on chip plants, data centers",
         "CNBC"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-19/s9_cut1.jpg",
-          "badge": "SAN FRANCISCO • SAM ALTMAN AI DOCTRINE",
+          "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
+          "badge": "USA • SPECIAL REPORT",
           "panDirection": "zoomIn"
-        },
+        }
+      ]
+    },
+    {
+      "id": "s10_experts_say_powering_data_center",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Experts say powering data centers uses more water than cooling them",
+      "subheadline": "Source: NPR",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/11/20/nx-s1-6045780/experts-say-powering-data-centers-uses-more-water-than-cooling-them",
+      "researchDesk": "",
+      "script": "Also today. Generating electricity for data centers consumes far more water than cooling their servers does, according to experts cited by NPR. The broadcaster notes that concern over how much water data centers use is especially strong in Arizona. Experts say the cooling itself is a much smaller draw than the power plants supplying these energy-hungry facilities.",
+      "whyThisMatters": "Generating electricity for data centers consumes far more water than cooling their servers does, according to experts cited by NPR.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Experts say powering data centers uses more water than cooling them",
+        "NPR"
+      ],
+      "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-19/s9_cut2.jpg",
-          "badge": "ADVANCED SILICON DIE • FABRICATION CLEANROOM",
-          "panDirection": "panLeft"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s9_cut3.jpg",
-          "badge": "HIGH-DENSITY GPU RACKS • THERMAL MANAGEMENT",
+          "image": "aibrief/assets/fallbacks/default_ai_network.jpg",
+          "badge": "USA • SPECIAL REPORT",
           "panDirection": "zoomOut"
         }
       ]
     },
     {
-      "id": "s10_siemens_deploys_eigen_industrial",
-      "region": "INDIA",
-      "category": "INDIA Intelligence",
-      "categoryTag": "INDIA • SPECIAL REPORT",
-      "headline": "Siemens deploys Eigen industrial engineering agent in India",
-      "subheadline": "Source: India Today",
+      "id": "s11_mind2act_world_a_diagnostic_benc",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+      "subheadline": "Source: arXiv Pre-print",
       "importanceScore": 90,
-      "durationSeconds": 27,
-      "source": "India Today",
-      "sourceUrl": "https://www.indiatoday.in/technology/news/story/siemens-launches-eigen-engineering-agent-in-india-says-it-frees-up-humans-for-complex-work-3042061-2026-11-19",
-      "researchDesk": "",
-      "script": "Turning to India. Siemens has officially launched its Eigen Engineering Agent in India following successful industrial pilots across sixteen domestic manufacturing clients. The specialized agent operates within Siemens' Totally Integrated Automation portal to generate programmable logic controller code and human-machine interface designs autonomously. Pilot deployments demonstrated a fifty percent reduction in repetitive engineering cycles, signaling accelerating adoption of autonomous AI agents across India's heavy manufacturing sector.",
-      "whyThisMatters": "Siemens has officially launched its Eigen Engineering Agent in India following successful industrial pilots across sixteen domestic manufacturing clients.",
+      "durationSeconds": 45,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.26444",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. Researchers have unveiled a new testing tool for robots, in a paper titled Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation. The goal of so-called embodied intelligence is robots that handle complex physical jobs as flexibly and dependably as people. That demands three skills: reasoning based on past events, carrying out movements accurately and on time, and combining the two using feedback from the surroundings. Existing tests, the researchers say, cannot pinpoint which of these skills caused a failure. Their benchmark, a diagnostic test suite, offers 30 simulated object-handling tasks drawn from five real-world application areas.",
+      "whyThisMatters": "Researchers have unveiled a new testing tool for robots, in a paper titled Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Siemens deploys Eigen industrial engineering agent in India",
-        "India Today"
+        "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and M",
+        "arXiv Pre-print"
       ],
       "visualCuts": [
         {
-          "image": "aibrief/assets/editorial/2026-11-19/s10_cut1.jpg",
-          "badge": "MISSION BAY • OPENAI HEADQUARTERS",
-          "panDirection": "zoomOut"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s10_cut2.jpg",
-          "badge": "DEEP LEARNING PIPELINE • KERNEL TRACING",
-          "panDirection": "panRight"
-        },
-        {
-          "image": "aibrief/assets/editorial/2026-11-19/s10_cut3.jpg",
-          "badge": "FRONTIER AI RESEARCH • NEURAL HARNESS",
-          "panDirection": "zoomIn"
+          "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
+          "badge": "WORLD • SPECIAL REPORT",
+          "panDirection": "panLeft"
         }
       ]
     }
@@ -447,15 +353,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. Microsoft Agent Framework hit by a PyPI supply-chain attack. Google launches Gemini 4 Neon frontier model. OpenAI deploys frontier models to redesign custom semiconductor chips. Tencent releases downloadable weights for Hy4 Flash model. South Korea proposes 4.6 trillion won sovereign AI initiative. Sarvam defends Token Factory amid debate over Indian sovereign AI.",
+    "script": "To recap today's top stories. Traumatized teens sue school, cops after Doritos bag triggers AI gun alert. Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says. Google brings computer use to Gemini desktop app on macOS. Anthropic's Australian data centre overwhelmingly opposed by residents. India’s Anthropic Question, ShareChat’s Turnaround & More. NextDC vows to keep future datacentres away from homes after community backlash in Melbourne.",
     "items": [
-      "✓ Microsoft Agent Framework hit by a PyPI supply-c",
-      "✓ Google launches Gemini 4 Neon frontier model",
-      "✓ OpenAI deploys frontier models to redesign custo",
-      "✓ Tencent releases downloadable weights for Hy4 Fl",
-      "✓ South Korea proposes 4.6 trillion won sovereign ",
-      "✓ Sarvam defends Token Factory amid debate over In",
-      "✓ Apple releases FastFrames interactive video gene"
+      "✓ Traumatized teens sue school, cops after Doritos",
+      "✓ Meta’s AI agent Muse is mixing up conversations ",
+      "✓ Google brings computer use to Gemini desktop app",
+      "✓ Anthropic's Australian data centre overwhelmingl",
+      "✓ India’s Anthropic Question, ShareChat’s Turnarou",
+      "✓ NextDC vows to keep future datacentres away from",
+      "✓ Academic integrity matters, but students shouldn"
     ]
   },
   "outro": {
@@ -474,31 +380,32 @@
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "Microsoft Agent Framework hit by a PyPI suppl",
-    "Google launches Gemini 4 Neon frontier model",
-    "OpenAI deploys frontier models to redesign cu",
-    "Tencent releases downloadable weights for Hy4",
-    "South Korea proposes 4.6 trillion won soverei",
-    "Sarvam defends Token Factory amid debate over",
-    "Apple releases FastFrames interactive video g",
-    "Citibank and US lenders shift financial liabi",
-    "US commission warns of PLA demand for advance",
-    "Siemens deploys Eigen industrial engineering "
+    "Traumatized teens sue school, cops after Dori",
+    "Meta’s AI agent Muse is mixing up conversatio",
+    "Google brings computer use to Gemini desktop ",
+    "Anthropic's Australian data centre overwhelmi",
+    "India’s Anthropic Question, ShareChat’s Turna",
+    "NextDC vows to keep future datacentres away f",
+    "Academic integrity matters, but students shou",
+    "California investigates Nvidia over whether c",
+    "Lagarde says EU funds should take first losse",
+    "Experts say powering data centers uses more w",
+    "Mind2Act World: A Diagnostic Benchmark for Em"
   ],
   "thumbnail": {
-    "date": "19 NOVEMBER 2026",
-    "headline": "MICROSOFT AGENT FRAMEWORK HIT BY A PYPI",
+    "date": "20 NOVEMBER 2026",
+    "headline": "TRAUMATIZED TEENS SUE SCHOOL, COPS AFTER",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "MICROSOFT AGENT FRAMEWORK HIT BY A",
-      "GOOGLE LAUNCHES GEMINI 4 NEON",
-      "OPENAI DEPLOYS FRONTIER MODELS TO",
-      "TENCENT RELEASES DOWNLOADABLE"
+      "TRAUMATIZED TEENS SUE SCHOOL, COPS",
+      "META’S AI AGENT MUSE IS MIXING UP",
+      "GOOGLE BRINGS COMPUTER USE TO",
+      "ANTHROPIC'S AUSTRALIAN DATA CENTRE"
     ]
   },
   "youtubeMetadata": {
-    "title": "Microsoft Agent Framework hit by a | Google launches Gemini 4 Neon | OpenAI deploys frontier models to | AI News 19 November 2026",
-    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 19 November 2026.",
+    "title": "Traumatized teens sue school, cops | Meta’s AI agent Muse is mixing up | Google brings computer use to | AI News 20 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 20 November 2026.",
     "tags": [
       "AI",
       "ArtificialIntelligence",

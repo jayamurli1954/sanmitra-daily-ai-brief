@@ -55,7 +55,7 @@ WIRE_FEEDS = [
     # subscription feeds removed on 2026-10-27, which left collector-only nights short.
     {"bureau": "CHINA", "source": "TechNode", "url": "https://technode.com/feed/"},
     {"bureau": "CHINA", "source": "Pandaily", "url": "https://pandaily.com/feed/"},
-    {"bureau": "ASIA", "source": "Tech in Asia", "url": "https://www.techinasia.com/feed"},
+    {"bureau": "ASIA", "source": "KrASIA", "url": "https://kr-asia.com/feed"},
     {"bureau": "INDIA", "source": "Inc42", "url": "https://inc42.com/feed/"},
     {"bureau": "INDIA", "source": "The Economic Times", "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms"},
 ]

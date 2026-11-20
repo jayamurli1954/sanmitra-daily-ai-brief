@@ -7,6 +7,7 @@ from mutagen.mp3 import MP3
 import edge_tts
 
 import re
+from src.aibrief.url_cleaner import clean_and_shorten_url
 
 # Two-anchor desk. Each segment is one complete read, so the voices never split a sentence.
 LEAD_VOICE = "en-US-ChristopherNeural"
@@ -286,7 +287,7 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
     desc_lines.append("📰 STORIES COVERED & OFFICIAL SOURCES:")
     for s in stories:
         desc_lines.append(f"• {s.get('headline', '')}")
-        desc_lines.append(f"  Source ({s.get('source', '')}): {s.get('sourceUrl', '')}")
+        desc_lines.append(f"  Source ({s.get('source', '')}): {clean_and_shorten_url(s.get('sourceUrl', ''))}")
         if s.get("whyThisMatters"):
             desc_lines.append(f"  Impact: {s.get('whyThisMatters')}")
     
@@ -317,7 +318,7 @@ async def generate_voiceover(data_path: str = "src/aibrief/data/active_episode.j
         li_lines.append(f"🔹 [{reg}] {head}")
         if why:
             li_lines.append(f"💡 Why This Matters: {why}")
-        li_lines.append(f"🔗 Source: {s.get('source', '')} - {s.get('sourceUrl', '')}")
+        li_lines.append(f"🔗 Source: {s.get('source', '')} - {clean_and_shorten_url(s.get('sourceUrl', ''))}")
         li_lines.append("")
     
     li_lines.append("💬 Discussion: Which AI policy or architecture shift will impact your organization most? Share your thoughts in today's YouTube comments.")

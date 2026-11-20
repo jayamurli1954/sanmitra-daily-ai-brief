@@ -149,20 +149,35 @@ def is_personal_scandal_story(title):
 
 def is_election_story(title, body=""):
     """True when the headline or the text mentions elections, campaigns or US politicians."""
-    return contains_any(f"{title or ''} {body or ''}", ELECTION_TERMS)
+    full_text = f"{title or ''} {body or ''}"
+    # Non-political congress conferences (banking congress, mobile world congress, technology congress)
+    # are professional events, not US Congress or elections.
+    sanitized = re.sub(
+        r"\b(?:banking|mobile\s+world|technology|world|international|medical|scientific|press)\s+congress\b",
+        "conference",
+        full_text,
+        flags=re.IGNORECASE,
+    )
+    return contains_any(sanitized, ELECTION_TERMS)
 
 
 # Sites that ask viewers to subscribe before they can read the article
 # (editor's decision, 2026-10-27). Source links must be free to read.
 PAYWALLED_DOMAINS = {
     "theverge.com", "thehindu.com", "thehindubusinessline.com", "scmp.com", "nikkei.com",
-    "livemint.com", "business-standard.com", "wired.com", "technologyreview.com",
+    "asia.nikkei.com", "livemint.com", "business-standard.com", "wired.com", "technologyreview.com",
     "bloomberg.com", "wsj.com", "ft.com", "theinformation.com", "nytimes.com",
     "washingtonpost.com", "economist.com", "theatlantic.com", "newyorker.com",
-    "barrons.com", "businessinsider.com", "telegraph.co.uk", "straitstimes.com",
+    "barrons.com", "businessinsider.com", "insider.com", "telegraph.co.uk", "straitstimes.com",
+    "techinasia.com", "thetimes.co.uk", "thesundaytimes.co.uk", "fortune.com", "seekingalpha.com",
+    "afr.com", "theaustralian.com.au", "smh.com.au", "theage.com.au", "theglobeandmail.com",
+    "lemonde.fr", "lesechos.fr", "hbr.org", "newscientist.com", "forbes.com", "law360.com", "semafor.com"
 }
-# The Economic Times is free except its ET Prime section.
-PAYWALLED_PATHS = {"economictimes.indiatimes.com": "/prime/"}
+# The Economic Times is free except its ET Prime section; Inc42 is free except Plus.
+PAYWALLED_PATHS = {
+    "economictimes.indiatimes.com": "/prime/",
+    "inc42.com": "/plus/",
+}
 
 
 def is_paywalled_url(url):

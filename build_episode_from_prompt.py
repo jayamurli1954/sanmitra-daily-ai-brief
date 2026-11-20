@@ -21,11 +21,13 @@ import sys
 
 from validate_episode_sources import is_proper_article_url
 from src.aibrief.crew.fact_checker import (
-    FEATURE_DESK, FEATURE_MAX_SENTENCES, FEATURE_MAX_WORDS, MAX_EPISODE_STORIES, STORY_MAX_SENTENCES,
-    STORY_MAX_WORDS, is_research_desk,
+    FEATURE_DESK, FEATURE_MAX_SENTENCES, FEATURE_MAX_WORDS, MAX_EPISODE_STORIES, MIN_EPISODE_STORIES,
+    STORY_MAX_SENTENCES, STORY_MAX_WORDS, is_research_desk,
 )
 from src.aibrief.crew.text_utils import is_election_story, same_event, source_link_problem, split_sentences
+from src.aibrief.paywall_detector import find_free_alternative, is_paywalled_url
 from src.aibrief.source_authority import is_company_source
+from src.aibrief.url_cleaner import clean_and_shorten_url
 
 if sys.stdout.encoding != 'utf-8':
     try:
@@ -340,10 +342,16 @@ def parse_markdown_prompt(md_text: str) -> dict:
                 if not srcs or not is_proper_article_url(source_url):
                     print(f"[SKIP] No proper source for {head_clean[:70]!r}. Left out of the video.")
                     continue
-                if source_link_problem(source_url):
-                    print(f"[SKIP] No free English link for {head_clean[:70]!r} "
-                          f"({source_link_problem(source_url)}). Left out of the video.")
-                    continue
+                if source_link_problem(source_url) or is_paywalled_url(source_url):
+                    alt = find_free_alternative(head_clean, original_url=source_url)
+                    if alt:
+                        source_url = alt["url"]
+                        srcs = [alt["source"]]
+                    else:
+                        print(f"[SKIP] No free English link / subscription paywall for {head_clean[:70]!r} "
+                              f"({source_link_problem(source_url) or 'paywall'}). Left out of the video.")
+                        continue
+                source_url = clean_and_shorten_url(source_url)
 
                 body_lines = [l for l in chunk_lines[1:] if not is_metadata_line(l)]
                 body_clean = strip_unspoken_metadata(" ".join(body_lines))
@@ -389,10 +397,16 @@ def parse_markdown_prompt(md_text: str) -> dict:
                 if not srcs or not is_proper_article_url(source_url):
                     print(f"[SKIP] No proper source for {head_clean[:70]!r}. Left out of the video.")
                     continue
-                if source_link_problem(source_url):
-                    print(f"[SKIP] No free English link for {head_clean[:70]!r} "
-                          f"({source_link_problem(source_url)}). Left out of the video.")
-                    continue
+                if source_link_problem(source_url) or is_paywalled_url(source_url):
+                    alt = find_free_alternative(head_clean, original_url=source_url)
+                    if alt:
+                        source_url = alt["url"]
+                        srcs = [alt["source"]]
+                    else:
+                        print(f"[SKIP] No free English link / subscription paywall for {head_clean[:70]!r} "
+                              f"({source_link_problem(source_url) or 'paywall'}). Left out of the video.")
+                        continue
+                source_url = clean_and_shorten_url(source_url)
 
                 candidate_stories.append({
                     "region": "WORLD" if idx == 0 else ("USA" if idx in [1, 2] else ("CHINA" if idx == 3 else ("ASIA" if idx == 4 else "INDIA"))),
@@ -551,7 +565,7 @@ def parse_markdown_prompt(md_text: str) -> dict:
             "importanceScore": 99 if idx == 1 else (95 if idx <= 3 else 90),
             "durationSeconds": max(int(len(script.split()) * 0.42), 24),
             "source": ", ".join(srcs[:2]),
-            "sourceUrl": s.get("source_url") or "",
+            "sourceUrl": clean_and_shorten_url(s.get("source_url") or ""),
             "researchDesk": s.get("research_desk") or "",
             "script": script,
             # The story's own first sentence, not a line shared by every story.

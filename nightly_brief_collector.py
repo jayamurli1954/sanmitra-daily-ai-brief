@@ -36,6 +36,7 @@ from src.aibrief.story_memory_ledger import StoryMemoryLedger
 from src.aibrief.rank_stories import rank_and_curate_stories
 from src.aibrief.editorial_quality_gate import EditorialQualityGate
 from src.aibrief.visual_memory_manager import VisualMemoryManager
+from src.aibrief.url_cleaner import clean_and_shorten_url
 
 
 def _story_attribution(story: dict) -> tuple:
@@ -228,7 +229,7 @@ def run_nightly_collection(target_date: str = None, push_git: bool = True, sync_
                     lines.append("Lead: yes")
                 lines.append(f"Source: {outlet}")
                 if url:
-                    lines.append(url)
+                    lines.append(clean_and_shorten_url(url))
                 lines.append("")
                 lines.append(st.get("summary") or "")
                 lines.append("")

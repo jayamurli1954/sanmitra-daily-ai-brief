@@ -11,7 +11,8 @@ from src.aibrief.crew.text_utils import is_stock_market_story
 
 class StoryRulesTest(unittest.TestCase):
     def test_episode_size(self):
-        self.assertEqual((MIN_EPISODE_STORIES, MAX_EPISODE_STORIES), (8, 10))
+        self.assertEqual((MIN_EPISODE_STORIES, MAX_EPISODE_STORIES), (10, 10))
+        self.assertGreaterEqual(MIN_EPISODE_STORIES, 10)
         self.assertLessEqual(STORY_MAX_WORDS * MAX_EPISODE_STORIES / 140, 10)  # ~140 words a minute
 
     def test_stock_market_headlines(self):
@@ -165,6 +166,30 @@ class StoryRulesTest(unittest.TestCase):
         self.assertNotIn("Kerala leads", merged)
         self.assertIn("TCS opens an AI lab", merged)
         self.assertEqual(len(report["dropped_election"]), 2)
+
+    def test_banking_congress_not_election(self):
+        from src.aibrief.crew.text_utils import is_election_story
+        title = "Lagarde says EU funds should take first losses on chip plants, data centers"
+        body = "European Central Bank President Christine Lagarde spoke at the Frankfurt European Banking Congress on Friday."
+        self.assertFalse(is_election_story(title, body))
+
+    def test_paywall_domains_detected(self):
+        from src.aibrief.crew.text_utils import is_paywalled_url
+        self.assertTrue(is_paywalled_url("https://www.techinasia.com/news/asia-payments-group"))
+        self.assertTrue(is_paywalled_url("https://www.ft.com/content/12345"))
+        self.assertTrue(is_paywalled_url("https://www.bloomberg.com/news/articles/2026-11-20/ai"))
+        self.assertTrue(is_paywalled_url("https://economictimes.indiatimes.com/prime/ai/article.cms"))
+        self.assertFalse(is_paywalled_url("https://arstechnica.com/ai/article"))
+        self.assertFalse(is_paywalled_url("https://techcrunch.com/2026/11/20/ai"))
+
+    def test_url_cleaner_and_shortener(self):
+        from src.aibrief.url_cleaner import clean_and_shorten_url, strip_tracking_params, canonicalize_publisher_url
+        raw_et = "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropics-australian-data-centre-overwhelmingly-opposed-by-residents/articleshow/136010716.cms?utm_source=twitter&utm_medium=social"
+        cleaned_et = strip_tracking_params(raw_et)
+        self.assertNotIn("utm_source", cleaned_et)
+        canonical_et = canonicalize_publisher_url(cleaned_et)
+        self.assertEqual(canonical_et, "https://economictimes.indiatimes.com/articleshow/136010716.cms")
+        self.assertLessEqual(len(canonical_et), 65)
 
 
 if __name__ == "__main__":
