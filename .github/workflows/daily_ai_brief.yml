@@ -91,7 +91,7 @@ jobs:
         run: |
           git config user.name "SanMitra Intelligence Bot"
           git config user.email "bot@sanmitratech.com"
-          git add prompts/ src/aibrief/data/visual_memory.json src/aibrief/data/story_memory_ledger.json || true
+          git add prompts/ src/aibrief/data/aired/ src/aibrief/data/visual_memory.json src/aibrief/data/story_memory_ledger.json || true
           if git diff --staged --quiet; then
             echo "[*] No memory changes to commit."
           else

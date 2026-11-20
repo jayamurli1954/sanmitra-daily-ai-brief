@@ -1,0 +1,412 @@
+{
+  "weekly": false,
+  "date": "2026-11-19",
+  "formattedDate": "19 November 2026",
+  "title": "Microsoft Agent Framework hit by a | Google launches Gemini 4 Neon | OpenAI deploys frontier models to | AI News 19 November 2026",
+  "intro": {
+    "durationSeconds": 47,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 19 November 2026. First, today's top headlines: Microsoft Agent Framework hit by a PyPI supply-chain attack. Google launches Gemini 4 Neon frontier model. OpenAI deploys frontier models to redesign custom semiconductor chips. Tencent releases downloadable weights for Hy4 Flash model. South Korea proposes 4.6 trillion won sovereign AI initiative. Sarvam defends Token Factory amid debate over Indian sovereign AI. Apple releases FastFrames interactive video generation models. Citibank and US lenders shift financial liability to AI agent users. US commission warns of PLA demand for advanced Nvidia compute. Siemens deploys Eigen industrial engineering agent in India. And now, the news in brief.",
+    "headlines": [
+      "Microsoft Agent Framework hit by a PyPI supply-chain attack",
+      "Google launches Gemini 4 Neon frontier model",
+      "OpenAI deploys frontier models to redesign custom semiconductor chips",
+      "Tencent releases downloadable weights for Hy4 Flash model",
+      "South Korea proposes 4.6 trillion won sovereign AI initiative",
+      "Sarvam defends Token Factory amid debate over Indian sovereign AI",
+      "Apple releases FastFrames interactive video generation models",
+      "Citibank and US lenders shift financial liability to AI agent users",
+      "US commission warns of PLA demand for advanced Nvidia compute",
+      "Siemens deploys Eigen industrial engineering agent in India"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_microsoft_agent_framework_hit_by",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Microsoft Agent Framework hit by a PyPI supply-chain attack",
+      "subheadline": "Source: Wiz Blog",
+      "importanceScore": 99,
+      "durationSeconds": 34,
+      "source": "Wiz Blog",
+      "sourceUrl": "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi",
+      "researchDesk": "",
+      "script": "Our lead story today. Security researchers at cloud security firm Wiz have discovered two malicious packages uploaded to the Python Package Index impersonating Microsoft's open-source agent-framework repository. Versions 1.26.1 and 1.26.2 contained obfuscated credential-harvesting payloads designed to intercept Azure, GitHub, and development environment credentials. Microsoft has since purged the rogue releases from PyPI, but security analysts advise organizations utilizing agentic frameworks to conduct immediate credential rotations. The incident underscores growing supply-chain vulnerabilities as autonomous AI agents are granted access to enterprise infrastructure.",
+      "whyThisMatters": "Security researchers at cloud security firm Wiz have discovered two malicious packages uploaded to the Python Package Index impersonating Microsoft's open-source agent-framework repository.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Microsoft Agent Framework hit by a PyPI supply-chain attack",
+        "Wiz Blog"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s1_cut1.jpg",
+          "badge": "REDMOND • MICROSOFT BUILDING 92 & VISITOR CENTER",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s2_google_launches_gemini_4_neon_fr",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google launches Gemini 4 Neon frontier model",
+      "subheadline": "Source: Google",
+      "importanceScore": 95,
+      "durationSeconds": 32,
+      "source": "Google",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Google DeepMind has launched Gemini 4 Neon, positioned between its flagship Carbon and high-throughput Hydrogen models. Featuring a one-million-token context window, Neon is engineered specifically for software engineering, quantitative research, and complex legal automation. Google reports substantial benchmark gains in multi-turn reasoning while pricing inputs at three dollars and outputs at fifteen dollars per million tokens. The model is rolling out across Google AI Studio, the Gemini API, Antigravity, and enterprise subscriptions.",
+      "whyThisMatters": "Google DeepMind has launched Gemini 4 Neon, positioned between its flagship Carbon and high-throughput Hydrogen models.",
+      "sourceType": "company",
+      "keyPoints": [
+        "Google launches Gemini 4 Neon frontier model",
+        "Google"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s2_cut1.jpg",
+          "badge": "MOUNTAIN VIEW • GOOGLEPLEX GLOBAL HEADQUARTERS",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s3_openai_deploys_frontier_models_t",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "OpenAI deploys frontier models to redesign custom semiconductor chips",
+      "subheadline": "Source: OpenAI",
+      "importanceScore": 95,
+      "durationSeconds": 31,
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "researchDesk": "",
+      "script": "In other news. OpenAI has revealed that its frontier models are now actively optimizing internal semiconductor design, including revisions to its custom Jalapeño inference silicon and partner hardware. In silicon-proven tests, AI-assisted modifications to arithmetic multiplier circuits reduced cell area by fifteen percent while compressing calculation latency from two clock cycles down to one. OpenAI also announced an ongoing partnership with electronic design automation leader Synopsys to integrate specialized models directly into commercial chip synthesis pipelines.",
+      "whyThisMatters": "OpenAI has revealed that its frontier models are now actively optimizing internal semiconductor design, including revisions to its custom Jalapeño inference silicon and partner hardware.",
+      "sourceType": "company",
+      "keyPoints": [
+        "OpenAI deploys frontier models to redesign custom semiconductor chips",
+        "OpenAI"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s3_cut1.jpg",
+          "badge": "SAN FRANCISCO • OPENAI MISSION BAY HEADQUARTERS",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s4_tencent_releases_downloadable_we",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Tencent releases downloadable weights for Hy4 Flash model",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 27,
+      "source": "TechNode",
+      "sourceUrl": "https://cn.technode.com/post/2026-11-19/tencent-hy4-flash-model-weights/",
+      "researchDesk": "",
+      "script": "In China. Chinese technology conglomerate Tencent has publicly released the model weights for Hy4 Flash, offering full precision, FP8, and base model checkpoints for open developer fine-tuning. The mixture-of-experts model contains two-hundred and twenty billion total parameters, activating twelve billion parameters per token across multimodal inputs with a one-million-token context length. The release intensifies open-weight competition across Asian enterprise ecosystems under Tencent's proprietary community license.",
+      "whyThisMatters": "Chinese technology conglomerate Tencent has publicly released the model weights for Hy4 Flash, offering full precision, FP8, and base model checkpoints for open developer fine-tuning.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Tencent releases downloadable weights for Hy4 Flash model",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s4_cut1.jpg",
+          "badge": "SHENZHEN • TENCENT SEAFRONT GLOBAL HEADQUARTERS",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s5_south_korea_proposes_4_6_trillio",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "South Korea proposes 4.6 trillion won sovereign AI initiative",
+      "subheadline": "Source: Invest News Global",
+      "importanceScore": 90,
+      "durationSeconds": 29,
+      "source": "Invest News Global",
+      "sourceUrl": "https://global.investnews.co.kr/news/south-korea-frontier-ai-budget-plan",
+      "researchDesk": "",
+      "script": "In Asia. South Korea's Ministry of Science and ICT has outlined a four-point-six trillion won initiative in its upcoming fiscal budget to construct sovereign frontier AI infrastructure. Over three-point-eight trillion won is allocated toward high-performance computing, targeting the deployment of ten thousand Nvidia Vera Rubin accelerators. The national compute cluster will be shared across consortiums of major enterprises, research labs, and academic institutions, prioritizing scientific discovery, cybersecurity, and national defense.",
+      "whyThisMatters": "South Korea's Ministry of Science and ICT has outlined a four-point-six trillion won initiative in its upcoming fiscal budget to construct sovereign frontier AI infrastructure.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "South Korea proposes 4.6 trillion won sovereign AI initiative",
+        "Invest News Global"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s5_cut1.jpg",
+          "badge": "SEOUL • REPUBLIC OF KOREA CENTRAL GOVERNMENT COMPLEX",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s6_sarvam_defends_token_factory_ami",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Sarvam defends Token Factory amid debate over Indian sovereign AI",
+      "subheadline": "Source: Moneycontrol",
+      "importanceScore": 90,
+      "durationSeconds": 27,
+      "source": "Moneycontrol",
+      "sourceUrl": "https://www.moneycontrol.com/artificial-intelligence/sarvam-defends-serving-foreign-ai-models-on-token-factory-says-it-runs-on-privately-procured-gpus-article-14084558.html",
+      "researchDesk": "",
+      "script": "Turning to India. Bengaluru-based Sarvam AI has addressed industry scrutiny after expanding its Token Factory inference platform to host foreign open-weight architectures alongside proprietary models. Leadership clarified that the infrastructure operates entirely on privately procured domestic graphics clusters rather than government-subsidized compute allocations. The move has sparked an industry-wide discussion across Indian enterprise circles regarding whether sovereign AI mandates domestic foundational pre-training or sovereign data hosting.",
+      "whyThisMatters": "Bengaluru-based Sarvam AI has addressed industry scrutiny after expanding its Token Factory inference platform to host foreign open-weight architectures alongside proprietary models.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Sarvam defends Token Factory amid debate over Indian sovereign AI",
+        "Moneycontrol"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s6_cut1.jpg",
+          "badge": "BENGALURU • INDIA SOVEREIGN TECH CAPITAL & TECH PARK",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s7_apple_releases_fastframes_intera",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Apple releases FastFrames interactive video generation models",
+      "subheadline": "Source: Hugging Face",
+      "importanceScore": 90,
+      "durationSeconds": 32,
+      "source": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/apple/FastFrames-L",
+      "researchDesk": "",
+      "script": "Around the world. Apple's machine learning research division has released FastFrames, a family of open weights designed for real-time, interactive video generation. The release features a fourteen-billion parameter flagship model and a compact one-point-three billion parameter variant capable of rendering four-hundred-and-eighty-p video with sub-second latency. Apple also unveiled an optimized LingBot model for camera-conditioned control, demonstrating a sixteen-fold throughput increase over prior baselines. The architecture represents a strategic push by Apple toward on-device, interactive generative creative tools.",
+      "whyThisMatters": "Apple's machine learning research division has released FastFrames, a family of open weights designed for real-time, interactive video generation.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Apple releases FastFrames interactive video generation models",
+        "Hugging Face"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s7_cut1.jpg",
+          "badge": "CUPERTINO • APPLE PARK GLOBAL HEADQUARTERS",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s8_citibank_and_us_lenders_shift_fi",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Citibank and US lenders shift financial liability to AI agent users",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 29,
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+      "researchDesk": "",
+      "script": "Turning to the United States. Citibank has updated its digital banking agreements, explicitly establishing that customers who grant third-party AI agents access to their accounts bear sole legal liability for unauthorized transactions and compromised credentials. Reports indicate JPMorgan Chase, Bank of America, and PNC are implementing comparable indemnification frameworks. The legal updates arrive as consumers and businesses increasingly deploy autonomous agents to execute payments, highlighting regulatory friction around autonomous financial agency.",
+      "whyThisMatters": "Citibank has updated its digital banking agreements, explicitly establishing that customers who grant third-party AI agents access to their accounts bear sole legal liability for unauthorized transactions and compromised",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Citibank and US lenders shift financial liability to AI agent users",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s8_cut1.jpg",
+          "badge": "NEW YORK • CITIGROUP GLOBAL HEADQUARTERS 388 GREENWICH",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s9_us_commission_warns_of_pla_deman",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "US commission warns of PLA demand for advanced Nvidia compute",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 90,
+      "durationSeconds": 25,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
+      "researchDesk": "",
+      "script": "In China. The United States-China Economic and Security Review Commission reported in its annual assessment that Chinese entities continue active efforts to acquire advanced Nvidia accelerators for military artificial intelligence workloads. The review highlighted remote access via third-party data centers in Southeast Asia alongside export control enforcement challenges, while emphasizing that key domestic fabrication and specialized software gaps remain unresolved.",
+      "whyThisMatters": "The United States-China Economic and Security Review Commission reported in its annual assessment that Chinese entities continue active efforts to acquire advanced Nvidia accelerators for military artificial intelligence",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "US commission warns of PLA demand for advanced Nvidia compute",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s9_cut1.jpg",
+          "badge": "SANTA CLARA • NVIDIA CORPORATE HEADQUARTERS",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s10_siemens_deploys_eigen_industrial",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Siemens deploys Eigen industrial engineering agent in India",
+      "subheadline": "Source: India Today",
+      "importanceScore": 90,
+      "durationSeconds": 27,
+      "source": "India Today",
+      "sourceUrl": "https://www.indiatoday.in/technology/news/story/siemens-launches-eigen-engineering-agent-in-india-says-it-frees-up-humans-for-complex-work-3042061-2026-11-19",
+      "researchDesk": "",
+      "script": "Turning to India. Siemens has officially launched its Eigen Engineering Agent in India following successful industrial pilots across sixteen domestic manufacturing clients. The specialized agent operates within Siemens' Totally Integrated Automation portal to generate programmable logic controller code and human-machine interface designs autonomously. Pilot deployments demonstrated a fifty percent reduction in repetitive engineering cycles, signaling accelerating adoption of autonomous AI agents across India's heavy manufacturing sector.",
+      "whyThisMatters": "Siemens has officially launched its Eigen Engineering Agent in India following successful industrial pilots across sixteen domestic manufacturing clients.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Siemens deploys Eigen industrial engineering agent in India",
+        "India Today"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-19/s10_cut1.jpg",
+          "badge": "MUNICH • SIEMENS AG CORPORATE HEADQUARTERS",
+          "panDirection": "zoomIn"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. Microsoft Agent Framework hit by a PyPI supply-chain attack. Google launches Gemini 4 Neon frontier model. OpenAI deploys frontier models to redesign custom semiconductor chips. Tencent releases downloadable weights for Hy4 Flash model. South Korea proposes 4.6 trillion won sovereign AI initiative. Sarvam defends Token Factory amid debate over Indian sovereign AI.",
+    "items": [
+      "✓ Microsoft Agent Framework hit by a PyPI supply-c",
+      "✓ Google launches Gemini 4 Neon frontier model",
+      "✓ OpenAI deploys frontier models to redesign custo",
+      "✓ Tencent releases downloadable weights for Hy4 Fl",
+      "✓ South Korea proposes 4.6 trillion won sovereign ",
+      "✓ Sarvam defends Token Factory amid debate over In",
+      "✓ Apple releases FastFrames interactive video gene"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Microsoft Agent Framework hit by a PyPI suppl",
+    "Google launches Gemini 4 Neon frontier model",
+    "OpenAI deploys frontier models to redesign cu",
+    "Tencent releases downloadable weights for Hy4",
+    "South Korea proposes 4.6 trillion won soverei",
+    "Sarvam defends Token Factory amid debate over",
+    "Apple releases FastFrames interactive video g",
+    "Citibank and US lenders shift financial liabi",
+    "US commission warns of PLA demand for advance",
+    "Siemens deploys Eigen industrial engineering "
+  ],
+  "thumbnail": {
+    "date": "19 NOVEMBER 2026",
+    "headline": "MICROSOFT AGENT FRAMEWORK HIT BY A PYPI",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "MICROSOFT AGENT FRAMEWORK HIT BY A",
+      "GOOGLE LAUNCHES GEMINI 4 NEON",
+      "OPENAI DEPLOYS FRONTIER MODELS TO",
+      "TENCENT RELEASES DOWNLOADABLE"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Microsoft Agent Framework hit by a | Google launches Gemini 4 Neon | OpenAI deploys frontier models to | AI News 19 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 19 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-20",
   "stories": [
     {
       "story_id": "story_20261104_route_anything_a_study_of_model_and",
@@ -2866,6 +2866,321 @@
       "last_major_update": "2026-11-18",
       "update_phase": "initial_break",
       "impact_score": 66
+    },
+    {
+      "story_id": "story_20261119_1_microsoft_agent_framework_hit_by_",
+      "story_chain_id": "chain_global_1_microsoft_agent_fr",
+      "headline": "1. Microsoft Agent Framework hit by a supply-chain attack",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261119_data_center_electricity_use_could_d",
+      "story_chain_id": "chain_global_data_center_electric",
+      "headline": "Data center electricity use could double by 2030, IEA says",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261119_nvidia_interim_ceo_kress_tells_empl",
+      "story_chain_id": "chain_global_nvidia_interim_ceo_k",
+      "headline": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261119_palmer_luckey_thinks_china_is_thril",
+      "story_chain_id": "chain_global_palmer_luckey_thinks",
+      "headline": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_intuit_deepens_its_investment_in_in",
+      "story_chain_id": "chain_global_intuit_deepens_its_i",
+      "headline": "Intuit deepens its investment in India with the opening of its new Bengaluru campus",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/technology/intuit-deepens-its-investment-in-india-with-the-opening-of-its-new-bengaluru-campus/articleshow/135985794.cms"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_four_maryland_high_school_students_",
+      "story_chain_id": "chain_global_four_maryland_high_s",
+      "headline": "Four Maryland high school students sue after AI mistakes Doritos bag for gun",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/us-news/2026/nov/18/maryland-baltimore-county-doritos-gun-ai-lawsuit"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_the_seven_anthropic_founders_who_ar",
+      "story_chain_id": "chain_global_the_seven_anthropic_",
+      "headline": "The seven Anthropic founders who are about to become multi-billionaires",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_ai_demand_will_push_up_interest_rat",
+      "story_chain_id": "chain_global_ai_demand_will_push_",
+      "headline": "AI demand will push up interest rates around the world, IMF head warns",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_datacentres_to_create_70_more_carbo",
+      "story_chain_id": "chain_global_datacentres_to_creat",
+      "headline": "Datacentres to create 70% more carbon emissions by 2030, IEA report warns",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_amidst_fears_of_ai_cyberattacks_sat",
+      "story_chain_id": "chain_global_amidst_fears_of_ai_c",
+      "headline": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_jeveration_system_one_models_now_ge",
+      "story_chain_id": "chain_global_jeveration_system_on",
+      "headline": "Jeveration: System One Models Now Generate",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.24738"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_microsoft_agent_framework_hit_by_a_",
+      "story_chain_id": "chain_global_microsoft_agent_fram",
+      "headline": "Microsoft Agent Framework hit by a PyPI supply-chain attack",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261119_google_launches_gemini_4_neon_front",
+      "story_chain_id": "chain_global_google_launches_gemi",
+      "headline": "Google launches Gemini 4 Neon frontier model",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261119_openai_deploys_frontier_models_to_r",
+      "story_chain_id": "chain_global_openai_deploys_front",
+      "headline": "OpenAI deploys frontier models to redesign custom semiconductor chips",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://openai.com/index/advancing-chip-design-with-our-models/"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261119_tencent_releases_downloadable_weigh",
+      "story_chain_id": "chain_global_tencent_releases_dow",
+      "headline": "Tencent releases downloadable weights for Hy4 Flash model",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://cn.technode.com/post/2026-11-19/tencent-hy4-flash-model-weights/"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_south_korea_proposes_4_6_trillion_w",
+      "story_chain_id": "chain_global_south_korea_proposes",
+      "headline": "South Korea proposes 4.6 trillion won sovereign AI initiative",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://global.investnews.co.kr/news/south-korea-frontier-ai-budget-plan"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_sarvam_defends_token_factory_amid_d",
+      "story_chain_id": "chain_global_sarvam_defends_token",
+      "headline": "Sarvam defends Token Factory amid debate over Indian sovereign AI",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.moneycontrol.com/artificial-intelligence/sarvam-defends-serving-foreign-ai-models-on-token-factory-says-it-runs-on-privately-procured-gpus-article-14084558.html"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_apple_releases_fastframes_interacti",
+      "story_chain_id": "chain_global_apple_releases_fastf",
+      "headline": "Apple releases FastFrames interactive video generation models",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://huggingface.co/apple/FastFrames-L"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_citibank_and_us_lenders_shift_finan",
+      "story_chain_id": "chain_global_citibank_and_us_lend",
+      "headline": "Citibank and US lenders shift financial liability to AI agent users",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_us_commission_warns_of_pla_demand_f",
+      "story_chain_id": "chain_global_us_commission_warns_",
+      "headline": "US commission warns of PLA demand for advanced Nvidia compute",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261119_siemens_deploys_eigen_industrial_en",
+      "story_chain_id": "chain_global_siemens_deploys_eige",
+      "headline": "Siemens deploys Eigen industrial engineering agent in India",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://www.indiatoday.in/technology/news/story/siemens-launches-eigen-engineering-agent-in-india-says-it-frees-up-humans-for-complex-work-3042061-2026-11-19"
+      ],
+      "first_covered": "2026-11-19",
+      "last_major_update": "2026-11-19",
+      "update_phase": "initial_break",
+      "impact_score": 90
     }
   ],
   "entity_index": {}

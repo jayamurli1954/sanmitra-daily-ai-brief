@@ -1,14 +1,12 @@
-name: Cloud Fallback Production (PC asleep at 7 PM)
+name: Cloud Autonomous Production (Primary Broadcaster)
 
-# Production normally runs on the PC at 7:00 PM IST (run_nightly_production.bat).
-# When that run starts it pushes an empty "episode claim <date> by PC" commit.
-# This workflow wakes at about 7:45 PM IST: if nobody has claimed today's
-# episode, the PC was off or asleep, so the episode is produced here instead.
-# The cloud run pushes its own claim first, so a PC that wakes later skips.
+# Primary daily production runs automatically in GitHub Actions at 7:00 PM IST (13:30 UTC).
+# When this run starts it pushes an empty "episode claim <date> by cloud" commit.
+# The local PC checks for this claim and yields so duplicate videos are never produced.
 on:
   schedule:
-    # 14:15 UTC = 19:45 IST. GitHub often starts scheduled runs 10-30 min late.
-    - cron: '15 14 * * *'
+    # 13:30 UTC = 19:00 IST. GitHub starts scheduled runs within 0-15 min.
+    - cron: '30 13 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -26,7 +24,7 @@ concurrency:
 
 jobs:
   fallback:
-    name: Produce today's episode if the PC did not
+    name: Produce today's episode in the cloud
     runs-on: ubuntu-latest
     timeout-minutes: 240
     permissions:
@@ -46,12 +44,10 @@ jobs:
         run: |
           TODAY=$(TZ=Asia/Kolkata date +%Y-%m-%d)
           echo "today=$TODAY" >> "$GITHUB_OUTPUT"
-          # GitHub can start a scheduled run hours late. On 15 Nov 2026 it fired at
-          # 01:15 IST, claimed the NEXT day's episode, found no news and failed, and
-          # the PC then skipped its 7 PM run. Outside the evening window, do nothing.
+          # Scheduled window: 18:30 IST to 22:30 IST.
           NOW=$(TZ=Asia/Kolkata date +%H%M)
-          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$NOW" -lt 1930 ] || [ "$NOW" -ge 2230 ]; }; then
-            echo "[*] Scheduled run started at $NOW IST, outside 19:30-22:30 IST. Doing nothing."
+          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$NOW" -lt 1830 ] || [ "$NOW" -ge 2230 ]; }; then
+            echo "[*] Scheduled run started at $NOW IST, outside 18:30-22:30 IST. Doing nothing."
             echo "produce=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
@@ -150,11 +146,11 @@ jobs:
         run: |
           git config user.name "SanMitra Intelligence Bot"
           git config user.email "bot@sanmitratech.com"
-          git add prompts/ src/aibrief/data/visual_memory.json src/aibrief/data/story_memory_ledger.json || true
+          git add prompts/ src/aibrief/data/aired/ src/aibrief/data/visual_memory.json src/aibrief/data/story_memory_ledger.json || true
           if git diff --staged --quiet; then
             echo "[*] No memory changes to commit."
           else
-            git commit -m "Auto: episode memory for ${{ steps.claim.outputs.today }} (cloud fallback) [skip ci]"
+            git commit -m "Auto: episode memory for ${{ steps.claim.outputs.today }} (cloud autonomous) [skip ci]"
             git stash --quiet || true
             git pull --rebase origin main && git push origin HEAD:main
           fi

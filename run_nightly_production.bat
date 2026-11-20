@@ -43,14 +43,22 @@ if errorlevel 1 (
     git fetch origin main >> "%LOG%" 2>&1
 )
 git log origin/main -100 --format=%%s | findstr /C:"episode claim %EPISODE_DATE% by cloud" >nul
-if errorlevel 1 goto claimcheckdone
+if errorlevel 1 goto cloudnotclaimed
 REM The cloud claimed it. If it then failed it pushed a release: produce here after all.
 git log origin/main -100 --format=%%s | findstr /C:"episode release %EPISODE_DATE% by cloud" >nul
 if errorlevel 1 (
-    echo The cloud fallback already claimed %EPISODE_DATE%: skipping this run. >> "%LOG%"
+    echo [i] GitHub Actions (cloud autonomous) already claimed %EPISODE_DATE%: skipping local run. >> "%LOG%"
     exit /b 0
 )
-echo The cloud fallback claimed %EPISODE_DATE% and then failed: producing here. >> "%LOG%"
+echo The cloud claimed %EPISODE_DATE% and then released/failed: producing locally. >> "%LOG%"
+:cloudnotclaimed
+
+REM If the episode has already been aired / recorded, skip local run entirely
+if exist "src\aibrief\data\aired\%EPISODE_DATE%.json" (
+    echo [i] Episode %EPISODE_DATE% has already aired / recorded in src\aibrief\data\aired: skipping local run. >> "%LOG%"
+    exit /b 0
+)
+
 :claimcheckdone
 git log origin/main -100 --format=%%s | findstr /C:"episode claim %EPISODE_DATE% by PC" >nul
 if errorlevel 1 (
@@ -85,6 +93,14 @@ set RC=%ERRORLEVEL%
 REM 3. Monday's "AI for Accountants" LinkedIn post from the week's episodes
 REM    (writes only when the episode date is a Monday; never fails the run).
 python weekly_finance_post.py --date %EPISODE_DATE% >> "%LOG%" 2>&1
+
+if %RC% equ 0 (
+    git config user.name "SanMitra Intelligence Bot"
+    git config user.email "bot@sanmitratech.com"
+    git add prompts/ src/aibrief/data/aired/ src/aibrief/data/visual_memory.json src/aibrief/data/story_memory_ledger.json >> "%LOG%" 2>&1
+    git commit -m "Auto: episode memory for %EPISODE_DATE% (PC run) [skip ci]" >> "%LOG%" 2>&1
+    git push origin main >> "%LOG%" 2>&1
+)
 
 echo Finished at %TIME% with exit code %RC%. >> "%LOG%"
 exit /b %RC%
