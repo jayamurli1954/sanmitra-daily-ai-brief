@@ -171,12 +171,12 @@ PAYWALLED_DOMAINS = {
     "barrons.com", "businessinsider.com", "insider.com", "telegraph.co.uk", "straitstimes.com",
     "techinasia.com", "thetimes.co.uk", "thesundaytimes.co.uk", "fortune.com", "seekingalpha.com",
     "afr.com", "theaustralian.com.au", "smh.com.au", "theage.com.au", "theglobeandmail.com",
-    "lemonde.fr", "lesechos.fr", "hbr.org", "newscientist.com", "forbes.com", "law360.com", "semafor.com"
+    "lemonde.fr", "lesechos.fr", "hbr.org", "newscientist.com", "forbes.com", "law360.com", "semafor.com",
+    "inc42.com"
 }
-# The Economic Times is free except its ET Prime section; Inc42 is free except Plus.
+# The Economic Times is free except its ET Prime section.
 PAYWALLED_PATHS = {
     "economictimes.indiatimes.com": "/prime/",
-    "inc42.com": "/plus/",
 }
 
 
@@ -221,12 +221,41 @@ def is_non_english_url(url):
             or bool(_CJK.search(urllib_unquote(parsed.path))))
 
 
-def source_link_problem(url):
+ROUNDUP_TITLE_PATTERNS = [
+    r"\b(?:roundup|round-up|weekly\s+wrap|daily\s+wrap|week\s+in\s+review|month\s+in\s+review|year\s+in\s+review)\b",
+    r"\b(?:top\s+stories|top\s+news|what\s+to\s+know\s+today|things\s+to\s+know\s+today)\b",
+    r"\b(?:daily\s+briefing|morning\s+brief|evening\s+brief|news\s+in\s+brief|daily\s+digest|weekly\s+digest)\b",
+    r"(?:&|\band\b)\s+more\b",
+]
+
+ROUNDUP_URL_PATTERNS = [
+    r"(?:/|-)(?:roundups?|digests?|newsletters?|weekly-wrap|daily-briefing|top-stories)(?:/|-|$)",
+    r"-(?:and-)?more/?$",
+]
+
+
+def is_roundup_or_digest(title="", url=""):
+    """True when an article is a multi-topic roundup, digest, newsletter or bundle
+    (e.g., 'X, Y & More' or '/buzz/roundup') rather than a single dedicated news story."""
+    t = (title or "").strip()
+    u = (url or "").strip().lower()
+    for pattern in ROUNDUP_TITLE_PATTERNS:
+        if re.search(pattern, t, re.IGNORECASE):
+            return True
+    for pattern in ROUNDUP_URL_PATTERNS:
+        if re.search(pattern, u, re.IGNORECASE):
+            return True
+    return False
+
+
+def source_link_problem(url, title=""):
     """Why a source link cannot go out to viewers, or "" when it is fine."""
     if is_paywalled_url(url):
         return "subscription site"
     if is_non_english_url(url):
         return "not in English"
+    if is_roundup_or_digest(title, url):
+        return "multi-topic roundup or digest"
     return ""
 
 

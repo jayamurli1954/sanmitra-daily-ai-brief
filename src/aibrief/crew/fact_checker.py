@@ -22,7 +22,7 @@ from src.aibrief.paywall_detector import find_free_alternative, has_paywall_mark
 from src.aibrief.source_authority import is_company_source, is_opinion_url, is_recognised_source, score_source
 from src.aibrief.url_cleaner import clean_and_shorten_url
 
-from .text_utils import contains_any, count_matches, extractive_summary, is_recent, same_event, ungrounded_claims
+from .text_utils import contains_any, count_matches, extractive_summary, is_recent, is_roundup_or_digest, same_event, ungrounded_claims
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("FactChecker")
@@ -159,6 +159,8 @@ class FactChecker:
             return self._reject(story, "speculative or rumour headline")
         if contains_any(title, FEATURE_MARKERS):
             return self._reject(story, "feature, listicle or explainer rather than news")
+        if is_roundup_or_digest(title, url):
+            return self._reject(story, "multi-topic roundup, digest or '& more' bundle rather than a single dedicated story")
 
         authority, _tier, outlet = score_source(url)
         text = f"{title} {story.get('summary', '')}"

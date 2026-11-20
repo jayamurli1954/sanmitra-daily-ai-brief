@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from build_episode_from_prompt import extract_attribution, parse_markdown_prompt
 from src.aibrief.breaking_wire import AI_PATTERN, BREAKING_PATTERN, WIRE_FEEDS
-from src.aibrief.crew.text_utils import is_non_english_url, is_stock_market_story, source_link_problem
+from src.aibrief.crew.text_utils import is_non_english_url, is_roundup_or_digest, is_stock_market_story, source_link_problem
 
 BODY = ("The company said the system is now in use across several states. Officials described the rollout as a "
         "first step and said more details would follow next month after a review of early results and costs.")
@@ -28,7 +28,16 @@ class EnglishLinksTest(unittest.TestCase):
     def test_link_problems(self):
         self.assertEqual(source_link_problem("https://www.straitstimes.com/tech/singapore-ai-pilot"), "subscription site")
         self.assertEqual(source_link_problem("https://news.aibase.cn/news/31918"), "not in English")
+        self.assertEqual(source_link_problem("https://inc42.com/buzz/indias-anthropic-question-sharechats-turnaround-more/"), "subscription site")
+        self.assertEqual(source_link_problem("https://example.com/ai-weekly-roundup"), "multi-topic roundup or digest")
         self.assertEqual(source_link_problem("https://techcrunch.com/2026/10/28/korea-cyberattacks/"), "")
+
+    def test_roundup_detection(self):
+        self.assertTrue(is_roundup_or_digest("India's Anthropic Question, ShareChat's Turnaround & More", "https://inc42.com/buzz/test/"))
+        self.assertTrue(is_roundup_or_digest("AI Weekly Roundup: Top Stories of the Week", "https://example.com/news/"))
+        self.assertTrue(is_roundup_or_digest("Single Story", "https://example.com/buzz/some-news-and-more/"))
+        self.assertFalse(is_roundup_or_digest("Soket AI launches EKA-1 foundation model with 4 million dollar backing",
+                                             "https://analyticsindiamag.com/ai-news/soket-ai-secures-usd-4-million/"))
 
     def test_english_also_link_replaces_a_chinese_source(self):
         srcs, url, _ = extract_attribution("Head\nSource: AIbase https://news.aibase.cn/news/31918\n"
@@ -57,7 +66,7 @@ class StockMarketTest(unittest.TestCase):
 class WireFeedsTest(unittest.TestCase):
     def test_free_china_asia_india_feeds(self):
         sources = {f["source"] for f in WIRE_FEEDS}
-        self.assertTrue({"TechNode", "Pandaily", "KrASIA", "Inc42"} <= sources)
+        self.assertTrue({"TechNode", "Pandaily", "KrASIA", "Analytics India Magazine"} <= sources)
 
     def test_model_releases_count_as_ai_breaks(self):
         lead = "Ant Group Open-Sources Ling-3.1-flash-1019, a language model tuned for personal agents"

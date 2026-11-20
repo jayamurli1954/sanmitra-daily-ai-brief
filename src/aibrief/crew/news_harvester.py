@@ -71,7 +71,7 @@ FEEDS = [
     {"outlet": "VentureBeat", "url": "https://venturebeat.com/category/ai/feed/", "region": "USA"},
     {"outlet": "The Guardian", "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss", "region": "WORLD"},
     {"outlet": "The Economic Times", "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/rssfeeds/81580397.cms", "region": "INDIA"},
-    {"outlet": "Inc42", "url": "https://inc42.com/feed/", "region": "INDIA"},
+    {"outlet": "Analytics India Magazine", "url": "https://analyticsindiamag.com/feed/", "region": "INDIA"},
     {"outlet": "The Times of India", "url": "https://timesofindia.indiatimes.com/rssfeeds/66949542.cms", "region": "INDIA"},
     {"outlet": "The Korea Times", "url": "https://www.koreatimes.co.kr/www/rss/tech.xml", "region": "ASIA"},
     {"outlet": "The Japan Times", "url": "https://www.japantimes.co.jp/feed/category/business/tech/", "region": "ASIA"},

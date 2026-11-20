@@ -25,7 +25,7 @@ import sys
 from urllib.parse import urlparse
 
 from src.aibrief.crew.fact_checker import MIN_EPISODE_STORIES, is_research_desk
-from src.aibrief.crew.text_utils import is_paywalled_url, same_event, unsupported_quantities
+from src.aibrief.crew.text_utils import is_paywalled_url, is_roundup_or_digest, same_event, unsupported_quantities
 from src.aibrief.url_cleaner import is_shortener_host
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -268,6 +268,12 @@ def validate(date_str: str) -> bool:
             problems.append(
                 f"sourceUrl points to a subscription/paywalled site: '{source_url}'. "
                 "Paywalled links are prohibited; an open free alternative must be cited or the story dropped."
+            )
+
+        if is_roundup_or_digest(headline, source_url):
+            problems.append(
+                f"story '{headline}' is a multi-topic roundup or digest rather than a single dedicated story. "
+                "Multi-topic bundles are prohibited so viewers can find the exact story at the link."
             )
 
         if not source_appears_in_prompt(source, prompt_text):

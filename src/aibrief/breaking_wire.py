@@ -56,7 +56,7 @@ WIRE_FEEDS = [
     {"bureau": "CHINA", "source": "TechNode", "url": "https://technode.com/feed/"},
     {"bureau": "CHINA", "source": "Pandaily", "url": "https://pandaily.com/feed/"},
     {"bureau": "ASIA", "source": "KrASIA", "url": "https://kr-asia.com/feed"},
-    {"bureau": "INDIA", "source": "Inc42", "url": "https://inc42.com/feed/"},
+    {"bureau": "INDIA", "source": "Analytics India Magazine", "url": "https://analyticsindiamag.com/feed/"},
     {"bureau": "INDIA", "source": "The Economic Times", "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms"},
 ]
 

@@ -81,3 +81,17 @@ Never use these exhausted stock visuals or unrelated assets:
     2. Check `src/aibrief/data/aired/` and `story_memory_ledger.json`.
     3. Ensure NO candidate story matches any story aired in the past 14 days or in any unreleased cloud claim. Zero duplicate stories permitted.
 
+---
+
+## 📰 6. SINGLE-TOPIC NEWS INTEGRITY & STRICT ZERO-PAYWALL POLICY
+
+* **Dedicated Single-Topic Articles ONLY**:
+  - Every featured story and its cited source link MUST be a single, dedicated news article focusing on one verified announcement, event, or report.
+  - **Strictly Banned Roundup / Digest Articles**: Never use multi-topic roundups, digests, newsletters, wraps, or bundled articles (e.g., "... & More", "Daily Brief", "Weekly Wrap", "/buzz/roundup", "Top Stories"). Viewers must be able to click the source link and land directly on the exact story without having to search or sift through unrelated news.
+* **Strict Zero-Paywall / Zero-Subscription Policy**:
+  - All source links cited in the broadcast, YouTube description, and LinkedIn articles MUST be 100% free and open-access.
+  - Any outlet gating content behind subscriptions or leaky paywalls (e.g., `inc42.com`, `techinasia.com`, `bloomberg.com`, `wsj.com`, `thehindu.com`, `economictimes.indiatimes.com/prime/`) is strictly prohibited. If an open alternative cannot be found, the story must be dropped.
+* **Story Quota & URL Cleanliness**:
+  - Exactly minimum 10 news stories (excluding the Research Desk paper) = 11 total stories.
+  - All links must be stripped of tracking/UTM parameters and canonically shortened.
+

@@ -32,13 +32,12 @@ PAYWALLED_DOMAINS = {
     "thesundaytimes.co.uk", "fortune.com", "seekingalpha.com", "afr.com",
     "theaustralian.com.au", "smh.com.au", "theage.com.au", "theglobeandmail.com",
     "lemonde.fr", "lesechos.fr", "hbr.org", "newscientist.com", "techinasia.com",
-    "forbes.com", "law360.com", "semafor.com"
+    "inc42.com", "forbes.com", "law360.com", "semafor.com"
 }
 
 # Specific paths within otherwise free domains that require paid subscriptions
 PAYWALLED_PATHS = {
     "economictimes.indiatimes.com": "/prime/",
-    "inc42.com": "/plus/",
 }
 
 # Phrases found inside article text indicating a paywall or subscriber gate
