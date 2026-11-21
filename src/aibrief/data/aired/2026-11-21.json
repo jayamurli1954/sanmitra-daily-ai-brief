@@ -1,0 +1,384 @@
+{
+  "weekly": false,
+  "date": "2026-11-21",
+  "formattedDate": "21 November 2026",
+  "title": "Databricks in early talks to raise | Machine Gods: Anthropic's early | Daniel Ek backs AI researcher’s | AI News 21 November 2026",
+  "intro": {
+    "durationSeconds": 60,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 21 November 2026. First, today's top headlines: Databricks in early talks to raise funds at 225 billion dollars valuation: WSJ. Machine Gods: Anthropic's early days. Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building. International talks on controlling use of autonomous weapons collapse. ‘Little room for error’: what a debt-laden cloud computing company says about the AI boom. In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest. ‘I’m opening the cage of a monster’: Taxi Driver scriptwriter Paul Schrader on unleashing AI at 80. Oracle says OpenAI infrastructure deal is fully funded after final capital raise. Telecoms ramp up AI investment amid questions over returns. Nvidia's accounting is a focus of US SEC investigation, sources say. And now, the news in brief.",
+    "headlines": [
+      "Databricks in early talks to raise funds at 225 billion dollars valuation: WSJ",
+      "Machine Gods: Anthropic's early days",
+      "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "International talks on controlling use of autonomous weapons collapse",
+      "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+      "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
+      "‘I’m opening the cage of a monster’: Taxi Driver scriptwriter Paul Schrader on unleashing AI at 80",
+      "Oracle says OpenAI infrastructure deal is fully funded after final capital raise",
+      "Telecoms ramp up AI investment amid questions over returns",
+      "Nvidia's accounting is a focus of US SEC investigation, sources say"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_databricks_in_early_talks_to_rai",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Databricks in early talks to raise funds at 225 billion dollars valuation: WSJ",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 99,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/articleshow/136044631.cms",
+      "researchDesk": "",
+      "script": "Our lead story today. Databricks is in preliminary discussions to raise several billion dollars in fresh funding. The deal would put the value of the data and artificial intelligence software firm at roughly 225 billion dollars , according to The Economic Times, which cited a Wall Street Journal report on Friday based on people familiar with the matter.",
+      "whyThisMatters": "Databricks is in preliminary discussions to raise several billion dollars in fresh funding.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Databricks in early talks to raise funds at 225 billion dollars valuation: WSJ",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-21/s1_cut1.jpg",
+          "badge": "INDIA • SPECIAL REPORT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s2_machine_gods_anthropic_s_early_d",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Machine Gods: Anthropic's early days",
+      "subheadline": "Source: NPR",
+      "importanceScore": 95,
+      "durationSeconds": 55,
+      "source": "NPR",
+      "sourceUrl": "https://is.gd/l8RhBG",
+      "researchDesk": "",
+      "script": "Turning to the United States. After Anthropic completed what NPR describes as the biggest initial public offering ever, the broadcaster's new podcast Machine Gods is looking back at the company's early years. The show, which covers the AI revolution, is hosted by Kevin Roose and Casey Newton. They describe a time just three years ago when Anthropic had fewer than 200 employees working in a crowded office, with no certain future. In those days, the staff were intensely focused on AI safety and treated making money as a secondary concern. The hosts look at why almost nobody expected the company to succeed back then. That start contrasts sharply with this week's record stock market debut. The episode opens with a disclosure from Newton before the hosts look back at the company's origins.",
+      "whyThisMatters": "After Anthropic completed what NPR describes as the biggest initial public offering ever, the broadcaster's new podcast Machine Gods is looking back at the company's early years.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Machine Gods: Anthropic's early days",
+        "NPR"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_network.jpg",
+          "badge": "USA • SPECIAL REPORT",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s3_daniel_ek_backs_ai_researcher_s",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 51,
+      "source": "TechCrunch",
+      "sourceUrl": "https://is.gd/Oz7SUW",
+      "researchDesk": "",
+      "script": "In other news. Spotify founder Daniel Ek has invested in Europa Fusion, a low-profile UK startup that is trying a different way to develop a fusion power plant, TechCrunch reports. Bloomberg was the first to report Ek's involvement. The company was founded in February by AI researcher Nantas Nardelli. Sources told TechCrunch that he had been working on the idea for some time before that, speaking anonymously because the details have not been made public. Nardelli has a long background in artificial intelligence, having worked at Google DeepMind, Facebook AI Research and Microsoft Research Cambridge. Most recently, he led machine learning at Pacific Fusion, a fusion startup based in Fremont, California, which has just started building a demonstration facility in New Mexico.",
+      "whyThisMatters": "Spotify founder Daniel Ek has invested in Europa Fusion, a low-profile UK startup that is trying a different way to develop a fusion power plant, TechCrunch reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re buildi",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
+          "badge": "USA • SPECIAL REPORT",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s4_international_talks_on_controlli",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "International talks on controlling use of autonomous weapons collapse",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 44,
+      "source": "The Guardian",
+      "sourceUrl": "https://is.gd/3WO8Ri",
+      "researchDesk": "",
+      "script": "Around the world. An effort to open negotiations on a legally binding international treaty on autonomous weapons has failed, the Guardian reports. The talks took place over a week at the Review Conference on Conventional Weapons, held at the United Nations in Geneva. After negotiating through the night, delegates gave up shortly before 5am on Saturday because they could not overcome objections from Russia, which was accused of filibustering. A large majority of countries had wanted a mandate that would lead to a binding treaty on AI warfare. But decisions at the conference require consensus, so delegates had to settle for a much weaker option.",
+      "whyThisMatters": "An effort to open negotiations on a legally binding international treaty on autonomous weapons has failed, the Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "International talks on controlling use of autonomous weapons collapse",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_network.jpg",
+          "badge": "WORLD • SPECIAL REPORT",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s5_little_room_for_error_what_a_de",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 37,
+      "source": "The Guardian",
+      "sourceUrl": "https://is.gd/A8qYcK",
+      "researchDesk": "",
+      "script": "Elsewhere. CoreWeave, a cloud computing company carrying heavy debt, has been called the poster child of an AI bubble. The Guardian reports that the company represents an increasingly risky business model behind the race to build datacentres. The piece compares these huge buildings, packed with costly hardware that runs artificial intelligence, to the pyramids of ancient Egypt. Construction is slow, local communities in many places are angry about the facilities, and it is still unclear whether the technology inside them will make money for the people paying for it.",
+      "whyThisMatters": "CoreWeave, a cloud computing company carrying heavy debt, has been called the poster child of an AI bubble.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "‘Little room for error’: what a debt-laden cloud computing company says about th",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
+          "badge": "WORLD • SPECIAL REPORT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s6_in_a_year_of_ai_solving_maths_pr",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
+      "subheadline": "Source: BBC",
+      "importanceScore": 90,
+      "durationSeconds": 55,
+      "source": "BBC",
+      "sourceUrl": "https://is.gd/h46Iyo",
+      "researchDesk": "",
+      "script": "Also today. A mathematician who works at Anthropic says he used the company's AI chatbot to prove the Riemann hypothesis, the BBC reports. Levent Alpöge made the claim on Friday, one day after Anthropic's shares began trading on the US stock market. He said he spent about six weeks working with the Claude chatbot to build a detailed proof of the famous problem. If the proof holds up, it would rank among the most important in the history of mathematics. Alpöge called it \"one dawn across science of something far greater.\" The announcement comes after months in which AI companies, OpenAI among them, have announced dozens of solutions to difficult problems in advanced mathematics that scholars had failed to solve for decades. The proof has not yet been confirmed as correct.",
+      "whyThisMatters": "A mathematician who works at Anthropic says he used the company's AI chatbot to prove the Riemann hypothesis, the BBC reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "In a year of AI solving maths problems, an Anthropic worker says he may have cra",
+        "BBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_network.jpg",
+          "badge": "WORLD • SPECIAL REPORT",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s7_i_m_opening_the_cage_of_a_monst",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "‘I’m opening the cage of a monster’: Taxi Driver scriptwriter Paul Schrader on unleashing AI at 80",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 57,
+      "source": "The Guardian",
+      "sourceUrl": "https://is.gd/QjxyuE",
+      "researchDesk": "",
+      "script": "In other news. Paul Schrader, the 80-year-old filmmaker behind Taxi Driver, Raging Bull and American Gigolo, has started using artificial intelligence in his work, the Guardian reports. Speaking over white wine at a restaurant in Greenwich Village, he said that using the technology felt like opening the cage of a monster, one he has no leash to control. Over a long career, Schrader has worked with Martin Scorsese, Robert De Niro, Sigourney Weaver and Richard Gere. He has written and directed dozens of internationally praised films across half a century. Hollywood's guilds have generally opposed using AI to create synthetic actors, special effects or screenplays, but Schrader is using it for all three. He believes AI will inevitably take over, both in cinema, the art form he has spent his life on, and across humanity more broadly.",
+      "whyThisMatters": "Paul Schrader, the 80-year-old filmmaker behind Taxi Driver, Raging Bull and American Gigolo, has started using artificial intelligence in his work, the Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "‘I’m opening the cage of a monster’: Taxi Driver scriptwriter Paul Schrader on u",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
+          "badge": "WORLD • SPECIAL REPORT",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s8_oracle_says_openai_infrastructur",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Oracle says OpenAI infrastructure deal is fully funded after final capital raise",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 48,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/articleshow/136044027.cms",
+      "researchDesk": "",
+      "script": "Next. Oracle said on Friday that its infrastructure agreement with OpenAI is now fully financed, after a final round of fundraising earlier this month. Oracle's shares rose as much as 3.3% in after-hours trading, according to The Economic Times. The announcement comes after investors questioned how much capital Oracle would need to expand its AI data centers, and how heavily it was coming to depend on OpenAI. The two companies plan to build 4.5 gigawatts of new data-center capacity in the US, in addition to the first Stargate site in Abilene, Texas. In a post on X, Oracle said the funding it set out at its Investor Day, including vendor financing, is already in place.",
+      "whyThisMatters": "Oracle said on Friday that its infrastructure agreement with OpenAI is now fully financed, after a final round of fundraising earlier this month.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Oracle says OpenAI infrastructure deal is fully funded after final capital raise",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_network.jpg",
+          "badge": "WORLD • SPECIAL REPORT",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s9_telecoms_ramp_up_ai_investment_a",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Telecoms ramp up AI investment amid questions over returns",
+      "subheadline": "Source: The Korea Times",
+      "importanceScore": 90,
+      "durationSeconds": 51,
+      "source": "The Korea Times",
+      "sourceUrl": "https://is.gd/EQmb7q",
+      "researchDesk": "",
+      "script": "Elsewhere. South Korea's three main telecom operators are spending more as they move into AI data centers, though it is unclear whether the investment will pay off, The Korea Times reports. SK Telecom, KT and LG Uplus spent a combined 3.68 trillion won on capital projects in the first nine months of this year, up 13.7 percent on a year earlier. LG Uplus spent 569.8 billion won on a standalone basis in the third quarter, an increase of 30.1 percent. It is building a 200-megawatt, four-building complex in Paju. The first 50-megawatt building is expected to be finished by next June, and all four are due to be running by 2028. KT's spending, including major affiliates, rose 20.3 percent to 1.599 trillion won.",
+      "whyThisMatters": "South Korea's three main telecom operators are spending more as they move into AI data centers, though it is unclear whether the investment will pay off, The Korea Times reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Telecoms ramp up AI investment amid questions over returns",
+        "The Korea Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
+          "badge": "WORLD • SPECIAL REPORT",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s10_nvidia_s_accounting_is_a_focus_o",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Nvidia's accounting is a focus of US SEC investigation, sources say",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 60,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/articleshow/136043101.cms",
+      "researchDesk": "",
+      "script": "Turning to the United States. The US Securities and Exchange Commission is examining Nvidia's accounting, according to two people briefed on the matter, adding to the legal problems facing the chipmaker. The Economic Times carried the report, which comes from Reuters. Earlier, on Tuesday, the Wall Street Journal reported that the regulator was investigating Nvidia but said it could not find out what the inquiry was about. The two sources spoke on condition of anonymity because the matter is confidential. They said SEC enforcement staff are looking into possible accounting problems at the company. A spokesperson for the SEC declined to comment, and Nvidia did not immediately reply to requests for comment. Nvidia's shares fell further after the details came out, and were down about 13% on Friday, according to LSEG data. Before the report was published, the stock had been down more than 6%.",
+      "whyThisMatters": "The US Securities and Exchange Commission is examining Nvidia's accounting, according to two people briefed on the matter, adding to the legal problems facing the chipmaker.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nvidia's accounting is a focus of US SEC investigation, sources say",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_network.jpg",
+          "badge": "USA • SPECIAL REPORT",
+          "panDirection": "zoomOut"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. Databricks in early talks to raise funds at 225 billion dollars valuation: WSJ. Machine Gods: Anthropic's early days. Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building. International talks on controlling use of autonomous weapons collapse. ‘Little room for error’: what a debt-laden cloud computing company says about the AI boom. In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest.",
+    "items": [
+      "✓ Databricks in early talks to raise funds at 225 ",
+      "✓ Machine Gods: Anthropic's early days",
+      "✓ Daniel Ek backs AI researcher’s fusion power sta",
+      "✓ International talks on controlling use of autono",
+      "✓ ‘Little room for error’: what a debt-laden cloud",
+      "✓ In a year of AI solving maths problems, an Anthr",
+      "✓ ‘I’m opening the cage of a monster’: Taxi Driver"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Databricks in early talks to raise funds at 2",
+    "Machine Gods: Anthropic's early days",
+    "Daniel Ek backs AI researcher’s fusion power ",
+    "International talks on controlling use of aut",
+    "‘Little room for error’: what a debt-laden cl",
+    "In a year of AI solving maths problems, an An",
+    "‘I’m opening the cage of a monster’: Taxi Dri",
+    "Oracle says OpenAI infrastructure deal is ful",
+    "Telecoms ramp up AI investment amid questions",
+    "Nvidia's accounting is a focus of US SEC inve"
+  ],
+  "thumbnail": {
+    "date": "21 NOVEMBER 2026",
+    "headline": "DATABRICKS IN EARLY TALKS TO RAISE FUNDS AT",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "DATABRICKS IN EARLY TALKS TO RAISE",
+      "MACHINE GODS: ANTHROPIC'S EARLY DAYS",
+      "DANIEL EK BACKS AI RESEARCHER’S",
+      "INTERNATIONAL TALKS ON CONTROLLING"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Databricks in early talks to raise | Machine Gods: Anthropic's early | Daniel Ek backs AI researcher’s | AI News 21 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 21 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

@@ -1,217 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-11-20",
+  "last_updated": "2026-11-21",
   "stories": [
-    {
-      "story_id": "story_20261106_russia_and_us_seek_to_block_plan_fo",
-      "story_chain_id": "chain_global_russia_and_us_seek_t",
-      "headline": "Russia and US seek to block plan for binding rules on autonomous weapons",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/world/2026/nov/06/autonomous-weapons-ai-russia-us-binding-rules"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 83
-    },
-    {
-      "story_id": "story_20261106_nigel_farage_s_exit_from_the_telegr",
-      "story_chain_id": "chain_global_nigel_farage_s_exit_",
-      "headline": "Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sobering side to this story | Jane Martinson",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/commentisfree/2026/nov/06/nigel-farage-telegraph-story-newspaper-ai"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261106_chinese_ai_lab_moonshot_turned_to_e",
-      "story_chain_id": "chain_global_chinese_ai_lab_moons",
-      "headline": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 72
-    },
-    {
-      "story_id": "story_20261106_google_sued_over_suicide_related_ai",
-      "story_chain_id": "chain_global_google_sued_over_sui",
-      "headline": "Google sued over suicide-related AI chats on school computer",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-sued-over-suicide-related-ai-chats-on-school-computer/articleshow/135591823.cms"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
-    {
-      "story_id": "story_20261106_meta_pauses_planned_terms_updates_k",
-      "story_chain_id": "chain_global_meta_pauses_planned_",
-      "headline": "Meta pauses planned terms updates, keeps existing rules in place",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/technology/meta-pauses-planned-terms-updates-keeps-existing-rules-in-place/articleshow/135608532.cms"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 71
-    },
-    {
-      "story_id": "story_20261106_cashfree_launches_checkout_for_agen",
-      "story_chain_id": "chain_global_cashfree_launches_ch",
-      "headline": "Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://inc42.com/buzz/cashfree-launches-checkout-for-agents-to-enable-ai-led-payments/"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 70
-    },
-    {
-      "story_id": "story_20261106_china_unveils_an_ai_agent_identity_",
-      "story_chain_id": "chain_global_china_unveils_an_ai_",
-      "headline": "China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign Self-Discipline Pact",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://pandaily.com/wuzhen-ai-agent-identity-registration-resolution-platform-self-discipline-convention"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 69
-    },
-    {
-      "story_id": "story_20261106_cainiao_opens_its_global_warehouse_",
-      "story_chain_id": "chain_global_cainiao_opens_its_gl",
-      "headline": "Cainiao Opens Its Global Warehouse Network as a Real-World Training Ground for Embodied AI",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://pandaily.com/cainiao-global-warehouse-network-embodied-ai-robot-training-tech-export-three-day-delivery"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 66
-    },
-    {
-      "story_id": "story_20261106_openai_launches_gpt_6_cyber_and_rat",
-      "story_chain_id": "chain_global_openai_launches_gpt_",
-      "headline": "OpenAI launches GPT-6 Cyber and rates it \"Critical\" for cyber risk",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://thenextweb.com/news/openai-gpt-6-cyber-launch-firefox-linux-daybreak-red"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261106_metr_finds_ai_is_helping_anthropic_",
-      "story_chain_id": "chain_global_metr_finds_ai_is_hel",
-      "headline": "METR finds AI is helping Anthropic improve its models about twice as fast",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261106_china_cracks_down_on_ai_fakes_that_",
-      "story_chain_id": "chain_global_china_cracks_down_on",
-      "headline": "China cracks down on AI fakes that impersonate celebrities",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://www.chinadaily.com.cn/a/202611/06/WS6aed9477e4b03ebf8519ad91.html"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261106_india_s_cert_in_asks_organisations_",
-      "story_chain_id": "chain_global_india_s_cert_in_asks",
-      "headline": "India's CERT-In asks organisations to audit what their AI agents can access and do",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://timesofindia.indiatimes.com/business/india-business/cert-in-seeks-checks-on-access-of-ai-agents/articleshow/135589474.cms"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261106_nato_opens_a_counter_drone_marketpl",
-      "story_chain_id": "chain_global_nato_opens_a_counter",
-      "headline": "NATO opens a counter-drone marketplace as Shield AI agrees to buy Echodyne",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.aerotime.aero/articles/nato-counter-drone-marketplace-16-systems"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261106_vflash_fast_accurate_visual_plannin",
-      "story_chain_id": "chain_global_vflash_fast_accurate",
-      "headline": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://arxiv.org/abs/2611.08449"
-      ],
-      "first_covered": "2026-11-06",
-      "last_major_update": "2026-11-06",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
     {
       "story_id": "story_20261107_hundreds_of_artex_ai_hacking_tools_",
       "story_chain_id": "chain_global_hundreds_of_artex_ai",
@@ -2924,6 +2714,171 @@
       ],
       "first_covered": "2026-11-20",
       "last_major_update": "2026-11-20",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261121_databricks_in_early_talks_to_raise_",
+      "story_chain_id": "chain_global_databricks_in_early_",
+      "headline": "Databricks in early talks to raise funds at $225 billion valuation: WSJ",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/startups/databricks-in-early-talks-to-raise-funds-at-225-billion-valuation-wsj/articleshow/136044631.cms"
+      ],
+      "first_covered": "2026-11-21",
+      "last_major_update": "2026-11-21",
+      "update_phase": "initial_break",
+      "impact_score": 83
+    },
+    {
+      "story_id": "story_20261121_international_talks_on_controlling_",
+      "story_chain_id": "chain_global_international_talks_",
+      "headline": "International talks on controlling use of autonomous weapons collapse",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse"
+      ],
+      "first_covered": "2026-11-21",
+      "last_major_update": "2026-11-21",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261121_little_room_for_error_what_a_debt_l",
+      "story_chain_id": "chain_global_little_room_for_erro",
+      "headline": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://www.theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom"
+      ],
+      "first_covered": "2026-11-21",
+      "last_major_update": "2026-11-21",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261121_databricks_in_early_talks_to_raise_",
+      "story_chain_id": "chain_global_databricks_in_early_",
+      "headline": "Databricks in early talks to raise funds at 225 billion dollars valuation: WSJ",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/articleshow/136044631.cms"
+      ],
+      "first_covered": "2026-11-21",
+      "last_major_update": "2026-11-21",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261121_machine_gods_anthropic_s_early_days",
+      "story_chain_id": "chain_global_machine_gods_anthrop",
+      "headline": "Machine Gods: Anthropic's early days",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://is.gd/l8RhBG"
+      ],
+      "first_covered": "2026-11-21",
+      "last_major_update": "2026-11-21",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261121_daniel_ek_backs_ai_researcher_s_fus",
+      "story_chain_id": "chain_global_daniel_ek_backs_ai_r",
+      "headline": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://is.gd/Oz7SUW"
+      ],
+      "first_covered": "2026-11-21",
+      "last_major_update": "2026-11-21",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261121_in_a_year_of_ai_solving_maths_probl",
+      "story_chain_id": "chain_global_in_a_year_of_ai_solv",
+      "headline": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://is.gd/h46Iyo"
+      ],
+      "first_covered": "2026-11-21",
+      "last_major_update": "2026-11-21",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261121_i_m_opening_the_cage_of_a_monster_t",
+      "story_chain_id": "chain_global_i_m_opening_the_cage",
+      "headline": "‘I’m opening the cage of a monster’: Taxi Driver scriptwriter Paul Schrader on unleashing AI at 80",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://is.gd/QjxyuE"
+      ],
+      "first_covered": "2026-11-21",
+      "last_major_update": "2026-11-21",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261121_oracle_says_openai_infrastructure_d",
+      "story_chain_id": "chain_global_oracle_says_openai_i",
+      "headline": "Oracle says OpenAI infrastructure deal is fully funded after final capital raise",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/articleshow/136044027.cms"
+      ],
+      "first_covered": "2026-11-21",
+      "last_major_update": "2026-11-21",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261121_telecoms_ramp_up_ai_investment_amid",
+      "story_chain_id": "chain_global_telecoms_ramp_up_ai_",
+      "headline": "Telecoms ramp up AI investment amid questions over returns",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://is.gd/EQmb7q"
+      ],
+      "first_covered": "2026-11-21",
+      "last_major_update": "2026-11-21",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261121_nvidia_s_accounting_is_a_focus_of_u",
+      "story_chain_id": "chain_global_nvidia_s_accounting_",
+      "headline": "Nvidia's accounting is a focus of US SEC investigation, sources say",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/articleshow/136043101.cms"
+      ],
+      "first_covered": "2026-11-21",
+      "last_major_update": "2026-11-21",
       "update_phase": "initial_break",
       "impact_score": 90
     }
