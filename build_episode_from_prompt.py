@@ -26,7 +26,7 @@ from src.aibrief.crew.fact_checker import (
 )
 from src.aibrief.crew.text_utils import is_election_story, same_event, source_link_problem, split_sentences
 from src.aibrief.paywall_detector import find_free_alternative, is_paywalled_url
-from src.aibrief.source_authority import is_company_source
+from src.aibrief.source_authority import is_company_source, score_source
 from src.aibrief.url_cleaner import clean_and_shorten_url
 
 if sys.stdout.encoding != 'utf-8':
@@ -107,7 +107,7 @@ def clean_text_for_broadcast(text: str) -> str:
         magnitude = _MAGNITUDE_WORDS.get(raw_mag, raw_mag)
         return f"{number} {magnitude} {word}".replace("  ", " ").strip() + " "
 
-    _MAG_PATTERN = r'(billion|million|trillion|crore|lakh|bn|mn|tn|cr|lk|[bmtk])?'
+    _MAG_PATTERN = r'(?:(billion|million|trillion|crore|lakh|bn|mn|tn|cr|lk|[bmtk])\b)?'
     text = re.sub(
         rf'₹\s*([\d,.]+)\s*{_MAG_PATTERN}',
         lambda m: _currency_to_words(m, "rupees"),
@@ -270,10 +270,17 @@ def extract_attribution(chunk: str) -> tuple:
         raw_src = src_match.group(1).strip()
         source_url = _line_url(chunk, src_match)
         clean_src = re.sub(r"https?://\S+", "", raw_src)
-        clean_src = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"", clean_src)
-        clean_src = re.sub(r"\[([^\]]+)\]", r"", clean_src)
+        clean_src = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", clean_src)
+        clean_src = re.sub(r"\[([^\]]+)\]", r"\1", clean_src)
         clean_src = re.sub(r"[*_`]+", "", clean_src)
-        clean_src = clean_src.replace("/", ",").strip(" -–—*")
+        if "—" in clean_src:
+            clean_src = clean_src.split("—")[0].strip()
+        elif " - " in clean_src:
+            clean_src = clean_src.split(" - ")[0].strip()
+        clean_src = clean_src.replace("/", ",").strip(" -–—*()[]#")
+        clean_src = re.sub(r"&#x[0-9a-fA-F]+;?", "", clean_src).strip(" -–—*()[]#")
+        if not clean_src and source_url:
+            clean_src = score_source(source_url)[2]
         if clean_src:
             srcs.append(clean_src)
         break

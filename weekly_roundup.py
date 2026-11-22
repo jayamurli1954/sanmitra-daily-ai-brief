@@ -33,10 +33,12 @@ import os
 import re
 from datetime import datetime, timedelta
 
-from src.aibrief.crew.fact_checker import MAX_EPISODE_STORIES
+from src.aibrief.crew.fact_checker import MAX_EPISODE_STORIES, MIN_EPISODE_STORIES
 from src.aibrief.crew.editor_brief import _same_story, _summary, parse_stories
-from src.aibrief.crew.text_utils import is_election_story, is_personal_scandal_story, is_stock_market_story
+from src.aibrief.crew.text_utils import is_election_story, is_paywalled_url, is_personal_scandal_story, is_roundup_or_digest, is_stock_market_story
 from src.aibrief.impact_scoring import score_story_impact
+from src.aibrief.source_authority import score_source
+from src.aibrief.url_cleaner import clean_and_shorten_url
 from validate_episode_sources import is_proper_article_url
 
 AIRED_DIR = os.path.join("src", "aibrief", "data", "aired")
@@ -91,6 +93,11 @@ def load_candidates(sunday: str) -> list:
             for pos, s in enumerate(stories):
                 if s["region"] not in REGION_ORDER:
                     s["region"] = "WORLD"
+                clean_head = re.sub(r"^\*+\s*\d+\.\s*", "", s["headline"]).strip("* ")
+                if clean_head:
+                    s["headline"] = clean_head
+                    if s.get("lines"):
+                        s["lines"][0] = f"### {clean_head}"
                 rows.append(s | {"date": date, "pos": pos, "editor": editor})
     return rows
 
@@ -98,7 +105,10 @@ def load_candidates(sunday: str) -> list:
 def unaired(candidates: list, aired: list) -> list:
     keep = []
     for s in candidates:
-        if is_stock_market_story(s["headline"], s.get("primary_url", "")) or not is_proper_article_url(s.get("primary_url", "")):
+        url = s.get("primary_url", "")
+        if is_stock_market_story(s["headline"], url) or not is_proper_article_url(url):
+            continue
+        if is_paywalled_url(url) or is_roundup_or_digest(s["headline"], url):
             continue
         if is_election_story(s["headline"], _summary(s)) or is_personal_scandal_story(s["headline"]):
             continue
@@ -106,7 +116,7 @@ def unaired(candidates: list, aired: list) -> list:
             continue  # an opinion column ("... | Richard Wilson"), not news
         if any(_same_story(s, a) for a in aired):
             continue
-        if "arxiv.org/abs/" in s.get("primary_url", ""):
+        if "arxiv.org/abs/" in url:
             continue  # papers go to the Research of the Week feature, not a news slot
         keep.append(s)
     return keep
@@ -163,6 +173,54 @@ def pick_across_week(ranked: list, max_stories: int) -> list:
     return picked
 
 
+def format_story_lines(s: dict, is_lead: bool = False) -> list:
+    head = s["headline"]
+    lines = [f"### {head}"]
+    if is_lead:
+        lines.append("Lead: yes")
+
+    raw_lines = s.get("lines", [])
+    body_paras = []
+    source = ""
+    url = clean_and_shorten_url(s.get("primary_url", ""))
+
+    for l in raw_lines[1:]:
+        stripped = l.strip()
+        if not stripped or stripped.lower().startswith("lead:"):
+            continue
+        if stripped.lower().startswith(("source:", "**source:**")):
+            src_text = re.sub(r"^\*{0,2}Source\*{0,2}\s*:\s*", "", stripped, flags=re.I)
+            src_text = re.sub(r"https?://\S+", "", src_text)
+            src_text = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", src_text)
+            src_text = re.sub(r"\[([^\]]+)\]", r"\1", src_text)
+            if "—" in src_text:
+                src_text = src_text.split("—")[0].strip()
+            elif " - " in src_text:
+                src_text = src_text.split(" - ")[0].strip()
+            src_text = src_text.strip(" -–—*()[]#")
+            src_text = re.sub(r"&#x[0-9a-fA-F]+;?", "", src_text).strip()
+            src_text = re.sub(r"[\(\[]$", "", src_text).strip()
+            if src_text:
+                source = src_text
+            continue
+        if stripped.startswith("http://") or stripped.startswith("https://"):
+            continue
+        if stripped.startswith("[image]") or stripped.startswith("!["):
+            continue
+        body_paras.append(stripped)
+
+    if not source and url:
+        source = score_source(url)[2]
+
+    if source:
+        lines.append(f"Source: {source}")
+    if url:
+        lines.append(url)
+    lines.append("")
+    lines.extend(body_paras)
+    return lines
+
+
 def render_weekly_prompt(top: list, sunday: str) -> str:
     day = datetime.strptime(sunday, "%Y-%m-%d")
     first = datetime.strptime(week_dates(sunday)[0], "%Y-%m-%d")
@@ -181,12 +239,8 @@ def render_weekly_prompt(top: list, sunday: str) -> str:
             continue
         lines += ["", "---", "", f"# {region}"]
         for s in group:
-            body = [l for l in s["lines"][1:] if not l.strip().lower().startswith("lead:")]
             lines.append("")
-            lines.append(s["lines"][0].rstrip())
-            if s["headline"] == lead:
-                lines.append("Lead: yes")
-            lines += body
+            lines.extend(format_story_lines(s, is_lead=(s["headline"] == lead)))
     return "\n".join(lines) + "\n"
 
 

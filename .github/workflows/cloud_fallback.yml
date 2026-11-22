@@ -44,12 +44,23 @@ jobs:
         run: |
           TODAY=$(TZ=Asia/Kolkata date +%Y-%m-%d)
           echo "today=$TODAY" >> "$GITHUB_OUTPUT"
-          # Scheduled window: 18:30 IST to 22:30 IST.
+          # GitHub Actions scheduled cron can be delayed by several hours during peak times.
+          # Allow runs from 18:30 IST through late night. If running past midnight (00:00-05:00 IST),
+          # check if yesterday's episode was missed due to GitHub cron queuing delay.
           NOW=$(TZ=Asia/Kolkata date +%H%M)
-          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$NOW" -lt 1830 ] || [ "$NOW" -ge 2230 ]; }; then
-            echo "[*] Scheduled run started at $NOW IST, outside 18:30-22:30 IST. Doing nothing."
+          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$NOW" -ge 0500 ] && [ "$NOW" -lt 1830 ]; }; then
+            echo "[*] Scheduled run started at $NOW IST (daytime outside 18:30-05:00 IST). Doing nothing."
             echo "produce=false" >> "$GITHUB_OUTPUT"
             exit 0
+          fi
+          if [ "$NOW" -ge 0000 ] && [ "$NOW" -lt 0500 ]; then
+            YESTERDAY=$(TZ=Asia/Kolkata date -d "yesterday" +%Y-%m-%d)
+            PREV_CLAIM=$(git log -100 --format=%s | grep -F "episode claim $YESTERDAY " | head -1 || true)
+            if [ -z "$PREV_CLAIM" ]; then
+              echo "[*] Delayed run detected past midnight ($NOW IST). Producing missed episode for $YESTERDAY."
+              TODAY="$YESTERDAY"
+              echo "today=$TODAY" > "$GITHUB_OUTPUT"
+            fi
           fi
           CLAIM=$(git log -100 --format=%s | grep -F "episode claim $TODAY " | head -1 || true)
           if [ -n "$CLAIM" ] && [ "$FORCE" != "true" ]; then
