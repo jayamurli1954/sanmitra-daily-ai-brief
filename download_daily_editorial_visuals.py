@@ -23,6 +23,7 @@ import glob
 import io
 import json
 import os
+import re
 import shutil
 import sys
 import urllib.request
@@ -365,36 +366,57 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
 
         time.sleep(0.3)  # Rate limit protection for Wikimedia/Unsplash
         success = False
-        try:
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=15) as r:
-                data = r.read()
-                im = Image.open(io.BytesIO(data)).convert("RGB")
-                im = crop_and_grade(im)
 
-                # Validate against 14-day pHash memory and diversity caps
-                approved, cand_hash, rejection_reason = mgr.check_visual_candidate(
-                    im, url, category, category_counts, current_date_str=date_str,
-                    is_curated_entity=is_curated_entity
-                )
-
-                if approved:
-                    im.save(dest_file, quality=92)
-                    category_counts[category] = category_counts.get(category, 0) + 1
-                    print(f"    [+] APPROVED & SAVED (pHash: {cand_hash}, Category count: {category_counts[category]}/12): {dest_file}")
+        # If item is a local relative fallback path rather than a web URL, copy directly
+        if not url.startswith("http://") and not url.startswith("https://"):
+            local_src = os.path.join("public", url) if not url.startswith("public") else url
+            if os.path.exists(local_src):
+                try:
+                    shutil.copyfile(local_src, dest_file)
+                    print(f"    [+] Local fallback applied: {dest_file} ({url})")
                     used_this_run.append({
                         "date": date_str,
                         "filename": filename,
                         "url": url,
                         "badge": badge,
-                        "phash": cand_hash,
+                        "phash": "local_fallback",
                         "category": category
                     })
                     success = True
-                else:
-                    print(f"    [!] REJECTED BY EDITORIAL VISUAL GATE: {rejection_reason}")
-        except Exception as e:
-            print(f"    [!] Error downloading from {url}: {e}")
+                except Exception as e:
+                    print(f"    [!] Error copying local fallback {local_src}: {e}")
+
+        if not success:
+            try:
+                req = urllib.request.Request(url, headers=headers)
+                with urllib.request.urlopen(req, timeout=15) as r:
+                    data = r.read()
+                    im = Image.open(io.BytesIO(data)).convert("RGB")
+                    im = crop_and_grade(im)
+
+                    # Validate against 14-day pHash memory and diversity caps
+                    approved, cand_hash, rejection_reason = mgr.check_visual_candidate(
+                        im, url, category, category_counts, current_date_str=date_str,
+                        is_curated_entity=is_curated_entity
+                    )
+
+                    if approved:
+                        im.save(dest_file, quality=92)
+                        category_counts[category] = category_counts.get(category, 0) + 1
+                        print(f"    [+] APPROVED & SAVED (pHash: {cand_hash}, Category count: {category_counts[category]}/12): {dest_file}")
+                        used_this_run.append({
+                            "date": date_str,
+                            "filename": filename,
+                            "url": url,
+                            "badge": badge,
+                            "phash": cand_hash,
+                            "category": category
+                        })
+                        success = True
+                    else:
+                        print(f"    [!] REJECTED BY EDITORIAL VISUAL GATE: {rejection_reason}")
+            except Exception as e:
+                print(f"    [!] Error downloading from {url}: {e}")
 
         # If primary candidate failed or was rejected, apply guaranteed approved fallback
         if not success:

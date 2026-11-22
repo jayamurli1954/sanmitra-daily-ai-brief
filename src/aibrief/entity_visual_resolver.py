@@ -88,6 +88,13 @@ CURATED_ENTITY_MAP = {
     "deepseek": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/f/fd/Hangzhou_Skyline_against_the_West_Lake.png"), "HANGZHOU • HOME CITY OF DEEPSEEK"),
 
     # Corporations & Laboratories
+    "anthropic": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg/1280px-Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg"), "SAN FRANCISCO • ANTHROPIC HEADQUARTERS"),
+    "databricks": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/160_Spear_Street_from_across_Spear.jpg/1280px-160_Spear_Street_from_across_Spear.jpg"), "SAN FRANCISCO • DATABRICKS HEADQUARTERS"),
+    "spotify": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1024px-Spotify_logo_without_text.svg.png"), "SPOTIFY GLOBAL • ENTERPRISE STRATEGY"),
+    "daniel ek": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Daniel_Ek_EC_2025_%28cropped%29.jpg/1280px-Daniel_Ek_EC_2025_%28cropped%29.jpg"), "DANIEL EK • SPOTIFY FOUNDER & INVESTOR"),
+    "oracle": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_Corporation_headquarters_in_Redwood_City.jpg/1280px-Oracle_Corporation_headquarters_in_Redwood_City.jpg"), "ORACLE CLOUD INFRASTRUCTURE • WORLD HEADQUARTERS"),
+    "sec": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Securities_and_Exchange_Commission_headquarters.jpg/1280px-Securities_and_Exchange_Commission_headquarters.jpg"), "WASHINGTON DC • US SECURITIES & EXCHANGE COMMISSION"),
+    "securities and exchange commission": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Securities_and_Exchange_Commission_headquarters.jpg/1280px-Securities_and_Exchange_Commission_headquarters.jpg"), "WASHINGTON DC • US SECURITIES & EXCHANGE COMMISSION"),
     "openai": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/a/a7/1515_Third_Street.jpg"), "MISSION BAY • OPENAI HEADQUARTERS"),
     "gpt-6": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/a/a7/1515_Third_Street.jpg"), "OPENAI • GPT-6 FRONTIER MODEL CANVAS"),
     "intelligent ui": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/a/a7/1515_Third_Street.jpg"), "CHATGPT • INTELLIGENT UI INTERACTION"),
@@ -351,27 +358,31 @@ def headline_entities(headline: str) -> List[str]:
     runs of capitalised words that are not common words, demonyms or "X-backed"
     style modifiers ("Sequoia-backed" names the investor, not the subject).
     A possessive ends a name: "Anthropic's Claude" is Anthropic, then Claude."""
-    runs, current = [], []
-    for raw in _WORD.findall(headline or ""):
-        possessive = bool(re.search(r"(?:'s|’s)$", raw))
-        word = re.sub(r"(?:'s|’s)$", "", raw).strip(".,:;'’")
-        lower = word.lower()
-        proper = (
-            word[:1].isupper()
-            and lower not in _NOT_NAMES
-            and not _SUFFIXED.search(word)
-            and not (word.isalpha() and word[1:].islower() and _DEMONYM.search(lower))
-        )
-        if proper:
-            current.append(word)
-            if possessive:
+    clauses = re.split(r"[:;—–,\.\?!\"]\s*", headline or "")
+    runs = []
+    for clause in clauses:
+        current = []
+        for raw in _WORD.findall(clause):
+            possessive = bool(re.search(r"(?:'s|’s)$", raw))
+            word = re.sub(r"(?:'s|’s)$", "", raw).strip(".,:;'’")
+            lower = word.lower()
+            proper = (
+                word[:1].isupper()
+                and lower not in _NOT_NAMES
+                and not _SUFFIXED.search(word)
+                and not (word.isalpha() and word[1:].islower() and _DEMONYM.search(lower))
+            )
+            if proper:
+                current.append(word)
+                if possessive:
+                    runs.append(" ".join(current))
+                    current = []
+            elif current:
                 runs.append(" ".join(current))
                 current = []
-        elif current:
+        if current:
             runs.append(" ".join(current))
-            current = []
-    if current:
-        runs.append(" ".join(current))
+
     seen, names = set(), []
     for name in runs:
         if len(name) >= 3 and name.lower() not in seen:
