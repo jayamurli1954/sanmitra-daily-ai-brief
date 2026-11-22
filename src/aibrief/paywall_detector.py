@@ -15,7 +15,7 @@ from typing import Optional, Dict
 import requests
 from bs4 import BeautifulSoup
 
-from src.aibrief.crew.text_utils import same_event
+from src.aibrief.crew.text_utils import same_event, source_link_problem, is_non_english_url
 from src.aibrief.source_authority import score_source, is_opinion_url
 from src.aibrief.url_cleaner import clean_and_shorten_url, is_shortener_host
 
@@ -95,6 +95,7 @@ def find_free_alternative(headline: str, original_url: str = "") -> Optional[Dic
     Returns dict with {"source": str, "url": str} if a free reputable source is found,
     or None if no alternative is available (mandating dropping the story).
     """
+    from validate_episode_sources import is_proper_article_url
     if not headline:
         return None
 
@@ -130,6 +131,12 @@ def find_free_alternative(headline: str, original_url: str = "") -> Optional[Dic
             cand_link = link_elem.text.strip() if link_elem else ""
             cand_source = source_elem.text.strip() if source_elem else ""
 
+            if not cand_link or not is_proper_article_url(cand_link):
+                continue
+
+            if source_link_problem(cand_link) or is_non_english_url(cand_link):
+                continue
+
             if " - " in cand_title:
                 parts = cand_title.rsplit(" - ", 1)
                 cand_title = parts[0].strip()
@@ -155,6 +162,11 @@ def find_free_alternative(headline: str, original_url: str = "") -> Optional[Dic
             final_source = cand_source or identified
 
             cleaned_url = clean_and_shorten_url(cand_link)
+            if not cleaned_url or not is_proper_article_url(cleaned_url):
+                continue
+            if source_link_problem(cleaned_url) or is_non_english_url(cleaned_url):
+                continue
+
             logger.info(f"[+] Found free alternative source for '{headline[:50]}...': {final_source} ({cleaned_url})")
             return {
                 "source": final_source,

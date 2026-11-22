@@ -153,7 +153,9 @@ def deduplicate_stories(raw_stories: list) -> list:
         words = words - {
             "launch", "formal", "major", "after", "takes", "center", "stage", "expands", "unveils",
             "billion", "million", "dollars", "dollar", "funding", "investment", "round", "secures",
-            "raises", "plans", "announces", "first", "into", "with", "from", "their", "about"
+            "raises", "plans", "announces", "first", "into", "with", "from", "their", "about",
+            "open", "source", "sources", "model", "models", "system", "systems", "tech", "technology",
+            "tools", "tool", "using", "based", "build", "builds", "building", "release", "releases"
         }
         
         # Same event under different wording ("Firmus pulls ASX float" /
@@ -351,7 +353,7 @@ def parse_markdown_prompt(md_text: str) -> dict:
                     continue
                 if source_link_problem(source_url) or is_paywalled_url(source_url):
                     alt = find_free_alternative(head_clean, original_url=source_url)
-                    if alt:
+                    if alt and alt.get("url") and is_proper_article_url(alt.get("url")):
                         source_url = alt["url"]
                         srcs = [alt["source"]]
                     else:
@@ -406,7 +408,7 @@ def parse_markdown_prompt(md_text: str) -> dict:
                     continue
                 if source_link_problem(source_url) or is_paywalled_url(source_url):
                     alt = find_free_alternative(head_clean, original_url=source_url)
-                    if alt:
+                    if alt and alt.get("url") and is_proper_article_url(alt.get("url")):
                         source_url = alt["url"]
                         srcs = [alt["source"]]
                     else:
