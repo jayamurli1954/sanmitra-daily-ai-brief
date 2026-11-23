@@ -3,9 +3,9 @@ Dynamic Story-Aware Entity Visual Resolver for SanMitra AI News Wire.
 Replaces generic/repeated stock imagery with authentic, contextual editorial visuals:
   - Resolves official entity photos (White House, Jay Clayton, Sam Altman, Justin Trudeau, Josephine Teo, Lisa Su, Cantwell, etc.)
   - Resolves corporate headquarters (OpenAI, Tencent Seafront Tower, Alibaba Cloud, AMD, Google DeepMind, Boston Dynamics, etc.)
-  - Resolves geographical landmarks (Dalby Queensland, Singapore Skyline, New Jersey State House, IIT Madras, etc.)
-  - Resolves domain-specific operational visuals (Ballistic missile launches, hyperscale datacenters, semiconductor cleanrooms)
-  - Permanently bans unrelated stock assets (Obama photo, bounce-rate charts, student HTML code, coffee-shop laptops)
+  - Resolves institutions by their own buildings (New Jersey State House, IIT Madras, the Pentagon, etc.)
+  - No topic words ("drone", "gpu", "data center") and no stand-in buildings: an entity with no
+    verified photo of its own gets its Wikipedia lead image or an approved fallback (AGENTS.md section 2)
 """
 
 import io
@@ -45,21 +45,21 @@ def to_wiki_thumb(url: Optional[str], width: int = 1280) -> str:
 # Curated high-res authentic editorial assets for common entities & topics
 CURATED_ENTITY_MAP = {
     # Key political & tech leaders
-    "jay clayton": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/70/Official_portrait_of_Jay_Clayton_%282026%29.jpg"), "OFFICIAL PORTRAIT • SIF CHAIR JAY CLAYTON"),
-    "sam altman": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/5a/Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg"), "SAN FRANCISCO • SAM ALTMAN AI DOCTRINE"),
-    "josephine teo": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/3f/Josephine_Teo_at_AsiaTech_X_Artificial_Intelligence_%28ATxAI%29%2C_Capella_Singapore%2C_31_May_2024_-_cropped.jpg"), "MINISTER JOSEPHINE TEO • AI SAFEGUARDS DESK"),
-    "jensen huang": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg"), "KEYNOTE STAGE • JENSEN HUANG NVIDIA"),
-    "sundar pichai": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d6/Sundar_pichai.png"), "EXECUTIVE BRIEFING • SUNDAR PICHAI ALPHABET"),
-    "justin trudeau": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/b/b6/Justin_Trudeau_2023_%28cropped%29.jpg"), "OFFICIAL ENGAGEMENT • CANADIAN FEDERAL DESK"),
-    "mark carney": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/a/a2/Mark_Carney_2019.jpg"), "MACROECONOMIC AI SUMMIT • MARK CARNEY"),
-    "nirmala sitharaman": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/38/Smt._Nirmala_Sitharaman_taking_charge_as_the_Union_Minister_for_Finance_%26_Corporate_Affairs%2C_in_New_Delhi_on_June_12%2C_2024_%28cropped%29.jpg"), "NEW DELHI • UNION FINANCE MINISTER SITHARAMAN"),
-    "lisa su": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/de/SXSW-2024-alih-OB7A0861-Lisa_Su_%28cropped_2%29.jpg"), "AMD EXECUTIVE • DR. LISA SU"),
-    "ashwini vaishnaw": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/35/Ashwini_Vaishnaw_cropped.jpg"), "NEW DELHI • UNION IT MINISTER ASHWINI VAISHNAW"),
-    "vaishnaw": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/35/Ashwini_Vaishnaw_cropped.jpg"), "NEW DELHI • UNION IT MINISTER ASHWINI VAISHNAW"),
+    "jay clayton": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/70/Official_portrait_of_Jay_Clayton_%282026%29.jpg"), "JAY CLAYTON"),
+    "sam altman": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/5a/Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg"), "SAM ALTMAN"),
+    "josephine teo": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/3f/Josephine_Teo_at_AsiaTech_X_Artificial_Intelligence_%28ATxAI%29%2C_Capella_Singapore%2C_31_May_2024_-_cropped.jpg"), "JOSEPHINE TEO"),
+    "jensen huang": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg"), "JENSEN HUANG"),
+    "sundar pichai": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d6/Sundar_pichai.png"), "SUNDAR PICHAI"),
+    "justin trudeau": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/b/b6/Justin_Trudeau_2023_%28cropped%29.jpg"), "JUSTIN TRUDEAU"),
+    "mark carney": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/a/a2/Mark_Carney_2019.jpg"), "MARK CARNEY"),
+    "nirmala sitharaman": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/38/Smt._Nirmala_Sitharaman_taking_charge_as_the_Union_Minister_for_Finance_%26_Corporate_Affairs%2C_in_New_Delhi_on_June_12%2C_2024_%28cropped%29.jpg"), "NIRMALA SITHARAMAN"),
+    "lisa su": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/de/SXSW-2024-alih-OB7A0861-Lisa_Su_%28cropped_2%29.jpg"), "LISA SU"),
+    "ashwini vaishnaw": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/35/Ashwini_Vaishnaw_cropped.jpg"), "ASHWINI VAISHNAW"),
+    "vaishnaw": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/35/Ashwini_Vaishnaw_cropped.jpg"), "ASHWINI VAISHNAW"),
     "charlton": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/b/b6/Parliament_House_at_dusk%2C_Canberra_ACT.jpg"), "CANBERRA • ASSISTANT MINISTER ANDREW CHARLTON"),
     "stampe": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7c/Christiansborg_Slot_Copenhagen_2014_01.jpg"), "COPENHAGEN • DANISH CULTURE MINISTRY"),
-    "albanese": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7b/Anthony_Albanese_portrait_%28re-crop%29.jpg"), "CANBERRA • PRIME MINISTER ANTHONY ALBANESE"),
-    "anthony albanese": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7b/Anthony_Albanese_portrait_%28re-crop%29.jpg"), "CANBERRA • PRIME MINISTER ANTHONY ALBANESE"),
+    "albanese": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7b/Anthony_Albanese_portrait_%28re-crop%29.jpg"), "ANTHONY ALBANESE"),
+    "anthony albanese": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7b/Anthony_Albanese_portrait_%28re-crop%29.jpg"), "ANTHONY ALBANESE"),
 
     # Institutions & Government
     "white house": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/1d/White_House_north_and_south_sides.jpg"), "WASHINGTON D.C. • THE WHITE HOUSE BRIEFING"),
@@ -75,23 +75,12 @@ CURATED_ENTITY_MAP = {
     "new jersey": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/8/83/New_Jersey_State_House.jpg"), "TRENTON • NEW JERSEY STATE HOUSE"),
     "trenton": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/8/83/New_Jersey_State_House.jpg"), "TRENTON • NEW JERSEY GOVERNMENT COMPLEX"),
     "iit madras": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/c6/Facade_of_IIT_Madras_%28cropped%29.jpg"), "CHENNAI • IIT MADRAS RESEARCH CAMPUS"),
-    "meity": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "NEW DELHI • INDIA SOVEREIGN AI INITIATIVE"),
-    "indiaai": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "NEW DELHI • INDIAAI MISSION SAFETY FRAMEWORK"),
-    "digilocker": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "DIGITAL INDIA • DIGILOCKER AGENT PLATFORM"),
-    "corover": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "BENGALURU • UNIFIED GOVERNMENT AI ASSISTANT"),
     "mas": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/8/8c/Monetary_Authority_of_Singapore_2.jpg"), "SINGAPORE • MONETARY AUTHORITY OF SINGAPORE"),
     "monetary authority of singapore": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/8/8c/Monetary_Authority_of_Singapore_2.jpg"), "SINGAPORE • MONETARY AUTHORITY OF SINGAPORE"),
-    "china sovereign": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/China_Senate_House.jpg/1280px-China_Senate_House.jpg"), "BEIJING • SOVEREIGN AI GOVERNANCE ARCHITECTURE"),
-    "china reinforces": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/China_Senate_House.jpg/1280px-China_Senate_House.jpg"), "BEIJING • SOVEREIGN AI GOVERNANCE ARCHITECTURE"),
-    "chinese open-weight": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg/1280px-Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg"), "BEIJING • OPEN-WEIGHT INFERENCE HUBS"),
-    "open-weight": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg/1280px-Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg"), "BEIJING • OPEN-WEIGHT INFERENCE HUBS"),
-    "deepseek": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/f/fd/Hangzhou_Skyline_against_the_West_Lake.png"), "HANGZHOU • HOME CITY OF DEEPSEEK"),
-
     # Corporations & Laboratories
-    "anthropic": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg/1280px-Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg"), "SAN FRANCISCO • ANTHROPIC HEADQUARTERS"),
     "databricks": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/160_Spear_Street_from_across_Spear.jpg/1280px-160_Spear_Street_from_across_Spear.jpg"), "SAN FRANCISCO • DATABRICKS HEADQUARTERS"),
     "spotify": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1024px-Spotify_logo_without_text.svg.png"), "SPOTIFY GLOBAL • ENTERPRISE STRATEGY"),
-    "daniel ek": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Daniel_Ek_EC_2025_%28cropped%29.jpg/1280px-Daniel_Ek_EC_2025_%28cropped%29.jpg"), "DANIEL EK • SPOTIFY FOUNDER & INVESTOR"),
+    "daniel ek": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Daniel_Ek_EC_2025_%28cropped%29.jpg/1280px-Daniel_Ek_EC_2025_%28cropped%29.jpg"), "DANIEL EK"),
     "oracle": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_Corporation_headquarters_in_Redwood_City.jpg/1280px-Oracle_Corporation_headquarters_in_Redwood_City.jpg"), "ORACLE CLOUD INFRASTRUCTURE • WORLD HEADQUARTERS"),
     "sec": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Securities_and_Exchange_Commission_headquarters.jpg/1280px-Securities_and_Exchange_Commission_headquarters.jpg"), "WASHINGTON DC • US SECURITIES & EXCHANGE COMMISSION"),
     "securities and exchange commission": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Securities_and_Exchange_Commission_headquarters.jpg/1280px-Securities_and_Exchange_Commission_headquarters.jpg"), "WASHINGTON DC • US SECURITIES & EXCHANGE COMMISSION"),
@@ -103,94 +92,45 @@ CURATED_ENTITY_MAP = {
     "google": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg"), "MOUNTAIN VIEW • GOOGLEPLEX HEADQUARTERS"),
     "google cloud": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg"), "GOOGLE CLOUD • ENTERPRISE AI CAMPUS"),
     "gemini agent": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg"), "GOOGLE CLOUD • GEMINI AGENT WORKSPACE"),
-    "chrome": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg"), "GOOGLE CHROME • GEMINI BROWSER AGENT"),
     "tencent": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Tencent_Seafront_Tower_in_Dec2020.jpg"), "SHENZHEN • TENCENT SEAFRONT TOWERS"),
     "workbuddy": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Tencent_Seafront_Tower_in_Dec2020.jpg"), "SHENZHEN • TENCENT WORKBUDDY AI FILE OS"),
-    "manus": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/e/e2/Zhongguancun_from_Huangzhuang_North_Footbridge_%2820201214122926%29.jpg"), "BEIJING • MANUS AI AGENT LAB"),
-    "butterfly effect": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/e/e2/Zhongguancun_from_Huangzhuang_North_Footbridge_%2820201214122926%29.jpg"), "BEIJING • BUTTERFLY EFFECT AGENT LAB"),
     "qantas": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d1/Qantas_%28VH-ZNN%29_Boeing_787-9_Dreamliner_on_final_at_Melbourne_Airport_%281%29.jpg"), "SYDNEY • QANTAS FLEET OPERATIONS"),
     "hugging face": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/e/ea/Hugging_Face_logo.svg"), "OPEN SCIENCE • HUGGING FACE PLATFORM"),
     "red hat": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Hat_logo.svg"), "RALEIGH • RED HAT ENTERPRISE SYSTEMS"),
     "openshift": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Hat_logo.svg"), "HYBRID CLOUD • OPENSHIFT 5 RUNTIME"),
-    "hygon": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/95/Aerial_photograph_of_Globalfoundries_Dresden.jpg"), "CHENGDU • HYGON INDUSTRIAL PROCESSORS"),
-    "robbyant": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/9b/Atlas_during_testing.jpg"), "HANGZHOU • ROBBYANT DEXTEROUS TACTILE LAB"),
-    "tactile": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/9b/Atlas_during_testing.jpg"), "EMBODIED ROBOTICS • DEXTEROUS MANIPULATION"),
-    "lawsuit": ("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=85", "FEDERAL DISTRICT COURT • SECURITIES LITIGATION"),
-    "sue": ("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=85", "FEDERAL DISTRICT COURT • SECURITIES LITIGATION"),
-    "fridge": ("https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=1920&q=85", "RETAIL COLD CHAIN • AUTOMATED REFRIGERATION"),
-    "biren": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg/1280px-Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg"), "SHANGHAI • BIREN TECHNOLOGY CHIP PLACEMENT"),
     "alibaba": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/39/Phase_4_of_Alibaba_Xixi_Park_20200913.jpg"), "HANGZHOU • ALIBABA CLOUD XIXI CAMPUS"),
     "amd": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/11/2485_Augustine_Drive_headquarters_in_Santa_Clara%2C_California.jpg"), "SANTA CLARA • AMD CORPORATE HEADQUARTERS"),
-    "spacex": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/8/83/SpaceX_Headquarters_Hawthorne_California.jpg"), "HAWTHORNE • SPACEX HEADQUARTERS & TELEMETRY"),
     "boston dynamics": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/9b/Atlas_during_testing.jpg"), "WALTHAM • BOSTON DYNAMICS ROBOTICS LAB"),
-    "atlas": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/9b/Atlas_during_testing.jpg"), "HUMANOID ROBOTICS • ELECTRIC ATLAS DEPLOYMENT"),
-    "robotics": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/9/9b/Atlas_during_testing.jpg"), "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT"),
-    "chan zuckerberg": ("https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=85", "CHAN ZUCKERBERG BIOHUB • VIRTUAL BIOLOGY INITIATIVE"),
-    "biohub": ("https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=85", "CHAN ZUCKERBERG BIOHUB • VIRTUAL BIOLOGY LAB"),
-    "biology": ("https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=85", "CELLULAR DYNAMICS • PREDICTIVE BIOLOGY LAB"),
-    "sierra": ("https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1920&q=85", "ENTERPRISE PROTOCOL • PERSONAL AGENT PLATFORM"),
-    "nous research": ("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=85", "OPEN RESEARCH LAB • NOUS HERMES FOUNDATION"),
     "apple": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/5a/Aerial_view_of_Apple_Park_dllu.jpg"), "CUPERTINO • APPLE PARK"),
     "meta": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/7c/Meta_Platforms_Headquarters_Menlo_Park_California.jpg"), "MENLO PARK • META HEADQUARTERS"),
     "disney": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/32/Walt_Disney_Studios_Alameda_Entrance.jpg"), "BURBANK • WALT DISNEY STUDIOS"),
     "microsoft": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Redmond_Campus_redevelopment_aerial_view%2C_Sept._2021.jpg"), "REDMOND • MICROSOFT REDMOND CAMPUS"),
-    "surface": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Redmond_Campus_redevelopment_aerial_view%2C_Sept._2021.jpg"), "REDMOND • MICROSOFT SURFACE HARDWARE LAB"),
-    "surface laptop": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Redmond_Campus_redevelopment_aerial_view%2C_Sept._2021.jpg"), "REDMOND • MICROSOFT SURFACE HARDWARE LAB"),
     "samsung": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/e/e2/Samsung_headquarters.jpg"), "SUWON • SAMSUNG DIGITAL CITY HEADQUARTERS"),
     "samsung electronics": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/e/e2/Samsung_headquarters.jpg"), "SUWON • SAMSUNG ELECTRONICS HEADQUARTERS"),
-    "vesta": ("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=85", "VENTURE FINANCE • AUTONOMOUS AGENT CAPITAL"),
-    "catalyst": ("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=85", "VENTURE FINANCE • AUTONOMOUS AGENT CAPITAL"),
-    "gpus": ("https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85", "HIGH-DENSITY GPU CLUSTERS • ACCELERATED COMPUTE"),
-    "gpu": ("https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1920&q=85", "HIGH-DENSITY GPU CLUSTERS • ACCELERATED COMPUTE"),
     "yandex": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/a/ad/Yandex_main_office.jpg"), "MOSCOW • YANDEX CLOUD COMPUTING HEADQUARTERS"),
     "amie": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg"), "GOOGLE HEALTH CLINICAL AI • AMIE EVALUATION"),
-    "tokyo": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/66/Tokyo_Skyline20210123.jpg"), "TOKYO • CITY SKYLINE"),
-    "manchester": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/0/02/Beetham_Tower_from_below.jpg"), "MANCHESTER • G20 INNOVATION NATION SUMMIT"),
-    "burnham": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/0/02/Beetham_Tower_from_below.jpg"), "MANCHESTER • G20 INNOVATION NATION SUMMIT"),
-    "state council": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/China_Senate_House.jpg/1280px-China_Senate_House.jpg"), "BEIJING • STATE COUNCIL DIRECTIVES"),
-    "firmus": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/57/Data_Center_of_CNPC.jpg"), "ASX • HYPERSCALE DATACENTER VALUATIONS"),
-
     # Direct military & aerospace defense systems
-    "air defense": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/2/2f/U-s-service-members-stand-by-a-patriot-missile-battery-in-gaziantep-turkey.jpg"), "AIR DEFENSE • PATRIOT RADAR BATTERY"),
-    "harmattan": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg"), "MARRAKECH • AUTONOMOUS DEEP-STRIKE DEFENSE"),
-    "irifi": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg"), "MARRAKECH • IRIFI DEEP-STRIKE DRONE SYSTEM"),
-    "drone": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg"), "TACTICAL AEROSPACE • AUTONOMOUS DRONE FLIGHT"),
-    "drones": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg"), "TACTICAL AEROSPACE • AUTONOMOUS DRONE FLIGHT"),
     "north korea missile": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/35/North_Korea%27s_ballistic_missile_-_North_Korea_Victory_Day-2013_01.jpg"), "PYONGYANG • STRATEGIC BALLISTIC MISSILE"),
-    "ballistic missile": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/35/North_Korea%27s_ballistic_missile_-_North_Korea_Victory_Day-2013_01.jpg"), "BALLISTIC TRAJECTORY • FLIGHT DYNAMICS"),
-
     # Cybersecurity & Banking
-    "crowdstrike": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/5a/NSOC-2012.jpg"), "CYBER DEFENSE • CROWDSTRIKE THREAT INTEL"),
-    "cyberattack": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/5a/NSOC-2012.jpg"), "SECURITY OPERATIONS • INCIDENT RESPONSE SOC"),
-    "shinhan": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/4/45/Yeouido2025.jpg"), "SEOUL • YEOUIDO FINANCIAL DISTRICT"),
-    "financial services commission": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/4/45/Yeouido2025.jpg"), "SEOUL • FINANCIAL SERVICES REGULATORY DESK"),
-
     # Research & Universities
     "george washington university": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/71/George_Washington_University_School_of_Engineering_and_Applied_Science_%2855266857738%29.jpg"), "WASHINGTON D.C. • GWU SCIENCE & ENGINEERING"),
     "gwu": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/7/71/George_Washington_University_School_of_Engineering_and_Applied_Science_%2855266857738%29.jpg"), "WASHINGTON D.C. • GWU SCIENCE & ENGINEERING"),
     "mit": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/0/03/MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg"), "CAMBRIDGE • MIT COMPUTER SCIENCE & AI LAB"),
     "kaiming he": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/0/03/MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg"), "MIT CSAIL • VISTA VISUAL HARNESS BENCHMARK"),
-    "mathematics": ("https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1920&q=85", "ADVANCED MATHEMATICS • FORMAL PROOF VERIFICATION"),
-    "maths": ("https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1920&q=85", "ADVANCED MATHEMATICS • FORMAL PROOF VERIFICATION"),
-    "kakeya": ("https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1920&q=85", "KAKEYA CONJECTURE • REASONING FRONTIER MODEL"),
-    "riemann": ("https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1920&q=85", "RIEMANN ZETA • MACHINE FORMALIZATION"),
-
     # Cities & Regions
-    "casablanca": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/6/6c/Casa_finance_city_6_%28cropped%29.jpg"), "CASABLANCA • DEFENSE AEROSPACE COMPLEX"),
-    "dalby": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d3/Dalby_aerial.jpg"), "WESTERN DOWNS • DALBY RURAL REGION"),
-    "queensland": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/d/d3/Dalby_aerial.jpg"), "QUEENSLAND • REGIONAL ENERGY & COMPUTE CORRIDOR"),
-    "pyongyang": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/e/e7/The_Arch_of_Triumph_%2811360607534%29.jpg"), "PYONGYANG • STRATEGIC MILITARY COMMAND"),
-    "bengaluru": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cd/Bharat_Mandapam_Pragati_Maidan.jpg"), "BENGALURU • INDIA SOVEREIGN TECH CAPITAL"),
-    "guwahati": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/11/Guwahati_citysky.jpg"), "GUWAHATI • NORTHEAST INDIA TECH PARK"),
-    "new york city": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg"), "NEW YORK CITY • MUNICIPAL AI GOVERNANCE COUNCIL"),
-    "nato": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/5a/NSOC-2012.jpg"), "BRUSSELS • NATO OPERATIONS CENTER"),
-    "data center": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/57/Data_Center_of_CNPC.jpg"), "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT"),
-    "datacentre": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/5/57/Data_Center_of_CNPC.jpg"), "HYPERSCALE AI CLUSTER • FACILITY DEPLOYMENT"),
     "nvidia": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/c/cc/Nvidia_HQ.jpg"), "SANTA CLARA • NVIDIA CORPORATE HEADQUARTERS"),
     "siemens": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/2/2c/Siemens_AG_-_Corporate_Headquarters%2C_Munich_02.jpg"), "MUNICH • SIEMENS GLOBAL HEADQUARTERS"),
     "citibank": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/39/388_Greenwich_Street_%2824252%29.jpg"), "NEW YORK • CITIGROUP GLOBAL HEADQUARTERS"),
     "citi": (to_wiki_thumb("https://upload.wikimedia.org/wikipedia/commons/3/39/388_Greenwich_Street_%2824252%29.jpg"), "NEW YORK • CITIGROUP GLOBAL HEADQUARTERS"),
     "gift city": ("https://upload.wikimedia.org/wikipedia/commons/9/93/Gift_City.jpg", "GUJARAT • GIFT CITY INTERNATIONAL FINANCIAL TECH-CITY")
+}
+
+# Keys whose image is a person (or captioned with one). A person appears only when
+# named in the headline or at least twice in the story (AGENTS.md section 2).
+PERSON_KEYS = {
+    "jay clayton", "sam altman", "josephine teo", "jensen huang", "sundar pichai", "justin trudeau",
+    "mark carney", "nirmala sitharaman", "lisa su", "ashwini vaishnaw", "vaishnaw", "charlton",
+    "stampe", "albanese", "anthony albanese", "daniel ek", "kaiming he",
 }
 
 # Domain-specific B-roll pools (100% authentic editorial visuals, NO server cables, NO plasma balls, NO toy drones)
@@ -255,7 +195,10 @@ BANNED_WIKI_KEYWORDS = [
     "polygon", "diagram", "election", "survey", "schema", "attack", "storming", "protest",
     "beer", "carlsberg", "tuborg", "alcohol", "oil_on_canvas",
     "sailing", "frigate", "hermione", "manga", "anime", "cartoon", "comic", "drawing",
-    "temple", "mosque", "church", "sculpture", "statue", "monument"
+    "temple", "mosque", "church", "sculpture", "statue", "monument",
+    # Maps, flags and scenery are not story visuals (AGENTS.md section 1).
+    "map", "flag", "locator", "orthographic", "coat_of_arms", "emblem", "seal_of",
+    "lake", "river", "beach", "mountain", "landscape", "panorama", "satellite",
 ]
 
 
@@ -399,6 +342,81 @@ def _has_any(text: str, words: List[str]) -> bool:
     return any(_mentions(w, text) for w in words)
 
 
+FALLBACK_IMAGES = (
+    "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
+    "aibrief/assets/fallbacks/default_ai_network.jpg",
+)
+
+# Countries and regions: their Wikipedia lead image is a map or a flag (AGENTS.md
+# bans arbitrary maps), e.g. "Asia-Pacific" -> Asia_and_the_Pacific.png.
+_BROAD_PLACES = {
+    "china", "asia", "india", "usa", "us", "u.s", "america", "united states", "uk", "britain", "europe",
+    "eu", "european union", "world", "big", "global", "asia-pacific", "asia pacific", "apac",
+    "southeast asia", "south asia", "east asia", "middle east", "africa", "latin america", "gulf",
+    "japan", "korea", "south korea", "north korea", "taiwan", "singapore", "australia", "canada",
+    "germany", "france", "russia", "ukraine", "israel", "uae", "saudi arabia", "brazil", "indonesia",
+}
+
+
+def is_fallback_image(url: str) -> bool:
+    return any(url.endswith(f) for f in FALLBACK_IMAGES)
+
+
+def _is_person_key(key: str) -> bool:
+    return key in PERSON_KEYS
+
+
+def resolve_hero_candidates(idx: int, headline: str, summary: str, region: str) -> List[Tuple[str, str]]:
+    """Every acceptable (url, badge) hero for a story, best first, ending with the
+    approved fallbacks. The downloader takes the first one not shown in the last
+    14 days (AGENTS.md section 3), so a company that is in the news every day gets
+    its headquarters once, then its Wikipedia lead image, then the fallback.
+
+    Order:
+      1. Curated entity named in the HEADLINE (the story's subject).
+      2. Curated entity mentioned at least twice in the body. People need two
+         mentions too: "a rival to Sam Altman's OpenAI" must not put Altman on screen.
+      3. The Wikipedia lead image of each matched entity and of each name in the headline.
+      4. The two approved fallbacks, the alternating one first.
+    """
+    hl_text = (headline or "").lower()
+    body_text = (summary or "").replace(headline or "", " ", 1).lower()
+    candidates: List[Tuple[str, str]] = []
+    matched_names: List[str] = []
+
+    for key, (img_url, badge) in CURATED_ENTITY_MAP.items():
+        if _mentions(key, hl_text):
+            candidates.append((img_url, badge))
+            matched_names.append(key)
+    for key, (img_url, badge) in CURATED_ENTITY_MAP.items():
+        if key not in matched_names and _mentions(key, body_text) >= 2:
+            candidates.append((img_url, badge))
+            matched_names.append(key)
+
+    lookups = [k for k in matched_names if not _is_person_key(k)] + headline_entities(headline or "")
+    seen_lookups = set()
+    for ent in lookups:
+        low = ent.lower()
+        if low in _BROAD_PLACES or low in seen_lookups:
+            continue
+        seen_lookups.add(low)
+        wiki_res = search_wikipedia_image(ent)
+        if wiki_res:
+            src, title = wiki_res
+            candidates.append((src, f"{title.upper()} • CONTEXTUAL REPORTING"))
+
+    first, second = FALLBACK_IMAGES if idx % 2 == 1 else FALLBACK_IMAGES[::-1]
+    fallback_badge = f"{region} • AI INTELLIGENCE WIRE"
+    candidates += [(first, fallback_badge), (second, fallback_badge)]
+
+    unique, seen_urls = [], set()
+    for url, badge in candidates:
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            unique.append((url, badge))
+    return unique
+
+
 def resolve_cuts_for_story(
     idx: int,
     headline: str,
@@ -406,49 +424,15 @@ def resolve_cuts_for_story(
     region: str,
     global_used_urls: Optional[set] = None
 ) -> List[Tuple[str, str]]:
-    """
-    Returns EXACTLY 1 authoritative (url, badge) hero visual cut tailored directly to the story's real content.
-    Strict single-cut architecture:
-      1. Official corporate campus/headquarters or verified logo
-      2. Official executive portrait ONLY if person is explicitly named in headline/story
-      3. Approved universal fallback (circuit brain / digital network)
-    ZERO random stock filler (no power lines, random lakes, or arbitrary maps).
-    """
-    hl_text = headline.lower()
-    full_text = f"{headline} {summary}".lower()
-    body_text = (summary or "").replace(headline or "", " ", 1).lower()
-
-    # 1. Match curated entities appearing in the HEADLINE first (primary subject of the story)
-    for key, (img_url, badge) in CURATED_ENTITY_MAP.items():
-        if re.search(r'\b' + re.escape(key) + r'\b', hl_text, re.IGNORECASE):
-            return [(img_url, badge)]
-
-    # 2. Check body/script text for secondary contextual entities or leaders mentioned
-    for key, (img_url, badge) in CURATED_ENTITY_MAP.items():
-        mentions = _mentions(key, body_text)
-        is_person = any(w in badge.lower() for w in ["minister", "chair", "ceo", "director", "sam altman", "jensen huang", "albanese", "portrait", "leadership"])
-        threshold = 1 if is_person else 2
-        if mentions >= threshold:
-            return [(img_url, badge)]
-
-    # 3. If no entity matched yet, try live Wikipedia image search for the headline's names
-    for ent in headline_entities(headline):
-        if ent.lower() in ("china", "asia", "india", "usa", "us", "uk", "europe", "world", "big"):
-            continue
-        wiki_res = search_wikipedia_image(ent)
-        if wiki_res:
-            src, title = wiki_res
-            badge = f"{title.upper()} • CONTEXTUAL REPORTING"
-            return [(src, badge)]
-
-    # 4. Mandatory universal fallback (strictly no generic/unconnected stock photos)
-    fallback_img = (
-        "aibrief/assets/fallbacks/default_ai_brain_ai.jpg"
-        if idx % 2 == 1
-        else "aibrief/assets/fallbacks/default_ai_network.jpg"
-    )
-    fallback_badge = f"{region} • AI INTELLIGENCE WIRE"
-    return [(fallback_img, fallback_badge)]
+    """EXACTLY 1 authoritative (url, badge) hero for the story: the first candidate
+    from resolve_hero_candidates that this episode has not already used."""
+    used = global_used_urls if global_used_urls is not None else set()
+    candidates = resolve_hero_candidates(idx, headline, summary, region)
+    for url, badge in candidates:
+        if is_fallback_image(url) or url not in used:
+            used.add(url)
+            return [(url, badge)]
+    return [candidates[-1]]
 
 
 def download_and_process_image(url: str, dest_path: str) -> bool:
