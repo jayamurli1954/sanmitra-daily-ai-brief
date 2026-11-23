@@ -1,0 +1,433 @@
+{
+  "weekly": false,
+  "date": "2026-11-23",
+  "formattedDate": "23 November 2026",
+  "title": "Sarvam Defends Hosting Chinese AI | SpaceX sued by Oregon and Virginia | Why data centers are at the center | AI News 23 November 2026",
+  "intro": {
+    "durationSeconds": 57,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 23 November 2026. First, today's top headlines: Sarvam Defends Hosting Chinese AI Models, Releases Upgraded 105B Model. SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims. Why data centers are at the center of the Big Tech backlash. Zhipu rolls out GLM-5.4 with vision and million-token context. L&T Technology Services Launches AI Toolchain for Software-Defined Vehicles. San Francisco is enjoying an AI boom, but worries about a crash are growing. Ant Group unveils AI health ring and wristband under Afu brand. Ant Group leads 100 million dollars round in humanoid startup Simplexity Robotics. How Nvidia's billion-dollar turnaround in China is threatened by Huang's exit. Bolna Builds Its Own Speech Model to Catch What Voice AI Misses. And now, the news in brief.",
+    "headlines": [
+      "Sarvam Defends Hosting Chinese AI Models, Releases Upgraded 105B Model",
+      "SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims",
+      "Why data centers are at the center of the Big Tech backlash",
+      "Zhipu rolls out GLM-5.4 with vision and million-token context",
+      "L&T Technology Services Launches AI Toolchain for Software-Defined Vehicles",
+      "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+      "Ant Group unveils AI health ring and wristband under Afu brand",
+      "Ant Group leads 100 million dollars round in humanoid startup Simplexity Robotics",
+      "How Nvidia's billion-dollar turnaround in China is threatened by Huang's exit",
+      "Bolna Builds Its Own Speech Model to Catch What Voice AI Misses"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_sarvam_defends_hosting_chinese_a",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Sarvam Defends Hosting Chinese AI Models, Releases Upgraded 105B Model",
+      "subheadline": "Source: Analytics India Magazine",
+      "importanceScore": 99,
+      "durationSeconds": 51,
+      "source": "Analytics India Magazine",
+      "sourceUrl": "https://is.gd/UQNXCn",
+      "researchDesk": "",
+      "script": "Our lead story today. Sarvam AI co-founder Pratyush Kumar has responded to criticism of the company's decision to offer foreign-built open-weight models, Chinese ones among them, on its inference platform, Token Factory. Writing on X, he also explained how Sarvam had used computing capacity made available through the government's IndiaAI Mission, Analytics India Magazine reports. Sarvam introduced Token Factory earlier this month. It gives developers access to open-weight AI models running on infrastructure based in India. Its selection includes models from the Chinese firms DeepSeek, Moonshot AI, Z.ai and Alibaba, as well as Google's Gemma and Sarvam's own models. Including foreign models led some to ask whether Sarvam was moving away from building homegrown foundation models and toward supplying AI infrastructure instead.",
+      "whyThisMatters": "Sarvam AI co-founder Pratyush Kumar has responded to criticism of the company's decision to offer foreign-built open-weight models, Chinese ones among them, on its inference platform, Token Factory.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Sarvam Defends Hosting Chinese AI Models, Releases Upgraded 105B Model",
+        "Analytics India Magazine"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-23/s1_cut1.jpg",
+          "badge": "BEIJING • OPEN-WEIGHT INFERENCE HUBS",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s2_spacex_sued_by_oregon_and_virgin",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://is.gd/rEESqd",
+      "researchDesk": "",
+      "script": "Turning to the United States. CNBC reports that Oregon and Virginia have sued SpaceX. The states want civil penalties and court orders to stop Grok and X from creating and spreading nonconsensual sexualized images.",
+      "whyThisMatters": "CNBC reports that Oregon and Virginia have sued SpaceX.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-23/s2_cut1.jpg",
+          "badge": "AI INTELLIGENCE WIRE • NEURAL ARCHITECTURE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s3_why_data_centers_are_at_the_cent",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Why data centers are at the center of the Big Tech backlash",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 95,
+      "durationSeconds": 50,
+      "source": "TechCrunch",
+      "sourceUrl": "https://is.gd/zJYVfJ",
+      "researchDesk": "",
+      "script": "In other news. Journalist Paris Marx examines data centers and generative AI in a new book called Hyperscale. In it, he takes readers inside the facilities and traces how computing infrastructure that has existed for decades has recently become politically explosive. The book arrives as local opposition to new data centers grows, according to TechCrunch. Speaking to TechCrunch, Marx called the expansion of data centers \"fundamentally unsustainable\" and said it was incompatible with a planet people can live on. He also argued that the sites are an easy target for wider frustration with the technology industry, because when one goes up in a community it is a physical, tangible presence. He said this holds true whatever a person's political views.",
+      "whyThisMatters": "Journalist Paris Marx examines data centers and generative AI in a new book called Hyperscale.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Why data centers are at the center of the Big Tech backlash",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-23/s3_cut1.jpg",
+          "badge": "USA • AI INTELLIGENCE WIRE",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s4_zhipu_rolls_out_glm_5_4_with_vis",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Zhipu rolls out GLM-5.4 with vision and million-token context",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 49,
+      "source": "TechNode",
+      "sourceUrl": "https://is.gd/2qsjpo",
+      "researchDesk": "",
+      "script": "In China. Chinese AI company Zhipu has added a new model, GLM-5.4, to its Coding Plan subscription service, TechNode reports. The model showed up in the service's model menu on Monday, listed with vision support and a context window of one million tokens. Zhipu says it brings visual understanding and stronger performance on coding tasks. A member of the company's operations team said Zhipu had spent the past three months scaling up both the size of its models and its Loop Transformer approach. Subscribers on the V2, V3 and team plans have had their GLM-5.4 usage allowance raised by 50 percent. Zhipu has not yet published a full technical write-up covering the model's architecture, parameter count or benchmark results.",
+      "whyThisMatters": "Chinese AI company Zhipu has added a new model, GLM-5.4, to its Coding Plan subscription service, TechNode reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Zhipu rolls out GLM-5.4 with vision and million-token context",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-23/s4_cut1.jpg",
+          "badge": "CHINA • AI INTELLIGENCE WIRE",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s5_l_t_technology_services_launches",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "L&T Technology Services Launches AI Toolchain for Software-Defined Vehicles",
+      "subheadline": "Source: Analytics India Magazine",
+      "importanceScore": 90,
+      "durationSeconds": 60,
+      "source": "Analytics India Magazine",
+      "sourceUrl": "https://is.gd/bZeo2M",
+      "researchDesk": "",
+      "script": "Turning to India. L&T Technology Services, known as LTTS, has introduced an AI-driven engineering toolchain to help companies develop and validate software-defined vehicles, Analytics India Magazine reports. The platform, SDVault.ai, uses more than 250 AI agents across 12 engineering areas. These include requirements, system architecture, functional safety, cybersecurity, software development and testing. It belongs to the company's EI for Engineering suite and runs on its EIOne Engineering Intelligence platform. LTTS said safety-critical work is handled by a mix of AI agents and rule-based automation, and that engineers keep the final say on design decisions, verification and certification. The launch is part of a wider move by services firms to use AI in automotive software. In October, for example, HCLTech launched a validation service for software-defined vehicles powered by NVIDIA, which uses AI agents and virtual simulations to automate parts of the testing process.",
+      "whyThisMatters": "L&T Technology Services, known as LTTS, has introduced an AI-driven engineering toolchain to help companies develop and validate software-defined vehicles, Analytics India Magazine reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "L&T Technology Services Launches AI Toolchain for Software-Defined Vehicles",
+        "Analytics India Magazine"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-23/s5_cut1.jpg",
+          "badge": "INDIA • AI INTELLIGENCE WIRE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s6_san_francisco_is_enjoying_an_ai",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+      "subheadline": "Source: BBC",
+      "importanceScore": 90,
+      "durationSeconds": 53,
+      "source": "BBC",
+      "sourceUrl": "https://is.gd/hHqs9b",
+      "researchDesk": "",
+      "script": "Around the world. Artificial intelligence is driving a revival in San Francisco, the BBC reports, though concern is rising that the boom could end in a crash. The city lost many residents during the pandemic, and remote work left its downtown weakened. AI is now the main force behind its recovery, and other businesses are feeling the benefit. One of them belongs to Lauren Goldboss, who owns a small dog-walking company in the city. She has been taking on staff and buying vans, helped by Paw Perk, her new service that walks dogs for offices and has proved popular with several local AI start-ups. Two leading AI firms, OpenAI and Anthropic, have their headquarters in San Francisco. Both have been recruiting top engineers, often on very large salaries.",
+      "whyThisMatters": "Artificial intelligence is driving a revival in San Francisco, the BBC reports, though concern is rising that the boom could end in a crash.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+        "BBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-23/s6_cut1.jpg",
+          "badge": "SAN FRANCISCO • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s7_ant_group_unveils_ai_health_ring",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Ant Group unveils AI health ring and wristband under Afu brand",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 49,
+      "source": "TechNode",
+      "sourceUrl": "https://is.gd/2aGOFa",
+      "researchDesk": "",
+      "script": "In China. Afu, Ant Group's AI health service, has moved into wearable devices with the launch of a smart ring and a wristband, TechNode reports. The products were unveiled on Monday at the Afu healthcare ecosystem conference. Both monitor sleep, heart rate, breathing and blood oxygen, and use AI to turn those readings into health reports and recommendations. The wristband, known in Chinese as Fuhuan, will come in two versions, one with a screen and one without. The ring, called Fujie, has a plain silver-white look. Ant stressed that both devices have long battery life, but its announcement gave no detailed battery figures, prices or release dates. Afu said it was open to working with partners on the products.",
+      "whyThisMatters": "Afu, Ant Group's AI health service, has moved into wearable devices with the launch of a smart ring and a wristband, TechNode reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Ant Group unveils AI health ring and wristband under Afu brand",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-23/s7_cut1.jpg",
+          "badge": "CHINA • AI INTELLIGENCE WIRE",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s8_ant_group_leads_100_million_doll",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Ant Group leads 100 million dollars round in humanoid startup Simplexity Robotics",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 28,
+      "source": "TechNode",
+      "sourceUrl": "https://is.gd/dp8YX0",
+      "researchDesk": "",
+      "script": "Next. Chinese robotics startup Simplexity Robotics has raised 100 million dollars in a pre-Series A round led by Ant Group, giving it a valuation of 1.6 billion dollars . Chairman and co-founder Wang Kai disclosed the deal to Bloomberg, TechNode reports. Existing backers including Tencent, HSG and Lanchi Ventures also took part. The company was founded by former Li Auto executives and is building robots and embodied AI.",
+      "whyThisMatters": "Chinese robotics startup Simplexity Robotics has raised $100 million in a pre-Series A round led by Ant Group, giving it a valuation of $1.6 billion.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Ant Group leads 100 million dollars round in humanoid startup Simplexity Robotic",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-23/s8_cut1.jpg",
+          "badge": "EMBODIED AI • INDUSTRIAL ROBOTICS DEPLOYMENT",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s9_how_nvidia_s_billion_dollar_turn",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "How Nvidia's billion-dollar turnaround in China is threatened by Huang's exit",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 59,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/articleshow/136101891.cms",
+      "researchDesk": "",
+      "script": "Elsewhere. After US export bans cost it billions of dollars in sales, Nvidia rebuilt its business in China's fast-growing AI sector by selling less powerful chips and software. That recovery is now at risk from the scandal around former chief executive Jensen Huang, The Economic Times reports. Universities, companies and research institutes in China have been buying more Nvidia products to run AI models for everything from business software to humanoid robots. Its most advanced AI processors, meanwhile, remain mostly out of reach for Chinese buyers. That is based on industry sources and a Reuters review of more than 100 Chinese corporate filings and procurement records. People familiar with the matter say some Chinese customers have cancelled or delayed orders since Huang's sudden resignation, putting billions in revenue at risk. US government scrutiny of Nvidia has also increased since he left.",
+      "whyThisMatters": "After US export bans cost it billions of dollars in sales, Nvidia rebuilt its business in China's fast-growing AI sector by selling less powerful chips and software.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "How Nvidia's billion-dollar turnaround in China is threatened by Huang's exit",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-23/s9_cut1.jpg",
+          "badge": "SANTA CLARA • NVIDIA CORPORATE HEADQUARTERS",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s10_bolna_builds_its_own_speech_mode",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Bolna Builds Its Own Speech Model to Catch What Voice AI Misses",
+      "subheadline": "Source: Analytics India Magazine",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "Analytics India Magazine",
+      "sourceUrl": "https://is.gd/PDZ3ba",
+      "researchDesk": "",
+      "script": "Turning to India. Bolna AI has released Syl, its own automatic speech recognition model, Analytics India Magazine reports. It is meant to help voice agents handle brief replies and the subtleties of conversation.",
+      "whyThisMatters": "Bolna AI has released Syl, its own automatic speech recognition model, Analytics India Magazine reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Bolna Builds Its Own Speech Model to Catch What Voice AI Misses",
+        "Analytics India Magazine"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-23/s10_cut1.jpg",
+          "badge": "INDIA • AI INTELLIGENCE WIRE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s11_cmhc_balancing_stream_mixing_in",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 40,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.27193",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. The researchers behind a paper titled cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction look at how information should be blended inside AI models. It builds on an approach called manifold-constrained hyper-connections, which splits a model's shortcut pathways into several parallel streams. To keep training stable, the rules for mixing those streams are restricted to a particular mathematical set of matrices. The researchers found a trade-off. If the streams are mixed too little, they end up acting almost independently. If they are mixed too much, they become hard to tell apart.",
+      "whyThisMatters": "The researchers behind a paper titled cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction look at how information should be blended inside AI models.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-23/s11_cut1.jpg",
+          "badge": "WORLD • AI INTELLIGENCE WIRE",
+          "panDirection": "panLeft"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. Sarvam Defends Hosting Chinese AI Models, Releases Upgraded 105B Model. SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims. Why data centers are at the center of the Big Tech backlash. Zhipu rolls out GLM-5.4 with vision and million-token context. L&T Technology Services Launches AI Toolchain for Software-Defined Vehicles. San Francisco is enjoying an AI boom, but worries about a crash are growing.",
+    "items": [
+      "✓ Sarvam Defends Hosting Chinese AI Models, Releas",
+      "✓ SpaceX sued by Oregon and Virginia over AI deepf",
+      "✓ Why data centers are at the center of the Big Te",
+      "✓ Zhipu rolls out GLM-5.4 with vision and million-",
+      "✓ L&T Technology Services Launches AI Toolchain fo",
+      "✓ San Francisco is enjoying an AI boom, but worrie",
+      "✓ Ant Group unveils AI health ring and wristband u"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Sarvam Defends Hosting Chinese AI Models, Rel",
+    "SpaceX sued by Oregon and Virginia over AI de",
+    "Why data centers are at the center of the Big",
+    "Zhipu rolls out GLM-5.4 with vision and milli",
+    "L&T Technology Services Launches AI Toolchain",
+    "San Francisco is enjoying an AI boom, but wor",
+    "Ant Group unveils AI health ring and wristban",
+    "Ant Group leads 100 million dollars round in ",
+    "How Nvidia's billion-dollar turnaround in Chi",
+    "Bolna Builds Its Own Speech Model to Catch Wh",
+    "cmHC: Balancing Stream Mixing in Hyper-Connec"
+  ],
+  "thumbnail": {
+    "date": "23 NOVEMBER 2026",
+    "headline": "SARVAM DEFENDS HOSTING CHINESE AI MODELS,",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "SARVAM DEFENDS HOSTING CHINESE AI",
+      "SPACEX SUED BY OREGON AND VIRGINIA",
+      "WHY DATA CENTERS ARE AT THE CENTER",
+      "ZHIPU ROLLS OUT GLM-5.4 WITH VISION"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Sarvam Defends Hosting Chinese AI | SpaceX sued by Oregon and Virginia | Why data centers are at the center | AI News 23 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 23 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}
