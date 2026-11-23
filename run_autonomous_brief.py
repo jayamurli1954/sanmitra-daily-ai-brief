@@ -232,8 +232,10 @@ if __name__ == "__main__":
         day = args.date or datetime.now(ist).strftime("%Y-%m-%d")
         local = datetime.strptime(f"{day} {args.publish_at_ist}", "%Y-%m-%d %H:%M").replace(tzinfo=ist)
         if local <= datetime.now(ist):
-            parser.error(f"--publish-at-ist {args.publish_at_ist} on {day} is already in the past")
-        publish_at = local.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+            print(f"[*] --publish-at-ist {args.publish_at_ist} on {day} is in the past; publishing immediately on arrival.")
+            publish_at = None
+        else:
+            publish_at = local.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     run_pipeline(
         date_str=args.date,

@@ -155,8 +155,14 @@ jobs:
           # 21:30 IST if there is still time to set it, otherwise 23:59 IST. An upload
           # that finishes after the chosen time is published by YouTube on arrival.
           NOW=$(TZ=Asia/Kolkata date +%H%M)
-          if [ "$NOW" -lt 2125 ]; then PUBLISH_AT=21:30; else PUBLISH_AT=23:59; fi
-          python run_autonomous_brief.py --date "$TODAY" --privacy private --publish-at-ist "$PUBLISH_AT"
+          WALL_DATE=$(TZ=Asia/Kolkata date +%Y-%m-%d)
+          if [ "$TODAY" = "$WALL_DATE" ]; then
+            if [ "$NOW" -lt 2125 ]; then PUBLISH_AT=21:30; else PUBLISH_AT=23:59; fi
+            python run_autonomous_brief.py --date "$TODAY" --privacy private --publish-at-ist "$PUBLISH_AT"
+          else
+            # Back-producing a missed episode from yesterday: upload directly without a future schedule
+            python run_autonomous_brief.py --date "$TODAY" --privacy private
+          fi
 
       # Without this the next run (PC or cloud) forgets the 14-day visual memory
       # and the story ledger, and the no-repeat rules cannot work.
