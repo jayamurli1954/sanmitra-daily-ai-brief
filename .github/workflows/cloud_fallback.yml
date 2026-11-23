@@ -9,6 +9,10 @@ on:
     - cron: '30 13 * * *'
   workflow_dispatch:
     inputs:
+      date:
+        description: 'Target production date (YYYY-MM-DD), leave blank for auto'
+        type: string
+        default: ''
       dry_run:
         description: 'Build and render but do not upload, claim or commit (for testing)'
         type: boolean
@@ -42,28 +46,34 @@ jobs:
       - name: Has today's episode been claimed?
         id: claim
         run: |
-          TODAY=$(TZ=Asia/Kolkata date +%Y-%m-%d)
-          echo "today=$TODAY" >> "$GITHUB_OUTPUT"
-          # GitHub Actions scheduled cron can be delayed by several hours during peak times.
-          # Allow runs from 18:30 IST through late night. If running past midnight (00:00-05:00 IST),
-          # check if yesterday's episode was missed due to GitHub cron queuing delay.
-          NOW=$(TZ=Asia/Kolkata date +%H%M)
-          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$NOW" -ge 0500 ] && [ "$NOW" -lt 1830 ]; }; then
-            echo "[*] Scheduled run started at $NOW IST (daytime outside 18:30-05:00 IST). Doing nothing."
-            echo "produce=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          if [ "$NOW" -ge 0000 ] && [ "$NOW" -lt 0500 ]; then
-            YESTERDAY=$(TZ=Asia/Kolkata date -d "yesterday" +%Y-%m-%d)
-            PREV_CLAIM=$(git log -100 --format=%s | grep -F "episode claim $YESTERDAY " | head -1 || true)
-            if [ -z "$PREV_CLAIM" ]; then
-              echo "[*] Delayed run detected past midnight ($NOW IST). Producing missed episode for $YESTERDAY."
-              TODAY="$YESTERDAY"
-              echo "today=$TODAY" > "$GITHUB_OUTPUT"
+          if [ -n "${{ inputs.date }}" ]; then
+            TODAY="${{ inputs.date }}"
+            echo "[*] Explicit target date provided via workflow_dispatch: $TODAY"
+            echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+          else
+            TODAY=$(TZ=Asia/Kolkata date +%Y-%m-%d)
+            echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+            # GitHub Actions scheduled cron can be delayed by several hours during peak times.
+            # Allow runs from 18:30 IST through late night. If running past midnight (00:00-05:00 IST),
+            # check if yesterday's episode was missed due to GitHub cron queuing delay or claim release.
+            NOW=$(TZ=Asia/Kolkata date +%H%M)
+            if [ "${{ github.event_name }}" = "schedule" ] && { [ "$NOW" -ge 0500 ] && [ "$NOW" -lt 1830 ]; }; then
+              echo "[*] Scheduled run started at $NOW IST (daytime outside 18:30-05:00 IST). Doing nothing."
+              echo "produce=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            if [ "$NOW" -ge 0000 ] && [ "$NOW" -lt 0500 ]; then
+              YESTERDAY=$(TZ=Asia/Kolkata date -d "yesterday" +%Y-%m-%d)
+              if [ ! -f "src/aibrief/data/aired/$YESTERDAY.json" ]; then
+                echo "[*] Detected unaired episode for $YESTERDAY past midnight ($NOW IST). Producing missed episode for $YESTERDAY."
+                TODAY="$YESTERDAY"
+                echo "today=$TODAY" > "$GITHUB_OUTPUT"
+              fi
             fi
           fi
           CLAIM=$(git log -100 --format=%s | grep -F "episode claim $TODAY " | head -1 || true)
-          if [ -n "$CLAIM" ] && [ "$FORCE" != "true" ]; then
+          RELEASE=$(git log -100 --format=%s | grep -F "episode release $TODAY " | head -1 || true)
+          if [ -n "$CLAIM" ] && [ -z "$RELEASE" ] && [ "$FORCE" != "true" ]; then
             echo "[*] Already claimed: $CLAIM. Nothing to do."
             echo "produce=false" >> "$GITHUB_OUTPUT"
             exit 0

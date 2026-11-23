@@ -27,6 +27,7 @@ import re
 import shutil
 import sys
 import urllib.request
+import requests
 from PIL import Image, ImageEnhance, ImageOps, ImageFilter
 
 if sys.stdout.encoding != 'utf-8':
@@ -345,7 +346,11 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
         raw_items = DAILY_VISUAL_MAP.get(date_str, DAILY_VISUAL_MAP["2026-09-28"])
         items = [(fn, to_wiki_thumb(u), b) for fn, u, b in raw_items]
 
-    headers = {"User-Agent": "SanMitraNewsBot/1.0 (https://sanmitra.ai; newsdesk@sanmitra.ai)"}
+    headers = {
+        "User-Agent": "SanMitraIntelligenceBot/2.0 (https://sanmitratech.com; contact@sanmitratech.com) Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "Referer": "https://commons.wikimedia.org/",
+    }
 
     mgr = VisualMemoryManager()
     if force:
@@ -388,9 +393,9 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
 
         if not success:
             try:
-                req = urllib.request.Request(url, headers=headers)
-                with urllib.request.urlopen(req, timeout=15) as r:
-                    data = r.read()
+                resp = requests.get(url, headers=headers, timeout=15)
+                if resp.status_code == 200:
+                    data = resp.content
                     im = Image.open(io.BytesIO(data)).convert("RGB")
                     im = crop_and_grade(im)
 
@@ -415,6 +420,8 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
                         success = True
                     else:
                         print(f"    [!] REJECTED BY EDITORIAL VISUAL GATE: {rejection_reason}")
+                else:
+                    print(f"    [!] Error downloading from {url}: HTTP {resp.status_code}")
             except Exception as e:
                 print(f"    [!] Error downloading from {url}: {e}")
 
