@@ -311,11 +311,14 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
             except Exception:
                 pass
 
-    from src.aibrief.entity_visual_resolver import resolve_cuts_for_story, to_wiki_thumb, DOMAIN_POOLS, CURATED_ENTITY_MAP
+    from src.aibrief.entity_visual_resolver import (resolve_hero_candidates, to_wiki_thumb, CURATED_ENTITY_MAP,
+                                                    is_fallback_image)
 
     curated_urls = {val[0] for val in CURATED_ENTITY_MAP.values()}
 
-    # 1. Resolve authentic, story-specific visual cuts directly from active episode
+    # 1. Resolve authentic, story-specific hero candidates (best first) from the active episode.
+    #    Each item is (filename, [(url, badge), ...]); the first candidate that is not a
+    #    repeat is used (AGENTS.md: zero repeats within 14 days, one hero per story).
     items = []
     active_path = os.path.join("src", "aibrief", "data", "active_episode.json")
     date_path = os.path.join("src", "aibrief", "data", f"{date_str}.json")
@@ -327,24 +330,17 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
                 ep_data = json.load(f)
             stories = ep_data.get("stories", [])
             print(f"[*] Resolving story-specific editorial visuals for {len(stories)} stories...")
-            global_used = set()
             for idx, s in enumerate(stories, 1):
                 full_story_text = f"{s.get('headline', '')} {s.get('script', '')} {s.get('subheadline', '')} {s.get('whyThisMatters', '')}"
-                cuts = resolve_cuts_for_story(
+                candidates = resolve_hero_candidates(
                     idx,
                     s.get("headline", ""),
                     full_story_text,
                     s.get("region", "WORLD"),
-                    global_used_urls=global_used
                 )
-                for c_idx, (c_url, c_badge) in enumerate(cuts, 1):
-                    items.append((f"s{idx}_cut{c_idx}.jpg", to_wiki_thumb(c_url), c_badge))
+                items.append((f"s{idx}_cut1.jpg", [(to_wiki_thumb(u), b) for u, b in candidates]))
         except Exception as e:
             print(f"[!] Warning reading stories for dynamic visual resolution: {e}")
-
-    if not items:
-        raw_items = DAILY_VISUAL_MAP.get(date_str, DAILY_VISUAL_MAP["2026-09-28"])
-        items = [(fn, to_wiki_thumb(u), b) for fn, u, b in raw_items]
 
     headers = {
         "User-Agent": "SanMitraIntelligenceBot/2.0 (https://sanmitratech.com; contact@sanmitratech.com) Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -357,73 +353,82 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
         mgr.clear_date(date_str)
     used_this_run = []
     category_counts = {}
-    used_fallback_urls = set()
-    story_used_locals = {}
     curated_clean_urls = {u.split('?')[0].lower() for u in curated_urls}
 
+    def _clean(u):
+        return u.split('?')[0].lower()
+
+    # Heroes shown in the last 14 days (other dates): never again in that window.
+    cutoff = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=14)).strftime("%Y-%m-%d")
+    recent_urls = set()
+    for day_entry in mgr.data.get("history", []):
+        entry_date = day_entry.get("date", "")
+        if entry_date == date_str or entry_date < cutoff:
+            continue
+        for asset in day_entry.get("assets", []):
+            if asset.get("url"):
+                recent_urls.add(_clean(asset["url"]))
+    used_in_episode = set()
+
     import time
-    for filename, url, badge in items:
+    for filename, candidates in items:
         dest_file = os.path.join(dest_dir, filename)
-        category = mgr.classify_visual_category(badge, url)
-        clean_cand_url = url.split('?')[0].lower()
-        is_curated_entity = (clean_cand_url in curated_clean_urls) or ("upload.wikimedia.org" in clean_cand_url)
-        print(f"[*] Processing visual: {filename} (Category: {category}, Curated: {is_curated_entity})...")
-
-        time.sleep(0.3)  # Rate limit protection for Wikimedia/Unsplash
         success = False
+        for url, badge in candidates:
+            fallback = is_fallback_image(url)
+            if not fallback and _clean(url) in recent_urls:
+                print(f"[-] {filename}: skipping {url[-70:]} (shown in the last 14 days)")
+                continue
+            if not fallback and _clean(url) in used_in_episode:
+                print(f"[-] {filename}: skipping {url[-70:]} (already used in this episode)")
+                continue
+            category = mgr.classify_visual_category(badge, url)
+            clean_cand_url = _clean(url)
+            is_curated_entity = (clean_cand_url in curated_clean_urls) or ("upload.wikimedia.org" in clean_cand_url)
+            print(f"[*] Processing visual: {filename} (Category: {category}, Curated: {is_curated_entity})...")
 
-        # If item is a local relative fallback path rather than a web URL, copy directly
-        if not url.startswith("http://") and not url.startswith("https://"):
-            local_src = os.path.join("public", url) if not url.startswith("public") else url
-            if os.path.exists(local_src):
-                try:
-                    shutil.copyfile(local_src, dest_file)
-                    print(f"    [+] Local fallback applied: {dest_file} ({url})")
-                    used_this_run.append({
-                        "date": date_str,
-                        "filename": filename,
-                        "url": url,
-                        "badge": badge,
-                        "phash": "local_fallback",
-                        "category": category
-                    })
-                    success = True
-                except Exception as e:
-                    print(f"    [!] Error copying local fallback {local_src}: {e}")
+            # Local approved fallback: copy directly.
+            if not url.startswith("http://") and not url.startswith("https://"):
+                local_src = os.path.join("public", url) if not url.startswith("public") else url
+                if os.path.exists(local_src):
+                    try:
+                        shutil.copyfile(local_src, dest_file)
+                        print(f"    [+] Approved fallback applied: {dest_file} ({url})")
+                        used_this_run.append({"date": date_str, "filename": filename, "url": url,
+                                              "badge": badge, "phash": "local_fallback", "category": category})
+                        success = True
+                        break
+                    except Exception as e:
+                        print(f"    [!] Error copying local fallback {local_src}: {e}")
+                continue
 
-        if not success:
+            time.sleep(0.3)  # Rate limit protection for Wikimedia/Unsplash
             try:
                 resp = requests.get(url, headers=headers, timeout=15)
-                if resp.status_code == 200:
-                    data = resp.content
-                    im = Image.open(io.BytesIO(data)).convert("RGB")
-                    im = crop_and_grade(im)
-
-                    # Validate against 14-day pHash memory and diversity caps
-                    approved, cand_hash, rejection_reason = mgr.check_visual_candidate(
-                        im, url, category, category_counts, current_date_str=date_str,
-                        is_curated_entity=is_curated_entity
-                    )
-
-                    if approved:
-                        im.save(dest_file, quality=92)
-                        category_counts[category] = category_counts.get(category, 0) + 1
-                        print(f"    [+] APPROVED & SAVED (pHash: {cand_hash}, Category count: {category_counts[category]}/12): {dest_file}")
-                        used_this_run.append({
-                            "date": date_str,
-                            "filename": filename,
-                            "url": url,
-                            "badge": badge,
-                            "phash": cand_hash,
-                            "category": category
-                        })
-                        success = True
-                    else:
-                        print(f"    [!] REJECTED BY EDITORIAL VISUAL GATE: {rejection_reason}")
-                else:
+                if resp.status_code != 200:
                     print(f"    [!] Error downloading from {url}: HTTP {resp.status_code}")
+                    continue
+                im = Image.open(io.BytesIO(resp.content)).convert("RGB")
+                im = crop_and_grade(im)
+                # Banned-asset list, category caps and pHash look-alikes in the 14-day memory.
+                approved, cand_hash, rejection_reason = mgr.check_visual_candidate(
+                    im, url, category, category_counts, current_date_str=date_str,
+                    is_curated_entity=is_curated_entity
+                )
+                if not approved:
+                    print(f"    [!] REJECTED BY EDITORIAL VISUAL GATE: {rejection_reason}")
+                    continue
+                im.save(dest_file, quality=92)
+                category_counts[category] = category_counts.get(category, 0) + 1
+                used_in_episode.add(clean_cand_url)
+                print(f"    [+] APPROVED & SAVED (pHash: {cand_hash}): {dest_file} <- {badge}")
+                used_this_run.append({"date": date_str, "filename": filename, "url": url,
+                                      "badge": badge, "phash": cand_hash, "category": category})
+                success = True
+                break
             except Exception as e:
                 print(f"    [!] Error downloading from {url}: {e}")
+
 
         # If primary candidate failed or was rejected, apply guaranteed approved fallback
         if not success:

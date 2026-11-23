@@ -56,6 +56,46 @@ class ResolverTest(unittest.TestCase):
         self.assertIn("MENLO PARK • META HEADQUARTERS", badges)
         self.assertFalse(any("OPENAI" in b for b in badges))
 
+    def test_person_needs_headline_or_two_mentions(self):
+        badges = self.cuts("Meta launches a new coding assistant", "It is pitched as a rival to Sam Altman's OpenAI.")
+        self.assertNotIn("SAM ALTMAN", badges)
+        self.assertEqual(self.cuts("Sam Altman says GPT-6 ships next year", "No date was given.")[0], "SAM ALTMAN")
+
+    def test_no_generic_or_mislabelled_stand_ins(self):
+        # Common words and companies whose curated photo was someone else's building.
+        stories = [
+            ("DeepSeek releases a reasoning model", "The model is open-weight."),
+            ("Startup tests delivery drone over Pune", "The drone carries robotics kits and a GPU."),
+            ("Anthropic opens a Tokyo office", "Anthropic says the data center deal is separate."),
+            ("Survey shows the surface of AI adoption", "Researchers used mathematics and biology data."),
+        ]
+        for i, (h, b) in enumerate(stories, 1):
+            for badge in self.cuts(h, b, i):
+                self.assertIn("AI INTELLIGENCE WIRE", badge, (h, badge))
+
+    def test_candidates_end_with_both_approved_fallbacks(self):
+        with mock.patch.object(r, "search_wikipedia_image", return_value=None):
+            cands = r.resolve_hero_candidates(1, "Google ships Gemini update", "Google said so.", "USA")
+        self.assertIn("GOOGLEPLEX", cands[0][1])
+        self.assertEqual([u for u, _ in cands[-2:]], list(r.FALLBACK_IMAGES))
+
+    def test_same_hero_not_used_twice_in_an_episode(self):
+        used = set()
+        with mock.patch.object(r, "search_wikipedia_image", return_value=None):
+            first = r.resolve_cuts_for_story(1, "Google ships Gemini update", "", "USA", used)
+            second = r.resolve_cuts_for_story(2, "Google expands AI search", "", "USA", used)
+        self.assertIn("GOOGLEPLEX", first[0][1])
+        self.assertTrue(r.is_fallback_image(second[0][0]))
+
+    def test_regions_are_not_looked_up(self):
+        with mock.patch.object(r, "search_wikipedia_image", return_value=("x.png", "MAP")) as wiki:
+            r.resolve_hero_candidates(1, "Asia-Pacific regulators weigh AI rules", "", "ASIA")
+        self.assertEqual(wiki.call_count, 0)
+
+    def test_wikipedia_maps_and_scenery_are_banned(self):
+        for word in ("locator_map", "flag_of", "west_lake"):
+            self.assertTrue(any(k in word for k in r.BANNED_WIKI_KEYWORDS), word)
+
     def test_whole_word_topic_matching(self):
         self.assertFalse(r._has_any("the bank will submit a diet plan", ["ban", "mit", "die"]))
         self.assertTrue(r._has_any("a ban on drones", ["ban"]))
