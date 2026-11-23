@@ -127,7 +127,7 @@ export const getStoryEntityLogo = (story: Story): { name: string; logo: string }
 
 export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+  const { fps, durationInFrames } = useVideoConfig();
   const entityLogo = getStoryEntityLogo(story);
 
   // Entrance animation for lower-third banner
@@ -162,7 +162,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
   const localCutProgress =
     totalCuts > 1
       ? (frame % cutDuration) / cutDuration
-      : interpolate(frame, [0, sceneDurationInFrames || 900], [0, 1], {
+      : interpolate(frame, [0, durationInFrames || 900], [0, 1], {
           extrapolateLeft: "clamp",
           extrapolateRight: "clamp",
         });
