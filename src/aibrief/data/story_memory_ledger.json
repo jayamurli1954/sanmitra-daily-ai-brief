@@ -1,6 +1,6 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-11-21",
+  "last_updated": "2026-11-23",
   "stories": [
     {
       "story_id": "story_20261107_hundreds_of_artex_ai_hacking_tools_",
@@ -2879,6 +2879,171 @@
       ],
       "first_covered": "2026-11-21",
       "last_major_update": "2026-11-21",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261122_openai_uses_its_models_to_improve_s",
+      "story_chain_id": "chain_global_openai_uses_its_mode",
+      "headline": "OpenAI uses its models to improve semiconductor chip design",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://openai.com/index/advancing-chip-design-with-our-models/"
+      ],
+      "first_covered": "2026-11-22",
+      "last_major_update": "2026-11-22",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261122_lagarde_says_eu_funds_should_take_f",
+      "story_chain_id": "chain_global_lagarde_says_eu_fund",
+      "headline": "Lagarde says EU funds should take first losses on chip plants, data centers",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://is.gd/1vmlMJ"
+      ],
+      "first_covered": "2026-11-22",
+      "last_major_update": "2026-11-22",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261122_the_seven_anthropic_founders_who_ar",
+      "story_chain_id": "chain_global_the_seven_anthropic_",
+      "headline": "The seven Anthropic founders who are about to become multi-billionaires",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://is.gd/YUf8kT"
+      ],
+      "first_covered": "2026-11-22",
+      "last_major_update": "2026-11-22",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261122_korea_and_japan_sign_a_privacy_pact",
+      "story_chain_id": "chain_global_korea_and_japan_sign",
+      "headline": "Korea and Japan sign a privacy pact covering data transfers and AI",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://is.gd/2Q7aqC"
+      ],
+      "first_covered": "2026-11-22",
+      "last_major_update": "2026-11-22",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261122_soket_ai_launches_eka_1_foundation_",
+      "story_chain_id": "chain_global_soket_ai_launches_ek",
+      "headline": "Soket AI launches EKA-1 foundation model with 4 million dollar backing",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://is.gd/rAMgfA"
+      ],
+      "first_covered": "2026-11-22",
+      "last_major_update": "2026-11-22",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261122_southeast_asia_s_data_center_boom_l",
+      "story_chain_id": "chain_global_southeast_asia_s_dat",
+      "headline": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://is.gd/StwLlP"
+      ],
+      "first_covered": "2026-11-22",
+      "last_major_update": "2026-11-22",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261122_visa_expands_its_agentic_ready_prog",
+      "story_chain_id": "chain_global_visa_expands_its_age",
+      "headline": "Visa expands its Agentic Ready programme across Asia-Pacific",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://is.gd/vKIAGU"
+      ],
+      "first_covered": "2026-11-22",
+      "last_major_update": "2026-11-22",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261122_bengaluru_tech_summit_concludes_wit",
+      "story_chain_id": "chain_global_bengaluru_tech_summi",
+      "headline": "Bengaluru Tech Summit concludes with AI skilling and global partnerships",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://is.gd/ULuzrv"
+      ],
+      "first_covered": "2026-11-22",
+      "last_major_update": "2026-11-22",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261122_apple_releases_fastframes_an_intera",
+      "story_chain_id": "chain_global_apple_releases_fastf",
+      "headline": "Apple releases FastFrames, an interactive-latency video-generation model",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://huggingface.co/apple/FastFrames-L"
+      ],
+      "first_covered": "2026-11-22",
+      "last_major_update": "2026-11-22",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261122_fractal_in_talks_with_up_to_25_ai_s",
+      "story_chain_id": "chain_global_fractal_in_talks_wit",
+      "headline": "Fractal in talks with up to 25 AI startups for acquisitions, CEO says",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/articleshow/135886057.cms"
+      ],
+      "first_covered": "2026-11-22",
+      "last_major_update": "2026-11-22",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261122_telechat_to_xing4_advancing_frontie",
+      "story_chain_id": "chain_global_telechat_to_xing4_ad",
+      "headline": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.22115"
+      ],
+      "first_covered": "2026-11-22",
+      "last_major_update": "2026-11-22",
       "update_phase": "initial_break",
       "impact_score": 90
     }
