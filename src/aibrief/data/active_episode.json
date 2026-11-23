@@ -1,24 +1,24 @@
 {
-  "weekly": false,
-  "date": "2026-11-20",
-  "formattedDate": "20 November 2026",
-  "title": "Traumatized teens sue school, cops | Meta’s AI agent Muse is mixing up | Google brings computer use to | AI News 20 November 2026",
+  "weekly": true,
+  "date": "2026-11-22",
+  "formattedDate": "22 November 2026",
+  "title": "This Week in AI | OpenAI uses its models to improve | Lagarde says EU funds should take | The seven Anthropic founders who | Weekly Round-up 22 November 2026",
   "intro": {
-    "durationSeconds": 60,
+    "durationSeconds": 20,
     "headline": "GLOBAL AI INTELLIGENCE WIRE",
     "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
-    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 20 November 2026. First, today's top headlines: Traumatized teens sue school, cops after Doritos bag triggers AI gun alert. Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says. Google brings computer use to Gemini desktop app on macOS. Anthropic's Australian data centre overwhelmingly opposed by residents. Soket AI launches EKA-1 foundation model with 4 million dollar backing. NextDC vows to keep future datacentres away from homes after community backlash in Melbourne. Academic integrity matters, but students shouldn’t be penalised for using AI | Letter. California investigates Nvidia over whether chip exports ended up in China. Lagarde says EU funds should take first losses on chip plants, data centers. Experts say powering data centers uses more water than cooling them. And now, the news in brief.",
+    "script": "This week in AI, the stories you may have missed: OpenAI uses its models to improve semiconductor chip design. From the SanMitra Newsroom, this is the Weekly AI Round-up for the week ending 22 November 2026: important developments that did not make our daily briefs.",
     "headlines": [
-      "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-      "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
-      "Google brings computer use to Gemini desktop app on macOS",
-      "Anthropic's Australian data centre overwhelmingly opposed by residents",
-      "Soket AI launches EKA-1 foundation model with 4 million dollar backing",
-      "NextDC vows to keep future datacentres away from homes after community backlash in Melbourne",
-      "Academic integrity matters, but students shouldn’t be penalised for using AI | Letter",
-      "California investigates Nvidia over whether chip exports ended up in China",
+      "OpenAI uses its models to improve semiconductor chip design",
       "Lagarde says EU funds should take first losses on chip plants, data centers",
-      "Experts say powering data centers uses more water than cooling them"
+      "The seven Anthropic founders who are about to become multi-billionaires",
+      "Korea and Japan sign a privacy pact covering data transfers and AI",
+      "Soket AI launches EKA-1 foundation model with 4 million dollar backing",
+      "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+      "Visa expands its Agentic Ready programme across Asia-Pacific",
+      "Bengaluru Tech Summit concludes with AI skilling and global partnerships",
+      "Apple releases FastFrames, an interactive-latency video-generation model",
+      "Fractal in talks with up to 25 AI startups for acquisitions, CEO says"
     ]
   },
   "transitions": [
@@ -44,59 +44,59 @@
       "durationSeconds": 2
     },
     {
-      "id": "transition_usa",
-      "region": "USA",
-      "title": "NEXT: USA & REGIONAL STRATEGY",
-      "display": "NEXT: USA",
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
       "durationSeconds": 2
     }
   ],
   "stories": [
     {
-      "id": "s1_traumatized_teens_sue_school_cop",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-      "subheadline": "Source: Ars Technica",
+      "id": "s1_openai_uses_its_models_to_improv",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "OpenAI uses its models to improve semiconductor chip design",
+      "subheadline": "Source: OpenAI",
       "importanceScore": 99,
-      "durationSeconds": 49,
-      "source": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "durationSeconds": 39,
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/index/advancing-chip-design-with-our-models/",
       "researchDesk": "",
-      "script": "Our lead story today. Four Black high school students in Baltimore County are suing their school and police after an AI gun detection system mistook a bag of chips for a weapon, Ars Technica reports. In October 2025, the teens were sharing Cool Ranch Doritos after football practice while waiting to be picked up. The school's AI system then flagged one of them, who was holding the snack bag, as a possible gunman. Baltimore County Public Schools officials reviewed the linked security camera footage and, within two minutes, concluded there was no real threat. Recognising the Doritos bag, they cancelled the alert, which told other school staff and the Baltimore County Police Department that no response was required.",
-      "whyThisMatters": "Four Black high school students in Baltimore County are suing their school and police after an AI gun detection system mistook a bag of chips for a weapon, Ars Technica reports.",
-      "sourceType": "reporting",
+      "script": "Our lead story today. OpenAI has described how its models have helped engineers improve its Jalapeño custom inference chip and work on third-party hardware. One reported multiplier redesign reduced cell area by approximately 15% while reducing latency from two clock cycles to one. OpenAI says further design improvements have been silicon-proven. The company is also working with Synopsys to integrate frontier AI models with electronic design automation tools. Why it matters: AI is beginning to assist in designing the very hardware required to run advanced AI. This could accelerate chip engineering and improve computing efficiency.",
+      "whyThisMatters": "OpenAI has described how its models have helped engineers improve its Jalapeño custom inference chip and work on third-party hardware.",
+      "sourceType": "company",
       "keyPoints": [
-        "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-        "Ars Technica"
+        "OpenAI uses its models to improve semiconductor chip design",
+        "OpenAI"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
-          "badge": "USA • SPECIAL REPORT",
+          "badge": "WORLD • SPECIAL REPORT",
           "panDirection": "zoomIn"
         }
       ]
     },
     {
-      "id": "s2_meta_s_ai_agent_muse_is_mixing_u",
+      "id": "s2_lagarde_says_eu_funds_should_tak",
       "region": "USA",
       "category": "USA Intelligence",
       "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
-      "subheadline": "Source: TechCrunch",
+      "headline": "Lagarde says EU funds should take first losses on chip plants, data centers",
+      "subheadline": "Source: CNBC",
       "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "durationSeconds": 59,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/20/lagarde-eu-data-center-funding.html",
       "researchDesk": "",
-      "script": "Also today. Meta's AI agent Muse may be confusing conversations and exposing private information, TechCrunch reports. Employees said it showed them childcare requests, career advice, product orders and bank balances that were never theirs.",
-      "whyThisMatters": "Meta's AI agent Muse may be confusing conversations and exposing private information, TechCrunch reports.",
+      "script": "Turning to the United States. European Central Bank President Christine Lagarde said on Friday that public money from the European Union should absorb the first losses on large chip-plant and data-center projects, as a way to draw in private investment, CNBC reports. Speaking at the Frankfurt European Banking Congress, in her last address there before leaving the ECB in February, Lagarde said that where a challenge needs a European answer, the institutions able to deliver it should be reinforced. In technology, she argued, projects requiring European scale call for public-private partnerships at the European level, with public funds, including the EU budget, \"taking the first losses and drawing in private capital.\" Lagarde has warned before that Europe lacks the data center capacity to meet its own needs, and that current plans for up to seven gigafactories across the European Union fall short.",
+      "whyThisMatters": "European Central Bank President Christine Lagarde said on Friday that public money from the European Union should absorb the first losses on large chip-plant and data-center projects, as a way to draw in private investme",
       "sourceType": "reporting",
       "keyPoints": [
-        "Meta’s AI agent Muse is mixing up conversations and could be exposing private da",
-        "TechCrunch"
+        "Lagarde says EU funds should take first losses on chip plants, data centers",
+        "CNBC"
       ],
       "visualCuts": [
         {
@@ -107,50 +107,50 @@
       ]
     },
     {
-      "id": "s3_google_brings_computer_use_to_ge",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Google brings computer use to Gemini desktop app on macOS",
-      "subheadline": "Source: TechCrunch",
+      "id": "s3_the_seven_anthropic_founders_who",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "The seven Anthropic founders who are about to become multi-billionaires",
+      "subheadline": "Source: BBC",
       "importanceScore": 95,
-      "durationSeconds": 24,
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "durationSeconds": 58,
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
       "researchDesk": "",
-      "script": "In other news. Google announced that it is bringing computer use capabilities to its Gemini desktop application on macOS, allowing the artificial intelligence to complete tasks on users' behalf. The system can navigate native Mac applications and browse websites in the background to handle multi-step actions autonomously.",
-      "whyThisMatters": "Google announced that it is bringing computer use capabilities to its Gemini desktop application on macOS, allowing the artificial intelligence to complete tasks on users' behalf.",
+      "script": "Around the world. Seven people who walked away from OpenAI in 2021 to found Anthropic are hours from becoming multi-billionaires, at least on paper, the BBC reports. The company, which makes the AI platform Claude, has grown in only five years from an obscure start-up into a technology heavyweight valued at more than a trillion dollars. Anthropic is now listing on the US stock market, with its shares priced in a range of 70 dollars to 78. dollars Should the offering land at the top of that band, each founder's stake would be worth no less than 18.5 billion dollars . All seven are in their thirties or forties. Among them is Dario Amodei, who in 2020 was employed at OpenAI. That firm went on to introduce generative artificial intelligence to the general public with the launch of ChatGPT.",
+      "whyThisMatters": "Seven people who walked away from OpenAI in 2021 to found Anthropic are hours from becoming multi-billionaires, at least on paper, the BBC reports.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Google brings computer use to Gemini desktop app on macOS",
-        "TechCrunch"
+        "The seven Anthropic founders who are about to become multi-billionaires",
+        "BBC"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
-          "badge": "USA • SPECIAL REPORT",
+          "badge": "WORLD • SPECIAL REPORT",
           "panDirection": "panLeft"
         }
       ]
     },
     {
-      "id": "s4_anthropic_s_australian_data_cent",
+      "id": "s4_korea_and_japan_sign_a_privacy_p",
       "region": "ASIA",
       "category": "ASIA Intelligence",
       "categoryTag": "ASIA • SPECIAL REPORT",
-      "headline": "Anthropic's Australian data centre overwhelmingly opposed by residents",
-      "subheadline": "Source: The Economic Times",
+      "headline": "Korea and Japan sign a privacy pact covering data transfers and AI",
+      "subheadline": "Source: Korea.kr (PIPC",
       "importanceScore": 90,
-      "durationSeconds": 55,
-      "source": "The Economic Times",
-      "sourceUrl": "https://economictimes.indiatimes.com/articleshow/136010716.cms",
+      "durationSeconds": 24,
+      "source": "Korea.kr (PIPC",
+      "sourceUrl": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789857",
       "researchDesk": "",
-      "script": "In Asia. Residents in regional Australia are overwhelmingly against a planned data centre that would have Anthropic as its anchor tenant, according to a project filing reported by The Economic Times. The proposed Western Downs Digital Park sits about 250 kilometres, or 155 miles, west of Brisbane and would be the AI company's first Australian facility, setting up a confrontation with the local community. Of nearly 600 public submissions, only two backed the project and one was neutral. The other 595 either opposed it or sought a delay until developers resolved certain environmental issues. The filing, lodged on behalf of developer Zerra DC, acknowledged that many submissions raised reasonable concerns about water, power, noise, roads, housing and the size of the project. Zerra and Anthropic representatives could not immediately be reached for comment.",
-      "whyThisMatters": "Residents in regional Australia are overwhelmingly against a planned data centre that would have Anthropic as its anchor tenant, according to a project filing reported by The Economic Times.",
+      "script": "In Asia. Korea's Personal Information Protection Commission signed a memorandum of cooperation with Japan's Personal Information Protection Commission in Brussels. It covers trusted cross-border data-transfer mechanisms, joint investigation and enforcement, and technical cooperation on protecting privacy in the AI era.",
+      "whyThisMatters": "Korea's Personal Information Protection Commission signed a memorandum of cooperation with Japan's Personal Information Protection Commission in Brussels.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Anthropic's Australian data centre overwhelmingly opposed by residents",
-        "The Economic Times"
+        "Korea and Japan sign a privacy pact covering data transfers and AI",
+        "Korea.kr (PIPC"
       ],
       "visualCuts": [
         {
@@ -188,23 +188,23 @@
       ]
     },
     {
-      "id": "s6_nextdc_vows_to_keep_future_datac",
+      "id": "s6_southeast_asia_s_data_center_boo",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "NextDC vows to keep future datacentres away from homes after community backlash in Melbourne",
-      "subheadline": "Source: The Guardian",
+      "headline": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+      "subheadline": "Source: CNBC",
       "importanceScore": 90,
-      "durationSeconds": 44,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/australia-news/2026/nov/20/nextdc-vows-to-keep-future-datacentres-away-from-homes-after-community-backlash-in-melbourne",
+      "durationSeconds": 51,
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
       "researchDesk": "",
-      "script": "Around the world. NextDC says it will stop pursuing new data centre developments close to homes, after community opposition in inner Melbourne cut its share price by 40 percent, according to the Guardian. Chief executive Craig Scroggie said public expectations of data centres have shifted in the era of artificial intelligence, and the company will change how it deals with local communities. The comments came at NextDC's first annual general meeting since it had to postpone a contested expansion of its M3 site in West Footscray. That delay followed a decision by power provider Jemena to halt work on new 22-metre power poles as residents protested.",
-      "whyThisMatters": "NextDC says it will stop pursuing new data centre developments close to homes, after community opposition in inner Melbourne cut its share price by 40 percent, according to the Guardian.",
+      "script": "Around the world. Washington's latest export controls could put the brakes on Southeast Asia's rapid build-out of data centers, CNBC reports. Under an interim rule the Commerce Department issued on Monday, data centers based in Singapore, Malaysia, Thailand and Indonesia must now obtain a license from the US government before buying advanced artificial intelligence chips, Nvidia's among them. Operators whose facilities already host large Chinese clients have 90 days to seek that license, or they risk export restrictions down the line. The measure takes aim at the region's growing function as a supplier of computing power to companies from China. Construction of data centers across Southeast Asia has climbed sharply, driven by demand for the semiconductors used to train and build AI models.",
+      "whyThisMatters": "Washington's latest export controls could put the brakes on Southeast Asia's rapid build-out of data centers, CNBC reports.",
       "sourceType": "reporting",
       "keyPoints": [
-        "NextDC vows to keep future datacentres away from homes after community backlash ",
-        "The Guardian"
+        "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put t",
+        "CNBC"
       ],
       "visualCuts": [
         {
@@ -215,23 +215,23 @@
       ]
     },
     {
-      "id": "s7_academic_integrity_matters_but_s",
+      "id": "s7_visa_expands_its_agentic_ready_p",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Academic integrity matters, but students shouldn’t be penalised for using AI | Letter",
-      "subheadline": "Source: The Guardian",
+      "headline": "Visa expands its Agentic Ready programme across Asia-Pacific",
+      "subheadline": "Source: Visa Agentic Ready",
       "importanceScore": 90,
-      "durationSeconds": 30,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/education/2026/nov/19/academic-integrity-matters-but-students-shouldnt-be-penalised-for-using-ai",
+      "durationSeconds": 31,
+      "source": "Visa Agentic Ready",
+      "sourceUrl": "https://vir.com.vn/visa-expands-agentic-ready-to-help-scale-ai-commerce-in-asia-pacific-165608.html",
       "researchDesk": "",
-      "script": "In other news. A letter published in the Guardian argues that students should not be punished for turning to AI, even as academic integrity remains important. The writer says society has let powerful new technologies spread with little democratic debate, public scrutiny or government oversight. The letter adds that AI is far more than a cheap way to cheat, and has rapidly reshaped how people work, communicate, solve problems, research and learn.",
-      "whyThisMatters": "A letter published in the Guardian argues that students should not be punished for turning to AI, even as academic integrity remains important.",
+      "script": "In other news. Visa is expanding its Agentic Ready programme to include more than 50 payment acquirers, service providers, gateways and selected merchants across Asia-Pacific. The programme will test how merchants recognise trusted AI agents and support agent-led product discovery, checkout, payment and post-purchase services. Why it matters: AI agents are moving from recommending products towards completing purchases. Payment networks are now preparing the infrastructure needed to authenticate and process transactions initiated by AI.",
+      "whyThisMatters": "Visa is expanding its Agentic Ready programme to include more than 50 payment acquirers, service providers, gateways and selected merchants across Asia-Pacific.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Academic integrity matters, but students shouldn’t be penalised for using AI | L",
-        "The Guardian"
+        "Visa expands its Agentic Ready programme across Asia-Pacific",
+        "Visa Agentic Ready"
       ],
       "visualCuts": [
         {
@@ -242,23 +242,23 @@
       ]
     },
     {
-      "id": "s8_california_investigates_nvidia_o",
+      "id": "s8_bengaluru_tech_summit_concludes",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "California investigates Nvidia over whether chip exports ended up in China",
-      "subheadline": "Source: The Guardian",
+      "headline": "Bengaluru Tech Summit concludes with AI skilling and global partnerships",
+      "subheadline": "Source: Moneycontrol",
       "importanceScore": 90,
-      "durationSeconds": 56,
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+      "durationSeconds": 38,
+      "source": "Moneycontrol",
+      "sourceUrl": "https://www.moneycontrol.com/news/business/startup/bengaluru-tech-summit-2026-concludes-with-global-mous-ai-skilling-push-14084887.html",
       "researchDesk": "",
-      "script": "Next. California has issued an investigative subpoena to Nvidia, the Guardian reports, following a scandal that led co-founder and longtime chief executive Jensen Huang to step down. State Attorney General Rob Bonta is examining whether the California-based company's advanced semiconductor chips were exported in ways that ended up in China, in breach of US restrictions. Bonta said the conduct of Nvidia and its former chief raises serious warning signs, including over how the company may have misled investors. He described Nvidia's position as a complicated, cross-border situation, but stressed that under corporate securities law, \"companies cannot mislead their investors.\" The subpoena was issued on Thursday. It came a week after Huang resigned, when it emerged he had had multiple affairs, one of them with Alice Huang, who is suspected of being a Chinese spy.",
-      "whyThisMatters": "California has issued an investigative subpoena to Nvidia, the Guardian reports, following a scandal that led co-founder and longtime chief executive Jensen Huang to step down.",
+      "script": "Next. The Bengaluru Tech Summit 2026 concluded with technology partnerships involving Poland, the UAE and France. Karnataka also announced an AI skilling initiative with Sarvam AI, targeting 2,000 students through a proposed AI lab in North Karnataka. A dedicated drone testing facility is also being developed in Chikkaballapur. Why it matters: This connects AI infrastructure and innovation with the development of local talent. India's AI competitiveness will depend not only on companies and models, but also on skilled people and facilities that allow new technologies to be tested and deployed. moneycontrol.com",
+      "whyThisMatters": "The Bengaluru Tech Summit 2026 concluded with technology partnerships involving Poland, the UAE and France.",
       "sourceType": "reporting",
       "keyPoints": [
-        "California investigates Nvidia over whether chip exports ended up in China",
-        "The Guardian"
+        "Bengaluru Tech Summit concludes with AI skilling and global partnerships",
+        "Moneycontrol"
       ],
       "visualCuts": [
         {
@@ -269,83 +269,56 @@
       ]
     },
     {
-      "id": "s9_lagarde_says_eu_funds_should_tak",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Lagarde says EU funds should take first losses on chip plants, data centers",
-      "subheadline": "Source: CNBC",
-      "importanceScore": 90,
-      "durationSeconds": 59,
-      "source": "CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/11/20/lagarde-eu-data-center-funding.html",
-      "researchDesk": "",
-      "script": "Turning to the United States. European Central Bank President Christine Lagarde said on Friday that public money from the European Union should absorb the first losses on large chip-plant and data-center projects, as a way to draw in private investment, CNBC reports. Speaking at the Frankfurt European Banking Congress, in her last address there before leaving the ECB in February, Lagarde said that where a challenge needs a European answer, the institutions able to deliver it should be reinforced. In technology, she argued, projects requiring European scale call for public-private partnerships at the European level, with public funds, including the EU budget, \"taking the first losses and drawing in private capital.\" Lagarde has warned before that Europe lacks the data center capacity to meet its own needs, and that current plans for up to seven gigafactories across the European Union fall short.",
-      "whyThisMatters": "European Central Bank President Christine Lagarde said on Friday that public money from the European Union should absorb the first losses on large chip-plant and data-center projects, as a way to draw in private investme",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Lagarde says EU funds should take first losses on chip plants, data centers",
-        "CNBC"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
-          "badge": "USA • SPECIAL REPORT",
-          "panDirection": "zoomIn"
-        }
-      ]
-    },
-    {
-      "id": "s10_experts_say_powering_data_center",
-      "region": "USA",
-      "category": "USA Intelligence",
-      "categoryTag": "USA • SPECIAL REPORT",
-      "headline": "Experts say powering data centers uses more water than cooling them",
-      "subheadline": "Source: NPR",
-      "importanceScore": 90,
-      "durationSeconds": 24,
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/11/20/nx-s1-6045780/experts-say-powering-data-centers-uses-more-water-than-cooling-them",
-      "researchDesk": "",
-      "script": "Also today. Generating electricity for data centers consumes far more water than cooling their servers does, according to experts cited by NPR. The broadcaster notes that concern over how much water data centers use is especially strong in Arizona. Experts say the cooling itself is a much smaller draw than the power plants supplying these energy-hungry facilities.",
-      "whyThisMatters": "Generating electricity for data centers consumes far more water than cooling their servers does, according to experts cited by NPR.",
-      "sourceType": "reporting",
-      "keyPoints": [
-        "Experts say powering data centers uses more water than cooling them",
-        "NPR"
-      ],
-      "visualCuts": [
-        {
-          "image": "aibrief/assets/fallbacks/default_ai_network.jpg",
-          "badge": "USA • SPECIAL REPORT",
-          "panDirection": "zoomOut"
-        }
-      ]
-    },
-    {
-      "id": "s11_mind2act_world_a_diagnostic_benc",
+      "id": "s9_apple_releases_fastframes_an_int",
       "region": "WORLD",
       "category": "WORLD Intelligence",
       "categoryTag": "WORLD • SPECIAL REPORT",
-      "headline": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
-      "subheadline": "Source: arXiv Pre-print",
+      "headline": "Apple releases FastFrames, an interactive-latency video-generation model",
+      "subheadline": "Source: Apple FastFrames",
       "importanceScore": 90,
-      "durationSeconds": 45,
-      "source": "arXiv Pre-print",
-      "sourceUrl": "https://arxiv.org/abs/2611.26444",
-      "researchDesk": "Research Watch",
-      "script": "From the research desk. Researchers have unveiled a new testing tool for robots, in a paper titled Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation. The goal of so-called embodied intelligence is robots that handle complex physical jobs as flexibly and dependably as people. That demands three skills: reasoning based on past events, carrying out movements accurately and on time, and combining the two using feedback from the surroundings. Existing tests, the researchers say, cannot pinpoint which of these skills caused a failure. Their benchmark, a diagnostic test suite, offers 30 simulated object-handling tasks drawn from five real-world application areas.",
-      "whyThisMatters": "Researchers have unveiled a new testing tool for robots, in a paper titled Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation.",
+      "durationSeconds": 25,
+      "source": "Apple FastFrames",
+      "sourceUrl": "https://huggingface.co/apple/FastFrames-L",
+      "researchDesk": "",
+      "script": "Elsewhere. Apple has released FastFrames-L (14 billion parameters) and FastFrames-S (1.3 billion parameters), models designed to generate 480p video with interactive latency. Apple has also released an optimised LingBot model for camera-conditioned control, reporting a 16-times speed improvement over the original version. Why it matters: Faster video generation could move AI video beyond conventional prompt-and-wait workflows towards more interactive creative applications.",
+      "whyThisMatters": "Apple has released FastFrames-L (14 billion parameters) and FastFrames-S (1.3 billion parameters), models designed to generate 480p video with interactive latency.",
       "sourceType": "reporting",
       "keyPoints": [
-        "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and M",
-        "arXiv Pre-print"
+        "Apple releases FastFrames, an interactive-latency video-generation model",
+        "Apple FastFrames"
       ],
       "visualCuts": [
         {
           "image": "aibrief/assets/fallbacks/default_ai_brain_ai.jpg",
           "badge": "WORLD • SPECIAL REPORT",
-          "panDirection": "panLeft"
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s10_fractal_in_talks_with_up_to_25_a",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Fractal in talks with up to 25 AI startups for acquisitions, CEO says",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/articleshow/135886057.cms",
+      "researchDesk": "",
+      "script": "Turning to India. Fractal Analytics is in discussions with 20 to 25 startups about possible acquisitions, its CEO told Reuters, according to The Economic Times. The enterprise AI company wants stronger industry-specific expertise and early access to frontier AI models.",
+      "whyThisMatters": "Fractal Analytics is in discussions with 20 to 25 startups about possible acquisitions, its CEO told Reuters, according to The Economic Times.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Fractal in talks with up to 25 AI startups for acquisitions, CEO says",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/fallbacks/default_ai_network.jpg",
+          "badge": "INDIA • SPECIAL REPORT",
+          "panDirection": "zoomOut"
         }
       ]
     }
@@ -353,15 +326,15 @@
   "recap": {
     "durationSeconds": 12,
     "headline": "TODAY'S CRITICAL DEVELOPMENTS",
-    "script": "To recap today's top stories. Traumatized teens sue school, cops after Doritos bag triggers AI gun alert. Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says. Google brings computer use to Gemini desktop app on macOS. Anthropic's Australian data centre overwhelmingly opposed by residents. Soket AI launches EKA-1 foundation model with 4 million dollar backing. NextDC vows to keep future datacentres away from homes after community backlash in Melbourne.",
+    "script": "To recap this week's top stories. OpenAI uses its models to improve semiconductor chip design. Lagarde says EU funds should take first losses on chip plants, data centers. The seven Anthropic founders who are about to become multi-billionaires. Korea and Japan sign a privacy pact covering data transfers and AI. Soket AI launches EKA-1 foundation model with 4 million dollar backing. Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk.",
     "items": [
-      "✓ Traumatized teens sue school, cops after Doritos",
-      "✓ Meta’s AI agent Muse is mixing up conversations ",
-      "✓ Google brings computer use to Gemini desktop app",
-      "✓ Anthropic's Australian data centre overwhelmingl",
+      "✓ OpenAI uses its models to improve semiconductor ",
+      "✓ Lagarde says EU funds should take first losses o",
+      "✓ The seven Anthropic founders who are about to be",
+      "✓ Korea and Japan sign a privacy pact covering dat",
       "✓ Soket AI launches EKA-1 foundation model with 4 ",
-      "✓ NextDC vows to keep future datacentres away from",
-      "✓ Academic integrity matters, but students shouldn"
+      "✓ Southeast Asia’s data center boom leaned on Chin",
+      "✓ Visa expands its Agentic Ready programme across "
     ]
   },
   "outro": {
@@ -376,36 +349,35 @@
       "ASIA",
       "INDIA"
     ],
-    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+    "script": "Those were the week's important developments beyond the daily headlines. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
   },
   "ticker": [
     "SanMitra AI News Wire v6.0",
-    "Traumatized teens sue school, cops after Dori",
-    "Meta’s AI agent Muse is mixing up conversatio",
-    "Google brings computer use to Gemini desktop ",
-    "Anthropic's Australian data centre overwhelmi",
-    "Soket AI launches EKA-1 foundation model with",
-    "NextDC vows to keep future datacentres away f",
-    "Academic integrity matters, but students shou",
-    "California investigates Nvidia over whether c",
+    "OpenAI uses its models to improve semiconduct",
     "Lagarde says EU funds should take first losse",
-    "Experts say powering data centers uses more w",
-    "Mind2Act World: A Diagnostic Benchmark for Em"
+    "The seven Anthropic founders who are about to",
+    "Korea and Japan sign a privacy pact covering ",
+    "Soket AI launches EKA-1 foundation model with",
+    "Southeast Asia’s data center boom leaned on C",
+    "Visa expands its Agentic Ready programme acro",
+    "Bengaluru Tech Summit concludes with AI skill",
+    "Apple releases FastFrames, an interactive-lat",
+    "Fractal in talks with up to 25 AI startups fo"
   ],
   "thumbnail": {
-    "date": "20 NOVEMBER 2026",
-    "headline": "TRAUMATIZED TEENS SUE SCHOOL, COPS AFTER",
+    "date": "22 NOVEMBER 2026",
+    "headline": "OPENAI USES ITS MODELS TO IMPROVE",
     "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
     "storyHighlights": [
-      "TRAUMATIZED TEENS SUE SCHOOL, COPS",
-      "META’S AI AGENT MUSE IS MIXING UP",
-      "GOOGLE BRINGS COMPUTER USE TO",
-      "ANTHROPIC'S AUSTRALIAN DATA CENTRE"
+      "OPENAI USES ITS MODELS TO IMPROVE",
+      "LAGARDE SAYS EU FUNDS SHOULD TAKE",
+      "THE SEVEN ANTHROPIC FOUNDERS WHO",
+      "KOREA AND JAPAN SIGN A PRIVACY PACT"
     ]
   },
   "youtubeMetadata": {
-    "title": "Traumatized teens sue school, cops | Meta’s AI agent Muse is mixing up | Google brings computer use to | AI News 20 November 2026",
-    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 20 November 2026.",
+    "title": "This Week in AI | OpenAI uses its models to improve | Lagarde says EU funds should take | The seven Anthropic founders who | Weekly Round-up 22 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 22 November 2026.",
     "tags": [
       "AI",
       "ArtificialIntelligence",
