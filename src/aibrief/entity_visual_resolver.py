@@ -366,18 +366,91 @@ def _is_person_key(key: str) -> bool:
     return key in PERSON_KEYS
 
 
-def resolve_hero_candidates(idx: int, headline: str, summary: str, region: str) -> List[Tuple[str, str]]:
+def subject_names(headline: str) -> List[Tuple[str, bool]]:
+    """Names to look up for a headline's subject, most specific first, each with
+    whether it opens the headline (only then may a place be the subject).
+    Title-case headlines ("Sarvam Defends Hosting Chinese AI Models") run the verb
+    into the name, so every leading prefix is tried: "Sarvam Defends Hosting",
+    "Sarvam Defends", "Sarvam"; Wikidata only answers exact names."""
+    names: List[Tuple[str, bool]] = []
+    words = [re.sub(r"(?:'s|’s)$", "", w).strip(".,:;!?\"'“”‘’") for w in (headline or "").split()]
+    lead = []
+    for w in words[:4]:
+        if not w or not w[:1].isupper() and not w[:1].isdigit():
+            break
+        lead.append(w)
+    if lead and lead[0].lower() not in _NOT_NAMES:
+        for k in range(len(lead), 0, -1):
+            names.append((" ".join(lead[:k]), True))
+    for run in headline_entities(headline or ""):
+        parts = run.split()
+        for k in range(len(parts), 0, -1):
+            names.append((" ".join(parts[:k]), False))
+    out, seen = [], set()
+    for name, leading in names:
+        low = name.lower()
+        if len(name) < 3 or low in seen or low in _BROAD_PLACES or low in _NOT_NAMES:
+            continue
+        seen.add(low)
+        out.append((name, leading))
+    return out
+
+
+def _subject_visuals(headline: str, limit_names: int = 2) -> List[Tuple[str, str]]:
+    """Logos and photos of the headline's subject from Wikidata and its website."""
+    try:
+        from src.aibrief.wikidata_visuals import entity_visuals
+    except Exception:
+        return []
+    out: List[Tuple[str, str]] = []
+    matched: List[str] = []
+    for name, leading in subject_names(headline):
+        # "Ant" after "Ant Group", "San" after "San Francisco": a shorter form of a
+        # name already found is a different, wrong thing.
+        if any(m.startswith(name) for m in matched):
+            continue
+        variants = ([f"{name} AI"] if " " not in name else []) + [name]
+        for variant in variants:
+            try:
+                visuals = entity_visuals(variant, is_subject_place_ok=leading)
+            except Exception:
+                visuals = []
+            if visuals:
+                out += visuals
+                matched.append(name)
+                break
+        if len(matched) >= limit_names:
+            break
+    return out
+
+
+def _outlet_visuals(source: str) -> List[Tuple[str, str]]:
+    """The reporting outlet's logo ("TechCrunch", "arXiv"): tied to the story, and
+    better than a generic still when the subject has no image of its own."""
+    name = re.sub(r"\s+(?:pre-?print|news|reports?)$", "", (source or "").strip(), flags=re.I)
+    if len(name) < 3:
+        return []
+    try:
+        from src.aibrief.wikidata_visuals import entity_visuals, LOGO_MARK
+        return [(u, b) for u, b in entity_visuals(name) if u.endswith(LOGO_MARK)][:1]
+    except Exception:
+        return []
+
+
+def resolve_hero_candidates(idx: int, headline: str, summary: str, region: str,
+                            source: str = "") -> List[Tuple[str, str]]:
     """Every acceptable (url, badge) hero for a story, best first, ending with the
-    approved fallbacks. The downloader takes the first one not shown in the last
-    14 days (AGENTS.md section 3), so a company that is in the news every day gets
-    its headquarters once, then its Wikipedia lead image, then the fallback.
+    approved fallbacks. The downloader prefers one not shown in the last 14 days
+    but uses a relevant repeat before a generic fallback.
 
     Order:
       1. Curated entity named in the HEADLINE (the story's subject).
       2. Curated entity mentioned at least twice in the body. People need two
          mentions too: "a rival to Sam Altman's OpenAI" must not put Altman on screen.
-      3. The Wikipedia lead image of each matched entity and of each name in the headline.
-      4. The two approved fallbacks, the alternating one first.
+      3. The subject's own logo, photo or website image (Wikidata, official site).
+      4. The Wikipedia lead image of each matched entity and of each name in the headline.
+      5. The reporting outlet's logo.
+      6. The two approved fallbacks, the alternating one first.
     """
     hl_text = (headline or "").lower()
     body_text = (summary or "").replace(headline or "", " ", 1).lower()
@@ -393,6 +466,8 @@ def resolve_hero_candidates(idx: int, headline: str, summary: str, region: str) 
             candidates.append((img_url, badge))
             matched_names.append(key)
 
+    candidates += _subject_visuals(headline)
+
     lookups = [k for k in matched_names if not _is_person_key(k)] + headline_entities(headline or "")
     seen_lookups = set()
     for ent in lookups:
@@ -404,6 +479,8 @@ def resolve_hero_candidates(idx: int, headline: str, summary: str, region: str) 
         if wiki_res:
             src, title = wiki_res
             candidates.append((src, f"{title.upper()} • CONTEXTUAL REPORTING"))
+
+    candidates += _outlet_visuals(source)
 
     first, second = FALLBACK_IMAGES if idx % 2 == 1 else FALLBACK_IMAGES[::-1]
     fallback_badge = f"{region} • AI INTELLIGENCE WIRE"

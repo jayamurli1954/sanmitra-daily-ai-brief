@@ -249,6 +249,32 @@ def crop_and_grade(im: Image.Image) -> Image.Image:
     im = enhancer_color.enhance(1.05)
     return im
 
+def render_logo_card(logo: Image.Image) -> Image.Image:
+    """A company logo centred on a white panel over the broadcast's navy gradient,
+    sized to sit above the lower-third, instead of a cropped or blurred logo."""
+    gradient = Image.linear_gradient("L").resize((TARGET_WIDTH, TARGET_HEIGHT))
+    bg = Image.composite(Image.new("RGB", (TARGET_WIDTH, TARGET_HEIGHT), (22, 42, 78)),
+                         Image.new("RGB", (TARGET_WIDTH, TARGET_HEIGHT), (10, 18, 34)), gradient)
+    panel_w, panel_h = 1040, 540
+    panel_x, panel_y = (TARGET_WIDTH - panel_w) // 2, 150
+    panel = Image.new("RGBA", (panel_w, panel_h), (0, 0, 0, 0))
+    mask = Image.new("L", (panel_w, panel_h), 0)
+    from PIL import ImageDraw
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, panel_w - 1, panel_h - 1), radius=36, fill=255)
+    panel.paste((250, 251, 253, 255), (0, 0, panel_w, panel_h), mask)
+    bg.paste(panel.convert("RGB"), (panel_x, panel_y), mask)
+
+    logo = logo.convert("RGBA")
+    box = logo.getbbox()  # trim transparent margins
+    if box:
+        logo = logo.crop(box)
+    max_w, max_h = panel_w - 200, panel_h - 160
+    scale = min(max_w / logo.width, max_h / logo.height)
+    logo = logo.resize((max(1, int(logo.width * scale)), max(1, int(logo.height * scale))), Image.Resampling.LANCZOS)
+    bg.paste(logo, (panel_x + (panel_w - logo.width) // 2, panel_y + (panel_h - logo.height) // 2), logo)
+    return bg
+
+
 # Records which stories a date folder's stills were chosen for. A run that is
 # restarted with a different story list must not reuse them: on 2026-10-14 the
 # stills from an aborted run were attached to different stories.
@@ -313,6 +339,7 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
 
     from src.aibrief.entity_visual_resolver import (resolve_hero_candidates, to_wiki_thumb, CURATED_ENTITY_MAP,
                                                     is_fallback_image)
+    from src.aibrief.wikidata_visuals import LOGO_MARK
 
     curated_urls = {val[0] for val in CURATED_ENTITY_MAP.values()}
 
@@ -337,8 +364,11 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
                     s.get("headline", ""),
                     full_story_text,
                     s.get("region", "WORLD"),
+                    source=s.get("source", ""),
                 )
-                items.append((f"s{idx}_cut1.jpg", [(to_wiki_thumb(u), b) for u, b in candidates]))
+                items.append((f"s{idx}_cut1.jpg", [
+                    (to_wiki_thumb(u) if "upload.wikimedia.org" in u and not u.endswith(LOGO_MARK) else u, b)
+                    for u, b in candidates]))
         except Exception as e:
             print(f"[!] Warning reading stories for dynamic visual resolution: {e}")
 
@@ -356,9 +386,11 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
     curated_clean_urls = {u.split('?')[0].lower() for u in curated_urls}
 
     def _clean(u):
-        return u.split('?')[0].lower()
+        u = u.split("#")[0].lower()
+        return u if "google.com/s2/favicons" in u else u.split("?")[0]
 
-    # Heroes shown in the last 14 days (other dates): never again in that window.
+    # Heroes shown in the last 14 days (other dates) are used again only when the
+    # story has nothing fresh: a relevant repeat beats a generic fallback.
     cutoff = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=14)).strftime("%Y-%m-%d")
     recent_urls = set()
     for day_entry in mgr.data.get("history", []):
@@ -374,18 +406,17 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
     for filename, candidates in items:
         dest_file = os.path.join(dest_dir, filename)
         success = False
-        for url, badge in candidates:
-            fallback = is_fallback_image(url)
-            if not fallback and _clean(url) in recent_urls:
-                print(f"[-] {filename}: skipping {url[-70:]} (shown in the last 14 days)")
-                continue
-            if not fallback and _clean(url) in used_in_episode:
-                print(f"[-] {filename}: skipping {url[-70:]} (already used in this episode)")
-                continue
-            category = mgr.classify_visual_category(badge, url)
+        fresh = [c for c in candidates if not is_fallback_image(c[0]) and _clean(c[0]) not in recent_urls
+                 and _clean(c[0]) not in used_in_episode]
+        repeat = [c for c in candidates if not is_fallback_image(c[0]) and c not in fresh
+                  and _clean(c[0]) not in used_in_episode]
+        same_episode = [c for c in candidates if not is_fallback_image(c[0]) and c not in fresh and c not in repeat]
+        fallbacks = [c for c in candidates if is_fallback_image(c[0])]
+        for url, badge in fresh + repeat + same_episode + fallbacks:
             clean_cand_url = _clean(url)
-            is_curated_entity = (clean_cand_url in curated_clean_urls) or ("upload.wikimedia.org" in clean_cand_url)
-            print(f"[*] Processing visual: {filename} (Category: {category}, Curated: {is_curated_entity})...")
+            category = mgr.classify_visual_category(badge, url)
+            if clean_cand_url in recent_urls and not is_fallback_image(url):
+                print(f"[i] {filename}: nothing fresh, reusing a relevant image from the last 14 days")
 
             # Local approved fallback: copy directly.
             if not url.startswith("http://") and not url.startswith("https://"):
@@ -393,7 +424,7 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
                 if os.path.exists(local_src):
                     try:
                         shutil.copyfile(local_src, dest_file)
-                        print(f"    [+] Approved fallback applied: {dest_file} ({url})")
+                        print(f"[*] {filename}: approved fallback applied ({url})")
                         used_this_run.append({"date": date_str, "filename": filename, "url": url,
                                               "badge": badge, "phash": "local_fallback", "category": category})
                         success = True
@@ -402,33 +433,47 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
                         print(f"    [!] Error copying local fallback {local_src}: {e}")
                 continue
 
-            time.sleep(0.3)  # Rate limit protection for Wikimedia/Unsplash
+            time.sleep(0.3)  # Rate limit protection for Wikimedia and company sites
+            is_logo = url.endswith(LOGO_MARK)
+            fetch_url = url[:-len(LOGO_MARK)] if is_logo else url
             try:
-                resp = requests.get(url, headers=headers, timeout=15)
+                # Company sites refuse bot user agents; Wikimedia asks for one that identifies us.
+                req_headers = headers if "wikimedia.org" in fetch_url else {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
+                    "Accept": headers["Accept"]}
+                resp = requests.get(fetch_url, headers=req_headers, timeout=15)
                 if resp.status_code != 200:
-                    print(f"    [!] Error downloading from {url}: HTTP {resp.status_code}")
+                    print(f"    [!] {filename}: HTTP {resp.status_code} from {fetch_url[:90]}")
                     continue
-                im = Image.open(io.BytesIO(resp.content)).convert("RGB")
-                im = crop_and_grade(im)
-                # Banned-asset list, category caps and pHash look-alikes in the 14-day memory.
+                raw = Image.open(io.BytesIO(resp.content))
+                if is_logo:
+                    if max(raw.size) < 96:
+                        print(f"    [!] {filename}: logo too small ({raw.size}) from {fetch_url[:90]}")
+                        continue
+                    im = render_logo_card(raw)
+                else:
+                    if min(raw.size) < 300:
+                        print(f"    [!] {filename}: image too small ({raw.size}) from {fetch_url[:90]}")
+                        continue
+                    im = crop_and_grade(raw.convert("RGB"))
+                # Banned-asset list and pHash memory; every candidate is the story's own entity.
                 approved, cand_hash, rejection_reason = mgr.check_visual_candidate(
                     im, url, category, category_counts, current_date_str=date_str,
-                    is_curated_entity=is_curated_entity
+                    is_curated_entity=True
                 )
                 if not approved:
-                    print(f"    [!] REJECTED BY EDITORIAL VISUAL GATE: {rejection_reason}")
+                    print(f"    [!] {filename}: rejected by visual gate: {rejection_reason}")
                     continue
                 im.save(dest_file, quality=92)
                 category_counts[category] = category_counts.get(category, 0) + 1
                 used_in_episode.add(clean_cand_url)
-                print(f"    [+] APPROVED & SAVED (pHash: {cand_hash}): {dest_file} <- {badge}")
+                print(f"[+] {filename}: {badge}")
                 used_this_run.append({"date": date_str, "filename": filename, "url": url,
                                       "badge": badge, "phash": cand_hash, "category": category})
                 success = True
                 break
             except Exception as e:
-                print(f"    [!] Error downloading from {url}: {e}")
-
+                print(f"    [!] {filename}: could not use {fetch_url[:90]}: {e}")
 
         # If primary candidate failed or was rejected, apply guaranteed approved fallback
         if not success:
