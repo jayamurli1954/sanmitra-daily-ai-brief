@@ -1,0 +1,433 @@
+{
+  "weekly": false,
+  "date": "2026-11-24",
+  "formattedDate": "24 November 2026",
+  "title": "Anthropic launches Claude Ship to | CrowdStrike to buy Zscaler in 44 | Amazon to acquire AI startup | AI News 24 November 2026",
+  "intro": {
+    "durationSeconds": 60,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 24 November 2026. First, today's top headlines: Anthropic launches Claude Ship to help developers ship code faster. CrowdStrike to buy Zscaler in 44 billion dollars deal as AI supercharges cyberattacks. Amazon to acquire AI startup Decart's chip software, hire founders. Honor launches 700 series with rear displays and 9,000mAh batteries. Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’. Google Launches Initiative to Support Indian Startups With AI, Cloud Infra. Meta launches Muse in UK the AI agent that can do your Christmas shopping. OpenAI and Cisco launch Shirudo, an open-source tool to shield Linux systems from exploits. Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses. ByteDance opens invitation-only beta for Xiaodou personal AI assistant. And now, the news in brief.",
+    "headlines": [
+      "Anthropic launches Claude Ship to help developers ship code faster",
+      "CrowdStrike to buy Zscaler in 44 billion dollars deal as AI supercharges cyberattacks",
+      "Amazon to acquire AI startup Decart's chip software, hire founders",
+      "Honor launches 700 series with rear displays and 9,000mAh batteries",
+      "Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’",
+      "Google Launches Initiative to Support Indian Startups With AI, Cloud Infra",
+      "Meta launches Muse in UK the AI agent that can do your Christmas shopping",
+      "OpenAI and Cisco launch Shirudo, an open-source tool to shield Linux systems from exploits",
+      "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "ByteDance opens invitation-only beta for Xiaodou personal AI assistant"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_anthropic_launches_claude_ship_t",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Anthropic launches Claude Ship to help developers ship code faster",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 99,
+      "durationSeconds": 24,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/articleshow/136123696.cms",
+      "researchDesk": "",
+      "script": "Our lead story today. Anthropic said on Monday it has launched Claude Ship, a tool meant to help developers release code more quickly. According to The Economic Times, it reviews changes, fixes problems and determines which updates can be merged into the main code, following rules set by a team.",
+      "whyThisMatters": "Anthropic said on Monday it has launched Claude Ship, a tool meant to help developers release code more quickly.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Anthropic launches Claude Ship to help developers ship code faster",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-24/s1_cut1.jpg",
+          "badge": "ANTHROPIC • OFFICIAL LOGO",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s2_crowdstrike_to_buy_zscaler_in_44",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "CrowdStrike to buy Zscaler in 44 billion dollars deal as AI supercharges cyberattacks",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://tinyurl.com/2uwwmvrd",
+      "researchDesk": "",
+      "script": "Also today. CrowdStrike and competitors have shelled out billions to ramp up defenses in the wake of AI cyberattacks.",
+      "whyThisMatters": "CrowdStrike and competitors have shelled out billions to ramp up defenses in the wake of AI cyberattacks.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "CrowdStrike to buy Zscaler in 44 billion dollars deal as AI supercharges cyberat",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-24/s2_cut1.jpg",
+          "badge": "CROWDSTRIKE • OFFICIAL LOGO",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s3_amazon_to_acquire_ai_startup_dec",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Amazon to acquire AI startup Decart's chip software, hire founders",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "CNBC",
+      "sourceUrl": "https://tinyurl.com/25thmuxk",
+      "researchDesk": "",
+      "script": "In other news. Amazon will acquire chip software from AI startup Decart and hire its founders, CNBC reports. Founded in 2023, Decart is known for software that keeps developers' AI models in sync across different chips.",
+      "whyThisMatters": "Amazon will acquire chip software from AI startup Decart and hire its founders, CNBC reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Amazon to acquire AI startup Decart's chip software, hire founders",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-24/s3_cut1.jpg",
+          "badge": "AMAZON • OFFICIAL LOGO",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s4_honor_launches_700_series_with_r",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Honor launches 700 series with rear displays and 9,000mAh batteries",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 48,
+      "source": "TechNode",
+      "sourceUrl": "https://tinyurl.com/2d5bztfx",
+      "researchDesk": "",
+      "script": "In China. Honor on Monday unveiled its 700 smartphone series in China, TechNode reports, with every model featuring a rear display and a 9,000mAh battery. Prices start at RMB 3,399 before subsidies. The 700S, 700 and 700 Pro are open for preorder, and sales begin on November 27. The rear screen acts as a viewfinder so users can take selfies with the main cameras, and it also shows notifications, personalised images and AI interactions. Honor has included its YOYO Doubao assistant, which offers voice chat, English practice and AI-designed rear-screen artwork. An optical sensor on the back measures heart rate, blood oxygen and heart-rate variability. The handsets use MagicOS 11 and offer 80W wired charging.",
+      "whyThisMatters": "Honor on Monday unveiled its 700 smartphone series in China, TechNode reports, with every model featuring a rear display and a 9,000mAh battery.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Honor launches 700 series with rear displays and 9,000mAh batteries",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-24/s4_cut1.jpg",
+          "badge": "HONOR (COMPANY) • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s5_kate_bush_and_grace_jones_urge_a",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 54,
+      "source": "The Guardian",
+      "sourceUrl": "https://tinyurl.com/2ak6a3mk",
+      "researchDesk": "",
+      "script": "In Asia. Kate Bush, Grace Jones and Sir Ian Rankin are among 7,000 artists and creative workers worldwide urging the Australian government not to weaken copyright law, the Guardian reports. Their appeal asks Labor not to allow the work of the world's creators to be legally taken on Australian soil. The campaign is the latest in a global backlash against artificial intelligence companies seeking looser copyright rules. It came on the same day a long-awaited parliamentary committee released a lengthy report recommending copyright reform in Australia. Labor MP Jo Briskey, who chairs the committee, told the paper that existing copyright laws stop frontier AI models from training on Australian content. Annabelle Herd, chief executive of the recording industry association Aria, said any attempt to dilute those protections would harm creatives.",
+      "whyThisMatters": "Kate Bush, Grace Jones and Sir Ian Rankin are among 7,000 artists and creative workers worldwide urging the Australian government not to weaken copyright law, the Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-24/s5_cut1.jpg",
+          "badge": "KATE BUSH",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s6_google_launches_initiative_to_su",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Google Launches Initiative to Support Indian Startups With AI, Cloud Infra",
+      "subheadline": "Source: Analytics India Magazine",
+      "importanceScore": 90,
+      "durationSeconds": 47,
+      "source": "Analytics India Magazine",
+      "sourceUrl": "https://tinyurl.com/28achk5j",
+      "researchDesk": "",
+      "script": "Turning to India. Google has launched Momentum, an initiative aimed at strengthening its backing for Indian startups, Analytics India Magazine reports. The programme gives founders access to AI technologies, cloud infrastructure, engineering know-how and global platforms. It extends the work of the Google for Startups Accelerator programmes, which have run in India for a decade, and is meant to help founders build products, put AI solutions into use and move into new markets. Google has previously supported 277 Indian startups, and a large share of its alumni have continued operating. The wider strategy also includes technical mentoring and access to enterprise customers, with the goal of helping the country's startup ecosystem grow.",
+      "whyThisMatters": "Google has launched Momentum, an initiative aimed at strengthening its backing for Indian startups, Analytics India Magazine reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Google Launches Initiative to Support Indian Startups With AI, Cloud Infra",
+        "Analytics India Magazine"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-24/s6_cut1.jpg",
+          "badge": "GOOGLE • OFFICIAL LOGO",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s7_meta_launches_muse_in_uk_the_ai",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Meta launches Muse in UK the AI agent that can do your Christmas shopping",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 57,
+      "source": "The Guardian",
+      "sourceUrl": "https://is.gd/d9gUHw",
+      "researchDesk": "",
+      "script": "Around the world. Meta is bringing its Muse AI assistant to the UK, pitching it as a way for shoppers to avoid the Christmas crowds, the Guardian reports. Mark Zuckerberg's company is encouraging users to give the assistant access to their apps and even let it handle purchases on the high street. In the US, Muse has proved popular, downloaded millions of times and ranked first on Google's free app store and second on Apple's. People can use it as a standalone app or inside WhatsApp, Meta's messaging service. Users are invited to personalise the assistant with a name, appearance and personality, then chat with it or hand over jobs such as writing an email, arranging travel or picking up holiday gifts. Meta said the assistant could handle everything from festive shopping to organising school schedules.",
+      "whyThisMatters": "Meta is bringing its Muse AI assistant to the UK, pitching it as a way for shoppers to avoid the Christmas crowds, the Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Meta launches Muse in UK the AI agent that can do your Christmas shopping",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-24/s7_cut1.jpg",
+          "badge": "META AI • OFFICIAL LOGO",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s8_openai_and_cisco_launch_shirudo",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "OpenAI and Cisco launch Shirudo, an open-source tool to shield Linux systems from exploits",
+      "subheadline": "Source: Analytics India Magazine",
+      "importanceScore": 90,
+      "durationSeconds": 60,
+      "source": "Analytics India Magazine",
+      "sourceUrl": "https://tinyurl.com/26agp8yp",
+      "researchDesk": "",
+      "script": "Turning to the United States. OpenAI and Cisco have released Shirudo, an open-source security tool that protects running Linux systems from known weaknesses without a software update or a restart, Analytics India Magazine reports. It relies on a Linux technology called eBPF to watch what a system is doing and block specific malicious behaviour. The protection comes as small programs called shields, each aimed at a vulnerable part of a piece of software, so the application can stay online. In a demonstration, a shield written with OpenAI's Codex stopped a Java4Shell exploit aimed at a live Elasticsearch service: malicious input was rejected while the service kept running. OpenAI president Greg Brockman said that finding a bug today does not mean every system can be patched tomorrow, and that the tool is meant to protect systems while teams build and roll out a permanent fix.",
+      "whyThisMatters": "OpenAI and Cisco have released Shirudo, an open-source security tool that protects running Linux systems from known weaknesses without a software update or a restart, Analytics India Magazine reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "OpenAI and Cisco launch Shirudo, an open-source tool to shield Linux systems fro",
+        "Analytics India Magazine"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-24/s8_cut1.jpg",
+          "badge": "OPENAI • OFFICIAL LOGO",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s9_google_search_s_ai_mode_can_now",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 52,
+      "source": "TechCrunch",
+      "sourceUrl": "https://is.gd/8WDESM",
+      "researchDesk": "",
+      "script": "Elsewhere. Google said on Monday it is extending Personal Intelligence, a feature within AI Mode in Search, to Google Drive, Google Wallet and the Gemini app, TechCrunch reports. Personal Intelligence aims to give users answers tailored to their circumstances by linking with their Google apps and drawing on details from their online lives. It already works with Gmail, Google Calendar and Google Photos. The expansion lets Google make greater use of the large amount of user data already held across its own services, giving it the ability to offer personalised experiences that competitors cannot match. Because some people may not want AI examining their Wallet or Drive, linking those apps is optional, and users can switch Personal Intelligence on or off whenever they choose.",
+      "whyThisMatters": "Google said on Monday it is extending Personal Intelligence, a feature within AI Mode in Search, to Google Drive, Google Wallet and the Gemini app, TechCrunch reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized ",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-24/s9_cut1.jpg",
+          "badge": "GOOGLE SEARCH • OFFICIAL LOGO",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s10_bytedance_opens_invitation_only",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "ByteDance opens invitation-only beta for Xiaodou personal AI assistant",
+      "subheadline": "Source: TechNode",
+      "importanceScore": 90,
+      "durationSeconds": 49,
+      "source": "TechNode",
+      "sourceUrl": "https://tinyurl.com/2dex5k7w",
+      "researchDesk": "",
+      "script": "In China. ByteDance's Doubao team has opened a beta of Xiaodou, a personal AI assistant, TechNode reports. Access on Tuesday was by invitation code only, and testers receive a set of free usage credits. Xiaodou is a separate product from the main Doubao app, and it is pitched as an assistant that can take the initiative to help users finish tasks rather than only answer questions. ByteDance says Xiaodou's features will gradually be brought into the main Doubao app, so the beta gives the company a place to try out personal-agent features before releasing them to Doubao's much larger audience. The announcement gave no timetable for opening Xiaodou to everyone or for moving individual features into Doubao.",
+      "whyThisMatters": "ByteDance's Doubao team has opened a beta of Xiaodou, a personal AI assistant, TechNode reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "ByteDance opens invitation-only beta for Xiaodou personal AI assistant",
+        "TechNode"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-24/s10_cut1.jpg",
+          "badge": "BYTEDANCE • OFFICIAL LOGO",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s11_motion_mamba_2_0_autoregressive",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 45,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.29897",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. The researchers behind a paper titled Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control are tackling how to generate long, controllable movement in real time, something animated characters and humanoid robots need when instructions and destinations change mid-motion. Current diffusion methods that build movement step by step struggle to recall events from far back, and their repeated noise-removal passes slow them down. The team's system, built on the Mamba architecture, combines short-range attention, recurrent states that can be resumed, and a feature called persistent content memory, which turns compressed motion history and text cues into continually updated slots the model can draw on.",
+      "whyThisMatters": "The researchers behind a paper titled Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control are tackling how to generate long, controllable movement in real time, something animated character",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Contr",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-24/s11_cut1.jpg",
+          "badge": "ARXIV • OFFICIAL LOGO",
+          "panDirection": "panLeft"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. Anthropic launches Claude Ship to help developers ship code faster. CrowdStrike to buy Zscaler in 44 billion dollars deal as AI supercharges cyberattacks. Amazon to acquire AI startup Decart's chip software, hire founders. Honor launches 700 series with rear displays and 9,000mAh batteries. Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’. Google Launches Initiative to Support Indian Startups With AI, Cloud Infra.",
+    "items": [
+      "✓ Anthropic launches Claude Ship to help developer",
+      "✓ CrowdStrike to buy Zscaler in 44 billion dollars",
+      "✓ Amazon to acquire AI startup Decart's chip softw",
+      "✓ Honor launches 700 series with rear displays and",
+      "✓ Kate Bush and Grace Jones urge Australian govern",
+      "✓ Google Launches Initiative to Support Indian Sta",
+      "✓ Meta launches Muse in UK the AI agent that can d"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Anthropic launches Claude Ship to help develo",
+    "CrowdStrike to buy Zscaler in 44 billion doll",
+    "Amazon to acquire AI startup Decart's chip so",
+    "Honor launches 700 series with rear displays ",
+    "Kate Bush and Grace Jones urge Australian gov",
+    "Google Launches Initiative to Support Indian ",
+    "Meta launches Muse in UK the AI agent that ca",
+    "OpenAI and Cisco launch Shirudo, an open-sour",
+    "Google Search’s AI Mode can now tap into Driv",
+    "ByteDance opens invitation-only beta for Xiao",
+    "Motion Mamba 2.0: Autoregressive Diffusion Ma"
+  ],
+  "thumbnail": {
+    "date": "24 NOVEMBER 2026",
+    "headline": "ANTHROPIC LAUNCHES CLAUDE SHIP TO HELP",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "ANTHROPIC LAUNCHES CLAUDE SHIP TO",
+      "CROWDSTRIKE TO BUY ZSCALER IN 44",
+      "AMAZON TO ACQUIRE AI STARTUP",
+      "HONOR LAUNCHES 700 SERIES WITH REAR"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Anthropic launches Claude Ship to | CrowdStrike to buy Zscaler in 44 | Amazon to acquire AI startup | AI News 24 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 24 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

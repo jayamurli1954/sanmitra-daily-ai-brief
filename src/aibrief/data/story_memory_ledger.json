@@ -1,202 +1,7 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-11-23",
+  "last_updated": "2026-11-24",
   "stories": [
-    {
-      "story_id": "story_20261109_explained_why_nvidia_shares_dropped",
-      "story_chain_id": "chain_global_explained_why_nvidia",
-      "headline": "Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts warn can trigger a bloodbath?",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://economictimes.indiatimes.com/tech/technology/explained-why-nvidia-shares-dropped-4-in-overnight-trade-and-what-analysts-warn-can-trigger-a-bloodbath/articleshow/135678630.cms"
-      ],
-      "first_covered": "2026-11-09",
-      "last_major_update": "2026-11-09",
-      "update_phase": "initial_break",
-      "impact_score": 79
-    },
-    {
-      "story_id": "story_20261109_topstar_unveils_star_a_full_size_in",
-      "story_chain_id": "chain_global_topstar_unveils_star",
-      "headline": "Topstar Unveils Star, a Full-Size Industrial Biped Humanoid, and S400 Machine for Robot Parts",
-      "companies": [],
-      "topics": [],
-      "country": "CHINA",
-      "source_urls": [
-        "https://pandaily.com/topstar-star-industrial-biped-humanoid-s400-five-axis-machine"
-      ],
-      "first_covered": "2026-11-09",
-      "last_major_update": "2026-11-09",
-      "update_phase": "initial_break",
-      "impact_score": 69
-    },
-    {
-      "story_id": "story_20261109_42ai_emerges_with_a_model_designed_",
-      "story_chain_id": "chain_global_42ai_emerges_with_a_",
-      "headline": "42AI emerges with a model designed to predict human behavior",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/"
-      ],
-      "first_covered": "2026-11-09",
-      "last_major_update": "2026-11-09",
-      "update_phase": "initial_break",
-      "impact_score": 99
-    },
-    {
-      "story_id": "story_20261109_fal_raises_1_3_billion_dollars_as_d",
-      "story_chain_id": "chain_global_fal_raises_1_3_billi",
-      "headline": "Fal raises 1.3 billion dollars as demand for AI inference grows",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
-      ],
-      "first_covered": "2026-11-09",
-      "last_major_update": "2026-11-09",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261109_us_justice_department_announces_a_c",
-      "story_chain_id": "chain_global_us_justice_departmen",
-      "headline": "US Justice Department announces a consolidated AI enforcement task force",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.justice.gov/opa/pr/department-justice-launches-super-intelligence-task-force"
-      ],
-      "first_covered": "2026-11-09",
-      "last_major_update": "2026-11-09",
-      "update_phase": "initial_break",
-      "impact_score": 95
-    },
-    {
-      "story_id": "story_20261109_google_expands_singapore_research_w",
-      "story_chain_id": "chain_global_google_expands_singa",
-      "headline": "Google expands Singapore research with more than 6 million dollars in funding",
-      "companies": [],
-      "topics": [],
-      "country": "ASIA",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/technology/research/partnering-singapore-advance-scientific-discovery/"
-      ],
-      "first_covered": "2026-11-09",
-      "last_major_update": "2026-11-09",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261109_peppermint_raises_100_crore_rupees_",
-      "story_chain_id": "chain_global_peppermint_raises_10",
-      "headline": "Peppermint raises 100 crore rupees to expand autonomous cleaning robots",
-      "companies": [],
-      "topics": [],
-      "country": "INDIA",
-      "source_urls": [
-        "https://www.peppermintrobotics.com/north-america/blog/pre-series-b"
-      ],
-      "first_covered": "2026-11-09",
-      "last_major_update": "2026-11-09",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261109_parents_and_teachers_decry_google_p",
-      "story_chain_id": "chain_global_parents_and_teachers",
-      "headline": "Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.theguardian.com/us-news/2026/nov/09/parents-teachers-google-search-schools-ai"
-      ],
-      "first_covered": "2026-11-09",
-      "last_major_update": "2026-11-09",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261109_nvidia_skt_rebellions_to_jointly_es",
-      "story_chain_id": "chain_global_nvidia_skt_rebellion",
-      "headline": "Nvidia, SKT, Rebellions to jointly establish heterogeneous computing system for AI",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://www.koreatimes.co.kr/business/companies/20261109/nvidia-skt-rebellions-to-jointly-establish-heterogeneous-computing-system-for-ai-1?utm_source=rss"
-      ],
-      "first_covered": "2026-11-09",
-      "last_major_update": "2026-11-09",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261109_chinese_ai_firms_want_silicon_valle",
-      "story_chain_id": "chain_global_chinese_ai_firms_wan",
-      "headline": "Chinese AI firms want Silicon Valley’s top minds. Poaching them won’t be easy",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://restofworld.org/2026/chinese-ai-labs-hire-silicon-valley-engineers-openai-anthropic/?utm_source=rss&utm_medium=rss&utm_campaign=feeds"
-      ],
-      "first_covered": "2026-11-09",
-      "last_major_update": "2026-11-09",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261109_google_adds_two_new_tpu_chips_as_it",
-      "story_chain_id": "chain_global_google_adds_two_new_",
-      "headline": "Google adds two new TPU chips as it takes on Nvidia in AI hardware",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://www.reuters.com/business/google-to-introduce-two-variants-its-in-house-chips-bloomberg-news-reports-2026-11-09/"
-      ],
-      "first_covered": "2026-11-09",
-      "last_major_update": "2026-11-09",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261109_nvidia_s_board_opens_an_independent",
-      "story_chain_id": "chain_global_nvidia_s_board_opens",
-      "headline": "Nvidia's board opens an independent investigation after reports its CEO was targeted by foreign intelligence",
-      "companies": [],
-      "topics": [],
-      "country": "USA",
-      "source_urls": [
-        "https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/default.aspx"
-      ],
-      "first_covered": "2026-11-09",
-      "last_major_update": "2026-11-09",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
-    {
-      "story_id": "story_20261109_splatanything_gaussian_spacing_norm",
-      "story_chain_id": "chain_global_splatanything_gaussi",
-      "headline": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
-      "companies": [],
-      "topics": [],
-      "country": "WORLD",
-      "source_urls": [
-        "https://arxiv.org/abs/2611.08264"
-      ],
-      "first_covered": "2026-11-09",
-      "last_major_update": "2026-11-09",
-      "update_phase": "initial_break",
-      "impact_score": 90
-    },
     {
       "story_id": "story_20261110_australia_to_introduce_mandatory_re",
       "story_chain_id": "chain_global_australia_to_introdu",
@@ -2909,6 +2714,186 @@
       ],
       "first_covered": "2026-11-23",
       "last_major_update": "2026-11-23",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261124_anthropic_launches_claude_ship_to_h",
+      "story_chain_id": "chain_global_anthropic_launches_c",
+      "headline": "Anthropic launches Claude Ship to help developers ship code faster",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-launches-claude-ship-to-help-developers-ship-code-faster/articleshow/136123696.cms"
+      ],
+      "first_covered": "2026-11-24",
+      "last_major_update": "2026-11-24",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261124_crowdstrike_to_buy_zscaler_in_44_bi",
+      "story_chain_id": "chain_global_crowdstrike_to_buy_z",
+      "headline": "CrowdStrike to buy Zscaler in $44 billion deal as AI supercharges cyberattacks",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-aquisition-ai-cyberattacks.html"
+      ],
+      "first_covered": "2026-11-24",
+      "last_major_update": "2026-11-24",
+      "update_phase": "initial_break",
+      "impact_score": 79
+    },
+    {
+      "story_id": "story_20261124_honor_launches_700_series_with_rear",
+      "story_chain_id": "chain_global_honor_launches_700_s",
+      "headline": "Honor launches 700 series with rear displays and 9,000mAh batteries",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://technode.com/2026/11/24/honor-launches-700-series-with-rear-displays-and-9000mah-batteries/"
+      ],
+      "first_covered": "2026-11-24",
+      "last_major_update": "2026-11-24",
+      "update_phase": "initial_break",
+      "impact_score": 77
+    },
+    {
+      "story_id": "story_20261124_amazon_to_acquire_ai_startup_decart",
+      "story_chain_id": "chain_global_amazon_to_acquire_ai",
+      "headline": "Amazon to acquire AI startup Decart's chip software, hire founders",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html"
+      ],
+      "first_covered": "2026-11-24",
+      "last_major_update": "2026-11-24",
+      "update_phase": "initial_break",
+      "impact_score": 72
+    },
+    {
+      "story_id": "story_20261124_crowdstrike_to_buy_zscaler_in_44_bi",
+      "story_chain_id": "chain_global_crowdstrike_to_buy_z",
+      "headline": "CrowdStrike to buy Zscaler in 44 billion dollars deal as AI supercharges cyberattacks",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://tinyurl.com/2uwwmvrd"
+      ],
+      "first_covered": "2026-11-24",
+      "last_major_update": "2026-11-24",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261124_kate_bush_and_grace_jones_urge_aust",
+      "story_chain_id": "chain_global_kate_bush_and_grace_",
+      "headline": "Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://tinyurl.com/2ak6a3mk"
+      ],
+      "first_covered": "2026-11-24",
+      "last_major_update": "2026-11-24",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261124_google_launches_initiative_to_suppo",
+      "story_chain_id": "chain_global_google_launches_init",
+      "headline": "Google Launches Initiative to Support Indian Startups With AI, Cloud Infra",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://tinyurl.com/28achk5j"
+      ],
+      "first_covered": "2026-11-24",
+      "last_major_update": "2026-11-24",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261124_meta_launches_muse_in_uk_the_ai_age",
+      "story_chain_id": "chain_global_meta_launches_muse_i",
+      "headline": "Meta launches Muse in UK the AI agent that can do your Christmas shopping",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://is.gd/d9gUHw"
+      ],
+      "first_covered": "2026-11-24",
+      "last_major_update": "2026-11-24",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261124_openai_and_cisco_launch_shirudo_an_",
+      "story_chain_id": "chain_global_openai_and_cisco_lau",
+      "headline": "OpenAI and Cisco launch Shirudo, an open-source tool to shield Linux systems from exploits",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://tinyurl.com/26agp8yp"
+      ],
+      "first_covered": "2026-11-24",
+      "last_major_update": "2026-11-24",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261124_google_search_s_ai_mode_can_now_tap",
+      "story_chain_id": "chain_global_google_search_s_ai_m",
+      "headline": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://is.gd/8WDESM"
+      ],
+      "first_covered": "2026-11-24",
+      "last_major_update": "2026-11-24",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261124_bytedance_opens_invitation_only_bet",
+      "story_chain_id": "chain_global_bytedance_opens_invi",
+      "headline": "ByteDance opens invitation-only beta for Xiaodou personal AI assistant",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://tinyurl.com/2dex5k7w"
+      ],
+      "first_covered": "2026-11-24",
+      "last_major_update": "2026-11-24",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261124_motion_mamba_2_0_autoregressive_dif",
+      "story_chain_id": "chain_global_motion_mamba_2_0_aut",
+      "headline": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.29897"
+      ],
+      "first_covered": "2026-11-24",
+      "last_major_update": "2026-11-24",
       "update_phase": "initial_break",
       "impact_score": 90
     }
