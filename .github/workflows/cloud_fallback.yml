@@ -41,7 +41,7 @@ jobs:
       - name: Checkout Codebase
         uses: actions/checkout@v4
         with:
-          fetch-depth: 100
+          fetch-depth: 200
 
       - name: Has today's episode been claimed?
         id: claim
@@ -71,14 +71,26 @@ jobs:
               fi
             fi
           fi
-          CLAIM=$(git log -100 --format=%s | grep -F "episode claim $TODAY " | head -1 || true)
-          RELEASE=$(git log -100 --format=%s | grep -F "episode release $TODAY " | head -1 || true)
-          if [ -n "$CLAIM" ] && [ -z "$RELEASE" ] && [ "$FORCE" != "true" ]; then
-            echo "[*] Already claimed: $CLAIM. Nothing to do."
+          if [ -f "src/aibrief/data/aired/$TODAY.json" ] && [ "$FORCE" != "true" ]; then
+            echo "[*] $TODAY has already aired. Nothing to do."
             echo "produce=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          echo "[!] No claim for $TODAY (or forced): producing in the cloud."
+          # Claims and releases are empty commits listed newest first, so the first
+          # match is the current holder. A release frees the date only until someone
+          # claims it again: on 23 Nov a midnight cloud claim + release for the date
+          # made the old check ignore the PC's later claim.
+          LAST=$(git log -200 --format=%s | grep -E "episode (claim|release) $TODAY by " | head -1 || true)
+          echo "[*] Latest claim or release for $TODAY: ${LAST:-none}"
+          case "$LAST" in
+            *"episode claim $TODAY by"*)
+              if [ "$FORCE" != "true" ]; then
+                echo "[*] Claimed: $LAST. Nothing to do."
+                echo "produce=false" >> "$GITHUB_OUTPUT"
+                exit 0
+              fi ;;
+          esac
+          echo "[!] $TODAY is not claimed (or forced): producing in the cloud."
           echo "produce=true" >> "$GITHUB_OUTPUT"
           if [ "$DRY_RUN" != "true" ]; then
             git config user.name "SanMitra Intelligence Bot"
