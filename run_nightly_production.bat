@@ -32,26 +32,26 @@ echo ====================================================================== >> "
 echo PRODUCTION for %EPISODE_DATE% at %PUBLISH_AT% IST - started %DATE% %TIME% >> "%LOG%"
 echo ====================================================================== >> "%LOG%"
 
-REM Sync with GitHub, then claim the episode. The cloud fallback
-REM (.github\workflows\cloud_fallback.yml) wakes at about 7:45 PM IST and produces
-REM the episode itself when nobody has claimed it, so the claim is what tells it
-REM this PC is awake. A cloud claim means it is already producing: skip.
+REM Sync with GitHub, then see who holds %EPISODE_DATE%. Claims and releases are
+REM empty commits ("episode claim <date> by cloud|PC", "episode release <date> by ...")
+REM and git log lists the newest first, so the first match is the current holder.
+REM The cloud (.github\workflows\cloud_fallback.yml) reads them the same way.
 git pull --no-rebase --no-edit origin main >> "%LOG%" 2>&1
 if errorlevel 1 (
     echo [!] git pull failed: commits from GitHub, including cloud fallback memory, are not merged. >> "%LOG%"
     git merge --abort >> "%LOG%" 2>&1
     git fetch origin main >> "%LOG%" 2>&1
 )
-git log origin/main -100 --format=%%s | findstr /C:"episode claim %EPISODE_DATE% by cloud" >nul
-if errorlevel 1 goto cloudnotclaimed
-REM The cloud claimed it. If it then failed it pushed a release: produce here after all.
-git log origin/main -100 --format=%%s | findstr /C:"episode release %EPISODE_DATE% by cloud" >nul
-if errorlevel 1 (
-    echo [i] GitHub Actions (cloud autonomous) already claimed %EPISODE_DATE%: skipping local run. >> "%LOG%"
-    exit /b 0
-)
-echo The cloud claimed %EPISODE_DATE% and then released/failed: producing locally. >> "%LOG%"
-:cloudnotclaimed
+set "LAST_EVENT="
+for /f "delims=" %%e in ('git log origin/main -200 --format^=%%s ^| findstr /C:"episode claim %EPISODE_DATE% by" /C:"episode release %EPISODE_DATE% by"') do if not defined LAST_EVENT set "LAST_EVENT=%%e"
+if defined LAST_EVENT echo Latest claim or release for %EPISODE_DATE%: %LAST_EVENT% >> "%LOG%"
+
+REM A current cloud claim means GitHub is producing the episode: stand down.
+echo.%LAST_EVENT% | findstr /C:"episode claim %EPISODE_DATE% by cloud" >nul
+if errorlevel 1 goto cloudnotholding
+echo [i] GitHub Actions holds the claim for %EPISODE_DATE%: skipping local run. >> "%LOG%"
+exit /b 0
+:cloudnotholding
 
 REM If the episode has already been aired / recorded, skip local run entirely
 if exist "src\aibrief\data\aired\%EPISODE_DATE%.json" (
@@ -59,13 +59,13 @@ if exist "src\aibrief\data\aired\%EPISODE_DATE%.json" (
     exit /b 0
 )
 
-:claimcheckdone
-git log origin/main -100 --format=%%s | findstr /C:"episode claim %EPISODE_DATE% by PC" >nul
-if errorlevel 1 (
-    git commit --allow-empty --only -m "Auto: episode claim %EPISODE_DATE% by PC [skip ci]" >> "%LOG%" 2>&1
-    git push origin main >> "%LOG%" 2>&1
-    if errorlevel 1 echo [!] Could not push the episode claim: the cloud fallback may also produce %EPISODE_DATE%. >> "%LOG%"
-)
+REM Claim it, unless this PC already holds the latest claim (a rerun the same evening).
+echo.%LAST_EVENT% | findstr /C:"episode claim %EPISODE_DATE% by PC" >nul
+if not errorlevel 1 goto claimed
+git commit --allow-empty --only -m "Auto: episode claim %EPISODE_DATE% by PC [skip ci]" >> "%LOG%" 2>&1
+git push origin main >> "%LOG%" 2>&1
+if errorlevel 1 echo [!] Could not push the episode claim: the cloud fallback may also produce %EPISODE_DATE%. >> "%LOG%"
+:claimed
 
 REM 0. An editor's brief saved as prompts\%EPISODE_DATE%.md instead of prompts\editor\
 REM    would be overwritten by the collector: move it into prompts\editor\ first.
@@ -93,6 +93,14 @@ set RC=%ERRORLEVEL%
 REM 3. Monday's "AI for Accountants" LinkedIn post from the week's episodes
 REM    (writes only when the episode date is a Monday; never fails the run).
 python weekly_finance_post.py --date %EPISODE_DATE% >> "%LOG%" 2>&1
+
+REM A failed run that never aired hands the episode back, so a later cloud run
+REM (GitHub often starts scheduled runs late) or a manual one can still produce it.
+if %RC% neq 0 if not exist "src\aibrief\data\aired\%EPISODE_DATE%.json" (
+    echo [!] Run failed before airing: releasing the claim for %EPISODE_DATE%. >> "%LOG%"
+    git commit --allow-empty --only -m "Auto: episode release %EPISODE_DATE% by PC [skip ci]" >> "%LOG%" 2>&1
+    git push origin main >> "%LOG%" 2>&1
+)
 
 if %RC% equ 0 (
     git config user.name "SanMitra Intelligence Bot"
