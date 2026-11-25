@@ -212,6 +212,22 @@ class FactCheckerTests(unittest.TestCase):
         self.assertEqual(len(selected), 1)
         self.assertEqual(selected[0]["sourceUrl"], verge)
 
+    def test_election_story_rejected_before_it_counts(self):
+        # 2026-11-25: the crew passed a story whose text mentioned voters; the build
+        # then dropped it as election news and the episode fell to 9 of 10.
+        url = "https://www.bbc.com/news/articles/ai-boom-fears"
+        text = ("OpenAI on Thursday released GPT-5.5, a model with a new reasoning mode for paid users. "
+                "Voters worried about jobs have made the AI boom an issue ahead of the election. ") + ARTICLE
+        fc = FactChecker(target_date=DATE, fetch_article=self.fetcher({url: {"text": text, "published": FRESH}}))
+        selected = fc.assemble_stories([candidate("OpenAI releases GPT-5.5 with a new reasoning mode", url)])
+        self.assertEqual(selected, [])
+        self.assertIn("election", fc.rejections[-1]["reason"])
+
+    def test_crew_asks_for_spare_stories(self):
+        from src.aibrief.crew.fact_checker import MAX_EPISODE_STORIES, MIN_EPISODE_STORIES, SPARE_STORIES
+        self.assertGreater(SPARE_STORIES, 0)
+        self.assertGreaterEqual(MAX_EPISODE_STORIES, MIN_EPISODE_STORIES)
+
     def test_top_up_skips_events_already_in_the_episode(self):
         url = "https://techcrunch.com/2026/10/09/openai-gpt-5-5"
         fc = FactChecker(target_date=DATE, fetch_article=self.fetcher({url: {"text": ARTICLE, "published": FRESH}}))
@@ -258,6 +274,31 @@ class PromptRoundTripTests(unittest.TestCase):
             self.assertTrue(source_appears_in_prompt(s["source"], prompt))
             self.assertEqual(unsupported_figures(s["script"], prompt), [])
             self.assertNotIn("sovereign compute", s["whyThisMatters"])
+
+
+class SpareStoryTests(unittest.TestCase):
+    def test_spare_stories_do_not_lengthen_the_episode(self):
+        from src.aibrief.crew.fact_checker import MAX_EPISODE_STORIES, SPARE_STORIES
+        events = [
+            ("Acme", "opens a robotics lab in Lisbon"), ("Globex", "settles a copyright lawsuit with authors"),
+            ("Initech", "ships a coding assistant for banks"), ("Umbrella", "trials diagnostic imaging in clinics"),
+            ("Hooli", "cuts cloud prices for startups"), ("Stark", "wins a defense drone contract"),
+            ("Wayne", "funds university scholarships in Chennai"), ("Tyrell", "recalls faulty warehouse robots"),
+            ("Cyberdyne", "files for a stock listing in Tokyo"), ("Soylent", "partners with farmers on crop forecasts"),
+            ("Vandelay", "builds a data center in Johor"), ("Wonka", "launches a translation app for schools"),
+            ("Gringotts", "detects card fraud with a new model"),
+        ]
+        regions = ["WORLD", "USA", "CHINA", "ASIA", "INDIA"]
+        stories = [{
+            "title": f"{name} {what}",
+            "source": "TechCrunch",
+            "sourceUrl": f"https://techcrunch.com/2026/10/09/{name.lower()}-ai-news",
+            "region": regions[i % len(regions)],
+            "summary": f"{name} said on Thursday that it {what.split(' ', 1)[0]} as part of its AI plans.",
+            "also": [],
+        } for i, (name, what) in enumerate(events[:MAX_EPISODE_STORIES + SPARE_STORIES])]
+        episode = parse_markdown_prompt(render_prompt(stories, DATE))
+        self.assertEqual(len(episode["stories"]), MAX_EPISODE_STORIES)
 
 
 class TopUpTests(unittest.TestCase):
