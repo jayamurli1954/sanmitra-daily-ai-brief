@@ -29,7 +29,7 @@ import sys
 
 from src.aibrief.story_memory_ledger import StoryMemoryLedger
 
-from .fact_checker import MAX_EPISODE_STORIES, MIN_EPISODE_STORIES, FactChecker, is_research_desk
+from .fact_checker import MAX_EPISODE_STORIES, MIN_EPISODE_STORIES, SPARE_STORIES, FactChecker, is_research_desk
 from .linkedin_publisher import LinkedInPublisher
 from .news_harvester import NewsHarvester
 from .prompt_writer import append_stories, write_prompt
@@ -303,7 +303,8 @@ def run_autonomous_crew(target_date=None, force_visuals=False):
         prompt_origin = f"existing prompt {prompt_path} ({len(existing)} usable stories)"
         if len(existing) < MIN_EPISODE_STORIES:
             logger.warning(f"{prompt_path} has only {len(existing)} usable stories; topping up from the crew.")
-            extra, rejections = _crew_verify(target_date, MAX_EPISODE_STORIES - len(existing), exclude_titles=existing)
+            extra, rejections = _crew_verify(target_date, MAX_EPISODE_STORIES + SPARE_STORIES - len(existing),
+                                             exclude_titles=existing)
             if len(existing) + len(extra) < MIN_EPISODE_STORIES:
                 return give_up(f"Only {len(existing) + len(extra)} stories available "
                                f"(prompt {len(existing)} + crew {len(extra)}); minimum is {MIN_EPISODE_STORIES}. No episode today.")
@@ -311,7 +312,7 @@ def run_autonomous_crew(target_date=None, force_visuals=False):
             prompt_origin += f", topped up with {len(extra)} crew-verified stories"
             warnings.append(f"The prompt had {len(existing)} stories; {len(extra)} were added by the crew.")
     else:
-        verified, rejections = _crew_verify(target_date, MAX_EPISODE_STORIES)
+        verified, rejections = _crew_verify(target_date, MAX_EPISODE_STORIES + SPARE_STORIES)
         if len(verified) < MIN_EPISODE_STORIES:
             return give_up(f"Only {len(verified)} stories passed fact-checking (minimum {MIN_EPISODE_STORIES}). No episode today.")
         write_prompt(verified, target_date)

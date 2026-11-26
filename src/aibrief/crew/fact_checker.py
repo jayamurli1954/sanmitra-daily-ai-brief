@@ -22,7 +22,7 @@ from src.aibrief.paywall_detector import find_free_alternative, has_paywall_mark
 from src.aibrief.source_authority import is_company_source, is_opinion_url, is_recognised_source, score_source
 from src.aibrief.url_cleaner import clean_and_shorten_url
 
-from .text_utils import contains_any, count_matches, extractive_summary, is_recent, is_roundup_or_digest, same_event, ungrounded_claims
+from .text_utils import contains_any, count_matches, extractive_summary, is_election_story, is_recent, is_roundup_or_digest, same_event, ungrounded_claims
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("FactChecker")
@@ -68,6 +68,11 @@ BUREAU_ORDER = ["WORLD", "USA", "USA", "CHINA", "ASIA", "INDIA", "WORLD", "WORLD
 # Minimum 10 news stories (excluding research desk) is strictly enforced.
 MIN_EPISODE_STORIES = 10
 MAX_EPISODE_STORIES = 10
+# The crew verifies a few more stories than the episode needs. The build can still
+# drop a story the crew passed (an election mention in the article text, a paywall
+# found later), and with no spares one drop leaves the episode short of the minimum.
+# The build keeps only MAX_EPISODE_STORIES, so spares never lengthen the video.
+SPARE_STORIES = 3
 # About 140 spoken words is 60 seconds at the anchors' pace; 130 keeps ten stories under 10 minutes.
 STORY_MAX_WORDS = 130
 STORY_MAX_SENTENCES = 8
@@ -266,6 +271,11 @@ class FactChecker:
                                      max_words=RESEARCH_MAX_WORDS if paper else STORY_MAX_WORDS)
         if not summary:
             return self._reject({"title": story["title"], "url": story["sourceUrl"]}, "no usable sentences in the article")
+        # The same check the build makes on the story text, so a story the build
+        # would drop is not counted towards the episode here.
+        if not paper and is_election_story(story["title"], summary):
+            return self._reject({"title": story["title"], "url": story["sourceUrl"]},
+                                "election news is not covered (YouTube blocks promotion)")
 
         verified = dict(story)
         verified["sourceUrl"] = clean_and_shorten_url(verified["sourceUrl"])
