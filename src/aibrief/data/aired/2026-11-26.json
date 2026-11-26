@@ -1,0 +1,419 @@
+{
+  "weekly": false,
+  "date": "2026-11-26",
+  "formattedDate": "26 November 2026",
+  "title": "Dozens of court cases in England | Beware higher correlation but nab | SpaceX wins FCC approval to deploy | AI News 26 November 2026",
+  "intro": {
+    "durationSeconds": 62,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 26 November 2026. First, today's top headlines: Dozens of court cases in England and Wales affected by undisclosed AI use in 2026. Beware higher correlation but nab high U.S. credit yields, fund managers say. SpaceX wins FCC approval to deploy 1 million orbital data center satellites. Data from Chinese AI firm MiniMax accessed by unidentified parties, researcher says. Data centre rush drives biggest rise in Australian business investment since mining boom. US-based firms with Chinese owners buying Nvidia's most advanced chips. Investors see rising risk of SoftBank default as pressure grows on AI bets. Apple pulls MiniMax AI chatbot from App Store over child safety concerns. S&P considers Nvidia credit downgrade over governance and ‘key man’ risks. OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work. And now, the news in brief.",
+    "headlines": [
+      "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
+      "Beware higher correlation but nab high U.S. credit yields, fund managers say",
+      "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+      "Data from Chinese AI firm MiniMax accessed by unidentified parties, researcher says",
+      "Data centre rush drives biggest rise in Australian business investment since mining boom",
+      "US-based firms with Chinese owners buying Nvidia's most advanced chips",
+      "Investors see rising risk of SoftBank default as pressure grows on AI bets",
+      "Apple pulls MiniMax AI chatbot from App Store over child safety concerns",
+      "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_dozens_of_court_cases_in_england",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 99,
+      "durationSeconds": 50,
+      "source": "The Guardian",
+      "sourceUrl": "https://is.gd/hA90Pw",
+      "researchDesk": "",
+      "script": "Our lead story today. More than two dozen court cases in England and Wales have been affected this year by artificial intelligence use that went undisclosed, according to an investigation reported by the Guardian. Judges have objected to witness statements produced by AI, to case law that does not exist and to invented legislation. Those found misusing the tools in 2026 include lawyers, police officers and claimants. In one high court fight between tax lawyers, the judge condemned the \"unacceptable\" reliance on generative AI hallucinations, along with citations to cases that were never decided. In a grievous bodily harm case, a police officer turned to AI to draft a witness statement aimed at pushing the attacker's sentence as high as possible.",
+      "whyThisMatters": "More than two dozen court cases in England and Wales have been affected this year by artificial intelligence use that went undisclosed, according to an investigation reported by the Guardian.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Dozens of court cases in England and Wales affected by undisclosed AI use in 202",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-26/s1_cut1.jpg",
+          "badge": "WORLD • AI INTELLIGENCE WIRE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s2_beware_higher_correlation_but_na",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 95,
+      "durationSeconds": 49,
+      "source": "CNBC",
+      "sourceUrl": "https://is.gd/ES9L4n",
+      "researchDesk": "",
+      "script": "Turning to the United States. A hedge fund manager has warned that the artificial intelligence boom could end in recession, either because AI investment collapses or because the technology eliminates large numbers of jobs, CNBC reports. Sheru Chowdhry, founder and chief investment officer of DSC Meridian Capital, made the remarks last week at the iConnections Global Alts Asia conference in Singapore, during a panel moderated by CNBC's Joanna Ossinger. He said that if an AI-driven downturn does not arrive within a few years, one triggered by unemployment might follow instead. His concern extends beyond the possibility of an AI bubble bursting. Chowdhry said rapid advances could cause broad job losses, with knock-on effects for housing and consumer spending.",
+      "whyThisMatters": "A hedge fund manager has warned that the artificial intelligence boom could end in recession, either because AI investment collapses or because the technology eliminates large numbers of jobs, CNBC reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Beware higher correlation but nab high U.S. credit yields, fund managers say",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-26/s2_cut1.jpg",
+          "badge": "CNBC • OFFICIAL LOGO",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s3_spacex_wins_fcc_approval_to_depl",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+      "subheadline": "Source: CNBC",
+      "importanceScore": 95,
+      "durationSeconds": 57,
+      "source": "CNBC",
+      "sourceUrl": "https://is.gd/R9n90r",
+      "researchDesk": "",
+      "script": "In other news. The Federal Communications Commission has cleared Elon Musk's SpaceX to launch 1 million satellites built for artificial intelligence computing, CNBC reports. FCC Chairman Brendan Carr announced the approval on Wednesday in a post on X, the social network owned by SpaceX, saying the company's Starmind constellation and rival networks would draw on solar power to strengthen America's position in AI. Musk replied that it would be \"a great asset to America and the world.\" The FCC noted that the application drew many public comments, including petitions to deny it from Kuiper Systems, known as Amazon Leo, as well as Viasat and the American Astronomical Society. In a March petition, Amazon, which is building a rival to SpaceX's Starlink service, called Starmind more ambition than plan and said it would take SpaceX centuries to complete.",
+      "whyThisMatters": "The Federal Communications Commission has cleared Elon Musk's SpaceX to launch 1 million satellites built for artificial intelligence computing, CNBC reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+        "CNBC"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-26/s3_cut1.jpg",
+          "badge": "SPACEX • OFFICIAL LOGO",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s4_data_from_chinese_ai_firm_minima",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Data from Chinese AI firm MiniMax accessed by unidentified parties, researcher says",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 50,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/articleshow/136180952.cms",
+      "researchDesk": "",
+      "script": "In China. Confidential data sent to Chinese AI startup MiniMax was accessed by unknown parties, even after users asked that it not be stored or kept, a cybersecurity researcher told Reuters, the Economic Times reports. HD Moore, chief research officer at US security firm Dragos, named MiniMax as the unnamed Chinese developer in an earlier Dragos probe into AI data security. That investigation, published in a November 19 blog post, found that private web links included in requests to AI services were later opened by unauthorised parties. Moore said one secret link sent to MiniMax surfaced weeks afterwards in a chat channel on Feishu, the workplace messaging tool built by China's ByteDance, where devices in Beijing and Shanghai opened it.",
+      "whyThisMatters": "Confidential data sent to Chinese AI startup MiniMax was accessed by unknown parties, even after users asked that it not be stored or kept, a cybersecurity researcher told Reuters, the Economic Times reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Data from Chinese AI firm MiniMax accessed by unidentified parties, researcher s",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-26/s4_cut1.jpg",
+          "badge": "MINIMAX GROUP • CONTEXTUAL REPORTING",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s5_data_centre_rush_drives_biggest",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "Data centre rush drives biggest rise in Australian business investment since mining boom",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 57,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/articleshow/136176738.cms",
+      "researchDesk": "",
+      "script": "In Asia. Business investment in Australia jumped again in the September quarter as companies spent heavily on data centres, posting its largest increase since 2011, at the peak of the mining boom, the Economic Times reports. Firms also raised their spending plans for the months ahead. Thursday's figures point to some resilience in the economy, even after five interest rate rises this year caused the deepest housing slump in 40 years, hurt consumer spending and softened the jobs market. The Australian dollar gained 0.2% to 0.6640, dollars while three-year government bond futures gave up earlier gains to fall three ticks to 95.51. The Australian Bureau of Statistics said private capital expenditure rose 12.2% in the third quarter to an inflation-adjusted A59.5 billion dollars (39.37 billion dollars ), well ahead of the 4.4% increase markets had expected.",
+      "whyThisMatters": "Business investment in Australia jumped again in the September quarter as companies spent heavily on data centres, posting its largest increase since 2011, at the peak of the mining boom, the Economic Times reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Data centre rush drives biggest rise in Australian business investment since min",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-26/s5_cut1.jpg",
+          "badge": "THE ECONOMIC TIMES • OFFICIAL LOGO",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s6_us_based_firms_with_chinese_owne",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "US-based firms with Chinese owners buying Nvidia's most advanced chips",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 57,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/articleshow/136178351.cms",
+      "researchDesk": "",
+      "script": "Around the world. Nvidia is selling some of its most advanced artificial intelligence chips to at least two American companies controlled by Chinese-owned firms, according to a CBS News investigation cited by the Economic Times. The findings raise questions about efforts to keep sensitive technology away from countries viewed as rivals of the United States. CBS News found that one of Nvidia's \"preferred partners\" is a California company with a Chinese parent, and records show its chief executive graduated from a Chinese military university. A second California company changed its name after its Chinese-owned parent was placed on a blacklist. The investigation also found that some of these Chinese-owned US firms later leased or sold the chips to companies in Southeast Asia. The report coincides with Jensen Huang's return as Nvidia's chief executive and board chairman.",
+      "whyThisMatters": "Nvidia is selling some of its most advanced artificial intelligence chips to at least two American companies controlled by Chinese-owned firms, according to a CBS News investigation cited by the Economic Times.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "US-based firms with Chinese owners buying Nvidia's most advanced chips",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-26/s6_cut1.jpg",
+          "badge": "NVIDIA • OFFICIAL LOGO",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s7_investors_see_rising_risk_of_sof",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Investors see rising risk of SoftBank default as pressure grows on AI bets",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 57,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/articleshow/136183977.cms",
+      "researchDesk": "",
+      "script": "In other news. The price of protection against a default by SoftBank Group climbed for a second consecutive session on Thursday, the Economic Times reports, reflecting mounting concern that the tech investor's artificial intelligence bets may not turn a profit quickly enough to cover its debts. SoftBank's five-year credit default swap spread, a gauge of what it costs to insure the company's bonds, widened by more than 20 basis points to 534.6 basis points, its highest level in four years. The implied probability of a SoftBank default stood at 34.8%. Because of its stake in OpenAI, the developer of frontier AI models, SoftBank is widely treated as an indicator of how AI investment is faring. Its shares and bonds have been under strain as investors question whether enormous spending on AI infrastructure will ultimately deliver returns.",
+      "whyThisMatters": "The price of protection against a default by SoftBank Group climbed for a second consecutive session on Thursday, the Economic Times reports, reflecting mounting concern that the tech investor's artificial intelligence b",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Investors see rising risk of SoftBank default as pressure grows on AI bets",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-26/s7_cut1.jpg",
+          "badge": "SOFTBANK • OFFICIAL LOGO",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s8_apple_pulls_minimax_ai_chatbot_f",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Apple pulls MiniMax AI chatbot from App Store over child safety concerns",
+      "subheadline": "Source: The Economic Times",
+      "importanceScore": 90,
+      "durationSeconds": 57,
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/articleshow/136180509.cms",
+      "researchDesk": "",
+      "script": "Next. Apple has pulled Talkie, a popular chatbot app from MiniMax, from its App Store around the world this week, the Economic Times reports. The move followed media reports alleging that the app's AI-generated characters had sent sexualised messages to minors. On Wednesday, ABC News and the Bureau of Investigative Journalism reported that Talkie characters had sent children messages that were sexually inappropriate and abusive. Child safety advocates have also faulted the app's weak age checks, which let users simply state their own age. Talkie launched in 2023 and offers a broad range of companions to chat with, frequently with a romantic flavour. Shanghai-based MiniMax also runs a Chinese version called Xingye. The app is available in multiple languages and, according to research firm Sensor Tower, is especially popular in the US, the Philippines and Mexico.",
+      "whyThisMatters": "Apple has pulled Talkie, a popular chatbot app from MiniMax, from its App Store around the world this week, the Economic Times reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Apple pulls MiniMax AI chatbot from App Store over child safety concerns",
+        "The Economic Times"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-26/s8_cut1.jpg",
+          "badge": "APPLE INTELLIGENCE • OFFICIAL LOGO",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s9_s_p_considers_nvidia_credit_down",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 48,
+      "source": "TechCrunch",
+      "sourceUrl": "https://is.gd/YSMoXW",
+      "researchDesk": "",
+      "script": "Turning to the United States. S&P Global Ratings, one of the three biggest credit rating agencies, is weighing a downgrade of Nvidia, citing worries over the company's management and governance, TechCrunch reports. Although Nvidia's finances remain strong, S&P said the removal and subsequent return of chief executive Jensen Huang has pointed to \"weak executive oversight and lack of succession planning,\" as well as key man risk, meaning the company leans heavily on Huang for its future. The agency expects to complete its review within 90 days and could lower Nvidia from AA to AA-, the fourth-highest grade on its scale. Nvidia will certainly remain investment grade, but a cut could make its borrowing more expensive.",
+      "whyThisMatters": "S&P Global Ratings, one of the three biggest credit rating agencies, is weighing a downgrade of Nvidia, citing worries over the company's management and governance, TechCrunch reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-26/s9_cut1.jpg",
+          "badge": "SOLIDARITY AND PROGRESS • OFFICIAL LOGO",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s10_openai_says_heavy_chatgpt_users",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "subheadline": "Source: TechCrunch",
+      "importanceScore": 90,
+      "durationSeconds": 55,
+      "source": "TechCrunch",
+      "sourceUrl": "https://is.gd/sSpXIA",
+      "researchDesk": "",
+      "script": "Also today. OpenAI has begun combining the usage limits for Chat and Work in ChatGPT, and some of its most intensive users could run through their allowance faster, TechCrunch reports. The change follows an earlier email in which OpenAI told users about the merger. A company spokesperson told TechCrunch that most people should not see more frequent usage resets, but a small share of the heaviest users may reach their caps sooner. Those users worry the shared limit could reduce their access to advanced reasoning models while they keep paying the same subscription price. Under the new arrangement, Chat and Work will draw from one usage meter across ChatGPT. Conversations with the Instant model, however, will stay unlimited, will not count toward the shared allowance, and remain available after other limits run out.",
+      "whyThisMatters": "OpenAI has begun combining the usage limits for Chat and Work in ChatGPT, and some of its most intensive users could run through their allowance faster, TechCrunch reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+        "TechCrunch"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-26/s10_cut1.jpg",
+          "badge": "OPENAI",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s11_real2simlab_a_unified_platform_f",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 44,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.34849",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. Researchers have introduced a new testing platform in a paper titled \"Real2SimLab: A Unified Platform for Real-to-Simulation Transfer.\" Real-to-simulation transfer means constructing computer simulations based on what is observed in the real world. AI coding agents can now write simulation programs from video footage, and several benchmarks, or standardized tests, exist to measure them. The problem is that each benchmark sets its own inputs, expected outputs and scoring process, so testing many methods across many benchmarks requires a separate integration for every pairing. Real2SimLab tackles this by running each method's program and grading the resulting simulation with each benchmark's original scorer.",
+      "whyThisMatters": "Researchers have introduced a new testing platform in a paper titled \"Real2SimLab: A Unified Platform for Real-to-Simulation Transfer.\" Real-to-simulation transfer means constructing computer simulations based on what is",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-26/s11_cut1.jpg",
+          "badge": "ARXIV • OFFICIAL LOGO",
+          "panDirection": "panLeft"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. Dozens of court cases in England and Wales affected by undisclosed AI use in 2026. Beware higher correlation but nab high U.S. credit yields, fund managers say. SpaceX wins FCC approval to deploy 1 million orbital data center satellites. Data from Chinese AI firm MiniMax accessed by unidentified parties, researcher says. Data centre rush drives biggest rise in Australian business investment since mining boom. US-based firms with Chinese owners buying Nvidia's most advanced chips.",
+    "items": [
+      "✓ Dozens of court cases in England and Wales affec",
+      "✓ Beware higher correlation but nab high U.S. cred",
+      "✓ SpaceX wins FCC approval to deploy 1 million orb",
+      "✓ Data from Chinese AI firm MiniMax accessed by un",
+      "✓ Data centre rush drives biggest rise in Australi",
+      "✓ US-based firms with Chinese owners buying Nvidia",
+      "✓ Investors see rising risk of SoftBank default as"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "Dozens of court cases in England and Wales af",
+    "Beware higher correlation but nab high U.S. c",
+    "SpaceX wins FCC approval to deploy 1 million ",
+    "Data from Chinese AI firm MiniMax accessed by",
+    "Data centre rush drives biggest rise in Austr",
+    "US-based firms with Chinese owners buying Nvi",
+    "Investors see rising risk of SoftBank default",
+    "Apple pulls MiniMax AI chatbot from App Store",
+    "S&P considers Nvidia credit downgrade over go",
+    "OpenAI says heavy ChatGPT users may hit limit",
+    "Real2SimLab: A Unified Platform for Real-to-S"
+  ],
+  "thumbnail": {
+    "date": "26 NOVEMBER 2026",
+    "headline": "DOZENS OF COURT CASES IN ENGLAND AND WALES",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "DOZENS OF COURT CASES IN ENGLAND",
+      "BEWARE HIGHER CORRELATION BUT NAB",
+      "SPACEX WINS FCC APPROVAL TO DEPLOY",
+      "DATA FROM CHINESE AI FIRM MINIMAX"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "Dozens of court cases in England | Beware higher correlation but nab | SpaceX wins FCC approval to deploy | AI News 26 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 26 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

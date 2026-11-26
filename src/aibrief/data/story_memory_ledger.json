@@ -1,6 +1,6 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-11-24",
+  "last_updated": "2026-11-26",
   "stories": [
     {
       "story_id": "story_20261110_australia_to_introduce_mandatory_re",
@@ -2894,6 +2894,171 @@
       ],
       "first_covered": "2026-11-24",
       "last_major_update": "2026-11-24",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261126_dozens_of_court_cases_in_england_an",
+      "story_chain_id": "chain_global_dozens_of_court_case",
+      "headline": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://is.gd/hA90Pw"
+      ],
+      "first_covered": "2026-11-26",
+      "last_major_update": "2026-11-26",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261126_beware_higher_correlation_but_nab_h",
+      "story_chain_id": "chain_global_beware_higher_correl",
+      "headline": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://is.gd/ES9L4n"
+      ],
+      "first_covered": "2026-11-26",
+      "last_major_update": "2026-11-26",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261126_spacex_wins_fcc_approval_to_deploy_",
+      "story_chain_id": "chain_global_spacex_wins_fcc_appr",
+      "headline": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://is.gd/R9n90r"
+      ],
+      "first_covered": "2026-11-26",
+      "last_major_update": "2026-11-26",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261126_data_from_chinese_ai_firm_minimax_a",
+      "story_chain_id": "chain_global_data_from_chinese_ai",
+      "headline": "Data from Chinese AI firm MiniMax accessed by unidentified parties, researcher says",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/articleshow/136180952.cms"
+      ],
+      "first_covered": "2026-11-26",
+      "last_major_update": "2026-11-26",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261126_data_centre_rush_drives_biggest_ris",
+      "story_chain_id": "chain_global_data_centre_rush_dri",
+      "headline": "Data centre rush drives biggest rise in Australian business investment since mining boom",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/articleshow/136176738.cms"
+      ],
+      "first_covered": "2026-11-26",
+      "last_major_update": "2026-11-26",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261126_us_based_firms_with_chinese_owners_",
+      "story_chain_id": "chain_global_us_based_firms_with_",
+      "headline": "US-based firms with Chinese owners buying Nvidia's most advanced chips",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/articleshow/136178351.cms"
+      ],
+      "first_covered": "2026-11-26",
+      "last_major_update": "2026-11-26",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261126_investors_see_rising_risk_of_softba",
+      "story_chain_id": "chain_global_investors_see_rising",
+      "headline": "Investors see rising risk of SoftBank default as pressure grows on AI bets",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/articleshow/136183977.cms"
+      ],
+      "first_covered": "2026-11-26",
+      "last_major_update": "2026-11-26",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261126_apple_pulls_minimax_ai_chatbot_from",
+      "story_chain_id": "chain_global_apple_pulls_minimax_",
+      "headline": "Apple pulls MiniMax AI chatbot from App Store over child safety concerns",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://economictimes.indiatimes.com/articleshow/136180509.cms"
+      ],
+      "first_covered": "2026-11-26",
+      "last_major_update": "2026-11-26",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261126_s_p_considers_nvidia_credit_downgra",
+      "story_chain_id": "chain_global_s_p_considers_nvidia",
+      "headline": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://is.gd/YSMoXW"
+      ],
+      "first_covered": "2026-11-26",
+      "last_major_update": "2026-11-26",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261126_openai_says_heavy_chatgpt_users_may",
+      "story_chain_id": "chain_global_openai_says_heavy_ch",
+      "headline": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://is.gd/sSpXIA"
+      ],
+      "first_covered": "2026-11-26",
+      "last_major_update": "2026-11-26",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261126_real2simlab_a_unified_platform_for_",
+      "story_chain_id": "chain_global_real2simlab_a_unifie",
+      "headline": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.34849"
+      ],
+      "first_covered": "2026-11-26",
+      "last_major_update": "2026-11-26",
       "update_phase": "initial_break",
       "impact_score": 90
     }
