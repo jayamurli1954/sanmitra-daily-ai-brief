@@ -5,7 +5,20 @@ name: Cloud Autonomous Production (Primary Broadcaster)
 # The local PC checks for this claim and yields so duplicate videos are never produced.
 on:
   schedule:
-    # 13:30 UTC = 19:00 IST. GitHub starts scheduled runs within 0-15 min.
+    # Meant for 19:00 IST (13:30 UTC), but GitHub starts this repository's scheduled
+    # runs 7 to 9 hours late (Nov 2026: the 13:30 UTC cron fired at 01:30-04:40 IST).
+    # So several earlier times are scheduled: whichever one actually starts inside the
+    # 18:30-23:59 IST window claims and produces the episode, and the claim makes every
+    # later one stop at the first step. Runs that start in the daytime do nothing.
+    - cron: '30 4 * * *'
+    - cron: '30 5 * * *'
+    - cron: '30 6 * * *'
+    - cron: '30 7 * * *'
+    - cron: '30 8 * * *'
+    - cron: '30 9 * * *'
+    - cron: '30 10 * * *'
+    - cron: '30 11 * * *'
+    - cron: '30 12 * * *'
     - cron: '30 13 * * *'
   workflow_dispatch:
     inputs:
@@ -63,12 +76,18 @@ jobs:
               exit 0
             fi
             if [ "$NOW" -ge 0000 ] && [ "$NOW" -lt 0500 ]; then
+              # After midnight a run may only catch up last evening's missed episode.
+              # It must never start the new day's: at 4 AM there is no news yet (27 Nov:
+              # 1 story of the 10 needed), and its failed claim churns the history.
               YESTERDAY=$(TZ=Asia/Kolkata date -d "yesterday" +%Y-%m-%d)
-              if [ ! -f "src/aibrief/data/aired/$YESTERDAY.json" ]; then
-                echo "[*] Detected unaired episode for $YESTERDAY past midnight ($NOW IST). Producing missed episode for $YESTERDAY."
-                TODAY="$YESTERDAY"
-                echo "today=$TODAY" > "$GITHUB_OUTPUT"
+              if [ -f "src/aibrief/data/aired/$YESTERDAY.json" ]; then
+                echo "[*] $NOW IST: $YESTERDAY has aired and it is too early for $TODAY. Doing nothing."
+                echo "produce=false" >> "$GITHUB_OUTPUT"
+                exit 0
               fi
+              echo "[*] Detected unaired episode for $YESTERDAY past midnight ($NOW IST). Producing missed episode for $YESTERDAY."
+              TODAY="$YESTERDAY"
+              echo "today=$TODAY" > "$GITHUB_OUTPUT"
             fi
           fi
           if [ -f "src/aibrief/data/aired/$TODAY.json" ] && [ "$FORCE" != "true" ]; then

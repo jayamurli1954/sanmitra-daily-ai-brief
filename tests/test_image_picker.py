@@ -86,6 +86,42 @@ class WikidataFilterTest(unittest.TestCase):
         self.assertEqual(len(self.visuals(human, "Jensen Huang")), 1)
 
 
+class OutletAndResearchTest(unittest.TestCase):
+    def test_research_paper_gets_only_the_arxiv_logo(self):
+        arxiv = ("https://upload.wikimedia.org/arxiv.png#logo", "ARXIV • OFFICIAL LOGO")
+        with mock.patch.object(r, "_outlet_visuals", return_value=[arxiv]) as outlet, \
+             mock.patch.object(r, "search_wikipedia_image", side_effect=AssertionError("no lookups")), \
+             mock.patch.object(r, "_subject_visuals", side_effect=AssertionError("no lookups")):
+            cands = r.resolve_hero_candidates(
+                11, "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+                "", "WORLD", source="arXiv Pre-print", source_url="https://arxiv.org/abs/2611.34051")
+        self.assertEqual(cands[0], arxiv)
+        self.assertTrue(all(r.is_fallback_image(u) for u, _ in cands[1:]))
+        outlet.assert_called_once()
+
+    def test_outlet_logo_needs_the_story_domain(self):
+        from src.aibrief import wikidata_visuals as w
+
+        def fake_json(url):
+            if "wbsearchentities" in url:
+                return {"search": [{"id": "Q1", "label": "The National"}, {"id": "Q2", "label": "The National"}]}
+            return {"entities": {
+                "Q1": {"labels": {"en": {"value": "The National"}},
+                       "claims": {"P856": [{"mainsnak": {"datavalue": {"value": "https://www.thenational.scot"}}}],
+                                  "P154": [{"mainsnak": {"datavalue": {"value": "Scotland.svg"}}}]}},
+                "Q2": {"labels": {"en": {"value": "The National"}},
+                       "claims": {"P856": [{"mainsnak": {"datavalue": {"value": "https://www.thenationalnews.com/"}}}],
+                                  "P154": [{"mainsnak": {"datavalue": {"value": "UAE.svg"}}}]}}}}
+
+        with mock.patch.object(w, "_json", side_effect=fake_json), \
+             mock.patch.object(w, "commons_file_url", side_effect=lambda f, width=1280: "https://upload.wikimedia.org/" + f), \
+             mock.patch.object(w, "resolve_url", side_effect=lambda u: u):
+            uae = w.outlet_logo("The National", "https://www.thenationalnews.com/news/uae/story")
+            other = w.outlet_logo("The National", "https://example.com/story")
+        self.assertTrue(uae[0].startswith("https://upload.wikimedia.org/UAE.svg"))
+        self.assertIsNone(other)
+
+
 class ResolverTest(unittest.TestCase):
     def cuts(self, headline, body, idx=1):
         with offline():

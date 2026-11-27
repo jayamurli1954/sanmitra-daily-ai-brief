@@ -365,6 +365,7 @@ def download_daily_visuals(date_str: str, force: bool = False, retention_days: i
                     full_story_text,
                     s.get("region", "WORLD"),
                     source=s.get("source", ""),
+                    source_url=s.get("sourceUrl", ""),
                 )
                 items.append((f"s{idx}_cut1.jpg", [
                     (to_wiki_thumb(u) if "upload.wikimedia.org" in u and not u.endswith(LOGO_MARK) else u, b)

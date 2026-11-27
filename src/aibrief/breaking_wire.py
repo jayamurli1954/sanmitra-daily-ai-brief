@@ -292,11 +292,31 @@ def _same_story(a: set, b: set) -> bool:
     return len(overlap) >= 3 or (smaller and len(overlap) / smaller >= 0.55)
 
 
-def window_start() -> datetime:
-    """21:30 IST on the day of the previous episode (9:30 PM); a run from 8 PM on is for tomorrow."""
+# The episode date being collected for, when the caller knows it. A late or catch-up
+# run (after 21:30, or at 4 AM the next day) must still look at that episode's own
+# news; working the window out from the clock left those runs with 1 or 2 stories.
+_TARGET_DATE: Dict[str, Optional[str]] = {"date": None}
+
+
+def window_start(target_date: Optional[str] = None) -> datetime:
+    """21:30 IST on the day of the previous episode (9:30 PM). With an episode date, the
+    day before that date; without one, from the clock (a run from 8 PM on is for tomorrow)."""
+    target_date = target_date or _TARGET_DATE["date"]
+    if target_date:
+        prev = datetime.strptime(target_date, "%Y-%m-%d") - timedelta(days=1)
+        return prev.replace(hour=21, minute=30, tzinfo=IST).astimezone(timezone.utc)
     now = datetime.now(IST)
     prev = now if now.hour >= 20 else now - timedelta(days=1)
     return prev.replace(hour=21, minute=30, second=0, microsecond=0).astimezone(timezone.utc)
+
+
+def window_end(target_date: Optional[str] = None) -> Optional[datetime]:
+    """21:30 IST on the episode date: news after that belongs to the next episode."""
+    target_date = target_date or _TARGET_DATE["date"]
+    if not target_date:
+        return None
+    day = datetime.strptime(target_date, "%Y-%m-%d")
+    return day.replace(hour=21, minute=30, tzinfo=IST).astimezone(timezone.utc)
 
 
 def fetch_feed(feed: Dict) -> List[Dict]:
@@ -317,6 +337,7 @@ def fetch_feed(feed: Dict) -> List[Dict]:
     nodes = soup.find_all("item") or soup.find_all("entry")
     now = datetime.now(timezone.utc)
     cutoff = window_start()
+    end = window_end()
 
     for node in nodes[:20]:
         title_node = node.find("title")
@@ -332,6 +353,8 @@ def fetch_feed(feed: Dict) -> List[Dict]:
             else ""
         )
         if published and published < cutoff:
+            continue
+        if published and end and published > end:
             continue
 
         body = _item_body(node)
@@ -466,11 +489,13 @@ def _broadcast_summary(body: str) -> str:
     return " ".join(sentences)
 
 
-def collect_breaking_stories(max_stories: int = MAX_STORIES) -> List[Dict]:
+def collect_breaking_stories(max_stories: int = MAX_STORIES, target_date: Optional[str] = None) -> List[Dict]:
     """
     Pull full-text breaks from publisher wires.
     Returns at most max_stories dicts with headline, summary, bureau, source, and score.
+    With target_date, the window is that episode's (21:30 the day before to 21:30 that day).
     """
+    _TARGET_DATE["date"] = target_date
     _fetch_count["n"] = 0
     print("=" * 70)
     print("SANMITRA BREAKING WIRE")
