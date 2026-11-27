@@ -424,21 +424,28 @@ def _subject_visuals(headline: str, limit_names: int = 2) -> List[Tuple[str, str
     return out
 
 
-def _outlet_visuals(source: str) -> List[Tuple[str, str]]:
+def _outlet_visuals(source: str, source_url: str = "") -> List[Tuple[str, str]]:
     """The reporting outlet's logo ("TechCrunch", "arXiv"): tied to the story, and
-    better than a generic still when the subject has no image of its own."""
+    better than a generic still when the subject has no image of its own. Only an
+    outlet whose official website is the story link's domain counts: on 27 Nov
+    "The National" (UAE) found a different "The National"'s logo."""
     name = re.sub(r"\s+(?:pre-?print|news|reports?)$", "", (source or "").strip(), flags=re.I)
-    if len(name) < 3:
+    if len(name) < 3 or not source_url:
         return []
     try:
-        from src.aibrief.wikidata_visuals import entity_visuals, LOGO_MARK
-        return [(u, b) for u, b in entity_visuals(name) if u.endswith(LOGO_MARK)][:1]
+        from src.aibrief.wikidata_visuals import outlet_logo
+        found = outlet_logo(name, source_url)
+        return [found] if found else []
     except Exception:
         return []
 
 
+def is_research_story(source: str, source_url: str = "") -> bool:
+    return bool(re.search(r"arxiv|pre-?print", f"{source} {source_url}", re.I))
+
+
 def resolve_hero_candidates(idx: int, headline: str, summary: str, region: str,
-                            source: str = "") -> List[Tuple[str, str]]:
+                            source: str = "", source_url: str = "") -> List[Tuple[str, str]]:
     """Every acceptable (url, badge) hero for a story, best first, ending with the
     approved fallbacks. The downloader prefers one not shown in the last 14 days
     but uses a relevant repeat before a generic fallback.
@@ -452,6 +459,14 @@ def resolve_hero_candidates(idx: int, headline: str, summary: str, region: str,
       5. The reporting outlet's logo.
       6. The two approved fallbacks, the alternating one first.
     """
+    first, second = FALLBACK_IMAGES if idx % 2 == 1 else FALLBACK_IMAGES[::-1]
+    fallback_badge = f"{region} • AI INTELLIGENCE WIRE"
+
+    # A research paper's title is not a list of names: "Stable Gated DeltaNet-2:
+    # Understanding ... Instability" found Wikipedia's "Instability" bell curve.
+    if is_research_story(source, source_url):
+        return _outlet_visuals("arXiv", "https://arxiv.org/") + [(first, fallback_badge), (second, fallback_badge)]
+
     hl_text = (headline or "").lower()
     body_text = (summary or "").replace(headline or "", " ", 1).lower()
     candidates: List[Tuple[str, str]] = []
@@ -480,10 +495,7 @@ def resolve_hero_candidates(idx: int, headline: str, summary: str, region: str,
             src, title = wiki_res
             candidates.append((src, f"{title.upper()} • CONTEXTUAL REPORTING"))
 
-    candidates += _outlet_visuals(source)
-
-    first, second = FALLBACK_IMAGES if idx % 2 == 1 else FALLBACK_IMAGES[::-1]
-    fallback_badge = f"{region} • AI INTELLIGENCE WIRE"
+    candidates += _outlet_visuals(source, source_url)
     candidates += [(first, fallback_badge), (second, fallback_badge)]
 
     unique, seen_urls = [], set()

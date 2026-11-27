@@ -201,3 +201,62 @@ def entity_visuals(name: str, is_subject_place_ok: bool = False) -> List[Tuple[s
             else:
                 out.append((url, f"{title} • OFFICIAL IMAGE"))
     return out
+
+
+def _domain(url: str) -> str:
+    host = urllib.parse.urlparse(url or "").netloc.lower()
+    return host[4:] if host.startswith("www.") else host
+
+
+@lru_cache(maxsize=256)
+def resolve_url(url: str) -> str:
+    """Follow a short link (is.gd, tinyurl) to the article's real address."""
+    if not url:
+        return ""
+    # Read the redirect headers only: the article's own site may be slow or refuse
+    # robots, and only its address is needed.
+    current = url
+    for _ in range(4):
+        try:
+            r = requests.get(current, headers=BROWSER, timeout=TIMEOUT, allow_redirects=False, stream=True)
+            r.close()
+        except Exception:
+            break
+        location = r.headers.get("location")
+        if r.status_code not in (301, 302, 303, 307, 308) or not location:
+            break
+        current = urllib.parse.urljoin(current, location)
+    return current
+
+
+def outlet_logo(name: str, story_url: str) -> Optional[Tuple[str, str]]:
+    """(url, badge) for the logo of the outlet that published the story. Several
+    outlets share a name ("The National" is a UAE paper, a Scottish paper and a
+    band), so the Wikidata item counts only if its official website is the domain
+    the story link actually points to."""
+    domain = _domain(resolve_url(story_url))
+    if not domain or not name:
+        return None
+    try:
+        hits = _json("https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en"
+                     "&type=item&limit=10&search=" + urllib.parse.quote(name)).get("search", [])
+        ids = [h["id"] for h in hits if name.lower() in ((h.get("label") or "").lower(),
+                                                       (h.get("match", {}).get("text") or "").lower())]
+        if not ids:
+            return None
+        ents = _json("https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=claims|labels"
+                     "&languages=en&ids=" + "|".join(ids)).get("entities", {})
+    except Exception:
+        return None
+    for eid in ids:
+        ent = ents.get(eid, {})
+        claims = ent.get("claims", {})
+        sites = [c.get("mainsnak", {}).get("datavalue", {}).get("value") for c in claims.get("P856", [])]
+        if not any(_domain(u) == domain or domain.endswith("." + _domain(u)) for u in sites if u):
+            continue
+        label = (ent.get("labels", {}).get("en", {}) or {}).get("value") or name
+        logo = _claim(claims, "P154")
+        url = commons_file_url(logo) if logo else commons_logo_search(label)
+        if url:
+            return url + LOGO_MARK, f"{label.upper()} • OFFICIAL LOGO"
+    return None

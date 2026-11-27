@@ -286,7 +286,7 @@ def build_daily_episode(target_date: str = None) -> dict:
 
     # Pull a surplus so that after the collector drops stock-market, election and
     # scandal stories (and dedupes), at least 10 remain to fill the episode.
-    wire_stories = collect_breaking_stories(max_stories=18)
+    wire_stories = collect_breaking_stories(max_stories=18, target_date=target_date)
     if not wire_stories:
         print("[X] No full-text breaking stories. Leaving the current episode unchanged.")
         return {}
