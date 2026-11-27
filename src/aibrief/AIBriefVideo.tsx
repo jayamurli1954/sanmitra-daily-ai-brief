@@ -3,17 +3,13 @@ import { Audio, Series, staticFile } from "remotion";
 import { AIBriefEpisode } from "./types";
 import episodeData from "./data/active_episode.json";
 import rawTimings from "./data/timings.json";
-import { BroadcastHeader } from "./components/BroadcastHeader";
-import { DynamicTicker } from "./components/DynamicTicker";
-import { SourceWatermark } from "./components/SourceWatermark";
-import { StoryCard } from "./components/StoryCard";
-import { EvidenceLayer } from "./components/EvidenceLayer";
-import { IntroScene } from "./scenes/IntroScene";
+import { CleanStoryCard } from "./components/CleanStoryCard";
+import { BurnInCaptions } from "./components/BurnInCaptions";
+import { CleanIntroScene } from "./scenes/CleanIntroScene";
 import { OutroScene } from "./scenes/OutroScene";
 import { SectionTransition } from "./components/SectionTransition";
 import { HeadlinesRecapScene } from "./scenes/HeadlinesRecapScene";
 import { AIMarketSnapshotScene } from "./scenes/AIMarketSnapshotScene";
-import { BurnInCaptions } from "./components/BurnInCaptions";
 import { SponsorSlot } from "./components/SponsorSlot";
 import { getBroadcastScenes, TimelineScene } from "./timingsHelper";
 
@@ -53,17 +49,13 @@ export const AIBriefVideo: React.FC = () => {
                   {scene.audioFile && (
                     <Audio src={staticFile(scene.audioFile)} volume={1.0} />
                   )}
-                  <IntroScene
+                  <CleanIntroScene
                     formattedDate={episode.formattedDate}
-                    leadHeadline={episode.stories[0]?.headline ?? "Daily AI Brief"}
-                    leadSource={episode.stories[0]?.source ?? ""}
-                    leadRegion={episode.stories[0]?.region ?? "GLOBAL"}
+                    headlines={
+                      ((episode.intro as any)?.headlines as string[] | undefined) ??
+                      episode.stories.map((s) => s.headline)
+                    }
                     leadImage={episode.stories[0]?.visualCuts?.[0]?.image}
-                  />
-                  <BroadcastHeader
-                    date={episode.formattedDate}
-                    region="GLOBAL"
-                    isSpecialReport={true}
                   />
                 </Series.Sequence>
               );
@@ -75,11 +67,6 @@ export const AIBriefVideo: React.FC = () => {
                   durationInFrames={scene.durationInFrames}
                 >
                   <SponsorSlot sponsor={episode.sponsor} />
-                  <BroadcastHeader
-                    date={episode.formattedDate}
-                    region="GLOBAL"
-                    isSpecialReport={false}
-                  />
                 </Series.Sequence>
               ) : null;
 
@@ -94,11 +81,6 @@ export const AIBriefVideo: React.FC = () => {
                     title={scene.transition?.title || ""}
                     display={scene.transition?.display || ""}
                   />
-                  <BroadcastHeader
-                    date={episode.formattedDate}
-                    region={scene.transition?.region || "GLOBAL"}
-                    isSpecialReport={false}
-                  />
                 </Series.Sequence>
               );
 
@@ -112,20 +94,7 @@ export const AIBriefVideo: React.FC = () => {
                   {scene.audioFile && (
                     <Audio src={staticFile(scene.audioFile)} volume={1.0} />
                   )}
-                  <StoryCard story={scene.story} />
-                  <EvidenceLayer storyId={scene.story.id} sourceUrl={scene.story.sourceUrl} />
-                  <SourceWatermark
-                    source={scene.story.source}
-                    sourceUrl={scene.story.sourceUrl}
-                    sourceType={scene.story.sourceType}
-                  />
-                  <BroadcastHeader
-                    date={episode.formattedDate}
-                    region={scene.story.region}
-                    isSpecialReport={scene.story.importanceScore >= 90}
-                    storyIndex={scene.storyIndex}
-                    totalStories={scene.totalStories}
-                  />
+                  <CleanStoryCard story={scene.story} />
                 </Series.Sequence>
               );
 
@@ -139,11 +108,6 @@ export const AIBriefVideo: React.FC = () => {
                     <Audio src={staticFile(scene.audioFile)} volume={1.0} />
                   )}
                   <HeadlinesRecapScene stories={episode.stories} />
-                  <BroadcastHeader
-                    date={episode.formattedDate}
-                    region="GLOBAL"
-                    isSpecialReport={true}
-                  />
                 </Series.Sequence>
               );
 
@@ -159,11 +123,6 @@ export const AIBriefVideo: React.FC = () => {
                   <AIMarketSnapshotScene
                     marketSnapshot={episode.marketSnapshot}
                   />
-                  <BroadcastHeader
-                    date={episode.formattedDate}
-                    region="GLOBAL"
-                    isSpecialReport={false}
-                  />
                 </Series.Sequence>
               );
 
@@ -177,11 +136,6 @@ export const AIBriefVideo: React.FC = () => {
                     <Audio src={staticFile(scene.audioFile)} volume={1.0} />
                   )}
                   <OutroScene outro={episode.outro} />
-                  <BroadcastHeader
-                    date={episode.formattedDate}
-                    region="GLOBAL"
-                    isSpecialReport={false}
-                  />
                 </Series.Sequence>
               );
 
@@ -191,11 +145,9 @@ export const AIBriefVideo: React.FC = () => {
         })}
       </Series>
 
-      {/* Burn-in Captions Overlay */}
+      {/* Captions: the episode's only captions (no subtitle file is uploaded) */}
       <BurnInCaptions enabled={true} />
 
-      {/* Continuous Dynamic News Ticker */}
-      <DynamicTicker items={episode.ticker} />
     </div>
   );
 };
