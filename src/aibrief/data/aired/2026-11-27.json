@@ -1,0 +1,426 @@
+{
+  "weekly": false,
+  "date": "2026-11-27",
+  "formattedDate": "27 November 2026",
+  "title": "UAE launches FedAI to run half of | OpenAI fixes a usage bug, so | OpenAI's GPT-Live-1.1 takes first | AI News 27 November 2026",
+  "intro": {
+    "durationSeconds": 57,
+    "headline": "GLOBAL AI INTELLIGENCE WIRE",
+    "subheadline": "SANMITRA NEWSROOM COMMAND CENTER",
+    "script": "From the SanMitra Newsroom, this is the Daily AI Brief for 27 November 2026. First, today's top headlines: UAE launches FedAI to run half of government work with AI agents within two years. OpenAI fixes a usage bug, so GPT-6.2 limits now arrive sooner. OpenAI's GPT-Live-1.1 takes first place on a live phone-call benchmark. Nvidia Blackwell racks reported at a Shanghai site tied to blacklisted Megaspeed. South Korea declares an emergency response to AI-powered cyberattacks. Bhargavastra counter-drone-swarm system clears trials at Pokhran. Canada adds C700 million dollars to help small firms pay for AI compute. Nebius starts invisible watermarks on AI-generated text for the EU AI Act. AI agent's cardless pizza order is a first for the UK. Anthropic rebuilds its Messages API in Rust, cutting CPU use by 70 percent. And now, the news in brief.",
+    "headlines": [
+      "UAE launches FedAI to run half of government work with AI agents within two years",
+      "OpenAI fixes a usage bug, so GPT-6.2 limits now arrive sooner",
+      "OpenAI's GPT-Live-1.1 takes first place on a live phone-call benchmark",
+      "Nvidia Blackwell racks reported at a Shanghai site tied to blacklisted Megaspeed",
+      "South Korea declares an emergency response to AI-powered cyberattacks",
+      "Bhargavastra counter-drone-swarm system clears trials at Pokhran",
+      "Canada adds C700 million dollars to help small firms pay for AI compute",
+      "Nebius starts invisible watermarks on AI-generated text for the EU AI Act",
+      "AI agent's cardless pizza order is a first for the UK",
+      "Anthropic rebuilds its Messages API in Rust, cutting CPU use by 70 percent"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_china",
+      "region": "CHINA",
+      "title": "NEXT: CHINA & REGIONAL STRATEGY",
+      "display": "NEXT: CHINA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_asia",
+      "region": "ASIA",
+      "title": "NEXT: ASIA & REGIONAL STRATEGY",
+      "display": "NEXT: ASIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_india",
+      "region": "INDIA",
+      "title": "NEXT: INDIA & REGIONAL STRATEGY",
+      "display": "NEXT: INDIA",
+      "durationSeconds": 2
+    },
+    {
+      "id": "transition_usa",
+      "region": "USA",
+      "title": "NEXT: USA & REGIONAL STRATEGY",
+      "display": "NEXT: USA",
+      "durationSeconds": 2
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1_uae_launches_fedai_to_run_half_o",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "UAE launches FedAI to run half of government work with AI agents within two years",
+      "subheadline": "Source: The National",
+      "importanceScore": 99,
+      "durationSeconds": 34,
+      "source": "The National",
+      "sourceUrl": "https://is.gd/42IOn7",
+      "researchDesk": "",
+      "script": "Our lead story today. The United Arab Emirates has unveiled FedAI, a national ecosystem for agentic AI in government, with 17 local and international partners signing on, The National reports. The government says it wants AI agents handling 50 percent of its sectors, services and processes within two years. An AI concierge called Mira is due from March, letting residents use government services in their own language. These are targets the government has set, not results it has achieved so far.",
+      "whyThisMatters": "The United Arab Emirates has unveiled FedAI, a national ecosystem for agentic AI in government, with 17 local and international partners signing on, The National reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "UAE launches FedAI to run half of government work with AI agents within two year",
+        "The National"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-27/s1_cut1.jpg",
+          "badge": "THE NATIONAL • OFFICIAL LOGO",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s2_openai_fixes_a_usage_bug_so_gpt",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "OpenAI fixes a usage bug, so GPT-6.2 limits now arrive sooner",
+      "subheadline": "Source: BleepingComputer",
+      "importanceScore": 95,
+      "durationSeconds": 29,
+      "source": "BleepingComputer",
+      "sourceUrl": "https://is.gd/S7lsrh",
+      "researchDesk": "",
+      "script": "Turning to the United States. OpenAI says a bug at launch had been undercounting how much subscribers used GPT-6.2, BleepingComputer reports. With the bug fixed, users will reach their limits about 40 percent faster on Astra and about 25 percent faster on Sol than they did last week. OpenAI is not charging for the usage that went uncounted, and it is offering subscribers an extra reset of their usage allowance.",
+      "whyThisMatters": "OpenAI says a bug at launch had been undercounting how much subscribers used GPT-6.2, BleepingComputer reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "OpenAI fixes a usage bug, so GPT-6.2 limits now arrive sooner",
+        "BleepingComputer"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-27/s2_cut1.jpg",
+          "badge": "OPENAI • OFFICIAL LOGO",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s3_openai_s_gpt_live_1_1_takes_firs",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "OpenAI's GPT-Live-1.1 takes first place on a live phone-call benchmark",
+      "subheadline": "Source: Voice Arena",
+      "importanceScore": 95,
+      "durationSeconds": 24,
+      "source": "Voice Arena",
+      "sourceUrl": "https://voicearena.com/jarvis-bench",
+      "researchDesk": "",
+      "script": "In other news. OpenAI's GPT-Live-1.1, a full-duplex voice model that can listen and speak at the same time, has debuted in first place on Jarvis Bench, a Voice Arena leaderboard that scores real phone calls. There is a catch. Human raters still preferred human agents, and they scored Google's Gemini higher on how well calls were handled.",
+      "whyThisMatters": "OpenAI's GPT-Live-1.1, a full-duplex voice model that can listen and speak at the same time, has debuted in first place on Jarvis Bench, a Voice Arena leaderboard that scores real phone calls.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "OpenAI's GPT-Live-1.1 takes first place on a live phone-call benchmark",
+        "Voice Arena"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-27/s3_cut1.jpg",
+          "badge": "OPENAI • OFFICIAL LOGO",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s4_nvidia_blackwell_racks_reported",
+      "region": "CHINA",
+      "category": "CHINA Intelligence",
+      "categoryTag": "CHINA • SPECIAL REPORT",
+      "headline": "Nvidia Blackwell racks reported at a Shanghai site tied to blacklisted Megaspeed",
+      "subheadline": "Source: Quartz",
+      "importanceScore": 90,
+      "durationSeconds": 28,
+      "source": "Quartz",
+      "sourceUrl": "https://is.gd/82pF4X",
+      "researchDesk": "",
+      "script": "In China. Two Chinese companies installed an Nvidia GB300 NVL72 rack and GB200 servers at a Shanghai data centre linked to Megaspeed, Quartz reports, citing Bloomberg. The United States added Megaspeed to its trade blacklist this week over concerns that advanced chips were being diverted to China. The report has not been officially confirmed, and it raises fresh doubts about whether US export controls on AI chips are working.",
+      "whyThisMatters": "Two Chinese companies installed an Nvidia GB300 NVL72 rack and GB200 servers at a Shanghai data centre linked to Megaspeed, Quartz reports, citing Bloomberg.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nvidia Blackwell racks reported at a Shanghai site tied to blacklisted Megaspeed",
+        "Quartz"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-27/s4_cut1.jpg",
+          "badge": "NVIDIA",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s5_south_korea_declares_an_emergenc",
+      "region": "ASIA",
+      "category": "ASIA Intelligence",
+      "categoryTag": "ASIA • SPECIAL REPORT",
+      "headline": "South Korea declares an emergency response to AI-powered cyberattacks",
+      "subheadline": "Source: Korea JoongAng Daily",
+      "importanceScore": 90,
+      "durationSeconds": 26,
+      "source": "Korea JoongAng Daily",
+      "sourceUrl": "https://is.gd/WNT8oB",
+      "researchDesk": "",
+      "script": "In Asia. South Korea's Personal Information Protection Commission has switched on an emergency response system as hacking powered by AI surges, Korea JoongAng Daily reports. Reported breaches of personal data in the first 10 months of the year are more than double last year's total. Public agencies face three months of inspections, and breaches that could have been prevented will draw strict penalties.",
+      "whyThisMatters": "South Korea's Personal Information Protection Commission has switched on an emergency response system as hacking powered by AI surges, Korea JoongAng Daily reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "South Korea declares an emergency response to AI-powered cyberattacks",
+        "Korea JoongAng Daily"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-27/s5_cut1.jpg",
+          "badge": "ASIA • AI INTELLIGENCE WIRE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s6_bhargavastra_counter_drone_swarm",
+      "region": "INDIA",
+      "category": "INDIA Intelligence",
+      "categoryTag": "INDIA • SPECIAL REPORT",
+      "headline": "Bhargavastra counter-drone-swarm system clears trials at Pokhran",
+      "subheadline": "Source: NDTV",
+      "importanceScore": 90,
+      "durationSeconds": 26,
+      "source": "NDTV",
+      "sourceUrl": "https://is.gd/TrRvdA",
+      "researchDesk": "",
+      "script": "Turning to India. Solar Defence and Aerospace says Bhargavastra, a vehicle-mounted system for defending against swarms of drones, finished in-house development trials at Pokhran between 20 and 24 November, NDTV reports. The system links AI-enabled command and control with radars, radio-frequency detectors and electro-optical tracking, and fires rockets and guided micro-missiles. These were the company's own trials, not acceptance tests by the army.",
+      "whyThisMatters": "Solar Defence and Aerospace says Bhargavastra, a vehicle-mounted system for defending against swarms of drones, finished in-house development trials at Pokhran between 20 and 24 November, NDTV reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Bhargavastra counter-drone-swarm system clears trials at Pokhran",
+        "NDTV"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-27/s6_cut1.jpg",
+          "badge": "BHARGAVASTRA • CONTEXTUAL REPORTING",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s7_canada_adds_c700_million_dollars",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Canada adds C700 million dollars to help small firms pay for AI compute",
+      "subheadline": "Source: Government of Canada",
+      "importanceScore": 90,
+      "durationSeconds": 31,
+      "source": "Government of Canada",
+      "sourceUrl": "https://is.gd/JeYHZx",
+      "researchDesk": "",
+      "script": "Around the world. The Canadian government has expanded its AI Compute Access Fund with a top-up of C700 million dollars , according to an announcement from Ottawa. It has opened a new call for proposals and named 45 more companies that will receive support. The government has also raised the incentive for firms that buy computing power from sovereign Canadian providers, as part of a push to keep more AI infrastructure in the country.",
+      "whyThisMatters": "The Canadian government has expanded its AI Compute Access Fund with a top-up of C$700 million, according to an announcement from Ottawa.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Canada adds C700 million dollars to help small firms pay for AI compute",
+        "Government of Canada"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-27/s7_cut1.jpg",
+          "badge": "GOVERNMENT OF CANADA • OFFICIAL LOGO",
+          "panDirection": "panLeft"
+        }
+      ]
+    },
+    {
+      "id": "s8_nebius_starts_invisible_watermar",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Nebius starts invisible watermarks on AI-generated text for the EU AI Act",
+      "subheadline": "Source: 8digits",
+      "importanceScore": 90,
+      "durationSeconds": 29,
+      "source": "8digits",
+      "sourceUrl": "https://is.gd/N8xEwu",
+      "researchDesk": "",
+      "script": "Next. Nebius Token Factory is adding invisible statistical watermarks to text produced through its endpoints, rolling the change out from 27 November to 1 December, 8digits reports. Nebius says it is meeting the duty under Article 50 of the EU AI Act to mark content generated by AI. It is one of the first large inference providers to watermark text in this way, and some developers have objected to the change.",
+      "whyThisMatters": "Nebius Token Factory is adding invisible statistical watermarks to text produced through its endpoints, rolling the change out from 27 November to 1 December, 8digits reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Nebius starts invisible watermarks on AI-generated text for the EU AI Act",
+        "8digits"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-27/s8_cut1.jpg",
+          "badge": "NEBIUS • OFFICIAL IMAGE",
+          "panDirection": "panRight"
+        }
+      ]
+    },
+    {
+      "id": "s9_ai_agent_s_cardless_pizza_order",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "AI agent's cardless pizza order is a first for the UK",
+      "subheadline": "Source: The Guardian",
+      "importanceScore": 90,
+      "durationSeconds": 42,
+      "source": "The Guardian",
+      "sourceUrl": "https://is.gd/obNv8K",
+      "researchDesk": "",
+      "script": "Elsewhere. An order of nine mini margherita pizzas from Papa John's has become the first purchase in Britain made by an AI agent using cardless payment, the Guardian reports. The order was placed during sandbox trials run by the Financial Conduct Authority to test the technology, with Lloyds Bank and the London payments firm TrueLayer taking part. TrueLayer moves money directly between bank accounts without cards, and said it was the first time an AI agent had paid a UK retailer for a real customer's order. Chief executive Francesco Simoneschi said the payment needed no account numbers and no password.",
+      "whyThisMatters": "An order of nine mini margherita pizzas from Papa John's has become the first purchase in Britain made by an AI agent using cardless payment, the Guardian reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "AI agent's cardless pizza order is a first for the UK",
+        "The Guardian"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-27/s9_cut1.jpg",
+          "badge": "WORLD • AI INTELLIGENCE WIRE",
+          "panDirection": "zoomIn"
+        }
+      ]
+    },
+    {
+      "id": "s10_anthropic_rebuilds_its_messages",
+      "region": "USA",
+      "category": "USA Intelligence",
+      "categoryTag": "USA • SPECIAL REPORT",
+      "headline": "Anthropic rebuilds its Messages API in Rust, cutting CPU use by 70 percent",
+      "subheadline": "Source: Analytics India Magazine",
+      "importanceScore": 90,
+      "durationSeconds": 42,
+      "source": "Analytics India Magazine",
+      "sourceUrl": "https://is.gd/EkyZC0",
+      "researchDesk": "",
+      "script": "Turning to the United States. Anthropic has rebuilt its Messages API in the Rust programming language, moving away from Python, Analytics India Magazine reports. The change cut processor use per request by about 70 percent and memory use by more than 80 percent. Traffic to the API grew 1,800 times over two years, and the Python service had become expensive to run. The project also exposed a weakness in code written by AI: the new version passed 98 percent of the existing integration tests, but when first checked against live production traffic it matched only about a quarter of the inputs.",
+      "whyThisMatters": "Anthropic has rebuilt its Messages API in the Rust programming language, moving away from Python, Analytics India Magazine reports.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Anthropic rebuilds its Messages API in Rust, cutting CPU use by 70 percent",
+        "Analytics India Magazine"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-27/s10_cut1.jpg",
+          "badge": "ANTHROPIC • OFFICIAL IMAGE",
+          "panDirection": "zoomOut"
+        }
+      ]
+    },
+    {
+      "id": "s11_stable_gated_deltanet_2_understa",
+      "region": "WORLD",
+      "category": "WORLD Intelligence",
+      "categoryTag": "WORLD • SPECIAL REPORT",
+      "headline": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+      "subheadline": "Source: arXiv Pre-print",
+      "importanceScore": 90,
+      "durationSeconds": 46,
+      "source": "arXiv Pre-print",
+      "sourceUrl": "https://arxiv.org/abs/2611.34051",
+      "researchDesk": "Research Watch",
+      "script": "From the research desk. In a paper titled \"Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability,\" the researchers look at linear attention. This is a technique that lets AI models handle long sequences efficiently by keeping a fixed-size memory, known as a state. One design, Gated DeltaNet-2, gives finer control over erasing and writing that memory, but it fails during long-context training. The researchers traced the failure to a mismatch in how erasure reads and changes the memory. That mismatch lets the state grow exponentially, even when nothing new is written. Their fix uses symmetric erasure to stop the state expanding, along with decay-regulated residual writing to keep writing flexible.",
+      "whyThisMatters": "In a paper titled \"Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability,\" the researchers look at linear attention.",
+      "sourceType": "reporting",
+      "keyPoints": [
+        "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instabilit",
+        "arXiv Pre-print"
+      ],
+      "visualCuts": [
+        {
+          "image": "aibrief/assets/editorial/2026-11-27/s11_cut1.jpg",
+          "badge": "INSTABILITY • CONTEXTUAL REPORTING",
+          "panDirection": "panLeft"
+        }
+      ]
+    }
+  ],
+  "recap": {
+    "durationSeconds": 12,
+    "headline": "TODAY'S CRITICAL DEVELOPMENTS",
+    "script": "To recap today's top stories. UAE launches FedAI to run half of government work with AI agents within two years. OpenAI fixes a usage bug, so GPT-6.2 limits now arrive sooner. OpenAI's GPT-Live-1.1 takes first place on a live phone-call benchmark. Nvidia Blackwell racks reported at a Shanghai site tied to blacklisted Megaspeed. South Korea declares an emergency response to AI-powered cyberattacks. Bhargavastra counter-drone-swarm system clears trials at Pokhran.",
+    "items": [
+      "✓ UAE launches FedAI to run half of government wor",
+      "✓ OpenAI fixes a usage bug, so GPT-6.2 limits now ",
+      "✓ OpenAI's GPT-Live-1.1 takes first place on a liv",
+      "✓ Nvidia Blackwell racks reported at a Shanghai si",
+      "✓ South Korea declares an emergency response to AI",
+      "✓ Bhargavastra counter-drone-swarm system clears t",
+      "✓ Canada adds C700 million dollars to help small f"
+    ]
+  },
+  "outro": {
+    "durationSeconds": 12,
+    "headline": "SANMITRA AI NEWS WIRE",
+    "subheadline": "Daily Global AI Intelligence",
+    "cta": "SUBSCRIBE FOR DAILY AI INTELLIGENCE",
+    "bureaus": [
+      "WORLD",
+      "USA",
+      "CHINA",
+      "ASIA",
+      "INDIA"
+    ],
+    "script": "Those were today's critical developments across global artificial intelligence. From our bureaus covering World, USA, China, Asia, and India, thank you for watching SanMitra AI News Wire. Subscribe now for daily institutional AI intelligence."
+  },
+  "ticker": [
+    "SanMitra AI News Wire v6.0",
+    "UAE launches FedAI to run half of government ",
+    "OpenAI fixes a usage bug, so GPT-6.2 limits n",
+    "OpenAI's GPT-Live-1.1 takes first place on a ",
+    "Nvidia Blackwell racks reported at a Shanghai",
+    "South Korea declares an emergency response to",
+    "Bhargavastra counter-drone-swarm system clear",
+    "Canada adds C700 million dollars to help smal",
+    "Nebius starts invisible watermarks on AI-gene",
+    "AI agent's cardless pizza order is a first fo",
+    "Anthropic rebuilds its Messages API in Rust, ",
+    "Stable Gated DeltaNet-2: Understanding and Mi"
+  ],
+  "thumbnail": {
+    "date": "27 NOVEMBER 2026",
+    "headline": "UAE LAUNCHES FEDAI TO RUN HALF OF GOVERNMENT",
+    "subheadline": "GLOBAL INTELLIGENCE BRIEFING",
+    "storyHighlights": [
+      "UAE LAUNCHES FEDAI TO RUN HALF OF",
+      "OPENAI FIXES A USAGE BUG, SO",
+      "OPENAI'S GPT-LIVE-1.1 TAKES FIRST",
+      "NVIDIA BLACKWELL RACKS REPORTED AT"
+    ]
+  },
+  "youtubeMetadata": {
+    "title": "UAE launches FedAI to run half of | OpenAI fixes a usage bug, so | OpenAI's GPT-Live-1.1 takes first | AI News 27 November 2026",
+    "descriptionIntro": "Daily institutional-grade AI intelligence from the SanMitra Newsroom covering 27 November 2026.",
+    "tags": [
+      "AI",
+      "ArtificialIntelligence",
+      "SuperIntelligence",
+      "OpenAI",
+      "DeepSeek",
+      "TechNews",
+      "SanMitra"
+    ]
+  }
+}

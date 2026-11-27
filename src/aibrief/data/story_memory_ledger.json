@@ -1,6 +1,6 @@
 {
   "version": "2.1.1",
-  "last_updated": "2026-11-26",
+  "last_updated": "2026-11-27",
   "stories": [
     {
       "story_id": "story_20261110_australia_to_introduce_mandatory_re",
@@ -3059,6 +3059,171 @@
       ],
       "first_covered": "2026-11-26",
       "last_major_update": "2026-11-26",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261127_uae_launches_fedai_to_run_half_of_g",
+      "story_chain_id": "chain_global_uae_launches_fedai_t",
+      "headline": "UAE launches FedAI to run half of government work with AI agents within two years",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://is.gd/42IOn7"
+      ],
+      "first_covered": "2026-11-27",
+      "last_major_update": "2026-11-27",
+      "update_phase": "initial_break",
+      "impact_score": 99
+    },
+    {
+      "story_id": "story_20261127_openai_fixes_a_usage_bug_so_gpt_6_2",
+      "story_chain_id": "chain_global_openai_fixes_a_usage",
+      "headline": "OpenAI fixes a usage bug, so GPT-6.2 limits now arrive sooner",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://is.gd/S7lsrh"
+      ],
+      "first_covered": "2026-11-27",
+      "last_major_update": "2026-11-27",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261127_openai_s_gpt_live_1_1_takes_first_p",
+      "story_chain_id": "chain_global_openai_s_gpt_live_1_",
+      "headline": "OpenAI's GPT-Live-1.1 takes first place on a live phone-call benchmark",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://voicearena.com/jarvis-bench"
+      ],
+      "first_covered": "2026-11-27",
+      "last_major_update": "2026-11-27",
+      "update_phase": "initial_break",
+      "impact_score": 95
+    },
+    {
+      "story_id": "story_20261127_nvidia_blackwell_racks_reported_at_",
+      "story_chain_id": "chain_global_nvidia_blackwell_rac",
+      "headline": "Nvidia Blackwell racks reported at a Shanghai site tied to blacklisted Megaspeed",
+      "companies": [],
+      "topics": [],
+      "country": "CHINA",
+      "source_urls": [
+        "https://is.gd/82pF4X"
+      ],
+      "first_covered": "2026-11-27",
+      "last_major_update": "2026-11-27",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261127_south_korea_declares_an_emergency_r",
+      "story_chain_id": "chain_global_south_korea_declares",
+      "headline": "South Korea declares an emergency response to AI-powered cyberattacks",
+      "companies": [],
+      "topics": [],
+      "country": "ASIA",
+      "source_urls": [
+        "https://is.gd/WNT8oB"
+      ],
+      "first_covered": "2026-11-27",
+      "last_major_update": "2026-11-27",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261127_bhargavastra_counter_drone_swarm_sy",
+      "story_chain_id": "chain_global_bhargavastra_counter",
+      "headline": "Bhargavastra counter-drone-swarm system clears trials at Pokhran",
+      "companies": [],
+      "topics": [],
+      "country": "INDIA",
+      "source_urls": [
+        "https://is.gd/TrRvdA"
+      ],
+      "first_covered": "2026-11-27",
+      "last_major_update": "2026-11-27",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261127_canada_adds_c700_million_dollars_to",
+      "story_chain_id": "chain_global_canada_adds_c700_mil",
+      "headline": "Canada adds C700 million dollars to help small firms pay for AI compute",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://is.gd/JeYHZx"
+      ],
+      "first_covered": "2026-11-27",
+      "last_major_update": "2026-11-27",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261127_nebius_starts_invisible_watermarks_",
+      "story_chain_id": "chain_global_nebius_starts_invisi",
+      "headline": "Nebius starts invisible watermarks on AI-generated text for the EU AI Act",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://is.gd/N8xEwu"
+      ],
+      "first_covered": "2026-11-27",
+      "last_major_update": "2026-11-27",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261127_ai_agent_s_cardless_pizza_order_is_",
+      "story_chain_id": "chain_global_ai_agent_s_cardless_",
+      "headline": "AI agent's cardless pizza order is a first for the UK",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://is.gd/obNv8K"
+      ],
+      "first_covered": "2026-11-27",
+      "last_major_update": "2026-11-27",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261127_anthropic_rebuilds_its_messages_api",
+      "story_chain_id": "chain_global_anthropic_rebuilds_i",
+      "headline": "Anthropic rebuilds its Messages API in Rust, cutting CPU use by 70 percent",
+      "companies": [],
+      "topics": [],
+      "country": "USA",
+      "source_urls": [
+        "https://is.gd/EkyZC0"
+      ],
+      "first_covered": "2026-11-27",
+      "last_major_update": "2026-11-27",
+      "update_phase": "initial_break",
+      "impact_score": 90
+    },
+    {
+      "story_id": "story_20261127_stable_gated_deltanet_2_understandi",
+      "story_chain_id": "chain_global_stable_gated_deltane",
+      "headline": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+      "companies": [],
+      "topics": [],
+      "country": "WORLD",
+      "source_urls": [
+        "https://arxiv.org/abs/2611.34051"
+      ],
+      "first_covered": "2026-11-27",
+      "last_major_update": "2026-11-27",
       "update_phase": "initial_break",
       "impact_score": 90
     }
